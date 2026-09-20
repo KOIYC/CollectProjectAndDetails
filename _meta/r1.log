@@ -1,0 +1,25 @@
+=== KB 采集 20260920T025555 · 16 渠道 ===
+    [i] 正文补全 26/26（exa）
+[+] HN Show HN             ok         40条   52.1s 40/40 hits | new=1
+[+] GitHub 新星仓库            ok         28条   15.9s 28 repos;  | new=0
+[+] Reddit 独立开发版块          ok         20条   26.1s 20 posts;  | new=2
+    [i] 正文补全 20/20（exa）
+[+] Lobsters               ok         20条   39.0s 21 stories | new=0
+    [i] 正文补全 1/1（exa）
+[+] dev.to                 ok          5条   83.3s 5 articles | new=0
+[+] Product Hunt           ok         30条    5.2s 30 entries | new=2
+    [i] 正文补全 8/8（exa）
+[+] Indie Hackers 产品库      ok         18条   18.0s 18 products | new=0
+    [i] 正文补全 8/8（exa）
+[+] BetaList               ok         12条   13.7s 12 startups | new=1
+[0] Uneed                  empty       0条    3.8s 0 tools (exa) | new=0
+[+] App Store 榜单           ok         15条   37.8s 50 apps | new=0
+    [i] 正文补全 1/2（exa）
+[+] V2EX                   ok         25条   11.4s 81 topics | new=0
+[+] 1c7 中文独立开发者名录          ok         17条    5.0s 17 entries | new=0
+    [i] 正文补全 6/6（exa）
+[+] 少数派                    ok         10条   12.9s 10 entries | new=0
+[+] B站                     ok         12条    4.1s 54 videos | new=0
+[K] 小红书                    auth        0条   46.8s 需 OpenCLI 浏览器扩展/登录态：(node:35868) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental,
+[K] X / Twitter            auth        0条   46.6s 需 OpenCLI 浏览器扩展/登录态：(node:32108) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental,
+=== 完成：252 条（新 6）· 运行记录 F:\AIProject\CollectProjectAndDetails\_meta\runs\20260920T025555.json ===

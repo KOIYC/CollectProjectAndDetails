@@ -1,0 +1,47 @@
+# 渠道候选池 —— 已实测取数路径、但尚未接入采集循环的候选
+#
+# 规则（skill `indie-project-kb` 步骤 2）：先实测能取数，再考虑接进 `_meta/channels.yaml`；
+# 不写猜测项。写了 `probe_evidence` 的才算实测过。
+# 接入 = adapters 里加实现 + channels.yaml 加条目 + 跑 `kb_content_audit.py --channel <id>` 验可用率。
+
+version: 1
+updated: '2026-09-20'
+
+candidates:
+
+  - id: w2solo
+    name: w2solo 独立开发者社区
+    url: https://www.w2solo.com/
+    lang: zh
+    group: 中文社区
+    profile: discussion
+    status: candidate_ready
+    discovered_via: agent-reach Exa 搜索「中文 独立开发者 分享 自己做的产品 社区」
+    probe_evidence: >-
+      2026-09-20 实测：首页 HTTP 200 / 40KB 静态 HTML，含 46 个 `/topics/<id>` 帖子链接，
+      正文标题与社区定位（18 处命中「独立」）与 KB 主题一致。
+      无 JSON API：`/latest.json` 404、`/topics.json` 406、`/api/topics.json` 404、
+      `/feed` 与 `/rss` 404 —— 只能走 HTML 列表解析 + 帖子页正文抓取。
+    required_work: >-
+      新 adapter `ad_w2solo`（HTML 列表 `/` 或 `/topics?page=N` 解析标题+链接，
+      详情页取正文）。价值：补中文讨论语料 —— 现库 zh 仅 46/231（20%），
+      而 V2EX 只给正文不给回复正文，中文「反对意见」维度缺失。
+    risk: 无官方 API → 站点改版即腐化，需在 kb_audit 里给独立探针
+
+  - id: wonderlaunch
+    name: Wonderlaunch（solo founder 发布站）
+    url: https://wonderlaunch.app/
+    lang: en
+    group: 海外发布站
+    profile: linkpost
+    status: candidate
+    discovered_via: agent-reach Exa 搜索「product hunt alternative solo founders」
+    probe_evidence: >-
+      2026-09-20 实测：首页 HTTP 200 / 97KB 静态 HTML，含 12 个 `/product/` 条目链接；
+      `/rss`、`/feed`、`/feed.xml`、`/launches` 全部 404 → 无 feed，只能 HTML 解析。
+      站点自我定位：**只收 solo founder / indie hacker 且人工验证**（不收 VC 融资公司），
+      每日限 11 个发布位 → 定位与 KB 目标高度一致。
+    required_work: >-
+      新 adapter `ad_wonderlaunch`（HTML 列表 + 详情页正文）。
+      可参考 `ad_betalist` 的 HTML 列表解析结构。
+    risk: 站点新、体量小（日均 ≤11 条）；先接为**试运行**，跑一轮内容审计看可用率再定去留

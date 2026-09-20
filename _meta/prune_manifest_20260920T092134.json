@@ -1,0 +1,271 @@
+{
+  "at": "2026-09-20T09:21:34+08:00",
+  "moves": [
+    {
+      "item_id": "5454dd69ac6c4c67",
+      "source": "c1c7",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/c1c7/2026-09-20/5454dd69ac6c4c67_Awesome-Indie.md",
+      "to": "80-归档/posts/c1c7/2026-09-20/5454dd69ac6c4c67_Awesome-Indie-dup.md"
+    },
+    {
+      "item_id": "cd2acb9852fafe73",
+      "source": "github_new",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/github_new/2026-09-20/cd2acb9852fafe73_eternity4719-HowToLiveBetter.md",
+      "to": "80-归档/posts/github_new/2026-09-20/cd2acb9852fafe73_eternity4719-HowToLiveBetter-dup.md"
+    },
+    {
+      "item_id": "8e8f38ae88e2acd7",
+      "source": "github_new",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/github_new/2026-09-20/8e8f38ae88e2acd7_EvanBacon-Instagram.md",
+      "to": "80-归档/posts/github_new/2026-09-20/8e8f38ae88e2acd7_EvanBacon-Instagram-dup.md"
+    },
+    {
+      "item_id": "fb30d2a1b4144af1",
+      "source": "hn_front",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/hn_front/2026-09-20/fb30d2a1b4144af1_Almost-Never-Use-AI-to-Write-Anything-Substantive.md",
+      "to": "80-归档/posts/hn_front/2026-09-20/fb30d2a1b4144af1_Almost-Never-Use-AI-to-Write-Anything-Substantive.md"
+    },
+    {
+      "item_id": "7a5ee5ec84a23797",
+      "source": "hn_front",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/hn_front/2026-09-20/7a5ee5ec84a23797_A-graphical-desktop-for-the-ZX-Spectrum.md",
+      "to": "80-归档/posts/hn_front/2026-09-20/7a5ee5ec84a23797_A-graphical-desktop-for-the-ZX-Spectrum.md"
+    },
+    {
+      "item_id": "df8eca0adce8914d",
+      "source": "hn_front",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/hn_front/2026-09-20/df8eca0adce8914d_What-Zig-felt-like,-coming-from-Rust.md",
+      "to": "80-归档/posts/hn_front/2026-09-20/df8eca0adce8914d_What-Zig-felt-like,-coming-from-Rust.md"
+    },
+    {
+      "item_id": "32d9a40fc7c383d5",
+      "source": "hn_front",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/hn_front/2026-09-20/32d9a40fc7c383d5_I-built-non-autoregressive-decision-models-with-RL.md",
+      "to": "80-归档/posts/hn_front/2026-09-20/32d9a40fc7c383d5_I-built-non-autoregressive-decision-models-with-RL.md"
+    },
+    {
+      "item_id": "883b7bc79350c983",
+      "source": "hn_front",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/hn_front/2026-09-20/883b7bc79350c983_AI-generated-posters-don’t-have-to-be-horrible.md",
+      "to": "80-归档/posts/hn_front/2026-09-20/883b7bc79350c983_AI-generated-posters-don’t-have-to-be-horrible.md"
+    },
+    {
+      "item_id": "e396d52dd138f175",
+      "source": "hn_front",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/hn_front/2026-09-20/e396d52dd138f175_GPT-6-Astra-Solves-a-WWI-German-Radio-Cipher.md",
+      "to": "80-归档/posts/hn_front/2026-09-20/e396d52dd138f175_GPT-6-Astra-Solves-a-WWI-German-Radio-Cipher.md"
+    },
+    {
+      "item_id": "f173b75d47411dce",
+      "source": "hn_front",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/hn_front/2026-09-20/f173b75d47411dce_If-math-is-more-than-proof,-we-need-to-better-cele.md",
+      "to": "80-归档/posts/hn_front/2026-09-20/f173b75d47411dce_If-math-is-more-than-proof,-we-need-to-better-cele.md"
+    },
+    {
+      "item_id": "c49807c5257e5fa0",
+      "source": "hn_front",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/hn_front/2026-09-20/c49807c5257e5fa0_Human-brain-is-two-separate-organs,-Stanford-Medic.md",
+      "to": "80-归档/posts/hn_front/2026-09-20/c49807c5257e5fa0_Human-brain-is-two-separate-organs,-Stanford-Medic.md"
+    },
+    {
+      "item_id": "6b9b2dfaf338142b",
+      "source": "hn_front",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/hn_front/2026-09-20/6b9b2dfaf338142b_San-Francisco-Onion-Futures-Company.md",
+      "to": "80-归档/posts/hn_front/2026-09-20/6b9b2dfaf338142b_San-Francisco-Onion-Futures-Company.md"
+    },
+    {
+      "item_id": "7cdbaac3bd9ffb9b",
+      "source": "hn_front",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/hn_front/2026-09-20/7cdbaac3bd9ffb9b_Science-Is-Open-Software.md",
+      "to": "80-归档/posts/hn_front/2026-09-20/7cdbaac3bd9ffb9b_Science-Is-Open-Software.md"
+    },
+    {
+      "item_id": "7c7e4e2564c2df06",
+      "source": "hn_front",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/hn_front/2026-09-20/7c7e4e2564c2df06_How-OpenAI-Used-Its-Own-LLMs-to-Design-Its-Jalapeñ.md",
+      "to": "80-归档/posts/hn_front/2026-09-20/7c7e4e2564c2df06_How-OpenAI-Used-Its-Own-LLMs-to-Design-Its-Jalapeñ.md"
+    },
+    {
+      "item_id": "c8744ce6393fe2a1",
+      "source": "hn_front",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/hn_front/2026-09-20/c8744ce6393fe2a1_Android-17-is-the-first-since-3.x-to-add-new-APIs.md",
+      "to": "80-归档/posts/hn_front/2026-09-20/c8744ce6393fe2a1_Android-17-is-the-first-since-3.x-to-add-new-APIs.md"
+    },
+    {
+      "item_id": "be69d1c920579bcd",
+      "source": "hn_front",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/hn_front/2026-09-20/be69d1c920579bcd_Saving-another-100TB-of-RAM.md",
+      "to": "80-归档/posts/hn_front/2026-09-20/be69d1c920579bcd_Saving-another-100TB-of-RAM-dup.md"
+    },
+    {
+      "item_id": "c2946d3e737e8bc6",
+      "source": "hn_front",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/hn_front/2026-09-20/c2946d3e737e8bc6_Cloudflare-Quick-Tunnels.md",
+      "to": "80-归档/posts/hn_front/2026-09-20/c2946d3e737e8bc6_Cloudflare-Quick-Tunnels.md"
+    },
+    {
+      "item_id": "6067e51f15aeacd2",
+      "source": "hn_front",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/hn_front/2026-09-20/6067e51f15aeacd2_How-to-Write-with-an-LLM.md",
+      "to": "80-归档/posts/hn_front/2026-09-20/6067e51f15aeacd2_How-to-Write-with-an-LLM.md"
+    },
+    {
+      "item_id": "2fe9c792d55bf3e5",
+      "source": "lobsters",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/lobsters/2026-09-20/2fe9c792d55bf3e5_Don’t-Let-Architecture-Astronauts-Scare-You-(2001).md",
+      "to": "80-归档/posts/lobsters/2026-09-20/2fe9c792d55bf3e5_Don’t-Let-Architecture-Astronauts-Scare-You-(2001).md"
+    },
+    {
+      "item_id": "19f28d0a2d8feaa5",
+      "source": "lobsters",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/lobsters/2026-09-20/19f28d0a2d8feaa5_I-Built-Non-Autoregressive-Decision-Models-a-Year.md",
+      "to": "80-归档/posts/lobsters/2026-09-20/19f28d0a2d8feaa5_I-Built-Non-Autoregressive-Decision-Models-a-Year.md"
+    },
+    {
+      "item_id": "8ee234d85301e282",
+      "source": "lobsters",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/lobsters/2026-09-20/8ee234d85301e282_kicking-the-tires-on-jev-(TypeSafe's-System-One-mo.md",
+      "to": "80-归档/posts/lobsters/2026-09-20/8ee234d85301e282_kicking-the-tires-on-jev-(TypeSafe's-System-One-mo.md"
+    },
+    {
+      "item_id": "5b4bb4947b635b75",
+      "source": "lobsters",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/lobsters/2026-09-20/5b4bb4947b635b75_The-scourge-of-x86-emulation.md",
+      "to": "80-归档/posts/lobsters/2026-09-20/5b4bb4947b635b75_The-scourge-of-x86-emulation.md"
+    },
+    {
+      "item_id": "9f805cf875f4ba2e",
+      "source": "lobsters",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/lobsters/2026-09-20/9f805cf875f4ba2e_AI-Is-an-Elite-Crime-Spree.md",
+      "to": "80-归档/posts/lobsters/2026-09-20/9f805cf875f4ba2e_AI-Is-an-Elite-Crime-Spree.md"
+    },
+    {
+      "item_id": "7e1ceda38a51c719",
+      "source": "lobsters",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/lobsters/2026-09-20/7e1ceda38a51c719_“The-Secret-Life-of-Circuits”-is-here.md",
+      "to": "80-归档/posts/lobsters/2026-09-20/7e1ceda38a51c719_“The-Secret-Life-of-Circuits”-is-here.md"
+    },
+    {
+      "item_id": "ec74da80b81873a3",
+      "source": "lobsters",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/lobsters/2026-09-20/ec74da80b81873a3_Typst-makes-big-strides.md",
+      "to": "80-归档/posts/lobsters/2026-09-20/ec74da80b81873a3_Typst-makes-big-strides.md"
+    },
+    {
+      "item_id": "764b82f6b1450b25",
+      "source": "lobsters",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/lobsters/2026-09-20/764b82f6b1450b25_What-happens-to-TLDs-when-their-country-stops-exis.md",
+      "to": "80-归档/posts/lobsters/2026-09-20/764b82f6b1450b25_What-happens-to-TLDs-when-their-country-stops-exis.md"
+    },
+    {
+      "item_id": "b0de47b82e09f0d8",
+      "source": "lobsters",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/lobsters/2026-09-20/b0de47b82e09f0d8_GPT-6-Astra-Solves-a-WWI-German-Radio-Cipher.md",
+      "to": "80-归档/posts/lobsters/2026-09-20/b0de47b82e09f0d8_GPT-6-Astra-Solves-a-WWI-German-Radio-Cipher.md"
+    },
+    {
+      "item_id": "9bd6d3b73e8881d7",
+      "source": "lobsters",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/lobsters/2026-09-20/9bd6d3b73e8881d7_Reviving-the-language-that-brought-us-the-Jak-&-Da.md",
+      "to": "80-归档/posts/lobsters/2026-09-20/9bd6d3b73e8881d7_Reviving-the-language-that-brought-us-the-Jak-&-Da.md"
+    },
+    {
+      "item_id": "43f46c9c9e953e4d",
+      "source": "lobsters",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/lobsters/2026-09-20/43f46c9c9e953e4d_Write-while-learning.md",
+      "to": "80-归档/posts/lobsters/2026-09-20/43f46c9c9e953e4d_Write-while-learning.md"
+    },
+    {
+      "item_id": "407882b92264cfb4",
+      "source": "lobsters",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/lobsters/2026-09-20/407882b92264cfb4_I-don't-like-passkeys.md",
+      "to": "80-归档/posts/lobsters/2026-09-20/407882b92264cfb4_I-don't-like-passkeys.md"
+    },
+    {
+      "item_id": "8c0156ef841ee03c",
+      "source": "lobsters",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/lobsters/2026-09-20/8c0156ef841ee03c_There's-no-point-at-which-turning-your-brain-off-w.md",
+      "to": "80-归档/posts/lobsters/2026-09-20/8c0156ef841ee03c_There's-no-point-at-which-turning-your-brain-off-w.md"
+    },
+    {
+      "item_id": "8beb9a3711c21056",
+      "source": "lobsters",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/lobsters/2026-09-20/8beb9a3711c21056_Faster-JSON-parsing-with-SVE2-on-ARM-processors.md",
+      "to": "80-归档/posts/lobsters/2026-09-20/8beb9a3711c21056_Faster-JSON-parsing-with-SVE2-on-ARM-processors.md"
+    },
+    {
+      "item_id": "b38a231007f303c3",
+      "source": "lobsters",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/lobsters/2026-09-20/b38a231007f303c3_Saving-another-100TB-of-RAM-with-math-(and-Rust).md",
+      "to": "80-归档/posts/lobsters/2026-09-20/b38a231007f303c3_Saving-another-100TB-of-RAM-with-math-(and-Rust).md"
+    },
+    {
+      "item_id": "9d3870514cbac358",
+      "source": "lobsters",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/lobsters/2026-09-20/9d3870514cbac358_LispBM-Concurrent-Lisp-for-Microcontrollers.md",
+      "to": "80-归档/posts/lobsters/2026-09-20/9d3870514cbac358_LispBM-Concurrent-Lisp-for-Microcontrollers.md"
+    },
+    {
+      "item_id": "dffb6a76ac54d500",
+      "source": "lobsters",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/lobsters/2026-09-20/dffb6a76ac54d500_Benchmarking-Wild-vs-Mold.md",
+      "to": "80-归档/posts/lobsters/2026-09-20/dffb6a76ac54d500_Benchmarking-Wild-vs-Mold.md"
+    },
+    {
+      "item_id": "e713a5a3db414a4c",
+      "source": "lobsters",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/lobsters/2026-09-20/e713a5a3db414a4c_Consistent-Hashing-Proofs.md",
+      "to": "80-归档/posts/lobsters/2026-09-20/e713a5a3db414a4c_Consistent-Hashing-Proofs.md"
+    },
+    {
+      "item_id": "bb1ea3b711ed809f",
+      "source": "lobsters",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/lobsters/2026-09-20/bb1ea3b711ed809f_CSS-Tricks-could-be-a-co-op.md",
+      "to": "80-归档/posts/lobsters/2026-09-20/bb1ea3b711ed809f_CSS-Tricks-could-be-a-co-op.md"
+    },
+    {
+      "item_id": "b473c9ab180c1702",
+      "source": "lobsters",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/lobsters/2026-09-20/b473c9ab180c1702_OpenLoco-version-26.09.md",
+      "to": "80-归档/posts/lobsters/2026-09-20/b473c9ab180c1702_OpenLoco-version-26.09.md"
+    }
+  ]
+}

@@ -1,0 +1,96 @@
+{
+  "at": "2026-09-20T10:02:37+08:00",
+  "moves": [
+    {
+      "item_id": "cd2acb9852fafe73",
+      "source": "github_new",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/github_new/2026-09-20/cd2acb9852fafe73_eternity4719-HowToLiveBetter.md",
+      "to": "80-归档/posts/github_new/2026-09-20/cd2acb9852fafe73_eternity4719-HowToLiveBetter-dup.md"
+    },
+    {
+      "item_id": "b614480557fab023",
+      "source": "github_new",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/github_new/2026-09-20/b614480557fab023_Fangx-AI-one-person-company-journal.md",
+      "to": "80-归档/posts/github_new/2026-09-20/b614480557fab023_Fangx-AI-one-person-company-journal.md"
+    },
+    {
+      "item_id": "5c62372e8f6e4e43",
+      "source": "github_new",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/github_new/2026-09-20/5c62372e8f6e4e43_PNGTRID-AnvilWiki.md",
+      "to": "80-归档/posts/github_new/2026-09-20/5c62372e8f6e4e43_PNGTRID-AnvilWiki.md"
+    },
+    {
+      "item_id": "a379781572826909",
+      "source": "github_new",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/github_new/2026-09-20/a379781572826909_TowhidKashem-snapchat-clone.md",
+      "to": "80-归档/posts/github_new/2026-09-20/a379781572826909_TowhidKashem-snapchat-clone.md"
+    },
+    {
+      "item_id": "8e8f38ae88e2acd7",
+      "source": "github_new",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/github_new/2026-09-20/8e8f38ae88e2acd7_EvanBacon-Instagram.md",
+      "to": "80-归档/posts/github_new/2026-09-20/8e8f38ae88e2acd7_EvanBacon-Instagram-dup.md"
+    },
+    {
+      "item_id": "a89bc0a6ddc644c2",
+      "source": "github_new",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/github_new/2026-09-20/a89bc0a6ddc644c2_natemacs-launch-website-directories.md",
+      "to": "80-归档/posts/github_new/2026-09-20/a89bc0a6ddc644c2_natemacs-launch-website-directories.md"
+    },
+    {
+      "item_id": "d2954de7a2e77b0b",
+      "source": "github_new",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/github_new/2026-09-20/d2954de7a2e77b0b_meysam81-meysam81.md",
+      "to": "80-归档/posts/github_new/2026-09-20/d2954de7a2e77b0b_meysam81-meysam81.md"
+    },
+    {
+      "item_id": "6f7708e720b947eb",
+      "source": "github_new",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/github_new/2026-09-20/6f7708e720b947eb_meSingh-product-launch-checklist.md",
+      "to": "80-归档/posts/github_new/2026-09-20/6f7708e720b947eb_meSingh-product-launch-checklist.md"
+    },
+    {
+      "item_id": "5a4d9891bab02d70",
+      "source": "github_new",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/github_new/2026-09-20/5a4d9891bab02d70_lennyAiko-ih-wiki.md",
+      "to": "80-归档/posts/github_new/2026-09-20/5a4d9891bab02d70_lennyAiko-ih-wiki.md"
+    },
+    {
+      "item_id": "485cd95712845783",
+      "source": "reddit",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/reddit/2026-09-20/485cd95712845783_[-Removed-by-moderator-].md",
+      "to": "80-归档/posts/reddit/2026-09-20/485cd95712845783_[-Removed-by-moderator-].md"
+    },
+    {
+      "item_id": "6fa6033efab5e3b4",
+      "source": "reddit",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/reddit/2026-09-20/6fa6033efab5e3b4_[-Removed-by-moderator-].md",
+      "to": "80-归档/posts/reddit/2026-09-20/6fa6033efab5e3b4_[-Removed-by-moderator-].md"
+    },
+    {
+      "item_id": "eba81e1a3971fe8e",
+      "source": "reddit",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/reddit/2026-09-20/eba81e1a3971fe8e_[-Removed-by-moderator-].md",
+      "to": "80-归档/posts/reddit/2026-09-20/eba81e1a3971fe8e_[-Removed-by-moderator-].md"
+    },
+    {
+      "item_id": "97ef05b41f381e5c",
+      "source": "reddit",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/reddit/2026-09-20/97ef05b41f381e5c_[-Removed-by-moderator-].md",
+      "to": "80-归档/posts/reddit/2026-09-20/97ef05b41f381e5c_[-Removed-by-moderator-].md"
+    }
+  ]
+}

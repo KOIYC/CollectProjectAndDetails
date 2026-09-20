@@ -1,0 +1,129 @@
+# 语料准入规则 — 独立开发项目知识库
+#
+# 为什么需要：现流程只有「热度阈值」（min_points / min_score），没有**主题约束**。
+# 于是 `topic:indie-hacker` 会召回 awesome-* 资源清单，Exa 语义查询会召回 Steam 游戏新闻。
+# 本文件是「主题层」的准入规则，在 adapter 取数之后、enrich 之前执行（省掉对废料的正文补全开销）。
+#
+# 字段
+#   exclude_title   标题正则，命中即丢弃（全局）
+#   exclude_url     URL 正则，命中即丢弃（全局）
+#   require_any     标题+正文必须命中其中至少一个正则，否则丢弃（渠道级常用）
+#   channels        渠道级覆盖；`exclude_title` 与全局**合并**，`require_any` 为该渠道专属
+#
+# 改规则 = 改本文件，不用改代码。规则只影响**新进语料**；存量用 tools/kb_prune.py 重判归档。
+
+version: 1
+updated: '2026-09-20'
+
+exclude_title:
+  # 资源清单 / 目录站 —— 它们本身不是「独立开发项目」，是项目的目录
+  - '^\s*Awesome\b'
+  - '\bawesome[-_][a-z0-9-]+'
+  - '^\s*(?:Best|Top)\s+\d+\s+'
+  - '^\s*(?:Resources?|Curated|Collection|List of|Directory)\b'
+  - '合集|导航站|资源汇总|清单$|目录站'
+  - 'Best-[A-Za-z]+-[A-Za-z]+-Tools'
+  # 平台侧删除标记 —— 正文必为空，属结构性噪声，任何渠道都不该入账（实测 reddit 多条）
+  - '^\s*\[\s*(?:Removed|removed)\s+by\s+moderator\s*\]\s*$'
+  - '^\s*\[(?:removed|deleted)\]\s*$'
+
+exclude_url:
+  - 'github\.com/[^/]+/awesome-'
+  - '/awesome-'
+
+channels:
+
+  # HN 首页是「技术话题榜」，不是发布榜 —— 只留与做产品/创业/变现相关的话题。
+  # match: title —— 长正文里几乎必然顺带出现 launch/startup 等词，一并匹配等于没过滤。
+  hn_front:
+    match: title
+    require_any:
+      - 'indie|side[-\s]?project|solo\s+(?:dev|founder)|bootstrapp|micro[-\s]?saas'
+      - 'MRR|ARR|revenue|pricing|monetiz|paywall|subscri'
+      - 'launch(?:ed|ing)?\b|show\s+hn|ship(?:ped|ping)|beta|waitlist'
+      - 'startup|founder|acquihire|angel\s+invest|seed\s+round'
+      - '独立开发|一人公司|出海|副业|上线|变现'
+
+  # Lobsters 是纯技术社区：实测 20 条里 8~10 条是架构随笔/语言实现（passkeys、编译器、
+  # 文件系统），与「独立开发项目」无关。要么加严格主题词，要么整渠道降级 —— 取前者。
+  lobsters:
+    match: title
+    require_any:
+      - 'indie|side[-\s]?project|solo\s+(?:dev|founder)|bootstrapp|micro[-\s]?saas'
+      - 'launch(?:ed|ing)?\b|ship(?:ped|ping)|Show\s+LN|pricing|monetiz|subscri|MRR|ARR'
+      - 'startup|founder|SaaS|customer|churn'
+      - '独立开发|一人公司|出海|副业|上线|变现'
+
+  # 语义发现会漂到「游戏媒体转载的上市新闻」。注意区分两条轴：
+  #   体裁轴（要的）：开发者自述 / 独立开发者视角的游戏项目  → 保留
+  #   来源轴（不要的）：二手转载的游戏媒体（HappyGamer/Gamerant/IGN 之类）→ 按域名排掉
+  # 早期版本误把 `Steam` 写进 exclude_title，结果把 "Solo Dev Releases Dream Game" 也杀了 ——
+  # 用户本人是游戏工作室主理人，独立游戏属于本库正题，不能按品类一刀切。
+  exa_discovery:
+    exclude_url:
+      - 'happygamer\.com|gamerant\.com|screenrant\.com|gamesradar\.com|eurogamer\.net'
+      - 'ign\.com|gamespot\.com|kotaku\.com|pcgamer\.com|polygon\.com|nintendolife\.com'
+      - 'gamedeveloper\.com|gamesindustry\.biz'      # 行业媒体，非开发者自述
+    exclude_title:
+      - '^\s*(?:Gameplay|Trailer|Demo\s+Available|Early\s+Access)\b'
+    require_any:
+      - 'indie\s+(?:dev|hacker|founder|maker|game)|solo\s+(?:dev|founder)'
+      - 'MRR|ARR|revenue|bootstrapp|build\s+in\s+public|micro[-\s]?saas'
+      - '独立开发|一人公司|出海|月入|副业|独立游戏|游戏开发'
+
+  # 1c7 是「名录」：混着项目、资源站、播客、人物。只保留**具体项目**条目
+  c1c7:
+    exclude_title:
+      - 'Podcast|播客|Newsletter|订阅|周刊|周报|日报'
+      - 'Guide|指南|教程|视频|合集|资料'
+      - 'Failory|Starter\s+Story|NomadList|Awesome\s+Indie|MicroConf|Indie\s+Hacker|利器'
+      # 社区/板块入口页（"v2ex 论坛 - 分享创造板块"）：是导航，不是项目
+      # 只用「短标题 + 论坛/社区 + 分隔符」判定，避免误杀「做了一个 XX 社区」这类真项目
+      - '^\s*\S{0,12}(?:论坛|社区)\s*[-—|]'
+      - '^\s*[^：:]{0,10}(?:板块|频道)\s*$'
+
+  # 中文讨论：剔掉与「做产品」无关的闲聊/求职/招聘
+  v2ex:
+    exclude_title:
+      - '招聘|求职|面试|外包|接单|闲置|出售|收购'
+      - '求助|问一个|如何评价|有没有人|为什么'
+    require_any:
+      - '独立开发|独立开发者|副业|出海|上线|产品|SaaS|开源|自研|小程序|App'
+      - '收入|变现|付费|订阅|获客|launch'
+
+  # github 新星：纯技术库（框架/算法/工具链）不是「独立开发项目」，但要留工具类
+  # 实测可用率 41/66（62%）——扣分项是两类：① 资源/知识库型仓库（wiki/journal/directory）
+  # ② 学习/复刻型仓库（clone/tutorial/playground）。加排除后模拟可用率 62% → 73%，
+  # 且被排除的 6 条里 5 条正是可疑条目（精确度高，不误杀品牌名仓库）。
+  github_new:
+    exclude_title:
+      - '^\s*(?:cli|sdk|api|lib|library|framework|engine|boilerplate|template)\s*$'
+      - '\bclone\b|tutorial|playground|\bcheat\b|\bcourse\b|homework|interview'
+      - '(?:wiki|journal|handbook|roadmap|notes?|list|directories|directory)$'
+      - 'learning|practice|sample[-_]|demo[-_]|study[-_]'
+    require_any:
+      - 'indie|side[-\s]?project|micro[-\s]?saas|build\s+in\s+public|bootstrap'
+      - 'saas|monetiz|pricing|stripe|subscription|landing\s+page|launch'
+      - 'newsletter|podcast|directory|marketplace|dashboard|crm|invoice'
+      - '独立开发|出海|变现|副业'
+
+  # dev.to：**不加标题门槛**（实测教训）——
+  # 试过 require_any（发布词+经营词两套）后，devto 最新 5 条**全被过滤成 0 条**：
+  # 这个源在 tag（showdev/sideproject…）之下漂成了「泛 dev 博客」（prompt 工程、周目标帖、
+  # 求职经历），标题里本就不带产品/变现词。过滤 = 直接杀渠道，而不是提纯。
+  # 正解是降 limit 控量，并盯连续两轮的可用率；n<10 的样本不足以支撑停用决策。
+  devto:
+    exclude_title:
+      - '^What are your goals\b|Weekly\s+Goals|^Show Me the Article\b'
+      - '(?i)\b(I got hired|resume|interview process|job offer|certification)\b'
+
+  # B站是信号层（只有视频元数据），只保留明确讲「独立开发/独立游戏开发」的视频。
+  # 注意「独立游戏」必须在白名单里：用户是游戏工作室主理人，独立游戏开发是正题。
+  # 但要排掉纯娱乐向的实况/试玩/攻略（require_any 命中"游戏"过宽，故加标题排除兜住）。
+  bilibili:
+    exclude_title:
+      - '实况|试玩|攻略|通关|解说|盘点|排行|速通|整活|测评'
+      - 'Let.s\s+Play|Walkthrough|Playthrough|Review\s*$'
+    require_any:
+      - '独立开发|独立开发者|一人公司|副业|出海|自研|上线|独立游戏|游戏开发'
+      - 'indie\s*(?:hack|dev|game)|solo\s+(?:dev|founder)|build\s+in\s+public'

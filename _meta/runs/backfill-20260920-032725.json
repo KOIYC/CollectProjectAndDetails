@@ -1,0 +1,31 @@
+{
+ "run_id": "backfill-20260920-032725",
+ "kind": "backfill",
+ "queue": 30,
+ "attempted": 24,
+ "filled": 22,
+ "structural_dead": 6,
+ "missed": 2,
+ "via": [
+  [
+   "gh_readme",
+   13
+  ],
+  [
+   "exa_web_fetch",
+   9
+  ]
+ ],
+ "channels": [
+  [
+   "github_new",
+   13
+  ],
+  [
+   "hn_front",
+   9
+  ]
+ ],
+ "started": "2026-09-20T03:28:02+08:00",
+ "elapsed_s": 0
+}

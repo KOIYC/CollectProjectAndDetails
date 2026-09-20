@@ -1,0 +1,405 @@
+{
+ "checked_at": "2026-09-20T09:47:41+08:00",
+ "channels": [
+  {
+   "channel_id": "hn_show",
+   "name": "HN Show HN",
+   "adapter": "hn_show",
+   "auth": "none",
+   "group": "海外发布",
+   "status": "ok",
+   "count": 3,
+   "message": "3/3 hits",
+   "elapsed_s": 1.5,
+   "probe_at": "2026-09-20T09:44:57+08:00",
+   "sample": [
+    {
+     "title": "Show HN: Text-me: a personal agent that learns your pace",
+     "url": "https://news.ycombinator.com/item?id=49771206"
+    },
+    {
+     "title": "Show HN: Jev-lint – semantic linter with plain English rules",
+     "url": "https://news.ycombinator.com/item?id=49771155"
+    }
+   ]
+  },
+  {
+   "channel_id": "github_new",
+   "name": "GitHub 新星仓库",
+   "adapter": "github_new",
+   "auth": "cli",
+   "group": "海外发布",
+   "status": "ok",
+   "count": 3,
+   "message": "3 repos; ",
+   "elapsed_s": 1.4,
+   "probe_at": "2026-09-20T09:44:59+08:00",
+   "sample": [
+    {
+     "title": "browser-use/jev-ultrafast",
+     "url": "https://github.com/browser-use/jev-ultrafast"
+    },
+    {
+     "title": "eternity4719/HowToLiveBetter",
+     "url": "https://github.com/eternity4719/HowToLiveBetter"
+    }
+   ]
+  },
+  {
+   "channel_id": "reddit",
+   "name": "Reddit 独立开发版块",
+   "adapter": "reddit_arctic",
+   "auth": "none",
+   "group": "海外社区",
+   "status": "ok",
+   "count": 2,
+   "message": "2 posts; ",
+   "elapsed_s": 1.2,
+   "probe_at": "2026-09-20T09:45:00+08:00",
+   "sample": [
+    {
+     "title": "[Trading Strategy Optimizer] - My first paying customer found a bug that made th",
+     "url": "https://www.reddit.com/r/SideProject/comments/1wifs4c/trading_strategy_optimizer_my_first_paying/"
+    },
+    {
+     "title": "I built a site for looking up where companies' political money actually goes",
+     "url": "https://www.reddit.com/r/SideProject/comments/1wif7nm/i_built_a_site_for_looking_up_where_companies/"
+    }
+   ]
+  },
+  {
+   "channel_id": "devto",
+   "name": "dev.to",
+   "adapter": "devto",
+   "auth": "none",
+   "group": "海外社区",
+   "status": "ok",
+   "count": 2,
+   "message": "2 articles",
+   "elapsed_s": 1.1,
+   "probe_at": "2026-09-20T09:45:01+08:00",
+   "sample": [
+    {
+     "title": "Show Me the Article You're Most Proud Of And I'll Read Every Single One of Them",
+     "url": "https://dev.to/georgekobaidze/show-me-the-article-youre-most-proud-of-and-ill-read-every-single-one-of-them-1l53"
+    },
+    {
+     "title": "The Internship That Taught Me to Read Between the Lines of a Job Offer",
+     "url": "https://dev.to/dj29/the-internship-that-taught-me-to-read-between-the-lines-of-a-job-offer-50ef"
+    }
+   ]
+  },
+  {
+   "channel_id": "producthunt",
+   "name": "Product Hunt",
+   "adapter": "rss_atom",
+   "auth": "none",
+   "group": "海外发布站",
+   "status": "ok",
+   "count": 3,
+   "message": "3 entries",
+   "elapsed_s": 1.1,
+   "probe_at": "2026-09-20T09:45:02+08:00",
+   "sample": [
+    {
+     "title": "Punch",
+     "url": "https://www.producthunt.com/products/punch-4"
+    },
+    {
+     "title": "Mise",
+     "url": "https://www.producthunt.com/products/robot-recipes"
+    }
+   ]
+  },
+  {
+   "channel_id": "indiehackers",
+   "name": "Indie Hackers 产品库",
+   "adapter": "ih_products",
+   "auth": "none",
+   "group": "海外发布站",
+   "status": "ok",
+   "count": 3,
+   "message": "19 products",
+   "elapsed_s": 6.5,
+   "probe_at": "2026-09-20T09:45:09+08:00",
+   "sample": [
+    {
+     "title": "Imgloop",
+     "url": "https://www.indiehackers.com/product/imgloop"
+    },
+    {
+     "title": "Topline 2026",
+     "url": "https://www.indiehackers.com/product/topline-2026"
+    }
+   ]
+  },
+  {
+   "channel_id": "betalist",
+   "name": "BetaList",
+   "adapter": "betalist",
+   "auth": "none",
+   "group": "海外发布站",
+   "status": "ok",
+   "count": 3,
+   "message": "3 startups",
+   "elapsed_s": 3.2,
+   "probe_at": "2026-09-20T09:45:12+08:00",
+   "sample": [
+    {
+     "title": "Gb7 Meetup",
+     "url": "https://betalist.com/startups/gb7-meetup"
+    },
+    {
+     "title": "Zapters",
+     "url": "https://betalist.com/startups/zapters"
+    }
+   ]
+  },
+  {
+   "channel_id": "v2ex",
+   "name": "V2EX",
+   "adapter": "sov2ex",
+   "auth": "none",
+   "group": "中文社区",
+   "status": "ok",
+   "count": 3,
+   "message": "20 topics",
+   "elapsed_s": 1.2,
+   "probe_at": "2026-09-20T09:45:13+08:00",
+   "sample": [
+    {
+     "title": "[开源] R20 机构级量化决策系统更新 v8.0.0",
+     "url": "https://www.v2ex.com/t/1243175"
+    },
+    {
+     "title": "求 全职或外包工作",
+     "url": "https://www.v2ex.com/t/1243153"
+    }
+   ]
+  },
+  {
+   "channel_id": "c1c7",
+   "name": "1c7 中文独立开发者名录",
+   "adapter": "onec7",
+   "auth": "none",
+   "group": "中文名录",
+   "status": "ok",
+   "count": 3,
+   "message": "9 entries",
+   "elapsed_s": 7.8,
+   "probe_at": "2026-09-20T09:45:21+08:00",
+   "sample": [
+    {
+     "title": "Indie Hacker",
+     "url": "https://www.indiehackers.com/"
+    },
+    {
+     "title": "Failory",
+     "url": "https://www.failory.com/"
+    }
+   ]
+  },
+  {
+   "channel_id": "bilibili",
+   "name": "B站",
+   "adapter": "bilibili",
+   "auth": "none",
+   "group": "中文社媒",
+   "status": "ok",
+   "count": 3,
+   "message": "9 videos",
+   "elapsed_s": 0.6,
+   "probe_at": "2026-09-20T09:45:21+08:00",
+   "sample": [
+    {
+     "title": "独立开发两种赚钱方式！99%的人没想明白！",
+     "url": "https://www.bilibili.com/video/BV1VP7h6XEL5"
+    },
+    {
+     "title": "为什么很多程序员都不去做独立开发者？",
+     "url": "https://www.bilibili.com/video/BV13S421A7KF"
+    }
+   ]
+  },
+  {
+   "channel_id": "xiaohongshu",
+   "name": "小红书",
+   "adapter": "opencli_social",
+   "auth": "browser",
+   "group": "中文社媒",
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：ok: false\nerror:\n  code: BROWSER_CONNECT\n  message: Browser Bridge extension not",
+   "elapsed_s": 46.5,
+   "probe_at": "2026-09-20T09:46:08+08:00",
+   "sample": []
+  },
+  {
+   "channel_id": "twitter",
+   "name": "X / Twitter",
+   "adapter": "opencli_social",
+   "auth": "browser",
+   "group": "海外社媒",
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：ok: false\nerror:\n  code: BROWSER_CONNECT\n  message: Browser Bridge extension not",
+   "elapsed_s": 46.3,
+   "probe_at": "2026-09-20T09:46:54+08:00",
+   "sample": []
+  },
+  {
+   "channel_id": "exa_discovery",
+   "name": "Exa 全网语义发现",
+   "adapter": "exa_discovery",
+   "auth": "cli",
+   "group": "全网发现",
+   "status": "ok",
+   "count": 3,
+   "message": "8 results",
+   "elapsed_s": 4.6,
+   "probe_at": "2026-09-20T09:46:59+08:00",
+   "sample": [
+    {
+     "title": "Polishory Launches: Actionable Audits to Prevent AI Slop | AIToolly",
+     "url": "https://aitoolly.com/ai-news/article/2026-09-19-polishory-launches-on-product-hunt-to-provide-actionable-design-audits-and-tackle-generic-web-interf"
+    },
+    {
+     "title": "Bound by Destiny is now Available For Purchase!! - Saikey Store",
+     "url": "https://saikeystudios.com/news/bound-by-destiny-is-now-available-for-purchase/"
+    }
+   ]
+  }
+ ],
+ "backends": [
+  {
+   "backend": "jina_reader",
+   "use": "通用网页正文",
+   "status": "unusable",
+   "declared": "ok",
+   "delta": true,
+   "message": "ERR: <urlopen error timed out>",
+   "elapsed_s": 20.0,
+   "probe_at": "2026-09-20T09:47:32+08:00"
+  },
+  {
+   "backend": "arctic_shift",
+   "use": "Reddit 取数",
+   "status": "ok",
+   "declared": null,
+   "delta": false,
+   "message": "1 rows",
+   "elapsed_s": 1.8,
+   "probe_at": "2026-09-20T09:47:34+08:00"
+  },
+  {
+   "backend": "exa_web_fetch",
+   "use": "通用网页正文后端",
+   "status": "ok",
+   "declared": "warn",
+   "delta": false,
+   "message": "1 url 返回正文",
+   "elapsed_s": 6.0,
+   "probe_at": "2026-09-20T09:47:40+08:00"
+  },
+  {
+   "backend": "github_gh",
+   "use": "GitHub 取数 (gh CLI)",
+   "status": "ok",
+   "declared": "warn",
+   "delta": false,
+   "message": "remaining=5000",
+   "elapsed_s": 1.2,
+   "probe_at": "2026-09-20T09:47:41+08:00"
+  }
+ ],
+ "summary": {
+  "total": 13,
+  "ok": 11,
+  "empty": 0,
+  "error": 0,
+  "auth": 2
+ },
+ "decisions": [
+  {
+   "channel_id": "hn_show",
+   "action": "keep",
+   "status": "ok"
+  },
+  {
+   "channel_id": "github_new",
+   "action": "keep",
+   "status": "ok"
+  },
+  {
+   "channel_id": "reddit",
+   "action": "keep",
+   "status": "ok"
+  },
+  {
+   "channel_id": "devto",
+   "action": "keep",
+   "status": "ok"
+  },
+  {
+   "channel_id": "producthunt",
+   "action": "keep",
+   "status": "ok"
+  },
+  {
+   "channel_id": "indiehackers",
+   "action": "keep",
+   "status": "ok"
+  },
+  {
+   "channel_id": "betalist",
+   "action": "keep",
+   "status": "ok"
+  },
+  {
+   "channel_id": "v2ex",
+   "action": "keep",
+   "status": "ok"
+  },
+  {
+   "channel_id": "c1c7",
+   "action": "keep",
+   "status": "ok"
+  },
+  {
+   "channel_id": "bilibili",
+   "action": "keep",
+   "status": "ok"
+  },
+  {
+   "channel_id": "xiaohongshu",
+   "action": "unlock",
+   "status": "auth"
+  },
+  {
+   "channel_id": "twitter",
+   "action": "unlock",
+   "status": "auth"
+  },
+  {
+   "channel_id": "exa_discovery",
+   "action": "keep",
+   "status": "ok"
+  }
+ ],
+ "agent_reach": {
+  "ok": true,
+  "checked_at": "2026-09-20T09:47:12+08:00"
+ },
+ "deltas": [
+  {
+   "backend": "jina_reader",
+   "use": "通用网页正文",
+   "status": "unusable",
+   "declared": "ok",
+   "delta": true,
+   "message": "ERR: <urlopen error timed out>",
+   "elapsed_s": 20.0,
+   "probe_at": "2026-09-20T09:47:32+08:00"
+  }
+ ]
+}

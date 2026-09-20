@@ -1,0 +1,73 @@
+{
+ "generated": "2026-09-20T15:01:04+08:00",
+ "run_id": "20260920T094814",
+ "count": 6,
+ "items": [
+  {
+   "item_id": "f79916209c3de950",
+   "source_id": "c1c7",
+   "profile": "project",
+   "missing": [
+    "project_url"
+   ],
+   "url": "https://mp.weixin.qq.com/s/WZ6ULaATxIA1fZOUXZVobA",
+   "page": "https://mp.weixin.qq.com/s/WZ6ULaATxIA1fZOUXZVobA",
+   "title": "PriceTag 的独立开发者采访（公众号 PriceTagApp）"
+  },
+  {
+   "item_id": "70da07a842b9c2d0",
+   "source_id": "c1c7",
+   "profile": "project",
+   "missing": [
+    "project_url"
+   ],
+   "url": "https://www.v2ex.com/go/create",
+   "page": "https://www.v2ex.com/go/create",
+   "title": "v2ex 论坛 - 分享创造板块"
+  },
+  {
+   "item_id": "8e8f38ae88e2acd7",
+   "source_id": "github_new",
+   "profile": "project",
+   "missing": [
+    "body"
+   ],
+   "url": "https://github.com/EvanBacon/Instagram",
+   "page": "https://github.com/EvanBacon/Instagram",
+   "title": "EvanBacon/Instagram"
+  },
+  {
+   "item_id": "9ab90ec64e5813db",
+   "source_id": "github_new",
+   "profile": "project",
+   "missing": [
+    "body"
+   ],
+   "url": "https://invisibleexit.com/",
+   "page": "https://github.com/kindrat86/invisible-exit",
+   "title": "kindrat86/invisible-exit"
+  },
+  {
+   "item_id": "074d7c2acc36561f",
+   "source_id": "github_new",
+   "profile": "project",
+   "missing": [
+    "body"
+   ],
+   "url": "https://github.com/hiigorsilva/saas-finance-web",
+   "page": "https://github.com/hiigorsilva/saas-finance-web",
+   "title": "hiigorsilva/saas-finance-web"
+  },
+  {
+   "item_id": "55af89665fe9e52f",
+   "source_id": "github_new",
+   "profile": "project",
+   "missing": [
+    "body"
+   ],
+   "url": "https://github.com/inokone/react-micro-saas",
+   "page": "https://github.com/inokone/react-micro-saas",
+   "title": "inokone/react-micro-saas"
+  }
+ ]
+}

@@ -1,0 +1,255 @@
+---
+type: "corpus"
+item_id: "3288f83c5ea03944"
+title: "Show HN: Reader – I made a Mac workspace for books, browser tabs, notes, and AI"
+source: "hn_show"
+source_name: "HN Show HN"
+url: "https://news.ycombinator.com/item?id=49768201"
+project_url: "https://github.com/Marvy101/reader-source"
+author: "marvy101"
+published_at: "2026-09-19T16:59:58Z"
+captured_at: "2026-09-20T09:48:16+08:00"
+lang: "en"
+kind: "post"
+topic: "AI 工具/Agent"
+shard: "2026-09-20"
+pub_day: "2026-09-19"
+tags:
+  - 语料
+  - hn_show
+  - author_marvy101
+  - story_49768201
+  - show_hn
+metrics: {"points": 2, "comments": 1, "engagement_velocity": 2}
+comments_count: 1
+comments_total: 1
+discovered_via: "hn:show_hn:3d"
+---
+
+# Show HN: Reader – I made a Mac workspace for books, browser tabs, notes, and AI
+
+> [!info] 一句话导读
+> Marvy101/reader-source
+
+> [!meta]- 语料信息（点开展开）
+> 来源：HN Show HN（post）
+> 原帖：<https://news.ycombinator.com/item?id=49768201>
+> 指标：点赞=2 · 评论=1 · engagement_velocity=2
+> 作者：marvy101　|　发布：2026-09-19T16:59:58Z
+> 项目链接：<https://github.com/Marvy101/reader-source>
+> 采集：2026-09-20T09:48:16+08:00　|　id：`3288f83c5ea03944`
+
+## 正文
+
+# Marvy101/reader-source
+
+Open-source native macOS AI reading workspace for PDF, EPUB, and TXT with highlights, notes, inline rewriting, book chat, browser panes, and local-first storage.
+
+- Stars: 12
+- Forks: 0
+- Watchers: 12
+- Open issues: 0
+- License: MIT License
+- Default branch: main
+- Created: 2026-09-19T16:21:55Z
+
+## Languages
+
+- JavaScript
+- Makefile
+- PLpgSQL
+- Shell
+- Swift
+- TypeScript
+
+## Topics
+
+- ai
+- annotations
+- books
+- epub
+- local-first
+- macos
+- mit-license
+- open-source
+- pdf
+- reading
+- swift
+- swiftui
+
+## Top Contributors
+
+- Marvy101 (9 contributions)
+
+---
+
+## README
+
+# Reader
+
+Monorepo CI
+
+**An open-source, native AI reading workspace for macOS.**
+
+Reader keeps the book, your notes, web research, and an AI conversation in one
+quiet workspace. Import PDF, EPUB, and TXT files; read in a native interface;
+highlight and annotate passages; simplify difficult writing; ask questions
+about a selection, the current page, everything up to your position, or the
+whole book; and open chat, a dictionary, or the web beside the text.
+
+The library and reading experience are local-first. Books, progress,
+highlights, notes, search, and saved conversations remain usable without an
+account or backend. Supabase sync and AI features are optional additions.
+
+## Features
+
+- **Native reading:** import and read PDF, EPUB, and plain-text books in a
+ focused macOS interface built with SwiftUI, PDFKit, and WebKit.
+- **Contextual AI:** chat about a selected passage, the current page, the book
+ up to your reading position, or the complete book.
+- **Inline understanding:** rewrite a difficult passage in clearer language
+ without leaving the page.
+- **Highlights and notes:** preserve selections, annotations, and reading
+ context alongside the book.
+- **One reading workspace:** place the book beside AI chat, a system
+ dictionary, another book, or a native browser.
+- **Local library:** organize books into folders, search across the library,
+ resume progress, and keep local data in SQLite.
+- **Optional private cloud:** sync originals, reading state, annotations, and
+ searchable book context through your own Supabase and Vercel backend.
+- **Local-first failure model:** opening, reading, searching, highlighting, and
+ annotating do not depend on cloud availability.
+
+This monorepo contains the native Reader app and its optional Hono, Supabase,
+and Vercel backend.
+
+## Run
+
+Requires macOS 15 or later and Xcode 16 or later. Open `Reader.xcodeproj`
+in Xcode and run the `Reader` scheme. Node.js and backend credentials are not
+required to build the native app. Cloud and AI features need a backend. The
+checked-in backend URL is the local Vercel development address at
+`http://127.0.0.1:3000`; it never sends a fork to maintainer infrastructure.
+Follow SETUP.md to create your own Supabase and Vercel projects and
+point the app at them.
+
+From Terminal:
+
+```sh
+DEVELOPER_DIR=/Applications/Xcode.app/Contents/Developer \
+  xcodebuild \
+  -project Reader.xcodeproj \
+  -scheme Reader \
+  -destination 'platform=macOS' \
+  CODE_SIGNING_ALLOWED=NO \
+  build test
+```
+
+The project is generated with XcodeGen:
+
+```sh
+xcodegen generate
+```
+
+The generated `.xcodeproj` is committed so XcodeGen is helpful, not required, for someone opening the app.
+
+Install and check the backend from the same repository root:
+
+```sh
+make setup
+make backend-check
+```
+
+Run the backend locally through Vercel:
+
+```sh
+make backend-link
+make backend-dev
+```
+
+Deploy a preview from the same root:
+
+```sh
+make backend-preview
+```
+
+Run both native and backend checks:
+
+```sh
+make check
+```
+
+The backend package has more detail in `Backend/README.md`.
+The complete app-only and cloud setup is in SETUP.md.
+
+I know you're just having your agent run this, so here's a guide made specifically for it lol: AGENT_SETUP.md.
+
+## Repository layout
+
+```text
+Reader/          Native Swift and SwiftUI source
+ReaderTests/     Native tests
+Backend/         Hono, Supabase, and Vercel backend
+TestCorpus/      Reproducible public-domain format corpus
+```
+
+## How it works
+
+The app owns a shared Reader Core for search, locators, selections, annotations, progress intent, and capabilities. Format adapters translate those concepts into the rendering primitive that fits:
+
+```text
+SwiftUI reading experience
+└── Reader Core
+    ├── PDF adapter → PDFKit
+    └── Reflowable adapter → owned EPUB/TXT parser + hardened WKWebView
+```
+
+Reader uses ZIPFoundation for archive extraction and GRDB for SQLite persistence. Rendering remains owned by Reader through PDFKit and its EPUB/TXT WebKit adapter.
+
+## Mac first, never Mac only
+
+Reader is built natively in Swift, making it easy to bring to iOS and iPadOS; that goal guides technical decisions so one shared codebase can support macOS, iOS, and iPadOS.
+
+## What is implemented
+
+- Native macOS app with SwiftUI
+- Local PDF, EPUB, and TXT import into an app-managed copy
+- PDFKit fixed-page rendering
+- Custom EPUB/TXT extraction and WebKit reading surface
+- Shared native search and annotation model above both adapters
+- Embedded EPUB covers and first-page PDF covers
+- Supabase account entry plus optional, private cloud copies of imported originals
+- Import-time background preparation for whole-book AI search and annotations
+- Authenticated launch and foreground reconciliation for existing or interrupted local books
+- Truthful cloud status derived from confirmed file and searchable-text preparation
+- Local SQLite persistence for library entries, progress, highlights, and conversations
+- EPUB is vertically reflowed by section; pagination and full standards coverage are still open
+- Local reading remains available when cloud sync or AI preparation fails
+
+## Contributing
+
+See CONTRIBUTING.md for the development workflow and contribution terms.
+
+## License
+
+Reader is open source under the MIT License. You may use,
+copy, modify, publish, distribute, sublicense, and sell copies of the software
+subject to the license terms.
+
+# CrabBoss
+
+## 评论（1/1）
+
+> **jadejola** · 2026-09-19T18:50:00.000Z　
+> Yes to integrated workspaces!
+
+## 关联链接
+
+- http://127.0.0.1:3000`;
+
+## 导航
+
+- 项目页：[[10-项目/github.com_0138ef53]]
+- 渠道页：[[50-渠道/hn_show]]
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 同渠道/同赛道批量浏览：[[浏览]]

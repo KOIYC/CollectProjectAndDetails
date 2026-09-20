@@ -1,0 +1,488 @@
+{
+  "at": "2026-09-20T09:17:00+08:00",
+  "moves": [
+    {
+      "item_id": "2d1c0e542831fb6e",
+      "source": "apple_rss",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/apple_rss/2026-09-20/2d1c0e542831fb6e_Muse-from-Meta-—-Meta-Platforms,-Inc.md",
+      "to": "80-归档/posts/apple_rss/2026-09-20/2d1c0e542831fb6e_Muse-from-Meta-—-Meta-Platforms,-Inc.md"
+    },
+    {
+      "item_id": "9b679318eb7192e4",
+      "source": "apple_rss",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/apple_rss/2026-09-20/9b679318eb7192e4_ChatGPT-—-OpenAI-OpCo,-LLC.md",
+      "to": "80-归档/posts/apple_rss/2026-09-20/9b679318eb7192e4_ChatGPT-—-OpenAI-OpCo,-LLC.md"
+    },
+    {
+      "item_id": "532b57646c81b62d",
+      "source": "apple_rss",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/apple_rss/2026-09-20/532b57646c81b62d_Vinted-Pre-loved-marketplace-—-Vinted-Limited.md",
+      "to": "80-归档/posts/apple_rss/2026-09-20/532b57646c81b62d_Vinted-Pre-loved-marketplace-—-Vinted-Limited.md"
+    },
+    {
+      "item_id": "e6001cfd0d1a92d3",
+      "source": "apple_rss",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/apple_rss/2026-09-20/e6001cfd0d1a92d3_Five-Guys-Burgers-&-Fries-—-Five-Guys-Franchisor,.md",
+      "to": "80-归档/posts/apple_rss/2026-09-20/e6001cfd0d1a92d3_Five-Guys-Burgers-&-Fries-—-Five-Guys-Franchisor,.md"
+    },
+    {
+      "item_id": "b6d8d0fad597b1d9",
+      "source": "apple_rss",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/apple_rss/2026-09-20/b6d8d0fad597b1d9_TikTok-Pro---Events-—-TikTok-Ltd.md",
+      "to": "80-归档/posts/apple_rss/2026-09-20/b6d8d0fad597b1d9_TikTok-Pro---Events-—-TikTok-Ltd.md"
+    },
+    {
+      "item_id": "b591177ded721077",
+      "source": "apple_rss",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/apple_rss/2026-09-20/b591177ded721077_Polymarket-Trade-Live-Sports-—-Polymarket.md",
+      "to": "80-归档/posts/apple_rss/2026-09-20/b591177ded721077_Polymarket-Trade-Live-Sports-—-Polymarket.md"
+    },
+    {
+      "item_id": "2eac9ca9777088c2",
+      "source": "apple_rss",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/apple_rss/2026-09-20/2eac9ca9777088c2_Kalshi-Trade-Football-&-more-—-KalshiEX-LLC.md",
+      "to": "80-归档/posts/apple_rss/2026-09-20/2eac9ca9777088c2_Kalshi-Trade-Football-&-more-—-KalshiEX-LLC.md"
+    },
+    {
+      "item_id": "59c5cfd6b93d417c",
+      "source": "apple_rss",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/apple_rss/2026-09-20/59c5cfd6b93d417c_Google-Gemini-—-Google.md",
+      "to": "80-归档/posts/apple_rss/2026-09-20/59c5cfd6b93d417c_Google-Gemini-—-Google.md"
+    },
+    {
+      "item_id": "0213cfec96365f6b",
+      "source": "apple_rss",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/apple_rss/2026-09-20/0213cfec96365f6b_PineDrama---Short-Dramas-—-TikTok-Ltd.md",
+      "to": "80-归档/posts/apple_rss/2026-09-20/0213cfec96365f6b_PineDrama---Short-Dramas-—-TikTok-Ltd.md"
+    },
+    {
+      "item_id": "4759dad1c56e14eb",
+      "source": "apple_rss",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/apple_rss/2026-09-20/4759dad1c56e14eb_CapCut-Photo-&-Video-Editor-—-Bytedance-Pte.-Ltd.md",
+      "to": "80-归档/posts/apple_rss/2026-09-20/4759dad1c56e14eb_CapCut-Photo-&-Video-Editor-—-Bytedance-Pte.-Ltd.md"
+    },
+    {
+      "item_id": "bdf1a251c324eef9",
+      "source": "apple_rss",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/apple_rss/2026-09-20/bdf1a251c324eef9_WhatsApp-Messenger-—-WhatsApp-Inc.md",
+      "to": "80-归档/posts/apple_rss/2026-09-20/bdf1a251c324eef9_WhatsApp-Messenger-—-WhatsApp-Inc.md"
+    },
+    {
+      "item_id": "37bd337b1da51b03",
+      "source": "apple_rss",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/apple_rss/2026-09-20/37bd337b1da51b03_TikTok---Videos,-Shop-&-LIVE-—-TikTok-Ltd.md",
+      "to": "80-归档/posts/apple_rss/2026-09-20/37bd337b1da51b03_TikTok---Videos,-Shop-&-LIVE-—-TikTok-Ltd.md"
+    },
+    {
+      "item_id": "9db9e5590b0ff95f",
+      "source": "apple_rss",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/apple_rss/2026-09-20/9db9e5590b0ff95f_Google-—-Google.md",
+      "to": "80-归档/posts/apple_rss/2026-09-20/9db9e5590b0ff95f_Google-—-Google.md"
+    },
+    {
+      "item_id": "628f941487c4ee22",
+      "source": "apple_rss",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/apple_rss/2026-09-20/628f941487c4ee22_Google-Maps-—-Google.md",
+      "to": "80-归档/posts/apple_rss/2026-09-20/628f941487c4ee22_Google-Maps-—-Google.md"
+    },
+    {
+      "item_id": "0ce0b0ddffc05650",
+      "source": "apple_rss",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/apple_rss/2026-09-20/0ce0b0ddffc05650_Instagram-—-Instagram,-Inc.md",
+      "to": "80-归档/posts/apple_rss/2026-09-20/0ce0b0ddffc05650_Instagram-—-Instagram,-Inc.md"
+    },
+    {
+      "item_id": "09815987380e3d9e",
+      "source": "apple_rss",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/apple_rss/2026-09-20/09815987380e3d9e_Depop---Buy-&-Sell-Clothes-—-Depop-Ltd.md",
+      "to": "80-归档/posts/apple_rss/2026-09-20/09815987380e3d9e_Depop---Buy-&-Sell-Clothes-—-Depop-Ltd.md"
+    },
+    {
+      "item_id": "1fcad31e4a9c04ea",
+      "source": "apple_rss",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/apple_rss/2026-09-20/1fcad31e4a9c04ea_StoryReel-Drama-Shorts-&-TV-—-Equinox-Enterprises‌.md",
+      "to": "80-归档/posts/apple_rss/2026-09-20/1fcad31e4a9c04ea_StoryReel-Drama-Shorts-&-TV-—-Equinox-Enterprises‌.md"
+    },
+    {
+      "item_id": "a6ba671da37311d8",
+      "source": "apple_rss",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/apple_rss/2026-09-20/a6ba671da37311d8_Threads-—-Instagram,-Inc.md",
+      "to": "80-归档/posts/apple_rss/2026-09-20/a6ba671da37311d8_Threads-—-Instagram,-Inc.md"
+    },
+    {
+      "item_id": "66c22a9c816fda1e",
+      "source": "bilibili",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/bilibili/2026-09-20/66c22a9c816fda1e_【像素巅峰年!】25款不容错过的2026年像素新游大盘点.md",
+      "to": "80-归档/posts/bilibili/2026-09-20/66c22a9c816fda1e_【像素巅峰年!】25款不容错过的2026年像素新游大盘点.md"
+    },
+    {
+      "item_id": "4ee736b0cc788e6c",
+      "source": "bilibili",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/bilibili/2026-09-20/4ee736b0cc788e6c_大二全栈开发第一个产品,-自由游校园,-和校园签到说再见,-开发历程分享,-栗子网络来啦.md",
+      "to": "80-归档/posts/bilibili/2026-09-20/4ee736b0cc788e6c_大二全栈开发第一个产品,-自由游校园,-和校园签到说再见,-开发历程分享,-栗子网络来啦.md"
+    },
+    {
+      "item_id": "b23ac39eeffb199a",
+      "source": "bilibili",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/bilibili/2026-09-20/b23ac39eeffb199a_我做的-App,两次改变了我的命运.md",
+      "to": "80-归档/posts/bilibili/2026-09-20/b23ac39eeffb199a_我做的-App,两次改变了我的命运.md"
+    },
+    {
+      "item_id": "57b0d0438bd49dd6",
+      "source": "bilibili",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/bilibili/2026-09-20/57b0d0438bd49dd6_为了输入我自己创造的语言,我做了一个工具.md",
+      "to": "80-归档/posts/bilibili/2026-09-20/57b0d0438bd49dd6_为了输入我自己创造的语言,我做了一个工具.md"
+    },
+    {
+      "item_id": "4b0749d7bf9f757e",
+      "source": "c1c7",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/c1c7/2026-09-20/4b0749d7bf9f757e_Indie-Hacker.md",
+      "to": "80-归档/posts/c1c7/2026-09-20/4b0749d7bf9f757e_Indie-Hacker.md"
+    },
+    {
+      "item_id": "f324f3cfcf502466",
+      "source": "c1c7",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/c1c7/2026-09-20/f324f3cfcf502466_Failory.md",
+      "to": "80-归档/posts/c1c7/2026-09-20/f324f3cfcf502466_Failory.md"
+    },
+    {
+      "item_id": "8e774b3e3b8ce26f",
+      "source": "c1c7",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/c1c7/2026-09-20/8e774b3e3b8ce26f_Starter-Story.md",
+      "to": "80-归档/posts/c1c7/2026-09-20/8e774b3e3b8ce26f_Starter-Story.md"
+    },
+    {
+      "item_id": "5454dd69ac6c4c67",
+      "source": "c1c7",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/c1c7/2026-09-20/5454dd69ac6c4c67_Awesome-Indie.md",
+      "to": "80-归档/posts/c1c7/2026-09-20/5454dd69ac6c4c67_Awesome-Indie.md"
+    },
+    {
+      "item_id": "749fb77f14a0afe2",
+      "source": "c1c7",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/c1c7/2026-09-20/749fb77f14a0afe2_MicroConf-视频.md",
+      "to": "80-归档/posts/c1c7/2026-09-20/749fb77f14a0afe2_MicroConf-视频.md"
+    },
+    {
+      "item_id": "766ff3c13ebe5094",
+      "source": "c1c7",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/c1c7/2026-09-20/766ff3c13ebe5094_Stripe-Atlas-Guide.md",
+      "to": "80-归档/posts/c1c7/2026-09-20/766ff3c13ebe5094_Stripe-Atlas-Guide.md"
+    },
+    {
+      "item_id": "3ff678d3fc55d72b",
+      "source": "c1c7",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/c1c7/2026-09-20/3ff678d3fc55d72b_Opps-Daily---这家的-newsletter-做得好,推荐订阅.md",
+      "to": "80-归档/posts/c1c7/2026-09-20/3ff678d3fc55d72b_Opps-Daily---这家的-newsletter-做得好,推荐订阅.md"
+    },
+    {
+      "item_id": "f467739c34eb646b",
+      "source": "c1c7",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/c1c7/2026-09-20/f467739c34eb646b_NomadList.md",
+      "to": "80-归档/posts/c1c7/2026-09-20/f467739c34eb646b_NomadList.md"
+    },
+    {
+      "item_id": "b2a27fa1245dc125",
+      "source": "c1c7",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/c1c7/2026-09-20/b2a27fa1245dc125_Profitable-Founder-Podcast.md",
+      "to": "80-归档/posts/c1c7/2026-09-20/b2a27fa1245dc125_Profitable-Founder-Podcast.md"
+    },
+    {
+      "item_id": "03f418f822ae5044",
+      "source": "c1c7",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/c1c7/2026-09-20/03f418f822ae5044_利器.md",
+      "to": "80-归档/posts/c1c7/2026-09-20/03f418f822ae5044_利器.md"
+    },
+    {
+      "item_id": "d9631973051a0002",
+      "source": "exa_discovery",
+      "reason": "排除:URL",
+      "from": "20-语料/posts/exa_discovery/2026-09-20/d9631973051a0002_Shiba-Sweet-Launches-on-Steam-as-Solo-Dev-Releases.md",
+      "to": "80-归档/posts/exa_discovery/2026-09-20/d9631973051a0002_Shiba-Sweet-Launches-on-Steam-as-Solo-Dev-Releases.md"
+    },
+    {
+      "item_id": "354e59a60afaa414",
+      "source": "exa_discovery",
+      "reason": "排除:URL",
+      "from": "20-语料/posts/exa_discovery/2026-09-20/354e59a60afaa414_Pop!-Pachinko-Steam-Launch-Brings-City-Pop-Vibes-t.md",
+      "to": "80-归档/posts/exa_discovery/2026-09-20/354e59a60afaa414_Pop!-Pachinko-Steam-Launch-Brings-City-Pop-Vibes-t.md"
+    },
+    {
+      "item_id": "fc1dc6ea3ddf17a9",
+      "source": "exa_discovery",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/exa_discovery/2026-09-20/fc1dc6ea3ddf17a9_Bound-by-Destiny-is-now-Available-For-Purchase!!.md",
+      "to": "80-归档/posts/exa_discovery/2026-09-20/fc1dc6ea3ddf17a9_Bound-by-Destiny-is-now-Available-For-Purchase!!.md"
+    },
+    {
+      "item_id": "72e1e0b1358368a7",
+      "source": "exa_discovery",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/exa_discovery/2026-09-20/72e1e0b1358368a7_Crown-Siege-Has-Begun-Defending-the-Kingdom-on-Ste.md",
+      "to": "80-归档/posts/exa_discovery/2026-09-20/72e1e0b1358368a7_Crown-Siege-Has-Begun-Defending-the-Kingdom-on-Ste.md"
+    },
+    {
+      "item_id": "6419a65b439f36c3",
+      "source": "exa_discovery",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/exa_discovery/2026-09-20/6419a65b439f36c3_Restore-Balance-Through-Feeling-MONOWAVE-Launches.md",
+      "to": "80-归档/posts/exa_discovery/2026-09-20/6419a65b439f36c3_Restore-Balance-Through-Feeling-MONOWAVE-Launches.md"
+    },
+    {
+      "item_id": "30bf8289516b6533",
+      "source": "exa_discovery",
+      "reason": "排除:URL",
+      "from": "20-语料/posts/exa_discovery/2026-09-20/30bf8289516b6533_Frog-It-Up-Hops-Onto-Steam-in-Full-Release-From-St.md",
+      "to": "80-归档/posts/exa_discovery/2026-09-20/30bf8289516b6533_Frog-It-Up-Hops-Onto-Steam-in-Full-Release-From-St.md"
+    },
+    {
+      "item_id": "1aaf19b7744c7962",
+      "source": "github_new",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/github_new/2026-09-20/1aaf19b7744c7962_browser-use-jev-ultrafast.md",
+      "to": "80-归档/posts/github_new/2026-09-20/1aaf19b7744c7962_browser-use-jev-ultrafast.md"
+    },
+    {
+      "item_id": "cd2acb9852fafe73",
+      "source": "github_new",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/github_new/2026-09-20/cd2acb9852fafe73_eternity4719-HowToLiveBetter.md",
+      "to": "80-归档/posts/github_new/2026-09-20/cd2acb9852fafe73_eternity4719-HowToLiveBetter.md"
+    },
+    {
+      "item_id": "8a2c75be8fcc43cb",
+      "source": "github_new",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/github_new/2026-09-20/8a2c75be8fcc43cb_sdli1995-dlssg_for_sm86.md",
+      "to": "80-归档/posts/github_new/2026-09-20/8a2c75be8fcc43cb_sdli1995-dlssg_for_sm86.md"
+    },
+    {
+      "item_id": "e4a3f99c6c579a17",
+      "source": "github_new",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/github_new/2026-09-20/e4a3f99c6c579a17_robbietilton-Compositor.md",
+      "to": "80-归档/posts/github_new/2026-09-20/e4a3f99c6c579a17_robbietilton-Compositor.md"
+    },
+    {
+      "item_id": "cb9dbf892335b83d",
+      "source": "github_new",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/github_new/2026-09-20/cb9dbf892335b83d_openai-NavierStokesAndEuler.md",
+      "to": "80-归档/posts/github_new/2026-09-20/cb9dbf892335b83d_openai-NavierStokesAndEuler.md"
+    },
+    {
+      "item_id": "c0fb8248987b448a",
+      "source": "github_new",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/github_new/2026-09-20/c0fb8248987b448a_myinvestpilot-ai-architecture.md",
+      "to": "80-归档/posts/github_new/2026-09-20/c0fb8248987b448a_myinvestpilot-ai-architecture.md"
+    },
+    {
+      "item_id": "e7c66414debf2594",
+      "source": "github_new",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/github_new/2026-09-20/e7c66414debf2594_Micro-SaaS-Examples-Best-Micro-SaaS-Tools.md",
+      "to": "80-归档/posts/github_new/2026-09-20/e7c66414debf2594_Micro-SaaS-Examples-Best-Micro-SaaS-Tools.md"
+    },
+    {
+      "item_id": "14f399ee2db49185",
+      "source": "github_new",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/github_new/2026-09-20/14f399ee2db49185_coffee-and-fun-google-profanity-words.md",
+      "to": "80-归档/posts/github_new/2026-09-20/14f399ee2db49185_coffee-and-fun-google-profanity-words.md"
+    },
+    {
+      "item_id": "184332603281f77a",
+      "source": "github_new",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/github_new/2026-09-20/184332603281f77a_derniercri-snatch.md",
+      "to": "80-归档/posts/github_new/2026-09-20/184332603281f77a_derniercri-snatch.md"
+    },
+    {
+      "item_id": "371926f918ec7126",
+      "source": "github_new",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/github_new/2026-09-20/371926f918ec7126_ghosh-cssFilters.md",
+      "to": "80-归档/posts/github_new/2026-09-20/371926f918ec7126_ghosh-cssFilters.md"
+    },
+    {
+      "item_id": "874c452d650ae55f",
+      "source": "github_new",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/github_new/2026-09-20/874c452d650ae55f_maxprilutskiy-awesome-side-project.md",
+      "to": "80-归档/posts/github_new/2026-09-20/874c452d650ae55f_maxprilutskiy-awesome-side-project.md"
+    },
+    {
+      "item_id": "8e8f38ae88e2acd7",
+      "source": "github_new",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/github_new/2026-09-20/8e8f38ae88e2acd7_EvanBacon-Instagram.md",
+      "to": "80-归档/posts/github_new/2026-09-20/8e8f38ae88e2acd7_EvanBacon-Instagram.md"
+    },
+    {
+      "item_id": "05db8a758c6fa581",
+      "source": "github_new",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/github_new/2026-09-20/05db8a758c6fa581_johackim-awesome-indiehackers.md",
+      "to": "80-归档/posts/github_new/2026-09-20/05db8a758c6fa581_johackim-awesome-indiehackers.md"
+    },
+    {
+      "item_id": "cee07d2b98067dd1",
+      "source": "github_new",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/github_new/2026-09-20/cee07d2b98067dd1_mre-zerocal.md",
+      "to": "80-归档/posts/github_new/2026-09-20/cee07d2b98067dd1_mre-zerocal.md"
+    },
+    {
+      "item_id": "19b6d4e461e491a6",
+      "source": "hn_front",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/hn_front/2026-09-20/19b6d4e461e491a6_Tin-full-text-search-for-Postgres.md",
+      "to": "80-归档/posts/hn_front/2026-09-20/19b6d4e461e491a6_Tin-full-text-search-for-Postgres.md"
+    },
+    {
+      "item_id": "a64d7468c1cf422e",
+      "source": "hn_front",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/hn_front/2026-09-20/a64d7468c1cf422e_SDCC-–-Small-Device-C-Compiler.md",
+      "to": "80-归档/posts/hn_front/2026-09-20/a64d7468c1cf422e_SDCC-–-Small-Device-C-Compiler.md"
+    },
+    {
+      "item_id": "be69d1c920579bcd",
+      "source": "hn_front",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/hn_front/2026-09-20/be69d1c920579bcd_Saving-another-100TB-of-RAM.md",
+      "to": "80-归档/posts/hn_front/2026-09-20/be69d1c920579bcd_Saving-another-100TB-of-RAM.md"
+    },
+    {
+      "item_id": "396024f03b20221d",
+      "source": "hn_front",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/hn_front/2026-09-20/396024f03b20221d_Black-Holes-or-Black-Hole-Stars-Astronomers-Spar-o.md",
+      "to": "80-归档/posts/hn_front/2026-09-20/396024f03b20221d_Black-Holes-or-Black-Hole-Stars-Astronomers-Spar-o.md"
+    },
+    {
+      "item_id": "c541f5a56808b3b9",
+      "source": "hn_front",
+      "reason": "排除:无主题词",
+      "from": "20-语料/posts/hn_front/2026-09-20/c541f5a56808b3b9_Btrfs-ZFS-bcachefs-under-workloads-classic-benchma.md",
+      "to": "80-归档/posts/hn_front/2026-09-20/c541f5a56808b3b9_Btrfs-ZFS-bcachefs-under-workloads-classic-benchma.md"
+    },
+    {
+      "item_id": "8d3ee79304431485",
+      "source": "sspai",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/sspai/2026-09-20/8d3ee79304431485_你的脸红是什么红-了解玫瑰痤疮.md",
+      "to": "80-归档/posts/sspai/2026-09-20/8d3ee79304431485_你的脸红是什么红-了解玫瑰痤疮.md"
+    },
+    {
+      "item_id": "02614d25c0dfb9d4",
+      "source": "sspai",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/sspai/2026-09-20/02614d25c0dfb9d4_本周看什么-最近值得一看的-9-部作品.md",
+      "to": "80-归档/posts/sspai/2026-09-20/02614d25c0dfb9d4_本周看什么-最近值得一看的-9-部作品.md"
+    },
+    {
+      "item_id": "f80b8e09feecb803",
+      "source": "sspai",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/sspai/2026-09-20/f80b8e09feecb803_8月音乐精选-有限的生命里,要听得再任性一点!.md",
+      "to": "80-归档/posts/sspai/2026-09-20/f80b8e09feecb803_8月音乐精选-有限的生命里,要听得再任性一点!.md"
+    },
+    {
+      "item_id": "242e54aa58645317",
+      "source": "sspai",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/sspai/2026-09-20/242e54aa58645317_具透-细数-watchOS-27-中你值得了解的新变化-动态应用网格、智能叠放.md",
+      "to": "80-归档/posts/sspai/2026-09-20/242e54aa58645317_具透-细数-watchOS-27-中你值得了解的新变化-动态应用网格、智能叠放.md"
+    },
+    {
+      "item_id": "ce6cf3b6b28cec2c",
+      "source": "sspai",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/sspai/2026-09-20/ce6cf3b6b28cec2c_让-Agent-读懂你的身体-数据获取篇.md",
+      "to": "80-归档/posts/sspai/2026-09-20/ce6cf3b6b28cec2c_让-Agent-读懂你的身体-数据获取篇.md"
+    },
+    {
+      "item_id": "827ee1eed97497fa",
+      "source": "sspai",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/sspai/2026-09-20/827ee1eed97497fa_派早报-欧盟拟禁止-13-岁以下儿童使用社交媒体等.md",
+      "to": "80-归档/posts/sspai/2026-09-20/827ee1eed97497fa_派早报-欧盟拟禁止-13-岁以下儿童使用社交媒体等.md"
+    },
+    {
+      "item_id": "c7d7878c78ada9c5",
+      "source": "sspai",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/sspai/2026-09-20/c7d7878c78ada9c5_城市漫步指南-威海初秋,看海玩沙.md",
+      "to": "80-归档/posts/sspai/2026-09-20/c7d7878c78ada9c5_城市漫步指南-威海初秋,看海玩沙.md"
+    },
+    {
+      "item_id": "5c66ab7fe0c1256c",
+      "source": "sspai",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/sspai/2026-09-20/5c66ab7fe0c1256c_具透-macOS-27-正式版来了,这些是你值得了解新细节.md",
+      "to": "80-归档/posts/sspai/2026-09-20/5c66ab7fe0c1256c_具透-macOS-27-正式版来了,这些是你值得了解新细节.md"
+    },
+    {
+      "item_id": "77aa56472584c329",
+      "source": "sspai",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/sspai/2026-09-20/77aa56472584c329_一个小创意的诞生-BeatBox-雪漫天外壳定制指南.md",
+      "to": "80-归档/posts/sspai/2026-09-20/77aa56472584c329_一个小创意的诞生-BeatBox-雪漫天外壳定制指南.md"
+    },
+    {
+      "item_id": "480c77bc6d404792",
+      "source": "sspai",
+      "reason": "渠道停用",
+      "from": "20-语料/posts/sspai/2026-09-20/480c77bc6d404792_派早报-佳能发布-EOS-R8-Mark-II、GPT-5.5-即将下线等.md",
+      "to": "80-归档/posts/sspai/2026-09-20/480c77bc6d404792_派早报-佳能发布-EOS-R8-Mark-II、GPT-5.5-即将下线等.md"
+    },
+    {
+      "item_id": "fe1072068b95c029",
+      "source": "v2ex",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/v2ex/2026-09-20/fe1072068b95c029_求-全职或外包工作.md",
+      "to": "80-归档/posts/v2ex/2026-09-20/fe1072068b95c029_求-全职或外包工作.md"
+    },
+    {
+      "item_id": "889eb28da2792b1d",
+      "source": "v2ex",
+      "reason": "排除:标题",
+      "from": "20-语料/posts/v2ex/2026-09-20/889eb28da2792b1d_做了一个-AI-导航站,收集了很有有意思的网站.md",
+      "to": "80-归档/posts/v2ex/2026-09-20/889eb28da2792b1d_做了一个-AI-导航站,收集了很有有意思的网站.md"
+    }
+  ]
+}

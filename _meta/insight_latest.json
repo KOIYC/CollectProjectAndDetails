@@ -1,0 +1,242 @@
+{
+  "generated": "2026-09-20T15:18:05+08:00",
+  "n_live": 713,
+  "n_usable": 620,
+  "n_project": 554,
+  "signals": 19,
+  "topics": [
+    [
+      "AI 工具/Agent",
+      368
+    ],
+    [
+      "开发者工具",
+      153
+    ],
+    [
+      "未分类",
+      52
+    ],
+    [
+      "游戏",
+      16
+    ],
+    [
+      "移动 App",
+      10
+    ],
+    [
+      "内容/媒体",
+      8
+    ],
+    [
+      "SaaS/B2B",
+      5
+    ],
+    [
+      "教育/学习",
+      4
+    ],
+    [
+      "电商/独立站",
+      2
+    ],
+    [
+      "健康/生活",
+      2
+    ]
+  ],
+  "strong": [
+    {
+      "key": "host:store.steampowered.com",
+      "channels": [
+        "exa_discovery",
+        "hn_show"
+      ],
+      "n_channels": 2,
+      "title": "Show HN: Smart Crosshair – A lightweight C++/Win32 adaptive contrast crosshair",
+      "url": "https://store.steampowered.com/app/5012860/Smart_Crosshair",
+      "metrics": {
+        "points": 2,
+        "comments": 0,
+        "engagement_velocity": 2
+      }
+    },
+    {
+      "key": "host:chromewebstore.google.com",
+      "channels": [
+        "hn_show",
+        "reddit"
+      ],
+      "n_channels": 2,
+      "title": "Show HN: Custom slash commands, variables and snippets",
+      "url": "https://chromewebstore.google.com/detail/text-expander-autofill-sl/jjeibagdcmgahjglbglpjcjilpaheeco",
+      "metrics": {
+        "points": 2,
+        "comments": 0,
+        "engagement_velocity": 2
+      }
+    }
+  ],
+  "money_n": 287,
+  "money_quotes": [
+    {
+      "source": "betalist",
+      "title": "Us Realtor List",
+      "url": "https://betalist.com/startups/us-realtor-list",
+      "quote": "paying, then purchase a one-time download via Stripe with transparent pricing based on list size. Files include name, email, phone, brokerage, city, state, and optiona"
+    },
+    {
+      "source": "betalist",
+      "title": "Fortrip",
+      "url": "https://betalist.com/startups/fortrip",
+      "quote": "Fortrip. Fortrip: Plan trips with expert-backed AI that validates | BetaList ## Plan trips with expert-backed A"
+    },
+    {
+      "source": "betalist",
+      "title": "Geo Seo Check",
+      "url": "https://betalist.com/startups/geo-seo-check",
+      "quote": "s get a free teaser with a score and can purchase detailed reports or subscriptions for daily checks. Joshua Langer # Rival Radar: Track competitors’ pricing, features,"
+    },
+    {
+      "source": "betalist",
+      "title": "Rival Radar",
+      "url": "https://betalist.com/startups/rival-radar",
+      "quote": "Rival Radar. Rival Radar: Track competitors’ pricing, features, and | BetaList ## Track competitors’ pricing, features, and messaging with AI"
+    },
+    {
+      "source": "betalist",
+      "title": "Clickydots",
+      "url": "https://betalist.com/startups/clickydots",
+      "quote": "any in the middle. No telemetry, works offline. One-time purchase, no subscription. Error fetching https://oppslist.com/: CRAWL_LIVECRAWL_TIMEOUT Error fetching https://li"
+    },
+    {
+      "source": "betalist",
+      "title": "Accszone",
+      "url": "https://betalist.com/startups/accszone",
+      "quote": ", VPN, VPS, gift cards, and SMS/OTP services, with instant delivery, warranty, and 24/7 support. Get real, high-quality aged and verified social media accounts pe"
+    },
+    {
+      "source": "betalist",
+      "title": "Recoura",
+      "url": "https://betalist.com/startups/recoura",
+      "quote": "Recoura offers manual and automatic recovery of failed payments for revenue that Stripe and Square give up on. It includes custom email templates, multi-currency sup"
+    },
+    {
+      "source": "bilibili",
+      "title": "为什么很多程序员都不去做独立开发者？",
+      "url": "https://www.bilibili.com/video/BV13S421A7KF",
+      "quote": "为什么很多程序员都不去做独立开发者？. 对于那些想要突破传统工作模式，寻求创新和收入突破的程序员来说，独立开发者是一个非常值得尝试的选择，它或许可以真的使程序员实现工作自由、时间自由、消费自由。"
+    },
+    {
+      "source": "bilibili",
+      "title": "独立开发者一年可以赚多少钱？",
+      "url": "https://www.bilibili.com/video/BV1DUAJzwEUk",
+      "quote": "独立开发者一年可以赚多少钱？. 不知不觉做独立开发有一年多了，今天跟大家分享下目前的收入情况。 大家好！我目前正在开发一款致敬循环英雄的游戏，会在这个频道记录游戏的开发过程和日常，有兴趣的小伙伴可以关注我哦～"
+    },
+    {
+      "source": "bilibili",
+      "title": "6个月开发，独立游戏不如送外卖？",
+      "url": "https://www.bilibili.com/video/BV1oiLt6jERS",
+      "quote": "6个月开发，独立游戏不如送外卖？. 本期视频主要分享这六个月开发的收入和总结，以及分享了我们对这个行业的看法和认识，希望能给想要入行的朋友们多一些参考。 视频中提到的B站圈内UP老师@熊蜂bebe @管好你的左手 @ZZeidou @一只宁宁_ @極"
+    },
+    {
+      "source": "bilibili",
+      "title": "【中配】月入7.7万美元的独立开发者，每天只工作4小时？他的秘诀竟然是疯狂发布产品！",
+      "url": "https://www.bilibili.com/video/BV1QVLp6dEMC",
+      "quote": "【中配】月入7.7万美元的独立开发者，每天只工作4小时？他的秘诀竟然是疯狂发布产品！. Marc Lou 是一名月入 7.7 万美元的独立创业者，创办了 35 家初创公司。很多人好奇他是如何完"
+    },
+    {
+      "source": "bilibili",
+      "title": "海外独立站上线 7 个月 我收获月度订阅5000$+",
+      "url": "https://www.bilibili.com/video/BV1vQbr6SESY",
+      "quote": "海外独立站上线 7 个月 我收获月度订阅5000$+. 海外独立站上线 7 个月 我收获月度订阅$5000+ 一开始源于一个简单的想法，vibecoding大概1周多时间 后来陆续迭代 当然收入还包含不少成本，整体也"
+    }
+  ],
+  "pain_n": {
+    "做不出来/卡住": 29,
+    "愿意付钱": 15,
+    "在找替代品": 22,
+    "当前方案不好用": 15
+  },
+  "by_channel": [
+    {
+      "id": "betalist",
+      "profile": "linkpost",
+      "n": 23,
+      "ok": 23,
+      "rate": 1.0
+    },
+    {
+      "id": "indiehackers",
+      "profile": "linkpost",
+      "n": 23,
+      "ok": 23,
+      "rate": 1.0
+    },
+    {
+      "id": "producthunt",
+      "profile": "linkpost",
+      "n": 49,
+      "ok": 49,
+      "rate": 1.0
+    },
+    {
+      "id": "bilibili",
+      "profile": "metadata",
+      "n": 19,
+      "ok": 18,
+      "rate": 0.9473684210526315
+    },
+    {
+      "id": "hn_show",
+      "profile": "discussion",
+      "n": 400,
+      "ok": 372,
+      "rate": 0.93
+    },
+    {
+      "id": "exa_discovery",
+      "profile": "discover",
+      "n": 9,
+      "ok": 8,
+      "rate": 0.8888888888888888
+    },
+    {
+      "id": "v2ex",
+      "profile": "discussion",
+      "n": 24,
+      "ok": 20,
+      "rate": 0.8333333333333334
+    },
+    {
+      "id": "github_new",
+      "profile": "project",
+      "n": 60,
+      "ok": 40,
+      "rate": 0.6666666666666666
+    },
+    {
+      "id": "reddit",
+      "profile": "discussion",
+      "n": 94,
+      "ok": 60,
+      "rate": 0.6382978723404256
+    },
+    {
+      "id": "devto",
+      "profile": "discussion",
+      "n": 5,
+      "ok": 3,
+      "rate": 0.6
+    },
+    {
+      "id": "c1c7",
+      "profile": "project",
+      "n": 7,
+      "ok": 4,
+      "rate": 0.5714285714285714
+    }
+  ],
+  "body_median": 2149.5
+}

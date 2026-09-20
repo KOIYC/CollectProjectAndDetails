@@ -1,0 +1,141 @@
+---
+type: "corpus"
+item_id: "a89bc0a6ddc644c2"
+title: "natemacs/launch-website-directories"
+source: "github_new"
+source_name: "GitHub 新星仓库"
+url: "https://github.com/natemacs/launch-website-directories"
+project_url: "https://github.com/natemacs/launch-website-directories"
+author: "natemacs"
+published_at: "2024-03-02T21:06:54Z"
+captured_at: "2026-09-20T03:28:00+08:00"
+lang: "en"
+kind: "post"
+tags:
+  - 语料
+  - github_new
+  - topic:microsaas
+metrics: {"stars": 35, "forks": 4, "open_issues": 5}
+comments_count: 0
+comments_total: 0
+discovered_via: "github:14d"
+topic: AI 工具/Agent
+archived: true
+archived_at: "2026-09-20T10:02:36+08:00"
+archive_reason: "排除:标题"
+---
+
+# natemacs/launch-website-directories
+
+- **来源**：GitHub 新星仓库　|　**kind**：post
+- **原帖**：https://github.com/natemacs/launch-website-directories
+- **指标**：stars=35 · forks=4 · open_issues=5
+- **作者**：natemacs　|　**发布**：2024-03-02T21:06:54Z
+- **项目链接**：https://github.com/natemacs/launch-website-directories
+- **采集**：2026-09-20T03:28:00+08:00　|　**id**：`a89bc0a6ddc644c2`
+
+## 正文
+
+# Curated List of Websites to launch your saas or microsaas / Lista de Websites para lançar seu Saas ou Microsaas
+
+1. [Product Hunt](https://www.producthunt.com/)
+2. [Indie Hackers](https://www.indiehackers.com/)
+3. [X - Twitter](https://twitter.com/) with hashtag "buildinginpublic"
+4. [Brazilian Microsaas Community](https://diretorio.microsaas.com.br/)
+5. [Reddit Entrepreneur](https://www.reddit.com/r/Entrepreneur/)
+6. [Reddit Sideproject](https://www.reddit.com/r/SideProject/)
+7. [Reddit Microsaas](https://www.reddit.com/r/microsaas/)
+8. [Beta List](https://betalist.com/)
+9. [Beta Bound](https://www.betabound.com/)
+10. [Beta Testing](https://betatesting.com/)
+11. [Launching Next](https://www.launchingnext.com/)
+12. [The Startup Pitch](https://thestartuppitch.com/)
+13. [Microns](https://www.microns.io/)
+14. [Tabnews](https://www.tabnews.com.br/)
+15. [Microsaas Apps](https://www.microsaasapps.com/list)
+16. [Made with Laravel](https://madewithlaravel.com/)
+17. [Wappalyzer](https://www.wappalyzer.com/)
+18. [Awwwards](https://www.awwwards.com/)
+19. [G2](https://www.g2.com/)
+20. [Capterra](https://www.capterra.com/vendors/sign-up/)
+21. [GetApp](https://www.getapp.com/)
+22. [Paggu](https://www.paggu.com/submit-your-startup/)
+23. [AlternativeTo](https://alternativeto.net/)
+24. [Technology Advice](https://solutions.technologyadvice.com/list-your-product/)
+25. [Crunchbase](https://www.crunchbase.com/)
+26. [Trust Radius](https://www.trustradius.com/) in Vendor Solutions
+27. [Software Advice](https://www.softwareadvice.com/vendors/)
+28. [News in Y combinator](https://news.ycombinator.com/)
+29. [Saas Starters](https://listskit.com/saasstarters/) for microsaas boilerplate developers
+30. [Trustpilot](Trustpilot.com)
+31. [Source Forge](https://sourceforge.net/)
+32. [Crowd Reviews](crowdreviews.com)
+33. [Toolify](www.toolify.ai)
+34. [Insider](https://www.insidr.ai/submit-tools/)
+35. [Goodfirms](goodfirms.co)
+36. [Starterstory](starterstory.com)
+37. [Saasaitools](saasaitools.com)
+38. [Poweredbyai](https://poweredbyai.app/submit-tool)
+39. [Openfuture](https://openfuture.ai/)
+40. [Foundr](https://foundr.ai/)
+41. [Aipediahub](https://aipediahub.com/)
+42. [Aitoolsdirectory](https://aitoolsdirectory.com/)
+43. [Aitoolslist](https://aitoolslist.io/)
+44. [Aitoolsmarketer](https://aitoolsmarketer.com/)
+45. [Altern AI](https://altern.ai/)
+46. [All things AI](https://allthingsai.com/)
+47. [Venture Radar](https://www.ventureradar.com/database)
+48. [AI Infinity](https://aiinfinity-meetpatel.notion.site/AI-Infinity-AI-Tools-Directory-0da673c487124ea2b6f8ebe59b75a231)
+49. [EU Startups](https://www.eu-startups.com/)
+50. [Startup Stash](https://startupstash.com/)
+51. [Theres an Ai For That](https://theresanaiforthat.com/)
+52. [Future Tools](https://www.futuretools.io/)
+53. [Ctrlalt](https://ctrlalt.cc/)
+54. [Feedough](https://www.feedough.com/)
+55. [Pitchwall](https://pitchwall.co/)
+56. [Crozdesk](https://crozdesk.com/)
+57. [Betabound](https://betabound.com)
+58. [Startupranking](https://startupranking.com)
+59. [Saas hub](https://saashub.com)
+60. [Alternative](https://alternative.me)
+61. [CB Insights](https://www.cbinsights.com/)
+62. [Side Projectors](https://www.sideprojectors.com/)
+63. [Freework](https://freework.ai/suggest)
+64. [AI Tool Portal](https://aitoolportal.com/)
+65. [Innoverai](https://innoverai.com/)
+66. [AI Search](https://ai-search.io/submit)
+67. [Brainik](https://brainik.com/directory/?wpbdp_view=submit_listing)
+68. [Monkey AI Tools](https://www.monkeyaitools.com/submit-tool)
+69. [AI Cyclopedia](https://www.aicyclopedia.com/login)
+70. [Apps and Websites](https://appsandwebsites.com/)
+71. [AI Tools andTrends](https://aitoolsandtrends.com/)
+72. [Aitoolnet](www.aitoolnet.com)
+73. [InstantAI](https://instantai.io/submit-listing/)
+74. [Toolsfine](https://toolsfine.com/)
+75. [Advanced Innovation](https://www.advanced-innovation.io/)
+76. [AI Tools](https://aitools.fyi/)
+77. [Tool Hunting](https://www.toolhunting.com/submit-a-tools)
+78. [Startup Inspire](https://www.startupinspire.com/)
+79. [Waild World](https://waildworld.com/de)
+80. [Tech Reviewer](https://techreviewer.co/)
+81. [AI Tool Guru](https://www.aitoolguru.com/)
+82. [Gate2ai](https://www.gate2ai.com/)
+83. [Dang](https://dang.ai/)
+84. [Gpte](https://gpte.ai/)
+85. [Buzzmatic](https://form.buzzmatic.net/zs/CkDHQz)
+86. [Coldiq](https://www.coldiq.com/ai-sales-tools)
+87. [Bestofai](https://bestofai.com/)
+88. [Launching Next](https://www.launchingnext.com/)
+89. [Getapp](https://www.getapp.com/)
+90. [Devhunt](https://devhunt.org/)
+91. [G2 Crowd](https://www.g2.com/)
+92. [100L5](https://10015.io/product-finder)
+93. [Indie Launch](https://www.indielaun.ch/)
+94. [Indie Maker List](https://indiemakerlist.com/)
+
+## 导航
+
+- 项目页：[[80-归档/项目/github.com_a89bc0a6]]
+- 渠道页：[[50-渠道/github_new]]
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 同渠道/同赛道批量浏览：[[浏览]]

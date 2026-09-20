@@ -1,0 +1,181 @@
+{
+ "schema_version": 2,
+ "updated": "2026-09-20",
+ "note": "语料记录的规范字段。原始归档 90-原始/<channel>/<date>.jsonl 每行一条；Obsidian 语料 note 的 frontmatter 是其子集。",
+ "item": {
+  "item_id": {
+   "type": "string",
+   "desc": "sha1(normalized_url)[:16]，跨运行去重主键；无 url 时用 source:title 兜底"
+  },
+  "kind": {
+   "type": "enum",
+   "values": [
+    "post",
+    "project",
+    "person",
+    "method"
+   ],
+   "desc": "post=发布/讨论帖（语料主力）；project=产品条目；person=作者画像；method=复盘/方法论"
+  },
+  "source_id": {
+   "type": "string",
+   "desc": "渠道 id，对应 _meta/channels.yaml 与 50-渠道/<id>.md"
+  },
+  "source_name": {
+   "type": "string",
+   "desc": "渠道显示名"
+  },
+  "title": {
+   "type": "string"
+  },
+  "url": {
+   "type": "string",
+   "desc": "原帖/条目的规范 URL（可回溯的出处，必填）"
+  },
+  "project_url": {
+   "type": "string",
+   "desc": "项目自身站点/仓库；与 url 区分（url=讨论页）"
+  },
+  "author": {
+   "type": "string"
+  },
+  "author_url": {
+   "type": "string"
+  },
+  "published_at": {
+   "type": "string",
+   "desc": "ISO8601（+08:00 时区）"
+  },
+  "captured_at": {
+   "type": "string",
+   "desc": "采集时间 ISO8601（+08:00）"
+  },
+  "lang": {
+   "type": "enum",
+   "values": [
+    "en",
+    "zh",
+    "mix"
+   ]
+  },
+  "body": {
+   "type": "string",
+   "desc": "正文全文。来源优先级：平台 API 正文 > README > Exa web_fetch > 空"
+  },
+  "body_format": {
+   "type": "enum",
+   "values": [
+    "text",
+    "markdown",
+    "html"
+   ]
+  },
+  "body_completeness": {
+   "type": "enum",
+   "values": [
+    "full",
+    "summary",
+    "snippet",
+    "empty",
+    "metadata_only"
+   ],
+   "desc": "正文完整度分级（由 kb_common.body_completeness() 计算）：full=可做深度分析；summary=RSS 摘要/命中取数上限被截断；snippet=<200 字符；empty=有语料位但正文为空；metadata_only=信号层渠道只有元数据。注意：该字段在**采集/回填写盘那一刻**算一次，历史记录可能缺失（早期记录无此字段）或过期（回填补全正文后由 kb_backfill 就地重算）；判定缺口请调用同名函数重算，不要直接信字段值。"
+  },
+  "comments": {
+   "type": "array",
+   "item": {
+    "author": "string",
+    "text": "string",
+    "created_at": "string|null",
+    "score": "number|null"
+   },
+   "desc": "评论列表（尽量全量；超过 max_comments 截断并置 comments_truncated=true）"
+  },
+  "comments_total": {
+   "type": "number",
+   "desc": "平台报告的评论总数（或实际抓到数，二者取大）"
+  },
+  "comments_truncated": {
+   "type": "boolean",
+   "desc": "true = 有截断，分析时须注意样本偏差"
+  },
+  "metrics": {
+   "type": "object",
+   "desc": "平台指标：points/comments/stars/forks/score/reactions/play/replies/upvote_ratio/rank/danmaku/favorites"
+  },
+  "tags": {
+   "type": "array",
+   "desc": "渠道标签 + 平台分类 + 版块"
+  },
+  "links": {
+   "type": "array",
+   "desc": "正文中出现的关联外链（已去重，最多 30 条）"
+  },
+  "discovered_via": {
+   "type": "string",
+   "desc": "发现路径，如 reddit:7d / github:14d / v2ex:独立开发 / exa:<query>"
+  },
+  "extra": {
+   "type": "object",
+   "desc": "渠道特有原始字段（hn_id / reddit_id / bvid / devto_id / query / body_source 等）+ 通用质量标记。通用标记：layer（corpus/signal，信号层不产出正文，别用正文层的尺子量它）、body_truncated（命中取数上限被截断，true 就必须当「只是开头」看）、body_error / comments_error / comments_partial（取数失败或翻页中断，进回填队列的依据）、project_url_derived / project_url_rejected（project_url 是推导来的还是被校验挡下的，见 kb_collect.project_url_reject）"
+  },
+  "record_type": {
+   "type": "enum",
+   "values": [
+    "new",
+    "update",
+    "refresh",
+    "backfill",
+    "repair",
+    "reclassify"
+   ],
+   "desc": "本次记录的性质：new=首次收录；update=内容有变化；refresh=又观测到但内容未变（仍在滚动窗口内）；backfill=kb_backfill 补全正文/评论后追加；repair=kb_reclassify 订正字段后追加；reclassify=实体订正/合并后追加。raw 只追加，取最新一条（按 captured_at）即为现状。"
+  },
+  "run_id": {
+   "type": "string",
+   "desc": "仅出现在 JSONL：本次运行 id（YYYYMMDDTHHMMSS）"
+  }
+ },
+ "channel_status": {
+  "ok": "探针/采集成功且有数据",
+  "empty": "连通但本次窗口无符合条件数据（窗口/阈值问题，非渠道坏）",
+  "error": "连通或解析失败（需人工看消息列）",
+  "auth": "缺登录态或浏览器扩展（附 unlock 指引，不算坏，也不算已覆盖）",
+  "disabled": "登记在 channels.yaml 的 disabled 列表，不进采集循环"
+ },
+ "decisions": {
+  "keep": "继续启用",
+  "watch": "连通但长期空 → 下一轮评估阈值或停用",
+  "unlock": "缺登录态 → 提示用户解锁方式",
+  "review": "报错 → 人工判断修复或停用"
+ },
+ "enrich": {
+  "fulltext": "正文补全（Exa web_fetch / 平台详情 API）",
+  "comments": "全量评论树",
+  "readme": "GitHub README 全文",
+  "none": "只取元数据"
+ },
+ "note_frontmatter": {
+  "_comment": "note 的 frontmatter 比 raw 记录多几个**派生字段**：它们不进 JSONL，只在落盘时算出来，供 Obsidian / Bases 做检索与分组。由 kb_collect.write_corpus_note 写入；历史条目由 kb_navfix.py 补齐。",
+  "topic": {
+   "type": "string",
+   "desc": "赛道标签，取值见 kb_common.TOPICS（AI 工具/Agent、开发者工具、SaaS/B2B、电商/独立站、内容/媒体、教育/学习、健康/生活、游戏、移动 App、浏览器扩展、未分类）。按「标题 + 正文前 4000 字」首个命中判定。"
+  },
+  "shard": {
+   "type": "string",
+   "desc": "采集批次日 YYYY-MM-DD（= 落盘目录名）。纯字符串 —— Bases 的 groupBy 直接对 ISO 时间串分组会一条一组，所以时间轴需要独立字符串日字段。"
+  },
+  "pub_day": {
+   "type": "string",
+   "desc": "内容发布日 YYYY-MM-DD（published_at 前 10 位）。做趋势分析用这个，**不要**用 shard —— shard 是入库批次。"
+  },
+  "stale": {
+   "type": "boolean",
+   "desc": "仅实体页（10-项目/ 30-人物/）：true = 已无在库语料指向它。由 kb_prune.py --liveness 维护，只打标不搬家，条目回到在库会自动摘除。"
+  },
+  "archived": {
+   "type": "boolean",
+   "desc": "仅 80-归档/ 下的语料页：true = 被存量重判判为无关。配套 archived_at / archive_reason。"
+  }
+ }
+}

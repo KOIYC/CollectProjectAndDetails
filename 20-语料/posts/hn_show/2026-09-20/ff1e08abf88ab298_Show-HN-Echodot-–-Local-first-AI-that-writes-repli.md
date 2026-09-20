@@ -1,0 +1,256 @@
+---
+type: "corpus"
+item_id: "ff1e08abf88ab298"
+title: "Show HN: Echodot – Local-first AI that writes replies in your tone"
+source: "hn_show"
+source_name: "HN Show HN"
+url: "https://news.ycombinator.com/item?id=49735771"
+project_url: "https://github.com/ohkariku-boop/Echodot"
+author: "kariku"
+published_at: "2026-09-17T02:34:13Z"
+captured_at: "2026-09-20T09:36:56+08:00"
+lang: "en"
+kind: "post"
+topic: "AI 工具/Agent"
+shard: "2026-09-20"
+pub_day: "2026-09-17"
+tags:
+  - 语料
+  - hn_show
+  - author_kariku
+  - story_49735771
+  - show_hn
+metrics: {"points": 2, "comments": 0, "engagement_velocity": 2}
+comments_count: 0
+comments_total: 0
+discovered_via: "hn:show_hn:90d"
+---
+
+# Show HN: Echodot – Local-first AI that writes replies in your tone
+
+> [!info] 一句话导读
+> ohkariku-boop/Echodot
+
+> [!meta]- 语料信息（点开展开）
+> 来源：HN Show HN（post）
+> 原帖：<https://news.ycombinator.com/item?id=49735771>
+> 指标：点赞=2 · 评论=0 · engagement_velocity=2
+> 作者：kariku　|　发布：2026-09-17T02:34:13Z
+> 项目链接：<https://github.com/ohkariku-boop/Echodot>
+> 采集：2026-09-20T09:36:56+08:00　|　id：`ff1e08abf88ab298`
+
+## 正文
+
+# ohkariku-boop/Echodot
+
+Echo your voice across every app.
+
+- Stars: 0
+- Forks: 0
+- Watchers: 0
+- Open issues: 0
+- License: MIT License
+- Default branch: main
+- Created: 2026-09-13T01:19:29Z
+
+## Languages
+
+- CSS
+- HTML
+- JavaScript
+- Rust
+- TypeScript
+
+## Top Contributors
+
+- EchoDot (10 contributions)
+- ohkariku-boop (1 contributions)
+
+---
+
+## README
+
+# echodot
+
+**Echo your voice across every app.**
+
+Local-first AI that writes replies in *your* tone.
+Press a hotkey → it reads the context → drafts a reply that sounds like you → pastes it.
+
+Free. Open source. Private by default.
+
+---
+
+## Why echodot?
+
+Most AI writing tools force you into their voice or require constant copy-pasting between apps.
+echodot lives on your machine, works in any application, and learns how *you* actually write.
+
+- **Works everywhere** — No integrations needed. Gmail, Slack, LinkedIn, Discord, Notion, Twitter/X, Outlook, etc.
+- **Your voice** — Learns from your writing samples and preferences.
+- **Local-first** — Runs with Ollama / LM Studio / llama.cpp. Your data stays on your device.
+- **Optional cloud** — Bring your own OpenRouter / OpenAI / Anthropic / Groq key when you want higher quality or speed.
+- **Zero cost by default** — Completely free to use offline.
+
+---
+
+## UI Preview
+
+echodot is a compact dark desktop window designed for speed.
+
+**Main screen (ready state)**
+- Header with title + Settings / Hide buttons
+- Status bar showing current state and the global hotkey
+- Context box (paste or load from clipboard the message you want to reply to)
+- Instruction + Tone fields
+- Quick tone preset chips
+- Model selector (Ollama models or OpenRouter)
+- Large **Generate Reply** button
+
+**After generation**
+- Status updates to “Done • Copied — paste with Ctrl+V / ⌘V”
+- Generated reply appears below
+- One-click “Copy again” if needed
+- Window can be hidden; the app stays running in the background
+
+**Typical flow**
+1. Copy a message from Slack / Gmail / LinkedIn / etc.
+2. Press `Ctrl+Shift+E` (Windows/Linux) or `⌘⇧E` (Mac)
+3. Click **Load clipboard**
+4. (Optional) tweak tone or instruction
+5. Hit **Generate Reply**
+6. Paste the result back into the original app
+
+> Real screenshots will be added once the UI is more polished.
+> Run `npm run tauri dev` to see the live interface.
+
+---
+
+## Features (Roadmap)
+
+### v0.1 – Core (in progress)
+- [x] Global hotkey (⌘⇧E / Ctrl+Shift+E)
+- [x] Clipboard read / write
+- [x] Local model support (Ollama)
+- [x] Generate reply flow
+- [x] Model selector (auto-detects installed Ollama models)
+- [x] Improved prompt engineering
+- [x] **Streaming generation** (token-by-token)
+- [x] **Persistent settings** (tone, instruction, model remembered)
+- [x] **Tone presets** (quick chips + custom)
+- [x] Mobile strategy documented (Android + iOS)
+- [x] **Hide-on-close** (window hides, app keeps running)
+- [x] **Auto-copy on finish** (ready to paste immediately)
+- [x] Manual Hide button
+- [x] **OpenRouter cloud support** (safe model list)
+- [x] **Writing samples** for personalization
+- [x] Provider switcher (Ollama ↔ OpenRouter)
+- [ ] Full system tray icon (requires app icons)
+- [ ] Better context capture (accessibility APIs)
+- [ ] True auto-paste into original app
+
+### Later
+- Voice input
+- Per-app tone rules
+- Skills / custom instructions
+- Better long-term memory
+- Team / enterprise features (optional)
+
+---
+
+## Mobile Strategy (Android & iPhone)
+
+Full desktop-style global hotkeys + screen context are limited on mobile. We will support mobile with adapted experiences:
+
+### Phase 1 – Companion approach (recommended)
+- **Share Sheet / Action Extension**: Select text → Share to echodot → get reply suggestions
+- **Custom Keyboard Extension**: echodot appears as a keyboard with one-tap AI replies
+- Shared core logic (prompts, tone profiles, model settings) between desktop and mobile
+
+### Phase 2 – Native apps
+- **Android**: Kotlin + Jetpack Compose (or Flutter). Accessibility Service for better context where permitted.
+- **iOS**: Swift + SwiftUI. Heavy use of Share Sheet + Keyboard Extension (App Store friendly).
+
+### Tech options for mobile
+| Approach | Pros | Cons |
+|-----------------------|-------------------------------|-------------------------------|
+| Flutter | Fast cross-platform | Larger binary |
+| React Native | Share some frontend code | Bridge overhead |
+| Native (Kotlin/Swift) | Best performance & UX | Two codebases |
+
+**Decision**: Desktop remains the priority (best product-market fit). Mobile companions will be added after the desktop core is solid. The same local-first + optional cloud philosophy will apply.
+
+---
+
+## Tech Stack
+
+- **Desktop**: Tauri 2 (Rust) + React + TypeScript + Tailwind
+- **Local AI**: Ollama / LM Studio (OpenAI-compatible)
+- **Cloud AI**: OpenRouter and any OpenAI-compatible provider
+- **Storage**: localStorage (current) → SQLite later
+- **Mobile (planned)**: Flutter or native Kotlin/Swift companions
+
+---
+
+## Getting Started (Development)
+
+**Prerequisites**
+- Node.js 20+
+- Rust
+- Ollama (recommended for local use) — e.g. `ollama pull llama3.2`
+
+```bash
+git clone https://github.com/ohkariku-boop/Echodot.git
+cd Echodot
+npm install
+npm run tauri dev
+```
+
+Default global hotkey: **⌘⇧E** (macOS) or **Ctrl+Shift+E** (Windows/Linux).
+
+**Behavior notes:**
+- Closing the window **hides** it (app keeps running in the background).
+- When generation finishes the reply is **auto-copied** — just paste with ⌘V / Ctrl+V.
+- Use the **Hide** button to dismiss the window quickly.
+
+### Using OpenRouter (cloud models)
+
+1. Get your own free API key at openrouter.ai/keys
+2. Open echodot → click **Settings**
+3. Switch provider to **OpenRouter (cloud)**
+4. Paste **your own** key
+5. Choose a model (the Free Models Router is a good default)
+
+**Important:** Every user must use their own OpenRouter key.
+No API keys are shipped with the app. Keys are stored only locally on the user’s device.
+
+> Generate icons with `npm run tauri icon your-icon.png` before building a release (required for system tray support).
+
+---
+
+## Philosophy
+
+- **Local-first & private** by default
+- Core features will always remain free and open source
+- Commercial options (hosted version, team features, priority support) may come later — but will never remove or cripple the free local version
+
+---
+
+## License
+
+MIT License — see LICENSE
+
+---
+
+**echodot** — Echo your voice across every app.
+
+## 关联链接
+
+- https://github.com/ohkariku-boop/Echodot.git
+
+## 导航
+
+- 项目页：[[10-项目/github.com_842d0a6e]]
+- 渠道页：[[50-渠道/hn_show]]
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 同渠道/同赛道批量浏览：[[浏览]]

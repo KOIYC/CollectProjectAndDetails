@@ -1,0 +1,23 @@
+=== KB 采集 20260920T023532 · 17 渠道 ===
+[+] HN Show HN             ok         40条   20.2s 40/40 hits | new=40
+[+] GitHub 新星仓库            ok         28条   12.1s 28 repos;  | new=28
+[+] Reddit 独立开发版块          ok         21条   19.8s 21 posts;  | new=21
+[+] Lobsters               ok         20条   19.4s 23 stories | new=20
+[+] dev.to                 ok          5条    5.4s 5 articles | new=5
+[+] Product Hunt           ok         30条    3.8s 30 entries | new=30
+    [i] 正文补全 8/8（exa）
+[+] Indie Hackers 产品库      ok         18条   19.7s 18 products | new=18
+    [i] 正文补全 8/8（exa）
+[+] BetaList               ok         12条   12.2s 12 startups | new=12
+[0] Uneed                  empty       0条    3.8s 0 tools (exa) | new=0
+[+] App Store 榜单           ok         15条   11.3s 50 apps | new=15
+    [i] 正文补全 1/2（exa）
+[+] V2EX                   ok         25条   10.0s 81 topics | new=25
+[+] 1c7 中文独立开发者名录          ok         17条    2.8s 17 entries | new=17
+    [i] 正文补全 6/6（exa）
+[+] 少数派                    ok         10条   15.2s 10 entries | new=10
+[+] B站                     ok         12条    3.6s 55 videos | new=12
+[K] 小红书                    auth        0条   46.9s 需 OpenCLI 浏览器扩展/登录态：(node:31952) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental,
+[K] X / Twitter            auth        0条   46.6s 需 OpenCLI 浏览器扩展/登录态：(node:22060) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental,
+[+] Exa 全网语义发现             ok         15条   20.7s 32 results | new=15
+=== 完成：268 条（新 268）· 运行记录 F:\AIProject\CollectProjectAndDetails\_meta\runs\20260920T023532.json ===

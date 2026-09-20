@@ -1,0 +1,10 @@
+# Python
+__pycache__/
+*.pyc
+
+# Agent 工作区（会话记忆，非项目数据）
+.workbuddy/
+
+# Obsidian 本机 UI 状态（应用配置保留）
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json

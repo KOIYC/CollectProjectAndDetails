@@ -1,0 +1,33 @@
+{
+ "run_id": "backfill-20260920-033751",
+ "kind": "backfill",
+ "queue": 5,
+ "attempted": 5,
+ "filled": 3,
+ "structural_dead": 0,
+ "missed": 2,
+ "comments_queue": 3,
+ "comments_filled": 3,
+ "via": [
+  [
+   "exa_web_fetch",
+   2
+  ],
+  [
+   "gh_readme",
+   1
+  ]
+ ],
+ "channels": [
+  [
+   "indiehackers",
+   2
+  ],
+  [
+   "github_new",
+   1
+  ]
+ ],
+ "started": "2026-09-20T03:38:17+08:00",
+ "elapsed_s": 0
+}

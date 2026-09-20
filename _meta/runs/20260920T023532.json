@@ -1,0 +1,183 @@
+{
+ "run_id": "20260920T023532",
+ "started_at": "2026-09-20T02:35:32+08:00",
+ "ended_at": "2026-09-20T02:40:05+08:00",
+ "elapsed_s": 273.5,
+ "channels": [
+  {
+   "source_id": "hn_show",
+   "name": "HN Show HN",
+   "status": "ok",
+   "count": 40,
+   "message": "40/40 hits | new=40",
+   "elapsed_s": 20.2,
+   "new": 40,
+   "raw": 40
+  },
+  {
+   "source_id": "github_new",
+   "name": "GitHub 新星仓库",
+   "status": "ok",
+   "count": 28,
+   "message": "28 repos;  | new=28",
+   "elapsed_s": 12.1,
+   "new": 28,
+   "raw": 28
+  },
+  {
+   "source_id": "reddit",
+   "name": "Reddit 独立开发版块",
+   "status": "ok",
+   "count": 21,
+   "message": "21 posts;  | new=21",
+   "elapsed_s": 19.8,
+   "new": 21,
+   "raw": 21
+  },
+  {
+   "source_id": "lobsters",
+   "name": "Lobsters",
+   "status": "ok",
+   "count": 20,
+   "message": "23 stories | new=20",
+   "elapsed_s": 19.4,
+   "new": 20,
+   "raw": 20
+  },
+  {
+   "source_id": "devto",
+   "name": "dev.to",
+   "status": "ok",
+   "count": 5,
+   "message": "5 articles | new=5",
+   "elapsed_s": 5.4,
+   "new": 5,
+   "raw": 5
+  },
+  {
+   "source_id": "producthunt",
+   "name": "Product Hunt",
+   "status": "ok",
+   "count": 30,
+   "message": "30 entries | new=30",
+   "elapsed_s": 3.8,
+   "new": 30,
+   "raw": 30
+  },
+  {
+   "source_id": "indiehackers",
+   "name": "Indie Hackers 产品库",
+   "status": "ok",
+   "count": 18,
+   "message": "18 products | new=18",
+   "elapsed_s": 19.7,
+   "new": 18,
+   "raw": 18
+  },
+  {
+   "source_id": "betalist",
+   "name": "BetaList",
+   "status": "ok",
+   "count": 12,
+   "message": "12 startups | new=12",
+   "elapsed_s": 12.2,
+   "new": 12,
+   "raw": 12
+  },
+  {
+   "source_id": "uneed",
+   "name": "Uneed",
+   "status": "empty",
+   "count": 0,
+   "message": "0 tools (exa) | new=0",
+   "elapsed_s": 3.8,
+   "new": 0,
+   "raw": 0
+  },
+  {
+   "source_id": "apple_rss",
+   "name": "App Store 榜单",
+   "status": "ok",
+   "count": 15,
+   "message": "50 apps | new=15",
+   "elapsed_s": 11.3,
+   "new": 15,
+   "raw": 15
+  },
+  {
+   "source_id": "v2ex",
+   "name": "V2EX",
+   "status": "ok",
+   "count": 25,
+   "message": "81 topics | new=25",
+   "elapsed_s": 10.0,
+   "new": 25,
+   "raw": 25
+  },
+  {
+   "source_id": "c1c7",
+   "name": "1c7 中文独立开发者名录",
+   "status": "ok",
+   "count": 17,
+   "message": "17 entries | new=17",
+   "elapsed_s": 2.8,
+   "new": 17,
+   "raw": 17
+  },
+  {
+   "source_id": "sspai",
+   "name": "少数派",
+   "status": "ok",
+   "count": 10,
+   "message": "10 entries | new=10",
+   "elapsed_s": 15.2,
+   "new": 10,
+   "raw": 10
+  },
+  {
+   "source_id": "bilibili",
+   "name": "B站",
+   "status": "ok",
+   "count": 12,
+   "message": "55 videos | new=12",
+   "elapsed_s": 3.6,
+   "new": 12,
+   "raw": 12
+  },
+  {
+   "source_id": "xiaohongshu",
+   "name": "小红书",
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：(node:31952) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect th | new=0",
+   "elapsed_s": 46.9,
+   "new": 0,
+   "raw": 0
+  },
+  {
+   "source_id": "twitter",
+   "name": "X / Twitter",
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：(node:22060) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect th | new=0",
+   "elapsed_s": 46.6,
+   "new": 0,
+   "raw": 0
+  },
+  {
+   "source_id": "exa_discovery",
+   "name": "Exa 全网语义发现",
+   "status": "ok",
+   "count": 15,
+   "message": "32 results | new=15",
+   "elapsed_s": 20.7,
+   "new": 15,
+   "raw": 15
+  }
+ ],
+ "notes_written": 268,
+ "errors": [],
+ "total_items": 268,
+ "total_new": 268,
+ "dry": false
+}

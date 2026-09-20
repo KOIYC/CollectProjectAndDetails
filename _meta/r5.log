@@ -1,0 +1,36 @@
+=== KB 采集 20260920T033847 · 16 渠道 ===
+    [i] 正文补全 24/26（exa）
+    [i] 正文继承 2 条（本轮回榜但取数失败，沿用历史正文）
+[+] HN Show HN             ok         40条   70.2s 40/40 hits | 写盘 1/40 | new=0 chg=1
+    [i] 正文继承 12 条（本轮回榜但取数失败，沿用历史正文）
+[+] GitHub 新星仓库            ok         28条   14.1s 28 repos;  | 写盘 5/28 | new=0 chg=5
+    [i] 正文补全 0/2（exa）
+[+] Reddit 独立开发版块          ok         25条   35.6s 25 posts;  | 写盘 2/25 | new=2 chg=0
+    [i] 正文补全 0/20（exa）
+    [i] 正文继承 20 条（本轮回榜但取数失败，沿用历史正文）
+[+] Lobsters               ok         20条   28.9s 21 stories | 写盘 8/20 | new=0 chg=8
+[+] dev.to                 ok          5条   36.2s 5 articles | 写盘 2/5 | new=0 chg=2
+    [i] 正文补全 0/10（exa）
+    [i] 正文继承 19 条（本轮回榜但取数失败，沿用历史正文）
+[+] HN 首页（非 Show HN）       ok         19条   28.5s 19/19 hits | 写盘 14/19 | new=0 chg=14
+[+] Product Hunt           ok         30条    1.4s 30 entries | 写盘 1/30 | new=1 chg=0
+    [i] 正文补全 0/18（exa）
+    [i] 正文继承 18 条（本轮回榜但取数失败，沿用历史正文）
+[+] Indie Hackers 产品库      ok         18条   25.8s 18 products | 写盘 0/18 | new=0 chg=0
+    [i] 正文补全 0/12（exa）
+    [i] 正文继承 11 条（本轮回榜但取数失败，沿用历史正文）
+[+] BetaList               ok         12条   12.4s 12 startups | 写盘 1/12 | new=1 chg=0
+[+] App Store 榜单           ok         10条    3.5s 38 apps（过滤大厂 12） | 写盘 0/10 | new=0 chg=0
+    [i] 正文补全 0/2（exa）
+    [i] 正文继承 2 条（本轮回榜但取数失败，沿用历史正文）
+[+] V2EX                   ok         25条    6.0s 81 topics | 写盘 0/25 | new=0 chg=0
+    [i] 正文补全 0/15（exa）
+    [i] 正文继承 12 条（本轮回榜但取数失败，沿用历史正文）
+[+] 1c7 中文独立开发者名录          ok         17条   16.8s 17 entries | 写盘 0/17 | new=0 chg=0
+    [i] 正文补全 0/6（exa）
+    [i] 正文继承 3 条（本轮回榜但取数失败，沿用历史正文）
+[+] 少数派                    ok         10条    8.0s 10 entries | 写盘 3/10 | new=0 chg=3
+[+] B站                     ok         12条    2.8s 37 videos | 写盘 3/12 | new=1 chg=2
+[K] 小红书                    auth        0条   46.9s 需 OpenCLI 浏览器扩展/登录态：(node:25560) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental,
+[K] X / Twitter            auth        0条   46.6s 需 OpenCLI 浏览器扩展/登录态：(node:29588) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental,
+=== 完成：271 条（新 5）· 运行记录 F:\AIProject\CollectProjectAndDetails\_meta\runs\20260920T033847.json ===

@@ -1,0 +1,210 @@
+---
+type: "corpus"
+item_id: "2791e91ba9303009"
+title: "Show HN: A beginner-friendly guide for building an operating system from scratch"
+source: "hn_show"
+source_name: "HN Show HN"
+url: "https://news.ycombinator.com/item?id=49739979"
+project_url: "https://github.com/red-mutt/lytlnyblOS"
+author: "red-mutt"
+published_at: "2026-09-17T12:49:51Z"
+captured_at: "2026-09-20T09:36:53+08:00"
+lang: "en"
+kind: "post"
+topic: "开发者工具"
+shard: "2026-09-20"
+pub_day: "2026-09-17"
+tags:
+  - 语料
+  - hn_show
+  - author_red-mutt
+  - story_49739979
+  - show_hn
+metrics: {"points": 3, "comments": 0, "engagement_velocity": 3}
+comments_count: 0
+comments_total: 0
+discovered_via: "hn:show_hn:90d"
+---
+
+# Show HN: A beginner-friendly guide for building an operating system from scratch
+
+> [!info] 一句话导读
+> lytlnyblOS (little nibble OS) is a small, from scratch 32-bit operating system that comes with a complete guide book to teach beginners practically about OS dev…
+
+> [!meta]- 语料信息（点开展开）
+> 来源：HN Show HN（post）
+> 原帖：<https://news.ycombinator.com/item?id=49739979>
+> 指标：点赞=3 · 评论=0 · engagement_velocity=3
+> 作者：red-mutt　|　发布：2026-09-17T12:49:51Z
+> 项目链接：<https://github.com/red-mutt/lytlnyblOS>
+> 采集：2026-09-20T09:36:53+08:00　|　id：`2791e91ba9303009`
+
+## 正文
+
+# red-mutt/lytlnyblOS
+
+lytlnyblOS (little nibble OS) is a small, from scratch 32-bit operating system that comes with a complete guide book to teach beginners practically about OS development.
+
+- Stars: 96
+- Forks: 4
+- Watchers: 96
+- Open issues: 0
+- Homepage: https://red-mutt.github.io/lytlnyblOS/
+- Default branch: main
+- Created: 2024-03-12T22:53:00Z
+
+## Languages
+
+- Assembly
+- C
+- CSS
+- GDB
+- Handlebars
+- JavaScript
+- Linker Script
+- Makefile
+
+## Topics
+
+- assembly
+- c
+- kernel
+- learn
+- learning
+- learning-by-doing
+- learning-project
+- learning-resources
+- operating-system
+- operating-system-kernel
+- operating-system-learning
+- operating-systems
+- operating-systems-learning
+- os
+- osdev
+- x86
+
+## Top Contributors
+
+- red-mutt (179 contributions)
+
+---
+
+## README
+
+# lytlnyblOS
+
+lytlnyblOS (little nibble OS) is a small, from-scratch 32-bit operating system, built to teach beginners practically
+about OS development. It runs on a QEMU virtual machine. Built alongside The lytlnyblOS Book,
+a guide that walks through writing an OS from a 16-bit bootloader all the way through protected mode,
+interrupts, memory management, processes, a filesystem, userspace, and a working shell.
+
+The code in this repo is the code taught in the book. Every part of it corresponds to something
+explained in the book; this is the whole point of the project.
+
+**Please use the website: 📖 red-mutt.github.io/lytlnyblOS for reading.** Not the GitHub repository, for a better experience.
+
+Here's a little video demo of what you'll be making:
+
+https://github.com/user-attachments/assets/f02ed3cf-41a2-4a80-85b7-0d6aa5f0f7ae
+
+This may not look like much to some, but remember: by the end of the book, you'll have your own custom operating system and the freedom to do whatever you want with it! You'll write every line of code!
+
+## Read the book
+
+**📖 red-mutt.github.io/lytlnyblOS**
+
+The book goes in depth, explaining *why* something in the OS works the way it does, not
+just what it does. You'll make:
+
+- A bootloader
+- An entry into x86 Protected mode
+- GDTs & IDTs
+- VGA text mode
+- Interrupts
+- A timer driver
+- A keyboard driver
+- A memory manager
+- Paging systems
+- Processes
+- Scheduling
+- User mode
+- System Calls
+- A C standard library
+- Filesystems
+- A MKFS
+- And finally, a shell
+
+All in this order
+
+## Project status
+
+The project is **complete, with ongoing refinement**
+
+The operating system and accompanying guide are complete from start to finish. The project currently covers the full journey from bootloader to working
+user-space shell. I consider this project *feature complete for its educational goals*. Future work will be mainly
+focused on refining the guide, improving explanations, fixing mistakes and inconsistencies, and making the experience easier for others to follow.
+
+Feedback and corrections are welcome, particularly from people working through the guide themselves. Feel free to read CONTRIBUTING.md
+
+## What the directories in the repository are for
+
+- `guide/` - Source for the book (made with mdbook).
+- `lytlnybl/` - Source for the operating system.
+- `blog_playground/` - Shows a history of the OS's creation, not intended for use and is unmaintained.
+
+## Building and running
+No special hardware is required for this project. You will only need:
+- NASM
+- An `i686` cross-compiler for C
+- QEMU
+- Make
+- GDB
+
+`make run` in `lytlnybl/` assembles the bootloader and kernel, links them, and writes the result
+into the disk image, and boots it in QEMU.
+
+This book assumes that you have access to many UNIX-like commands, like `dd`, `rm`, `mkdir`, and `cp`. Linux is the primary supported environment.
+**Windows users can use WSL.**
+
+## Found an error in the guide?
+
+**Please open an issue**. This is by far the most useful
+way to help this project.
+
+If something in the book is unclear, technically wrong, out of date, or just
+doesn't match the code in `lytlnybl/`, an issue takes two minutes to make
+and helps everyone who reads the guide after you. You don't need to know what to
+fix, just describe what you found:
+
+- A typo or confusing explanation
+- A technical inaccuracy
+- Code in the repo that no longer matches what the book describes
+- A question about something that confuses you
+
+## Contributing
+
+Contributions are welcome, but scope is intentionally limited; please read
+CONTRIBUTING.md before opening a pull request.
+
+## License
+
+Both the guide and source code have two different licenses, both found in the respective `guide/` and
+`lytlnybl/` directories.
+
+## Acknowledgements
+
+See the book's Introduction for acknowledgements.
+
+# ‎Fieldnoter: Transcription App - App Store
+
+## 关联链接
+
+- https://github.com/user-attachments/assets/f02ed3cf-41a2-4a80-85b7-0d6aa5f0f7ae
+- https://red-mutt.github.io/lytlnyblOS/
+
+## 导航
+
+- 项目页：[[10-项目/github.com_4c7a78b9]]
+- 渠道页：[[50-渠道/hn_show]]
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 同渠道/同赛道批量浏览：[[浏览]]

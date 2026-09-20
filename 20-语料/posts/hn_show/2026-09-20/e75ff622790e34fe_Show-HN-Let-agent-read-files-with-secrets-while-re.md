@@ -1,0 +1,435 @@
+---
+type: "corpus"
+item_id: "e75ff622790e34fe"
+title: "Show HN: Let agent read files with secrets while redacting values for LLM contex"
+source: "hn_show"
+source_name: "HN Show HN"
+url: "https://news.ycombinator.com/item?id=49713034"
+project_url: "https://github.com/daniel-sc/contextveil"
+author: "daniel-sc"
+published_at: "2026-09-15T14:24:36Z"
+captured_at: "2026-09-20T14:06:19+08:00"
+lang: "en"
+kind: "post"
+topic: "AI 工具/Agent"
+shard: "2026-09-20"
+pub_day: "2026-09-15"
+tags:
+  - 语料
+  - hn_show
+  - author_daniel-sc
+  - story_49713034
+  - show_hn
+metrics: {"points": 4, "comments": 1, "engagement_velocity": 4}
+comments_count: 1
+comments_total: 1
+discovered_via: "hn:show_hn:90d"
+---
+
+# Show HN: Let agent read files with secrets while redacting values for LLM contex
+
+> [!info] 一句话导读
+> daniel-sc/contextveil
+
+> [!meta]- 语料信息（点开展开）
+> 来源：HN Show HN（post）
+> 原帖：<https://news.ycombinator.com/item?id=49713034>
+> 指标：点赞=4 · 评论=1 · engagement_velocity=4
+> 作者：daniel-sc　|　发布：2026-09-15T14:24:36Z
+> 项目链接：<https://github.com/daniel-sc/contextveil>
+> 采集：2026-09-20T14:06:19+08:00　|　id：`e75ff622790e34fe`
+
+## 正文
+
+# daniel-sc/contextveil
+
+Not another secret scanner. Keep local secrets out of your coding agent’s LLM context.
+
+- Stars: 5
+- Forks: 0
+- Watchers: 5
+- Open issues: 5
+- License: Apache License 2.0
+- Default branch: main
+- Created: 2026-08-16T08:20:05Z
+
+## Languages
+
+- Rust
+- Shell
+- TypeScript
+
+## Topics
+
+- claude-code
+- claude-code-plugin
+- codex
+- copilot-cli
+- opencode
+- security-tools
+
+## Top Contributors
+
+- daniel-sc (114 contributions)
+
+---
+
+## README
+
+# ContextVeil — The tool can read it. The LLM doesn’t need it.
+
+Coding agents read environment variables, `.env` files, configuration, and command output that may contain credentials.
+ContextVeil locally replaces the secret values you’ve chosen before supported text reaches the LLM — **without blocking the workflow.**
+
+```text
+GITHUB_TOKEN=ghp_secret_example  ->  GITHUB_TOKEN=<SECRET:GITHUB_TOKEN>
+```
+
+**The command still runs. The file still gets read.**
+Only enrolled exact values are replaced; the rest of the output stays intact.
+
+1. **A guided setup helps you choose what to protect.**
+2. **Runtime matching is exact and deterministic.**
+3. **Keep working. No magic.**
+
+## Quick Start
+
+Install the latest stable release:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/daniel-sc/contextveil/v1.0.0/install.sh | bash
+```
+
+From your project directory, run:
+
+```bash
+~/.local/bin/contextveil setup
+```
+
+Review the suggested sources and select your coding-agent integration. Restart
+the agent; in Codex, trust the hook on the **Hooks need review** screen or through
+`/hooks`. Then run `~/.local/bin/contextveil doctor`.
+
+Setup requires a terminal and is safe to rerun. Add `~/.local/bin` to your `PATH`
+to use the shorter `contextveil` command.
+
+## Why Use It?
+
+Imagine asking a coding agent to debug your app. It reads `.env` or runs a command
+such as `printenv`. Most of the output is useful, but it also contains an API key.
+That key may become part of the next request to the model (LLM).
+
+ContextVeil does not block the file read or command. The local operation still
+happens. On a supported harness integration path, ContextVeil changes the text headed to
+the model and leaves the rest useful:
+
+```text
+DATABASE_URL=postgres://localhost/my_app
+API_TOKEN=<SECRET:API_TOKEN>
+LOG_LEVEL=debug
+```
+
+This is deliberately a small tool. It is not trying to recognize every possible
+secret or control everything an agent can do.
+
+## Guided Setup, Boring Runtime
+
+`contextveil setup` does the thoughtful part: it checks bounded known credential
+files and probes maintained credential fields, alongside secret-like names and
+credential-bearing URLs. These probes may suggest stale or non-secret strings.
+New suggestions are automatically selected unless collisions are found; common
+configuration literals are omitted. You can also add sources manually. Setup
+shows only masked previews, lets you choose what to protect, and installs the
+integrations you select. It does not scan arbitrary structured files or keys.
+
+Daily use is boring on purpose: ContextVeil reads the current values, performs
+local exact-text replacement, and exits. There is no daemon, no network request,
+no account, no hosted service and no LLM deciding what looks secret. Clean events are
+silent.
+
+And of course it is fast. You won't notice it, promise!
+
+```mermaid
+flowchart TD
+    subgraph setup [Setup: run once, rerun when needed]
+        direction LR
+        A[Find likely environment, .env, and Known Source entries]
+        B[You choose what to protect]
+        C[Install selected coding-agent integrations]
+        D[Store where values live, not the values]
+        A --> B --> C --> D
+    end
+
+    subgraph persistence [Persistence: configuration files]
+      direction LR
+      X[Global<br>~/.config/contextveil/config.toml]
+      Y[Project<br>.contextveil.toml]
+      X ~~~ Y
+    end
+
+    subgraph runtime [Runtime: for each supported event]
+        direction LR
+        E[Coding agent produces model-bound text]
+        F[Read current values from enrolled sources]
+        G{Exact value found?}
+        H[Pass text through unchanged]
+        I[Replace value with a placeholder]
+        J[Cleaned text continues to the LLM]
+        E --> F --> G
+        G -- No --> H --> J
+        G -- Yes --> I --> J
+    end
+
+    setup -. Stored in .-> persistence
+    persistence -. Used by .-> runtime
+```
+
+ContextVeil stores where to find each value, such as “the `API_TOKEN` environment
+variable,” “the `STRIPE_KEY` entry in `.env.local`,” “the exact
+`/tokens/access_token` field in `auth.json`,” or “the decoded
+`spring.datasource.password` key in `application.properties`,” or “the exact
+`//registry.npmjs.org/:_authToken` entry in `.npmrc`.” It does not copy
+the value into its configuration.
+Changes to enrolled files apply on the next supported event. Environment changes apply after you restart the coding agent.
+
+### Known Source Rules
+
+During setup, the following shared vocabulary identifies secret-like source names:
+
+| Terms | Whole token | Compact suffix |
+| --- | ---: | ---: |
+| `token`, `secret`, `password`, `passwd`, `passphrase`, `credential`, `credentials` | Yes | Yes |
+| `key` | Yes | No |
+| `apikey`, `accesskey`, `privatekey`, `clientsecret`, `authtoken`, `refreshtoken` | No | Yes |
+
+Matching is ASCII case-insensitive: **Whole token** means the term appears anywhere as a distinct part separated by `_`, `-`, `.`, spaces, or other non-ASCII-alphanumeric characters, such as `DB_PASSWORD_PROD`.
+**Compact suffix** means those separators are removed and the resulting name ends with the term, such as `StripeApiKey`; plain `key` is excluded here to limit false positives.
+
+Automatic suggestions currently cover:
+
+- **Environment variables and dotenv entries** whose names match the table above, or whose complete values are credential-bearing URLs.
+- **Java properties files** from eligible project and Gradle locations. Decoded keys use the table above, complete credential-bearing URLs qualify regardless of key, and localization bundles are excluded.
+- **Bounded agent credential documents** for Claude Code, Codex, GitHub Copilot, and OpenCode, using maintained credential fields rather than scanning arbitrary keys. Keychain-based credentials and sidecars are excluded.
+- **npmrc files** from documented machine locations and every project `.npmrc`, using exact credential keys plus the same general name and URL checks.
+- **INI files** from the bounded project walk, using
+ the same key-name and URL checks. Section names do not affect eligibility.
+- **More to come:** additional formats such as YAML and TOML.
+
+Across these rules, setup skips automatic suggestions whose values are common
+literals, such as `true`, `yes`, `on`, `0`, `enabled`, `null`, `nil`, `none`, or
+`undefined`, and complete simple variable references in the forms `{{ NAME }}`,
+`${NAME}`, and `%(NAME)s`. This setup-only exclusion applies to all source
+types, including environment variables; complex expressions remain suggestions.
+
+See the full `Known Source Rule inventory` for exact locations, fields, and exclusions.
+
+Environment variables, dotenv files, JSON (including JSON5) files, exact Java properties keys, exact npmrc keys, and INI entries can also be added
+manually without matching these automatic discovery rules.
+
+For INI, manual enrollment or direct configuration-file editing can protect one
+key across all current and future sections.
+
+## Setup Details
+
+### Install With Your Coding Agent
+
+Your agent may install ContextVeil, but source selection stays with you. Ask it to:
+
+1. Get approval before using the network or writing to `~/.local/bin`.
+2. Run the stable installer in Quick Start.
+3. Confirm `checksum verified`, then run `~/.local/bin/contextveil --version`.
+4. Stop and ask you to run `~/.local/bin/contextveil setup` from the project in a
+ real terminal; ordinary agent shell tools may not provide the required TTY.
+5. After setup, remind you to restart the coding agent and run
+ `~/.local/bin/contextveil doctor` from the project. For Codex, first trust the
+ hook on the **Hooks need review** screen or through `/hooks`.
+
+Installation alone is not proof of protection. Report every `warn` or `fail` line
+from `doctor`.
+
+### What Setup Does
+
+Setup walks through:
+
+1. secrets you use across projects;
+2. secrets from the current project;
+3. coding-agent integrations;
+4. an offline check that the selected integrations work.
+
+Complete secret values are never displayed. Suggestions are only suggestions;
+you make the final choices. Rerun setup after changing a Known Source path
+override or when known host locations or fields change.
+
+Use `contextveil status` to inspect your configuration. During normal use,
+ContextVeil stays quiet unless it replaces something or encounters a problem.
+
+## What It Is Good At
+
+- **Keeping useful output.** Commands and file reads still happen. Only enrolled
+ values are replaced on supported model-bound paths.
+- **Being predictable.** Resolved values are trimmed, then matching is literal,
+ case-sensitive, and deterministic.
+ There is no runtime guess about whether arbitrary text looks sensitive.
+- **Handling private token formats.** A value does not need to match a known API
+ key pattern. If you enroll its source, its current exact value can be matched.
+- **Following rotation.** ContextVeil reads the selected environment variables,
+ `.env` entries, exact JSON fields, exact properties keys, npmrc entries, and INI entries for each supported event instead of
+ keeping copied values.
+- **Guiding source enrollment.** Setup applies maintained rules for likely names,
+ credential-bearing URLs, and recognized coding-agent credential stores without
+ turning runtime into a generic credential scanner.
+- **Staying small and local.** Runtime has no network calls, telemetry, account,
+ subscription, or persistent logging. Safe and fast by design.
+
+## Support and Security Limits
+
+V1 supports Linux (including WSL on Windows) and macOS on x86_64 and arm64.
+
+| Coding agent | Support | Text ContextVeil can replace | If ContextVeil fails |
+| --- | --- | --- | --- |
+| Claude Code | **Production** | String values in successful tool results that Claude allows hooks to replace | Claude continues with the original content: fail open |
+| OpenAI Codex CLI | **EXPERIMENTAL** | Supported successful tool results; replacement becomes plain text and may lose structure | Codex continues with the original content: fail open |
+| GitHub Copilot CLI | **EXPERIMENTAL** | Transformed user prompts and successful text tool results | Copilot continues with the original content: fail open |
+| OpenCode | **EXPERIMENTAL** | New user text and successful standard tool output on the V1 plugin API | A detected problem stops that covered operation while the plugin is running |
+
+Experimental integrations are functional and fixture-tested, but they are not
+part of the production support promise.
+
+ContextVeil is a guardrail for accidental exposure, not a general security
+boundary:
+
+- It protects only current, exact values from sources you enroll. Unknown,
+ encoded, split, normalized, hashed, or otherwise transformed values are not
+ detected.
+- Coverage applies only when the coding-agent application loads and honors the
+ installed integration. Cloud, remote, container, and company-managed setups
+ need their own working installation.
+- Claude, Codex, and Copilot fail open. If their hook crashes, times out, is
+ disabled, or is bypassed, the coding agent may continue with the original text.
+ OpenCode can stop a covered operation only after its plugin has loaded.
+- ContextVeil does not stop local processes from reading or using credentials,
+ and other coding-agent hooks may see the original content before redaction.
+- Short, common, or reference-shaped enrolled values can also match and replace
+ ordinary text. Setup omits a small fixed vocabulary and complete simple
+ variable references from wholly new automatic suggestions, but manual,
+ existing, and wildcard enrollment can still activate those values.
+- Known source rules are version-sensitive setup advice, not a coverage
+ guarantee. They may suggest stale or non-secret values and automatically select
+ eligible new suggestions unless collisions are found; review masked candidates
+ before saving. Unsupported raw sidecars, keychains, helpers, unknown fields,
+ and new locations remain outside current coverage as detailed in `LIM-023`.
+- ContextVeil does not evaluate variable references; enroll the underlying
+ concrete source. If a skipped source later contains a concrete credential,
+ rerun setup to discover it.
+
+See limitations.md for the complete security boundary and
+coding-agent-specific gaps.
+
+## Commands
+
+```bash
+# find sources, record your choices, and install integrations. It is interactive and safe to rerun:
+contextveil setup
+
+# give a quick view of current sources and integrations:
+contextveil status
+
+# It can optionally offer a confirmed, paid/networked Claude test.
+contextveil doctor
+
+contextveil --help
+contextveil --version
+```
+
+## Configuration
+
+ContextVeil keeps source references in:
+
+- `${XDG_CONFIG_HOME:-~/.config}/contextveil/config.toml` for sources used across
+ projects;
+- `.contextveil.toml` at the selected project root for project sources.
+
+The two files are additive. Review `.contextveil.toml` before using an untrusted
+project: it can refer to environment variables or supported source files outside the
+project. If a selected config is invalid or unreadable,
+ContextVeil uses none of the sources for that event instead of applying partial redaction.
+
+## Installation Details
+
+You can download a checksummed binary directly from
+GitHub Releases, extract and place it
+at `~/.local/bin/contextveil`.
+
+Alteratively, the install script detects your platform and architecture, downloads the matching
+release, verifies its SHA-256 checksum, and replaces the binary atomically:
+
+```text
+install.sh [--install-dir DIR] [--version VERSION] [--allow-major-upgrade]
+```
+
+It never runs setup or changes ContextVeil or coding-agent configuration.
+Rerunning it upgrades within the installed major version. A major-version upgrade
+requires `--allow-major-upgrade`, and a prerelease is installed only when you name
+its exact version.
+
+To build the current source instead:
+
+```bash
+mise install
+mise run build
+```
+
+The binary will be at `target/release/contextveil`.
+
+## Development
+
+mise is the supported entry point. It pins the Rust
+toolchain, so no globally installed Rust utility is required. You still need a
+system C linker: `cc` from `build-essential` on Linux or the Xcode command line
+tools on macOS.
+
+```bash
+mise install         # install the pinned toolchain
+mise run check       # formatting, Clippy with warnings denied, and tests
+mise run build       # release binary
+mise run fuzz-smoke  # bounded fuzz smoke run
+mise run bench       # representative runtime workload
+mise run package     # build and package a release artifact
+mise run release-check
+```
+
+Test and fuzz tasks choose a private temporary directory with no ancestor project
+config or Git marker, then remove it on exit. They try `TMPDIR`, `/tmp`, and
+`/var/tmp` in order; set `TMPDIR` to a clean location if none is usable.
+
+## More Detail
+
+- Specification: authoritative V1 behavior
+- Limitations: complete security and coding-agent boundaries
+- Vision: product intent and non-goals
+- Architecture: implementation boundaries
+- Changelog: release history
+- Known Source Rule inventory: supported bounded rules,
+ exact locations and fields, and non-contract boundaries
+
+ContextVeil is free and open source under MIT OR Apache-2.0. It needs no account
+or hosted runtime.
+
+# hush.md — share markdown that keeps quiet
+
+## 评论（1/1）
+
+> **daniel-sc** · 2026-09-15T14:25:21.000Z　
+> I never installed any "secrets scanner", because of fear it might mess with legitimate tool usage / model context in unexpected ways.The primary goal of this tool is to adress this. So all "smartness" is in the (human controlled) setup with heuristics helping finding relevant secrets. A plain config file stores references (not secrets themselves), and the runtime harness hook resolves these values and does a literal search + replace for LLM bound text.Example: It does not block reading `.env.local` but only redacts secrets that were configured in the setup step. This way, the relevant config values can be read by the LLM (and probably the LLM has less incentive to work around to read the full file anyways..).This intentionally does not cover all ways secrets can escape (direct exfiltration to third parties, transformed values - e.g. base64, unknown secrets, ...) - but I think, the value of "not being afraid to get obstructed" would outweigh that. Also, accidental disclosures shoud be covered rather well.Currently Claud Code + experimental Codex, Copilot, OpenCode support.
+> Runs fully local and is free and open source.Let me know: Why would you (not) use it?
+
+## 关联链接
+
+- https://raw.githubusercontent.com/daniel-sc/contextveil/v1.0.0/install.sh
+
+## 导航
+
+- 项目页：[[10-项目/github.com_f278e145]]
+- 渠道页：[[50-渠道/hn_show]]
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 同渠道/同赛道批量浏览：[[浏览]]

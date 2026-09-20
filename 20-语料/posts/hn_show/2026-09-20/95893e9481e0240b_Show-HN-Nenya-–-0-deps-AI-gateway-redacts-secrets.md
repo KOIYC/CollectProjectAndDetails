@@ -1,0 +1,418 @@
+---
+type: "corpus"
+item_id: "95893e9481e0240b"
+title: "Show HN: Nenya – 0-deps AI gateway redacts secrets before they reach providers"
+source: "hn_show"
+source_name: "HN Show HN"
+url: "https://news.ycombinator.com/item?id=49711809"
+project_url: "https://github.com/gumieri/nenya"
+author: "garou"
+published_at: "2026-09-15T12:54:24Z"
+captured_at: "2026-09-20T09:37:18+08:00"
+lang: "en"
+kind: "post"
+topic: "AI 工具/Agent"
+shard: "2026-09-20"
+pub_day: "2026-09-15"
+tags:
+  - 语料
+  - hn_show
+  - author_garou
+  - story_49711809
+  - show_hn
+metrics: {"points": 3, "comments": 0, "engagement_velocity": 3}
+comments_count: 0
+comments_total: 0
+discovered_via: "hn:show_hn:90d"
+---
+
+# Show HN: Nenya – 0-deps AI gateway redacts secrets before they reach providers
+
+> [!info] 一句话导读
+> A lightweight, highly secure AI API Gateway/Proxy written in Go. Acts as transparent middleware between local AI coding clients (OpenCode/Pi/Cursor) and upstrea…
+
+> [!meta]- 语料信息（点开展开）
+> 来源：HN Show HN（post）
+> 原帖：<https://news.ycombinator.com/item?id=49711809>
+> 指标：点赞=3 · 评论=0 · engagement_velocity=3
+> 作者：garou　|　发布：2026-09-15T12:54:24Z
+> 项目链接：<https://github.com/gumieri/nenya>
+> 采集：2026-09-20T09:37:18+08:00　|　id：`95893e9481e0240b`
+
+## 正文
+
+# gumieri/nenya
+
+A lightweight, highly secure AI API Gateway/Proxy written in Go. Acts as transparent middleware between local AI coding clients (OpenCode/Pi/Cursor) and upstream LLM providers (Gemini, DeepSeek, Zhipu z.ai).
+
+- Stars: 26
+- Forks: 0
+- Watchers: 26
+- Open issues: 5
+- License: Apache License 2.0
+- Default branch: main
+- Created: 2026-03-28T21:23:38Z
+
+## Languages
+
+- Dockerfile
+- Go
+- Shell
+
+## Topics
+
+- ai
+- ai-gateway
+- ai-governance
+- ai-proxy
+- ai-safety
+- ai-security
+- ai-tools
+- anthropic
+- deepseek
+- litellm-alternative
+- llm
+- llm-gateway
+- observability
+- ollama
+- openai
+- openai-compatible-api
+- openai-proxy
+- opencode-zen
+- proxy
+- zhipu-ai
+
+## Top Contributors
+
+- gumieri (504 contributions)
+- dependabot[bot] (11 contributions)
+
+---
+
+## README
+
+# Nenya AI Gateway
+
+![go-version] ![License][license] ![zero-deps] ![CI][ci] ![CodeQL][codeql] ![Release][release] ![Sponsor][sponsor]
+
+A lightweight, zero-dependency AI API Gateway written in Go. Nenya sits between your AI coding clients and upstream LLM providers, adding secret redaction, context management, agent routing, and MCP tool integration — all with transparent SSE streaming. Security-hardened: non-root execution, mlock for secrets, seccomp + no-new-privileges.
+
+**Compatible with any provider that implements the OpenAI Or Anthropic Chat Completions API.** For 23 providers we ship built-in adapters with specialized handling.
+
+## How Nenya handles the requests
+
+```text
++----------------------------------------------+
+| Client (Cursor / OpenCode / Aider / etc.)    |
+| OpenAI-compatible request                    |
+| POST /v1/chat/completions + Bearer token     |
+| or                                           |
+| Anthropic Messages API request               |
+| POST /v1/messages + Bearer token |
++----------------------------------------------+
+                        |
+                        v
++----------------------------------------------+
+| Nenya Gateway                                |
+| - auth check + RBAC enforcement              |
+| - parse JSON + extract model                 |
+| - resolve agent/provider                     |
+| - optional cache (HIT => replay SSE)         |
+| - optional MCP context/tool injection        |
++----------------------------------------------+
+                        |
+                        v
++----------------------------------------------+
+| Interceptor Chain (pluggable, best-effort)   |
+| - RedactInterceptor  (regex patterns)        |
+| - EntropyInterceptor (high-entropy strings)  |
+| - TFIDFInterceptor   (relevance scoring)     |
+| - BouncerInterceptor (engine summarization)  |
++----------------------------------------------+
+                        |
+                        v
++----------------------------------------------+
+| Token Budget Trimming (if payload > hard     |
+| limit) drops oldest non-system messages and  |
+| applies token-aware middle-out truncation    |
++----------------------------------------------+
+                        |
+                        v
++----------------------------------------------+
+| Routing                                      |
+|  A) Standard forwarding                      |
+|     - fallback chain + circuit breaker + RL  |
+|  B) MCP multi-turn tool loop (if enabled)    |
+|     - buffer SSE, execute MCP tools, re-send |
+|  C) Context-limit retry                      |
+|     - on upstream 413/context_exceeded,      |
+|       summarize payload, retry with fallback |
++----------------------------------------------+
+                        |
+                        v
++----------------------------------------------+
+| Upstream LLM Providers                       |
+| Anthropic | Gemini | DeepSeek | Mistral | ...|
++----------------------------------------------+
+                        |
+                        |  SSE stream
+                        v
++----------------------------------------------+
+| Nenya SSE Pipeline                           |
+| - adapter response transforms                |
+| - (optional) OpenAI→Anthropic conversion     |
+| - usage accounting + stream filter           |
+| - flush + (optional) cache capture           |
+| - (optional) MCP auto-save                   |
++----------------------------------------------+
+                        |
+                        v
++----------------------------------------------+
+| Client receives transparent SSE output       |
++----------------------------------------------+
+```
+
+Flow notes:
+- `/v1/*` endpoints require client bearer auth; `/healthz`, `/statsz`, `/metrics` do not.
+- Pipeline failures degrade gracefully and forward the request instead of returning a 500.
+- MCP-enabled agents can run local/remote tools without exposing MCP complexity to the client.
+
+## Features
+
+### Routing & Agents
+
+- **Config-driven provider registry** — add providers via JSON, zero code changes
+- **23 built-in providers** with specialized adapters for wire format differences
+- **Dynamic model discovery** — fetches live model catalogs from providers at startup and on reload
+- **Model registry** — reference models by string shorthand with automatic provider/context resolution
+- **Multi-provider model resolution** — when a model exists in multiple providers, all are added to the agent's fallback chain
+- **Three-tier model resolution** — config overrides > discovered models > static registry
+- **Per-model wire format** — models from multi-format gateways (OpenCode Zen) auto-convert between OpenAI, Anthropic, and Gemini wire formats based on the model's `format` attribute
+- **Agent fallback chains** — round-robin or sequential with circuit breaker and automatic failover
+- **Latency-aware routing** — auto-reorder targets by historical median response time with ±5% jitter to prevent thundering herd
+- **Per-agent system prompts** — inline or file-based
+
+### Security & Privacy
+
+- **Tier-0 regex secret filter** — always-on redaction of AWS keys, GitHub tokens, passwords, etc.
+- **3-Tier content pipeline** — pluggable interceptor chain: regex redaction, entropy filtering, TF-IDF relevance scoring, engine summarization
+- **Context window compaction** — sliding window summarization with configurable engine
+- **Stale tool call pruning** — compact old assistant+tool response pairs to save tokens
+- **Thought pruning** — strip reasoning blocks from assistant message history
+- **Input validation** — strict body limits, JSON sanitization, header filtering
+- **Graceful degradation** — never blocks requests due to engine or pipeline failures
+- **Role-Based Access Control (RBAC)** — per-API key roles (admin, user, read-only) with agent and endpoint restrictions
+- **Secure memory** — mlock-protected token storage, read-only sealing, core dump prevention
+
+### Hardening (Deployment Security)
+
+- **Secure memory (default)**: All tokens stored in mlock-protected RAM, sealed read-only after init, core dumps disabled
+- **Non-root execution** — runs as UID 65532 with dropped capabilities
+- **Memory protection** — `LimitMEMLOCK=infinity` and `LimitCORE=0` in systemd
+- **Read-only filesystem** — immutable root + private `/tmp`
+- **Seccomp + no-new-privileges** — restricted syscalls, prevents privilege escalation
+- **Zero-trust secrets** — loaded via systemd credentials or container mounts, never to disk
+- **Socket activation** — seamless restarts with zero dropped connections
+
+### Reliability
+
+- **Zero external dependencies** — Go standard library only
+- **Hot reload** — `systemctl reload nenya` for zero-downtime config changes
+- **Circuit breaker** — per agent+provider+model with automatic failover, exponential backoff, and semantic error classification
+- **Rate limiting** — per upstream host (RPM/TPM) with per-provider overrides
+- **Response cache** — in-memory LRU with SHA-256 fingerprinting and optional semantic similarity search
+- **Graceful shutdown** — 30s grace period for in-flight requests, MCP client cleanup
+- **Context-limit auto-retry** — upstream context-length errors trigger summarization and retry
+- **Local engine lifecycle** — pre-load and manage local Ollama models with LRU eviction
+- **Structured errors** — all error responses include `error_kind` field for programmatic diagnostics
+
+### MCP Tool Integration
+
+- **Tool discovery** — connect to MCP servers for automatic tool injection
+- **Multi-turn execution** — intercept tool calls, execute against MCP servers, forward results
+- **Auto-search** — pre-fetch relevant context from MCP servers before forwarding
+- **Auto-save** — persist assistant responses to MCP memory servers
+
+## Quick Start
+
+### Run with Podman
+
+Create minimal config and secrets:
+
+```bash
+mkdir -p config secrets
+cat > config/config.json << 'EOF'
+{
+  "server": { "listen_addr": ":8080" },
+  "agents": {
+    "default": {
+      "strategy": "fallback",
+      "models": ["gemini-2.5-flash"]
+    }
+  }
+}
+EOF
+
+cat > secrets/provider_keys.json << 'EOF'
+{
+  "provider_keys": {
+    "gemini": "AIza..."
+  }
+}
+EOF
+
+cat > secrets/client.json << 'EOF'
+{
+  "client_token": "nk-$(openssl rand -hex 32)"
+}
+EOF
+```
+
+Run the container:
+
+```bash
+podman run -d \
+  --name nenya \
+  -p 8080:8080 \
+  -v ./config:/etc/nenya:ro \
+  -v ./secrets:/run/secrets/nenya:ro \
+  -e NENYA_SECRETS_DIR=/run/secrets/nenya \
+  --cap-drop=ALL \
+  --cap-add=IPC_LOCK \
+  --security-opt=no-new-privileges:true \
+  --read-only \
+  --tmpfs /tmp:rw,noexec,nosuid,size=64M \
+  ghcr.io/gumieri/nenya:latest
+```
+
+Test it:
+
+```bash
+curl -H "Authorization: Bearer $(jq -r '.client_token' secrets/client.json)" \
+  http://localhost:8080/healthz
+```
+
+### Or Install via Package Manager
+
+Nenya provides native packages for major Linux distributions and community package managers:
+
+| Distribution | Command |
+|-------------|---------|
+| **Debian/Ubuntu (.deb)** | Download `nenya_ _linux_amd64.deb` from the release page and run `sudo dpkg -i` |
+| **Fedora/RHEL (.rpm)** | Download `nenya-.x86_64.rpm` from the release page and run `sudo rpm -i` |
+| **Arch Linux (.pkg.tar.zst)** | Download `nenya- -x86_64.pkg.tar.zst` from the release page and run `sudo pacman -U` |
+| **Arch Linux (AUR)** | `yay -S nenya-bin` (or your preferred AUR helper) |
+| **Nix/NixOS** | Add `gumieri/nur-packages` to your NUR registry and use `nenya` |
+
+All packages install the binary to `/usr/bin/nenya` and include systemd service and socket units. After install, enable and start:
+
+```bash
+sudo systemctl enable --now nenya.socket
+sudo systemctl enable --now nenya.service
+```
+
+### Runtime Configuration
+
+Nenya supports standard environment variables for deployment portability:
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| `PORT` | `8080` | Listening port (overrides `server.listen_addr`) |
+| `HOST` | — | Optional bind address (e.g. `127.0.0.1`). Only used when combined with `PORT` |
+| `NENYA_CONFIG_DIR` | `/etc/nenya/` | Configuration directory path |
+| `NENYA_CONFIG_FILE` | — | Single config file path (takes precedence over `NENYA_CONFIG_DIR`) |
+| `NENYA_SECRETS_DIR` | — | Secrets directory (overrides `CREDENTIALS_DIRECTORY`) |
+
+Example usage:
+```bash
+PORT=9090 HOST=127.0.0.1 ./nenya --config /path/to/config.json
+```
+
+Or in Docker:
+```bash
+docker run -e PORT=9090 -p 9090:9090 ghcr.io/gumieri/nenya:latest
+```
+
+### Or Choose Your Deployment
+
+- **Deploy Bare Metal (systemd)** — Direct binary install, socket activation, hot reload
+- **Deploy Container (Podman/Docker Compose)** — compose.yml, image verification, security hardening
+- **Deploy Kubernetes (Helm)** — Helm chart, ConfigMap/Secret, ingress setup
+
+## API Endpoints
+
+All `/v1/*` endpoints require `Authorization: Bearer <client_token>` or `Bearer <api_key_token>`.
+API keys support **RBAC enforcement** — agent scoping, endpoint allowlists, role-based permissions (admin bypasses all checks).
+
+| Endpoint | Auth | Description |
+|----------|------|-------------|
+| `POST /v1/chat/completions` | Bearer + RBAC | OpenAI-compatible chat with SSE streaming, agent fallback, MCP multi-turn |
+| `POST /v1/messages` | Bearer + RBAC | Anthropic Messages API with bidirectional format conversion |
+| `GET /v1/models` | Bearer + RBAC | Live model catalog from discovered providers + static registry (context window, max tokens) |
+| `POST /v1/embeddings` | Bearer + RBAC | Passthrough proxy |
+| `POST /v1/responses` | Bearer + RBAC | Passthrough proxy |
+| `POST /v1/images/generations` | Bearer + RBAC | Image generation (OpenAI-compatible) |
+| `POST /v1/audio/transcriptions` | Bearer + RBAC | Audio transcription (Whisper-compatible, multipart support) |
+| `POST /v1/audio/speech` | Bearer + RBAC | Text-to-speech synthesis (OpenAI-compatible) |
+| `POST /v1/moderations` | Bearer + RBAC | Content moderation (OpenAI-compatible) |
+| `POST /v1/rerank` | Bearer + RBAC | Re-ranking API (Cohere/Jina/Voyage-compatible) |
+| `POST /v1/a2a` | Bearer + RBAC | Agent-to-Agent protocol (Google A2A) |
+| `GET/POST/DELETE /v1/files` | Bearer + RBAC | File listing, upload, retrieval, deletion |
+| `POST/GET /v1/batches` | Bearer + RBAC | Batch API operations |
+| `POST /proxy/{provider}/*` | Bearer + RBAC | Arbitrary provider endpoint passthrough (all HTTP methods, SSE streaming) |
+| `GET /healthz` | None | Engine health probe |
+| `GET /statsz` | None | Token usage, circuit breaker state, MCP server status |
+| `GET /metrics` | None | Prometheus-compatible metrics |
+| `GET /debug/pprof/*` | Bearer | Go profiling endpoints (disabled by default, see `debug.pprof_enabled`) |
+
+See `docs/PASSTHROUGH_PROXY.md` for detailed passthrough proxy usage.
+
+## Documentation
+
+| Document | Description |
+|----------|-------------|
+| Providers | All 23 providers, capabilities matrix, special behaviors, adding custom providers |
+| Configuration | Full config reference, directory mode, all sections and fields |
+| Deploy Bare Metal | Systemd unit, config.d layout, secrets, hot reload |
+| Deploy Container | Podman/Docker Compose, image verification, security notes |
+| Deploy Kubernetes | Helm chart usage, ConfigMap/Secret, ingress setup |
+| Passthrough Proxy | Raw provider endpoint proxying, SSE streaming, auth injection |
+| Architecture | Package DAG, request lifecycle, circuit breaker, SSE pipeline |
+| MCP Integration | MCP server integration, tool discovery, multi-turn execution |
+| Adapters | Adapter system internals, auth styles, capability flags |
+| Secrets Format | Systemd credentials, env var fallback, container/K8s deployment |
+| Security | Vulnerability reporting policy |
+
+## License
+
+Apache 2.0. See `LICENSE`.
+
+---
+
+[go-version]: https://img.shields.io/badge/Go-1.26-00ADD8?logo=golang&logoColor=white
+[license]: https://img.shields.io/badge/License-Apache_2.0-5B44C2?logo=apache&logoColor=white
+[zero-deps]: https://img.shields.io/badge/Dependencies-0-2EA043?logo=golang&logoColor=white
+[ci]: https://img.shields.io/github/actions/workflow/status/gumieri/nenya/ci.yml?branch=main&logo=github&logoColor=white&label=CI
+[codeql]: https://img.shields.io/github/actions/workflow/status/gumieri/nenya/codeql.yml?branch=main&logo=github&logoColor=white&label=CodeQL
+[release]: https://img.shields.io/github/v/release/gumieri/nenya?logo=github&logoColor=white&sort=semver
+[sponsor]: https://img.shields.io/badge/Sponsor-GitHub-EA4AAA?logo=githubsponsors&logoColor=white
+
+# SubRunGear
+
+## 关联链接
+
+- http://localhost:8080/healthz
+- https://img.shields.io/badge/Dependencies-0-2EA043?logo=golang&logoColor=white
+- https://img.shields.io/badge/Go-1.26-00ADD8?logo=golang&logoColor=white
+- https://img.shields.io/badge/License-Apache_2.0-5B44C2?logo=apache&logoColor=white
+- https://img.shields.io/badge/Sponsor-GitHub-EA4AAA?logo=githubsponsors&logoColor=white
+- https://img.shields.io/github/actions/workflow/status/gumieri/nenya/ci.yml?branch=main&logo=github&logoColor=white&label=CI
+- https://img.shields.io/github/actions/workflow/status/gumieri/nenya/codeql.yml?branch=main&logo=github&logoColor=white&label=CodeQL
+- https://img.shields.io/github/v/release/gumieri/nenya?logo=github&logoColor=white&sort=semver
+
+## 导航
+
+- 项目页：[[10-项目/github.com_d5537f52]]
+- 渠道页：[[50-渠道/hn_show]]
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 同渠道/同赛道批量浏览：[[浏览]]

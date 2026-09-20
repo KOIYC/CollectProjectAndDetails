@@ -1,0 +1,405 @@
+---
+type: "corpus"
+item_id: "a5699849c728c66f"
+title: "Show HN: Linux Doctor – read-only health checks that explain what's wrong"
+source: "hn_show"
+source_name: "HN Show HN"
+url: "https://news.ycombinator.com/item?id=49711267"
+project_url: "https://github.com/zShaD0w7x/linux-doctor"
+author: "7sh1d0w7x"
+published_at: "2026-09-15T12:03:47Z"
+captured_at: "2026-09-20T09:37:26+08:00"
+lang: "en"
+kind: "post"
+topic: "开发者工具"
+shard: "2026-09-20"
+pub_day: "2026-09-15"
+tags:
+  - 语料
+  - hn_show
+  - author_7sh1d0w7x
+  - story_49711267
+  - show_hn
+metrics: {"points": 11, "comments": 0, "engagement_velocity": 11}
+comments_count: 0
+comments_total: 0
+discovered_via: "hn:show_hn:90d"
+---
+
+# Show HN: Linux Doctor – read-only health checks that explain what's wrong
+
+> [!info] 一句话导读
+> zShaD0w7x/linux-doctor
+
+> [!meta]- 语料信息（点开展开）
+> 来源：HN Show HN（post）
+> 原帖：<https://news.ycombinator.com/item?id=49711267>
+> 指标：点赞=11 · 评论=0 · engagement_velocity=11
+> 作者：7sh1d0w7x　|　发布：2026-09-15T12:03:47Z
+> 项目链接：<https://github.com/zShaD0w7x/linux-doctor>
+> 采集：2026-09-20T09:37:26+08:00　|　id：`a5699849c728c66f`
+
+## 正文
+
+# zShaD0w7x/linux-doctor
+
+Read-only health checks for your Linux system — finds real problems, explains them, and tells you how to fix them.
+
+- Stars: 12
+- Forks: 3
+- Watchers: 12
+- Open issues: 13
+- License: GNU General Public License v3.0
+- Default branch: main
+- Created: 2026-08-15T16:05:02Z
+
+## Languages
+
+- CSS
+- HTML
+- JavaScript
+- Roff
+- Rust
+- Shell
+
+## Topics
+
+- bash
+- cli
+- cli-tool
+- desktop-app
+- devops
+- diagnostics
+- fedora
+- healthcheck
+- homelab
+- linux
+- linux-tools
+- monitoring
+- nodejs
+- observability
+- selfhosted
+- shell
+- sysadmin
+- systemd
+- tauri
+- troubleshooting
+
+## Top Contributors
+
+- zShaD0w7x (194 contributions)
+- hett-patell (4 contributions)
+
+---
+
+## README
+
+# 🩺 Linux Doctor
+
+Latest release
+CI
+License
+Sponsor
+
+**Linux diagnostics that explain the problem and remember what changed.**
+
+Linux Doctor runs safe, read-only checks and surfaces only the issues that
+actually matter. Each finding comes with an explanation and a copy-paste fix. It
+remembers your last run, so every report tells you what's new, what got fixed,
+and what stayed the same.
+
+```bash
+npx linux-doctor        # one run, nothing to install
+```
+
+> Its own code never modifies your system. Drop-in checks
+> (`~/.config/linux-doctor/checks/`) and the Pro add-on are code that **you**
+> install and run with your own privileges. See
+> docs/configuration.md.
+
+- One clear next step. Every report leads with START HERE, the single most useful
+ action, not a wall of graphs.
+- Memory built in. A health score (0-100), a trend sparkline, and a plain
+ NEW/FIXED diff on every run.
+- Read-only by construction. It never changes your system; fixes are suggestions
+ you run yourself. The optional `--fix` shows a dry run first, and running it
+ takes a second opt-in.
+- CLI, web dashboard and desktop app (Tauri) run the exact same checks.
+- Runs from `npx`, npm, an RPM, a `.deb` or the AppImage, and works on immutable
+ distros (Silverblue, Bazzite).
+
+## Why Linux Doctor?
+
+Linux already has the data. `journalctl`, `systemctl --failed`, `df`, `free`,
+`smartctl`. What it does not give you is the answer: you get raw output and you
+have to find the line that matters. Linux Doctor reads the same sources and
+returns the **conclusion**: what is wrong, why it matters, and the command to
+fix it.
+
+It is deliberately **a doctor, not a monitor**. It does not stream metrics,
+manage processes, or sit in the background waiting to page you. It answers
+"what's wrong right now?" in seconds, remembers the previous answer, and tells
+you what changed. That is a different job from a monitoring stack:
+
+| Tool | Job |
+|---|---|
+| Uptime Kuma, Beszel, Netdata | always-on metrics, uptime, alerting |
+| Cockpit | interactive server administration |
+| `inxi` / `neofetch` | hardware and system *inventory* |
+| **Linux Doctor** | **diagnose → explain → suggest a fix → remember what changed** |
+
+Run it when something feels off, before filing a bug report, or daily from a
+`systemd` timer. You get one clear next step instead of a wall of graphs. Use it
+alongside your monitoring stack, not instead of it.
+
+## Download the app (recommended)
+
+Desktop app — no install, no package manager:
+
+- **Latest release** — grab `linux-doctor- -x86_64.AppImage`
+
+```bash
+chmod +x linux-doctor-*-x86_64.AppImage
+./linux-doctor-*-x86_64.AppImage
+```
+
+Also attached to each release: `.deb` (Debian/Ubuntu), `.rpm`
+(Fedora/RHEL/openSUSE) and the CLI tarball.
+AppImage runs on most distributions (glibc-based); on immutable systems
+(Fedora Silverblue, Bazzite) it works out of the box. **Nothing needs to be
+installed** — the desktop packages embed their own Node.js 22 runtime
+(` /runtime/node`), so the app's checks run even on a machine with
+no Node on `PATH`. `LINUX_DOCTOR_NODE=/path/to/node` still overrides it.
+
+> Installed size: the bundled runtime adds roughly 130 MB to the package.
+
+ Troubleshooting: blank/white window or EGL errors (AppImage, very new Mesa)
+
+The bundle's WebKitGTK comes from an older LTS base; its accelerated paths can
+abort against bleeding-edge host Mesa (`Could not create default EGL display`)
+or paint a blank/white webview. This is about the host's driver stack, not the
+GPU brand: **AMD and Intel** graphics (and nouveau) all run on Mesa and are
+equally exposed; NVIDIA's proprietary driver ships its own stack.
+
+**Current builds handle both automatically** before any GTK/WebKit code runs:
+
+- the AppImage defaults to software GL (a diagnostics dashboard does not need
+ GPU anyway) — set `LINUX_DOCTOR_HARDWARE_GL=1` to force hardware rendering;
+- WebKit's DMA-BUF renderer is disabled (the usual cause of a white window) —
+ set `WEBKIT_DISABLE_DMABUF_RENDERER=0` to opt back in.
+
+On older builds, launch with either (or both):
+
+```bash
+WEBKIT_DISABLE_DMABUF_RENDERER=1 ./linux-doctor-*-x86_64.AppImage
+# still blank? also try:
+LIBGL_ALWAYS_SOFTWARE=1 WEBKIT_DISABLE_COMPOSITING_MODE=1 ./linux-doctor-*-x86_64.AppImage
+```
+
+If it is **still** blank, the AppImage's **bundled** WebKitGTK is incompatible
+with your host's driver stack (seen on very new Mesa and NVIDIA). Install the
+`.deb`/`.rpm` — or the OBS package — instead: those
+use the WebKitGTK shipped by your distribution, which matches the host.
+
+## Install & first run (CLI)
+
+Needs Node.js ≥ 20.
+
+```bash
+npx linux-doctor                      # one run, nothing installed
+npm install -g linux-doctor           # or install it, then run `linux-doctor`
+```
+
+Want the current `main` instead of the latest release?
+`npx github:zShaD0w7x/linux-doctor`.
+
+Prefer a native CLI package?
+
+- **Arch:** build it from the PKGBUILD in this repo with `makepkg -si`. It is not in the AUR yet — registration there is closed at the moment, so the PKGBUILD in this repository is the only Arch path for now.
+- **Fedora / RHEL / Bazzite / openSUSE:** add the OBS repository and `sudo dnf install linux-doctor`, or build with the linux-doctor.spec
+- **Debian / Ubuntu:** `.deb` from Latest release
+- **Any glibc distro:** AppImage from Latest release, or `npx linux-doctor` if you have Node.js
+
+```
+STATUS   0 high, 2 medium, 19 info · health 74/100
+TREND    ▄▅▅▆▆▇  last 6 run(s) · 61 → 74 ▲
+
+▶ START HERE   #1 System is low on usable memory
+               Close apps you are not using, then re-run this check.
+
+Your system is low on usable memory: 9.4 GB of 15 GB is in use and 2.2 GB is
+being pushed to swap. This is the most common cause of a sluggish desktop.
+How to fix: close unused browser tabs, then re-run this check.
+
+Since last run: 2 new · 1 fixed · 19 unchanged
+```
+
+The report leads with a **▶ START HERE** line (the single most useful
+action) and a **TREND** sparkline, and every run is diffed against the
+previous one. Read-only by default: `--fix` prints a dry-run plan of
+commands sourced only from a small built-in safe-fix catalog — running it
+needs a second opt-in (`--fix --yes`), and `[manual]` items always stay
+yours to run.
+
+## What it checks
+
+Every finding carries a stable identity: a `code` (`check/reason`), a
+severity decided against the severity rubric, human
+detail, evidence from the system, and a suggested fix. Codes are the join
+key for history diffing (NEW/FIXED) and for `--ignore-code`, so they never
+change silently.
+
+| ID | What it checks |
+|---|---|
+| `memory` | RAM pressure, swap usage |
+| `load` | CPU load vs core count |
+| `disk` | Real partitions near full (ignores virtual/immutable roots) |
+| `inodes` | Inode usage — “No space left” with free space showing in `df -h` |
+| `fs` | Filesystem errors (btrfs, read-only remounts) |
+| `raid` | Software RAID health (mdadm/ZFS) — degraded arrays, resync in progress |
+| `oom` | Out-of-memory kills |
+| `zram` | Swap/zram health — compressed swap near full, swappiness |
+| `locales` | System locale — missing/broken locale generation |
+| `services` | Failed systemd services (system + user); services stuck in a restart loop |
+| `certs` | TLS certificate expiry (certbot state + actually-deployed certs on local TLS ports) |
+| `ports` | Risky services (databases, FTP/Telnet) listening outside localhost without a firewall |
+| `fds` | File-descriptor pressure (`/proc/sys/fs/file-nr` near the kernel limit) |
+| `timers` | Scheduled tasks — enabled systemd timers that never run |
+| `journal` | Error log, with known-benign noise filtered out |
+| `journald` | System journal (log) disk usage |
+| `suspend` | Failed suspend/resume hooks (laptops) |
+| `containers` | Container runtimes — podman/docker installed and usable; dead, OOM-killed (exit 137), or restart-looping containers |
+| `containerdisk` | Container image storage (podman/docker) — hidden disk usage |
+| `crash` | Crash and reboot history (coredumps + unexpected restarts, correlated with automatic-update mechanisms) |
+| `security` | Firewall, SELinux, update services |
+| `ssh` | SSH server posture — root login, password authentication |
+| `autologin` | Automatic login enabled in the display manager |
+| `secureboot` | UEFI boot mode, Secure Boot state, TPM presence |
+| `network` | Default route and DNS resolution |
+| `ntp` | Clock synchronization (time sync daemon state) |
+| `wifi` | WiFi — rfkill blocked, NetworkManager disabled, adapter presence |
+| `updates` | Pending package updates (dnf/apt/pacman) |
+| `snap` | Pending snap refreshes and the snapd auto-refresh timer |
+| `firmware` | Pending firmware (BIOS/UEFI) updates via fwupd |
+| `flatpak` | Pending Flatpak app updates + unused runtimes (`flatpak uninstall --unused`) |
+| `reboot` | Newer kernel installed but not booted, pending restart |
+| `processes` | Top memory consumers, with friendly names |
+| `thermal` | CPU temperatures and thermal-throttling events |
+| `battery` | Laptop battery level and capacity wear (skipped on desktops) |
+| `gpu` | Graphics driver health (NVIDIA proprietary vs nouveau vs missing, software rendering) |
+| `gpu-usage` | GPU VRAM pressure (NVIDIA/AMD) — nearly-full VRAM flagged (AI/ML OOM risk) |
+| `bluetooth` | Bluetooth controller presence and daemon state |
+| `wayland` | Display session type, running compositor, software rendering |
+| `audio` | Sound server (PipeWire/PulseAudio) and output device (desktop/laptop) |
+| `backup` | Backup/snapshot tools installed, scheduled, and actually running (stale backups flagged) |
+| `fstrim` | SSD TRIM — weekly fstrim.timer enabled or continuous discard mounting |
+| `hardware` | Machine check exceptions and corrected ECC memory errors |
+| `smart` | Disk SMART health (needs root or smartmontools) |
+| `luks` | Full-disk encryption (LUKS) presence |
+| `boot` | Boot partition space and bootloader config (`/boot` full, missing `grub.cfg`) |
+| `cache` | User cache and trash bloat (`~/.cache`, `~/.local/share/Trash`) |
+| `packages` | Package manager health — broken/locked apt/dnf/pacman database |
+| `orphans` | Orphaned packages (`pacman -Qtd`, `apt autoremove`, `dnf autoremove`) |
+
+Checks that don't apply to your machine — `battery` on a desktop, `reboot`
+on immutable systems — are skipped automatically and reported honestly in a
+**Skipped** section instead of producing misleading findings.
+
+## Health score & history
+
+Every run is saved to `~/.local/share/linux-doctor/history.json` (override
+with `LINUX_DOCTOR_HISTORY`). From that history you get a **health score
+(0–100)** with an auditable breakdown (`100 − Σpenalties`), a **TREND**
+sparkline of your last runs, and a plain-language **diff per run** — new,
+fixed, unchanged. Findings that share a root cause are collapsed before
+scoring, so one problem never counts twice. History is a bonus, never a
+dependency: `--no-history` disables it, and if it cannot be written the
+report still works.
+
+## Documentation
+
+| Doc | Contents |
+|---|---|
+| docs/cli.md | every flag, `--fix`, `--interactive`, `--notify`, `--plain`, exit codes, shell completions, systemd timer |
+| docs/dashboard.md | the `--web` dashboard and the desktop app, in detail |
+| docs/configuration.md | ignore list, thresholds, plugins, caching, immutable-distro behavior |
+| docs/integrations.md | JSON schema v1, `--support` bundles, optional AI summary, fleet reporting |
+| docs/severity.md | how severities are decided |
+| docs/doctrine.md | what the tool refuses to do, and how a finding earns trust |
+| docs/limitations.md | what it does not detect, and the false positives we have fixed |
+| docs/compatibility.md | the public surface, and how changes are announced |
+| docs/licensing.md | what the GPL grants and requires |
+| docs/trademark.md | the name/logo vs. the code license |
+| CHANGELOG.md | every release, Keep-a-Changelog style |
+
+## Community
+
+Questions, ideas and show-your-setup go to
+GitHub Discussions;
+bugs and check requests to Issues.
+Contributions are welcome — see CONTRIBUTING.md.
+
+## Roadmap
+
+- ~~GUI with a one-click report~~: shipped as a Tauri desktop app
+- ~~Report history and change detection~~: shipped (health score, NEW/FIXED diff)
+- ~~More checks (Bluetooth, Wayland, backup, hardware errors, LUKS)~~: shipped
+- Auto-generated, distro-specific fix instructions
+- The AUR package, once registration there reopens (the PKGBUILD is ready); AppStream metadata already ships in every package (Flatpak is not a fit; see packaging/README.md)
+- Maintenance: single maintainer, AI-assisted. Roadmap lives in the CHANGELOG and
+ in GitHub issues. Security fixes within days, contributions welcome.
+
+## Transparency and evidence
+
+Development is AI-assisted, and every decision is the author's. Don't take the
+README's word for it; the artifacts are public:
+
+- 616 automated tests: golden snapshots for every output format,
+ shell-safety tests for the fix catalog, and output-parity tests that keep the
+ CLI and the dashboard in agreement.
+- CI runs
+ the whole report on Fedora and on Node 20, 22 and 24, plus the Rust app on
+ `fmt`, `clippy` and `cargo audit`.
+- A clean-image gate runs the engine inside Fedora, Debian, Alpine and Arch
+ containers and fails when a high or medium finding appears that the baseline
+ does not justify. Recorded machine fixtures (real command outputs, scrubbed)
+ replay the same way, and every finding they produce needs a written reason.
+- Read-only by construction, with a pinned safe-fix catalog. The egress paths
+ scrub findings and refuse private endpoints by default, and
+ docs/doctrine.md lists what the tool refuses to do, each
+ claim tied to the test that enforces it.
+- Every change is in the CHANGELOG; releases are signed tags.
+
+## Editions
+
+This repository **is** the Free edition — the whole product for everyday
+users, GPL-3.0-or-later, forever. Optional paid tiers for power users and
+companies are strictly additive and described in
+COMMERCIAL-LICENSE.md.
+
+## Licensing & brand
+
+**Dual-licensed.**
+
+- GPL-3.0-or-later — free for individuals and open-source projects. You may copy, modify and redistribute it, but any derivative work you distribute must stay open-source under the same terms.
+- Commercial license — for companies that need to use Linux Doctor inside proprietary products.
+
+Details on what the GPL grants and requires: docs/licensing.md.
+
+What that means in practice:
+
+- **Copying the Free edition is allowed** — that is the point of the GPL. Forks are welcome as long as they keep the license and the notices.
+- **It is still not a free-for-all**: a distributed derivative must stay GPL, and shipping the code inside a closed product requires the commercial license. That obligation is enforceable copyright, not a polite request.
+- **The paid tiers' code is not here.** Pro/Business/Enterprise live in private repositories; this edition is, and stays, the whole product for everyday users.
+- **The name and logo are not covered by the code license.** If you fork, ship it under your own name — see docs/trademark.md.
+
+Every source file carries an `SPDX-License-Identifier: GPL-3.0-or-later` header. By contributing, you agree your contributions are offered under both licenses (see CONTRIBUTING.md).
+
+# Silbercue/public-browser
+
+## 导航
+
+- 项目页：[[10-项目/github.com_5d122823]]
+- 渠道页：[[50-渠道/hn_show]]
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 同渠道/同赛道批量浏览：[[浏览]]

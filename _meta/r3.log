@@ -1,0 +1,28 @@
+=== KB 采集 20260920T031651 · 16 渠道 ===
+    [i] 正文补全 26/26（exa）
+[+] HN Show HN             ok         40条   84.3s 40/40 hits | 写盘 1/40 | new=0 chg=1
+[+] GitHub 新星仓库            ok         28条   22.3s 28 repos;  | 写盘 19/28 | new=0 chg=19
+    [i] 正文补全 0/2（exa）
+[+] Reddit 独立开发版块          ok         27条   40.5s 27 posts;  | 写盘 2/27 | new=2 chg=0
+    [i] 正文补全 20/20（exa）
+[+] Lobsters               ok         20条   38.5s 21 stories | 写盘 10/20 | new=0 chg=10
+    [i] 正文补全 1/1（exa）
+[+] dev.to                 ok          5条   65.4s 5 articles | 写盘 2/5 | new=0 chg=2
+    [i] 正文补全 10/10（exa）
+[+] HN 首页（非 Show HN）       ok         19条   28.1s 19/19 hits | new=1 chg=18
+[+] Product Hunt           ok         30条    1.5s 30 entries | 写盘 3/30 | new=3 chg=0
+    [i] 正文补全 18/18（exa）
+[+] Indie Hackers 产品库      ok         18条   30.7s 18 products | 写盘 10/18 | new=2 chg=8
+    [i] 正文补全 12/12（exa）
+[+] BetaList               ok         12条   16.1s 12 startups | 写盘 3/12 | new=1 chg=2
+[+] App Store 榜单           ok         10条   36.9s 38 apps（过滤大厂 12） | 写盘 0/10 | new=0 chg=0
+    [i] 正文补全 2/2（exa）
+[+] V2EX                   ok         25条    6.6s 81 topics | 写盘 0/25 | new=0 chg=0
+    [i] 正文补全 12/15（exa）
+[+] 1c7 中文独立开发者名录          ok         17条   27.7s 17 entries | 写盘 0/17 | new=0 chg=0
+    [i] 正文补全 6/6（exa）
+[+] 少数派                    ok         10条   10.0s 10 entries | 写盘 0/10 | new=0 chg=0
+[+] B站                     ok         12条    2.8s 49 videos | 写盘 6/12 | new=3 chg=3
+[K] 小红书                    auth        0条   46.5s 需 OpenCLI 浏览器扩展/登录态：(node:34232) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental,
+[K] X / Twitter            auth        0条   49.1s 需 OpenCLI 浏览器扩展/登录态：(node:35072) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental,
+=== 完成：273 条（新 12）· 运行记录 F:\AIProject\CollectProjectAndDetails\_meta\runs\20260920T031651.json ===
