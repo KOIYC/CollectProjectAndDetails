@@ -432,6 +432,162 @@ def _parse_mcporter_text(out: str) -> list[dict]:
     return rows
 
 
+# ------------------------------------------------- 注册表解析（channels.yaml 子集）
+# 从 kb_collect 迁入：解析器是**基础设施**（analyze/audit/content_audit/prune/backfill 都
+# 要读注册表），原先放在采集器里，其他工具只能反向 import kb_collect —— 层向错了。
+
+def _strip_comment(line: str) -> str:
+    out, q = [], None
+    for i, ch in enumerate(line):
+        if q:
+            out.append(ch)
+            if ch == q:
+                q = None
+            continue
+        if ch in "'\"":
+            q = ch
+            out.append(ch)
+            continue
+        if ch == "#" and (i == 0 or line[i - 1] in " \t"):
+            break
+        out.append(ch)
+    return "".join(out)
+
+
+def _scalar(v: str):
+    v = v.strip()
+    if not v:
+        return None
+    if v in ("{}", "{ }"):
+        return {}
+    if v in ("[]", "[ ]"):
+        return []
+    if v[0] in "'\"" and v[-1] == v[0] and len(v) > 1:
+        return v[1:-1]
+    if v.startswith("[") and v.endswith("]"):
+        inner = v[1:-1].strip()
+        return [_scalar(x) for x in inner.split(",") if x.strip()] if inner else []
+    low = v.lower()
+    if low in ("true", "false"):
+        return low == "true"
+    if low in ("null", "~"):
+        return None
+    try:
+        return int(v)
+    except ValueError:
+        try:
+            return float(v)
+        except ValueError:
+            return v
+
+
+def load_channels_yaml(path: Path) -> dict:
+    """只支持本注册表用到的 YAML 子集：注释/嵌套映射/列表/标量/行内列表/带引号值。"""
+    lines = path.read_text(encoding="utf-8").splitlines()
+    root: dict = {}
+    stack: list[tuple[int, object]] = [(-1, root)]
+
+    def container_for(indent: int):
+        while stack and stack[-1][0] >= indent:
+            stack.pop()
+        return stack[-1][1]
+
+    i = 0
+    while i < len(lines):
+        raw = lines[i]
+        i += 1
+        if not raw.strip() or raw.lstrip().startswith("#"):
+            continue
+        body = _strip_comment(raw).rstrip()
+        if not body.strip():
+            continue
+        indent = len(body) - len(body.lstrip())
+        content = body.strip()
+        parent = container_for(indent)
+
+        if content.startswith("- "):
+            item_txt = content[2:].strip()
+            if isinstance(parent, dict):
+                # 列表必须挂在某个 key 上：找到同缩进的 list 容器
+                parent = stack[-1][1]
+            if isinstance(parent, dict):
+                raise ValueError(f"列表项无处挂载: {raw!r}")
+            if ":" in item_txt and not item_txt.startswith(("'", '"')):
+                key, _, val = item_txt.partition(":")
+                node: dict = {key.strip(): _scalar(val)}
+                parent.append(node)
+                stack.append((indent, node))
+            else:
+                parent.append(_scalar(item_txt))
+            continue
+
+        key, _, val = content.partition(":")
+        key = key.strip()
+        val = val.strip()
+        if not isinstance(parent, dict):
+            raise ValueError(f"映射项挂到非映射容器: {raw!r}")
+        if val == "":
+            node = {}
+            parent[key] = node
+            stack.append((indent, node))
+            # 预判：下一个非空行的缩进若更深且以 '- ' 开头 → 需要 list
+            nxt = None
+            for j in range(i, len(lines)):
+                if lines[j].strip() and not lines[j].lstrip().startswith("#"):
+                    nxt = lines[j]
+                    break
+            if nxt is not None:
+                nxt_indent = len(nxt) - len(nxt.lstrip())
+                if nxt_indent > indent and nxt.strip().startswith("- "):
+                    lst: list = []
+                    parent[key] = lst
+                    stack[-1] = (indent, lst)
+        else:
+            parent[key] = _scalar(val)
+    return root
+
+
+def load_registry(path: Path | None = None) -> dict:
+    """读 _meta/channels.yaml 并挑出启用渠道（`_enabled_channels` 键）。"""
+    p = path or (META / "channels.yaml")
+    reg = load_channels_yaml(p)
+    channels = [c for c in (reg.get("channels") or []) if c.get("enabled")]
+    reg["_enabled_channels"] = channels
+    return reg
+
+
+# ---------------------------------------------------------------- 保留策略（_meta 轮转）
+# 单日大改会产生 5+ 份 manifest、36+ 份 run 记录；_meta 是**工作区**不是归档——
+# 轮转只留近期份额。第二份保险：_meta 自 2026-09-20 起整体入 git，删掉的都在历史里。
+
+
+def rotate_files(directory: Path, prefix: str, keep: int) -> int:
+    """同前缀只留最新 keep 份，删旧。返回删除数。"""
+    files = sorted(directory.glob(f"{prefix}*"), key=lambda p: p.stat().st_mtime, reverse=True)
+    removed = 0
+    for old in files[keep:]:
+        try:
+            old.unlink()
+            removed += 1
+        except OSError:
+            pass
+    return removed
+
+
+def rotate_runs(keep: int = 80) -> int:
+    """_meta/runs/ 只留最新 keep 份运行记录（latest.json 永远保留）。"""
+    files = [p for p in RUNS.glob("*.json") if p.name != "latest.json"]
+    files.sort(key=lambda p: p.stat().st_mtime, reverse=True)
+    removed = 0
+    for old in files[keep:]:
+        try:
+            old.unlink()
+            removed += 1
+        except OSError:
+            pass
+    return removed
+
+
 # ---------------------------------------------------------------- stores
 
 
@@ -440,7 +596,16 @@ def _load_json(path: Path, default):
         return default
     try:
         return json.loads(path.read_text(encoding="utf-8"))
-    except Exception:                                            # noqa: BLE001
+    except Exception as e:                                       # noqa: BLE001
+        # 损坏隔离：原实现静默返回 default —— 账本坏了伪装成「第一次运行」，
+        # seen/body_cache 一旦损坏就整库失忆（seen 失忆=全量重写页面；body_cache 失忆=
+        # 重烧 Exa 额度），且没有任何告警。改名保留现场 + 响亮提示，调用方拿 default 重启。
+        try:
+            bak = path.with_name(f"{path.name}.corrupt-{now_cst():%Y%m%dT%H%M%S}.bak")
+            path.rename(bak)
+            print(f"[!] 状态文件损坏，已隔离：{path.name} → {bak.name}（{str(e)[:80]}）", flush=True)
+        except OSError:
+            print(f"[!] 状态文件损坏且无法隔离：{path.name}（{str(e)[:80]}）", flush=True)
         return default
 
 
@@ -682,4 +847,8 @@ class RunLog:
         out = RUNS / f"{self.run_id}.json"
         _atomic_write(out, json.dumps(payload, ensure_ascii=False, indent=1))
         _atomic_write(RUNS / "latest.json", json.dumps(payload, ensure_ascii=False, indent=1))
+        try:
+            rotate_runs()                                          # 运行记录轮转（保 80 份）
+        except OSError:
+            pass
         return out
