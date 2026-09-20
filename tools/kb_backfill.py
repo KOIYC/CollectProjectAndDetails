@@ -28,7 +28,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from kb_common import (BODY_MIN, DIR_RAW, DIR_REPORT, FULLTEXT_MAX_CHARS, META,  # noqa: E402
                        ROOT, BodyCache, Seen, append_jsonl, body_completeness,
-                       exa_fetch_texts, iso, norm_url, now_cst, run_cli, sha1)
+                       exa_fetch_texts, iso, norm_url, now_cst, rotate_runs, run_cli, sha1)
 from kb_collect import (ENRICH_ROUTING, MAX_COMMENTS, is_project_ish,  # noqa: E402
                         load_channels_yaml, write_corpus_note, write_entity_note)
 from kb_analyze import PROFILE_EXPECT  # noqa: E402
@@ -461,6 +461,7 @@ def main(argv=None) -> int:
          "via": collections.Counter(v["via"] for v in results.values()).most_common(),
          "channels": collections.Counter(v["rec"]["source_id"] for v in results.values()).most_common(),
          "started": iso(now_cst()), "elapsed_s": 0}, ensure_ascii=False, indent=1), encoding="utf-8")
+    rotate_runs()                                              # 运行记录轮转（保 80 份）
     print(f"回填完成：{wrote}/{len(todo)}（队列 {len(queue)}）· 缺失 {miss} 条已记 attempts · "
           f"账本累计 {len(dead)} 条（已判死 {sum(1 for v in dead.values() if v.get('attempts', 0) >= DEAD_AFTER)}）")
     return 0

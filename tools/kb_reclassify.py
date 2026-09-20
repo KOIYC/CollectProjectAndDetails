@@ -24,7 +24,7 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from kb_common import DIR_RAW, META, ROOT, Seen, append_jsonl, iso, now_cst, sha1  # noqa: E402
+from kb_common import DIR_RAW, META, ROOT, Seen, append_jsonl, iso, now_cst, rotate_runs, sha1  # noqa: E402
 from kb_collect import (ACCOUNT_URL_RE, PERSON_HANDLE_RE, corpus_note_path,  # noqa: E402
                         method_note_path, person_note_path, project_note_path,
                         write_corpus_note, write_entity_note, write_person_note,
@@ -281,6 +281,7 @@ def repair_project_url(dry: bool = False) -> int:
     (META / "runs" / f"{run_id}.json").write_text(json.dumps(
         {"run_id": run_id, "kind": "repair_project_url", "count": n,
          "started": iso(now_cst())}, ensure_ascii=False, indent=1), encoding="utf-8")
+    rotate_runs()                                              # 运行记录轮转（保 80 份）
     print(f"补推完成：{n}/{len(todo)}")
     return n
 
@@ -426,6 +427,7 @@ def main(argv=None) -> int:
          "items": [{"item_id": r["item_id"], "title": r.get("title"), "why": w}
                    for r, _, w in cands], "started": iso(now_cst())},
         ensure_ascii=False, indent=1), encoding="utf-8")
+    rotate_runs()                                              # 运行记录轮转（保 80 份）
     print(f"订正完成：{moved} 条 → 30-人物/")
     return 0
 

@@ -38,7 +38,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from kb_common import (DIR_RAW, DIR_REPORT, META, ROOT, Seen, iso,  # noqa: E402
-                       load_ndjson, now_cst)
+                       load_ndjson, now_cst, rotate_files)
 from kb_collect import apply_rules, load_registry, load_rules          # noqa: E402
 
 DIR_ARCHIVE = ROOT / "80-归档"
@@ -191,6 +191,7 @@ def do_apply(plan: dict[str, list[dict]], seen: Seen) -> Path:
     man = META / f"prune_manifest_{now_cst().strftime('%Y%m%dT%H%M%S')}.json"
     man.write_text(json.dumps({"at": iso(now_cst()), "moves": moves},
                               ensure_ascii=False, indent=2), encoding="utf-8")
+    rotate_files(META, "prune_manifest_", 12)               # 工作区只留近 12 份（git 历史兜底）
     return man
 
 
@@ -402,6 +403,7 @@ def archive_entities_apply(info: dict) -> Path:
     man.write_text(json.dumps(
         {"at": iso(now_cst()), "moves": moves, "rewritten_notes": n_files},
         ensure_ascii=False, indent=2), encoding="utf-8")
+    rotate_files(META, "entity_archive_manifest_", 12)      # 同上（kb_moc 聚合近 12 份的理由）
     return man
 
 

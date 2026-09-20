@@ -24,6 +24,7 @@ sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 import kb_backfill as BF      # noqa: E402
 import kb_collect as KC       # noqa: E402
 import kb_common as KB        # noqa: E402
+import kbc_channels as KCH    # noqa: E402
 
 
 class JsonlDiscipline(unittest.TestCase):
@@ -60,6 +61,14 @@ class ProjectUrlGuard(unittest.TestCase):
                "https://news.ycombinator.com/item?id=1", "https://github.com",
                "http://intranet-host/x"]
         for u in bad:
+            with self.subTest(u=u):
+                self.assertTrue(KC.project_url_reject(u), f"应被拒绝: {u!r}")
+
+    def test_rejects_profile_pages_even_without_trailing_punct(self):
+        # R7 撞车案例的「根形态」：liqi.io/creators（无冒号）是人务页，不是项目站点。
+        for u in ["https://liqi.io/creators", "https://example.com/users/tom",
+                  "https://example.com/u/tom", "https://example.com/profile",
+                  "https://example.com/people/tom", "https://example.com/@tom"]:
             with self.subTest(u=u):
                 self.assertTrue(KC.project_url_reject(u), f"应被拒绝: {u!r}")
 
@@ -152,6 +161,224 @@ class InvariantsGreen(unittest.TestCase):
             line = next((ln for ln in out.splitlines() if ln.startswith(gate)), "")
             self.assertTrue(line, f"缺 {gate} 的输出")
             self.assertNotIn("!!", line, f"{gate} 不是绿的：{line}")
+
+
+class BodyCacheGuard(unittest.TestCase):
+    """BodyCache：只增不减 + 只在更长时更新 + 损坏隔离（损坏=重烧 Exa 额度）。"""
+
+    def _cache(self, td):
+        return KB.BodyCache(path=pathlib.Path(td) / "body_cache.json")
+
+    def test_only_longer_wins(self):
+        with tempfile.TemporaryDirectory() as td:
+            c = self._cache(td)
+            self.assertFalse(c.put("a", "short"))                    # < BODY_MIN 直接拒
+            self.assertTrue(c.put("a", "x" * KB.BODY_MIN))
+            self.assertFalse(c.put("a", "y" * KB.BODY_MIN))          # 等长不覆盖
+            self.assertTrue(c.put("a", "z" * (KB.BODY_MIN + 10)))    # 更长才更新
+            self.assertEqual(len(c.get("a")["body"]), KB.BODY_MIN + 10)
+
+    def test_roundtrip_and_dirty_flag(self):
+        with tempfile.TemporaryDirectory() as td:
+            p = pathlib.Path(td) / "body_cache.json"
+            c = KB.BodyCache(path=p)
+            c.put("a", "x" * KB.BODY_MIN)
+            self.assertTrue(c.dirty)
+            c.save()
+            self.assertFalse(KB.BodyCache(path=p).dirty)             # 重载后 clean
+            self.assertEqual(len(KB.BodyCache(path=p).get("a")["body"]), KB.BODY_MIN)
+
+    def test_corrupt_file_is_quarantined_not_silent(self):
+        with tempfile.TemporaryDirectory() as td:
+            p = pathlib.Path(td) / "body_cache.json"
+            p.write_text('{"version": 1, "items": {broken', encoding="utf-8")
+            c = KB.BodyCache(path=p)
+            self.assertEqual(c.items, {})                            # 从零开始（而非崩溃）
+            baks = list(p.parent.glob("*.corrupt-*.bak"))
+            self.assertEqual(len(baks), 1, "损坏现场必须被隔离保留")     # 且响亮告警已打印
+
+
+class SeenLedger(unittest.TestCase):
+    """seen 账本：metric_history 去重 + content_hash 存取。"""
+
+    def test_touch_dedups_unchanged_metrics(self):
+        with tempfile.TemporaryDirectory() as td:
+            s = KB.Seen(path=pathlib.Path(td) / "seen.json")
+            s.touch("a", "ch", "n.md", {"stars": 10})
+            self.assertFalse(s.touch("a", "ch", "n.md", {"stars": 10}), "指标没变不该追加历史点")
+            self.assertTrue(s.touch("a", "ch", "n.md", {"stars": 11}))
+            rec = s.get("a")
+            self.assertEqual(len(rec["metric_history"]), 2)
+            s.touch("a", "ch", "n.md", content_hash="h1")
+            self.assertEqual(s.content_hash("a"), "h1")
+
+
+class MakeItemGuard(unittest.TestCase):
+    """make_item：project_url 校验 + 推导 + url 兜底（13 渠道全挂事故的发生地）。"""
+
+    def test_explicit_bad_project_url_is_rejected_and_recorded(self):
+        it = KC.make_item(source_id="v2ex", source_name="V2EX", title="t",
+                          url="https://www.v2ex.com/t/1", project_url="https://liqi.io/creators:")
+        self.assertIsNone(it["project_url"])
+        self.assertIn("尾部有标点", it["extra"]["project_url_rejected"])
+
+    def test_good_project_url_is_normalized(self):
+        it = KC.make_item(source_id="x", source_name="X", title="t", url="https://a.com/1",
+                          project_url="http://www.MyApp.io/?utm_src=x")
+        self.assertEqual(it["project_url"], "https://myapp.io/")
+
+    def test_body_link_used_as_fallback(self):
+        it = KC.make_item(source_id="v2ex", source_name="V2EX", title="t",
+                          url="https://www.v2ex.com/t/1",
+                          body="我做了一个工具 https://mytool.app/ 欢迎试用")
+        self.assertEqual(it["project_url"], "https://mytool.app/")
+
+    def test_url_falls_back_to_project_url(self):
+        it = KC.make_item(source_id="s", source_name="S", title="t",
+                          url="", project_url="https://app.io/")
+        self.assertEqual(it["url"], "https://app.io/")
+        self.assertEqual(it["item_id"], KB.item_id_for("https://app.io/", "t", "s"))
+
+
+class MiniYamlParser(unittest.TestCase):
+    """channels.yaml 子集解析器（从 kb_collect 迁入 kb_common 后钉住行为）。"""
+
+    def test_subset_roundtrip(self):
+        text = "\n".join([
+            "# 注释行",
+            "version: 1",
+            "debug: true",
+            "ratio: 0.5",
+            "name: \"带引号: 值\"",
+            "empty_list: []",
+            "inline: [a, b, 3]",
+            "channels:",
+            "  - id: hn_show",
+            "    enabled: true",
+            "    limit: 40",
+            "    params:",
+            "      window_days: 3",
+            "      tags: [show_hn]",
+            "  - id: v2ex",
+            "    enabled: false",
+        ])
+        with tempfile.TemporaryDirectory() as td:
+            p = pathlib.Path(td) / "c.yaml"
+            p.write_text(text, encoding="utf-8")
+            reg = KB.load_channels_yaml(p)
+        self.assertEqual(reg["version"], 1)
+        self.assertTrue(reg["debug"])
+        self.assertEqual(reg["ratio"], 0.5)
+        self.assertEqual(reg["name"], "带引号: 值")
+        self.assertEqual(reg["inline"], ["a", "b", 3])
+        c1 = reg["channels"][0]
+        self.assertEqual(c1["params"]["window_days"], 3)
+        self.assertEqual(c1["params"]["tags"], ["show_hn"])
+        self.assertFalse(reg["channels"][1]["enabled"])
+
+    def test_load_registry_picks_enabled(self):
+        with tempfile.TemporaryDirectory() as td:
+            p = pathlib.Path(td) / "c.yaml"
+            p.write_text("channels:\n  - id: a\n    enabled: true\n"
+                         "  - id: b\n    enabled: false\n", encoding="utf-8")
+            reg = KB.load_registry(p)
+        self.assertEqual([c["id"] for c in reg["_enabled_channels"]], ["a"])
+
+
+class FrontmatterHelpers(unittest.TestCase):
+    """frontmatter 定点读写（navfix/reclassify 的自愈都靠它）。"""
+
+    NOTE = "---\ntype: corpus\ntitle: \"你好\"\ntags:\n  - 语料\n  - hn\n---\n\n# 正文\n"
+
+    def test_split_and_scalars(self):
+        head, rest = KB.split_note(self.NOTE)
+        self.assertTrue(head.startswith("---"))
+        self.assertTrue(rest.startswith("\n---"))
+        fm = KB.fm_scalars(head)
+        self.assertEqual(fm["type"], "corpus")
+        self.assertEqual(fm["title"], "你好")
+        self.assertEqual(fm["tags"], "")             # 列表块的 key 会带空值出现，但**值**读不到
+
+    def test_set_scalar_insert_and_replace(self):
+        head, rest = KB.split_note(self.NOTE)
+        head2 = KB.set_fm_scalar(head, "kind", "project")
+        self.assertIn("kind: project", head2)
+        head3 = KB.set_fm_scalar(head2, "kind", "person")
+        self.assertNotIn("kind: project", head3)
+        self.assertIn("kind: person", head3)
+        self.assertEqual(KB.split_note(head3 + rest)[1], rest)   # 正文不动
+
+    def test_write_note_roundtrip(self):
+        with tempfile.TemporaryDirectory() as td:
+            p = pathlib.Path(td) / "n.md"
+            KB.write_note(p, {"type": "project", "title": "T", "n": 3,
+                              "tags": ["项目", "hn"], "params": {"k": 1}}, "# H\n\nbody")
+            text = p.read_text(encoding="utf-8")
+        head, _ = KB.split_note(text)
+        fm = KB.fm_scalars(head)
+        self.assertEqual(fm["type"], "project")
+        self.assertEqual(fm["n"], "3")
+        self.assertIn('"k": 1', head)                # dict 必须走 JSON，不能 str(dict)
+        self.assertIn("- hn", text)
+
+
+class RotationPolicy(unittest.TestCase):
+    """_meta 轮转：同前缀只留最新 N 份（undo 凭证由 git 历史兜底）。"""
+
+    def test_rotate_files_keeps_newest(self):
+        with tempfile.TemporaryDirectory() as td:
+            d = pathlib.Path(td)
+            for i in range(5):
+                (d / f"prune_manifest_20260920T00000{i}.json").write_text("{}", encoding="utf-8")
+            removed = KB.rotate_files(d, "prune_manifest_", 3)
+            self.assertEqual(removed, 2)
+            left = sorted(p.name for p in d.glob("prune_manifest_*"))
+            self.assertEqual(len(left), 3)
+            self.assertIn("prune_manifest_20260920T000004.json", left)   # 保留最新
+
+    def test_rotate_runs_keeps_latest_json(self):
+        with tempfile.TemporaryDirectory() as td:
+            d = pathlib.Path(td) / "runs"
+            d.mkdir()
+            (d / "latest.json").write_text("{}", encoding="utf-8")
+            for i in range(4):
+                (d / f"20260920T00000{i}.json").write_text("{}", encoding="utf-8")
+            removed = KB.rotate_runs(keep=2, directory=d)
+            self.assertEqual(removed, 2)
+            left = sorted(p.name for p in d.glob("*.json"))
+            self.assertIn("latest.json", left)                       # 永远保留
+            self.assertEqual(len(left), 3)
+            self.assertIn("20260920T000003.json", left)              # 保留最新
+
+
+class PublishedWindow(unittest.TestCase):
+    """--since/--until 通用裁剪：无发布时间的条目不丢（丢它=放大数据缺口）。"""
+
+    def test_filter_bounds(self):
+        from datetime import datetime as DT
+        items = [
+            {"item_id": "old", "published_at": "2026-07-01T00:00:00+08:00"},
+            {"item_id": "in", "published_at": "2026-08-15T12:00:00+08:00"},
+            {"item_id": "new", "published_at": "2026-09-20T00:00:00+08:00"},
+            {"item_id": "unknown", "published_at": None},
+        ]
+        since = int(DT(2026, 8, 1, tzinfo=KB.CST).timestamp())
+        until = int(DT(2026, 9, 1, tzinfo=KB.CST).timestamp())
+        kept, dropped = KCH.filter_published(items, since, until)
+        self.assertEqual({it["item_id"] for it in kept}, {"in", "unknown"})
+        self.assertEqual(dropped, 2)
+
+    def test_no_bounds_is_noop(self):
+        items = [{"item_id": "a", "published_at": "2026-01-01"}]
+        kept, dropped = KCH.filter_published(items)
+        self.assertEqual(kept, items)
+        self.assertEqual(dropped, 0)
+
+    def test_pub_ts_lenient(self):
+        self.assertIsNotNone(KCH._pub_ts("2026-09-20T10:00:00Z"))
+        self.assertIsNotNone(KCH._pub_ts("2026-09-20"))
+        self.assertIsNone(KCH._pub_ts("not-a-date"))
+        self.assertIsNone(KCH._pub_ts(None))
 
 
 if __name__ == "__main__":

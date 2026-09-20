@@ -574,9 +574,10 @@ def rotate_files(directory: Path, prefix: str, keep: int) -> int:
     return removed
 
 
-def rotate_runs(keep: int = 80) -> int:
-    """_meta/runs/ 只留最新 keep 份运行记录（latest.json 永远保留）。"""
-    files = [p for p in RUNS.glob("*.json") if p.name != "latest.json"]
+def rotate_runs(keep: int = 80, directory: Path | None = None) -> int:
+    """运行记录目录只留最新 keep 份（latest.json 永远保留）。"""
+    d = directory or RUNS
+    files = [p for p in d.glob("*.json") if p.name != "latest.json"]
     files.sort(key=lambda p: p.stat().st_mtime, reverse=True)
     removed = 0
     for old in files[keep:]:

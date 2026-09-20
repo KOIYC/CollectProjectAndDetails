@@ -44,7 +44,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from kb_common import (META, ROOT, Seen, fm_scalars, iso, norm_url, now_cst,  # noqa: E402
-                       set_fm_scalar, sha1, slugify, split_note, topic_of)
+                       rotate_files, set_fm_scalar, sha1, slugify, split_note, topic_of)
 from kb_collect import (corpus_note_path, method_note_path, nav_block,  # noqa: E402
                         person_note_path, project_note_path)
 from kb_content_audit import load_latest                               # noqa: E402
@@ -363,6 +363,7 @@ def fix_names(apply: bool) -> Counter:
         man.write_text(json.dumps({"at": iso(now_cst()), "moves": moves,
                                    "pairs": pairs}, ensure_ascii=False, indent=2),
                        encoding="utf-8")
+        rotate_files(META, "rename_manifest_", 12)          # 工作区只留近 12 份（git 历史兜底）
         print(f"[manifest] {man.relative_to(ROOT).as_posix()}")
 
     print(f"fix-names  apply={apply}  {dict(stat)}")
