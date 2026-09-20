@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49500794"
 project_url: "https://abracadanames.com/"
 author: "PopFlamingo"
 published_at: "2026-08-30T17:30:21Z"
-captured_at: "2026-09-21T01:33:52+08:00"
+captured_at: "2026-09-21T03:11:29+08:00"
 lang: "en"
 kind: "post"
 topic: "未分类"
@@ -28,13 +28,30 @@ discovered_via: "hn:show_hn:52d"
 
 # Show HN: AbracadaNames – a multilingual, data-driven wall of first names
 
+> [!info] 一句话导读
+> A living wall of first names drawn from official statistics around the world. Explore, search in your own words, and save your favorites — free, no sign-up.
+
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=49500794>
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：PopFlamingo　|　发布：2026-08-30T17:30:21Z
 > 项目链接：<https://abracadanames.com/>
-> 采集：2026-09-21T01:33:52+08:00　|　id：`a3fff33e4f44deb5`
+> 采集：2026-09-21T03:11:29+08:00　|　id：`a3fff33e4f44deb5`
+
+## 正文
+
+AbracadaNames
+
+# AbracadaNames
+
+A living wall of first names drawn from official statistics around the world. Explore, search in your own words, and save your favorites — free, no sign-up.
+
+Error fetching https://github.com/danthegoodman1/tinysandbox/tree/main/tinysandbox-js-runtime: CRAWL_NOT_FOUND
+
+## 关联链接
+
+- https://github.com/danthegoodman1/tinysandbox/tree/main/tinysandbox-js-runtime:
 
 ## 导航
 

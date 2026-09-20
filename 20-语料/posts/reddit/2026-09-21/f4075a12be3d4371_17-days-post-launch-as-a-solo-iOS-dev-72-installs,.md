@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/buildinpublic/comments/1tsvgbt/17_days_postlaunch
 project_url: "https://apps.apple.com/app/id6762427801"
 author: "reflectdiary"
 published_at: "2026-05-31T21:30:49+08:00"
-captured_at: "2026-09-21T01:28:02+08:00"
+captured_at: "2026-09-21T03:01:17+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -19,8 +19,8 @@ tags:
   - reddit
   - r/buildinpublic
 metrics: {"score": 9, "comments": 13, "upvote_ratio": 0.8500000238418579}
-comments_count: 0
-comments_total: 0
+comments_count: 15
+comments_total: 15
 discovered_via: "reddit:144d+settle3"
 ---
 
@@ -35,7 +35,7 @@ discovered_via: "reddit:144d+settle3"
 > 指标：得分=9 · 评论=13 · 赞踩比=0.8500000238418579
 > 作者：reflectdiary　|　发布：2026-05-31T21:30:49+08:00
 > 项目链接：<https://apps.apple.com/app/id6762427801>
-> 采集：2026-09-21T01:28:02+08:00　|　id：`f4075a12be3d4371`
+> 采集：2026-09-21T03:01:17+08:00　|　id：`f4075a12be3d4371`
 
 ## 正文
 
@@ -84,6 +84,81 @@ App if curious: [https://apps.apple.com/app/id6762427801](https://apps.apple.com
 (Disclosure: my app. Posting the data, not pitching.)
 
 Question for the sub: Anyone else seen Web Referrer dominate App Store source data this much, or is Reddit-as-primary-channel unusual for an indie iOS launch?
+
+## 评论（15/15）
+
+> **sigtrex**（1 分） · 2026-05-31T23:36:29+08:00　
+> This is really helpful info! I feel like I have solved a problem that could actually benefit programmers and SaaS builders but marketing and promotion are a whole different ball game I’ve come to realize!!
+
+---
+
+> **Xing8088**（2 分） · 2026-06-01T00:05:24+08:00　
+> Thanks a lot for sharing! Genuinely helpful. I dig the design of your app.
+
+---
+
+> **damnstraight789**（2 分） · 2026-06-01T00:36:45+08:00　
+> Thanks for sharing, the marketing shaped pitches insights is definitely real and gets flagged in a lot of sub reddits, sharing genuine insights and then plugging your app if it comes up seems to be the ideal way.
+
+---
+
+> **reflectdiary**（2 分） · 2026-06-01T09:45:09+08:00　
+> Thanks, appreciate it. design was the slowest part of the build, glad it lands.
+
+---
+
+> **reflectdiary**（1 分） · 2026-06-01T09:45:24+08:00　
+> Yeah. same person, same app, but the moment a post reads "let me share what i learned" people listen. the moment it reads "check out my app" they flag you. framing flips the whole thing.
+
+---
+
+> **dev_elolin**（2 分） · 2026-06-01T13:22:25+08:00　
+> That's awesome, bro.
+
+---
+
+> **Few-Response-6262**（2 分） · 2026-06-01T13:25:50+08:00　
+> Super helpful! I'll try some of these avenues myself.
+
+---
+
+> **reflectdiary**（1 分） · 2026-06-01T13:33:54+08:00　
+> Thanks man, appreciate you reading it
+
+---
+
+> **reflectdiary**（2 分） · 2026-06-01T13:34:22+08:00　
+> Go for it. the craft-feedback angle was the one that surprised me most, low risk and way more reach than any pitch. lmk how it goes
+
+---
+
+> **Ok_Yogurtcloset8951**（2 分） · 2026-06-01T19:52:34+08:00　
+> Thanks for sharing it. I seen your app store screenshots. Is that AI or any tool like Applaunchapd?
+
+---
+
+> **reflectdiary**（1 分） · 2026-06-01T19:53:59+08:00　
+> Mix of figma + nano banana 2. nano for the watercolor backgrounds, figma for the phone mockups, headlines, and masking the app screens into the phone frames. tried applaunchpad early but wanted more custom control over the brand feel. took 2-3 days for 8 screens, longer than i expected.
+
+---
+
+> **LeaderAtLeading**（2 分） · 2026-06-03T00:14:57+08:00　
+> The subreddit breakdown is the useful part. Most launch posts hide where installs actually came from.
+
+---
+
+> **reflectdiary**（1 分） · 2026-06-03T12:15:04+08:00　
+> Yeah, most "what worked" writeups skip the per-sub data because it makes the success look less impressive. the failures list was actually more useful to me than the wins when i was reading other people's stuff
+
+---
+
+> **LeaderAtLeading**（2 分） · 2026-06-03T15:39:16+08:00　
+> Same here. Failed experiments are usually where the useful lessons actually are. dm me
+
+---
+
+> **reflectdiary**（1 分） · 2026-06-03T17:31:54+08:00　
+> Yeah, the failures list is where the actual mechanism shows. wins can look like luck, but a failure that happened twice in the same way is a pattern.
 
 ## 导航
 

@@ -28,6 +28,10 @@ lang: "en"
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
+| 2026-09-21T01:09:58+08:00 | Reddit 独立开发版块 | 得分=5 · 评论=0 · 赞踩比=0.8600000143051147 | [[20-语料/posts/reddit/2026-09-21/290e5774df97a582_I-built-a-teleprompter-that-actually-lets-you-keep]] |
+| 2026-09-21T01:14:43+08:00 | Reddit 独立开发版块 | 得分=5 · 评论=0 · 赞踩比=0.8600000143051147 | [[20-语料/posts/reddit/2026-09-21/290e5774df97a582_I-built-a-teleprompter-that-actually-lets-you-keep]] |
+| 2026-09-21T01:25:49+08:00 | Reddit 独立开发版块 | 得分=5 · 评论=0 · 赞踩比=0.8600000143051147 | [[20-语料/posts/reddit/2026-09-21/290e5774df97a582_I-built-a-teleprompter-that-actually-lets-you-keep]] |
+| 2026-09-21T01:36:48+08:00 | Reddit 独立开发版块 | 得分=5 · 评论=0 · 赞踩比=0.8600000143051147 | [[20-语料/posts/reddit/2026-09-21/290e5774df97a582_I-built-a-teleprompter-that-actually-lets-you-keep]] |
 | 2026-09-21T02:23:40+08:00 | Reddit 独立开发版块 | 得分=5 · 评论=0 · 赞踩比=0.8600000143051147 | [[20-语料/posts/reddit/2026-09-21/290e5774df97a582_I-built-a-teleprompter-that-actually-lets-you-keep]] |
 
 ## 摘要正文

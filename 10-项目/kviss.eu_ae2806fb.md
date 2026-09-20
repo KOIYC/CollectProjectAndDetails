@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: My retired dad and I made a daily, somewhat difficult, quiz"
 project_url: "https://kviss.eu/"
-first_seen: "2026-09-21T01:41:56+08:00"
+first_seen: "2026-09-21T02:52:37+08:00"
 sources:
   - hn_show
 tags:
@@ -17,11 +17,11 @@ lang: "en"
 # Show HN: My retired dad and I made a daily, somewhat difficult, quiz
 
 > [!info] 一句话导读
-> My dad makes the questions, I made the site.I think the genre and the level of difficulty is suited for HN. Hope you enjoy.(I promise no AI-generated questions,…
+> What is true with crabs' sex life?
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://kviss.eu/>
-> 首次收录：2026-09-21T01:41:56+08:00
+> 首次收录：2026-09-21T02:52:37+08:00
 > 来源渠道：HN Show HN
 > 标签：author_steinvakt2, story_47948396, show_hn
 > 最新指标：点赞=39 · 评论=20 · engagement_velocity=39
@@ -33,7 +33,8 @@ lang: "en"
 | 2026-09-21T01:09:14+08:00 | HN Show HN | 点赞=39 · 评论=20 · engagement_velocity=39 | [[20-语料/posts/hn_show/2026-09-21/578458c6063909c8_Show-HN-My-retired-dad-and-I-made-a-daily,-somewha]] |
 | 2026-09-21T01:13:42+08:00 | HN Show HN | 点赞=39 · 评论=20 · engagement_velocity=39 | [[20-语料/posts/hn_show/2026-09-21/578458c6063909c8_Show-HN-My-retired-dad-and-I-made-a-daily,-somewha]] |
 | 2026-09-21T01:41:56+08:00 | HN Show HN | 点赞=39 · 评论=20 · engagement_velocity=39 | [[20-语料/posts/hn_show/2026-09-21/578458c6063909c8_Show-HN-My-retired-dad-and-I-made-a-daily,-somewha]] |
+| 2026-09-21T02:52:37+08:00 | HN Show HN | 点赞=39 · 评论=20 · engagement_velocity=39 | [[20-语料/posts/hn_show/2026-09-21/578458c6063909c8_Show-HN-My-retired-dad-and-I-made-a-daily,-somewha]] |
 
 ## 摘要正文
 
-My dad makes the questions, I made the site.I think the genre and the level of difficulty is suited for HN. Hope you enjoy.(I promise no AI-generated questions, they are all hand made!).
+What is true with crabs' sex life?  They make vocal sounds The male crab has two penises They sometimes have sex with lobsters A pyramid-shaped finishing salt is called  Himalayan Pink Salt Maldon Sea Salt Cadiz Sea Salt Who was Nixon's vice president who had to resign in 1973 due to corruption allegations?  Spiro Agnew Gerald Ford Ronald Reagan Answer all questions to see your score.  Come back tomorrow for fresh questions. Kviss • New quiz questions every day • kviss.eu

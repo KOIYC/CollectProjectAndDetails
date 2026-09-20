@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/IndieDev/comments/1t00660/adding_another_2d_artis
 project_url: "https://i.redd.it/8csfsl69mcyg1"
 author: "Admirable-Paint-1808"
 published_at: "2026-04-30T23:48:37+08:00"
-captured_at: "2026-09-21T01:14:47+08:00"
+captured_at: "2026-09-21T03:00:26+08:00"
 lang: "en"
 kind: "post"
 topic: "游戏"
@@ -19,8 +19,8 @@ tags:
   - reddit
   - r/indiedev
 metrics: {"score": 3, "comments": 1, "upvote_ratio": 0.6700000166893005}
-comments_count: 0
-comments_total: 0
+comments_count: 1
+comments_total: 1
 discovered_via: "reddit:174d+settle3"
 ---
 
@@ -35,7 +35,7 @@ discovered_via: "reddit:174d+settle3"
 > 指标：得分=3 · 评论=1 · 赞踩比=0.6700000166893005
 > 作者：Admirable-Paint-1808　|　发布：2026-04-30T23:48:37+08:00
 > 项目链接：<https://i.redd.it/8csfsl69mcyg1>
-> 采集：2026-09-21T01:14:47+08:00　|　id：`7fa4caaec62665da`
+> 采集：2026-09-21T03:00:26+08:00　|　id：`7fa4caaec62665da`
 
 ## 正文
 
@@ -46,6 +46,11 @@ Looking for 2d artists that can draw on this level. Will be doing a few frames a
 Please DM your portfolio.
 
 I can intro you to team and get started. This project is revshare based until we secure funding. That why we building out demo!
+
+## 评论（1/1）
+
+> **6kmhydro**（1 分） · 2026-05-01T02:45:36+08:00　
+> Great
 
 ## 导航
 

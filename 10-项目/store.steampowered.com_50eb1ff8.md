@@ -2,7 +2,7 @@
 type: "project"
 title: "Most student projects get abandoned, but my friend and I decided to finish ours. It’s a small puzzle game about magnets, and we just launched the Steam page! Meet Cold Contours! 🧲"
 project_url: "https://store.steampowered.com/app/4742440/Cold_Contours_Intake"
-first_seen: "2026-09-21T01:36:48+08:00"
+first_seen: "2026-09-21T03:02:04+08:00"
 sources:
   - reddit
 tags:
@@ -20,7 +20,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://store.steampowered.com/app/4742440/Cold_Contours_Intake>
-> 首次收录：2026-09-21T01:36:48+08:00
+> 首次收录：2026-09-21T03:02:04+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/indiedev, Upcoming!
 > 最新指标：得分=61 · 评论=5 · 赞踩比=1
@@ -31,6 +31,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-21T01:30:35+08:00 | Reddit 独立开发版块 | 得分=61 · 评论=5 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/de2f094764fb7816_Most-student-projects-get-abandoned,-but-my-friend]] |
 | 2026-09-21T01:36:48+08:00 | Reddit 独立开发版块 | 得分=61 · 评论=5 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/de2f094764fb7816_Most-student-projects-get-abandoned,-but-my-friend]] |
+| 2026-09-21T03:02:04+08:00 | Reddit 独立开发版块 | 得分=61 · 评论=5 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/de2f094764fb7816_Most-student-projects-get-abandoned,-but-my-friend]] |
 
 ## 摘要正文
 

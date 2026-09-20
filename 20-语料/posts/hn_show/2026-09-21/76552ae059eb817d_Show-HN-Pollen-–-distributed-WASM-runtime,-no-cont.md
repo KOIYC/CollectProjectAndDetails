@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=47961935"
 project_url: "https://github.com/sambigeara/pollen"
 author: "sambigeara"
 published_at: "2026-04-30T13:15:04Z"
-captured_at: "2026-09-21T01:41:05+08:00"
+captured_at: "2026-09-21T02:52:26+08:00"
 lang: "en"
 kind: "post"
-topic: 开发者工具
+topic: "开发者工具"
 shard: "2026-09-21"
 pub_day: "2026-04-30"
 tags:
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:174d"
 # Show HN: Pollen – distributed WASM runtime, no control plane, single binary
 
 > [!info] 一句话导读
-> Show HN: Pollen – distributed WASM runtime, no control plane, single binary
+> Distributed WASM runtime. Workloads place themselves over a zero-trust mesh. One static binary.
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,315 @@ discovered_via: "hn:show_hn:174d"
 > 指标：点赞=137 · 评论=65 · engagement_velocity=137
 > 作者：sambigeara　|　发布：2026-04-30T13:15:04Z
 > 项目链接：<https://github.com/sambigeara/pollen>
-> 采集：2026-09-21T01:41:05+08:00　|　id：`76552ae059eb817d`
+> 采集：2026-09-21T02:52:26+08:00　|　id：`76552ae059eb817d`
 
 ## 正文
 
-Show HN: Pollen – distributed WASM runtime, no control plane, single binary
+# Sambigeara/pollen
+
+Distributed WASM runtime. Workloads place themselves over a zero-trust mesh. One static binary.
+
+- Stars: 377
+- Forks: 15
+- Watchers: 377
+- Open issues: 10
+- License: Apache License 2.0
+- Homepage: https://pln.sh
+- Default branch: main
+- Created: 2026-04-02T08:08:11Z
+
+## Languages
+
+- CSS
+- Go
+- HCL
+- HTML
+- Just
+- Shell
+
+## Top Contributors
+
+- Sambigeara (130 contributions)
+
+---
+
+## README
+
+# Pollen
+
+Pollen is a self-organising mesh and WASM runtime written in pure Go. Workloads are "seeded" into the cluster and organically scale and follow load. There is no central coordinator; decisions are made deterministically, locally, using a gossiped CRDT runtime state as their source of truth. Same view of the world; same workload placement and routing.
+
+The goal is for Pollen to turn a collection of heterogeneous machines into a blob of generic compute that can run absolutely anywhere. Think: a Raspberry Pi acting as though it has the power of a server-farm.
+
+Pollen demo
+
+This demo shows a simple processing pipeline: two chained workloads and a single "sink" egress server running on my home laptop (all requests end up here). 10 freshly provisioned (global) nodes are bootstrapped into the cluster, workloads are seeded, and ~4,000req/s calls spread across 5 locations simultaneously. The scale-up and workload placement all happens organically. The nodes gate and apply backpressure and gossip saturation across the cluster so other nodes know where to direct traffic. Pausable video at pln.sh.
+
+## Features
+
+- **WASM seeds.** `pln seed ./hello.wasm` here, `pln call hello greet` there; artefacts distribute peer-to-peer by hash. One host call invokes another seed by name (`pln://seed/ / `), so authz, routing, and policy can live inside WASM. Authored in Go, Rust, JS, Python, C#, Zig via Extism.
+- **Mesh services.** `pln serve 8080 api` here, `pln connect api` there (or `pln://service/ ` from a seed). TCP and UDP, end-to-end mTLS.
+- **Static sites & blobs.** `pln seed ./public` publishes a site; `pln seed ./file` shares a file. Same verb across workloads, sites, and blobs; kind is autodetected from what you point at. Content-addressed, gossiped, streamed peer-to-peer over QUIC.
+- **Self-organising.** No scheduler, no leader, no coordinator. Topology, placement, and routing emerge from local state; calls go to the nearest, least-loaded replica, and replicas migrate toward demand.
+- **CRDT-native.** A converging document on every node; changes gossip, conflicts resolve.
+- **Partition-tolerant.** Both sides of a split keep running; state converges on rejoin; survivors rehost workloads from failed nodes.
+- **QUIC transport.** One multiplexed, encrypted, UDP-based connection per peer carries gossip, services, and seeds. Connections punch direct between peers; otherwise they relay through any cluster node both peers can reach.
+- **Cryptographic admission.** No shared secrets, no firewall rules. Every link is mTLS; capabilities ride on signed grants that renew themselves, so the root machine can stay offline.
+- **Edge-ready.** Pure Go, no CGO. Raspberry Pi to cloud host.
+- **Ergonomic.** Opinionated defaults, opt-in configuration.
+
+## Documentation
+
+Full docs at docs.pln.sh:
+
+- Quickstart. Install, cluster, workload, call.
+- Concepts. The model: mesh, converged state, grants, sessions, admission, scoped status, placement, routing.
+- How-to. Recipes for relays, offline root, property-based access, tenant budgets, rollouts.
+- CLI reference. Every command, every flag.
+- Troubleshoot. Symptoms with their causes and fixes.
+
+The rest of this README is a condensed tour. See the docs for the full picture.
+
+## Quickstart
+
+### Install
+
+```bash
+curl -fsSL https://pln.sh/install.sh | bash
+```
+
+A thin wrapper around your platform's package manager (Homebrew on
+macOS, apt/dnf/yum/zypper on Linux), so upgrades, uninstalls, and
+service files are managed natively. On Linux, the installer reads
+`/etc/os-release` and refuses to guess on unknown distros; pass
+`--method tarball` to opt in to a `/usr/local/bin` binary install with
+the same daemon provisioning. On macOS, see the FAQ for a
+first-connect permissions note.
+
+### Two commands to a cluster
+
+```bash
+pln init                                                  # creates a new cluster rooted here
+pln bootstrap ssh user@host [--publisher|--admin]         # requires passwordless SSH + sudo
+```
+
+You have a zero-trust mesh, a peer-to-peer artefact store, and a WASM
+runtime. Public nodes automatically become relays, so the mesh handles
+NAT traversal without configuration. Pass `--publisher` to let the new
+node publish workloads and services, or `--admin` for full delegation
+authority so your root machine doesn't need to stay online.
+
+### Add more nodes
+
+**With SSH.** From any admin node:
+
+```bash
+pln bootstrap ssh user@host [--publisher|--admin] [--prop region=eu]
+
+# Public box that should serve the CLI over the wire too:
+pln bootstrap ssh edge=root@198.51.100.10 --admin --wire :7443
+
+# Or pipe labelled targets from stdin or a file:
+echo "media=alice@10.0.0.5" | pln bootstrap ssh -
+```
+
+Installs Pollen, enrols in the cluster, and starts. Linux targets only;
+needs SSH as root or passwordless sudo. The default tier is leaf
+(consume only); `--publisher` allows the joiner to publish, `--admin`
+delegates full admin authority. `--prop` bakes properties into each
+joiner's grant at issue time; prefix a target with `name=` to label the
+node. `--wire :7443` enables the joining node's TLS+mTLS control
+listener and writes it as this context's wire fallback so the local
+CLI keeps working when the local daemon is down; open the inbound
+port at the cloud or host firewall yourself. Run
+`pln bootstrap ssh --help` for the full flag set.
+
+**Out-of-band.** Mint a token on an admin node, ship it to the joiner:
+
+```bash
+# Admin node:
+pln invite [--publisher|--admin] [--subject foo]   # subject is the joiner's `pln id`
+
+# New node:
+pln join --up <token>
+```
+
+The token is self-contained: signed admission credentials, the cluster's
+root key, and every public relay address the cluster has organically
+learned. Any public node you've bootstrapped is already acting as a
+relay, and its address is woven into new invites automatically, so a
+joiner behind NAT has a route in without you plumbing anything. Ship the
+token over any channel; it's signed and valid until its TTL expires.
+
+### Expose a service
+
+```bash
+# Machine A:
+pln serve 8080 api
+
+# Machine B:
+pln connect api
+curl localhost:8080           # served from A, over the mesh
+```
+
+TCP and UDP. Connections punch directly if both peers can reach each other,
+and relay over the shortest mesh path otherwise. No ingress controller, no
+DNS, no port forwarding.
+
+### Run a seed
+
+```bash
+pln seed ./hello.wasm
+pln call hello greet '{"name":"world"}'
+```
+
+`pln seed` publishes a WASM binary into the cluster. Nodes decide
+*locally* whether to claim a replica, scoring themselves on available
+capacity, cached artefacts, and proximity to traffic. There is no central
+scheduler. When a node goes down, survivors pick up the slack.
+Publishing workloads, static sites, named blobs, and services requires
+the publisher capability (or admin, which is a strict superset). Each
+published resource is signed and names the publisher's grant rather
+than embedding a copy of it, so it keeps serving while that grant is
+within its deadline and not revoked, even after the publisher leaves.
+
+Example modules live in `examples/`. Run `pln --help` for
+the full CLI reference.
+
+Seeds that only delegate to another seed can return a tail-call marker
+instead of making a synchronous `pollen_request` host call:
+
+```json
+{"kind":"tail_call","uri":"pln://seed/upper/handle","input":"aGVsbG8="}
+```
+
+`input` is standard base64-encoded bytes, and the URI must target a
+seed. Pollen releases the caller's WASM instance as soon as the marker
+is observed, then routes the target seed and returns its output to the
+original caller.
+
+### Grant capabilities
+
+Pollen has four tiers. Pick the smallest that does the job.
+
+- **Leaf** (default): can call workloads and connect to services. Cannot publish, cannot delegate.
+- **Publisher** (`--publisher`): can publish workloads, services, blobs, and static sites. Cannot delegate further.
+- **Workspace-admin** (`--workspace`): founds a workspace and operates inside it. Holds delegate authority and full publish capability bounded to that workspace; sees its chain ancestors and own subtree but not siblings or other tenants.
+- **Admin** (`--admin`): cluster-wide. Everything below plus admit and grant new peers anywhere; sees every workload, site, blob and node. Only the root admin can mint other admins.
+
+```bash
+# Grant publisher capability to an existing peer:
+pln grant <peer-id> --publisher
+
+# Promote to a workspace-admin for multi-tenant isolation; the peer
+# may delegate publishers under it inside its workspace boundary:
+pln grant <peer-id> --workspace
+
+# Delegate admin authority; useful for keeping the mesh operable
+# (admissions, grant renewals) with the root node offline:
+pln grant <peer-id> --admin
+
+# Cap how much a tenant can publish; counts only, 0 means unlimited.
+# The same --max-* flags work at enrolment on `pln invite`:
+pln grant <peer-id> --publisher --max-functions 10 --max-blobs 50 --max-sites 2
+pln invite --publisher --max-functions 10 --max-blobs 50 --max-sites 2
+
+# Bake arbitrary key/value properties into a peer's grant. Seeds see
+# the caller's peer key and properties on every invocation, so auth,
+# routing, and policy decisions can live inside the workload:
+pln grant <peer-id> --prop role=lead --prop team=backend
+
+# Or bake them in at join time, on either path:
+pln invite --publisher --prop role=engineer --prop team=backend
+pln bootstrap ssh root@host --admin --prop region=eu --prop tier=edge
+
+# Pipe a JSON payload from a file:
+cat props.json | pln grant <peer-id> --prop -
+
+# Set the root node's own properties at init time (or replace
+# them later with `pln props`):
+pln init --prop role=primary --prop region=eu
+pln props role=primary region=eu        # replace
+pln props --clear                       # wipe
+```
+
+A delegated grant carries a single 30-day deadline, the bound on how
+long a lost key stays usable; admin grants carry none. Renewal is
+automatic: a running daemon renews in the background against any
+reachable delegating peer, and a context with no daemon up renews on
+its next command, so the root and the original issuer can both be
+offline. There is no `pln renew`. If a grant does lapse, mint a fresh
+invite on an admin and `pln join` again.
+
+### Restrict who can call what
+
+```bash
+# Require a property on the caller's grant; repeatable, all
+# clauses must match:
+pln serve 8080 internal --allow-prop team=backend
+pln seed ./hello.wasm --allow-prop role=lead
+```
+
+Policy clauses ride on the published resource. They are checked
+against the caller's grant properties at the admission authorise
+stage on every invoke, fetch, or connect; failed matches close the
+stream. Disjunction lives at issuance: if you want "editors or
+admins", mint both with `pln grant --prop tier=privileged` and
+require `tier=privileged` on the resource. Without a flag the
+resource is open to any authenticated peer.
+
+### Serve a static site
+
+```bash
+# On each node that should serve HTTP. Port is optional;
+# defaults to :8080. `restart` to apply.
+pln set static-http               # or `pln set static-http 9000`
+
+# From any node:
+pln seed ./public my-site
+
+# Fetch via any serving node:
+curl -H "Host: my-site" http://<node-addr>:8080/
+```
+
+`pln seed` on a directory hashes every file into the local
+content-addressed store and publishes the site under ` `. Other
+nodes replicate the files and serve the site themselves. Each node's
+HTTP listener routes requests by `Host` header to the matching site.
+
+### Share a blob
+
+```bash
+# From any node:
+pln seed ./big-file.bin           # prints sha-256 digest
+pln seed ./big-file.bin payload   # or publish under a name
+
+# From any other node:
+pln fetch <digest|name> ./out.bin     # streams plaintext from the publisher to ./out.bin
+```
+
+> Blobs are the primitive behind static sites: content-addressed,
+> gossip-advertised, streamed peer-to-peer over QUIC. Receivers verify
+> the digest on arrival. Bytes are encrypted at rest, so `pln fetch`
+> is the export path. It never writes the encrypted form to your local
+> store.
+
+## FAQ
+
+- **macOS: `sendmsg: no route to host` on LAN dials**
+
+ Most likely macOS Local Network Privacy. Grant `pln` access in
+ **System Settings → Privacy & Security → Local Network**. The prompt
+ appears the first time `pln` tries to reach a LAN peer; if you miss
+ it, or the binary's signature changes after an upgrade, LAN dials
+ silently fail while WAN traffic keeps working. Re-granting access
+ fixes it.
+
+## License
+
+Licensed under the Apache License, Version 2.0.
+
+# kanwas-ai/kanwas
 
 ## 评论（65/65）
 
@@ -376,6 +680,11 @@ Show HN: Pollen – distributed WASM runtime, no control plane, single binary
 > [2] https://github.com/Sambigeara/pollen/blob/567e85d5f1407932dd...
 > [3] https://github.com/Sambigeara/pollen/blob/567e85d5f1407932dd...
 > [4] https://github.com/Sambigeara/pollen/blob/567e85d5f1407932dd...
+
+## 关联链接
+
+- https://pln.sh
+- https://pln.sh/install.sh
 
 ## 导航
 

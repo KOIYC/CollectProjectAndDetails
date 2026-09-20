@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=48731594"
 project_url: "https://github.com/sageserpent-open/kineticMerge"
 author: "sageserpent"
 published_at: "2026-06-30T12:13:50Z"
-captured_at: "2026-09-21T01:29:55+08:00"
+captured_at: "2026-09-21T02:53:09+08:00"
 lang: "en"
 kind: "post"
-topic: SaaS/B2B
+topic: "开发者工具"
 shard: "2026-09-21"
 pub_day: "2026-06-30"
 tags:
@@ -28,17 +28,353 @@ discovered_via: "hn:show_hn:113d"
 
 # Show HN: Kinetic Merge – merge a refactored codebase and stay sane
 
+> [!info] 一句话导读
+> sageserpent-open/kineticMerge
+
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=48731594>
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：sageserpent　|　发布：2026-06-30T12:13:50Z
 > 项目链接：<https://github.com/sageserpent-open/kineticMerge>
-> 采集：2026-09-21T01:29:55+08:00　|　id：`5764583516f1c17d`
+> 采集：2026-09-21T02:53:09+08:00　|　id：`5764583516f1c17d`
+
+## 正文
+
+# sageserpent-open/kineticMerge
+
+Merge a heavily refactored codebase and stay sane.
+
+- Stars: 24
+- Forks: 2
+- Watchers: 24
+- Open issues: 27
+- License: MIT License
+- Default branch: main
+- Created: 2023-05-16T15:00:08Z
+
+## Languages
+
+- Scala
+
+## Topics
+
+- git
+- merge
+- refactoring
+
+## Top Contributors
+
+- sageserpent-open (2204 contributions)
+- scala-steward (230 contributions)
+- release-app-for-sageserpent-open[bot] (77 contributions)
+- google-labs-jules[bot] (49 contributions)
+- themadcreator (25 contributions)
+- ianbrandt (8 contributions)
+- sandymac (2 contributions)
+
+---
+
+## README
+
+# kineticMerge
+
+Merge a heavily refactored codebase and stay sane.
+
+Maven Central
+
+Scala Steward badge
+
+**Requires JRE 17 LTS or later since release 1.3.0.**
+
+(**Release - 1.15.0**).
+
+YouTube:
+
+- Kinetic Merge: Merging through a File Split
+- Kinetic Merge: Complex Merge Demonstration
+- Kinetic merge: merging code embedded inside an if-statement.
+
+## Goals
+
+- Merge two branches of a Git repository *holistically across the entire codebase*.
+- Take into account the motion of code in either branch due to refactoring.
+- Handle file renames, file splits, file concatenation.
+- Handle code being excised from one place in a file and moved elsewhere in that file or to somewhere within another
+ file, or hived off all by itself in its own new file.
+- Work alongside the usual Git workflows, allowing ordinary Git merge to take over at the end if necessary.
+- A simple command line tool that tries to do as much as it can without supervision, and with minimal supervision when
+ complexities are encountered.
+
+## Installation ##
+
+### Got Coursier installed? ###
+
+Then run `cs install --contrib kinetic-merge`, and you're all set to go, it will put the latest release of
+`kinetic-merge` on your path.
+
+Run `cs update kinetic-merge` to check for and install any updated latest release.
+
+You can also invoke Kinetic Merge via Coursier without actually installing it:
+
+```
+cs launch com.sageserpent::kinetic-merge:<RELEASE VERSION FROM GITHUB> -- <command line arguments>
+```
+
+### Not got Coursier installed? ###
+
+Install it, then: https://get-coursier.io/docs/cli-installation.
+
+### Don't want to install Coursier? ###
+
+Then download a release for yourself:
+
+```bash
+curl -LJO --verbose http://github.com/sageserpent-open/kineticMerge/releases/download/v<RELEASE VERSION FROM GITHUB>/kinetic-merge
+
+chmod a+x kinetic-merge
+```
+
+Put it on your path.
+
+Alternatively, go to the releases and manually
+download `kinetic-merge`. You'll still have to execute `chmod a+x kineticMerge` so you can run it.
+
+If you're on Windows, instead of `kinetic-merge` use the companion download *`kinetic-merge.bat`*.
+
+### Stuck in a firewalled corporate environment and can't just download anything you feel like, but can clone this repository? ###
+
+If so, clone this repository locally (or just download it as a source drop), install SBT and run `sbt packageExecutable`
+in the top level of the directory you've cloned / downloaded - that will place a freshly baked executable and companion
+Windows batch file in the `target` subdirectory.
+
+### Want to test-drive the programmatic API from JShell and have access to Maven Central or Sonatype? ###
+
+Try the instructions here.
+
+## Running it ##
+
+Go to your Git repository. Check your repository has a branch checked out (so not a *bare* repository) and that it
+doesn't have uncommitted work; decide what branch you want to merge from and off you go:
+
+```bash
+git status
+
+kinetic-merge <the branch you want to merge into the current one>
+```
+
+If the merge goes through cleanly, Kinetic Merge will make a merge commit and advance the current branch to it, just
+like `git merge` would do.
+
+If the merge encounters conflicts, Kinetic Merge will do as much merging as it can up-front, and stage conflicting
+*partially merged* files into the Git index along with writing the file with conflict markers in it, so you can use your
+usual workflow to resolve the conflicts. You can open up an editor directly on the file and resolve the conflicts by
+hand - mark them as resolved in the usual way with `git add ` and the commit with `git commit`, or
+just `git merge --continue` - or use your usual IDE to resolve the conflicts; I use IntelliJ, that works nicely.
+
+Unlike a conventional Git merge, if you use an IDE that reads the staged conflicting files, you will see that the *left*
+and *right* versions are already partially merged for you.
+
+What's more, the staged files and the conflicts already have any code motion applied to them, so they are less
+confusing; the conflicts are shown in the right place.
+
+It supports fast-forwarding, plus the `--no-ff` and `--no-commit` options too. Use `--help` if you need a reminder.
+
+## Why?
+
+Meet Noah Shortcut and Seymour Checks, two likely software engineers
+from ThreePhantasticTales, and their manager, Mr Deadline.
+
+Some time has passed since that those tales were told, and Messrs Shortcut and Checks work with Java in some giant
+corporate blob these days. Noah likes to work lean and mean with Emacs or vi, or is it Atom or Sublime now? He's pumping
+out code straight into CI/CD as fast as possible with no tests to slow him down, and Mr Deadline is very happy. Seymour
+likes TDD, also spends a lot of time adding tests to the existing codebase before working on new functionality, and
+refactors the old codebase a lot with IntelliJ or Visual Studio Code to keep it tractable.
+
+All this would be great, only each time a PR is raised, all hell breaks loose when Seymour's beautifully rearranged code
+hits Noah's latest tidal wave of new functionality that has been hacked in place.
+
+As an example, Seymour likes to extract helper methods from overly long passages of code to make them comprehensible -
+so the extracted code is moved around in the file. He has method sorting switched on, so the newly extracted methods are
+moved far away from the original locations. In fact, every time Seymour starts working on the codebase, the method
+sorting rearranges all the code written in the last tidal wave by Noah, who just lays new code down fast and loose. When
+files get too big to read, Seymour extracts classes and puts them into other files, and if implementing classes get too
+weighty, some of their methods and state get hoisted up into abstract classes, or into interfaces as default methods.
+Classes get renamed, and IntelliJ sensibly renames the file to match.
+
+Come the PR, Noah's changes all live in their original location, and so Git regards the merge as fusing two radically
+different sets of changes - other than some fairly simple file renames with perhaps a few edits, it can't follow all the
+code motion due to Seymour's refactoring. So the PR is either rejected as unworkable by Mr Deadline, or Seymour
+painstakingly and time-consumingly tries to resolve the many conflicts by pick-axeing through the code to match what
+went where, or Noah simply copies and pastes code from the head of one branch into the other without any idea as to
+whether the 'change' was really made since the shared base commit of the PR, or is simply a reversion back to old code.
+
+Kinetic Merge's job is to augment the process of merging in Git so that the code motion due to refactoring is sensibly
+interpreted, taking into account all the files in the repository. If it can do a clean merge, it will and Git will see
+an ordinary merge commit. If it can't fully complete the merge, it writes the same staging information that Git would in
+a conflicted merge; it then hands over to Git and you, the user, to resolve the final conflicts - but it tries to take
+the code motion pain out of the process before it hands over, so that the final manual merge should feel like a simple
+one.
+
+## Status
+
+Well, it works; there are stable releases. Code motion is tracked both intra-file and inter-file. You can split a file
+into pieces on one branch and edit the original file on another - those edits will find their way into the right places
+when you merge. Correspondingly, you can join several files together on one branch and edit all of them on another -
+again, the edits will arrive in the right place on merging. Cool.
+
+As befits any piece of non-vapourware, there are known bugs / deficiencies and there are always new features to add, but
+that's why GitHub provides an issue tracker.
+
+The author uses it regularly on his own projects.
+
+Give it a spin, do raise bug tickets,
+see https://github.com/sageserpent-open/kineticMerge/issues/21
+for guidance.
+
+Bear in mind you can use either `--no-commit` or rollback with `git merge --abort` or `git reset --hard`, but know what
+you're doing before you use the third technique.
+
+## What do the command-line options do?
+
+```text
+  --help                   Output this summary.
+  --version                Show the version of this command.
+  --no-commit              Do not commit a successful merge - leave merged changes staged in the index for review. Off by default.
+  --no-ff                  Prevent fast-forward merge - make a merge commit instead. Off by default.
+  --minimum-match-size <value>
+                           Minimum number of tokens for a match to be considered. Default of 2.
+  --match-threshold <value>
+                           Minimum fraction of a containing file's size for a section of text to qualify for matching; zero implying no restriction. Default of 0.0.
+  --minimum-ambiguous-match-size <value>
+                           Minimum number of tokens for an ambiguous match to be considered. Default of 10.
+  --ambiguous-matches-threshold <value>
+                           Maximum number of matches of the same kind that can refer to the same matched content. Default of 20.
+```
+
+Hopefully `--help` and `--version` are self-explanatory.
+
+As for `--no-commit` and `--no-ff`, these are for feature parity with plain Git merge and do the same thing.
+
+Where it gets interesting is:
+
+`--minimum-match-size`: this is the minimum size of content measured *in tokens* required for a match across two or more
+sides of the merge to be eligible for discovery. Making this larger means that potential matches of content may be left
+undiscovered. However, setting this right down to one token can lead to a bombardment of useless matches because it is
+likely for a single token to be repeated many times across the codebase.
+
+The default is set to 2; this seems to work well enough in practice.
+
+`--match-threshold`: this is a looser alternative to `--minimum-match-size` where content in a file is only eligible for
+match discovery if its size in tokens is at least a fraction of that file's size *as measured in content tokens*. This
+means that a potential match may be deemed unsuitable even if just one of its sides fails to meet the threshold.
+
+The match threshold fraction is specified as either an explicit percentage - eg `10%`, the digits following the decimal
+point for a non-negative fraction less than one - eg `05` (meaning 0.05, or 5%) or an explicit non-negative fraction at
+most one - eg `0.0`, `0.34`, `1.0`.
+
+The default is set to zero, thus this has no effect if not specified.
+
+**NOTE:**
+
+1. Tokens include words, punctuation, braces and operator symbol characters. Intervening whitespace is usually
+ considered to be a suffix of the preceding token. A string constant (strictly speaking, a Java string constant, but
+ this seems to work well enough in other languages) is treated as a single token that includes the opening and closing
+ quotation marks.
+2. When both `--minimum-match-size` and `--match-threshold` are specified, the largest one takes precedence on a
+ file-by-file basis.
+3. While both `--minimum-match-size` and `--match-threshold` control the minimum size of content eligible for match
+ discovery, it is possible and indeed desirable for Kinetic Merge to break down matches into smaller pieces whose size
+ in tokens is less than that minimum size. The full story is
+ on this ticket.
+
+`--minimum-ambiguous-match-size`: this is an extra restriction applied *after* `--minimum-match-size` and
+`--match-threshold`, limiting the size of ambiguous matches where the same content can match in multiple places. This
+allows important small matches of some special content that occurs only in one place to be picked up, while blocking the
+usual noise that results from single and double-token ambiguous matches.
+
+The default is set to 10.
+
+`--ambiguous-matches-threshold`: this permits case-by-case vetting of ambiguous matches; if the number of ambiguous
+matches *for some specific content* exceeds the threshold, than that content will not be matched.
+
+The default is set to 20.
+
+**TIP:**
+
+If `--minimum-ambiguous-match-size` is set to a low value and then results in a lot of noise, experiment with
+`--ambiguous-matches-threshold`, setting it to a low enough value to weed out the unwanted matches.
+
+## Simple Use Cases
+
+Behold the Chamber of Horrors...
+
+## Honourable Mentions
+
+For a while, this project made heavy use of Rabin fingerprinting, which is a kind of rolling hash *distinct* from the
+rolling polynomial hash frequently used in the Rabin-Karp algorithm we all know and love.
+
+In the end, a simpler rolling polynomial hash was good enough and a lot faster to compute, but if you're looking for a
+good collision resistant hash, head over to this
+project: rabinfingerprint.
+The price paid by Kinetic Merge for dropping this was the appearance of a bug due to the higher probability of
+collisions using rolling polynomial hashing; that has been since fixed. The fact that the bug was latent in the code for
+so long is a testament to the collision resistance of Rabin fingerprinting!
+
+For an even longer time, this project used the fingertree implementation as a
+vital part of `MatchesAndTheirSections`. It was a performant and robust way of dealing with interval testing, as well as
+a nice example of a pure-functional core fingertree implementation with various front-end APIs. At time of writing, the
+APIs are a bit rough-and-ready, but it did the job well. It was eventually swapped put for an LLM-rolled treap
+implementation, but it still pulled in as a test dependency so that the treap implementation can be validated against it
+as a reference.
+
+## Design Documents
+
+- Job Description
+- Problem Space
+- Code Motion
+- Component Breakdown
+- `CodeMotionAnalysis.of`
+- Blind Alleys
+- Skeletons in the Cupboard
+
+## Do you use these libraries yet?
+
+Direct dependencies in `build.sbt` and why they are used...
+
+- `scala-logging` and `logback-*`. Duh, of course. Lots of documentation, does what it says on the tin.
+- `cats-*`. For all those slightly high-church functional programming idioms that you don't want to write and test from
+ scratch, not to mention keep maintaining. Again, *documentation*.
+- `alleycats-core`. For when you need the Devil to accompany you to mass in the high-church.
+- `scopt`. No-nonsense, robust command line parsing. Small and gets the job done.
+- `scala-collection-contrib`. `MultiDict`, and in the past for `MapDecorator`. Move on from `MultiMap`!
+- `monocle`. Try rewriting the code without lenses and you'll see why.
+- `scala-parser-combinators`. No-nonsense, robust tokenization in a pure functional manner.
+- `os-lib`. Stop using the various messy Java and Scala APIs for paths, files and processes and just use this for a
+ well-documented, coherent, one-stop-shop experience.
+- `fansi`. I like underlined text in my application messages for things that vary.
+- `pprint`. *Readable* debugging output.
+- `tagging`. Stop your code from being both *stringly-typed* and looking like 1970s C with all those integers.
+- `guava`. Hashing, hashing and yet more hashing.
+- `caffeine`. If you want a well-documented, one-stop-shop Java caching API that plugs into everything and is endlessly
+ configurable, here it is.
+- `progressbar`. A straightforward way of displaying a progress bar for a console application.
+- `americium`. Possibly the world's best parameterised test support framework. Your scribe is of course completely
+ unbiased. If you want tests that automatically shrink down failing test cases, you're in the right place.
+- `expecty`. Scala's most minimal and yet most effective assertion framework. Less is more!
+- `jupiter-interface`. Yes, use *JUnit5 for your Scala tests*. Works a treat in concert with `americium` and `expecty`.
+
+# fiwano-com/fiwano-cookbook
+
+## 关联链接
+
+- http://github.com/sageserpent-open/kineticMerge/releases/download/v
+- https://get-coursier.io/docs/cli-installation.
+- https://github.com/sageserpent-open/kineticMerge/issues/21
 
 ## 导航
 
 - 项目页：[[10-项目/github.com_1e752a70]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`SaaS/B2B`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

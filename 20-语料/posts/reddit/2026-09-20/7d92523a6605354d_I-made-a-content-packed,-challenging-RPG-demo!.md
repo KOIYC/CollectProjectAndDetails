@@ -48,7 +48,7 @@ discovered_via: "reddit:7d+settle3"
 
 ## 关联链接
 
-- https://store.steampowered.com/app/4304600/Isle\_Plateau\_Demo/
+- https://store.steampowered.com/app/4304600/Isle
 - https://store.steampowered.com/app/4304600/Isle_Plateau_Demo/
 
 ## 导航

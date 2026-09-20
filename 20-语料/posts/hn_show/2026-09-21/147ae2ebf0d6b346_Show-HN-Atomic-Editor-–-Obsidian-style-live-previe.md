@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=48345201"
 project_url: "https://kenforthewin.github.io/atomic-editor"
 author: "kenforthewin"
 published_at: "2026-05-31T12:32:54Z"
-captured_at: "2026-09-21T01:42:46+08:00"
+captured_at: "2026-09-21T02:52:45+08:00"
 lang: "en"
 kind: "post"
-topic: 开发者工具
+topic: "AI 工具/Agent"
 shard: "2026-09-21"
 pub_day: "2026-05-31"
 tags:
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:144d"
 # Show HN: Atomic Editor – Obsidian-style live preview for CodeMirror 6
 
 > [!info] 一句话导读
-> Show HN: Atomic Editor – Obsidian-style live preview for CodeMirror 6
+> Atomic Editor — demo
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,77 @@ discovered_via: "hn:show_hn:144d"
 > 指标：点赞=67 · 评论=19 · engagement_velocity=67
 > 作者：kenforthewin　|　发布：2026-05-31T12:32:54Z
 > 项目链接：<https://kenforthewin.github.io/atomic-editor>
-> 采集：2026-09-21T01:42:46+08:00　|　id：`147ae2ebf0d6b346`
+> 采集：2026-09-21T02:52:45+08:00　|　id：`147ae2ebf0d6b346`
 
 ## 正文
 
-Show HN: Atomic Editor – Obsidian-style live preview for CodeMirror 6
+Atomic Editor — demo
+
+Atomic Editor
+
+CodeMirror 6 markdown editor with Obsidian-style inline live preview — WYSIWYG tables, syntax-highlighted code, interactive checkboxes, and cursor-scoped link unfold. Showing a 1 page sample.
+
+Try it
+
+Fenced code blocks pick up per-language syntax highlighting. The grammar loads lazily — only fences you actually open hit the wire:
+
+// A tiny markdown chunker. Every token in this block is
+
+// highlighted by a lazy-loaded CodeMirror grammar — open the
+
+// "Sample" picker above and the TypeScript grammar only loads
+
+// when a ```ts fence first appears on screen.
+
+export function chunkMarkdown(input: string): string [] {
+
+ const blocks: string [] = [];
+
+ let cursor = 0;
+
+ while (cursor < input. length) {
+
+ const nextBreak = input. indexOf('\n\n', cursor);
+
+ if (nextBreak === - 1) {
+
+ blocks. push(input. slice(cursor));
+
+ break;
+
+ blocks. push(input. slice(cursor, nextBreak));
+
+ cursor = nextBreak + 2;
+
+ return blocks;
+
+Tables render WYSIWYG. Click a cell to edit in place — inline markdown inside cells reveals its delimiters only when your cursor enters:
+
+| Plain | Bold | Italic | Strike | Highlight | Link |
+| --- | --- | --- | --- | --- | --- |
+| plain text | ** bold text** | * italic text* | ~~ struck text~~ | == marked text== | [example](https://example.org) |
+| alt delim | __ also bold__ | _ also italic_ | ~~ gone gone~~ | == also marked== | [github](https://github.com) |
+| nesting | ** bold with _ italic_ inside** | * italic with ** bold** inside* | ~~ strike with ** bold**~~ | == highlight with ** bold**== | [text ** bold** here](https://example.org) |
+| escapes | *literal stars* | _literal underscores_ | ~~not strike~~ | ==not highlight== | [not a link] |
+| non-matches | snake_case_var | ident_with_underscores | `code stays raw` | a = b = c | https://example.org raw url |
+
+Task lists are real checkboxes — click any of them to toggle. Pressing Enter on a task continues the list; Enter on an empty item dedents.
+
+Click me to toggle
+
+This one is already done
+
+Tap at the end of this line and press Enter to continue the list
+
+Wiki links connect notes. Type [[ for autocomplete, and Cmd/Ctrl-click a rendered link to open it — inside inline code it stays raw:
+
+Labeled: [demo-project-atlas| Project Atlas] · Bare: [demo-meeting-notes] Meeting Notes · In code: [[demo-project-atlas]]
+
+And the usual markdown
+
+Pipeline editor dark render block viewport heading dark render hydrate embedding token token payload query editor selection. Index subscribe atom wiki pipeline transport atom viewport fence payload table fence token store panel. Atom image editor reader image tree vector cursor decoration tag paragraph semantic viewport cursor markdown fence image callback payload render panel. Payload chat retrieval decoration pipeline highlight graph subscribe atom image store payload subscribe index highlight fence query.
+
+# Show HN: My tiny project MyTube Newsletter – daily AI digest of YouTube subs | Hacker News
 
 ## 评论（19/19）
 
@@ -138,9 +204,14 @@ Show HN: Atomic Editor – Obsidian-style live preview for CodeMirror 6
 > **readthedangcode** · 2026-05-31T18:55:32.000Z　
 > I just clicked around a bit and randomly typed, suddenly no matter where I typed, my text was ending up at the end of the document. Found it to be pretty broken as well.
 
+## 关联链接
+
+- https://example.org
+- https://github.com
+
 ## 导航
 
 - 项目页：[[10-项目/kenforthewin.github.io_e39d658c]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: 1endpoint – Cheaper access to AI models"
 project_url: "https://1endpoint.dev/"
-first_seen: "2026-09-21T01:33:52+08:00"
+first_seen: "2026-09-21T02:57:30+08:00"
 sources:
   - hn_show
 tags:
@@ -16,9 +16,12 @@ lang: "en"
 
 # Show HN: 1endpoint – Cheaper access to AI models
 
+> [!info] 一句话导读
+> 1endpoint is a unified AI inference gateway. We support OpenAI Chat Completions, Responses API and Anthropic Messages, so existing tools and agents can usually …
+
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://1endpoint.dev/>
-> 首次收录：2026-09-21T01:33:52+08:00
+> 首次收录：2026-09-21T02:57:30+08:00
 > 来源渠道：HN Show HN
 > 标签：author_DustinPham12, story_49497665, show_hn
 > 最新指标：点赞=4 · 评论=3 · engagement_velocity=4
@@ -28,3 +31,8 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T01:33:52+08:00 | HN Show HN | 点赞=4 · 评论=3 · engagement_velocity=4 | [[20-语料/posts/hn_show/2026-09-21/5273d7ac3e9e5cb4_Show-HN-1endpoint-–-Cheaper-access-to-AI-models]] |
+| 2026-09-21T02:57:30+08:00 | HN Show HN | 点赞=4 · 评论=3 · engagement_velocity=4 | [[20-语料/posts/hn_show/2026-09-21/5273d7ac3e9e5cb4_Show-HN-1endpoint-–-Cheaper-access-to-AI-models]] |
+
+## 摘要正文
+
+1endpoint is a unified AI inference gateway. We support OpenAI Chat Completions, Responses API and Anthropic Messages, so existing tools and agents can usually point to 1endpoint without changing much of their integration.The other thing we've been focusing heavily on is cost. A lot of the models are significantly cheaper than their official API pricing, without relabeling or downgrading the requested model.

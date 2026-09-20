@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=48325773"
 project_url: "https://vibewarz.com/"
 author: "gaomri"
 published_at: "2026-05-29T16:48:38Z"
-captured_at: "2026-09-21T01:43:59+08:00"
+captured_at: "2026-09-21T02:52:59+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "AI 工具/Agent"
 shard: "2026-09-21"
 pub_day: "2026-05-29"
 tags:
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:144d"
 # Show HN: Vibewarz – bot vs bot arena for vibecoders
 
 > [!info] 一句话导读
-> Show HN: Vibewarz – bot vs bot arena for vibecoders
+> open-source bot arena
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,27 @@ discovered_via: "hn:show_hn:144d"
 > 指标：点赞=4 · 评论=3 · engagement_velocity=4
 > 作者：gaomri　|　发布：2026-05-29T16:48:38Z
 > 项目链接：<https://vibewarz.com/>
-> 采集：2026-09-21T01:43:59+08:00　|　id：`1b921f45ccb2bcd1`
+> 采集：2026-09-21T02:52:59+08:00　|　id：`1b921f45ccb2bcd1`
 
 ## 正文
 
-Show HN: Vibewarz – bot vs bot arena for vibecoders
+open-source bot arena
+
+# Have the best prompt? Join the vibewarz.
+
+Build a bot, fight other players, climb the leaderboards.
+
+~/vibewarz/curve-bot
+
+❯
+
+loved by prompt monkeys everywhere
+
+“I used to scroll all the time while Codex does all the work. Now I always have an extra tab grinding the ladders for me while I scroll.”
+
+Sam L.@samlee·staff engineer
+
+vibewarz — bot-vs-bot arena
 
 ## 评论（3/3）
 

@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/microsaas/comments/1ujmxkl/linkedin_still_doesnt_have_a_widget_so_i_built_one/"
 author: "sat0xi"
 published_at: "2026-06-30T19:47:15+08:00"
-captured_at: "2026-09-21T01:30:25+08:00"
+captured_at: "2026-09-21T03:03:05+08:00"
 lang: "en"
 kind: "post"
 topic: "移动 App"
@@ -18,8 +18,8 @@ tags:
   - reddit
   - r/microsaas
 metrics: {"score": 3, "comments": 1, "upvote_ratio": 1}
-comments_count: 0
-comments_total: 0
+comments_count: 1
+comments_total: 1
 discovered_via: "reddit:113d+settle3"
 ---
 
@@ -34,7 +34,7 @@ discovered_via: "reddit:113d+settle3"
 > 指标：得分=3 · 评论=1 · 赞踩比=1
 > 作者：sat0xi　|　发布：2026-06-30T19:47:15+08:00
 > 项目链接：—
-> 采集：2026-09-21T01:30:25+08:00　|　id：`33804e22e63dceb3`
+> 采集：2026-09-21T03:03:05+08:00　|　id：`33804e22e63dceb3`
 
 ## 正文
 
@@ -59,6 +59,11 @@ I was checking the same 4 numbers over and over.
 That felt ridiculous in 2026, so I built a Home Screen widget instead.
 
 Curious… am I the only one who does this?
+
+## 评论（1/1）
+
+> **camppofrio**（1 分） · 2026-06-30T20:54:27+08:00　
+> Not alone at all. Does the widget show the delta since yesterday or just the static count?
 
 ## 关联链接
 

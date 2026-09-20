@@ -2,7 +2,7 @@
 type: "project"
 title: "Closed $6k USD in a week in January but then my freelance business died after. So I built a SaaS."
 project_url: "https://collectmonial.com/"
-first_seen: "2026-09-21T01:27:56+08:00"
+first_seen: "2026-09-21T03:01:22+08:00"
 sources:
   - reddit
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://collectmonial.com/>
-> 首次收录：2026-09-21T01:27:56+08:00
+> 首次收录：2026-09-21T03:01:22+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/microsaas
 > 最新指标：得分=5 · 评论=14 · 赞踩比=1
@@ -29,6 +29,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T01:27:56+08:00 | Reddit 独立开发版块 | 得分=5 · 评论=14 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/25de607e8dc98f5d_Closed-$6k-USD-in-a-week-in-January-but-then-my-fr]] |
+| 2026-09-21T03:01:22+08:00 | Reddit 独立开发版块 | 得分=5 · 评论=14 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/25de607e8dc98f5d_Closed-$6k-USD-in-a-week-in-January-but-then-my-fr]] |
 
 ## 摘要正文
 

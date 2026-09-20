@@ -2,7 +2,7 @@
 type: "project"
 title: "Still no revenue. But the landing page is live and people are actually signing up."
 project_url: "https://8bitstartup.com/"
-first_seen: "2026-09-21T01:30:24+08:00"
+first_seen: "2026-09-21T03:02:10+08:00"
 sources:
   - reddit
 tags:
@@ -20,7 +20,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://8bitstartup.com/>
-> 首次收录：2026-09-21T01:30:24+08:00
+> 首次收录：2026-09-21T03:02:10+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/indiehackers, Self Promotion
 > 最新指标：得分=23 · 评论=58 · 赞踩比=0.96
@@ -30,6 +30,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T01:30:24+08:00 | Reddit 独立开发版块 | 得分=23 · 评论=58 · 赞踩比=0.96 | [[20-语料/posts/reddit/2026-09-21/5a0d61abb7917c8c_Still-no-revenue.-But-the-landing-page-is-live-and]] |
+| 2026-09-21T03:02:10+08:00 | Reddit 独立开发版块 | 得分=23 · 评论=58 · 赞踩比=0.96 | [[20-语料/posts/reddit/2026-09-21/5a0d61abb7917c8c_Still-no-revenue.-But-the-landing-page-is-live-and]] |
 
 ## 摘要正文
 

@@ -2,7 +2,7 @@
 type: "project"
 title: "Are AI generated UIs enough?"
 project_url: "https://wattfactory.fit/"
-first_seen: "2026-09-21T01:13:59+08:00"
+first_seen: "2026-09-21T02:59:54+08:00"
 sources:
   - reddit
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://wattfactory.fit/>
-> 首次收录：2026-09-21T01:13:59+08:00
+> 首次收录：2026-09-21T02:59:54+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/SaaS
 > 最新指标：得分=15 · 评论=36 · 赞踩比=1
@@ -30,6 +30,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-21T01:09:51+08:00 | Reddit 独立开发版块 | 得分=15 · 评论=36 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/3715b0de79558782_Are-AI-generated-UIs-enough]] |
 | 2026-09-21T01:13:59+08:00 | Reddit 独立开发版块 | 得分=15 · 评论=36 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/3715b0de79558782_Are-AI-generated-UIs-enough]] |
+| 2026-09-21T02:59:54+08:00 | Reddit 独立开发版块 | 得分=15 · 评论=36 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/3715b0de79558782_Are-AI-generated-UIs-enough]] |
 
 ## 摘要正文
 

@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/SaaS/comments/1wi3b9a/i_made_88k_with_my_saas_as_
 project_url: "https://getle.ad/"
 author: "adgrow"
 published_at: "2026-09-17T01:10:48+08:00"
-captured_at: "2026-09-21T00:06:24+08:00"
+captured_at: "2026-09-21T03:18:08+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=50 · 评论=40 · 赞踩比=0.8
 > 作者：adgrow　|　发布：2026-09-17T01:10:48+08:00
 > 项目链接：<https://getle.ad/>
-> 采集：2026-09-21T00:06:24+08:00　|　id：`9fd77305a44d280c`
+> 采集：2026-09-21T03:18:08+08:00　|　id：`9fd77305a44d280c`
 
 ## 正文
 

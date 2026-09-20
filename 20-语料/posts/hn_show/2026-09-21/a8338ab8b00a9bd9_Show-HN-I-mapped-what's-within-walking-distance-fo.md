@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=47946655"
 project_url: "https://strado.info/map"
 author: "strado"
 published_at: "2026-04-29T11:05:00Z"
-captured_at: "2026-09-21T01:42:15+08:00"
+captured_at: "2026-09-21T02:52:39+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:174d"
 # Show HN: I mapped what's within walking distance for European cities using OSM
 
 > [!info] 一句话导读
-> Show HN: I mapped what's within walking distance for European cities using OSM
+> Daily essentials in walking distance: grocery, healthcare, transit, parks, schools
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,66 @@ discovered_via: "hn:show_hn:174d"
 > 指标：点赞=2 · 评论=2 · engagement_velocity=2
 > 作者：strado　|　发布：2026-04-29T11:05:00Z
 > 项目链接：<https://strado.info/map>
-> 采集：2026-09-21T01:42:15+08:00　|　id：`a8338ab8b00a9bd9`
+> 采集：2026-09-21T02:52:39+08:00　|　id：`a8338ab8b00a9bd9`
 
 ## 正文
 
-Show HN: I mapped what's within walking distance for European cities using OSM
+strado
+0
+Rome
+ Paris
+ Berlin
+ London
+ Barcelona
+Light
+ Dark
+ Sat
+EN
+Rome
+ Paris
+ Berlin
+ London
+ Bcn
+Layers
+ ×
+Daily life
+ Social life
+Essentials
+Lifestyle
+Other
+Daily life
+Social life
+Daily essentials in walking distance: grocery, healthcare, transit, parks, schools
+Daily life
+Social life
+Bonus
+◀
+--
+--
+--
+How scores work →
+Strong on
+Social life
+ --
+ --/100
+Show details
+Daily life
+Social life
+Fee-free payments · Revolut
+ Expat insurance · SafetyWing
+Share
+Daily life
+F A+
+Loading...
+Zoom in to see neighborhood data
+Undo
+Favorites
+Export
+ Import
+ Clear all
+Layer
+×
+Read more →
 
 ## 评论（2/2）
 

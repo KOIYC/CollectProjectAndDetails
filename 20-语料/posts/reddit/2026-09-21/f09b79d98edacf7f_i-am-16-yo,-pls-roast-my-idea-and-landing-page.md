@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/SaaS/comments/1vbtuc2/i_am_16yo_pls_roast_my_idea
 project_url: "https://onpilot.app/"
 author: "Worth_Notice_6660"
 published_at: "2026-07-31T23:17:20+08:00"
-captured_at: "2026-09-21T01:32:19+08:00"
+captured_at: "2026-09-21T03:20:02+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -19,8 +19,8 @@ tags:
   - reddit
   - r/SaaS
 metrics: {"score": 4, "comments": 7, "upvote_ratio": 1}
-comments_count: 0
-comments_total: 0
+comments_count: 6
+comments_total: 7
 discovered_via: "reddit:83d+settle3"
 ---
 
@@ -35,7 +35,7 @@ discovered_via: "reddit:83d+settle3"
 > 指标：得分=4 · 评论=7 · 赞踩比=1
 > 作者：Worth_Notice_6660　|　发布：2026-07-31T23:17:20+08:00
 > 项目链接：<https://onpilot.app/>
-> 采集：2026-09-21T01:32:19+08:00　|　id：`f09b79d98edacf7f`
+> 采集：2026-09-21T03:20:02+08:00　|　id：`f09b79d98edacf7f`
 
 ## 正文
 
@@ -48,6 +48,36 @@ I just need some feedback from real people here on weather or not the idea sucks
 thanks soooooo much in advance, I appreciate it.
 
 [onpilot.app](http://onpilot.app)
+
+## 评论（6/7）
+
+> **Chemical_Panic_2704**（2 分） · 2026-08-01T00:42:17+08:00　
+> Hi man, well first of all i would have to say that your landing page is quite nice, it seems well built, but however what i would say is that it looks too blocky, like in 2026 all the big apps/websitess have a more round/glossy look, i am not a big player but that is what i would say to try and change as right now it looks kind of old if you know what i am saying
+
+---
+
+> **Ok_Cartoonist2006**（2 分） · 2026-08-01T00:52:17+08:00　
+> I feel like there are too many distractions
+
+---
+
+> **Empty_Western5833**（2 分） · 2026-08-01T02:42:50+08:00　
+> Not a bad idea! Just try it out, you never know what works. But from your landing page, I can't really tell what you're trying to do within 5-10 seconds, you have the texts right there but it feels difficult to read through. Maybe change the overall design a bit? Fonts and colors? Maybe it's just the dark moody aesthetic but it does make the page a little harder to see.
+
+---
+
+> **Worth_Notice_6660**（2 分） · 2026-08-01T04:51:38+08:00　
+> thanks so much for the feedback, I will make some changes
+
+---
+
+> **Worth_Notice_6660**（1 分） · 2026-08-01T04:51:42+08:00　
+> maybe
+
+---
+
+> **Worth_Notice_6660**（1 分） · 2026-08-01T04:52:10+08:00　
+> yeah that is what some other people have said as well, i will try to make it a little more simpl,e
 
 ## 关联链接
 

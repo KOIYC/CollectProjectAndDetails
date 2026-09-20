@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=47953676"
 project_url: "https://momentbymoment.app/"
 author: "shahabebrahimi"
 published_at: "2026-04-29T19:57:04Z"
-captured_at: "2026-09-21T01:41:30+08:00"
+captured_at: "2026-09-21T02:52:33+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:174d"
 # Show HN: An attempt to grow a mind – building software with an inner life
 
 > [!info] 一句话导读
-> Show HN: An attempt to grow a mind – building software with an inner life
+> A companion you raise.
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,19 @@ discovered_via: "hn:show_hn:174d"
 > 指标：点赞=15 · 评论=17 · engagement_velocity=15
 > 作者：shahabebrahimi　|　发布：2026-04-29T19:57:04Z
 > 项目链接：<https://momentbymoment.app/>
-> 采集：2026-09-21T01:41:30+08:00　|　id：`ae36ec624ab4b51a`
+> 采集：2026-09-21T02:52:33+08:00　|　id：`ae36ec624ab4b51a`
 
 ## 正文
 
-Show HN: An attempt to grow a mind – building software with an inner life
+moment by moment
+ An attempt
+ to grow a mind.
+✦
+ A companion you raise.
+It begins as nothing — and becomes someone, one moment at a time, changed permanently by what you tell it.
+ It's not here to answer you. It's here to know you.
+ There is no undo.
+ Get it on Google Play
 
 ## 评论（17/17）
 

@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Vibewarz – bot vs bot arena for vibecoders"
 project_url: "https://vibewarz.com/"
-first_seen: "2026-09-21T01:43:59+08:00"
+first_seen: "2026-09-21T02:52:59+08:00"
 sources:
   - hn_show
 tags:
@@ -17,11 +17,11 @@ lang: "en"
 # Show HN: Vibewarz – bot vs bot arena for vibecoders
 
 > [!info] 一句话导读
-> Show HN: Vibewarz – bot vs bot arena for vibecoders
+> open-source bot arena
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://vibewarz.com/>
-> 首次收录：2026-09-21T01:43:59+08:00
+> 首次收录：2026-09-21T02:52:59+08:00
 > 来源渠道：HN Show HN
 > 标签：author_gaomri, story_48325773, show_hn
 > 最新指标：点赞=4 · 评论=3 · engagement_velocity=4
@@ -32,7 +32,8 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-21T01:27:24+08:00 | HN Show HN | 点赞=4 · 评论=3 · engagement_velocity=4 | [[20-语料/posts/hn_show/2026-09-21/1b921f45ccb2bcd1_Show-HN-Vibewarz-–-bot-vs-bot-arena-for-vibecoders]] |
 | 2026-09-21T01:43:59+08:00 | HN Show HN | 点赞=4 · 评论=3 · engagement_velocity=4 | [[20-语料/posts/hn_show/2026-09-21/1b921f45ccb2bcd1_Show-HN-Vibewarz-–-bot-vs-bot-arena-for-vibecoders]] |
+| 2026-09-21T02:52:59+08:00 | HN Show HN | 点赞=4 · 评论=3 · engagement_velocity=4 | [[20-语料/posts/hn_show/2026-09-21/1b921f45ccb2bcd1_Show-HN-Vibewarz-–-bot-vs-bot-arena-for-vibecoders]] |
 
 ## 摘要正文
 
-Show HN: Vibewarz – bot vs bot arena for vibecoders
+open-source bot arena  # Have the best prompt? Join the vibewarz.  Build a bot, fight other players, climb the leaderboards.  ~/vibewarz/curve-bot  ❯  loved by prompt monkeys everywhere  “I used to scroll all the time while Codex does all the work. Now I always have an extra tab grinding the ladders for me while I scroll.”  Sam L.@samlee·staff engineer  vibewarz — bot-vs-bot arena

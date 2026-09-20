@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=48730006"
 project_url: "https://guokai.dev/minesweeper"
 author: "hanguokai"
 published_at: "2026-06-30T08:40:09Z"
-captured_at: "2026-09-21T01:45:15+08:00"
+captured_at: "2026-09-21T02:53:13+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:113d"
 # Show HN: Classic Minesweeper
 
 > [!info] 一句话导读
-> Show HN: Classic Minesweeper
+> 右键点击 / 长按： 标记雷旗（🚩）/ 问号（❓）/ 取消标记。
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,54 @@ discovered_via: "hn:show_hn:113d"
 > 指标：点赞=12 · 评论=13 · engagement_velocity=12
 > 作者：hanguokai　|　发布：2026-06-30T08:40:09Z
 > 项目链接：<https://guokai.dev/minesweeper>
-> 采集：2026-09-21T01:45:15+08:00　|　id：`9ef1a802b72f38bb`
+> 采集：2026-09-21T02:53:13+08:00　|　id：`9ef1a802b72f38bb`
 
 ## 正文
 
-Show HN: Classic Minesweeper
+MINESWEEPER NEO
+🌙 现代暗黑
+ 💾 经典复古
+🔊 音效: 开启
+🔗 分享残局
+初级 (9x9)
+ 中级 (16x16)
+ 高级 (30x16)
+ 自定义...
+行数 (8-50):
+列数 (8-50):
+雷数 (1-999):
+应用设置
+Minesweeper
+_
+ ⬜
+ ×
+000
+😊
+000
+🏆 最佳纪录
+初级 :
+ -
+中级 :
+ -
+高级 :
+ -
+清空纪录
+🎮 游戏操作
+左键点击： 翻开格子。第一步绝对安全。
+右键点击 / 长按： 标记雷旗（🚩）/ 问号（❓）/ 取消标记。
+数字点击： 若周围旗子数等于数字，左键双击或 左右键合击 该数字可快速翻开周围其余格子 (Chording)。
+微笑人脸： 点击黄脸（或按电脑键盘上的 R 键）重置当前游戏。
+简体中文
+ 繁體中文
+ English
+ 日本語
+ 한국어
+ Polski
+ Русский
+ Deutsch
+ Français
+ Español
+Minesweeper Neo © 2026 | 用现代 Web 技术致敬 Windows 经典
 
 ## 评论（13/13）
 

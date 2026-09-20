@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1vbrkm2/brand_new_business/"
 author: "Superb_Advisor7885"
 published_at: "2026-07-31T21:52:08+08:00"
-captured_at: "2026-09-21T01:32:21+08:00"
+captured_at: "2026-09-21T03:03:51+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -19,8 +19,8 @@ tags:
   - r/EntrepreneurRideAlong
   - Ride Along Story
 metrics: {"score": 3, "comments": 2, "upvote_ratio": 1}
-comments_count: 0
-comments_total: 0
+comments_count: 2
+comments_total: 2
 discovered_via: "reddit:83d+settle3"
 ---
 
@@ -35,7 +35,7 @@ discovered_via: "reddit:83d+settle3"
 > 指标：得分=3 · 评论=2 · 赞踩比=1
 > 作者：Superb_Advisor7885　|　发布：2026-07-31T21:52:08+08:00
 > 项目链接：—
-> 采集：2026-09-21T01:32:21+08:00　|　id：`5df610593d4066c2`
+> 采集：2026-09-21T03:03:51+08:00　|　id：`5df610593d4066c2`
 
 ## 正文
 
@@ -58,6 +58,20 @@ Then I got a call from a company that wanted to partner with me to service out o
 This is my 4th month in the business, and second month partnered with this company, and we are going to clear $8k in profit.  The business cost about $2k to set up completely. Now I'm looking to expand to finding new similar contracts or even direct to dealership opportunities that cut out the middle man and I can charge more.
 
 So much of what I've built so far was from chatgpt.  I am in awe of the tools we have access to in this world. It would've taken years to get to this point without AI and a lot more disruptions.
+
+## 评论（2/2）
+
+> **Alternative_Use_3720**（2 分） · 2026-07-31T22:04:08+08:00　
+> man this is wild. from almost buying a business to just doing it yourself with 2k and some AI help. 4 months in and already 8k profit is no joke
+>
+> the part about asking other doc prep businesses for info is smart. most people are too scared to just ask but they really do give you just enough sometimes
+>
+> you thinking about cutting out the middle man next? with 9 employees already you got the structure to scale fast if you find right dealerships
+
+---
+
+> **outlastdll**（1 分） · 2026-08-01T01:06:43+08:00　
+> skip cold calling individual GM at dealerships. reach out to your state's independent automobile dealers association or sponsor a booth at a regional expos to get direct intro. to fleet  and finance managers
 
 ## 导航
 

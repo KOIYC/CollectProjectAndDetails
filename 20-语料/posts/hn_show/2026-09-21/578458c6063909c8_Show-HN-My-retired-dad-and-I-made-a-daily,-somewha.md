@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=47948396"
 project_url: "https://kviss.eu/"
 author: "steinvakt2"
 published_at: "2026-04-29T13:44:07Z"
-captured_at: "2026-09-21T01:41:56+08:00"
+captured_at: "2026-09-21T02:52:37+08:00"
 lang: "en"
 kind: "post"
-topic: "AI 工具/Agent"
+topic: "开发者工具"
 shard: "2026-09-21"
 pub_day: "2026-04-29"
 tags:
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:174d"
 # Show HN: My retired dad and I made a daily, somewhat difficult, quiz
 
 > [!info] 一句话导读
-> My dad makes the questions, I made the site.I think the genre and the level of difficulty is suited for HN. Hope you enjoy.(I promise no AI-generated questions,…
+> What is true with crabs' sex life?
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,19 @@ discovered_via: "hn:show_hn:174d"
 > 指标：点赞=39 · 评论=20 · engagement_velocity=39
 > 作者：steinvakt2　|　发布：2026-04-29T13:44:07Z
 > 项目链接：<https://kviss.eu/>
-> 采集：2026-09-21T01:41:56+08:00　|　id：`578458c6063909c8`
+> 采集：2026-09-21T02:52:37+08:00　|　id：`578458c6063909c8`
 
 ## 正文
 
-My dad makes the questions, I made the site.I think the genre and the level of difficulty is suited for HN. Hope you enjoy.(I promise no AI-generated questions, they are all hand made!).
+What is true with crabs' sex life?
+ They make vocal sounds The male crab has two penises They sometimes have sex with lobsters
+A pyramid-shaped finishing salt is called
+ Himalayan Pink Salt Maldon Sea Salt Cadiz Sea Salt
+Who was Nixon's vice president who had to resign in 1973 due to corruption allegations?
+ Spiro Agnew Gerald Ford Ronald Reagan
+Answer all questions to see your score.
+ Come back tomorrow for fresh questions.
+Kviss • New quiz questions every day • kviss.eu
 
 ## 评论（20/20）
 
@@ -148,5 +156,5 @@ My dad makes the questions, I made the site.I think the genre and the level of d
 
 - 项目页：[[10-项目/kviss.eu_ae2806fb]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

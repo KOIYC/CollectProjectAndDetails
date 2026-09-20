@@ -2,7 +2,7 @@
 type: "project"
 title: "My app (tinder for cars) hit 100 users!!"
 project_url: "https://www.reddit.com/r/microsaas/comments/1vbokzb/my_app_tinder_for_cars_hit_100_users/"
-first_seen: "2026-09-21T01:32:17+08:00"
+first_seen: "2026-09-21T03:03:49+08:00"
 sources:
   - reddit
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://www.reddit.com/r/microsaas/comments/1vbokzb/my_app_tinder_for_cars_hit_100_users/>
-> 首次收录：2026-09-21T01:32:17+08:00
+> 首次收录：2026-09-21T03:03:49+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/microsaas
 > 最新指标：得分=3 · 评论=5 · 赞踩比=1
@@ -29,6 +29,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T01:32:17+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=5 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/67958284552037f6_My-app-(tinder-for-cars)-hit-100-users!!]] |
+| 2026-09-21T03:03:49+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=5 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/67958284552037f6_My-app-(tinder-for-cars)-hit-100-users!!]] |
 
 ## 摘要正文
 

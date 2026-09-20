@@ -8,10 +8,10 @@ url: "https://www.reddit.com/r/microsaas/comments/1vbt4v2/we_gave_away_the_data_
 project_url: "https://registry-lookup.com/"
 author: "OkHeat6599"
 published_at: "2026-07-31T22:51:29+08:00"
-captured_at: "2026-09-21T01:32:17+08:00"
+captured_at: "2026-09-21T03:03:35+08:00"
 lang: "en"
 kind: "post"
-topic: "开发者工具"
+topic: AI 工具/Agent
 shard: "2026-09-21"
 pub_day: "2026-07-31"
 tags:
@@ -19,8 +19,8 @@ tags:
   - reddit
   - r/microsaas
 metrics: {"score": 5, "comments": 2, "upvote_ratio": 1}
-comments_count: 0
-comments_total: 0
+comments_count: 3
+comments_total: 3
 discovered_via: "reddit:83d+settle3"
 ---
 
@@ -35,7 +35,7 @@ discovered_via: "reddit:83d+settle3"
 > 指标：得分=5 · 评论=2 · 赞踩比=1
 > 作者：OkHeat6599　|　发布：2026-07-31T22:51:29+08:00
 > 项目链接：<https://registry-lookup.com/>
-> 采集：2026-09-21T01:32:17+08:00　|　id：`cd027f9f6d5c331d`
+> 采集：2026-09-21T03:03:35+08:00　|　id：`cd027f9f6d5c331d`
 
 ## 正文
 
@@ -73,6 +73,21 @@ Result: [registry-lookup.com](http://registry-lookup.com)
 
 If you've run a free tier on top of an enterprise product, I'd like to know which way it went for you.
 
+## 评论（3/3）
+
+> **Patient-Cedar-7194**（1 分） · 2026-08-01T04:45:27+08:00　
+> government registries change schemas on tuesdays with zero warning. competitor charges six figures because maintaining state pipelines is miserable. public data is never free to keep running.
+
+---
+
+> **Alternative_Guitar68**（1 分） · 2026-08-01T05:20:10+08:00　
+> It seems like an opencorporates competitor. What new thing does this tool bring when compared to OC?
+
+---
+
+> **OkHeat6599**（1 分） · 2026-08-02T15:44:20+08:00　
+> its absolutely free to use, and more than double the coverage. deeper dive here - [https://registry-lookup.com/compare/opencorporates](https://registry-lookup.com/compare/opencorporates)
+
 ## 关联链接
 
 - http://registry-lookup.com
@@ -81,5 +96,5 @@ If you've run a free tier on top of an enterprise product, I'd like to know whic
 
 - 项目页：[[10-项目/registry-lookup.com_b06796d6]]
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

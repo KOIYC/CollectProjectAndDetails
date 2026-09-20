@@ -5,7 +5,9 @@
 """
 from __future__ import annotations
 
+import gzip as gzip_lib
 import hashlib
+import html as html_lib
 import json
 import os
 import re
@@ -14,6 +16,7 @@ import sys
 import time
 import unicodedata
 import urllib.error
+import zlib
 import urllib.parse
 import urllib.request
 from datetime import datetime, timezone, timedelta
@@ -407,6 +410,97 @@ def exa_fetch_texts(urls: list[str], max_chars=8000, timeout=180) -> dict[str, s
             if text and not text.startswith("Error fetching"):
                 out_all[url] = text
     return out_all
+
+
+DIRECT_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
+             "(KHTML, like Gecko) Chrome/126.0 Safari/537.36")
+# 本网络实测不可直取的主机（Tunnel 502 / 连接超时）—— 命中即跳过，别白等超时。
+# 只登记**反复验证过**的；一次性失败不写这里（可能是临时抖动）。
+DIRECT_BLOCKED_HOSTS = {"news.ycombinator.com", "github.com"}
+_direct_host_fail: set[str] = set()
+
+
+def html_to_text(html: str) -> str:
+    """极简 HTML → 纯文本（stdlib only）：去 script/style/标签、反转义、压空白。
+
+    为什么不用第三方：本机 PyPI 不可达（见铁律 1）。Exa / Jina 都曾是我们唯一的正文后端，
+    但 2026-09-21 实测**直连 urllib 也能拿到正文**（6/6 project 页 7k~21k 字符），
+    只有 news.ycombinator.com 走 Tunnel 502。故补一个零依赖后端，正文不再被 Exa 额度卡死。
+    """
+    s = re.sub(r"(?is)<(script|style|noscript|svg|head)[\s\S]*?</\1>", " ", html)
+    s = re.sub(r"(?is)<!--[\s\S]*?-->", " ", s)
+    s = re.sub(r"(?is)<br\s*/?>|</(p|div|li|h[1-6]|tr)>", "\n", s)
+    s = re.sub(r"(?s)<[^>]+>", " ", s)
+    s = html_lib.unescape(s)
+    s = re.sub(r"[ \t\xa0]+", " ", s)
+    s = re.sub(r"\n\s*\n\s*", "\n", s)
+    return s.strip()
+
+
+def direct_fetch_texts(urls: list[str], max_chars=8000, timeout=12, workers=4) -> dict[str, str]:
+    """用 stdlib urllib 直取页面正文（零依赖、无额度限制）。
+
+    返回 {url: text}；失败/过短的 URL 直接不出现在结果里（调用方据此决定是否回退 Exa）。
+    不做任何「伪造正文」：拿不到就是拿不到。
+    """
+    out: dict[str, str] = {}
+    todo: list[str] = []
+    for u in urls:
+        if not u or not u.startswith("http"):
+            continue
+        host = urllib.parse.urlsplit(u).netloc.lower().removeprefix("www.")
+        if host in DIRECT_BLOCKED_HOSTS or host in _direct_host_fail:
+            continue
+        todo.append(u)
+    if not todo:
+        return out
+
+    def one(u: str) -> tuple[str, str]:
+        # 异常必须在这里吞掉：ThreadPoolExecutor.map 会在**迭代时**抛出，
+        # 一个 502 会炸掉整批（2026-09-21 实测：HN 页面 502 让整批 12 条全废）。
+        try:
+            req = urllib.request.Request(u, headers={
+                "User-Agent": DIRECT_UA,
+                "Accept": "text/html,application/xhtml+xml,text/plain;q=0.9,*/*;q=0.8",
+                "Accept-Language": "en,zh-CN;q=0.8",
+                "Accept-Encoding": "gzip, deflate",
+            })
+            with urllib.request.urlopen(req, timeout=timeout) as r:
+                if r.status != 200:
+                    return u, ""
+                ctype = (r.headers.get("Content-Type") or "").lower()
+                if ctype and not ("html" in ctype or "text" in ctype or "json" in ctype):
+                    return u, ""
+                raw = r.read(800_000)
+        except Exception as e:                                       # noqa: BLE001
+            # 连接级失败（Tunnel 502 / 超时）多半是**主机级**的：同主机再试 N 次还是失败，
+            # 本轮内拉黑，避免 500 条缺口里 400 条是同一主机时白等超时。
+            host = urllib.parse.urlsplit(u).netloc.lower().removeprefix("www.")
+            if isinstance(e, urllib.error.URLError) or "Tunnel" in str(e):
+                if host not in _direct_host_fail:
+                    print(f"    [i] 直取拉黑主机 {host}（本轮不再重试）：{str(e)[:70]}", flush=True)
+                _direct_host_fail.add(host)
+            return u, ""
+        try:
+            if raw[:2] == b"\x1f\x8b":                                # 服务端没给头但确实是 gzip
+                raw = gzip_lib.decompress(raw)
+            m = re.search(rb'charset=["\']?([\w-]+)', raw[:2048], re.I)
+            cs = m.group(1).decode("ascii", "replace").lower() if m else "utf-8"
+            if cs in {"gb2312", "gbk", "gb18030", "big5"}:            # 国内源常见，别按 utf-8 硬解
+                return u, raw.decode(cs, "replace")
+            return u, raw.decode("utf-8", "replace")
+        except Exception:                                             # noqa: BLE001
+            return u, ""
+
+    from concurrent.futures import ThreadPoolExecutor
+    with ThreadPoolExecutor(min(workers, len(todo))) as ex:
+        for u, raw_html in ex.map(one, todo):
+            if not raw_html:
+                continue
+            txt = html_to_text(raw_html)
+            if len(txt) >= 100:
+                out[u] = txt[:max_chars]
+    return out
 
 
 def exa_search(query: str, n=10, timeout=120) -> list[dict]:

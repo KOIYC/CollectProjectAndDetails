@@ -18,7 +18,8 @@ from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timedelta
 
 from kb_common import (CST, FULLTEXT_MAX_CHARS, FetchError, UNCLOSED_TAG_RE,  # noqa: F401 (FetchError 供调用方)
-                       exa_fetch_texts, exa_search, http_get, http_json, is_project_ish,  # noqa: F401
+                       direct_fetch_texts, exa_fetch_texts, exa_search, http_get, http_json,  # noqa: F401
+                       is_project_ish,  # noqa: F401
                        iso, item_id_for, looks_summary, norm_url, now_cst, run_cli,  # noqa: F401
                        topic_of)
 
@@ -1055,19 +1056,30 @@ def enrich_generic(items: list[dict], ctx) -> None:
         if u not in seen:
             seen.add(u)
             urls.append(u)
+    # 先直取（零依赖、无额度），再 Exa 兜底：Exa 免费额度打满会整批 429，
+    # 而直连 urllib 对大多数 project 站是通的（2026-09-21 实测 6/6）。
+    got: dict[str, tuple[str, str]] = {}
     try:
-        got = exa_fetch_texts(urls, max_chars=FULLTEXT_MAX_CHARS)
+        for u, t in direct_fetch_texts(urls, max_chars=FULLTEXT_MAX_CHARS).items():
+            got[u] = (t, "direct_fetch")
+        print(f"    [i] 正文补全直取 {len(got)}/{len(urls)}", flush=True)
     except Exception as e:                                         # noqa: BLE001
-        print(f"    [w] exa_fetch 失败：{str(e)[:80]}", flush=True)
-        return
+        print(f"    [w] direct_fetch 失败：{str(e)[:80]}", flush=True)
+    rest = [u for u in urls if u not in got]
+    if rest:
+        try:
+            for u, t in exa_fetch_texts(rest, max_chars=FULLTEXT_MAX_CHARS).items():
+                got[u] = (t, "exa_web_fetch")
+        except Exception as e:                                     # noqa: BLE001
+            print(f"    [w] exa_fetch 失败：{str(e)[:80]}", flush=True)
     hit = 0
     for it in targets:
         u = target_url(it)
-        txt = got.get(u) or got.get(norm_url(u))
+        txt, via = got.get(u) or got.get(norm_url(u)) or ("", "")
         if txt and len(txt) > len(it.get("body") or ""):
             it["body"] = txt[:FULLTEXT_MAX_CHARS]
             it["body_format"] = "markdown"
-            it.setdefault("extra", {})["body_source"] = "exa_web_fetch"
+            it.setdefault("extra", {})["body_source"] = via
             it["extra"]["body_url"] = u
             # 命中上限 = 被截断，必须显式标记（下游据此区分「全文」与「开头」）
             if len(txt) >= FULLTEXT_MAX_CHARS - 60:
@@ -1076,4 +1088,6 @@ def enrich_generic(items: list[dict], ctx) -> None:
             else:
                 it["extra"].pop("body_truncated", None)
             hit += 1
-    print(f"    [i] 正文补全 {hit}/{len(targets)}（exa，上限 {FULLTEXT_MAX_CHARS}）", flush=True)
+    n_direct = sum(1 for it in targets if (it.get("extra") or {}).get("body_source") == "direct_fetch")
+    print(f"    [i] 正文补全 {hit}/{len(targets)}（直取 {n_direct} / exa {hit - n_direct}，"
+          f"上限 {FULLTEXT_MAX_CHARS}）", flush=True)

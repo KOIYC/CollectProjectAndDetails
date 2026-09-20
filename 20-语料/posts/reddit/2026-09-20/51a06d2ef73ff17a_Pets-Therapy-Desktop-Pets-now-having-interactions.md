@@ -84,7 +84,7 @@ Sincerely yours, 🐶🐱🐕🐇🐈🐹🐩.
 
 - https://apps.apple.com/us/app/pets-therapy-desktop-pets/id1575542220?platform=mac
 - https://apps.microsoft.com/detail/9p5n0cbksxmwSteam:
-- https://store.steampowered.com/app/4769020/Pets\_Therapy\_\_Desktop\_Pets/
+- https://store.steampowered.com/app/4769020/Pets
 - https://store.steampowered.com/app/4769020/Pets_Therapy__Desktop_Pets/
 
 ## 导航

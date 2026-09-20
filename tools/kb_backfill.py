@@ -28,8 +28,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from kb_common import (BODY_MIN, DIR_RAW, DIR_REPORT, FULLTEXT_MAX_CHARS, META,  # noqa: E402
                        ROOT, BodyCache, Seen, append_jsonl, body_completeness,
-                       exa_fetch_texts, iso, norm_url, now_cst, note_bucket, rotate_runs,
-                       run_cli, sha1)
+                       direct_fetch_texts, exa_fetch_texts, iso, norm_url, now_cst,
+                       note_bucket, rotate_runs, run_cli, sha1)
 from kb_collect import (ENRICH_ROUTING, MAX_COMMENTS, is_project_ish,  # noqa: E402
                         load_channels_yaml, write_corpus_note, write_entity_note)
 from kb_analyze import PROFILE_EXPECT  # noqa: E402
@@ -265,6 +265,8 @@ def main(argv=None) -> int:
     ap.add_argument("--only-comments", action="store_true",
                     help="本轮只补评论（正文队列不动）——评论缺口常一次上百条，需要单独控量")
     ap.add_argument("--exa-batch", type=int, default=12, help="每批 Exa 取数条数")
+    ap.add_argument("--direct-workers", type=int, default=6,
+                    help="直取后端并发数（urllib，零依赖；先用它，拿不到再回退 Exa）")
     args = ap.parse_args(argv)
 
     reg = load_channels_yaml(META / "channels.yaml")
@@ -342,32 +344,47 @@ def main(argv=None) -> int:
                                              "via": "gh_readme", "url": r.get("url")}
         print(f"  github readme 命中 {len(results)}/{len(gh_items)}")
 
-    # ② 其余走 Exa 批量取正文
+    # ② 其余：先直取（零依赖、无额度），直取拿不到再回退 Exa
+    #    为什么改顺序：2026-09-21 实测 Exa 免费额度打满返 429，534 条 hn_show 缺正文全部无法回填，
+    #    而**直连 urllib 对 project_url 是通的**（6/6 命中，7k~21k 字符）。Exa 从「唯一后端」
+    #    降级为「兜底后端」。
     if exa_items:
         pending = [(r, d) for r, d in exa_items if body_target(r)]
-        got_all: dict[str, str] = {}
-        for i in range(0, len(pending), args.exa_batch):
-            batch = pending[i:i + args.exa_batch]
-            urls = list(dict.fromkeys(body_target(r) for r, _ in batch if body_target(r)))
-            if not urls:
-                continue
+        got_all: dict[str, dict] = {}
+        all_urls = list(dict.fromkeys(body_target(r) for r, _ in pending if body_target(r)))
+        try:
+            direct = direct_fetch_texts(all_urls, max_chars=FULLTEXT_MAX_CHARS,
+                                        workers=args.direct_workers)
+            print(f"    [i] 直取命中 {len(direct)}/{len(all_urls)}", flush=True)
+        except Exception as e:                                     # noqa: BLE001
+            print(f"    [w] 直取批次失败：{str(e)[:70]}")
+            direct = {}
+        for u, t in direct.items():
+            got_all[u] = {"txt": t, "via": "direct_fetch"}
+
+        # 直取没拿到的 → 回退 Exa（批量，仍可能 429；429 会被 kb_common 响亮报出）
+        rest = [u for u in all_urls if u not in got_all]
+        for i in range(0, len(rest), args.exa_batch):
+            chunk = rest[i:i + args.exa_batch]
             try:
                 # max_chars 与 kb_collect 保持一致：8000 会把长文拦腰砍断且不留痕迹，
                 # 正是内容审计里那 17 条「刚好 8000 字」的来源。
-                got = exa_fetch_texts(urls, max_chars=FULLTEXT_MAX_CHARS)
+                got = exa_fetch_texts(chunk, max_chars=FULLTEXT_MAX_CHARS)
             except Exception as e:                                 # noqa: BLE001
                 print(f"    [w] exa 批次失败：{str(e)[:70]}")
                 continue
-            got_all.update(got)
-            print(f"    [i] exa 批次 {i // args.exa_batch + 1}：{len(got)}/{len(urls)}")
+            for u, t in got.items():
+                got_all.setdefault(u, {"txt": t, "via": "exa_web_fetch"})
+            print(f"    [i] exa 批次 {i // args.exa_batch + 1}：{len(got)}/{len(chunk)}", flush=True)
         for r, day in pending:
             u = body_target(r)
-            txt = got_all.get(u) or got_all.get(norm_url(u))
+            hit = got_all.get(u) or got_all.get(norm_url(u))
+            txt = (hit or {}).get("txt", "")
             # 只在**确有改善**时接受：本次抓到的一定要比现有的长，
             # 否则「摘要在前、摘要在后」会无限重排，条目永远清不出队列直到记死信。
             if txt and len(txt) >= BODY_MIN and len(txt) > len(r.get("body") or ""):
                 results[r["item_id"]] = {"rec": r, "day": day, "body": txt[:FULLTEXT_MAX_CHARS],
-                                         "via": "exa_web_fetch", "url": u}
+                                         "via": (hit or {}).get("via", "unknown"), "url": u}
 
     # ③ 写盘：raw 追加 + note 原地刷新 + seen 指纹更新
     wrote = 0

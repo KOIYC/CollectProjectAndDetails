@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=48332098"
 project_url: "https://github.com/vinhnx/VTCode"
 author: "vinhnx"
 published_at: "2026-05-30T03:07:25Z"
-captured_at: "2026-09-21T01:43:39+08:00"
+captured_at: "2026-09-21T02:52:55+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:144d"
 # Show HN: VT Code – open-source terminal coding agent in Rust
 
 > [!info] 一句话导读
-> Show HN: VT Code – open-source terminal coding agent in Rust
+> VT Code is an open-source coding agent with LLM-native code understanding and robust shell safety. Supports multiple LLM providers with automatic failover and e…
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,178 @@ discovered_via: "hn:show_hn:144d"
 > 指标：点赞=16 · 评论=6 · engagement_velocity=16
 > 作者：vinhnx　|　发布：2026-05-30T03:07:25Z
 > 项目链接：<https://github.com/vinhnx/VTCode>
-> 采集：2026-09-21T01:43:39+08:00　|　id：`dc32bbf735cabd1f`
+> 采集：2026-09-21T02:52:55+08:00　|　id：`dc32bbf735cabd1f`
 
 ## 正文
 
-Show HN: VT Code – open-source terminal coding agent in Rust
+# vinhnx/VTCode
+
+VT Code is an open-source coding agent with LLM-native code understanding and robust shell safety. Supports multiple LLM providers with automatic failover and efficient context management.
+
+- Stars: 686
+- Forks: 58
+- Watchers: 686
+- Open issues: 0
+- License: MIT License
+- Homepage: https://vinhnx.github.io
+- Default branch: main
+- Created: 2025-08-29T09:01:48Z
+
+## Languages
+
+- JavaScript
+- PowerShell
+- Python
+- Ruby
+- Rust
+- Shell
+- TypeScript
+
+## Topics
+
+- agent
+- cargo
+- cli
+- codingagent
+- crossterm
+- ratatui
+- rust
+- terminal
+- tui
+
+## Top Contributors
+
+- vinhnx (5470 contributions)
+- dependabot[bot] (57 contributions)
+- vinhnguyenxuan-ct (24 contributions)
+- oiwn (6 contributions)
+- kernitus (4 contributions)
+- chenrui333 (3 contributions)
+- Sachin-Bhat (3 contributions)
+- leonj1 (2 contributions)
+- gzsombor (2 contributions)
+- lucaszhu-hue (2 contributions)
+
+---
+
+## README
+
+     
+ Secure, open, universal.
+
+## What is VT Code?
+
+VT Code is a local-first coding agent built in Rust, the only one with defense-in-depth security gating, broad LLM provider support, open protocols (Open Responses, A2A, MCP, ATIF), an extensible skill framework, delegated subagents, and rich tooling for long-running autonomous workflows.
+
+## Features
+
+- **Agent runtime** - Interactive TUI, slash commands, streaming, `ask`/`exec` CLI, session resume
+- **Coding tools** - Safe file ops, ripgrep search, fuzzy discovery, code intelligence, project indexing, terminal execution
+- **Extensibility** - Agent Skills, MCP client/server, lifecycle hooks, subagents, custom providers, Zed ACP, VS Code, Claude Code
+- **Model providers** - 21+ LLM providers: Anthropic, OpenAI, Gemini, OpenRouter, Ollama, LM Studio, and more
+- **Safety** - Restricted shell sandbox, tool guardrails, subprocess isolation, full audit logging
+- **Protocols** - Open Responses, Agent2Agent (A2A), ATIF, Anthropic Messages API
+
+## Quick start
+
+### Installing and running VT Code
+
+```shell
+curl -fsSL https://raw.githubusercontent.com/vinhnx/vtcode/main/scripts/install.sh | bash   # macOS / Linux (recommended)
+```
+
+Then run `vtcode` to get started.
+
+### Common commands
+
+```shell
+vtcode                        # launch interactive TUI
+vtcode ask "explain Rc vs Arc"  # one-shot question, no tools
+vtcode exec "refactor main.rs" # headless task with full tool access
+vtcode review                  # review uncommitted changes
+vtcode --resume                # pick up the last session
+```
+
+## Documentation
+
+- **Interactive TUI** - Primary agents, slash commands (`/model`, `/review`, `/mcp`, `/skills`, `/theme`, `/compact`, `/schedule`)
+- **Full automation** - `--full-auto` CLI, plan-build-evaluate harness, subagents, scheduled tasks
+- **Providers** - Setup guides for all 21 providers
+- **Configuration** - `vtcode.toml`, tool config, lifecycle hooks
+- **Agent Skills** - Creating, loading, and sharing skills
+- **MCP Integration** - Client and server modes
+- **Editor guides** - Zed ACP, VS Code, Claude Code
+- **Safety** - Shell sandbox, security hardening, threat model
+- **Protocols** - Open Responses, ATIF, A2A, Anthropic Messages API
+
+## Providers
+
+VT Code supports 21 LLM providers out of the box, plus any OpenAI-compatible API via `[[custom_providers]]`.
+
+### All providers
+
+- **Cloud LLMs** - Anthropic · OpenAI · Gemini
+- **Gateways** - OpenRouter · Atlas Cloud · Evolink
+- **Local inference** - Ollama · LM Studio · llama.cpp
+- **Other** - GitHub Copilot · Anthropic API Compat
+
+Read: Provider Guides.
+
+### Xiaomi MiMo V2.5 Series
+
+ Proud partner of the Xiaomi MiMo Orbit Program
+
+Xiaomi MiMo V2.5 Pro ships as the default model in VT Code, available both natively and through OpenRouter. It brings a 1M-token context window, deep reasoning, and strong agentic performance to every session.
+
+- **Xiaomi MiMo** - `mimo-v2.5-pro` · `mimo-v2.5` · *1M context*
+- **OpenRouter** - `xiaomi/mimo-v2.5-pro` · `xiaomi/mimo-v2.5` · *1M context*
+
+Pricing: Pay-as-you-go · Subscription · Quick Access · Docs · OpenRouter
+
+> **Get started with MiMo Open Platform** — Xiaomi's most powerful AI. Sign up with invite code **K5BCAP**: both get **$2 API credits + 10% off** your first plan. *(Auto-filled on sign-up · Credits valid for 40 days)*
+
+## Development
+
+```shell
+git clone https://github.com/vinhnx/vtcode.git
+cd vtcode
+./scripts/run-debug.sh
+```
+
+Rust stable, edition 2024, MSRV 1.88.
+
+```shell
+./scripts/check-dev.sh  # fast quality gate (clippy, fmt, check)
+cargo nextest run        # parallel test runner
+```
+
+## Contributing
+
+I'd love to have you, bug reports, docs, features, ideas, all welcome. Start with issues or good first issues. AI agents see AGENTS.md. Humans see CONTRIBUTING.md.
+
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+
+## Support
+
+VT Code is a labor of love built in my spare time. If it's helped you ship something or learn something, a sponsorship would mean the world.
+
+    
+
+## License
+
+MIT License.
+
+# skills/cartographer/SKILL.md
 
 ## 评论（6/6）
 
@@ -72,6 +239,12 @@ Show HN: VT Code – open-source terminal coding agent in Rust
 
 > **vinhnx** · 2026-06-05T13:11:34.000Z　
 > Thank you for checking out VT Code! I'm happy that people use and like it. Let me know if there are anything I need to make it better.
+
+## 关联链接
+
+- https://github.com/vinhnx/vtcode.git
+- https://raw.githubusercontent.com/vinhnx/vtcode/main/scripts/install.sh
+- https://vinhnx.github.io
 
 ## 导航
 

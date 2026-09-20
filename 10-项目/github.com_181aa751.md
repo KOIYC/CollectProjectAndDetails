@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Breathe CLI – Paced resonance breathing in the macOS terminal"
 project_url: "https://github.com/marekkowalczyk/breathe-cli"
-first_seen: "2026-09-21T01:43:16+08:00"
+first_seen: "2026-09-21T03:18:01+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/marekkowalczyk/breathe-cli>
-> 首次收录：2026-09-21T01:43:16+08:00
+> 首次收录：2026-09-21T03:18:01+08:00
 > 来源渠道：HN Show HN
 > 标签：author_marekkowalczyk, story_48340315, show_hn
 > 最新指标：点赞=132 · 评论=55 · engagement_velocity=132
@@ -32,6 +32,9 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-21T01:27:24+08:00 | HN Show HN | 点赞=132 · 评论=55 · engagement_velocity=132 | [[20-语料/posts/hn_show/2026-09-21/a19edfb034532d17_Show-HN-Breathe-CLI-–-Paced-resonance-breathing-in]] |
 | 2026-09-21T01:43:16+08:00 | HN Show HN | 点赞=132 · 评论=55 · engagement_velocity=132 | [[20-语料/posts/hn_show/2026-09-21/a19edfb034532d17_Show-HN-Breathe-CLI-–-Paced-resonance-breathing-in]] |
+| 2026-09-21T02:54:24+08:00 | HN Show HN | 点赞=132 · 评论=55 · engagement_velocity=132 | [[20-语料/posts/hn_show/2026-09-21/a19edfb034532d17_Show-HN-Breathe-CLI-–-Paced-resonance-breathing-in]] |
+| 2026-09-21T03:11:56+08:00 | HN Show HN | 点赞=132 · 评论=55 · engagement_velocity=132 | [[20-语料/posts/hn_show/2026-09-21/a19edfb034532d17_Show-HN-Breathe-CLI-–-Paced-resonance-breathing-in]] |
+| 2026-09-21T03:18:01+08:00 | HN Show HN | 点赞=132 · 评论=55 · engagement_velocity=132 | [[20-语料/posts/hn_show/2026-09-21/a19edfb034532d17_Show-HN-Breathe-CLI-–-Paced-resonance-breathing-in]] |
 
 ## 摘要正文
 

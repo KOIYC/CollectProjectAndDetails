@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=49115490"
 project_url: "https://github.com/tsirysndr/panini"
 author: "tsiry"
 published_at: "2026-07-30T20:42:38Z"
-captured_at: "2026-09-21T01:31:46+08:00"
+captured_at: "2026-09-21T03:11:12+08:00"
 lang: "en"
 kind: "post"
-topic: "移动 App"
+topic: "开发者工具"
 shard: "2026-09-21"
 pub_day: "2026-07-30"
 tags:
@@ -28,17 +28,347 @@ discovered_via: "hn:show_hn:83d"
 
 # Show HN: Panini – bundle a Gleam app and BEAM into one self-contained binary
 
+> [!info] 一句话导读
+> Press a Gleam (Erlang/BEAM) app into a single self-contained binary — a Burrito for Gleam.
+
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=49115490>
 > 指标：点赞=3 · 评论=0 · engagement_velocity=3
 > 作者：tsiry　|　发布：2026-07-30T20:42:38Z
 > 项目链接：<https://github.com/tsirysndr/panini>
-> 采集：2026-09-21T01:31:46+08:00　|　id：`b00e94ac55da52c7`
+> 采集：2026-09-21T03:11:12+08:00　|　id：`b00e94ac55da52c7`
+
+## 正文
+
+# tsirysndr/panini
+
+Press a Gleam (Erlang/BEAM) app into a single self-contained binary — a Burrito for Gleam.
+
+- Stars: 3
+- Forks: 1
+- Watchers: 3
+- Open issues: 0
+- License: MIT License
+- Default branch: main
+- Created: 2026-07-30T13:07:34Z
+
+## Languages
+
+- Nix
+- Rust
+- Zig
+
+## Topics
+
+- gleam
+- linux
+- macos
+- single-binary
+- tooling
+
+## Top Contributors
+
+- tsirysndr (26 contributions)
+
+---
+
+## README
+
+# panini 🥪
+
+e2e
+nix
+FlakeHub
+
+**Press a Gleam (Erlang/BEAM) app into a single, self-contained binary.**
+
+A Burrito for Gleam. `panini` turns a
+Gleam project that targets Erlang into one native executable that runs on a machine with
+**nothing installed** — no Gleam, no Erlang, no `rebar3`. The BEAM runtime is bundled
+inside.
+
+```sh
+panini build ./examples/hello -o ./hello
+./hello                 # => Hello from hello!  (runs with nothing installed)
+```
+
+It can select the OTP version to bundle, and **cross-compile** binaries for other
+platforms from a single machine.
+
+```sh
+panini build ./examples/hello --otp 27.2                       # pick the OTP version
+panini build ./examples/hello --target all --otp 27.2          # every platform at once
+```
+
+## Contents
+
+- Install
+- Commands
+ - `build` options
+- Targets
+- OTP version selection & the BEAM compatibility rule
+- How it works
+- Zig is handled for you
+- Requirements
+- Usage
+- CI
+- Development
+- Roadmap
+- Layout
+- Name
+- License
+
+---
+
+## Install
+
+**Prebuilt binary** (macOS / Linux, x86_64 / aarch64) — from the releases:
+
+```sh
+# example: Linux x86_64
+curl -fsSLO https://github.com/tsirysndr/panini/releases/latest/download/panini-v0.2.0-x86_64-linux.tar.gz
+tar -xzf panini-v0.2.0-x86_64-linux.tar.gz
+sudo install panini-v0.2.0-x86_64-linux/panini /usr/local/bin/panini
+```
+
+**Homebrew** (macOS / Linux):
+
+```sh
+brew install tsirysndr/tap/panini
+```
+
+**Debian / Ubuntu** (`.deb` for `amd64`, `arm64`) — from the Gemfury apt repo:
+
+```sh
+echo "deb [trusted=yes] https://apt.fury.io/tsiry/ /" \
+  | sudo tee /etc/apt/sources.list.d/panini.list
+sudo apt-get update
+sudo apt-get install panini
+```
+
+**Fedora / RHEL** (`.rpm` for `x86_64`, `aarch64`) — from the Gemfury yum repo:
+
+```sh
+sudo tee /etc/yum.repos.d/panini.repo <<'EOF'
+[panini]
+name=panini
+baseurl=https://yum.fury.io/tsiry/
+enabled=1
+gpgcheck=0
+EOF
+sudo dnf install panini
+```
+
+**Nix** (flake):
+
+```sh
+nix run github:tsirysndr/panini -- --help     # run without installing
+nix profile install github:tsirysndr/panini   # or install
+```
+
+Enable the Cachix binary cache first to pull prebuilt binaries
+instead of compiling locally — a much faster install:
+
+```sh
+cachix use panini
+```
+
+**From source** (Rust):
+
+```sh
+cargo install --git https://github.com/tsirysndr/panini
+```
+
+## Commands
+
+| Command | What it does |
+|---|---|
+| `panini build [DIR] [OPTIONS]` | Press a Gleam app into one binary |
+| `panini doctor` | Check the toolchain is ready |
+| `panini targets` | List supported build targets |
+| `panini otp-versions` | List OTP versions usable with `--otp` |
+| `panini info` | Show the detected Gleam / OTP / Zig toolchain |
+
+### `build` options
+
+| Option | Default | Meaning |
+|---|---|---|
+| `-o, --output PATH` | ` / ` | Output binary path |
+| `--otp VERSION` | host's OTP | Bundle a specific OTP, e.g. `27.2` (downloaded) |
+| `--target LIST` | host | Comma-separated targets, or `all` |
+| `--compression KIND` | `gz` | Payload compressor: `gz`, `xz`, or `zst` |
+
+With multiple targets the output name gets a `- ` suffix (e.g. `hello-x86_64-linux`).
+
+`gz` is the default because it decompresses with tooling present everywhere. `xz` and `zst`
+produce a smaller binary, but the matching decompressor must be available on the target at run
+time (Linux); macOS `tar` handles all three natively.
+
+The bundled runtime and the app are packed and cached separately. On first run the runtime is
+extracted **once** into a shared, content-addressed dir (`~/.cache/panini/rt/ `), so several
+binaries built with the same runtime don't each re-unpack their own copy of OTP; each app's own
+files live under `~/.cache/panini/apps/ `.
+
+## Targets
+
+```
+aarch64-macos     x86_64-macos     aarch64-linux     x86_64-linux
+x86_64-freebsd    x86_64-netbsd    x86_64-openbsd    (host-only)
+```
+
+macOS runtimes are universal (one archive covers both arches); Linux is per-arch and
+statically linked (musl). These four ship precompiled OTP, so they can be **cross-built**
+from any host and are what `--target all` expands to.
+
+The BSD targets are **host-only**: there are no precompiled OTP builds to fetch for them, so
+they can't be cross-compiled or used with `--otp`. Build them *on* a FreeBSD/NetBSD/OpenBSD
+machine that has Erlang + Gleam installed — panini bundles that host's own OTP:
+
+```sh
+# on a FreeBSD box:
+panini build ./examples/hello -o ./hello        # host build → bundles the host's Erlang
+```
+
+FreeBSD has the most mature Zig + Erlang support; NetBSD/OpenBSD are best-effort. Windows
+isn't supported yet (needs a different boot + launcher).
+
+## OTP version selection & the BEAM compatibility rule
+
+BEAM bytecode must be compiled by an OTP that is compatible with the runtime it runs on —
+newer-compiler bytecode won't load on an older runtime. So `--otp` doesn't just swap the
+runtime, it also controls how the app is compiled:
+
+- **Native target** (building for this machine's OS): panini downloads the selected OTP and
+ **compiles your app with it** (via PATH shims), so the bytecode always matches the bundled
+ runtime. Any version works, and **no system Erlang is required** — `--otp` provides the
+ whole toolchain.
+- **Cross-OS target** (e.g. Linux from macOS): panini can't run the target's compiler, so the
+ app is compiled by the **host** toolchain. The bundled OTP major must therefore equal the
+ host's OTP major; panini checks this and tells you if it doesn't. (This is the same
+ constraint Burrito has.)
+
+`panini otp-versions` lists what you can pass to `--otp` (precompiled runtimes exist for OTP
+25.3+; macOS builds are universal).
+
+## How it works
+
+```
+gleam export erlang-shipment          .beam + .app files (portable bytecode)
+        │
+        ▼
+minimal, relocatable OTP runtime      erts + boot files + only the OTP lib apps
+   (host runtime or downloaded)        the app references (kernel, stdlib, …)
+        │
+        ▼
+run.sh                                sets ROOTDIR/BINDIR and boots via `erlexec`
+        │                             with an explicit -boot (no OTP `Install` needed)
+        ▼
+tar + gzip  ->  payload.tar.gz
+        │
+        ▼
+Zig self-extracting launcher          @embedFile(payload); first run extracts to
+   (cross-compiled per target)        ~/.cache/panini/<app>-<hash>/ then execs run.sh
+```
+
+- The **CLI** (`src/`) is Rust, std-only — it shells out to `gleam`, `erl`, `curl`, `tar`,
+ and `zig`. No crate dependencies.
+- The **launcher** (`launcher/`) is Zig (pinned to **0.16.0**), in the spirit of Burrito's
+ wrapper: it embeds the compressed payload, self-extracts to a per-app cache dir on first
+ run, and hands off via `process.replace` (exec). Cross-compiled with `zig build -Dtarget=…`.
+- **BEAM bytecode is portable**, so the Gleam shipment is reused across targets — only the
+ native runtime and launcher differ per platform.
+
+## Zig is handled for you
+
+The launcher uses Zig-0.16.0-only APIs, so panini needs exactly that version. It uses your
+`zig` if it reports `0.16.0`; otherwise it **downloads Zig 0.16.0** into
+`~/.cache/panini/zig/` once and uses that. You never have to install Zig yourself.
+
+## Requirements
+
+Build machine needs `gleam`, `curl`, and `tar`. A host `erl` is only needed for the default
+host-OTP build; a `--otp ` build downloads and compiles with its own OTP. `zig` is
+auto-provisioned. Run `panini doctor` to check.
+
+The **target** machine needs only a POSIX `sh` and `tar` (universal on macOS/Linux).
+
+## Usage
+
+```sh
+cargo build --release
+
+./target/release/panini build ./examples/hello -o ./hello
+./target/release/panini build ./examples/hello --otp 28.0
+./target/release/panini build ./examples/hello --target x86_64-linux,aarch64-linux --otp 27.2
+./target/release/panini doctor
+```
+
+## CI
+
+`.github/workflows/e2e.yml` runs the real thing on every push:
+
+- **bundle** — a matrix of {ubuntu x64/arm64, macOS x64/arm64} × {OTP 26, 27, 28}: builds a
+ binary with a bundled OTP (no system Erlang; Zig auto-downloaded) and runs it.
+- **native** — the host-OTP path via `erlef/setup-beam` across OTP 26/27/28.
+- **cross-build → cross-run** — cross-compiles an `aarch64-linux` binary on an x86_64 runner
+ and runs it on a real arm64 runner, proving cross-compiled binaries work end-to-end.
+- **cli** — `clippy -D warnings`, `fmt --check`, and the CLI subcommands.
+
+`nix.yml` builds the flake on Linux + macOS (`nix build` + `nix flake check`). `release.yml`
+builds binaries + `.deb`/`.rpm` for macOS/Linux × amd64/arm64 on tag push, publishes them to
+GitHub Releases, and pushes the packages to Gemfury.
+
+## Development
+
+```sh
+nix develop        # Rust toolchain + gleam + erlang + fetch/extract tools
+cargo build --release
+```
+
+## Roadmap
+
+- [x] Single self-contained binary from a Gleam app (host)
+- [x] `--otp` version selection (downloaded runtime + matching compile)
+- [x] Cross-compilation (`--target`, per-target OTP + cross-compiled launcher)
+- [x] Auto-provision Zig 0.16.0
+- [x] `doctor`, `targets`, `otp-versions`
+- [x] GitHub Actions e2e matrix (platforms × OTP versions)
+- [ ] Trim the runtime further (strip unused ERTS binaries / man pages)
+- [ ] Proper OTP release via `relx` (release semantics for supervised apps)
+- [ ] Windows target (`.exe` launcher + `.ps1` boot)
+- [ ] Vendor Burrito's exact Zig wrapper as an alternative launcher backend
+
+## Layout
+
+```
+src/            Rust CLI: main, pipeline, otp, target, zig
+launcher/       Zig 0.16 self-extracting wrapper (embedded into panini via include_str!)
+examples/hello/ a sample Gleam app to build
+dist/           .deb / .rpm packaging templates
+flake.nix       Nix package + dev shell
+.github/        e2e, nix, and release workflows
+```
+
+## Name
+
+A panini is a *pressed* sandwich — which is exactly the operation: press your app and its
+runtime flat into one binary. Also a nod to Pāṇini,
+who wrote the first formal grammar — fitting for a tool built on a typed, compiled language.
+
+## License
+
+MIT
+
+## 关联链接
+
+- https://apt.fury.io/tsiry/
+- https://github.com/tsirysndr/panini/releases/latest/download/panini-v0.2.0-x86_64-linux.tar.gz
+- https://yum.fury.io/tsiry/
 
 ## 导航
 
 - 项目页：[[10-项目/github.com_aa2f4f44]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`移动 App`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

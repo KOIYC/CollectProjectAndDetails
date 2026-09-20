@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=48733674"
 project_url: "https://cli.revos.dev/"
 author: "zubairov"
 published_at: "2026-06-30T15:00:04Z"
-captured_at: "2026-09-21T01:44:22+08:00"
+captured_at: "2026-09-21T02:53:02+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:113d"
 # Show HN: Scaffold a BigQuery and dbt and Cube project an AI agent can operate
 
 > [!info] 一句话导读
-> Show HN: Scaffold a BigQuery and dbt and Cube project an AI agent can operate
+> Skip to main content
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,52 @@ discovered_via: "hn:show_hn:113d"
 > 指标：点赞=8 · 评论=3 · engagement_velocity=8
 > 作者：zubairov　|　发布：2026-06-30T15:00:04Z
 > 项目链接：<https://cli.revos.dev/>
-> 采集：2026-09-21T01:44:22+08:00　|　id：`a021f800f39d9450`
+> 采集：2026-09-21T02:53:02+08:00　|　id：`a021f800f39d9450`
 
 ## 正文
 
-Show HN: Scaffold a BigQuery and dbt and Cube project an AI agent can operate
+Skip to main content
+RevOS CLI Docs
+ Platform Docs Website
+Getting Started
+ Concepts
+ Installation
+ Authentication
+ Configuration
+ Project Scaffolding (init)
+Resources
+Raw API access
+ Tutorials
+Getting Started
+ On this page
+ RevOS CLI
+Command-line interface for managing RevOS resources — tables, scores, segments, actions, cubes, organizations, and more.
+Quick Start ​
+# Install
+npm install -g @revos/cli
+# Login via browser
+revos auth login
+# Check your organizations
+revos org list
+# Initialize a new data project
+revos init my-project
+What You Can Do ​
+Authenticate — Browser-based OAuth login, token-based auth for CI/CD
+Manage Organizations — List, switch, and inspect orgs
+Manage Resources — CRUD tables, scores, segments, actions, AI instructions, and service accounts
+Manage Cubes & Pipelines via IaC — Declare Connections and Cubes as YAML; reconcile with revos apply , inspect with revos diff and revos status
+Scaffold Projects — Generate data engineering projects with medallion layout, Dev Containers, dbt, and AI companion files
+Next Steps ​
+From Zero to Semantic Model — End-to-end walkthrough using a real dataset
+Installation — Install and verify the CLI
+Authentication — Set up your credentials
+Configuration — Global options and environment variables
+Next
+ Concepts
+Quick Start
+ What You Can Do
+ Next Steps
+Copyright © 2026 RevOS GmbH.
 
 ## 评论（3/3）
 

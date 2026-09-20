@@ -31,6 +31,8 @@ lang: "en"
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
+| 2026-09-21T01:34:45+08:00 | dev.to | reactions=58 · 评论=47 · reading_time=8 | [[20-语料/posts/devto/2026-09-21/3015df0ac27060e4_NexPath-Review-The-Prompt-Quality-Layer-for-Cursor]] |
+| 2026-09-21T01:40:25+08:00 | dev.to | reactions=58 · 评论=47 · reading_time=8 | [[20-语料/posts/devto/2026-09-21/3015df0ac27060e4_NexPath-Review-The-Prompt-Quality-Layer-for-Cursor]] |
 | 2026-09-21T02:23:40+08:00 | dev.to | reactions=58 · 评论=47 · reading_time=8 | [[20-语料/posts/devto/2026-09-21/3015df0ac27060e4_NexPath-Review-The-Prompt-Quality-Layer-for-Cursor]] |
 
 ## 摘要正文

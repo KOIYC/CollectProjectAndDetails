@@ -43,7 +43,7 @@ Strategy games for the win! Check it out, tear it apart, or share it with a frie
 
 ## 关联链接
 
-- https://store.steampowered.com/app/4346210/Dwarf\_Guild\_Mania/
+- https://store.steampowered.com/app/4346210/Dwarf
 - https://store.steampowered.com/app/4346210/Dwarf_Guild_Mania/
 
 ## 导航

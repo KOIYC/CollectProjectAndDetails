@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/buildinpublic/comments/1tsxpcl/how_i_went_from_a_
 project_url: "https://play.google.com/store/apps/details?id=com.nick.applab.silentsaver"
 author: "Azaria77"
 published_at: "2026-05-31T23:01:40+08:00"
-captured_at: "2026-09-21T01:28:02+08:00"
+captured_at: "2026-09-21T03:01:55+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -19,8 +19,8 @@ tags:
   - reddit
   - r/buildinpublic
 metrics: {"score": 3, "comments": 3, "upvote_ratio": 1}
-comments_count: 0
-comments_total: 0
+comments_count: 3
+comments_total: 3
 discovered_via: "reddit:144d+settle3"
 ---
 
@@ -35,7 +35,7 @@ discovered_via: "reddit:144d+settle3"
 > 指标：得分=3 · 评论=3 · 赞踩比=1
 > 作者：Azaria77　|　发布：2026-05-31T23:01:40+08:00
 > 项目链接：<https://play.google.com/store/apps/details?id=com.nick.applab.silentsaver>
-> 采集：2026-09-21T01:28:02+08:00　|　id：`8a7c55ea364b5395`
+> 采集：2026-09-21T03:01:55+08:00　|　id：`8a7c55ea364b5395`
 
 ## 正文
 
@@ -140,6 +140,21 @@ Play Store Link:
 I’d genuinely love to hear your feedback, especially from people who care about privacy, security, or local-first software.
 
 Thanks for reading!
+
+## 评论（3/3）
+
+> **Mission-Giraffe-7972**（1 分） · 2026-06-01T09:57:41+08:00　
+> What specific algorithms or similarity metrics (e.g., Levenshtein distance, entropy calculations) did you implement to determine the strength of each pass?
+
+---
+
+> **Azaria77**（1 分） · 2026-06-01T16:28:42+08:00　
+> It's a simple zxcvbn algorithm
+
+---
+
+> **LeaderAtLeading**（1 分） · 2026-06-01T22:28:53+08:00　
+> Local first for passwords is the right call. Cloud breaches prove the market exists.
 
 ## 导航
 

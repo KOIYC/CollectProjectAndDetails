@@ -1,0 +1,9 @@
+{
+  "moves": [
+    {
+      "from": "10-项目/a-warby-parker-employee-found-my-QR-sticker-on-h_decece85.md",
+      "to": "80-归档/重复副本/20260921T033038/a-warby-parker-employee-found-my-QR-sticker-on-h_decece85.md",
+      "reason": "stale 且与归档区同 stem 同 hash 重复"
+    }
+  ]
+}

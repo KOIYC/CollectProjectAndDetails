@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Sod – Touch ID-Backed SSH Keys Using the Secure Enclave"
 project_url: "https://botanica-consulting.github.io/sod"
-first_seen: "2026-09-21T01:29:55+08:00"
+first_seen: "2026-09-21T02:53:08+08:00"
 sources:
   - hn_show
 tags:
@@ -16,9 +16,12 @@ lang: "en"
 
 # Show HN: Sod – Touch ID-Backed SSH Keys Using the Secure Enclave
 
+> [!info] 一句话导读
+> sod — SSH keys sealed in the Secure Enclave
+
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://botanica-consulting.github.io/sod>
-> 首次收录：2026-09-21T01:29:55+08:00
+> 首次收录：2026-09-21T02:53:08+08:00
 > 来源渠道：HN Show HN
 > 标签：author_botanica_labs, story_48731704, show_hn
 > 最新指标：点赞=2 · 评论=0 · engagement_velocity=2
@@ -28,3 +31,8 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T01:29:55+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/4b1fe14b752eb1f4_Show-HN-Sod-–-Touch-ID-Backed-SSH-Keys-Using-the-S]] |
+| 2026-09-21T02:53:08+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/4b1fe14b752eb1f4_Show-HN-Sod-–-Touch-ID-Backed-SSH-Keys-Using-the-S]] |
+
+## 摘要正文
+
+sod — SSH keys sealed in the Secure Enclave  sod  ➜ alon git:(main) ✗ sd install  The sod agent is running and will start at every login (serving id_sod).  Point your shell at it:   echo 'export SSH_AUTH_SOCK="$HOME/.ssh/sod-agent.sock"' >> ~/.zshrc   exec $SHELL  ➜ alon git:(main) ✗ echo 'export SSH_AUTH_SOCK="$HOME/.ssh/sod-agent.sock"' >> ~/.zshrc  ➜ alon git:(main) ✗ exec $SHELL  ➜ alon git:(main) ✗ ssh -T git@github.com

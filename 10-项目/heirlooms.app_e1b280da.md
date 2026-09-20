@@ -30,6 +30,8 @@ lang: "en"
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
+| 2026-09-21T01:27:24+08:00 | HN Show HN | 点赞=2 · 评论=11 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/e4e52401a9446e3f_Show-HN-Heirlooms-–-pass-your-legacy-to-family-aft]] |
+| 2026-09-21T01:43:55+08:00 | HN Show HN | 点赞=2 · 评论=11 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/e4e52401a9446e3f_Show-HN-Heirlooms-–-pass-your-legacy-to-family-aft]] |
 | 2026-09-21T02:23:40+08:00 | HN Show HN | 点赞=2 · 评论=11 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/e4e52401a9446e3f_Show-HN-Heirlooms-–-pass-your-legacy-to-family-aft]] |
 
 ## 摘要正文

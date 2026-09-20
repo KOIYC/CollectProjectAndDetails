@@ -2,7 +2,7 @@
 type: "project"
 title: "i am 16/yo, pls roast my idea and landing page."
 project_url: "https://onpilot.app/"
-first_seen: "2026-09-21T01:32:19+08:00"
+first_seen: "2026-09-21T03:20:02+08:00"
 sources:
   - reddit
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://onpilot.app/>
-> 首次收录：2026-09-21T01:32:19+08:00
+> 首次收录：2026-09-21T03:20:02+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/SaaS
 > 最新指标：得分=4 · 评论=7 · 赞踩比=1
@@ -29,6 +29,9 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T01:32:19+08:00 | Reddit 独立开发版块 | 得分=4 · 评论=7 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/f09b79d98edacf7f_i-am-16-yo,-pls-roast-my-idea-and-landing-page]] |
+| 2026-09-21T03:03:43+08:00 | Reddit 独立开发版块 | 得分=4 · 评论=7 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/f09b79d98edacf7f_i-am-16-yo,-pls-roast-my-idea-and-landing-page]] |
+| 2026-09-21T03:13:46+08:00 | Reddit 独立开发版块 | 得分=4 · 评论=7 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/f09b79d98edacf7f_i-am-16-yo,-pls-roast-my-idea-and-landing-page]] |
+| 2026-09-21T03:20:02+08:00 | Reddit 独立开发版块 | 得分=4 · 评论=7 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/f09b79d98edacf7f_i-am-16-yo,-pls-roast-my-idea-and-landing-page]] |
 
 ## 摘要正文
 

@@ -2,7 +2,7 @@
 type: "project"
 title: "Just started my first indie project, intro and first quest are working!"
 project_url: "https://i.redd.it/cnsxafb3gcyg1"
-first_seen: "2026-09-21T01:14:47+08:00"
+first_seen: "2026-09-21T03:00:12+08:00"
 sources:
   - reddit
 tags:
@@ -20,7 +20,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://i.redd.it/cnsxafb3gcyg1>
-> 首次收录：2026-09-21T01:14:47+08:00
+> 首次收录：2026-09-21T03:00:12+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/indiedev, GIF
 > 最新指标：得分=6 · 评论=11 · 赞踩比=0.6899999976158142
@@ -31,6 +31,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-21T01:10:11+08:00 | Reddit 独立开发版块 | 得分=6 · 评论=11 · 赞踩比=0.6899999976158142 | [[20-语料/posts/reddit/2026-09-21/47ce5a6df73ebcb3_Just-started-my-first-indie-project,-intro-and-fir]] |
 | 2026-09-21T01:14:47+08:00 | Reddit 独立开发版块 | 得分=6 · 评论=11 · 赞踩比=0.6899999976158142 | [[20-语料/posts/reddit/2026-09-21/47ce5a6df73ebcb3_Just-started-my-first-indie-project,-intro-and-fir]] |
+| 2026-09-21T03:00:12+08:00 | Reddit 独立开发版块 | 得分=6 · 评论=11 · 赞踩比=0.6899999976158142 | [[20-语料/posts/reddit/2026-09-21/47ce5a6df73ebcb3_Just-started-my-first-indie-project,-intro-and-fir]] |
 
 ## 摘要正文
 

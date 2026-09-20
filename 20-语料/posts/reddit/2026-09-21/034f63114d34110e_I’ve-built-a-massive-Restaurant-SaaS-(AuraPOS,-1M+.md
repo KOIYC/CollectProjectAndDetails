@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1tsys9x/ive_built_a_massive_restaurant_saas_aurapos_1m/"
 author: "Business-Rub-4129"
 published_at: "2026-05-31T23:42:32+08:00"
-captured_at: "2026-09-21T01:27:57+08:00"
+captured_at: "2026-09-21T03:19:25+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - reddit
   - r/SaaS
 metrics: {"score": 3, "comments": 3, "upvote_ratio": 1}
-comments_count: 0
-comments_total: 0
+comments_count: 2
+comments_total: 3
 discovered_via: "reddit:144d+settle3"
 ---
 
@@ -34,7 +34,7 @@ discovered_via: "reddit:144d+settle3"
 > 指标：得分=3 · 评论=3 · 赞踩比=1
 > 作者：Business-Rub-4129　|　发布：2026-05-31T23:42:32+08:00
 > 项目链接：—
-> 采集：2026-09-21T01:27:57+08:00　|　id：`034f63114d34110e`
+> 采集：2026-09-21T03:19:25+08:00　|　id：`034f63114d34110e`
 
 ## 正文
 
@@ -50,6 +50,18 @@ I’m curious how you’ve handled this transition:
 2. How do you structure a fair commission-based partnership that motivates partners to hit targets?
 
 I’m aiming for a long-term partnership where we grow together. If anyone has experience or is interested in discussing a potential partnership, I’d love to hear your thoughts or connect directly.
+
+## 评论（2/3）
+
+> **gptbuilder_marc**（1 分） · 2026-06-01T00:59:57+08:00　
+> Two sales partners before you have one repeatable sale of your own usually backfires, since they inherit a motion nobody has proven. With AuraPOS this deep on modules, the sharper question is which single restaurant segment closes fastest, not who does the selling. Sell the first ten yourself, then hire.
+
+---
+
+> **AutoModerator**（1 分） · 2026-06-01T01:49:08+08:00　
+> Low-Effort/AI content is auto-removed.
+>
+> *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/SaaS) if you have any questions or concerns.*
 
 ## 导航
 

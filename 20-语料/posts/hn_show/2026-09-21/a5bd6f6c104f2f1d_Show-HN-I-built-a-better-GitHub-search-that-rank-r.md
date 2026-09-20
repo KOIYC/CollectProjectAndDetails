@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=48327938"
 project_url: "https://reposeek.ai/"
 author: "donghaxkim"
 published_at: "2026-05-29T19:15:19Z"
-captured_at: "2026-09-21T01:43:51+08:00"
+captured_at: "2026-09-21T02:52:57+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "AI 工具/Agent"
 shard: "2026-09-21"
 pub_day: "2026-05-29"
 tags:
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:144d"
 # Show HN: I built a better GitHub search that rank repos by what matters
 
 > [!info] 一句话导读
-> Show HN: I built a better GitHub search that rank repos by what matters
+> Find the repo worth building on.
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,51 @@ discovered_via: "hn:show_hn:144d"
 > 指标：点赞=5 · 评论=5 · engagement_velocity=5
 > 作者：donghaxkim　|　发布：2026-05-29T19:15:19Z
 > 项目链接：<https://reposeek.ai/>
-> 采集：2026-09-21T01:43:51+08:00　|　id：`a5bd6f6c104f2f1d`
+> 采集：2026-09-21T02:52:57+08:00　|　id：`a5bd6f6c104f2f1d`
 
 ## 正文
 
-Show HN: I built a better GitHub search that rank repos by what matters
+Reposeek
+Reposeek
+ README
+ DOCS
+ PRICING
+ ENTERPRISE
+Sign in Start free
+Find the repo worth building on.
+ Ranked list of repos vetted on README, license, and quality signals.
+README.md score:0.92 license:MIT stars>1k pkg/search vector[1536] 010010 110101
+Demo
+ Watch Reposeek in action.
+ A comparison of a coding agent with the Reposeek skill + CLI and a coding agent without.
+Watch the Reposeek launch demo video.
+Example searches
+ Before you build from scratch, search what already exists.
+ Use Reposeek like market research: find existing open-source projects, inspect possible foundations, then decide what to fork, study, or avoid.
+meeting bot that joins Zoom Meet and gives transcripts
+ Vexa-ai/vexa 2k stars 319 forks Apache-2.0
+Vexa is an open-source, self-hostable meeting bot API and meeting transcription API for Google Meet, Microsoft Teams, and Zoom, offered as an alternative to Recall.ai, Otter.ai, and Fireflies.ai and also available as a hosted service...
+ Explore in API Playground
+AI receipt scanner that splits bills
+ Nutlope/billsplit 281 stars 36 forks MIT
+BillSplit is a modern bill splitting app powered by Together.ai that lets a user upload a picture of a bill, processes the bill as a PDF using Together.ai Vision models with JSON mode, lets the user choose how to split items and add...
+ Explore in API Playground
+Product mechanics
+ The retrieval pipeline behind each result.
+ Reposeek distills README intent, blends semantic and exact-match candidates, then reranks repos into compact evidence your agent can use.
+Repository understanding
+ At ingestion, Reposeek summarizes each README and embeds distilled repo intent, so prompts match what projects actually do.
+Repository evidence
+ Retrieve candidates from semantic and lexical matches, then rerank with summaries, stars, forks, license, and retrieval signals.
+Agent-ready output
+ Return compact repo objects — rank, repo, URL, score, summary, stars, and license — for CLI tools, coding agents, and API-first workflows.
+/ 10 free searches every month
+ Give your agent a better first move.
+ Upgrade only when you need more searches
+Start free View pricing
+Reposeek
+ Grounded repo discovery for coding agents.
+Terms / Privacy
 
 ## 评论（5/5）
 

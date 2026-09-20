@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: An Implementation of Scheme in Rust"
 project_url: "https://github.com/vinay/rscheme"
-first_seen: "2026-09-21T01:33:52+08:00"
+first_seen: "2026-09-21T03:11:30+08:00"
 sources:
   - hn_show
 tags:
@@ -16,9 +16,12 @@ lang: "en"
 
 # Show HN: An Implementation of Scheme in Rust
 
+> [!info] 一句话导读
+> An implementation of Scheme in Rust.
+
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/vinay/rscheme>
-> 首次收录：2026-09-21T01:33:52+08:00
+> 首次收录：2026-09-21T03:11:30+08:00
 > 来源渠道：HN Show HN
 > 标签：author_vmmenon, story_49500050, show_hn
 > 最新指标：点赞=2 · 评论=0 · engagement_velocity=2
@@ -28,3 +31,8 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T01:33:52+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/62caa9c7491e702a_Show-HN-An-Implementation-of-Scheme-in-Rust]] |
+| 2026-09-21T03:11:30+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/62caa9c7491e702a_Show-HN-An-Implementation-of-Scheme-in-Rust]] |
+
+## 摘要正文
+
+# vinay/rscheme  An implementation of Scheme in Rust.  - Stars: 0 - Forks: 0 - Watchers: 0 - Open issues: 0 - License: Other - Default branch: main - Created: 2026-08-30T15:37:16Z  ## Languages  - Rust - Scheme - Tree-sitter Query  ## Top Contributors  - vinay (2 contributions)  ---  ## README  # rscheme  ci  A Scheme interpreter written in Rust, sized for one purpose: running the code from *Structure and Interpretation of Computer Programs*.  Everything the book's programs need is here — proper tail calls, `cons-stream` and promises, mutable pairs, `set!` and local state, quasiquotation, and a `read` that a driver loop can call. Everything they do not need has been left out: there is no `call/cc`, no macro system, no exact rationals or bignums, no continuations beyond the Rust stack. The book builds most of that *inside* Scheme anyway, which is rather the point of chapters 2, 4 and 5.  Memory is reclaimed by a **mark-and-sweep garbage collector**, written from scratch and deliberately kept small enough to read in one sitting.  The crate has **no dependencies** — not even for random numbers.  ---  ## Building and running  ```sh cargo build --release ./target/release/rscheme ```  ``…

@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49109712"
 project_url: "https://sky.luftaquila.io/"
 author: "luftaquila"
 published_at: "2026-07-30T13:28:15Z"
-captured_at: "2026-09-21T01:31:46+08:00"
+captured_at: "2026-09-21T03:16:05+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -28,13 +28,26 @@ discovered_via: "hn:show_hn:83d"
 
 # Show HN: Skytrace – Self-hosted 3D ADS-B viewer with receiver coverage domes
 
+> [!info] 一句话导读
+> Error fetching https://codepen.io/editor/alowpoly/pen/019fae67-50d9-74ce-8025-4b9dd5a7c484: CRAWL_UNKNOWN_ERROR
+
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=49109712>
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：luftaquila　|　发布：2026-07-30T13:28:15Z
 > 项目链接：<https://sky.luftaquila.io/>
-> 采集：2026-09-21T01:31:46+08:00　|　id：`8a042b22c8e7364e`
+> 采集：2026-09-21T03:16:05+08:00　|　id：`8a042b22c8e7364e`
+
+## 正文
+
+Skytrace
+
+Error fetching https://codepen.io/editor/alowpoly/pen/019fae67-50d9-74ce-8025-4b9dd5a7c484: CRAWL_UNKNOWN_ERROR
+
+## 关联链接
+
+- https://codepen.io/editor/alowpoly/pen/019fae67-50d9-74ce-8025-4b9dd5a7c484:
 
 ## 导航
 

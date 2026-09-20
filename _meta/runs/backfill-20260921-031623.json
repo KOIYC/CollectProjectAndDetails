@@ -1,0 +1,37 @@
+{
+ "run_id": "backfill-20260921-031623",
+ "kind": "backfill",
+ "queue": 47,
+ "attempted": 47,
+ "filled": 16,
+ "structural_dead": 0,
+ "missed": 31,
+ "comments_queue": 64,
+ "comments_filled": 61,
+ "via": [
+  [
+   "exa_web_fetch",
+   11
+  ],
+  [
+   "gh_readme",
+   5
+  ]
+ ],
+ "channels": [
+  [
+   "hn_show",
+   6
+  ],
+  [
+   "github_new",
+   5
+  ],
+  [
+   "reddit",
+   5
+  ]
+ ],
+ "started": "2026-09-21T03:20:20+08:00",
+ "elapsed_s": 0
+}

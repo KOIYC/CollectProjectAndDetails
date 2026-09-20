@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: C# based Kubernetes Operator to deploy SurrealDB"
 project_url: "https://github.com/stevefan1999-personal/surrealdb-operator"
-first_seen: "2026-09-21T01:42:23+08:00"
+first_seen: "2026-09-21T02:52:40+08:00"
 sources:
   - hn_show
 tags:
@@ -17,11 +17,11 @@ lang: "en"
 # Show HN: C# based Kubernetes Operator to deploy SurrealDB
 
 > [!info] 一句话导读
-> Show HN: C# based Kubernetes Operator to deploy SurrealDB
+> stevefan1999-personal/surrealdb-operator
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/stevefan1999-personal/surrealdb-operator>
-> 首次收录：2026-09-21T01:42:23+08:00
+> 首次收录：2026-09-21T02:52:40+08:00
 > 来源渠道：HN Show HN
 > 标签：author_stevefan1999, story_47945217, show_hn
 > 最新指标：点赞=8 · 评论=2 · engagement_velocity=8
@@ -33,7 +33,8 @@ lang: "en"
 | 2026-09-21T01:09:14+08:00 | HN Show HN | 点赞=8 · 评论=2 · engagement_velocity=8 | [[20-语料/posts/hn_show/2026-09-21/c9bf7619fb0ffa9d_Show-HN-C-based-Kubernetes-Operator-to-deploy-Surr]] |
 | 2026-09-21T01:13:42+08:00 | HN Show HN | 点赞=8 · 评论=2 · engagement_velocity=8 | [[20-语料/posts/hn_show/2026-09-21/c9bf7619fb0ffa9d_Show-HN-C-based-Kubernetes-Operator-to-deploy-Surr]] |
 | 2026-09-21T01:42:23+08:00 | HN Show HN | 点赞=8 · 评论=2 · engagement_velocity=8 | [[20-语料/posts/hn_show/2026-09-21/c9bf7619fb0ffa9d_Show-HN-C-based-Kubernetes-Operator-to-deploy-Surr]] |
+| 2026-09-21T02:52:40+08:00 | HN Show HN | 点赞=8 · 评论=2 · engagement_velocity=8 | [[20-语料/posts/hn_show/2026-09-21/c9bf7619fb0ffa9d_Show-HN-C-based-Kubernetes-Operator-to-deploy-Surr]] |
 
 ## 摘要正文
 
-Show HN: C# based Kubernetes Operator to deploy SurrealDB
+# stevefan1999-personal/surrealdb-operator  - Stars: 4 - Forks: 0 - Watchers: 4 - Open issues: 0 - Default branch: master - Created: 2026-04-29T05:39:20Z  ## Languages  - C# - Just  ## Top Contributors  - stevefan1999-personal (248 contributions)  ---  ## README  # SurrealDB Operator  A Kubernetes operator for managing SurrealDB clusters, built with KubeOps (.NET 10).  ## Overview  The SurrealDB Operator manages the full lifecycle of SurrealDB clusters on Kubernetes: deployment, storage backend provisioning (TiKV, RocksDB, or in-memory), scaling, TLS via cert-manager, and automated backups via Velero.  ``` ┌──────────────────────────────────────────────────────────┐ │                    Kubernetes Cluster                     │ │                                                          │ │  ┌───────────────────────┐   ┌────────────────────────┐  │ │  │  SurrealDB Operator   │   │   TiDB Operator (ext)  │  │ │  │  ┌─────────────────┐  │   │   Manages TiKV/PD      │  │ │  │  │  Cluster Ctrl   │──┼───►   StatefulSets         │  │ │  │  ├─────────────────┤  │   └────────────────────────┘  │ │  │  │  Backup Ctrl    │──┼──►                            │ │  │  └─────────────────┘  │   ┌────…

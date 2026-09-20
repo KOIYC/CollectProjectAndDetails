@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/IndieDev/comments/1ujsll9/business_frog_doing_kic
 project_url: "https://v.redd.it/dwij8skvvfah1"
 author: "justindarien"
 published_at: "2026-06-30T23:36:28+08:00"
-captured_at: "2026-09-21T01:30:35+08:00"
+captured_at: "2026-09-21T03:02:47+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -20,8 +20,8 @@ tags:
   - r/indiedev
   - Free Game!
 metrics: {"score": 6, "comments": 2, "upvote_ratio": 1}
-comments_count: 0
-comments_total: 0
+comments_count: 2
+comments_total: 2
 discovered_via: "reddit:113d+settle3"
 ---
 
@@ -36,7 +36,7 @@ discovered_via: "reddit:113d+settle3"
 > 指标：得分=6 · 评论=2 · 赞踩比=1
 > 作者：justindarien　|　发布：2026-06-30T23:36:28+08:00
 > 项目链接：<https://v.redd.it/dwij8skvvfah1>
-> 采集：2026-09-21T01:30:35+08:00　|　id：`29bfed9d5a0b4cd4`
+> 采集：2026-09-21T03:02:47+08:00　|　id：`29bfed9d5a0b4cd4`
 
 ## 正文
 
@@ -49,6 +49,16 @@ Go to work is a clumsy game about surviving your 9-to-5. The catch is you never 
 Play it in your browser: [https://jpatmakesgames.itch.io/go-to-work](https://jpatmakesgames.itch.io/go-to-work)
 
 Let me know what you think, how hard it was, and if you can beat all 20 levels!
+
+## 评论（2/2）
+
+> **Dangerous-Tower-8814**（2 分） · 2026-07-01T16:42:39+08:00　
+> Daamn, looks funny but I feel nauseous looking at it 😅
+
+---
+
+> **justindarien**（1 分） · 2026-07-01T21:22:28+08:00　
+> Thanks! Yea it’ll make you dizzy lol
 
 ## 关联链接
 

@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49508885"
 project_url: "https://king-of-the.world/"
 author: "nicojuhari"
 published_at: "2026-08-31T12:30:32Z"
-captured_at: "2026-09-21T01:33:52+08:00"
+captured_at: "2026-09-21T03:11:23+08:00"
 lang: "en"
 kind: "post"
 topic: "游戏"
@@ -21,12 +21,15 @@ tags:
   - story_49508885
   - show_hn
 metrics: {"points": 2, "comments": 1, "engagement_velocity": 2}
-comments_count: 0
-comments_total: 0
+comments_count: 1
+comments_total: 1
 discovered_via: "hn:show_hn:52d"
 ---
 
 # Show HN: I built this social leaderboard game
+
+> [!info] 一句话导读
+> The social leaderboard game
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -34,7 +37,19 @@ discovered_via: "hn:show_hn:52d"
 > 指标：点赞=2 · 评论=1 · engagement_velocity=2
 > 作者：nicojuhari　|　发布：2026-08-31T12:30:32Z
 > 项目链接：<https://king-of-the.world/>
-> 采集：2026-09-21T01:33:52+08:00　|　id：`2226bab72f0760c2`
+> 采集：2026-09-21T03:11:23+08:00　|　id：`2226bab72f0760c2`
+
+## 正文
+
+The social leaderboard game
+ King of the World
+ The crown is resting. King of the World is temporarily under maintenance - check back soon.
+ king-of-the.world
+
+## 评论（1/1）
+
+> **nicojuhari** · 2026-08-31T12:31:07.000Z　
+> Claim the Throne
 
 ## 导航
 

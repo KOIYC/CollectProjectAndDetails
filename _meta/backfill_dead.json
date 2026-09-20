@@ -1,5 +1,5 @@
 {
- "updated": "2026-09-21T01:46:05+08:00",
+ "updated": "2026-09-21T03:20:20+08:00",
  "note": "结构性无正文（视频帖/Twitter 账号页/极短 README/反爬站）——连试 2 轮后记账，不再消耗额度",
  "items": {
   "b3f5c02e0f48ee45": {
@@ -1091,11 +1091,11 @@
    "reason": "取数失败（Exa 未命中该站）"
   },
   "b88af057a80a90d5": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Does Big Government Kill Growth? The Armey Curve Tested (151 ",
    "url": "https://julienreszka.github.io/economic-simulator/armey-curve.html",
    "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
+   "last_try": "2026-09-21T03:14:03+08:00",
    "reason": "取数失败（Exa 未命中该站）"
   },
   "dbfcceed30014099": {
@@ -1451,11 +1451,11 @@
    "reason": "取数失败（Exa 未命中该站）"
   },
   "30f01d098880f25e": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: OmniForge – document intelligence and audio capture with loca",
    "url": "https://omniforge.online/",
    "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
+   "last_try": "2026-09-21T03:14:03+08:00",
    "reason": "取数失败（Exa 未命中该站）"
   },
   "d7c2b285a3001306": {
@@ -1507,11 +1507,11 @@
    "reason": "取数失败（Exa 未命中该站）"
   },
   "3f232af9b9afb5e4": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Is Opus Ok Today?",
    "url": "https://isopusok.today/",
    "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
+   "last_try": "2026-09-21T03:05:51+08:00",
    "reason": "取数失败（Exa 未命中该站）"
   },
   "f69b1b037e399a5a": {
@@ -1651,11 +1651,11 @@
    "reason": "取数失败（Exa 未命中该站）"
   },
   "a8338ab8b00a9bd9": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: I mapped what's within walking distance for European cities u",
    "url": "https://strado.info/map/",
    "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
+   "last_try": "2026-09-21T03:14:03+08:00",
    "reason": "取数失败（Exa 未命中该站）"
   },
   "6be790d55d8f2749": {
@@ -1664,6 +1664,454 @@
    "url": "https://doudou-chinese.com/",
    "source_id": "hn_show",
    "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "65d03c6b0c56ca4e": {
+   "attempts": 2,
+   "title": "Show HN: I built a native project management app that respects your pr",
+   "url": "https://getmilestones.app/store/",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "9588269e01a431d2": {
+   "attempts": 2,
+   "title": "Show HN: Markal, a productivity tool for creating collaborative calend",
+   "url": "https://markal.app",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "e9a7af726513ec10": {
+   "attempts": 2,
+   "title": "Show HN: Kanji Pairs Explorer",
+   "url": "https://trost.co/kanji-pairs/",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "1b4b1cddce7b7188": {
+   "attempts": 2,
+   "title": "Show HN: Prezlo – We built an API that tells AI agent whether to trust",
+   "url": "https://prezlo.io/",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "c74a4f37b5e005b7": {
+   "attempts": 2,
+   "title": "Show HN: A smarter CSS selector generator",
+   "url": "https://www.npmjs.com/package/@uindow/css",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "251b941e4476ef21": {
+   "attempts": 2,
+   "title": "Show HN: Community Reviews for Electronic Components",
+   "url": "https://semiconductor.review/",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "cbc2519e163925d9": {
+   "attempts": 2,
+   "title": "Show HN: Stillis – An open-ended anonymous polling platform for anythi",
+   "url": "https://stillis.xyz",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "4c3d04431c6728fd": {
+   "attempts": 2,
+   "title": "Show HN: A physical dial that locks your screens until your focus sess",
+   "url": "https://www.indiegogo.com/en/projects/miradial/miradial",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "e85e08f838288c7c": {
+   "attempts": 2,
+   "title": "Show HN: TOTP generator – SHA1/256/512 30/60/... 6-9 not via SubtleCry",
+   "url": "https://h1yapp.com/en/scripting/pwa/totpgenerator/",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "4f8139897c6a1ef0": {
+   "attempts": 2,
+   "title": "Show HN: Embeddable Cumulative Crates Download History",
+   "url": "https://cratesdownloadhistory.undivisible.dev/",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "e4485d45ddd5ae98": {
+   "attempts": 2,
+   "title": "Show HN: Rip.so – a graveyard for dead internet things",
+   "url": "https://rip.so",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "41660a1814ccc2cd": {
+   "attempts": 2,
+   "title": "Show HN: Cordium: FOSS sandbox platform that eliminates credential inj",
+   "url": "https://github.com/octelium/cordium",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "e987b2c196e576e3": {
+   "attempts": 2,
+   "title": "Show HN: The Duo-Quatro-Paraphonic Synthesizer",
+   "url": "https://stefanlenoach.com/paraphonic",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "cb724ff82291c574": {
+   "attempts": 2,
+   "title": "Show HN: Tab Council – turn your AI tabs into a model council",
+   "url": "https://github.com/vaddisrinivas/tab-council",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "f0623a8b3f6617d8": {
+   "attempts": 2,
+   "title": "Show HN: Integuru – Integrate with platforms via the source code",
+   "url": "https://www.integuru.com",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "fa33df4f8d9a94c1": {
+   "attempts": 2,
+   "title": "Show HN: FastReact – FastAPI and React Starter Kit for AI SaaS",
+   "url": "https://fastreact.dev/",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "9efc36b8b703b4f0": {
+   "attempts": 2,
+   "title": "Show HN: An Institutional Terminal for Retail Investors",
+   "url": "https://marketterminal.com/chart",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "49ab01b1a2042426": {
+   "attempts": 2,
+   "title": "Show HN: Apex Trading Signals – AI commodity trade ideas, free Android",
+   "url": "https://play.google.com/apps/testing/com.apextradingsignals",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "352afce8f70d41df": {
+   "attempts": 2,
+   "title": "Show HN: Logan Basic v2.1 - An online BASIC interpreter.",
+   "url": "https://sinusoft.com/loganbasic/",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "947811021388f4e3": {
+   "attempts": 2,
+   "title": "Show HN: Review flashcards cards (Anki) while reading Hacker News",
+   "url": "https://www.orangecrumbs.com/hn/",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "8a042b22c8e7364e": {
+   "attempts": 2,
+   "title": "Show HN: Skytrace – Self-hosted 3D ADS-B viewer with receiver coverage",
+   "url": "https://sky.luftaquila.io",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "31f57c57aa653c2a": {
+   "attempts": 2,
+   "title": "Show HN: 3D CSS Super Mario 64",
+   "url": "https://codepen.io/editor/alowpoly/pen/019fae67-50d9-74ce-8025-4b9dd5a7c484",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "1b54b891bfff72b9": {
+   "attempts": 2,
+   "title": "Show HN: Scoring 4,811 job tasks against machine capability, 1970–2041",
+   "url": "https://largelabormodel.com/mirror",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "ffe419fedb187025": {
+   "attempts": 1,
+   "title": "Show HN: Hybrids – a daily flower logic puzzle",
+   "url": "https://hybrids.rudyp.dev",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "d059e759a9243783": {
+   "attempts": 1,
+   "title": "Show HN: MyTops – A database of films, books, games that builds itself",
+   "url": "https://mytops.io/",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "40660ac5799ea2c1": {
+   "attempts": 2,
+   "title": "Show HN: Tinysandbox-JS-Runtime - JS in WASM in v8",
+   "url": "https://github.com/danthegoodman1/tinysandbox/tree/main/tinysandbox-js-runtime",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "3014777b8200a4b3": {
+   "attempts": 2,
+   "title": "Show HN: Nohtml.felixs.eu",
+   "url": "https://nohtml.felixs.eu",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "bfd9557432621d34": {
+   "attempts": 2,
+   "title": "Show HN: I built a physical dream machine for my wife",
+   "url": "https://twitter.com/oblomovius/status/2094053464552698325",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "9fd5bf8b1db874ad": {
+   "attempts": 2,
+   "title": "Show HN: Masareef – Android expense tracker that reads bank alerts on-",
+   "url": "https://play.google.com/store/apps/details?id=com.mohamedgado.masareef&hl=en_US",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "11682f608a155d2b": {
+   "attempts": 1,
+   "title": "Show HN: N8n community node for Shotium – screenshot and OG image API",
+   "url": "https://github.com/shotium/n8n-nodes-shotium",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "046b47b1e49ebb3a": {
+   "attempts": 1,
+   "title": "Show HN: Claypot – a block-based studio for kids to inspect AI systems",
+   "url": "https://claypot.app/",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "e0dfcac800c7f7e5": {
+   "attempts": 1,
+   "title": "Show HN: Practice where countries are in the world",
+   "url": "https://news.ycombinator.com/item?id=49495618",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "9f98571b8f67089c": {
+   "attempts": 1,
+   "title": "500 → 1,100 active users in 2 days 🚀 didn’t expect this ... :)",
+   "url": "https://i.redd.it/ajuyhthwccyg1.jpeg",
+   "source_id": "reddit",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "81c6ba756b861539": {
+   "attempts": 1,
+   "title": "22th website built.",
+   "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1szxbsl/22th_website_built/",
+   "source_id": "reddit",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "02983cd3fa784ef4": {
+   "attempts": 2,
+   "title": "Did you encounter the problem of disorganization in your first game?",
+   "url": "/r/imscreators/comments/1szu6k6/why_90_of_indie_developers_never_finish_their/",
+   "source_id": "reddit",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "f3352ca9e6883a97": {
+   "attempts": 2,
+   "title": "Everytime you check OP's profile",
+   "url": "https://i.redd.it/ikx2pz13sh4h1.jpeg",
+   "source_id": "reddit",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "9927ebf7be292d66": {
+   "attempts": 1,
+   "title": "This is soo true 😭",
+   "url": "https://i.redd.it/trycdowdoh4h1.jpeg",
+   "source_id": "reddit",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "e2e5847481902a6d": {
+   "attempts": 1,
+   "title": "3 pro artists pitched their art concepts for a game with typing-based ",
+   "url": "https://i.redd.it/10c1qjjsuh4h1.jpeg",
+   "source_id": "reddit",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "c4f747cce83249bb": {
+   "attempts": 1,
+   "title": "Solo indie dev priorities",
+   "url": "https://i.redd.it/3pr9nmwjmfah1.png",
+   "source_id": "reddit",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "44712bd530655606": {
+   "attempts": 1,
+   "title": "Just few hours in, I have launched my first iOS app and there are alre",
+   "url": "https://www.reddit.com/r/buildinpublic/comments/1v6d5ae/just_few_hours_in_i_have_launched_my_first_ios/",
+   "source_id": "reddit",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "7ae1ab72b05bb1f6": {
+   "attempts": 1,
+   "title": "How it started vs how it’s going :)",
+   "url": "https://www.reddit.com/r/IndieDev/comments/1vbtbng/how_it_started_vs_how_its_going/",
+   "source_id": "reddit",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "7133e55715dba07a": {
+   "attempts": 1,
+   "title": "Aurora Borealis 🟩🟦",
+   "url": "https://i.redd.it/2blidncl5qmh1.gif",
+   "source_id": "reddit",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "481e764f6eaebe60": {
+   "attempts": 1,
+   "title": "I still can't believe 50 complete strangers chose to pay for something",
+   "url": "https://i.redd.it/63v03dtk5qmh1.png",
+   "source_id": "reddit",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "c9e930acead733c0": {
+   "attempts": 1,
+   "title": "I think something is wrong with my recipe book...",
+   "url": "https://i.redd.it/ytjy28rfdqmh1.png",
+   "source_id": "reddit",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "22f420b5de0ff341": {
+   "attempts": 1,
+   "title": "Show HN: Babo – A scripting natural language that works as intended",
+   "url": "https://github.com/armbox/babo",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "b6a9a45b036d9797": {
+   "attempts": 1,
+   "title": "Show HN: Community Ninja – Find customers searching for your product",
+   "url": "https://communityninja.ai/",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "c7ff48776160c3bf": {
+   "attempts": 1,
+   "title": "Show HN: Uniflow – a code skeleton so feature #50 looks like feature #",
+   "url": "https://github.com/splendidz/uniflow",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "4ebaa9c3e91eedeb": {
+   "attempts": 1,
+   "title": "Show HN: ForthWrite – Email AI that learns your voice from every edit ",
+   "url": "https://www.forthwrite.ai/blog/how-forthwrite-learns-your-email-voice",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "b6046d85b7e9f0fc": {
+   "attempts": 1,
+   "title": "Show HN: We made a full-featured Python HTTP client work inside WASI",
+   "url": "https://niquests.readthedocs.io/en/latest/user/quickstart.html#running-as-a-wasi-component",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "0dce55c11de1be20": {
+   "attempts": 1,
+   "title": "Show HN: I audited my AI leaderboard scale – every score dropped 6-15 ",
+   "url": "https://agiranker.com/",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "2226bab72f0760c2": {
+   "attempts": 1,
+   "title": "Show HN: I built this social leaderboard game",
+   "url": "https://king-of-the.world",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "389073404c4eaa2e": {
+   "attempts": 1,
+   "title": "Show HN: Stickyboard – Kanban on real sticky notes, no account needed",
+   "url": "https://stickyboard.dev",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "a35463f18baa1b3a": {
+   "attempts": 1,
+   "title": "Show HN: FlarePeek – a chrome extension for Cloudflare Worker develope",
+   "url": "https://chromewebstore.google.com/detail/flarepeek-a-browser-exten/ffdbljcgdjkbbbbodnjbbgpahhnkfbnl",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "fec419fbb7c5523e": {
+   "attempts": 1,
+   "title": "Show HN: CardGo – Reusable, end-to-end encrypted context cards for AI ",
+   "url": "https://cardgo.ai",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "5496711b19c9e403": {
+   "attempts": 1,
+   "title": "Show HN: The Thousand – 1k founders, 1 question, one book",
+   "url": "https://thethousand.co",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "0b77acec5aee878b": {
+   "attempts": 1,
+   "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Resea",
+   "url": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html?m=1",
+   "source_id": "reddit",
+   "last_try": "2026-09-21T03:20:20+08:00",
    "reason": "取数失败（Exa 未命中该站）"
   }
  }

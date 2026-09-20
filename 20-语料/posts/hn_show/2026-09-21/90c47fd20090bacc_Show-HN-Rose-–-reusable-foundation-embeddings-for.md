@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49497418"
 project_url: "https://github.com/romboai/rose-1h-nmr"
 author: "zaza3311"
 published_at: "2026-08-30T10:31:21Z"
-captured_at: "2026-09-21T01:33:52+08:00"
+captured_at: "2026-09-21T03:11:33+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -28,13 +28,265 @@ discovered_via: "hn:show_hn:52d"
 
 # Show HN: Rose – reusable foundation embeddings for industrial 1H NMR
 
+> [!info] 一句话导读
+> ROSE: a Foundation Model for Reusable One-dimensional Spectrum Embeddings in 1H NMR
+
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=49497418>
 > 指标：点赞=3 · 评论=0 · engagement_velocity=3
 > 作者：zaza3311　|　发布：2026-08-30T10:31:21Z
 > 项目链接：<https://github.com/romboai/rose-1h-nmr>
-> 采集：2026-09-21T01:33:52+08:00　|　id：`90c47fd20090bacc`
+> 采集：2026-09-21T03:11:33+08:00　|　id：`90c47fd20090bacc`
+
+## 正文
+
+# romboai/rose-1h-nmr
+
+ROSE: a Foundation Model for Reusable One-dimensional Spectrum Embeddings in 1H NMR
+
+- Stars: 2
+- Forks: 0
+- Watchers: 2
+- Open issues: 1
+- License: Apache License 2.0
+- Homepage: https://doi.org/10.26434/chemrxiv.15007823/v1
+- Default branch: main
+- Created: 2026-07-28T10:15:19Z
+
+## Languages
+
+- Python
+
+## Topics
+
+- cheminformatics
+- chemistry
+- foundation-model
+- nmr
+- pytorch
+
+## Top Contributors
+
+- zaza81 (5 contributions)
+
+---
+
+## README
+
+# ROSE-1H NMR
+
+ChemRxiv
+DOI
+Hugging Face
+License
+
+Pretrained **¹H NMR** foundation model — inference and paper adaptation protocols.
+
+**Paper:** ChemRxiv.
+**Archive:** Zenodo (all versions; v0.1.0 is 10.5281/zenodo.22142632).
+**Weights:** `romboai/rose-1h-nmr`.
+**Code:** this repo.
+
+ Frozen [CLS] embeddings (UMAP). From the paper.
+
+## Quick start
+
+```bash
+git clone https://github.com/romboai/rose-1h-nmr.git
+cd rose-1h-nmr && pip install -e ".[hub]"
+```
+
+```python
+from rose import load, encode
+model = load()
+z = encode(model, spectrum)  # float32, shape (4096,), linear 0–14 ppm
+```
+
+Input may also be `(B, 4096)`. `field_mhz` and `solvent_id` are optional (`solvent_id` → `configs/solvent_vocab.json`). Local weights: `load("path/to/best_model.pt")`.
+
+```python
+import numpy as np
+from rose import load, encode, predict
+
+model = load()
+spectrum = np.load("spectrum.npy")     # (4096,)
+z = encode(model, spectrum, field_mhz=400.0, solvent_id=3)  # cdcl3 → (B, 256)
+```
+
+## Task heads
+
+```python
+import numpy as np
+from rose import load, predict
+
+model = load()
+spectrum = np.load("spectrum.npy")
+noisy = spectrum + 0.01 * np.random.randn(*spectrum.shape).astype(np.float32)
+
+# denoise — clean spectrum from noisy input (zero-shot)
+clean = predict(model, noisy, task="denoise")
+# (B, 4096)
+
+# peak — peak probability per grid point
+probs = predict(model, spectrum, task="peak")
+# (B, 4096) in [0, 1]
+
+# retrieval — contrastive spectrum ↔ SMILES (one SMILES per spectrum)
+out = predict(model, spectrum, task="retrieval", smiles="CCO")
+# logits_per_spec (B, B), logits_per_struct (B, B), loss
+
+# forward — ¹H shifts from structure (SMILES; spectrum sets batch size)
+out = predict(model, spectrum, task="forward", smiles="CCO")
+# shifts_pred (B, 32), count_pred (B,)
+
+# pair — similarity of aligned spectrum pairs (spectrum[i] ↔ spectrum_b[i])
+out = predict(model, spectrum, task="pair", spectrum_b=spectrum)
+# similarity (B,), logits (B, B)
+```
+
+## Fine-tuning
+
+Zero-shot uses pretrained weights as-is. For adaptation, load with `eval_mode=False`, then `adapt` + `param_groups`:
+
+- `freeze_encoder` (alias `P1`) — train task head only; easy domains
+- `unfreeze_encoder` (alias `P2`) — train encoders + head; hard domains
+
+**P1 — peak (frozen encoder)**
+
+```python
+import numpy as np
+import torch
+import torch.nn.functional as F
+from rose import load
+from rose.grid import ppm_axis_tensor
+
+model = load("best_model.pt", eval_mode=False)
+model.adapt(mode="freeze_encoder", task="peak")
+model.print_trainable_parameters()
+opt = torch.optim.Adam(model.param_groups())  # lr_head=1e-3
+
+device = next(model.parameters()).device
+spectrum = torch.from_numpy(np.load("spectrum.npy")).unsqueeze(0).to(device)
+ppm = ppm_axis_tensor(spectrum.size(0), device=device, cfg=model.cfg)
+peak_labels = torch.zeros_like(spectrum)  # (1, 4096) in [0, 1]
+
+logits = model.run_task("peak", spectrum=spectrum, ppm_axis=ppm)
+loss = F.binary_cross_entropy_with_logits(logits, peak_labels)
+loss.backward()
+opt.step()
+```
+
+**P2 — retrieval (unfreeze encoder)**
+
+```python
+import numpy as np
+import torch
+from rose import load, smiles_batch
+from rose.grid import ppm_axis_tensor
+
+model = load("best_model.pt", eval_mode=False)
+model.adapt(mode="unfreeze_encoder", task="retrieval")
+model.print_trainable_parameters()
+opt = torch.optim.Adam(model.param_groups())  # lr_head=1e-3, lr_encoder=1e-5
+
+# contrastive loss needs batch size ≥ 2
+device = next(model.parameters()).device
+spectrum = torch.from_numpy(
+    np.stack([np.load("spectrum_a.npy"), np.load("spectrum_b.npy")])
+).to(device)
+ppm = ppm_axis_tensor(spectrum.size(0), device=device, cfg=model.cfg)
+mol = smiles_batch(["CCO", "c1ccccc1"]).to(device)
+
+out = model.run_task("retrieval", spectrum=spectrum, ppm_axis=ppm, mol_batch=mol)
+loss = out["loss"]
+loss.backward()
+opt.step()
+```
+
+## Results
+
+Headline numbers from the ROSE paper (ROSE-Pretrain-L, 7.8M parameters, 3.2M pretrain spectra, InChIKey-14 holdout).
+
+**Internal** — native heads as pretrained, identity-disjoint held-out test (same corpus, no target-domain adaptation):
+
+| Task | Metric | ROSE |
+|------|--------|------|
+| Denoise | ΔSNR_peak @ 10 dB / cosine | 16.1 / 0.95 |
+| Pair | Top-1 | 87.8% |
+| Retrieval | Top-1 | 79.4% |
+| Forward | Chamfer (+ count) ↓ | 1.89 |
+| Peak | F1 @ 0.05 ppm | 0.80 |
+
+Low-field slice (B₀ ≤ 100 MHz) is weaker on structure-linked heads (retrieval 45.2%, peak F1 0.20); denoise cosine stays high (0.99).
+
+**External** — comparisons use the **same protocol** as ROSE, not a published stack under different retrieval machinery:
+
+| Benchmark | Protocol | Metric | ROSE | Same-protocol baseline |
+|-----------|----------|--------|------|------------------------|
+| QIB edible oils (60 MHz) | frozen encoder + linear head | balanced accuracy | 98.8% | 98.9% PLS-DA (*accuracy*, not BA) |
+| NMRNet structure→spectrum | frozen encoder + head | Chamfer ↓ | 0.79 | 1.29 Morgan+Ridge |
+| NMRformer peak detection | frozen encoder + head | F1 | 69% | — |
+| NMR-Solver retrieval | 5-epoch P2, gallery ≈30k | Top-1 / Top-10 | 37.1% ± 2.1% / 67.7% ± 3.6% | scratch 0% / 0% |
+
+NMR-Solver literature (52.9% / 67.3% Top-1 / Top-10) uses a ≈10⁸ gallery plus FAISS HNSW and set-similarity rerank — not like-for-like; Top-10 at our 30k gallery already matches theirs.
+
+Weights: Hugging Face `romboai/rose-1h-nmr`.
+
+## Citation
+
+```bibtex
+@article{diiorio2026rose,
+  title   = {{ROSE}: a Foundation Model for Reusable One-dimensional
+             Spectrum Embeddings in $^1$H~{NMR}},
+  author  = {Di Iorio, Mattia and Mattia, Carmine and Zanda, Andrea
+             and Atzori, Maurizio},
+  year    = {2026},
+  journal = {ChemRxiv},
+  doi     = {10.26434/chemrxiv.15007823/v1},
+  url     = {https://doi.org/10.26434/chemrxiv.15007823/v1},
+  note    = {Preprint}
+}
+```
+
+## Data
+
+**Recipes only — no pretraining parquet.** Reconstruct ROSE-Pretrain-L from the cited sources (`ATTRIBUTION.md`) with the paper holdout and split policy. This repo ships:
+
+- holdout **H** as InChIKey-14 keys (`indices/holdout/`)
+- split policy + catalog IDs (`indices/pretrain/pretrain_l_splits.meta.json`)
+- literature eval ID lists (`indices/benchmarks/`)
+
+Spectra stay with the original distributors. Weights are on Hugging Face, not a data dump.
+
+## Repository layout
+
+| Path | Role |
+|------|------|
+| `docs/` | README figure (encoder UMAP) |
+| `src/rose/` | Library — model, encoders, API, task heads |
+| `configs/` | `rose.yaml`, `solvent_vocab.json` |
+| `hub/` | Hugging Face metadata (`config.json`) |
+| `scripts/` | Maintainer utilities (HF upload staging) |
+| `indices/pretrain/` | Pretrain split policy (`pretrain_l_splits.meta.json`; ID lists not shipped) |
+| `indices/holdout/` | Paper test holdout (IK14), excluded from pretrain |
+| `indices/benchmarks/` | Eval splits (NMRBank, NMR-Solver) and literature holdouts |
+
+Indices hold **IDs only** (no spectra). Each `.meta.json` documents format and split policy.
+
+## License
+
+Code and pretrained weights: Apache-2.0. See `NOTICE`.
+
+Training and evaluation **spectra are not in this repository**. Source names, licenses, and citations: `ATTRIBUTION.md`.
+
+# AniketWathore/bolnee-chat
+
+## 关联链接
+
+- https://doi.org/10.26434/chemrxiv.15007823/v1
+- https://doi.org/10.26434/chemrxiv.15007823/v1},
+- https://github.com/romboai/rose-1h-nmr.git
 
 ## 导航
 

@@ -2,7 +2,7 @@
 type: "project"
 title: "Our little restaurant is officially open! What tiny details bring a management game to life?"
 project_url: "https://v.redd.it/bug5hdxqufah1"
-first_seen: "2026-09-21T01:30:35+08:00"
+first_seen: "2026-09-21T03:02:28+08:00"
 sources:
   - reddit
 tags:
@@ -20,7 +20,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://v.redd.it/bug5hdxqufah1>
-> 首次收录：2026-09-21T01:30:35+08:00
+> 首次收录：2026-09-21T03:02:28+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/indiedev, Upcoming!
 > 最新指标：得分=14 · 评论=4 · 赞踩比=0.95
@@ -30,6 +30,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T01:30:35+08:00 | Reddit 独立开发版块 | 得分=14 · 评论=4 · 赞踩比=0.95 | [[20-语料/posts/reddit/2026-09-21/7c53d0157a549e2d_Our-little-restaurant-is-officially-open!-What-tin]] |
+| 2026-09-21T03:02:28+08:00 | Reddit 独立开发版块 | 得分=14 · 评论=4 · 赞踩比=0.95 | [[20-语料/posts/reddit/2026-09-21/7c53d0157a549e2d_Our-little-restaurant-is-officially-open!-What-tin]] |
 
 ## 摘要正文
 

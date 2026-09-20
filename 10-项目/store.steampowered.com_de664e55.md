@@ -2,7 +2,7 @@
 type: "project"
 title: "10 Months, 24K Wishlists, and then we got an email from Telltale (Part IV of our gamedev journey)"
 project_url: "https://store.steampowered.com/app/3564990/Vales\\_Echo"
-first_seen: "2026-09-21T01:34:42+08:00"
+first_seen: "2026-09-21T03:20:15+08:00"
 sources:
   - reddit
 tags:
@@ -20,7 +20,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://store.steampowered.com/app/3564990/Vales\_Echo>
-> 首次收录：2026-09-21T01:34:42+08:00
+> 首次收录：2026-09-21T03:20:15+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/indiedev, Informative
 > 最新指标：得分=12 · 评论=8 · 赞踩比=0.93
@@ -30,6 +30,9 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T01:34:42+08:00 | Reddit 独立开发版块 | 得分=12 · 评论=8 · 赞踩比=0.93 | [[20-语料/posts/reddit/2026-09-21/9f2b8dfbfe62cd85_10-Months,-24K-Wishlists,-and-then-we-got-an-email]] |
+| 2026-09-21T03:04:56+08:00 | Reddit 独立开发版块 | 得分=12 · 评论=8 · 赞踩比=0.93 | [[20-语料/posts/reddit/2026-09-21/9f2b8dfbfe62cd85_10-Months,-24K-Wishlists,-and-then-we-got-an-email]] |
+| 2026-09-21T03:13:59+08:00 | Reddit 独立开发版块 | 得分=12 · 评论=8 · 赞踩比=0.93 | [[20-语料/posts/reddit/2026-09-21/9f2b8dfbfe62cd85_10-Months,-24K-Wishlists,-and-then-we-got-an-email]] |
+| 2026-09-21T03:20:15+08:00 | Reddit 独立开发版块 | 得分=12 · 评论=8 · 赞踩比=0.93 | [[20-语料/posts/reddit/2026-09-21/9f2b8dfbfe62cd85_10-Months,-24K-Wishlists,-and-then-we-got-an-email]] |
 
 ## 摘要正文
 

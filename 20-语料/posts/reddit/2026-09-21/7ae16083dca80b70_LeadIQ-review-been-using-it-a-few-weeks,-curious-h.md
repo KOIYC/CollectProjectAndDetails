@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1t007kv/leadiq_review_been_using_it_a_few_weeks_curious/"
 author: "Lucifer38769"
 published_at: "2026-04-30T23:49:53+08:00"
-captured_at: "2026-09-21T01:13:59+08:00"
+captured_at: "2026-09-21T03:00:00+08:00"
 lang: "en"
 kind: "post"
 topic: SaaS/B2B
@@ -18,8 +18,8 @@ tags:
   - reddit
   - r/SaaS
 metrics: {"score": 9, "comments": 1, "upvote_ratio": 1}
-comments_count: 0
-comments_total: 0
+comments_count: 1
+comments_total: 1
 discovered_via: "reddit:174d+settle3"
 ---
 
@@ -34,7 +34,7 @@ discovered_via: "reddit:174d+settle3"
 > 指标：得分=9 · 评论=1 · 赞踩比=1
 > 作者：Lucifer38769　|　发布：2026-04-30T23:49:53+08:00
 > 项目链接：—
-> 采集：2026-09-21T01:13:59+08:00　|　id：`7ae16083dca80b70`
+> 采集：2026-09-21T03:00:00+08:00　|　id：`7ae16083dca80b70`
 
 ## 正文
 
@@ -45,6 +45,11 @@ The mobile numbers though - that's where it gets rough. We're getting maybe 40% 
 The other weird thing is their credit system. You burn credits even when they don't find anything, which adds up fast when you're doing bulk exports. Support told me that's "how the platform works" which felt like a cop out.
 
 Anyone else running into the mobile data issue? I've been poking around at a few other lead generation tools - Prospeo, Snov.io, etc. Curious if others have found workarounds with LeadIQ or if this is just the reality of their data.
+
+## 评论（1/1）
+
+> **Jeanne-Darc98**（4 分） · 2026-05-02T09:29:21+08:00　
+> havent used leadiq but keep seeing prospeo mentioned in threads like this. a buddy on another SDR team at a diffrent company switched to it and said thier mobile numbers are actually useable. might be worth checking out? i think they only charge credits when they actually find somthing too which would solve your credit burn issue
 
 ## 导航
 

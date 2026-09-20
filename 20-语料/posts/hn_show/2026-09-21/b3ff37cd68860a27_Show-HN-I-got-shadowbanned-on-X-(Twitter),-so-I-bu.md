@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49109387"
 project_url: "https://amishadowbanned.com/"
 author: "lime66"
 published_at: "2026-07-30T12:58:44Z"
-captured_at: "2026-09-21T01:31:46+08:00"
+captured_at: "2026-09-21T03:11:19+08:00"
 lang: "en"
 kind: "post"
 topic: "未分类"
@@ -28,13 +28,56 @@ discovered_via: "hn:show_hn:83d"
 
 # Show HN: I got shadowbanned on X (Twitter), so I built a checker
 
+> [!info] 一句话导读
+> IS @you SHADOWBANNED ON X?
+
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=49109387>
 > 指标：点赞=3 · 评论=0 · engagement_velocity=3
 > 作者：lime66　|　发布：2026-07-30T12:58:44Z
 > 项目链接：<https://amishadowbanned.com/>
-> 采集：2026-09-21T01:31:46+08:00　|　id：`b3ff37cd68860a27`
+> 采集：2026-09-21T03:11:19+08:00　|　id：`b3ff37cd68860a27`
+
+## 正文
+
+AM I SHADOWBANNED
+ @amishadowbannd
+IS @you SHADOWBANNED ON X?
+@
+CHECK
+Check if an X (Twitter) handle is shadowbanned
+Nine checks, free. No login.
+Unregistered —
+ Suspended —
+ Locked —
+ Not graduated —
+ Sensitive —
+ Withheld —
+ Search suggestion ban —
+ Search ban —
+ Ghost ban —
+Am I Shadowbanned
+ A free check for the limits X applies without telling you. Nine checks, no login.
+Product
+What we check
+How it works
+Learn
+What is a shadowban
+Ghost ban
+Search ban
+Suggestion ban
+How long it lasts
+How to fix it
+Other checkers, compared
+vs Yuzurisa
+vs Circleboom
+Legal
+Privacy
+Terms
+Contact
+© 2026 amishadowbanned.com
+Not affiliated with X Corp. We report what X already shows the public. We change nothing on your account.
 
 ## 导航
 

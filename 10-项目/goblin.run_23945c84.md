@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Golang binaries built for your users depending on their arch and system"
 project_url: "https://goblin.run/"
-first_seen: "2026-09-21T01:40:57+08:00"
+first_seen: "2026-09-21T02:52:24+08:00"
 sources:
   - hn_show
 tags:
@@ -17,11 +17,11 @@ lang: "en"
 # Show HN: Golang binaries built for your users depending on their arch and system
 
 > [!info] 一句话导读
-> Show HN: Golang binaries built for your users depending on their arch and system
+> this.hits = hitsCount.count
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://goblin.run/>
-> 首次收录：2026-09-21T01:40:57+08:00
+> 首次收录：2026-09-21T02:52:24+08:00
 > 来源渠道：HN Show HN
 > 标签：author_aliezsid, story_47962828, show_hn
 > 最新指标：点赞=8 · 评论=7 · engagement_velocity=8
@@ -33,7 +33,8 @@ lang: "en"
 | 2026-09-21T01:09:14+08:00 | HN Show HN | 点赞=8 · 评论=7 · engagement_velocity=8 | [[20-语料/posts/hn_show/2026-09-21/702aaafdb9b3c32a_Show-HN-Golang-binaries-built-for-your-users-depen]] |
 | 2026-09-21T01:13:42+08:00 | HN Show HN | 点赞=8 · 评论=7 · engagement_velocity=8 | [[20-语料/posts/hn_show/2026-09-21/702aaafdb9b3c32a_Show-HN-Golang-binaries-built-for-your-users-depen]] |
 | 2026-09-21T01:40:57+08:00 | HN Show HN | 点赞=8 · 评论=7 · engagement_velocity=8 | [[20-语料/posts/hn_show/2026-09-21/702aaafdb9b3c32a_Show-HN-Golang-binaries-built-for-your-users-depen]] |
+| 2026-09-21T02:52:24+08:00 | HN Show HN | 点赞=8 · 评论=7 · engagement_velocity=8 | [[20-语料/posts/hn_show/2026-09-21/702aaafdb9b3c32a_Show-HN-Golang-binaries-built-for-your-users-depen]] |
 
 ## 摘要正文
 
-Show HN: Golang binaries built for your users depending on their arch and system
+d.json());  this.hits = hitsCount.count  },  }"  >  Skip to main content Goblin Report Bugs / Issues Star us on GitHub Golang binaries in a curl, built by  goblins Install Go binaries—without Go. curl -sf http://goblin.run/github.com/rakyll/hey | sh {  $data.copied = true  setTimeout(() => { $data.copied = false }, 1500)  $clipboard('curl -sf http://goblin.run/github.com/rakyll/hey | sh')  }"  class="flex items-center justify-center transition-all rounded shadow w-7 h-7 cursor-copy bg-base text-subtle hover:text-text hover:shadow-md"  > Get Started If you get value from using Goblin, please consider  donating . This helps cover server costs and supports my open source work. Usage Install package with optional @version and options : curl -sf http://goblin.run/[@version] | [...options] sh API package - Complete module path github.com/barelyhuman/commitlog gopkg.in/yaml.v2 version - Exact or partial version range, optionally prefixed with "v" # Install the latest version  # Install v1.2.3 @v1.2.3 # Install v3.x.x @v3 Options Control Goblin's behavior with environment variables PREFIX - Change installation location (default: /usr/local/bin ) # Install to /tmp ... | PREFIX=/tmp sh OUT -…

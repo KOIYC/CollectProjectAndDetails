@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/buildinpublic/comments/1w3ead7/few_days_ago_i_posted_about_my_first_customer_i/"
 author: "DankMuthafucker"
 published_at: "2026-08-31T21:45:41+08:00"
-captured_at: "2026-09-21T01:36:47+08:00"
+captured_at: "2026-09-21T03:05:31+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - reddit
   - r/buildinpublic
 metrics: {"score": 4, "comments": 2, "upvote_ratio": 0.84}
-comments_count: 0
-comments_total: 0
+comments_count: 5
+comments_total: 5
 discovered_via: "reddit:52d+settle3"
 ---
 
@@ -34,7 +34,7 @@ discovered_via: "reddit:52d+settle3"
 > 指标：得分=4 · 评论=2 · 赞踩比=0.84
 > 作者：DankMuthafucker　|　发布：2026-08-31T21:45:41+08:00
 > 项目链接：—
-> 采集：2026-09-21T01:36:47+08:00　|　id：`18a2554b157978ce`
+> 采集：2026-09-21T03:05:31+08:00　|　id：`18a2554b157978ce`
 
 ## 正文
 
@@ -57,6 +57,34 @@ Most of that attention has not turned into sales, but even the people trying it,
 If you do not know ClipShip, it is a desktop app that turns long talking-head videos into clips for Reels and Shorts. The AI processing runs locally instead of uploading the video to the cloud.
 
 That is it. I just wanted to share this because less than a week ago, I was still celebrating the first one.
+
+## 评论（5/5）
+
+> **DankMuthafucker**（1 分） · 2026-08-31T21:51:45+08:00　
+> This is ClipShip for anyone curious: [https://clipship.co](https://clipship.co)
+
+---
+
+> **Hour-Appointment2684**（1 分） · 2026-08-31T22:25:04+08:00　
+> Why you built as app??
+> Not available as website??
+
+---
+
+> **heyyarun**（2 分） · 2026-09-04T19:32:48+08:00　
+> Congratulations brother 🍻
+
+---
+
+> **DankMuthafucker**（1 分） · 2026-09-05T10:21:47+08:00　
+> Thank you, brother 🙏🏽
+
+---
+
+> **TastyTrading**（0 分） · 2026-09-05T21:45:41+08:00　
+> Keep goin bro! Same happened for me after I started using Zooloo.ai for 20 mins per day.
+>
+> I get like 5-10 free signup and 1 paying every other day.
 
 ## 导航
 

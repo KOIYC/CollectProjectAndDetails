@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Compute:Arena – Community submitted local AI benchmarks"
 project_url: "https://computearena.ai/"
-first_seen: "2026-09-21T01:45:59+08:00"
+first_seen: "2026-09-21T03:17:49+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://computearena.ai/>
-> 首次收录：2026-09-21T01:45:59+08:00
+> 首次收录：2026-09-21T03:17:49+08:00
 > 来源渠道：HN Show HN
 > 标签：author_prabod, story_49737278, show_hn
 > 最新指标：点赞=5 · 评论=2 · engagement_velocity=5
@@ -39,6 +39,9 @@ lang: "en"
 | 2026-09-21T00:06:13+08:00 | HN Show HN | 点赞=5 · 评论=2 · engagement_velocity=5 | [[20-语料/posts/hn_show/2026-09-21/fbc14261f4471f7c_Show-HN-Compute-Arena-–-Community-submitted-local]] |
 | 2026-09-21T01:40:39+08:00 | HN Show HN | 点赞=5 · 评论=2 · engagement_velocity=5 | [[20-语料/posts/hn_show/2026-09-21/fbc14261f4471f7c_Show-HN-Compute-Arena-–-Community-submitted-local]] |
 | 2026-09-21T01:45:59+08:00 | HN Show HN | 点赞=5 · 评论=2 · engagement_velocity=5 | [[20-语料/posts/hn_show/2026-09-21/fbc14261f4471f7c_Show-HN-Compute-Arena-–-Community-submitted-local]] |
+| 2026-09-21T02:54:12+08:00 | HN Show HN | 点赞=5 · 评论=2 · engagement_velocity=5 | [[20-语料/posts/hn_show/2026-09-21/fbc14261f4471f7c_Show-HN-Compute-Arena-–-Community-submitted-local]] |
+| 2026-09-21T03:11:45+08:00 | HN Show HN | 点赞=5 · 评论=2 · engagement_velocity=5 | [[20-语料/posts/hn_show/2026-09-21/fbc14261f4471f7c_Show-HN-Compute-Arena-–-Community-submitted-local]] |
+| 2026-09-21T03:17:49+08:00 | HN Show HN | 点赞=5 · 评论=2 · engagement_velocity=5 | [[20-语料/posts/hn_show/2026-09-21/fbc14261f4471f7c_Show-HN-Compute-Arena-–-Community-submitted-local]] |
 
 ## 摘要正文
 

@@ -2,7 +2,7 @@
 type: "project"
 title: "Got my first 50+ trials in a few days from existing free users, exciting!"
 project_url: "https://aiweekly.co/"
-first_seen: "2026-09-21T01:34:39+08:00"
+first_seen: "2026-09-21T03:05:40+08:00"
 sources:
   - reddit
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://aiweekly.co/>
-> 首次收录：2026-09-21T01:34:39+08:00
+> 首次收录：2026-09-21T03:05:40+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/buildinpublic
 > 最新指标：得分=3 · 评论=12 · 赞踩比=0.72
@@ -29,6 +29,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T01:34:39+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=12 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-21/7d86460d0549d2d2_Got-my-first-50+-trials-in-a-few-days-from-existin]] |
+| 2026-09-21T03:05:40+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=12 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-21/7d86460d0549d2d2_Got-my-first-50+-trials-in-a-few-days-from-existin]] |
 
 ## 摘要正文
 

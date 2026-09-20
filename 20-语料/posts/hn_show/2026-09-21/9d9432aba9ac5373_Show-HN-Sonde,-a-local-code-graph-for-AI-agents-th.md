@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49507034"
 project_url: "https://github.com/anishmoncivarghese/sonde"
 author: "anishvarghese"
 published_at: "2026-08-31T08:21:15Z"
-captured_at: "2026-09-21T01:33:52+08:00"
+captured_at: "2026-09-21T03:11:25+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -28,13 +28,332 @@ discovered_via: "hn:show_hn:52d"
 
 # Show HN: Sonde, a local code graph for AI agents that refuses to guess
 
+> [!info] 一句话导读
+> anishmoncivarghese/sonde
+
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=49507034>
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：anishvarghese　|　发布：2026-08-31T08:21:15Z
 > 项目链接：<https://github.com/anishmoncivarghese/sonde>
-> 采集：2026-09-21T01:33:52+08:00　|　id：`9d9432aba9ac5373`
+> 采集：2026-09-21T03:11:25+08:00　|　id：`9d9432aba9ac5373`
+
+## 正文
+
+# anishmoncivarghese/sonde
+
+Local code-context engine for AI coding agents: structural answers within a token budget.
+
+- Stars: 0
+- Forks: 0
+- Watchers: 0
+- Open issues: 0
+- License: Apache License 2.0
+- Default branch: main
+- Created: 2026-08-24T03:25:18Z
+
+## Languages
+
+- JavaScript
+- TypeScript
+
+## Topics
+
+- ai-agents
+- code-analysis
+- developer-tools
+- mcp
+- mcp-server
+- python
+- static-analysis
+- swift
+- tree-sitter
+- typescript
+
+## Top Contributors
+
+- anishmoncivarghese (196 contributions)
+
+---
+
+## README
+
+# Sonde
+
+ci
+npm
+license
+
+A local code-context engine for AI coding agents. Sonde indexes a TypeScript,
+Python, or Swift repository into a symbol-level graph in SQLite and exposes
+three MCP tools — `find_symbols`, `query_graph`, and `get_impact_radius` — so an
+agent can answer *who calls this*, *what breaks if I change it*, and *which
+tests relate to it* in one call instead of a search loop.
+
+## What the benchmark actually shows
+
+The honest claim is **not** "finds what grep cannot". A competent agentic search
+loop finds the same structural evidence — we measured it, on a real 19,409-line
+repository, and it scored 1.000 recall on every task.
+
+The claim is **the same answers for a fraction of the cost, inside a budget**:
+
+| On real production TypeScript | Sonde | Agentic search |
+|---|---:|---:|
+| Recall on structural tasks | **1.00** | 1.00 |
+| Tool calls | **1.0** | 8.0 |
+| Context tokens | **1,262** | 3,621 |
+| Latency | **263 ms** | 38,602 ms |
+| Runs that blew the token budget | **0 of 6** | 3 of 6 |
+
+Sonde matches the baseline's answers on every structural task while using
+~3× less context, 8× fewer calls, and ~147× less wall-clock time — and it never
+exceeds the caller's token budget, because the packer truncates to it by
+construction. That is the trade being offered.
+
+**Where it loses.** Behavioural queries with no shared vocabulary — *"where is
+the retry backoff decided?"* — score 0.00. Local semantic retrieval was built
+and measured and does not fix it (see the design doc §2.2); the capability is
+therefore not claimed. If your questions are mostly of that shape, an agentic
+search loop is the better tool today.
+
+Numbers are reproducible: `npm run bench:fixture && npm run bench:large`.
+Full results in BENCHMARK-LARGE.md and
+BENCHMARK.md.
+
+## Install and run
+
+```sh
+npm install -g @cheppulabs/sonde
+cd your-project
+sonde init
+```
+
+`sonde init` indexes the repository and registers sonde as an MCP server in
+this project's `.mcp.json`, asking before it writes anything (skip the prompt
+with `sonde init --yes`). It never touches an `.mcp.json` it can't safely merge
+into — an existing `sonde` entry that differs from what `init` would write is
+left alone and reported, not overwritten.
+
+For Python repositories, use `sonde init --resolve`; the default tree-sitter
+tier did not pass the project's placement gate for structural queries.
+
+Equivalent by hand, if you'd rather see every step:
+
+```sh
+sonde index .
+# then add to .mcp.json:
+# { "mcpServers": { "sonde": { "command": "sonde", "args": ["mcp", "serve", "."] } } }
+```
+
+No account or hosted service is required.
+
+## Architecture documentation
+
+`sonde doc` writes an `ARCHITECTURE.md` describing the
+repository's modules, how they depend on each other, and what each one exposes —
+generated from the graph, so it reports what the code actually does rather than
+what someone remembered.
+
+```sh
+sonde doc            # write ARCHITECTURE.md
+sonde doc --stdout   # print it instead
+sonde doc --check    # fail if it is out of date (for CI)
+sonde doc --module src/store   # symbol-level detail, never committed
+```
+
+It is meant to be committed and regenerated, not hand-edited. Regeneration is
+byte-identical when nothing changed, so it does not churn your diffs; when two
+branches both regenerate it, resolve the conflict by running `sonde doc` again
+rather than merging by hand. It refuses to overwrite an `ARCHITECTURE.md` it did
+not generate.
+
+Three things it deliberately does **not** do:
+
+- **It does not draw a dependency it cannot evidence.** Module pairs that merely
+ share symbol names are excluded and counted separately. On this repository two
+ adapters share the filenames `symbols.ts`, `parser.ts` and `references.ts`,
+ which manufactured 62 heuristic "references" between modules that never import
+ each other — once the second-heaviest arrow in the diagram.
+- **It does not pretend the diagram is complete.** The diagram shows the
+ heaviest dependencies and states how many it omitted; the table below it goes
+ further, and `--module` has the rest. A diagram containing every dependency is
+ unreadable and therefore shows nothing.
+- **It does not claim to be current when it is not.** The header names the
+ commit it describes and warns when files have changed since.
+
+## What it guarantees
+
+- **Never returns stale source bytes.** Whenever a response includes source,
+ Sonde re-reads and re-hashes the indexed byte range before returning it
+ (spec §8.1, Guarantee A).
+- **Always reports structural drift**, rather than claiming completeness it
+ cannot verify (spec §8.1, Guarantee B). `sonde status` shows the same
+ drift and tier distribution carried by tool response envelopes.
+- **Every edge is tier-labelled by how it was found** — `COMPILER` (resolved
+ exactly by a bundled type checker under `--resolve`: the TypeScript compiler
+ for TypeScript, pyright for Python), `LEXICAL`
+ (resolved through an import binding or lexical scope), `HEURISTIC` (member
+ access or another relationship requiring type inference), `EXTERNAL` (target
+ outside the indexed repository), or `UNRESOLVED` (genuinely unplaceable,
+ with a reason).
+- **Never fabricates an edge.** An unresolved reference becomes `EXTERNAL` or
+ `UNRESOLVED` — never a guessed target and never a silently dropped reference.
+
+## Accuracy
+
+Sonde measures its zero-setup tree-sitter path against the TypeScript
+compiler on a pinned fixture and publishes the result, unflattering numbers
+included (spec §12). `COMPILER` edges use that compiler directly, so comparing
+them back to the same authority would not be an independent accuracy test.
+
+# Sonde edge accuracy vs the TypeScript compiler
+
+Generated: 2026-08-23T18:16:41.557Z
+TypeScript: 5.9.3 (bundled; repository TypeScript is never loaded)
+
+**What these numbers cover.** The oracle measures the tree-sitter resolution
+path — the zero-setup default, and the only tier whose accuracy is in question.
+COMPILER-tier edges come from the TypeScript compiler itself, so scoring them
+against the same compiler would measure nothing; they are exact by construction
+and excluded from these figures. Run `sonde index --resolve` to produce them.
+
+The oracle is filtered to in-repo targets; `node_modules` and `.d.ts`
+declarations are excluded. Type-only references, JSX intrinsics, `export =`,
+decorators, and declaration merging are known expected divergences (spec §10).
+Tier rows compare that tier alone with the complete oracle, making each tier's
+independent contribution visible; `ALL` is the combined result.
+
+## Why precision below 1.000 is expected here
+
+These divergences are structural, so reading a precision figure as
+"how often Sonde is wrong" overstates the error rate:
+
+1. **Ambiguous member calls emit every candidate.** For `x.foo()` with two
+ visible `foo` declarations, Sonde emits both as confidence-weighted
+ `HEURISTIC` edges. At most one matches the compiler, so the other counts
+ as a false positive by construction. The alternative is guessing a single
+ target, which invariant 1 forbids — a wrong resolved-looking edge is worse
+ than two honestly heuristic ones. Precision is therefore capped below
+ 1.000 wherever the fixture contains an ambiguous call.
+2. **Constructor calls are ours alone.** Sonde emits `CALLS` for
+ `new Foo()`; the oracle does not model them, so each one is a false
+ positive against ground truth that omits it.
+3. **Member-level IMPLEMENTS is ours alone.** Sonde derives an
+ IMPLEMENTS edge from `RegExpRouter.add` to `Router.add` once the class
+ declares it implements the interface. tsc reports heritage clauses at the
+ type level only, so every member-level edge counts as a false positive
+ against ground truth that does not model them. The capability is the
+ reason impact on an interface method works at all, so the precision cost
+ is disclosed rather than removed.
+
+Counts are absolute, not percentages of a large corpus. Fixture edge totals
+appear below so a single edge's effect on each figure is visible.
+
+## tests/fixtures/repos/small
+
+Fixture config SHA-256: `e02e2d5003f96d1ad22519f04e10d687fe689cf9298e7fcbc588eab525dce1ad`
+
+Oracle edges: 9 · Sonde edges: 7 · one oracle edge moves recall by 11.1%
+
+| Edge kind | Tier | Precision | Recall | TP | FP | FN |
+|---|---|---:|---:|---:|---:|---:|
+| CALLS | ALL | 0.500 | 1.000 | 2 | 2 | 0 |
+| CALLS | LEXICAL | 0.500 | 0.500 | 1 | 1 | 1 |
+| CALLS | HEURISTIC | 0.500 | 0.500 | 1 | 1 | 1 |
+| IMPLEMENTS | ALL | 0.500 | 1.000 | 1 | 1 | 0 |
+| IMPLEMENTS | LEXICAL | 0.500 | 1.000 | 1 | 1 | 0 |
+| IMPLEMENTS | HEURISTIC | 1.000 | 0.000 | 0 | 0 | 1 |
+| INHERITS | ALL | 1.000 | 1.000 | 1 | 0 | 0 |
+| INHERITS | LEXICAL | 1.000 | 1.000 | 1 | 0 | 0 |
+| INHERITS | HEURISTIC | 1.000 | 0.000 | 0 | 0 | 1 |
+| REFERENCES | ALL | 0.571 | 0.800 | 4 | 3 | 1 |
+| REFERENCES | LEXICAL | 0.800 | 0.800 | 4 | 1 | 1 |
+| REFERENCES | HEURISTIC | 0.000 | 0.000 | 0 | 2 | 5 |
+
+**Overall:** precision 0.571, recall 0.889
+
+Regenerate with `npm run bench:oracle`.
+
+## CLI
+
+```text
+sonde init [path] [--resolve] [--yes]      # index and register project MCP config
+sonde index [path] [--resolve]             # full index; optional compiler pass
+sonde update [path] [--resolve]            # update; optional compiler pass
+sonde status [path]                        # freshness and tier distribution
+sonde search <query> [path]                # find_symbols
+sonde query <pattern> <symbol> [path]      # query_graph
+sonde impact [path] --symbol <name>        # get_impact_radius by symbol
+sonde impact [path] --from-git-diff        # impact from working-tree diff
+sonde doctor [path]                        # parser/database/tsc health
+sonde clean [path]                         # remove the cached index
+sonde mcp serve [path]                     # MCP server over stdio
+```
+
+`impact` also accepts repeatable `--symbol` options and
+`--token-budget `. The `init`, `index`, `update`, `status`, `search`, `query`,
+`impact`, `doctor`, and `clean` commands accept `--json`.
+
+## Known limitations
+
+- **Node 22+ is required.** `better-sqlite3` needs it; installing on an older
+ Node prints an `EBADENGINE` warning but still completes. If `sonde` then
+ fails to run, this is why — upgrade Node rather than ignore the warning.
+- **Python needs `--resolve`, and its edges are not oracle-verified.** Without
+ it, Python indexes at the tree-sitter tier only, which measured **62.81%
+ unresolved** on a real 56-file project and 57.39% on pydantic — far past the
+ 30% ceiling this project requires, so it is not fit for structural queries.
+ With `--resolve`, a bundled pyright drives a `COMPILER` tier and the same
+ corpora measure **27.00%** and **17.42%** unresolved. That gate measured
+ *placement* — whether a reference found a target — not whether the target was
+ correct; TypeScript's edges are scored against `tsc` in `ORACLE.md` and
+ Python has no equivalent oracle. On the worse corpus the margin is thin: 0.28
+ points once a known upward bias is reversed. See
+ `probes/python-placement/FINDINGS.md`.
+- **TypeScript, Python and Swift only; no other language adapter.**
+- **Swift resolution is heuristic, not compiler-backed, and one narrowing
+ rule is unvalidated.** References are narrowed by file visibility and
+ explicit local type annotations, not full type inference. On a real
+ 376-file Swift application this reached 74.84% placed / 25.16% unresolved
+ — see `probes/swift-narrowing/FINDINGS.md`
+ for the full measurement. The third narrowing rule (SwiftPM target
+ boundaries) has never been tested: the validating corpus was an Xcode
+ project, which has no `Package.swift` layout to supply that signal. The
+ curated Swift SDK symbol table is also deliberately conservative — several
+ ambiguous names were dropped rather than guessed, so some legitimate SDK
+ references may still show as `UNRESOLVED` rather than `EXTERNAL`.
+- Compiler resolution for TypeScript (`--resolve`) is opt-in because it is
+ materially slower and uses more transient memory. On the 19,409-line Hono
+ fixture, default indexing took 3.58 s; `--resolve` took 13.70 s, added
+ 10,329 exact placements/promotions, and changed `callers_of Hono.route`
+ from zero graph results to eight compiler callers. The Program is discarded
+ after indexing; inline refresh stays compiler-free and explicitly
+ downgrades affected evidence until a full `sonde update --resolve`.
+- Compiler resolution uses bundled TypeScript 5.9.3, not the repository's own
+ compiler, so version skew is possible and disclosed in `doctor` and response
+ envelopes.
+- A file with a parse error still contributes whatever tree-sitter
+ recovered from it — this is deliberate (see the design spec §8). Its
+ `parse_state` is `partial` when real declarations were recovered despite
+ the error, or `failed` only when nothing usable came out of it at all.
+- `TESTS` edges indicate structural relatedness only; they never prove coverage.
+- Type-only references, JSX intrinsics, `export =`/`import =`, decorators, and
+ declaration merging are known gaps in the tree-sitter extraction path.
+- **No rename inference.** Renaming a file changes every stable key derived
+ from its path; anything holding an old key (a saved query, an agent's prior
+ turn) will silently stop resolving rather than following the rename.
+- Semantic/behavioural search is not available. It was built and measured —
+ two embedding models, four document configurations — and none of them beat
+ lexical/structural retrieval on the task class it was meant to help with.
+ See design spec §2.2 for the numbers. It is not wired into `find_symbols`.
+
+See
+`docs/superpowers/specs/2026-08-16-sonde-design.md`
+for the full design.
+
+# rabc/albums-vault:  A calmer, more personal way to browse the albums you’ve saved on Spotify.  - CodeFloe - the Forgejo developer platform
 
 ## 导航
 

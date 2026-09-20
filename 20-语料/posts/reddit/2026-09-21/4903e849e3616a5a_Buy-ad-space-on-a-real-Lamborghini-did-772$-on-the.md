@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/buildinpublic/comments/1w3eixe/buy_ad_space_on_a_
 project_url: "https://lambo.space/"
 author: "tiagotpratas"
 published_at: "2026-08-31T21:54:50+08:00"
-captured_at: "2026-09-21T01:34:39+08:00"
+captured_at: "2026-09-21T03:05:28+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -19,8 +19,8 @@ tags:
   - reddit
   - r/buildinpublic
 metrics: {"score": 4, "comments": 2, "upvote_ratio": 0.65}
-comments_count: 0
-comments_total: 0
+comments_count: 4
+comments_total: 4
 discovered_via: "reddit:52d+settle3"
 ---
 
@@ -35,7 +35,7 @@ discovered_via: "reddit:52d+settle3"
 > 指标：得分=4 · 评论=2 · 赞踩比=0.65
 > 作者：tiagotpratas　|　发布：2026-08-31T21:54:50+08:00
 > 项目链接：<https://lambo.space/>
-> 采集：2026-09-21T01:34:39+08:00　|　id：`4903e849e3616a5a`
+> 采集：2026-09-21T03:05:28+08:00　|　id：`4903e849e3616a5a`
 
 ## 正文
 
@@ -58,6 +58,28 @@ From now on, in order to drive sales
 \- TikTok videos as content
 
 Any feedback is welcome !
+
+## 评论（4/4）
+
+> **medialantern**（1 分） · 2026-09-01T02:38:14+08:00　
+> Dupe. Already added.
+
+---
+
+> **JouniFlemming**（1 分） · 2026-09-01T07:35:53+08:00　
+> Every day I come here and think I have now seen the worst idea ever. Then I realize I was mistaken.
+
+---
+
+> **FindingNauru**（1 分） · 2026-09-06T17:33:13+08:00　
+> Nice that you got a proof by getting buyers. I couldn't imagine buying a luxury car and selling ads to unknown companies. But if people are buying, go for it.
+
+---
+
+> **s2xon_**（1 分） · 2026-09-09T00:09:02+08:00　
+> on X the gap between sends matters more than the daily number. twenty dms spread over three hours reads as a person, twenty at two second intervals reads as a script and gets the account flagged, thats from the creator outreach tool i'm building. i'd start around 5 a day and ramp slow
+>
+> how many spots have you sold outside the twitter post?
 
 ## 关联链接
 

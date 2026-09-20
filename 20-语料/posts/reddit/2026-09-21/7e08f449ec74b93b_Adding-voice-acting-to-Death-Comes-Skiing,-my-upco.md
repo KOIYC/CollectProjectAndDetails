@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/IndieDev/comments/1tswnpl/adding_voice_acting_to_
 project_url: "https://v.redd.it/u31sr3i2fh4h1"
 author: "LeperWithoutACause"
 published_at: "2026-05-31T22:20:20+08:00"
-captured_at: "2026-09-21T01:28:06+08:00"
+captured_at: "2026-09-21T03:01:25+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -20,8 +20,8 @@ tags:
   - r/indiedev
   - Upcoming!
 metrics: {"score": 5, "comments": 1, "upvote_ratio": 1}
-comments_count: 0
-comments_total: 0
+comments_count: 1
+comments_total: 1
 discovered_via: "reddit:144d+settle3"
 ---
 
@@ -36,7 +36,7 @@ discovered_via: "reddit:144d+settle3"
 > 指标：得分=5 · 评论=1 · 赞踩比=1
 > 作者：LeperWithoutACause　|　发布：2026-05-31T22:20:20+08:00
 > 项目链接：<https://v.redd.it/u31sr3i2fh4h1>
-> 采集：2026-09-21T01:28:06+08:00　|　id：`7e08f449ec74b93b`
+> 采集：2026-09-21T03:01:25+08:00　|　id：`7e08f449ec74b93b`
 
 ## 正文
 
@@ -46,9 +46,14 @@ After the rest of the character voices and a bunch of testing, the game should b
 
 [https://store.steampowered.com/app/3422230/Death\_Comes\_Skiing/](https://store.steampowered.com/app/3422230/Death_Comes_Skiing/)
 
+## 评论（1/1）
+
+> **InformalRecover5076**（1 分） · 2026-05-31T23:27:45+08:00　
+> 👍
+
 ## 关联链接
 
-- https://store.steampowered.com/app/3422230/Death\_Comes\_Skiing/
+- https://store.steampowered.com/app/3422230/Death
 - https://store.steampowered.com/app/3422230/Death_Comes_Skiing/
 
 ## 导航

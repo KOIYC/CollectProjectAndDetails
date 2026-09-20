@@ -2,7 +2,7 @@
 type: "project"
 title: "17 days post-launch as a solo iOS dev: 72 installs, 14.8% conversion, and a per-sub Reddit breakdown"
 project_url: "https://apps.apple.com/app/id6762427801"
-first_seen: "2026-09-21T01:28:02+08:00"
+first_seen: "2026-09-21T03:01:17+08:00"
 sources:
   - reddit
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://apps.apple.com/app/id6762427801>
-> 首次收录：2026-09-21T01:28:02+08:00
+> 首次收录：2026-09-21T03:01:17+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/buildinpublic
 > 最新指标：得分=9 · 评论=13 · 赞踩比=0.8500000238418579
@@ -29,6 +29,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T01:28:02+08:00 | Reddit 独立开发版块 | 得分=9 · 评论=13 · 赞踩比=0.8500000238418579 | [[20-语料/posts/reddit/2026-09-21/f4075a12be3d4371_17-days-post-launch-as-a-solo-iOS-dev-72-installs,]] |
+| 2026-09-21T03:01:17+08:00 | Reddit 独立开发版块 | 得分=9 · 评论=13 · 赞踩比=0.8500000238418579 | [[20-语料/posts/reddit/2026-09-21/f4075a12be3d4371_17-days-post-launch-as-a-solo-iOS-dev-72-installs,]] |
 
 ## 摘要正文
 

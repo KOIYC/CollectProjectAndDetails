@@ -2,7 +2,7 @@
 type: "project"
 title: "Building in the quiet hours: How an ME diagnosis forced me to abandon the growth at all costs, indie hacker mindset."
 project_url: "https://codeandsea.com/"
-first_seen: "2026-09-21T01:30:24+08:00"
+first_seen: "2026-09-21T03:02:55+08:00"
 sources:
   - reddit
 tags:
@@ -20,7 +20,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://codeandsea.com/>
-> 首次收录：2026-09-21T01:30:24+08:00
+> 首次收录：2026-09-21T03:02:55+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/indiehackers, Sharing story/journey/experience
 > 最新指标：得分=3 · 评论=27 · 赞踩比=1
@@ -30,6 +30,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T01:30:24+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=27 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/a95dee40ab7f965a_Building-in-the-quiet-hours-How-an-ME-diagnosis-fo]] |
+| 2026-09-21T03:02:55+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=27 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/a95dee40ab7f965a_Building-in-the-quiet-hours-How-an-ME-diagnosis-fo]] |
 
 ## 摘要正文
 

@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=48346443"
 project_url: "https://strudai.com/"
 author: "dbvdh"
 published_at: "2026-05-31T15:24:12Z"
-captured_at: "2026-09-21T01:27:24+08:00"
+captured_at: "2026-09-21T02:52:43+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -28,13 +28,36 @@ discovered_via: "hn:show_hn:144d"
 
 # Show HN: Strudai, browser based agentic wrapper around Strudel
 
+> [!info] 一句话导读
+> Welcome to StrudAI1 / 6
+
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=48346443>
 > 指标：点赞=5 · 评论=0 · engagement_velocity=5
 > 作者：dbvdh　|　发布：2026-05-31T15:24:12Z
 > 项目链接：<https://strudai.com/>
-> 采集：2026-09-21T01:27:24+08:00　|　id：`cfbb900b2d231da5`
+> 采集：2026-09-21T02:52:43+08:00　|　id：`cfbb900b2d231da5`
+
+## 正文
+
+Strudai
+
+[ HANS ]
+
+>_ console+
+
+No output yet.
+
+Welcome to StrudAI1 / 6
+
+StrudAI is an AI assistant for Strudel— a browser-based live coding environment for music. Write patterns in the editor and the audio plays instantly, no installation required.
+
+Skip
+
+Next
+
+# patrickxia/entropic
 
 ## 导航
 

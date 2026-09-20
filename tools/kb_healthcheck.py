@@ -119,10 +119,54 @@ alias_names: set[str] = set()
 for p in notes:
     alias_names.update(_aliases(p.read_text(encoding="utf-8")))
 
+def _link_scannable(p: pathlib.Path, txt: str) -> str:
+    """语料页只扫**我们生成的部分**（frontmatter + 导航/关联链接段），正文整段不扫。
+
+    为什么：语料 body 是**外站原文**，不是我们写的链接。一篇讲 Obsidian 的 Show HN 正文里
+    出现 `[[keys.command]]`、`[[demo-project-atlas]]` 是**内容**，检查器照扫就会报断链
+    （2026-09-21 实测 3 处假警报，且这类「讲 Obsidian 的帖子」会源源不断进来）。
+    外部文本不能喂给链接检查器 —— 它分不清「引用」和「举例」。
+
+    导航/关联链接段保留：那是我们写的，指向项目页/渠道页，断了就是真断了。
+    """
+    rel = p.relative_to(ROOT).as_posix()
+    if not (rel.startswith("20-语料/") or rel.startswith("80-归档/posts/")):
+        return txt
+    lines = txt.splitlines()
+    keep: list[str] = []
+    in_fm = lines[:1] == ["---"]
+    fm_done = False
+    block_hdr = ""
+    buf: list[str] = []
+    i = 0
+    # frontmatter：从 --- 到下一个 ---
+    if in_fm:
+        for j in range(1, len(lines)):
+            keep.append(lines[j])
+            if lines[j].strip() == "---":
+                i = j + 1
+                break
+    else:
+        i = 0
+    fm_done = True
+    del fm_done
+    for ln in lines[i:]:
+        if ln.startswith("## "):
+            if block_hdr in ("导航", "关联链接"):
+                keep.extend(buf)
+            buf = []
+            block_hdr = ln[3:].strip()
+            continue
+        buf.append(ln)
+    if block_hdr in ("导航", "关联链接"):
+        keep.extend(buf)
+    return "\n".join(keep)
+
+
 broken: dict[str, list[str]] = {}
 edges = 0
 for p in notes:
-    txt = KB.strip_code(p.read_text(encoding="utf-8"))
+    txt = KB.strip_code(_link_scannable(p, p.read_text(encoding="utf-8")))
     if "[[" not in txt:
         continue
     src = p.relative_to(ROOT).as_posix()

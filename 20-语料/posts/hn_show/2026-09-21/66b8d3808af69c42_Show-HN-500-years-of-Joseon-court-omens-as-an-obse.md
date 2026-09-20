@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=48339753"
 project_url: "https://ajin.im/is/building/omen.ops"
 author: "poppypetalmask"
 published_at: "2026-05-30T19:23:36Z"
-captured_at: "2026-09-21T01:43:20+08:00"
+captured_at: "2026-09-21T02:52:51+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:144d"
 # Show HN: 500 years of Joseon court omens as an observability dashboard
 
 > [!info] 一句话导读
-> Show HN: 500 years of Joseon court omens as an observability dashboard
+> ☶ omen . ops SYSTEM NOTICE
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,23 @@ discovered_via: "hn:show_hn:144d"
 > 指标：点赞=158 · 评论=26 · engagement_velocity=158
 > 作者：poppypetalmask　|　发布：2026-05-30T19:23:36Z
 > 项目链接：<https://ajin.im/is/building/omen.ops>
-> 采集：2026-09-21T01:43:20+08:00　|　id：`66b8d3808af69c42`
+> 采集：2026-09-21T02:52:51+08:00　|　id：`66b8d3808af69c42`
 
 ## 正文
 
-Show HN: 500 years of Joseon court omens as an observability dashboard
+☶ omen . ops SYSTEM NOTICE
+The Joseon court — the dynasty that ruled Korea for five centuries (1392–1897) — watched and recorded eclipses, comets, droughts, floods, and tiger incursions as signs bearing on the Mandate of Heaven: Heaven's read on whether the dynasty should stand.
+This console logs those readings as operational telemetry — every entry a real record from the 朝鮮王朝實錄 .
+open console →
+☶ omen.ops
+ENVIRONMENT 朝鮮 JOSEON · PROD
+MONITORING PERIOD
+▾
+AS OF
+MANDATE ⤢
+ ⓘ
+data · 朝鮮王朝實錄 Veritable Records of the Joseon Dynasty · sillok.history.go.kr · every entry is a real record; open any row for the translated text, original 漢文, and source link.
+prototype · omen.ops · · Mandate Volatility Index is a derived composite, not a recorded value. · made by ajin.im
 
 ## 评论（26/26）
 

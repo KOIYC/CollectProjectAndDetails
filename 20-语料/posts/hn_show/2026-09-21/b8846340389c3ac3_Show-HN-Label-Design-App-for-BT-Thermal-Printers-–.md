@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=47949441"
 project_url: "https://github.com/lukaszliniewicz/catlabel"
 author: "starry_air"
 published_at: "2026-04-29T15:04:03Z"
-captured_at: "2026-09-21T01:41:51+08:00"
+captured_at: "2026-09-21T02:52:36+08:00"
 lang: "en"
 kind: "post"
-topic: 开发者工具
+topic: "AI 工具/Agent"
 shard: "2026-09-21"
 pub_day: "2026-04-29"
 tags:
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:174d"
 # Show HN: Label Design App for BT Thermal Printers – Niimbot, "Cat Printers"
 
 > [!info] 一句话导读
-> Show HN: Label Design App for BT Thermal Printers – Niimbot, "Cat Printers"
+> lukaszliniewicz/catlabel
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,20 +37,205 @@ discovered_via: "hn:show_hn:174d"
 > 指标：点赞=2 · 评论=1 · engagement_velocity=2
 > 作者：starry_air　|　发布：2026-04-29T15:04:03Z
 > 项目链接：<https://github.com/lukaszliniewicz/catlabel>
-> 采集：2026-09-21T01:41:51+08:00　|　id：`b8846340389c3ac3`
+> 采集：2026-09-21T02:52:36+08:00　|　id：`b8846340389c3ac3`
 
 ## 正文
 
-Show HN: Label Design App for BT Thermal Printers – Niimbot, "Cat Printers"
+# lukaszliniewicz/catlabel
+
+A local web-based design and printing studio for portable Bluetooth thermal label printers (Niimbot, Phomemo, Generic). Features a visual canvas, auto-scaling HTML layouts, batch data printing, and AI layout generation.
+
+- Stars: 10
+- Forks: 0
+- Watchers: 10
+- Open issues: 0
+- License: Apache License 2.0
+- Default branch: master
+- Created: 2026-04-08T22:14:59Z
+- Fork: yes
+
+## Languages
+
+- Batchfile
+- CSS
+- HTML
+- JavaScript
+- Python
+- Shell
+
+## Topics
+
+- cat-printer
+- design
+- label-printer
+- labels
+- niimbot
+- phomemo
+- thermal-printer
+
+## Top Contributors
+
+- lukaszliniewicz (264 contributions)
+- Dejniel (5 contributions)
+- jplattel (1 contributions)
+
+---
+
+## README
+
+ CatLabel Studio
+
+CatLabel is a local web application for designing and printing labels to portable Bluetooth thermal printers.
+
+It is a fork of TiMini Print. CatLabel moves the original CLI and Tkinter-based logic into a web interface built with FastAPI and React, while adding native support for Niimbot.
+
+https://github.com/user-attachments/assets/d7103905-7133-41c0-b20b-ee69727d9418
+
+---
+
+---
+
+## Supported Printers
+
+CatLabel communicates directly with portable thermal printers over Bluetooth. It supports many models that do not use standard ESC/POS commands.
+
+* **Niimbot:** D-Series (D11, D110, D101), B-Series (B1, B21, B3S, B24, B18).
+* **Phomemo:** M-Series (M02, M03, M04, M110, M200, M220), D-Series (D30), T02, P12, PM-241.
+* **Generic:** Most generic portable printers (often sold as "Cat Printers" or "Mini Printers" using apps like Tiny Print, iBleem, WalkPrint, or Luck Jingle), including newly added Luck normal/A4 variants with paper-mode controls where supported.
+
+---
+
+## Installation & Running
+
+CatLabel runs a local web server and opens the interface in your browser. It manages its own isolated environment using Micromamba, so it won't interfere with your system's Python or Node.js installations.
+
+### Windows
+The easiest way to run CatLabel on Windows is using the standalone launcher.
+1. Download `CatLabel-Launcher.exe` from the Releases page.
+2. Place it in an empty folder where you want the app to reside.
+3. Double-click the executable. It will download the necessary files, configure the environment, and start the app.
+
+https://github.com/user-attachments/assets/4e784645-0ccf-478c-a6e1-0c41a3519624
+
+### macOS & Linux
+1. Clone or download this repository.
+2. Open a terminal in the repository folder.
+3. Run the bootstrap script: `chmod +x run.sh && ./run.sh`
+4. The script will download Micromamba, install dependencies, compile the frontend, and start the server.
+
+*The app runs at http://localhost:8000.*
+
+---
+
+## Instruction Manual & Features
+
+CatLabel is divided into a sidebar (for printers and files), a central canvas, and a right-hand properties panel.
+
+### 1. Canvas Editor (WYSIWYG)
+The visual editor allows you to place text, barcodes, QR codes, icons, shapes, and images.
+* **Precision Control:** In the right panel, you can adjust X/Y coordinates and dimensions using millimeter inputs. Click and drag horizontally on the input labels (where you see `⇹`) to scrub the values up and down smoothly.
+* **Icons & Images:** The toolbar includes a searchable Lucide icon library. Standard images are automatically thresholded (converted to black and white) and dithered to print clearly on thermal heads.
+* **Z-Order & Grouping:** Use the toolbar to bring elements forward or backward. You can select multiple items (hold `Shift`) to group them together for moving and scaling.
+
+### 2. Designing with HTML & CSS
+For complex layouts (like shipping labels or split columns), you can use the HTML mode. This bypasses the visual drag-and-drop elements and renders raw HTML onto the label.
+
+**Auto-Scaling Text:**
+If you wrap text in an `.auto-text` class inside a `.bound-box` container, CatLabel will calculate and apply the exact font size needed to maximize the text within that box. This prevents text from overflowing or being too small without requiring manual font-size guessing.
+
+**Example Layout:**
+```html
+<div style="display: flex; flex-direction: column; height: 100%; padding: 4px; gap: 4px;">
+  <!-- Top half: Auto-scaling Title -->
+  <div class="bound-box" style="flex: 2;">
+    <div class="auto-text" style="font-weight: 900;">{{ product_name }}</div>
+  </div>
+  
+  <!-- Divider -->
+  <div style="height: 2px; background: black; width: 100%;"></div>
+  
+  <!-- Bottom half: Dynamic Barcode -->
+  <div class="bound-box" style="flex: 1;">
+    <div class="catlabel-code" data-type="barcode" data-format="code128" data-value="{{ sku }}"></div>
+  </div>
+</div>
+```
+*Note: To add background patterns or colors, place an absolutely positioned `div` behind your flex containers to ensure the bounding box calculations remain accurate.*
+
+### 3. Variables & Batch Printing
+You can design a single template and print multiple variations using variables.
+1. Type `{{ any_name }}` into a text element, barcode data field, or HTML block.
+2. Open the **Batch Data** tab in the right panel. The system will automatically detect your variables.
+3. Choose your data input method:
+ * **Table:** Manually type rows of data, or use the "Import CSV" button to map spreadsheet columns to your variables.
+ * **Permutations (Matrix):** Enter comma-separated lists for each variable. The app will generate every possible combination (e.g., Size: S, M, L / Color: Red, Blue).
+ * **Sequence:** Select a variable and set a start number, end number, prefix, and zero-padding to instantly generate serialized labels (e.g., `BOX-001` to `BOX-050`).
+
+### 4. Wizards & Templates
+The toolbar includes a "Wizards" dropdown with built-in forms. These generate standard layouts for specific use cases:
+* **Shipping Labels:** Includes an address book to save frequently used senders/recipients.
+* **Price Tags:** Formats currency, large main prices, and underlined cents alongside a barcode.
+* **Inventory & IT Assets:** Creates a high-contrast department header and paired QR code.
+* **Date Tool:** Quickly insert today's date, or calculate offset dates (e.g., "+7 Days" for food expiry).
+
+### 5. AI Layout Assistant
+CatLabel includes a chat interface that can write HTML layouts and execute tool commands based on your text requests. It operates in two modes:
+* **Live Agent:** Enter API keys for OpenAI, Google Gemini, or Vertex AI. You can also point it to a local LLM host (like LM Studio or Ollama) by selecting "Custom" and using `http://localhost:1234/v1`.
+* **External (Copy/Paste):** If you already pay for ChatGPT Plus or Claude Pro, you can generate a system prompt block here, paste it into your browser tab, and paste the resulting JSON back into CatLabel. This applies the layout without consuming API credits.
+
+### 6. Project Management
+The sidebar contains a file tree to save your designs.
+* You can create folders and drag-and-drop projects between them.
+* Projects save the canvas dimensions, elements, HTML, and your currently loaded batch data.
+* You can export individual projects or entire folders as JSON files to back them up or share them.
+
+### 7. Printer Settings (Hardware Overrides)
+In the **Canvas & Printer** tab, you can override default hardware behaviors:
+* **Density / Energy:** Increase this value to make prints darker (useful for transparent or synthetic label stock), or decrease it if the print head is smudging.
+* **Feed Lines:** Controls how much blank tape is ejected after a print job to align the cut with the printer's tear-off teeth.
+* **Split Mode:** Allows you to define a canvas larger than the printer's physical width. The app will slice the image and print it in sequential strips.
+
+---
+
+## Troubleshooting & Bluetooth
+
+* **Windows Pairing:** Windows sometimes refuses to communicate with generic SPP (Serial Port Profile) printers unless they are explicitly paired in the Windows Settings menu first. If the app fails to connect, pair it manually in Windows, then try again.
+* **macOS Connections:** Apple restricts classic Bluetooth SPP connections. CatLabel uses a custom PyObjC bridge to handle this, but you may occasionally need to restart the printer if macOS caches a stale connection state.
+* **Niimbot Printers:** Niimbot devices use Bluetooth Low Energy (BLE). They do not require OS-level pairing. The app will connect to them directly.
+* **Headless Rendering:** The HTML layout mode requires Playwright (a headless Chromium browser) to rasterize the HTML into a printable image. If you skipped this step during installation, HTML elements and templates will not render correctly. You can trigger the installation manually by running `python -m playwright install chromium` inside the `env` folder.
+
+---
+
+## Architecture
+
+* **Backend (`catlabel/`):** A FastAPI server that handles SQLite storage, Bluetooth communication (via `bleak` and OS-specific sockets), printer protocol encoding (V5, DCK, Legacy), and headless image rasterization.
+* **Frontend (`frontend/`):** A React application using Zustand for state management and Konva.js for the interactive canvas.
+
+---
+
+## License & Attribution
+
+This project is a fork of TiMini Print by Dejniel. The original reverse-engineering of the V5/Generic printer protocols and the core encoding logic belong to the original author.
+
+CatLabel is distributed under the **Apache License 2.0**.
+
+# is opus ok today?
 
 ## 评论（1/1）
 
 > **starry_air** · 2026-04-29T15:04:03.000Z　
 > Perhaps someone will find it useful. I've found tinkering with it more fun than actually going through my stuff and doing the organising it was supposed to assist with... https://github.com/lukaszliniewicz/catlabel (with video demo). Windows installer, Python backend, React frontend, SQLite.
 
+## 关联链接
+
+- http://localhost:1234/v1`.
+- http://localhost:8000.*
+- https://github.com/user-attachments/assets/4e784645-0ccf-478c-a6e1-0c41a3519624
+- https://github.com/user-attachments/assets/d7103905-7133-41c0-b20b-ee69727d9418
+
 ## 导航
 
 - 项目页：[[10-项目/github.com_13248913]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

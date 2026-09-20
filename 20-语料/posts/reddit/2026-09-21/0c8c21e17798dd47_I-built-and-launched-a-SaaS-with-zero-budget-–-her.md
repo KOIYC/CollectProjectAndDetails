@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/microsaas/comments/1tsv54w/i_built_and_launched_a
 project_url: "https://emrefkrlr.github.io/gitpulse"
 author: "Secure-Musician384"
 published_at: "2026-05-31T21:17:46+08:00"
-captured_at: "2026-09-21T01:27:56+08:00"
+captured_at: "2026-09-21T03:01:37+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -19,8 +19,8 @@ tags:
   - reddit
   - r/microsaas
 metrics: {"score": 3, "comments": 2, "upvote_ratio": 1}
-comments_count: 0
-comments_total: 0
+comments_count: 2
+comments_total: 2
 discovered_via: "reddit:144d+settle3"
 ---
 
@@ -35,7 +35,7 @@ discovered_via: "reddit:144d+settle3"
 > 指标：得分=3 · 评论=2 · 赞踩比=1
 > 作者：Secure-Musician384　|　发布：2026-05-31T21:17:46+08:00
 > 项目链接：<https://emrefkrlr.github.io/gitpulse>
-> 采集：2026-09-21T01:27:56+08:00　|　id：`0c8c21e17798dd47`
+> 采集：2026-09-21T03:01:37+08:00　|　id：`0c8c21e17798dd47`
 
 ## 正文
 
@@ -106,6 +106,16 @@ Pricing: Free (3/month) → $7/month → $19/month
 
 If you've built something similar or have feedback on the product
 itself, I'd genuinely like to hear it.
+
+## 评论（2/2）
+
+> **devhisaria**（1 分） · 2026-06-01T18:59:28+08:00　
+> Building with zero budget forces smart tech choices. Shipping something real is always the hardest part.
+
+---
+
+> **Secure-Musician384**（1 分） · 2026-06-01T23:37:08+08:00　
+> Exactly! Constraints really make you focus on what's absolutely necessary instead of over-engineering. Appreciate the feedback, man.
 
 ## 导航
 

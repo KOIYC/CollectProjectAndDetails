@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: I built a physical dream machine for my wife"
 project_url: "https://news.ycombinator.com/item?id=49498469"
-first_seen: "2026-09-21T01:33:52+08:00"
+first_seen: "2026-09-21T02:57:25+08:00"
 sources:
   - hn_show
 tags:
@@ -16,9 +16,12 @@ lang: "en"
 
 # Show HN: I built a physical dream machine for my wife
 
+> [!info] 一句话导读
+> Show HN: I built a physical dream machine for my wife
+
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://news.ycombinator.com/item?id=49498469>
-> 首次收录：2026-09-21T01:33:52+08:00
+> 首次收录：2026-09-21T02:57:25+08:00
 > 来源渠道：HN Show HN
 > 标签：author_oblo_mov, story_49498469, show_hn
 > 最新指标：点赞=2 · 评论=3 · engagement_velocity=2
@@ -28,3 +31,8 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T01:33:52+08:00 | HN Show HN | 点赞=2 · 评论=3 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/bfd9557432621d34_Show-HN-I-built-a-physical-dream-machine-for-my-wi]] |
+| 2026-09-21T02:57:25+08:00 | HN Show HN | 点赞=2 · 评论=3 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/bfd9557432621d34_Show-HN-I-built-a-physical-dream-machine-for-my-wi]] |
+
+## 摘要正文
+
+Show HN: I built a physical dream machine for my wife

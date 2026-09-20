@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=48324378"
 project_url: "https://github.com/fynyky/elemental"
 author: "fynyky"
 published_at: "2026-05-29T15:26:45Z"
-captured_at: "2026-09-21T01:44:14+08:00"
+captured_at: "2026-09-21T02:53:00+08:00"
 lang: "en"
 kind: "post"
-topic: 开发者工具
+topic: "开发者工具"
 shard: "2026-09-21"
 pub_day: "2026-05-29"
 tags:
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:144d"
 # Show HN: Elemental – simple front ends in plain JavaScript
 
 > [!info] 一句话导读
-> Show HN: Elemental – simple front ends in plain JavaScript
+> Simple reactive front-end library
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,911 @@ discovered_via: "hn:show_hn:144d"
 > 指标：点赞=6 · 评论=3 · engagement_velocity=6
 > 作者：fynyky　|　发布：2026-05-29T15:26:45Z
 > 项目链接：<https://github.com/fynyky/elemental>
-> 采集：2026-09-21T01:44:14+08:00　|　id：`bb6d61231da76bef`
+> 采集：2026-09-21T02:53:00+08:00　|　id：`bb6d61231da76bef`
 
 ## 正文
 
-Show HN: Elemental – simple front ends in plain JavaScript
+# fynyky/elemental
+
+Simple reactive front-end library
+
+- Stars: 32
+- Forks: 1
+- Watchers: 32
+- Open issues: 2
+- License: MIT License
+- Default branch: master
+- Created: 2023-08-03T21:26:27Z
+
+## Languages
+
+- JavaScript
+
+## Topics
+
+- declarative
+- dom
+- frontend
+- javascript
+- reactive
+- reactive-ui
+- ui
+- vanilla-js
+- web-components
+
+## Top Contributors
+
+- fynyky (148 contributions)
+- github-actions[bot] (1 contributions)
+
+---
+
+## README
+
+Elemental
+==========
+
+Elemental is a simple front-end library that lets you build reactive UIs declaratively using plain JavaScript. No special syntax to learn or complex frameworks to build around, just normal nested functions.
+
+Here's a quick example of what Elemental does:
+```javascript
+import { Reactor, ob, el } from '@fynyky/elemental'
+
+const rx = new Reactor({ name: 'Anakin' })
+
+el(document.body,
+  el('main',
+    el('h1', 'Hello World!'),
+    el('h2', (x) => { x.id = 'foo' }, () => 'returned text'),
+    el('div.note', ['this', 'is', 'an', 'array']),
+    el('p.greeting', ob(() => ('My name is ' + rx.name)))
+  )
+)
+// <main>
+//   <h1>Hello World!</h1>
+//   <h2 id="foo">returned text</h2>
+//   <div class="note">thisisanarray</div>
+//   <p class="greeting">My name is Anakin</p>
+// </main>
+
+rx.name = 'Darth'
+//   <p class="greeting">My name is Anakin</p>
+// Changes to
+//   <p class="greeting">My name is Darth</p>
+```
+- `el` is a function that creates elements then attaches children to them
+ - The first argument is a CSS selector string describing the element to create, or an existing element to append to
+ - Subsequent arguments are appended as children
+ - Functions are run given their parent, and their return values are appended
+ - `Observer` functions do the same, but their children get replaced when updated
+- `ob` is shorthand for `new Observer`
+- An `Observer` is a function that automatically tracks reactive variables that it uses, and retriggers if they get updated.
+- A `Reactor` is an object that stores reactive variables
+- When a `Reactor` is updated it automatically retriggers the dependent `Observer` functions
+
+Elemental is designed to be unobtrusive and unopinionated.
+- No special syntax to learn. Everything is just plain JavaScript
+- No need to manually declare listeners. Elemental automatically keeps track of all that
+- No complex framework internals to debug. It just appends elements and runs functions when needed
+- Use it for the whole front-end or just a few components. Elements created by Elemental are just normal DOM elements, and any variable can be easily replaced with a reactive one without changing the rest of your codebase.
+
+Elemental is built on top of Reactor.js
+
+Check out the demo repo for examples.
+
+Installation
+------------
+
+Elemental is available on npm. Install it by running:
+```
+$ npm install @fynyky/elemental
+```
+
+Import it using:
+```javascript
+import { 
+  el,
+  ob,
+  attr,
+  on,
+  bind,
+  Reactor,
+  Observer,
+  hide,
+  batch,
+  shuck
+} from '@fynyky/elemental'
+```
+
+It is also available directly from unpkg. You can import it in JavaScript using
+```javascript
+import { el, attr, on, bind, ob, Reactor, Observer, hide, batch, shuck } from 'https://unpkg.com/@fynyky/elemental'
+```
+
+Elements
+--------
+The function `el(description, children...)` builds DOM elements. It appends the `children` arguments to a parent element created/referenced by the `description`.
+
+The `description` can be a `String` or an existing `Element`. If given a `String`, it creates a new element using **CSS selector syntax**: the tag comes first, followed by `.class` and `#id` segments.
+
+```javascript
+el('button.foo')    // <button class="foo"></button>
+el('input#bar.baz') // <input id="bar" class="baz">
+el('div.foo.bar')   // <div class="foo bar"></div>
+el('section')       // <section></section>
+```
+
+If the tag is omitted, it defaults to `div`.
+
+```javascript
+el('.card')            // <div class="card"></div>
+el('#hero')            // <div id="hero"></div>
+```
+
+If given an existing `Element` it does nothing on its own but uses the provided element as a target for applying the `children` arguments. For example you can append things to the document body by doing
+
+```javascript
+el(document.body, 'hello world')
+```
+
+```html
+<html>
+  <body>hello world</body>
+</html>
+```
+
+You can also use `document.querySelector` to find an existing element:
+
+```javascript
+el(document.querySelector('#app'), 'hello world')
+el(document.querySelector('.container'), el('p', 'content'))
+```
+
+--------------------------------------------------------------------------------
+
+`String` arguments provided as `children` are appended as text nodes
+
+```javascript
+el('h1', 'hello world')
+```
+
+```html
+<h1>hello world</h1>
+```
+
+`Element` arguments are just appended directly
+
+```javascript
+el('h1', document.createElement('div'))
+```
+
+```html
+<h1><div></div></h1>
+```
+
+Since `el` itself returns elements, this allows nesting of `el` calls to declaratively create the DOM
+
+```javascript
+el(document.body,
+  el('main', 
+    el('h1', 'Title Text'),
+    el('p', 'Paragraph text'),
+  )
+)
+```
+```html
+<html>
+  <body>
+    <main>
+      <h1>Title Text</h1>
+      <p>Paragraph text</p>
+    </main>
+  </body>
+</html>
+```
+
+--------------------------------------------------------------------------------
+
+`Function` arguments are run in the context of the parent. This allows arbitrary manipulation of the parent such as attaching listeners, setting styles, etc.
+
+```javascript
+el('h1', function() {
+  this.id = 'foo'
+  this.onclick = () => console.log('clicked!')
+  this.style.color = 'red'
+})
+```
+
+```html
+<h1 id="foo"></h1>
+```
+
+The parent is also provided as the first argument to the function when it is called. This allows arrow functions to work.
+
+```javascript
+el('h1', x => {
+  x.id = 'foo'
+  x.onclick = () => console.log('clicked!')
+  x.style.color = 'red'
+})
+```
+
+```html
+<h1 id="foo"></h1>
+```
+
+If the function returns a value, that value is appended as a child.
+```javascript
+el('h1', 
+  x => {
+    return 'some text'
+  }, 
+  x => ' more text'
+)
+```
+```html
+<h1>some text more text</h1>
+```
+
+The `attr(attribute, value)` function is provided as a shorthand for
+
+```javascript
+$ => { $.setAttribute(attribute, value) }
+```
+
+This allows easy setting of attributes like this
+
+```javascript
+el('h1', attr('id', 'foo'))
+```
+
+```html
+<h1 id="foo"></h1>
+```
+
+Similarly the `on(event, fn)` function is provided as a shorthand for
+
+```javascript
+$ => { $.addEventListener(event, fn) }
+```
+
+This allows easy attaching of event listeners like this
+
+```javascript
+el('button', on('click', () => console.log('clicked!')))
+```
+
+```html
+<button></button>
+```
+
+Similarly the `bind(reactor, key)` function is provided as a shorthand for
+
+```javascript
+$ => {
+  $.addEventListener('input', () => { reactor[key] = $.value })
+  return new Observer(() => { $.value = reactor[key] })
+}
+```
+
+This allows for easy 2-way binding for input fields and `Reactor` objects.
+
+```javascript
+const rx = new Reactor({ name: 'foo' })
+el('input', bind(rx, 'name'))
+```
+
+--------------------------------------------------------------------------------
+
+`Iterable` arguments (arrays, Sets, NodeLists, generators, etc.) are flattened and their elements recursively appended.
+
+```javascript
+el('h1', [
+  'some text',
+  document.createElement('div'),
+  x => 'boop'
+])
+```
+
+```html
+<h1>some text<div></div>boop</h1>
+```
+
+--------------------------------------------------------------------------------
+
+`null` and `undefined` children are silently ignored. This makes conditional rendering straightforward.
+
+```javascript
+const showTitle = false
+el('div',
+  showTitle ? el('h1', 'Title') : null,  // null is ignored
+  el('p', 'Always shown')
+)
+```
+
+```html
+<div><p>Always shown</p></div>
+```
+
+--------------------------------------------------------------------------------
+
+`Promise` arguments create a comment placeholder.
+
+```javascript
+let resolve
+const somePromise = new Promise(r => { resolve = r })
+el('h1', somePromise)
+```
+
+```html
+<h1><!-- promisePlaceholder --></h1>
+```
+
+When the promise resolves this placeholder is replaced with the resolved value.
+
+```javascript
+resolve('resolved!')
+```
+
+```html
+<h1>resolved!</h1>
+```
+--------------------------------------------------------------------------------
+
+`Observer` functions from Elemental are handled very similarly to functions. They are executed in the context of the parent. However they also leave a set of comments bookmarking the children they produce.
+
+```javascript
+const rx = new Reactor({ name: 'foo' })
+el('h1', ob(() => rx.name))
+```
+
+```html
+<h1>
+  <!-- observerStart -->
+  foo
+  <!-- observerEnd -->
+</h1>
+```
+
+When the observer is retriggered, everything between the bookmarks is removed and replaced with the new output.
+
+```javascript
+rx.name = 'bar'
+```
+
+```html
+<h1>
+  <!-- observerStart -->
+  bar
+  <!-- observerEnd -->
+</h1>
+```
+
+Read below for more details on how observers work.
+
+Note: for observers attached as children via `el` they are deactivated automatically when their parent is not attached to the document. This should not affect most use cases since the observer is reactivated when the parent is reattached to the document. But note that unattached elements just being held in memory will not be changing.
+
+Reactors
+--------
+
+A `Reactor` is an object wrapper that automatically tracks `Observer` functions that read its properties and notifies the observers when those properties are updated.
+
+You create a new reactor by calling its constructor:
+```javascript
+const reactor = new Reactor()
+```
+
+You can also wrap an existing object with a reactor by passing it to the constructor. Changes to the reactor are passed through to the underlying object:
+```javascript
+const reactor = new Reactor({
+  foo: "bar"
+})
+```
+
+Reactors behave mostly like plain JavaScript objects:
+```javascript
+const reactor = new Reactor({
+  foo: "bar"
+})
+// You can get and set properties as usual
+reactor.foo // "bar"
+reactor.cow = "moo"
+// defineProperty works normally as well
+Object.defineProperty(reactor, "milk", {
+  get() { return "chocolate" }
+})
+reactor.milk // "chocolate"
+// delete works too
+delete reactor.foo
+reactor.foo // undefined
+```
+
+The key difference of `Reactor` objects is that they track when one of their properties is read by an `Observer` function and will notify that observer when the property is updated:
+
+```javascript
+const reactor = new Reactor({ foo: "bar" })
+
+new Observer(() => {
+  console.log("foo is ", reactor.foo)
+})() // prints "foo is bar"
+
+reactor.foo = "moo" // prints "foo is moo"
+
+Object.defineProperty(reactor, "foo", {
+  get() { return "meow" }
+}) // prints "foo is meow"
+
+delete reactor.foo // prints "foo is undefined"
+```
+
+Tracking is property-specific, so observers will not trigger if a different property is updated:
+```javascript
+const reactor = new Reactor({
+  foo: "bar",
+  moo: "mar"
+})
+
+new Observer(() => {
+  console.log("foo tracker is now", reactor.foo)
+})() // prints "foo tracker is now bar"
+
+new Observer(() => {
+  console.log("moo tracker is now", reactor.moo)
+})() // prints "moo tracker is now mar"
+
+reactor.foo = "bar2" // prints "foo tracker is now bar2"
+reactor.moo = "mar2" // prints "moo tracker is now mar2"
+reactor.goo = "goop" // does not trigger any observers
+```
+
+If reading a reactor's property returns an object, that object is recursively wrapped in a reactor before being returned. This allows observers to track dependencies in nested objects easily:
+```javascript
+const reactor = new Reactor({
+  outer: {
+    inner: "cake"
+  }
+})
+
+new Observer(() => {
+  console.log("inner value is ", reactor.outer.inner)
+})() // prints "inner value is cake"
+```
+
+Reactors are implemented using Proxy objects. This means reactors created from scratch typecheck as Reactors, but reactors created from an existing object typecheck as the original object:
+
+```javascript
+const baseReactor = new Reactor()
+baseReactor instanceof Reactor // true
+const mapReactor = new Reactor(new Map())
+mapReactor instanceof Reactor // false
+mapReactor instanceof Map // true
+```
+
+This also has implications for native objects or objects that use private properties. Since proxies can't access native or private properties, some methods will fail. To work around this, we provide the `shuck` function which returns a reactor's internal object:
+
+```javascript
+// Native object example
+const mapReactor = new Reactor(new Map())
+Map.prototype.keys.apply(mapReactor) // throws an error
+Map.prototype.keys.apply(shuck(mapReactor)) // works fine
+```
+
+Observers
+---------
+
+An `Observer` is like a normal function that you can define and call. When an `Observer` reads from a `Reactor`, it automatically tracks that dependency, and when that reactor's property is updated, it automatically triggers the observer again.
+
+`Observer` functions are created by passing a function to its constructor:
+```javascript
+const observer = new Observer(() => {
+  console.log("hello world")
+})
+observer() // prints "hello world" and starts the observer
+```
+
+For brevity, observers can also be created and instantly executed like this:
+```javascript
+new Observer(() => {
+  console.log("hello world")
+})() // prints "hello world" and starts the observer
+```
+
+When an `Observer` reads a `Reactor` property, it gets saved as a dependent. When that property is updated, it notifies the observer which reruns its function. This happens automatically without any need to manually declare dependencies:
+```javascript
+const reactor = new Reactor()
+new Observer(() => {
+  console.log("reactor.foo is ", reactor.foo)
+})() // prints "reactor.foo is undefined"
+
+reactor.foo = "bar" // prints "reactor.foo is bar"
+```
+
+An observer's dependencies are dynamically determined. Only the dependencies actually read in the last execution of an observer can trigger it again. This means that reactor reads that are only conditionally used will not trigger the observer unnecessarily:
+```javascript
+const reactor = new Reactor({
+  a: true,
+  b: "bee",
+  c: "cee"
+})
+new Observer(() => {
+  if (reactor.a) {
+    console.log("reactor.b is ", reactor.b)
+  } else {
+    console.log("reactor.c is ", reactor.c)
+  }
+})() // prints "reactor.b is bee"
+
+reactor.b = "boop" // prints "reactor.b is boop"
+reactor.c = "cat" // does not trigger the observer
+
+reactor.a = false // prints "reactor.c is cat"
+reactor.b = "blue" // does not trigger the observer
+reactor.c = "cheese" // prints "reactor.c is cheese"
+```
+
+An observer's results are themselves observable via either the `value` property or by triggering the observer via `observer()` and using the return value. This allows you to chain observers together:
+```javascript
+const reactor = new Reactor({ foo: 'bar' })
+const capitalizer = new Observer(() => {
+  return reactor.foo.toUpperCase()
+})()
+const printer = new Observer(() => {
+  console.log(capitalizer.value)
+})() // prints 'BAR'
+reactor.foo = 'baz' // prints 'BAZ'
+```
+
+This also works:
+```javascript
+const reactor = new Reactor({ foo: 'bar' })
+const capitalizer = new Observer(() => {
+  return reactor.foo.toUpperCase()
+}) // Did not start the observer here
+const printer = new Observer(() => {
+  // Manually calls capitalizer like a function which activates it
+  // As well as accesses its return value as a dependency
+  console.log(capitalizer())
+})() // starts printer which starts capitalizer
+reactor.foo = 'baz' // prints 'BAZ'
+```
+
+You can stop an observer by calling `stop()` on the returned observer object. This clears any existing dependencies and prevents triggering. You can restart the observer by calling `start()`. Starting is idempotent, so calling `start()` on an already running observer will have no effect:
+```javascript
+const reactor = new Reactor()
+const observer = new Observer(() => {
+  console.log(reactor.foo)
+})() // prints "undefined"
+
+reactor.foo = "bar" // prints "bar"
+
+observer.stop()
+
+reactor.foo = "cheese" // does not trigger the observer
+
+observer.start() // prints "cheese"
+observer.start() // No effect
+observer.start() // No effect
+observer.start() // No effect
+
+reactor.foo = "moo" // prints "moo"
+```
+
+For convenience, you can call an observer to execute like a normal function. This works regardless of whether the observer is stopped. Doing so starts the observer up again:
+
+```javascript
+const reactor = new Reactor({ foo: "hello" })
+const observer = new Observer(() => {
+  console.log(reactor.foo)
+})() // prints "hello"
+reactor.foo = "hi" // prints "hi"
+observer() // prints "hi" again
+
+observer.stop()
+reactor.foo = "hola" // does not trigger the observer since it's stopped
+observer() // prints "hola"
+```
+
+Like normal functions, observers can expect and be called with arguments. They remember the arguments from the last time they were called and reuse them when automatically triggered:
+
+```javascript
+const parameterizedObserver = new Observer((arg1, arg2) => {
+  console.log(reactor.foo + arg1 + arg2)
+})
+parameterizedObserver('beep', 'bop') // prints bazbeepbop
+reactor.foo = 'bla' // prints blabeepbop
+```
+
+Observers can also use and remember the last `this` context. Note that just like normal functions, for the `this` context to be bound to the holding object, it needs to be defined with the traditional `function` keyword instead of ES6 arrow functions:
+
+```javascript
+const holdingObject = {
+  name: 'Mario',
+  greet: new Observer(function () { // Need to use `function`
+    console.log("Hello " + reactor.foo + " itsa me " + this.name)
+  })
+}
+holdingObject.greet() // prints "Hello bla itsa me Mario"
+reactor.foo = 'bonk' // prints "Hello bonk itsa me Mario"
+holdingObject.name = 'Luigi' // prints nothing since holdingObject is not a Reactor
+```
+
+If you ever need to access the raw function the observer is wrapping, you do so by using `shuck`:
+
+```javascript
+const myFunction = () => {}
+const observer = new Observer(myFunction)
+myFunction === shuck(observer) // true
+```
+
+### Hide
+
+Sometimes you might want to read from a reactor without becoming dependent on it. A common case for this is when using array modification methods. These often also read from the array in order to do the modification:
+```javascript
+const taskList = new Reactor(["a", "b", "c", "d"])
+
+// Creating the following observer will cause an infinite loop
+// because it both reads from and modifies the length property of taskList
+// As a result, it triggers itself in the middle of execution
+// This loop is detected and creates an exception
+new Observer(() => {
+  // Even though we only want to modify the array
+  // pop() also reads the length property of the array
+  console.log(taskList.pop())
+})()
+```
+
+In these cases, you can use "hide" to shield a block of code from creating dependencies. It takes a function and any reactor properties read inside that function will not be set as dependencies. `hide` also passes through the return value of its function for syntactic simplicity:
+```javascript
+const taskList = new Reactor(["a", "b", "c", "d"])
+
+new Observer(() => {
+  console.log(
+    // Because we wrap the pop() call in a hide block
+    // it does not create a dependency on the length property
+    // unlike our previous example
+    hide(() => taskList.pop())
+  )
+})() // prints "d"
+
+taskList.push("e") // does not trigger the observer
+```
+
+Note that only the reads inside the hide block are shielded from creating dependencies. The rest of the observe block still creates dependencies as normal.
+
+### Batching
+One problem with automatic watchers is that you might end up with multiple repeated triggering when you're updating a lot of information all at once. The following code shows an example where you want to update multiple properties, but each property update prematurely triggers the observer since you are not done updating yet:
+
+```javascript
+const person = new Reactor({
+  firstName: "Anakin",
+  lastName: "Skywalker",
+  faction: "Jedi",
+  rank: "Knight"
+})
+
+// This observer tracks multiple properties
+// and so will be triggered when any of the properties get updated
+const observer = new Observer(() => {
+  console.log(
+    "I am " +
+    person.firstName +
+    " " +
+    person.lastName +
+    ", " +
+    person.faction +
+    " " +
+    person.rank
+  )
+})() // prints "I am Anakin Skywalker, Jedi Knight"
+
+// The following updates will each trigger the observer even though we only
+// want to trigger the observer once all the updates are complete
+person.firstName = "Darth" // prints "I am Darth Skywalker, Jedi Knight"
+person.lastName = "Vader" // prints "I am Darth Vader, Jedi Knight"
+person.faction = "Sith" // prints "I am Darth Vader, Sith Knight"
+person.rank = "Lord" // prints "I am Darth Vader, Sith Lord"
+```
+
+The `batch` function is provided to allow you to batch multiple updates together and only trigger the appropriate observers once at the end of the batch block. So the last part of the previous example can be turned into:
+```javascript
+// batch postpones any observer triggers that originate from inside it
+// Triggers are deduplicated so any observer is triggered at most once
+batch(() => {
+  // None of the following updates will trigger the observer yet
+  person.firstName = "Darth"
+  person.lastName = "Vader"
+  person.faction = "Sith"
+  person.rank = "Lord"
+}) // prints "I am Darth Vader, Sith Lord"
+```
+
+This is useful when you are making multiple data updates and want to avoid showing an "incomplete" view of the data to observers.
+
+Note that only the observer triggering is postponed until the end. The actual reactor properties are updated in place as expected. This means that you can have other logic with read-what-you-write semantics within the observer block working just fine.
+
+Summary
+-------
+
+```javascript
+import { 
+  el, attr, on, bind, ob,
+  Reactor, Observer, hide, batch, shuck 
+} from '@fynyky/elemental'
+
+// el(description, children...)
+el('h1')          // Creates <h1>
+el('h1.foo')      // Creates <h1 class="foo">
+el('h1#bar.foo')  // Creates <h1 id="bar" class="foo">
+el('.foo')        // Creates <div class="foo">
+el('#foo')        // Creates <div id="foo">
+
+let aDiv = document.createElement('div')
+el(aDiv) // Uses the provided element instead of creating a new one
+
+el('h1', 'foo') // Creates <h1>foo</h1>
+                // Strings provided as children are inserted as text nodes
+
+el('h1', aDiv)  // Creates <h1><div></div></h1>
+                // Elements provided as children are just appended
+
+el('h1', function(){this.id = 'foo'}) // Creates <h1 id="foo"></h1>
+                                      // Functions provided as children are 
+                                      // executed in the context of the parent
+
+el('h1', x => { x.id = 'foo' }) // Also creates <h1 id="foo"></h1>
+                                // The parent is also provided as an argument
+                                // This allows arrow functions to work
+
+el('h1', () => "return value") // Creates <h1>return value</h1>
+                               // Return values are appended as children
+
+let resolve
+const aPromise = new Promise(r => { resolve = r })
+el('h1', aPromise) // Creates <h1><!-- promisePlaceholder --></h1>
+                   // Places a comment to be replaced when the promise resolves
+resolve('resolved!') // Becomes <h1>resolved!</h1>
+
+// Example of how el works with reactors and observers
+// Full explanation of how Observers and Reactors work comes later on
+// Attached observers use comments to bookmark their children 
+let rx = new Reactor({ foo: 'foo' })
+let reactiveEl = el('h1', ob(() => rx.foo)) 
+// Creates
+// <h1>
+//   <!-- observerStart -->
+//   foo
+//   <!-- observerEnd -->
+// </h1>
+
+document.body.appendChild(reactiveEl) // Attached observers sleep when their 
+                                      // parent is out of the DOM
+                                      // Need to attach it for reactivity
+
+// When updated anything between the bookmarks gets replaced
+rx.foo = 'bar'  
+// Updates to 
+// <h1>
+  // <!-- observerStart -->
+  // bar
+  // <!-- observerEnd -->
+// </h1>
+
+el('h1', ['foo', 'bar', 'qux']) // Creates <h1>foobarqux</h1>
+                                // Any iterable (arrays, Sets, generators, etc.) are done recursively
+                                
+// attr is shorthand for setting attributes
+// These 2 are equivalent
+el('h1', attr('id', 'foo'))
+el('h1', self => self.setAttribute('id', 'foo'))
+
+// on is shorthand for addEventListener
+// These 2 are equivalent
+el('button', on('click', handler))
+el('button', self => self.addEventListener('click', handler))
+
+// bind is shorthand for 2 way binding with a reactor
+// These 2 are equivalent
+el('input', bind(rx, 'foo'))
+el('input', self => {
+  self.addEventListener('input', () => { rx['foo'] = self.value })
+  return new Observer(() => { self.value = rx['foo'] })
+})
+
+// ob is shorthand for creating Observers
+// These 2 are equivalent
+ob(function(){})
+new Observer(function(){})
+
+// Reactors and Observers
+const reactor = new Reactor({ foo: 'bar' })
+const observer = new Observer(() => {
+  const result = 'reactor.foo is ' + reactor.foo // Sets a dependency on foo
+  console.log(result) 
+  return result
+})
+observer() // Prints 'reactor.foo is bar' and starts the observer
+reactor.foo = 'baz' // Prints 'reactor.foo is baz'
+
+observer.stop()
+reactor.foo = 'qux' // Prints nothing since observer is stopped
+
+observer.start() // Prints 'reactor.foo is baz'
+observer.start() // Prints nothing since observer is already started
+observer() // Prints 'reactor.foo is baz' even if it is already running
+
+// Observers return values are themselves observable
+const trailingObserver = new Observer(() => {
+  const result = 'Did you hear: ' + observer.value
+  console.log(result)
+})
+trailingObserver() // Prints 'Did you hear: reactor.foo is baz'
+reactor.foo = 'blorp' // Prints 'reactor.foo is blorp' from observer
+                      // Also prints 'Did you hear: reactor.foo is blorp' from trailingObserver
+
+// Observers can be given parameters and remember these parameters when triggered
+const parameterizedObserver = new Observer((arg1, arg2) => {
+  console.log(reactor.foo + arg1 + arg2)
+})
+parameterizedObserver('beep', 'bop') // Prints bazbeepbop
+reactor.foo = 'bla' // Prints blabeepbop
+
+// Observers can also access and remember the last `this` context
+const holdingObject = {
+  name: 'Mario',
+  greet: new Observer(function () { // Need to use traditional functions instead of arrow functions
+    console.log("Hello " + reactor.foo + " itsa me " + this.name)
+  })
+}
+holdingObject.greet() // Prints "Hello bla itsa me Mario"
+reactor.foo = 'bonk' // Prints "Hello bonk itsa me Mario"
+holdingObject.name = 'Luigi' // Prints nothing since holdingObject is not a Reactor
+
+// hide allows you to avoid particular dependencies in an observer
+// This is useful especially when using Array methods that both read and write
+reactor.ticker = 1
+reactor.names = ["Alice", "Bob", "Charles", "David"]
+const partialObserver = new Observer(() => {
+  if (reactor.ticker) {
+    // hide passes through the return value of its block
+    const next = hide(() => reactor.names.pop())
+    console.log("next ", next)
+  }
+})
+partialObserver() // prints "next David"
+reactor.ticker = 2 // prints "next Charles"
+reactor.names.push("Elsie") // Will not trigger the observer
+
+// batch postpones any observer triggers until it is complete
+// This allows grouping updates together
+const person = new Reactor({
+  firstName: 'Clark',
+  lastName: 'Kent'
+})
+new Observer(() => {
+  console.log('Look its ' + person.firstName + ' ' + person.lastName)
+})() // Prints 'Look its Clark Kent'
+batch(() => {
+  // None of the following updates will trigger the observer yet
+  person.firstName = "Bruce" 
+  person.lastName = "Wayne"
+}) // prints 'Look its Bruce Wayne'
+
+// shuck removes the Reactor layer and returns the base object
+// This is necessary for some native objects which don't work with proxies
+const mapReactor = new Reactor(new Map())
+Map.prototype.keys.call(mapReactor) // throws an Error
+Map.prototype.keys.call(shuck(mapReactor)) // works fine
+```
+
+Development & Testing
+---------------------
+Tests are stored in `test/test.js` and run in real browsers using Web Test Runner.
+
+Run `npm install` to install the dev dependencies.
+
+To run the tests run `npm test`.
+
+# (no title)
 
 ## 评论（3/3）
 
@@ -57,6 +957,10 @@ Show HN: Elemental – simple front ends in plain JavaScript
 
 > **fynyky** · 2026-05-29T16:11:00.000Z　
 > The big difference is that you don't have to use all of React! Plus with the ability to run child functions, you can inject arbitrary logic inline without having to break the declarative structure.
+
+## 关联链接
+
+- https://unpkg.com/@fynyky/elemental
 
 ## 导航
 

@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=48732555"
 project_url: "https://globallybased.com/denom"
 author: "ilyagruzhevski"
 published_at: "2026-06-30T13:34:00Z"
-captured_at: "2026-09-21T01:44:52+08:00"
+captured_at: "2026-09-21T02:53:05+08:00"
 lang: "en"
 kind: "post"
 topic: 开发者工具
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:113d"
 # Show HN: Built a minimalist currency converter app that I use daily now
 
 > [!info] 一句话导读
-> Show HN: Built a minimalist currency converter app that I use daily now
+> Skip to content Back to Globally Based
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,60 @@ discovered_via: "hn:show_hn:113d"
 > 指标：点赞=3 · 评论=2 · engagement_velocity=3
 > 作者：ilyagruzhevski　|　发布：2026-06-30T13:34:00Z
 > 项目链接：<https://globallybased.com/denom>
-> 采集：2026-09-21T01:44:52+08:00　|　id：`8f693cd483c60909`
+> 采集：2026-09-21T02:53:05+08:00　|　id：`8f693cd483c60909`
 
 ## 正文
 
-Show HN: Built a minimalist currency converter app that I use daily now
+Skip to content Back to Globally Based
+ D
+ECB · COINGECKO · ECB · COINGECKO · ECB · COINGECKO · ECB · COINGECKO · ECB · COINGECKO · ECB · COINGECKO · ECB · COINGECKO · ECB · COINGECKO · ECB · COINGECKO · ECB · COINGECKO · ECB · COINGECKO · ECB · COINGECKO ·
+denom.
+ Currency converter for iPhone
+ Series · 2026 Legal tender
+D
+Denom № 001 D
+Denoms
+ Type any amount
+un · ein · uno · 一 · один · واحد · एक · 하나 · um · moja
+Also redeemable for
+As of 2026-04-22 · 14:32 UTC
+ USD $
+ 100.00
+ EUR €
+ 92.40
+ GBP £
+ 78.50
+ JPY ¥
+ 14,820
+ CHF ₣
+ 87.10
+ CAD $
+ 136.40
+ BTC ₿
+ 0.001140
+ ETH Ξ
+ 0.03120
+ USDC ⓤ
+ 99.98
+“ Valid for any amount, in any currency, anywhere. ”
+ Authenticity marks
+ Live rates, every minute
+ Fiat and crypto, one list
+ Expression input
+ Works offline
+ No accounts. No tracking.
+Issued by
+ Rates by ECB and CoinGecko.
+Refreshed every minute.
+No data leaves your phone.
+ ~ signed, the team
+Scan · denom
+Tender accepted
+App Store · iPhone
+№ DM 0000 0001
+ denom · 2026
+A note for travelers · Set in JetBrains Mono · Rates by ECB & CoinGecko · Privacy
+ © Globally Based · 2026
 
 ## 评论（2/2）
 

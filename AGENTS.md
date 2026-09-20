@@ -110,7 +110,8 @@ PY="C:/Users/yangcan/.workbuddy/binaries/python/versions/3.13.12/python.exe"
    （长正文顺带出现 launch/startup 是假阳性来源）。
 4. **信号层渠道**（bilibili / apple_rss 等 `layer: signal`）不产出正文，**不用正文层的尺子量它**。
 5. **已知结构性限制（不要当 bug 修）**：视频帖/社交账号页天然无正文 → 死信账本；
-   小红书/X 需登录态（未解锁记 `auth`）；sov2ex 只给正文不给回复；B 站仅元数据。
+   小红书已解锁（`enabled: true`，实测可采）；X 仍需 OpenCLI 登录态（记 `auth`）；
+   sov2ex 只给正文不给回复；B 站仅元数据。
 6. **`projecthunt` / `betalist` / `exa_discovery` 的 project_url 结构性不可得** →
    跨渠道强信号数偏低是**归并键缺失**，不是真没信号。
 
@@ -121,6 +122,9 @@ PY="C:/Users/yangcan/.workbuddy/binaries/python/versions/3.13.12/python.exe"
 3. **痛点线索未经验证**：正则捞的是线索，不是需求验证。
 4. **历史深度有限**（约 90 天铺底 + 滚动）：「趋势/增长率」类判断不成立。
 5. **可用 ≠ 是项目**：讨论帖/经验帖是好语料但不能当项目计数（库内单列 `项目型 N 条`）。
+6. **渠道占比不是全网分布**：历史铺底补采只对 hn_show 可回溯（2026-04~08），
+   于是 live 条目里 hn_show 占 **66%**（超质检门槛「单渠道 ≤50%」）。
+   引用全库分布/占比前先按渠道拆开看，别把采集偏向读成「开发者在做这个」。
 
 ## 6. 按意图取用
 
@@ -138,7 +142,7 @@ PY="C:/Users/yangcan/.workbuddy/binaries/python/versions/3.13.12/python.exe"
 | 给人看的全景 | `Home.md` |
 
 **机器可读入口**：`90-原始/*.jsonl`（批量分析）· `_meta/insight_latest.json`（最新洞察数据）·
-`_meta/seen.json`（item→页路径+观测史）· `_meta/channels.yaml`（13 启用/9 停用/2 未解锁）·
+`_meta/seen.json`（item→页路径+观测史）· `_meta/channels.yaml`（13 启用/5 停用/1 未解锁）·
 `_meta/schema.json`（字段定义）· `_meta/backfill_queue.json`。
 
 ## 7. 本机环境约束（Windows / yangcan）
@@ -150,8 +154,12 @@ PY="C:/Users/yangcan/.workbuddy/binaries/python/versions/3.13.12/python.exe"
 - **git/gh**：git 在 PortableGit（前缀已含）；gh 已登录 `KOIYC`（PAT 走 GCM 凭证助手）。
   收工提交：`git add -A && git commit` 即可推送（**不 force push**）。状态文件（seen/body_cache）
   损坏时脚本会自动隔离成 `.corrupt-*.bak` 并告警——看到这行先查原因再重跑。
-- **网络**：`github.com` web 超时但 `api.github.com` 通（gh 用 PAT）；Jina Reader 不可用（doctor 却报 ok → 对账时记 delta）；通用正文唯一后端是 Exa（mcporter，注意 `.cmd` shim）；npm 全局装包要 `--cache="C:/Users/yangcan/.workbuddy/npm-cache" --omit=optional --no-audit --no-fund`。
-- **未解锁**：小红书 / X 需 OpenCLI 浏览器扩展（未连接），状态记 `auth`，不算已覆盖。
+- **网络**：`github.com` web 超时但 `api.github.com` 通（gh 用 PAT）；Jina Reader 不可用（doctor 却报 ok → 对账时记 delta）；
+  **正文取数双后端**：`kb_common.direct_fetch_texts`（stdlib urllib 直取，**首选**，零依赖无额度）→
+  `exa_fetch_texts`（Exa web_fetch via mcporter，**兜底**，免费额度会 429 → 已响亮告警）。
+  实测直取对 project 站 6/6 命中，仅 `news.ycombinator.com` / `github.com` 走 Tunnel 502（已登记 `DIRECT_BLOCKED_HOSTS`）；npm 全局装包要 `--cache="C:/Users/yangcan/.workbuddy/npm-cache" --omit=optional --no-audit --no-fund`。
+- **未解锁**：小红书已解锁（`enabled: true`，实测可采 20 条）；X（x.com）仍需 OpenCLI 浏览器扩展，
+  状态记 `auth`，不算已覆盖。
 
 ## 8. 失败处理速查
 

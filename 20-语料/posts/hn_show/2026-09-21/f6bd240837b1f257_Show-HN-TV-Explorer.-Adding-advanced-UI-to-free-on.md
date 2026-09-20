@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=48325624"
 project_url: "https://tvexplorer.live/"
 author: "dtagames"
 published_at: "2026-05-29T16:39:09Z"
-captured_at: "2026-09-21T01:44:03+08:00"
+captured_at: "2026-09-21T02:52:59+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "开发者工具"
 shard: "2026-09-21"
 pub_day: "2026-05-29"
 tags:
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:144d"
 # Show HN: TV Explorer. Adding advanced UI to free online TV
 
 > [!info] 一句话导读
-> Show HN: TV Explorer. Adding advanced UI to free online TV
+> Explore 10,000+ Free Live TV Channels
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,108 @@ discovered_via: "hn:show_hn:144d"
 > 指标：点赞=198 · 评论=66 · engagement_velocity=198
 > 作者：dtagames　|　发布：2026-05-29T16:39:09Z
 > 项目链接：<https://tvexplorer.live/>
-> 采集：2026-09-21T01:44:03+08:00　|　id：`f6bd240837b1f257`
+> 采集：2026-09-21T02:52:59+08:00　|　id：`f6bd240837b1f257`
 
 ## 正文
 
-Show HN: TV Explorer. Adding advanced UI to free online TV
+Explore 10,000+ Free Live TV Channels
+TV Explorer is a free, browser-based player for live TV from around the world. Stream news, sports, movies, music, kids, and entertainment channels in dozens of languages — instantly, with no account and no downloads. Browse by language, country, or category below.
+:24 News
+¡OPA! Entertainment
+.red Entertainment
+.sci-fi Education
+@TV Movies
+&flix Movies
+&pictures Movies
+&TV Movies
+&TV Movies
+&xplor HD Movies
+1-2-3.tv Shopping
+10 Bold Lifestyle
+10 TV News
+100% Auto Moto TV Lifestyle
+100% NEWS News
+1001 Noites Shopping
+101tv Axarquia General
+101tv Cadiz General
+101tv Malaga News
+101tv Sevilla General
+111 TV General
+12 TV Parma General
+12tv General
+13 Festival Music
+13 Humor Comedy
+13 Kids Kids
+13 Realities Entertainment
+13 Siam Thai News
+13C Culture
+13E Entertainment
+13P Lifestyle
+13T Movies
+15+ Music Music
+15TV General
+16tv Budapest General
+1AlmereTV General
+Browse free TV
+Free TV
+IPTV
+English TV
+Hindi TV
+Tamil TV
+Telugu TV
+Bengali TV
+Urdu TV
+Arabic TV
+Indonesian TV
+Vietnamese TV
+Thai TV
+Chinese TV
+French TV
+Spanish TV
+German TV
+TV from India
+TV from Pakistan
+TV from Bangladesh
+TV from Indonesia
+TV from the Philippines
+TV from Vietnam
+TV from Thailand
+TV from the UAE
+TV from the UK
+TV from France
+TV from Spain
+TV from the USA
+Sports channels
+News channels
+Movies channels
+Kids channels
+Music channels
+Documentary channels
+TV Explorer is a streaming player that connects to free TV channels from around the world. Use it for armchair travel, language learning, entertainment, music, comparative news, religious study, or anything else you do with TV.
+What is IPTV?
+IPTV (Internet Protocol Television) delivers live television channels over the internet, directly from their broadcast source. Channels are streamed on demand — just select one from the list and it begins playing immediately.
+TV Explorer's channel database includes news, sports, entertainment, music, and many other categories, sourced from broadcasters in dozens of countries and languages.
+Where Do Channels Come From?
+TV Explorer's channel database is sourced from the IPTV open-source project on GitHub, a community-maintained collection of publicly available live TV streams from around the world.
+Filtering & Search
+Three dropdown menus let you narrow the channel list by Category , Country , and Language . Filters can be combined. The search field filters by channel name as you type.
+Favorites & Bookmarks
+The heart button in the TV controls bar opens the Favorites & Bookmarks panel. Use it to favorite channels, filter to favorites only, bookmark channels to the hotbar, or save the current filter for quick access.
+A red heart means at least one option is active. Your selections are saved automatically and persist across sessions.
+Column Sorting
+Click any column header in the channel list to sort by that column. Click the same header again to reverse the sort direction. Sorting works alongside filters.
+Is This Legal?
+Every channel in TV Explorer's database is a free-to-air stream made publicly available by the broadcaster. No hacking, circumvention, or unauthorized access is involved, and no login credentials are required.
+Some channels may be geographically restricted by the broadcaster, meaning they are only available to viewers in certain regions. TV Explorer does not collect, store, or share any information about you or your viewing activity.
+Sharing Channels
+Use the share button in the TV controls bar to copy a direct link to the channel you're watching. The link can be shared with anyone — when opened, TV Explorer launches and begins playing that channel immediately.
+Multiview
+Each channel row has a TV icon on the far right. Click it to add a channel to the multiview player area. Three or more channels display a large featured player plus a strip of smaller thumbnails.
+Status Lights
+Gray — not yet tuned. Green — played successfully. Red — failed to play. Not all channels are 24/7, so a red light does not necessarily mean the channel is permanently unavailable.
+About TV Explorer
+TV Explorer is a demonstration project built on the Watson Engine by David Bethune.
+TV Explorer
 
 ## 评论（66/66）
 
@@ -380,5 +477,5 @@ Show HN: TV Explorer. Adding advanced UI to free online TV
 
 - 项目页：[[10-项目/tvexplorer.live_d60adea9]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Repid v2 – open-source async Python task queue with AsyncAPI docs"
 project_url: "https://news.ycombinator.com/item?id=47946260"
-first_seen: "2026-09-21T01:13:42+08:00"
+first_seen: "2026-09-21T02:52:39+08:00"
 sources:
   - hn_show
 tags:
@@ -16,9 +16,12 @@ lang: "en"
 
 # Show HN: Repid v2 – open-source async Python task queue with AsyncAPI docs
 
+> [!info] 一句话导读
+> Show HN: Repid v2 – open-source async Python task queue with AsyncAPI docs
+
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://news.ycombinator.com/item?id=47946260>
-> 首次收录：2026-09-21T01:13:42+08:00
+> 首次收录：2026-09-21T02:52:39+08:00
 > 来源渠道：HN Show HN
 > 标签：author_aleksul, story_47946260, show_hn
 > 最新指标：点赞=2 · 评论=0 · engagement_velocity=2
@@ -29,3 +32,8 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-21T01:09:14+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/6a2784deaaca79f0_Show-HN-Repid-v2-–-open-source-async-Python-task-q]] |
 | 2026-09-21T01:13:42+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/6a2784deaaca79f0_Show-HN-Repid-v2-–-open-source-async-Python-task-q]] |
+| 2026-09-21T02:52:39+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/6a2784deaaca79f0_Show-HN-Repid-v2-–-open-source-async-Python-task-q]] |
+
+## 摘要正文
+
+Show HN: Repid v2 – open-source async Python task queue with AsyncAPI docs | Hacker News  Python's async web ecosystem is great, but background task processing is still mostly sync-first. Repid is an async-native task queue that generates AsyncAPI documentation from your type annotations - like FastAPI does for REST.  v2 ships with AMQP 1.0, Kafka, SQS, GCP Pub/Sub, Redis Streams, and NATS support. It is the fastest framework that I've benchmarked, and there are lots of cool features, so let me know if it's useful.  # stevefan1999-personal/demcstify

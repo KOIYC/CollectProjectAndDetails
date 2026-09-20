@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=47945955"
 project_url: "https://rip.so/"
 author: "bozdemir"
 published_at: "2026-04-29T09:21:32Z"
-captured_at: "2026-09-21T01:42:22+08:00"
+captured_at: "2026-09-21T02:52:39+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "开发者工具"
 shard: "2026-09-21"
 pub_day: "2026-04-29"
 tags:
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:174d"
 # Show HN: Rip.so – a graveyard for dead internet things
 
 > [!info] 一句话导读
-> Show HN: Rip.so – a graveyard for dead internet things
+> » dig up a name « search the catacombs
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,1247 @@ discovered_via: "hn:show_hn:174d"
 > 指标：点赞=187 · 评论=120 · engagement_velocity=187
 > 作者：bozdemir　|　发布：2026-04-29T09:21:32Z
 > 项目链接：<https://rip.so/>
-> 采集：2026-09-21T01:42:22+08:00　|　id：`e4485d45ddd5ae98`
+> 采集：2026-09-21T02:52:39+08:00　|　id：`e4485d45ddd5ae98`
 
 ## 正文
 
-Show HN: Rip.so – a graveyard for dead internet things
+⠀⠀⠀⠀⠀⢀⣴⣿⣿⣿⣦⠀
+⠀⠀⠀⠀⣰⣿⡟⢻⣿⡟⢻⣧
+⠀⠀⠀⣰⣿⣿⣇⣸⣿⣇⣸⣿
+⠀⠀⣴⣿⣿⣿⣿⠟⢻⣿⣿⣿
+⣠⣾⣿⣿⣿⣿⣿⣤⣼⣿⣿⠇
+⢿⡿⢿⣿⣿⣿⣿⣿⣿⣿⡿⠀
+⠀⠀⠈⠿⠿⠋⠙⢿⣿⡿⠁⠀
+_
+ .((.
+ _,..-''~~``-..__
+ ,' ',
+ / \
+ | |
+ | ____ ___ ____ |
+ | | _ \ |_ _| | _ \ |
+ | | |_) | | | | |_) | |
+ | | _
+» dig up a name « search the catacombs
+» wander by decade
+ · the most mourned
+ · the wake
+ · visitors log
+rip.so
+:: the digital graveyard ::
+*** here lie the messengers, the social networks, the browsers and the websites the internet forgot *** when was the last time someone said uh-oh on your ICQ ? ***
+The internet moves fast. They were on our desktops one day, the next their servers were dark, their domains squatted, their icons gone from our trays. Some died of mismanagement, some of acquisition, some of irrelevance. Some are technically still alive, but their soul left a long time ago. This page is a memorial to all of them.
+We bury our heroes here. Pour a 56k modem out for them.
+! THIS PAGE IS UNDER CONSTRUCTION !
+» see the companion page: ~ things that survived against odds ~
+» get a weekly grave digest in your inbox «
+SUBSCRIBE TO THE NEWSLETTER
+one short email each sunday. no tracking. unsubscribe with one click.
+~ on this day in the graveyard ~
+ Jet.com died 6 years ago (19 May 2020). jet.com was the most expensive customer-acquisition deal in walmart's history. marc lore launched it in july 2015 as an
+Pressplay died 23 years ago (19 May 2003). pressplay was the major labels trying to build the legal music store they should have built four years earlier and refus
+all anniversaries »
+~ messengers & chat ~
+___
+ / \
+ | + |
+ | RIP |
+ |1996-|
+ | 2024|
+ |_____|
+ICQ 📖
+1996 - 2024
+"uh-oh." its sound was a generation's text notification before texts existed. its 6-digit numbers were the first online identities we ever cared about. now finally turned off after 28 years.
+___
+ / \
+ | + |
+ | RIP |
+ |1999-|
+ | 2014|
+ |_____|
+MSN Messenger / Windows Live Messenger 📖
+1999 - 2014
+"appear offline" was a personality. nudges shook your screen and your heart. your status was a song lyric.
+___
+ / \
+ | + |
+ | RIP |
+ |1998-|
+ | 2018|
+ |_____|
+Yahoo! Messenger 📖
+1998 - 2018
+BUZZ! BUZZ! the loudest possible way to say i miss you. its emoticons were unmatched.
+___
+ / \
+ | + |
+ | RIP |
+ |1997-|
+ | 2017|
+ |_____|
+AOL Instant Messenger (AIM) 📖
+1997 - 2017
+the running yellow guy. away messages were poetry. door slam - "snoozyboi89 has signed off." gut punch.
+___
+ / \
+ | + |
+ | RIP |
+ |2005-|
+ | 2019|
+ |_____|
+BlackBerry Messenger (BBM) 📖
+2005 - 2019
+PIN exchanges were corporate intimacy. R / D ticks were status anxiety. it died defending its keyboard.
+___
+ / \
+ | + |
+ | RIP |
+ |2005-|
+ | 2022|
+ |_____|
+Google Talk / Hangouts (Classic) 📖
+2005 - 2022
+remember when google had ONE messenger? then six? then zero? rest in the merge.
+___
+ / \
+ | + |
+ | RIP |
+ |2003-|
+ | 2025|
+ |_____|
+Skype 📖
+2003 - 2025
+the boop boop ringtone. how you called your grandma in another country. washed out video. microsoft paid 8.5 billion for it and slowly turned it off.
+___
+ / \
+ | + |
+ | RIP |
+ |2016-|
+ | 2021|
+ |_____|
+Houseparty 📖
+2016 - 2021
+houseparty was a group video chat app that you joined casually, without scheduling. you opened the app and saw which friends were already in a "house" call, then dropped in. for a window of about six weeks during the early covid lockdown of march and april 2020 it was suddenly the biggest social app
+___
+ / \
+ | + |
+ | RIP |
+ |2015-|
+ | 2021|
+ |_____|
+Skype for Business 📖
+2015 - 2021
+Skype for Business was the corporate IM and conferencing product that lived inside Microsoft Office for fourteen years under three different names. it began as Office Communicator in 2007, became Lync in 2010, and was rebranded Skype for Business in 2015 after Microsoft's 8.5-billion-dollar Skype pu
+___
+ / \
+ | + |
+ | RIP |
+ |2012-|
+ | 2021|
+ |_____|
+Hike Messenger 📖
+2012 - 2021
+hike was india's bet on a domestic messaging app, kavin bharti mittal's attempt to do for india what wechat did for china. it raised $250m+ from softbank and tencent. it crossed 100m users by january 2016 and unicorned that august. then whatsapp and reliance jio happened, and on 6 january 2021 it sh
+___
+ / \
+ | + |
+ | RIP |
+ |2014-|
+ | 2020|
+ |_____|
+FireChat 📖
+2014 - 2020
+firechat was the messenger you used when the network was off. it routed messages over bluetooth and peer-to-peer wifi, hopping device to device, no internet required. that pitch turned it into a protest tool the moment hong kong students figured out the cell network was being watched. open garden qu
+___
+ / \
+ | + |
+ | RIP |
+ |2016-|
+ | 2019|
+ |_____|
+Google Allo 📖
+2016 - 2019
+google allo launched in september 2016 as the smart messenger that would make google assistant feel like a person you texted with. ten million people tried it in the first three months, then forgot about it. by february 2017 it had dropped out of the top 500 apps on the play store. google paused dev
+___
+ / \
+ | + |
+ | RIP |
+ |2010-|
+ | 2019|
+ |_____|
+HipChat 📖
+2010 - 2019
+hipchat was a chat room with green check marks for engineers, then a brand atlassian bought, then a brand atlassian replaced, then a brand atlassian sold to the company that beat it. the entire arc fits in nine years. by february 2019 every employee on it was already typing into slack on a second ta
+___
+ / \
+ | + |
+ | RIP |
+ |2009-|
+ | 2026|
+ |_____|
+Samsung Messages 📖
+2009 - 2026
+samsung messages was the stock sms client samsung shipped on galaxy phones from the touchwiz era onward. samsung announced its end-of-service in early 2026 and told users to migrate to google messages. the galaxy s26 line shipped without it on day one. after july 2026 the app was pulled from the gal
+___
+ / \
+ | + |
+ | RIP |
+ |2015-|
+ | 2026|
+ |_____|
+Messenger.com 📖
+2015 - 2026
+messenger.com was the standalone web client for facebook's chat product, spun out from facebook chat in 2015 and folded back into facebook.com eleven years later. the desktop apps for windows and mac were killed in december 2025. the website died in april 2026. the messenger app on phones is still a
+___
+ / \
+ | + |
+ | RIP |
+ |2017-|
+ | 2025|
+ |_____|
+Guilded 📖
+2017 - 2025
+guilded launched on march 17 2017 from eli brown's pitch as the gaming-clan chat platform discord did not want to be. premium tier features were free from day one. 1080p 60fps streaming at 256 kbps audio, with kanban boards and tournament brackets layered on top of the chat client. competitive espor
+___
+ / \
+ | + |
+ | RIP |
+ |2002-|
+ | 2025|
+ |_____|
+NateOn 📖
+2002 - 2025
+dormant
+ nateon was the korean instant messenger that overtook msn in its home country in may 2005 and stayed on top for the rest of the decade. sk communications built it as a bolt-on to the nate portal and welded it to the cyworld minihompy boom. by 2009 the subscriber count was ten million. kakaotalk holl
+___
+ / \
+ | + |
+ | RIP |
+ |2010-|
+ | 2025|
+ |_____|
+HeyTell 📖
+2010 - 2025
+two people ran heytell for fifteen years, which is longer than most funded messengers manage. steven hugg and jen harvey shipped it in february 2010 under the company name voxilate: you held a button down and talked, and letting go put a short audio file on somebody else's phone a second later. it p
+___
+ / \
+ | + |
+ | RIP |
+ |2009-|
+ | 2024|
+ |_____|
+Tinychat 📖
+2009 - 2024
+tinychat launched in february 2009 as a way to open a video chatroom inside a browser tab. by 2011 it was raising money from ashton kutcher and diddy. paltalk bought it in december 2014 and kept it running for another decade as a side property. the shutdown notice appeared on the site on december 16
+see all 106 messengers & chat »
+~ social networks ~
+___
+ / \
+ | + |
+ | RIP |
+ |2003-|
+ | 2011|
+ |_____|
+MySpace (the real one) 📖
+2003 - 2011 (ish)
+your top 8 was a public love letter and a public knife fight. profile songs autoplaying at 3am. tom is still your friend.
+___
+ / \
+ | + |
+ | RIP |
+ |2002-|
+ | 2015|
+ |_____|
+Friendster 📖
+2002 - 2015
+the first social network most americans used. then it became a gaming site. then it disappeared. timeline of a forgotten pioneer.
+___
+ / \
+ | + |
+ | RIP |
+ |2004-|
+ | 2014|
+ |_____|
+Orkut 📖
+2004 - 2014
+google's first social network attempt. weirdly enormous in brazil and india. 300 million users couldn't save it.
+___
+ / \
+ | + |
+ | RIP |
+ |2011-|
+ | 2019|
+ |_____|
+Google+ 📖
+2011 - 2019
+they made you join it to comment on youtube. circles were a great idea trapped in a building no one wanted to enter.
+___
+ / \
+ | + |
+ | RIP |
+ |2010-|
+ | 2018|
+ |_____|
+Path 📖
+2010 - 2018
+"a smaller, more personal social network." capped at 150 friends, like dunbar said. nobody wanted intimate; everyone wanted reach.
+___
+ / \
+ | + |
+ | RIP |
+ |2013-|
+ | 2017|
+ |_____|
+Vine 📖
+2013 - 2017
+six seconds. comedic genius cremated by twitter monetization confusion. tiktok inherited everything but the constraint.
+___
+ / \
+ | + |
+ | RIP |
+ |2013-|
+ | 2017|
+ |_____|
+Yik Yak 📖
+2013 - 2017 (briefly back, then gone again)
+anonymous campus gossip. died of moderation, scaled by reputation. a brief, chaotic, location-based ghost town.
+___
+ / \
+ | + |
+ | RIP |
+ |2009-|
+ | 2017|
+ |_____|
+Bebo 📖
+2005 - 2013
+UK and ireland's myspace. AOL bought it for $850M, sold it for $10M three years later. friend luv was a finite resource.
+___
+ / \
+ | + |
+ | RIP |
+ |2003-|
+ | 2018|
+ |_____|
+Hi5 📖
+2003 - 2018
+huge in latin america and turkey. profile customization paradise. eventually pivoted to gaming, then gave up.
+___
+ / \
+ | + |
+ | RIP |
+ |2022-|
+ | 2025|
+ |_____|
+Cohost 📖
+2022 - 2025
+cohost launched in june 2022 from a four-person not-for-profit cooperative called anti software software club. the team built a twitter-shaped indie network where posts had no visible engagement metrics and supported full css inside the body. it peaked at around 227,000 registered accounts by august
+___
+ / \
+ | + |
+ | RIP |
+ |2005-|
+ | 2024|
+ |_____|
+Renren 📖
+2005 - 2024
+renren was china's facebook for the late 2000s university generation. it launched in december 2005 as xiaonei.com (literally 'on-campus network') and was renamed renren ('everyone's network') in august 2009 after the parent company decided to push beyond colleges. at peak around 2011 it reported 160
+___
+ / \
+ | + |
+ | RIP |
+ |2006-|
+ | 2023|
+ |_____|
+Twitter (2006 - 2023) 📖
+2006 - 2023
+the public conversation site. 280 chars (originally 140), chronological then algorithmic timeline. peak culture 2010-2018. musk bought it october 2022, renamed to X on 23 july 2023.
+___
+ / \
+ | + |
+ | RIP |
+ |2014-|
+ | 2023|
+ |_____|
+Ello 📖
+2014 - 2023
+ello launched in march 2014 as an invite-only social network with a manifesto that said "you are not a product." after facebook started enforcing real-name policies in september 2014, drag queens and lgbtq+ users started signing up at 30,000 per hour. the hype faded inside three months. ello pivoted
+___
+ / \
+ | + |
+ | RIP |
+ |2020-|
+ | 2023|
+ |_____|
+Clash (clash.me) 📖
+2020 - 2023
+the app vine refugees built to fix vine's mistake. paid creators first when tiktok would not. bought byte, pivoted to huddles, was gone by may 2023.
+___
+ / \
+ | + |
+ | RIP |
+ |2021-|
+ | 2023|
+ |_____|
+Reddit Talk 📖
+2021 - 2023
+reddit talk was reddit's clubhouse competitor. the live-audio rooms feature launched on april 19 2021 at the peak of the social-audio craze, ran for almost exactly two years, and shut down on march 21 2023. reddit said it needed time to rethink audio inside the platform. the underlying third-party a
+___
+ / \
+ | + |
+ | RIP |
+ |1995-|
+ | 2026|
+ |_____|
+DataLounge 📖
+1995 - 2026
+datalounge opened in may 1995 as a gay web portal run out of new york and turned into an anonymous forum that outlasted almost everything it started alongside. thirty-one years, more than thirty-six and a half million posts, one webmaster persona and a house style it never updated. it closed on 31 j
+___
+ / \
+ | + |
+ | RIP |
+ |2021-|
+ | 2026|
+ |_____|
+Horizon Worlds (Quest) 📖
+2021 - 2026
+horizon worlds on the meta quest headset was zuckerberg's metaverse bet in its purest form, the vr social world the avatar selfie was supposed to sell. it launched december 2021 for quest owners in the us and canada, struggled to keep more than a few hundred thousand monthly users, became a meme abo
+___
+ / \
+ | + |
+ | RIP |
+ |2016-|
+ | 2026|
+ |_____|
+Workplace by Meta 📖
+2016 - 2026
+workplace launched on october 10, 2016 as facebook's bet that the office wanted its own facebook. it grew out of an internal collaboration tool the company already ran, then opened as a paid product where admins paid per seat and employees got news feed, groups, chat, and live video aimed at coworke
+___
+ / \
+ | + |
+ | RIP |
+ |2021-|
+ | 2026|
+ |_____|
+X Communities 📖
+2021 - 2026
+twitter announced communities at analyst day in february 2021 and started the beta on september 8 2021. it was meant to be a reddit-style topic forum inside twitter where posts only went to community members but stayed publicly visible. it never crossed 0.4% of platform usage. by 2026 the feature wa
+___
+ / \
+ | + |
+ | RIP |
+ |2000-|
+ | 2026|
+ |_____|
+Jeeran 📖
+2000 - 2026
+omar koudsi and laith zraikat started jeeran in amman in 2000, handing out free homepages when there was almost nothing on the web in arabic to put on them. it became a blog host in 2005 and a restaurant and business review site for arab cities in 2010, and at its widest it was drawing close to seve
+___
+ / \
+ | + |
+ | RIP |
+ |2013-|
+ | 2026|
+ |_____|
+Snapzu 📖
+2013 - 2026
+in july 2015 reddit's moderators shut their boards in protest and a few thousand people went looking for somewhere else to post. snapzu was one of the addresses they found, a link aggregator with communities called tribes and posts called snaps, and the traffic knocked it over for a day. the ones wh
+see all 579 social networks »
+~ software & apps ~
+___
+ / \
+ | + |
+ | RIP |
+ |1991-|
+ | 2026|
+ |_____|
+Microsoft Publisher 📖
+1991 - 2026
+microsoft's cheap desktop-publishing app for anyone who was not a designer. it shipped alongside word and excel in office starting 1991, taught a generation of school computer labs how to lay out a bulletin without opening a real page-layout tool, and got quietly retired on 13 october 2026 when micr
+___
+ / \
+ | + |
+ | RIP |
+ |2012-|
+ | 2026|
+ |_____|
+TV Time 📖
+2012 - 2026
+tv time started as tvshow time, a paris startup that shipped a tv-episode tracking app around 2012. an american company called whipclip acquired it in december 2016 and rebranded the whole product to tv time in may 2017. it grew to over twenty million registered users and became the biggest tv-track
+___
+ / \
+ | + |
+ | RIP |
+ |2006-|
+ | 2026|
+ |_____|
+Microsoft SharePoint Designer 📖
+2006 - 2026
+frontpage died in 2006 and left two children. expression web took the general web design work and died young. this one took sharepoint, and it survived because it was the only way to build a workflow without opening visual studio: you picked a condition and an action, and it published to the list. m
+___
+ / \
+ | + |
+ | RIP |
+ |2016-|
+ | 2026|
+ |_____|
+Microsoft 3D Viewer 📖
+2016 - 2026
+3d viewer arrived in the windows store on 11 march 2016 under the name view 3d. after two renames it shipped in the box with windows 10 as the place your machine opened a 3d model. it was one leg of the creators update program built around paint 3d and remix 3d, and it outlived every other part of t
+___
+ / \
+ | + |
+ | RIP |
+ |2015-|
+ | 2026|
+ |_____|
+Tenor API 📖
+2015 - 2026
+the tenor api was the gif search endpoint that powered the discord picker, the whatsapp gif tab and a long bench of other chat clients. it grew out of riffsy, the gif keyboard startup founded in february 2014. google bought tenor in march 2018. on january 13, 2026 google announced the public api wou
+___
+ / \
+ | + |
+ | RIP |
+ |2018-|
+ | 2026|
+ |_____|
+Samsung Max VPN 📖
+2018 - 2026
+samsung max was the data-saving vpn samsung shipped on galaxy phones from 2018 onward, born from the corpse of opera max after opera killed its data-saver in 2017. samsung bought the discontinued service, rewrapped it in a galaxy ui, and let it sit on the play store for eight years with somewhere ov
+see all 883 software & apps »
+~ streaming & video ~
+___
+ / \
+ | + |
+ | RIP |
+ |2020-|
+ | 2026|
+ |_____|
+Trovo 📖
+2020 - 2026
+trovo was tencent's twitch competitor, launched july 2020 in the united states after a brief private beta under the name madcat. it opened with a reported $30 million creator partnership fund and tiered subscriptions similar to twitch's model. it never closed the gap to twitch or youtube gaming. ten
+___
+ / \
+ | + |
+ | RIP |
+ |2015-|
+ | 2026|
+ |_____|
+Kakao TV 📖
+2015 - 2026
+kakao tv launched in june 2015 as the video layer inside the messenger every korean phone already had. it carried my little television, it absorbed daum's live broadcasting service in 2017, and in 2020 it spent real money on vertical dramas made for a phone screen. none of it held. kakao removed the
+___
+ / \
+ | + |
+ | RIP |
+ |2024-|
+ | 2026|
+ |_____|
+AnimeKai 📖
+2024 - 2026
+the largest pirate anime streaming site of early 2026. surfaced after hianime's march 2026 shutdown. died on may 10, 2026 after a fire at its data center power supply, reported around almere in the netherlands. picked up traffic that had nowhere left to go.
+___
+ / \
+ | + |
+ | RIP |
+ |2015-|
+ | 2026|
+ |_____|
+Showmax 📖
+2015 - 2026
+multichoice launched showmax in south africa on 19 august 2015 and by late 2023 it had more subscribers on the continent than netflix did. the rebuild on nbcuniversal's peacock platform in february 2024 was supposed to carry it to sixteen million. instead the operating loss went from 154 million dol
+___
+ / \
+ | + |
+ | RIP |
+ |2017-|
+ | 2026|
+ |_____|
+DLive 📖
+2017 - 2026
+dlive was the blockchain-livestreaming platform charles wayn and cole chen launched in december 2017 as a twitch alternative on the steemit chain. it ran on lemons, a tip currency credited inside the wallet rather than to creators in cash, and built a small big-name moment with the pewdiepie exclusi
+___
+ / \
+ | + |
+ | RIP |
+ |2014-|
+ | 2026|
+ |_____|
+WWE Network 📖
+2014 - 2026
+wwe put its entire pay-per-view catalog and every live event behind one $9.99 monthly subscription on february 24, 2014, at a moment when a single ppv night cost fifty or sixty dollars on cable. it was the first serious direct-to-consumer move by a company that owned both the content and the rights,
+see all 313 streaming & video »
+~ news & publishing ~
+___
+ / \
+ | + |
+ | RIP |
+ |2003-|
+ | 2026|
+ |_____|
+SAPO Blogs 📖
+2003 - 2026
+sapo blogs was the free blog host attached to portugal's own portal, opened in november 2003 when publishing in portuguese meant either blogger or nothing. it carried the portuguese blogosphere through its whole decade and then carried its remains for another one. sapo announced the end on 12 januar
+___
+ / \
+ | + |
+ | RIP |
+ |1998-|
+ | 2026|
+ |_____|
+Digilander 📖
+1998 - 2026
+digilander was the free web space that came with an italian internet account, first from infostrada and then from libero, and for most of thirty years it was where the italian amateur web actually lived. italiaonline emailed users on 29 april 2026 and closed the whole community on 9 june, taking the
+___
+ / \
+ | + |
+ | RIP |
+ |2004-|
+ | 2026|
+ |_____|
+Wikinews 📖
+2004 - 2026
+wikinews was the wikimedia project where volunteers wrote original news reports instead of encyclopedia articles, which meant doing journalism by committee against a deadline nobody could enforce. it launched on 8 november 2004 and never found the volunteers to keep it filled, because wikipedia's ow
+___
+ / \
+ | + |
+ | RIP |
+ |1999-|
+ | 2026|
+ |_____|
+Infowars 📖
+1999 - 2026
+infowars ran out of austin, texas from 1999 and ended because of a defamation bill it could not pay. the families of the children killed at sandy hook elementary won judgments against alex jones worth close to one and a half billion dollars, and the courts spent four years converting his company int
+___
+ / \
+ | + |
+ | RIP |
+ |1995-|
+ | 2026|
+ |_____|
+Tripod.com 📖
+1995 - 2026
+tripod started in 1992 at williams college and launched the consumer free-hosting product in 1995, with bo peabody and dick sabot as the founders. lycos bought it for fifty-eight million dollars in february 1998 and ran it alongside angelfire as the second half of a free homepage duopoly that surviv
+___
+ / \
+ | + |
+ | RIP |
+ |2004-|
+ | 2025|
+ |_____|
+goo blog 📖
+2004 - 2025
+ntt docomo gave the reason for this one in corporate plain text: concentrating management resources after changes in market trends and in how much the service was actually being used. goo blog had run since march 2004, twenty-one years of ordinary japanese writing on a free host attached to a portal
+see all 401 news & publishing »
+~ the dot-com graveyard ~
+___
+ / \
+ | + |
+ | RIP |
+ |2021-|
+ | 2026|
+ |_____|
+Foundation 📖
+2021 - 2026
+the designer-favorite ethereum nft marketplace ran the second curated wave of digital art from 2021 onward. blackdove agreed to buy it in january 2026 and walked away in april after due diligence. founder kayvon tehranian came back to handle the wind-down. roughly $230 million in primary sales and a
+___
+ / \
+ | + |
+ | RIP |
+ |2024-|
+ | 2025|
+ |_____|
+Arkham Exchange 📖
+2024 - 2025
+arkham exchange was the trading subsidiary of arkham intelligence, the blockchain analytics company. it launched as a crypto derivatives venue in october 2024, expanded into us spot trading in early 2025, added a mobile app and a moonpay fiat onramp in late 2025, and shut on 15 december 2025 after r
+___
+ / \
+ | + |
+ | RIP |
+ |2017-|
+ | 2025|
+ |_____|
+Good Glamm Group 📖
+2017 - 2025
+good glamm group was india's first beauty-commerce unicorn, founded in 2017 by darpan sanghvi as the direct-to-consumer brand myglamm. it grew into a "house of brands" holding company that stacked owned d2c products under one parent alongside a portfolio of digital media properties. between 2020 and
+___
+ / \
+ | + |
+ | RIP |
+ |2016-|
+ | 2025|
+ |_____|
+Builder.ai 📖
+2016 - 2025
+builder.ai raised over 450 million dollars on the pitch that an AI called natasha could build your app. wall street journal exposed in august 2019 that a lot of the AI was actually about 700 human coders in india. the company kept going for another six years anyway. a lender seized 37 million from i
+___
+ / \
+ | + |
+ | RIP |
+ |2020-|
+ | 2025|
+ |_____|
+RTFKT 📖
+2020 - 2025
+benoit pagotto co-founded rtfkt studios in january 2020 with steven vasilev and chris le as a digital fashion studio building nft sneakers and ar try-on filters. an early collaboration with the artist fewocious in february 2021 sold seven hundred pairs of digital sneakers for 3.1 million dollars in
+___
+ / \
+ | + |
+ | RIP |
+ |2013-|
+ | 2024|
+ |_____|
+Cruise 📖
+2013 - 2024
+cruise was a general-motors-owned autonomous ride service that ran driverless robotaxis in san francisco and a handful of us metros. on 2 october 2023 a cruise vehicle dragged a pedestrian for about 20 feet after another car hit her; the california DMV pulled the permits three weeks later and cruise
+see all 240 the dot-com graveyard »
+~ file sharing & p2p ~
+___
+ / \
+ | + |
+ | RIP |
+ |2005-|
+ | 2026|
+ |_____|
+360doc Personal Library 📖
+2005 - 2026
+360doc opened in 2005 as somewhere to clip an article you wanted to keep. twenty years later it held more than eighty million accounts and 1.1 billion saved pieces of writing, almost none of it written by the people who saved it. in january 2026 the owners offered the whole platform to anyone able t
+___
+ / \
+ | + |
+ | RIP |
+ |2022-|
+ | 2026|
+ |_____|
+Myrient 📖
+2022 - 2026
+myrient was 390 terabytes of verified game preservation sets served over plain http by one administrator, with no account and no queue and no torrent client required. it held the no-intro and redump sets alongside the arcade and dos collections, which made it the address people sent each other inste
+___
+ / \
+ | + |
+ | RIP |
+ |2001-|
+ | 2024|
+ |_____|
+Subscene 📖
+2001 - 2024
+subscene was a search box on top of a pile of text files. it never hosted a single film. people who had already found the film came here for the words underneath it, in whatever language the copy they had did not carry. the notice went up on 2 may 2024 and the site was gone the next evening, the own
+___
+ / \
+ | + |
+ | RIP |
+ |2011-|
+ | 2023|
+ |_____|
+BayFiles 📖
+2011 - 2023
+bayfiles was gottfrid svartholm and fredrik neij's 2011 attempt to run a file-hosting service that followed the rules. they hired dmca agents. the terms of service explicitly banned copyrighted uploads. the site closed briefly around neij's 2014 arrest, came back under new operators in 2018 as an an
+___
+ / \
+ | + |
+ | RIP |
+ |2008-|
+ | 2023|
+ |_____|
+RARBG 📖
+2008 - 2023
+rarbg ran torrent listings out of bulgaria for fifteen years and collected court-ordered blocks in a dozen countries, which cost its users about the length of one dns change. no police force ever closed it. on 31 may 2023 the operators posted that some of the team had died of covid complications and
+___
+ / \
+ | + |
+ | RIP |
+ |2006-|
+ | 2023|
+ |_____|
+Zippyshare 📖
+2006 - 2023
+zippyshare was the polish-run cyberlocker that lived from 2006 to 2023. forty-five million monthly visits at its peak. the blue download button at the bottom of a forum thread carried mp3 albums and software cracks across seventeen years. killed by ad blockers cutting revenue to near zero and the 20
+see all 119 file sharing & p2p »
+~ websites & web hosts ~
+___
+ / \
+ | + |
+ | RIP |
+ |1994-|
+ | 2009|
+ |_____|
+GeoCities 📖
+1994 - 2009
+the original homepage utopia. neighborhoods, animated GIFs, MIDI files, , "under construction" signs. yahoo killed it in cold blood.
+___
+ / \
+ | + |
+ | RIP |
+ |1995-|
+ | 2024|
+ |_____|
+Angelfire / Tripod 📖
+1995 - technically still on life support
+still up but their hearts stopped beating in 2003. cousin of geocities, smaller, scrappier.
+___
+ / \
+ | + |
+ | RIP |
+ |2004-|
+ | 2017|
+ |_____|
+Digg (the original) 📖
+2004 - 2010 (the redesign was the actual death)
+power users had a religion. the v4 redesign was the schism. reddit ate the whole pie.
+___
+ / \
+ | + |
+ | RIP |
+ |2003-|
+ | 2017|
+ |_____|
+Delicious / del.icio.us 📖
+2003 - 2017
+social bookmarking when bookmarking was social. tags were the future. then they weren't.
+___
+ / \
+ | + |
+ | RIP |
+ |2007-|
+ | 2015|
+ |_____|
+FriendFeed 📖
+2007 - 2015
+the geek's social aggregator. facebook bought it, hired the team, pretended it never existed.
+___
+ / \
+ | + |
+ | RIP |
+ |2009-|
+ | 2010|
+ |_____|
+Google Wave 📖
+2009 - 2010
+"what if email and chat had a baby?" they shipped it. nobody understood it. dead in 14 months.
+___
+ / \
+ | + |
+ | RIP |
+ |2005-|
+ | 2013|
+ |_____|
+Google Reader 📖
+2005 - 2013
+RSS was the open social network. google killed it without warning and the open web has been mourning since.
+___
+ / \
+ | + |
+ | RIP |
+ |2005-|
+ | 2017|
+ |_____|
+YouTube comments before Google+ 📖
+2005 - 2013
+they were chaos but they were OURS. the google+ unification was when youtube comments officially died as culture.
+___
+ / \
+ | + |
+ | RIP |
+ |1999-|
+ | 2026|
+ |_____|
+i-mode 📖
+1999 - 2026
+i-mode was the closest thing the world had to a smartphone before there was a smartphone. ntt docomo launched it in february 1999 in japan as a managed mobile internet stack with proprietary protocols and a monthly subscription bill that handled micropayments inline. by 2006 over eighty million japa
+___
+ / \
+ | + |
+ | RIP |
+ |1991-|
+ | 2025|
+ |_____|
+AOL Dial-Up 📖
+1991 - 2025
+the dial-up internet service that defined the 1990s american internet experience. you tied up the phone line, listened to the modem handshake, logged in, heard "you've got mail" in elwood edwards' voice. broadband killed it slowly through the 2000s but the service kept running anyway for another two
+___
+ / \
+ | + |
+ | RIP |
+ |2003-|
+ | 2025|
+ |_____|
+TypePad 📖
+2003 - 2025
+typepad was the paid blogging service from six apart, the same company behind movable type, launched in october 2003 as a hosted version of the same engine. its heyday was the mid-2000s, when time, wired, the bbc, sky news, abc all ran corporate blogs on it. signups closed in 2020 and the brand drif
+___
+ / \
+ | + |
+ | RIP |
+ |2005-|
+ | 2024|
+ |_____|
+Veoh 📖
+2005 - 2024
+veoh was the second-tier video sharing site of the 2006-2010 era. it was bigger than blip.tv and revver, smaller than youtube, and the differentiator was that it allowed full-length uploads at a time when youtube capped clips at ten minutes. it raised around $70 million from time warner and intel am
+___
+ / \
+ | + |
+ | RIP |
+ |2017-|
+ | 2024|
+ |_____|
+Visual Studio for Mac 📖
+2017 - 2024
+visual studio for mac was microsoft's attempt at running its flagship ide brand on macos, built on top of the xamarin studio lineage that started life as monodevelop in 2003. it shipped to general availability in may 2017 alongside visual studio 2017. seven years later vs code had taken over the cro
+___
+ / \
+ | + |
+ | RIP |
+ |1997-|
+ | 2024|
+ |_____|
+AnandTech 📖
+1997 - 2024
+the website you opened when you wanted to know whether a new cpu was actually faster or just had a higher clock. anand lal shimpi founded it in april 1997 at fourteen years old as anand's hardware tech page, and it became the benchmark-graph standard the rest of the industry copied. purch bought it
+___
+ / \
+ | + |
+ | RIP |
+ |2020-|
+ | 2026|
+ |_____|
+NFTfi 📖
+2020 - 2026
+nftfi was the largest peer-to-peer nft-collateralized lending platform on ethereum, launched in may 2020 by stephen young out of cape town, south africa. lenders offered eth or wrapped eth loans against borrowers' nft collateral (mostly bored apes, cryptopunks, doodles and other blue-chip pfp collec
+___
+ / \
+ | + |
+ | RIP |
+ |2012-|
+ | 2026|
+ |_____|
+Manifest V2 📖
+2012 - 2026
+google took seven years to remove the interface that let a browser extension look at a network request and refuse to make it. manifest v2 was the format chrome extensions were written in from 2012, and its blocking webrequest api is what every serious content blocker was built on. the replacement ha
+___
+ / \
+ | + |
+ | RIP |
+ |2022-|
+ | 2026|
+ |_____|
+Botanix 📖
+2022 - 2026
+botanix was a bitcoin layer-two network built by botanix labs, founded in june 2022 by belgian engineer willem schroé. the pitch was an evm-equivalent layer running on bitcoin via a design schroé called the spiderchain, which used a rotating federation of orchestrator nodes rather than a single cust
+___
+ / \
+ | + |
+ | RIP |
+ |2021-|
+ | 2026|
+ |_____|
+Binance NFT 📖
+2021 - 2026
+binance nft launched 24 june 2021 as the largest centralized NFT marketplace by trading volume, at the top of the 2021-2022 NFT boom. it ran through the market crash of 2022-2024 with progressively narrower feature scope (bitcoin ordinals support dropped 4 april 2024, polygon support dropped septemb
+___
+ / \
+ | + |
+ | RIP |
+ |2017-|
+ | 2026|
+ |_____|
+Loopring 📖
+2017 - 2026
+loopring was one of the first decentralized exchange protocols to bring zero-knowledge rollups to ethereum, founded in 2017 by daniel wang, a shanghai-based software engineer previously at google and jd.com. the lrc token ico in august 2017 raised about $45 million in ether before the china crackdow
+___
+ / \
+ | + |
+ | RIP |
+ |2018-|
+ | 2026|
+ |_____|
+Robot Cache 📖
+2018 - 2026
+$532. that is what the store made selling game software across the whole of 2024, according to its own report to investors. brian fargo founded robot cache on 16 january 2018 to do the one thing steam would not, let you sell a digital game back and keep part of the money, with a cryptocurrency calle
+see all 972 websites & web hosts »
+~ search engines & browsers ~
+___
+ / \
+ | + |
+ | RIP |
+ |1994-|
+ | 2008|
+ |_____|
+Netscape Navigator 📖
+1994 - 2008
+the browser that opened the web. lost the war to internet explorer, then mozilla rose from its ashes. forever the spiritual ancestor of firefox.
+___
+ / \
+ | + |
+ | RIP |
+ |1995-|
+ | 2022|
+ |_____|
+Internet Explorer 📖
+1995 - 2022
+the punching bag. rendered tables creatively. crashed often. the  tag's enemy. retired with grudging respect.
+___
+ / \
+ | + |
+ | RIP |
+ |1995-|
+ | 2013|
+ |_____|
+AltaVista 📖
+1995 - 2013
+before google, this was THE search engine. yahoo bought it, neglected it, finally turned it off. babelfish died with it.
+___
+ / \
+ | + |
+ | RIP |
+ |1996-|
+ | 2010|
+ |_____|
+Ask Jeeves 📖
+1996 - 2010
+a butler answered your questions. then they fired the butler and made it just "Ask.com". it's still around but you don't visit and neither do i.
+___
+ / \
+ | + |
+ | RIP |
+ |1995-|
+ | 2010|
+ |_____|
+Lycos / Excite / HotBot 📖
+1995 - 2010s
+an entire ecosystem of forgotten search competition. dogpile remembered them. nobody else did.
+___
+ / \
+ | + |
+ | RIP |
+ |2015-|
+ | 2020|
+ |_____|
+Microsoft Edge Legacy 📖
+2015 - 2020
+edge legacy was the browser microsoft built to escape internet explorer. it shipped with windows 10 in july 2015 on a new engine called edgeHTML and a new javascript runtime called chakra. four and a half years later microsoft replaced the entire engine with chromium and called the result "the new m
+___
+ / \
+ | + |
+ | RIP |
+ |1998-|
+ | 2018|
+ |_____|
+Voilà 📖
+1998 - 2018
+the french web portal and search engine that was the default homepage for a generation of french users in the late 1990s and early 2000s. owned by France Telecom, eaten by google, and quietly turned off in 2018.
+___
+ / \
+ | + |
+ | RIP |
+ |1997-|
+ | 2017|
+ |_____|
+About.com 📖
+1997 - 2017
+about.com was the human-edited topic-guides site that got eaten by google panda and its own scale. for ten years it sat on top of the search results for any "how do i do x" query in english. then the algorithm hit. by 2017 it had been sold three times in a decade and dissolved into a brand called do
+___
+ / \
+ | + |
+ | RIP |
+ |1998-|
+ | 2017|
+ |_____|
+DMOZ 📖
+1998 - 2017
+dmoz was the volunteer attempt to keep the human-edited directory alive after yahoo's directory turned commercial. tens of thousands of editors classified millions of sites into a hierarchy that anyone could download under a permissive license. it lasted nineteen years on aol life support before aol
+___
+ / \
+ | + |
+ | RIP |
+ |2006-|
+ | 2016|
+ |_____|
+ChaCha 📖
+2006 - 2016
+chacha was a us-only sms search service from scott a. jones and brad bostic, launched september 1, 2006 in carmel, indiana. you texted a question to the short code 242-242 and a paid human guide texted back an answer. it raised about $58 million in venture money including from jeff bezos and peaked
+___
+ / \
+ | + |
+ | RIP |
+ |1996-|
+ | 2016|
+ |_____|
+HotBot 📖
+1996 - 2016
+hotbot launched in 1996 with the loudest design of any search engine on the web and a back-end called inktomi that updated its index weekly when its rivals updated monthly. for two years that was a real competitive edge. then google arrived with a different ranking model and the entire pre-google se
+___
+ / \
+ | + |
+ | RIP |
+ |1997-|
+ | 2025|
+ |_____|
+goo 📖
+1997 - 2025
+at one in the afternoon on 25 november 2025, ntt turned off a portal that had been running since 1997. goo started as a japanese-language crawler a year before google existed, grew a whole family of services under one brand, and then spent its last decade serving search results out of google's index
+___
+ / \
+ | + |
+ | RIP |
+ |2017-|
+ | 2025|
+ |_____|
+AOL Shield Pro 📖
+2017 - 2025
+aol shield pro was a chromium-based windows web browser that aol sold on a subscription for about $3.99 a month with a 30-day free trial. it launched around late 2017 as a paid successor to the earlier free aol shield browser, aimed at users who wanted a chrome-compatible browser with layered securi
+___
+ / \
+ | + |
+ | RIP |
+ |1993-|
+ | 2025|
+ |_____|
+ALIWEB 📖
+1993 - 2025
+martijn koster announced aliweb on 30 november 1993 from nexor in nottingham, which makes it the first search engine anyone built for the web. it did not crawl. site owners wrote a small index file describing their own pages and registered where it lived, and aliweb fetched those files on a schedule
+___
+ / \
+ | + |
+ | RIP |
+ |1996-|
+ | 2024|
+ |_____|
+My Yahoo! 📖
+1996 - 2024
+my yahoo was yahoo's customizable portal homepage, launched july 15 1996 as a per-user version of the main yahoo directory. you picked modules from a catalog (stock quotes, weather, sports scores, your email preview), arranged them on a grid, set a color theme. by 2005 yahoo had layered RSS aggregat
+___
+ / \
+ | + |
+ | RIP |
+ |2000-|
+ | 2024|
+ |_____|
+Exalead 📖
+2000 - 2024
+francois bourdoncle helped build the part of altavista that let you narrow a query, then spent the next decade building a french search engine that did the same trick better. exalead crawled about eight billion pages on its own hardware and put thumbnails and file-type filters in front of you years
+___
+ / \
+ | + |
+ | RIP |
+ |1997-|
+ | 2024|
+ |_____|
+Google Cache 📖
+1997 - 2024
+google cache shipped with the search engine itself in 1997. every result on the search page had a cached link beside it that took you to a stored copy of that page as google had last crawled it. the cache: search operator let you jump straight to the cached version of any url. for two and a half dec
+see all 259 search engines & browsers »
+~ media & music ~
+___
+ / \
+ | + |
+ | RIP |
+ |1999-|
+ | 2002|
+ |_____|
+Napster (the original) 📖
+1999 - 2002
+it broke everything. the riaa won the lawsuit but lost the war. it took 24 years for a paid streaming model to fully replace the dream.
+___
+ / \
+ | + |
+ | RIP |
+ |2000-|
+ | 2010|
+ |_____|
+Kazaa / LimeWire / Bearshare 📖
+early 2000s - 2010ish
+downloaded a virus and an album the same afternoon. installed three browser toolbars by accident.
+___
+ / \
+ | + |
+ | RIP |
+ |1997-|
+ | 2013|
+ |_____|
+Winamp (it really whips the llama's...) 📖
+1997 - 2013 (and a few resurrections)
+skinnable, customizable, the player that taught us about MP3 ID3 tags. AOL bought it. AOL killed it. AOL.
+___
+ / \
+ | + |
+ | RIP |
+ |1995-|
+ | 2022|
+ |_____|
+RealPlayer 📖
+1995 - technically still alive, spiritually 2005
+dormant
+ .rm files. buffering. their entire business model was making us click "no" to bundled software 47 times per install.
+___
+ / \
+ | + |
+ | RIP |
+ |2007-|
+ | 2015|
+ |_____|
+Grooveshark 📖
+2007 - 2015
+free music streaming with no apparent licensing. legally questionable. spiritually beloved. eventually sued out of existence.
+___
+ / \
+ | + |
+ | RIP |
+ |2010-|
+ | 2015|
+ |_____|
+Rdio 📖
+2010 - 2015
+spotify's prettier european cousin. better UI, smaller catalog, no chance.
+___
+ / \
+ | + |
+ | RIP |
+ |1996-|
+ | 2020|
+ |_____|
+Adobe Flash 📖
+1996 - 2020
+flash games, flash banners, flash intro pages. the entire weird and wonderful internet of the 2000s ran on it. steve jobs is still smiling.
+___
+ / \
+ | + |
+ | RIP |
+ |2008-|
+ | 2024|
+ |_____|
+8tracks 📖
+2008 - 2024
+the playlist site for people who still thought of mixtapes as a love language. you uploaded eight or more tracks, named the mix, tagged it with a mood or activity, and let strangers stream it on shuffle. it peaked at eight million monthly active users in 2014 and fell apart on us soundexchange royal
+___
+ / \
+ | + |
+ | RIP |
+ |2015-|
+ | 2018|
+ |_____|
+Apple Music Connect 📖
+2015 - 2018
+connect was the social tab inside Apple Music when the service launched in June 2015. the idea was that artists would post photos, videos, lyric drafts, and behind-the-scenes notes directly to their followers. nobody did. by 2016 the tab was a graveyard of one-off launch posts, and on december 13 20
+___
+ / \
+ | + |
+ | RIP |
+ |2007-|
+ | 2016|
+ |_____|
+Songza 📖
+2007 - 2016
+songza launched in november 2007 from new york as a streaming service whose interface asked "what are you doing right now" and answered with a hand-curated playlist for it. by late 2013 it had 5.5m active users, almost all of them in the us. google paid an undisclosed sum for it on july 1, 2014, mos
+___
+ / \
+ | + |
+ | RIP |
+ |2005-|
+ | 2014|
+ |_____|
+MOG 📖
+2005 - 2014
+mog was on the right track at the wrong moment. it was a $10/month all-you-can-stream service in
 
 ## 评论（120/120）
 
@@ -656,5 +1892,5 @@ Show HN: Rip.so – a graveyard for dead internet things
 
 - 项目页：[[10-项目/rip.so_3f7fbcb1]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

@@ -43,7 +43,7 @@ Yes, this is my ultimate caving simulator game. Wishlist it if you dare! [https:
 
 ## 关联链接
 
-- https://store.steampowered.com/app/4372950/Cave\_Expedition/
+- https://store.steampowered.com/app/4372950/Cave
 - https://store.steampowered.com/app/4372950/Cave_Expedition/
 
 ## 导航

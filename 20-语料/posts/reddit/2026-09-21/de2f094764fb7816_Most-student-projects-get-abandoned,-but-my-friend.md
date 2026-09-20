@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/IndieDev/comments/1ujrgws/most_student_projects_g
 project_url: "https://store.steampowered.com/app/4742440/Cold_Contours_Intake"
 author: "helloimakegames"
 published_at: "2026-06-30T22:54:10+08:00"
-captured_at: "2026-09-21T01:36:48+08:00"
+captured_at: "2026-09-21T03:02:04+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -20,8 +20,8 @@ tags:
   - r/indiedev
   - Upcoming!
 metrics: {"score": 61, "comments": 5, "upvote_ratio": 1}
-comments_count: 0
-comments_total: 0
+comments_count: 5
+comments_total: 5
 discovered_via: "reddit:113d+settle3"
 ---
 
@@ -36,7 +36,7 @@ discovered_via: "reddit:113d+settle3"
 > 指标：得分=61 · 评论=5 · 赞踩比=1
 > 作者：helloimakegames　|　发布：2026-06-30T22:54:10+08:00
 > 项目链接：<https://store.steampowered.com/app/4742440/Cold_Contours_Intake>
-> 采集：2026-09-21T01:36:48+08:00　|　id：`de2f094764fb7816`
+> 采集：2026-09-21T03:02:04+08:00　|　id：`de2f094764fb7816`
 
 ## 正文
 
@@ -47,6 +47,32 @@ So, here is our first real milestone: [Cold Contours](https://store.steampowered
 It’s a small game, but it means the world to us. Getting visibility as students is incredibly tough, so if you like atmospheric puzzles, a [wishlist](https://store.steampowered.com/app/4742440/Cold_Contours_Intake/) would be a huge boost to our morale.
 
 Thank you for reading our story! We'd love to know what you think of the visual atmosphere we created. ❤️
+
+## 评论（5/5）
+
+> **Known-Mall5253**（1 分） · 2026-06-30T23:23:52+08:00　
+> **Interesting, I think I'll give it a try.**
+
+---
+
+> **VallariusDev**（1 分） · 2026-06-30T23:30:42+08:00　
+> Interesting concept, looks good.
+
+---
+
+> **Leo0806-studios**（1 分） · 2026-07-01T01:35:10+08:00　
+> from looking at the gifs it gives very "old aperture" vibes from portal 2
+> i like it
+
+---
+
+> **techbri**（1 分） · 2026-07-01T01:50:31+08:00　
+> Oh another megastructure game! Hell yes!
+
+---
+
+> **kakassss**（1 分） · 2026-07-01T04:50:57+08:00　
+> keep it up mate, best of luck!
 
 ## 关联链接
 

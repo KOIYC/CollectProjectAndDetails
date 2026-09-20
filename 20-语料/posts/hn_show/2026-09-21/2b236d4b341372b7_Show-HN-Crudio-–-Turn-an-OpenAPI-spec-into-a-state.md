@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=48726455"
 project_url: "https://github.com/enricodeleo/crudio"
 author: "enricodeleo"
 published_at: "2026-06-29T23:00:39Z"
-captured_at: "2026-09-21T01:29:55+08:00"
+captured_at: "2026-09-21T03:11:01+08:00"
 lang: "en"
 kind: "post"
-topic: "开发者工具"
+topic: "AI 工具/Agent"
 shard: "2026-09-21"
 pub_day: "2026-06-29"
 tags:
@@ -28,17 +28,323 @@ discovered_via: "hn:show_hn:113d"
 
 # Show HN: Crudio – Turn an OpenAPI spec into a stateful mock back end
 
+> [!info] 一句话导读
+> Crudio turns an OpenAPI/Swagger spec into a real, stateful CRUD backend with persistence, strict validation, and optional fake-data seeding.
+
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=48726455>
 > 指标：点赞=3 · 评论=0 · engagement_velocity=3
 > 作者：enricodeleo　|　发布：2026-06-29T23:00:39Z
 > 项目链接：<https://github.com/enricodeleo/crudio>
-> 采集：2026-09-21T01:29:55+08:00　|　id：`2b236d4b341372b7`
+> 采集：2026-09-21T03:11:01+08:00　|　id：`2b236d4b341372b7`
+
+## 正文
+
+# enricodeleo/crudio
+
+Crudio turns an OpenAPI/Swagger spec into a real, stateful CRUD backend with persistence, strict validation, and optional fake-data seeding.
+
+- Stars: 2
+- Forks: 1
+- Watchers: 2
+- Open issues: 0
+- License: MIT License
+- Default branch: main
+- Created: 2026-04-23T14:12:34Z
+
+## Languages
+
+- JavaScript
+- Shell
+
+## Top Contributors
+
+- enricodeleo (92 contributions)
+
+---
+
+## README
+
+ Crudio
+
+ Turn an OpenAPI 3.x spec into a working, stateful mock backend.
+
+ Spec-driven and stateful and validating — the one cell other mock tools leave empty.
+
+ Quick Start · How It Works · Scope · Full API Docs · Configuration
+
+---
+
+## Demo
+
+One command turns any OpenAPI 3.x spec into a running, **stateful** backend — seed it, write to it, and it remembers what you did:
+
+Crudio demo
+
+```console
+$ npx @enricodeleo/crudio ./openapi.yaml --seed 3
+Crudio running on port 3000
+
+$ curl -s localhost:3000/pets                 # 3 seeded records — schema-shaped, real IDs
+[{"name":"ea","tag":"dog","id":1},{"name":"accommodo","tag":"cat","id":2},{"name":"tui","tag":"bird","id":3}]
+
+$ curl -s -XPOST localhost:3000/pets -H content-type:application/json -d '{"name":"Rex","tag":"dog"}'
+{"name":"Rex","tag":"dog","id":4}             # persisted — next id, written to disk
+
+$ curl -s localhost:3000/pets/4               # still there on the next request
+{"name":"Rex","tag":"dog","id":4}
+
+$ curl -s -XPOST localhost:3000/pets -H content-type:application/json -d '{"tag":"dog"}'
+{"error":"Validation failed"}                 # rejected — `name` is required by your schema
+```
+
+  set ASCIINEMA_ID and use:
+ Watch the demo -->
+
+## What is Crudio?
+
+Crudio reads an OpenAPI 3.x specification and spins up a working mock API with persistence — stateful, schema-driven, derived entirely from your contract. CRUD endpoints behave like a small real backend; non-CRUD endpoints keep per-operation state so the whole spec is servable from one runtime.
+
+## Why
+
+Stateless mock servers return canned responses. That's fine for smoke tests, but not enough when you need to verify that your frontend actually handles pagination, validation errors, 404s, and partial updates correctly.
+
+Crudio gives you a backend that behaves like a real one — because it derives everything from your API contract:
+
+- CRUD request bodies are validated against your schema
+- data persists across calls (JSON files, no database needed)
+- IDs are generated based on your spec (integers, UUIDs, etc.)
+- CRUD routes use shared resource state
+- non-CRUD routes use persisted operation state
+
+Put differently: **Prism gives you spec-driven mocks, but they're stateless. json-server gives you stateful CRUD, but it isn't spec-driven and skips validation. Crudio is both** — a backend generated entirely from your OpenAPI contract that actually remembers what you did to it.
+
+**Use it for:** integration testing, frontend development, API prototyping, contract verification.
+
+**Don't use it for:** production backends, load testing, or anything that needs domain-specific business logic without custom handlers.
+
+## Quick Start
+
+```bash
+# Run against any OpenAPI 3.x spec
+npx @enricodeleo/crudio ./openapi.yaml
+
+# With fake data
+npx @enricodeleo/crudio ./openapi.yaml --seed 10
+
+# Custom port and storage
+npx @enricodeleo/crudio ./openapi.yaml --port 8080 --data-dir /tmp/data
+```
+
+> **Tip:** install once with `npm i -g @enricodeleo/crudio` and the command shortens to `crudio ./openapi.yaml`.
+
+Given a standard CRUD spec with paths like `/pets` and `/pets/{petId}`, you get:
+
+```bash
+# Create
+curl -X POST http://localhost:3000/pets \
+  -H 'Content-Type: application/json' \
+  -d '{"name":"Rex","tag":"dog"}'
+# → 201 {"id":1,"name":"Rex","tag":"dog"}
+
+# List — the response shape follows the spec.
+# If GET /pets is documented as `type: array`, you get a plain array:
+curl http://localhost:3000/pets?tag=dog&limit=10&offset=0
+# → 200 [{"id":1,"name":"Rex","tag":"dog"}]
+# If it's documented as an object (e.g. {items, total, nextCursor}), Crudio
+# fills the first array property and any total/count field accordingly.
+
+# Get by ID
+curl http://localhost:3000/pets/1
+# → 200 {"id":1,"name":"Rex","tag":"dog"}
+
+# Partial update
+curl -X PATCH http://localhost:3000/pets/1 \
+  -H 'Content-Type: application/json' \
+  -d '{"tag":"cat"}'
+# → 200 {"id":1,"name":"Rex","tag":"cat"}
+
+# Delete
+curl -X DELETE http://localhost:3000/pets/1
+# → 204
+```
+
+Invalid CRUD requests are rejected against your schema:
+
+```bash
+curl -X POST http://localhost:3000/pets \
+  -H 'Content-Type: application/json' \
+  -d '{"tag":"dog"}'
+# → 400 {"error":"Validation failed","details":[...]}
+```
+
+## How It Works
+
+1. **Load** — reads your OpenAPI 3.x spec and dereferences all `$ref` pointers
+2. **Compile** — normalizes every OpenAPI operation into a single registry entry
+3. **Infer** — detects CRUD resource pairs from path patterns (`/users` + `/users/{id}`)
+4. **Validate** — compiles AJV validators from your CRUD resource schemas for strict request checking
+5. **Route** — registers Express routes for every operation defined in the spec
+6. **Adapt** — optionally applies declarative rules or wraps an operation with a custom JavaScript handler
+7. **Persist** — stores CRUD-backed resources and operation-state payloads in JSON files
+
+CRUD-shaped operations share resource state. Everything else is served as operation-state: the response body is persisted per operation scope and replayed on later reads, with optional projection into a parent resource when the response schema is a compatible subset.
+
+For non-CRUD operations without an explicit seed, Crudio generates a fake payload from the documented response schema at boot and serves it on the first call (then stays consistent per scope). Set `responseFake: 'off'` to restore the legacy echo-input behavior — see Configuration for the full rules.
+
+## How Crudio Compares
+
+There are great mock servers out there. Most sit on one side of a tradeoff: they're either spec-driven *or* stateful, rarely both, and rarely with validation thrown in for free.
+
+| | From OpenAPI spec | Stateful CRUD | Request validation | Setup |
+| --- | --- | --- | --- | --- |
+| **Crudio** | ✅ | ✅ persists to disk | ✅ from schema | one command |
+| Prism | ✅ | ❌ stateless by design | ✅ | one command |
+| json-server | ❌ uses a `db.json` | ✅ persists to disk | ❌ | needs a data file |
+| Mockoon | ⚠️ import only\* | ✅ in-memory, resets on restart | ❌ | manual CRUD wiring |
+| WireMock | ❌ | ✅ via scenarios | partial | manual stubs |
+
+ \* Mockoon's OpenAPI import generates **stateless** routes; turning them into stateful CRUD is a manual conversion step.
+
+The cell no other tool fills: **point Crudio at a spec and get a stateful, validating backend with zero manual wiring.** If you only need canned responses, Prism is lighter. If you don't have a spec, json-server is simpler. If you live in a GUI, Mockoon is nicer. Crudio is for when your contract *is* the source of truth and you want it to behave like the real thing.
+
+## Declarative Rules
+
+For many non-trivial endpoints you can stay in config and avoid JavaScript entirely.
+
+```js
+export default {
+  operations: {
+    login: {
+      rules: [
+        {
+          name: 'admin-login',
+          if: { eq: [{ ref: 'req.body.email' }, 'ada@example.com'] },
+          then: {
+            writeState: {
+              token: 'mock-token',
+              role: 'admin',
+            },
+            respond: {
+              status: 200,
+              body: { ref: 'state.current' },
+            },
+          },
+        },
+      ],
+    },
+  },
+};
+```
+
+Stage 5 rules are:
+
+- `first match wins`
+- limited to `eq`, `exists`, and `in`
+- limited to `writeState`, `mergeState`, `patchResource`, and `respond`
+- operation-state writes stay local to the current operation
+- `patchResource` can shallow-patch only the inferred linked CRUD resource item
+
+If a route has `rules` and no rule matches, Crudio falls back to the built-in runtime. If a route has both `rules` and a JS `handler`, no-match is an explicit `500` instead of a silent handler fallback.
+
+When `patchResource` runs, `resource.current` becomes the post-patch snapshot for the rest of that rule, so `respond` can return the updated linked resource without JavaScript. If the linked item does not exist, the rule returns `404`.
+
+## Custom Handlers
+
+When declarative rules are not enough, you can override or wrap any operation with JavaScript in `crudio.config.js`.
+
+```js
+export default {
+  operations: {
+    createPet: {
+      handler: async (ctx) => {
+        const created = await ctx.nextDefault();
+        return ctx.json(created.status, { ...created.body, source: 'custom' });
+      },
+    },
+    startRelease: {
+      handler: './handlers/startRelease.js',
+    },
+  },
+};
+```
+
+Available `ctx` helpers:
+
+- `ctx.req` — normalized `params`, `query`, `body`, `headers`
+- `ctx.state` — read/write operation-state for the current scope
+- `ctx.resources` — CRUD helpers over inferred resources
+- `ctx.storage` — raw storage access
+- `ctx.json(status, body, headers?)` — return a normalized response descriptor
+- `ctx.nextDefault()` — run the built-in runtime once, then wrap or replace it
+
+Custom handlers work on both CRUD and non-CRUD routes. CRUD request validation still runs before the handler, and response validation follows `validateResponses`. When `rules` and `handler` coexist on the same operation, rules run first.
+
+## Supported / Unsupported
+
+### Supported
+
+- OpenAPI 3.0 (`$ref`, `allOf`, path parameters, request/response schemas)
+- CRUD operations: list, getById, create, update, patch, delete
+- non-CRUD operations with persisted per-operation state
+- CRUD request validation against schema
+- Pagination (`limit`, `offset`) and equality filters
+- Schema-driven ID generation (incremental integer, UUID, string)
+- Fake data seeding for CRUD resources
+- explicit default and per-scope seeding for non-CRUD operations
+- auto-fake fallback from response schema for non-CRUD operations (opt-out via `responseFake: 'off'`)
+- example-aware fake generation: schema `example` values are returned verbatim, `enum` and string `format` (`email`, `uuid`, `date-time`, …) are enforced
+- response shapes follow the spec (array vs object wrapper); paginated `{items, total}`-style wrappers are auto-built from any object response schema
+- tolerant of common spec imperfections (orphan `nullable` inside `oneOf` is sanitized before AJV compile)
+- Programmatic usage as a Node.js library
+
+### Not supported (v1)
+
+- `oneOf`, `anyOf`, discriminators — Crudio fails fast with a clear error if these are present
+- Swagger 2.0
+- domain-specific business logic inference
+- Sorting, nested filters, full-text search
+- File uploads / multipart
+
+## CLI
+
+```
+Usage: crudio <spec-file> [options]
+
+  --port, -p <number>      Port (default: 3000)
+  --data-dir, -d <path>    Storage directory (default: ./data)
+  --seed, -s <number>      Seed N fake records per resource
+  --config, -c <path>      Path to config file
+```
+
+## Documentation
+
+- API Reference — endpoints, status codes, validation, query params, ID generation
+- Configuration — config file, resource/operation overrides, seeding options
+- FAQ — how Crudio compares to Prism, json-server, Mockoon, and WireMock
+- Development — project structure, running tests, architecture
+
+## Ecosystem
+
+Crudio pairs well with AquaSDK, a JavaScript SDK generator for OpenAPI specs.
+
+- **Crudio**: run the backend from the spec
+- **AquaSDK**: generate the client from the same spec
+
+## License
+
+MIT
+
+## 关联链接
+
+- http://localhost:3000/pets
+- http://localhost:3000/pets/1
+- http://localhost:3000/pets?tag=dog&limit=10&offset=0
 
 ## 导航
 
 - 项目页：[[10-项目/github.com_3bdb2915]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

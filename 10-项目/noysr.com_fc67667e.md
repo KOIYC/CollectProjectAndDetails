@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: We made an Audio ML sharing platform"
 project_url: "https://noysr.com/explore"
-first_seen: "2026-09-21T01:29:55+08:00"
+first_seen: "2026-09-21T02:53:13+08:00"
 sources:
   - hn_show
 tags:
@@ -16,9 +16,12 @@ lang: "en"
 
 # Show HN: We made an Audio ML sharing platform
 
+> [!info] 一句话导读
+> Find finetunes and workflows of open source audio models
+
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://noysr.com/explore>
-> 首次收录：2026-09-21T01:29:55+08:00
+> 首次收录：2026-09-21T02:53:13+08:00
 > 来源渠道：HN Show HN
 > 标签：author_bigboi6969, story_48728324, show_hn
 > 最新指标：点赞=2 · 评论=0 · engagement_velocity=2
@@ -28,3 +31,8 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T01:29:55+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/0879c69f36583299_Show-HN-We-made-an-Audio-ML-sharing-platform]] |
+| 2026-09-21T02:53:13+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/0879c69f36583299_Show-HN-We-made-an-Audio-ML-sharing-platform]] |
+
+## 摘要正文
+
+Noysr  # Explore  ## Find finetunes and workflows of open source audio models  ### TTS models  View all  Loading  ### Audio models  View all  Loading  Noysr [Noysr](https://www.noysr.com/explore)Create Search UploadLogin # Explore ## Find finetunes and workflows of open source audio models ### TTS models View all Loading ›‹ ### Audio models View all Loading ›‹

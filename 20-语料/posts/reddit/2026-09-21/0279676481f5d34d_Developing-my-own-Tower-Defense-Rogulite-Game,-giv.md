@@ -43,7 +43,7 @@ Steam Demo: [https://store.steampowered.com/app/5096200/Get\_Outta\_My\_Gut\_Dem
 
 ## 关联链接
 
-- https://store.steampowered.com/app/5096200/Get\_Outta\_My\_Gut\_Demo/
+- https://store.steampowered.com/app/5096200/Get
 - https://store.steampowered.com/app/5096200/Get_Outta_My_Gut_Demo/
 
 ## 导航

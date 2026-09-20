@@ -1,53 +1,53 @@
 {
-  "generated": "2026-09-21T02:30:04+08:00",
+  "generated": "2026-09-21T03:29:27+08:00",
   "n_live": 1515,
-  "n_usable": 777,
-  "n_project": 648,
+  "n_usable": 1328,
+  "n_project": 1189,
   "signals": 40,
   "topics": [
     [
       "AI 工具/Agent",
-      441
+      850
     ],
     [
       "开发者工具",
-      195
+      299
     ],
     [
       "未分类",
-      73
+      84
     ],
     [
       "游戏",
-      22
+      34
     ],
     [
       "移动 App",
-      16
+      22
     ],
     [
       "SaaS/B2B",
-      9
+      13
     ],
     [
       "内容/媒体",
-      9
+      11
     ],
     [
       "教育/学习",
       6
     ],
     [
+      "健康/生活",
+      4
+    ],
+    [
       "电商/独立站",
       3
     ],
     [
-      "健康/生活",
-      2
-    ],
-    [
       "浏览器扩展",
-      1
+      2
     ]
   ],
   "strong": [
@@ -74,12 +74,12 @@
         "reddit"
       ],
       "n_channels": 2,
-      "title": "Show HN: Custom slash commands, variables and snippets",
-      "url": "https://chromewebstore.google.com/detail/text-expander-autofill-sl/jjeibagdcmgahjglbglpjcjilpaheeco",
+      "title": "Show HN: Claude Exporter – Export Chats to PDF/Word/Notion",
+      "url": "https://chromewebstore.google.com/detail/claude-exporter-claude-ch/mhckealbblinipeplfddmbcohdidkfjf",
       "metrics": {
-        "points": 2,
-        "comments": 0,
-        "engagement_velocity": 2
+        "points": 6,
+        "comments": 2,
+        "engagement_velocity": 6
       }
     },
     {
@@ -89,8 +89,8 @@
         "reddit"
       ],
       "n_channels": 2,
-      "title": "Show HN: On-device meeting transcription for iPhone (no cloud, no account)",
-      "url": "https://apps.apple.com/us/app/fieldnoter-transcription/id6789909820",
+      "title": "Show HN: I made a Tamagotchi app that lets you add your real-life pets",
+      "url": "https://apps.apple.com/bg/app/boko-tamagotchi-virtual-pet/id6759446145",
       "metrics": {
         "points": 2,
         "comments": 0,
@@ -113,7 +113,7 @@
       }
     }
   ],
-  "money_n": 326,
+  "money_n": 641,
   "money_quotes": [
     {
       "source": "betalist",
@@ -141,66 +141,80 @@
     },
     {
       "source": "betalist",
+      "title": "Clickydots",
+      "url": "https://betalist.com/startups/clickydots",
+      "quote": "any in the middle. No telemetry, works offline. One-time purchase, no subscription. Visit Site Visit Site Makers Pawel Krupski Topics Note taking Productivity Mac Appl"
+    },
+    {
+      "source": "betalist",
+      "title": "Accszone",
+      "url": "https://betalist.com/startups/accszone",
+      "quote": ", VPN, VPS, gift cards, and SMS/OTP services, with instant delivery, warranty, and 24/7 support. Get real, high-quality aged and verified social media accounts per"
+    },
+    {
+      "source": "betalist",
       "title": "Recoura",
       "url": "https://betalist.com/startups/recoura",
       "quote": "Recoura offers manual and automatic recovery of failed payments for revenue that Stripe and Square give up on. It includes custom email templates, multi-currency sup"
     },
     {
-      "source": "bilibili",
-      "title": "为什么很多程序员都不去做独立开发者？",
-      "url": "https://www.bilibili.com/video/BV13S421A7KF",
-      "quote": "为什么很多程序员都不去做独立开发者？. 对于那些想要突破传统工作模式，寻求创新和收入突破的程序员来说，独立开发者是一个非常值得尝试的选择，它或许可以真的使程序员实现工作自由、时间自由、消费自由。"
+      "source": "betalist",
+      "title": "Jobboardsearch",
+      "url": "https://betalist.com/startups/jobboardsearch",
+      "quote": "Pathfinder UK's first AI-powered 0-to-hired employability platform RevenueHarbor Discover vetted founder-authorized businesses with private intros Host4.ai BOOS"
     },
     {
-      "source": "bilibili",
-      "title": "独立开发者一年可以赚多少钱？",
-      "url": "https://www.bilibili.com/video/BV1DUAJzwEUk",
-      "quote": "独立开发者一年可以赚多少钱？. 不知不觉做独立开发有一年多了，今天跟大家分享下目前的收入情况。 大家好！我目前正在开发一款致敬循环英雄的游戏，会在这个频道记录游戏的开发过程和日常，有兴趣的小伙伴可以关注我哦～"
+      "source": "betalist",
+      "title": "Cv Blender",
+      "url": "https://betalist.com/startups/cv-blender",
+      "quote": "th for free. One-time passes unlock Word export and higher limits. No subscription, no ads, no card required. https://cvblender.com/refer/wznj39pd Betalist readers who joi"
     },
     {
-      "source": "bilibili",
-      "title": "6个月开发，独立游戏不如送外卖？",
-      "url": "https://www.bilibili.com/video/BV1oiLt6jERS",
-      "quote": "6个月开发，独立游戏不如送外卖？. 本期视频主要分享这六个月开发的收入和总结，以及分享了我们对这个行业的看法和认识，希望能给想要入行的朋友们多一些参考。 视频中提到的B站圈内UP老师@熊蜂bebe @管好你的左手 @ZZeidou @一只宁宁_ @極"
+      "source": "betalist",
+      "title": "Inquio",
+      "url": "https://betalist.com/startups/inquio",
+      "quote": "rms CompeteScan Track who AI recommends in your category and get a plan to win WZRD BOOSTED Turn plain ideas into interactive docs, forms, and decks that con"
     },
     {
-      "source": "bilibili",
-      "title": "【中配】月入7.7万美元的独立开发者，每天只工作4小时？他的秘诀竟然是疯狂发布产品！",
-      "url": "https://www.bilibili.com/video/BV1QVLp6dEMC",
-      "quote": "【中配】月入7.7万美元的独立开发者，每天只工作4小时？他的秘诀竟然是疯狂发布产品！. Marc Lou 是一名月入 7.7 万美元的独立创业者，创办了 35 家初创公司。很多人好奇他是如何完"
+      "source": "betalist",
+      "title": "Unjumbl",
+      "url": "https://betalist.com/startups/unjumbl",
+      "quote": "njumbl turns a photo of a messy room into a step-by-step decluttering plan divided into 15-minute zones, sorting items into collect, donate, or trash. If you're uns"
     },
     {
-      "source": "bilibili",
-      "title": "海外独立站上线 7 个月 我收获月度订阅5000$+",
-      "url": "https://www.bilibili.com/video/BV1vQbr6SESY",
-      "quote": "海外独立站上线 7 个月 我收获月度订阅5000$+. 海外独立站上线 7 个月 我收获月度订阅$5000+ 一开始源于一个简单的想法，vibecoding大概1周多时间 后来陆续迭代 当然收入还包含不少成本，整体也"
-    },
-    {
-      "source": "bilibili",
-      "title": "独立开发者不上班如何养活自己？收入如何？怎么接单？有什么要求？",
-      "url": "https://www.bilibili.com/video/BV1Tv411b7JZ",
-      "quote": "独立开发者不上班如何养活自己？收入如何？怎么接单？有什么要求？. 【自由职业实证】系列是一个记录我不上班并养活自己的探索系列视频，偶尔也会分享周围朋友自由职业的故事~往期视频均可在我的收藏夹【自由职业探索之路】查看"
-    },
-    {
-      "source": "bilibili",
-      "title": "我用AI把YouTube变成了一门全球生意｜一人公司出海实战经验分享",
-      "url": "https://www.bilibili.com/video/BV1sR3g6iEYd",
-      "quote": "战经验分享. 分享过去一年我开始钻研 YouTube 后，如何用AI搭建个人网站承接 YouTube 流量，通过网站展示和销售产品、获得美金收入；同时利用 AI 辅助选题、内容制作和剪辑，持续生产更多高质量和有爆款潜力的视频，形成“内容流量—网站承接—产品变现”的个人商业系统。"
+      "source": "betalist",
+      "title": "Telegram Video Downloader",
+      "url": "https://betalist.com/startups/telegram-video-downloader",
+      "quote": "afe, human-like actions BoostBerry The Best All-in-One Platform to Monetize Your Community Whacka BOOSTED Turn any idea into your own mobile app with no code fr"
     }
   ],
   "pain_n": {
-    "做不出来/卡住": 36,
-    "愿意付钱": 18,
-    "在找替代品": 23,
-    "当前方案不好用": 22,
-    "想要而找不到": 1
+    "当前方案不好用": 41,
+    "做不出来/卡住": 65,
+    "愿意付钱": 33,
+    "在找替代品": 36,
+    "想要而找不到": 3
   },
   "by_channel": [
+    {
+      "id": "betalist",
+      "profile": "linkpost",
+      "n": 50,
+      "ok": 50,
+      "rate": 1.0
+    },
     {
       "id": "devto",
       "profile": "discussion",
       "n": 5,
       "ok": 5,
+      "rate": 1.0
+    },
+    {
+      "id": "indiehackers",
+      "profile": "linkpost",
+      "n": 36,
+      "ok": 36,
       "rate": 1.0
     },
     {
@@ -225,17 +239,24 @@
       "rate": 0.95
     },
     {
-      "id": "exa_discovery",
-      "profile": "discover",
-      "n": 15,
-      "ok": 11,
-      "rate": 0.7333333333333333
+      "id": "hn_show",
+      "profile": "discussion",
+      "n": 1000,
+      "ok": 926,
+      "rate": 0.926
     },
     {
       "id": "v2ex",
       "profile": "discussion",
       "n": 30,
-      "ok": 22,
+      "ok": 26,
+      "rate": 0.8666666666666667
+    },
+    {
+      "id": "exa_discovery",
+      "profile": "discover",
+      "n": 15,
+      "ok": 11,
       "rate": 0.7333333333333333
     },
     {
@@ -246,25 +267,11 @@
       "rate": 0.7166666666666667
     },
     {
-      "id": "indiehackers",
-      "profile": "linkpost",
-      "n": 36,
-      "ok": 23,
-      "rate": 0.6388888888888888
-    },
-    {
       "id": "reddit",
       "profile": "discussion",
       "n": 222,
-      "ok": 134,
-      "rate": 0.6036036036036037
-    },
-    {
-      "id": "hn_show",
-      "profile": "discussion",
-      "n": 1000,
-      "ok": 429,
-      "rate": 0.429
+      "ok": 140,
+      "rate": 0.6306306306306306
     },
     {
       "id": "c1c7",
@@ -272,14 +279,7 @@
       "n": 7,
       "ok": 3,
       "rate": 0.42857142857142855
-    },
-    {
-      "id": "betalist",
-      "profile": "linkpost",
-      "n": 50,
-      "ok": 19,
-      "rate": 0.38
     }
   ],
-  "body_median": 1516
+  "body_median": 2722.0
 }

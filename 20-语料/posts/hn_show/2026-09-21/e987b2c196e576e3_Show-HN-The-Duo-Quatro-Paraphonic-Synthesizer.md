@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=48324955"
 project_url: "https://stefanlenoach.com/paraphonic"
 author: "sleno"
 published_at: "2026-05-29T16:00:35Z"
-captured_at: "2026-09-21T01:27:24+08:00"
+captured_at: "2026-09-21T02:52:59+08:00"
 lang: "en"
 kind: "post"
 topic: "未分类"
@@ -34,7 +34,37 @@ discovered_via: "hn:show_hn:144d"
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：sleno　|　发布：2026-05-29T16:00:35Z
 > 项目链接：<https://stefanlenoach.com/paraphonic>
-> 采集：2026-09-21T01:27:24+08:00　|　id：`e987b2c196e576e3`
+> 采集：2026-09-21T02:52:59+08:00　|　id：`e987b2c196e576e3`
+
+## 正文
+
+Stefan Le Noach
+Projects
+ Experiments
+ Art
+ Calendar
+ Contact
+x
+ github
+Subscribe
+Tweaks
+Palette
+Home squiggle
+loop
+wave
+knot
+scribble
+off
+Cursor follow
+on
+off
+▐ ▐
+—
+—
+0:00
+close ✕
+‹
+ ›
 
 ## 导航
 

@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/SideProject/comments/1wic69p/their_first_typing_a
 project_url: "https://theirfirstwords.org/typing"
 author: "TheirFirstWords"
 published_at: "2026-09-17T06:38:50+08:00"
-captured_at: "2026-09-21T00:07:49+08:00"
+captured_at: "2026-09-21T03:18:43+08:00"
 lang: "en"
 kind: "post"
 topic: 开发者工具
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=5 · 赞踩比=1
 > 作者：TheirFirstWords　|　发布：2026-09-17T06:38:50+08:00
 > 项目链接：<https://theirfirstwords.org/typing>
-> 采集：2026-09-21T00:07:49+08:00　|　id：`240b129e797cf041`
+> 采集：2026-09-21T03:18:43+08:00　|　id：`240b129e797cf041`
 
 ## 正文
 

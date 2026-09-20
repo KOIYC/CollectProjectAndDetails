@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=47942287"
 project_url: "https://github.com/49Agents/49Agents"
 author: "alpadurza"
 published_at: "2026-04-28T23:34:10Z"
-captured_at: "2026-09-21T01:42:32+08:00"
+captured_at: "2026-09-21T02:52:42+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:174d"
 # Show HN: 49Agents – 2D Canvas IDE for Orchestrating Agents, Repos, Issues
 
 > [!info] 一句话导读
-> Beads tables (Steve Yegge's) for issue tracking. Can view git trees, terminals, issue tables, notes, and files all on one screen. Can connect multiple machines …
+> Open-source 2D IDE for managing AI agents in native CLIs, terminal, gits, beads issues, and files across multiple projects and machines. Self-host on a single m…
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,185 @@ discovered_via: "hn:show_hn:174d"
 > 指标：点赞=21 · 评论=2 · engagement_velocity=21
 > 作者：alpadurza　|　发布：2026-04-28T23:34:10Z
 > 项目链接：<https://github.com/49Agents/49Agents>
-> 采集：2026-09-21T01:42:32+08:00　|　id：`8ba116380fd955b4`
+> 采集：2026-09-21T02:52:42+08:00　|　id：`8ba116380fd955b4`
 
 ## 正文
 
-Beads tables (Steve Yegge's) for issue tracking. Can view git trees, terminals, issue tables, notes, and files all on one screen. Can connect multiple machines via private network (like tailscale)
+# alpbahadur/49Agents
+
+Open-source 2D IDE for managing AI agents in native CLIs, terminal, gits, beads issues, and files across multiple projects and machines. Self-host on a single machine via localhost OR host on a cluster via Tailscale OR connect to app.49agents.com (coming soon)
+
+- Stars: 378
+- Forks: 39
+- Watchers: 378
+- Open issues: 14
+- License: Other
+- Homepage: https://49agents.com
+- Default branch: main
+- Created: 2026-02-27T02:28:57Z
+
+## Languages
+
+- CSS
+- HTML
+- JavaScript
+- Shell
+
+## Topics
+
+- claude-code
+- cli
+- codex
+- ide
+- terminal-based
+- vibecoding
+
+## Top Contributors
+
+- MYRADhub (197 contributions)
+- alpbahadur (31 contributions)
+- claude (3 contributions)
+- Jalil-g (1 contributions)
+- qaraalp (1 contributions)
+
+---
+
+## README
+
+ 49 Agents IDE
+
+ The first 2D agentic IDE. Open source.
+
+ All agents. All terminals. All projects. All machines. One unified space.
+
+ Before
+
+ 49
+
+---
+
+| Before | 49 |
+|--------|--------------|
+| 14 terminal tabs | One zoomable canvas |
+| SSH into each machine | All machines, zero SSH |
+| Alt-tab to check Claude | Claude status on every pane |
+| Can't work from phone | Any device, anywhere |
+| Terminal-only, no files | Monaco editor on the canvas |
+| 🤷 | Git graph |
+| 🤷 | Interactive issue tables (Beads) |
+| 🤷 | Permission notifications |
+| 🤷 | Markdown notes |
+
+---
+
+## Quick Start
+
+```bash
+git clone https://github.com/49Agents/49Agents.git
+cd 49Agents
+./49ctl setup    # interactive setup (one time)
+./49ctl start    # start cloud server + agent
+```
+
+Open `http://localhost:1071`. No account, no login, no token.
+
+Don't want to self-host? **49agents.com**
+tutorial
+
+---
+
+## Desktop App (macOS)
+
+Download the latest `.dmg` from GitHub Releases.
+
+After downloading, macOS will block the app because it is not notarized. Run this once to allow it:
+
+```bash
+xattr -cr /Applications/49Agents.app
+```
+
+Then open 49Agents normally. It runs as a tray icon — look for it in your menu bar.
+
+Updates are delivered in-app: click the tray icon and choose **Check for Updates**.
+
+---
+
+## Features
+
+### Canvas and Workspace
+
+- [x] **Infinite canvas** — no tabs, no splits. Place panes anywhere on a zoomable surface
+- [x] **Drag, resize, arrange** — your workspace grows with your thinking, not your monitor
+- [x] **Zoom levels** — zoom out for the big picture, zoom in to focus
+- [x] **Persistent layout** — everything stays where you put it
+
+### Terminals
+
+- [x] **Real tmux sessions** via ttyd — full ANSI color, scrollback, your shell config
+- [x] **Broadcast input** — type once, send keystrokes to multiple terminals simultaneously
+
+### Multi-Machine
+
+- [x] **Zero SSH** — connect agents from any machine to one canvas
+- [x] **HUD overlay** — live CPU, RAM, and Claude API usage across all connected machines
+
+### Access
+
+- [x] **Any device** — laptop, tablet, phone. Same workspace, same layout
+- [x] **Tailscale / LAN / hosted relay** — works however you connect
+- [x] **Fully self-hosted** — the entire stack runs on your hardware
+- [x] **No data stored server-side** — terminal I/O is relayed, never persisted
+
+### Keyboard-First
+
+- [x] **Tab chords** for pane switching
+- [x] **WASD move mode** for spatial navigation
+- [x] **Shortcut numbers** (1–9) for instant pane focus
+- [x] **Broadcast mode** for multi-terminal input
+
+---
+
+## Architecture
+
+```
+┌──────────────┐    WSS    ┌──────────────┐    WSS    ┌──────────────┐
+│  🖥️ PC       │ ────────►│  ☁️ Relay    │ ◄──────── │  📱 Browser  │
+│  49-agent    │           │              │           │              │
+└──────────────┘           └──────────────┘           └──────────────┘
+                           Self-host or use
+                            49agents.com
+```
+
+ Multi-machine setup
+
+```
+┌──────────────┐                                         ┌──────────────┐
+│  🖥️ MacBook  │ ─── WSS ───┐                        ┌───│  📱 Phone   │
+│  49-agent    │             │                       │   │  Browser     │
+└──────────────┘             │                       │   └──────────────┘
+                             │   ┌──────────────┐    │
+┌──────────────┐             ├──►│  ☁️ Relay    │◄───┤   ┌──────────────┐
+│  🖥️ PC       │ ─── WSS ───┤   │              │     ├───│  💻 Laptop  │
+│  49-agent    │             │   │  Self-host   │    │   │  Browser     │
+└──────────────┘             │   │  or use      │    │   └──────────────┘
+                             │   │ 49agents.com │    │
+┌──────────────┐             │   └──────────────┘    │    ┌──────────────┐
+│  ☁️ Azure VM │ ─── WSS ───┘                        └───│  📱 Tablet   │
+│  49-agent    │                                          │  Browser     │
+└──────────────┘                                          └──────────────┘
+
+                  Each agent independently connects
+                   to the relay via WebSocket.
+                  No terminal data stored server-side.
+```
+
+---
+
+## License
+
+BSL 1.1 — free for individuals and small teams. Converts to MIT on 2030-02-26.
+
+# mgranados/screenshotter
 
 ## 评论（2/2）
 
@@ -52,6 +226,12 @@ Beads tables (Steve Yegge's) for issue tracking. Can view git trees, terminals, 
 
 > **alpadurza** · 2026-04-29T11:53:02.000Z　
 > hey zhaozhao, thanks for sharing! i will check the website... dont have much time to work on landing page lately haha
+
+## 关联链接
+
+- http://localhost:1071`.
+- https://49agents.com
+- https://github.com/49Agents/49Agents.git
 
 ## 导航
 

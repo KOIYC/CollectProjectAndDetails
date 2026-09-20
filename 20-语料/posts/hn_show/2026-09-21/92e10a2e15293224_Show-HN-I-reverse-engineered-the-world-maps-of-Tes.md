@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=48344327"
 project_url: "https://github.com/s-macke/Test-Drive-3-Maps"
 author: "s-macke"
 published_at: "2026-05-31T09:45:45Z"
-captured_at: "2026-09-21T01:42:56+08:00"
+captured_at: "2026-09-21T02:52:47+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "AI 工具/Agent"
 shard: "2026-09-21"
 pub_day: "2026-05-31"
 tags:
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:144d"
 # Show HN: I reverse-engineered the world maps of Test Drive III (1990 DOS game)
 
 > [!info] 一句话导读
-> Show HN: I reverse-engineered the world maps of Test Drive III (1990 DOS game)
+> Published: 2024-10-27
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,163 @@ discovered_via: "hn:show_hn:144d"
 > 指标：点赞=215 · 评论=56 · engagement_velocity=215
 > 作者：s-macke　|　发布：2026-05-31T09:45:45Z
 > 项目链接：<https://github.com/s-macke/Test-Drive-3-Maps>
-> 采集：2026-09-21T01:42:56+08:00　|　id：`92e10a2e15293224`
+> 采集：2026-09-21T02:52:47+08:00　|　id：`92e10a2e15293224`
 
 ## 正文
 
-Show HN: I reverse-engineered the world maps of Test Drive III (1990 DOS game)
+Published: 2024-10-27
+
+# Repository: s-macke/Test-Drive-3-Maps
+
+Extracted Maps of the DOS Game Test Drive 3
+
+- Stars: 11
+- Forks: 1
+- Watchers: 3
+- Open issues: 1
+- Primary language: Assembly
+- Languages: Assembly (98.2%), TypeScript (1.4%), Python (0.3%), HTML, JavaScript, Shell
+- License: MIT License (MIT)
+- Topics: dos, racing-game, reverse-engineering
+- Default branch: master
+- Created: 2024-10-27T19:38:36Z
+- Last push: 2026-05-31T09:40:42Z
+- Contributors: 1 (top: s-macke)
+
+---
+
+# Test-Drive-3-Maps
+
+Reverse engineered and extracted maps of the DOS Game *Test Drive III: The Passion* by Accolade
+
+As a kid, I played Test Drive III a lot. Not because of the racing, but simply to explore the world.
+
+There was so much to see, so much to discover. This project is an attempt to reconstruct those maps as accurately as possible.
+Over the past five years, I have worked on it on and off. Now, with the help of AI, I am close to success. Apart from the occasional flying car and missing sprites.
+
+The 3D format itself is nothing too exotic, but it does contain a few special cases. Each tile or object is a small mesh stored as three parallel arrays of 16-bit signed X, Y, and Z vertex coordinates, followed by 8-byte polygon records containing the polygon type, vertex indices, and palette color. These are preceded by a short 4- or 8-byte header.
+
+A map is a 32×16 grid. Each cell is 2 bytes: a tile ID selecting one of those meshes, plus packed rotation and height bits.
+
+![Game Scenes](images/scenes.gif)
+
+![Extracted Game Cars](images/cars_joined.png)
+
+# **[Online Viewer](https://s-macke.github.io/Test-Drive-3-Maps/)**
+
+# **[Extracted Images Gallery](images/README.md)**
+
+Wavefront Object files are available in the objs directory.
+
+## Development
+
+### Prerequisites
+
+- Node.js 20.19+ (required by Vite 7)
+
+### Installation
+
+```bash
+npm install
+```
+
+### Running the Browser Viewer
+
+```bash
+npm run dev
+```
+
+Opens the viewer at http://localhost:5173
+
+### Building for Production
+
+```bash
+npm run build
+```
+
+Output is in the `dist/` directory.
+
+### Exporting OBJ Files
+
+```bash
+npm run export
+```
+
+Exports all maps and objects to the `objs/` directory.
+
+### Exporting PNG Images
+
+```bash
+npm run imgextract
+```
+
+Exports the currently documented DAT images as indexed-color PNGs to the `images/` directory.
+
+### Exporting Scene Sprites
+
+```bash
+npm run spriteextract
+```
+
+Extracts transparent scene-sprite PNGs from the known scene render descriptor banks, including the `SCENE02` same-family variant.
+
+### CLI Tools
+
+```bash
+# View LST file contents
+npm run lstview -- public/base/SCENE01.LST
+
+# Extract VGA image from DAT file
+npm run imgview -- public/base/DATAB.DAT 0x151 12083 320
+```
+
+## Project Structure
+
+```
+src/
+├── browser/     # Browser-only modules (Three.js viewer)
+├── shared/      # Shared modules (extraction logic, LZW/RLE decoders)
+└── tools/       # Node.js CLI tools
+    ├── export/      # OBJ exporter
+    ├── imgextract/  # Batch DAT image → PNG exporter
+    ├── spriteextract/ # Scene sprite extractor
+    ├── lstviewer/   # LST file viewer
+    └── imgviewer/   # VGA image extractor
+public/
+└── base/        # Game data files (required)
+objs/            # Exported Wavefront OBJ files
+images/          # Extracted VGA images (PNG format)
+spec/            # File format specifications
+```
+
+## Extracted Images Gallery
+
+For a visual overview and previews of all extracted UI assets, scene sprites, map palettes, and car designs, visit the **[Project Images Gallery Index](images/README.md)**. Each individual directory contains its own generated visual gallery:
+
+- [📁 Corvette ZR-1 Asset Gallery](images/CCERV/README.md)
+- [📁 Honda NSX Asset Gallery](images/CCNSX/README.md)
+- [📁 Lamborghini Diablo Asset Gallery](images/CDIAB/README.md)
+- [📁 Mythos Asset Gallery](images/CMYTH/README.md)
+- [📁 Chevrolet Corvette Stelvio Asset Gallery](images/CSTEL/README.md)
+- [📁 Scenery Sprites Galleries](images/SCENE01_SPRITES/README.md)
+
+## File Format Specifications
+
+The `spec/` directory contains reverse-engineered documentation for Test Drive III file formats:
+
+| File | Description |
+| --- | --- |
+| [3d-object-format.md](spec/3d-object-format.md) | 3D polygon/vertex format used in tiles and objects |
+| [dat-file-layouts.md](spec/dat-file-layouts.md) | DAT file offset tables and resource layouts |
+| [map-format.md](spec/map-format.md) | Race-track map format: tile grid, object placement block, color table, and header parameter struct |
+| [scene-render-descriptor-bank-format.md](spec/scene-render-descriptor-bank-format.md) | Scene render descriptor bank family used by `SCENE01.DAT`, `SCENE02.DAT`, and `SCENETT1.DAT` |
+| [lst-file-format.md](spec/lst-file-format.md) | LST resource index files (scene and car variants) |
+| [image-format.md](spec/image-format.md) | VGA image compression (LZW + RLE pipeline) |
+| [palette-format.md](spec/palette-format.md) | VGA palette handling and color selection |
+| [color_remap.md](spec/color_remap.md) | Paired-pixel lookup tables for sky/horizon gradient and road remapping |
+| [references.md](spec/references.md) | External reverse-engineering references and links |
+
+# the0cp/pico
 
 ## 评论（56/56）
 
@@ -326,6 +478,11 @@ Show HN: I reverse-engineered the world maps of Test Drive III (1990 DOS game)
 
 > **Schlagbohrer** · 2026-06-03T10:40:07.000Z　
 > I remember the controversy over the original Postal, and then there were eventually 3 more sequels in that franchise. The culture resists at first and eventually loses the battle.
+
+## 关联链接
+
+- http://localhost:5173
+- https://s-macke.github.io/Test-Drive-3-Maps/
 
 ## 导航
 

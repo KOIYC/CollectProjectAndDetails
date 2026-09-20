@@ -2,7 +2,7 @@
 type: "project"
 title: "Built Revenue intelligence agents for GTM teams"
 project_url: "https://rimplo.com/"
-first_seen: "2026-09-21T01:34:33+08:00"
+first_seen: "2026-09-21T03:05:25+08:00"
 sources:
   - reddit
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://rimplo.com/>
-> 首次收录：2026-09-21T01:34:33+08:00
+> 首次收录：2026-09-21T03:05:25+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/SaaS
 > 最新指标：得分=5 · 评论=6 · 赞踩比=1
@@ -29,6 +29,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T01:34:33+08:00 | Reddit 独立开发版块 | 得分=5 · 评论=6 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/0f9ac2b783b6468f_Built-Revenue-intelligence-agents-for-GTM-teams]] |
+| 2026-09-21T03:05:25+08:00 | Reddit 独立开发版块 | 得分=5 · 评论=6 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/0f9ac2b783b6468f_Built-Revenue-intelligence-agents-for-GTM-teams]] |
 
 ## 摘要正文
 

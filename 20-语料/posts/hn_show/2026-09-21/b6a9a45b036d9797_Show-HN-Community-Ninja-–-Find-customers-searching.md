@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=48338355"
 project_url: "https://communityninja.ai/"
 author: "shashanoid"
 published_at: "2026-05-30T16:57:46Z"
-captured_at: "2026-09-21T01:43:22+08:00"
+captured_at: "2026-09-21T03:11:00+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "AI 工具/Agent"
 shard: "2026-09-21"
 pub_day: "2026-05-30"
 tags:
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:144d"
 # Show HN: Community Ninja – Find customers searching for your product
 
 > [!info] 一句话导读
-> Show HN: Community Ninja – Find customers searching for your product
+> Author: Community Ninja
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,17 @@ discovered_via: "hn:show_hn:144d"
 > 指标：点赞=5 · 评论=4 · engagement_velocity=5
 > 作者：shashanoid　|　发布：2026-05-30T16:57:46Z
 > 项目链接：<https://communityninja.ai/>
-> 采集：2026-09-21T01:43:22+08:00　|　id：`b6a9a45b036d9797`
+> 采集：2026-09-21T03:11:00+08:00　|　id：`b6a9a45b036d9797`
 
 ## 正文
 
-Show HN: Community Ninja – Find customers searching for your product
+Author: Community Ninja
+
+Reddit Monitoring for Customer Discovery | Community Ninja
+
+Reddit Monitoring for Customer Discovery | Community Ninja
+
+# jmaczan/tiny-vllm
 
 ## 评论（4/4）
 

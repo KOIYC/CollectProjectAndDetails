@@ -7,10 +7,10 @@ source_name: "HN Show HN"
 url: "https://news.ycombinator.com/item?id=48345850"
 author: "tangramdev"
 published_at: "2026-05-31T14:15:02Z"
-captured_at: "2026-09-21T01:27:24+08:00"
+captured_at: "2026-09-21T02:52:44+08:00"
 lang: "en"
 kind: "post"
-topic: "开发者工具"
+topic: "AI 工具/Agent"
 shard: "2026-09-21"
 pub_day: "2026-05-31"
 tags:
@@ -27,17 +27,158 @@ discovered_via: "hn:show_hn:144d"
 
 # Show HN: Use Chrome DevTools Protocol to Control WinForm/MFC Apps
 
+> [!info] 一句话导读
+> Published: 2025-09-01
+
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=48345850>
 > 指标：点赞=3 · 评论=0 · engagement_velocity=3
 > 作者：tangramdev　|　发布：2026-05-31T14:15:02Z
 > 项目链接：—
-> 采集：2026-09-21T01:27:24+08:00　|　id：`401defe1270bf179`
+> 采集：2026-09-21T02:52:44+08:00　|　id：`401defe1270bf179`
+
+## 正文
+
+Published: 2025-09-01
+
+# Repository: AIGCEra/Creator
+
+- Stars: 3
+- Forks: 0
+- Watchers: 3
+- Open issues: 0
+- Primary language: C
+- Languages: C (50.3%), C++ (49.6%), HTML (0.1%), C#, Batchfile
+- Default branch: main
+- Created: 2025-09-01T14:02:01Z
+- Last push: 2026-03-25T06:37:06Z
+- Contributors: 2 (top: sunhuizlz, TangramTeam)
+- Releases: 1
+- Latest release: FirstRelease (2025-09-01T14:22:23Z)
+
+---
+
+# The Creator Browser Wakes “Browser Mode” for your desktop application app.exe.
+
+# How It Works: Enabling Browser Mode
+
+## Installation & Setup
+
+1. After installing [**Creator**](https://github.com/AIGCEra/Creator/releases/tag/FirstRelease), you receive a lightweight 20.1KB application launcher named `Loader.exe`(C:\Program Files\Tangram\Creator\Loader.exe).
+2. If your desktop application is named `app.exe`, copy `Loader.exe` into the same directory.
+3. Rename `Loader.exe` to `appLoader.exe`.
+
+## Launch Modes
+
+- **Normal Mode**: Launch your original `app.exe` as usual.
+- **Browser Mode**: Launch `appLoader.exe` to enable enhanced capabilities.
+
+## Behind the Scenes
+
+When launched in God Mode:
+
+- `appLoader.exe` starts `app.exe` as the **Browser Process** of the Creator Browser.
+- `appLoadery.exe` exits immediately and plays no further role.
+
+## What Happens in Browser Mode?
+
+Your application transforms into an **application content ecosystem interpreter** capable of:
+
+- Translating **web pages**, **XML**, or **LLM-generated content descriptions** into dynamic interfaces.
+- Treating native windows (including Chromium browser windows, WinForms, MFC `CView`, and others) as **tokens**.
+- Dynamically composing user interfaces in a manner similar to building webpages.
+
+## Key Advantage
+
+- ✅ No modifications to original code are required.
+- ✅ No recompilation is necessary.
+- ✅ Your app instantly becomes a **super composite UI generator**.
+
+# Project Vision: Super Web Content Ecosystem for Native Desktop Applications
+
+## 🎯 Objective
+
+To extend existing and in-development 64-bit desktop applications (especially those built with **.NET, C++/MFC, and Win32 SDK**) into a **Super Web Content Ecosystem** that surpasses conventional web browsers. This system seamlessly integrates native desktop window objects into a Web DOM-like environment, treating them as extensible elements analogous to HTML ` ` tags.
+
+## ✨ Core Features
+
+### 1. **Super Web Browser Capabilities**
+
+- Enable developers to view standard desktop applications as **advanced web browsers** capable of rendering and interpreting custom web content.
+ - Allows writing and integrating webpages directly into native applications without modifying their original source code.
+
+### 2. **Dynamic Description-Driven UI Mechanism**
+
+- Introduces a **Web DOM-based dynamic description mechanism** to control the structure and layout of native desktop window objects.
+ - Developers can assemble complex **Composite Native Window Objects** in a intuitive, HTML-like manner—similar to organizing `div` elements to build rich web content.
+
+### 3. **Native Support for LLM Integration**
+
+- By representing desktop applications as Super Web Browsers, **Large Language Model (LLM)** technologies can be deeply and natively integrated.
+ - Enables AI-enhanced content generation and interaction within **any desktop application—even without source code access**.
+
+## 🔧 Supported Technologies
+
+- .NET (Windows Forms, WPF)
+- C++/MFC
+- Win32 SDK
+- 64-bit applications
+
+## 🌟 Benefits
+
+- Unifies native performance with web-style dynamic content.
+- Protects existing software investments while enabling modern web and AI features.
+- Allows seamless blending of native windows and web content within a unified scripting and layout environment.
+
+# Background and Vision
+
+## Current Landscape
+
+Developers have built — and continue to build — countless 64-bit desktop applications using well-established technologies such as **.NET**, **C++/MFC**, and the **Win32 SDK**. However, once these applications are compiled, their user interfaces become largely static and difficult to modify at runtime. The structure of native windows — whether built with MFC, Windows Forms, or the Win32 API — remains fixed, limiting developers' ability to dynamically adjust or extend the UI after deployment.
+
+For example, consider a typical compiled desktop application:
+
+![image](https://github.com/user-attachments/assets/0a398eca-0e4a-4cdb-878d-a2cbced5bbed) ![image](https://github.com/user-attachments/assets/f43cbf8d-f306-45dc-bf5f-2da2c3e0a573)
+
+## The Vision: Dynamic & AI-Enhanced Desktop Experiences
+
+What if we could transcend these limitations? Imagine enabling such applications to:
+
+- Embed a **tabbed web browser group** directly into their main window:
+
+![image](https://github.com/user-attachments/assets/578aa446-58f5-42a1-88bf-417707691c06)
+
+- Use **AI and large language models** (e.g., ChatGPT) to dynamically reconfigure their layout and functionality during runtime:
+
+![image](https://github.com/user-attachments/assets/5413e8e7-f307-4cce-814e-18e3d72c33d1)
+
+This vision aims to transform static desktop applications into flexible, composable environments that support web-style dynamism and AI-powered customization — all without requiring source code access or recompilation.
+
+After installing Creator, you get a tiny 6.5KB(EV Signed Size:20.1KB) application launcher Loader.exe.
+If your desktop app is app.exe, simply copy Loader.exe into the same folder as app.exe and rename it apLoader.exe.
+
+Launch app.exe for normal mode; launch appLoader.exe to enter God Mode.
+proxy.exe launches app.exe as the Creator Browser’s Browser Process, then exits immediately, playing no further role.
+In God Mode, your application becomes an application content ecosystem interpreter:
+It can transform web pages, XML, or LLM content descriptions into dynamic interfaces.
+Native windows (such as Chromium browser windows, WinForm, MFC CView, etc.) are treated as tokens, dynamically composing the UI like a webpage.
+
+No changes to the original code or recompilation are needed—your app instantly becomes a super composite UI generator.
+
+# shiehn/sas-sample-generator
+
+## 关联链接
+
+- https://github.com/AIGCEra/Creator/releases/tag/FirstRelease
+- https://github.com/user-attachments/assets/0a398eca-0e4a-4cdb-878d-a2cbced5bbed
+- https://github.com/user-attachments/assets/5413e8e7-f307-4cce-814e-18e3d72c33d1
+- https://github.com/user-attachments/assets/578aa446-58f5-42a1-88bf-417707691c06
+- https://github.com/user-attachments/assets/f43cbf8d-f306-45dc-bf5f-2da2c3e0a573
 
 ## 导航
 
 - 项目页：[[10-项目/Show-HN-Use-Chrome-DevTools-Protocol-to-Control_401defe1]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

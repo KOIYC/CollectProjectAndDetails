@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/IndieDev/comments/1ujr5ee/a_popular_twitch_stream
 project_url: "https://store.steampowered.com/app/4186870/Besos\\_Shawarma"
 author: "iakobi_varr"
 published_at: "2026-06-30T22:42:08+08:00"
-captured_at: "2026-09-21T01:30:35+08:00"
+captured_at: "2026-09-21T03:02:21+08:00"
 lang: "en"
 kind: "post"
 topic: "游戏"
@@ -20,8 +20,8 @@ tags:
   - r/indiedev
   - New Game!
 metrics: {"score": 18, "comments": 6, "upvote_ratio": 0.95}
-comments_count: 0
-comments_total: 0
+comments_count: 6
+comments_total: 6
 discovered_via: "reddit:113d+settle3"
 ---
 
@@ -36,7 +36,7 @@ discovered_via: "reddit:113d+settle3"
 > 指标：得分=18 · 评论=6 · 赞踩比=0.95
 > 作者：iakobi_varr　|　发布：2026-06-30T22:42:08+08:00
 > 项目链接：<https://store.steampowered.com/app/4186870/Besos\_Shawarma>
-> 采集：2026-09-21T01:30:35+08:00　|　id：`68bdb9928589749c`
+> 采集：2026-09-21T03:02:21+08:00　|　id：`68bdb9928589749c`
 
 ## 正文
 
@@ -45,9 +45,43 @@ I was just checking the SteamDB page of my game, and I discovered that my game h
 The game's name is "Beso's Shawarma"
 [https://store.steampowered.com/app/4186870/Besos\_Shawarma/](https://store.steampowered.com/app/4186870/Besos_Shawarma/)
 
+## 评论（6/6）
+
+> **Fit_Beyond2795**（2 分） · 2026-06-30T22:51:51+08:00　
+> Congrats!! And good luck
+
+---
+
+> **StickyLabs**（1 分） · 2026-06-30T22:53:40+08:00　
+> Congrats! Did you notice a significant spike in downloads, wishlists, or purchases afterward?
+
+---
+
+> **iakobi_varr**（2 分） · 2026-06-30T23:40:46+08:00　
+> Thanks! Honestly... It's kinda early to say, since the steam stats have some delay(a huge one), but from Germany in total I've got 5 sales(The twitch streamer is from Germany), so thats pretty neat!
+>
+> From what he said, he will also post it on Youtube, so that's pretty cool.
+
+---
+
+> **iakobi_varr**（1 分） · 2026-06-30T23:41:24+08:00　
+> Thank you!
+
+---
+
+> **iakobi_varr**（3 分） · 2026-06-30T23:49:22+08:00　
+> https://preview.redd.it/e0301jdgyfah1.png?width=548&format=png&auto=webp&s=ebc8ea37556bcc3a9302d8f2eae7c0e24221a5d1
+>
+> He even left a positive review 😍😍
+
+---
+
+> **arvenyon_ofcl**（1 分） · 2026-07-01T01:14:20+08:00　
+> Yeah, that's Sterzik for you. He's great.
+
 ## 关联链接
 
-- https://store.steampowered.com/app/4186870/Besos\_Shawarma/
+- https://store.steampowered.com/app/4186870/Besos
 - https://store.steampowered.com/app/4186870/Besos_Shawarma/
 
 ## 导航

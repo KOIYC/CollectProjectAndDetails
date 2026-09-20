@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=48338358"
 project_url: "https://boxed.github.io/UN-condemns"
 author: "boxed"
 published_at: "2026-05-30T16:57:49Z"
-captured_at: "2026-09-21T01:27:24+08:00"
+captured_at: "2026-09-21T02:52:51+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: "开发者工具"
 shard: "2026-09-21"
 pub_day: "2026-05-30"
 tags:
@@ -28,17 +28,31 @@ discovered_via: "hn:show_hn:144d"
 
 # Show HN: UN Condemnation Statistics
 
+> [!info] 一句话导读
+> UN condemnation statistics
+
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=48338358>
 > 指标：点赞=4 · 评论=0 · engagement_velocity=4
 > 作者：boxed　|　发布：2026-05-30T16:57:49Z
 > 项目链接：<https://boxed.github.io/UN-condemns>
-> 采集：2026-09-21T01:27:24+08:00　|　id：`0130594239edba5a`
+> 采集：2026-09-21T02:52:51+08:00　|　id：`0130594239edba5a`
+
+## 正文
+
+UN condemnation statistics
+
+ html, body { margin: 0; background: #fafafa; }
+
+ // Browser.application manages directly, so no mount node.
+ Elm.Main.init();
+
+# Reddit Monitoring for Customer Discovery | Community Ninja
 
 ## 导航
 
 - 项目页：[[10-项目/boxed.github.io_7e20afdd]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

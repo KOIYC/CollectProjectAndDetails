@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49501620"
 project_url: "https://studio.cogram.com/"
 author: "alexvboe"
 published_at: "2026-08-30T18:49:39Z"
-captured_at: "2026-09-21T01:33:52+08:00"
+captured_at: "2026-09-21T03:17:41+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -28,13 +28,31 @@ discovered_via: "hn:show_hn:52d"
 
 # Show HN: Cogram Studio – CAD and BIM workspace for humans and agents
 
+> [!info] 一句话导读
+> Error fetching https://github.com/danthegoodman1/tinysandbox/tree/main/tinysandbox-js-runtime: CRAWL_NOT_FOUND
+
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=49501620>
 > 指标：点赞=6 · 评论=0 · engagement_velocity=6
 > 作者：alexvboe　|　发布：2026-08-30T18:49:39Z
 > 项目链接：<https://studio.cogram.com/>
-> 采集：2026-09-21T01:33:52+08:00　|　id：`f2db4204dfacfa17`
+> 采集：2026-09-21T03:17:41+08:00　|　id：`f2db4204dfacfa17`
+
+## 正文
+
+Cogram Studio
+
+Opening Studio
+
+Cogram Studio
+**Opening Studio**
+
+Error fetching https://github.com/danthegoodman1/tinysandbox/tree/main/tinysandbox-js-runtime: CRAWL_NOT_FOUND
+
+## 关联链接
+
+- https://github.com/danthegoodman1/tinysandbox/tree/main/tinysandbox-js-runtime:
 
 ## 导航
 

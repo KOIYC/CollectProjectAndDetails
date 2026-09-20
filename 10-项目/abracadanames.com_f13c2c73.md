@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: AbracadaNames – a multilingual, data-driven wall of first names"
 project_url: "https://abracadanames.com/"
-first_seen: "2026-09-21T01:33:52+08:00"
+first_seen: "2026-09-21T03:11:29+08:00"
 sources:
   - hn_show
 tags:
@@ -16,9 +16,12 @@ lang: "en"
 
 # Show HN: AbracadaNames – a multilingual, data-driven wall of first names
 
+> [!info] 一句话导读
+> A living wall of first names drawn from official statistics around the world. Explore, search in your own words, and save your favorites — free, no sign-up.
+
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://abracadanames.com/>
-> 首次收录：2026-09-21T01:33:52+08:00
+> 首次收录：2026-09-21T03:11:29+08:00
 > 来源渠道：HN Show HN
 > 标签：author_PopFlamingo, story_49500794, show_hn
 > 最新指标：点赞=2 · 评论=0 · engagement_velocity=2
@@ -28,3 +31,8 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T01:33:52+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/a3fff33e4f44deb5_Show-HN-AbracadaNames-–-a-multilingual,-data-drive]] |
+| 2026-09-21T03:11:29+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/a3fff33e4f44deb5_Show-HN-AbracadaNames-–-a-multilingual,-data-drive]] |
+
+## 摘要正文
+
+AbracadaNames  # AbracadaNames  A living wall of first names drawn from official statistics around the world. Explore, search in your own words, and save your favorites — free, no sign-up.  Error fetching https://github.com/danthegoodman1/tinysandbox/tree/main/tinysandbox-js-runtime: CRAWL_NOT_FOUND

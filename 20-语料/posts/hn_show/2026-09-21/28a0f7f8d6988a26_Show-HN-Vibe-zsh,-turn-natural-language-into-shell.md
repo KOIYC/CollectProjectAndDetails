@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=48726461"
 project_url: "https://github.com/skymoore/vibe-zsh"
 author: "iamsky"
 published_at: "2026-06-29T23:01:22Z"
-captured_at: "2026-09-21T01:29:55+08:00"
+captured_at: "2026-09-21T03:11:01+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: "AI 工具/Agent"
 shard: "2026-09-21"
 pub_day: "2026-06-29"
 tags:
@@ -21,12 +21,15 @@ tags:
   - story_48726461
   - show_hn
 metrics: {"points": 3, "comments": 3, "engagement_velocity": 3}
-comments_count: 0
-comments_total: 0
+comments_count: 3
+comments_total: 3
 discovered_via: "hn:show_hn:113d"
 ---
 
 # Show HN: Vibe zsh, turn natural language into shell commands
+
+> [!info] 一句话导读
+> Transform natural language into shell commands using AI.
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -34,11 +37,643 @@ discovered_via: "hn:show_hn:113d"
 > 指标：点赞=3 · 评论=3 · engagement_velocity=3
 > 作者：iamsky　|　发布：2026-06-29T23:01:22Z
 > 项目链接：<https://github.com/skymoore/vibe-zsh>
-> 采集：2026-09-21T01:29:55+08:00　|　id：`28a0f7f8d6988a26`
+> 采集：2026-09-21T03:11:01+08:00　|　id：`28a0f7f8d6988a26`
+
+## 正文
+
+# skymoore/vibe-zsh
+
+Transform natural language into shell commands using AI.
+
+- Stars: 6
+- Forks: 0
+- Watchers: 6
+- Open issues: 0
+- License: GNU General Public License v3.0
+- Homepage: http://vibe-zsh.dev/
+- Default branch: main
+- Created: 2025-10-20T21:22:00Z
+
+## Languages
+
+- Go
+- Makefile
+- Shell
+
+## Top Contributors
+
+- skymoore (50 contributions)
+
+---
+
+## README
+
+# vibe 🌊
+
+Transform natural language into shell commands using AI. Works natively with OpenAI, Anthropic, Groq, OpenRouter, Ollama, LM Studio, and more.
+
+```bash
+# Type your intent in natural language
+list all docker containers
+
+# Press Ctrl+G
+
+# Get the command with explanations
+docker ps -a
+# docker: Docker command-line tool
+# ps: List containers
+# -a: Show all containers (not just running)
+```
+
+## Features
+
+- 🧠 **Natural language to commands** - Just describe what you want
+- 🖥️ **OS-aware generation** - Commands that work on YOUR system (macOS/Linux/Windows)
+- ⚡ **Lightning fast** - Cached responses are 100-400x faster
+- 🎬 **Streaming output** - Typewriter effect with progress indicators
+- 🔌 **Multi-provider** - Native support for OpenAI, Anthropic, Groq, OpenRouter, Ollama, LM Studio, custom OpenAI-compatible gateways, and more
+- 🛡️ **Safe by default** - Preview commands before execution
+- 📚 **Learn while you work** - Inline explanations for every command
+- 📜 **Query history** - Interactive menu to browse and re-run previous queries
+- 🎯 **Single binary** - One compiled binary, no runtime dependencies to install
+
+## Installation
+
+### Homebrew (Recommended)
+
+```bash
+brew tap skymoore/tap
+brew install --cask vibe-zsh
+```
+
+The Homebrew installation automatically:
+- Installs vibe to `~/.oh-my-zsh/custom/plugins/vibe`
+- Adds `vibe` to your plugins list in `~/.zshrc`
+- Creates a global `vibe-zsh` command for CLI usage
+
+After installation, reload your shell:
+```bash
+source ~/.zshrc
+```
+
+**Note:** Requires Oh-My-Zsh. If not installed, the installer will provide instructions.
+
+### Oh-My-Zsh Plugin
+
+For oh-my-zsh integration:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/skymoore/vibe-zsh/main/install.sh | bash
+```
+
+Or using wget:
+
+```bash
+wget -qO- https://raw.githubusercontent.com/skymoore/vibe-zsh/main/install.sh | bash
+```
+
+This script downloads the latest release and installs it to `~/.oh-my-zsh/custom/plugins/vibe`. You'll need to manually add `vibe` to your plugins list in `~/.zshrc`.
+
+### Manual Install
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/skymoore/vibe-zsh.git ~/.oh-my-zsh/custom/plugins/vibe
+   ```
+
+2. **Build the binary:**
+   ```bash
+   cd ~/.oh-my-zsh/custom/plugins/vibe
+   make build
+   ```
+
+3. **Add to your `.zshrc`:**
+   ```bash
+   plugins=(... vibe)
+   ```
+
+4. **Reload your shell:**
+   ```bash
+   source ~/.zshrc
+   ```
+
+## Configuration
+
+Add these to your `~/.zshrc` (all optional).
+
+vibe-zsh uses gollm to talk to each
+provider natively. There are three kinds of provider:
+
+- **Hosted providers** (`openai`, `anthropic`, `groq`, `openrouter`, `deepseek`,
+ `google-openai`, `mistral`, `cohere`) have a fixed endpoint built in. You only
+ need to choose the provider, set `VIBE_API_KEY`, and pick a `VIBE_MODEL` — you
+ do **not** set `VIBE_API_URL`.
+- **Local providers** (`ollama`, `lmstudio`, `vllm`) run on your machine. Set
+ `VIBE_API_URL` to point at the local server; no API key is required.
+- **Custom OpenAI-compatible gateways** (`openai-compatible`) are
+ OpenAI-compatible endpoints that you host or proxy yourself and that require a
+ Bearer API key. Set both `VIBE_API_URL` and `VIBE_API_KEY`. See
+ Custom OpenAI-compatible gateways.
+
+Select a provider with `VIBE_PROVIDER`. If you don't set it, vibe infers the
+provider from `VIBE_API_URL` (e.g. an `openrouter.ai` or `:11434` URL), which is
+mainly there to keep older configs working. **Setting `VIBE_PROVIDER` explicitly
+is the recommended approach.**
+
+> [!IMPORTANT]
+> **`VIBE_API_URL` is ignored by hosted providers.** The `openai`, `anthropic`,
+> `groq`, etc. providers each have a **fixed, built-in endpoint**. In particular,
+> the `openai` provider always targets `api.openai.com` and silently ignores
+> `VIBE_API_URL`.
+>
+> To point vibe at a **custom OpenAI-compatible gateway** (a self-hosted gateway,
+> proxy, or alternative inference host that needs a Bearer API key), use the
+> dedicated `openai-compatible` provider, which honors both `VIBE_API_URL` and
+> `VIBE_API_KEY`. If you set a custom `VIBE_API_URL` without `VIBE_PROVIDER`,
+> vibe now infers `openai-compatible` automatically. See
+> Custom OpenAI-compatible gateways below.
+
+> The default `VIBE_MODEL` is `llama3:8b` (chosen for the default Ollama setup).
+> Always set `VIBE_MODEL` when you use a hosted provider, or requests will ask
+> for a model that doesn't exist there.
+
+### OpenAI
+```bash
+export VIBE_PROVIDER="openai"
+export VIBE_API_KEY="sk-..."
+export VIBE_MODEL="gpt-4o"
+# No VIBE_API_URL needed — the openai provider always targets api.openai.com.
+```
+
+### Anthropic
+```bash
+export VIBE_PROVIDER="anthropic"
+export VIBE_API_KEY="sk-ant-..."
+export VIBE_MODEL="claude-3-5-sonnet-20241022"
+```
+
+### Groq
+```bash
+export VIBE_PROVIDER="groq"
+export VIBE_API_KEY="gsk_..."
+export VIBE_MODEL="llama-3.1-70b-versatile"
+```
+
+### OpenRouter
+```bash
+export VIBE_PROVIDER="openrouter"
+export VIBE_API_KEY="sk-or-..."
+export VIBE_MODEL="anthropic/claude-3.5-sonnet"
+```
+
+### Ollama (local)
+```bash
+export VIBE_PROVIDER="ollama"
+export VIBE_API_URL="http://localhost:11434/v1"
+export VIBE_MODEL="llama3:8b"
+# Ollama must be running; no API key required.
+```
+
+### LM Studio (local)
+```bash
+export VIBE_PROVIDER="lmstudio"
+export VIBE_API_URL="http://localhost:1234/v1"
+export VIBE_MODEL="local-model"
+# LM Studio must be running and reachable when vibe starts.
+```
+
+### Custom OpenAI-compatible gateways
+
+Many services (self-hosted gateways, proxies, alternative inference hosts) expose
+an OpenAI-compatible `/v1` API but require a Bearer API key. **The `openai`
+provider cannot reach these** — it always points at `api.openai.com` and ignores
+`VIBE_API_URL`. The **`vllm`** provider honors a custom endpoint but sends **no**
+`Authorization` header, so authenticated gateways reject it with `401`.
+
+For these gateways, use the dedicated **`openai-compatible`** provider. It honors
+`VIBE_API_URL` *and* sends `VIBE_API_KEY` as a Bearer token:
+
+```bash
+export VIBE_PROVIDER="openai-compatible"   # custom endpoint + Bearer auth
+export VIBE_API_URL="https://your-gateway.example.com/v1"
+export VIBE_API_KEY="sk-..."               # sent as: Authorization: Bearer sk-...
+export VIBE_MODEL="your-model-name"
+```
+
+> [!TIP]
+> If you set a custom `VIBE_API_URL` (a host vibe doesn't recognize) and leave
+> `VIBE_PROVIDER` unset, vibe automatically infers `openai-compatible` — so the
+> config below works either way. Setting it explicitly is still recommended.
+
+Provider cheat sheet for OpenAI-compatible endpoints:
+
+| Provider | Honors `VIBE_API_URL` | Sends Bearer auth | Use for |
+| ------------------- | --------------------- | ----------------- | -------------------------------------- |
+| `openai` | ❌ (always OpenAI) | ✅ | OpenAI itself |
+| `vllm` | ✅ | ❌ | Local, unauthenticated vLLM servers |
+| `openai-compatible` | ✅ | ✅ | Authenticated custom gateways/proxies |
+
+Worked example with a real-looking gateway:
+
+```bash
+# ❌ WRONG — no VIBE_PROVIDER, but this is a hosted-looking URL? No: it's custom.
+#    Older vibe versions defaulted to `openai` and hit api.openai.com.
+#    `vllm` would reach the gateway but be rejected with 401 (no auth header).
+
+# ✅ CORRECT — openai-compatible reaches the gateway AND authenticates
+export VIBE_PROVIDER="openai-compatible"
+export VIBE_API_URL="https://api.example.dev/v1"
+export VIBE_API_KEY="sk-..."
+export VIBE_MODEL="some-model"
+```
+
+> **Note on validation:** gollm checks your configuration when vibe starts.
+> Hosted providers validate the API key format up front (for example, Anthropic
+> keys must start with `sk-ant-`), and local providers must already be running
+> and reachable. If a provider is misconfigured, vibe reports an actionable
+> error on the first query rather than silently failing.
+
+## Usage
+
+### Plugin Usage (Recommended)
+
+1. Type a natural language description in your terminal
+2. Press `Ctrl+G`
+3. Review the generated command (with explanations)
+4. Press `Enter` to execute, or edit first
+
+**History Menu:**
+
+Access your query history in two ways:
+
+1. **Keybinding**: Press `Ctrl+X` then `H`
+2. **Command**: Type `vh` and press Enter
+
+Both methods open an interactive menu where you can:
+- Browse previous queries with arrow keys
+- Search with `/` (filter mode)
+- Press `Enter` to insert the generated command into your buffer
+- Press `G` to regenerate a new command from the original query
+- Press `V` to edit the original query in your buffer
+- Press `A` or `Home` to jump to the first entry
+- Press `E` or `End` to jump to the last entry
+- Press `Esc` or `Q` to cancel
+
+The selected command appears on your command line, ready to execute!
+
+**Quick Regenerate:**
+
+Press `Ctrl+X` then `G` to instantly regenerate a new command from your most recent query without opening the menu.
+
+**Note**: Don't run `vibe-zsh history` or `./vibe history` directly - use `vh` or the keybinding instead.
+
+### Direct CLI Usage
+
+You can also use vibe directly from the command line:
+
+```bash
+# Homebrew installation
+vibe-zsh "list all docker containers"
+
+# Manual installation (Oh-My-Zsh plugin)
+~/.oh-my-zsh/custom/plugins/vibe/vibe "list all docker containers"
+```
+
+**CLI Flags:**
+```bash
+vibe-zsh --help                    # Show all available flags
+vibe-zsh --debug "query"           # Enable debug logging
+vibe-zsh --temperature 0.1 "query" # Override temperature
+vibe-zsh --interactive "query"     # Confirm before execution
+```
+
+**History Commands:**
+```bash
+vh                                 # Interactive menu (recommended)
+vibe-zsh history list              # List history in plain text
+vibe-zsh history clear             # Clear all history
+
+# Note: Use 'vh' or Ctrl+X H for interactive menu
+# Don't use 'vibe-zsh history' directly (it just outputs to stdout)
+```
+
+### Examples
+
+**Query History:**
+```bash
+# Open history menu with keybinding
+Ctrl+X H
+
+# Or use the command
+vh
+
+# List history in plain text
+vibe-zsh history list
+
+# Clear all history
+vibe-zsh history clear
+```
+
+**File Operations:**
+```bash
+show me all hidden files including their sizes
+# → ls -lah
+```
+
+**Docker:**
+```bash
+show logs of nginx container and follow them
+# → docker logs -f nginx
+```
+
+**Git:**
+```bash
+show me commits from last week
+# → git log --since="1 week ago"
+```
+
+**Find & Search:**
+```bash
+find all python files modified today
+# → find . -name "*.py" -mtime 0
+```
+
+### Advanced Features
+
+**Tab Completion:**
+```bash
+vibe <TAB><TAB>
+# Shows common query suggestions
+```
+
+**Hide Explanations:**
+```bash
+export VIBE_SHOW_EXPLANATION=false
+```
+
+**Interactive Mode** (confirm before inserting):
+```bash
+export VIBE_INTERACTIVE=true
+```
+
+**Disable Cache:**
+```bash
+export VIBE_ENABLE_CACHE=false
+```
+
+**Disable Auto-Updates:**
+```bash
+export VIBE_AUTO_UPDATE=false
+```
+
+**Customize History Keybinding:**
+```bash
+export VIBE_HISTORY_KEY="^R"      # Use Ctrl+R for history menu
+export VIBE_REGENERATE_KEY="^[r"  # Use Alt+R for quick regenerate
+# Note: Avoid ^H (Ctrl+H) as it conflicts with Backspace
+```
+
+**Disable History:**
+```bash
+export VIBE_ENABLE_HISTORY=false
+```
+
+## Configuration Reference
+
+| Variable | Default | Description |
+|----------|---------|-------------|
+| **API Configuration** | | |
+| `VIBE_PROVIDER` | _(inferred from `VIBE_API_URL`)_ | LLM provider. Hosted: `openai`, `anthropic`, `groq`, `openrouter`, `deepseek`, `google-openai`, `mistral`, `cohere`. Local: `ollama`, `lmstudio`, `vllm`. Custom gateway: `openai-compatible`. Recommended to set explicitly. |
+| `VIBE_API_URL` | `http://localhost:11434/v1` | Endpoint URL. Used by local providers (`ollama`, `lmstudio`, `vllm`) and `openai-compatible`. Hosted providers ignore this and use their fixed endpoints. |
+| `VIBE_API_KEY` | `""` | API key. Required for hosted providers and `openai-compatible`; ignored by local providers. |
+| `VIBE_MODEL` | `llama3:8b` | Model to use. Set this for hosted providers — the default only suits Ollama. |
+| `VIBE_TEMPERATURE` | `0.2` | Generation temperature (0.0-2.0) |
+| `VIBE_MAX_TOKENS` | `1000` | Max response tokens |
+| `VIBE_TIMEOUT` | `30s` | Request timeout |
+| **Display Options** | | |
+| `VIBE_SHOW_EXPLANATION` | `true` | Show command explanations |
+| `VIBE_SHOW_WARNINGS` | `true` | Show warnings for dangerous commands |
+| `VIBE_SHOW_PROGRESS` | `true` | Show progress spinner during generation |
+| `VIBE_PROGRESS_STYLE` | `dots` | Spinner style: dots, line, circle, bounce, arrow, runes (ᛜ ᛃ ᛋ) |
+| `VIBE_STREAM_OUTPUT` | `true` | Stream output with typewriter effect |
+| `VIBE_STREAM_DELAY` | `20ms` | Delay between streamed words |
+| **Behavior** | | |
+| `VIBE_INTERACTIVE` | `false` | Confirm before inserting command |
+| `VIBE_USE_STRUCTURED_OUTPUT` | `true` | Use JSON schema for structured responses |
+| `VIBE_ENABLE_CACHE` | `true` | Enable response caching |
+| `VIBE_CACHE_TTL` | `24h` | Cache lifetime |
+| **Parsing & Retry** | | |
+| `VIBE_MAX_RETRIES` | `3` | Max retry attempts for failed parsing |
+| `VIBE_ENABLE_JSON_EXTRACTION` | `true` | Extract JSON from corrupted responses |
+| `VIBE_STRICT_VALIDATION` | `true` | Validate response structure |
+| `VIBE_SHOW_RETRY_STATUS` | `true` | Show retry progress during generation |
+| **History** | | |
+| `VIBE_ENABLE_HISTORY` | `true` | Enable query history tracking |
+| `VIBE_HISTORY_SIZE` | `100` | Maximum number of history entries |
+| `VIBE_HISTORY_KEY` | `^Xh` (Ctrl+X H) | Keybinding for history menu |
+| `VIBE_REGENERATE_KEY` | `^Xg` (Ctrl+X G) | Keybinding to regenerate last command |
+| **Updates & Debugging** | | |
+| `VIBE_AUTO_UPDATE` | `true` | Enable auto-update checks |
+| `VIBE_UPDATE_CHECK_INTERVAL` | `7d` | How often to check for updates |
+| `VIBE_DEBUG_LOGS` | `false` | Enable debug logging for troubleshooting |
+
+## How It Works
+
+1. **Capture** - You type natural language and press `Ctrl+G`
+2. **Context** - vibe detects your OS (macOS/Linux/Windows) and shell (zsh/bash/etc.)
+3. **Generate** - vibe sends your query with system context to the configured LLM
+4. **Parse** - Response is structured as command + explanations
+5. **Cache** - Response is cached for 24 hours (configurable)
+6. **Stream** - Command is streamed to your terminal with typewriter effect
+7. **Insert** - Command appears in your buffer for review
+8. **Execute** - You press Enter to run (or edit first)
+
+### OS-Aware Command Generation
+
+vibe automatically detects your operating system and shell, ensuring generated commands work on your system:
+
+- **macOS**: Uses BSD utilities (e.g., `find` without `-printf`, `sed -i ''`)
+- **Linux**: Uses GNU utilities (e.g., `find -printf`, `sed -i`)
+- **Shell-specific**: Generates syntax appropriate for zsh, bash, etc.
+
+This means you get commands that actually work on your system, not generic Linux commands that fail on macOS!
+
+## Performance
+
+- **First query:** ~500ms-2s (depends on LLM)
+- **Cached query:** ~5-10ms (100-400x faster!)
+- **Binary size:** ~8MB
+- **Memory usage:** <10MB
+
+## Safety
+
+- ✅ Commands are never executed automatically
+- ✅ Full preview before execution
+- ✅ Edit commands before running
+- ✅ Warnings for dangerous commands
+- ✅ Optional interactive confirmation mode
+- ✅ Local-first with Ollama (your data stays private)
+
+## Updates
+
+vibe automatically checks for updates once a week in the background (zero impact on performance). When an update is available, you'll see a notification:
+
+```
+⚠️  vibe v1.2.4 available (current: v1.2.3)
+   Run: vibe --update
+```
+
+**Manual Commands:**
+```bash
+vibe --version              # Show current version
+vibe --update               # Download and install latest version
+```
+
+**Configuration:**
+```bash
+export VIBE_AUTO_UPDATE=false           # Disable auto-update checks
+export VIBE_UPDATE_CHECK_INTERVAL=14d   # Check every 2 weeks instead
+```
+
+**Security:**
+- All downloads are verified using SHA256 checksums
+- Checksums are published with each release
+- Original binary is backed up before replacement
+- Safe atomic file replacement
+
+The update check runs in a background process after each command, so it never slows down your workflow. Updates are never installed automatically - you always control when to update.
+
+## Troubleshooting
+
+**Command not working after install:**
+- Reload your shell: `source ~/.zshrc`
+- Verify plugin is in list: `echo $plugins`
+- Check binary exists: `ls ~/.oh-my-zsh/custom/plugins/vibe/vibe`
+
+**Slow responses:**
+- Enable caching: `export VIBE_ENABLE_CACHE=true`
+- Use a faster model or local LLM
+- Check your network connection
+
+**Bad command suggestions:**
+- Try a different/better model
+- Make your query more specific
+- Check model supports structured output
+
+**Corrupted or garbage output:**
+- vibe now automatically handles corrupted LLM responses with multi-layer parsing
+- Enable debug logs to see what's happening: `export VIBE_DEBUG_LOGS=true`
+- Check logs for raw responses and parsing attempts
+- Try increasing retries: `export VIBE_MAX_RETRIES=5`
+
+**Parsing errors:**
+- Enable JSON extraction: `export VIBE_ENABLE_JSON_EXTRACTION=true` (default)
+- Disable strict validation temporarily: `export VIBE_STRICT_VALIDATION=false`
+- Check debug logs to see which parsing layer succeeded/failed
+- Some models produce cleaner JSON with lower temperature: `export VIBE_TEMPERATURE=0.3`
+
+**Ctrl+G does nothing:**
+- Ensure plugin is loaded: `which vibe` (should show a function)
+- Check no other plugin uses Ctrl+G
+- Try rebinding: `bindkey '^G' vibe`
+
+## Requirements
+
+- Zsh with Oh-My-Zsh
+- An LLM provider — hosted (OpenAI, Anthropic, Groq, OpenRouter, etc.), local (Ollama, LM Studio, vLLM), or any custom OpenAI-compatible gateway
+- macOS or Linux
+
+## Uninstalling
+
+### Homebrew
+
+```bash
+brew uninstall --cask vibe-zsh
+brew untap skymoore/tap  # Optional: remove the tap
+```
+
+Then remove `vibe` from your plugins list in `~/.zshrc` and reload:
+```bash
+source ~/.zshrc
+```
+
+### Oh-My-Zsh Plugin
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/skymoore/vibe-zsh/main/uninstall.sh | bash
+```
+
+Or using wget:
+
+```bash
+wget -qO- https://raw.githubusercontent.com/skymoore/vibe-zsh/main/uninstall.sh | bash
+```
+
+Then remove `vibe` from your plugins list in `~/.zshrc` and reload:
+```bash
+source ~/.zshrc
+```
+
+## Building from Source
+
+```bash
+git clone https://github.com/skymoore/vibe-zsh.git
+cd vibe-zsh
+make build        # Build for current platform
+make build-all    # Build for all platforms
+make test         # Run tests
+make install      # Install to oh-my-zsh
+```
+
+## Contributing
+
+Contributions welcome! This project uses:
+- Go 1.26+
+- Standard zsh scripting
+- gollm for native multi-provider LLM access
+
+## License
+
+GPLv3 License - see LICENSE
+
+## Acknowledgments
+
+Inspired by LoganPederson/vibe
+
+Built for terminal productivity enthusiasts 🚀
+
+# enricodeleo/crudio
+
+## 评论（3/3）
+
+> **kennywinker** · 2026-06-30T05:58:45.000Z　
+> This feels like using a harrier jet to take in your groceries. Seems like something that could be built using one of the very small edge models - a 0.3 or 0.5b maybe with some fine tuning, and run on cpu on device for free without any real quality loss.
+
+---
+
+> **iamsky** · 2026-06-30T06:49:06.000Z　
+> It definitely can, it just depends on the complexity of the commands you want it to generate. Most of the time a small local model will do what you want. If you know of a small local model fine tuned to generate shell commands I'm all ears. I usually run it with a 9B qwen model.Pairing this with dictation is fun though, and speeds things up a lot for terminal heavy work.
+
+---
+
+> **kennywinker** · 2026-06-30T13:46:37.000Z　
+> https://huggingface.co/kushagragoyal/fine_tuned_modelhttps://github.com/Eng-Elias/qwen3-600M-terminal-instructhttps://huggingface.co/ajayk007/Qwen2.5-Coder-1.5B-Shellsmit...https://huggingface.co/distil-labs/distil-qwen3-0.6b-SHELLpe...https://huggingface.co/distil-labs/distil-lfm25-shellperThose last two compared: https://www.distillabs.ai/blog/fine-tuning-liquids-lfm25-acc...https://www.reddit.com/r/LocalLLaMA/comments/1or1e7p/i_finet...
+
+## 关联链接
+
+- http://localhost:11434/v1
+- http://localhost:11434/v1`
+- http://localhost:1234/v1
+- http://vibe-zsh.dev/
+- https://api.example.dev/v1
+- https://github.com/skymoore/vibe-zsh.git
+- https://raw.githubusercontent.com/skymoore/vibe-zsh/main/install.sh
+- https://raw.githubusercontent.com/skymoore/vibe-zsh/main/uninstall.sh
+- https://your-gateway.example.com/v1
 
 ## 导航
 
 - 项目页：[[10-项目/github.com_e085accc]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

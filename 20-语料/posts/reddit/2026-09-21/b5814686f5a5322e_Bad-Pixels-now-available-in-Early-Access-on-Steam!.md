@@ -43,7 +43,7 @@ discovered_via: "reddit:52d+settle3"
 
 ## 关联链接
 
-- https://store.steampowered.com/app/952100/Bad\_Pixels/
+- https://store.steampowered.com/app/952100/Bad
 - https://store.steampowered.com/app/952100/Bad_Pixels/
 
 ## 导航

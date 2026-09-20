@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=48733474"
 project_url: "https://github.com/treadiehq/boot"
 author: "dantelex"
 published_at: "2026-06-30T14:48:24Z"
-captured_at: "2026-09-21T01:29:55+08:00"
+captured_at: "2026-09-21T02:53:03+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: "AI 工具/Agent"
 shard: "2026-09-21"
 pub_day: "2026-06-30"
 tags:
@@ -28,17 +28,156 @@ discovered_via: "hn:show_hn:113d"
 
 # Show HN: Dropbox For –/[Code]
 
+> [!info] 一句话导读
+> Dropbox for ~/[code]
+
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=48733474>
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：dantelex　|　发布：2026-06-30T14:48:24Z
 > 项目链接：<https://github.com/treadiehq/boot>
-> 采集：2026-09-21T01:29:55+08:00　|　id：`b3b086026326abd6`
+> 采集：2026-09-21T02:53:03+08:00　|　id：`b3b086026326abd6`
+
+## 正文
+
+# treadiehq/boot
+
+Dropbox for ~/[code]
+
+- Stars: 2
+- Forks: 0
+- Watchers: 2
+- Open issues: 0
+- License: Other
+- Default branch: main
+- Created: 2026-06-24T23:23:18Z
+
+## Languages
+
+- JavaScript
+- PowerShell
+- Shell
+- TypeScript
+
+## Top Contributors
+
+- dantelex (11 contributions)
+
+---
+
+## README
+
+# Boot
+
+**Dropbox for `~/[code]` — it syncs the _map_ of your workspace, not the files.**
+
+You have a folder full of git repos. boot remembers its shape, which repos live
+where, and recreates it on any other machine. Repos arrive as tiny
+**placeholders** and turn into real clones the moment you open them, so a new
+laptop (or cloud agent) is ready in seconds, not gigabytes.
+
+It also syncs your **env vars** (encrypted) and runs a small background **daemon**
+so no machine ever builds on a stale `main`.
+
+Two promises, really:
+
+- **Never build on a stale base.** The daemon keeps every machine current and
+ fast-forwards clean repos, so you stop wasting time on "wait, why did it build
+ the old `main`?"
+- **A fresh box or cloud agent has your exact workspace in seconds.** One command
+ and your whole layout is there, repos hydrate the moment you touch them.
+
+> boot doesn't replace Git or live-sync your edits. It syncs structure and
+> secrets, not a real-time copy of your files.
+
+## Install
+
+**macOS / Linux** (needs `curl`):
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/treadiehq/boot/main/scripts/install.sh | bash
+```
+
+**Windows** (PowerShell):
+
+```powershell
+irm https://raw.githubusercontent.com/treadiehq/boot/main/scripts/install.ps1 | iex
+```
+
+Installs a standalone binary (macOS/Linux on x64+arm64, Windows on x64). Git is
+required for boot's repo syncing. Update anytime with `boot update`.
+
+## Use it
+
+**Once, ever:** create an empty private git repo to hold the map. boot *clones*
+this remote, it won't create it for you. So make one first on any host and
+leave it empty (your first sync seeds it). A name like `code-map` works well.
+
+Then one command sets up each machine. It links the workspace, creates a secret
+key, installs the shell hook and background daemon, and prints a health check:
+
+```bash
+boot setup git@github.com:me/code-map.git ~/code
+```
+
+Run the same command on your next machine and your whole layout shows up as
+placeholders that hydrate when you touch them. It's safe to re-run anytime.
+
+You don't have to remember to sync. The background daemon that `setup` installs
+pulls **and** pushes the map for you (every 60s by default), so a repo you add on
+one machine shows up on the others on its own. `boot push` / `boot pull` are just
+on-demand escape hatches. Most days you never run them.
+
+## Handy commands
+
+| Command | What it does |
+| --- | --- |
+| `boot setup [path]` | Set up (or update) a machine in one shot. |
+| `boot push` | Manually publish this machine's layout (the daemon already does this). |
+| `boot pull` | Manually pull the latest layout (the daemon already does this); `--dry-run` to preview. |
+| `boot cd ` | Fuzzy-jump to any repo in your map, hydrating it on the way (use the `bcd` shell function). |
+| `boot hydrate ` | Turn a placeholder into a real clone. |
+| `boot env key share` / `receive` | Move your encrypted secrets to a new machine with a passphrase. |
+| `boot agent [path]` | One-shot bootstrap for CI / cloud agents. |
+| `boot update` | Update boot itself to the latest version. |
+| `boot doctor --system` | Check how a machine is wired up (link, key, hook, daemon, FUSE). |
+
+Env-var sync, the Dropbox-folder transport, FUSE mounts, and the full command
+reference live in **docs/detailed.md**.
+
+## Dev
+
+```bash
+pnpm dev <cmd>      # run from source
+pnpm build          # bundle (dist/index.js, needs Node to run)
+pnpm test           # tests
+pnpm demo           # narrated, offline two-machine walkthrough (great for showing off)
+pnpm build:binary   # standalone binaries for all platforms (needs Bun) → dist/release/
+```
+
+## Not yet
+
+- a native **macOS File Provider** extension so on-read hydration needs no macFUSE
+ install (a signed Swift app extension, out of scope for a pure-TS CLI);
+- **continuous file-content sync** of *uncommitted* work between machines (boot
+ deliberately syncs the structural map, not a live file replica, a real-time
+ replication backend is a separate product surface).
+
+## License
+
+FSL-1.1-MIT
+
+# agentflock/myna
+
+## 关联链接
+
+- https://raw.githubusercontent.com/treadiehq/boot/main/scripts/install.ps1
+- https://raw.githubusercontent.com/treadiehq/boot/main/scripts/install.sh
 
 ## 导航
 
 - 项目页：[[10-项目/github.com_0794b3c9]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

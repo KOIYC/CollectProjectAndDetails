@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=48731876"
 project_url: "https://reelsgraph.com/"
 author: "Whiskee"
 published_at: "2026-06-30T12:37:48Z"
-captured_at: "2026-09-21T01:44:57+08:00"
+captured_at: "2026-09-21T02:53:07+08:00"
 lang: "en"
 kind: "post"
-topic: 开发者工具
+topic: "开发者工具"
 shard: "2026-09-21"
 pub_day: "2026-06-30"
 tags:
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:113d"
 # Show HN: ReelsGraph – movie/TV watchlist and ML-based discovery queue, no signup
 
 > [!info] 一句话导读
-> Show HN: ReelsGraph – movie/TV watchlist and ML-based discovery queue, no signup
+> The twin website for gaming
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,243 @@ discovered_via: "hn:show_hn:113d"
 > 指标：点赞=3 · 评论=2 · engagement_velocity=3
 > 作者：Whiskee　|　发布：2026-06-30T12:37:48Z
 > 项目链接：<https://reelsgraph.com/>
-> 采集：2026-09-21T01:44:57+08:00　|　id：`04a8d01639621101`
+> 采集：2026-09-21T02:53:07+08:00　|　id：`04a8d01639621101`
 
 ## 正文
 
-Show HN: ReelsGraph – movie/TV watchlist and ML-based discovery queue, no signup
+R e e lsGraph
+Menu
+About
+Announcements
+FAQ
+Mobile App
+Send Feedback
+GamesGraph.com
+The twin website for gaming
+Settings
+Rankings
+Explore by Tag
+Top 200 Rankings
+Top Franchises
+Top Directors
+Top Actors
+Profile
+Feed
+Watchlist
+Watchlist
+Discovery
+Discovery
+Ranked Lists
+Explore by Tag
+Top 200 Rankings
+Top Franchises
+Top Directors
+Top Actors
+Discover Movies
+Discover Series
+Discover Anime
+Movies & TV series
+- by original title
+- by localized title (your region)
+- by franchise name
+Directors & Actors
+- by name
+ReelsGraph users
+- by username
+ ">
+Sign In
+Your reviews, your watchlist,
+your discovery queue. 
+343,200+ movies and shows , ranked by people who actually watched them.
+ 100% free, no signup required. 
+Start Rating Movies →
+TV Series →
+Anime →
+Or bring your collections over from
+ Letterboxd ,
+ IMDb ,
+ Trakt ,
+ TMDB ,
+ MyAnimeList ,
+ Simkl ,
+ TV Time , 
+ Criticker .
+Live data including TMDB
+Recently Acclaimed
+1 
+Project Hail Mary 
+Phil Lord
+8.28
+ Excellent++ 
+5,519 reviews
+2 
+Swapped 
+Nathan Greno
+8.21
+ Excellent++ 
+1,158 reviews
+3 
+Michael 
+Antoine Fuqua
+8.20
+ Excellent++ 
+2,457 reviews
+4 
+Obsession 
+Curry Barker
+7.77
+ Excellent 
+2,724 reviews
+5 
+The Super Mario Galaxy Movie 
+Michael Jelenic
+7.76
+ Excellent 
+2,363 reviews
+6 
+Hoppers 
+Daniel Chong
+7.64
+ Excellent- 
+1,750 reviews
+7 
+Toy Story 5 
+Andrew Stanton
+7.64
+ Excellent- 
+877 reviews
+8 
+The Punisher: One Last Kill 
+Reinaldo Marcus Green
+7.64
+ Excellent- 
+1,087 reviews
+9 
+The Odyssey 
+Christopher Nolan
+7.48
+ Excellent- 
+1,524 reviews
+10 
+Predator: Badlands 
+Dan Trachtenberg
+7.42
+ Excellent-- 
+3,659 reviews
+11 
+GOAT 
+Tyree Dillihay
+7.38
+ Excellent-- 
+889 reviews
+12 
+I Swear 
+Kirk Jones
+7.34
+ Excellent-- 
+573 reviews
+13 
+Lee Cronin's The Mummy 
+Lee Cronin
+7.34
+ Excellent-- 
+1,568 reviews
+14 
+The Sheep Detectives 
+Kyle Balda
+7.27
+ Excellent-- 
+889 reviews
+15 
+Spider-Man: Brand New Day 
+Destin Daniel Cretton
+7.26
+ Excellent-- 
+1,113 reviews
+16 
+Mortal Kombat II 
+Simon McQuoid
+7.25
+ Excellent-- 
+1,320 reviews
+17 
+Zootopia 2 
+Jared Bush
+7.25
+ Excellent-- 
+3,434 reviews
+18 
+Shelter 
+Ric Roman Waugh
+7.24
+ Excellent-- 
+1,640 reviews
+19 
+Avatar: Fire and Ash 
+James Cameron
+7.23
+ Excellent-- 
+4,335 reviews
+20 
+Hamnet 
+Chloé Zhao
+7.21
+ Good++ 
+1,617 reviews
+21 
+Frankenstein 
+Guillermo del Toro
+7.18
+ Good++ 
+3,846 reviews
+22 
+Rental Family 
+Hikari
+7.10
+ Good++ 
+1,022 reviews
+23 
+Nuremberg 
+James Vanderbilt
+7.07
+ Good++ 
+1,412 reviews
+24 
+War Machine 
+Patrick Hughes
+7.00
+ Good++ 
+2,023 reviews
+25 
+Ready or Not: Here I Come 
+Matt Bettinelli-Olpin
+6.99
+ Good+ 
+1,122 reviews
+Browse all rankings 
+ML-powered recommendations 
+Party Mode for movie nights 
+Auto-organized watchlists 
+Regional streaming availability 
+Franchise & director pages 
+User profiles & social feed 
+This website uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB.
+ This website uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB.
+©
+ 2019-2026
+ ReelsGraph ,
+ made by Whiskee -
+ Email -
+ Privacy Policy
+This website uses TMDB and the TMDB APIs but is not endorsed, certified, or otherwise approved by TMDB.
+©
+ 2019-2026
+ ReelsGraph , made by Whiskee -
+ Email -
+ Privacy Policy
+Confirm
+Cancel 
+ Confirm
 
 ## 评论（2/2）
 

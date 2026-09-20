@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Add AI chat to any docs site with one script tag"
 project_url: "https://context7-react-chat-widget-demo.vercel.app/"
-first_seen: "2026-09-21T01:45:10+08:00"
+first_seen: "2026-09-21T02:53:12+08:00"
 sources:
   - hn_show
 tags:
@@ -17,11 +17,11 @@ lang: "en"
 # Show HN: Add AI chat to any docs site with one script tag
 
 > [!info] 一句话导读
-> Show HN: Add AI chat to any docs site with one script tag
+> Context7 React Chat Widget Demo
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://context7-react-chat-widget-demo.vercel.app/>
-> 首次收录：2026-09-21T01:45:10+08:00
+> 首次收录：2026-09-21T02:53:12+08:00
 > 来源渠道：HN Show HN
 > 标签：author_abdush, story_48730610, show_hn
 > 最新指标：点赞=2 · 评论=1 · engagement_velocity=2
@@ -32,7 +32,8 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-21T01:29:55+08:00 | HN Show HN | 点赞=2 · 评论=1 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/64784d5944adf9cb_Show-HN-Add-AI-chat-to-any-docs-site-with-one-scri]] |
 | 2026-09-21T01:45:10+08:00 | HN Show HN | 点赞=2 · 评论=1 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/64784d5944adf9cb_Show-HN-Add-AI-chat-to-any-docs-site-with-one-scri]] |
+| 2026-09-21T02:53:12+08:00 | HN Show HN | 点赞=2 · 评论=1 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/64784d5944adf9cb_Show-HN-Add-AI-chat-to-any-docs-site-with-one-scri]] |
 
 ## 摘要正文
 
-Show HN: Add AI chat to any docs site with one script tag
+Context7 React Chat Widget Demo  # Context7 chat widget demo  This Next.js app shows how a React documentation site can load the Context7 AI chat widget on every page with one async script.  Root layout  ``` <Script   src="https://context7.com/widget.js"   data-library="/reactjs/react.dev"   strategy="afterInteractive" /> ```  # The Three Idempotencies of an Agent - Venky's Substack

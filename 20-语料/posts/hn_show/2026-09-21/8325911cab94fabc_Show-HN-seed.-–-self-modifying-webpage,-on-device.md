@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=48344326"
 project_url: "https://oxedom.github.io/seed"
 author: "oxedom"
 published_at: "2026-05-31T09:45:43Z"
-captured_at: "2026-09-21T01:42:58+08:00"
+captured_at: "2026-09-21T02:52:47+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:144d"
 # Show HN: seed. – self-modifying webpage, on-device LLM, site in the URL
 
 > [!info] 一句话导读
-> Show HN: seed. – self-modifying webpage, on-device LLM, site in the URL
+> local · chrome built-in (gemini nano)
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,39 @@ discovered_via: "hn:show_hn:144d"
 > 指标：点赞=2 · 评论=1 · engagement_velocity=2
 > 作者：oxedom　|　发布：2026-05-31T09:45:43Z
 > 项目链接：<https://oxedom.github.io/seed>
-> 采集：2026-09-21T01:42:58+08:00　|　id：`8325911cab94fabc`
+> 采集：2026-09-21T02:52:47+08:00　|　id：`8325911cab94fabc`
 
 ## 正文
 
-Show HN: seed. – self-modifying webpage, on-device LLM, site in the URL
+seed · control
+ +
+modify →
+copy url
+ config
+ reset
+provider config
+×
+provider
+anthropic (claude)
+ openai (responses)
+ local · chrome built-in (gemini nano)
+api key
+model
+claude-sonnet-4-6 (sonnet 4.6)
+ claude-opus-4-7 (opus 4.7 · most capable)
+ claude-haiku-4-5-20251001 (haiku 4.5 · fast)
+api key
+model
+Uses OpenAI's Responses API directly from this browser. The key is stored in localStorage and sent only with generation requests.
+Uses Chrome's built-in window.LanguageModel API (Gemini Nano, runs entirely on-device). No API key, no network calls.
+checking availability…
+Setup: Chrome 127+ with the flag chrome://flags/#prompt-api-for-gemini-nano enabled. The model downloads (~1–2 GB) on first use.
+Note: Gemini Nano is small and may struggle to produce well-formed HTML for complex prompts. Best results on short, focused requests.
+save
+seed · generating
+ 00:00
+contacting model…
+ cancel
 
 ## 评论（1/1）
 

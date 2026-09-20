@@ -2,7 +2,7 @@
 type: "project"
 title: "I built and launched a SaaS with zero budget – here's the exact stack (and the product)"
 project_url: "https://emrefkrlr.github.io/gitpulse"
-first_seen: "2026-09-21T01:27:56+08:00"
+first_seen: "2026-09-21T03:01:37+08:00"
 sources:
   - reddit
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://emrefkrlr.github.io/gitpulse>
-> 首次收录：2026-09-21T01:27:56+08:00
+> 首次收录：2026-09-21T03:01:37+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/microsaas
 > 最新指标：得分=3 · 评论=2 · 赞踩比=1
@@ -29,6 +29,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T01:27:56+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=2 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/0c8c21e17798dd47_I-built-and-launched-a-SaaS-with-zero-budget-–-her]] |
+| 2026-09-21T03:01:37+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=2 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/0c8c21e17798dd47_I-built-and-launched-a-SaaS-with-zero-budget-–-her]] |
 
 ## 摘要正文
 

@@ -7,10 +7,10 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1tst53t/why_im_building_the_thinking_partner_story/"
 author: "Capital_Mechanic5545"
 published_at: "2026-05-31T19:47:37+08:00"
-captured_at: "2026-09-21T01:27:59+08:00"
+captured_at: "2026-09-21T03:01:28+08:00"
 lang: "en"
 kind: "post"
-topic: "开发者工具"
+topic: AI 工具/Agent
 shard: "2026-09-21"
 pub_day: "2026-05-31"
 tags:
@@ -19,8 +19,8 @@ tags:
   - r/EntrepreneurRideAlong
   - Ride Along Story
 metrics: {"score": 4, "comments": 5, "upvote_ratio": 0.8299999833106995}
-comments_count: 0
-comments_total: 0
+comments_count: 5
+comments_total: 5
 discovered_via: "reddit:144d+settle3"
 ---
 
@@ -35,7 +35,7 @@ discovered_via: "reddit:144d+settle3"
 > 指标：得分=4 · 评论=5 · 赞踩比=0.8299999833106995
 > 作者：Capital_Mechanic5545　|　发布：2026-05-31T19:47:37+08:00
 > 项目链接：—
-> 采集：2026-09-21T01:27:59+08:00　|　id：`0d7a9142cdbdc7c2`
+> 采集：2026-09-21T03:01:28+08:00　|　id：`0d7a9142cdbdc7c2`
 
 ## 正文
 
@@ -75,9 +75,34 @@ if you're a solo founder struggling with loneliness, decision fatigue, or overwh
 
 comment "founder" and i will reach you out
 
+## 评论（5/5）
+
+> **Dramatic-Tea-1295**（1 分） · 2026-05-31T20:31:25+08:00　
+> Love this angle. The "thinking partner" is such an underrated role for founders. I think the reason so many struggle is because they try to force their friends or spouse into that role, and it just never works. Having an objective, non-biased party to bounce ideas off of is a total game changer. I have moved toward a similar system using a couple of different tools to keep myself organized, like Obsidian for brain-dumping, Runable for organizing my marketing plans and presentation logic, and a simple voice recorder for when I am walking and just need to talk it out. It is crazy how much clearer things look once they are out of your head and structured somewhere else.
+
+---
+
+> **Mission-Sea8333**（1 分） · 2026-06-01T00:00:07+08:00　
+> This resonated more than I expected. The hardest part of building hasn't been the product, it's making hundreds of decisions without having anyone who truly understands the context behind them.I also went through the Discord and accountability-partner phase. The problem wasn't finding people, it was finding people who were invested enough to give thoughtful feedback instead of generic encouragement. Most conversations stayed at the surface level.
+
+---
+
+> **Capital_Mechanic5545**（1 分） · 2026-06-01T02:39:18+08:00　
+> the invested enough to give thoughtful feedback part that’s the whole thing generic encouragement is easy to find. someone who actually understands the context and cares enough to challenge it is rare. that’s what i’m building if you want to try a free session
+
+---
+
+> **FeatureFar8819**（1 分） · 2026-06-01T14:38:11+08:00　
+> I think a lot of founders underestimate how much the emotional side affects execution. It’s not usually a lack of ideas or skills that slows people down, it’s spending weeks second guessing decisions with nobody to sanity check them. Even a 30 minute conversation with someone who understands the founder journey can save more time than another productivity tool or framework.
+
+---
+
+> **Capital_Mechanic5545**（1 分） · 2026-06-01T16:14:15+08:00　
+> spending weeks second guessing with nobody to sanity check has that cost you something specific recently?
+
 ## 导航
 
 - 项目页：—（本条不是项目，按设计不建实体页）
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

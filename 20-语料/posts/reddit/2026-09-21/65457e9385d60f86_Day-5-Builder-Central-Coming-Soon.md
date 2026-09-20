@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/buildinpublic/comments/1tswlas/day_5_builder_cent
 project_url: "https://buildercentral.in/"
 author: "sniperkraken007"
 published_at: "2026-05-31T22:17:41+08:00"
-captured_at: "2026-09-21T01:28:02+08:00"
+captured_at: "2026-09-21T03:01:58+08:00"
 lang: "en"
 kind: "post"
 topic: "未分类"
@@ -19,8 +19,8 @@ tags:
   - reddit
   - r/buildinpublic
 metrics: {"score": 3, "comments": 2, "upvote_ratio": 1}
-comments_count: 0
-comments_total: 0
+comments_count: 2
+comments_total: 2
 discovered_via: "reddit:144d+settle3"
 ---
 
@@ -35,7 +35,7 @@ discovered_via: "reddit:144d+settle3"
 > 指标：得分=3 · 评论=2 · 赞踩比=1
 > 作者：sniperkraken007　|　发布：2026-05-31T22:17:41+08:00
 > 项目链接：<https://buildercentral.in/>
-> 采集：2026-09-21T01:28:02+08:00　|　id：`65457e9385d60f86`
+> 采集：2026-09-21T03:01:58+08:00　|　id：`65457e9385d60f86`
 
 ## 正文
 
@@ -48,6 +48,16 @@ i geniune want a feedback from you guys
 also please login into my website and check out the extras
 
 website : [https://buildercentral.in](https://buildercentral.in/)
+
+## 评论（2/2）
+
+> **LeaderAtLeading**（1 分） · 2026-06-01T22:30:51+08:00　
+> The copy needs cleanup before asking for feedback. Hard to take seriously with typos.
+
+---
+
+> **sniperkraken007**（1 分） · 2026-06-02T01:49:20+08:00　
+> thanks for the suggestion
 
 ## 关联链接
 

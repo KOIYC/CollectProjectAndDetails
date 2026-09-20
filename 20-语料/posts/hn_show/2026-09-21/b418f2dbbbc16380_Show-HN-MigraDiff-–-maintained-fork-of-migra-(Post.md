@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=48328343"
 project_url: "https://github.com/migradiff/migra"
 author: "lateos-ai"
 published_at: "2026-05-29T19:54:12Z"
-captured_at: "2026-09-21T01:43:47+08:00"
+captured_at: "2026-09-21T02:52:56+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "AI 工具/Agent"
 shard: "2026-09-21"
 pub_day: "2026-05-29"
 tags:
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:144d"
 # Show HN: MigraDiff – maintained fork of migra (PostgreSQL schema diff)
 
 > [!info] 一句话导读
-> Show HN: MigraDiff – maintained fork of migra (PostgreSQL schema diff)
+> postgresql-tools/migra
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,496 @@ discovered_via: "hn:show_hn:144d"
 > 指标：点赞=4 · 评论=2 · engagement_velocity=4
 > 作者：lateos-ai　|　发布：2026-05-29T19:54:12Z
 > 项目链接：<https://github.com/migradiff/migra>
-> 采集：2026-09-21T01:43:47+08:00　|　id：`b418f2dbbbc16380`
+> 采集：2026-09-21T02:52:56+08:00　|　id：`b418f2dbbbc16380`
 
 ## 正文
 
-Show HN: MigraDiff – maintained fork of migra (PostgreSQL schema diff)
+# postgresql-tools/migra
+
+The actively maintained fork of migra — PostgreSQL schema diff and migration script generator.
+
+- Stars: 91
+- Forks: 1
+- Watchers: 91
+- Open issues: 0
+- License: The Unlicense
+- Default branch: main
+- Created: 2026-05-29T14:31:23Z
+- Fork: yes
+
+## Languages
+
+- Dockerfile
+- Makefile
+- PLpgSQL
+- PowerShell
+- Python
+- Shell
+
+## Top Contributors
+
+- djrobstep (144 contributions)
+- alvarogzp (9 contributions)
+- leochong (7 contributions)
+- mshahbazi (6 contributions)
+- donbeave (2 contributions)
+- tad-lispy (2 contributions)
+- jakelevirne (1 contributions)
+- jasongi-actu (1 contributions)
+- lorey (1 contributions)
+- MOZGIII (1 contributions)
+
+---
+
+## README
+
+# MigraDiff
+
+**Choose a language:**
+English |
+हिन्दी |
+中文 |
+日本語 |
+Français |
+Deutsch |
+עברית
+
+---
+
+# migra — PostgreSQL Schema Diff Tool
+
+PyPI version
+Python versions
+License: MIT
+
+**The actively maintained fork of djrobstep/migra.**
+
+migra compares two PostgreSQL database schemas and generates the SQL
+migration script needed to transform one into the other. Drop it into
+your CI pipeline and stop writing `ALTER TABLE` by hand.
+
+---
+
+## Why This Fork
+
+The original `migra` was officially deprecated in 2024. This fork picks
+up where it left off — fixing known issues, adding Python 3.12+ support,
+and extending coverage for advanced PostgreSQL features.
+
+If you were using `djrobstep/migra`, this is your drop-in continuation.
+Nothing has changed about how the tool works. We're just keeping the
+lights on and making it better.
+
+**A note on naming:** This is an independent community fork. The CLI
+command remains `migra` for drop-in backward compatibility with
+existing scripts and pipelines. The package name is `migradiff` to
+distinguish it from the deprecated upstream. If you are looking for
+the original djrobstep/migra, it is archived at
+https://github.com/djrobstep/migra.
+
+---
+
+## Quickstart
+
+### Install
+
+```bash
+pip install migradiff
+```
+
+Requires Python 3.10+ and a running PostgreSQL instance (12+).
+
+To install from source:
+
+```bash
+git clone https://github.com/postgresql-tools/migra
+cd migra
+pip install -e .
+```
+
+> **Note:** PyPI package is available on all releases.
+
+### Basic Usage
+
+Point migra at two database connections and it outputs the DDL needed
+to migrate from one to the other:
+
+```bash
+migra \
+  postgresql://user:pass@localhost/db_production \
+  postgresql://user:pass@localhost/db_branch \
+  --unsafe
+```
+
+Output is plain SQL — pipe it, review it, apply it:
+
+```bash
+migra postgres://db_a postgres://db_b > migration.sql
+psql postgres://db_production < migration.sql
+```
+
+### Schema Dumps (No Live Connection Required)
+
+If you can't or don't want to point migra at a live database, use
+`pg_dump -s` to generate a schema dump and diff that instead:
+
+```bash
+pg_dump -s postgres://db_production > schema_a.sql
+pg_dump -s postgres://db_branch     > schema_b.sql
+migra --from-file schema_a.sql schema_b.sql
+```
+
+This is the recommended approach for CI pipelines and security-conscious
+environments — no production credentials required.
+
+### Migrations Directory (No Live Branch Database Required)
+
+If your target state is defined by a folder of migration files:
+
+```bash
+migra --from-migrations-dir ./migrations postgres://db_production
+```
+
+MigraDiff applies the migrations to an ephemeral database and diffs the
+result. Supports Supabase, Flyway, and standard numeric naming conventions.
+
+### Scoped to a Schema
+
+```bash
+# Single schema
+migra --schema myschema postgres://db_a postgres://db_b
+
+# Multiple schemas (comma-separated)
+migra --schema public,reporting postgres://db_a postgres://db_b
+```
+
+### JSON Output
+
+For programmatic consumption or CI pipelines:
+
+```bash
+migra --output json postgres://db_a postgres://db_b
+```
+
+Output includes per-statement risk classification (`safe`, `warning`,
+`destructive`) and a summary with overall risk level.
+
+---
+
+## AI-Powered Explanation (Optional)
+
+MigraDiff can explain any migration in plain English — what each
+change does, what risks it carries, and safer alternatives for
+destructive operations.
+
+ migra --explain postgres://db_a postgres://db_b
+
+Output:
+
+ --- Migration SQL ---
+ ALTER TABLE public.users ADD COLUMN email text;
+ DROP TABLE public.legacy_sessions;
+
+ --- AI Explanation ---
+ This migration makes 2 changes to your database:
+
+ 1. SAFE: Adds an email column (text) to the users table.
+ No existing data is affected.
+
+ 2. ⚠ DESTRUCTIVE: Drops the legacy_sessions table entirely.
+ All data in this table will be permanently lost.
+ Consider archiving before dropping.
+
+ Overall risk: HIGH
+
+Powered by Claude (Anthropic). Bring your own API key — no data
+is sent to MigraDiff servers.
+
+### Setup
+
+Install the AI extras:
+
+ pip install migradiff[ai]
+
+Configure your API key once:
+
+ migra --setup-ai
+
+Or set the environment variable:
+
+ export ANTHROPIC_API_KEY=sk-ant-...
+
+Get an API key at https://console.anthropic.com
+
+### AI Rollback Generation (--rollback)
+
+Generate the exact reverse migration — the SQL needed to undo
+any migration:
+
+ migra --rollback migration.sql
+ migra --rollback postgres://db_a postgres://db_b
+
+MigraDiff uses your source schema context to reconstruct DROP
+TABLE and DROP COLUMN reversals accurately. Non-reversible
+operations (TRUNCATE, bulk DELETE) are flagged explicitly.
+
+Combine with --explain for a complete picture:
+
+ migra --explain --rollback postgres://db_a postgres://db_b
+
+Requires `pip install migradiff[ai]` and an Anthropic API key.
+
+### AI Schema Drift Analysis (--explain-drift)
+
+Compare two live PostgreSQL databases and get an AI-powered
+explanation of their differences — ideal for answering "What
+changed in production?":
+
+ migra --explain-drift \
+ --from-db "postgresql://user:pass@old.example.com/db" \
+ --to-db "postgresql://user:pass@prod.example.com/db"
+
+Output categorizes each change as BREAKING, WARNING, or INFO,
+and includes live table sizes for risk assessment:
+
+ Schema Drift Analysis: old → prod
+
+ Changes Detected:
+
+ 1. Table "users" — DROPPED
+ - Columns: id, email, created_at
+
+ 2. Table "accounts" — MODIFIED
+ - Column "status" type changed: VARCHAR → ENUM
+ - New column: "last_login_at"
+
+ Risk Analysis:
+ - BREAKING: "users" table was dropped. Historical data loss.
+ - INFO: New "accounts.last_login_at" column. No migration needed.
+
+Requires `pip install migradiff[ai]` and an Anthropic API key.
+
+### AI Performance Advisor (--advise)
+
+Before applying any migration, get a performance risk assessment
+— locking behavior, table rewrite risk, and zero-downtime
+alternatives:
+
+ migra --advise postgres://db_a postgres://db_b
+ migra --advise migration.sql
+
+MigraDiff analyzes each statement for PostgreSQL-specific risks:
+table locks, full rewrites, irreversible data loss. When a live
+connection is provided, table row counts are used to estimate
+lock duration at your actual data scale.
+
+Combine all three AI features for a complete picture:
+
+ migra --explain --advise --rollback postgres://db_a postgres://db_b
+
+Requires pip install migradiff[ai] and an Anthropic API key.
+
+### AI Migration Generator (--generate)
+
+Describe what you want in plain English — MigraDiff generates
+the migration SQL grounded in your actual schema:
+
+ migra --generate "add email verification to users table" \
+ postgres://db_production
+
+Unlike generic AI tools, MigraDiff knows your real table names,
+column types, and constraints — no hallucinated column names or
+wrong types.
+
+Generate and immediately review the risk:
+
+ migra --generate "add index on orders.user_id" \
+ --advise postgres://db_production
+
+Requires pip install migradiff[ai] and an Anthropic API key.
+
+---
+
+## Development Setup
+
+The test suite requires a running PostgreSQL instance. The easiest
+way to get one is via Docker Compose:
+
+```bash
+docker compose up -d
+```
+
+This starts a Postgres 16 container on localhost:5432 with trust
+authentication. No password required.
+
+To stop it:
+
+```bash
+docker compose down
+```
+
+Data persists between restarts via the `migradiff-pgdata` volume.
+To reset completely:
+
+```bash
+docker compose down -v
+```
+
+---
+
+## Docker
+
+No Python environment? Use the official image:
+
+```bash
+docker run --rm ghcr.io/postgresql-tools/migra \
+  postgres://db_a postgres://db_b
+```
+
+---
+
+## GitHub Actions
+
+Add schema diffing to your pull request workflow:
+
+```yaml
+- uses: postgresql-tools/migra@v1
+  with:
+    base_url: ${{ secrets.DB_PRODUCTION_URL }}
+    head_url: ${{ secrets.DB_BRANCH_URL }}
+```
+
+Fail the build automatically if destructive operations are detected:
+
+```yaml
+- uses: postgresql-tools/migra@v1
+  with:
+    base_url: ${{ secrets.DB_PRODUCTION_URL }}
+    head_url: ${{ secrets.DB_BRANCH_URL }}
+    fail_on_destructive: "true"
+```
+
+Use schema dump files instead of live connections:
+
+```yaml
+- uses: postgresql-tools/migra@v1
+  with:
+    base_file: schema_production.sql
+    head_file: schema_branch.sql
+```
+
+See docs/action-usage.md for full configuration options.
+
+---
+
+## Pre-commit Hook
+
+```yaml
+# .pre-commit-config.yaml
+repos:
+  - repo: https://github.com/postgresql-tools/migra
+    rev: v1.1.0
+    hooks:
+      - id: migra
+```
+
+See `pre-commit-config.example.yaml` in the repo root for full
+configuration options.
+
+---
+
+## What migra Understands
+
+- Tables, columns, constraints, indexes
+- Views and materialized views
+- Functions and stored procedures
+- Sequences
+- Enums, composite types, domains
+- Row-Level Security (RLS) policies
+- Foreign data wrappers
+- Column-level privileges
+- Partitioned tables
+- Object comments (`COMMENT ON`)
+
+---
+
+## Improvements Over Upstream
+
+| Area | Upstream (deprecated) | This Fork |
+|---|---|---|
+| Python 3.12+ | Deprecation warnings | Clean — no warnings |
+| RLS policies | Partial, equality bug | Full CREATE/DROP, partition support |
+| Error messages | Cryptic on unsupported types | Actionable with object name and issue link |
+| --schema flag | Edge cases in multi-schema DBs | Comma-separated, cross-schema dependencies resolved |
+| pg_dump input | Not supported | First-class `--from-file` mode |
+| JSON output | Not supported | `--output json` with risk classification |
+| Docker image | None | `ghcr.io/postgresql-tools/migra` |
+| GitHub Action | None | `postgresql-tools/migra-action` |
+| Pre-commit hook | None | `.pre-commit-hooks.yaml` |
+| Dev environment | Manual Docker commands | `docker compose up -d` |
+| AI explanation | None | `--explain` flag with Claude — plain English diff explanation, risk analysis, safer alternatives |
+| COMMENT ON diffing | Not supported | Full diffing — add/change/remove across all object types |
+| AI drift analysis | None | `--explain-drift` — compare two live databases, AI explains differences with risk categorization |
+
+See CHANGELOG.md for the full fix history.
+
+---
+
+## Known Limitations
+
+migra generates the SQL diff — it does not apply it. Review every
+generated script before running against production. Destructive
+operations (`DROP TABLE`, `DROP COLUMN`) are flagged in JSON output
+mode but not blocked in plain SQL mode.
+
+migra requires a live PostgreSQL connection to introspect schemas,
+or schema dump files via `--from-file`. It does not parse raw DDL text.
+
+---
+
+## Contributing Notice
+
+Thank you for your interest in this project. Please note that we are
+currently not accepting any external code contributions, pull requests,
+bug fixes, or feature submissions at this time.
+
+Any pull requests opened will be automatically closed without review.
+
+---
+
+## Licensing
+
+MigraDiff is **free and open source** under the MIT license.
+
+**All features work for everyone.** No paywalls, no code restrictions, no gatekeeping.
+
+### A Quick Story
+
+I spent 8+ years as an engineer at Philips, supporting hospital IT systems that keep patients safe. When the VC who acquired our division let me go, I was 50+ years old in a market where age matters. Finding another job became nearly impossible. I still need to support my family and put food on the table.
+
+That's why MigraDiff exists. I'm building tools that help you, because this is how I stay employed.
+
+### Here's the Ask
+
+**If you're a student, hobbyist, or open source project:** MIT license, free forever. No agreement needed.
+
+**If you're a for-profit company using MigraDiff:** Please sign a Business License Agreement. This isn't about gatekeeping code—every feature stays free, you run it locally, nothing changes for you technically. It's about fairness: if my tool is helping you make money, help me feed my family.
+
+You still own everything. You control your data. You access all features. We're just being transparent about how we sustain development.
+
+I'm not asking for charity. I'm asking for fairness.
+
+Get a Business License | View MIT License
+
+---
+
+## Acknowledgements
+
+This project is a fork of djrobstep/migra,
+created and originally maintained by Robert Lechte. The core diffing
+engine is his work. We are grateful for it.
+
+# jmaczan/tiny-vllm
 
 ## 评论（2/2）
 
@@ -52,6 +537,12 @@ Show HN: MigraDiff – maintained fork of migra (PostgreSQL schema diff)
 
 > **razorson** · 2026-05-30T03:00:02.000Z　
 > The github page looks funny some of the commits are from 10 years ago and some from 10 hours ago :D
+
+## 关联链接
+
+- https://console.anthropic.com
+- https://github.com/djrobstep/migra.
+- https://github.com/postgresql-tools/migra
 
 ## 导航
 

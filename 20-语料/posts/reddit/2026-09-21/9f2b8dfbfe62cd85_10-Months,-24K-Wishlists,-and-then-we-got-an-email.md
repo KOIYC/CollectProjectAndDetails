@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/IndieDev/comments/1w3hm70/10_months_24k_wishlists
 project_url: "https://store.steampowered.com/app/3564990/Vales\\_Echo"
 author: "juodabarzdis"
 published_at: "2026-08-31T23:46:20+08:00"
-captured_at: "2026-09-21T01:34:42+08:00"
+captured_at: "2026-09-21T03:20:15+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -20,8 +20,8 @@ tags:
   - r/indiedev
   - Informative
 metrics: {"score": 12, "comments": 8, "upvote_ratio": 0.93}
-comments_count: 0
-comments_total: 0
+comments_count: 7
+comments_total: 8
 discovered_via: "reddit:52d+settle3"
 ---
 
@@ -36,7 +36,7 @@ discovered_via: "reddit:52d+settle3"
 > 指标：得分=12 · 评论=8 · 赞踩比=0.93
 > 作者：juodabarzdis　|　发布：2026-08-31T23:46:20+08:00
 > 项目链接：<https://store.steampowered.com/app/3564990/Vales\_Echo>
-> 采集：2026-09-21T01:34:42+08:00　|　id：`9f2b8dfbfe62cd85`
+> 采集：2026-09-21T03:20:15+08:00　|　id：`9f2b8dfbfe62cd85`
 
 ## 正文
 
@@ -93,6 +93,41 @@ Part II (Playtest): [https://www.reddit.com/r/gamedev/comments/1pbc2ly/four\_fr
 Part III (Demo)
 [https://www.reddit.com/r/gamedev/comments/1rvd4et/4\_months\_after\_our\_steam\_page\_launch\_demo\_release/](https://www.reddit.com/r/gamedev/comments/1rvd4et/4_months_after_our_steam_page_launch_demo_release/)
 
+## 评论（7/8）
+
+> **destinedd**（2 分） · 2026-09-01T14:18:11+08:00　
+> I didn't realise telltale still existed! I thought they went busto or is someone that bought the name?
+
+---
+
+> **juodabarzdis**（1 分） · 2026-09-01T14:55:22+08:00　
+> That's what we thought too. They wrote to us before announcing The Wolf Among Us remaster and the second part, so at first I thought it was a scam :D But apparently LCG Entertainment bought the brand. New owners brought back some of the old developers, were working on a new game, and this festival was a way to remind people about themselves.
+
+---
+
+> **destinedd**（2 分） · 2026-09-01T15:04:43+08:00　
+> for a while they looked like were unstoppable, all the biggest brands, and what felt like overnight it was all gone.
+
+---
+
+> **juodabarzdis**（1 分） · 2026-09-01T15:22:49+08:00　
+> yeah, I was a fan of their games, but after a while they released to many games to keep track of. Something like what Marvel was doing a few years ago. But glad to see the wolf coming back.
+
+---
+
+> **destinedd**（1 分） · 2026-09-01T15:25:30+08:00　
+> yeah they kinda became their own competition and started so many sequels.
+
+---
+
+> **chillbin**（2 分） · 2026-09-01T17:35:44+08:00　
+> Congrats! I tried the demo a while back and I remember thinking the art style was absolutely gorgeous.
+
+---
+
+> **juodabarzdis**（1 分） · 2026-09-01T19:50:58+08:00　
+> thank you!
+
 ## 关联链接
 
 - https://preview.redd.it/ar7cn05icqmh1.jpg?width=1566&format=pjpg&auto=webp&s=11a2eae6b2394de33ed8e95fd62ba6aa42452a76
@@ -101,13 +136,13 @@ Part III (Demo)
 - https://preview.redd.it/lx6usbibcqmh1.jpg?width=1142&format=pjpg&auto=webp&s=9dea4469f8ae61f2cd2114a68374a88a04047c87
 - https://preview.redd.it/n6eytgaecqmh1.jpg?width=845&format=pjpg&auto=webp&s=e76211876e88025334ecdf214fa7f62f3f602ae8
 - https://preview.redd.it/zfjg1id2cqmh1.png?width=868&format=png&auto=webp&s=cdeaafbc616864727d8b2745f19ed509bb0eda47
-- https://store.steampowered.com/app/3564990/Vales\_Echo/
+- https://store.steampowered.com/app/3564990/Vales
 - https://store.steampowered.com/app/3564990/Vales_Echo/
-- https://www.reddit.com/r/gamedev/comments/1op0e87/launched\_steam\_page\_got\_1000\_wishlists\_in\_the/
+- https://www.reddit.com/r/gamedev/comments/1op0e87/launched
 - https://www.reddit.com/r/gamedev/comments/1op0e87/launched_steam_page_got_1000_wishlists_in_the/
-- https://www.reddit.com/r/gamedev/comments/1pbc2ly/four\_friends\_making\_a\_game\_we\_launched\_our\_steam/
+- https://www.reddit.com/r/gamedev/comments/1pbc2ly/four
 - https://www.reddit.com/r/gamedev/comments/1pbc2ly/four_friends_making_a_game_we_launched_our_steam/
-- https://www.reddit.com/r/gamedev/comments/1rvd4et/4\_months\_after\_our\_steam\_page\_launch\_demo\_release/
+- https://www.reddit.com/r/gamedev/comments/1rvd4et/4
 - https://www.reddit.com/r/gamedev/comments/1rvd4et/4_months_after_our_steam_page_launch_demo_release/
 
 ## 导航

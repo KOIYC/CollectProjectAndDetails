@@ -30,6 +30,9 @@ lang: "en"
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
+| 2026-09-21T01:09:14+08:00 | HN Show HN | 点赞=3 · 评论=8 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-21/947c5d39371a0d93_Show-HN-Nichess-–-Chess-with-Health-Points]] |
+| 2026-09-21T01:13:42+08:00 | HN Show HN | 点赞=3 · 评论=8 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-21/947c5d39371a0d93_Show-HN-Nichess-–-Chess-with-Health-Points]] |
+| 2026-09-21T01:42:12+08:00 | HN Show HN | 点赞=3 · 评论=8 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-21/947c5d39371a0d93_Show-HN-Nichess-–-Chess-with-Health-Points]] |
 | 2026-09-21T02:23:40+08:00 | HN Show HN | 点赞=3 · 评论=8 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-21/947c5d39371a0d93_Show-HN-Nichess-–-Chess-with-Health-Points]] |
 
 ## 摘要正文

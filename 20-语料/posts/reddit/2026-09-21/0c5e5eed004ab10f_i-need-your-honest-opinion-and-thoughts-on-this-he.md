@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1vblkyt/i_need_your_honest_opinion_and_thoughts_on_this/"
 author: "PieKey1836"
 published_at: "2026-07-31T17:02:48+08:00"
-captured_at: "2026-09-21T01:32:21+08:00"
+captured_at: "2026-09-21T03:03:25+08:00"
 lang: "en"
 kind: "post"
 topic: 开发者工具
@@ -19,8 +19,8 @@ tags:
   - r/EntrepreneurRideAlong
   - Seeking Advice
 metrics: {"score": 8, "comments": 12, "upvote_ratio": 0.84}
-comments_count: 0
-comments_total: 0
+comments_count: 12
+comments_total: 12
 discovered_via: "reddit:83d+settle3"
 ---
 
@@ -35,7 +35,7 @@ discovered_via: "reddit:83d+settle3"
 > 指标：得分=8 · 评论=12 · 赞踩比=0.84
 > 作者：PieKey1836　|　发布：2026-07-31T17:02:48+08:00
 > 项目链接：—
-> 采集：2026-09-21T01:32:21+08:00　|　id：`0c5e5eed004ab10f`
+> 采集：2026-09-21T03:03:25+08:00　|　id：`0c5e5eed004ab10f`
 
 ## 正文
 
@@ -58,6 +58,81 @@ it's on the app store with a free trial. small user base, feedback's been all ov
 so genuinely: is "just tell me what to do with my data" something you actually want, or do wearable people prefer figuring it out themselves? what would make you pay for this? and what's the one thing that would make it a no brainer for you?
 
 would love to hear it straight, good or bad. And if you want you can also check it out yourself and I would love to here feedback, thank you very much for taking the time on reading this:
+
+## 评论（12/12）
+
+> **outlastdll**（0 分） · 2026-07-31T17:22:41+08:00　
+> you solved the major paint point, wearable fatigue is very real, and most people are overwhelmed by arbitrary recovery scores without clear next steps.
+>
+> The core idea is definitely something health-conscious users want, but supplement timing recommendations will be the biggest hurdle. Suggesting specific supplements or timing windows touches on health advice territory.
+
+---
+
+> **Competitive_Golf6158**（1 分） · 2026-07-31T18:06:01+08:00　
+> i actually think you're solving the right problem. most wearables are excellent at telling me *what happened* but not *what I should do next.*  That's the gap I'd happily pay for.
+>
+> my biggest concern is trust, if app tells me to take magnesium or train earlier, i need to know why and eventually see that the advice consistently improves my energy. If you can build that trust over time, I think that's much stronger moat than just another health dashboard.
+
+---
+
+> **martindines**（1 分） · 2026-07-31T18:12:48+08:00　
+> Why are you asking for our opinion? You should be asking for the opinion of those athletes and workers that your app is built for.
+
+---
+
+> **ImplementMiserable74**（2 分） · 2026-07-31T19:12:58+08:00　
+> yeah I’d actually pay for something that tells me what to do with my data instead of just giving me scores. if the advice is simple and clear I’m in
+>
+> too many steps or confusing info would make me drop it fast tho
+
+---
+
+> **nerdkick_k**（1 分） · 2026-07-31T22:44:59+08:00　
+> martindines is right imo. askin randoms for "honest opinion" after months of staring at something usually gets you a nicer version of what you already hoped to hear.
+>
+> ran something similar past people once - a fitness thing, different app - and every single person said "yeah I'd use that." not one of them clicked the waitlist link I sent after. words are free, clicking isn't.
+>
+> curious if anyone's reacted to the supplement timing part specifically outside reddit - feels like the piece most likely to get a nod in conversation but never actually gets used right.
+
+---
+
+> **Quiet-Sunset-7384**（2 分） · 2026-08-01T00:26:33+08:00　
+> timing supplements to actual sleep is gold. i've been taking my magnesium only when my recovery drops below fifty and it cut that heavy morning fog completely.
+
+---
+
+> **Current-Pack901**（1 分） · 2026-08-01T00:45:53+08:00　
+> Exactly
+
+---
+
+> **PieKey1836**（1 分） · 2026-08-01T01:36:15+08:00　
+> tried to keep it as simple as possible try it out if you want and let me hear your opinion on it thank you for the feedback.
+
+---
+
+> **PieKey1836**（1 分） · 2026-08-01T01:38:08+08:00　
+> yeah, i totally agree. the app tells you exactly why it recommends you thing at this time every single day.
+
+---
+
+> **AutoModerator**（1 分） · 2026-08-01T04:47:18+08:00　
+> Your [comment](https://www.reddit.com/r/EntrepreneurRideAlong/comments/1vblkyt/i_need_your_honest_opinion_and_thoughts_on_this/p0y6cxs/) in /r/EntrepreneurRideAlong was automatically removed because it contained a URL or a markdown link.
+>
+> To keep our community focused and prevent spam, we do not allow URLs or links (including Reddit internal links) in comments at this time.
+> If you believe this removal was a mistake, please [contact the moderators](https://www.reddit.com/message/compose?to=/r/EntrepreneurRideAlong).
+>
+> *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/EntrepreneurRideAlong) if you have any questions or concerns.*
+
+---
+
+> **nobilegi**（1 分） · 2026-08-01T23:53:32+08:00　
+> yeah i get where you're coming from. sometimes just having a clear plan based on your data feels like a relief, even if it’s not perfect. babylovegrowthh handles this pretty well imo.
+
+---
+
+> **Pink_Sky_8102**（1 分） · 2026-08-03T21:19:22+08:00　
+> My biggest concern would be trust, especially with supplement advice. I’d want to know how the recommendations are made and whether they are medically safe.
 
 ## 导航
 

@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/buildinpublic/comments/1w3cs3o/reached_1000_users_this_month_some_learnings/"
 author: "PR4DE"
 published_at: "2026-08-31T20:46:50+08:00"
-captured_at: "2026-09-21T01:34:39+08:00"
+captured_at: "2026-09-21T03:05:45+08:00"
 lang: "en"
 kind: "post"
 topic: "教育/学习"
@@ -18,8 +18,8 @@ tags:
   - reddit
   - r/buildinpublic
 metrics: {"score": 3, "comments": 4, "upvote_ratio": 1}
-comments_count: 0
-comments_total: 0
+comments_count: 4
+comments_total: 4
 discovered_via: "reddit:52d+settle3"
 ---
 
@@ -34,7 +34,7 @@ discovered_via: "reddit:52d+settle3"
 > 指标：得分=3 · 评论=4 · 赞踩比=1
 > 作者：PR4DE　|　发布：2026-08-31T20:46:50+08:00
 > 项目链接：—
-> 采集：2026-09-21T01:34:39+08:00　|　id：`7218f6d402cbfaa2`
+> 采集：2026-09-21T03:05:45+08:00　|　id：`7218f6d402cbfaa2`
 
 ## 正文
 
@@ -53,6 +53,26 @@ Here are my thoughts and learnings.
 I still have so much to learn. But I think I'm starting to get how stuff is working now... Finally.
 
 I'd love to hear your thoughts and if you have any advice.
+
+## 评论（4/4）
+
+> **PR4DE**（1 分） · 2026-08-31T20:47:06+08:00　
+> If anyone is interested, the app is [exit1.dev](http://exit1.dev)
+
+---
+
+> **TomTeachesTech**（2 分） · 2026-09-01T02:14:08+08:00　
+> I feel the same way man, I have a freemium product and it's starting to compound but it's pretty hard to get rolling. Talking to users and skipping feature builds is the move.
+
+---
+
+> **Responsible_Bed_2087**（1 分） · 2026-09-01T02:25:05+08:00　
+> congrats on 1k. curious what your free to paid conversion rate looks like roughly? that ratio matters a lot for figuring out whether its a pricing problem or a volume problem
+
+---
+
+> **PR4DE**（1 分） · 2026-09-01T05:42:34+08:00　
+> About 5%
 
 ## 关联链接
 

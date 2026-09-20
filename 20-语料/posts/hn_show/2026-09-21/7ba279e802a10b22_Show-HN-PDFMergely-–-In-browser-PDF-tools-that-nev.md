@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=48729230"
 project_url: "https://pdfmergely.com/"
 author: "pdfmergely"
 published_at: "2026-06-30T06:37:38Z"
-captured_at: "2026-09-21T01:45:21+08:00"
+captured_at: "2026-09-21T02:53:13+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "AI 工具/Agent"
 shard: "2026-09-21"
 pub_day: "2026-06-30"
 tags:
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:113d"
 # Show HN: PDFMergely – In-browser PDF tools that never upload your files
 
 > [!info] 一句话导读
-> Show HN: PDFMergely – In-browser PDF tools that never upload your files
+> Skip to content PDF Mergely Home All tools
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,253 @@ discovered_via: "hn:show_hn:113d"
 > 指标：点赞=18 · 评论=24 · engagement_velocity=18
 > 作者：pdfmergely　|　发布：2026-06-30T06:37:38Z
 > 项目链接：<https://pdfmergely.com/>
-> 采集：2026-09-21T01:45:21+08:00　|　id：`7ba279e802a10b22`
+> 采集：2026-09-21T02:53:13+08:00　|　id：`7ba279e802a10b22`
 
 ## 正文
 
-Show HN: PDFMergely – In-browser PDF tools that never upload your files
+Skip to content PDF Mergely Home All tools
+ Compress Presenter Ask PDF AI Privacy For business Search Ctrl K Merge PDFs
+0 B uploaded · files stay on this device
+ 56 private PDF tools that run entirely in your browser
+ Merge, convert, compress, sign and redact, and even summarize and ask questions with on-device AI. Your files never upload, and the live counter above proves it: it stays at 0 B while you work.
+ Merge PDFs now See all 56 tools
+ New: Summarize a PDF or ask your PDF questions with AI that runs on your device, not a server.
+ Do not trust us: verify us, watch the network tab while you work .
+ 56 tools, one private suite
+ Merge, convert, compress, sign, redact, OCR, and even summarize and question PDFs, all in one place.
+Proven zero-upload
+ A live meter counts every outbound byte and stays at 0 B. Proof, not a promise.
+Free and offline
+ No signup, no watermark. Installs as an app and keeps working with no internet.
+Start here
+ The four things people come here to do most.
+ Compress PDF Hit an email or portal size limit. Sign PDF Sign a document and send it back. PDF to Word Make a PDF editable again. Merge PDF Combine files into one document.
+ All 56 PDF tools, one private suite: merge, split, convert, compress and more
+ All free, all private. Each tool runs locally in your browser, and the live meter proves nothing is ever uploaded.
+Organize 9 tools
+Merge PDF
+ Combine PDFs in the order you want
+ Open
+Split PDF
+ Extract page ranges into new files
+ Open
+Rotate PDF
+ Turn selected pages
+ Open
+Reorder PDF
+ Drag pages to rearrange
+ Open
+Delete Pages
+ Remove pages visually
+ Open
+Extract Pages
+ Export the pages you choose
+ Open
+Organize PDF
+ Reorder, rotate and delete pages
+ Open
+Resize PDF
+ Change page size (A4, Letter)
+ Open
+N-up & Booklet
+ Multiple pages per sheet
+ Open
+Convert 18 tools
+JPG to PDF
+ Convert images to PDF
+ Open
+PNG to PDF
+ PNGs to PDF, transparency kept
+ Open
+WEBP to PDF
+ Turn WebP images into a PDF
+ Open
+HEIC to PDF
+ iPhone photos to PDF
+ Open
+Word to PDF
+ Convert .docx to PDF
+ Open
+Excel to PDF
+ Convert .xlsx to PDF
+ Open
+Text to PDF
+ Convert .txt to PDF
+ Open
+PDF to JPG
+ Convert pages to images
+ Open
+PDF to PNG
+ Convert pages to PNG images
+ Open
+PDF to Word
+ Convert PDF to editable .docx
+ Open
+PDF to Excel
+ Extract tables to editable .xlsx
+ Open
+PDF to Text
+ Extract the text as .txt
+ Open
+Extract Images
+ Save embedded pictures
+ Open
+Scan to PDF
+ Capture with your camera
+ Open
+OCR PDF
+ Make scans searchable
+ Open
+Markdown to PDF
+ Turn Markdown into a PDF
+ Open
+EPUB to PDF
+ Convert ebooks to PDF, on your device
+ Open
+DjVu to PDF
+ Convert DjVu scans to PDF, no upload
+ Open
+Edit & sign 10 tools
+Edit PDF
+ Add text, images and shapes
+ Open
+Sign PDF
+ Add your signature
+ Open
+Watermark PDF
+ Add text or image watermarks
+ Open
+Page Numbers
+ Number your pages
+ Open
+Bates Numbering
+ Stamp sequential legal IDs
+ Open
+Crop PDF
+ Trim page margins
+ Open
+Redact PDF
+ Permanently remove content
+ Open
+PDF Forms
+ Fill interactive forms
+ Open
+Flatten PDF
+ Lock form fields into the page
+ Open
+Compare PDF
+ Spot differences
+ Open
+Optimize & secure 9 tools
+Compress PDF
+ Shrink file size, keep quality
+ Open
+Protect PDF
+ Password-protect a PDF
+ Open
+Unlock PDF
+ Remove a known password
+ Open
+Generate Password
+ Strong passwords, on-device
+ Open
+Remove Signature
+ Delete digital signatures & certificates
+ Open
+Remove Metadata
+ Strip author, dates and hidden data
+ Open
+Clean PDF for AI
+ Strip hidden data before you paste it
+ Open
+Grayscale PDF
+ Convert to black & white
+ Open
+Repair PDF
+ Fix a damaged or unopenable PDF
+ Open
+Image tools 5 tools
+WEBP to JPG
+ Convert WebP to universal JPG
+ Open
+WEBP to PNG
+ WebP to lossless PNG
+ Open
+JPG to PNG
+ JPG to lossless PNG
+ Open
+PNG to JPG
+ PNG to smaller JPG files
+ Open
+HEIC to JPG
+ iPhone HEIC to universal JPG
+ Open
+Present 1 tools
+Presenter
+ Present a PDF or slides fullscreen
+ Open
+AI (on-device) 3 tools
+Summarize PDF AI
+ On-device AI summary, no upload
+ Open
+Ask PDF AI
+ On-device AI answers, no upload
+ Open
+Translate PDF AI
+ On-device AI translation, no upload
+ Open
+Popular uses
+ Common tasks people do privately, right in the browser.
+ Merge invoices into one PDF, no upload Merge bank statements into one PDF Merge scanned pages into one PDF, no upload Merge PDF without uploading, works offline too Compress a PDF to email it Compress a PDF to a specific size (KB or MB) Convert DjVu to PDF
+ Compare with other PDF tools
+ Most online PDF editors upload your file to their servers to process it. PDFMergely runs the same everyday tools on your device instead. See how it compares:
+ Smallpdf alternative iLovePDF alternative PDF2Go alternative Sejda alternative All privacy-friendly PDF tools
+ How is this possible?
+ Traditional PDF tools upload your file to a server, process it there, and send it back. Your document passes through someone else's computer. PDFMergely flips the model: we ship the PDF engine to your browser, so every operation runs on your device. There is literally no upload endpoint. It's not a promise, it's the architecture.
+Frequently asked questions
+ Is PDFMergely free to use? + Yes. Every tool is completely free, with no account, sign-up or watermark. The whole toolkit runs in your browser.
+ Does PDFMergely upload my files to a server? + No. There is no upload endpoint. Your PDF is processed entirely in your browser using WebAssembly and Web Workers, so the file never leaves your device.
+ Is it safe to use PDFMergely for sensitive documents? + Yes. Because files are processed locally and never uploaded, PDFMergely suits sensitive documents such as invoices, bank statements, contracts and IDs. A live in-page meter shows that 0 bytes are uploaded.
+ How do I merge PDFs without uploading them? + Open the Merge PDF tool, drop in your files, drag to reorder them, then download the combined PDF. Every step runs on your device, with no upload.
+ What can PDFMergely do? + It has 56 tools covering the everyday PDF workflow: merge, split, compress, rotate, reorder, crop and resize; edit, sign, redact, fill forms and compare; protect, unlock and strip metadata; OCR and scan; extract text; and convert to and from JPG, PNG, WebP, Word, Markdown and EPUB. It can also summarize a PDF and answer questions about it with on-device AI, generate strong passwords, and share a file straight to your device apps. Every tool runs in your browser, and the full catalogue is on the homepage.
+ Does PDFMergely work offline? + Yes. After your first visit, the app resources are cached automatically, so every tool keeps working with no internet connection, even tools you have not opened before. You can also optionally install PDFMergely as an app. The one exception is the tools built on a large engine (OCR and Scan): those download that engine the first time you run them online, and then work offline too.
+ Is PDFMergely a good alternative to Smallpdf or iLovePDF? + Yes. It offers the same common PDF tools but processes files on your device instead of uploading them, making it a privacy-first alternative to Smallpdf and iLovePDF.
+ Do I need to install any software? + No. PDFMergely runs in any modern web browser on desktop or mobile. You can optionally install it as an app for offline use.
+PDF Mergely
+ Privacy-first PDF tools that run entirely in your browser. Your files never leave your device.
+Popular tools
+ Merge PDF
+ Compress PDF
+ Split PDF
+ PDF to Word
+ JPG to PDF
+ Edit PDF
+ All tools →
+Guides
+ Combine invoices
+ Merge bank statements
+ Merge scanned documents
+ Merge without uploading
+ Compress for email
+ Compress to a target size
+ Convert DjVu to PDF
+Learn & compare
+ PDF blog
+ Proof: no uploads
+ Privacy-friendly tools
+ Smallpdf alternative
+ iLovePDF alternative
+ PDF2Go alternative
+ Sejda alternative
+Company
+ For business
+ For organizations
+ Browser extension
+ About
+ Contact
+© 2026 PDFMergely · Files processed locally, never uploaded.
+ Share
+ Privacy policy Terms Notices Cookie settings
 
 ## 评论（24/24）
 

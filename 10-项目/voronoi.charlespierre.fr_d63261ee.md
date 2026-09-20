@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Multiplayer Voronoi"
 project_url: "https://voronoi.charlespierre.fr/"
-first_seen: "2026-09-21T01:13:42+08:00"
+first_seen: "2026-09-21T02:52:29+08:00"
 sources:
   - hn_show
 tags:
@@ -16,9 +16,12 @@ lang: "en"
 
 # Show HN: Multiplayer Voronoi
 
+> [!info] 一句话导读
+> A multiplayer hommage to Jean-Michel Sanejouand's Jeu de Topo (1963), a game with no winner or loser where partners arrange stones until both points of view are…
+
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://voronoi.charlespierre.fr/>
-> 首次收录：2026-09-21T01:13:42+08:00
+> 首次收录：2026-09-21T02:52:29+08:00
 > 来源渠道：HN Show HN
 > 标签：author_cpa, story_47960061, show_hn
 > 最新指标：点赞=4 · 评论=0 · engagement_velocity=4
@@ -29,3 +32,8 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-21T01:09:14+08:00 | HN Show HN | 点赞=4 · 评论=0 · engagement_velocity=4 | [[20-语料/posts/hn_show/2026-09-21/e75c0392365938f1_Show-HN-Multiplayer-Voronoi]] |
 | 2026-09-21T01:13:42+08:00 | HN Show HN | 点赞=4 · 评论=0 · engagement_velocity=4 | [[20-语料/posts/hn_show/2026-09-21/e75c0392365938f1_Show-HN-Multiplayer-Voronoi]] |
+| 2026-09-21T02:52:29+08:00 | HN Show HN | 点赞=4 · 评论=0 · engagement_velocity=4 | [[20-语料/posts/hn_show/2026-09-21/e75c0392365938f1_Show-HN-Multiplayer-Voronoi]] |
+
+## 摘要正文
+
+Voronoi Live  A multiplayer hommage to Jean-Michel Sanejouand's Jeu de Topo (1963), a game with no winner or loser where partners arrange stones until both points of view are satisfied.  Here, stones become colored points in a game based on Voronoi diagrams. The original opposing points of view become each player's screen: everyone shares the same points, but phones, tablets, and browser windows frame the space differently, so each player is likely seeing a different Voronoi view.  When two screens are too similar, the game may mirror one board so the points of view diverge.  by charlespierre.fr  # Binder

@@ -2,7 +2,7 @@
 type: "project"
 title: "Ranked on Google, ChatGPT within 30 days of launch 💪"
 project_url: "https://aiseoblogging.com/"
-first_seen: "2026-09-21T01:25:49+08:00"
+first_seen: "2026-09-21T02:59:35+08:00"
 sources:
   - reddit
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://aiseoblogging.com/>
-> 首次收录：2026-09-21T01:25:49+08:00
+> 首次收录：2026-09-21T02:59:35+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/buildinpublic
 > 最新指标：得分=44 · 评论=13 · 赞踩比=0.9900000095367432
@@ -31,6 +31,7 @@ lang: "en"
 | 2026-09-21T01:09:58+08:00 | Reddit 独立开发版块 | 得分=44 · 评论=13 · 赞踩比=0.9900000095367432 | [[20-语料/posts/reddit/2026-09-21/22221b61ae524bd4_Ranked-on-Google,-ChatGPT-within-30-days-of-launch]] |
 | 2026-09-21T01:14:43+08:00 | Reddit 独立开发版块 | 得分=44 · 评论=13 · 赞踩比=0.9900000095367432 | [[20-语料/posts/reddit/2026-09-21/22221b61ae524bd4_Ranked-on-Google,-ChatGPT-within-30-days-of-launch]] |
 | 2026-09-21T01:25:49+08:00 | Reddit 独立开发版块 | 得分=44 · 评论=13 · 赞踩比=0.9900000095367432 | [[20-语料/posts/reddit/2026-09-21/22221b61ae524bd4_Ranked-on-Google,-ChatGPT-within-30-days-of-launch]] |
+| 2026-09-21T02:59:35+08:00 | Reddit 独立开发版块 | 得分=44 · 评论=13 · 赞踩比=0.9900000095367432 | [[20-语料/posts/reddit/2026-09-21/22221b61ae524bd4_Ranked-on-Google,-ChatGPT-within-30-days-of-launch]] |
 
 ## 摘要正文
 

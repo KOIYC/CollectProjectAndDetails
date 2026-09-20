@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/SaaS/comments/1wi4nwv/google_isnt_ranking_our_web
 project_url: "https://discovermacapps.com/"
 author: "Dheeraj_PG"
 published_at: "2026-09-17T01:59:09+08:00"
-captured_at: "2026-09-21T00:06:27+08:00"
+captured_at: "2026-09-21T03:18:11+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=20 · 评论=38 · 赞踩比=0.95
 > 作者：Dheeraj_PG　|　发布：2026-09-17T01:59:09+08:00
 > 项目链接：<https://discovermacapps.com/>
-> 采集：2026-09-21T00:06:27+08:00　|　id：`250c4a8db59da55f`
+> 采集：2026-09-21T03:18:11+08:00　|　id：`250c4a8db59da55f`
 
 ## 正文
 

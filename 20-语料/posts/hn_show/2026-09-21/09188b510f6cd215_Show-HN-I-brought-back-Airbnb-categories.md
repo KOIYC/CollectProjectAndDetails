@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=48328336"
 project_url: "https://vibebnb.fyi/"
 author: "giulioco"
 published_at: "2026-05-29T19:53:25Z"
-captured_at: "2026-09-21T01:27:24+08:00"
+captured_at: "2026-09-21T02:52:56+08:00"
 lang: "en"
 kind: "post"
 topic: "未分类"
@@ -28,13 +28,24 @@ discovered_via: "hn:show_hn:144d"
 
 # Show HN: I brought back Airbnb categories
 
+> [!info] 一句话导读
+> Airbnb hid its vibe filters. Pick one, choose a place, search.
+
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=48328336>
 > 指标：点赞=7 · 评论=0 · engagement_velocity=7
 > 作者：giulioco　|　发布：2026-05-29T19:53:25Z
 > 项目链接：<https://vibebnb.fyi/>
-> 采集：2026-09-21T01:27:24+08:00　|　id：`09188b510f6cd215`
+> 采集：2026-09-21T02:52:56+08:00　|　id：`09188b510f6cd215`
+
+## 正文
+
+vibebnb
+ Airbnb hid its vibe filters. Pick one, choose a place, search.
+ Chalet Cabin Villa Treehouse Castle Cave Dome Yurt Hut Earth home Boat Camper / RV Tent Loft Townhouse Bungalow Ski-in / ski-out Indoor fireplace Beachfront Barn Tower
+ Opens airbnb.com directly. Nothing leaves your browser.
+ Pick a vibe to begin Continue
 
 ## 导航
 

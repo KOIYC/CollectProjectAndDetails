@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/buildinpublic/comments/1wi3zsm/first_customer_feedback_is_in_and_it_feels_amazing/"
 author: "stayed-hotel-tracker"
 published_at: "2026-09-17T01:35:05+08:00"
-captured_at: "2026-09-21T00:06:28+08:00"
+captured_at: "2026-09-21T03:18:12+08:00"
 lang: "en"
 kind: "post"
 topic: 开发者工具
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=13 · 评论=19 · 赞踩比=0.89
 > 作者：stayed-hotel-tracker　|　发布：2026-09-17T01:35:05+08:00
 > 项目链接：—
-> 采集：2026-09-21T00:06:28+08:00　|　id：`9f7bfad9d3b489a3`
+> 采集：2026-09-21T03:18:12+08:00　|　id：`9f7bfad9d3b489a3`
 
 ## 正文
 

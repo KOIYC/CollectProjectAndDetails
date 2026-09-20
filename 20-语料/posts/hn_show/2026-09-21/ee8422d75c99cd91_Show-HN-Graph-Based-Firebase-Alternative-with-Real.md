@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=48345260"
 project_url: "https://linkedrecords.com/getting-started"
 author: "WolfOliver"
 published_at: "2026-05-31T12:44:27Z"
-captured_at: "2026-09-21T01:27:24+08:00"
+captured_at: "2026-09-21T02:52:45+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: "AI 工具/Agent"
 shard: "2026-09-21"
 pub_day: "2026-05-31"
 tags:
@@ -28,17 +28,459 @@ discovered_via: "hn:show_hn:144d"
 
 # Show HN: Graph-Based Firebase Alternative with Real-Time Sync
 
+> [!info] 一句话导读
+> Help us grow — star us on GitHub
+
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=48345260>
 > 指标：点赞=3 · 评论=0 · engagement_velocity=3
 > 作者：WolfOliver　|　发布：2026-05-31T12:44:27Z
 > 项目链接：<https://linkedrecords.com/getting-started>
-> 采集：2026-09-21T01:27:24+08:00　|　id：`ee8422d75c99cd91`
+> 采集：2026-09-21T02:52:45+08:00　|　id：`ee8422d75c99cd91`
+
+## 正文
+
+Help us grow — star us on GitHub
+ LinkedRecords
+ LinkedRecords
+Introduction Getting Started React SDK Core Concepts
+ Facts and Triples Query Language Terms Authorization Model Accountability Quotas Record Types
+ Key-Value Records Long Text Records Blob Records Patterns
+ Blueprint Pattern Team Patterns Query Patterns Sharing Patterns Operations
+ Self-Hosting Troubleshooting Reference
+ Configuration
+On this page Getting Started
+ Build your first LinkedRecords application
+ By the end of this tutorial, you will have a working application with authentication enabled, authorization out of the box, the ability to share data between users, and persistent storage - all without writing any backend code.
+Quick Start
+Start the LinkedRecords backend locally by downloading the Docker Compose file
+and starting the stack (requires Docker ):
+curl -fsSLO https://raw.githubusercontent.com/wolfoo2931/linkedrecords/main/docker-compose.yml
+ docker compose -p linkedrecords up
+This docker-compose.yml is for local development only. It uses a built-in mock OIDC provider with one-click test logins and is not suitable for production use.
+This starts LinkedRecords on port 6543. Once you see LinkedRecords is running on port 6543 , the backend is ready.
+Building Your First App
+This section guides you through implementing a small "Hello World"
+single-page application to get to know the main LinkedRecords features.
+The example uses Vite and React, but LinkedRecords is not limited to these tools.
+Initialize a new Project
+Setup React Using Vite
+Vite is a modern TypeScript/JavaScript build system which bundles our code and prepares it
+for deployment. During development it updates the app in the browser as we change the code
+in our IDE.
+We can use npm to create a Vite + TypeScript + React scaffold by running the following
+commands in our terminal:
+npm create vite@latest lr-getting-started -- --template react-ts
+ cd lr-getting-started
+ npm install
+Clean up Scaffold App
+Next, we clean up the scaffold app a little to have a greenfield to start from.
+Delete the following files and directory:
+rm public/vite.svg
+ rm src/App.css
+ rm -r src/assets
+And replace the content of src/App.tsx with the following:
+function App () {
+ return (
+ < div >
+ LinkedRecords Hello World
+ </ div >
+ )
+ }
+export default App
+Install NPM Packages
+To use LinkedRecords in our React single page application, we need to install the npm package:
+npm install @linkedrecords/react react-use tailwindcss @tailwindcss/vite --save
+You can also use LinkedRecords outside of React applications. The @linkedrecords/react
+module provides some handy hooks which make our lives easier - see the
+ React SDK reference for the full API.
+Add Tailwind CSS
+To make our app look polished, we'll add Tailwind CSS. Update vite.config.ts to include the Tailwind plugin:
+import { defineConfig } from 'vite'
+ import react from '@vitejs/plugin-react'
+ import tailwindcss from '@tailwindcss/vite'
+export default defineConfig ({
+ plugins: [ react (), tailwindcss ()],
+ })
+Replace the content of src/index.css with:
+@import "tailwindcss" ;
+Start the Development Server
+Now that all dependencies and configuration are in place, start the Vite development server:
+npm run dev
+If you already started the dev server earlier, restart it now (Ctrl+C and run npm run dev again) to pick up the Tailwind and Vite configuration changes.
+You will see a URL in your terminal (e.g. http://localhost:5173/ ). Keep the server running—Vite will automatically reload the app as you make changes in the following sections.
+Implement a Simple todo App
+Next we are going to implement a simple todo list application using LinkedRecords.
+To make LinkedRecords available in our app we need to wrap it into the LinkedRecords
+provider. Replace the content of src/main.tsx with:
+import { StrictMode } from 'react'
+ import { createRoot } from 'react-dom/client'
+ import './index.css'
+ import App from './App.tsx'
+ import { LinkedRecordsProvider } from '@linkedrecords/react'
+createRoot (document. getElementById ( 'root' ) ! ). render (
+ < StrictMode >
+ < LinkedRecordsProvider serverUrl = "http://localhost:6543" >
+ < App />
+ </ LinkedRecordsProvider >
+ </ StrictMode >,
+ )
+The LinkedRecords provider expects a URL of the LinkedRecords backend as property ( serverUrl ). In this case it is a
+LinkedRecords setup which runs locally.
+For the actual app we replace the content of src/App.tsx with the following:
+import { useEffect, useState } from 'react' ;
+ import { useAsyncFn } from 'react-use' ;
+ import { useLinkedRecords, useKeyValueRecords } from '@linkedrecords/react' ;
+function NewTodo () {
+ const { lr } = useLinkedRecords ();
+ const [ title , setTitle ] = useState < string >( '' );
+ const [ state , onClick ] = useAsyncFn ( async () => {
+ setTitle ( '' );
+await lr.Record. createKeyValue ({
+ title,
+ completed: false ,
+ }, [
+ [ '$it' , 'isA' , 'Todo' ],
+ ]);
+ }, [ lr.Record, title ]);
+return (
+ < div className = "flex gap-2 mb-4" >
+ < input
+ className = "flex-1 px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500"
+ placeholder = "What needs to be done?"
+ value = {title}
+ onChange = {( e ) => setTitle (e.target.value)}
+ />
+ < button
+ className = "px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 disabled:opacity-50"
+ disabled = {state.loading}
+ onClick = {onClick}
+ >
+ {state.loading ? 'Saving...' : 'Add' }
+ </ button >
+ </ div >
+ );
+ }
+function TodoList () {
+ const { lr } = useLinkedRecords ();
+ const todos = useKeyValueRecords ([
+ [ '$it' , 'isA' , 'Todo' ],
+ ]);
+const [ , onCompleted ] = useAsyncFn ( async ( id : string , checked ) => {
+ const todoAttr = await lr.Record. find (id);
+ const todoObj = await todoAttr?. getValue ();
+todoAttr?. set ({ ... todoObj, completed: checked });
+ }, [ lr.Fact ]);
+return (
+ < ul className = "space-y-2" >
+ {todos. map (( todo ) => (
+ < li key = {todo._id as string } className = "flex items-center gap-3 p-3 bg-white rounded-lg shadow" >
+ < input
+ type = "checkbox"
+ className = "w-5 h-5 rounded border-gray-300"
+ checked = { !! todo.completed}
+ onChange = {( e ) => onCompleted (todo._id as string , e.target.checked)}
+ />
+ < span className = {todo.completed ? 'line-through text-gray-400' : '' }>
+ { typeof todo.title === 'string' ? todo.title : 'untitled' }
+ </ span >
+ </ li >
+ ))}
+ </ ul >
+ );
+ }
+function App () {
+ const { lr } = useLinkedRecords ();
+useEffect (() => {
+ lr. isAuthenticated (). then ( async ( isAuthenticated ) => {
+ if ( ! isAuthenticated) {
+ await lr. login ();
+ }
+await lr.Fact. createAll ([
+ [ 'Todo' , '$isATermFor' , 'A list of things that need to be done' ],
+ ]);
+ });
+ }, [ lr ]);
+return (
+ < div className = "min-h-screen bg-gray-100 py-8" >
+ < div className = "max-w-md mx-auto px-4" >
+ < h1 className = "text-2xl font-bold text-gray-800 mb-6" >My Todos</ h1 >
+ < NewTodo />
+ < TodoList />
+ </ div >
+ </ div >
+ );
+ }
+export default App
+With the dev server still running, open the URL from your terminal (e.g. http://localhost:5173/ ) in your browser. You'll notice that with very little code:
+We will be prompted to login. The LinkedRecords backend takes care of user management.
+If we reload the page, all todos are persisted.
+If we log in as another user, we see different todos. The todos are scoped to a user.
+In the next sections we will extend the app to learn about a few other LinkedRecords features. Especially
+how multiple users can collaborate on the same todos.
+Display the Logged-in User
+Most applications display who is currently logged in. This helps users confirm they're using the correct account and provides a familiar navigation element.
+LinkedRecords provides a method to retrieve the current user's email address. Let's add a UserInfo component that displays this information.
+Add this new component above the App component:
+function UserInfo () {
+ const { lr } = useLinkedRecords ();
+ const [ email , setEmail ] = useState < string | null >( null );
+useEffect (() => {
+ lr. getCurrentUserEmail ()
+ . then (setEmail)
+ . catch (() => setEmail ( null ));
+ }, [lr]);
+if ( ! email) return null ;
+return (
+ < div className = "text-sm text-gray-500 mb-4" >
+ Logged in as: < span className = "font-medium text-gray-700" >{email}</ span >
+ </ div >
+ );
+ }
+Then update the App component to include it (highlighted line is new):
+function App () {
+ const { lr } = useLinkedRecords ();
+useEffect (() => {
+ lr. isAuthenticated (). then ( async ( isAuthenticated ) => {
+ if ( ! isAuthenticated) {
+ await lr. login ();
+ }
+await lr.Fact. createAll ([
+ [ 'Todo' , '$isATermFor' , 'A list of things that need to be done' ],
+ ]);
+ });
+ }, [ lr ]);
+return (
+ < div className = "min-h-screen bg-gray-100 py-8" >
+ < div className = "max-w-md mx-auto px-4" >
+ < h1 className = "text-2xl font-bold text-gray-800 mb-6" >My Todos</ h1 >
+ < UserInfo />
+ < NewTodo />
+ < TodoList />
+ </ div >
+ </ div >
+ );
+ }
+Now when you open the app, you'll see the email address of the currently logged-in user displayed at the top. If you open the app in a different browser and log in as another user, you can easily tell which account you're using in each window.
+Add an "Archive" feature
+This section adds a button next to each todo which allows to archive a todo. Archived todos will
+then be listed in a second list and can be unarchived again.
+Declare the New Terms First
+Before we can use 'Archived' and 'Active' as values in our facts, we need to declare them as terms. This is a key LinkedRecords concept: any term you reference in a fact must be declared first using $isATermFor .
+Update the lr.Fact.createAll call in the useEffect hook of the App component (highlighted lines are new):
+await lr.Fact. createAll ([
+ [ 'Todo' , '$isATermFor' , 'A list of things that need to be done' ],
+ [ 'Archived' , '$isATermFor' , 'A state which represents that the subject is archived' ],
+ [ 'Active' , '$isATermFor' , 'A state which represents that the subject is active' ],
+ ]);
+Why do we need to declare terms?
+ When you create a fact like [todoId, 'stateIs', 'Archived'] , LinkedRecords checks permissions:
+You need $canRefine permission on the subject ( todoId )
+You need $canReferTo permission on the object ( 'Archived' )
+Terms are special: once declared with $isATermFor , any user can refer to them as an object in facts—but no one can use a term as a subject. This makes terms ideal for shared vocabulary like state names, types, and categories.
+ If you skip this step, archiving will silently fail because 'Archived' won't be a recognized term that users can refer to.
+Update the TodoList Component
+Now replace the TodoList component with the following code (highlighted lines are new):
+function TodoList () {
+ const { lr } = useLinkedRecords ();
+ const todos = useKeyValueRecords ([
+ [ '$it' , 'isA' , 'Todo' ],
+ [ '$it' , '$latest(stateIs)' , '$not(Archived)' ],
+ ]);
+const archivedTodos = useKeyValueRecords ([
+ [ '$it' , 'isA' , 'Todo' ],
+ [ '$it' , '$latest(stateIs)' , 'Archived' ],
+ ]);
+const [ , onCompleted ] = useAsyncFn ( async ( id : string , checked ) => {
+ const todoAttr = await lr.Record. find (id);
+ const todoObj = await todoAttr?. getValue ();
+todoAttr?. set ({ ... todoObj, completed: checked });
+ }, [ lr.Fact ]);
+const [ , setTodoState ] = useAsyncFn ( async ( id : string , state : 'Archived' | 'Active' ) => {
+ await lr.Fact. createAll ([[id, 'stateIs' , state]]);
+ }, [ lr.Fact ]);
+return (
+ < div className = "space-y-6" >
+ < ul className = "space-y-2" >
+ {todos. map (( todo ) => (
+ < li key = {todo._id as string } className = "flex items-center gap-3 p-3 bg-white rounded-lg shadow" >
+ < input
+ type = "checkbox"
+ className = "w-5 h-5 rounded border-gray-300"
+ checked = { !! todo.completed}
+ onChange = {( e ) => onCompleted (todo._id as string , e.target.checked)}
+ />
+ < span className = { `flex-1 ${ todo . completed ? 'line-through text-gray-400' : ''}` }>
+ { typeof todo.title === 'string' ? todo.title : 'untitled' }
+ </ span >
+ < button
+ className = "px-3 py-1 text-sm text-gray-600 bg-gray-100 rounded hover:bg-gray-200"
+ onClick = {() => setTodoState (todo._id as string , 'Archived' )}
+ >
+ Archive
+ </ button >
+ </ li >
+ ))}
+ </ ul >
+{archivedTodos. length > 0 && (
+ < div >
+ < h2 className = "text-lg font-semibold text-gray-600 mb-2" >Archived</ h2 >
+ < ul className = "space-y-2 opacity-60" >
+ {archivedTodos. map (( todo ) => (
+ < li key = {todo._id as string } className = "flex items-center gap-3 p-3 bg-white rounded-lg shadow" >
+ < span className = "flex-1 text-gray-400" >
+ { typeof todo.title === 'string' ? todo.title : 'untitled' }
+ </ span >
+ < button
+ className = "px-3 py-1 text-sm text-blue-600 bg-blue-50 rounded hover:bg-blue-100"
+ onClick = {() => setTodoState (todo._id as string , 'Active' )}
+ >
+ Restore
+ </ button >
+ </ li >
+ ))}
+ </ ul >
+ </ div >
+ )}
+ </ div >
+ );
+ }
+Add a "Share" feature
+Next, we are going to implement a share button. Once a user clicks that button, they will
+be prompted to provide an email address of the person with whom they want to share the todo.
+The user you want to share with must have signed up first. If you're using the dev setup with Docker Compose, open the app in an incognito window or a different browser, go through the login flow, and select one of the test accounts ( alice@example.com , bob@example.com , or charlie@example.com ) or enter a custom email address. Only after completing the login flow can you invite that user.
+To implement the feature, add the shareTodo function and Share button to the TodoList component (highlighted lines are new):
+function TodoList () {
+ const { lr } = useLinkedRecords ();
+ const todos = useKeyValueRecords ([
+ [ '$it' , 'isA' , 'Todo' ],
+ [ '$it' , '$latest(stateIs)' , '$not(Archived)' ],
+ ]);
+const archivedTodos = useKeyValueRecords ([
+ [ '$it' , 'isA' , 'Todo' ],
+ [ '$it' , '$latest(stateIs)' , 'Archived' ],
+ ]);
+const [ , onCompleted ] = useAsyncFn ( async ( id : string , checked ) => {
+ const todoAttr = await lr.Record. find (id);
+ const todoObj = await todoAttr?. getValue ();
+todoAttr?. set ({ ... todoObj, completed: checked });
+ }, [ lr.Fact ]);
+const [ , setTodoState ] = useAsyncFn ( async ( id : string , state : 'Archived' | 'Active' ) => {
+ await lr.Fact. createAll ([[id, 'stateIs' , state]]);
+ }, [ lr.Fact ]);
+const [ , shareTodo ] = useAsyncFn ( async ( id : string ) => {
+ const email = prompt ( 'Enter email address to share with:' );
+ if ( ! email) {
+ return alert ( 'Please enter a valid email' );
+ }
+ const userId = await lr. getUserIdByEmail (email);
+ if ( ! userId) {
+ return alert ( 'User not found. The user must sign up first.' );
+ }
+ await lr.Fact. createAll ([[userId, '$canAccess' , id]]);
+ }, [ lr.Fact ]);
+return (
+ < div className = "space-y-6" >
+ < ul className = "space-y-2" >
+ {todos. map (( todo ) => (
+ < li key = {todo._id as string } className = "flex items-center gap-3 p-3 bg-white rounded-lg shadow" >
+ < input
+ type = "checkbox"
+ className = "w-5 h-5 rounded border-gray-300"
+ checked = { !! todo.completed}
+ onChange = {( e ) => onCompleted (todo._id as string , e.target.checked)}
+ />
+ < span className = { `flex-1 ${ todo . completed ? 'line-through text-gray-400' : ''}` }>
+ { typeof todo.title === 'string' ? todo.title : 'untitled' }
+ </ span >
+ < button
+ className = "px-3 py-1 text-sm text-gray-600 bg-gray-100 rounded hover:bg-gray-200"
+ onClick = {() => setTodoState (todo._id as string , 'Archived' )}
+ >
+ Archive
+ </ button >
+ < button
+ className = "px-3 py-1 text-sm text-green-600 bg-green-50 rounded hover:bg-green-100"
+ onClick = {() => shareTodo (todo._id as string )}
+ >
+ Share
+ </ button >
+ </ li >
+ ))}
+ </ ul >
+{archivedTodos. length > 0 && (
+ < div >
+ < h2 className = "text-lg font-semibold text-gray-600 mb-2" >Archived</ h2 >
+ < ul className = "space-y-2 opacity-60" >
+ {archivedTodos. map (( todo ) => (
+ < li key = {todo._id as string } className = "flex items-center gap-3 p-3 bg-white rounded-lg shadow" >
+ < span className = "flex-1 text-gray-400" >
+ { typeof todo.title === 'string' ? todo.title : 'untitled' }
+ </ span >
+ < button
+ className = "px-3 py-1 text-sm text-blue-600 bg-blue-50 rounded hover:bg-blue-100"
+ onClick = {() => setTodoState (todo._id as string , 'Active' )}
+ >
+ Restore
+ </ button >
+ </ li >
+ ))}
+ </ ul >
+ </ div >
+ )}
+ </ div >
+ );
+ }
+Understanding Permission Limitations
+If you test the share functionality now, you'll notice something interesting: the user you shared the todo with can see it and even check/uncheck the completed checkbox, but they cannot archive or unarchive the todo. Try it—the archive button will silently fail for them.
+Why does this happen? This is because of how LinkedRecords handles different types of permissions:
+$canAccess grants access to read and modify the record's content (the JSON data like title and completed )
+However, archiving requires creating a fact like [todoId, 'stateIs', 'Archived'] - this uses the todo as the subject of a fact
+To create facts where an entity is the subject, a user needs the $canRefine permission. Think of it as the difference between:
+Editing what's inside a document ( $canAccess )
+Adding metadata about the document ( $canRefine )
+LinkedRecords Permission Model:
+$canAccess — Read and write the record's value
+$canRead — Read-only access to the record's value
+$canRefine — Create facts where this entity is the subject (e.g., [entity, 'stateIs', 'Archived'] )
+$canReferTo — Create facts where this entity is the object (e.g., [something, 'belongsTo', entity] )
+To fix this, update the shareTodo function to also grant $canRefine :
+const [ , shareTodo ] = useAsyncFn ( async ( id : string ) => {
+ const email = prompt ( 'Enter email address to share with:' );
+if ( ! email) {
+ return alert ( 'Please enter a valid email' );
+ }
+const userId = await lr. getUserIdByEmail (email);
+if ( ! userId) {
+ return alert ( 'User not found. The user must sign up first.' );
+ }
+await lr.Fact. createAll ([
+ [userId, '$canAccess' , id],
+ [userId, '$canRefine' , id],
+ ]);
+ }, [ lr.Fact ]);
+Now the shared user can archive and unarchive todos too. This pattern of combining permissions is common in LinkedRecords—you grant exactly the capabilities each user needs, no more, no less.
+Already shared todos won't be fixed automatically!
+ Updating your code only affects future shares. Todos you've already shared are still missing the $canRefine permission because that fact was never created for them.
+ To fix an existing share, the user would need to share it again — this time the updated code will create both permission facts.
+ This is an important concept: permissions in LinkedRecords are stored as facts in the database, not derived from code. Changing your code changes what happens next time , but doesn't retroactively update existing data.
+Previous
+Introduction
+ Next
+React SDK
+On this page
+Quick Start Building Your First App Initialize a new Project Setup React Using Vite Clean up Scaffold App Install NPM Packages Add Tailwind CSS Start the Development Server Implement a Simple todo App Display the Logged-in User Add an "Archive" feature Declare the New Terms First Update the TodoList Component Add a "Share" feature Understanding Permission Limitations
+
+## 关联链接
+
+- http://localhost:5173/
+- http://localhost:6543
+- https://raw.githubusercontent.com/wolfoo2931/linkedrecords/main/docker-compose.yml
 
 ## 导航
 
 - 项目页：[[10-项目/linkedrecords.com_76758263]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

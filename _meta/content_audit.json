@@ -1,32 +1,32 @@
 {
- "generated": "2026-09-21T02:40:36+08:00",
+ "generated": "2026-09-21T03:24:48+08:00",
  "scope": "all",
  "n": 1515,
- "clean": 779,
- "unusable": 659,
+ "clean": 1330,
+ "unusable": 101,
  "irrelevant": 104,
  "flags": {
-  "空正文": 541,
   "无项目链接": 237,
   "无指标": 158,
-  "正文过短(<200)": 136,
   "缺作者": 106,
   "缺发布时间": 94,
-  "无项目信号": 85,
+  "无项目信号": 84,
+  "HTML未清理": 82,
   "视频无正文": 77,
-  "HTML未清理": 68,
-  "资源清单/名录": 22,
-  "Exa截断": 14,
-  "RSS摘要/残文": 12,
+  "正文过短(<200)": 59,
+  "空正文": 50,
+  "Exa截断": 26,
+  "资源清单/名录": 23,
+  "RSS摘要/残文": 22,
   "发布时间未规范化": 4,
   "泛媒体主题": 3,
   "大厂产品": 2
  },
  "body_len": {
-  "median": 315,
-  "mean": 2372,
-  "zero": 541,
-  "lt200": 677
+  "median": 2096,
+  "mean": 4950,
+  "zero": 50,
+  "lt200": 109
  },
  "captured_days": [
   "2026-09-20",
@@ -35,8 +35,8 @@
  "by_channel": {
   "betalist": {
    "n": 50,
-   "ok": 19,
-   "unusable": 31,
+   "ok": 50,
+   "unusable": 0,
    "irrelevant": 0,
    "resource": 0,
    "big": 0,
@@ -46,7 +46,7 @@
    "no_pub": 50,
    "no_author": 50,
    "no_metrics": 50,
-   "body0": 31
+   "body0": 0
   },
   "bilibili": {
    "n": 40,
@@ -125,23 +125,23 @@
   },
   "hn_show": {
    "n": 1000,
-   "ok": 429,
-   "unusable": 571,
+   "ok": 926,
+   "unusable": 74,
    "irrelevant": 0,
    "resource": 0,
    "big": 0,
-   "summary": 8,
-   "trunc": 12,
-   "html": 2,
+   "summary": 17,
+   "trunc": 24,
+   "html": 16,
    "no_pub": 0,
    "no_author": 0,
    "no_metrics": 0,
-   "body0": 476
+   "body0": 37
   },
   "indiehackers": {
    "n": 36,
-   "ok": 23,
-   "unusable": 13,
+   "ok": 36,
+   "unusable": 0,
    "irrelevant": 0,
    "resource": 0,
    "big": 0,
@@ -151,7 +151,7 @@
    "no_pub": 36,
    "no_author": 36,
    "no_metrics": 36,
-   "body0": 13
+   "body0": 0
   },
   "producthunt": {
    "n": 49,
@@ -170,23 +170,23 @@
   },
   "reddit": {
    "n": 222,
-   "ok": 134,
-   "unusable": 34,
+   "ok": 140,
+   "unusable": 21,
    "irrelevant": 79,
-   "resource": 5,
+   "resource": 6,
    "big": 2,
-   "summary": 2,
+   "summary": 3,
    "trunc": 0,
    "html": 0,
    "no_pub": 0,
    "no_author": 0,
    "no_metrics": 0,
-   "body0": 15
+   "body0": 7
   },
   "v2ex": {
    "n": 30,
-   "ok": 22,
-   "unusable": 4,
+   "ok": 26,
+   "unusable": 0,
    "irrelevant": 4,
    "resource": 3,
    "big": 0,

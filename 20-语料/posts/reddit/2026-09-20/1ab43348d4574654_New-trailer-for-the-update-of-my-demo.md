@@ -211,7 +211,7 @@ If you want to take a look, here is the link: [https://store.steampowered.com/ap
 
 ## 关联链接
 
-- https://store.steampowered.com/app/4780550/Si\_Jefe\_Demo/
+- https://store.steampowered.com/app/4780550/Si
 - https://store.steampowered.com/app/4780550/Si_Jefe_Demo/
 
 ## 导航

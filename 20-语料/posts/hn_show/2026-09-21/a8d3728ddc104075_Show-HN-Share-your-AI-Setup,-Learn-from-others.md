@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49740105"
 project_url: "https://mysetup.ai/"
 author: "steveybrown"
 published_at: "2026-09-17T13:01:44Z"
-captured_at: "2026-09-21T01:45:57+08:00"
+captured_at: "2026-09-21T03:17:48+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=238 · 评论=138 · engagement_velocity=238
 > 作者：steveybrown　|　发布：2026-09-17T13:01:44Z
 > 项目链接：<https://mysetup.ai/>
-> 采集：2026-09-21T01:45:57+08:00　|　id：`a8d3728ddc104075`
+> 采集：2026-09-21T03:17:48+08:00　|　id：`a8d3728ddc104075`
 
 ## 正文
 

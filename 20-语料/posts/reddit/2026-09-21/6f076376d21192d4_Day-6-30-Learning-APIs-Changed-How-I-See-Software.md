@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/buildinpublic/comments/1wifah6/day_630_learning_apis_changed_how_i_see_software/"
 author: "Shashank_Mishra011"
 published_at: "2026-09-17T08:53:43+08:00"
-captured_at: "2026-09-21T00:07:45+08:00"
+captured_at: "2026-09-21T03:18:38+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=4 · 评论=6 · 赞踩比=0.83
 > 作者：Shashank_Mishra011　|　发布：2026-09-17T08:53:43+08:00
 > 项目链接：—
-> 采集：2026-09-21T00:07:45+08:00　|　id：`6f076376d21192d4`
+> 采集：2026-09-21T03:18:38+08:00　|　id：`6f076376d21192d4`
 
 ## 正文
 

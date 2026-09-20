@@ -2,7 +2,7 @@
 type: "project"
 title: "So, IndieGameJoe just made my game go proper viral, out of nowhere."
 project_url: "https://imgur.com/a/Vx1o9to"
-first_seen: "2026-09-21T01:14:47+08:00"
+first_seen: "2026-09-21T02:59:29+08:00"
 sources:
   - reddit
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://imgur.com/a/Vx1o9to>
-> 首次收录：2026-09-21T01:14:47+08:00
+> 首次收录：2026-09-21T02:59:29+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/indiedev
 > 最新指标：得分=157 · 评论=25 · 赞踩比=0.9599999785423279
@@ -30,6 +30,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-21T01:10:11+08:00 | Reddit 独立开发版块 | 得分=157 · 评论=25 · 赞踩比=0.9599999785423279 | [[20-语料/posts/reddit/2026-09-21/7e5562f175dbc2b0_So,-IndieGameJoe-just-made-my-game-go-proper-viral]] |
 | 2026-09-21T01:14:47+08:00 | Reddit 独立开发版块 | 得分=157 · 评论=25 · 赞踩比=0.9599999785423279 | [[20-语料/posts/reddit/2026-09-21/7e5562f175dbc2b0_So,-IndieGameJoe-just-made-my-game-go-proper-viral]] |
+| 2026-09-21T02:59:29+08:00 | Reddit 独立开发版块 | 得分=157 · 评论=25 · 赞踩比=0.9599999785423279 | [[20-语料/posts/reddit/2026-09-21/7e5562f175dbc2b0_So,-IndieGameJoe-just-made-my-game-go-proper-viral]] |
 
 ## 摘要正文
 

@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/buildinpublic/comments/1v6eam5/18_months_ago_i_bought_a_bookkeeping_practice/"
 author: "Former_Script01"
 published_at: "2026-07-26T01:25:09+08:00"
-captured_at: "2026-09-21T01:32:23+08:00"
+captured_at: "2026-09-21T03:03:38+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - reddit
   - r/buildinpublic
 metrics: {"score": 5, "comments": 10, "upvote_ratio": 0.67}
-comments_count: 0
-comments_total: 0
+comments_count: 12
+comments_total: 12
 discovered_via: "reddit:83d+settle3"
 ---
 
@@ -34,7 +34,7 @@ discovered_via: "reddit:83d+settle3"
 > 指标：得分=5 · 评论=10 · 赞踩比=0.67
 > 作者：Former_Script01　|　发布：2026-07-26T01:25:09+08:00
 > 项目链接：—
-> 采集：2026-09-21T01:32:23+08:00　|　id：`86c4b0011a30d5db`
+> 采集：2026-09-21T03:03:38+08:00　|　id：`86c4b0011a30d5db`
 
 ## 正文
 
@@ -54,6 +54,83 @@ What I underestimated:
 I'm not anti-building. I'm saying acquiring a small profitable thing and improving it is a path this sub almost never talks about, and the risk profile is completely different from shipping into the void.
 
 Anyone else here buy instead of build? Curious if your first 18 months felt as unglamorous as mine, or if I just picked the least exciting industry on earth.
+
+## 评论（12/12）
+
+> **roger1891**（3 分） · 2026-07-26T16:40:23+08:00　
+> You went the opposite path.
+
+---
+
+> **GeorgeHarter**（0 分） · 2026-07-26T21:45:54+08:00　
+> Congratulations!
+> Did you have any profit margin when you only had 5 clients?
+>
+> How did you find and “sell” the other 9?
+
+---
+
+> **Electronic-Health288**（0 分） · 2026-07-26T23:33:31+08:00　
+> Are there places where you can buy ‘boring’ businesses like this?
+
+---
+
+> **sqweak**（17 分） · 2026-07-27T00:28:00+08:00　
+> Just like everything else in this sub, this is fake and they did none of this.
+>
+> 2 weeks ago they were a [licensed electrician.](https://www.reddit.com/r/growmybusiness/s/7ThuPRpIVh)
+>
+> 6 weeks ago they owned a pet supply store.
+>
+> Before they, they were vibecoding a saas (just like they say they aren’t doing here).
+
+---
+
+> **roger1891**（3 分） · 2026-07-27T00:31:21+08:00　
+> Hilarious. Thanks for pointing that out.
+
+---
+
+> **Putrid_Barracuda_598**（2 分） · 2026-07-27T01:36:00+08:00　
+> I'm going to make a bot that automatically does this. Thank you, Internet person.
+
+---
+
+> **kepteasy**（1 分） · 2026-07-27T05:17:14+08:00　
+> Yeah its this kind of stuff turning me off reddit all the fake bs.
+>
+> Now I have to scroll the thread waiting for OP replies first for one, and then look at their post history for two, just before I can bother investing more time in making a reply.
+
+---
+
+> **Parking_Ocelot_816**（1 分） · 2026-07-30T15:39:34+08:00　
+> Definitely can relate to bootstrap service vs. build. (3x servive businesses).
+>
+> I think you'll still outperfom 99% of the builders this way. Might be unglamourous, but it works.
+>
+> Think about it: You make say 200k for yourself doing the bookkeeping a year. The average SaaS business has say 20% margin, so your friends building product would have to grow this to 1mn revenue a year. Some will, most won't.
+>
+> So, "boring that works" beats "fancy but doesn't"
+
+---
+
+> **Moontrepreneur**（1 分） · 2026-08-03T10:09:19+08:00　
+> how come they're approved to post but I'm still wait??  😭
+
+---
+
+> **FancyAnswer1878**（1 分） · 2026-08-07T01:47:00+08:00　
+> buying something with customers already paying is such an underrated path. boring recurring revenue beats chasing the next shiny idea every time if your goal is actually building a business rather than collecting side projects
+
+---
+
+> **luc_vizz**（1 分） · 2026-08-13T10:22:22+08:00　
+> Love this strategy. I've read about this type of thing from Codie Sanchez's book Main Street Millionaire, but haven't met someone who did it. I have so many questions. How did you come across the bookkeeping practice? Were you actively searching for different service businesses like this that you wanted to buy, or were you specifically looking for a bookkeeping business? Did you buy it outright with cash, or did you do something clever financially with the current owner to pay them out over time?
+
+---
+
+> **luc_vizz**（1 分） · 2026-08-13T10:23:31+08:00　
+> Thanks for sharing. Totally fell for it. What even do they have to gain by doing this?
 
 ## 导航
 

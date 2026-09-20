@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=48328965"
 project_url: "https://1milllionpixels.com/"
 author: "westche2222"
 published_at: "2026-05-29T20:42:10Z"
-captured_at: "2026-09-21T01:43:46+08:00"
+captured_at: "2026-09-21T02:52:55+08:00"
 lang: "en"
 kind: "post"
 topic: 开发者工具
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:144d"
 # Show HN: I rebuilt the $1M dollar homepage
 
 > [!info] 一句话导读
-> Show HN: I rebuilt the $1M dollar homepage
+> 1,000,000 pixels. Immortalize your brand, joke, or self.
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,29 @@ discovered_via: "hn:show_hn:144d"
 > 指标：点赞=3 · 评论=1 · engagement_velocity=3
 > 作者：westche2222　|　发布：2026-05-29T20:42:10Z
 > 项目链接：<https://1milllionpixels.com/>
-> 采集：2026-09-21T01:43:46+08:00　|　id：`998ab28254c6f5bc`
+> 采集：2026-09-21T02:52:55+08:00　|　id：`998ab28254c6f5bc`
 
 ## 正文
 
-Show HN: I rebuilt the $1M dollar homepage
+1 Million Pixels
+
+# 1 Million Pixels
+
+1,000,000 pixels. Immortalize your brand, joke, or self.
+
+Price jumps soon$0.03/px
+
+9,906 more pixels until the per-pixel price rounds up to $0.03.
+
+Price/px $0.02
+
+Sold 1.69%
+
+Unique Owners 20
+
+Pixels Sold 16,900
+
+# Show HN: [Geo-Cast] hear what other people are saying | Hacker News
 
 ## 评论（1/1）
 

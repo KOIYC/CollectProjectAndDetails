@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: A single character turns primitive recursion into general recursion"
 project_url: "https://github.com/raoofha/pr"
-first_seen: "2026-09-21T01:31:46+08:00"
+first_seen: "2026-09-21T03:11:13+08:00"
 sources:
   - hn_show
 tags:
@@ -16,9 +16,12 @@ lang: "en"
 
 # Show HN: A single character turns primitive recursion into general recursion
 
+> [!info] 一句话导读
+> a single character turns a universal primitive recursive function into a universal general recursive function
+
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/raoofha/pr>
-> 首次收录：2026-09-21T01:31:46+08:00
+> 首次收录：2026-09-21T03:11:13+08:00
 > 来源渠道：HN Show HN
 > 标签：author_raoof, story_49113798, show_hn
 > 最新指标：点赞=2 · 评论=0 · engagement_velocity=2
@@ -28,3 +31,8 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T01:31:46+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/33eb3fb083470988_Show-HN-A-single-character-turns-primitive-recursi]] |
+| 2026-09-21T03:11:13+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/33eb3fb083470988_Show-HN-A-single-character-turns-primitive-recursi]] |
+
+## 摘要正文
+
+# raoofha/pr  a single character turns a universal primitive recursive function into a universal general recursive function  - Stars: 0 - Forks: 0 - Watchers: 0 - Open issues: 0 - Default branch: main - Created: 2026-07-30T17:19:44Z  ## Languages  - Haskell  ## Top Contributors  - raoofha (3 contributions)  ---  ## README  # a single character change a universal primitive recursive function into a universal general recursive function an implementation of LOOP programming language as a list of pairs of natural numbers * 0 0 -- noop * r 0 -- inc r * 0 r -- dec r * r p -- repeat program number p r times  ```hs _pr :: Natural -> [(Natural,Natural)] -> [Natural] -> [Natural] _pr i p rs =   if i < (fromIntegral (length p)) then     let       (op1,op2) = (p!!(fromIntegral i))       _op1 = (fromIntegral (op1-1))       _op2 = (fromIntegral (op2-1))       _i = (fromIntegral i)       vop1 = (listGet rs _op1 0)       vop2 = (listGet rs _op2 0)     in       if op1 /= 0 && op2 /= 0 then          let q = (map cantorUnpair (cantorUnpairAll op2)) -- changing op2 to vop2 enable self-reference and pr becomes a universal general recursive function         in _pr (i+1) p ((iterate (\rs -> _pr 0 q rs) r…
