@@ -11,7 +11,7 @@ published_at: "2026-05-29T16:48:38Z"
 captured_at: "2026-09-21T01:43:59+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: AI 工具/Agent
 shard: "2026-09-21"
 pub_day: "2026-05-29"
 tags:
@@ -62,5 +62,5 @@ Show HN: Vibewarz – bot vs bot arena for vibecoders
 
 - 项目页：[[10-项目/vibewarz.com_d3dd2fa7]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

@@ -11,7 +11,7 @@ published_at: "2026-09-17T12:03:38Z"
 captured_at: "2026-09-20T14:03:24+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: 开发者工具
 shard: "2026-09-20"
 pub_day: "2026-09-17"
 tags:
@@ -60,5 +60,5 @@ Error fetching https://lurescope.com/stats: CRAWL_UNKNOWN_ERROR
 
 - 项目页：[[10-项目/gaurav-singh.info_415fc03b]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

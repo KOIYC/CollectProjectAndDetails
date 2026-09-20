@@ -11,7 +11,7 @@ published_at: "2026-05-29T18:26:38Z"
 captured_at: "2026-09-21T02:23:40+08:00"
 lang: "en"
 kind: "post"
-topic: "移动 App"
+topic: AI 工具/Agent
 shard: "2026-09-21"
 pub_day: "2026-05-29"
 tags:
@@ -109,5 +109,5 @@ Hi HN,Since many of you also thought about : is my family able to easily find my
 
 - 项目页：[[10-项目/heirlooms.app_e1b280da]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`移动 App`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

@@ -11,7 +11,7 @@ published_at: "2026-09-17T05:48:31+08:00"
 captured_at: "2026-09-21T00:07:50+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: 开发者工具
 shard: "2026-09-21"
 pub_day: "2026-09-17"
 tags:
@@ -127,5 +127,5 @@ If you have a website you’d like me to run through it, feel free to submit it.
 
 - 项目页：[[10-项目/web-analyser.com_4e35327a]]
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

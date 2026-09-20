@@ -11,7 +11,7 @@ published_at: "2026-05-31T12:32:54Z"
 captured_at: "2026-09-21T01:42:46+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: 开发者工具
 shard: "2026-09-21"
 pub_day: "2026-05-31"
 tags:
@@ -142,5 +142,5 @@ Show HN: Atomic Editor – Obsidian-style live preview for CodeMirror 6
 
 - 项目页：[[10-项目/kenforthewin.github.io_e39d658c]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

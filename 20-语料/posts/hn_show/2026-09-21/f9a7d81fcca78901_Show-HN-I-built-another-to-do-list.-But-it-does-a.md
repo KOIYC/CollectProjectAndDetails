@@ -11,7 +11,7 @@ published_at: "2026-04-28T22:58:14Z"
 captured_at: "2026-09-21T01:42:35+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: AI 工具/Agent
 shard: "2026-09-21"
 pub_day: "2026-04-28"
 tags:
@@ -95,5 +95,5 @@ Show HN: I built another to do list. But it does a lot
 
 - 项目页：[[10-项目/apps.apple.com_ee50683c]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

@@ -11,7 +11,7 @@ published_at: "2026-08-31T23:46:32+08:00"
 captured_at: "2026-09-21T01:34:26+08:00"
 lang: "en"
 kind: "post"
-topic: "游戏"
+topic: 开发者工具
 shard: "2026-09-21"
 pub_day: "2026-08-31"
 tags:
@@ -50,5 +50,5 @@ Steam Demo: [https://store.steampowered.com/app/5096200/Get\_Outta\_My\_Gut\_Dem
 
 - 项目页：[[10-项目/v.redd.it_c4136028]]
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`游戏`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

@@ -12,6 +12,7 @@ tags:
   - story_47947319
   - show_hn
 lang: "en"
+stale: true
 ---
 
 # Show HN: I built a 2nd-order PyTorch optimizer for LLMs that runs on 16GB GPUs

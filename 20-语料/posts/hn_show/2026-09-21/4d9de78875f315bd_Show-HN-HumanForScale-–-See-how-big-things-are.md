@@ -11,7 +11,7 @@ published_at: "2026-05-30T16:31:55Z"
 captured_at: "2026-09-21T01:27:24+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: 移动 App
 shard: "2026-09-21"
 pub_day: "2026-05-30"
 tags:
@@ -40,5 +40,5 @@ discovered_via: "hn:show_hn:144d"
 
 - 项目页：[[10-项目/humanforscale.app_4e9bed2b]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`移动 App`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

@@ -11,7 +11,7 @@ published_at: "2026-06-30T12:37:48Z"
 captured_at: "2026-09-21T01:44:57+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: 开发者工具
 shard: "2026-09-21"
 pub_day: "2026-06-30"
 tags:
@@ -57,5 +57,5 @@ Show HN: ReelsGraph – movie/TV watchlist and ML-based discovery queue, no sign
 
 - 项目页：[[10-项目/reelsgraph.com_a10d116d]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

@@ -799,13 +799,26 @@ def split_note(text: str) -> tuple[str, str] | None:
 
 
 def fm_scalars(head: str) -> dict[str, str]:
-    """读 note frontmatter 里的**标量键**（列表/字典块整体跳过），够做定点改写用。"""
+    """读 note frontmatter 里的**标量键**（列表/字典块整体跳过），够做定点改写用。
+
+    双引号标量必须走 `json.loads` 解码：`write_note` 是用 `json.dumps` 写的
+    （`\\` `\"` `\n` 都被转义），读侧只 `strip('"')` 就**不对称** ——
+    实测 `project_url` 带反斜杠时（markdown 转义残留 `Besos\\_Shawarma`）读回来变成
+    两个反斜杠，与账本里的一个反斜杠算出**两个不同的项目页 hash**，
+    navfix 于是写出指向不存在页面的死链（healthcheck ④ 红）。
+    """
     out: dict[str, str] = {}
     for ln in head[4:].splitlines():
         m = re.match(r"^([A-Za-z_][\w]*):\s*(.*)$", ln)
         if not m:
             continue
         k, v = m.group(1), m.group(2).strip()
+        if len(v) >= 2 and v.startswith('"') and v.endswith('"'):
+            try:
+                out[k] = json.loads(v)
+                continue
+            except ValueError:
+                pass                                   # 不是合法 JSON 的双引号值：退回朴素去引号
         out[k] = v.strip('"') if v else ""
     return out
 

@@ -11,7 +11,7 @@ published_at: "2026-04-29T14:33:38Z"
 captured_at: "2026-09-21T01:41:54+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: 开发者工具
 shard: "2026-09-21"
 pub_day: "2026-04-29"
 tags:
@@ -52,5 +52,5 @@ Show HN: GitChop – Git rebase -I without the TODO file
 
 - 项目页：[[10-项目/bendansby.com_a0c69be7]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

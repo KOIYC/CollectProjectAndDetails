@@ -11,7 +11,7 @@ published_at: "2026-09-19T04:22:19Z"
 captured_at: "2026-09-20T09:23:24+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: 移动 App
 shard: "2026-09-20"
 pub_day: "2026-09-19"
 tags:
@@ -455,5 +455,5 @@ A web page answers one combination at a time. In the Synstax iPhone app, scan bo
 
 - 项目页：[[10-项目/synstax.uppervoid.app_883522c1]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`移动 App`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

@@ -12,6 +12,7 @@ tags:
   - story_48728732
   - show_hn
 lang: "en"
+stale: true
 ---
 
 # Show HN: Vaghenu, a meter aware sloka-to-chant, TTS for Sanskrit

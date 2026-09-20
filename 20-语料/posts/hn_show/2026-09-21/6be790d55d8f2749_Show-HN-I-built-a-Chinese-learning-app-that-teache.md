@@ -11,7 +11,7 @@ published_at: "2026-04-29T11:00:18Z"
 captured_at: "2026-09-21T01:42:17+08:00"
 lang: "en"
 kind: "post"
-topic: "移动 App"
+topic: AI 工具/Agent
 shard: "2026-09-21"
 pub_day: "2026-04-29"
 tags:
@@ -82,5 +82,5 @@ Show HN: I built a Chinese learning app that teaches through sentence patterns
 
 - 项目页：[[10-项目/doudou-chinese.com_5c0fe955]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`移动 App`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

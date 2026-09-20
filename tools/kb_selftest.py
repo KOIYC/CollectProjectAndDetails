@@ -115,6 +115,44 @@ class ProjectUrlGuard(unittest.TestCase):
         self.assertEqual(KC.derive_project_url(url, body), "https://real.app/")
 
 
+class NameAuditScope(unittest.TestCase):
+    """命名审计范围：去重暂存区不参与（否则 live 页与它的同 stem 副本稳定误报）。"""
+
+    def test_dedupe_quarantine_excluded_but_real_archive_checked(self):
+        import kb_name_audit as NA
+        self.assertTrue(NA._is_quarantined(
+            KB.ROOT / "80-归档/重复副本/20260921T020724/20-语料/posts/betalist/2026-09-21/a.md"))
+        self.assertFalse(NA._is_quarantined(
+            KB.ROOT / "80-归档/posts/hn_show/2026-09-21/a.md"), "冻结区正文仍要查语法字符")
+        self.assertFalse(NA._is_quarantined(
+            KB.ROOT / "20-语料/posts/hn_show/2026-09-21/a.md"))
+
+
+class FrontmatterRoundtrip(unittest.TestCase):
+    """frontmatter 读写必须对称：write_note 用 json.dumps 写双引号标量，fm_scalars 必须解码。
+
+    不对称的后果不是「显示难看」：project_url 多一个反斜杠就换一个项目页 hash，
+    navfix 于是写出指向不存在页面的死链（healthcheck ④ 红，实测 3 条）。
+    """
+
+    def test_backslash_and_quote_values_survive_roundtrip(self):
+        with tempfile.TemporaryDirectory() as td:
+            p = pathlib.Path(td) / "n.md"
+            pu = "https://store.steampowered.com/app/1/Besos\\_Shawarma"
+            KB.write_note(p, {"type": "corpus", "project_url": pu,
+                              "title": 'He said "hi"'}, "body")
+            head, _body = KB.split_note(p.read_text(encoding="utf-8"))
+            fm = KB.fm_scalars(head)
+            self.assertEqual(fm["project_url"], pu, "反斜杠不能被 YAML/JSON 转义放大")
+            self.assertEqual(fm["title"], 'He said "hi"')
+
+    def test_plain_and_unquoted_values_still_read(self):
+        fm = KB.fm_scalars('---\nitem_id: "abc"\ntopic: 游戏\nshard: 2026-09-21\n---')
+        self.assertEqual(fm["item_id"], "abc")
+        self.assertEqual(fm["topic"], "游戏")          # set_fm_scalar 写的是裸值
+        self.assertEqual(fm["shard"], "2026-09-21")
+
+
 class BodyCompleteness(unittest.TestCase):
     def test_levels(self):
         self.assertEqual(KB.body_completeness(""), "empty")

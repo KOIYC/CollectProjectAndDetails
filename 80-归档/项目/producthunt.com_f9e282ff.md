@@ -10,6 +10,7 @@ tags:
   - reddit
   - r/buildinpublic
 lang: "en"
+stale: true
 ---
 
 # I built a teleprompter that actually lets you keep eye contact while speaking

@@ -11,7 +11,7 @@ published_at: "2026-06-30T12:17:31Z"
 captured_at: "2026-09-21T01:45:02+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: 内容/媒体
 shard: "2026-09-21"
 pub_day: "2026-06-30"
 tags:
@@ -56,5 +56,5 @@ I wanted to know how fast a 26B mixture-of-experts model could run on a desktop 
 
 - 项目页：[[10-项目/apeg.dev_788bf1d6]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`内容/媒体`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

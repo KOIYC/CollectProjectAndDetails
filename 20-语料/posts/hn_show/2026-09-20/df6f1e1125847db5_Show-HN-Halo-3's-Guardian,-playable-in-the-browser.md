@@ -11,7 +11,7 @@ published_at: "2026-09-16T20:08:16Z"
 captured_at: "2026-09-20T14:03:49+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: AI 工具/Agent
 shard: "2026-09-20"
 pub_day: "2026-09-16"
 tags:
@@ -100,5 +100,5 @@ Error fetching https://github.com/wonglok/effectnode-b3-template-code/tree/main/
 
 - 项目页：[[10-项目/runboli.com_7e7ffce4]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

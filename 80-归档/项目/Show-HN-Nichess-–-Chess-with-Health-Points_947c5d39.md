@@ -12,6 +12,7 @@ tags:
   - story_47947041
   - show_hn
 lang: "en"
+stale: true
 ---
 
 # Show HN: Nichess – Chess with Health Points

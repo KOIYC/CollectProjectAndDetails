@@ -10,7 +10,7 @@ published_at: "2026-04-30T19:16:19+08:00"
 captured_at: "2026-09-21T01:14:01+08:00"
 lang: "en"
 kind: "post"
-topic: "SaaS/B2B"
+topic: 开发者工具
 shard: "2026-09-21"
 pub_day: "2026-04-30"
 tags:
@@ -45,5 +45,5 @@ Accounting: QuickBooks Online Banking: Mercury Payroll: Gusto Billing: Stripe Bi
 
 - 项目页：—（本条不是项目，按设计不建实体页）
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`SaaS/B2B`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

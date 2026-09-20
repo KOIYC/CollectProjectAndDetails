@@ -11,7 +11,7 @@ published_at: "2026-09-15T12:31:10Z"
 captured_at: "2026-09-21T01:40:47+08:00"
 lang: "en"
 kind: "post"
-topic: "开发者工具"
+topic: AI 工具/Agent
 shard: "2026-09-21"
 pub_day: "2026-09-15"
 tags:
@@ -1381,5 +1381,5 @@ Want to update? Just pull and run ./setup.sh again
 
 - 项目页：[[10-项目/github.com_4e7ba9f5]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

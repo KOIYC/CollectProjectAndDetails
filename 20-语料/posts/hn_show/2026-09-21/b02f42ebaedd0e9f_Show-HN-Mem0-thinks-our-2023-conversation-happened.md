@@ -11,7 +11,7 @@ published_at: "2026-04-30T13:00:35Z"
 captured_at: "2026-09-21T01:41:07+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: 内容/媒体
 shard: "2026-09-21"
 pub_day: "2026-04-30"
 tags:
@@ -57,5 +57,5 @@ Show HN: Mem0 thinks our 2023 conversation happened in 2026
 
 - 项目页：[[10-项目/aurra.us_1f662f1d]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`内容/媒体`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

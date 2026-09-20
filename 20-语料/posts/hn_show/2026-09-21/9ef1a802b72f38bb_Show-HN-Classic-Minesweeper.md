@@ -11,7 +11,7 @@ published_at: "2026-06-30T08:40:09Z"
 captured_at: "2026-09-21T01:45:15+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: AI 工具/Agent
 shard: "2026-09-21"
 pub_day: "2026-06-30"
 tags:
@@ -112,5 +112,5 @@ Show HN: Classic Minesweeper
 
 - 项目页：[[10-项目/guokai.dev_6930ed5c]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

@@ -11,7 +11,7 @@ published_at: "2026-06-30T13:34:00Z"
 captured_at: "2026-09-21T01:44:52+08:00"
 lang: "en"
 kind: "post"
-topic: "移动 App"
+topic: 开发者工具
 shard: "2026-09-21"
 pub_day: "2026-06-30"
 tags:
@@ -58,5 +58,5 @@ Show HN: Built a minimalist currency converter app that I use daily now
 
 - 项目页：[[10-项目/globallybased.com_395aba37]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`移动 App`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

@@ -11,7 +11,7 @@ published_at: "2026-08-30T05:04:08Z"
 captured_at: "2026-09-21T01:33:52+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: 移动 App
 shard: "2026-09-21"
 pub_day: "2026-08-30"
 tags:
@@ -40,5 +40,5 @@ discovered_via: "hn:show_hn:52d"
 
 - 项目页：[[10-项目/jazzy-torrone-fd91d9.netlify.app_e66600ee]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`移动 App`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

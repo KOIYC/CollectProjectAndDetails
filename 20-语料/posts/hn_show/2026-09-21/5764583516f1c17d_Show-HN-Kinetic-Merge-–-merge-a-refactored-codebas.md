@@ -11,7 +11,7 @@ published_at: "2026-06-30T12:13:50Z"
 captured_at: "2026-09-21T01:29:55+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: SaaS/B2B
 shard: "2026-09-21"
 pub_day: "2026-06-30"
 tags:
@@ -40,5 +40,5 @@ discovered_via: "hn:show_hn:113d"
 
 - 项目页：[[10-项目/github.com_1e752a70]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`SaaS/B2B`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

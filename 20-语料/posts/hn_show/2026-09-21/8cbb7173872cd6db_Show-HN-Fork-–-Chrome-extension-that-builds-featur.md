@@ -11,7 +11,7 @@ published_at: "2026-06-30T14:29:17Z"
 captured_at: "2026-09-21T01:44:29+08:00"
 lang: "en"
 kind: "post"
-topic: "浏览器扩展"
+topic: 开发者工具
 shard: "2026-09-21"
 pub_day: "2026-06-30"
 tags:
@@ -62,5 +62,5 @@ We’re building Fork. Our first release is a free Chrome extension, allowing yo
 
 - 项目页：[[10-项目/withfork.co_670f2e44]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`浏览器扩展`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

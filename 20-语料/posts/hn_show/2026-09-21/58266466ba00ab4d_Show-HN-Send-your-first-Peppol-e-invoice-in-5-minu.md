@@ -11,7 +11,7 @@ published_at: "2026-04-29T17:36:32Z"
 captured_at: "2026-09-21T01:41:39+08:00"
 lang: "en"
 kind: "post"
-topic: "SaaS/B2B"
+topic: 开发者工具
 shard: "2026-09-21"
 pub_day: "2026-04-29"
 tags:
@@ -57,5 +57,5 @@ Show HN: Send your first Peppol e-invoice in 5 minutes (EU mandate live)
 
 - 项目页：[[10-项目/getpeppr.dev_1852a59a]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`SaaS/B2B`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

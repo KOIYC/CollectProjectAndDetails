@@ -39,11 +39,23 @@ RAW_DIR = ROOT / "90-原始"
 WIKILINK_SYNTAX = re.compile(r"[\[\]#^`]")
 ILLEGAL = re.compile(r'[<>:"/\\|?*\x00-\x1f]')
 
+# `80-归档/重复副本/` 是**去重暂存区**：`kb_prune.py --dedupe-archive` 的「只移不删」undo 现场
+# （同一条目的多余快照，原 stem 保留才能按 manifest 搬回）。它不是知识面 ——
+# 里面必然是 live 页的同 stem 副本，参与「同 stem 多目录」检查会稳定误报
+# （2026-09-21 实测 52 处，全部是 live 页 vs 暂存区副本，与「冻结区只查语法字符」的规则自相矛盾）。
+# 因此整个暂存区不参与命名检查；`80-归档/posts|项目|野页` 仍照常查语法字符。
+DEDUPE_QUARANTINE = "80-归档/重复副本"
+
+
+def _is_quarantined(p: Path) -> bool:
+    return p.relative_to(ROOT).as_posix().startswith(DEDUPE_QUARANTINE + "/")
+
 
 def scan() -> dict:
     issues: dict[str, list[str]] = collections.defaultdict(list)
     notes = [p for p in ROOT.rglob("*.md")
-             if not any(part.startswith(".") for part in p.relative_to(ROOT).parts)]
+             if not any(part.startswith(".") for part in p.relative_to(ROOT).parts)
+             and not _is_quarantined(p)]
 
     top_dirs = {p.name for p in ROOT.iterdir() if p.is_dir() and not p.name.startswith(".")}
     for d in sorted(top_dirs - EXPECTED_DIRS):
@@ -149,7 +161,8 @@ def render(r: dict) -> str:
          f'updated: "{gen}"', "---", "",
          "# 命名与目录框架审计", "",
          f"> 审计 {r['n_note']} 个 note；其中 {r['n_checked']} 个做了规范名核对"
-         f"（语料页按 item_id 反算、实体页按 live 条目正向集合，`80-归档/` 冻结区只查语法字符）。"
+         f"（语料页按 item_id 反算、实体页按 live 条目正向集合，`80-归档/` 冻结区只查语法字符，"
+         f"去重暂存区 `{DEDUPE_QUARANTINE}/` 整体不参与）。"
          f"生成于 {gen}。",
          "> 本工具**只审计不修改**；改名一律走 `kb_navfix.py --fix-names`（带 undo 清单）。", ""]
     if not r["issues"]:

@@ -11,7 +11,7 @@ published_at: "2026-04-29T20:24:49Z"
 captured_at: "2026-09-21T01:41:28+08:00"
 lang: "en"
 kind: "post"
-topic: "开发者工具"
+topic: AI 工具/Agent
 shard: "2026-09-21"
 pub_day: "2026-04-29"
 tags:
@@ -140,5 +140,5 @@ Games in general and multiplayer games have been a big part of what my friends d
 
 - 项目页：[[10-项目/simdrive.xyz_41b1c133]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

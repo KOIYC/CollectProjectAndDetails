@@ -11,7 +11,7 @@ published_at: "2026-09-15T04:43:18Z"
 captured_at: "2026-09-20T14:07:51+08:00"
 lang: "en"
 kind: "post"
-topic: "开发者工具"
+topic: AI 工具/Agent
 shard: "2026-09-20"
 pub_day: "2026-09-15"
 tags:
@@ -77,5 +77,5 @@ consider the comments on an issue, when implementing it. do it such that it res�
 
 - 项目页：[[10-项目/longlivethis.site_1c020421]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

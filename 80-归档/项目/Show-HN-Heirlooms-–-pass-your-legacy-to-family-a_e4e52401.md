@@ -12,6 +12,7 @@ tags:
   - story_48327281
   - show_hn
 lang: "en"
+stale: true
 ---
 
 # Show HN: Heirlooms – pass your legacy to family after stop breathing

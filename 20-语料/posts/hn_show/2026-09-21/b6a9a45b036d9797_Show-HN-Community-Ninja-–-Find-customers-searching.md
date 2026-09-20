@@ -11,7 +11,7 @@ published_at: "2026-05-30T16:57:46Z"
 captured_at: "2026-09-21T01:43:22+08:00"
 lang: "en"
 kind: "post"
-topic: "游戏"
+topic: AI 工具/Agent
 shard: "2026-09-21"
 pub_day: "2026-05-30"
 tags:
@@ -67,5 +67,5 @@ Show HN: Community Ninja – Find customers searching for your product
 
 - 项目页：[[10-项目/communityninja.ai_356c59d9]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`游戏`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]
