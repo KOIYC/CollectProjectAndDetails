@@ -2,7 +2,7 @@
 type: "method"
 title: "From $0 to $2,057/Month Using Only Organic Traffic | MRR Story"
 url: "https://www.mrrstory.com/stories/from-0-to-2057month-using-only-organic-traffic"
-first_seen: "2026-09-20T02:39:55+08:00"
+first_seen: "2026-09-21T01:29:31+08:00"
 sources:
   - exa_discovery
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 > [!meta]- 文章信息（点开展开）
 > 原帖：<https://www.mrrstory.com/stories/from-0-to-2057month-using-only-organic-traffic>
 > 作者：—
-> 首次收录：2026-09-20T02:39:55+08:00
+> 首次收录：2026-09-21T01:29:31+08:00
 > 来源渠道：Exa 全网语义发现
 > 标签：—
 
@@ -28,6 +28,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-20T02:39:55+08:00 | Exa 全网语义发现 | — | [[20-语料/posts/exa_discovery/2026-09-20/d3ef807d09865d9e_From-$0-to-$2,057-Month-Using-Only-Organic-Traffic]] |
+| 2026-09-21T01:29:31+08:00 | Exa 全网语义发现 | — | [[20-语料/posts/exa_discovery/2026-09-20/d3ef807d09865d9e_From-$0-to-$2,057-Month-Using-Only-Organic-Traffic]] |
 
 ## 摘要正文
 

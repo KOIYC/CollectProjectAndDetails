@@ -8,7 +8,7 @@ url: "https://github.com/kindrat86/invisible-exit"
 project_url: "https://invisibleexit.com/"
 author: "kindrat86"
 published_at: "2026-03-21T08:04:15Z"
-captured_at: "2026-09-21T00:06:02+08:00"
+captured_at: "2026-09-21T01:40:20+08:00"
 lang: "en"
 kind: "post"
 topic: "未分类"
@@ -36,7 +36,7 @@ discovered_via: "github:14d"
 > 指标：stars=4 · forks=0 · open_issues=2
 > 作者：kindrat86　|　发布：2026-03-21T08:04:15Z
 > 项目链接：<https://invisibleexit.com/>
-> 采集：2026-09-21T00:06:02+08:00　|　id：`9ab90ec64e5813db`
+> 采集：2026-09-21T01:40:20+08:00　|　id：`9ab90ec64e5813db`
 
 ## 正文
 

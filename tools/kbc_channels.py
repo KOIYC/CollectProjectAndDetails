@@ -31,7 +31,11 @@ FULLTEXT_BUDGET = 14          # 每渠道最多补全多少条正文（外部取
 TAG_RE = re.compile(r"<[^>]+>")
 WS_RE = re.compile(r"[ \t\u00a0]+")
 NL_RE = re.compile(r"\n{3,}")
-LINK_RE = re.compile(r"https?://[^\s<>\)\]\"']+")
+# 反斜杠也必须排除：Reddit 正文里的 markdown 转义链接形如
+# `[https://www.producthunt.com/products/x?utm\_source=other](https://...)`，
+# 不排除就会把 `?utm\_source=other` 整段抓下来，`norm_url` 再把 `\` 编码成 `%5C`
+# 写进 project_url（实测 1 条 live 脏值，healthcheck ⑦ 报出）。
+LINK_RE = re.compile(r"https?://[^\s<>\)\]\"'\\]+")
 
 
 def strip_html(s: str | None) -> str:
@@ -163,13 +167,18 @@ def project_url_reject(u: str) -> str:
     host = sp.netloc.lower().split("@")[-1].split(":")[0]
     if not host:
         return "无域名"
-    if host == "localhost" or re.match(r"^\d{1,3}(?:\.\d{1,3}){3}$", host):
+    # `www.` 前缀必须先去再比对：早先直接拿 netloc 比 NON_PROJECT_HOSTS，
+    # `https://www.bilibili.com/video/...` / `https://www.producthunt.com/products/...`
+    # 这类带 www 的讨论页/聚合站**全部放行**（实测 5/5 漏网），于是被当成项目官网
+    # 写进 project_url（项目页文件名 + 跨渠道归并键），healthcheck ⑦ 的可疑值即此。
+    bare = host.removeprefix("www.")
+    if bare == "localhost" or re.match(r"^\d{1,3}(?:\.\d{1,3}){3}$", bare):
         return "本机地址"
-    if "." not in host:
+    if "." not in bare:
         return "无顶级域"
-    if host in NON_PROJECT_HOSTS:
+    if bare in NON_PROJECT_HOSTS:
         return "讨论页/聚合站/文档站"
-    if host.endswith(".blogspot.com"):
+    if bare.endswith(".blogspot.com"):
         return "博客托管站"
     if PROJECT_URL_BAD_TAIL.search(u):
         return "尾部有标点（半截链接）"
@@ -177,7 +186,7 @@ def project_url_reject(u: str) -> str:
         return "静态资源链接（不是站点）"
     if _PROFILE_PATH_RE.search(sp.path):
         return "个人主页/平台资料页（不是项目站点）"
-    if host in GENERIC_BARE_HOSTS and not sp.path.strip("/"):
+    if bare in GENERIC_BARE_HOSTS and not sp.path.strip("/"):
         return "通用站根路径"
     return ""
 

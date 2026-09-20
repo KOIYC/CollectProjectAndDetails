@@ -6,7 +6,7 @@ source: "exa_discovery"
 source_name: "Exa 全网语义发现"
 url: "https://www.mrrstory.com/stories/from-0-to-2057month-using-only-organic-traffic"
 published_at: "2026-05-16T15:57:50.000Z"
-captured_at: "2026-09-20T02:39:55+08:00"
+captured_at: "2026-09-21T01:29:31+08:00"
 lang: "en"
 kind: "method"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "exa:solo founder MRR milestone build in public"
 > 指标：—
 > 作者：—　|　发布：2026-05-16T15:57:50.000Z
 > 项目链接：—
-> 采集：2026-09-20T02:39:55+08:00　|　id：`d3ef807d09865d9e`
+> 采集：2026-09-21T01:29:31+08:00　|　id：`d3ef807d09865d9e`
 
 ## 正文
 

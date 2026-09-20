@@ -11,7 +11,7 @@ published_at: "2026-09-15T15:24:11Z"
 captured_at: "2026-09-20T09:38:23+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "未分类"
 shard: "2026-09-20"
 pub_day: "2026-09-15"
 tags:
@@ -459,5 +459,5 @@ Show HN: The bottom 50% of U.S. households are short after essentials (BLS data)
 
 - 项目页：[[10-项目/whats-left-over.pages.dev_bdd13b7b]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

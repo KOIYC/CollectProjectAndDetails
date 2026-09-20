@@ -8,7 +8,7 @@ url: "https://github.com/hiigorsilva/saas-finance-web"
 project_url: "https://github.com/hiigorsilva/saas-finance-web"
 author: "hiigorsilva"
 published_at: "2025-09-04T19:17:13Z"
-captured_at: "2026-09-21T00:06:02+08:00"
+captured_at: "2026-09-21T01:40:21+08:00"
 lang: "en"
 kind: "post"
 topic: "SaaS/B2B"
@@ -36,7 +36,7 @@ discovered_via: "github:14d"
 > 指标：stars=0 · forks=0 · open_issues=0
 > 作者：hiigorsilva　|　发布：2025-09-04T19:17:13Z
 > 项目链接：<https://github.com/hiigorsilva/saas-finance-web>
-> 采集：2026-09-21T00:06:02+08:00　|　id：`074d7c2acc36561f`
+> 采集：2026-09-21T01:40:21+08:00　|　id：`074d7c2acc36561f`
 
 ## 正文
 

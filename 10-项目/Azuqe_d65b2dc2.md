@@ -2,7 +2,7 @@
 type: "project"
 title: "Azuqe"
 project_url: "https://azuqe.com/"
-first_seen: "2026-09-20T09:51:13+08:00"
+first_seen: "2026-09-21T01:34:51+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://azuqe.com/>
-> 首次收录：2026-09-20T09:51:13+08:00
+> 首次收录：2026-09-21T01:34:51+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -37,6 +37,12 @@ lang: "en"
 | 2026-09-20T09:40:14+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-20/b6846318b88efe9f_Azuqe]] |
 | 2026-09-20T09:41:43+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-20/b6846318b88efe9f_Azuqe]] |
 | 2026-09-20T09:51:13+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-20/b6846318b88efe9f_Azuqe]] |
+| 2026-09-21T01:10:28+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-20/b6846318b88efe9f_Azuqe]] |
+| 2026-09-21T01:14:54+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-20/b6846318b88efe9f_Azuqe]] |
+| 2026-09-21T01:28:49+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-20/b6846318b88efe9f_Azuqe]] |
+| 2026-09-21T01:30:48+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-20/b6846318b88efe9f_Azuqe]] |
+| 2026-09-21T01:32:36+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-20/b6846318b88efe9f_Azuqe]] |
+| 2026-09-21T01:34:51+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-20/b6846318b88efe9f_Azuqe]] |
 
 ## 摘要正文
 

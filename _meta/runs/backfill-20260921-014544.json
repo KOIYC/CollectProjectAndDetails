@@ -1,0 +1,15 @@
+{
+ "run_id": "backfill-20260921-014544",
+ "kind": "backfill",
+ "queue": 540,
+ "attempted": 6,
+ "filled": 0,
+ "structural_dead": 0,
+ "missed": 6,
+ "comments_queue": 128,
+ "comments_filled": 6,
+ "via": [],
+ "channels": [],
+ "started": "2026-09-21T01:46:05+08:00",
+ "elapsed_s": 0
+}

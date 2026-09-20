@@ -5,7 +5,7 @@ title: "Storybrick"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/storybrick"
-captured_at: "2026-09-20T09:51:13+08:00"
+captured_at: "2026-09-21T01:34:51+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-20T09:51:13+08:00　|　id：`5fb339237a4e8c40`
+> 采集：2026-09-21T01:34:51+08:00　|　id：`5fb339237a4e8c40`
 
 ## 正文
 

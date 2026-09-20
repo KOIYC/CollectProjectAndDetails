@@ -1,49 +1,53 @@
 {
-  "generated": "2026-09-21T00:39:26+08:00",
-  "n_live": 707,
-  "n_usable": 620,
-  "n_project": 555,
-  "signals": 19,
+  "generated": "2026-09-21T02:15:03+08:00",
+  "n_live": 1515,
+  "n_usable": 777,
+  "n_project": 646,
+  "signals": 40,
   "topics": [
     [
       "AI 工具/Agent",
-      368
+      441
     ],
     [
       "开发者工具",
-      152
+      195
     ],
     [
       "未分类",
-      53
+      73
     ],
     [
       "游戏",
-      16
+      22
     ],
     [
       "移动 App",
-      10
-    ],
-    [
-      "内容/媒体",
-      8
+      16
     ],
     [
       "SaaS/B2B",
-      5
+      9
+    ],
+    [
+      "内容/媒体",
+      9
     ],
     [
       "教育/学习",
-      4
+      6
     ],
     [
       "电商/独立站",
-      2
+      3
     ],
     [
       "健康/生活",
       2
+    ],
+    [
+      "浏览器扩展",
+      1
     ]
   ],
   "strong": [
@@ -51,15 +55,16 @@
       "key": "host:store.steampowered.com",
       "channels": [
         "exa_discovery",
-        "hn_show"
+        "hn_show",
+        "reddit"
       ],
-      "n_channels": 2,
-      "title": "Show HN: Smart Crosshair – A lightweight C++/Win32 adaptive contrast crosshair",
-      "url": "https://store.steampowered.com/app/5012860/Smart_Crosshair",
+      "n_channels": 3,
+      "title": "10 Months, 24K Wishlists, and then we got an email from Telltale (Part IV of our gamedev journey)",
+      "url": "https://store.steampowered.com/app/3564990/Vales\\_Echo",
       "metrics": {
-        "points": 2,
-        "comments": 0,
-        "engagement_velocity": 2
+        "score": 12,
+        "comments": 8,
+        "upvote_ratio": 0.93
       }
     },
     {
@@ -76,9 +81,39 @@
         "comments": 0,
         "engagement_velocity": 2
       }
+    },
+    {
+      "key": "host:apps.apple.com",
+      "channels": [
+        "hn_show",
+        "reddit"
+      ],
+      "n_channels": 2,
+      "title": "Show HN: On-device meeting transcription for iPhone (no cloud, no account)",
+      "url": "https://apps.apple.com/us/app/fieldnoter-transcription/id6789909820",
+      "metrics": {
+        "points": 2,
+        "comments": 0,
+        "engagement_velocity": 2
+      }
+    },
+    {
+      "key": "host:play.google.com",
+      "channels": [
+        "indiehackers",
+        "reddit"
+      ],
+      "n_channels": 2,
+      "title": "How I went from a Word document to my own local-first password manager for Android",
+      "url": "https://play.google.com/store/apps/details?id=com.nick.applab.silentsaver",
+      "metrics": {
+        "score": 3,
+        "comments": 3,
+        "upvote_ratio": 1
+      }
     }
   ],
-  "money_n": 286,
+  "money_n": 326,
   "money_quotes": [
     {
       "source": "betalist",
@@ -103,18 +138,6 @@
       "title": "Rival Radar",
       "url": "https://betalist.com/startups/rival-radar",
       "quote": "Rival Radar. Rival Radar: Track competitors’ pricing, features, and | BetaList ## Track competitors’ pricing, features, and messaging with AI"
-    },
-    {
-      "source": "betalist",
-      "title": "Clickydots",
-      "url": "https://betalist.com/startups/clickydots",
-      "quote": "any in the middle. No telemetry, works offline. One-time purchase, no subscription. Error fetching https://oppslist.com/: CRAWL_LIVECRAWL_TIMEOUT Error fetching https://li"
-    },
-    {
-      "source": "betalist",
-      "title": "Accszone",
-      "url": "https://betalist.com/startups/accszone",
-      "quote": ", VPN, VPS, gift cards, and SMS/OTP services, with instant delivery, warranty, and 24/7 support. Get real, high-quality aged and verified social media accounts pe"
     },
     {
       "source": "betalist",
@@ -151,34 +174,33 @@
       "title": "海外独立站上线 7 个月 我收获月度订阅5000$+",
       "url": "https://www.bilibili.com/video/BV1vQbr6SESY",
       "quote": "海外独立站上线 7 个月 我收获月度订阅5000$+. 海外独立站上线 7 个月 我收获月度订阅$5000+ 一开始源于一个简单的想法，vibecoding大概1周多时间 后来陆续迭代 当然收入还包含不少成本，整体也"
+    },
+    {
+      "source": "bilibili",
+      "title": "独立开发者不上班如何养活自己？收入如何？怎么接单？有什么要求？",
+      "url": "https://www.bilibili.com/video/BV1Tv411b7JZ",
+      "quote": "独立开发者不上班如何养活自己？收入如何？怎么接单？有什么要求？. 【自由职业实证】系列是一个记录我不上班并养活自己的探索系列视频，偶尔也会分享周围朋友自由职业的故事~往期视频均可在我的收藏夹【自由职业探索之路】查看"
+    },
+    {
+      "source": "bilibili",
+      "title": "我用AI把YouTube变成了一门全球生意｜一人公司出海实战经验分享",
+      "url": "https://www.bilibili.com/video/BV1sR3g6iEYd",
+      "quote": "战经验分享. 分享过去一年我开始钻研 YouTube 后，如何用AI搭建个人网站承接 YouTube 流量，通过网站展示和销售产品、获得美金收入；同时利用 AI 辅助选题、内容制作和剪辑，持续生产更多高质量和有爆款潜力的视频，形成“内容流量—网站承接—产品变现”的个人商业系统。"
     }
   ],
   "pain_n": {
-    "做不出来/卡住": 29,
-    "愿意付钱": 15,
-    "在找替代品": 22,
-    "当前方案不好用": 15
+    "做不出来/卡住": 36,
+    "愿意付钱": 18,
+    "在找替代品": 23,
+    "当前方案不好用": 22,
+    "想要而找不到": 1
   },
   "by_channel": [
     {
-      "id": "betalist",
-      "profile": "linkpost",
-      "n": 23,
-      "ok": 23,
-      "rate": 1.0
-    },
-    {
       "id": "devto",
       "profile": "discussion",
-      "n": 2,
-      "ok": 2,
-      "rate": 1.0
-    },
-    {
-      "id": "indiehackers",
-      "profile": "linkpost",
-      "n": 23,
-      "ok": 23,
+      "n": 5,
+      "ok": 5,
       "rate": 1.0
     },
     {
@@ -189,54 +211,75 @@
       "rate": 1.0
     },
     {
-      "id": "bilibili",
-      "profile": "metadata",
-      "n": 19,
-      "ok": 18,
-      "rate": 0.9473684210526315
+      "id": "xiaohongshu",
+      "profile": "discussion",
+      "n": 1,
+      "ok": 1,
+      "rate": 1.0
     },
     {
-      "id": "hn_show",
-      "profile": "discussion",
-      "n": 400,
-      "ok": 373,
-      "rate": 0.9325
+      "id": "bilibili",
+      "profile": "metadata",
+      "n": 40,
+      "ok": 38,
+      "rate": 0.95
     },
     {
       "id": "exa_discovery",
       "profile": "discover",
-      "n": 9,
-      "ok": 8,
-      "rate": 0.8888888888888888
+      "n": 15,
+      "ok": 11,
+      "rate": 0.7333333333333333
     },
     {
       "id": "v2ex",
       "profile": "discussion",
-      "n": 24,
-      "ok": 20,
-      "rate": 0.8333333333333334
+      "n": 30,
+      "ok": 22,
+      "rate": 0.7333333333333333
     },
     {
       "id": "github_new",
       "profile": "project",
-      "n": 57,
-      "ok": 40,
-      "rate": 0.7017543859649122
+      "n": 60,
+      "ok": 43,
+      "rate": 0.7166666666666667
+    },
+    {
+      "id": "indiehackers",
+      "profile": "linkpost",
+      "n": 36,
+      "ok": 23,
+      "rate": 0.6388888888888888
     },
     {
       "id": "reddit",
       "profile": "discussion",
-      "n": 94,
-      "ok": 60,
-      "rate": 0.6382978723404256
+      "n": 222,
+      "ok": 134,
+      "rate": 0.6036036036036037
+    },
+    {
+      "id": "hn_show",
+      "profile": "discussion",
+      "n": 1000,
+      "ok": 429,
+      "rate": 0.429
     },
     {
       "id": "c1c7",
       "profile": "project",
       "n": 7,
-      "ok": 4,
-      "rate": 0.5714285714285714
+      "ok": 3,
+      "rate": 0.42857142857142855
+    },
+    {
+      "id": "betalist",
+      "profile": "linkpost",
+      "n": 50,
+      "ok": 19,
+      "rate": 0.38
     }
   ],
-  "body_median": 2149.5
+  "body_median": 1516
 }

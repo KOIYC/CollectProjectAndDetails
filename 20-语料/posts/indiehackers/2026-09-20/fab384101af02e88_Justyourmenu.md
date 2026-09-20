@@ -5,7 +5,7 @@ title: "Justyourmenu"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/justyourmenu"
-captured_at: "2026-09-20T09:51:13+08:00"
+captured_at: "2026-09-21T01:34:51+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-20T09:51:13+08:00　|　id：`fab384101af02e88`
+> 采集：2026-09-21T01:34:51+08:00　|　id：`fab384101af02e88`
 
 ## 正文
 

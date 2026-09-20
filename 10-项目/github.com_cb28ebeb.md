@@ -2,7 +2,7 @@
 type: "project"
 title: "digistoremaster/automated-og-image-banner-generator"
 project_url: "https://github.com/digistoremaster/automated-og-image-banner-generator"
-first_seen: "2026-09-20T09:36:27+08:00"
+first_seen: "2026-09-21T01:40:20+08:00"
 sources:
   - github_new
 tags:
@@ -19,10 +19,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/digistoremaster/automated-og-image-banner-generator>
-> 首次收录：2026-09-20T09:36:27+08:00
+> 首次收录：2026-09-21T01:40:20+08:00
 > 来源渠道：GitHub 新星仓库
 > 标签：topic:indie-hacker
-> 最新指标：stars=29 · forks=0 · open_issues=0
+> 最新指标：stars=31 · forks=0 · open_issues=0
 
 ## 观测历史
 
@@ -30,6 +30,8 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-20T09:24:07+08:00 | GitHub 新星仓库 | stars=29 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/cb28ebebdcbcbe20_digistoremaster-automated-og-image-banner-generato]] |
 | 2026-09-20T09:36:27+08:00 | GitHub 新星仓库 | stars=29 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/cb28ebebdcbcbe20_digistoremaster-automated-og-image-banner-generato]] |
+| 2026-09-21T01:34:19+08:00 | GitHub 新星仓库 | stars=31 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/cb28ebebdcbcbe20_digistoremaster-automated-og-image-banner-generato]] |
+| 2026-09-21T01:40:20+08:00 | GitHub 新星仓库 | stars=31 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/cb28ebebdcbcbe20_digistoremaster-automated-og-image-banner-generato]] |
 
 ## 摘要正文
 

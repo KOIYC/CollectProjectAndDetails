@@ -6,7 +6,7 @@ source: "c1c7"
 source_name: "1c7 中文独立开发者名录"
 url: "http://sideidea.com/"
 project_url: "https://sideidea.com/"
-captured_at: "2026-09-20T09:52:31+08:00"
+captured_at: "2026-09-21T01:35:04+08:00"
 lang: "zh"
 kind: "project"
 topic: "开发者工具"
@@ -32,7 +32,7 @@ discovered_via: "1c7:readme"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://sideidea.com/>
-> 采集：2026-09-20T09:52:31+08:00　|　id：`064dbfefba9d513a`
+> 采集：2026-09-21T01:35:04+08:00　|　id：`064dbfefba9d513a`
 
 ## 正文
 
@@ -138,7 +138,11 @@ sideidea.com | 独立开发者&远程工作者盈利产品案例分享
 
 月收入 ￥22w
 
-# Wz6ulaatxia1fzouxzvoba
+Error fetching http://liqi.io/creators/: CRAWL_NOT_FOUND
+
+## 关联链接
+
+- http://liqi.io/creators/:
 
 ## 导航
 

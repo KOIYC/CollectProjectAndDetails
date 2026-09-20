@@ -11,7 +11,7 @@ published_at: "2026-09-15T17:29:35Z"
 captured_at: "2026-09-20T09:23:24+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "电商/独立站"
 shard: "2026-09-20"
 pub_day: "2026-09-15"
 tags:
@@ -40,5 +40,5 @@ discovered_via: "hn:show_hn:90d"
 
 - 项目页：[[10-项目/claude.ai_e00d3b65]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`电商/独立站`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

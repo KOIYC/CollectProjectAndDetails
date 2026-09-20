@@ -5,7 +5,7 @@ title: "Rival Radar"
 source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/rival-radar"
-captured_at: "2026-09-20T03:42:50+08:00"
+captured_at: "2026-09-21T01:34:59+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-20T03:42:50+08:00　|　id：`61b797d70c53bdab`
+> 采集：2026-09-21T01:34:59+08:00　|　id：`61b797d70c53bdab`
 
 ## 正文
 

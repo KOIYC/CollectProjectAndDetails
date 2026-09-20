@@ -10,7 +10,7 @@ published_at: "2026-09-17T01:32:04+08:00"
 captured_at: "2026-09-20T14:17:39+08:00"
 lang: "en"
 kind: "post"
-topic: 开发者工具
+topic: "游戏"
 shard: "2026-09-20"
 pub_day: "2026-09-17"
 tags:
@@ -230,5 +230,5 @@ THE PLANT SHOP is a indie cozy horror game where you will be playing as Silvia, 
 
 - 项目页：—（本条不是项目，按设计不建实体页）
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`游戏`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

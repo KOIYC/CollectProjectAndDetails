@@ -53,13 +53,13 @@
 | `kb_analyze.py` | 采集后 | **取数诊断**（按渠道 profile 判真缺口）→ 分析报告 + 回填队列 |
 | `kb_backfill.py` | 采集后 | 回填粘性缺口（正文+评论）+ 死信账本；`--report` 出回填队列 |
 | `kb_content_audit.py` | 采集后 | **内容审计**（相关性/完整性/重复）—— 与取数诊断**正交** |
-| `kb_prune.py` | 规则变更后/每周 | 存量重判归档（undo 清单）；`--liveness`；`--archive-entities` |
+| `kb_prune.py` | 规则变更后/每周 | 存量重判归档（undo 清单）；`--liveness`；`--archive-entities`；`--dedupe-archive`（冻结区同条目多份去重）/ `--prune-empty-dirs`（清空日期桶壳），二者均幂等、带 `--undo-dedupe` |
 | `kb_reclassify.py` | 按需 | 实体订正 / 孤儿页合并 / frontmatter 自愈 / 补 project_url |
 | `kb_insight.py` | 每周/大增时 | 洞察报告；`--browse` 重生成入口页（首屏=意图路由） |
 | `kb_moc.py` | 结构变更后/每周 | 三张 MOC：项目地图 / 归档与申诉 / 报告总览 |
 | `kb_navfix.py` | 结构变更后/按需 | 补 topic/shard/pub_day/导航段；`--fix-links`；`--fix-names`（均幂等） |
 | `kb_name_audit.py` | 命名改动后/每周 | 命名与框架审计（只读），要求**全部通过** |
-| `kb_healthcheck.py` | 任何改动后 | **八项不变量**自检（①-⑤硬门 + ⑥⑦⑧软门），收工门 |
+| `kb_healthcheck.py` | 任何改动后 | **八项不变量**自检（①-⑤硬门 + ⑥⑦⑧软门），收工门；⑤ 含「磁盘 ↔ 账本」双向差集（孤儿页 / 幽灵账） |
 
 ## 3. 执行流程（runbook）
 
@@ -89,6 +89,7 @@ PY="C:/Users/yangcan/.workbuddy/binaries/python/versions/3.13.12/python.exe"
 "$PY" tools/kb_reclassify.py --merge-orphans
 "$PY" tools/kb_prune.py --liveness --apply  # 实体页存活标记
 "$PY" tools/kb_prune.py --archive-entities  # 先报告再 --apply（顺序：先 kb_moc 再搬，否则地图链接会拦下）
+"$PY" tools/kb_prune.py --dedupe-archive --prune-empty-dirs --apply   # 冻结区去重 + 清空目录壳（幂等）
 "$PY" tools/kb_insight.py --browse
 "$PY" tools/kb_moc.py
 "$PY" tools/kb_name_audit.py                # 必须全部通过；有违规走 --fix-names 流程

@@ -6,7 +6,7 @@ source: "c1c7"
 source_name: "1c7 中文独立开发者名录"
 url: "https://twitter.com/levelsio"
 author: "levelsio"
-captured_at: "2026-09-20T09:52:31+08:00"
+captured_at: "2026-09-21T01:35:04+08:00"
 lang: "zh"
 kind: "person"
 topic: "未分类"
@@ -32,7 +32,7 @@ discovered_via: "1c7:readme"
 > 指标：—
 > 作者：levelsio　|　发布：—
 > 项目链接：—
-> 采集：2026-09-20T09:52:31+08:00　|　id：`1f6c289cc51efc0b`
+> 采集：2026-09-21T01:35:04+08:00　|　id：`1f6c289cc51efc0b`
 
 ## 正文
 

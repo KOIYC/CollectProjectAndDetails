@@ -11,7 +11,7 @@ published_at: "2026-09-17T12:57:09Z"
 captured_at: "2026-09-20T09:38:11+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "开发者工具"
 shard: "2026-09-20"
 pub_day: "2026-09-17"
 tags:
@@ -361,5 +361,5 @@ Spin up a room in under a minute. No install, no credit card. Invite your team, 
 
 - 项目页：[[10-项目/flat.social_9112bde1]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

@@ -30,10 +30,12 @@ lang: "en"
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
+| 2026-09-20T09:23:24+08:00 | HN Show HN | 点赞=19 · 评论=7 · engagement_velocity=19 | [[20-语料/posts/hn_show/2026-09-20/9909507e246ebec7_Show-HN-Free-game-to-destroy-any-web-page]] |
 | 2026-09-20T09:23:24+08:00 | HN Show HN | 点赞=3 · 评论=0 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-20/fd5a52ea36d67795_Show-HN-A-game-where-the-level-is-whatever-web-pag]] |
 | 2026-09-20T09:36:45+08:00 | HN Show HN | 点赞=19 · 评论=7 · engagement_velocity=19 | [[20-语料/posts/hn_show/2026-09-20/9909507e246ebec7_Show-HN-Free-game-to-destroy-any-web-page]] |
 | 2026-09-20T09:36:58+08:00 | HN Show HN | 点赞=3 · 评论=0 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-20/fd5a52ea36d67795_Show-HN-A-game-where-the-level-is-whatever-web-pag]] |
 | 2026-09-20T14:02:49+08:00 | HN Show HN | 点赞=19 · 评论=7 · engagement_velocity=19 | [[20-语料/posts/hn_show/2026-09-20/9909507e246ebec7_Show-HN-Free-game-to-destroy-any-web-page]] |
+| 2026-09-20T14:57:50+08:00 | HN Show HN | 点赞=19 · 评论=7 · engagement_velocity=19 | [[20-语料/posts/hn_show/2026-09-20/9909507e246ebec7_Show-HN-Free-game-to-destroy-any-web-page]] |
 | 2026-09-20T14:57:50+08:00 | HN Show HN | 点赞=3 · 评论=0 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-20/fd5a52ea36d67795_Show-HN-A-game-where-the-level-is-whatever-web-pag]] |
 
 ## 摘要正文

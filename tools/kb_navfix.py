@@ -47,7 +47,7 @@ from kb_common import (META, ROOT, Seen, fm_scalars, iso, norm_url, now_cst,  # 
                        rotate_files, set_fm_scalar, sha1, slugify, split_note, topic_of,
                        _BAD)
 from kb_collect import (corpus_note_path, method_note_path, nav_block,  # noqa: E402
-                        person_note_path, project_note_path)
+                        person_note_path, project_note_path, write_entity_note)
 from kb_content_audit import load_latest                               # noqa: E402
 
 NAV_HEAD = "\n## 导航\n"
@@ -430,6 +430,92 @@ def undo_names(man_path: str) -> int:
     return n
 
 
+def fix_note_paths(apply: bool) -> int:
+    """以**磁盘为准**订正 `seen.note` —— 修「账本与磁盘脱节」（healthcheck ⑤ 的孤儿/幽灵）。
+
+    为什么以磁盘为准而不是反过来：语料页是给人看的最终产物，账本只是索引。
+    写页成功但账本没跟上（实测：写盘被 AV/占用打断、`os.replace` 抛 WinError 5），
+    或跨零点日期桶漂移，都会留下「页在盘上、账上没有」的孤儿 —— 它不进审计、
+    不进洞察、项目页的观测历史指向打不开的路径。改账本比删页安全且可回退。
+
+    不动的类型（只报不改）：
+      · 账本指向 `80-归档/` 而磁盘另有在库页 —— 说明同一条既归档又在库，是归档搬运
+        残件，得先清 `kb_prune --dedupe-archive`，不能靠改账本掩盖；
+      · 磁盘有页但账本**没有该 item** —— 从未入库的野页，需人工确认来源。
+    """
+    seen = Seen()
+    disk: dict[str, str] = {}
+    for p in (ROOT / "20-语料").rglob("*.md"):
+        txt = p.read_text(encoding="utf-8")
+        iid = None
+        for ln in txt.splitlines()[:40]:
+            m = re.match(r"^item_id:\s*(.+?)\s*$", ln)
+            if m:
+                iid = m.group(1).strip().strip('"')
+                break
+        if iid:
+            disk[iid] = p.relative_to(ROOT).as_posix()
+
+    # 账本无此 item 分两种，处理完全不同：
+    #   · raw 里有最新记录 → 页是**真货**，只是记账那一步被打断（实测写盘抛 WinError 5）。
+    #     补一条账本记录即可（`Seen.touch`），页原地保留；
+    #   · raw 里也没有 → 磁盘上的野页，留在 20-语料 会永久顶着 ① 计数且无任何观测史，隔离。
+    live = {r["item_id"]: r for r in load_latest(live_only=False) if r.get("item_id")}
+    fixes, archived, recover, wild = [], [], [], []
+    for iid, rel in sorted(disk.items()):
+        rec = seen.items.get(iid)
+        if rec is None:
+            (recover if iid in live else wild).append((iid, rel))
+            continue
+        cur = str(rec.get("note") or "")
+        if cur == rel:
+            continue
+        if cur.startswith("80-归档/"):
+            archived.append((iid, cur, rel))
+            continue
+        fixes.append((iid, cur, rel))
+
+    print(f"账本待订正 {len(fixes)} 条 · 已归档却另有在库页 {len(archived)} 条 · "
+          f"raw 有记录可补账 {len(recover)} 条 · 野页 {len(wild)} 条")
+    for iid, cur, rel in fixes[:10]:
+        print(f"    {iid}: 账={cur or '(空)'}  →  盘={rel}")
+    for iid, cur, rel in archived[:5]:
+        print(f"    [!] {iid} 归档页与在库页并存（先跑 kb_prune --dedupe-archive）：{cur} / {rel}")
+    for iid, rel in recover[:5]:
+        print(f"    {iid} 页在盘上但账本漏记（写盘被打断）→ 补账 {rel}")
+    for iid, rel in wild[:5]:
+        print(f"    [!] {iid} raw 也无记录（野页）：{rel}")
+    if not apply:
+        print("  （只报告；不带 --dry 才落盘）")
+        return len(fixes) + len(recover)
+    for iid, _cur, rel in fixes:
+        seen.items[iid]["note"] = rel
+    for iid, rel in recover:
+        r = live[iid]
+        seen.touch(iid, r["source_id"], rel, None)
+        try:
+            write_entity_note(r, rel)          # 顺带补实体页与观测历史（② 缺页常一起出现）
+        except Exception as e:                 # noqa: BLE001
+            print(f"    [!] 实体页重建失败 {iid}: {str(e)[:60]}")
+    seen.save()
+    print(f"  已订正 {len(fixes)} 条 · 补账 {len(recover)} 条")
+
+    if wild:
+        ts = now_cst().strftime("%Y%m%dT%H%M%S")
+        n = 0
+        for iid, rel in wild:
+            src = ROOT / rel
+            dst = ROOT / "80-归档" / "野页" / ts / rel[len("20-语料/"):]
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            try:
+                src.replace(dst)
+                n += 1
+            except OSError as e:
+                print(f"    [!] 移不动 {rel}: {str(e)[:60]}")
+        print(f"  已隔离野页 {n} 个 → 80-归档/野页/{ts}/（raw 无记录，不参与统计）")
+    return len(fixes) + len(recover)
+
+
 # ---------------------------------------------------------------- cli
 
 def main() -> int:
@@ -444,7 +530,13 @@ def main() -> int:
     ap.add_argument("--fix-names", action="store_true",
                     help="清掉文件名里的 wikilink 语法字符 [ ] # ^（同步 seen.json）")
     ap.add_argument("--undo-names", default="", help="按 manifest 把文件名改回")
+    ap.add_argument("--fix-note-paths", action="store_true",
+                    help="以磁盘实际路径为准订正 seen.json 的 note（修孤儿页/幽灵账），幂等")
     a = ap.parse_args()
+
+    if a.fix_note_paths:
+        fix_note_paths(apply=not a.dry)
+        return 0
 
     if a.undo_names:
         n = undo_names(a.undo_names)

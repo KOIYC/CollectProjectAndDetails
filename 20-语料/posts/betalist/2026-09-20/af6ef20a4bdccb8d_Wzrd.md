@@ -5,7 +5,7 @@ title: "Wzrd"
 source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/wzrd"
-captured_at: "2026-09-20T09:51:55+08:00"
+captured_at: "2026-09-21T01:28:59+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-20T09:51:55+08:00　|　id：`af6ef20a4bdccb8d`
+> 采集：2026-09-21T01:28:59+08:00　|　id：`af6ef20a4bdccb8d`
 
 ## 正文
 

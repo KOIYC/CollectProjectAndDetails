@@ -1,31 +1,32 @@
 {
- "generated": "2026-09-21T00:46:50+08:00",
+ "generated": "2026-09-21T02:14:11+08:00",
  "scope": "all",
- "n": 707,
- "clean": 622,
- "unusable": 42,
- "irrelevant": 51,
+ "n": 1515,
+ "clean": 779,
+ "unusable": 659,
+ "irrelevant": 104,
  "flags": {
-  "无指标": 111,
-  "无项目链接": 104,
-  "HTML未清理": 67,
-  "缺作者": 59,
-  "缺发布时间": 53,
-  "视频无正文": 39,
-  "无项目信号": 38,
-  "正文过短(<200)": 30,
-  "空正文": 20,
-  "资源清单/名录": 16,
+  "空正文": 541,
+  "无项目链接": 242,
+  "无指标": 158,
+  "正文过短(<200)": 136,
+  "缺作者": 106,
+  "缺发布时间": 94,
+  "无项目信号": 85,
+  "视频无正文": 77,
+  "HTML未清理": 68,
+  "资源清单/名录": 22,
   "Exa截断": 14,
-  "RSS摘要/残文": 7,
-  "泛媒体主题": 2,
-  "大厂产品": 1
+  "RSS摘要/残文": 12,
+  "发布时间未规范化": 4,
+  "泛媒体主题": 3,
+  "大厂产品": 2
  },
  "body_len": {
-  "median": 1845,
-  "mean": 4719,
-  "zero": 20,
-  "lt200": 50
+  "median": 315,
+  "mean": 2372,
+  "zero": 541,
+  "lt200": 677
  },
  "captured_days": [
   "2026-09-20",
@@ -33,26 +34,26 @@
  ],
  "by_channel": {
   "betalist": {
-   "n": 23,
-   "ok": 23,
-   "unusable": 0,
+   "n": 50,
+   "ok": 19,
+   "unusable": 31,
    "irrelevant": 0,
    "resource": 0,
    "big": 0,
    "summary": 0,
    "trunc": 0,
    "html": 0,
-   "no_pub": 23,
-   "no_author": 23,
-   "no_metrics": 23,
-   "body0": 0
+   "no_pub": 50,
+   "no_author": 50,
+   "no_metrics": 50,
+   "body0": 31
   },
   "bilibili": {
-   "n": 19,
-   "ok": 18,
+   "n": 40,
+   "ok": 38,
    "unusable": 0,
-   "irrelevant": 1,
-   "resource": 1,
+   "irrelevant": 2,
+   "resource": 2,
    "big": 0,
    "summary": 0,
    "trunc": 0,
@@ -60,13 +61,13 @@
    "no_pub": 0,
    "no_author": 0,
    "no_metrics": 0,
-   "body0": 2
+   "body0": 5
   },
   "c1c7": {
    "n": 7,
-   "ok": 6,
+   "ok": 5,
    "unusable": 0,
-   "irrelevant": 1,
+   "irrelevant": 2,
    "resource": 0,
    "big": 0,
    "summary": 0,
@@ -78,8 +79,8 @@
    "body0": 1
   },
   "devto": {
-   "n": 2,
-   "ok": 2,
+   "n": 5,
+   "ok": 5,
    "unusable": 0,
    "irrelevant": 0,
    "resource": 0,
@@ -93,64 +94,64 @@
    "body0": 0
   },
   "exa_discovery": {
-   "n": 9,
-   "ok": 8,
+   "n": 15,
+   "ok": 11,
    "unusable": 0,
-   "irrelevant": 1,
-   "resource": 1,
+   "irrelevant": 4,
+   "resource": 4,
    "big": 0,
    "summary": 0,
    "trunc": 0,
    "html": 0,
-   "no_pub": 0,
-   "no_author": 9,
-   "no_metrics": 9,
+   "no_pub": 4,
+   "no_author": 15,
+   "no_metrics": 15,
    "body0": 0
   },
   "github_new": {
-   "n": 57,
-   "ok": 40,
+   "n": 60,
+   "ok": 43,
    "unusable": 6,
    "irrelevant": 13,
    "resource": 8,
    "big": 0,
    "summary": 2,
    "trunc": 0,
-   "html": 16,
+   "html": 17,
    "no_pub": 0,
    "no_author": 0,
    "no_metrics": 0,
    "body0": 0
   },
   "hn_show": {
-   "n": 400,
-   "ok": 373,
-   "unusable": 27,
+   "n": 1000,
+   "ok": 429,
+   "unusable": 571,
    "irrelevant": 0,
    "resource": 0,
    "big": 0,
-   "summary": 3,
+   "summary": 8,
    "trunc": 12,
    "html": 2,
    "no_pub": 0,
    "no_author": 0,
    "no_metrics": 0,
-   "body0": 15
+   "body0": 476
   },
   "indiehackers": {
-   "n": 23,
+   "n": 36,
    "ok": 23,
-   "unusable": 0,
+   "unusable": 13,
    "irrelevant": 0,
    "resource": 0,
    "big": 0,
    "summary": 0,
    "trunc": 2,
    "html": 0,
-   "no_pub": 23,
-   "no_author": 23,
-   "no_metrics": 23,
-   "body0": 0
+   "no_pub": 36,
+   "no_author": 36,
+   "no_metrics": 36,
+   "body0": 13
   },
   "producthunt": {
    "n": 49,
@@ -168,24 +169,24 @@
    "body0": 0
   },
   "reddit": {
-   "n": 94,
-   "ok": 60,
-   "unusable": 9,
-   "irrelevant": 31,
-   "resource": 3,
-   "big": 1,
+   "n": 222,
+   "ok": 134,
+   "unusable": 34,
+   "irrelevant": 79,
+   "resource": 5,
+   "big": 2,
    "summary": 2,
    "trunc": 0,
    "html": 0,
    "no_pub": 0,
    "no_author": 0,
    "no_metrics": 0,
-   "body0": 2
+   "body0": 15
   },
   "v2ex": {
-   "n": 24,
-   "ok": 20,
-   "unusable": 0,
+   "n": 30,
+   "ok": 22,
+   "unusable": 4,
    "irrelevant": 4,
    "resource": 3,
    "big": 0,
@@ -196,7 +197,31 @@
    "no_author": 0,
    "no_metrics": 0,
    "body0": 0
+  },
+  "xiaohongshu": {
+   "n": 1,
+   "ok": 1,
+   "unusable": 0,
+   "irrelevant": 0,
+   "resource": 0,
+   "big": 0,
+   "summary": 0,
+   "trunc": 0,
+   "html": 0,
+   "no_pub": 1,
+   "no_author": 1,
+   "no_metrics": 1,
+   "body0": 0
   }
  },
- "cross_channel_dupes": []
+ "cross_channel_dupes": [
+  [
+   "play.google.com/store/apps/details",
+   [
+    "hn_show",
+    "indiehackers",
+    "reddit"
+   ]
+  ]
+ ]
 }

@@ -10,7 +10,7 @@ published_at: "2026-09-16T16:38:52+08:00"
 captured_at: "2026-09-20T14:14:50+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "开发者工具"
 shard: "2026-09-20"
 pub_day: "2026-09-16"
 tags:
@@ -73,5 +73,5 @@ For those who've been here longer, when did you finally rebuild the scrappy vers
 
 - 项目页：—（本条不是项目，按设计不建实体页）
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49712276"
 project_url: "https://github.com/ordewell/ordewell"
 author: "ac-ciano"
 published_at: "2026-09-15T13:31:37Z"
-captured_at: "2026-09-21T00:06:18+08:00"
+captured_at: "2026-09-21T01:46:05+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=54 · 评论=34 · engagement_velocity=54
 > 作者：ac-ciano　|　发布：2026-09-15T13:31:37Z
 > 项目链接：<https://github.com/ordewell/ordewell>
-> 采集：2026-09-21T00:06:18+08:00　|　id：`47c6b23ea2c1601d`
+> 采集：2026-09-21T01:46:05+08:00　|　id：`47c6b23ea2c1601d`
 
 ## 正文
 

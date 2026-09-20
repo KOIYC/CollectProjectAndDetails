@@ -2,7 +2,7 @@
 type: "project"
 title: "Mooring"
 project_url: "https://mooring.email/"
-first_seen: "2026-09-20T09:51:13+08:00"
+first_seen: "2026-09-21T01:34:51+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://mooring.email/>
-> 首次收录：2026-09-20T09:51:13+08:00
+> 首次收录：2026-09-21T01:34:51+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -28,6 +28,12 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-20T09:51:13+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-20/977b7d8b341f11d8_Mooring]] |
+| 2026-09-21T01:10:28+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-20/977b7d8b341f11d8_Mooring]] |
+| 2026-09-21T01:14:54+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-20/977b7d8b341f11d8_Mooring]] |
+| 2026-09-21T01:28:49+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-20/977b7d8b341f11d8_Mooring]] |
+| 2026-09-21T01:30:48+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-20/977b7d8b341f11d8_Mooring]] |
+| 2026-09-21T01:32:36+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-20/977b7d8b341f11d8_Mooring]] |
+| 2026-09-21T01:34:51+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-20/977b7d8b341f11d8_Mooring]] |
 
 ## 摘要正文
 

@@ -5,7 +5,7 @@ title: "Ninjaclip"
 source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/ninjaclip"
-captured_at: "2026-09-20T09:51:55+08:00"
+captured_at: "2026-09-21T01:34:59+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-20T09:51:55+08:00　|　id：`8f085e1418c778b2`
+> 采集：2026-09-21T01:34:59+08:00　|　id：`8f085e1418c778b2`
 
 ## 正文
 

@@ -2,7 +2,7 @@
 type: "project"
 title: "yynxxxxx/gpt_sub_analysis"
 project_url: "https://github.com/yynxxxxx/gpt_sub_analysis"
-first_seen: "2026-09-21T00:06:02+08:00"
+first_seen: "2026-09-21T01:40:20+08:00"
 sources:
   - github_new
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/yynxxxxx/gpt_sub_analysis>
-> 首次收录：2026-09-21T00:06:02+08:00
+> 首次收录：2026-09-21T01:40:20+08:00
 > 来源渠道：GitHub 新星仓库
 > 标签：created:>2026-09-06
 > 最新指标：stars=542 · forks=294 · open_issues=11
@@ -34,6 +34,7 @@ lang: "en"
 | 2026-09-20T14:57:50+08:00 | GitHub 新星仓库 | stars=542 · forks=294 · open_issues=11 | [[20-语料/posts/github_new/2026-09-21/b33e7210a9edc89b_yynxxxxx-gpt_sub_analysis]] |
 | 2026-09-21T00:03:44+08:00 | GitHub 新星仓库 | stars=542 · forks=294 · open_issues=11 | [[20-语料/posts/github_new/2026-09-21/b33e7210a9edc89b_yynxxxxx-gpt_sub_analysis]] |
 | 2026-09-21T00:06:02+08:00 | GitHub 新星仓库 | stars=542 · forks=294 · open_issues=11 | [[20-语料/posts/github_new/2026-09-21/b33e7210a9edc89b_yynxxxxx-gpt_sub_analysis]] |
+| 2026-09-21T01:40:20+08:00 | GitHub 新星仓库 | stars=542 · forks=294 · open_issues=11 | [[20-语料/posts/github_new/2026-09-21/b33e7210a9edc89b_yynxxxxx-gpt_sub_analysis]] |
 
 ## 摘要正文
 

@@ -3,7 +3,7 @@ type: "person"
 title: "Courtland Allen (@csallen)"
 handle: "csallen"
 profile_url: "https://twitter.com/csallen"
-first_seen: "2026-09-20T09:52:31+08:00"
+first_seen: "2026-09-21T01:35:04+08:00"
 sources:
   - c1c7
 tags:
@@ -18,7 +18,7 @@ lang: "zh"
 > [!meta]- 人物信息（点开展开）
 > 主页：<https://twitter.com/csallen>
 > handle：csallen
-> 首次收录：2026-09-20T09:52:31+08:00
+> 首次收录：2026-09-21T01:35:04+08:00
 > 来源渠道：1c7 中文独立开发者名录
 > 所属分区：值得关注的 Twitter 账号
 > 标签：值得关注的 Twitter 账号
@@ -35,6 +35,12 @@ lang: "zh"
 | 2026-09-20T03:34:39+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/c64307ad404fe1f3_Courtland-Allen-(@csallen)]] |
 | 2026-09-20T03:43:11+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/c64307ad404fe1f3_Courtland-Allen-(@csallen)]] |
 | 2026-09-20T09:52:31+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/c64307ad404fe1f3_Courtland-Allen-(@csallen)]] |
+| 2026-09-21T01:11:13+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/c64307ad404fe1f3_Courtland-Allen-(@csallen)]] |
+| 2026-09-21T01:15:08+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/c64307ad404fe1f3_Courtland-Allen-(@csallen)]] |
+| 2026-09-21T01:29:05+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/c64307ad404fe1f3_Courtland-Allen-(@csallen)]] |
+| 2026-09-21T01:31:03+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/c64307ad404fe1f3_Courtland-Allen-(@csallen)]] |
+| 2026-09-21T01:32:48+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/c64307ad404fe1f3_Courtland-Allen-(@csallen)]] |
+| 2026-09-21T01:35:04+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/c64307ad404fe1f3_Courtland-Allen-(@csallen)]] |
 
 ## 摘要正文
 

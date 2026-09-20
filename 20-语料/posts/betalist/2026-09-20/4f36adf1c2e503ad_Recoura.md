@@ -5,7 +5,7 @@ title: "Recoura"
 source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/recoura"
-captured_at: "2026-09-20T03:34:08+08:00"
+captured_at: "2026-09-21T01:32:43+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-20T03:34:08+08:00　|　id：`4f36adf1c2e503ad`
+> 采集：2026-09-21T01:32:43+08:00　|　id：`4f36adf1c2e503ad`
 
 ## 正文
 

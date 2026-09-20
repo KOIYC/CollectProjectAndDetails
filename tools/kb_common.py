@@ -390,6 +390,15 @@ def exa_fetch_texts(urls: list[str], max_chars=8000, timeout=180) -> dict[str, s
         # 注意：批内任一 URL 抓取失败时 mcporter 会返回非 0，但成功的 URL 仍在 stdout。
         # 所以这里不因返回码丢弃输出（2026-09-20 实测 PH 抓取失败、IH 成功同批出现）。
         if not out.strip():
+            # 后端整体失败 ≠「这条没有正文」，必须响亮报出来。否则调用方只看到 {} →
+            # 当成无正文静默跳过：2026-09-21 实测 Exa 免费额度打满返 429，backfill
+            # 12 批全 0/12，而报告只显示「回填 8/150」，看不出是后端挂了。
+            low = (_err or "").lower()
+            hint = ("【Exa 免费额度已打满（429）】本轮正文补全全部无效 —— 需自备 API key 或等限流重置"
+                    if ("429" in low or "rate limit" in low) else
+                    "exa web_fetch 空返回（后端不可用？）")
+            tail = (_err or "").strip().splitlines()
+            print(f"[!] {hint}（code={code}）" + (f"：{tail[-1][:160]}" if tail else ""), flush=True)
             continue
         parts = re.split(r"(?m)^URL:\s*(\S+)\s*$", out)
         for j in range(1, len(parts) - 1, 2):

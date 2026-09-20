@@ -11,7 +11,7 @@ published_at: "2026-09-17T00:03:47+08:00"
 captured_at: "2026-09-20T14:13:36+08:00"
 lang: "en"
 kind: "post"
-topic: 开发者工具
+topic: "未分类"
 shard: "2026-09-20"
 pub_day: "2026-09-17"
 tags:
@@ -67,5 +67,5 @@ Be honest: what would make a job-search tool worth your money?
 
 - 项目页：[[10-项目/usekaamly.com_1a758abb]]
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

@@ -1,0 +1,158 @@
+{
+ "run_id": "20260921T012720",
+ "started_at": "2026-09-21T01:27:20+08:00",
+ "ended_at": "2026-09-21T01:29:40+08:00",
+ "elapsed_s": 140.1,
+ "channels": [
+  {
+   "source_id": "hn_show",
+   "name": "HN Show HN",
+   "status": "ok",
+   "count": 120,
+   "message": "120/120 hits | new=120 chg=0",
+   "elapsed_s": 16.6,
+   "new": 120,
+   "changed": 0,
+   "raw": 120
+  },
+  {
+   "source_id": "github_new",
+   "name": "GitHub 新星仓库",
+   "status": "ok",
+   "count": 1,
+   "message": "88 repos;  | new=1 chg=0",
+   "elapsed_s": 12.0,
+   "new": 1,
+   "changed": 0,
+   "raw": 1
+  },
+  {
+   "source_id": "reddit",
+   "name": "Reddit 独立开发版块",
+   "status": "ok",
+   "count": 25,
+   "message": "25 posts;  | new=25 chg=0",
+   "elapsed_s": 19.5,
+   "new": 25,
+   "changed": 0,
+   "raw": 25
+  },
+  {
+   "source_id": "devto",
+   "name": "dev.to",
+   "status": "ok",
+   "count": 0,
+   "message": "12 articles | new=0 chg=0",
+   "elapsed_s": 2.7,
+   "new": 0,
+   "changed": 0,
+   "raw": 0
+  },
+  {
+   "source_id": "producthunt",
+   "name": "Product Hunt",
+   "status": "ok",
+   "count": 0,
+   "message": "50 entries | new=0 chg=0",
+   "elapsed_s": 35.9,
+   "new": 0,
+   "changed": 0,
+   "raw": 0
+  },
+  {
+   "source_id": "indiehackers",
+   "name": "Indie Hackers 产品库",
+   "status": "ok",
+   "count": 20,
+   "message": "20 products | 写盘 0/20 | new=0 chg=0",
+   "elapsed_s": 8.5,
+   "new": 0,
+   "changed": 0,
+   "raw": 20
+  },
+  {
+   "source_id": "betalist",
+   "name": "BetaList",
+   "status": "ok",
+   "count": 36,
+   "message": "36 startups | 写盘 1/36 | new=1 chg=0",
+   "elapsed_s": 3.2,
+   "new": 1,
+   "changed": 0,
+   "raw": 36
+  },
+  {
+   "source_id": "v2ex",
+   "name": "V2EX",
+   "status": "ok",
+   "count": 0,
+   "message": "83 topics | new=0 chg=0",
+   "elapsed_s": 3.2,
+   "new": 0,
+   "changed": 0,
+   "raw": 0
+  },
+  {
+   "source_id": "c1c7",
+   "name": "1c7 中文独立开发者名录",
+   "status": "ok",
+   "count": 7,
+   "message": "17 entries | 写盘 0/7 | new=0 chg=0",
+   "elapsed_s": 2.6,
+   "new": 0,
+   "changed": 0,
+   "raw": 7
+  },
+  {
+   "source_id": "bilibili",
+   "name": "B站",
+   "status": "ok",
+   "count": 2,
+   "message": "45 videos | new=0 chg=2",
+   "elapsed_s": 2.4,
+   "new": 0,
+   "changed": 2,
+   "raw": 2
+  },
+  {
+   "source_id": "xiaohongshu",
+   "name": "小红书",
+   "status": "ok",
+   "count": 1,
+   "message": "20 items | new=0 chg=1",
+   "elapsed_s": 10.4,
+   "new": 0,
+   "changed": 1,
+   "raw": 1
+  },
+  {
+   "source_id": "twitter",
+   "name": "X / Twitter",
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：(node:16248) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect th | new=0 chg=0",
+   "elapsed_s": 1.9,
+   "new": 0,
+   "changed": 0,
+   "raw": 0
+  },
+  {
+   "source_id": "exa_discovery",
+   "name": "Exa 全网语义发现",
+   "status": "ok",
+   "count": 7,
+   "message": "24 results | new=6 chg=1",
+   "elapsed_s": 20.7,
+   "new": 6,
+   "changed": 1,
+   "raw": 7
+  }
+ ],
+ "notes_written": 157,
+ "errors": [],
+ "total_items": 219,
+ "total_new": 153,
+ "dry": false,
+ "rule_dropped": 21,
+ "write_errors": 0
+}

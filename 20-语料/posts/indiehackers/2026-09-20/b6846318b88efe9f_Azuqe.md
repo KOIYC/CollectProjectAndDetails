@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/azuqe"
 project_url: "https://azuqe.com/"
-captured_at: "2026-09-20T09:51:13+08:00"
+captured_at: "2026-09-21T01:34:51+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://azuqe.com/>
-> 采集：2026-09-20T09:51:13+08:00　|　id：`b6846318b88efe9f`
+> 采集：2026-09-21T01:34:51+08:00　|　id：`b6846318b88efe9f`
 
 ## 正文
 
@@ -159,6 +159,8 @@ How are you currently managing your company's reach across all these different c
 And if you're already using multiple tools for this, what feels the most painful or fragmented today?
 
 Azuqe: https://azuqe.com/
+
+# Tradobiz - Indie Hackers
 
 ## 导航
 

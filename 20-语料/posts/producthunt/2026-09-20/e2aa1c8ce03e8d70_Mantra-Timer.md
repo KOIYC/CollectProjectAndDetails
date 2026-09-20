@@ -7,7 +7,7 @@ source_name: "Product Hunt"
 url: "https://www.producthunt.com/products/transcendence"
 author: "Brent Vardy"
 published_at: "2026-06-03T12:42:53-07:00"
-captured_at: "2026-09-20T09:51:10+08:00"
+captured_at: "2026-09-21T01:30:46+08:00"
 lang: "en"
 kind: "post"
 topic: "移动 App"
@@ -33,7 +33,7 @@ discovered_via: "producthunt"
 > 指标：—
 > 作者：Brent Vardy　|　发布：2026-06-03T12:42:53-07:00
 > 项目链接：—
-> 采集：2026-09-20T09:51:10+08:00　|　id：`e2aa1c8ce03e8d70`
+> 采集：2026-09-21T01:30:46+08:00　|　id：`e2aa1c8ce03e8d70`
 
 ## 正文
 

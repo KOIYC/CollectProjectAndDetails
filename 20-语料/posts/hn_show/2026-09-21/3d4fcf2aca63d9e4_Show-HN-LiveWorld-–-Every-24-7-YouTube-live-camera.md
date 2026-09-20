@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49762099"
 project_url: "https://liveworld.info/"
 author: "harisingh1612"
 published_at: "2026-09-19T00:30:34Z"
-captured_at: "2026-09-21T00:06:08+08:00"
+captured_at: "2026-09-21T01:45:54+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=39 · 评论=37 · engagement_velocity=39
 > 作者：harisingh1612　|　发布：2026-09-19T00:30:34Z
 > 项目链接：<https://liveworld.info/>
-> 采集：2026-09-21T00:06:08+08:00　|　id：`3d4fcf2aca63d9e4`
+> 采集：2026-09-21T01:45:54+08:00　|　id：`3d4fcf2aca63d9e4`
 
 ## 正文
 

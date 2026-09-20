@@ -10,7 +10,7 @@ published_at: "2026-09-17T02:37:09+08:00"
 captured_at: "2026-09-20T09:24:31+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "SaaS/B2B"
 shard: "2026-09-20"
 pub_day: "2026-09-17"
 tags:
@@ -46,5 +46,5 @@ But some student’s came but i don’t know why they don’t use frequently i w
 
 - 项目页：[[10-项目/I-built-the-saas-end-to-end-but-dont-know-about_69bf7092]]
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`SaaS/B2B`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

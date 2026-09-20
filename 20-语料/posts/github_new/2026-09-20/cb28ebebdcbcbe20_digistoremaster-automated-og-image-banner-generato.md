@@ -8,7 +8,7 @@ url: "https://github.com/digistoremaster/automated-og-image-banner-generator"
 project_url: "https://github.com/digistoremaster/automated-og-image-banner-generator"
 author: "digistoremaster"
 published_at: "2026-08-02T17:02:06Z"
-captured_at: "2026-09-20T09:36:27+08:00"
+captured_at: "2026-09-21T01:40:20+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,10 +18,10 @@ tags:
   - 语料
   - github_new
   - topic:indie-hacker
-metrics: {"stars": 29, "forks": 0, "open_issues": 0}
+metrics: {"stars": 31, "forks": 0, "open_issues": 0}
 comments_count: 0
 comments_total: 0
-discovered_via: "github:14d"
+discovered_via: "github:52d"
 ---
 
 # digistoremaster/automated-og-image-banner-generator
@@ -32,10 +32,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/digistoremaster/automated-og-image-banner-generator>
-> 指标：stars=29 · forks=0 · open_issues=0
+> 指标：stars=31 · forks=0 · open_issues=0
 > 作者：digistoremaster　|　发布：2026-08-02T17:02:06Z
 > 项目链接：<https://github.com/digistoremaster/automated-og-image-banner-generator>
-> 采集：2026-09-20T09:36:27+08:00　|　id：`cb28ebebdcbcbe20`
+> 采集：2026-09-21T01:40:20+08:00　|　id：`cb28ebebdcbcbe20`
 
 ## 正文
 

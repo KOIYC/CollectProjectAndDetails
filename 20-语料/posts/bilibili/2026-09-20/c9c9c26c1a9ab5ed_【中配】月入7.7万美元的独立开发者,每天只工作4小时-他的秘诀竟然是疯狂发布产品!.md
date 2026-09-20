@@ -7,10 +7,10 @@ source_name: "B站"
 url: "https://www.bilibili.com/video/BV1QVLp6dEMC"
 author: "EdgeAITech"
 published_at: "2026-05-21T06:31:00+08:00"
-captured_at: "2026-09-20T14:17:39+08:00"
+captured_at: "2026-09-21T01:36:49+08:00"
 lang: "zh"
 kind: "post"
-topic: 开发者工具
+topic: "未分类"
 shard: "2026-09-20"
 pub_day: "2026-05-21"
 tags:
@@ -22,7 +22,7 @@ tags:
   - 具身智能
   - 深度工作
   - 大模型
-metrics: {"play": 42269, "danmaku": 39, "favorites": 2465}
+metrics: {"play": 42298, "danmaku": 39, "favorites": 2467}
 comments_count: 0
 comments_total: 0
 discovered_via: "bili:独立开发者 出海"
@@ -36,10 +36,10 @@ discovered_via: "bili:独立开发者 出海"
 > [!meta]- 语料信息（点开展开）
 > 来源：B站（post）
 > 原帖：<https://www.bilibili.com/video/BV1QVLp6dEMC>
-> 指标：播放=42269 · 弹幕=39 · 收藏=2465
+> 指标：播放=42298 · 弹幕=39 · 收藏=2467
 > 作者：EdgeAITech　|　发布：2026-05-21T06:31:00+08:00
 > 项目链接：—
-> 采集：2026-09-20T14:17:39+08:00　|　id：`c9c9c26c1a9ab5ed`
+> 采集：2026-09-21T01:36:49+08:00　|　id：`c9c9c26c1a9ab5ed`
 
 ## 正文
 
@@ -57,5 +57,5 @@ Marc Lou 是一名月入 7.7 万美元的独立创业者，创办了 35 家初�
 
 - 项目页：—（本条不是项目，按设计不建实体页）
 - 渠道页：[[50-渠道/bilibili]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

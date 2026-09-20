@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/tradobiz-5"
 project_url: "https://tradobiz.com/"
-captured_at: "2026-09-20T09:51:13+08:00"
+captured_at: "2026-09-21T01:34:51+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://tradobiz.com/>
-> 采集：2026-09-20T09:51:13+08:00　|　id：`c82aaf4a2dacc56e`
+> 采集：2026-09-21T01:34:51+08:00　|　id：`c82aaf4a2dacc56e`
 
 ## 正文
 

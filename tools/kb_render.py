@@ -15,6 +15,7 @@
 from __future__ import annotations
 
 import argparse
+import re
 import sys
 import time
 from pathlib import Path
@@ -85,7 +86,12 @@ def main(argv=None) -> int:
             continue
         if not note.startswith("20-语料/"):
             continue                          # 只重渲染语料页（实体页由语料页带动重写）
-        todo.append((iid, r, note, corpus_day.get(iid) or note.split("/")[-2]))
+        # 分片日期必须取 **note 自己所在的桶**，不能用 `captured_at[:10]`：
+        # 跨零点采集时两者不同（note 落 09-20、captured_at 是 09-21）→ 按 captured_at
+        # 重算会得到新路径，本工具于是「新建」一份页，旧页原地不动 = 磁盘上同条两份，
+        # ① 计数当场破功（2026-09-21 实测 52 份）。纪律是原位重写，绝不新建。
+        todo.append((iid, r, note, note.split("/")[-2] if re.match(r"^\d{4}-\d{2}-\d{2}$", note.split("/")[-2])
+                     else (corpus_day.get(iid) or "")))
     todo.sort(key=lambda t: t[2])
     print(f"语料页待渲染：{len(todo)}" + ("（dry）" if args.dry else ""))
     if args.dry:
@@ -102,12 +108,15 @@ def main(argv=None) -> int:
         it.setdefault("item_id", iid)
         # 渲染函数期望 kind 等字段与采集时一致；raw 最新记录即该条目的完整字段
         try:
-            p = C.write_corpus_note(it, day)
-            rel = p.relative_to(ROOT).as_posix()
-            if rel != note:
-                print(f"  [!] 路径漂移：{note} -> {rel}（跳过，待 navfix）")
+            # 先算路径再写：算出来和账本不一致就**一个字节都不写**（旧的写法先写了再
+            # 判漂移，等于在库里留一份副本，然后把锅甩给「待 navfix」）。
+            want = C.corpus_note_path(it, day).relative_to(ROOT).as_posix()
+            if want != note:
+                print(f"  [!] 路径漂移：{note} -> {want}（未写盘，先跑 kb_navfix --fix-names）")
                 skipped += 1
                 continue
+            p = C.write_corpus_note(it, day)
+            rel = p.relative_to(ROOT).as_posix()
             if C.is_project_ish(it) or (it.get("kind") or "").lower() in ("person", "method"):
                 ep = C.write_entity_note(it, rel, touch_obs=False,
                                          obs_override=obs_override_by_entity.get(ent_of_item.get(iid)))

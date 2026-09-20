@@ -30,19 +30,19 @@ stale: true
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T02:35:53+08:00 | GitHub 新星仓库 | stars=5895 · forks=448 · open_issues=5 | [[20-语料/posts/github_new/2026-09-20/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
-| 2026-09-20T02:56:49+08:00 | GitHub 新星仓库 | stars=5901 · forks=448 · open_issues=5 | [[20-语料/posts/github_new/2026-09-20/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
-| 2026-09-20T03:05:39+08:00 | GitHub 新星仓库 | stars=5902 · forks=448 · open_issues=5 | [[20-语料/posts/github_new/2026-09-20/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
-| 2026-09-20T03:18:17+08:00 | GitHub 新星仓库 | stars=5903 · forks=447 · open_issues=5 | [[20-语料/posts/github_new/2026-09-20/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
-| 2026-09-20T03:30:04+08:00 | GitHub 新星仓库 | stars=5904 · forks=447 · open_issues=5 | [[20-语料/posts/github_new/2026-09-20/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
-| 2026-09-20T03:40:00+08:00 | GitHub 新星仓库 | stars=5905 · forks=447 · open_issues=5 | [[20-语料/posts/github_new/2026-09-20/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
-| 2026-09-20T09:16:35+08:00 | GitHub 新星仓库 | stars=5905 · forks=447 · open_issues=5 | [[20-语料/posts/github_new/2026-09-20/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
-| 2026-09-20T09:20:18+08:00 | GitHub 新星仓库 | stars=5905 · forks=447 · open_issues=5 | [[20-语料/posts/github_new/2026-09-20/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
-| 2026-09-20T09:36:26+08:00 | GitHub 新星仓库 | stars=5905 · forks=447 · open_issues=5 | [[20-语料/posts/github_new/2026-09-20/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
-| 2026-09-20T09:55:17+08:00 | GitHub 新星仓库 | stars=5905 · forks=447 · open_issues=5 | [[20-语料/posts/github_new/2026-09-20/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
-| 2026-09-20T14:57:50+08:00 | GitHub 新星仓库 | stars=5905 · forks=447 · open_issues=5 | [[20-语料/posts/github_new/2026-09-20/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
-| 2026-09-21T00:03:44+08:00 | GitHub 新星仓库 | stars=5905 · forks=447 · open_issues=5 | [[20-语料/posts/github_new/2026-09-20/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
-| 2026-09-21T00:06:02+08:00 | GitHub 新星仓库 | stars=5905 · forks=447 · open_issues=5 | [[20-语料/posts/github_new/2026-09-21/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
+| 2026-09-20T02:35:53+08:00 | GitHub 新星仓库 | stars=5895 · forks=448 · open_issues=5 | [[80-归档/posts/github_new/2026-09-21/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
+| 2026-09-20T02:56:49+08:00 | GitHub 新星仓库 | stars=5901 · forks=448 · open_issues=5 | [[80-归档/posts/github_new/2026-09-21/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
+| 2026-09-20T03:05:39+08:00 | GitHub 新星仓库 | stars=5902 · forks=448 · open_issues=5 | [[80-归档/posts/github_new/2026-09-21/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
+| 2026-09-20T03:18:17+08:00 | GitHub 新星仓库 | stars=5903 · forks=447 · open_issues=5 | [[80-归档/posts/github_new/2026-09-21/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
+| 2026-09-20T03:30:04+08:00 | GitHub 新星仓库 | stars=5904 · forks=447 · open_issues=5 | [[80-归档/posts/github_new/2026-09-21/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
+| 2026-09-20T03:40:00+08:00 | GitHub 新星仓库 | stars=5905 · forks=447 · open_issues=5 | [[80-归档/posts/github_new/2026-09-21/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
+| 2026-09-20T09:16:35+08:00 | GitHub 新星仓库 | stars=5905 · forks=447 · open_issues=5 | [[80-归档/posts/github_new/2026-09-21/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
+| 2026-09-20T09:20:18+08:00 | GitHub 新星仓库 | stars=5905 · forks=447 · open_issues=5 | [[80-归档/posts/github_new/2026-09-21/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
+| 2026-09-20T09:36:26+08:00 | GitHub 新星仓库 | stars=5905 · forks=447 · open_issues=5 | [[80-归档/posts/github_new/2026-09-21/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
+| 2026-09-20T09:55:17+08:00 | GitHub 新星仓库 | stars=5905 · forks=447 · open_issues=5 | [[80-归档/posts/github_new/2026-09-21/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
+| 2026-09-20T14:57:50+08:00 | GitHub 新星仓库 | stars=5905 · forks=447 · open_issues=5 | [[80-归档/posts/github_new/2026-09-21/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
+| 2026-09-21T00:03:44+08:00 | GitHub 新星仓库 | stars=5905 · forks=447 · open_issues=5 | [[80-归档/posts/github_new/2026-09-21/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
+| 2026-09-21T00:06:02+08:00 | GitHub 新星仓库 | stars=5905 · forks=447 · open_issues=5 | [[80-归档/posts/github_new/2026-09-21/cd2acb9852fafe73_eternity4719-HowToLiveBetter]] |
 
 ## 摘要正文
 

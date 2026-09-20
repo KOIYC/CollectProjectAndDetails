@@ -30,6 +30,7 @@ lang: "en"
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
+| 2026-09-20T09:23:24+08:00 | HN Show HN | 点赞=6 · 评论=2 · engagement_velocity=6 | [[20-语料/posts/hn_show/2026-09-20/092dbc4d08dc4db8_Show-HN-Hazzel-—-a-tiny,-transparent-coding-agent]] |
 | 2026-09-20T09:23:24+08:00 | HN Show HN | 点赞=6 · 评论=0 · engagement_velocity=6 | [[20-语料/posts/hn_show/2026-09-20/21e56b5a91a97f59_Show-HN-Hazzel-–-a-tiny-coding-agent,-Bring-your-o]] |
 | 2026-09-20T09:37:13+08:00 | HN Show HN | 点赞=6 · 评论=2 · engagement_velocity=6 | [[20-语料/posts/hn_show/2026-09-20/092dbc4d08dc4db8_Show-HN-Hazzel-—-a-tiny,-transparent-coding-agent]] |
 | 2026-09-20T09:37:33+08:00 | HN Show HN | 点赞=6 · 评论=0 · engagement_velocity=6 | [[20-语料/posts/hn_show/2026-09-20/21e56b5a91a97f59_Show-HN-Hazzel-–-a-tiny-coding-agent,-Bring-your-o]] |

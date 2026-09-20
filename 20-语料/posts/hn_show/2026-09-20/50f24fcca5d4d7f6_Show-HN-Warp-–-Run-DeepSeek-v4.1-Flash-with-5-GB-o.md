@@ -11,7 +11,7 @@ published_at: "2026-09-15T15:28:23Z"
 captured_at: "2026-09-20T14:06:09+08:00"
 lang: "en"
 kind: "post"
-topic: 开发者工具
+topic: "未分类"
 shard: "2026-09-20"
 pub_day: "2026-09-15"
 tags:
@@ -67,5 +67,5 @@ Show HN: Warp – Run DeepSeek v4.1 Flash with 5 GB of RAM at 3.77 tok/s
 
 - 项目页：[[10-项目/github.com_8d14c160]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

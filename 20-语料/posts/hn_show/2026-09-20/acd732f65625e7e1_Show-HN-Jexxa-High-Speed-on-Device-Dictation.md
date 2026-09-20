@@ -11,7 +11,7 @@ published_at: "2026-09-15T14:05:42Z"
 captured_at: "2026-09-20T14:06:24+08:00"
 lang: "en"
 kind: "post"
-topic: 开发者工具
+topic: "移动 App"
 shard: "2026-09-20"
 pub_day: "2026-09-15"
 tags:
@@ -198,5 +198,5 @@ Same app, same features. The difference is how much of your memory the model nee
 
 - 项目页：[[10-项目/jexxa.org_96b74dc4]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`移动 App`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

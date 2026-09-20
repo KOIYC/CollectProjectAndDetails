@@ -8,7 +8,7 @@ url: "https://github.com/yynxxxxx/gpt_sub_analysis"
 project_url: "https://github.com/yynxxxxx/gpt_sub_analysis"
 author: "yynxxxxx"
 published_at: "2026-09-17T13:43:00Z"
-captured_at: "2026-09-21T00:06:02+08:00"
+captured_at: "2026-09-21T01:40:20+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -35,7 +35,7 @@ discovered_via: "github:14d"
 > 指标：stars=542 · forks=294 · open_issues=11
 > 作者：yynxxxxx　|　发布：2026-09-17T13:43:00Z
 > 项目链接：<https://github.com/yynxxxxx/gpt_sub_analysis>
-> 采集：2026-09-21T00:06:02+08:00　|　id：`b33e7210a9edc89b`
+> 采集：2026-09-21T01:40:20+08:00　|　id：`b33e7210a9edc89b`
 
 ## 正文
 

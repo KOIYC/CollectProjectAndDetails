@@ -2,7 +2,7 @@
 type: "project"
 title: "digistoremaster/clickfunnels-alternative"
 project_url: "https://github.com/digistoremaster/clickfunnels-alternative"
-first_seen: "2026-09-20T09:36:28+08:00"
+first_seen: "2026-09-21T01:40:20+08:00"
 sources:
   - github_new
 tags:
@@ -19,10 +19,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/digistoremaster/clickfunnels-alternative>
-> 首次收录：2026-09-20T09:36:28+08:00
+> 首次收录：2026-09-21T01:40:20+08:00
 > 来源渠道：GitHub 新星仓库
 > 标签：topic:indie-hacker
-> 最新指标：stars=29 · forks=0 · open_issues=0
+> 最新指标：stars=31 · forks=0 · open_issues=0
 
 ## 观测历史
 
@@ -30,6 +30,8 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-20T09:24:07+08:00 | GitHub 新星仓库 | stars=29 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/34d8053d39608cb8_digistoremaster-clickfunnels-alternative]] |
 | 2026-09-20T09:36:28+08:00 | GitHub 新星仓库 | stars=29 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/34d8053d39608cb8_digistoremaster-clickfunnels-alternative]] |
+| 2026-09-21T01:32:05+08:00 | GitHub 新星仓库 | stars=31 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/34d8053d39608cb8_digistoremaster-clickfunnels-alternative]] |
+| 2026-09-21T01:40:20+08:00 | GitHub 新星仓库 | stars=31 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/34d8053d39608cb8_digistoremaster-clickfunnels-alternative]] |
 
 ## 摘要正文
 

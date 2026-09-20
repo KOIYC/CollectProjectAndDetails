@@ -28,13 +28,13 @@ lang: "en"
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T09:24:29+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=9 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-20/87055c22b052dd55_No-$10k-MRR-story.-I-built-software-for-a-really-b]] |
-| 2026-09-20T09:40:15+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=9 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-20/87055c22b052dd55_No-$10k-MRR-story.-I-built-software-for-a-really-b]] |
-| 2026-09-20T09:41:44+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=9 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-20/87055c22b052dd55_No-$10k-MRR-story.-I-built-software-for-a-really-b]] |
-| 2026-09-20T09:49:27+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=9 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-20/87055c22b052dd55_No-$10k-MRR-story.-I-built-software-for-a-really-b]] |
-| 2026-09-20T14:14:46+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=9 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-20/87055c22b052dd55_No-$10k-MRR-story.-I-built-software-for-a-really-b]] |
-| 2026-09-20T14:59:08+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=9 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-20/87055c22b052dd55_No-$10k-MRR-story.-I-built-software-for-a-really-b]] |
-| 2026-09-21T00:04:54+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=9 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-20/87055c22b052dd55_No-$10k-MRR-story.-I-built-software-for-a-really-b]] |
+| 2026-09-20T09:24:29+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=9 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-21/87055c22b052dd55_No-$10k-MRR-story.-I-built-software-for-a-really-b]] |
+| 2026-09-20T09:40:15+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=9 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-21/87055c22b052dd55_No-$10k-MRR-story.-I-built-software-for-a-really-b]] |
+| 2026-09-20T09:41:44+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=9 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-21/87055c22b052dd55_No-$10k-MRR-story.-I-built-software-for-a-really-b]] |
+| 2026-09-20T09:49:27+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=9 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-21/87055c22b052dd55_No-$10k-MRR-story.-I-built-software-for-a-really-b]] |
+| 2026-09-20T14:14:46+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=9 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-21/87055c22b052dd55_No-$10k-MRR-story.-I-built-software-for-a-really-b]] |
+| 2026-09-20T14:59:08+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=9 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-21/87055c22b052dd55_No-$10k-MRR-story.-I-built-software-for-a-really-b]] |
+| 2026-09-21T00:04:54+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=9 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-21/87055c22b052dd55_No-$10k-MRR-story.-I-built-software-for-a-really-b]] |
 | 2026-09-21T00:07:56+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=9 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-21/87055c22b052dd55_No-$10k-MRR-story.-I-built-software-for-a-really-b]] |
 
 ## 摘要正文

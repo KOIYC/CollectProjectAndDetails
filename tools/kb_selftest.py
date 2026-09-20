@@ -79,6 +79,36 @@ class ProjectUrlGuard(unittest.TestCase):
             with self.subTest(u=u):
                 self.assertEqual(KC.project_url_reject(u), "", f"不该拒绝: {u!r}")
 
+    def test_rejects_www_variants_of_non_project_hosts(self):
+        # 回归：早先拿 netloc 直接比 NON_PROJECT_HOSTS，`www.` 前缀一律漏网（实测 5/5 放行），
+        # 讨论页/聚合站于是被当成项目官网写进 project_url（healthcheck ⑦ 可疑值的根因）。
+        for u in ["https://www.bilibili.com/video/BV1Q5QgB5EGT",
+                  "https://www.youtube.com/watch?v=abc",
+                  "https://www.reddit.com/gallery/1abc",
+                  "https://www.producthunt.com/products/snotch?utm_source=other",
+                  "https://www.v2ex.com/go/create",
+                  "https://www.github.com",
+                  "https://www.notion.so/some-page"]:
+            with self.subTest(u=u):
+                self.assertTrue(KC.project_url_reject(u), f"应被拒绝: {u!r}")
+
+    def test_accepts_www_variant_of_real_project_site(self):
+        # 去 www 只为「比对名单」，不能把合法的 www 项目站一起误杀。
+        for u in ["https://www.page-rage.com/", "https://www.cursor.com/"]:
+            with self.subTest(u=u):
+                self.assertEqual(KC.project_url_reject(u), "", f"不该拒绝: {u!r}")
+
+    def test_link_re_does_not_swallow_markdown_escape(self):
+        # 回归：LINK_RE 未排除反斜杠 → 抓到 `...?utm\_source=other`，
+        # norm_url 把 `\` 编码成 `%5C` 写进 project_url（实测 1 条 live 脏值）。
+        body = (r"[https://www.producthunt.com/products/snotch?utm\_source=other]"
+                r"(https://www.producthunt.com/products/snotch) 正文")
+        found = KC.LINK_RE.findall(body)
+        self.assertTrue(found, "至少应抓到 markdown 链接里的 URL")
+        for u in found:
+            with self.subTest(u=u):
+                self.assertNotIn("\\", u, f"不该把 markdown 转义反斜杠带进来: {u!r}")
+
     def test_derive_skips_bad_link_and_picks_next(self):
         body = "看这里 https://localhost:8080/` 还有 https://real.app/ 就这样"
         url = "https://www.v2ex.com/t/1"
