@@ -34,7 +34,8 @@
 | **导航层** | `00-索引/*.md` | **不是事实**，是指路牌 | 任何会话从这里开始 |
 | **生成物** | `00-索引/报告/*.md` | 可随时重建 | 引用数字必须带口径与分母 |
 | **归档** | `80-归档/posts/`、`80-归档/项目/` | 移出检索面，**不是删除，可撤销** | 捞回入口：`00-索引/归档与申诉.md` |
-| **状态与账本** | `_meta/` | seen/channels/manifest | 脚本读写，勿手改 |
+| **状态与账本** | `_meta/` | seen/channels/manifest（轮转保留：manifest 12 份 / run 记录 80 份，更早在 git 历史） | 脚本读写，勿手改 |
+| **版本控制** | `.git` → GitHub `KOIYC/CollectProjectAndDetails`（main） | 工具/结构改动后 commit；`.gitignore` 排除 pycache/.workbuddy/workspace | 删除有了第二份保险，但**红线照旧**：不手改生成页、不手改文件名 |
 | **工具** | `tools/kb_*.py` | 采集/体检/诊断/回填/订正/归档/洞察/地图/审计 | 12 个工具，职责见下表 |
 
 **目录框架速记**（完整规范见 `00-索引/命名与目录规范.md`）：
@@ -43,12 +44,12 @@
 根目录只放 `Home.md` 与本页。**MOC/地图只放 `00-索引/`** —— 数据目录被计数脚本按 `*.md` glob，
 塞 index 页会污染计数（647 变 648）。
 
-## 2. 工具链（12 个，顺序不能乱；另有遗留探针 `kb_qc.py` 已被取代，勿调用）
+## 2. 工具链（12 个 runbook 工具，顺序不能乱；另有 `kb_selftest.py` 自测 / `kb_render.py` 批量重渲染；渠道层已拆为 `kbc_channels.py`——15 个 adapter + enricher，kb_collect facade re-export）
 
 | 工具 | 何时跑 | 干什么 |
 |---|---|---|
 | `kb_audit.py` | 采集前 | 渠道探活 + agent-reach doctor 对账 → 渠道台账 |
-| `kb_collect.py` | 每轮 | 13 渠道取数 → 主题准入过滤 → raw JSONL + 语料页 + 实体页 |
+| `kb_collect.py` | 每轮 | 13 渠道取数 → 主题准入过滤 → raw JSONL + 语料页 + 实体页；支持 `--since/--until` 显式窗口、`--throttle-ms` 评论节流（run JSON 带 `write_errors` 计数） |
 | `kb_analyze.py` | 采集后 | **取数诊断**（按渠道 profile 判真缺口）→ 分析报告 + 回填队列 |
 | `kb_backfill.py` | 采集后 | 回填粘性缺口（正文+评论）+ 死信账本；`--report` 出回填队列 |
 | `kb_content_audit.py` | 采集后 | **内容审计**（相关性/完整性/重复）—— 与取数诊断**正交** |
@@ -145,6 +146,9 @@ PY="C:/Users/yangcan/.workbuddy/binaries/python/versions/3.13.12/python.exe"
 - **Python 用绝对路径**：`C:/Users/yangcan/.workbuddy/binaries/python/versions/3.13.12/python.exe`；不要裸 `python`。
 - **MSYS 内联正则陷阱**：`python -c "...re.search(r'^x\s*y'...)"` 里的 `\s` 会被改写成 `/s` → 判据静默失效（实测踩过两次）。**需要正则就写成 .py 文件再跑**。
 - **零第三方依赖**：tools/ 只用 stdlib；PyPI 不可达，不要 pip install。
+- **git/gh**：git 在 PortableGit（前缀已含）；gh 已登录 `KOIYC`（PAT 走 GCM 凭证助手）。
+  收工提交：`git add -A && git commit` 即可推送（**不 force push**）。状态文件（seen/body_cache）
+  损坏时脚本会自动隔离成 `.corrupt-*.bak` 并告警——看到这行先查原因再重跑。
 - **网络**：`github.com` web 超时但 `api.github.com` 通（gh 用 PAT）；Jina Reader 不可用（doctor 却报 ok → 对账时记 delta）；通用正文唯一后端是 Exa（mcporter，注意 `.cmd` shim）；npm 全局装包要 `--cache="C:/Users/yangcan/.workbuddy/npm-cache" --omit=optional --no-audit --no-fund`。
 - **未解锁**：小红书 / X 需 OpenCLI 浏览器扩展（未连接），状态记 `auth`，不算已覆盖。
 
@@ -160,10 +164,12 @@ PY="C:/Users/yangcan/.workbuddy/binaries/python/versions/3.13.12/python.exe"
 | 实体页数对不上 | 跑 `--liveness --apply`，再 `--archive-entities`（先报告后 apply） |
 | 语料计数不平（① 红） | 先查是否「改 slug 没同步改名」（两份语料），不是「差不多」放行 |
 | 命名审计报违规 | 按 `00-索引/报告/命名审计.md` 的修复路径走，改完须清零 |
-| 要回滚归档/改名 | `kb_prune.py --undo <manifest>` / `--undo-entities <manifest>`（manifest 在 `_meta/`） |
+| 要回滚归档/改名 | `kb_prune.py --undo <manifest>` / `--undo-entities <manifest>`（manifest 在 `_meta/`，工作区保 12 份，更早在 git 历史） |
+| 要回滚工具/配置改动 | `git log --oneline` 找点 → `git revert <sha>`（main 已推远端，**不 force push**） |
 
 ## 9. 变更纪律（改完之后）
 
-1. 任何改动 → `kb_healthcheck.py` 五项全绿；命名/框架改动 → 另跑 `kb_name_audit.py` 清零。
+1. 工具改动 → `kb_selftest.py` 全过（现 34 例）；任何改动 → `kb_healthcheck.py` 五项全绿；
+   命名/框架改动 → 另跑 `kb_name_audit.py` 清零；收工前 commit（推送远端）。
 2. 产出的报告/决定 → 追加 `00-索引/运行日志.md`；跨会话约定 → 更新本页与 `Home.md`。
 3. 汇报格式：新语料条数 · 渠道 ok/异常/未解锁 · 渠道决定 · 回填数量 · 可用率 · 结构维护结果 · 五不变量 · 命名审计 · delta · 质检达标与否。
