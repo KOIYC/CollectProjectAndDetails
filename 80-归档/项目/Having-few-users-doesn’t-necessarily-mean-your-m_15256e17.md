@@ -25,7 +25,7 @@ stale: true
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T09:24:31+08:00 | Reddit 独立开发版块 | 得分=5 · 评论=6 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-20/15256e17d0c808b6_Having-few-users-doesn’t-necessarily-mean-your-mar]] |
+| 2026-09-20T09:24:31+08:00 | Reddit 独立开发版块 | 得分=5 · 评论=6 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/15256e17d0c808b6_Having-few-users-doesn’t-necessarily-mean-your-mar]] |
 
 ## 摘要正文
 

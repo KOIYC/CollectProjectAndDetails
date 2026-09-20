@@ -25,14 +25,14 @@ stale: true
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T02:36:18+08:00 | Reddit 独立开发版块 | 得分=13 · 评论=19 · 赞踩比=0.89 | [[20-语料/posts/reddit/2026-09-20/9f7bfad9d3b489a3_First-customer-feedback-is-in-and-it-feels-amazing]] |
-| 2026-09-20T02:41:40+08:00 | Reddit 独立开发版块 | 得分=13 · 评论=19 · 赞踩比=0.89 | [[20-语料/posts/reddit/2026-09-20/9f7bfad9d3b489a3_First-customer-feedback-is-in-and-it-feels-amazing]] |
-| 2026-09-20T02:44:00+08:00 | Reddit 独立开发版块 | 得分=13 · 评论=19 · 赞踩比=0.89 | [[20-语料/posts/reddit/2026-09-20/9f7bfad9d3b489a3_First-customer-feedback-is-in-and-it-feels-amazing]] |
-| 2026-09-20T02:47:53+08:00 | Reddit 独立开发版块 | 得分=13 · 评论=19 · 赞踩比=0.89 | [[20-语料/posts/reddit/2026-09-20/9f7bfad9d3b489a3_First-customer-feedback-is-in-and-it-feels-amazing]] |
-| 2026-09-20T02:57:15+08:00 | Reddit 独立开发版块 | 得分=13 · 评论=19 · 赞踩比=0.89 | [[20-语料/posts/reddit/2026-09-20/9f7bfad9d3b489a3_First-customer-feedback-is-in-and-it-feels-amazing]] |
-| 2026-09-20T03:06:07+08:00 | Reddit 独立开发版块 | 得分=13 · 评论=19 · 赞踩比=0.89 | [[20-语料/posts/reddit/2026-09-20/9f7bfad9d3b489a3_First-customer-feedback-is-in-and-it-feels-amazing]] |
-| 2026-09-20T09:24:39+08:00 | Reddit 独立开发版块 | 得分=13 · 评论=19 · 赞踩比=0.89 | [[20-语料/posts/reddit/2026-09-20/9f7bfad9d3b489a3_First-customer-feedback-is-in-and-it-feels-amazing]] |
-| 2026-09-20T14:13:16+08:00 | Reddit 独立开发版块 | 得分=13 · 评论=19 · 赞踩比=0.89 | [[20-语料/posts/reddit/2026-09-20/9f7bfad9d3b489a3_First-customer-feedback-is-in-and-it-feels-amazing]] |
+| 2026-09-20T02:36:18+08:00 | Reddit 独立开发版块 | 得分=13 · 评论=19 · 赞踩比=0.89 | [[20-语料/posts/reddit/2026-09-21/9f7bfad9d3b489a3_First-customer-feedback-is-in-and-it-feels-amazing]] |
+| 2026-09-20T02:41:40+08:00 | Reddit 独立开发版块 | 得分=13 · 评论=19 · 赞踩比=0.89 | [[20-语料/posts/reddit/2026-09-21/9f7bfad9d3b489a3_First-customer-feedback-is-in-and-it-feels-amazing]] |
+| 2026-09-20T02:44:00+08:00 | Reddit 独立开发版块 | 得分=13 · 评论=19 · 赞踩比=0.89 | [[20-语料/posts/reddit/2026-09-21/9f7bfad9d3b489a3_First-customer-feedback-is-in-and-it-feels-amazing]] |
+| 2026-09-20T02:47:53+08:00 | Reddit 独立开发版块 | 得分=13 · 评论=19 · 赞踩比=0.89 | [[20-语料/posts/reddit/2026-09-21/9f7bfad9d3b489a3_First-customer-feedback-is-in-and-it-feels-amazing]] |
+| 2026-09-20T02:57:15+08:00 | Reddit 独立开发版块 | 得分=13 · 评论=19 · 赞踩比=0.89 | [[20-语料/posts/reddit/2026-09-21/9f7bfad9d3b489a3_First-customer-feedback-is-in-and-it-feels-amazing]] |
+| 2026-09-20T03:06:07+08:00 | Reddit 独立开发版块 | 得分=13 · 评论=19 · 赞踩比=0.89 | [[20-语料/posts/reddit/2026-09-21/9f7bfad9d3b489a3_First-customer-feedback-is-in-and-it-feels-amazing]] |
+| 2026-09-20T09:24:39+08:00 | Reddit 独立开发版块 | 得分=13 · 评论=19 · 赞踩比=0.89 | [[20-语料/posts/reddit/2026-09-21/9f7bfad9d3b489a3_First-customer-feedback-is-in-and-it-feels-amazing]] |
+| 2026-09-20T14:13:16+08:00 | Reddit 独立开发版块 | 得分=13 · 评论=19 · 赞踩比=0.89 | [[20-语料/posts/reddit/2026-09-21/9f7bfad9d3b489a3_First-customer-feedback-is-in-and-it-feels-amazing]] |
 
 ## 摘要正文
 

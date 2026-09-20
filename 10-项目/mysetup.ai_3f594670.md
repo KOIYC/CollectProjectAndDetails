@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Share your AI Setup, Learn from others"
 project_url: "https://mysetup.ai/"
-first_seen: "2026-09-20T14:57:59+08:00"
+first_seen: "2026-09-21T00:06:11+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://mysetup.ai/>
-> 首次收录：2026-09-20T14:57:59+08:00
+> 首次收录：2026-09-21T00:06:11+08:00
 > 来源渠道：HN Show HN
 > 标签：author_steveybrown, story_49740105, show_hn
 > 最新指标：点赞=238 · 评论=138 · engagement_velocity=238
@@ -30,12 +30,14 @@ lang: "en"
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T09:23:24+08:00 | HN Show HN | 点赞=238 · 评论=138 · engagement_velocity=238 | [[20-语料/posts/hn_show/2026-09-20/a8d3728ddc104075_Show-HN-Share-your-AI-Setup,-Learn-from-others]] |
-| 2026-09-20T09:36:52+08:00 | HN Show HN | 点赞=238 · 评论=138 · engagement_velocity=238 | [[20-语料/posts/hn_show/2026-09-20/a8d3728ddc104075_Show-HN-Share-your-AI-Setup,-Learn-from-others]] |
-| 2026-09-20T09:38:06+08:00 | HN Show HN | 点赞=238 · 评论=138 · engagement_velocity=238 | [[20-语料/posts/hn_show/2026-09-20/a8d3728ddc104075_Show-HN-Share-your-AI-Setup,-Learn-from-others]] |
-| 2026-09-20T14:03:17+08:00 | HN Show HN | 点赞=238 · 评论=138 · engagement_velocity=238 | [[20-语料/posts/hn_show/2026-09-20/a8d3728ddc104075_Show-HN-Share-your-AI-Setup,-Learn-from-others]] |
-| 2026-09-20T14:03:23+08:00 | HN Show HN | 点赞=238 · 评论=138 · engagement_velocity=238 | [[20-语料/posts/hn_show/2026-09-20/a8d3728ddc104075_Show-HN-Share-your-AI-Setup,-Learn-from-others]] |
-| 2026-09-20T14:57:59+08:00 | HN Show HN | 点赞=238 · 评论=138 · engagement_velocity=238 | [[20-语料/posts/hn_show/2026-09-20/a8d3728ddc104075_Show-HN-Share-your-AI-Setup,-Learn-from-others]] |
+| 2026-09-20T09:23:24+08:00 | HN Show HN | 点赞=238 · 评论=138 · engagement_velocity=238 | [[20-语料/posts/hn_show/2026-09-21/a8d3728ddc104075_Show-HN-Share-your-AI-Setup,-Learn-from-others]] |
+| 2026-09-20T09:36:52+08:00 | HN Show HN | 点赞=238 · 评论=138 · engagement_velocity=238 | [[20-语料/posts/hn_show/2026-09-21/a8d3728ddc104075_Show-HN-Share-your-AI-Setup,-Learn-from-others]] |
+| 2026-09-20T09:38:06+08:00 | HN Show HN | 点赞=238 · 评论=138 · engagement_velocity=238 | [[20-语料/posts/hn_show/2026-09-21/a8d3728ddc104075_Show-HN-Share-your-AI-Setup,-Learn-from-others]] |
+| 2026-09-20T14:03:17+08:00 | HN Show HN | 点赞=238 · 评论=138 · engagement_velocity=238 | [[20-语料/posts/hn_show/2026-09-21/a8d3728ddc104075_Show-HN-Share-your-AI-Setup,-Learn-from-others]] |
+| 2026-09-20T14:03:23+08:00 | HN Show HN | 点赞=238 · 评论=138 · engagement_velocity=238 | [[20-语料/posts/hn_show/2026-09-21/a8d3728ddc104075_Show-HN-Share-your-AI-Setup,-Learn-from-others]] |
+| 2026-09-20T14:57:59+08:00 | HN Show HN | 点赞=238 · 评论=138 · engagement_velocity=238 | [[20-语料/posts/hn_show/2026-09-21/a8d3728ddc104075_Show-HN-Share-your-AI-Setup,-Learn-from-others]] |
+| 2026-09-21T00:03:51+08:00 | HN Show HN | 点赞=238 · 评论=138 · engagement_velocity=238 | [[20-语料/posts/hn_show/2026-09-21/a8d3728ddc104075_Show-HN-Share-your-AI-Setup,-Learn-from-others]] |
+| 2026-09-21T00:06:11+08:00 | HN Show HN | 点赞=238 · 评论=138 · engagement_velocity=238 | [[20-语料/posts/hn_show/2026-09-21/a8d3728ddc104075_Show-HN-Share-your-AI-Setup,-Learn-from-others]] |
 
 ## 摘要正文
 

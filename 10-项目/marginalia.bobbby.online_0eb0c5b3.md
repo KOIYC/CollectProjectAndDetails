@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Browse last quarter's Supreme Court cases, linked and cited as you read"
 project_url: "https://marginalia.bobbby.online/cases"
-first_seen: "2026-09-20T14:57:50+08:00"
+first_seen: "2026-09-21T00:06:02+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://marginalia.bobbby.online/cases>
-> 首次收录：2026-09-20T14:57:50+08:00
+> 首次收录：2026-09-21T00:06:02+08:00
 > 来源渠道：HN Show HN
 > 标签：author_rhgraysonii, story_49741259, show_hn
 > 最新指标：点赞=5 · 评论=0 · engagement_velocity=5
@@ -33,6 +33,7 @@ lang: "en"
 | 2026-09-20T09:23:24+08:00 | HN Show HN | 点赞=5 · 评论=0 · engagement_velocity=5 | [[20-语料/posts/hn_show/2026-09-20/258665cf941c4e03_Show-HN-Browse-last-quarter's-Supreme-Court-cases,]] |
 | 2026-09-20T09:36:51+08:00 | HN Show HN | 点赞=5 · 评论=0 · engagement_velocity=5 | [[20-语料/posts/hn_show/2026-09-20/258665cf941c4e03_Show-HN-Browse-last-quarter's-Supreme-Court-cases,]] |
 | 2026-09-20T14:57:50+08:00 | HN Show HN | 点赞=5 · 评论=0 · engagement_velocity=5 | [[20-语料/posts/hn_show/2026-09-20/258665cf941c4e03_Show-HN-Browse-last-quarter's-Supreme-Court-cases,]] |
+| 2026-09-21T00:06:02+08:00 | HN Show HN | 点赞=5 · 评论=0 · engagement_velocity=5 | [[20-语料/posts/hn_show/2026-09-20/258665cf941c4e03_Show-HN-Browse-last-quarter's-Supreme-Court-cases,]] |
 
 ## 摘要正文
 

@@ -17,6 +17,7 @@ import glob
 import pathlib
 import sys
 import tempfile
+import types
 import unittest
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
@@ -325,6 +326,21 @@ class FrontmatterHelpers(unittest.TestCase):
 class RotationPolicy(unittest.TestCase):
     """_meta 轮转：同前缀只留最新 N 份（undo 凭证由 git 历史兜底）。"""
 
+    def test_rotate_files_sorts_by_name_not_mtime(self):
+        # 轮转必须按**文件名**（内嵌时间戳）排序：紧密循环里 mtime 分辨率不可靠，
+        # 且任何 touch（git checkout/复制回放）都会骗过它（2026-09-20 实测保留错 3 份）。
+        with tempfile.TemporaryDirectory() as td:
+            d = pathlib.Path(td)
+            names = [f"prune_manifest_20260920T00000{i}.json" for i in range(5)]
+            for i, n in enumerate(names):                      # 反序写：最新的先落盘
+                (d / n).write_text("{}", encoding="utf-8")
+                import os as _os
+                _os.utime(d / n, (1e9, 1e9 + (4 - i) * 3600))  # mtime 与名字序**相反**
+            removed = KB.rotate_files(d, "prune_manifest_", 3)
+            self.assertEqual(removed, 2)
+            left = sorted(p.name for p in d.glob("prune_manifest_*"))
+            self.assertEqual(left, names[2:])                   # 按名字留最新 3 份
+
     def test_rotate_files_keeps_newest(self):
         with tempfile.TemporaryDirectory() as td:
             d = pathlib.Path(td)
@@ -379,6 +395,29 @@ class PublishedWindow(unittest.TestCase):
         self.assertIsNotNone(KCH._pub_ts("2026-09-20"))
         self.assertIsNone(KCH._pub_ts("not-a-date"))
         self.assertIsNone(KCH._pub_ts(None))
+
+
+class InPlaceRefresh(unittest.TestCase):
+    """语料 note 原地刷新与归档不穿透（2026-09-21 零点 45 孤儿事故的钉死断言）。"""
+
+    def test_note_bucket_keeps_existing_shard(self):
+        seen = types.SimpleNamespace(items={"a": {"note": "20-语料/posts/hn_show/2026-09-20/x.md"}})
+        self.assertEqual(KB.note_bucket(seen, "a", "2026-09-21"), "2026-09-20")
+
+    def test_note_bucket_falls_back_for_new(self):
+        seen = types.SimpleNamespace(items={})
+        self.assertEqual(KB.note_bucket(seen, "new", "2026-09-21"), "2026-09-21")
+
+    def test_free_dup_name_walks_chain(self):
+        # -dup 被占时必须顺延 -dup2/-dup3……单发后缀会**静默覆盖**冻结区历史
+        import kb_prune as PR
+        with tempfile.TemporaryDirectory() as td:
+            d = pathlib.Path(td)
+            (d / "x.md").write_text("a", encoding="utf-8")
+            (d / "x-dup.md").write_text("b", encoding="utf-8")
+            self.assertEqual(PR._free_dup_name(d / "x.md").name, "x-dup2.md")
+            (d / "x-dup2.md").write_text("c", encoding="utf-8")
+            self.assertEqual(PR._free_dup_name(d / "x.md").name, "x-dup3.md")
 
 
 if __name__ == "__main__":

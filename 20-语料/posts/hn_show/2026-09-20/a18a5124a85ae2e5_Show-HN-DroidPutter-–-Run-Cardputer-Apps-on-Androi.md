@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49734133"
 project_url: "https://github.com/fcavalcantirj/droidputter"
 author: "fcavalcantirj"
 published_at: "2026-09-16T22:51:21Z"
-captured_at: "2026-09-20T14:57:50+08:00"
+captured_at: "2026-09-21T00:03:44+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：fcavalcantirj　|　发布：2026-09-16T22:51:21Z
 > 项目链接：<https://github.com/fcavalcantirj/droidputter>
-> 采集：2026-09-20T14:57:50+08:00　|　id：`a18a5124a85ae2e5`
+> 采集：2026-09-21T00:03:44+08:00　|　id：`a18a5124a85ae2e5`
 
 ## 正文
 
@@ -45,9 +45,9 @@ discovered_via: "hn:show_hn:90d"
 
 Run open-source Cardputer apps on Android: plug an ESP32-S3 over USB-OTG and the phone is the screen, keyboard, GPS and flasher. Apps are rebuilt on demand from GitHub against a display/keyboard shim.
 
-- Stars: 40
-- Forks: 5
-- Watchers: 40
+- Stars: 41
+- Forks: 6
+- Watchers: 41
 - Open issues: 2
 - License: MIT License
 - Homepage: https://play.google.com/store/apps/details?id=com.droidputter
@@ -80,7 +80,7 @@ Run open-source Cardputer apps on Android: plug an ESP32-S3 over USB-OTG and the
 ## Top Contributors
 
 - fcavalcantirj (146 contributions)
-- verdicts (67 contributions)
+- verdicts (68 contributions)
 
 ---
 

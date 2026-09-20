@@ -6,7 +6,7 @@
   ② live 中「应有项目页」的条目（is_project_ish）全部能找到对应页 → 缺失 0
   ③ 缺 url == 0
   ④ wikilink 断链 == 0（全库解析：先按路径，再按文件名兜底，最后按 alias）
-  ⑤ 路径可复现：按当前 slug 规则重算 == 实际路径
+  ⑤ 路径可复现：按当前 slug 规则重算 == 实际路径，且 磁盘 ↔ seen 账本 **双向**无差集
   ⑥ 孤立语料 == 0：`20-语料/` 每条 note 至少被一个 wikilink 指向
      —— 抓的是「有原料没出口」：项目页 / 人物页 / 方法论页 / 报告 / MOC 都没引到它，
      它就只是磁盘上占位，Obsidian 检索图谱里等于不存在。
@@ -163,8 +163,25 @@ for p in (ROOT / "20-语料").rglob("*.md"):
     want = KC.corpus_note_path(rec, m.group(1) if m else "").relative_to(ROOT).as_posix()
     if want != rel:
         drift.append((rel, want))
-print(f"⑤ 路径可复现  漂移={len(drift)}  {'OK' if not drift else '!! 有漂移'}")
-for a, b in drift[:5]:
+
+# ⑤b 磁盘 ↔ 账本**双向**核对。为什么必须加：上面那段只拿「文件自己的日期桶」重算，
+#    恒等于自身 → 漂移永远是 0。实测 2026-09-21 零点重跑采集，45 条语料落在新日期桶、
+#    seen 却记旧桶（或反之），磁盘上留下两份语料 / 账本指向不存在的文件，① 当场破功，
+#    而 ⑤ 一路报绿。差集两个方向都要看：
+#      extra  = 在盘不在账（孤儿页：不进审计、不进洞察、没人链得到）
+#      ghost  = 在账不在盘（幽灵：项目页链接指向 Obsidian 里打不开的目标）
+_seen = KB.Seen()
+_live_notes = {str(v.get("note") or "") for v in _seen.items.values()
+               if str(v.get("note") or "").startswith("20-语料/")}
+_disk_notes = {p.relative_to(ROOT).as_posix() for p in (ROOT / "20-语料").rglob("*.md")}
+extra = sorted(_disk_notes - _live_notes)
+ghost = sorted(_live_notes - _disk_notes)
+drift += [(r, "(账本无记录 · 孤儿页)") for r in extra]
+drift += [(r, "(磁盘无文件 · 幽灵账)") for r in ghost]
+print(f"⑤ 路径可复现（slug {len(drift) - len(extra) - len(ghost)}"
+      f" + 盘↔账 孤儿 {len(extra)} / 幽灵 {len(ghost)}）  漂移={len(drift)}  "
+      f"{'OK' if not drift else '!! 有漂移'}")
+for a, b in drift[:8]:
     print(f"     实际 {a}\n     应为 {b}")
 
 # ⑥ 孤立语料（无入链）：20-语料/ 每条 note 至少被一个 wikilink 指向。

@@ -25,7 +25,7 @@ stale: true
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T14:58:29+08:00 | Reddit 独立开发版块 | 得分=4 · 评论=18 · 赞踩比=0.84 | [[20-语料/posts/reddit/2026-09-20/576dcff154f20192_Need-advice-on-landing-page-design]] |
+| 2026-09-20T14:58:29+08:00 | Reddit 独立开发版块 | 得分=4 · 评论=18 · 赞踩比=0.84 | [[20-语料/posts/reddit/2026-09-21/576dcff154f20192_Need-advice-on-landing-page-design]] |
 
 ## 摘要正文
 

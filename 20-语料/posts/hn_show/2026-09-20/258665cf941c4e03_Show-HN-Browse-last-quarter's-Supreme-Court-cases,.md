@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49741259"
 project_url: "https://marginalia.bobbby.online/cases"
 author: "rhgraysonii"
 published_at: "2026-09-17T14:24:36Z"
-captured_at: "2026-09-20T14:57:50+08:00"
+captured_at: "2026-09-21T00:06:02+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=5 · 评论=0 · engagement_velocity=5
 > 作者：rhgraysonii　|　发布：2026-09-17T14:24:36Z
 > 项目链接：<https://marginalia.bobbby.online/cases>
-> 采集：2026-09-20T14:57:50+08:00　|　id：`258665cf941c4e03`
+> 采集：2026-09-21T00:06:02+08:00　|　id：`258665cf941c4e03`
 
 ## 正文
 

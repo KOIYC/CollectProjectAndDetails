@@ -2,7 +2,7 @@
 type: "project"
 title: "hiigorsilva/saas-finance-web"
 project_url: "https://github.com/hiigorsilva/saas-finance-web"
-first_seen: "2026-09-20T14:57:50+08:00"
+first_seen: "2026-09-21T00:06:02+08:00"
 sources:
   - github_new
 tags:
@@ -20,7 +20,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/hiigorsilva/saas-finance-web>
-> 首次收录：2026-09-20T14:57:50+08:00
+> 首次收录：2026-09-21T00:06:02+08:00
 > 来源渠道：GitHub 新星仓库
 > 标签：TypeScript, topic:microsaas
 > 最新指标：stars=0 · forks=0 · open_issues=0
@@ -29,10 +29,12 @@ lang: "en"
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T09:24:14+08:00 | GitHub 新星仓库 | stars=0 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/074d7c2acc36561f_hiigorsilva-saas-finance-web]] |
-| 2026-09-20T09:36:33+08:00 | GitHub 新星仓库 | stars=0 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/074d7c2acc36561f_hiigorsilva-saas-finance-web]] |
-| 2026-09-20T09:55:17+08:00 | GitHub 新星仓库 | stars=0 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/074d7c2acc36561f_hiigorsilva-saas-finance-web]] |
-| 2026-09-20T14:57:50+08:00 | GitHub 新星仓库 | stars=0 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/074d7c2acc36561f_hiigorsilva-saas-finance-web]] |
+| 2026-09-20T09:24:14+08:00 | GitHub 新星仓库 | stars=0 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-21/074d7c2acc36561f_hiigorsilva-saas-finance-web]] |
+| 2026-09-20T09:36:33+08:00 | GitHub 新星仓库 | stars=0 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-21/074d7c2acc36561f_hiigorsilva-saas-finance-web]] |
+| 2026-09-20T09:55:17+08:00 | GitHub 新星仓库 | stars=0 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-21/074d7c2acc36561f_hiigorsilva-saas-finance-web]] |
+| 2026-09-20T14:57:50+08:00 | GitHub 新星仓库 | stars=0 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-21/074d7c2acc36561f_hiigorsilva-saas-finance-web]] |
+| 2026-09-21T00:03:44+08:00 | GitHub 新星仓库 | stars=0 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-21/074d7c2acc36561f_hiigorsilva-saas-finance-web]] |
+| 2026-09-21T00:06:02+08:00 | GitHub 新星仓库 | stars=0 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-21/074d7c2acc36561f_hiigorsilva-saas-finance-web]] |
 
 ## 摘要正文
 

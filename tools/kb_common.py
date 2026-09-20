@@ -562,8 +562,13 @@ def load_registry(path: Path | None = None) -> dict:
 
 
 def rotate_files(directory: Path, prefix: str, keep: int) -> int:
-    """同前缀只留最新 keep 份，删旧。返回删除数。"""
-    files = sorted(directory.glob(f"{prefix}*"), key=lambda p: p.stat().st_mtime, reverse=True)
+    """同前缀只留最新 keep 份，删旧。返回删除数。
+
+    排序按**文件名**而非 mtime：manifest 命名内嵌 YYYYMMDDTHHMMSS，字典序即时间序；
+    mtime 会被任何后续 touch 改写（git checkout / 复制回放都会），紧密循环里分辨率也不够
+    —— 实测 Windows 下自测 5 连写会保留错 3 份（2026-09-20 修复）。
+    """
+    files = sorted(directory.glob(f"{prefix}*"), key=lambda p: p.name, reverse=True)
     removed = 0
     for old in files[keep:]:
         try:
@@ -578,7 +583,7 @@ def rotate_runs(keep: int = 80, directory: Path | None = None) -> int:
     """运行记录目录只留最新 keep 份（latest.json 永远保留）。"""
     d = directory or RUNS
     files = [p for p in d.glob("*.json") if p.name != "latest.json"]
-    files.sort(key=lambda p: p.stat().st_mtime, reverse=True)
+    files.sort(key=lambda p: p.name, reverse=True)   # run_id 内嵌时间戳，字典序即时间序（同 rotate_files 的理由）
     removed = 0
     for old in files[keep:]:
         try:
@@ -590,6 +595,20 @@ def rotate_runs(keep: int = 80, directory: Path | None = None) -> int:
 
 
 # ---------------------------------------------------------------- stores
+
+
+def note_bucket(seen, iid: str, fallback: str) -> str:
+    """语料 note 原地刷新的分片日期：**以现存 note 路径为准**，不许搬家。
+
+    为什么不能用「最新 raw 记录所在分片」的日期：backfill/update 记录追加进「今天」的
+    raw 分片后，下一轮（或任何跨天重跑）会把该条目的 day 解析成回填日 → note 被当成
+    新分片重建、旧文件成孤儿（实测 2026-09-21 零点连跑两轮 backfill → 45 个孤儿、
+    healthcheck ① 红）。raw 分片日期 = 记录进账日，语料分片日期 = 条目首次落盘日，
+    两者语义不同，必须各取各的。kb_collect 与 kb_backfill 的刷新写盘共用本函数。
+    """
+    note = str((seen.items.get(iid) or {}).get("note") or "")
+    m = re.search(r"posts/[^/]+/(\d{4}-\d{2}-\d{2})/", note)
+    return m.group(1) if m else fallback
 
 
 def _load_json(path: Path, default):

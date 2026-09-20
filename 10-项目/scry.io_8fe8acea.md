@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Scry, programmable internet search w/ congestion pricing"
 project_url: "https://scry.io/"
-first_seen: "2026-09-20T14:57:50+08:00"
+first_seen: "2026-09-21T00:06:02+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://scry.io/>
-> 首次收录：2026-09-20T14:57:50+08:00
+> 首次收录：2026-09-21T00:06:02+08:00
 > 来源渠道：HN Show HN
 > 标签：author_Xyra, story_49748041, show_hn
 > 最新指标：点赞=59 · 评论=25 · engagement_velocity=59
@@ -30,10 +30,12 @@ lang: "en"
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T09:23:24+08:00 | HN Show HN | 点赞=59 · 评论=25 · engagement_velocity=59 | [[20-语料/posts/hn_show/2026-09-20/dfab7287682fdaee_Show-HN-Scry,-programmable-internet-search-w-conge]] |
-| 2026-09-20T09:36:44+08:00 | HN Show HN | 点赞=59 · 评论=25 · engagement_velocity=59 | [[20-语料/posts/hn_show/2026-09-20/dfab7287682fdaee_Show-HN-Scry,-programmable-internet-search-w-conge]] |
-| 2026-09-20T09:37:51+08:00 | HN Show HN | 点赞=59 · 评论=25 · engagement_velocity=59 | [[20-语料/posts/hn_show/2026-09-20/dfab7287682fdaee_Show-HN-Scry,-programmable-internet-search-w-conge]] |
-| 2026-09-20T14:57:50+08:00 | HN Show HN | 点赞=59 · 评论=25 · engagement_velocity=59 | [[20-语料/posts/hn_show/2026-09-20/dfab7287682fdaee_Show-HN-Scry,-programmable-internet-search-w-conge]] |
+| 2026-09-20T09:23:24+08:00 | HN Show HN | 点赞=59 · 评论=25 · engagement_velocity=59 | [[20-语料/posts/hn_show/2026-09-21/dfab7287682fdaee_Show-HN-Scry,-programmable-internet-search-w-conge]] |
+| 2026-09-20T09:36:44+08:00 | HN Show HN | 点赞=59 · 评论=25 · engagement_velocity=59 | [[20-语料/posts/hn_show/2026-09-21/dfab7287682fdaee_Show-HN-Scry,-programmable-internet-search-w-conge]] |
+| 2026-09-20T09:37:51+08:00 | HN Show HN | 点赞=59 · 评论=25 · engagement_velocity=59 | [[20-语料/posts/hn_show/2026-09-21/dfab7287682fdaee_Show-HN-Scry,-programmable-internet-search-w-conge]] |
+| 2026-09-20T14:57:50+08:00 | HN Show HN | 点赞=59 · 评论=25 · engagement_velocity=59 | [[20-语料/posts/hn_show/2026-09-21/dfab7287682fdaee_Show-HN-Scry,-programmable-internet-search-w-conge]] |
+| 2026-09-21T00:03:44+08:00 | HN Show HN | 点赞=59 · 评论=25 · engagement_velocity=59 | [[20-语料/posts/hn_show/2026-09-21/dfab7287682fdaee_Show-HN-Scry,-programmable-internet-search-w-conge]] |
+| 2026-09-21T00:06:02+08:00 | HN Show HN | 点赞=59 · 评论=25 · engagement_velocity=59 | [[20-语料/posts/hn_show/2026-09-21/dfab7287682fdaee_Show-HN-Scry,-programmable-internet-search-w-conge]] |
 
 ## 摘要正文
 

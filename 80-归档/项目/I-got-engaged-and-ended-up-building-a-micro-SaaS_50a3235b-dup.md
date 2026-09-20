@@ -25,7 +25,7 @@ stale: true
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T14:59:10+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=13 · 赞踩比=0.81 | [[20-语料/posts/reddit/2026-09-20/50a3235bbb8cf8b5_I-got-engaged-and-ended-up-building-a-micro-SaaS-f]] |
+| 2026-09-20T14:59:10+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=13 · 赞踩比=0.81 | [[20-语料/posts/reddit/2026-09-21/50a3235bbb8cf8b5_I-got-engaged-and-ended-up-building-a-micro-SaaS-f]] |
 
 ## 摘要正文
 

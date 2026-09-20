@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1wht4eo/people_hate_subscriptions_what_can_you_do_instead/"
 author: "sumizeit"
 published_at: "2026-09-16T18:12:34+08:00"
-captured_at: "2026-09-20T14:59:25+08:00"
+captured_at: "2026-09-21T00:05:04+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -19,8 +19,8 @@ tags:
   - r/EntrepreneurRideAlong
   - Seeking Advice
 metrics: {"score": 3, "comments": 20, "upvote_ratio": 1}
-comments_count: 19
-comments_total: 20
+comments_count: 21
+comments_total: 21
 discovered_via: "reddit:7d+settle3"
 ---
 
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=20 · 赞踩比=1
 > 作者：sumizeit　|　发布：2026-09-16T18:12:34+08:00
 > 项目链接：—
-> 采集：2026-09-20T14:59:25+08:00　|　id：`9896e904a6b8f348`
+> 采集：2026-09-21T00:05:04+08:00　|　id：`9896e904a6b8f348`
 
 ## 正文
 
@@ -47,7 +47,7 @@ I add "Cancel anytime by going to X"
 
 I tried lifetime at a higher price.
 
-## 评论（19/20）
+## 评论（21/21）
 
 > **cabljo**（2 分） · 2026-09-16T18:44:44+08:00　
 > You could do version licenses
@@ -151,6 +151,18 @@ I tried lifetime at a higher price.
 
 > **SunPossible948**（1 分） · 2026-09-18T03:20:17+08:00　
 > Compare the difference between your free and subscription model. People will pay if they believe the subscription is worth it. Perhaps some of the original free items you could change to not be free anymore, and incentivise those to upgrade, or bring out new items / qualities specifically for subscribers. Could add a pop up each time you release that shows a couple of times upon entry for each new subscriber item for the non-subs - e.g - always wanted to do X by X? Now you can with the NEW feature for subs! Sign up today for X.
+
+---
+
+> **Share_Tiny**（1 分） · 2026-09-20T19:19:11+08:00　
+> As much as I hate subscriptions, I still end up paying for them. I mean, what choice do we have when everything is subscription-based now?
+>
+> https://preview.redd.it/gwr1kfhtsnqh1.png?width=2160&format=png&auto=webp&s=b5e418436c6a82b6021b10b62222a58bf98003fc
+
+---
+
+> **sumizeit**（1 分） · 2026-09-20T20:12:57+08:00　
+> True
 
 ## 导航
 

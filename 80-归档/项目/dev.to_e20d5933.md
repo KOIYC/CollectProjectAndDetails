@@ -28,14 +28,14 @@ stale: true
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T02:36:46+08:00 | dev.to | reactions=8 · 评论=4 · reading_time=1 | [[20-语料/posts/devto/2026-09-20/e20d5933bd9cecb5_What-are-your-goals-for-the-week-196]] |
-| 2026-09-20T02:41:47+08:00 | dev.to | reactions=8 · 评论=4 · reading_time=1 | [[20-语料/posts/devto/2026-09-20/e20d5933bd9cecb5_What-are-your-goals-for-the-week-196]] |
-| 2026-09-20T02:58:10+08:00 | dev.to | reactions=8 · 评论=4 · reading_time=1 | [[20-语料/posts/devto/2026-09-20/e20d5933bd9cecb5_What-are-your-goals-for-the-week-196]] |
-| 2026-09-20T03:07:27+08:00 | dev.to | reactions=8 · 评论=4 · reading_time=1 | [[20-语料/posts/devto/2026-09-20/e20d5933bd9cecb5_What-are-your-goals-for-the-week-196]] |
-| 2026-09-20T03:19:58+08:00 | dev.to | reactions=8 · 评论=4 · reading_time=1 | [[20-语料/posts/devto/2026-09-20/e20d5933bd9cecb5_What-are-your-goals-for-the-week-196]] |
-| 2026-09-20T03:38:17+08:00 | dev.to | reactions=8 · 评论=4 · reading_time=1 | [[20-语料/posts/devto/2026-09-20/e20d5933bd9cecb5_What-are-your-goals-for-the-week-196]] |
-| 2026-09-20T03:41:18+08:00 | dev.to | reactions=8 · 评论=4 · reading_time=1 | [[20-语料/posts/devto/2026-09-20/e20d5933bd9cecb5_What-are-your-goals-for-the-week-196]] |
-| 2026-09-20T03:45:33+08:00 | dev.to | reactions=8 · 评论=4 · reading_time=1 | [[20-语料/posts/devto/2026-09-20/e20d5933bd9cecb5_What-are-your-goals-for-the-week-196]] |
+| 2026-09-20T02:36:46+08:00 | dev.to | reactions=8 · 评论=4 · reading_time=1 | [[80-归档/posts/devto/2026-09-20/e20d5933bd9cecb5_What-are-your-goals-for-the-week-196]] |
+| 2026-09-20T02:41:47+08:00 | dev.to | reactions=8 · 评论=4 · reading_time=1 | [[80-归档/posts/devto/2026-09-20/e20d5933bd9cecb5_What-are-your-goals-for-the-week-196]] |
+| 2026-09-20T02:58:10+08:00 | dev.to | reactions=8 · 评论=4 · reading_time=1 | [[80-归档/posts/devto/2026-09-20/e20d5933bd9cecb5_What-are-your-goals-for-the-week-196]] |
+| 2026-09-20T03:07:27+08:00 | dev.to | reactions=8 · 评论=4 · reading_time=1 | [[80-归档/posts/devto/2026-09-20/e20d5933bd9cecb5_What-are-your-goals-for-the-week-196]] |
+| 2026-09-20T03:19:58+08:00 | dev.to | reactions=8 · 评论=4 · reading_time=1 | [[80-归档/posts/devto/2026-09-20/e20d5933bd9cecb5_What-are-your-goals-for-the-week-196]] |
+| 2026-09-20T03:38:17+08:00 | dev.to | reactions=8 · 评论=4 · reading_time=1 | [[80-归档/posts/devto/2026-09-20/e20d5933bd9cecb5_What-are-your-goals-for-the-week-196]] |
+| 2026-09-20T03:41:18+08:00 | dev.to | reactions=8 · 评论=4 · reading_time=1 | [[80-归档/posts/devto/2026-09-20/e20d5933bd9cecb5_What-are-your-goals-for-the-week-196]] |
+| 2026-09-20T03:45:33+08:00 | dev.to | reactions=8 · 评论=4 · reading_time=1 | [[80-归档/posts/devto/2026-09-20/e20d5933bd9cecb5_What-are-your-goals-for-the-week-196]] |
 
 ## 摘要正文
 

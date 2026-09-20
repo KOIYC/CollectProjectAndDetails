@@ -11,7 +11,7 @@ published_at: "2026-09-18T09:34:02Z"
 captured_at: "2026-09-20T14:02:32+08:00"
 lang: "en"
 kind: "post"
-topic: "AI 工具/Agent"
+topic: 开发者工具
 shard: "2026-09-20"
 pub_day: "2026-09-18"
 tags:
@@ -242,5 +242,5 @@ Apache 2.0. See LICENSE.
 
 - 项目页：[[10-项目/github.com_c56e8576]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

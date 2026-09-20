@@ -13,11 +13,15 @@ lang: "en"
 
 # Restore Balance Through Feeling: MONOWAVE Launches Today on Steam & Nintendo Switch! – TECHMASH
 
-- **原帖**：https://techmash.co.uk/2026/09/17/restore-balance-through-feeling-monowave-launches-today-on-steam-nintendo-switch/
-- **作者**：—
-- **首次收录**：2026-09-20T02:39:50+08:00
-- **来源渠道**：Exa 全网语义发现
-- **标签**：—
+> [!info] 一句话导读
+> Title: Restore Balance Through Feeling: MONOWAVE Launches Today on Steam & Nintendo Switch! – TECHMASH
+
+> [!meta]- 文章信息（点开展开）
+> 原帖：<https://techmash.co.uk/2026/09/17/restore-balance-through-feeling-monowave-launches-today-on-steam-nintendo-switch/>
+> 作者：—
+> 首次收录：2026-09-20T02:39:50+08:00
+> 来源渠道：Exa 全网语义发现
+> 标签：—
 
 ## 观测历史
 

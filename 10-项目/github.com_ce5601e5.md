@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Ordewell – turn one goal into an ordered plan of coding-agent tasks"
 project_url: "https://github.com/ordewell/ordewell"
-first_seen: "2026-09-20T14:58:09+08:00"
+first_seen: "2026-09-21T00:06:18+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/ordewell/ordewell>
-> 首次收录：2026-09-20T14:58:09+08:00
+> 首次收录：2026-09-21T00:06:18+08:00
 > 来源渠道：HN Show HN
 > 标签：author_ac-ciano, story_49712276, show_hn
 > 最新指标：点赞=54 · 评论=34 · engagement_velocity=54
@@ -30,11 +30,13 @@ lang: "en"
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T09:23:24+08:00 | HN Show HN | 点赞=54 · 评论=34 · engagement_velocity=54 | [[20-语料/posts/hn_show/2026-09-20/47c6b23ea2c1601d_Show-HN-Ordewell-–-turn-one-goal-into-an-ordered-p]] |
-| 2026-09-20T09:37:16+08:00 | HN Show HN | 点赞=54 · 评论=34 · engagement_velocity=54 | [[20-语料/posts/hn_show/2026-09-20/47c6b23ea2c1601d_Show-HN-Ordewell-–-turn-one-goal-into-an-ordered-p]] |
-| 2026-09-20T09:38:43+08:00 | HN Show HN | 点赞=54 · 评论=34 · engagement_velocity=54 | [[20-语料/posts/hn_show/2026-09-20/47c6b23ea2c1601d_Show-HN-Ordewell-–-turn-one-goal-into-an-ordered-p]] |
-| 2026-09-20T14:06:33+08:00 | HN Show HN | 点赞=54 · 评论=34 · engagement_velocity=54 | [[20-语料/posts/hn_show/2026-09-20/47c6b23ea2c1601d_Show-HN-Ordewell-–-turn-one-goal-into-an-ordered-p]] |
-| 2026-09-20T14:58:09+08:00 | HN Show HN | 点赞=54 · 评论=34 · engagement_velocity=54 | [[20-语料/posts/hn_show/2026-09-20/47c6b23ea2c1601d_Show-HN-Ordewell-–-turn-one-goal-into-an-ordered-p]] |
+| 2026-09-20T09:23:24+08:00 | HN Show HN | 点赞=54 · 评论=34 · engagement_velocity=54 | [[20-语料/posts/hn_show/2026-09-21/47c6b23ea2c1601d_Show-HN-Ordewell-–-turn-one-goal-into-an-ordered-p]] |
+| 2026-09-20T09:37:16+08:00 | HN Show HN | 点赞=54 · 评论=34 · engagement_velocity=54 | [[20-语料/posts/hn_show/2026-09-21/47c6b23ea2c1601d_Show-HN-Ordewell-–-turn-one-goal-into-an-ordered-p]] |
+| 2026-09-20T09:38:43+08:00 | HN Show HN | 点赞=54 · 评论=34 · engagement_velocity=54 | [[20-语料/posts/hn_show/2026-09-21/47c6b23ea2c1601d_Show-HN-Ordewell-–-turn-one-goal-into-an-ordered-p]] |
+| 2026-09-20T14:06:33+08:00 | HN Show HN | 点赞=54 · 评论=34 · engagement_velocity=54 | [[20-语料/posts/hn_show/2026-09-21/47c6b23ea2c1601d_Show-HN-Ordewell-–-turn-one-goal-into-an-ordered-p]] |
+| 2026-09-20T14:58:09+08:00 | HN Show HN | 点赞=54 · 评论=34 · engagement_velocity=54 | [[20-语料/posts/hn_show/2026-09-21/47c6b23ea2c1601d_Show-HN-Ordewell-–-turn-one-goal-into-an-ordered-p]] |
+| 2026-09-21T00:03:58+08:00 | HN Show HN | 点赞=54 · 评论=34 · engagement_velocity=54 | [[20-语料/posts/hn_show/2026-09-21/47c6b23ea2c1601d_Show-HN-Ordewell-–-turn-one-goal-into-an-ordered-p]] |
+| 2026-09-21T00:06:18+08:00 | HN Show HN | 点赞=54 · 评论=34 · engagement_velocity=54 | [[20-语料/posts/hn_show/2026-09-21/47c6b23ea2c1601d_Show-HN-Ordewell-–-turn-one-goal-into-an-ordered-p]] |
 
 ## 摘要正文
 

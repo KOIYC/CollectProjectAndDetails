@@ -26,7 +26,7 @@ stale: true
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T14:58:54+08:00 | Reddit 独立开发版块 | 得分=5 · 评论=2 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-20/c291674cb614e6a5_One-thing-I-learned-building-CPG-products]] |
+| 2026-09-20T14:58:54+08:00 | Reddit 独立开发版块 | 得分=5 · 评论=2 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/c291674cb614e6a5_One-thing-I-learned-building-CPG-products]] |
 
 ## 摘要正文
 

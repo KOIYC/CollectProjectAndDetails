@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Proxy-benchmark – is it the proxy, the browser, or your machine?"
 project_url: "https://github.com/nodemaven/proxy-benchmark"
-first_seen: "2026-09-20T14:57:50+08:00"
+first_seen: "2026-09-21T00:06:02+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/nodemaven/proxy-benchmark>
-> 首次收录：2026-09-20T14:57:50+08:00
+> 首次收录：2026-09-21T00:06:02+08:00
 > 来源渠道：HN Show HN
 > 标签：author_pia-nm, story_49752694, show_hn
 > 最新指标：点赞=2 · 评论=0 · engagement_velocity=2
@@ -33,6 +33,7 @@ lang: "en"
 | 2026-09-20T09:23:24+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-20/1eff0532efaf5002_Show-HN-Proxy-benchmark-–-is-it-the-proxy,-the-bro]] |
 | 2026-09-20T09:36:41+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-20/1eff0532efaf5002_Show-HN-Proxy-benchmark-–-is-it-the-proxy,-the-bro]] |
 | 2026-09-20T14:57:50+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-20/1eff0532efaf5002_Show-HN-Proxy-benchmark-–-is-it-the-proxy,-the-bro]] |
+| 2026-09-21T00:06:02+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-20/1eff0532efaf5002_Show-HN-Proxy-benchmark-–-is-it-the-proxy,-the-bro]] |
 
 ## 摘要正文
 

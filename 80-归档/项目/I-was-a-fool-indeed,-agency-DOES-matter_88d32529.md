@@ -26,7 +26,7 @@ stale: true
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T14:58:30+08:00 | Reddit 独立开发版块 | 得分=15 · 评论=3 · 赞踩比=0.89 | [[20-语料/posts/reddit/2026-09-20/88d325299c94764c_I-was-a-fool-indeed,-agency-DOES-matter]] |
+| 2026-09-20T14:58:30+08:00 | Reddit 独立开发版块 | 得分=15 · 评论=3 · 赞踩比=0.89 | [[20-语料/posts/reddit/2026-09-21/88d325299c94764c_I-was-a-fool-indeed,-agency-DOES-matter]] |
 
 ## 摘要正文
 

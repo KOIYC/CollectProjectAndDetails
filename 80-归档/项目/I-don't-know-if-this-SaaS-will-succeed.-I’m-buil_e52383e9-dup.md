@@ -25,7 +25,7 @@ stale: true
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T14:58:41+08:00 | Reddit 独立开发版块 | 得分=10 · 评论=11 · 赞踩比=0.82 | [[20-语料/posts/reddit/2026-09-20/e52383e95f92b7cb_I-don't-know-if-this-SaaS-will-succeed.-I’m-buildi]] |
+| 2026-09-20T14:58:41+08:00 | Reddit 独立开发版块 | 得分=10 · 评论=11 · 赞踩比=0.82 | [[20-语料/posts/reddit/2026-09-21/e52383e95f92b7cb_I-don't-know-if-this-SaaS-will-succeed.-I’m-buildi]] |
 
 ## 摘要正文
 

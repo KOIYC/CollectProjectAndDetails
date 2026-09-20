@@ -44,7 +44,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from kb_common import (META, ROOT, Seen, fm_scalars, iso, norm_url, now_cst,  # noqa: E402
-                       rotate_files, set_fm_scalar, sha1, slugify, split_note, topic_of)
+                       rotate_files, set_fm_scalar, sha1, slugify, split_note, topic_of,
+                       _BAD)
 from kb_collect import (corpus_note_path, method_note_path, nav_block,  # noqa: E402
                         person_note_path, project_note_path)
 from kb_content_audit import load_latest                               # noqa: E402
@@ -228,6 +229,18 @@ def fix_links(apply: bool) -> Counter:
 # ---------------------------------------------------------------- 文件名修复
 
 NAME_DIRS = ("20-语料", "80-归档", "10-项目", "30-人物")
+_LIVE_DIRS = ("20-语料", "10-项目", "30-人物", "40-方法论")   # 撞名判定用的「在库」集合
+_DUP_RE = re.compile(r"-dup\d*$")
+
+
+def _archived_dst(stem: Path) -> Path:
+    """归档区消歧后缀：-dup 被 kb_prune 占用过就顺延 -dup2/-dup3……"""
+    dst = stem.with_name(stem.stem + "-dup" + stem.suffix)
+    n = 1
+    while dst.exists():
+        n += 1
+        dst = stem.with_name(f"{stem.stem}-dup{n}" + stem.suffix)
+    return dst
 
 
 def _rec_index() -> tuple[dict[str, dict], dict[str, dict]]:
@@ -322,24 +335,50 @@ def fix_names(apply: bool) -> Counter:
     moves: list[dict] = []
     pairs: dict[str, str] = {}
     by_id, by_hash = _rec_index()
+    # 冻结区（决策 2026-09-20「80-归档=冻结快照，规则变了也不跟着改名」）：
+    # 归档页**不做**规范名反算——归档名是历史事实；只允许两类改名：
+    #   ① 语法字符清理（[ ] # ^ 等，否则断链检查有盲区）；
+    #   ② 与在库页撞 stem、或**归档内部跨分片撞 stem** 的消歧（kb_prune -dup 先例）
+    #      ——这类**不**登记进 pairs，消歧后裸 [[短名]] 唯一指向在库页/最新归档份。
+    #   归档内部同名多源于「归档→回填迁移→再归档」链（backfill 迁移 bug 遗留，
+    #   2026-09-21 清出 3 例）：保留日期最大分片那份，旧份加 -dupN。
+    live_stems = {q.stem for top in _LIVE_DIRS for q in (ROOT / top).rglob("*.md")}
+    arch_by_stem: dict[str, list[Path]] = {}
+    for q in sorted((ROOT / "80-归档").rglob("*.md")):   # 字典序：日期桶自然从旧到新
+        if not _DUP_RE.search(q.stem):
+            arch_by_stem.setdefault(q.stem, []).append(q)
+    arch_stale = {p for paths in arch_by_stem.values() if len(paths) > 1 for p in paths[:-1]}
     for top in NAME_DIRS:
         for p in sorted((ROOT / top).rglob("*.md")):
-            if p.stem.endswith("-dup"):            # kb_prune 归档时撞名留下的副本，本就是重名物
+            if _DUP_RE.search(p.stem):             # kb_prune/本工具消歧留下的副本，本就是重名物
                 continue
-            want = canon_stem(p, by_id, by_hash) or slugify(p.stem, 120)
-            if want == p.stem:
-                continue
-            dst = p.with_name(want + ".md")
+            disambig = False                       # 纯消歧改名（stem 文本不变）→ 不改写链接
+            if top == "80-归档":
+                want = slugify(p.stem, 120)
+                disambig = p.stem in live_stems or p in arch_stale
+                if want == p.stem and not disambig:
+                    continue
+                base = p.with_name(want + ".md") if want != p.stem else p
+                dst = _archived_dst(base) if disambig else base
+            else:
+                want = canon_stem(p, by_id, by_hash) or slugify(p.stem, 120)
+                if want == p.stem:
+                    continue
+                dst = p.with_name(want + ".md")
             if dst.exists():
                 stat["跳过(重名)"] += 1
                 if stat["跳过(重名)"] <= 6:
-                    print(f"  [重名] {p.relative_to(ROOT).as_posix()} → 目标已存在 {want}.md")
+                    print(f"  [重名] {p.relative_to(ROOT).as_posix()} → 目标已存在 {dst.name}")
                 continue
             stat["待改名"] += 1
-            stat["有记录反算" if want != slugify(p.stem, 120) else "仅按规则清字符"] += 1
+            if top == "80-归档":
+                stat["归档消歧" if p.stem in live_stems else "归档语法清理"] += 1
+            else:
+                stat["有记录反算" if want != slugify(p.stem, 120) else "仅按规则清字符"] += 1
             old_rel = p.relative_to(ROOT).as_posix()
             new_rel = dst.relative_to(ROOT).as_posix()
-            pairs[p.stem] = new_rel[:-3]
+            if not disambig or want != p.stem:     # 文本有变（反算/清字符）才改写链接；纯消歧不动
+                pairs[p.stem] = new_rel[:-3]       # 裸消歧不加 pairs：[[短名]] 应解析到在库页/最新份
             moves.append({"from": old_rel, "to": new_rel})
             if apply:
                 p.rename(dst)

@@ -28,11 +28,11 @@ stale: true
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T02:36:44+08:00 | dev.to | reactions=42 · 评论=38 · reading_time=8 | [[20-语料/posts/devto/2026-09-20/b52606e646059f40_The-Internship-That-Taught-Me-to-Read-Between-the]] |
-| 2026-09-20T02:41:45+08:00 | dev.to | reactions=42 · 评论=38 · reading_time=8 | [[20-语料/posts/devto/2026-09-20/b52606e646059f40_The-Internship-That-Taught-Me-to-Read-Between-the]] |
-| 2026-09-20T02:58:09+08:00 | dev.to | reactions=42 · 评论=38 · reading_time=8 | [[20-语料/posts/devto/2026-09-20/b52606e646059f40_The-Internship-That-Taught-Me-to-Read-Between-the]] |
-| 2026-09-20T03:07:24+08:00 | dev.to | reactions=42 · 评论=38 · reading_time=8 | [[20-语料/posts/devto/2026-09-20/b52606e646059f40_The-Internship-That-Taught-Me-to-Read-Between-the]] |
-| 2026-09-20T03:45:30+08:00 | dev.to | reactions=42 · 评论=38 · reading_time=8 | [[20-语料/posts/devto/2026-09-20/b52606e646059f40_The-Internship-That-Taught-Me-to-Read-Between-the]] |
+| 2026-09-20T02:36:44+08:00 | dev.to | reactions=42 · 评论=38 · reading_time=8 | [[80-归档/posts/devto/2026-09-20/b52606e646059f40_The-Internship-That-Taught-Me-to-Read-Between-the]] |
+| 2026-09-20T02:41:45+08:00 | dev.to | reactions=42 · 评论=38 · reading_time=8 | [[80-归档/posts/devto/2026-09-20/b52606e646059f40_The-Internship-That-Taught-Me-to-Read-Between-the]] |
+| 2026-09-20T02:58:09+08:00 | dev.to | reactions=42 · 评论=38 · reading_time=8 | [[80-归档/posts/devto/2026-09-20/b52606e646059f40_The-Internship-That-Taught-Me-to-Read-Between-the]] |
+| 2026-09-20T03:07:24+08:00 | dev.to | reactions=42 · 评论=38 · reading_time=8 | [[80-归档/posts/devto/2026-09-20/b52606e646059f40_The-Internship-That-Taught-Me-to-Read-Between-the]] |
+| 2026-09-20T03:45:30+08:00 | dev.to | reactions=42 · 评论=38 · reading_time=8 | [[80-归档/posts/devto/2026-09-20/b52606e646059f40_The-Internship-That-Taught-Me-to-Read-Between-the]] |
 
 ## 摘要正文
 

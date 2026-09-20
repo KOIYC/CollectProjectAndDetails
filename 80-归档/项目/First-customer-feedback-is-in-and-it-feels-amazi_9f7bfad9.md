@@ -25,7 +25,7 @@ stale: true
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T14:58:22+08:00 | Reddit 独立开发版块 | 得分=13 · 评论=19 · 赞踩比=0.89 | [[20-语料/posts/reddit/2026-09-20/9f7bfad9d3b489a3_First-customer-feedback-is-in-and-it-feels-amazing]] |
+| 2026-09-20T14:58:22+08:00 | Reddit 独立开发版块 | 得分=13 · 评论=19 · 赞踩比=0.89 | [[20-语料/posts/reddit/2026-09-21/9f7bfad9d3b489a3_First-customer-feedback-is-in-and-it-feels-amazing]] |
 
 ## 摘要正文
 

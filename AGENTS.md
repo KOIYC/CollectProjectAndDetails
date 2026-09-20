@@ -20,7 +20,7 @@
 3. ❌ **不手改 `_meta/`**（seen.json / channels.yaml / manifest…），由脚本读写。
 4. ❌ **不 `pip install`**：工具链零第三方依赖（本机 PyPI 不可达），只用 stdlib。
 5. ❌ **不改 `90-原始/`**：唯一事实源，只追加、不可变；口径变化只加新字段。
-6. ❌ **收工不过 `kb_healthcheck.py` = 没收工**：五项不变量全绿才算完，数字对不上是改动错了。
+6. ❌ **收工不过 `kb_healthcheck.py` = 没收工**：八项不变量全绿才算完（①-⑤硬门 + ⑥⑦⑧软门须逐条说明），数字对不上是改动错了。
 
 ---
 
@@ -59,7 +59,7 @@
 | `kb_moc.py` | 结构变更后/每周 | 三张 MOC：项目地图 / 归档与申诉 / 报告总览 |
 | `kb_navfix.py` | 结构变更后/按需 | 补 topic/shard/pub_day/导航段；`--fix-links`；`--fix-names`（均幂等） |
 | `kb_name_audit.py` | 命名改动后/每周 | 命名与框架审计（只读），要求**全部通过** |
-| `kb_healthcheck.py` | 任何改动后 | **五项不变量**自检，收工门 |
+| `kb_healthcheck.py` | 任何改动后 | **八项不变量**自检（①-⑤硬门 + ⑥⑦⑧软门），收工门 |
 
 ## 3. 执行流程（runbook）
 
@@ -169,7 +169,7 @@ PY="C:/Users/yangcan/.workbuddy/binaries/python/versions/3.13.12/python.exe"
 
 ## 9. 变更纪律（改完之后）
 
-1. 工具改动 → `kb_selftest.py` 全过（现 34 例）；任何改动 → `kb_healthcheck.py` 五项全绿；
+1. 工具改动 → `kb_selftest.py` 全过（现 38 例）；任何改动 → `kb_healthcheck.py` 八项全绿；
    命名/框架改动 → 另跑 `kb_name_audit.py` 清零；收工前 commit（推送远端）。
 2. 产出的报告/决定 → 追加 `00-索引/运行日志.md`；跨会话约定 → 更新本页与 `Home.md`。
-3. 汇报格式：新语料条数 · 渠道 ok/异常/未解锁 · 渠道决定 · 回填数量 · 可用率 · 结构维护结果 · 五不变量 · 命名审计 · delta · 质检达标与否。
+3. 汇报格式：新语料条数 · 渠道 ok/异常/未解锁 · 渠道决定 · 回填数量 · 可用率 · 结构维护结果 · 八不变量 · 命名审计 · delta · 质检达标与否。

@@ -168,6 +168,23 @@ def stamp_frontmatter(path: Path, reason: str) -> None:
     path.write_text(fm + add + rest, encoding="utf-8")
 
 
+def _free_dup_name(dst: Path) -> Path:
+    """归档撞名顺延 -dup/-dup2/-dup3……直到空位。
+
+    为什么必须循环：单发 `-dup` 在「归档→再采集→再归档」链下会**静默覆盖**
+    已存在的 -dup（shutil.move 对已存在目标是覆盖语义），烧掉一份冻结区历史。
+    （2026-09-20 修：fix-names 归档消歧会批量造出 -dupN 链，此坑从罕见变必踩。）
+    """
+    if not dst.exists():
+        return dst
+    cand = dst.with_name(dst.stem + "-dup" + dst.suffix)   # 先例：裸 -dup 打头（fix-names 同序）
+    n = 1
+    while cand.exists():
+        n += 1
+        cand = dst.with_name(f"{dst.stem}-dup{n}" + dst.suffix)
+    return cand
+
+
 def do_apply(plan: dict[str, list[dict]], seen: Seen) -> Path:
     moves: list[dict] = []
     for ch_id, rows in plan.items():
@@ -177,8 +194,7 @@ def do_apply(plan: dict[str, list[dict]], seen: Seen) -> Path:
                 continue
             dst = archive_path(r["note"])
             dst.parent.mkdir(parents=True, exist_ok=True)
-            if dst.exists():                       # 罕见：同 id 重复搬过
-                dst = dst.with_name(dst.stem + "-dup" + dst.suffix)
+            dst = _free_dup_name(dst)              # 罕见：同 id 重复搬过
             shutil.move(str(src), str(dst))
             stamp_frontmatter(dst, r["reason"])
             rel_new = dst.relative_to(ROOT).as_posix()
@@ -187,12 +203,153 @@ def do_apply(plan: dict[str, list[dict]], seen: Seen) -> Path:
             # 同步见账簿里的 note 位置，否则下一轮 kb_collect 会以为 note 还在老地方
             if r["item_id"] in seen.items:
                 seen.items[r["item_id"]]["note"] = rel_new
+
+    # 搬运自验（硬要求）：move 不是「复制」的语义，源文件必须消失、目标必须落地。
+    # 实测 2026-09-21 零点连跑两轮归档，6 moves 里 3 条源文件仍在盘上 →
+    # 下一轮重判把同一条**再归档一次**（归档区同条两份），① 计数等式当场破功，
+    # 而在此之前每一步都「看起来成功」。搬完不验 = 把债挂到下一轮。
+    bad = [m for m in moves
+           if (ROOT / m["from"]).exists() or not (ROOT / m["to"]).exists()]
+    if bad:
+        print(f"[!] 搬运未生效 {len(bad)}/{len(moves)} 条（源文件仍在 或 目标缺失）—— "
+              f"不得继续跑下一轮重判，先查原因（多为目标被占用/跨盘 move 退化成复制）：", flush=True)
+        for m in bad[:10]:
+            print(f"     {m['item_id']} from={m['from']} to={m['to']}", flush=True)
     seen.save()
     man = META / f"prune_manifest_{now_cst().strftime('%Y%m%dT%H%M%S')}.json"
-    man.write_text(json.dumps({"at": iso(now_cst()), "moves": moves},
+    man.write_text(json.dumps({"at": iso(now_cst()), "moves": moves,
+                               "unverified": [m["item_id"] for m in bad]},
                               ensure_ascii=False, indent=2), encoding="utf-8")
     rotate_files(META, "prune_manifest_", 12)               # 工作区只留近 12 份（git 历史兜底）
     return man
+
+
+def _iid_of_note(p: Path) -> str:
+    """取 note 的 item_id：先看 frontmatter，回退文件名前缀 `<iid>_slug.md`。"""
+    try:
+        for ln in p.read_text(encoding="utf-8").splitlines()[:40]:
+            m = re.match(r"^item_id:\s*(.+?)\s*$", ln)
+            if m:
+                return m.group(1).strip().strip('"')
+    except OSError:
+        pass
+    return p.name.split("_", 1)[0]
+
+
+def dedupe_archive(apply: bool, seen: Seen) -> int:
+    """归档区「同条目多份快照」去重：只留账本指向的那份，其余移进 `80-归档/重复副本/<ts>/`。
+
+    为什么会有多份：冻结区靠 `-dup/-dup2` 顺延撞名（见 `_free_dup_name`），而同一条目
+    跨天被重判归档两次时又会落进不同日期桶（2026-09-21 实测：一条 4 份）。
+    后果不是「占空间」这么轻 —— 归档区被 Obsidian 全文索引，同一条重复 N 次会让
+    「归档了什么」的检索结果不可信，且 `80-归档/posts` 计数永远对不上账本（127 vs 117）。
+
+    保留规则（优先级从高到低）：
+      1. `seen.note` 指向的那份 —— 它是「当前认账的那份」，动它会让账本与磁盘脱节；
+      2. 都没有则留 mtime 最新的那份（最后一次写入的快照最新）。
+    其余**只移不移删**（搬进重复副本目录，manifest 可 undo）—— 冻结区不做不可逆删除。
+    幂等：跑完第二遍应为 0。
+    """
+    groups: dict[str, list[Path]] = {}
+    for p in (ROOT / "80-归档" / "posts").rglob("*.md"):
+        groups.setdefault(_iid_of_note(p), []).append(p)
+    dup = {i: ps for i, ps in groups.items() if len(ps) > 1}
+    if not dup:
+        print("归档区无同条目重复快照")
+        return 0
+    print(f"归档区同条目多份：{len(dup)} 组 / 共 {sum(len(v) for v in dup.values())} 份")
+
+    keep, move = [], []
+    for iid, ps in sorted(dup.items()):
+        want = str((seen.items.get(iid) or {}).get("note") or "")
+        keeper = next((p for p in ps if p.relative_to(ROOT).as_posix() == want), None)
+        if keeper is None:
+            keeper = max(ps, key=lambda p: p.stat().st_mtime)
+        keep.append(keeper)
+        move += [p for p in ps if p is not keeper]
+    for p in sorted(dup):
+        pass
+    print(f"  保留 {len(keep)} 份 · 待移出 {len(move)} 份")
+    if not apply:
+        for p in move[:10]:
+            print(f"    {p.relative_to(ROOT).as_posix()}")
+        print("  （只报告；加 --apply 才搬运）")
+        return len(move)
+
+    ts = now_cst().strftime("%Y%m%dT%H%M%S")
+    moves = []
+    for p in move:
+        rel = p.relative_to(ROOT).as_posix()
+        dst = ROOT / "80-归档" / "重复副本" / ts / rel[len("80-归档/"):]
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        dst = _free_dup_name(dst)
+        shutil.move(str(p), str(dst))
+        moves.append({"from": rel, "to": dst.relative_to(ROOT).as_posix()})
+    man = META / f"archive_dedupe_manifest_{ts}.json"
+    man.write_text(json.dumps({"at": iso(now_cst()), "moves": moves},
+                              ensure_ascii=False, indent=2), encoding="utf-8")
+    rotate_files(META, "archive_dedupe_manifest_", 12)
+    print(f"  已移出 {len(moves)} 份 → {man.relative_to(ROOT).as_posix()}"
+          f"（回滚：python tools/kb_prune.py --undo-dedupe {man.relative_to(ROOT).as_posix()}）")
+    return len(moves)
+
+
+def undo_dedupe(man_path: str) -> int:
+    man = json.loads(Path(man_path).read_text(encoding="utf-8"))
+    n = 0
+    for m in man.get("moves") or []:
+        src, dst = ROOT / m["to"], ROOT / m["from"]
+        if not src.exists():
+            continue
+        dst.parent.mkdir(parents=True, exist_ok=True)
+        shutil.move(str(src), str(dst))
+        n += 1
+    return n
+
+
+def prune_empty_dirs(apply: bool) -> int:
+    """清掉 `20-语料/posts/<渠道>/<日期>/` 里的空桶壳。
+
+    渠道整体被归档/停用后，语料搬空但目录壳留在原处 —— 它不进任何计数，
+    但会让「这个渠道还在采」的错觉成立（目录树里看得见），并让 glob 扫盘白跑一遍。
+    """
+    # 由内向外反复扫：删掉日期桶后渠道目录自己也会变空（一轮扫不干净，实测第二遍还剩 4 个）
+    empty: list[Path] = []
+    while True:
+        batch = [p for p in (ROOT / "20-语料" / "posts").rglob("*")
+                 if p.is_dir() and not any(p.iterdir())]
+        if not batch:
+            break
+        empty += batch
+        if not apply:
+            break
+        removed = 0
+        for p in batch:
+            try:
+                p.rmdir()
+                removed += 1
+            except OSError as e:
+                print(f"    [!] 删不掉 {p.relative_to(ROOT).as_posix()}: {str(e)[:60]}")
+        if removed == 0:                       # 全删不动 → 停，避免死循环
+            break
+    if not empty:
+        print("20-语料 无空目录")
+        return 0
+    print(f"20-语料 空目录 {len(empty)} 个：")
+    for p in empty:
+        print(f"    {p.relative_to(ROOT).as_posix()}")
+    if not apply:
+        print("  （只报告；加 --apply 才删除）")
+        return len(empty)
+    n = 0
+    for p in empty:
+        try:
+            p.rmdir()
+            n += 1
+        except OSError as e:
+            print(f"    [!] 删不掉 {p.relative_to(ROOT).as_posix()}: {str(e)[:60]}")
+    print(f"  已删除 {n} 个空目录")
+    return n
 
 
 def do_undo(man_path: str, seen: Seen) -> int:
@@ -392,16 +549,25 @@ def archive_entities_apply(info: dict) -> Path:
             src, dst = ROOT / r["note"], ROOT / r["to"]
             if not src.exists():
                 continue
-            if dst.exists():
-                dst = dst.with_name(dst.stem + "-dup" + dst.suffix)
+            dst = _free_dup_name(dst)
             shutil.move(str(src), str(dst))
             to_rel = dst.relative_to(ROOT).as_posix()
             pairs[r["note"][:-3]] = to_rel[:-3]        # wikilink 文本不带 .md
             moves.append({"stem": r["stem"], "from": r["note"], "to": to_rel})
     n_files = _rewrite_links(pairs)
+    # 同 do_apply：搬完必须自验。实体页被搬走后 `10-项目/` 里的旧路径若还在，
+    # 下一轮 liveness 会把它再判一遍、再搬一次 → 归档区同页两份 + 检索面没清干净。
+    bad = [m for m in moves
+           if (ROOT / m["from"]).exists() or not (ROOT / m["to"]).exists()]
+    if bad:
+        print(f"[!] 实体页搬运未生效 {len(bad)}/{len(moves)} 个（源文件仍在 或 目标缺失）—— "
+              f"先查原因再跑下一轮：", flush=True)
+        for m in bad[:10]:
+            print(f"     {m['stem']} from={m['from']} to={m['to']}", flush=True)
     man = META / f"entity_archive_manifest_{now_cst().strftime('%Y%m%dT%H%M%S')}.json"
     man.write_text(json.dumps(
-        {"at": iso(now_cst()), "moves": moves, "rewritten_notes": n_files},
+        {"at": iso(now_cst()), "moves": moves, "rewritten_notes": n_files,
+         "unverified": [m["stem"] for m in bad]},
         ensure_ascii=False, indent=2), encoding="utf-8")
     rotate_files(META, "entity_archive_manifest_", 12)      # 同上（kb_moc 聚合近 12 份的理由）
     return man
@@ -527,10 +693,26 @@ def main(argv=None) -> int:
     ap.add_argument("--archive-entities", action="store_true",
                     help="把 stale 且无人引用的实体页移进 80-归档/（默认只报告）")
     ap.add_argument("--undo-entities", default="", help="按 manifest 把实体页搬回")
+    ap.add_argument("--dedupe-archive", action="store_true",
+                    help="归档区同条目多份快照去重（只留账本指向的那份，其余移进 80-归档/重复副本/）")
+    ap.add_argument("--undo-dedupe", default="", help="按 manifest 把重复副本搬回原位")
+    ap.add_argument("--prune-empty-dirs", action="store_true",
+                    help="清掉 20-语料/posts 下的空日期桶目录")
     ap.add_argument("--out", default="")
     args = ap.parse_args(argv)
 
     seen = Seen()
+    if args.undo_dedupe:
+        n = undo_dedupe(args.undo_dedupe)
+        print(f"已按 {args.undo_dedupe} 搬回 {n} 份重复副本")
+        return 0
+
+    if args.dedupe_archive or args.prune_empty_dirs:
+        a = dedupe_archive(args.apply, seen) if args.dedupe_archive else 0
+        b = prune_empty_dirs(args.apply) if args.prune_empty_dirs else 0
+        print(f"完成：去重 {a} 份 · 清空目录 {b} 个")
+        return 0
+
     if args.undo_entities:
         n = undo_entities(args.undo_entities)
         print(f"已按 {args.undo_entities} 搬回 {n} 个实体页")

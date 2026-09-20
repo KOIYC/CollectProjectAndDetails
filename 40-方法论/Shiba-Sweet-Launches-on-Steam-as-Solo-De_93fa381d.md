@@ -13,11 +13,15 @@ lang: "en"
 
 # Shiba Sweet Launches on Steam as Solo Dev Releases Dream Game | HappyGamer
 
-- **原帖**：https://happygamer.com/shiba-sweet-steam-launch-solo-dev-dream-game-164812/
-- **作者**：—
-- **首次收录**：2026-09-20T02:39:50+08:00
-- **来源渠道**：Exa 全网语义发现
-- **标签**：—
+> [!info] 一句话导读
+> Title: Shiba Sweet Launches on Steam as Solo Dev Releases Dream Game
+
+> [!meta]- 文章信息（点开展开）
+> 原帖：<https://happygamer.com/shiba-sweet-steam-launch-solo-dev-dream-game-164812/>
+> 作者：—
+> 首次收录：2026-09-20T02:39:50+08:00
+> 来源渠道：Exa 全网语义发现
+> 标签：—
 
 ## 观测历史
 

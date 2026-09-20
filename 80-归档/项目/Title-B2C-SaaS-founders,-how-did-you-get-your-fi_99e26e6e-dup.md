@@ -25,7 +25,7 @@ stale: true
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T14:58:50+08:00 | Reddit 独立开发版块 | 得分=5 · 评论=11 · 赞踩比=0.86 | [[20-语料/posts/reddit/2026-09-20/99e26e6e5d268507_Title-B2C-SaaS-founders,-how-did-you-get-your-firs]] |
+| 2026-09-20T14:58:50+08:00 | Reddit 独立开发版块 | 得分=5 · 评论=11 · 赞踩比=0.86 | [[20-语料/posts/reddit/2026-09-21/99e26e6e5d268507_Title-B2C-SaaS-founders,-how-did-you-get-your-firs]] |
 
 ## 摘要正文
 

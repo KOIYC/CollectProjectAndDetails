@@ -2,7 +2,7 @@
 type: "project"
 title: "[Trading Strategy Optimizer] - My first paying customer found a bug that made the product impossible to activate"
 project_url: "https://chromewebstore.google.com/detail/trading-strategy-optimize/pjgikffklocmefghdipdiidfebgbklon"
-first_seen: "2026-09-20T14:58:58+08:00"
+first_seen: "2026-09-21T00:07:47+08:00"
 sources:
   - reddit
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://chromewebstore.google.com/detail/trading-strategy-optimize/pjgikffklocmefghdipdiidfebgbklon>
-> 首次收录：2026-09-20T14:58:58+08:00
+> 首次收录：2026-09-21T00:07:47+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/SideProject
 > 最新指标：得分=3 · 评论=13 · 赞踩比=0.67
@@ -28,10 +28,12 @@ lang: "en"
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T09:24:22+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=13 · 赞踩比=0.67 | [[20-语料/posts/reddit/2026-09-20/5f63721e2407444c_Trading-Strategy-Optimizer-My-first-paying-custome]] |
-| 2026-09-20T09:49:24+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=13 · 赞踩比=0.67 | [[20-语料/posts/reddit/2026-09-20/5f63721e2407444c_Trading-Strategy-Optimizer-My-first-paying-custome]] |
-| 2026-09-20T14:14:38+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=13 · 赞踩比=0.67 | [[20-语料/posts/reddit/2026-09-20/5f63721e2407444c_Trading-Strategy-Optimizer-My-first-paying-custome]] |
-| 2026-09-20T14:58:58+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=13 · 赞踩比=0.67 | [[20-语料/posts/reddit/2026-09-20/5f63721e2407444c_Trading-Strategy-Optimizer-My-first-paying-custome]] |
+| 2026-09-20T09:24:22+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=13 · 赞踩比=0.67 | [[20-语料/posts/reddit/2026-09-21/5f63721e2407444c_Trading-Strategy-Optimizer-My-first-paying-custome]] |
+| 2026-09-20T09:49:24+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=13 · 赞踩比=0.67 | [[20-语料/posts/reddit/2026-09-21/5f63721e2407444c_Trading-Strategy-Optimizer-My-first-paying-custome]] |
+| 2026-09-20T14:14:38+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=13 · 赞踩比=0.67 | [[20-语料/posts/reddit/2026-09-21/5f63721e2407444c_Trading-Strategy-Optimizer-My-first-paying-custome]] |
+| 2026-09-20T14:58:58+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=13 · 赞踩比=0.67 | [[20-语料/posts/reddit/2026-09-21/5f63721e2407444c_Trading-Strategy-Optimizer-My-first-paying-custome]] |
+| 2026-09-21T00:04:45+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=13 · 赞踩比=0.67 | [[20-语料/posts/reddit/2026-09-21/5f63721e2407444c_Trading-Strategy-Optimizer-My-first-paying-custome]] |
+| 2026-09-21T00:07:47+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=13 · 赞踩比=0.67 | [[20-语料/posts/reddit/2026-09-21/5f63721e2407444c_Trading-Strategy-Optimizer-My-first-paying-custome]] |
 
 ## 摘要正文
 

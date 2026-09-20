@@ -26,8 +26,8 @@ stale: true
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T09:24:35+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=17 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-20/30d35ef2e50fb580_For-those-who-have-sold-a-business,-what-did-you-d]] |
-| 2026-09-20T09:49:31+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=17 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-20/30d35ef2e50fb580_For-those-who-have-sold-a-business,-what-did-you-d]] |
+| 2026-09-20T09:24:35+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=17 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-21/30d35ef2e50fb580_For-those-who-have-sold-a-business,-what-did-you-d]] |
+| 2026-09-20T09:49:31+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=17 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-21/30d35ef2e50fb580_For-those-who-have-sold-a-business,-what-did-you-d]] |
 
 ## 摘要正文
 

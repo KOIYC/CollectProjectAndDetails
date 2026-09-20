@@ -25,8 +25,8 @@ stale: true
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T09:24:50+08:00 | Reddit 独立开发版块 | 得分=104 · 评论=11 · 赞踩比=0.98 | [[20-语料/posts/reddit/2026-09-20/96f78b4d99a6d667_just-wanted-to-expose-a-scammer-)]] |
-| 2026-09-20T14:13:53+08:00 | Reddit 独立开发版块 | 得分=104 · 评论=11 · 赞踩比=0.98 | [[20-语料/posts/reddit/2026-09-20/96f78b4d99a6d667_just-wanted-to-expose-a-scammer-)]] |
+| 2026-09-20T09:24:50+08:00 | Reddit 独立开发版块 | 得分=104 · 评论=11 · 赞踩比=0.98 | [[20-语料/posts/reddit/2026-09-21/96f78b4d99a6d667_just-wanted-to-expose-a-scammer-)]] |
+| 2026-09-20T14:13:53+08:00 | Reddit 独立开发版块 | 得分=104 · 评论=11 · 赞踩比=0.98 | [[20-语料/posts/reddit/2026-09-21/96f78b4d99a6d667_just-wanted-to-expose-a-scammer-)]] |
 
 ## 摘要正文
 

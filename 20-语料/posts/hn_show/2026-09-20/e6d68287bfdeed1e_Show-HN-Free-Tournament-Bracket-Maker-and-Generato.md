@@ -11,7 +11,7 @@ published_at: "2026-09-18T03:55:53Z"
 captured_at: "2026-09-20T09:36:43+08:00"
 lang: "en"
 kind: "post"
-topic: "AI 工具/Agent"
+topic: 开发者工具
 shard: "2026-09-20"
 pub_day: "2026-09-18"
 tags:
@@ -203,5 +203,5 @@ No sign-up required. Everything runs locally in your browser.
 
 - 项目页：[[10-项目/snapbracket.com_4b539d96]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

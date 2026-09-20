@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49749689"
 project_url: "https://agentmemoryleaderboard.ai/"
 author: "IreneAI"
 published_at: "2026-09-18T02:52:01Z"
-captured_at: "2026-09-20T14:57:50+08:00"
+captured_at: "2026-09-21T00:03:44+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：IreneAI　|　发布：2026-09-18T02:52:01Z
 > 项目链接：<https://agentmemoryleaderboard.ai/>
-> 采集：2026-09-20T14:57:50+08:00　|　id：`f05829b3d2c0694a`
+> 采集：2026-09-21T00:03:44+08:00　|　id：`f05829b3d2c0694a`
 
 ## 正文
 

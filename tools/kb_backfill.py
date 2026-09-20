@@ -28,7 +28,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from kb_common import (BODY_MIN, DIR_RAW, DIR_REPORT, FULLTEXT_MAX_CHARS, META,  # noqa: E402
                        ROOT, BodyCache, Seen, append_jsonl, body_completeness,
-                       exa_fetch_texts, iso, norm_url, now_cst, rotate_runs, run_cli, sha1)
+                       exa_fetch_texts, iso, norm_url, now_cst, note_bucket, rotate_runs,
+                       run_cli, sha1)
 from kb_collect import (ENRICH_ROUTING, MAX_COMMENTS, is_project_ish,  # noqa: E402
                         load_channels_yaml, write_corpus_note, write_entity_note)
 from kb_analyze import PROFILE_EXPECT  # noqa: E402
@@ -82,11 +83,18 @@ def build_queue(channels: dict, only: str = "") -> list[tuple[dict, str]]:
     现在改用 body_completeness()：只有 full 才算达标，summary/snippet/empty 都算缺口。
     """
     dead = load_dead()
+    archived = {iid for iid, m in Seen().items.items()
+                if str(m.get("note") or "").startswith("80-归档/")}
     out = []
     for iid, (r, day) in load_latest().items():
         ch = channels.get(r.get("source_id") or "")
         if not ch:
             continue
+        if iid in archived:
+            continue                                           # 已归档条目不回填：raw 是不可变重放底座，
+        # 回填按 (record, day) 现算 live 路径写 note → 会把冻结区条目复活成在库页
+        # （实测 2026-09-21：prune 归档 6 条 → 同轮 backfill 复活其中 3 条 github_new）
+        # ——「归档→回填→再归档」死循环的源头。归档语义 = 移出检索面，回填也不能穿透。
         if only and r.get("source_id") != only:
             continue
         if not ch.get("enabled"):
@@ -147,10 +155,14 @@ def comments_gap(r: dict) -> str:
 
 def build_comments_queue(channels: dict, only: str = "") -> list[dict]:
     deadd = load_dead()
+    archived = {iid for iid, m in Seen().items.items()
+                if str(m.get("note") or "").startswith("80-归档/")}   # 同 build_queue：归档不穿透
     out = []
     for iid, (r, day) in load_latest().items():
         ch = channels.get(r.get("source_id") or "")
         if not ch or (only and r.get("source_id") != only):
+            continue
+        if iid in archived:
             continue
         if not ch.get("enabled"):
             continue                              # 停用渠道归 kb_prune，不烧回填额度（同 build_queue）
@@ -383,7 +395,7 @@ def main(argv=None) -> int:
             rec.get("body"), rec["extra"], rec["extra"].get("layer") or "corpus")
         try:
             append_jsonl(DIR_RAW / r["source_id"] / f"{day_now}.jsonl", [rec])
-            p = write_corpus_note(rec, day)              # 用原分片日期 → 原地刷新，不新建
+            p = write_corpus_note(rec, note_bucket(seen, iid, day))   # 原地刷新，不迁移分片
             rel = p.relative_to(ROOT).as_posix()
             write_entity_note(rec, rel)
             h = sha1(json.dumps({"b": rec.get("body") or "", "c": rec.get("comments") or [],
@@ -428,7 +440,7 @@ def main(argv=None) -> int:
             rec.get("body"), rec["extra"], rec["extra"].get("layer") or "corpus")
         try:
             append_jsonl(DIR_RAW / r["source_id"] / f"{day_now}.jsonl", [rec])
-            p = write_corpus_note(rec, day)
+            p = write_corpus_note(rec, note_bucket(seen, r["item_id"], day))   # 原地刷新
             rel = p.relative_to(ROOT).as_posix()
             write_entity_note(rec, rel)
             h = sha1(json.dumps({"b": rec.get("body") or "", "c": rec.get("comments") or [],

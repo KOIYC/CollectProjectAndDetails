@@ -25,7 +25,7 @@ stale: true
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T14:59:13+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=12 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-20/71fee682a5350b1a_I-spent-months-focused-on-building-before-I-realiz]] |
+| 2026-09-20T14:59:13+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=12 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/71fee682a5350b1a_I-spent-months-focused-on-building-before-I-realiz]] |
 
 ## 摘要正文
 

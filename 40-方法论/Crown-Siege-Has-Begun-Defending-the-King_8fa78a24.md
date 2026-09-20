@@ -13,11 +13,15 @@ lang: "en"
 
 # Crown Siege Has Begun Defending the Kingdom on Steam - COGconnected
 
-- **原帖**：https://cogconnected.com/2026/09/crown-siege-has-begun-defending-the-kingdom-on-steam/
-- **作者**：—
-- **首次收录**：2026-09-20T02:39:50+08:00
-- **来源渠道**：Exa 全网语义发现
-- **标签**：—
+> [!info] 一句话导读
+> Title: Crown Siege Has Begun Defending the Kingdom on Steam - COGconnected
+
+> [!meta]- 文章信息（点开展开）
+> 原帖：<https://cogconnected.com/2026/09/crown-siege-has-begun-defending-the-kingdom-on-steam/>
+> 作者：—
+> 首次收录：2026-09-20T02:39:50+08:00
+> 来源渠道：Exa 全网语义发现
+> 标签：—
 
 ## 观测历史
 

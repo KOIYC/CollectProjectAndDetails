@@ -10,7 +10,7 @@ published_at: "2026-09-17T03:08:30+08:00"
 captured_at: "2026-09-20T14:13:50+08:00"
 lang: "en"
 kind: "post"
-topic: "移动 App"
+topic: 开发者工具
 shard: "2026-09-20"
 pub_day: "2026-09-17"
 tags:
@@ -125,5 +125,5 @@ Happy to go into more detail if useful, or take feedback if anyone's dealt with 
 
 - 项目页：[[10-项目/We-built-an-invite-feature-nobody-used.-Here's-w_7e1254b5]]
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`移动 App`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

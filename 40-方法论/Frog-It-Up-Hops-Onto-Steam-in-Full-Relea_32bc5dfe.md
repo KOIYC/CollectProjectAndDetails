@@ -13,11 +13,15 @@ lang: "en"
 
 # Frog It Up Hops Onto Steam in Full Release From Starfall Games | HappyGamer
 
-- **原帖**：https://happygamer.com/frog-it-up-steam-launch-starfall-games-164810/
-- **作者**：—
-- **首次收录**：2026-09-20T02:39:50+08:00
-- **来源渠道**：Exa 全网语义发现
-- **标签**：—
+> [!info] 一句话导读
+> Title: Frog It Up Hops Onto Steam in Full Release From Starfall Games
+
+> [!meta]- 文章信息（点开展开）
+> 原帖：<https://happygamer.com/frog-it-up-steam-launch-starfall-games-164810/>
+> 作者：—
+> 首次收录：2026-09-20T02:39:50+08:00
+> 来源渠道：Exa 全网语义发现
+> 标签：—
 
 ## 观测历史
 

@@ -2,7 +2,7 @@
 type: "project"
 title: "Day 6/30: Learning APIs Changed How I See Software"
 project_url: "https://www.reddit.com/r/buildinpublic/comments/1wifah6/day_630_learning_apis_changed_how_i_see_software/"
-first_seen: "2026-09-20T09:49:32+08:00"
+first_seen: "2026-09-21T00:07:45+08:00"
 sources:
   - reddit
 tags:
@@ -15,18 +15,24 @@ stale: true
 
 # Day 6/30: Learning APIs Changed How I See Software
 
-- **项目链接**：https://www.reddit.com/r/buildinpublic/comments/1wifah6/day_630_learning_apis_changed_how_i_see_software/
-- **首次收录**：2026-09-20T09:49:32+08:00
-- **来源渠道**：Reddit 独立开发版块
-- **标签**：r/buildinpublic
-- **最新指标**：得分=4 · 评论=6 · 赞踩比=0.83
+> [!info] 一句话导读
+> Day 6 of my startup-building journey
+
+> [!meta]- 项目信息（点开展开）
+> 项目链接：<https://www.reddit.com/r/buildinpublic/comments/1wifah6/day_630_learning_apis_changed_how_i_see_software/>
+> 首次收录：2026-09-21T00:07:45+08:00
+> 来源渠道：Reddit 独立开发版块
+> 标签：r/buildinpublic
+> 最新指标：得分=4 · 评论=6 · 赞踩比=0.83
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T09:24:39+08:00 | Reddit 独立开发版块 | 得分=4 · 评论=6 · 赞踩比=0.83 | [[20-语料/posts/reddit/2026-09-20/6f076376d21192d4_Day-6-30-Learning-APIs-Changed-How-I-See-Software]] |
-| 2026-09-20T09:49:32+08:00 | Reddit 独立开发版块 | 得分=4 · 评论=6 · 赞踩比=0.83 | [[20-语料/posts/reddit/2026-09-20/6f076376d21192d4_Day-6-30-Learning-APIs-Changed-How-I-See-Software]] |
+| 2026-09-20T14:14:29+08:00 | Reddit 独立开发版块 | 得分=4 · 评论=6 · 赞踩比=0.83 | [[20-语料/posts/reddit/2026-09-21/6f076376d21192d4_Day-6-30-Learning-APIs-Changed-How-I-See-Software]] |
+| 2026-09-20T14:58:56+08:00 | Reddit 独立开发版块 | 得分=4 · 评论=6 · 赞踩比=0.83 | [[20-语料/posts/reddit/2026-09-21/6f076376d21192d4_Day-6-30-Learning-APIs-Changed-How-I-See-Software]] |
+| 2026-09-21T00:04:43+08:00 | Reddit 独立开发版块 | 得分=4 · 评论=6 · 赞踩比=0.83 | [[20-语料/posts/reddit/2026-09-21/6f076376d21192d4_Day-6-30-Learning-APIs-Changed-How-I-See-Software]] |
+| 2026-09-21T00:07:45+08:00 | Reddit 独立开发版块 | 得分=4 · 评论=6 · 赞踩比=0.83 | [[20-语料/posts/reddit/2026-09-21/6f076376d21192d4_Day-6-30-Learning-APIs-Changed-How-I-See-Software]] |
 
 ## 摘要正文
 

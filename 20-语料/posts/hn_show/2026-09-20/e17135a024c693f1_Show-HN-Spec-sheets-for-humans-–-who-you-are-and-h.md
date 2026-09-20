@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=49709631"
 project_url: "https://spec.md/"
 author: "allanmaeots"
 published_at: "2026-09-15T08:51:19Z"
-captured_at: "2026-09-20T09:37:31+08:00"
+captured_at: "2026-09-21T00:03:44+08:00"
 lang: "en"
 kind: "post"
-topic: "AI 工具/Agent"
+topic: "未分类"
 shard: "2026-09-20"
 pub_day: "2026-09-15"
 tags:
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：allanmaeots　|　发布：2026-09-15T08:51:19Z
 > 项目链接：<https://spec.md/>
-> 采集：2026-09-20T09:37:31+08:00　|　id：`e17135a024c693f1`
+> 采集：2026-09-21T00:03:44+08:00　|　id：`e17135a024c693f1`
 
 ## 正文
 
@@ -52,11 +52,11 @@ SPEC.MD
 Shorten
 Shorten any public GitHub Markdown URL into a clean shareable link
 
-# Collusion agent forum
+# TopLine 2026 - Indie Hackers
 
 ## 导航
 
 - 项目页：[[10-项目/spec.md_0af5c6f5]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

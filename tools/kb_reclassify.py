@@ -24,7 +24,8 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from kb_common import DIR_RAW, META, ROOT, Seen, append_jsonl, iso, now_cst, rotate_runs, sha1  # noqa: E402
+from kb_common import (DIR_RAW, META, ROOT, Seen, append_jsonl, is_project_ish, iso,  # noqa: E402
+                       now_cst, rotate_runs, sha1)
 from kb_collect import (ACCOUNT_URL_RE, PERSON_HANDLE_RE, corpus_note_path,  # noqa: E402
                         method_note_path, person_note_path, project_note_path,
                         write_corpus_note, write_entity_note, write_person_note,
@@ -347,7 +348,33 @@ def reconcile_entities(dry: bool = False) -> int:
     label = "（dry-run）" if dry else ""
     extra = f"  清孤儿={n_cleaned}" if n_cleaned else ""
     print(f"实体页对齐{label}：写入 {by_kind or '无'}{extra}")
-    return n_written
+
+    # ③ 项目页观测史完整性自愈：每条**在库**且应建页的条目，其项目页观测历史里
+    # 必须出现自己的语料链接。实测存在「同 project_url 两条目，后到者在建页时从未
+    # 追加过自己的行」→ 语料成孤岛（healthcheck ⑥ 的 v2ex e2893ab6 例）。
+    # 走 write_entity_note 正规写回（不做字符串拼接），幂等：补行后 stem 在页，二跑零差。
+    n_obs = 0
+    for iid, (rec, day) in latest.items():
+        if (rec.get("kind") or "").lower() in ("person", "method"):
+            continue
+        note = (seen.items.get(iid) or {}).get("note") or ""
+        if not note.startswith("20-语料/") or not (ROOT / note).exists():
+            continue                                     # 归档条目不管（冻结区）
+        if not is_project_ish(rec):
+            continue
+        page = project_note_path(rec)
+        if not page.exists():
+            continue                                     # 按规则不建页的条目归 collect 下轮处理
+        if Path(note).stem in page.read_text(encoding="utf-8"):
+            continue
+        if dry:
+            n_obs += 1
+            continue
+        write_entity_note(rec, note)
+        n_obs += 1
+    if n_obs:
+        print(f"观测史补行：{'待补' if dry else '已补'} {n_obs} 条")
+    return n_written + n_obs
 
 
 def main(argv=None) -> int:

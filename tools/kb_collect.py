@@ -31,8 +31,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from kb_common import (BODY_MIN, CST, DIR_CHANNELS, DIR_CORPUS, DIR_METHOD, DIR_PEOPLE,  # noqa: E402
                        DIR_PROJECTS, DIR_RAW, META, BodyCache, FetchError, RunLog, Seen,
                        append_jsonl, body_completeness, ensure_dirs, is_project_ish, iso,
-                       load_channels_yaml, load_registry, norm_url, now_cst, sanitize_record,
-                       sha1, slugify, topic_of, write_note)
+                       load_channels_yaml, load_registry, norm_url, now_cst, note_bucket,
+                       sanitize_record, sha1, slugify, topic_of, write_note)
 from kbc_channels import (ACCOUNT_URL_RE, ADAPTERS, ENRICH_ROUTING, FULLTEXT_BUDGET,  # noqa: E402,F401
                           LINK_RE, MAX_COMMENTS, PERSON_HANDLE_RE, as_tags, detect_lang,  # noqa: E402,F401
                           derive_project_url, enrich_generic, excerpt, filter_published,  # noqa: E402,F401
@@ -708,7 +708,9 @@ def main(argv=None) -> int:
                 try:
                     # 无变化条目只记观测次数，不重写正文 note / 项目页（幂等，避免同日重跑刷屏）
                     if it["_changed"]:
-                        note = write_corpus_note(it, day)
+                        # 更新条目**原地刷新**：分片日期以现存 note 为准，跨天不迁移
+                        # （否则旧分片文件成孤儿，healthcheck ① 红——见 kb_common.note_bucket）
+                        note = write_corpus_note(it, note_bucket(seen, it["item_id"], day))
                         rel = note.relative_to(Path(__file__).resolve().parents[1]).as_posix()
                         log.notes.append(rel)
                         # 实体页准入：不是项目的条目（讨论帖/提问帖/经验帖）不建项目页。

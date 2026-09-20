@@ -25,7 +25,7 @@ stale: true
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T09:24:29+08:00 | Reddit 独立开发版块 | 得分=4 · 评论=19 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-20/e76976a196f0e3bc_What-are-you-building-right-now]] |
+| 2026-09-20T09:24:29+08:00 | Reddit 独立开发版块 | 得分=4 · 评论=19 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/e76976a196f0e3bc_What-are-you-building-right-now]] |
 
 ## 摘要正文
 

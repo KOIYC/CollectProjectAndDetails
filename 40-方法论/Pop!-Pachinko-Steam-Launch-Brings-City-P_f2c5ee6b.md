@@ -13,11 +13,15 @@ lang: "en"
 
 # Pop! Pachinko Steam Launch Brings City Pop Vibes to Roguelike Fans | HappyGamer
 
-- **原帖**：https://happygamer.com/pop-pachinko-steam-launch-city-pop-roguelike-164749/
-- **作者**：—
-- **首次收录**：2026-09-20T02:39:50+08:00
-- **来源渠道**：Exa 全网语义发现
-- **标签**：—
+> [!info] 一句话导读
+> Title: Pop! Pachinko Steam Launch Brings City Pop Vibes to Roguelike Fans
+
+> [!meta]- 文章信息（点开展开）
+> 原帖：<https://happygamer.com/pop-pachinko-steam-launch-city-pop-roguelike-164749/>
+> 作者：—
+> 首次收录：2026-09-20T02:39:50+08:00
+> 来源渠道：Exa 全网语义发现
+> 标签：—
 
 ## 观测历史
 

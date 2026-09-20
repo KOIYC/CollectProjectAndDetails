@@ -2,7 +2,7 @@
 type: "project"
 title: "a warby parker employee found my QR sticker on her break and it led to way more than i expected"
 project_url: "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1widoj4/a_warby_parker_employee_found_my_qr_sticker_on/"
-first_seen: "2026-09-20T09:49:31+08:00"
+first_seen: "2026-09-21T00:08:02+08:00"
 sources:
   - reddit
 tags:
@@ -16,18 +16,24 @@ stale: true
 
 # a warby parker employee found my QR sticker on her break and it led to way more than i expected
 
-- **项目链接**：https://www.reddit.com/r/EntrepreneurRideAlong/comments/1widoj4/a_warby_parker_employee_found_my_qr_sticker_on/
-- **首次收录**：2026-09-20T09:49:31+08:00
-- **来源渠道**：Reddit 独立开发版块
-- **标签**：r/EntrepreneurRideAlong, Ride Along Story
-- **最新指标**：得分=3 · 评论=7 · 赞踩比=0.81
+> [!info] 一句话导读
+> quick update on the tile project if anyone remembers!
+
+> [!meta]- 项目信息（点开展开）
+> 项目链接：<https://www.reddit.com/r/EntrepreneurRideAlong/comments/1widoj4/a_warby_parker_employee_found_my_qr_sticker_on/>
+> 首次收录：2026-09-21T00:08:02+08:00
+> 来源渠道：Reddit 独立开发版块
+> 标签：r/EntrepreneurRideAlong, Ride Along Story
+> 最新指标：得分=3 · 评论=7 · 赞踩比=0.81
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T09:24:35+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=7 · 赞踩比=0.81 | [[20-语料/posts/reddit/2026-09-20/decece85653f19b5_a-warby-parker-employee-found-my-QR-sticker-on-her]] |
-| 2026-09-20T09:49:31+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=7 · 赞踩比=0.81 | [[20-语料/posts/reddit/2026-09-20/decece85653f19b5_a-warby-parker-employee-found-my-QR-sticker-on-her]] |
+| 2026-09-20T14:15:01+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=7 · 赞踩比=0.81 | [[20-语料/posts/reddit/2026-09-21/decece85653f19b5_a-warby-parker-employee-found-my-QR-sticker-on-her]] |
+| 2026-09-20T14:59:14+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=7 · 赞踩比=0.81 | [[20-语料/posts/reddit/2026-09-21/decece85653f19b5_a-warby-parker-employee-found-my-QR-sticker-on-her]] |
+| 2026-09-21T00:05:00+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=7 · 赞踩比=0.81 | [[20-语料/posts/reddit/2026-09-21/decece85653f19b5_a-warby-parker-employee-found-my-QR-sticker-on-her]] |
+| 2026-09-21T00:08:02+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=7 · 赞踩比=0.81 | [[20-语料/posts/reddit/2026-09-21/decece85653f19b5_a-warby-parker-employee-found-my-QR-sticker-on-her]] |
 
 ## 摘要正文
 

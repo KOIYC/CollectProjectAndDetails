@@ -25,7 +25,7 @@ stale: true
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T14:58:24+08:00 | Reddit 独立开发版块 | 得分=7 · 评论=14 · 赞踩比=0.82 | [[20-语料/posts/reddit/2026-09-20/1205c3c733d98910_i'm-not-building-a-personal-brand-the-way-gurus-te]] |
+| 2026-09-20T14:58:24+08:00 | Reddit 独立开发版块 | 得分=7 · 评论=14 · 赞踩比=0.82 | [[20-语料/posts/reddit/2026-09-21/1205c3c733d98910_i'm-not-building-a-personal-brand-the-way-gurus-te]] |
 
 ## 摘要正文
 

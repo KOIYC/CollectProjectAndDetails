@@ -11,7 +11,7 @@ published_at: "2026-09-17T07:16:05+08:00"
 captured_at: "2026-09-20T14:14:16+08:00"
 lang: "en"
 kind: "post"
-topic: "开发者工具"
+topic: AI 工具/Agent
 shard: "2026-09-20"
 pub_day: "2026-09-17"
 tags:
@@ -116,5 +116,5 @@ I would appreciate any advice!
 
 - 项目页：[[10-项目/v.redd.it_94551a4d]]
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

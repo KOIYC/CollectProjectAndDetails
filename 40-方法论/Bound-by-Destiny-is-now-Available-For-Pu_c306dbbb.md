@@ -13,11 +13,15 @@ lang: "en"
 
 # Bound by Destiny is now Available For Purchase!! - Saikey Store
 
-- **原帖**：https://saikeystudios.com/news/bound-by-destiny-is-now-available-for-purchase/
-- **作者**：—
-- **首次收录**：2026-09-20T02:39:50+08:00
-- **来源渠道**：Exa 全网语义发现
-- **标签**：—
+> [!info] 一句话导读
+> Title: Bound by Destiny is now Available For Purchase!! - Saikey Store
+
+> [!meta]- 文章信息（点开展开）
+> 原帖：<https://saikeystudios.com/news/bound-by-destiny-is-now-available-for-purchase/>
+> 作者：—
+> 首次收录：2026-09-20T02:39:50+08:00
+> 来源渠道：Exa 全网语义发现
+> 标签：—
 
 ## 观测历史
 
@@ -27,4 +31,4 @@ lang: "en"
 
 ## 摘要正文
 
-Title: Bound by Destiny is now Available For Purchase!! - Saikey Store URL: https://saikeystudios.com/news/bound-by-destiny-is-now-available-for-purchase/ Published: 2026-09-18T00:00:00.000Z Author: N/A Highlights: Bound by Destiny is now Available For Purchase!! - Saikey Store ... # Bound by Destiny is now Available For Purchase!!   September 18, 2026 Saikey Studios       To celebrate the release, we’re offering a 20% OFF launch discount on all platforms!  ---
+Title: Bound by Destiny is now Available For Purchase!! - Saikey Store URL: https://saikeystudios.com/news/bound-by-destiny-is-now-available-for-purchase/ Published: 2026-09-18T00:00:00.000Z Author: N/A Highlights: Bound by Destiny is now Available For Purchase!! - Saikey Store ... # Bound by Destiny is now Available For Purchase!!   September 18, 2026 Saikey Studios   To celebrate the release, we’re offering a 20% OFF launch discount on all platforms!  ---
