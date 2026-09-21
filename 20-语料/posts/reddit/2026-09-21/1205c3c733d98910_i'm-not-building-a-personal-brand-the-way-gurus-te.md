@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/buildinpublic/comments/1wi3kea/im_not_building_a_personal_brand_the_way_gurus/"
 author: "confidentli_67"
 published_at: "2026-09-17T01:19:46+08:00"
-captured_at: "2026-09-21T03:18:14+08:00"
+captured_at: "2026-09-21T09:55:30+08:00"
 lang: "en"
 kind: "post"
 topic: 开发者工具
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=7 · 评论=14 · 赞踩比=0.82
 > 作者：confidentli_67　|　发布：2026-09-17T01:19:46+08:00
 > 项目链接：—
-> 采集：2026-09-21T03:18:14+08:00　|　id：`1205c3c733d98910`
+> 采集：2026-09-21T09:55:30+08:00　|　id：`1205c3c733d98910`
 
 ## 正文
 

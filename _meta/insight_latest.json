@@ -1,37 +1,37 @@
 {
-  "generated": "2026-09-21T03:29:27+08:00",
-  "n_live": 1515,
-  "n_usable": 1328,
-  "n_project": 1189,
-  "signals": 40,
+  "generated": "2026-09-21T10:26:51+08:00",
+  "n_live": 1615,
+  "n_usable": 1411,
+  "n_project": 1258,
+  "signals": 42,
   "topics": [
     [
       "AI 工具/Agent",
-      850
+      898
     ],
     [
       "开发者工具",
-      299
+      317
     ],
     [
       "未分类",
-      84
+      95
     ],
     [
       "游戏",
-      34
+      35
     ],
     [
       "移动 App",
-      22
+      23
     ],
     [
       "SaaS/B2B",
-      13
+      16
     ],
     [
       "内容/媒体",
-      11
+      12
     ],
     [
       "教育/学习",
@@ -66,6 +66,17 @@
         "comments": 8,
         "upvote_ratio": 0.93
       }
+    },
+    {
+      "key": "host:indiehackers.com",
+      "channels": [
+        "exa_discovery",
+        "indiehackers"
+      ],
+      "n_channels": 2,
+      "title": "Iptvstreamingservices",
+      "url": "https://www.indiehackers.com/product/iptvstreamingservices",
+      "metrics": {}
     },
     {
       "key": "host:chromewebstore.google.com",
@@ -113,7 +124,7 @@
       }
     }
   ],
-  "money_n": 641,
+  "money_n": 684,
   "money_quotes": [
     {
       "source": "betalist",
@@ -161,7 +172,7 @@
       "source": "betalist",
       "title": "Jobboardsearch",
       "url": "https://betalist.com/startups/jobboardsearch",
-      "quote": "Pathfinder UK's first AI-powered 0-to-hired employability platform RevenueHarbor Discover vetted founder-authorized businesses with private intros Host4.ai BOOS"
+      "quote": "Pathfinder UK's first AI-powered 0-to-hired employability platform RevenueHarbor Discover vetted founder-authorized businesses with private intros Nodlume BOOST"
     },
     {
       "source": "betalist",
@@ -173,7 +184,7 @@
       "source": "betalist",
       "title": "Inquio",
       "url": "https://betalist.com/startups/inquio",
-      "quote": "rms CompeteScan Track who AI recommends in your category and get a plan to win WZRD BOOSTED Turn plain ideas into interactive docs, forms, and decks that con"
+      "quote": "rms CompeteScan Track who AI recommends in your category and get a plan to win MyIntelBrief BOOSTED Get a daily one-page brief on competitors with clear next"
     },
     {
       "source": "betalist",
@@ -189,39 +200,39 @@
     }
   ],
   "pain_n": {
-    "当前方案不好用": 41,
-    "做不出来/卡住": 65,
-    "愿意付钱": 33,
-    "在找替代品": 36,
+    "当前方案不好用": 48,
+    "做不出来/卡住": 66,
+    "愿意付钱": 36,
+    "在找替代品": 37,
     "想要而找不到": 3
   },
   "by_channel": [
     {
       "id": "betalist",
       "profile": "linkpost",
-      "n": 50,
-      "ok": 50,
+      "n": 56,
+      "ok": 56,
       "rate": 1.0
     },
     {
       "id": "devto",
       "profile": "discussion",
-      "n": 5,
-      "ok": 5,
+      "n": 6,
+      "ok": 6,
       "rate": 1.0
     },
     {
       "id": "indiehackers",
       "profile": "linkpost",
-      "n": 36,
-      "ok": 36,
+      "n": 43,
+      "ok": 43,
       "rate": 1.0
     },
     {
       "id": "producthunt",
       "profile": "linkpost",
-      "n": 49,
-      "ok": 49,
+      "n": 64,
+      "ok": 64,
       "rate": 1.0
     },
     {
@@ -234,52 +245,52 @@
     {
       "id": "bilibili",
       "profile": "metadata",
-      "n": 40,
-      "ok": 38,
-      "rate": 0.95
+      "n": 42,
+      "ok": 40,
+      "rate": 0.9523809523809523
     },
     {
       "id": "hn_show",
       "profile": "discussion",
-      "n": 1000,
-      "ok": 926,
-      "rate": 0.926
+      "n": 1040,
+      "ok": 966,
+      "rate": 0.9288461538461539
     },
     {
       "id": "v2ex",
       "profile": "discussion",
-      "n": 30,
-      "ok": 26,
-      "rate": 0.8666666666666667
+      "n": 34,
+      "ok": 29,
+      "rate": 0.8529411764705882
     },
     {
       "id": "exa_discovery",
       "profile": "discover",
-      "n": 15,
-      "ok": 11,
-      "rate": 0.7333333333333333
+      "n": 17,
+      "ok": 12,
+      "rate": 0.7058823529411765
     },
     {
       "id": "github_new",
       "profile": "project",
-      "n": 60,
+      "n": 61,
       "ok": 43,
-      "rate": 0.7166666666666667
+      "rate": 0.7049180327868853
     },
     {
       "id": "reddit",
       "profile": "discussion",
-      "n": 222,
-      "ok": 140,
-      "rate": 0.6306306306306306
+      "n": 244,
+      "ok": 149,
+      "rate": 0.610655737704918
     },
     {
       "id": "c1c7",
       "profile": "project",
       "n": 7,
-      "ok": 3,
-      "rate": 0.42857142857142855
+      "ok": 2,
+      "rate": 0.2857142857142857
     }
   ],
-  "body_median": 2722.0
+  "body_median": 2568
 }

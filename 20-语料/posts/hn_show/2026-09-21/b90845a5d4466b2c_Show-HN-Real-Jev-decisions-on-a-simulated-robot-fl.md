@@ -1,0 +1,227 @@
+---
+type: "corpus"
+item_id: "b90845a5d4466b2c"
+title: "Show HN: Real Jev decisions on a simulated robot fleet – $24.57 per million"
+source: "hn_show"
+source_name: "HN Show HN"
+url: "https://news.ycombinator.com/item?id=49776827"
+project_url: "https://github.com/robokrunch/jev-physical-ai"
+author: "chorylee"
+published_at: "2026-09-20T15:28:13Z"
+captured_at: "2026-09-21T09:44:03+08:00"
+lang: "en"
+kind: "post"
+topic: "AI 工具/Agent"
+shard: "2026-09-21"
+pub_day: "2026-09-20"
+tags:
+  - 语料
+  - hn_show
+  - author_chorylee
+  - story_49776827
+  - show_hn
+metrics: {"points": 2, "comments": 1, "engagement_velocity": 2}
+comments_count: 1
+comments_total: 1
+discovered_via: "hn:show_hn:3d"
+---
+
+# Show HN: Real Jev decisions on a simulated robot fleet – $24.57 per million
+
+> [!info] 一句话导读
+> robokrunch/jev-physical-ai
+
+> [!meta]- 语料信息（点开展开）
+> 来源：HN Show HN（post）
+> 原帖：<https://news.ycombinator.com/item?id=49776827>
+> 指标：点赞=2 · 评论=1 · engagement_velocity=2
+> 作者：chorylee　|　发布：2026-09-20T15:28:13Z
+> 项目链接：<https://github.com/robokrunch/jev-physical-ai>
+> 采集：2026-09-21T09:44:03+08:00　|　id：`b90845a5d4466b2c`
+
+## 正文
+
+# robokrunch/jev-physical-ai
+
+Putting TypeSafe's Jev to work on robots, fleets, and edge hardware — real measured numbers, honestly caveated.
+
+- Stars: 0
+- Forks: 0
+- Watchers: 0
+- Open issues: 0
+- License: MIT License
+- Homepage: https://robokrunch.com
+- Default branch: main
+- Created: 2026-09-19T23:12:20Z
+
+## Languages
+
+- Python
+
+## Topics
+
+- benchmark
+- edge-ai
+- jev
+- physical-ai
+- robotics
+- typesafe
+
+## Top Contributors
+
+- chorylee (21 contributions)
+
+---
+
+## README
+
+# Jev for Physical AI
+
+Real measured numbers putting TypeSafe's **Jev** to work on robots, fleets, and edge hardware.
+
+Jev is a "System One" model: structured state in, typed probabilistic decisions out — no text generation, 70–500ms, $0.042 per million input tokens with output free. Everyone demos it on browsers and games. We point it at the physical world instead: warehouse robot fleets, incident triage, and the build-vs-buy math of running your own models on edge CPUs.
+
+Every number below comes from runs we actually executed on **2026-09-19**. Real API calls, real latency, real bills. Caveats are stated, not buried.
+
+By RoboKrunch — we benchmark Chinese edge-AI hardware and measure what AI actually costs in the physical world.
+
+## Contents
+
+- Demo A — 10,000-robot fleet triage
+- Demo B — Jev vs self-hosted ModernBERT
+- Reproduce
+- Video
+- Limitations
+- Roadmap
+- License
+
+---
+
+## Demo A — 10,000-robot fleet triage
+
+**Question:** can Jev serve as the decision layer for a warehouse AMR fleet — triaging incidents faster and cheaper than a small LLM?
+
+**Method.** 41 bilingual (CN/EN) incident templates covering warehouse AMR failures: LiDAR degradation, localization drift, battery faults, pallet detection misses, network partitions, human-zone intrusions. 300 incidents sampled. Each call asks Jev for **3 simultaneous judgments**: escalate to human (yes/no), owning team (choice), urgency (score 0–2). All 300 calls went through OpenRouter (`typesafe/jev-1.13`) on 2026-09-19.
+
+**Results.**
+
+| Metric | Value |
+|---|---|
+| Successful decisions | 300 / 300 |
+| p50 latency | 0.527 s |
+| p95 latency | 0.813 s |
+| Mean latency | 0.558 s |
+| Mean input tokens | 584.9 |
+| Cost per decision | $0.0000246 |
+| Cost per million decisions | **$24.57** |
+| Total spend, this run | **$0.00737** |
+| Team agreement vs template labels | 274 / 300 (91.3%) |
+
+**Fleet-scale cost model.** 10,000 robots × 48 decisions/day × 30 days = 14.4M decisions/month:
+
+| | Jev | GPT-4o-mini (est.) |
+|---|---|---|
+| Cost / month | **$353.81** | $1,814.40 |
+| Ratio | 1× | ~5.1× |
+
+GPT-4o-mini is *estimated* ($0.15/M input, $0.60/M output, 600 input + 60 output tokens per call) — we did not measure its triage quality or latency. The 5.1× is a cost ratio, not a quality claim.
+
+**What this actually shows:** sub-second, three-judgments-per-call triage at ~$25 per million decisions, with zero training and zero labeled data. What it doesn't show: production accuracy — our incidents are simulated, so "91.3%" is agreement with template labels, not accuracy on real failures.
+
+---
+
+## Demo B — Jev vs self-hosted ModernBERT
+
+**Question:** at what scale is it cheaper to just run your own classifier?
+
+**Method.** `answerdotai/ModernBERT-base` (149M params) on a 2-core AMD EPYC, CPU-only, batch=1. Frozen encoder + mean pooling + nearest centroid over 18 hand-written exemplars, 100 test incidents — the same fleet-triage domain as Demo A.
+
+**Results.**
+
+| Metric | ModernBERT (self-hosted) | Jev (API) |
+|---|---|---|
+| p50 latency | **169.3 ms** | 527 ms |
+| Mean latency | 197.7 ms | 558 ms |
+| Throughput | 5.06 samples/s | ~1.8 decisions/s |
+| Judgments per call | 1 label | **3 judgments** |
+| Team agreement vs Jev | 66 / 100 | — |
+| Training data needed | 18 exemplars + tuning | **zero** |
+| Ops burden | you own the VM | zero |
+
+**Crossover math.** Assuming a $24/month 4-vCPU VM, self-hosting breaks even at ≈ **977K decisions/month** — roughly 678 robots at 48 decisions/day. Below that, Jev is cheaper *and* you skip training, labeling, and ops. (A 3-output comparison would push crossover toward ~2.9M/month — not measured, treat as directional.)
+
+**What this actually shows:** Jev's advantage is not raw inference speed — a small local model is ~3× faster. Its advantage is starting cost: no training, no annotation, no infrastructure to babysit. If you're already past ~1M decisions/month with stable labels, self-host.
+
+---
+
+## Reproduce
+
+Demo scripts are all in this repo (runs executed 2026-09-19). Layout:
+
+```
+code/              demo scripts (runnable)
+├── demo-a.py      # 300 real decisions via OpenRouter (typesafe/jev-1.13)
+├── demo-b.py      # ModernBERT self-hosted comparison (CPU-only)
+├── charts.py      # regenerates the comparison charts
+├── crossover.py   # Jev-vs-self-host cost table + crossover analysis
+└── render_video.py# renders the 60-second demo video
+data/              measured results (aggregate + per-call records)
+├── demo-a-results.json
+└── demo-b-results.json
+assets/            charts + the 60-second demo video
+├── chart-fleet-cost.png
+├── chart-latency.png
+└── fleet-triage-demo.mp4
+REPRODUCE.md       # full reproduction guide + stated limitations
+```
+
+To re-run Demo A you need an OpenRouter API key in `OPENROUTER_API_KEY` — never commit keys. Model weights for Demo B download from HuggingFace (~599MB); if your environment sets a proxy, override `NO_PROXY=localhost,127.0.0.1` — bare IPv6 entries in `NO_PROXY` crash newer httpx with `InvalidURL`.
+
+## Video
+
+fleet-triage-demo
+
+60 seconds: 300 real decisions streaming past with a live cost ticker, then the fleet-scale math. Watch the ticker — the entire 300-decision run cost less than a cent. Direct video link
+
+## Limitations
+
+Stated up front, because fake demos are poison:
+
+- Incidents are **simulated** from templates. Agreement with template labels ≠ production accuracy.
+- We have **not** tested TypeSafe's native `POST /v1/systemone` — all calls went through OpenRouter's decisions endpoint.
+- No real robot hardware, no edge NPU, no long soak test, no probability-calibration study.
+- GPT-4o-mini comparison is cost-estimated, not measured; its triage quality is unknown.
+- Crossover math assumes a $24/mo VM and ignores your engineering time — which is exactly the point, but do your own sheet.
+
+## Roadmap
+
+- [ ] Re-run Demo A against native `https://api.typesafe.ai/v1/systemone`
+- [ ] Probability calibration: are Jev's `confidence` scores honest?
+- [ ] Long soak test: 24h continuous triage, watch for drift
+- [ ] More fleets: delivery robots, humanoid ops incidents
+- [ ] Same triage task on a real edge NPU (RK3588 / Jetson) when hardware budget clears
+
+## License
+
+Code: MIT. Benchmark data (`data/*.json`): CC-BY 4.0 — use it, cite RoboKrunch.
+
+---
+
+Part of the robokrunch org. Curated Jev resources live at robokrunch/awesome-jev. Main site: robokrunch.com.
+
+## 评论（1/1）
+
+> **chfritz** · 2026-09-20T18:02:57.000Z　
+> "Real API calls, real latency, real bills. Caveats are stated, not buried." -- Gosh, who talks like this? No human would. Claude does. Wannable confident, arrogant, and super annoying. Stated, not implied. ;-)
+
+## 关联链接
+
+- https://api.typesafe.ai/v1/systemone`
+- https://robokrunch.com
+
+## 导航
+
+- 项目页：[[10-项目/github.com_015c4544]]
+- 渠道页：[[50-渠道/hn_show]]
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 同渠道/同赛道批量浏览：[[浏览]]

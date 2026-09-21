@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-09-21T01:05:12+08:00",
+ "checked_at": "2026-09-21T09:43:46+08:00",
  "channels": [
   {
    "channel_id": "hn_show",
@@ -10,16 +10,16 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits",
-   "elapsed_s": 2.3,
-   "probe_at": "2026-09-21T01:03:30+08:00",
+   "elapsed_s": 2.9,
+   "probe_at": "2026-09-21T09:38:06+08:00",
    "sample": [
     {
-     "title": "Show HN: Radius – A Meetup.com Alternative",
-     "url": "https://news.ycombinator.com/item?id=49777539"
+     "title": "Show HN: Lain, a structural code graph and agent coordinator for coding agents",
+     "url": "https://news.ycombinator.com/item?id=49781554"
     },
     {
-     "title": "Show HN: OpensourceDB Tamper-evident,checksum-backed decision and session replay",
-     "url": "https://news.ycombinator.com/item?id=49777181"
+     "title": "Show HN: Lightspeed, build real time apps the Laravel way (+asteroids demo)",
+     "url": "https://news.ycombinator.com/item?id=49781032"
     }
    ]
   },
@@ -32,8 +32,8 @@
    "status": "ok",
    "count": 3,
    "message": "3 repos; ",
-   "elapsed_s": 2.7,
-   "probe_at": "2026-09-21T01:03:33+08:00",
+   "elapsed_s": 48.1,
+   "probe_at": "2026-09-21T09:38:54+08:00",
    "sample": [
     {
      "title": "browser-use/jev-ultrafast",
@@ -54,12 +54,12 @@
    "status": "ok",
    "count": 1,
    "message": "1 posts; ",
-   "elapsed_s": 2.5,
-   "probe_at": "2026-09-21T01:03:35+08:00",
+   "elapsed_s": 2.4,
+   "probe_at": "2026-09-21T09:38:57+08:00",
    "sample": [
     {
-     "title": "Snookersim.com & CueSim.app",
-     "url": "https://www.reddit.com/r/SideProject/comments/1wizah5/snookersimcom_cuesimapp/"
+     "title": "I built an AI-free vocabulary learning app! Happy to hear some feedback",
+     "url": "https://www.reddit.com/r/SideProject/comments/1wjbdyn/i_built_an_aifree_vocabulary_learning_app_happy/"
     }
    ]
   },
@@ -70,18 +70,18 @@
    "auth": "none",
    "group": "海外社区",
    "status": "ok",
-   "count": 2,
-   "message": "2 articles",
-   "elapsed_s": 0.9,
-   "probe_at": "2026-09-21T01:03:36+08:00",
+   "count": 3,
+   "message": "3 articles",
+   "elapsed_s": 1.1,
+   "probe_at": "2026-09-21T09:38:58+08:00",
    "sample": [
     {
      "title": "Show Me the Article You're Most Proud Of And I'll Read Every Single One of Them",
      "url": "https://dev.to/georgekobaidze/show-me-the-article-youre-most-proud-of-and-ill-read-every-single-one-of-them-1l53"
     },
     {
-     "title": "The Internship That Taught Me to Read Between the Lines of a Job Offer",
-     "url": "https://dev.to/dj29/the-internship-that-taught-me-to-read-between-the-lines-of-a-job-offer-50ef"
+     "title": "i built a green blob that lives on my desktop. now it has feelings.",
+     "url": "https://dev.to/mikachu/i-built-a-green-blob-that-lives-on-my-desktop-and-now-it-has-feelings-4pjd"
     }
    ]
   },
@@ -94,16 +94,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 entries",
-   "elapsed_s": 1.0,
-   "probe_at": "2026-09-21T01:03:37+08:00",
+   "elapsed_s": 1.3,
+   "probe_at": "2026-09-21T09:38:59+08:00",
    "sample": [
     {
-     "title": "Morsa Signals",
-     "url": "https://www.producthunt.com/products/morsa-signals"
+     "title": "Minicart",
+     "url": "https://www.producthunt.com/products/minicart"
     },
     {
-     "title": "The 101 Plays Itself",
-     "url": "https://www.producthunt.com/products/the-101-plays-itself"
+     "title": "Harbor",
+     "url": "https://www.producthunt.com/products/harbor-2"
     }
    ]
   },
@@ -116,8 +116,8 @@
    "status": "ok",
    "count": 3,
    "message": "20 products",
-   "elapsed_s": 7.8,
-   "probe_at": "2026-09-21T01:03:45+08:00",
+   "elapsed_s": 6.8,
+   "probe_at": "2026-09-21T09:39:06+08:00",
    "sample": [
     {
      "title": "Mybusinesscard",
@@ -138,8 +138,8 @@
    "status": "ok",
    "count": 3,
    "message": "3 startups",
-   "elapsed_s": 2.4,
-   "probe_at": "2026-09-21T01:03:48+08:00",
+   "elapsed_s": 1.7,
+   "probe_at": "2026-09-21T09:39:08+08:00",
    "sample": [
     {
      "title": "Jobboardsearch",
@@ -160,16 +160,16 @@
    "status": "ok",
    "count": 3,
    "message": "20 topics",
-   "elapsed_s": 1.0,
-   "probe_at": "2026-09-21T01:03:49+08:00",
+   "elapsed_s": 1.4,
+   "probe_at": "2026-09-21T09:39:09+08:00",
    "sample": [
+    {
+     "title": "我开源了一个极简 Agent 框架，叫 Kiso。「V 站首发」",
+     "url": "https://www.v2ex.com/t/1243519"
+    },
     {
      "title": "[北/上/深] 顶级 vc+AI 独角兽高薪招聘 大模型/agent 算法、infra、评测",
      "url": "https://www.v2ex.com/t/1243473"
-    },
-    {
-     "title": "做了个陪玩项目 轻陪助手",
-     "url": "https://www.v2ex.com/t/1243380"
     }
    ]
   },
@@ -182,8 +182,8 @@
    "status": "ok",
    "count": 3,
    "message": "9 entries",
-   "elapsed_s": 4.0,
-   "probe_at": "2026-09-21T01:03:53+08:00",
+   "elapsed_s": 1.4,
+   "probe_at": "2026-09-21T09:39:10+08:00",
    "sample": [
     {
      "title": "Indie Hacker",
@@ -204,16 +204,16 @@
    "status": "ok",
    "count": 3,
    "message": "8 videos",
-   "elapsed_s": 0.7,
-   "probe_at": "2026-09-21T01:03:53+08:00",
+   "elapsed_s": 0.9,
+   "probe_at": "2026-09-21T09:39:11+08:00",
    "sample": [
     {
      "title": "独立开发两种赚钱方式！99%的人没想明白！",
      "url": "https://www.bilibili.com/video/BV1VP7h6XEL5"
     },
     {
-     "title": "独立开发赚了500W后，我想给你这些建议！",
-     "url": "https://www.bilibili.com/video/BV1LnAHeSEqJ"
+     "title": "数字游民必看 | 独立开发者的出海赚钱实战经验分享!",
+     "url": "https://www.bilibili.com/video/BV1d9dKYxEiX"
     }
    ]
   },
@@ -223,21 +223,12 @@
    "adapter": "opencli_social",
    "auth": "browser",
    "group": "中文社媒",
-   "status": "ok",
-   "count": 20,
-   "message": "20 items",
-   "elapsed_s": 12.5,
-   "probe_at": "2026-09-21T01:04:06+08:00",
-   "sample": [
-    {
-     "title": "2026.09｜独立开发者「穷鬼」套餐",
-     "url": ">-"
-    },
-    {
-     "title": "搞钱攻略：独立开发者每天工作3h月入4w刀",
-     "url": ">-"
-    }
-   ]
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：timeout>90s",
+   "elapsed_s": 92.9,
+   "probe_at": "2026-09-21T09:40:44+08:00",
+   "sample": []
   },
   {
    "channel_id": "twitter",
@@ -247,9 +238,9 @@
    "group": "海外社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：(node:32336) [UNDICI-EHPA] Warning: EnvHttpProxyAgent is experimental, expect th",
-   "elapsed_s": 2.5,
-   "probe_at": "2026-09-21T01:04:08+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：ok: false\nerror:\n  code: COMMAND_EXEC\n  message: 'Pre-navigation to https://x.co",
+   "elapsed_s": 7.7,
+   "probe_at": "2026-09-21T09:40:52+08:00",
    "sample": []
   },
   {
@@ -261,16 +252,16 @@
    "status": "ok",
    "count": 3,
    "message": "8 results",
-   "elapsed_s": 12.9,
-   "probe_at": "2026-09-21T01:04:21+08:00",
+   "elapsed_s": 50.1,
+   "probe_at": "2026-09-21T09:41:42+08:00",
    "sample": [
     {
-     "title": "The Options Menu Game Launches on Steam at $5.99, Translations Planned | HappyGa",
-     "url": "https://happygamer.com/the-options-menu-game-steam-launch-164996/"
+     "title": "Noctiria, an Urban Horror Roguelite Deckbuilder, Is Out Now on Steam",
+     "url": "https://www.einpresswire.com/article/943626170/noctiria-an-urban-horror-roguelite-deckbuilder-is-out-now-on-steam"
     },
     {
-     "title": "The Syncline demo is out | KCEDERLUND.DEV",
-     "url": "https://kcederlund.dev/blog/the-syncline-demo-is-out"
+     "title": "I built TURNIT because creating social content from scratch gets exhausting - In",
+     "url": "https://www.indiehackers.com/post/i-built-turnit-because-creating-social-content-from-scratch-gets-exhausting-CsrCSe3bhHwaKrtiES1V"
     }
    ]
   }
@@ -282,9 +273,9 @@
    "status": "unusable",
    "declared": "ok",
    "delta": true,
-   "message": "ERR: <urlopen error Tunnel connection failed: 502 Bad Gateway>",
-   "elapsed_s": 10.1,
-   "probe_at": "2026-09-21T01:05:03+08:00"
+   "message": "ERR: <urlopen error timed out>",
+   "elapsed_s": 20.3,
+   "probe_at": "2026-09-21T09:43:00+08:00"
   },
   {
    "backend": "arctic_shift",
@@ -293,8 +284,8 @@
    "declared": null,
    "delta": false,
    "message": "1 rows",
-   "elapsed_s": 2.3,
-   "probe_at": "2026-09-21T01:05:05+08:00"
+   "elapsed_s": 2.1,
+   "probe_at": "2026-09-21T09:43:03+08:00"
   },
   {
    "backend": "exa_web_fetch",
@@ -303,8 +294,8 @@
    "declared": "warn",
    "delta": false,
    "message": "1 url 返回正文",
-   "elapsed_s": 4.7,
-   "probe_at": "2026-09-21T01:05:10+08:00"
+   "elapsed_s": 10.4,
+   "probe_at": "2026-09-21T09:43:13+08:00"
   },
   {
    "backend": "github_gh",
@@ -313,16 +304,16 @@
    "declared": "warn",
    "delta": false,
    "message": "remaining=5000",
-   "elapsed_s": 2.6,
-   "probe_at": "2026-09-21T01:05:12+08:00"
+   "elapsed_s": 33.0,
+   "probe_at": "2026-09-21T09:43:46+08:00"
   }
  ],
  "summary": {
   "total": 13,
-  "ok": 12,
+  "ok": 11,
   "empty": 0,
   "error": 0,
-  "auth": 1
+  "auth": 2
  },
  "decisions": [
   {
@@ -377,8 +368,8 @@
   },
   {
    "channel_id": "xiaohongshu",
-   "action": "keep",
-   "status": "ok"
+   "action": "unlock",
+   "status": "auth"
   },
   {
    "channel_id": "twitter",
@@ -393,7 +384,7 @@
  ],
  "agent_reach": {
   "ok": true,
-  "checked_at": "2026-09-21T01:04:53+08:00"
+  "checked_at": "2026-09-21T09:42:40+08:00"
  },
  "deltas": [
   {
@@ -402,9 +393,9 @@
    "status": "unusable",
    "declared": "ok",
    "delta": true,
-   "message": "ERR: <urlopen error Tunnel connection failed: 502 Bad Gateway>",
-   "elapsed_s": 10.1,
-   "probe_at": "2026-09-21T01:05:03+08:00"
+   "message": "ERR: <urlopen error timed out>",
+   "elapsed_s": 20.3,
+   "probe_at": "2026-09-21T09:43:00+08:00"
   }
  ]
 }

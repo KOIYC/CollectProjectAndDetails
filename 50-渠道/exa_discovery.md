@@ -6,7 +6,7 @@ group: "全网发现"
 adapter: "exa_discovery"
 auth: "cli"
 lang: "mix"
-status: "empty"
+status: "ok"
 last_verified: "2026-09-21"
 tags:
   - 渠道
@@ -19,7 +19,7 @@ params: {"weekly_only": true, "queries": ["indie developer launched their produc
 - **分组**：全网发现　|　**语言**：mix　|　**认证**：cli
 - **取数实现**：`exa_discovery`　|　**单次上限**：15
 - **补全类型**：none
-- **当前状态**：`empty`（本次 0 条，23.3s）
+- **当前状态**：`ok`（本次 9 条，24.4s）
 - **口径备注**：每周一次，补金字塔顶（博客/复盘文/新闻稿）
 - **解锁方式**：—
 
@@ -32,3 +32,4 @@ params: {"weekly_only": true, "queries": ["indie developer launched their produc
 | 2026-09-21T01:31:40+08:00 | empty | 0 | 18.5s | 0 results |
 | 2026-09-21T01:33:35+08:00 | empty | 0 | 30.1s | 0 results |
 | 2026-09-21T01:35:47+08:00 | empty | 0 | 23.3s | 0 results |
+| 2026-09-21T09:50:21+08:00 | ok | 9 | 24.4s | 32 results |

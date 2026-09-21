@@ -5,7 +5,8 @@ title: "Mybusinesscard"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/mybusinesscard"
-captured_at: "2026-09-21T03:11:34+08:00"
+project_url: "https://mybusinesscard.digital/"
+captured_at: "2026-09-21T09:47:43+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -29,8 +30,8 @@ discovered_via: "ih:products"
 > 原帖：<https://www.indiehackers.com/product/mybusinesscard>
 > 指标：—
 > 作者：—　|　发布：—
-> 项目链接：—
-> 采集：2026-09-21T03:11:34+08:00　|　id：`750bded60fe8722b`
+> 项目链接：<https://mybusinesscard.digital/>
+> 采集：2026-09-21T09:47:43+08:00　|　id：`750bded60fe8722b`
 
 ## 正文
 
@@ -65,7 +66,7 @@ If users decide to register (still 100% free) to lock in their custom URL (e.g.,
  Check it out (no sign-up required to test): https://mybusinesscard.digital
  Let me know what you think in the comments! 👇
 MarcoPhp
-10 Likes
+12 Likes
 1 Comment
 Say something nice…
 Post Comment
@@ -73,7 +74,7 @@ Post Comment
 We need to work together
 Elismandate
 ·
-6 hours ago
+13 hours ago
  ·
 Reply
 About
@@ -98,7 +99,7 @@ Databases
 
 ## 导航
 
-- 项目页：[[10-项目/Mybusinesscard_750bded6]]
+- 项目页：[[10-项目/Mybusinesscard_f8796427]]
 - 渠道页：[[50-渠道/indiehackers]]
 - 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

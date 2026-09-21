@@ -2,7 +2,7 @@
 type: "project"
 title: "inokone/react-micro-saas"
 project_url: "https://github.com/inokone/react-micro-saas"
-first_seen: "2026-09-21T03:17:41+08:00"
+first_seen: "2026-09-21T09:54:58+08:00"
 sources:
   - github_new
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/inokone/react-micro-saas>
-> 首次收录：2026-09-21T03:17:41+08:00
+> 首次收录：2026-09-21T09:54:58+08:00
 > 来源渠道：GitHub 新星仓库
 > 标签：topic:microsaas
 > 最新指标：stars=0 · forks=0 · open_issues=0
@@ -39,6 +39,7 @@ lang: "en"
 | 2026-09-21T03:10:59+08:00 | GitHub 新星仓库 | stars=0 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-21/55af89665fe9e52f_inokone-react-micro-saas]] |
 | 2026-09-21T03:16:04+08:00 | GitHub 新星仓库 | stars=0 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-21/55af89665fe9e52f_inokone-react-micro-saas]] |
 | 2026-09-21T03:17:41+08:00 | GitHub 新星仓库 | stars=0 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-21/55af89665fe9e52f_inokone-react-micro-saas]] |
+| 2026-09-21T09:54:58+08:00 | GitHub 新星仓库 | stars=0 · forks=0 · open_issues=0 | [[20-语料/posts/github_new/2026-09-21/55af89665fe9e52f_inokone-react-micro-saas]] |
 
 ## 摘要正文
 

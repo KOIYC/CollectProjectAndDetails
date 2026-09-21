@@ -5,7 +5,8 @@ title: "Ai Tools Vault"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/ai-tools-vault"
-captured_at: "2026-09-21T03:11:35+08:00"
+project_url: "https://aitoolsvault.site/blog/chatgpt-images-2-5-review"
+captured_at: "2026-09-21T09:47:43+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -29,8 +30,8 @@ discovered_via: "ih:products"
 > 原帖：<https://www.indiehackers.com/product/ai-tools-vault>
 > 指标：—
 > 作者：—　|　发布：—
-> 项目链接：—
-> 采集：2026-09-21T03:11:35+08:00　|　id：`cf803945d121b0a3`
+> 项目链接：<https://aitoolsvault.site/blog/chatgpt-images-2-5-review>
+> 采集：2026-09-21T09:47:43+08:00　|　id：`cf803945d121b0a3`
 
 ## 正文
 
@@ -59,7 +60,7 @@ Small team, trying to get outbound moving, and nearly signed up for a shiny AI e
  More detail on my blog: AI Tools for Sales Teams — What's Actually Worth Adopting , original on my site: AI Tools for Sales Teams in 2026 . If you're also hiring, the recruiting side has the identical generative-vs-predictive split: AI Recruitment Software .
  Anyone else here almost bought the wrong category of tool before catching it? What tipped you off?
 13jawad
-3 Likes
+4 Likes
 Comment
 September 18, 2026
  What I Learned Building a Study Tool: Not All "AI for Students" Is the Same Product
@@ -279,7 +280,7 @@ Databases
 
 ## 导航
 
-- 项目页：[[10-项目/Ai-Tools-Vault_cf803945]]
+- 项目页：[[10-项目/Ai-Tools-Vault_41d465b9]]
 - 渠道页：[[50-渠道/indiehackers]]
 - 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

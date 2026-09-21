@@ -5,7 +5,7 @@ title: "Hi Ai"
 source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/hi-ai"
-captured_at: "2026-09-21T02:52:21+08:00"
+captured_at: "2026-09-21T09:48:02+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-21T02:52:21+08:00　|　id：`fa55a02bef1ff7c5`
+> 采集：2026-09-21T09:48:02+08:00　|　id：`fa55a02bef1ff7c5`
 
 ## 正文
 
@@ -85,9 +85,9 @@ HiAPI
  Generate image, video, and audio with one API and persistent links
 Neurohelper AI
  All-in-one AI platform for chat, images, video, audio, and assistants
-Adviserry
+GoldMine
  BOOSTED
- Automatically get personalized actions from your YT/Pod/email subs
+ Let AI agents run your content, SEO, and outreach while you build
  BOOSTED
 Musicamania AI
  Explore video, voice, and engineering tools built for live precision
@@ -95,9 +95,9 @@ Humanio AI
  Make AI drafts sound human and pass leading AI detectors
 VocalAI
  Clone voices, remove vocals, and remix tracks with AI in seconds
-Nuatus
+AccsZone
  BOOSTED
- See tasks, events, lists, notes, and weather in one private daily view
+ AccsZone.com is a leading marketplace to buy and sell social media accounts
  BOOSTED
 Hawil AI
  Deploy AI voice, text chat, and microCRM to capture and convert leads

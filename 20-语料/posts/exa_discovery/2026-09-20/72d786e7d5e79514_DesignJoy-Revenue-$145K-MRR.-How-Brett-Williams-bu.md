@@ -6,7 +6,7 @@ source: "exa_discovery"
 source_name: "Exa 全网语义发现"
 url: "https://startupfounderstories.com/stories/brett-williams-designjoy"
 published_at: "2026-02-26T00:00:00.000Z"
-captured_at: "2026-09-20T02:39:55+08:00"
+captured_at: "2026-09-21T09:50:10+08:00"
 lang: "en"
 kind: "method"
 topic: "开发者工具"
@@ -32,7 +32,7 @@ discovered_via: "exa:solo founder MRR milestone build in public"
 > 指标：—
 > 作者：—　|　发布：2026-02-26T00:00:00.000Z
 > 项目链接：—
-> 采集：2026-09-20T02:39:55+08:00　|　id：`72d786e7d5e79514`
+> 采集：2026-09-21T09:50:10+08:00　|　id：`72d786e7d5e79514`
 
 ## 正文
 

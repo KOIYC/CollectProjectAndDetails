@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/SaaS/comments/1vbtuc2/i_am_16yo_pls_roast_my_idea
 project_url: "https://onpilot.app/"
 author: "Worth_Notice_6660"
 published_at: "2026-07-31T23:17:20+08:00"
-captured_at: "2026-09-21T03:20:02+08:00"
+captured_at: "2026-09-21T09:56:30+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -35,7 +35,7 @@ discovered_via: "reddit:83d+settle3"
 > 指标：得分=4 · 评论=7 · 赞踩比=1
 > 作者：Worth_Notice_6660　|　发布：2026-07-31T23:17:20+08:00
 > 项目链接：<https://onpilot.app/>
-> 采集：2026-09-21T03:20:02+08:00　|　id：`f09b79d98edacf7f`
+> 采集：2026-09-21T09:56:30+08:00　|　id：`f09b79d98edacf7f`
 
 ## 正文
 

@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1whlekb/curious_to_connect_with_people_around_business/"
 author: "batman222b"
 published_at: "2026-09-16T11:09:23+08:00"
-captured_at: "2026-09-21T03:19:05+08:00"
+captured_at: "2026-09-21T09:56:03+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=3 · 赞踩比=1
 > 作者：batman222b　|　发布：2026-09-16T11:09:23+08:00
 > 项目链接：—
-> 采集：2026-09-21T03:19:05+08:00　|　id：`37705ffbe1d5ebb6`
+> 采集：2026-09-21T09:56:03+08:00　|　id：`37705ffbe1d5ebb6`
 
 ## 正文
 

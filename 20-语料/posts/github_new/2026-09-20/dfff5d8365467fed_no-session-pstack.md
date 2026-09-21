@@ -8,7 +8,7 @@ url: "https://github.com/no-session/pstack"
 project_url: "https://github.com/no-session/pstack"
 author: "no-session"
 published_at: "2026-03-29T01:02:27Z"
-captured_at: "2026-09-20T09:49:14+08:00"
+captured_at: "2026-09-21T09:45:28+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -19,7 +19,7 @@ tags:
   - github_new
   - TypeScript
   - topic:indie-hacker
-metrics: {"stars": 107, "forks": 7, "open_issues": 0}
+metrics: {"stars": 108, "forks": 7, "open_issues": 0}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/no-session/pstack>
-> 指标：stars=107 · forks=7 · open_issues=0
+> 指标：stars=108 · forks=7 · open_issues=0
 > 作者：no-session　|　发布：2026-03-29T01:02:27Z
 > 项目链接：<https://github.com/no-session/pstack>
-> 采集：2026-09-20T09:49:14+08:00　|　id：`dfff5d8365467fed`
+> 采集：2026-09-21T09:45:28+08:00　|　id：`dfff5d8365467fed`
 
 ## 正文
 

@@ -37,9 +37,10 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
-from kb_common import (DIR_RAW, DIR_REPORT, META, ROOT, Seen, iso,  # noqa: E402
+from kb_common import (DIR_RAW, DIR_REPORT, META, ROOT, Seen, is_project_ish, iso,  # noqa: E402
                        load_ndjson, now_cst, rotate_files)
-from kb_collect import apply_rules, load_registry, load_rules          # noqa: E402
+from kb_collect import (apply_rules, load_registry, load_rules,  # noqa: E402
+                        person_note_path, project_note_path)
 
 DIR_ARCHIVE = ROOT / "80-归档"
 DIR_CORPUS = ROOT / "20-语料"
@@ -168,6 +169,15 @@ def stamp_frontmatter(path: Path, reason: str) -> None:
     path.write_text(fm + add + rest, encoding="utf-8")
 
 
+def _entity_stem_of(p: Path) -> str:
+    """实体页的「逻辑名」：去掉 `_free_dup_name` 顺延出来的 `-dupN` 尾巴。
+
+    实体页没有 item_id 可依，只能用名字认条；`-dup/-dup2/-dup3` 是同一页的副本，
+    去掉尾巴后同名即同条。
+    """
+    return re.sub(r"-dup\d*$", "", p.stem)
+
+
 def _free_dup_name(dst: Path) -> Path:
     """归档撞名顺延 -dup/-dup2/-dup3……直到空位。
 
@@ -253,6 +263,16 @@ def dedupe_archive(apply: bool, seen: Seen) -> int:
     groups: dict[str, list[Path]] = {}
     for p in (ROOT / "80-归档" / "posts").rglob("*.md"):
         groups.setdefault(_iid_of_note(p), []).append(p)
+    # 实体归档区（80-归档/项目、人物、方法论）也要去重：`_free_dup_name` 每撞一次名就顺延
+    # 一份 `-dupN`，而 `--archive-entities` 是**每轮**跑的（同一条 stale 页可能被再次搬），
+    # 于是冻结区同条会攒出 -dup3/-dup4……（2026-09-21 实测 32 份）。
+    # 语料区靠 item_id 认条，实体区没有 item_id，按「去掉 -dupN 后的 stem」分组。
+    for sub in ("项目", "人物", "方法论"):
+        d = ROOT / "80-归档" / sub
+        if not d.is_dir():
+            continue
+        for p in d.glob("*.md"):
+            groups.setdefault(_entity_stem_of(p) + "::" + sub, []).append(p)
     dup = {i: ps for i, ps in groups.items() if len(ps) > 1}
     if not dup:
         print("归档区无同条目重复快照")
@@ -263,6 +283,9 @@ def dedupe_archive(apply: bool, seen: Seen) -> int:
     for iid, ps in sorted(dup.items()):
         want = str((seen.items.get(iid) or {}).get("note") or "")
         keeper = next((p for p in ps if p.relative_to(ROOT).as_posix() == want), None)
+        if keeper is None:
+            # 实体区：无账本可依 → 留「未顺延名」的那份（`-dupN` 是后来才挂上去的副本）
+            keeper = next((p for p in ps if not re.search(r"-dup\d*$", p.stem)), None)
         if keeper is None:
             keeper = max(ps, key=lambda p: p.stat().st_mtime)
         keep.append(keeper)
@@ -379,16 +402,45 @@ ENTITY_SKIP = {"README.md", "index.md", "索引.md"}
 
 
 def _live_stems() -> set[str]:
-    """在库语料页导航段里指向的实体页名集合。
+    """在库实体页名集合 —— **导航段 ∪ 规范名重算** 双来源。
 
-    在库判据不靠 seen（那里没有 title/url，算不出实体路径），而是直接读**在库语料页导航段**
-    里那条实体链接 —— 它本来就是采集端按同一规则生成的，天然同源。
+    来源①（导航段）：直接读在库语料页「## 导航」里的实体链接。它本来就是采集端按同一
+    规则生成的，天然同源，覆盖绝大多数条目。
+
+    来源②（规范名重算）：按 `project_note_path / person_note_path` 对在库条目重算一遍，
+    判据与 `kb_healthcheck.py` 的 ② 完全一致。
+
+    为什么必须加来源②（2026-09-21 实测级联伤）：
+      `kb_reclassify --merge-orphans` 合并孤儿页时**只删旧页、不改写链接**，语料导航段
+      于是仍指向旧名。而来源①信任那串链接 → 旧名被当「在库」、真正的规范页被判 stale
+      → `--archive-entities` 把**活页**搬进归档 → healthcheck ② 缺页 4 + ④ 断链 4。
+    取并集只会让判据更保守（少搬），不会误搬 —— 与「宁可留页不断链」同向。
     """
     out: set[str] = set()
     for p in DIR_CORPUS.rglob("*.md"):
         m = NAV_ENTITY_RE.search(p.read_text(encoding="utf-8"))
         if m:
             out.add(m.group(1).split("/")[-1])
+
+    # 来源②：规范名重算（依赖 seen.note 判「在库」）
+    try:
+        seen = Seen()
+        for it in load_items().values():
+            iid = it.get("item_id")
+            if not iid:
+                continue
+            note = (seen.get(iid) or {}).get("note") or ""
+            if not note.startswith(CORPUS_PREFIX):
+                continue                          # 已归档 / 未落库 → 不算在库
+            try:
+                if it.get("kind") == "person":
+                    out.add(person_note_path(it).stem)
+                elif is_project_ish(it):
+                    out.add(project_note_path(it).stem)
+            except Exception:                     # noqa: BLE001
+                continue
+    except Exception as e:                        # noqa: BLE001
+        print(f"[!] _live_stems 规范名重算失败（退回纯导航段口径）：{e!r}", flush=True)
     return out
 
 

@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=48731598"
 project_url: "https://github.com/splendidz/uniflow"
 author: "splendidz"
 published_at: "2026-06-30T12:14:11Z"
-captured_at: "2026-09-21T03:11:00+08:00"
+captured_at: "2026-09-21T09:54:59+08:00"
 lang: "en"
 kind: "post"
 topic: SaaS/B2B
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:113d"
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：splendidz　|　发布：2026-06-30T12:14:11Z
 > 项目链接：<https://github.com/splendidz/uniflow>
-> 采集：2026-09-21T03:11:00+08:00　|　id：`c7ff48776160c3bf`
+> 采集：2026-09-21T09:54:59+08:00　|　id：`c7ff48776160c3bf`
 
 ## 正文
 

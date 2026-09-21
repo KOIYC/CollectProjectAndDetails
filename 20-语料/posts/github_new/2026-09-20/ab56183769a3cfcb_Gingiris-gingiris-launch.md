@@ -8,7 +8,7 @@ url: "https://github.com/Gingiris/gingiris-launch"
 project_url: "https://skills.sh/Gingiris/gingiris-launch"
 author: "Gingiris"
 published_at: "2026-03-05T09:50:48Z"
-captured_at: "2026-09-20T09:55:17+08:00"
+captured_at: "2026-09-21T09:54:58+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,7 +18,7 @@ tags:
   - 语料
   - github_new
   - topic:indie-hacker
-metrics: {"stars": 205, "forks": 29, "open_issues": 2}
+metrics: {"stars": 207, "forks": 29, "open_issues": 2}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -32,10 +32,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/Gingiris/gingiris-launch>
-> 指标：stars=205 · forks=29 · open_issues=2
+> 指标：stars=207 · forks=29 · open_issues=2
 > 作者：Gingiris　|　发布：2026-03-05T09:50:48Z
 > 项目链接：<https://skills.sh/Gingiris/gingiris-launch>
-> 采集：2026-09-20T09:55:17+08:00　|　id：`ab56183769a3cfcb`
+> 采集：2026-09-21T09:54:58+08:00　|　id：`ab56183769a3cfcb`
 
 ## 正文
 

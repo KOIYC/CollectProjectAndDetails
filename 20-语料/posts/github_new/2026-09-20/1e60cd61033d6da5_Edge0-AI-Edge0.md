@@ -8,7 +8,7 @@ url: "https://github.com/Edge0-AI/Edge0"
 project_url: "https://github.com/Edge0-AI/Edge0"
 author: "Edge0-AI"
 published_at: "2026-09-08T13:41:47Z"
-captured_at: "2026-09-20T09:49:12+08:00"
+captured_at: "2026-09-21T09:45:26+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - Python
-  - created:>2026-09-06
-metrics: {"stars": 2007, "forks": 173, "open_issues": 21}
+  - created:>2026-09-07
+metrics: {"stars": 2024, "forks": 176, "open_issues": 21}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/Edge0-AI/Edge0>
-> 指标：stars=2007 · forks=173 · open_issues=21
+> 指标：stars=2024 · forks=176 · open_issues=21
 > 作者：Edge0-AI　|　发布：2026-09-08T13:41:47Z
 > 项目链接：<https://github.com/Edge0-AI/Edge0>
-> 采集：2026-09-20T09:49:12+08:00　|　id：`1e60cd61033d6da5`
+> 采集：2026-09-21T09:45:26+08:00　|　id：`1e60cd61033d6da5`
 
 ## 正文
 

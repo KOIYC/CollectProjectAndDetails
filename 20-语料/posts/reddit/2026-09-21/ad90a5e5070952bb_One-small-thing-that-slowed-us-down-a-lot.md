@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1t004p9/one_small_thing_that_slowed_us_down_a_lot/"
 author: "ryukendo_25"
 published_at: "2026-04-30T23:47:18+08:00"
-captured_at: "2026-09-21T03:19:19+08:00"
+captured_at: "2026-09-21T09:56:07+08:00"
 lang: "en"
 kind: "post"
 topic: 开发者工具
@@ -35,7 +35,7 @@ discovered_via: "reddit:174d+settle3"
 > 指标：得分=3 · 评论=7 · 赞踩比=1
 > 作者：ryukendo_25　|　发布：2026-04-30T23:47:18+08:00
 > 项目链接：—
-> 采集：2026-09-21T03:19:19+08:00　|　id：`ad90a5e5070952bb`
+> 采集：2026-09-21T09:56:07+08:00　|　id：`ad90a5e5070952bb`
 
 ## 正文
 

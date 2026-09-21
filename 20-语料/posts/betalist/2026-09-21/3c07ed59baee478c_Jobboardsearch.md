@@ -5,7 +5,7 @@ title: "Jobboardsearch"
 source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/jobboardsearch"
-captured_at: "2026-09-21T02:52:15+08:00"
+captured_at: "2026-09-21T09:48:02+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-21T02:52:15+08:00　|　id：`3c07ed59baee478c`
+> 采集：2026-09-21T09:48:02+08:00　|　id：`3c07ed59baee478c`
 
 ## 正文
 
@@ -86,9 +86,9 @@ Path to Hired
  Get tools to land your next job faster — track applications easily
 StartupSubmit
  Boost visibility and build backlinks through top directory submissions
-Nuatus
+EntreDash
  BOOSTED
- See tasks, events, lists, notes, and weather in one private daily view
+ Validate and shape your idea with a private AI advisory board
  BOOSTED
 Idea Harvester
  Discover & validate SaaS ideas from reddit
@@ -96,9 +96,9 @@ MyPathfinder
  UK's first AI-powered 0-to-hired employability platform
 RevenueHarbor
  Discover vetted founder-authorized businesses with private intros
-Host4.ai
+Nodlume
  BOOSTED
- Run Claude Code and Codex 24/7 with SSH and a browser terminal on mobile
+ Plan React apps on a visual canvas and export ready project files
  BOOSTED
 Calm Companies
  Get weekly emails when calm companies with a great work culture are hiring

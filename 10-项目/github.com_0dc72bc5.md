@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Uniflow – a code skeleton so feature #50 looks like feature #1"
 project_url: "https://github.com/splendidz/uniflow"
-first_seen: "2026-09-21T03:11:00+08:00"
+first_seen: "2026-09-21T09:54:59+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/splendidz/uniflow>
-> 首次收录：2026-09-21T03:11:00+08:00
+> 首次收录：2026-09-21T09:54:59+08:00
 > 来源渠道：HN Show HN
 > 标签：author_splendidz, story_48731598, show_hn
 > 最新指标：点赞=2 · 评论=0 · engagement_velocity=2
@@ -33,6 +33,7 @@ lang: "en"
 | 2026-09-21T01:29:55+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/c7ff48776160c3bf_Show-HN-Uniflow-–-a-code-skeleton-so-feature-50-lo]] |
 | 2026-09-21T02:53:09+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/c7ff48776160c3bf_Show-HN-Uniflow-–-a-code-skeleton-so-feature-50-lo]] |
 | 2026-09-21T03:11:00+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/c7ff48776160c3bf_Show-HN-Uniflow-–-a-code-skeleton-so-feature-50-lo]] |
+| 2026-09-21T09:54:59+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/c7ff48776160c3bf_Show-HN-Uniflow-–-a-code-skeleton-so-feature-50-lo]] |
 
 ## 摘要正文
 

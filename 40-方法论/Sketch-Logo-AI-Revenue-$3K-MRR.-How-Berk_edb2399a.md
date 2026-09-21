@@ -2,7 +2,7 @@
 type: "method"
 title: "Sketch Logo AI Revenue: $3K MRR. How Berk Elmas built it | Startup Founder Stories"
 url: "https://startupfounderstories.com/stories/berk-elmas-sketch-logo-ai-8k-revenue"
-first_seen: "2026-09-20T02:39:55+08:00"
+first_seen: "2026-09-21T09:50:10+08:00"
 sources:
   - exa_discovery
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 > [!meta]- 文章信息（点开展开）
 > 原帖：<https://startupfounderstories.com/stories/berk-elmas-sketch-logo-ai-8k-revenue>
 > 作者：—
-> 首次收录：2026-09-20T02:39:55+08:00
+> 首次收录：2026-09-21T09:50:10+08:00
 > 来源渠道：Exa 全网语义发现
 > 标签：—
 
@@ -28,6 +28,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-20T02:39:55+08:00 | Exa 全网语义发现 | — | [[20-语料/posts/exa_discovery/2026-09-20/110ba286ef0c7667_Sketch-Logo-AI-Revenue-$3K-MRR.-How-Berk-Elmas-bui]] |
+| 2026-09-21T09:50:10+08:00 | Exa 全网语义发现 | — | [[20-语料/posts/exa_discovery/2026-09-20/110ba286ef0c7667_Sketch-Logo-AI-Revenue-$3K-MRR.-How-Berk-Elmas-bui]] |
 
 ## 摘要正文
 

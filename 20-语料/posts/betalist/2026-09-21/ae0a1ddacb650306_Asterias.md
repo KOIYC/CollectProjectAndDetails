@@ -5,7 +5,7 @@ title: "Asterias"
 source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/asterias"
-captured_at: "2026-09-21T02:52:16+08:00"
+captured_at: "2026-09-21T09:48:02+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-21T02:52:16+08:00　|　id：`ae0a1ddacb650306`
+> 采集：2026-09-21T09:48:02+08:00　|　id：`ae0a1ddacb650306`
 
 ## 正文
 
@@ -86,9 +86,9 @@ Airo Mail
  Email client for solo founders with Gmail integration and task guidance
 Town
  AI assistant that plugs into the tools you already use
-Host4.ai
+Hi-AI
  BOOSTED
- Run Claude Code and Codex 24/7 with SSH and a browser terminal on mobile
+ Affordable AI videos, music, voice, images, 3D, search, news, and reports
  BOOSTED
 Acta AI
  Generate blog content that sounds like you wrote it
@@ -96,9 +96,9 @@ SEO Refresher
  Refresh blog posts with AI to boost SEO and AEO performance
 Soonar
  Find Reddit leads and draft editable replies
-FreeDAST
+MyIntelBrief
  BOOSTED
- Scan your live site for risks and get a clear security grade
+ Get a daily one-page brief on competitors with clear next steps
  BOOSTED
 Woop AI
  Unify audits, content, and competitor intel to rank higher in search

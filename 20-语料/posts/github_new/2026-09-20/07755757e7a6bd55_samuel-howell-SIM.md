@@ -8,7 +8,7 @@ url: "https://github.com/samuel-howell/SIM"
 project_url: "https://github.com/samuel-howell/SIM"
 author: "samuel-howell"
 published_at: "2021-08-16T21:16:31Z"
-captured_at: "2026-09-20T09:55:17+08:00"
+captured_at: "2026-09-21T09:54:58+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -36,7 +36,7 @@ discovered_via: "github:14d"
 > 指标：stars=9 · forks=4 · open_issues=0
 > 作者：samuel-howell　|　发布：2021-08-16T21:16:31Z
 > 项目链接：<https://github.com/samuel-howell/SIM>
-> 采集：2026-09-20T09:55:17+08:00　|　id：`07755757e7a6bd55`
+> 采集：2026-09-21T09:54:58+08:00　|　id：`07755757e7a6bd55`
 
 ## 正文
 

@@ -66,6 +66,95 @@ def looks_like_person(r: dict) -> str | None:
     return None
 
 
+LINK_RE = re.compile(r"\[\[([^\]\|#]+)([^\]]*)\]\]")
+CORPUS_PREFIX = "20-语料/"
+ARCHIVE_PREFIX = "80-归档/"
+ENTITY_DIRS = ("10-项目", "30-人物")
+
+
+def _entity_canon() -> dict[str, str]:
+    """在库条目的**规范实体页名** → 相对路径。判据与 kb_healthcheck ② 一致。"""
+    seen = Seen()
+    canon: dict[str, str] = {}
+    for iid, (r, _day) in load_latest().items():
+        note = (seen.get(iid) or {}).get("note") or ""
+        if not note.startswith(CORPUS_PREFIX):
+            continue                                  # 已归档 / 未落库 → 不算在库
+        if r.get("kind") == "person":
+            p = person_note_path(r)
+        elif is_project_ish(r):
+            p = project_note_path(r)
+        else:
+            continue
+        canon[p.stem] = p.relative_to(ROOT).with_suffix("").as_posix()   # wikilink 文本不带 .md
+    return canon
+
+
+def repair_dangling_entity_links(dry: bool = False) -> int:
+    """把指向「已不存在实体页」的**路径式** wikilink 改写为规范名。
+
+    为什么需要（2026-09-21 级联伤）：`merge_orphans` 合并孤儿页时删掉旧页却不改链接，
+    语料导航段于是指向一个不存在的旧名。后果是级联的 ——
+      · `kb_healthcheck` ④ 报断链；
+      · `kb_prune._live_stems()` 以导航段为准 → 旧名被当「在库」、**规范页被判 stale**
+        → `--archive-entities` 把活页搬进归档 → ② 缺页。
+    修法：链接目标的 basename 找不到时，按「同基名（去掉末尾 `_hash`）」在**在库规范名**
+    里找唯一命中，唯一才改写；不唯一 / 找不到一律不动（宁可留断链也不猜错目标）。
+    短名链接（`[[xxx]]` 无路径）本就按文件名解析，不在此列。
+    """
+    canon = _entity_canon()
+    by_base: dict[str, list[str]] = {}
+    for stem in canon:
+        by_base.setdefault(stem.rsplit("_", 1)[0].lower(), []).append(stem)
+
+    n_links = n_files = 0
+    samples: list[str] = []
+    for p in sorted(ROOT.rglob("*.md")):
+        parts = p.relative_to(ROOT).parts
+        if any(x.startswith(".") for x in parts):
+            continue
+        rel = p.relative_to(ROOT).as_posix()
+        if rel.startswith(ARCHIVE_PREFIX):
+            continue                                  # 冻结区不改（与 _rewrite_links 口径一致）
+        txt = p.read_text(encoding="utf-8")
+        if "[[" not in txt:
+            continue
+
+        def repl(m: re.Match) -> str:
+            nonlocal n_links
+            core = m.group(1).strip()
+            tail = m.group(2)
+            if "/" not in core:
+                return m.group(0)
+            head = core.split("/")[0]
+            if head not in ENTITY_DIRS:
+                return m.group(0)
+            if (ROOT / (core + ".md")).exists():
+                return m.group(0)
+            base = core.split("/")[-1].rsplit("_", 1)[0].lower()
+            cands = by_base.get(base) or []
+            if len(cands) != 1:
+                return m.group(0)
+            new = canon[cands[0]]
+            if new == core:
+                return m.group(0)
+            n_links += 1
+            if len(samples) < 12:
+                samples.append(f"[{rel}] {core} -> {new}")
+            return m.group(0).replace(core, new, 1)
+
+        new_txt = LINK_RE.sub(repl, txt)
+        if new_txt != txt:
+            n_files += 1
+            if not dry:
+                p.write_text(new_txt, encoding="utf-8")
+
+    print(f"repair-dangling-entity-links  apply={not dry}  改写 {n_links} 处 / {n_files} 个文件")
+    for s in samples:
+        print(f"    {s}")
+    return n_links
+
+
 def merge_orphans(dry: bool = False) -> int:
     """合并孤儿项目页。
 
@@ -73,6 +162,8 @@ def merge_orphans(dry: bool = False) -> int:
     hash 变化 → 新建一页、上一轮那页成了孤儿（实测 20 条，全是 V2EX/Reddit，正文是外链帖）。
     采集端已改为「project_url 只增不减」防新增；本函数清理存量：
       孤儿页的 project_url == 该条目的 item url → 找到当前 live 页 → 合并「观测历史」行 → 删孤儿页。
+    合并后**必须**跑一遍链接改写（否则导航段指向已删的旧名 → 级联伤，见
+    `repair_dangling_entity_links` 的 docstring）。
     """
     live = load_latest()
     by_item_url: dict[str, tuple[dict, str]] = {}
@@ -123,6 +214,9 @@ def merge_orphans(dry: bool = False) -> int:
         f.unlink()
         print(f"  删除孤儿 {f.name}")
         merged += 1
+    if merged:
+        # 删了旧页就必须改写指向旧名的链接 —— 漏这一步会造成「规范页被判 stale → 被搬走」的级联伤
+        repair_dangling_entity_links(dry=False)
     return merged
 
 
@@ -387,7 +481,13 @@ def main(argv=None) -> int:
     ap.add_argument("--reconcile-entities", action="store_true",
                     help="按当前 kind 分发规则，为存量 person/method 语料补建实体页"
                          "（不重写语料，只落 30-人物/ 与 40-方法论/）")
+    ap.add_argument("--repair-links", action="store_true",
+                    help="修指向「已不存在实体页」的路径式 wikilink（按在库规范名唯一兜底）")
     args = ap.parse_args(argv)
+
+    if args.repair_links:
+        repair_dangling_entity_links(args.dry)
+        return 0
 
     if args.reconcile_entities:
         reconcile_entities(args.dry)

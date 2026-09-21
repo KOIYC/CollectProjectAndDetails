@@ -1,0 +1,157 @@
+{
+ "run_id": "20260921T094358",
+ "started_at": "2026-09-21T09:43:58+08:00",
+ "ended_at": "2026-09-21T09:50:22+08:00",
+ "elapsed_s": 383.3,
+ "channels": [
+  {
+   "source_id": "hn_show",
+   "name": "HN Show HN",
+   "status": "ok",
+   "count": 40,
+   "message": "40/40 hits | new=40 chg=0",
+   "elapsed_s": 84.0,
+   "new": 40,
+   "changed": 0,
+   "raw": 40
+  },
+  {
+   "source_id": "github_new",
+   "name": "GitHub 新星仓库",
+   "status": "ok",
+   "count": 10,
+   "message": "28 repos;  | 写盘 8/10 | new=1 chg=7",
+   "elapsed_s": 13.8,
+   "new": 1,
+   "changed": 7,
+   "raw": 10
+  },
+  {
+   "source_id": "reddit",
+   "name": "Reddit 独立开发版块",
+   "status": "ok",
+   "count": 22,
+   "message": "22 posts;  | new=22 chg=0",
+   "elapsed_s": 59.8,
+   "new": 22,
+   "changed": 0,
+   "raw": 22
+  },
+  {
+   "source_id": "devto",
+   "name": "dev.to",
+   "status": "ok",
+   "count": 2,
+   "message": "5 articles | new=1 chg=1",
+   "elapsed_s": 62.7,
+   "new": 1,
+   "changed": 1,
+   "raw": 2
+  },
+  {
+   "source_id": "producthunt",
+   "name": "Product Hunt",
+   "status": "ok",
+   "count": 30,
+   "message": "30 entries | 写盘 15/30 | new=15 chg=0",
+   "elapsed_s": 1.4,
+   "new": 15,
+   "changed": 0,
+   "raw": 30
+  },
+  {
+   "source_id": "indiehackers",
+   "name": "Indie Hackers 产品库",
+   "status": "ok",
+   "count": 20,
+   "message": "20 products | 写盘 10/20 | new=7 chg=3",
+   "elapsed_s": 18.4,
+   "new": 7,
+   "changed": 3,
+   "raw": 20
+  },
+  {
+   "source_id": "betalist",
+   "name": "BetaList",
+   "status": "ok",
+   "count": 12,
+   "message": "12 startups | new=6 chg=6",
+   "elapsed_s": 9.3,
+   "new": 6,
+   "changed": 6,
+   "raw": 12
+  },
+  {
+   "source_id": "v2ex",
+   "name": "V2EX",
+   "status": "ok",
+   "count": 21,
+   "message": "84 topics | 写盘 5/21 | new=4 chg=1",
+   "elapsed_s": 22.7,
+   "new": 4,
+   "changed": 1,
+   "raw": 21
+  },
+  {
+   "source_id": "c1c7",
+   "name": "1c7 中文独立开发者名录",
+   "status": "error",
+   "count": 0,
+   "message": "ERR The read operation timed out",
+   "elapsed_s": 61.9
+  },
+  {
+   "source_id": "bilibili",
+   "name": "B站",
+   "status": "ok",
+   "count": 6,
+   "message": "50 videos | new=2 chg=4",
+   "elapsed_s": 3.2,
+   "new": 2,
+   "changed": 4,
+   "raw": 6
+  },
+  {
+   "source_id": "xiaohongshu",
+   "name": "小红书",
+   "status": "ok",
+   "count": 1,
+   "message": "20 items | new=0 chg=1",
+   "elapsed_s": 13.7,
+   "new": 0,
+   "changed": 1,
+   "raw": 1
+  },
+  {
+   "source_id": "twitter",
+   "name": "X / Twitter",
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：ok: false\nerror:\n  code: COMMAND_EXEC\n  message: 'Pre-navigation to https://x.co | new=0 chg=0",
+   "elapsed_s": 6.5,
+   "new": 0,
+   "changed": 0,
+   "raw": 0
+  },
+  {
+   "source_id": "exa_discovery",
+   "name": "Exa 全网语义发现",
+   "status": "ok",
+   "count": 9,
+   "message": "32 results | 写盘 7/9 | new=2 chg=5",
+   "elapsed_s": 24.5,
+   "new": 2,
+   "changed": 5,
+   "raw": 9
+  }
+ ],
+ "notes_written": 128,
+ "errors": [
+  "c1c7: ERR: The read operation timed out"
+ ],
+ "total_items": 173,
+ "total_new": 100,
+ "dry": false,
+ "rule_dropped": 37,
+ "write_errors": 0
+}

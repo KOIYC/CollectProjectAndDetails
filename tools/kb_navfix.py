@@ -100,6 +100,15 @@ def apply(path: Path, *, nav: bool, topic: bool, dates: bool, sync_kind: bool,
         head = set_fm_scalar(head, "kind", src["kind"])
         changed.add("对齐kind")
 
+    # ①b project_url 与「最新记录」对齐 —— **只在内存里**，不写进 frontmatter。
+    #     语料页 frontmatter 不带 project_url（它是 collect 端从正文外链回退推导的，存在 raw/seen），
+    #     于是 nav_block 会退回用 item url 推实体页名，算出**与 healthcheck ② 不同的名字**
+    #     （② 用 live 记录的 project_url）。后果：`--repair-links` 刚把链接修成规范名，
+    #     navfix 下一次跑又把它写回旧名 —— ④ 断链「修好了又坏」（2026-09-21 实测 4 条）。
+    #     两端同源（都用 live 记录）才不会互相打架。
+    if src and src.get("project_url") and not rec.get("project_url"):
+        rec["project_url"] = src["project_url"]
+
     if topic:
         want = topic_of(rec)
         if fm.get("topic") != want:
@@ -117,9 +126,8 @@ def apply(path: Path, *, nav: bool, topic: bool, dates: bool, sync_kind: bool,
             head = set_fm_scalar(head, "pub_day", pub)
             changed.add("补pub_day")
 
-    # ③ 导航段（出链）—— 放在最后，因为它要读前面同步过的 kind
+    # ③ 导航段（出链）—— 放在最后，因为它要读前面同步过的 kind + project_url（rec 已就地更新）
     if nav:
-        rec = as_item(fm, body_text)
         fresh = "\n".join(nav_block(rec)).rstrip() + "\n"
         new_body = body_text.rstrip() + "\n\n" + fresh
         if new_body != body:
@@ -584,7 +592,15 @@ def main() -> int:
                     body_text = strip_nav(sp[1])
                     sec = sp[1][sp[1].find(NAV_HEAD) + len(NAV_HEAD):]
                     cur = {ln for ln in sec.splitlines() if ln.startswith("- ")}
-                    new = {ln for ln in nav_block(as_item(fm, body_text)) if ln.startswith("- ")}
+                    # 与 apply() 同源：project_url 取 live 记录（否则算出的实体页名与
+                    # healthcheck ② 不同 → 干跑永远报「导航内容过期」，真跑又写回旧名）
+                    _r = as_item(fm, body_text)
+                    _src = live.get(fm.get("item_id"))
+                    if _src and _src.get("project_url") and not _r.get("project_url"):
+                        _r["project_url"] = _src["project_url"]
+                    if _src and _src.get("kind"):
+                        _r["kind"] = _src["kind"]
+                    new = {ln for ln in nav_block(_r) if ln.startswith("- ")}
                     if cur != new:
                         stat["导航内容过期"] += 1
             continue

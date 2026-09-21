@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49712621"
 project_url: "https://github.com/greentfrapp/panel"
 author: "greentfrapp"
 published_at: "2026-09-15T13:58:37Z"
-captured_at: "2026-09-21T03:17:51+08:00"
+captured_at: "2026-09-21T09:55:09+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=53 · 评论=22 · engagement_velocity=53
 > 作者：greentfrapp　|　发布：2026-09-15T13:58:37Z
 > 项目链接：<https://github.com/greentfrapp/panel>
-> 采集：2026-09-21T03:17:51+08:00　|　id：`67861861e81ac9c2`
+> 采集：2026-09-21T09:55:09+08:00　|　id：`67861861e81ac9c2`
 
 ## 正文
 

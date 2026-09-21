@@ -1,0 +1,27 @@
+{
+  "at": "2026-09-21T10:00:57+08:00",
+  "note": "只搬回「在库条目的规范实体页」",
+  "source_manifest": "entity_archive_manifest_20260921T100057.json",
+  "moves": [
+    {
+      "stem": "Diskbox_c1945afd",
+      "from": "10-项目/Diskbox_c1945afd.md",
+      "to": "80-归档/项目/Diskbox_c1945afd.md"
+    },
+    {
+      "stem": "Mywallhub_903e5b7d",
+      "from": "10-项目/Mywallhub_903e5b7d.md",
+      "to": "80-归档/项目/Mywallhub_903e5b7d.md"
+    },
+    {
+      "stem": "Stay-Up_1e6989c8",
+      "from": "10-项目/Stay-Up_1e6989c8.md",
+      "to": "80-归档/项目/Stay-Up_1e6989c8.md"
+    },
+    {
+      "stem": "Xpaiming_801a4af4",
+      "from": "10-项目/Xpaiming_801a4af4.md",
+      "to": "80-归档/项目/Xpaiming_801a4af4.md"
+    }
+  ]
+}

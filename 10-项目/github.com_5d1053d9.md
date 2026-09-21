@@ -2,14 +2,14 @@
 type: "project"
 title: "tamaratran/fast-jev-compaction"
 project_url: "https://github.com/tamaratran/fast-jev-compaction"
-first_seen: "2026-09-20T09:49:12+08:00"
+first_seen: "2026-09-21T09:45:26+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - TypeScript
-  - created:>2026-09-06
+  - created:>2026-09-07
 lang: "en"
 ---
 
@@ -20,10 +20,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/tamaratran/fast-jev-compaction>
-> 首次收录：2026-09-20T09:49:12+08:00
+> 首次收录：2026-09-21T09:45:26+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：TypeScript, created:>2026-09-06
-> 最新指标：stars=4277 · forks=228 · open_issues=48
+> 标签：TypeScript, created:>2026-09-07
+> 最新指标：stars=5222 · forks=287 · open_issues=58
 
 ## 观测历史
 
@@ -36,6 +36,7 @@ lang: "en"
 | 2026-09-20T03:30:04+08:00 | GitHub 新星仓库 | stars=4067 · forks=213 · open_issues=47 | [[20-语料/posts/github_new/2026-09-20/5d1053d9f00a3609_tamaratran-fast-jev-compaction]] |
 | 2026-09-20T03:40:00+08:00 | GitHub 新星仓库 | stars=4071 · forks=214 · open_issues=47 | [[20-语料/posts/github_new/2026-09-20/5d1053d9f00a3609_tamaratran-fast-jev-compaction]] |
 | 2026-09-20T09:49:12+08:00 | GitHub 新星仓库 | stars=4277 · forks=228 · open_issues=48 | [[20-语料/posts/github_new/2026-09-20/5d1053d9f00a3609_tamaratran-fast-jev-compaction]] |
+| 2026-09-21T09:45:26+08:00 | GitHub 新星仓库 | stars=5222 · forks=287 · open_issues=58 | [[20-语料/posts/github_new/2026-09-20/5d1053d9f00a3609_tamaratran-fast-jev-compaction]] |
 
 ## 摘要正文
 

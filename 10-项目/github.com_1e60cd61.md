@@ -2,14 +2,14 @@
 type: "project"
 title: "Edge0-AI/Edge0"
 project_url: "https://github.com/Edge0-AI/Edge0"
-first_seen: "2026-09-20T09:49:12+08:00"
+first_seen: "2026-09-21T09:45:26+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - Python
-  - created:>2026-09-06
+  - created:>2026-09-07
 lang: "en"
 ---
 
@@ -20,10 +20,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/Edge0-AI/Edge0>
-> 首次收录：2026-09-20T09:49:12+08:00
+> 首次收录：2026-09-21T09:45:26+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：Python, created:>2026-09-06
-> 最新指标：stars=2007 · forks=173 · open_issues=21
+> 标签：Python, created:>2026-09-07
+> 最新指标：stars=2024 · forks=176 · open_issues=21
 
 ## 观测历史
 
@@ -36,6 +36,7 @@ lang: "en"
 | 2026-09-20T03:30:04+08:00 | GitHub 新星仓库 | stars=2001 · forks=170 · open_issues=21 | [[20-语料/posts/github_new/2026-09-20/1e60cd61033d6da5_Edge0-AI-Edge0]] |
 | 2026-09-20T03:40:00+08:00 | GitHub 新星仓库 | stars=2001 · forks=170 · open_issues=21 | [[20-语料/posts/github_new/2026-09-20/1e60cd61033d6da5_Edge0-AI-Edge0]] |
 | 2026-09-20T09:49:12+08:00 | GitHub 新星仓库 | stars=2007 · forks=173 · open_issues=21 | [[20-语料/posts/github_new/2026-09-20/1e60cd61033d6da5_Edge0-AI-Edge0]] |
+| 2026-09-21T09:45:26+08:00 | GitHub 新星仓库 | stars=2024 · forks=176 · open_issues=21 | [[20-语料/posts/github_new/2026-09-20/1e60cd61033d6da5_Edge0-AI-Edge0]] |
 
 ## 摘要正文
 

@@ -5,7 +5,7 @@ title: "Unjumbl"
 source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/unjumbl"
-captured_at: "2026-09-21T02:52:16+08:00"
+captured_at: "2026-09-21T09:48:02+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-21T02:52:16+08:00　|　id：`7cb4e48fdaefc33a`
+> 采集：2026-09-21T09:48:02+08:00　|　id：`7cb4e48fdaefc33a`
 
 ## 正文
 
@@ -90,9 +90,9 @@ Floor Plan Maker
  Generate clean floor plans and 3D views in seconds with AI
 Squishify
  Batch resize, crop, rename, and optimize images locally in browser
-PitchMonster
+Adviserry
  BOOSTED
- Practice sales calls with AI buyers and get instant coaching
+ Automatically get personalized actions from your YT/Pod/email subs
  BOOSTED
 Nuatus
  BOOSTED
@@ -102,9 +102,9 @@ Dishcount
  Turn local grocery deals into personalized meal plans
 InsideSync
  Unify every aspect of your life with an AI that understands and acts
-Todoless
+EntreDash
  BOOSTED
- AI-native, privacy-first task management that understands natural typing
+ Validate and shape your idea with a private AI advisory board
  BOOSTED
 SnapyPlay
  A parent-child companion that turns everyday curiosity into STEM adventures

@@ -5,7 +5,8 @@ title: "Cv Blender"
 source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/cv-blender"
-captured_at: "2026-09-21T02:52:15+08:00"
+project_url: "https://cvblender.com/refer/wznj39pd"
+captured_at: "2026-09-21T09:48:02+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -29,8 +30,8 @@ discovered_via: "betalist:home"
 > 原帖：<https://betalist.com/startups/cv-blender>
 > 指标：—
 > 作者：—　|　发布：—
-> 项目链接：—
-> 采集：2026-09-21T02:52:15+08:00　|　id：`98206d3192ab076a`
+> 项目链接：<https://cvblender.com/refer/wznj39pd>
+> 采集：2026-09-21T09:48:02+08:00　|　id：`98206d3192ab076a`
 
 ## 正文
 
@@ -87,9 +88,9 @@ FreeCustomResumes
  Rewrite your resume with AI to beat ATS and impress recruiters
 Distill
  Clean, brand, and anonymize resumes in seconds, ready for submittal
-Mailtwine
+TapVid
  BOOSTED
- AI email triage and assistant turning your inbox into an action list
+ Turn prompts, PDFs, or links into explainer videos with motion graphics
  BOOSTED
 Recastia
  Turn one PDF into video, slides, flipbooks, pages, and a chatbot
@@ -97,20 +98,16 @@ Vidocu AI
  Turn any video into professional content
 CAD Scene
  Render photorealistic architectural images from 3D scenes and prompts in秒
-TapVid
+MemoryPlugin
  BOOSTED
- Turn prompts, PDFs, or links into explainer videos with motion graphics
+ Long term memory for ALL your AI tools
  BOOSTED
 FloorAI
  Turn any sketch or photo into an accurate, editable floor plan
 
-## 关联链接
-
-- https://cvblender.com/refer/wznj39pd
-
 ## 导航
 
-- 项目页：[[10-项目/Cv-Blender_98206d31]]
+- 项目页：[[10-项目/Cv-Blender_d0408667]]
 - 渠道页：[[50-渠道/betalist]]
 - 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

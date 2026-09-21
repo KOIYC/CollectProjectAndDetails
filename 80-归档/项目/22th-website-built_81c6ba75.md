@@ -2,7 +2,7 @@
 type: "project"
 title: "22th website built."
 project_url: "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1szxbsl/22th_website_built/"
-first_seen: "2026-09-21T03:19:22+08:00"
+first_seen: "2026-09-21T09:56:08+08:00"
 sources:
   - reddit
 tags:
@@ -21,7 +21,7 @@ stale: true
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://www.reddit.com/r/EntrepreneurRideAlong/comments/1szxbsl/22th_website_built/>
-> 首次收录：2026-09-21T03:19:22+08:00
+> 首次收录：2026-09-21T09:56:08+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/EntrepreneurRideAlong, Other
 > 最新指标：得分=3 · 评论=2 · 赞踩比=1
@@ -30,10 +30,7 @@ stale: true
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-21T03:00:23+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=2 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/81c6ba756b861539_22th-website-built]] |
-| 2026-09-21T03:13:08+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=2 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/81c6ba756b861539_22th-website-built]] |
-| 2026-09-21T03:17:42+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=2 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/81c6ba756b861539_22th-website-built]] |
-| 2026-09-21T03:19:22+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=2 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/81c6ba756b861539_22th-website-built]] |
+| 2026-09-21T09:56:08+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=2 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/81c6ba756b861539_22th-website-built]] |
 
 ## 摘要正文
 

@@ -6,7 +6,7 @@ source: "exa_discovery"
 source_name: "Exa 全网语义发现"
 url: "https://tycoon.us/one-person-company/tony-dinh"
 published_at: "2026-04-17T00:00:00.000Z"
-captured_at: "2026-09-20T02:39:55+08:00"
+captured_at: "2026-09-21T09:50:10+08:00"
 lang: "en"
 kind: "method"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "exa:solo founder MRR milestone build in public"
 > 指标：—
 > 作者：—　|　发布：2026-04-17T00:00:00.000Z
 > 项目链接：—
-> 采集：2026-09-20T02:39:55+08:00　|　id：`7372d00126c6437b`
+> 采集：2026-09-21T09:50:10+08:00　|　id：`7372d00126c6437b`
 
 ## 正文
 

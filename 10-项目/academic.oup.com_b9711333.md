@@ -2,7 +2,7 @@
 type: "project"
 title: "My Agents Never Get Tired. I Do: On Satisficing"
 project_url: "https://academic.oup.com/qje/article-abstract/69/1/99/1919737"
-first_seen: "2026-09-20T14:17:39+08:00"
+first_seen: "2026-09-21T09:46:46+08:00"
 sources:
   - devto
 tags:
@@ -22,10 +22,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://academic.oup.com/qje/article-abstract/69/1/99/1919737>
-> 首次收录：2026-09-20T14:17:39+08:00
+> 首次收录：2026-09-21T09:46:46+08:00
 > 来源渠道：dev.to
 > 标签：ai, buildinpublic, agents, discuss
-> 最新指标：reactions=38 · 评论=33 · reading_time=8
+> 最新指标：reactions=38 · 评论=34 · reading_time=8
 
 ## 观测历史
 
@@ -41,6 +41,7 @@ lang: "en"
 | 2026-09-20T03:45:32+08:00 | dev.to | reactions=38 · 评论=33 · reading_time=8 | [[20-语料/posts/devto/2026-09-20/805df5e49bac2636_My-Agents-Never-Get-Tired.-I-Do-On-Satisficing]] |
 | 2026-09-20T09:50:04+08:00 | dev.to | reactions=38 · 评论=33 · reading_time=8 | [[20-语料/posts/devto/2026-09-20/805df5e49bac2636_My-Agents-Never-Get-Tired.-I-Do-On-Satisficing]] |
 | 2026-09-20T14:17:39+08:00 | dev.to | reactions=38 · 评论=33 · reading_time=8 | [[20-语料/posts/devto/2026-09-20/805df5e49bac2636_My-Agents-Never-Get-Tired.-I-Do-On-Satisficing]] |
+| 2026-09-21T09:46:46+08:00 | dev.to | reactions=38 · 评论=34 · reading_time=8 | [[20-语料/posts/devto/2026-09-20/805df5e49bac2636_My-Agents-Never-Get-Tired.-I-Do-On-Satisficing]] |
 
 ## 摘要正文
 

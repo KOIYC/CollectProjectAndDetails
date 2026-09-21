@@ -5,7 +5,7 @@ title: "PriceTag 的独立开发者采访（公众号 PriceTagApp）"
 source: "c1c7"
 source_name: "1c7 中文独立开发者名录"
 url: "https://mp.weixin.qq.com/s/WZ6ULaATxIA1fZOUXZVobA"
-captured_at: "2026-09-21T01:35:04+08:00"
+captured_at: "2026-09-21T09:51:49+08:00"
 lang: "zh"
 kind: "project"
 topic: "开发者工具"
@@ -31,41 +31,35 @@ discovered_via: "1c7:readme"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-21T01:35:04+08:00　|　id：`f79916209c3de950`
+> 采集：2026-09-21T09:51:49+08:00　|　id：`f79916209c3de950`
 
 ## 正文
 
 This account has been deleted by the owner. Unable to view the content.
-
-**
-This account has been deleted by the owner. Unable to view the content.
 :
-，
-，
-，
-，
-，
-，
-，
-，
-，
-，
-，
-，
-.
-
+ ，
+ ，
+ ，
+ ，
+ ，
+ ，
+ ，
+ ，
+ ，
+ ，
+ ，
+ ，
+ .
 Video
-Mini Program
+ Mini Program
 Like
-，轻点两下取消赞
-Wow
-，轻点两下取消在看
-Share
-Comment
-Favorite
-听过
-
-# V2EX › 分享创造
+ ，轻点两下取消赞
+ Wow
+ ，轻点两下取消在看
+ Share
+ Comment
+ Favorite
+ 听过
 
 ## 导航
 

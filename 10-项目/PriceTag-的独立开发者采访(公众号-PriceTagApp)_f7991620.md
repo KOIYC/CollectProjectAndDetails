@@ -2,7 +2,7 @@
 type: "project"
 title: "PriceTag 的独立开发者采访（公众号 PriceTagApp）"
 project_url: "https://mp.weixin.qq.com/s/WZ6ULaATxIA1fZOUXZVobA"
-first_seen: "2026-09-21T01:35:04+08:00"
+first_seen: "2026-09-21T09:51:49+08:00"
 sources:
   - c1c7
 tags:
@@ -19,7 +19,7 @@ lang: "zh"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://mp.weixin.qq.com/s/WZ6ULaATxIA1fZOUXZVobA>
-> 首次收录：2026-09-21T01:35:04+08:00
+> 首次收录：2026-09-21T09:51:49+08:00
 > 来源渠道：1c7 中文独立开发者名录
 > 标签：中文
 > 最新指标：—
@@ -42,7 +42,8 @@ lang: "zh"
 | 2026-09-21T01:31:03+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/f79916209c3de950_PriceTag-的独立开发者采访(公众号-PriceTagApp)]] |
 | 2026-09-21T01:32:48+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/f79916209c3de950_PriceTag-的独立开发者采访(公众号-PriceTagApp)]] |
 | 2026-09-21T01:35:04+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/f79916209c3de950_PriceTag-的独立开发者采访(公众号-PriceTagApp)]] |
+| 2026-09-21T09:51:49+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/f79916209c3de950_PriceTag-的独立开发者采访(公众号-PriceTagApp)]] |
 
 ## 摘要正文
 
-This account has been deleted by the owner. Unable to view the content.  ** This account has been deleted by the owner. Unable to view the content. : ， ， ， ， ， ， ， ， ， ， ， ， .  Video Mini Program Like ，轻点两下取消赞 Wow ，轻点两下取消在看 Share Comment Favorite 听过  # V2EX › 分享创造
+This account has been deleted by the owner. Unable to view the content. :  ，  ，  ，  ，  ，  ，  ，  ，  ，  ，  ，  ，  . Video  Mini Program Like  ，轻点两下取消赞  Wow  ，轻点两下取消在看  Share  Comment  Favorite  听过

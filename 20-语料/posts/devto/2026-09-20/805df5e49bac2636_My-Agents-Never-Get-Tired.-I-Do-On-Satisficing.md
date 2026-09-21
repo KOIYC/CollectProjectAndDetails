@@ -8,7 +8,7 @@ url: "https://dev.to/earlgreyhot1701d/my-agents-never-get-tired-i-do-on-satisfic
 project_url: "https://academic.oup.com/qje/article-abstract/69/1/99/1919737"
 author: "Earl Grey"
 published_at: "2026-09-11T03:49:55Z"
-captured_at: "2026-09-20T14:17:39+08:00"
+captured_at: "2026-09-21T09:46:46+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,9 +21,9 @@ tags:
   - buildinpublic
   - agents
   - discuss
-metrics: {"reactions": 38, "comments": 33, "reading_time": 8}
-comments_count: 33
-comments_total: 33
+metrics: {"reactions": 38, "comments": 34, "reading_time": 8}
+comments_count: 34
+comments_total: 34
 discovered_via: "devto:buildinpublic"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:buildinpublic"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/earlgreyhot1701d/my-agents-never-get-tired-i-do-on-satisficing-1mb>
-> 指标：reactions=38 · 评论=33 · reading_time=8
+> 指标：reactions=38 · 评论=34 · reading_time=8
 > 作者：Earl Grey　|　发布：2026-09-11T03:49:55Z
 > 项目链接：<https://academic.oup.com/qje/article-abstract/69/1/99/1919737>
-> 采集：2026-09-20T14:17:39+08:00　|　id：`805df5e49bac2636`
+> 采集：2026-09-21T09:46:46+08:00　|　id：`805df5e49bac2636`
 
 ## 正文
 
@@ -142,7 +142,7 @@ Quick context if you are new here. I work in the California courts, running cour
 
 AI Assisted. Human Approved. Powered by NLP.
 
-## 评论（33/33）
+## 评论（34/34）
 
 > **Mateo Ruiz** · 2026-09-11T05:04:06Z　
 > The idea of putting the stop sign in the plan rather than relying on human willpower is the part that really resonates. I’d take the rigor tiers one step further and make them machine-checkable against the agent’s diff and runtime behavior. That turns “this is a spike” from guidance into an enforceable constraint: no new dependencies, no unrelated files, bounded execution, fixed cost, etc. The other important distinction is between engineering rigor and external risk. Rate limits, secret handling, loop bounds, and data exposure shouldn’t become optional just because a block is disposable. In agent-assisted development, the interesting optimization isn’t maximizing how much the agent can build it’s making sure the agent knows when not to build more.
@@ -368,6 +368,11 @@ AI Assisted. Human Approved. Powered by NLP.
 > What I did on the 24th is the tell: the same day it passed, I added a new pass condition, because our logger had never actually run in the deployed runtime. That fix vendored a file, the vendoring needed a test, and the test turned up the dependency drift. All real work. None of it "does the stack deploy."
 >
 > Your framing is the one I'd use now: it stopped being a question and became a folder, and I never re-titled it after that. A folder has no answered state, so it just keeps taking deposits.
+
+---
+
+> **build996** · 2026-09-20T10:14:57Z　
+> The 24th is the cleanest marker in that timeline: a pass condition added on the same day the thing went green isn't the old question being finished, it's a new one inheriting an old title. That part is checkable without judgement - an acceptance criterion edited after an item goes green could just be forced to open a new item. The logger fix deserved to exist; it just didn't deserve to be Block Zero.
 
 ---
 

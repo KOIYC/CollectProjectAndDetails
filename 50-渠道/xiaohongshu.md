@@ -19,7 +19,7 @@ params: {"site": "xiaohongshu", "queries": ["独立开发", "独立开发者", "
 - **分组**：中文社媒　|　**语言**：zh　|　**认证**：browser
 - **取数实现**：`opencli_social`　|　**单次上限**：15
 - **补全类型**：fulltext
-- **当前状态**：`ok`（本次 1 条，13.2s）
+- **当前状态**：`ok`（本次 1 条，13.7s）
 - **口径备注**：>-
 - **解锁方式**：装 OpenCLI 浏览器扩展并保持 Chrome 打开（chrome web store: OpenCLI）；或 agent-reach configure xhs-cookies 走 xiaohongshu-mcp
 
@@ -38,3 +38,4 @@ params: {"site": "xiaohongshu", "queries": ["独立开发", "独立开发者", "
 | 2026-09-21T01:31:18+08:00 | ok | 1 | 12.9s | 20 items |
 | 2026-09-21T01:33:02+08:00 | ok | 1 | 12.0s | 20 items |
 | 2026-09-21T01:35:21+08:00 | ok | 1 | 13.2s | 20 items |
+| 2026-09-21T09:49:50+08:00 | ok | 1 | 13.7s | 20 items |

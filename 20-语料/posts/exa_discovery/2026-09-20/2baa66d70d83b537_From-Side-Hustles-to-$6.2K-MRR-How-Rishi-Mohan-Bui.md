@@ -6,7 +6,7 @@ source: "exa_discovery"
 source_name: "Exa 全网语义发现"
 url: "https://www.fakemayo.com/p/from-side-hustles-to-6-2k-mrr-how-rishi-mohan-built-orshot"
 published_at: "2026-07-15T00:00:00.000Z"
-captured_at: "2026-09-20T02:39:55+08:00"
+captured_at: "2026-09-21T09:50:10+08:00"
 lang: "en"
 kind: "method"
 topic: "开发者工具"
@@ -32,7 +32,7 @@ discovered_via: "exa:solo founder MRR milestone build in public"
 > 指标：—
 > 作者：—　|　发布：2026-07-15T00:00:00.000Z
 > 项目链接：—
-> 采集：2026-09-20T02:39:55+08:00　|　id：`2baa66d70d83b537`
+> 采集：2026-09-21T09:50:10+08:00　|　id：`2baa66d70d83b537`
 
 ## 正文
 
