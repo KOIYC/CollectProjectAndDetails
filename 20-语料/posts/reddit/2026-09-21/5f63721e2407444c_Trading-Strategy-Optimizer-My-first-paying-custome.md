@@ -8,10 +8,10 @@ url: "https://www.reddit.com/r/SideProject/comments/1wifs4c/trading_strategy_opt
 project_url: "https://chromewebstore.google.com/detail/trading-strategy-optimize/pjgikffklocmefghdipdiidfebgbklon"
 author: "PreparationOk3910"
 published_at: "2026-09-17T09:14:43+08:00"
-captured_at: "2026-09-21T13:03:23+08:00"
+captured_at: "2026-09-21T22:01:43+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "开发者工具"
 shard: "2026-09-21"
 pub_day: "2026-09-17"
 tags:
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=13 · 赞踩比=0.67
 > 作者：PreparationOk3910　|　发布：2026-09-17T09:14:43+08:00
 > 项目链接：<https://chromewebstore.google.com/detail/trading-strategy-optimize/pjgikffklocmefghdipdiidfebgbklon>
-> 采集：2026-09-21T13:03:23+08:00　|　id：`5f63721e2407444c`
+> 采集：2026-09-21T22:01:43+08:00　|　id：`5f63721e2407444c`
 
 ## 正文
 
@@ -135,5 +135,5 @@ Free on the Chrome Web Store if you use TradingView: https://chromewebstore.goog
 
 - 项目页：[[10-项目/chromewebstore.google.com_0401cf94]]
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

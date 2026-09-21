@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=49711544"
 project_url: "https://github.com/arnegiacomo/fugleramme"
 author: "arnemunthekaas"
 published_at: "2026-09-15T12:31:10Z"
-captured_at: "2026-09-21T13:02:41+08:00"
+captured_at: "2026-09-21T22:00:41+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "开发者工具"
 shard: "2026-09-21"
 pub_day: "2026-09-15"
 tags:
@@ -21,7 +21,7 @@ tags:
   - story_49711544
   - show_hn
 metrics: {"points": 2355, "comments": 259, "engagement_velocity": 2355}
-comments_count: 247
+comments_count: 251
 comments_total: 259
 discovered_via: "hn:show_hn:90d"
 ---
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=2355 · 评论=259 · engagement_velocity=2355
 > 作者：arnemunthekaas　|　发布：2026-09-15T12:31:10Z
 > 项目链接：<https://github.com/arnegiacomo/fugleramme>
-> 采集：2026-09-21T13:02:41+08:00　|　id：`b6a5a0f6057541b4`
+> 采集：2026-09-21T22:00:41+08:00　|　id：`b6a5a0f6057541b4`
 
 ## 正文
 
@@ -136,7 +136,7 @@ Want to update? Just pull and run ./setup.sh again
  2022, Ecology Letters, doi:10.1111/ele.13898),
  CC BY 4.0.
 
-## 评论（247/259）
+## 评论（251/259）
 
 > **arnemunthekaas** · 2026-09-15T12:31:25.000Z　
 > Author here. A mic listens to the sounds in my garden, BirdNET-Go (an open-source BirdNET classifier) detects birds by sound, and the e-ink frame draws a real 1800s natural-history illustration of each one as it hears them. Here’s a live web-demo from my garden in Bergen, Norway: https://fugleramme.arnegiacomo.devA few things that might be interesting:- The screen only redraws when the set of birds changes, and dithers the collage down to six colours for the e-ink display.- Bigger birds sit toward the centre, scaled by real body mass.- 800+ cutouts across 400+ species, each cut from a real public domain plate. All art is historic and human-made. Coverage is currently best for the Nordics, Britain and Germany (but other parts of the world are in the works).- Runs fully local on a Raspberry Pi or your homelab (yes, even the classifier runs great on a RPI)The e-ink panel is optional and it can run web-only in a container against a BirdNET-Go you already have.Happy to answer any questions!
@@ -649,6 +649,21 @@ Want to update? Just pull and run ./setup.sh again
 
 > **kdiehl** · 2026-09-20T21:42:57.000Z　
 > I love this on many levels. creativity, 1800 art, community contribution on art assets! Made my day!
+
+---
+
+> **hoihoihoi** · 2026-09-21T08:41:04.000Z　
+> Such a lovely project!
+
+---
+
+> **awfm9** · 2026-09-21T10:36:19.000Z　
+> Beautiful work. That's the kind of creativity AI will not replace any time soon.
+
+---
+
+> **lwi00** · 2026-09-21T13:47:41.000Z　
+> cutest thing ever
 
 ---
 
@@ -1338,6 +1353,11 @@ Want to update? Just pull and run ./setup.sh again
 
 ---
 
+> **thepoet** · 2026-09-21T08:02:39.000Z　
+> Yes absolutely, the current Kobo one uses the Mac's mic. I work near a window on my Mac so this is handy without any hardware setup.
+
+---
+
 > **arnemunthekaas** · 2026-09-15T14:00:20.000Z　
 > Thanks, I’ll do that, and ofc link to this beautiful poster I have that actually originally sparked the idea: https://www.axelthorenfeldt.com/news/wwf-verdens-naturfonds-...
 
@@ -1391,5 +1411,5 @@ Want to update? Just pull and run ./setup.sh again
 
 - 项目页：[[10-项目/github.com_4e7ba9f5]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

@@ -38,6 +38,7 @@ from kbc_channels import (ACCOUNT_URL_RE, ADAPTERS, ENRICH_ROUTING, FULLTEXT_BUD
                           derive_project_url, enrich_generic, excerpt, filter_published,  # noqa: E402,F401
                           lead_sentence, make_item, project_url_reject, readable_body,  # noqa: E402,F401
                           strip_html)  # noqa: E402,F401  ↑ re-export：9 个工具从本模块 import 这些名字
+from kb_near_dup import near_dups_in, simhash64  # noqa: E402  ← 在线近重复标注（B5）
 
 __all__ = ["load_rules", "apply_rules", "main"]
 
@@ -685,6 +686,49 @@ def main(argv=None) -> int:
                     pu_derived += 1
         if pu_derived:
             print(f"    [i] project_url 补推 {pu_derived} 条（正文补全后才可推导）", flush=True)
+
+        # ---- 在线近重复标注（B5）----
+        #
+        # 为什么放在「正文补全之后、写盘之前」：raw JSONL 是只追加的不可变事实源，
+        # 一旦落盘就再也补不上字段。放这里，标注才能进 raw、进语料页、进 seen。
+        #
+        # 判定口径（`kb_near_dup`）：simhash 只当**候选生成器**，候选必须过「特征集包含度 ≥0.60」
+        # 验证才算重复 —— 只靠指纹会把同域不同文判成重复（实测 8 个不相关的 GitHub 项目被判成一组）。
+        # 验证要拿到对方的正文：用 BodyCache（本机缓存，零网络）。
+        # **拿不到对方正文时不假装验证过**：进 `near_dup_unverified` 留痕，不算重复。
+        #
+        # 之所以要在线做而不是等离线报告：跨渠道改写稿会被算成两个独立观测 →
+        # 分析层把同一信号重复计数，这是**取数时就形成**的偏差，事后很难回溯。
+        #
+        # 指纹写进 seen.items：本轮内后续渠道能立刻看到本轮前面的条目（跨渠道才判得准），
+        # 且 `--build` 之外多了一条增量路径 —— 不必每轮重算全库指纹。
+        nd_hits = nd_unver = 0
+        if not args.dry:
+            body_of = lambda iid: (body_cache.get(iid) or {}).get("body")  # noqa: E731
+            for it in items:
+                body = it.get("body") or ""
+                dups = near_dups_in(seen.items, body, exclude=it["item_id"], limit=3,
+                                    body_of=body_of)
+                if dups:
+                    ok = [h for h in dups if h["verified"]]
+                    un = [h for h in dups if not h["verified"]]
+                    ex2 = it.setdefault("extra", {})
+                    if ok:
+                        ex2["near_dup_of"] = ok
+                        nd_hits += 1
+                    if un:
+                        ex2["near_dup_unverified"] = un
+                        nd_unver += 1
+                fsh = simhash64(body)
+                if not fsh:
+                    continue                       # 正文 <200 字符：特征空间窄，易误判
+                rec = seen.items.setdefault(it["item_id"], {})
+                rec["simhash"] = fsh
+                rec.setdefault("source", ch["id"])
+                rec.setdefault("note", "")
+            if nd_hits or nd_unver:
+                print(f"    [i] 近重复：{nd_hits} 条已确认（含候选验证）· "
+                      f"{nd_unver} 条仅有候选未验证（对方正文不在缓存，不计为重复）", flush=True)
 
         for it in items:
             it["_hash"] = sha1(json.dumps({"b": it.get("body") or "", "c": it.get("comments") or [],

@@ -5,11 +5,13 @@ title: "Jobboardsearch"
 source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/jobboardsearch"
-captured_at: "2026-09-21T09:48:02+08:00"
+published_at: "2026-09-17"
+captured_at: "2026-09-21T22:04:09+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
 shard: "2026-09-21"
+pub_day: "2026-09-17"
 tags:
   - 语料
   - betalist
@@ -28,9 +30,9 @@ discovered_via: "betalist:home"
 > 来源：BetaList（project）
 > 原帖：<https://betalist.com/startups/jobboardsearch>
 > 指标：—
-> 作者：—　|　发布：—
+> 作者：—　|　发布：2026-09-17
 > 项目链接：—
-> 采集：2026-09-21T09:48:02+08:00　|　id：`3c07ed59baee478c`
+> 采集：2026-09-21T22:04:09+08:00　|　id：`3c07ed59baee478c`
 
 ## 正文
 

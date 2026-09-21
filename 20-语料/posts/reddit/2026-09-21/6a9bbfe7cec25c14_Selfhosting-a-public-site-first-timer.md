@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/selfhosted/comments/1ujnhnj/selfhosting_a_public_site_first_timer/"
 author: "emaG_eh7"
 published_at: "2026-06-30T20:13:03+08:00"
-captured_at: "2026-09-21T13:04:09+08:00"
+captured_at: "2026-09-21T22:04:28+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -35,7 +35,7 @@ discovered_via: "reddit:113d+settle3"
 > 指标：得分=12 · 评论=30 · 赞踩比=0.75
 > 作者：emaG_eh7　|　发布：2026-06-30T20:13:03+08:00
 > 项目链接：—
-> 采集：2026-09-21T13:04:09+08:00　|　id：`6a9bbfe7cec25c14`
+> 采集：2026-09-21T22:04:28+08:00　|　id：`6a9bbfe7cec25c14`
 
 ## 正文
 

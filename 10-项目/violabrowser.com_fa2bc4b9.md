@@ -2,7 +2,7 @@
 type: "project"
 title: "I built a spiritual successor to the Arc web browser (cross-platform...Mac, Win, Linux, Android). Full desktop experience on mobile. Would love feedback!"
 project_url: "https://violabrowser.com/"
-first_seen: "2026-09-21T13:04:20+08:00"
+first_seen: "2026-09-21T22:05:21+08:00"
 sources:
   - reddit
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://violabrowser.com/>
-> 首次收录：2026-09-21T13:04:20+08:00
+> 首次收录：2026-09-21T22:05:21+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/SideProject
 > 最新指标：得分=7 · 评论=6 · 赞踩比=1
@@ -34,6 +34,7 @@ lang: "en"
 | 2026-09-21T03:19:53+08:00 | Reddit 独立开发版块 | 得分=7 · 评论=6 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/2a3d5ec0a0b07787_I-built-a-spiritual-successor-to-the-Arc-web-brows]] |
 | 2026-09-21T09:56:26+08:00 | Reddit 独立开发版块 | 得分=7 · 评论=6 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/2a3d5ec0a0b07787_I-built-a-spiritual-successor-to-the-Arc-web-brows]] |
 | 2026-09-21T13:04:20+08:00 | Reddit 独立开发版块 | 得分=7 · 评论=6 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/2a3d5ec0a0b07787_I-built-a-spiritual-successor-to-the-Arc-web-brows]] |
+| 2026-09-21T22:05:21+08:00 | Reddit 独立开发版块 | 得分=7 · 评论=6 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/2a3d5ec0a0b07787_I-built-a-spiritual-successor-to-the-Arc-web-brows]] |
 
 ## 摘要正文
 

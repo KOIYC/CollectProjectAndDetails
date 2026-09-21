@@ -8,10 +8,10 @@ url: "https://www.reddit.com/r/IndieDev/comments/1szys8i/we_may_have_gone_too_fa
 project_url: "https://v.redd.it/ackcqpz8ccyg1"
 author: "ComputerKind560"
 published_at: "2026-04-30T23:08:35+08:00"
-captured_at: "2026-09-21T13:03:46+08:00"
+captured_at: "2026-09-21T22:03:01+08:00"
 lang: "en"
 kind: "post"
-topic: 开发者工具
+topic: "未分类"
 shard: "2026-09-21"
 pub_day: "2026-04-30"
 tags:
@@ -35,7 +35,7 @@ discovered_via: "reddit:174d+settle3"
 > 指标：得分=71 · 评论=14 · 赞踩比=0.9900000095367432
 > 作者：ComputerKind560　|　发布：2026-04-30T23:08:35+08:00
 > 项目链接：<https://v.redd.it/ackcqpz8ccyg1>
-> 采集：2026-09-21T13:03:46+08:00　|　id：`e17f916095f200c5`
+> 采集：2026-09-21T22:03:01+08:00　|　id：`e17f916095f200c5`
 
 ## 正文
 
@@ -120,5 +120,5 @@ None of this is essential, but we like these small touches.
 
 - 项目页：[[10-项目/v.redd.it_132dc510]]
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

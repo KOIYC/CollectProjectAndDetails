@@ -5,11 +5,13 @@ title: "Gb7 Meetup"
 source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/gb7-meetup"
-captured_at: "2026-09-20T09:51:55+08:00"
+published_at: "2026-09-16"
+captured_at: "2026-09-21T22:04:06+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
 shard: "2026-09-20"
+pub_day: "2026-09-16"
 tags:
   - 语料
   - betalist
@@ -28,9 +30,9 @@ discovered_via: "betalist:home"
 > 来源：BetaList（project）
 > 原帖：<https://betalist.com/startups/gb7-meetup>
 > 指标：—
-> 作者：—　|　发布：—
+> 作者：—　|　发布：2026-09-16
 > 项目链接：—
-> 采集：2026-09-20T09:51:55+08:00　|　id：`bf1dc87267ca9be7`
+> 采集：2026-09-21T22:04:06+08:00　|　id：`bf1dc87267ca9be7`
 
 ## 正文
 

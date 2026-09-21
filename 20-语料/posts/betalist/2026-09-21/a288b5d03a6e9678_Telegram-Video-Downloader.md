@@ -5,11 +5,13 @@ title: "Telegram Video Downloader"
 source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/telegram-video-downloader"
-captured_at: "2026-09-21T02:52:16+08:00"
+published_at: "2026-09-20"
+captured_at: "2026-09-21T22:04:10+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
 shard: "2026-09-21"
+pub_day: "2026-09-20"
 tags:
   - 语料
   - betalist
@@ -28,9 +30,9 @@ discovered_via: "betalist:home"
 > 来源：BetaList（project）
 > 原帖：<https://betalist.com/startups/telegram-video-downloader>
 > 指标：—
-> 作者：—　|　发布：—
+> 作者：—　|　发布：2026-09-20
 > 项目链接：—
-> 采集：2026-09-21T02:52:16+08:00　|　id：`a288b5d03a6e9678`
+> 采集：2026-09-21T22:04:10+08:00　|　id：`a288b5d03a6e9678`
 
 ## 正文
 

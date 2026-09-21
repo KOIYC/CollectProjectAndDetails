@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=49726451"
 project_url: "https://airma.sh/"
 author: "fivesigma"
 published_at: "2026-09-16T13:08:55Z"
-captured_at: "2026-09-20T14:04:15+08:00"
+captured_at: "2026-09-21T21:59:53+08:00"
 lang: "en"
 kind: "post"
-topic: 开发者工具
+topic: "内容/媒体"
 shard: "2026-09-20"
 pub_day: "2026-09-16"
 tags:
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:90d"
 # Show HN: Airmash – HTML5 Massively Multiplayer Missile Warfare
 
 > [!info] 一句话导读
-> Airmash • Massively Multiplayer Missile Warfare
+> © 2026 Airmash Labs FZCO Terms Privacy
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,25 +37,35 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=10 · 评论=3 · engagement_velocity=10
 > 作者：fivesigma　|　发布：2026-09-16T13:08:55Z
 > 项目链接：<https://airma.sh/>
-> 采集：2026-09-20T14:04:15+08:00　|　id：`6269e348c19c4c75`
+> 采集：2026-09-21T21:59:53+08:00　|　id：`6269e348c19c4c75`
 
 ## 正文
 
-Airmash • Massively Multiplayer Missile Warfare
-
-Sep 15 2026
-
+0 %
+a b
+ © 2026 Airmash Labs FZCO Terms Privacy
+Changelog Leaderboard Blog
+ players online
+Sep 20 2026
+ v1.0.1
+Balancing, new keybinds & bug fixes
+v1.0.1 © 2026 Airmash Labs FZCO Terms Privacy
+INVITED TO GAME
+SELECT ANOTHER
+*
+ Sign in to reserve
+REGION
+ -
+PLAY SIGN IN Profile Log out
+-
+ - - -
+...
 BOUNTY
-
+ 0
 0
-
+ -
 0
-
-0
-
---
-
-# Kafka Message Search & Keyword Watch Tool | Kaflow Search
+- -
 
 ## 评论（3/3）
 
@@ -77,5 +87,5 @@ BOUNTY
 
 - 项目页：[[10-项目/airma.sh_c684e05f]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`内容/媒体`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

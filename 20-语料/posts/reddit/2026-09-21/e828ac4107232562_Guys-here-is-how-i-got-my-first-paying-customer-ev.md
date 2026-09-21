@@ -7,10 +7,10 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1wi7lim/guys_here_is_how_i_got_my_first_paying_customer/"
 author: "Confident_Alfalfa228"
 published_at: "2026-09-17T03:42:54+08:00"
-captured_at: "2026-09-21T13:03:08+08:00"
+captured_at: "2026-09-21T22:01:24+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "开发者工具"
 shard: "2026-09-21"
 pub_day: "2026-09-17"
 tags:
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=42 · 评论=23 · 赞踩比=0.88
 > 作者：Confident_Alfalfa228　|　发布：2026-09-17T03:42:54+08:00
 > 项目链接：—
-> 采集：2026-09-21T13:03:08+08:00　|　id：`e828ac4107232562`
+> 采集：2026-09-21T22:01:24+08:00　|　id：`e828ac4107232562`
 
 ## 正文
 
@@ -162,5 +162,5 @@ NOTE: Do seo properly to your saas it will help in long run and can get you cust
 
 - 项目页：—（本条不是项目，按设计不建实体页）
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

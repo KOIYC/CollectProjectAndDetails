@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Sampletext.store/ We built a dumb web shop and we cannot look away"
 project_url: "https://sampletext.store/"
-first_seen: "2026-09-21T01:13:42+08:00"
+first_seen: "2026-09-21T21:59:53+08:00"
 sources:
   - hn_show
 tags:
@@ -16,9 +16,12 @@ lang: "en"
 
 # Show HN: Sampletext.store/ We built a dumb web shop and we cannot look away
 
+> [!info] 一句话导读
+> sampletext.store - generate your shirt
+
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://sampletext.store/>
-> 首次收录：2026-09-21T01:13:42+08:00
+> 首次收录：2026-09-21T21:59:53+08:00
 > 来源渠道：HN Show HN
 > 标签：author_smrtfckrr, story_47963825, show_hn
 > 最新指标：点赞=2 · 评论=0 · engagement_velocity=2
@@ -29,3 +32,8 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-21T01:09:14+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/d961da091a811872_Show-HN-Sampletext.store-We-built-a-dumb-web-shop]] |
 | 2026-09-21T01:13:42+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/d961da091a811872_Show-HN-Sampletext.store-We-built-a-dumb-web-shop]] |
+| 2026-09-21T21:59:53+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/d961da091a811872_Show-HN-Sampletext.store-We-built-a-dumb-web-shop]] |
+
+## 摘要正文
+
+Skip to content sampletext.store - generate your shirt ][CdK][ PRESENTS ███████╗ █████╗ ███╗ ███╗ ██████╗ ██╗ ███████╗ ████████╗ ███████╗ ██╗ ██╗ ████████╗ ███████╗████████╗ ██████╗ ██████╗ ███████╗ ██╔════╝ ██╔══██╗ ████╗ ████║ ██╔══██╗ ██║ ██╔════╝ ╚══██╔══╝ ██╔════╝ ╚██╗██╔╝ ╚══██╔══╝ ██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗██╔════╝ ███████╗ ███████║ ██╔████╔██║ ██████╔╝ ██║ █████╗ ██║ █████╗ ╚███╔╝ ██║ ███████╗ ██║ ██║ ██║██████╔╝█████╗ ╚════██║ ██╔══██║ ██║╚██╔╝██║ ██╔═══╝ ██║ ██╔══╝ ██║ ██╔══╝ ██╔██╗ ██║ ╚════██║ ██║ ██║ ██║██╔══██╗██╔══╝ ███████║ ██║ ██║ ██║ ╚═╝ ██║ ██║ ███████╗ ███████╗ ██║ ███████╗ ██╔╝ ██╗ ██║ ██╗ ███████║ ██║ ╚██████╔╝██║ ██║███████╗ ╚══════╝ ╚═╝ ╚═╝ ╚═╝ ╚═╝ ╚═╝ ╚══════╝ ╚══════╝ ╚═╝ ╚══════╝ ╚═╝ ╚═╝ ╚═╝ ╚═╝ ╚══════╝ ╚═╝ ╚═════╝ ╚═╝ ╚═╝╚══════╝ ┌───┐ │ F │ └───┘  ═════ LAUNCH ┌───┐ │ U │ └───┘  ═════ FAQ ┌───┐ │ K │ └───┘  ═════ GALLERY ┌───┐ │ C │ └───┘  ═════ GUESTBOOK visitor # 000,000 since April 20th 2026 Privacy Policy  Terms & Conditions  Refund Policy  Impressum SYSTEM OK: 640K  @sampletext_store  best viewed in 800x600

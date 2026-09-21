@@ -1,0 +1,31 @@
+{
+ "generated": "2026-09-21T22:23:58+08:00",
+ "fingerprinted": 1527,
+ "items": 1732,
+ "groups": 12,
+ "candidates_rejected": 0,
+ "min_containment": 0.6,
+ "max_hamming": 6,
+ "cross_channel_groups": [
+  [
+   {
+    "item_id": "e396d52dd138f175",
+    "source": "hn_front"
+   },
+   {
+    "item_id": "b0de47b82e09f0d8",
+    "source": "lobsters"
+   }
+  ],
+  [
+   {
+    "item_id": "be69d1c920579bcd",
+    "source": "hn_front"
+   },
+   {
+    "item_id": "b38a231007f303c3",
+    "source": "lobsters"
+   }
+  ]
+ ]
+}

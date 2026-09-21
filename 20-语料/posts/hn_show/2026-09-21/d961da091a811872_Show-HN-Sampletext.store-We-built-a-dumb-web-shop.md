@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=47963825"
 project_url: "https://sampletext.store/"
 author: "smrtfckrr"
 published_at: "2026-04-30T15:17:23Z"
-captured_at: "2026-09-21T01:13:42+08:00"
+captured_at: "2026-09-21T21:59:53+08:00"
 lang: "en"
 kind: "post"
 topic: "未分类"
@@ -28,13 +28,56 @@ discovered_via: "hn:show_hn:174d"
 
 # Show HN: Sampletext.store/ We built a dumb web shop and we cannot look away
 
+> [!info] 一句话导读
+> sampletext.store - generate your shirt
+
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=47963825>
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：smrtfckrr　|　发布：2026-04-30T15:17:23Z
 > 项目链接：<https://sampletext.store/>
-> 采集：2026-09-21T01:13:42+08:00　|　id：`d961da091a811872`
+> 采集：2026-09-21T21:59:53+08:00　|　id：`d961da091a811872`
+
+## 正文
+
+Skip to content
+sampletext.store - generate your shirt
+][CdK][ PRESENTS
+███████╗ █████╗ ███╗ ███╗ ██████╗ ██╗ ███████╗ ████████╗ ███████╗ ██╗ ██╗ ████████╗ ███████╗████████╗ ██████╗ ██████╗ ███████╗
+██╔════╝ ██╔══██╗ ████╗ ████║ ██╔══██╗ ██║ ██╔════╝ ╚══██╔══╝ ██╔════╝ ╚██╗██╔╝ ╚══██╔══╝ ██╔════╝╚══██╔══╝██╔═══██╗██╔══██╗██╔════╝
+███████╗ ███████║ ██╔████╔██║ ██████╔╝ ██║ █████╗ ██║ █████╗ ╚███╔╝ ██║ ███████╗ ██║ ██║ ██║██████╔╝█████╗
+╚════██║ ██╔══██║ ██║╚██╔╝██║ ██╔═══╝ ██║ ██╔══╝ ██║ ██╔══╝ ██╔██╗ ██║ ╚════██║ ██║ ██║ ██║██╔══██╗██╔══╝
+███████║ ██║ ██║ ██║ ╚═╝ ██║ ██║ ███████╗ ███████╗ ██║ ███████╗ ██╔╝ ██╗ ██║ ██╗ ███████║ ██║ ╚██████╔╝██║ ██║███████╗
+╚══════╝ ╚═╝ ╚═╝ ╚═╝ ╚═╝ ╚═╝ ╚══════╝ ╚══════╝ ╚═╝ ╚══════╝ ╚═╝ ╚═╝ ╚═╝ ╚═╝ ╚══════╝ ╚═╝ ╚═════╝ ╚═╝ ╚═╝╚══════╝
+┌───┐
+│ F │
+└───┘
+ ═════
+LAUNCH
+┌───┐
+│ U │
+└───┘
+ ═════
+FAQ
+┌───┐
+│ K │
+└───┘
+ ═════
+GALLERY
+┌───┐
+│ C │
+└───┘
+ ═════
+GUESTBOOK
+visitor # 000,000 since April 20th 2026
+Privacy Policy
+ Terms & Conditions
+ Refund Policy
+ Impressum
+SYSTEM OK: 640K
+ @sampletext_store
+ best viewed in 800x600
 
 ## 导航
 

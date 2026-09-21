@@ -2,7 +2,7 @@
 type: "project"
 title: "Minimax H3"
 project_url: "https://betalist.com/startups/minimax-h3"
-first_seen: "2026-09-21T09:48:02+08:00"
+first_seen: "2026-09-21T22:04:15+08:00"
 sources:
   - betalist
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://betalist.com/startups/minimax-h3>
-> 首次收录：2026-09-21T09:48:02+08:00
+> 首次收录：2026-09-21T22:04:15+08:00
 > 来源渠道：BetaList
 > 标签：—
 > 最新指标：—
@@ -28,6 +28,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T09:48:02+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/2fb6d96a5c88be77_Minimax-H3]] |
+| 2026-09-21T22:04:15+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/2fb6d96a5c88be77_Minimax-H3]] |
 
 ## 摘要正文
 

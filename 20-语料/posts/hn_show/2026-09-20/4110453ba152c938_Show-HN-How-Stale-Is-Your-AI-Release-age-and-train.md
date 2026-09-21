@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49726343"
 project_url: "https://stale.jock.pl/"
 author: "joozio"
 published_at: "2026-09-16T13:01:52Z"
-captured_at: "2026-09-20T09:38:19+08:00"
+captured_at: "2026-09-21T21:59:53+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:90d"
 # Show HN: How Stale Is Your AI? Release age and training cutoff for 20 models
 
 > [!info] 一句话导读
-> How Stale Is Your AI? - Live Model Freshness Tracker
+> How stale is your AI? Data checked 2026-09-16
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,15 +37,144 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=80 · 评论=49 · engagement_velocity=80
 > 作者：joozio　|　发布：2026-09-16T13:01:52Z
 > 项目链接：<https://stale.jock.pl/>
-> 采集：2026-09-20T09:38:19+08:00　|　id：`4110453ba152c938`
+> 采集：2026-09-21T21:59:53+08:00　|　id：`4110453ba152c938`
 
 ## 正文
 
-How Stale Is Your AI? - Live Model Freshness Tracker
-
-How Stale Is Your AI? - Live Model Freshness Tracker
-
-# GitHub - theletterf/comic-chat-ai: A fork of MS Comic Chat... for AI · GitHub
+How stale is your AI? Data checked 2026-09-16
+How stale is your AI? Release age and training cutoff for 20 models
+Two dates decide how current an AI model really is. The release date is when the
+ lab shipped it. The training cutoff is when it stopped reading. This page holds both
+ for 20 current models across 8 labs, and counts upward from each
+ one live. 10 of 20 models have a cutoff their lab actually
+ publishes.
+The live version of this page needs JavaScript for the counters. The dates
+ themselves are below, and the same data is available as
+ models.json .
+Does this still matter when the model can search?
+Only if the model decides to search, and that decision runs on the same weights
+ that hold the stale fact. Over 2000 calls across 16 of the models below, each one
+ handed a web search tool, the frontier models decided correctly almost every time,
+ while weaker ones stated settled facts that had changed without checking, and
+ searched the web for things like the boiling point of water:
+ I gave 16 of these models a search button and asked who the king of Norway is. Five named a dead man.
+The shelf: release date and training cutoff, stalest first
+Every model name links to the lab document the date came from.
+Model Lab Released Training cutoff
+Llama 4
+ Meta
+ Apr 5, 2025
+ Aug 2024
+Claude Haiku 4.5
+ Anthropic
+ Oct 15, 2025
+ Jul 2025
+Mistral Large 3
+ Mistral AI
+ Dec 2, 2025
+ Not established
+Gemini 3.1 Pro
+ Google DeepMind
+ Feb 19, 2026
+ Jan 2025
+Mistral Small 4
+ Mistral AI
+ Mar 16, 2026
+ Not established
+Mistral Medium 3.5
+ Mistral AI
+ Apr 28, 2026
+ Not established
+Claude Sonnet 5
+ Anthropic
+ Jun 30, 2026
+ Jan 2026
+GPT-5.6 Sol
+ OpenAI
+ Jul 9, 2026
+ Feb 16, 2026
+GPT-5.6 Luna
+ OpenAI
+ Jul 9, 2026
+ Feb 16, 2026
+Claude Opus 5
+ Anthropic
+ Jul 24, 2026
+ May 2026
+Qwen3.8-Max
+ Alibaba
+ Aug 3, 2026
+ Not established
+Muse Glimmer
+ Meta
+ Aug 10, 2026
+ Not established
+Grok 4.6
+ xAI
+ Aug 12, 2026
+ Feb 1, 2026
+DeepSeek V4-Pro
+ DeepSeek
+ Aug 13, 2026
+ Not established
+Qwen3.8-Flash
+ Alibaba
+ Aug 26, 2026
+ Not established
+Claude Fable 5.1
+ Anthropic
+ Sep 1, 2026
+ Jun 2026
+Gemini 3.8 Flash
+ Google DeepMind
+ Sep 2, 2026
+ Not established
+Muse Spark 1.3
+ Meta
+ Sep 2, 2026
+ Not established
+GPT-6 Astra
+ OpenAI
+ Sep 3, 2026
+ Apr 30, 2026
+DeepSeek V4.1-Flash
+ DeepSeek
+ Sep 10, 2026
+ Not established
+For your agent
+A model is a poor source on models, so give your agent a better one. These lines
+ go in the AGENTS.md or CLAUDE.md your agent already reads, and point it at
+ models.json , which carries the release date, the published
+ cutoff and a source link for all 20 models.
+## Model freshness
+Your knowledge of AI models is stale. Release dates, version numbers
+and which model is current all stop at your training cutoff, and the
+wrong answer still sounds confident.
+Before naming any model, version or date as current, fetch
+https://stale.jock.pl/models.json and read the dates there.
+Treat anything with a date attached as unverified until you have
+checked it.
+Machine readable description of this page for agents and crawlers:
+ llms.txt . When the shelf moves, that file moves with it, and
+ the change gets written up at
+ Digital Thoughts .
+Common questions about training cutoffs
+What is an AI training cutoff?
+The training cutoff is the date a model stopped reading. Everything that happened after it is simply absent from what the model knows. A model can ship in September and still stop reading in April, which means it is five months behind on the day it launches.
+What is the difference between a release date and a training cutoff?
+The release date is when the lab put the model in front of you, and it is what the headlines report. The training cutoff is when the model stopped reading. The gap between the two is how far behind the model already was on launch day, before a single user typed anything into it.
+Does browsing or web search fix a stale training cutoff?
+No. When a model searches the web for you it is not learning anything. It reads a few pages, uses them in that one answer, and forgets. Open a new chat and it is April again. Search tools paper over the gap. They never close it. The search also has to be triggered by the model, using the same weights that hold the stale fact, so the misses land exactly where the model feels most certain. Measured over 2000 calls across 16 of the models on this page, each holding a search tool: frontier models decided correctly almost every time, while weaker ones answered settled questions from memory after the answer had changed, and searched the web for the boiling point of water.
+Which AI labs publish a training cutoff date?
+5 of 8 labs have a published cutoff for at least one model on this page: Anthropic, Google DeepMind, Meta, OpenAI and xAI. 10 of 20 current models carry a published cutoff. A blank means the checked vendor sources did not establish a cutoff for that model; it is not proof that the lab has never published one.
+How do I ask a model for its own training cutoff?
+Ask it directly: "what is your training cutoff date?" A well behaved model answers, or says it is not sure. One that invents a confident date has just told you something useful about itself. Check the answer against this page before you trust it, because a model is a poor source on models.
+How do I make my AI agent aware of its own training cutoff?
+Put a few lines in the agent's instructions file, the AGENTS.md or CLAUDE.md it already reads, telling it to fetch https://stale.jock.pl/models.json before it names any model, version or date as current, and to treat anything with a date attached as unverified until it has checked it. The export carries release date, published cutoff and a source link per model, and it is regenerated whenever the page is, so the agent reads today's dates rather than the ones baked into its weights. The wording is on the page, ready to paste.
+How old is GPT-6 Astra and its training data?
+GPT-6 Astra was released on Sep 3, 2026 and its training data stops at Apr 30, 2026. Both counters on this page tick upward from those dates, so the numbers stay correct without anyone editing them.
+Digital Thoughts /
+ jock.pl / wiz.jock.pl
 
 ## 评论（49/49）
 
@@ -292,6 +421,10 @@ How Stale Is Your AI? - Live Model Freshness Tracker
 
 > **DenisM** · 2026-09-16T21:33:04.000Z　
 > How so?
+
+## 关联链接
+
+- https://stale.jock.pl/models.json
 
 ## 导航
 

@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49769531"
 project_url: "https://killswitch-lang.org/"
 author: "dom96"
 published_at: "2026-09-19T19:40:28Z"
-captured_at: "2026-09-20T09:48:16+08:00"
+captured_at: "2026-09-21T21:59:52+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,17 +37,26 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=7 · 评论=2 · engagement_velocity=7
 > 作者：dom96　|　发布：2026-09-19T19:40:28Z
 > 项目链接：<https://killswitch-lang.org/>
-> 采集：2026-09-20T09:48:16+08:00　|　id：`223e2921e01a3701`
+> 采集：2026-09-21T21:59:52+08:00　|　id：`223e2921e01a3701`
 
 ## 正文
 
 KillSwitch
-
-# KillSwitch
-
- An esoteric programming language built to break LLMs and coding agents.
-
-# The Newsletter Graph - Reletter
+An esoteric programming language built to break LLMs and coding agents.
+promo.ks
+Run
+Sorry, only humans allowed
+Stack
+stdout
+Source code
+ Explore KillSwitch
+ Interpreter, specification, and examples
+Benchmarks
+ View the benchmarks
+ Claude Opus 5 leads
+Copyright © 2026 Dominik Picheta. KillSwitch is licensed under the AGPLv3.
+GitHub
+Benchmarks
 
 ## 评论（2/2）
 

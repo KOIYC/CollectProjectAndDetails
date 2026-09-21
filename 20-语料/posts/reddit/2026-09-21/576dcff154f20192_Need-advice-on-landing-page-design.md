@@ -7,10 +7,10 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1wi4mpo/need_advice_on_landing_page_design/"
 author: "Adept-Dog-6716"
 published_at: "2026-09-17T01:57:59+08:00"
-captured_at: "2026-09-21T13:03:02+08:00"
+captured_at: "2026-09-21T22:01:13+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "SaaS/B2B"
 shard: "2026-09-21"
 pub_day: "2026-09-17"
 tags:
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=4 · 评论=18 · 赞踩比=0.84
 > 作者：Adept-Dog-6716　|　发布：2026-09-17T01:57:59+08:00
 > 项目链接：—
-> 采集：2026-09-21T13:03:02+08:00　|　id：`576dcff154f20192`
+> 采集：2026-09-21T22:01:13+08:00　|　id：`576dcff154f20192`
 
 ## 正文
 
@@ -168,5 +168,5 @@ Note: I dont even have X or Facebook accounts right now.
 
 - 项目页：—（本条不是项目，按设计不建实体页）
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`SaaS/B2B`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

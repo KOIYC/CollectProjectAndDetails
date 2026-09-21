@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=48325814"
 project_url: "https://prezlo.io/"
 author: "loptymobile"
 published_at: "2026-05-29T16:51:01Z"
-captured_at: "2026-09-21T01:27:24+08:00"
+captured_at: "2026-09-21T21:59:53+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -28,13 +28,26 @@ discovered_via: "hn:show_hn:144d"
 
 # Show HN: Prezlo – We built an API that tells AI agent whether to trust an expert
 
+> [!info] 一句话导读
+> Prezlo — Get Your Brand Recommended by AI
+
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=48325814>
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：loptymobile　|　发布：2026-05-29T16:51:01Z
 > 项目链接：<https://prezlo.io/>
-> 采集：2026-09-21T01:27:24+08:00　|　id：`1b4b1cddce7b7188`
+> 采集：2026-09-21T21:59:53+08:00　|　id：`1b4b1cddce7b7188`
+
+## 正文
+
+Author: Prezlo
+
+Prezlo — Get Your Brand Recommended by AI
+
+Prezlo — Get Your Brand Recommended by AI
+
+# yynxxxxx/gpt_sub_analysis
 
 ## 导航
 

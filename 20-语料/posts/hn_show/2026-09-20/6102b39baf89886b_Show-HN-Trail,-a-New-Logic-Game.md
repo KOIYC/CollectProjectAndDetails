@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49731551"
 project_url: "https://trail.franzai.com/"
 author: "franze"
 published_at: "2026-09-16T19:12:06Z"
-captured_at: "2026-09-20T09:23:24+08:00"
+captured_at: "2026-09-21T22:00:25+08:00"
 lang: "en"
 kind: "post"
 topic: "游戏"
@@ -21,12 +21,15 @@ tags:
   - story_49731551
   - show_hn
 metrics: {"points": 5, "comments": 2, "engagement_velocity": 5}
-comments_count: 0
-comments_total: 0
+comments_count: 2
+comments_total: 2
 discovered_via: "hn:show_hn:90d"
 ---
 
 # Show HN: Trail, a New Logic Game
+
+> [!info] 一句话导读
+> Show HN: Trail, a New Logic Game
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -34,7 +37,21 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=5 · 评论=2 · engagement_velocity=5
 > 作者：franze　|　发布：2026-09-16T19:12:06Z
 > 项目链接：<https://trail.franzai.com/>
-> 采集：2026-09-20T09:23:24+08:00　|　id：`6102b39baf89886b`
+> 采集：2026-09-21T22:00:25+08:00　|　id：`6102b39baf89886b`
+
+## 正文
+
+Show HN: Trail, a New Logic Game
+
+## 评论（2/2）
+
+> **pedromosilva** · 2026-09-16T19:43:32.000Z　
+> Nice game, loved the sounds and easy to play.
+
+---
+
+> **DramatisPersona** · 2026-09-16T20:00:41.000Z　
+> This was fun! One suggestion: while I can see why the training levels need to be easy, I think the difficulty needs to increase by about game 5 to keep one engaged.
 
 ## 导航
 

@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and CUDA"
 project_url: "https://github.com/jmaczan/tiny-vllm"
-first_seen: "2026-09-21T09:54:58+08:00"
+first_seen: "2026-09-21T21:59:54+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/jmaczan/tiny-vllm>
-> 首次收录：2026-09-21T09:54:58+08:00
+> 首次收录：2026-09-21T21:59:54+08:00
 > 来源渠道：HN Show HN
 > 标签：author_yu3zhou4, story_48328184, show_hn
 > 最新指标：点赞=205 · 评论=18 · engagement_velocity=205
@@ -37,6 +37,7 @@ lang: "en"
 | 2026-09-21T03:16:05+08:00 | HN Show HN | 点赞=205 · 评论=18 · engagement_velocity=205 | [[20-语料/posts/hn_show/2026-09-21/298f3458267a3e3a_Show-HN-Tiny-vLLM-–-high-performance-LLM-inference]] |
 | 2026-09-21T03:17:41+08:00 | HN Show HN | 点赞=205 · 评论=18 · engagement_velocity=205 | [[20-语料/posts/hn_show/2026-09-21/298f3458267a3e3a_Show-HN-Tiny-vLLM-–-high-performance-LLM-inference]] |
 | 2026-09-21T09:54:58+08:00 | HN Show HN | 点赞=205 · 评论=18 · engagement_velocity=205 | [[20-语料/posts/hn_show/2026-09-21/298f3458267a3e3a_Show-HN-Tiny-vLLM-–-high-performance-LLM-inference]] |
+| 2026-09-21T21:59:54+08:00 | HN Show HN | 点赞=205 · 评论=18 · engagement_velocity=205 | [[20-语料/posts/hn_show/2026-09-21/298f3458267a3e3a_Show-HN-Tiny-vLLM-–-high-performance-LLM-inference]] |
 
 ## 摘要正文
 

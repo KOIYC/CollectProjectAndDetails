@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49734133"
 project_url: "https://github.com/fcavalcantirj/droidputter"
 author: "fcavalcantirj"
 published_at: "2026-09-16T22:51:21Z"
-captured_at: "2026-09-21T00:03:44+08:00"
+captured_at: "2026-09-21T21:59:54+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：fcavalcantirj　|　发布：2026-09-16T22:51:21Z
 > 项目链接：<https://github.com/fcavalcantirj/droidputter>
-> 采集：2026-09-21T00:03:44+08:00　|　id：`a18a5124a85ae2e5`
+> 采集：2026-09-21T21:59:54+08:00　|　id：`a18a5124a85ae2e5`
 
 ## 正文
 

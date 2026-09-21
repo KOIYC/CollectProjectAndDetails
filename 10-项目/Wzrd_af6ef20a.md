@@ -2,7 +2,7 @@
 type: "project"
 title: "Wzrd"
 project_url: "https://betalist.com/startups/wzrd"
-first_seen: "2026-09-21T01:28:59+08:00"
+first_seen: "2026-09-21T22:04:09+08:00"
 sources:
   - betalist
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://betalist.com/startups/wzrd>
-> 首次收录：2026-09-21T01:28:59+08:00
+> 首次收录：2026-09-21T22:04:09+08:00
 > 来源渠道：BetaList
 > 标签：—
 > 最新指标：—
@@ -29,6 +29,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-20T09:51:55+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-20/af6ef20a4bdccb8d_Wzrd]] |
 | 2026-09-21T01:28:59+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-20/af6ef20a4bdccb8d_Wzrd]] |
+| 2026-09-21T22:04:09+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-20/af6ef20a4bdccb8d_Wzrd]] |
 
 ## 摘要正文
 

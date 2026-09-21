@@ -1,6 +1,15 @@
 {
- "updated": "2026-09-21T13:04:51+08:00",
- "note": "结构性无正文（视频帖/Twitter 账号页/极短 README/反爬站）——连试 2 轮后记账，不再消耗额度",
+ "schema": 2,
+ "updated": "2026-09-21T22:07:45+08:00",
+ "note": "结构性无正文/取数不可得 —— 连试 2 轮后记账，不再消耗额度。字段：reason（人话）/ reason_code（可复核分类，见 REASON_CODES）/ tried[]（本轮实际试过的后端）/ http_status（direct 档拿到的状态码）",
+ "by_reason": {
+  "no_backend": 20,
+  "media": 19,
+  "unreachable": 10,
+  "gh_miss": 10,
+  "account": 3,
+  "http_403": 1
+ },
  "items": {
   "b3f5c02e0f48ee45": {
    "attempts": 2,
@@ -8,7 +17,14 @@
    "url": "https://twitter.com/patio11",
    "source_id": "c1c7",
    "reason": "社交账号页需登录",
-   "last_try": "2026-09-20T03:27:25+08:00"
+   "last_try": "2026-09-20T03:27:25+08:00",
+   "reason_code": "account",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "社交账号页需登录"
   },
   "1f6c289cc51efc0b": {
    "attempts": 2,
@@ -16,7 +32,14 @@
    "url": "https://twitter.com/levelsio",
    "source_id": "c1c7",
    "reason": "社交账号页需登录",
-   "last_try": "2026-09-20T03:27:25+08:00"
+   "last_try": "2026-09-20T03:27:25+08:00",
+   "reason_code": "account",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "社交账号页需登录"
   },
   "c64307ad404fe1f3": {
    "attempts": 2,
@@ -24,7 +47,14 @@
    "url": "https://twitter.com/csallen",
    "source_id": "c1c7",
    "reason": "社交账号页需登录",
-   "last_try": "2026-09-20T03:27:25+08:00"
+   "last_try": "2026-09-20T03:27:25+08:00",
+   "reason_code": "account",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "社交账号页需登录"
   },
   "233104c4e7d5d989": {
    "attempts": 2,
@@ -32,7 +62,14 @@
    "url": "https://v.redd.it/lpls8xvn2xph1",
    "source_id": "reddit",
    "reason": "视频帖无正文",
-   "last_try": "2026-09-20T03:27:25+08:00"
+   "last_try": "2026-09-20T03:27:25+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
   },
   "a199981f9f07ab5c": {
    "attempts": 2,
@@ -40,7 +77,14 @@
    "url": "https://v.redd.it/0uf6pfkt3xph1",
    "source_id": "reddit",
    "reason": "视频帖无正文",
-   "last_try": "2026-09-20T03:27:25+08:00"
+   "last_try": "2026-09-20T03:27:25+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
   },
   "977b2334497eb914": {
    "attempts": 2,
@@ -48,31 +92,14 @@
    "url": "https://v.redd.it/4tgmb0mwaxph1",
    "source_id": "reddit",
    "reason": "视频帖无正文",
-   "last_try": "2026-09-20T03:27:25+08:00"
-  },
-  "3ff678d3fc55d72b": {
-   "attempts": 2,
-   "title": "Opps Daily - 这家的 newsletter 做得好，推荐订阅",
-   "url": "https://oppslist.com/",
-   "source_id": "c1c7",
-   "last_try": "2026-09-20T03:38:17+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "03f418f822ae5044": {
-   "attempts": 2,
-   "title": "利器",
-   "url": "https://liqi.io/creators",
-   "source_id": "c1c7",
-   "last_try": "2026-09-20T03:38:17+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "098813333f110f94": {
-   "attempts": 1,
-   "title": "Entredash",
-   "url": "https://betalist.com/startups/entredash",
-   "source_id": "betalist",
-   "last_try": "2026-09-20T03:45:33+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
+   "last_try": "2026-09-20T03:27:25+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
   },
   "a4e8f0815efc5ad8": {
    "attempts": 2,
@@ -80,7 +107,14 @@
    "url": "https://v.redd.it/fttmecff7xph1",
    "source_id": "reddit",
    "reason": "视频帖无正文",
-   "last_try": "2026-09-20T09:15:58+08:00"
+   "last_try": "2026-09-20T09:15:58+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
   },
   "b012cedb361823d7": {
    "attempts": 2,
@@ -88,15 +122,14 @@
    "url": "https://v.redd.it/kb8d2vlukxph1",
    "source_id": "reddit",
    "reason": "视频帖无正文",
-   "last_try": "2026-09-20T09:15:58+08:00"
-  },
-  "69bf70929603e47f": {
-   "attempts": 2,
-   "title": "I built the saas end to end but dont know about to gather feedback fro",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wi5qqv/i_built_the_saas_end_to_end_but_dont_know_about/",
-   "source_id": "reddit",
-   "last_try": "2026-09-20T09:20:21+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
+   "last_try": "2026-09-20T09:15:58+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
   },
   "7e7c0bf2b05ce263": {
    "attempts": 2,
@@ -104,7 +137,14 @@
    "url": "https://www.youtube.com/watch?v=Ouqwx7-gGYw",
    "source_id": "hn_show",
    "reason": "视频帖无正文",
-   "last_try": "2026-09-20T09:25:09+08:00"
+   "last_try": "2026-09-20T09:25:09+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
   },
   "7a9f3dfd1144aff2": {
    "attempts": 2,
@@ -112,7 +152,14 @@
    "url": "https://www.youtube.com/watch?v=Sv1u6Oeum5k",
    "source_id": "hn_show",
    "reason": "视频帖无正文",
-   "last_try": "2026-09-20T09:25:09+08:00"
+   "last_try": "2026-09-20T09:25:09+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
   },
   "bea177f85cb4ae26": {
    "attempts": 2,
@@ -120,287 +167,14 @@
    "url": "https://v.redd.it/t1ikvo9kcyph1",
    "source_id": "reddit",
    "reason": "视频帖无正文",
-   "last_try": "2026-09-20T09:25:09+08:00"
-  },
-  "1d7851ca5365edb9": {
-   "attempts": 2,
-   "title": "thomas-almeida/bananasend-saas",
-   "url": "https://bananasend.top/",
-   "source_id": "github_new",
-   "last_try": "2026-09-20T09:55:17+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "223e2921e01a3701": {
-   "attempts": 2,
-   "title": "Show HN: KillSwitch – a programming language designed to be difficult ",
-   "url": "https://killswitch-lang.org",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T09:55:17+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "167405deb0f8e4a6": {
-   "attempts": 2,
-   "title": "Show HN: Negronlyfans – upload your Negroni, get judged by its 1919 in",
-   "url": "https://negronlyfans.com/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T09:55:17+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "b445baff7f5bccf0": {
-   "attempts": 2,
-   "title": "Show HN: Rabbit Hole – a daily Wikipedia racing game",
-   "url": "https://rabbitholegame.net",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T09:55:17+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "a602d404ebaeaace": {
-   "attempts": 2,
-   "title": "Show HN: Jinx – a link shortener you host free on GitHub Pages",
-   "url": "https://jinx.fyi",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T09:55:17+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "6c03e0fd00e0e4f2": {
-   "attempts": 2,
-   "title": "Show HN: What if you don't feel overwhelmed reading big articles",
-   "url": "https://chromewebstore.google.com/detail/kora-â-focus-reader-websi/kbkcobapaoaoilpfgbaaeaedlincbpmi?hl=en",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T09:55:17+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "d7106202aa3344c2": {
-   "attempts": 2,
-   "title": "Show HN: Publiclandsdata.com – US public lands visitation, reservation",
-   "url": "http://www.publiclandsdata.com",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T09:55:17+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "bd878a76b73260be": {
-   "attempts": 2,
-   "title": "Show HN: Live honeypot telemetry – 941K attack events, 160 countries",
-   "url": "https://lurescope.com/stats",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T09:55:17+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "66ad371fa2d19226": {
-   "attempts": 2,
-   "title": "Show HN: Ink Signal, editor themes with fewer colours",
-   "url": "https://gaurav-singh.info/ink-signal/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T14:59:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "6102b39baf89886b": {
-   "attempts": 2,
-   "title": "Show HN: Trail, a New Logic Game",
-   "url": "https://trail.franzai.com/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T09:55:17+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "821bb106de420180": {
-   "attempts": 2,
-   "title": "Show HN: Rockbox and Doom on iPod nano 3rd gen",
-   "url": "https://twitter.com/freemyipod/status/2100255707886977402",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T09:55:17+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "3f29a62f0be24628": {
-   "attempts": 1,
-   "title": "Show HN: farseer.space – fly anywhere in the universe in your browser",
-   "url": "https://farseer.space/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T09:39:56+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "41db861c4dfa54a6": {
-   "attempts": 2,
-   "title": "Show HN: Choreographed Algebra",
-   "url": "https://0xb00.com",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T14:59:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "a59e2d2c5cae3967": {
-   "attempts": 2,
-   "title": "Show HN: Free tool that checks if your Etsy/Shopify listing is EU-read",
-   "url": "https://claude.ai/artifact/1rTtc9idTXFBcsuhPqJDoU",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T14:59:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "387cc086dd0d786d": {
-   "attempts": 2,
-   "title": "Show HN: The bottom 50% of U.S. households are short after essentials ",
-   "url": "https://whats-left-over.pages.dev/#s=50_40_10&c=1&u=person&t=0&tm=cbo&b=0&ts=100&k=0&cc=12201&im=nominal&by=2000&ir=2.5&ao=0&ar=20&at=200000&ip=10&rm=sp500&rr=8&pv=portfolio&p=1&iv=left&hp=1&e=food.housing.transport.health.insurance",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T14:59:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "9cdf2bbef53d5187": {
-   "attempts": 2,
-   "title": "Show HN: Visual HTML – a source-preserving WYSIWYG editor for AI-gener",
-   "url": "https://kong75.github.io/visual-html-editor/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T14:59:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "a2af0bd616002c55": {
-   "attempts": 1,
-   "title": "Show HN: Back Me Up – Find papers that back your argument",
-   "url": "https://backmeup.loomlabs.au",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T09:39:56+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "1ad634403366588e": {
-   "attempts": 1,
-   "title": "Show HN: Jinfer – AI inference engine for the JVM. AI in a jar",
-   "url": "https://qxotic.ai/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T09:39:56+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "2a6b9cc1208c6368": {
-   "attempts": 1,
-   "title": "Show HN: Radar, find Reddit threads where your software could help",
-   "url": "https://getredditradar.com",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T09:39:56+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "d0716644847ed4fe": {
-   "attempts": 2,
-   "title": "How can I build my first SAAS project at no cost ?",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wieuaf/how_can_i_build_my_first_saas_project_at_no_cost/",
-   "source_id": "reddit",
-   "last_try": "2026-09-20T14:59:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "bf5f67c07e3db805": {
-   "attempts": 1,
-   "title": "Advice",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wi23eo/advice/",
-   "source_id": "reddit",
-   "last_try": "2026-09-20T09:39:56+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "59afc4bf9a96ab4c": {
-   "attempts": 2,
-   "title": "Show HN: Koi Editor Alpha",
-   "url": "https://koieditor.com/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T00:05:07+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "9909507e246ebec7": {
-   "attempts": 1,
-   "title": "Show HN: Free game to destroy any web page",
-   "url": "https://page-rage.com/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T09:55:17+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "90674e6b6a06d27e": {
-   "attempts": 2,
-   "title": "Show HN: Paste a song and get 5 license-free cousins that sound like i",
-   "url": "https://mockfreeli.org/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T00:05:07+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "9df6d47b4c55ea04": {
-   "attempts": 2,
-   "title": "Show HN: My first vibe coded game planning to publish to Android",
-   "url": "https://exekite.games/g/saxc3hw2/lava-bound",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T00:05:07+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "fd5a52ea36d67795": {
-   "attempts": 1,
-   "title": "Show HN: A game where the level is whatever web page you're on",
-   "url": "https://page-rage.com/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T09:55:17+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "6269e348c19c4c75": {
-   "attempts": 2,
-   "title": "Show HN: Airmash – HTML5 Massively Multiplayer Missile Warfare",
-   "url": "https://airma.sh/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T14:59:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "4110453ba152c938": {
-   "attempts": 2,
-   "title": "Show HN: How Stale Is Your AI? Release age and training cutoff for 20 ",
-   "url": "https://stale.jock.pl/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T14:59:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "8b2b436452f98b2c": {
-   "attempts": 2,
-   "title": "Show HN: Biom – A visual workspace where your AI agents' work lands",
-   "url": "https://www.biom.dev/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T00:05:07+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "e8574b244dee0e66": {
-   "attempts": 2,
-   "title": "Show HN: Knecht, a tool for building software factories for agencies",
-   "url": "https://knecht.works",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T00:05:07+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "e17135a024c693f1": {
-   "attempts": 1,
-   "title": "Show HN: Spec sheets for humans – who you are and how to work with you",
-   "url": "https://spec.md",
-   "source_id": "hn_show",
-   "last_try": "2026-09-20T14:59:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "258665cf941c4e03": {
-   "attempts": 2,
-   "title": "Show HN: Browse last quarter's Supreme Court cases, linked and cited a",
-   "url": "https://marginalia.bobbby.online/cases",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "7b2e187d4f5b3469": {
-   "attempts": 2,
-   "title": "Topline 2026",
-   "url": "https://www.indiehackers.com/product/topline-2026",
-   "source_id": "indiehackers",
-   "last_try": "2026-09-21T00:08:09+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "73b0d355569cb8b0": {
-   "attempts": 2,
-   "title": "Iptvstreamingservices",
-   "url": "https://www.indiehackers.com/product/iptvstreamingservices",
-   "source_id": "indiehackers",
-   "last_try": "2026-09-21T00:08:09+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "f05829b3d2c0694a": {
-   "attempts": 2,
-   "title": "Show HN: An open Add/Search evaluation framework for agent memory",
-   "url": "https://agentmemoryleaderboard.ai/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
+   "last_try": "2026-09-20T09:25:09+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
   },
   "72f9e0807bc39313": {
    "attempts": 2,
@@ -408,7 +182,14 @@
    "url": "https://www.youtube.com/watch?v=aey2w7kyiAw",
    "source_id": "hn_show",
    "reason": "视频帖无正文",
-   "last_try": "2026-09-21T01:37:30+08:00"
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
   },
   "b3968921b64d8d86": {
    "attempts": 2,
@@ -416,7 +197,14 @@
    "url": "https://www.youtube.com/watch?v=OfkTGCVk-RQ",
    "source_id": "hn_show",
    "reason": "视频帖无正文",
-   "last_try": "2026-09-21T01:37:30+08:00"
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
   },
   "9c29aef54d876ca1": {
    "attempts": 2,
@@ -424,7 +212,14 @@
    "url": "https://v.redd.it/fysoj55rkcyg1",
    "source_id": "reddit",
    "reason": "视频帖无正文",
-   "last_try": "2026-09-21T01:37:30+08:00"
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
   },
   "b732ba282909b527": {
    "attempts": 2,
@@ -432,7 +227,14 @@
    "url": "https://v.redd.it/xdk7wsr5qh4h1",
    "source_id": "reddit",
    "reason": "视频帖无正文",
-   "last_try": "2026-09-21T01:37:30+08:00"
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
   },
   "e8fb01ad7d10b14e": {
    "attempts": 2,
@@ -440,7 +242,14 @@
    "url": "https://v.redd.it/w8gsufo6uh4h1",
    "source_id": "reddit",
    "reason": "视频帖无正文",
-   "last_try": "2026-09-21T01:37:30+08:00"
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
   },
   "55130aa28dcf6e89": {
    "attempts": 2,
@@ -448,7 +257,14 @@
    "url": "https://v.redd.it/yc8k93gv2lgh1",
    "source_id": "reddit",
    "reason": "视频帖无正文",
-   "last_try": "2026-09-21T01:37:30+08:00"
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
   },
   "3cbfe42f3a096088": {
    "attempts": 2,
@@ -456,7 +272,14 @@
    "url": "https://v.redd.it/ol5zkmns5lgh1",
    "source_id": "reddit",
    "reason": "视频帖无正文",
-   "last_try": "2026-09-21T01:37:30+08:00"
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
   },
   "88f1cdbd99ac6854": {
    "attempts": 2,
@@ -464,7 +287,14 @@
    "url": "https://v.redd.it/al4mfjfh2lgh1",
    "source_id": "reddit",
    "reason": "视频帖无正文",
-   "last_try": "2026-09-21T01:37:30+08:00"
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
   },
   "b5814686f5a5322e": {
    "attempts": 2,
@@ -472,7 +302,14 @@
    "url": "https://v.redd.it/681fifmjgqmh1",
    "source_id": "reddit",
    "reason": "视频帖无正文",
-   "last_try": "2026-09-21T01:37:30+08:00"
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
   },
   "1c8aed4f08ee73fb": {
    "attempts": 2,
@@ -480,7 +317,14 @@
    "url": "https://v.redd.it/x42ht5a1fqmh1",
    "source_id": "reddit",
    "reason": "视频帖无正文",
-   "last_try": "2026-09-21T01:37:30+08:00"
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
   },
   "0279676481f5d34d": {
    "attempts": 2,
@@ -488,1163 +332,30 @@
    "url": "https://v.redd.it/ndfgy4rdeqmh1",
    "source_id": "reddit",
    "reason": "视频帖无正文",
-   "last_try": "2026-09-21T01:37:30+08:00"
-  },
-  "06f53715ed392118": {
-   "attempts": 1,
-   "title": "Aria",
-   "url": "https://betalist.com/startups/aria",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "5f3a8a6cdb51cf30": {
-   "attempts": 1,
-   "title": "Clickydots",
-   "url": "https://betalist.com/startups/clickydots",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "41b8c246e5a0df75": {
-   "attempts": 1,
-   "title": "Accszone",
-   "url": "https://betalist.com/startups/accszone",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "1595b50bd9a950a6": {
-   "attempts": 1,
-   "title": "Freedast",
-   "url": "https://betalist.com/startups/freedast",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "3c07ed59baee478c": {
-   "attempts": 1,
-   "title": "Jobboardsearch",
-   "url": "https://betalist.com/startups/jobboardsearch",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "98206d3192ab076a": {
-   "attempts": 1,
-   "title": "Cv Blender",
-   "url": "https://betalist.com/startups/cv-blender",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "a09e94029df79451": {
-   "attempts": 1,
-   "title": "Inquio",
-   "url": "https://betalist.com/startups/inquio",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "ae0a1ddacb650306": {
-   "attempts": 1,
-   "title": "Asterias",
-   "url": "https://betalist.com/startups/asterias",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "7cb4e48fdaefc33a": {
-   "attempts": 1,
-   "title": "Unjumbl",
-   "url": "https://betalist.com/startups/unjumbl",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "a288b5d03a6e9678": {
-   "attempts": 1,
-   "title": "Telegram Video Downloader",
-   "url": "https://betalist.com/startups/telegram-video-downloader",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "c78b2802113ac26c": {
-   "attempts": 1,
-   "title": "Ai3Dgen",
-   "url": "https://betalist.com/startups/ai3dgen",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "3cf96f0a8d262788": {
-   "attempts": 1,
-   "title": "Myleasewise",
-   "url": "https://betalist.com/startups/myleasewise",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "5e4e31a6d3f439da": {
-   "attempts": 1,
-   "title": "Heygotchu",
-   "url": "https://betalist.com/startups/heygotchu",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "da127bf477e890ec": {
-   "attempts": 1,
-   "title": "Hmm",
-   "url": "https://betalist.com/startups/hmm",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "90160479b83bf275": {
-   "attempts": 1,
-   "title": "Glowcareer",
-   "url": "https://betalist.com/startups/glowcareer",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "bf95604043ffa022": {
-   "attempts": 1,
-   "title": "Flomera",
-   "url": "https://betalist.com/startups/flomera",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "d33cf04ae2b2241b": {
-   "attempts": 1,
-   "title": "Learnfrom Co",
-   "url": "https://betalist.com/startups/learnfrom-co",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "1754b1b67689f3db": {
-   "attempts": 1,
-   "title": "Adviserry",
-   "url": "https://betalist.com/startups/adviserry",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "5cf761895bcf5a7a": {
-   "attempts": 1,
-   "title": "Longtermemory",
-   "url": "https://betalist.com/startups/longtermemory",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "c5c34155c71dadfb": {
-   "attempts": 1,
-   "title": "Backlog Cloud",
-   "url": "https://betalist.com/startups/backlog-cloud",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "69041be7aef60334": {
-   "attempts": 1,
-   "title": "Restockd",
-   "url": "https://betalist.com/startups/restockd",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "ed07559bc79a1751": {
-   "attempts": 1,
-   "title": "Amazeagent Ai",
-   "url": "https://betalist.com/startups/amazeagent-ai",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "ce6a840361782364": {
-   "attempts": 1,
-   "title": "Yo Maas",
-   "url": "https://betalist.com/startups/yo-maas",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "8377c5aaa39a02d9": {
-   "attempts": 1,
-   "title": "Mera",
-   "url": "https://betalist.com/startups/mera",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "2694d67d0155db3e": {
-   "attempts": 1,
-   "title": "Coach Call Ai",
-   "url": "https://betalist.com/startups/coach-call-ai",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "4cab496c74218311": {
-   "attempts": 1,
-   "title": "Nextool Academy",
-   "url": "https://betalist.com/startups/nextool-academy",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "fa55a02bef1ff7c5": {
-   "attempts": 1,
-   "title": "Hi Ai",
-   "url": "https://betalist.com/startups/hi-ai",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "39b22c4e6bb9a231": {
-   "attempts": 1,
-   "title": "Mailtwine",
-   "url": "https://betalist.com/startups/mailtwine",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "d97975d5356a588c": {
-   "attempts": 1,
-   "title": "Tryterrapin",
-   "url": "https://betalist.com/startups/tryterrapin",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "59c721b3cf304c5a": {
-   "attempts": 1,
-   "title": "Memoryplugin",
-   "url": "https://betalist.com/startups/memoryplugin",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "7c298a99236e0f46": {
-   "attempts": 1,
-   "title": "Pixx Ai Restaurant Picker For Groups",
-   "url": "https://betalist.com/startups/pixx-ai-restaurant-picker-for-groups",
-   "source_id": "betalist",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "3015df0ac27060e4": {
-   "attempts": 1,
-   "title": "NexPath Review: The Prompt Quality Layer for Cursor, Windsurf and Clau",
-   "url": "https://dev.to/sarvar_04/nexpath-review-the-prompt-quality-layer-for-cursor-windsurf-and-claude-code-353n",
-   "source_id": "devto",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "299f1aa5fc5e7c07": {
-   "attempts": 1,
-   "title": "I'm 12. A senior dev broke my app. Then he became User #001",
-   "url": "https://dev.to/koda2026/im-12-a-senior-dev-broke-my-app-then-he-became-my-first-user-meh",
-   "source_id": "devto",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "15b57d7a75243dd1": {
-   "attempts": 1,
-   "title": "My first website said \"Don't commit without context.\" I never committe",
-   "url": "https://dev.to/earlgreyhot1701d/my-first-website-said-dont-commit-without-context-i-never-committed-it-at-all-5d57",
-   "source_id": "devto",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "dfab7287682fdaee": {
-   "attempts": 2,
-   "title": "Show HN: Scry, programmable internet search w/ congestion pricing",
-   "url": "https://scry.io/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:46:05+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "2026563c4c8e3493": {
-   "attempts": 2,
-   "title": "Show HN: Smart Mouth Billy Bass – another fishy LLM assistant",
-   "url": "https://existens.org/billy/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:46:05+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "d898e980b7f93b88": {
-   "attempts": 2,
-   "title": "Show HN: Just Math It. Learn math interactively",
-   "url": "https://justmathit.com",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:46:05+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "5d62888ba2faa71d": {
-   "attempts": 1,
-   "title": "Show HN: ComicInk – AI tool that turns a prompt into a full comic book",
-   "url": "https://www.comicink.ai",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "096e1a8616a229d2": {
-   "attempts": 2,
-   "title": "Show HN: A 11.7KB Weather Widget Built with Vanilla JavaScript and Sha",
-   "url": "https://wordpress.org/plugins/wfy24-weather-widget/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:46:05+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "d961da091a811872": {
-   "attempts": 2,
-   "title": "Show HN: Sampletext.store/ We built a dumb web shop and we cannot look",
-   "url": "https://sampletext.store/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:46:05+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "9e91adf8eb1d46f8": {
-   "attempts": 1,
-   "title": "Show HN: I made a Chrome extension for sharing news article quotes as ",
-   "url": "https://www.peekd.app/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "49a032ac849557c6": {
-   "attempts": 1,
-   "title": "Show HN: Flocklist, minimalist graph-based task tracker",
-   "url": "https://flocklist.app/?onboarding=true",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "c2fae870b44e5e60": {
-   "attempts": 1,
-   "title": "Show HN: Give 9B model persistent suffering states and leave it alone ",
-   "url": "https://ninjahawk.github.io/blog/posts/local-llm-psychological-states.html",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "12f1b053d59676af": {
-   "attempts": 1,
-   "title": "Show HN: A browser music sequencer: every note is a Petri-net transiti",
-   "url": "https://blog.stackdump.com/posts/petri-net-runtime",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "702aaafdb9b3c32a": {
-   "attempts": 1,
-   "title": "Show HN: Golang binaries built for your users depending on their arch ",
-   "url": "https://goblin.run",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "22b27efa92336fdd": {
-   "attempts": 1,
-   "title": "Show HN: TapFi – Point your camera at handwritten WiFi credentials to ",
-   "url": "https://tapfi.uno/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "a1c855934a08aff0": {
-   "attempts": 1,
-   "title": "Show HN: You can now run Gemini CLI in the browser",
-   "url": "https://browsercode.io",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "21593a3d5fe91138": {
-   "attempts": 1,
-   "title": "Show HN: Trent – Contextual architectural security reviews inside Clau",
-   "url": "https://trent.ai/solutions/claude-code-security/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "7ea3c8ae4f344e5a": {
-   "attempts": 1,
-   "title": "Show HN: \"Be horse.\" – a diffusion language model on an M2 Air",
-   "url": "https://boesch.dev/posts/simple-dlm/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "d1f3b5a5e454d2ba": {
-   "attempts": 1,
-   "title": "Show HN: DD Photos – static photo albums, now with Docker and 1-comman",
-   "url": "https://ddphotos.donohoe.info",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "b02f42ebaedd0e9f": {
-   "attempts": 1,
-   "title": "Show HN: Mem0 thinks our 2023 conversation happened in 2026",
-   "url": "https://www.aurra.us/blog/mem0-vs-aurra",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "b88af057a80a90d5": {
-   "attempts": 2,
-   "title": "Show HN: Does Big Government Kill Growth? The Armey Curve Tested (151 ",
-   "url": "https://julienreszka.github.io/economic-simulator/armey-curve.html",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "75013fb5bd21c4c8": {
-   "attempts": 1,
-   "title": "Show HN: Run Claude Code sessions on Linear issues via two MCP servers",
-   "url": "https://lanes.sh/blog/linear-to-lanes",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "348b7ad12f95fccc": {
-   "attempts": 1,
-   "title": "Show HN: A cozy reverse city-builder with custom shaders. Free demo on",
-   "url": "https://store.steampowered.com/app/4623880/Open_Land_Demo/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "ee405eb7b324ab41": {
-   "attempts": 1,
-   "title": "Show HN: Can a person's chess mind outlive them? An attempt with 41 ma",
-   "url": "https://playchessgate.com/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "b3fa5e68df305873": {
-   "attempts": 1,
-   "title": "Show HN: Mnheme Evolves – Personality and Free Will Enter the System",
-   "url": "https://medium.com/@aatel.license/mnheme-evolves-personality-and-free-will-enter-the-system-662581f7b93e",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "51802fb36f6ac2f6": {
-   "attempts": 1,
-   "title": "Show HN: Bin collection calendars for the entire UK",
-   "url": "https://ukbinday.co.uk/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "e75c0392365938f1": {
-   "attempts": 1,
-   "title": "Show HN: Multiplayer Voronoi",
-   "url": "https://voronoi.charlespierre.fr/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "839bd0a844ccea68": {
-   "attempts": 1,
-   "title": "Show HN: Brifly – stop re-explaining your codebase to Claude Code ever",
-   "url": "https://www.getbrifly.com/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "cdbddfae731687cc": {
-   "attempts": 1,
-   "title": "Show HN: Token Thermodynamics",
-   "url": "https://mybinder.org/v2/gist/gpavanb1/30a27c0592dbb23311f165dae4549309/HEAD?urlpath=voila%2Frender%2Ftoken_thermodynamics.ipynb",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "ab9e71246f38886b": {
-   "attempts": 1,
-   "title": "Show HN: Spec27 – Spec-driven validation for AI agents",
-   "url": "https://www.spec27.ai/launch",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "6856c5dab72f5f0d": {
-   "attempts": 1,
-   "title": "Show HN: PPantry offline-first pantry and inventory tracker",
-   "url": "https://ppantry.app/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "7b5144639f3e6c86": {
-   "attempts": 1,
-   "title": "Show HN: Serra – A Magic: The Gathering life counter using DRM/KMS",
-   "url": "https://git.sr.ht/~cmt/serra",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "2fcc846345f1cefe": {
-   "attempts": 1,
-   "title": "Show HN: SimDrive – a browser racing game with your phone as the contr",
-   "url": "https://simdrive.xyz/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "dc2d7c56b53c1553": {
-   "attempts": 1,
-   "title": "Show HN: 1990s Game Dev Algorithms for Distributed Systems",
-   "url": "https://docs.merca.earth/blog/1990s-game-dev-algorithms-distributed-systems",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "ae36ec624ab4b51a": {
-   "attempts": 1,
-   "title": "Show HN: An attempt to grow a mind – building software with an inner l",
-   "url": "https://www.momentbymoment.app/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "f73a6852ecaf974d": {
-   "attempts": 1,
-   "title": "Show HN: The Dominion List – an open-source db of Canadian founders in",
-   "url": "https://dominionlist.com",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "2e069c6dcfc11e48": {
-   "attempts": 1,
-   "title": "Show HN: Generative UI Library for React",
-   "url": "https://www.getsyntux.com/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "7b8a0e26db853c26": {
-   "attempts": 1,
-   "title": "Show HN: Quldra – A true device based post quantum messenger",
-   "url": "https://quldra.com/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "58266466ba00ab4d": {
-   "attempts": 1,
-   "title": "Show HN: Send your first Peppol e-invoice in 5 minutes (EU mandate liv",
-   "url": "https://getpeppr.dev/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "35a2ad18b82b9f0b": {
-   "attempts": 1,
-   "title": "Show HN: GrandPerspective-style treemaps for the web and disk usage vi",
-   "url": "https://imbue-ai.github.io/gp-treemap/gallery/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "8deac700e6eee8b2": {
-   "attempts": 1,
-   "title": "Show HN: AgentPort – Open-source Security Gateway For Agents",
-   "url": "https://agentport.sh/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "5059e747dd53b092": {
-   "attempts": 1,
-   "title": "Show HN: A new benchmark for testing LLMs for deterministic outputs",
-   "url": "https://interfaze.ai/blog/introducing-structured-output-benchmark",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "30f01d098880f25e": {
-   "attempts": 2,
-   "title": "Show HN: OmniForge – document intelligence and audio capture with loca",
-   "url": "https://omniforge.online/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "1fe5b1e28a0210b3": {
-   "attempts": 1,
-   "title": "Show HN: VisuaLeaf – A Modern MongoDB Workspace",
-   "url": "https://visualeaf.com/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "66ff10124ab615d1": {
-   "attempts": 1,
-   "title": "Show HN: Platypus – Local meeting transcription, notes, and chat (Taur",
-   "url": "https://platypusnotes.com/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "3f232af9b9afb5e4": {
-   "attempts": 2,
-   "title": "Show HN: Is Opus Ok Today?",
-   "url": "https://isopusok.today/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:05:51+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "bd543b80a7fb17a5": {
-   "attempts": 1,
-   "title": "Show HN: GitChop – Git rebase -I without the TODO file",
-   "url": "https://bendansby.com/apps/gitchop.html",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "58899210cd259a2d": {
-   "attempts": 1,
-   "title": "Show HN: I made a Tamagotchi app that lets you add your real-life pets",
-   "url": "https://apps.apple.com/bg/app/boko-tamagotchi-virtual-pet/id6759446145",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "41f9a9b13acfa740": {
-   "attempts": 1,
-   "title": "Show HN: CodeThis — MCP-native paste bin for Claude Code users",
-   "url": "https://codethis.dev/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "578458c6063909c8": {
-   "attempts": 1,
-   "title": "Show HN: My retired dad and I made a daily, somewhat difficult, quiz",
-   "url": "https://kviss.eu/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "919af7fbdd8a7822": {
-   "attempts": 1,
-   "title": "Show HN: fixiproject.org – minimalist web tools",
-   "url": "https://fixiproject.org",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "b7c6e598d583e1a9": {
-   "attempts": 1,
-   "title": "Show HN: Prxhub – open registry so AI agents stop re-running the same ",
-   "url": "https://prxhub.com",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "18a04fab9109ffdd": {
-   "attempts": 1,
-   "title": "Show HN: Filling PDF forms with AI using client-side tool calling",
-   "url": "https://copilot.simplepdf.com/?share=a7d00ad073c75a75d493228e6ff7b11eb3f2d945b6175913e87898ec96ca8076&form=w9&lang=en",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "1e2d413c26722cc0": {
-   "attempts": 1,
-   "title": "Show HN: I built a 2nd-order PyTorch optimizer for LLMs that runs on 1",
-   "url": "https://news.ycombinator.com/item?id=47947319",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "947c5d39371a0d93": {
-   "attempts": 1,
-   "title": "Show HN: Nichess – Chess with Health Points",
-   "url": "https://news.ycombinator.com/item?id=47947041",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "a8338ab8b00a9bd9": {
-   "attempts": 2,
-   "title": "Show HN: I mapped what's within walking distance for European cities u",
-   "url": "https://strado.info/map/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "6be790d55d8f2749": {
-   "attempts": 1,
-   "title": "Show HN: I built a Chinese learning app that teaches through sentence ",
-   "url": "https://doudou-chinese.com/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T01:45:26+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "65d03c6b0c56ca4e": {
-   "attempts": 2,
-   "title": "Show HN: I built a native project management app that respects your pr",
-   "url": "https://getmilestones.app/store/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "9588269e01a431d2": {
-   "attempts": 2,
-   "title": "Show HN: Markal, a productivity tool for creating collaborative calend",
-   "url": "https://markal.app",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "e9a7af726513ec10": {
-   "attempts": 2,
-   "title": "Show HN: Kanji Pairs Explorer",
-   "url": "https://trost.co/kanji-pairs/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "1b4b1cddce7b7188": {
-   "attempts": 2,
-   "title": "Show HN: Prezlo – We built an API that tells AI agent whether to trust",
-   "url": "https://prezlo.io/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "c74a4f37b5e005b7": {
-   "attempts": 2,
-   "title": "Show HN: A smarter CSS selector generator",
-   "url": "https://www.npmjs.com/package/@uindow/css",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "251b941e4476ef21": {
-   "attempts": 2,
-   "title": "Show HN: Community Reviews for Electronic Components",
-   "url": "https://semiconductor.review/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "cbc2519e163925d9": {
-   "attempts": 2,
-   "title": "Show HN: Stillis – An open-ended anonymous polling platform for anythi",
-   "url": "https://stillis.xyz",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "4c3d04431c6728fd": {
-   "attempts": 2,
-   "title": "Show HN: A physical dial that locks your screens until your focus sess",
-   "url": "https://www.indiegogo.com/en/projects/miradial/miradial",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "e85e08f838288c7c": {
-   "attempts": 2,
-   "title": "Show HN: TOTP generator – SHA1/256/512 30/60/... 6-9 not via SubtleCry",
-   "url": "https://h1yapp.com/en/scripting/pwa/totpgenerator/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "4f8139897c6a1ef0": {
-   "attempts": 2,
-   "title": "Show HN: Embeddable Cumulative Crates Download History",
-   "url": "https://cratesdownloadhistory.undivisible.dev/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "e4485d45ddd5ae98": {
-   "attempts": 2,
-   "title": "Show HN: Rip.so – a graveyard for dead internet things",
-   "url": "https://rip.so",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:20:20+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "e987b2c196e576e3": {
-   "attempts": 2,
-   "title": "Show HN: The Duo-Quatro-Paraphonic Synthesizer",
-   "url": "https://stefanlenoach.com/paraphonic",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:20:20+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "f0623a8b3f6617d8": {
-   "attempts": 2,
-   "title": "Show HN: Integuru – Integrate with platforms via the source code",
-   "url": "https://www.integuru.com",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:20:20+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "fa33df4f8d9a94c1": {
-   "attempts": 2,
-   "title": "Show HN: FastReact – FastAPI and React Starter Kit for AI SaaS",
-   "url": "https://fastreact.dev/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:20:20+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "9efc36b8b703b4f0": {
-   "attempts": 2,
-   "title": "Show HN: An Institutional Terminal for Retail Investors",
-   "url": "https://marketterminal.com/chart",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:20:20+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "49ab01b1a2042426": {
-   "attempts": 2,
-   "title": "Show HN: Apex Trading Signals – AI commodity trade ideas, free Android",
-   "url": "https://play.google.com/apps/testing/com.apextradingsignals",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:20:20+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "352afce8f70d41df": {
-   "attempts": 2,
-   "title": "Show HN: Logan Basic v2.1 - An online BASIC interpreter.",
-   "url": "https://sinusoft.com/loganbasic/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:20:20+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "947811021388f4e3": {
-   "attempts": 2,
-   "title": "Show HN: Review flashcards cards (Anki) while reading Hacker News",
-   "url": "https://www.orangecrumbs.com/hn/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:20:20+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "8a042b22c8e7364e": {
-   "attempts": 2,
-   "title": "Show HN: Skytrace – Self-hosted 3D ADS-B viewer with receiver coverage",
-   "url": "https://sky.luftaquila.io",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:20:20+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "31f57c57aa653c2a": {
-   "attempts": 2,
-   "title": "Show HN: 3D CSS Super Mario 64",
-   "url": "https://codepen.io/editor/alowpoly/pen/019fae67-50d9-74ce-8025-4b9dd5a7c484",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:20:20+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "1b54b891bfff72b9": {
-   "attempts": 2,
-   "title": "Show HN: Scoring 4,811 job tasks against machine capability, 1970–2041",
-   "url": "https://largelabormodel.com/mirror",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:20:20+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "ffe419fedb187025": {
-   "attempts": 2,
-   "title": "Show HN: Hybrids – a daily flower logic puzzle",
-   "url": "https://hybrids.rudyp.dev",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T09:56:35+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "d059e759a9243783": {
-   "attempts": 1,
-   "title": "Show HN: MyTops – A database of films, books, games that builds itself",
-   "url": "https://mytops.io/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "3014777b8200a4b3": {
-   "attempts": 2,
-   "title": "Show HN: Nohtml.felixs.eu",
-   "url": "https://nohtml.felixs.eu",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:20:20+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "bfd9557432621d34": {
-   "attempts": 2,
-   "title": "Show HN: I built a physical dream machine for my wife",
-   "url": "https://twitter.com/oblomovius/status/2094053464552698325",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:20:20+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "9fd5bf8b1db874ad": {
-   "attempts": 2,
-   "title": "Show HN: Masareef – Android expense tracker that reads bank alerts on-",
-   "url": "https://play.google.com/store/apps/details?id=com.mohamedgado.masareef&hl=en_US",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:20:20+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "046b47b1e49ebb3a": {
-   "attempts": 1,
-   "title": "Show HN: Claypot – a block-based studio for kids to inspect AI systems",
-   "url": "https://claypot.app/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "e0dfcac800c7f7e5": {
-   "attempts": 1,
-   "title": "Show HN: Practice where countries are in the world",
-   "url": "https://news.ycombinator.com/item?id=49495618",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "9f98571b8f67089c": {
-   "attempts": 1,
-   "title": "500 → 1,100 active users in 2 days 🚀 didn’t expect this ... :)",
-   "url": "https://i.redd.it/ajuyhthwccyg1.jpeg",
-   "source_id": "reddit",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "81c6ba756b861539": {
-   "attempts": 1,
-   "title": "22th website built.",
-   "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1szxbsl/22th_website_built/",
-   "source_id": "reddit",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "02983cd3fa784ef4": {
-   "attempts": 2,
-   "title": "Did you encounter the problem of disorganization in your first game?",
-   "url": "/r/imscreators/comments/1szu6k6/why_90_of_indie_developers_never_finish_their/",
-   "source_id": "reddit",
-   "last_try": "2026-09-21T03:20:20+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "f3352ca9e6883a97": {
-   "attempts": 2,
-   "title": "Everytime you check OP's profile",
-   "url": "https://i.redd.it/ikx2pz13sh4h1.jpeg",
-   "source_id": "reddit",
-   "last_try": "2026-09-21T03:20:20+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "9927ebf7be292d66": {
-   "attempts": 1,
-   "title": "This is soo true 😭",
-   "url": "https://i.redd.it/trycdowdoh4h1.jpeg",
-   "source_id": "reddit",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "e2e5847481902a6d": {
-   "attempts": 1,
-   "title": "3 pro artists pitched their art concepts for a game with typing-based ",
-   "url": "https://i.redd.it/10c1qjjsuh4h1.jpeg",
-   "source_id": "reddit",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "c4f747cce83249bb": {
-   "attempts": 1,
-   "title": "Solo indie dev priorities",
-   "url": "https://i.redd.it/3pr9nmwjmfah1.png",
-   "source_id": "reddit",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "44712bd530655606": {
-   "attempts": 1,
-   "title": "Just few hours in, I have launched my first iOS app and there are alre",
-   "url": "https://www.reddit.com/r/buildinpublic/comments/1v6d5ae/just_few_hours_in_i_have_launched_my_first_ios/",
-   "source_id": "reddit",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "7ae1ab72b05bb1f6": {
-   "attempts": 1,
-   "title": "How it started vs how it’s going :)",
-   "url": "https://www.reddit.com/r/IndieDev/comments/1vbtbng/how_it_started_vs_how_its_going/",
-   "source_id": "reddit",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "7133e55715dba07a": {
-   "attempts": 1,
-   "title": "Aurora Borealis 🟩🟦",
-   "url": "https://i.redd.it/2blidncl5qmh1.gif",
-   "source_id": "reddit",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "481e764f6eaebe60": {
-   "attempts": 1,
-   "title": "I still can't believe 50 complete strangers chose to pay for something",
-   "url": "https://i.redd.it/63v03dtk5qmh1.png",
-   "source_id": "reddit",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "c9e930acead733c0": {
-   "attempts": 1,
-   "title": "I think something is wrong with my recipe book...",
-   "url": "https://i.redd.it/ytjy28rfdqmh1.png",
-   "source_id": "reddit",
-   "last_try": "2026-09-21T03:14:03+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "b6a9a45b036d9797": {
-   "attempts": 2,
-   "title": "Show HN: Community Ninja – Find customers searching for your product",
-   "url": "https://communityninja.ai/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T09:56:35+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "4ebaa9c3e91eedeb": {
-   "attempts": 2,
-   "title": "Show HN: ForthWrite – Email AI that learns your voice from every edit ",
-   "url": "https://www.forthwrite.ai/blog/how-forthwrite-learns-your-email-voice",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T09:56:35+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "b6046d85b7e9f0fc": {
-   "attempts": 2,
-   "title": "Show HN: We made a full-featured Python HTTP client work inside WASI",
-   "url": "https://niquests.readthedocs.io/en/latest/user/quickstart.html#running-as-a-wasi-component",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T09:56:35+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "0dce55c11de1be20": {
-   "attempts": 2,
-   "title": "Show HN: I audited my AI leaderboard scale – every score dropped 6-15 ",
-   "url": "https://agiranker.com/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T09:56:35+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "2226bab72f0760c2": {
-   "attempts": 2,
-   "title": "Show HN: I built this social leaderboard game",
-   "url": "https://king-of-the.world",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T09:56:35+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "389073404c4eaa2e": {
-   "attempts": 2,
-   "title": "Show HN: Stickyboard – Kanban on real sticky notes, no account needed",
-   "url": "https://stickyboard.dev",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T09:56:35+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "a35463f18baa1b3a": {
-   "attempts": 2,
-   "title": "Show HN: FlarePeek – a chrome extension for Cloudflare Worker develope",
-   "url": "https://chromewebstore.google.com/detail/flarepeek-a-browser-exten/ffdbljcgdjkbbbbodnjbbgpahhnkfbnl",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T09:56:35+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "fec419fbb7c5523e": {
-   "attempts": 2,
-   "title": "Show HN: CardGo – Reusable, end-to-end encrypted context cards for AI ",
-   "url": "https://cardgo.ai",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T09:56:35+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "5496711b19c9e403": {
-   "attempts": 1,
-   "title": "Show HN: The Thousand – 1k founders, 1 question, one book",
-   "url": "https://thethousand.co",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T03:20:20+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "0b77acec5aee878b": {
-   "attempts": 2,
-   "title": "ownCloud Flaw Exploited to Steal Nuclear Records From Philippine Resea",
-   "url": "https://thehackernews.com/2026/08/snowflake-github-actions-flaw-lets.html?m=1",
-   "source_id": "reddit",
-   "last_try": "2026-09-21T09:56:35+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "f2db4204dfacfa17": {
-   "attempts": 2,
-   "title": "Show HN: Cogram Studio – CAD and BIM workspace for humans and agents",
-   "url": "https://studio.cogram.com/",
-   "source_id": "hn_show",
-   "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（Exa 未命中该站）",
-   "tried": "direct_fetch→exa_web_fetch"
-  },
-  "eb17d59084bb175a": {
-   "attempts": 2,
-   "title": "First make it exist, you can make it good later",
-   "url": "https://i.redd.it/7e2iqgy696qh1.png",
-   "source_id": "reddit",
-   "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（Exa 未命中该站）",
-   "tried": "direct_fetch→exa_web_fetch"
-  },
-  "30fb87ec7ddbdd50": {
-   "attempts": 1,
-   "title": "JUST LAUNCHED MY SAAS: 70 USERS IN 24H, $0 ON ADS 😭",
-   "url": "https://i.redd.it/cb65vwfia6qh1.png",
-   "source_id": "reddit",
-   "last_try": "2026-09-21T09:56:35+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "032ca85fe718153d": {
-   "attempts": 1,
-   "title": "Finally First sale on my SaaS after 3 months of launch 💪",
-   "url": "https://i.redd.it/6gw25kyen5qh1.jpeg",
-   "source_id": "reddit",
-   "last_try": "2026-09-21T09:56:35+08:00",
-   "reason": "取数失败（Exa 未命中该站）"
-  },
-  "42bf3de09af7cfeb": {
-   "attempts": 2,
-   "title": "What's the best virtual office software for a remote SaaS team?",
-   "url": "https://www.reddit.com/r/SaaS/comments/1wj7krx/whats_the_best_virtual_office_software_for_a/",
-   "source_id": "reddit",
-   "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（Exa 未命中该站）",
-   "tried": "direct_fetch→exa_web_fetch"
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
   },
   "dbdfc52c10d890f3": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: LingBot-World 2.0 (1.3B) running at 16 FPS on one RTX 5090",
    "url": "https://github.com/kaarelkaarelson/lingbot-world-v2-realtime",
    "source_id": "hn_show",
-   "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme，均未命中）",
-   "tried": "gh_readme"
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "reason_code": "unreachable",
+   "http_status": "blocked",
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "e63b2ecea541875f": {
    "attempts": 1,
@@ -1652,17 +363,29 @@
    "url": "https://github.com/atomashevic/omabib",
    "source_id": "hn_show",
    "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme，均未命中）",
-   "tried": "gh_readme"
+   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "tried": [
+    "gh_readme"
+   ],
+   "reason_code": "gh_miss",
+   "http_status": null,
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "cff26887b23e93bb": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Talos – A personal agent whose kernel gates every tool call",
    "url": "https://github.com/talos-kernel/Talos",
    "source_id": "hn_show",
-   "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme，均未命中）",
-   "tried": "gh_readme"
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "reason_code": "unreachable",
+   "http_status": "blocked",
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "1eff0532efaf5002": {
    "attempts": 1,
@@ -1670,26 +393,45 @@
    "url": "https://github.com/nodemaven/proxy-benchmark",
    "source_id": "hn_show",
    "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme，均未命中）",
-   "tried": "gh_readme"
+   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "tried": [
+    "gh_readme"
+   ],
+   "reason_code": "gh_miss",
+   "http_status": null,
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "891fd61d0d11056a": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Run the birds sound detection on any Kobo eReader",
    "url": "https://github.com/BandarLabs/Cobalt/tree/beta/apps/birds",
    "source_id": "hn_show",
-   "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme，均未命中）",
-   "tried": "gh_readme"
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "reason_code": "unreachable",
+   "http_status": "blocked",
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "f7ed9196fd90c663": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: ThreeJS Runtime Performance Optimization Tools for ClaudeCode",
    "url": "https://github.com/wonglok/effectnode-b3-template-code/tree/main/src/runtime-intelligence",
    "source_id": "hn_show",
-   "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme，均未命中）",
-   "tried": "gh_readme"
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "reason_code": "unreachable",
+   "http_status": "blocked",
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "a18a5124a85ae2e5": {
    "attempts": 1,
@@ -1697,8 +439,13 @@
    "url": "https://github.com/fcavalcantirj/droidputter",
    "source_id": "hn_show",
    "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme，均未命中）",
-   "tried": "gh_readme"
+   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "tried": [
+    "gh_readme"
+   ],
+   "reason_code": "gh_miss",
+   "http_status": null,
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "50f24fcca5d4d7f6": {
    "attempts": 1,
@@ -1706,8 +453,13 @@
    "url": "https://github.com/sqliteai/warp",
    "source_id": "hn_show",
    "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme，均未命中）",
-   "tried": "gh_readme"
+   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "tried": [
+    "gh_readme"
+   ],
+   "reason_code": "gh_miss",
+   "http_status": null,
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "fdd309c576f9b7a9": {
    "attempts": 1,
@@ -1715,26 +467,45 @@
    "url": "https://github.com/shiehn/sas-sample-generator",
    "source_id": "hn_show",
    "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme，均未命中）",
-   "tried": "gh_readme"
+   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "tried": [
+    "gh_readme"
+   ],
+   "reason_code": "gh_miss",
+   "http_status": null,
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "41660a1814ccc2cd": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Cordium: FOSS sandbox platform that eliminates credential inj",
    "url": "https://github.com/octelium/cordium",
    "source_id": "hn_show",
-   "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme，均未命中）",
-   "tried": "gh_readme"
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "reason_code": "unreachable",
+   "http_status": "blocked",
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "22f420b5de0ff341": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Babo – A scripting natural language that works as intended",
    "url": "https://github.com/armbox/babo",
    "source_id": "hn_show",
-   "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme，均未命中）",
-   "tried": "gh_readme"
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "reason_code": "unreachable",
+   "http_status": "blocked",
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "298f3458267a3e3a": {
    "attempts": 1,
@@ -1742,8 +513,13 @@
    "url": "https://github.com/jmaczan/tiny-vllm",
    "source_id": "hn_show",
    "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme，均未命中）",
-   "tried": "gh_readme"
+   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "tried": [
+    "gh_readme"
+   ],
+   "reason_code": "gh_miss",
+   "http_status": null,
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "cb724ff82291c574": {
    "attempts": 1,
@@ -1751,8 +527,13 @@
    "url": "https://github.com/vaddisrinivas/tab-council",
    "source_id": "hn_show",
    "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme，均未命中）",
-   "tried": "gh_readme"
+   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "tried": [
+    "gh_readme"
+   ],
+   "reason_code": "gh_miss",
+   "http_status": null,
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "c7ff48776160c3bf": {
    "attempts": 1,
@@ -1760,8 +541,13 @@
    "url": "https://github.com/splendidz/uniflow",
    "source_id": "hn_show",
    "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme，均未命中）",
-   "tried": "gh_readme"
+   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "tried": [
+    "gh_readme"
+   ],
+   "reason_code": "gh_miss",
+   "http_status": null,
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "40660ac5799ea2c1": {
    "attempts": 1,
@@ -1769,8 +555,13 @@
    "url": "https://github.com/danthegoodman1/tinysandbox/tree/main/tinysandbox-js-runtime",
    "source_id": "hn_show",
    "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme，均未命中）",
-   "tried": "gh_readme"
+   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "tried": [
+    "gh_readme"
+   ],
+   "reason_code": "gh_miss",
+   "http_status": null,
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "52c9c40b28a6ae8d": {
    "attempts": 1,
@@ -1778,8 +569,384 @@
    "url": "https://github.com/doronp/jevc",
    "source_id": "hn_show",
    "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme，均未命中）",
-   "tried": "gh_readme"
+   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "tried": [
+    "gh_readme"
+   ],
+   "reason_code": "gh_miss",
+   "http_status": null,
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
+  },
+  "1177c1777ea2ee15": {
+   "attempts": 1,
+   "title": "huaminghuangtw/Strava-Tool",
+   "url": "https://github.com/huaminghuangtw/Strava-Tool",
+   "source_id": "github_new",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked",
+   "reason_first": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: timeout>60s"
+  },
+  "e6a3c3f817cf5690": {
+   "attempts": 1,
+   "title": "NandhaKishorM/laya",
+   "url": "https://github.com/NandhaKishorM/laya",
+   "source_id": "github_new",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked",
+   "reason_first": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: timeout>60s"
+  },
+  "167405deb0f8e4a6": {
+   "attempts": 1,
+   "title": "Show HN: Negronlyfans – upload your Negroni, get judged by its 1919 in",
+   "url": "https://negronlyfans.com/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "f05829b3d2c0694a": {
+   "attempts": 1,
+   "title": "Show HN: An open Add/Search evaluation framework for agent memory",
+   "url": "https://agentmemoryleaderboard.ai/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "dfab7287682fdaee": {
+   "attempts": 1,
+   "title": "Show HN: Scry, programmable internet search w/ congestion pricing",
+   "url": "https://scry.io/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "6c03e0fd00e0e4f2": {
+   "attempts": 1,
+   "title": "Show HN: What if you don't feel overwhelmed reading big articles",
+   "url": "https://chromewebstore.google.com/detail/kora-â-focus-reader-websi/kbkcobapaoaoilpfgbaaeaedlincbpmi?hl=en",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "error",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error"
+  },
+  "d7106202aa3344c2": {
+   "attempts": 1,
+   "title": "Show HN: Publiclandsdata.com – US public lands visitation, reservation",
+   "url": "http://www.publiclandsdata.com",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": 522,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=522"
+  },
+  "90674e6b6a06d27e": {
+   "attempts": 1,
+   "title": "Show HN: Paste a song and get 5 license-free cousins that sound like i",
+   "url": "https://mockfreeli.org/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "258665cf941c4e03": {
+   "attempts": 1,
+   "title": "Show HN: Browse last quarter's Supreme Court cases, linked and cited a",
+   "url": "https://marginalia.bobbby.online/cases",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "2026563c4c8e3493": {
+   "attempts": 1,
+   "title": "Show HN: Smart Mouth Billy Bass – another fishy LLM assistant",
+   "url": "https://existens.org/billy/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "66ad371fa2d19226": {
+   "attempts": 1,
+   "title": "Show HN: Ink Signal, editor themes with fewer colours",
+   "url": "https://gaurav-singh.info/ink-signal/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "6102b39baf89886b": {
+   "attempts": 1,
+   "title": "Show HN: Trail, a New Logic Game",
+   "url": "https://trail.franzai.com/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "821bb106de420180": {
+   "attempts": 1,
+   "title": "Show HN: Rockbox and Doom on iPod nano 3rd gen",
+   "url": "https://twitter.com/freemyipod/status/2100255707886977402",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+  },
+  "41db861c4dfa54a6": {
+   "attempts": 1,
+   "title": "Show HN: Choreographed Algebra",
+   "url": "https://0xb00.com",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "b88af057a80a90d5": {
+   "attempts": 1,
+   "title": "Show HN: Does Big Government Kill Growth? The Armey Curve Tested (151 ",
+   "url": "https://julienreszka.github.io/economic-simulator/armey-curve.html",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "30f01d098880f25e": {
+   "attempts": 1,
+   "title": "Show HN: OmniForge – document intelligence and audio capture with loca",
+   "url": "https://omniforge.online/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "3f232af9b9afb5e4": {
+   "attempts": 1,
+   "title": "Show HN: Is Opus Ok Today?",
+   "url": "https://isopusok.today/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "a8338ab8b00a9bd9": {
+   "attempts": 1,
+   "title": "Show HN: I mapped what's within walking distance for European cities u",
+   "url": "https://strado.info/map/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "e4485d45ddd5ae98": {
+   "attempts": 1,
+   "title": "Show HN: Rip.so – a graveyard for dead internet things",
+   "url": "https://rip.so",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+  },
+  "65d03c6b0c56ca4e": {
+   "attempts": 1,
+   "title": "Show HN: I built a native project management app that respects your pr",
+   "url": "https://getmilestones.app/store/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "9588269e01a431d2": {
+   "attempts": 1,
+   "title": "Show HN: Markal, a productivity tool for creating collaborative calend",
+   "url": "https://markal.app",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "e9a7af726513ec10": {
+   "attempts": 1,
+   "title": "Show HN: Kanji Pairs Explorer",
+   "url": "https://trost.co/kanji-pairs/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "b6a9a45b036d9797": {
+   "attempts": 1,
+   "title": "Show HN: Community Ninja – Find customers searching for your product",
+   "url": "https://communityninja.ai/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "e987b2c196e576e3": {
+   "attempts": 1,
+   "title": "Show HN: The Duo-Quatro-Paraphonic Synthesizer",
+   "url": "https://stefanlenoach.com/paraphonic",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "c74a4f37b5e005b7": {
+   "attempts": 1,
+   "title": "Show HN: A smarter CSS selector generator",
+   "url": "https://www.npmjs.com/package/@uindow/css",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": 403,
+   "reason_code": "http_403",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 http_403 · status=403"
   }
  }
 }

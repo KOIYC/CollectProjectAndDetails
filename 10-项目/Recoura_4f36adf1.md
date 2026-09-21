@@ -2,7 +2,7 @@
 type: "project"
 title: "Recoura"
 project_url: "https://betalist.com/startups/recoura"
-first_seen: "2026-09-21T01:32:43+08:00"
+first_seen: "2026-09-21T22:04:08+08:00"
 sources:
   - betalist
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://betalist.com/startups/recoura>
-> 首次收录：2026-09-21T01:32:43+08:00
+> 首次收录：2026-09-21T22:04:08+08:00
 > 来源渠道：BetaList
 > 标签：—
 > 最新指标：—
@@ -30,6 +30,7 @@ lang: "en"
 | 2026-09-20T03:08:37+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-20/4f36adf1c2e503ad_Recoura]] |
 | 2026-09-20T03:34:08+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-20/4f36adf1c2e503ad_Recoura]] |
 | 2026-09-21T01:32:43+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-20/4f36adf1c2e503ad_Recoura]] |
+| 2026-09-21T22:04:08+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-20/4f36adf1c2e503ad_Recoura]] |
 
 ## 摘要正文
 

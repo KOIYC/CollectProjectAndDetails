@@ -5,11 +5,13 @@ title: "Tryterrapin"
 source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/tryterrapin"
-captured_at: "2026-09-21T02:52:21+08:00"
+published_at: "2025-08-25"
+captured_at: "2026-09-21T22:04:13+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
 shard: "2026-09-21"
+pub_day: "2025-08-25"
 tags:
   - 语料
   - betalist
@@ -28,9 +30,9 @@ discovered_via: "betalist:home"
 > 来源：BetaList（project）
 > 原帖：<https://betalist.com/startups/tryterrapin>
 > 指标：—
-> 作者：—　|　发布：—
+> 作者：—　|　发布：2025-08-25
 > 项目链接：—
-> 采集：2026-09-21T02:52:21+08:00　|　id：`d97975d5356a588c`
+> 采集：2026-09-21T22:04:13+08:00　|　id：`d97975d5356a588c`
 
 ## 正文
 

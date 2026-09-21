@@ -2,7 +2,7 @@
 type: "project"
 title: "Myleasewise"
 project_url: "https://betalist.com/startups/myleasewise"
-first_seen: "2026-09-21T02:52:17+08:00"
+first_seen: "2026-09-21T22:04:11+08:00"
 sources:
   - betalist
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://betalist.com/startups/myleasewise>
-> 首次收录：2026-09-21T02:52:17+08:00
+> 首次收录：2026-09-21T22:04:11+08:00
 > 来源渠道：BetaList
 > 标签：—
 > 最新指标：—
@@ -34,6 +34,7 @@ lang: "en"
 | 2026-09-21T01:32:43+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/3cf96f0a8d262788_Myleasewise]] |
 | 2026-09-21T01:34:59+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/3cf96f0a8d262788_Myleasewise]] |
 | 2026-09-21T02:52:17+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/3cf96f0a8d262788_Myleasewise]] |
+| 2026-09-21T22:04:11+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/3cf96f0a8d262788_Myleasewise]] |
 
 ## 摘要正文
 

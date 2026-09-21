@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: KillSwitch – a programming language designed to be difficult for LLMs"
 project_url: "https://killswitch-lang.org/"
-first_seen: "2026-09-20T09:48:16+08:00"
+first_seen: "2026-09-21T21:59:52+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://killswitch-lang.org/>
-> 首次收录：2026-09-20T09:48:16+08:00
+> 首次收录：2026-09-21T21:59:52+08:00
 > 来源渠道：HN Show HN
 > 标签：author_dom96, story_49769531, show_hn
 > 最新指标：点赞=7 · 评论=2 · engagement_velocity=7
@@ -32,7 +32,8 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-20T09:23:24+08:00 | HN Show HN | 点赞=7 · 评论=2 · engagement_velocity=7 | [[20-语料/posts/hn_show/2026-09-20/223e2921e01a3701_Show-HN-KillSwitch-–-a-programming-language-design]] |
 | 2026-09-20T09:48:16+08:00 | HN Show HN | 点赞=7 · 评论=2 · engagement_velocity=7 | [[20-语料/posts/hn_show/2026-09-20/223e2921e01a3701_Show-HN-KillSwitch-–-a-programming-language-design]] |
+| 2026-09-21T21:59:52+08:00 | HN Show HN | 点赞=7 · 评论=2 · engagement_velocity=7 | [[20-语料/posts/hn_show/2026-09-20/223e2921e01a3701_Show-HN-KillSwitch-–-a-programming-language-design]] |
 
 ## 摘要正文
 
-KillSwitch  # KillSwitch   An esoteric programming language built to break LLMs and coding agents.  # The Newsletter Graph - Reletter
+KillSwitch An esoteric programming language built to break LLMs and coding agents. promo.ks Run Sorry, only humans allowed Stack stdout Source code  Explore KillSwitch  Interpreter, specification, and examples Benchmarks  View the benchmarks  Claude Opus 5 leads Copyright © 2026 Dominik Picheta. KillSwitch is licensed under the AGPLv3. GitHub Benchmarks

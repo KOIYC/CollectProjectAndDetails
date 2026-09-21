@@ -1,0 +1,942 @@
+{
+ "schema": 1,
+ "items": {
+  "b3f5c02e0f48ee45": {
+   "attempts": 2,
+   "title": "Patrick McKenzie (@patio11)",
+   "url": "https://twitter.com/patio11",
+   "source_id": "c1c7",
+   "reason": "社交账号页需登录",
+   "last_try": "2026-09-20T03:27:25+08:00",
+   "reason_code": "account",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "社交账号页需登录"
+  },
+  "1f6c289cc51efc0b": {
+   "attempts": 2,
+   "title": "Pieter Levels (@levelsio)",
+   "url": "https://twitter.com/levelsio",
+   "source_id": "c1c7",
+   "reason": "社交账号页需登录",
+   "last_try": "2026-09-20T03:27:25+08:00",
+   "reason_code": "account",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "社交账号页需登录"
+  },
+  "c64307ad404fe1f3": {
+   "attempts": 2,
+   "title": "Courtland Allen (@csallen)",
+   "url": "https://twitter.com/csallen",
+   "source_id": "c1c7",
+   "reason": "社交账号页需登录",
+   "last_try": "2026-09-20T03:27:25+08:00",
+   "reason_code": "account",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "社交账号页需登录"
+  },
+  "233104c4e7d5d989": {
+   "attempts": 2,
+   "title": "Do you like the mechanic and visuals?",
+   "url": "https://v.redd.it/lpls8xvn2xph1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "last_try": "2026-09-20T03:27:25+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
+  },
+  "a199981f9f07ab5c": {
+   "attempts": 2,
+   "title": "An fpv drone sim but with big guns and now multiplayer! Was tough to c",
+   "url": "https://v.redd.it/0uf6pfkt3xph1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "last_try": "2026-09-20T03:27:25+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
+  },
+  "977b2334497eb914": {
+   "attempts": 2,
+   "title": "Glow Up",
+   "url": "https://v.redd.it/4tgmb0mwaxph1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "last_try": "2026-09-20T03:27:25+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
+  },
+  "a4e8f0815efc5ad8": {
+   "attempts": 2,
+   "title": "The lobby for my horror game is finally finished ^^",
+   "url": "https://v.redd.it/fttmecff7xph1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "last_try": "2026-09-20T09:15:58+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
+  },
+  "b012cedb361823d7": {
+   "attempts": 2,
+   "title": "1 Year WIP Progress! (Wilderings - The Lost Spring)",
+   "url": "https://v.redd.it/kb8d2vlukxph1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "last_try": "2026-09-20T09:15:58+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
+  },
+  "7e7c0bf2b05ce263": {
+   "attempts": 2,
+   "title": "Show HN: Keydris, Sudo for AI Agents",
+   "url": "https://www.youtube.com/watch?v=Ouqwx7-gGYw",
+   "source_id": "hn_show",
+   "reason": "视频帖无正文",
+   "last_try": "2026-09-20T09:25:09+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
+  },
+  "7a9f3dfd1144aff2": {
+   "attempts": 2,
+   "title": "Show HN: I built a small tool to turn my essays into visual stories fo",
+   "url": "https://www.youtube.com/watch?v=Sv1u6Oeum5k",
+   "source_id": "hn_show",
+   "reason": "视频帖无正文",
+   "last_try": "2026-09-20T09:25:09+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
+  },
+  "bea177f85cb4ae26": {
+   "attempts": 2,
+   "title": "Football game with Procedural animations - Freekicks",
+   "url": "https://v.redd.it/t1ikvo9kcyph1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "last_try": "2026-09-20T09:25:09+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
+  },
+  "72f9e0807bc39313": {
+   "attempts": 2,
+   "title": "Show HN: I think I by accident created something beautiful about LLM [",
+   "url": "https://www.youtube.com/watch?v=aey2w7kyiAw",
+   "source_id": "hn_show",
+   "reason": "视频帖无正文",
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
+  },
+  "b3968921b64d8d86": {
+   "attempts": 2,
+   "title": "Show HN: 3 of Minutes of AI Anime Based on Korean Comics [video]",
+   "url": "https://www.youtube.com/watch?v=OfkTGCVk-RQ",
+   "source_id": "hn_show",
+   "reason": "视频帖无正文",
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
+  },
+  "9c29aef54d876ca1": {
+   "attempts": 2,
+   "title": "Remade my trailer just in time for demo release tomorrow, does it work",
+   "url": "https://v.redd.it/fysoj55rkcyg1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
+  },
+  "b732ba282909b527": {
+   "attempts": 2,
+   "title": "Worked on some resource gathering..",
+   "url": "https://v.redd.it/xdk7wsr5qh4h1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
+  },
+  "e8fb01ad7d10b14e": {
+   "attempts": 2,
+   "title": "The Bird of the North - A mysterious deduction game",
+   "url": "https://v.redd.it/w8gsufo6uh4h1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
+  },
+  "55130aa28dcf6e89": {
+   "attempts": 2,
+   "title": "Do you like throwing shit at another people?..",
+   "url": "https://v.redd.it/yc8k93gv2lgh1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
+  },
+  "3cbfe42f3a096088": {
+   "attempts": 2,
+   "title": "We are tinkering with a summon system. ¿What do you think of this lil ",
+   "url": "https://v.redd.it/ol5zkmns5lgh1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
+  },
+  "88f1cdbd99ac6854": {
+   "attempts": 2,
+   "title": "My Papers Please-inspired game where you inspect SCP-style monsters, t",
+   "url": "https://v.redd.it/al4mfjfh2lgh1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
+  },
+  "b5814686f5a5322e": {
+   "attempts": 2,
+   "title": "Bad Pixels now available in Early Access on Steam!",
+   "url": "https://v.redd.it/681fifmjgqmh1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
+  },
+  "1c8aed4f08ee73fb": {
+   "attempts": 2,
+   "title": "Now you can explore nutty putty without needing to die irl!",
+   "url": "https://v.redd.it/x42ht5a1fqmh1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
+  },
+  "0279676481f5d34d": {
+   "attempts": 2,
+   "title": "Developing my own Tower Defense Rogulite Game, give the Demo it a try",
+   "url": "https://v.redd.it/ndfgy4rdeqmh1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "last_try": "2026-09-21T01:37:30+08:00",
+   "reason_code": "media",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": null,
+   "reason_first": "视频帖无正文"
+  },
+  "dbdfc52c10d890f3": {
+   "attempts": 2,
+   "title": "Show HN: LingBot-World 2.0 (1.3B) running at 16 FPS on one RTX 5090",
+   "url": "https://github.com/kaarelkaarelson/lingbot-world-v2-realtime",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "reason_code": "unreachable",
+   "http_status": "blocked",
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
+  },
+  "e63b2ecea541875f": {
+   "attempts": 1,
+   "title": "Show HN: Omabib, a Zotero alternative for Omarchy with agent support",
+   "url": "https://github.com/atomashevic/omabib",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T13:04:51+08:00",
+   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "tried": [
+    "gh_readme"
+   ],
+   "reason_code": "gh_miss",
+   "http_status": null,
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
+  },
+  "cff26887b23e93bb": {
+   "attempts": 2,
+   "title": "Show HN: Talos – A personal agent whose kernel gates every tool call",
+   "url": "https://github.com/talos-kernel/Talos",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "reason_code": "unreachable",
+   "http_status": "blocked",
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
+  },
+  "1eff0532efaf5002": {
+   "attempts": 1,
+   "title": "Show HN: Proxy-benchmark – is it the proxy, the browser, or your machi",
+   "url": "https://github.com/nodemaven/proxy-benchmark",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T13:04:51+08:00",
+   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "tried": [
+    "gh_readme"
+   ],
+   "reason_code": "gh_miss",
+   "http_status": null,
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
+  },
+  "891fd61d0d11056a": {
+   "attempts": 2,
+   "title": "Show HN: Run the birds sound detection on any Kobo eReader",
+   "url": "https://github.com/BandarLabs/Cobalt/tree/beta/apps/birds",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "reason_code": "unreachable",
+   "http_status": "blocked",
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
+  },
+  "f7ed9196fd90c663": {
+   "attempts": 2,
+   "title": "Show HN: ThreeJS Runtime Performance Optimization Tools for ClaudeCode",
+   "url": "https://github.com/wonglok/effectnode-b3-template-code/tree/main/src/runtime-intelligence",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "reason_code": "unreachable",
+   "http_status": "blocked",
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
+  },
+  "a18a5124a85ae2e5": {
+   "attempts": 1,
+   "title": "Show HN: DroidPutter – Run Cardputer Apps on Android via USB OTG",
+   "url": "https://github.com/fcavalcantirj/droidputter",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T13:04:51+08:00",
+   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "tried": [
+    "gh_readme"
+   ],
+   "reason_code": "gh_miss",
+   "http_status": null,
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
+  },
+  "50f24fcca5d4d7f6": {
+   "attempts": 1,
+   "title": "Show HN: Warp – Run DeepSeek v4.1 Flash with 5 GB of RAM at 3.77 tok/s",
+   "url": "https://github.com/sqliteai/warp",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T13:04:51+08:00",
+   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "tried": [
+    "gh_readme"
+   ],
+   "reason_code": "gh_miss",
+   "http_status": null,
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
+  },
+  "fdd309c576f9b7a9": {
+   "attempts": 1,
+   "title": "Show HN: Stable Audio 3 – one-shot sample generator (110gb download)",
+   "url": "https://github.com/shiehn/sas-sample-generator",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T13:04:51+08:00",
+   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "tried": [
+    "gh_readme"
+   ],
+   "reason_code": "gh_miss",
+   "http_status": null,
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
+  },
+  "41660a1814ccc2cd": {
+   "attempts": 2,
+   "title": "Show HN: Cordium: FOSS sandbox platform that eliminates credential inj",
+   "url": "https://github.com/octelium/cordium",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "reason_code": "unreachable",
+   "http_status": "blocked",
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
+  },
+  "22f420b5de0ff341": {
+   "attempts": 2,
+   "title": "Show HN: Babo – A scripting natural language that works as intended",
+   "url": "https://github.com/armbox/babo",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "reason_code": "unreachable",
+   "http_status": "blocked",
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
+  },
+  "298f3458267a3e3a": {
+   "attempts": 1,
+   "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and ",
+   "url": "https://github.com/jmaczan/tiny-vllm",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T13:04:51+08:00",
+   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "tried": [
+    "gh_readme"
+   ],
+   "reason_code": "gh_miss",
+   "http_status": null,
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
+  },
+  "cb724ff82291c574": {
+   "attempts": 1,
+   "title": "Show HN: Tab Council – turn your AI tabs into a model council",
+   "url": "https://github.com/vaddisrinivas/tab-council",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T13:04:51+08:00",
+   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "tried": [
+    "gh_readme"
+   ],
+   "reason_code": "gh_miss",
+   "http_status": null,
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
+  },
+  "c7ff48776160c3bf": {
+   "attempts": 1,
+   "title": "Show HN: Uniflow – a code skeleton so feature #50 looks like feature #",
+   "url": "https://github.com/splendidz/uniflow",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T13:04:51+08:00",
+   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "tried": [
+    "gh_readme"
+   ],
+   "reason_code": "gh_miss",
+   "http_status": null,
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
+  },
+  "40660ac5799ea2c1": {
+   "attempts": 1,
+   "title": "Show HN: Tinysandbox-JS-Runtime - JS in WASM in v8",
+   "url": "https://github.com/danthegoodman1/tinysandbox/tree/main/tinysandbox-js-runtime",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T13:04:51+08:00",
+   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "tried": [
+    "gh_readme"
+   ],
+   "reason_code": "gh_miss",
+   "http_status": null,
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
+  },
+  "52c9c40b28a6ae8d": {
+   "attempts": 1,
+   "title": "Show HN: jevc – compile policy prompts into deterministic verdict prog",
+   "url": "https://github.com/doronp/jevc",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T13:04:51+08:00",
+   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "tried": [
+    "gh_readme"
+   ],
+   "reason_code": "gh_miss",
+   "http_status": null,
+   "reason_first": "取数失败（已试 gh_readme，均未命中）"
+  },
+  "1177c1777ea2ee15": {
+   "attempts": 1,
+   "title": "huaminghuangtw/Strava-Tool",
+   "url": "https://github.com/huaminghuangtw/Strava-Tool",
+   "source_id": "github_new",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked",
+   "reason_first": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: timeout>60s"
+  },
+  "e6a3c3f817cf5690": {
+   "attempts": 1,
+   "title": "NandhaKishorM/laya",
+   "url": "https://github.com/NandhaKishorM/laya",
+   "source_id": "github_new",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked",
+   "reason_first": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: timeout>60s"
+  },
+  "167405deb0f8e4a6": {
+   "attempts": 1,
+   "title": "Show HN: Negronlyfans – upload your Negroni, get judged by its 1919 in",
+   "url": "https://negronlyfans.com/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "f05829b3d2c0694a": {
+   "attempts": 1,
+   "title": "Show HN: An open Add/Search evaluation framework for agent memory",
+   "url": "https://agentmemoryleaderboard.ai/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "dfab7287682fdaee": {
+   "attempts": 1,
+   "title": "Show HN: Scry, programmable internet search w/ congestion pricing",
+   "url": "https://scry.io/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "6c03e0fd00e0e4f2": {
+   "attempts": 1,
+   "title": "Show HN: What if you don't feel overwhelmed reading big articles",
+   "url": "https://chromewebstore.google.com/detail/kora-â-focus-reader-websi/kbkcobapaoaoilpfgbaaeaedlincbpmi?hl=en",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "error",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error"
+  },
+  "d7106202aa3344c2": {
+   "attempts": 1,
+   "title": "Show HN: Publiclandsdata.com – US public lands visitation, reservation",
+   "url": "http://www.publiclandsdata.com",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": 522,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=522"
+  },
+  "90674e6b6a06d27e": {
+   "attempts": 1,
+   "title": "Show HN: Paste a song and get 5 license-free cousins that sound like i",
+   "url": "https://mockfreeli.org/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "258665cf941c4e03": {
+   "attempts": 1,
+   "title": "Show HN: Browse last quarter's Supreme Court cases, linked and cited a",
+   "url": "https://marginalia.bobbby.online/cases",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "2026563c4c8e3493": {
+   "attempts": 1,
+   "title": "Show HN: Smart Mouth Billy Bass – another fishy LLM assistant",
+   "url": "https://existens.org/billy/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "66ad371fa2d19226": {
+   "attempts": 1,
+   "title": "Show HN: Ink Signal, editor themes with fewer colours",
+   "url": "https://gaurav-singh.info/ink-signal/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "6102b39baf89886b": {
+   "attempts": 1,
+   "title": "Show HN: Trail, a New Logic Game",
+   "url": "https://trail.franzai.com/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "821bb106de420180": {
+   "attempts": 1,
+   "title": "Show HN: Rockbox and Doom on iPod nano 3rd gen",
+   "url": "https://twitter.com/freemyipod/status/2100255707886977402",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+  },
+  "41db861c4dfa54a6": {
+   "attempts": 1,
+   "title": "Show HN: Choreographed Algebra",
+   "url": "https://0xb00.com",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "b88af057a80a90d5": {
+   "attempts": 1,
+   "title": "Show HN: Does Big Government Kill Growth? The Armey Curve Tested (151 ",
+   "url": "https://julienreszka.github.io/economic-simulator/armey-curve.html",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "30f01d098880f25e": {
+   "attempts": 1,
+   "title": "Show HN: OmniForge – document intelligence and audio capture with loca",
+   "url": "https://omniforge.online/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "3f232af9b9afb5e4": {
+   "attempts": 1,
+   "title": "Show HN: Is Opus Ok Today?",
+   "url": "https://isopusok.today/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "a8338ab8b00a9bd9": {
+   "attempts": 1,
+   "title": "Show HN: I mapped what's within walking distance for European cities u",
+   "url": "https://strado.info/map/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "e4485d45ddd5ae98": {
+   "attempts": 1,
+   "title": "Show HN: Rip.so – a graveyard for dead internet things",
+   "url": "https://rip.so",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+  },
+  "65d03c6b0c56ca4e": {
+   "attempts": 1,
+   "title": "Show HN: I built a native project management app that respects your pr",
+   "url": "https://getmilestones.app/store/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "9588269e01a431d2": {
+   "attempts": 1,
+   "title": "Show HN: Markal, a productivity tool for creating collaborative calend",
+   "url": "https://markal.app",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "e9a7af726513ec10": {
+   "attempts": 1,
+   "title": "Show HN: Kanji Pairs Explorer",
+   "url": "https://trost.co/kanji-pairs/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "b6a9a45b036d9797": {
+   "attempts": 1,
+   "title": "Show HN: Community Ninja – Find customers searching for your product",
+   "url": "https://communityninja.ai/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "e987b2c196e576e3": {
+   "attempts": 1,
+   "title": "Show HN: The Duo-Quatro-Paraphonic Synthesizer",
+   "url": "https://stefanlenoach.com/paraphonic",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "c74a4f37b5e005b7": {
+   "attempts": 1,
+   "title": "Show HN: A smarter CSS selector generator",
+   "url": "https://www.npmjs.com/package/@uindow/css",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-21T22:05:22+08:00",
+   "last_try": "2026-09-21T22:05:22+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": 403,
+   "reason_code": "http_403",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 http_403 · status=403"
+  }
+ }
+}

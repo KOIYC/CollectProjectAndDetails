@@ -2,7 +2,7 @@
 type: "project"
 title: "Yes Car No Car"
 project_url: "https://betalist.com/startups/yes-car-no-car"
-first_seen: "2026-09-21T01:34:59+08:00"
+first_seen: "2026-09-21T22:04:07+08:00"
 sources:
   - betalist
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://betalist.com/startups/yes-car-no-car>
-> 首次收录：2026-09-21T01:34:59+08:00
+> 首次收录：2026-09-21T22:04:07+08:00
 > 来源渠道：BetaList
 > 标签：—
 > 最新指标：—
@@ -40,6 +40,7 @@ lang: "en"
 | 2026-09-21T01:30:56+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-20/fd38a035a8d016e7_Yes-Car-No-Car]] |
 | 2026-09-21T01:32:43+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-20/fd38a035a8d016e7_Yes-Car-No-Car]] |
 | 2026-09-21T01:34:59+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-20/fd38a035a8d016e7_Yes-Car-No-Car]] |
+| 2026-09-21T22:04:07+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-20/fd38a035a8d016e7_Yes-Car-No-Car]] |
 
 ## 摘要正文
 

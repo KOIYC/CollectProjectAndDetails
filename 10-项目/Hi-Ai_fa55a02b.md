@@ -2,7 +2,7 @@
 type: "project"
 title: "Hi Ai"
 project_url: "https://betalist.com/startups/hi-ai"
-first_seen: "2026-09-21T09:48:02+08:00"
+first_seen: "2026-09-21T22:04:13+08:00"
 sources:
   - betalist
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://betalist.com/startups/hi-ai>
-> 首次收录：2026-09-21T09:48:02+08:00
+> 首次收录：2026-09-21T22:04:13+08:00
 > 来源渠道：BetaList
 > 标签：—
 > 最新指标：—
@@ -30,6 +30,7 @@ lang: "en"
 | 2026-09-21T01:15:03+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/fa55a02bef1ff7c5_Hi-Ai]] |
 | 2026-09-21T02:52:21+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/fa55a02bef1ff7c5_Hi-Ai]] |
 | 2026-09-21T09:48:02+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/fa55a02bef1ff7c5_Hi-Ai]] |
+| 2026-09-21T22:04:13+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/fa55a02bef1ff7c5_Hi-Ai]] |
 
 ## 摘要正文
 

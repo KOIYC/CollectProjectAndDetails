@@ -1,0 +1,42 @@
+{
+ "generated": "2026-09-21T22:19:33+08:00",
+ "sample": 12,
+ "aggregate": {
+  "direct": {
+   "n": 12,
+   "hit": 8,
+   "hit_rate": 66.7,
+   "median_chars": 2952,
+   "usable": 8,
+   "summary_rate": 12.5,
+   "trunc_rate": 12.5,
+   "ends_sentence": 0.0,
+   "seconds": 15.2,
+   "chars_per_s": 4013
+  },
+  "exa": {
+   "n": 12,
+   "hit": 7,
+   "hit_rate": 58.3,
+   "median_chars": 2709,
+   "usable": 7,
+   "summary_rate": 0.0,
+   "trunc_rate": 14.3,
+   "ends_sentence": 0.0,
+   "seconds": 76.6,
+   "chars_per_s": 1205
+  },
+  "gh": {
+   "n": 12,
+   "hit": 1,
+   "hit_rate": 8.3,
+   "median_chars": 72290,
+   "usable": 1,
+   "summary_rate": 0.0,
+   "trunc_rate": 0.0,
+   "ends_sentence": 0.0,
+   "seconds": 8.3,
+   "chars_per_s": 8709
+  }
+ }
+}

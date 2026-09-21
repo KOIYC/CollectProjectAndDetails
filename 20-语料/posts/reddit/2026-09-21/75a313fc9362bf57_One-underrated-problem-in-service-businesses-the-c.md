@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1tsqrcf/one_underrated_problem_in_service_businesses_the/"
 author: "Consistent-Quote-347"
 published_at: "2026-05-31T17:40:27+08:00"
-captured_at: "2026-09-21T13:03:59+08:00"
+captured_at: "2026-09-21T22:04:11+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -35,7 +35,7 @@ discovered_via: "reddit:144d+settle3"
 > 指标：得分=3 · 评论=10 · 赞踩比=0.8100000023841858
 > 作者：Consistent-Quote-347　|　发布：2026-05-31T17:40:27+08:00
 > 项目链接：—
-> 采集：2026-09-21T13:03:59+08:00　|　id：`75a313fc9362bf57`
+> 采集：2026-09-21T22:04:11+08:00　|　id：`75a313fc9362bf57`
 
 ## 正文
 

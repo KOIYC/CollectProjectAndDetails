@@ -8,10 +8,10 @@ url: "https://www.reddit.com/r/SideProject/comments/1wiay6y/i_built_platform_tha
 project_url: "https://web-analyser.com/request-an-audit"
 author: "Zeljko-bilandzija"
 published_at: "2026-09-17T05:48:31+08:00"
-captured_at: "2026-09-21T13:03:26+08:00"
+captured_at: "2026-09-21T22:01:51+08:00"
 lang: "en"
 kind: "post"
-topic: 开发者工具
+topic: "未分类"
 shard: "2026-09-21"
 pub_day: "2026-09-17"
 tags:
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=13 · 赞踩比=1
 > 作者：Zeljko-bilandzija　|　发布：2026-09-17T05:48:31+08:00
 > 项目链接：<https://web-analyser.com/request-an-audit>
-> 采集：2026-09-21T13:03:26+08:00　|　id：`1de404b4ed78455a`
+> 采集：2026-09-21T22:01:51+08:00　|　id：`1de404b4ed78455a`
 
 ## 正文
 
@@ -127,5 +127,5 @@ If you have a website you’d like me to run through it, feel free to submit it.
 
 - 项目页：[[10-项目/web-analyser.com_4e35327a]]
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

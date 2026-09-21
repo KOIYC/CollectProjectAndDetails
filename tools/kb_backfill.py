@@ -23,19 +23,40 @@ import json
 import re
 import sys
 import time
+import urllib.parse
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from kb_common import (BODY_MIN, DIR_RAW, DIR_REPORT, FULLTEXT_MAX_CHARS, META,  # noqa: E402
                        ROOT, BodyCache, Seen, append_jsonl, body_completeness,
                        direct_fetch_texts, exa_fetch_texts, iso, norm_url, now_cst,
-                       note_bucket, rotate_files, rotate_runs, run_cli, sha1)
+                       note_bucket, pub_day_of, rotate_files, rotate_runs, run_cli, sha1)
+from kbc_channels import betalist_launch_date  # noqa: E402
 from kb_collect import (ENRICH_ROUTING, MAX_COMMENTS, is_project_ish,  # noqa: E402
                         load_channels_yaml, write_corpus_note, write_entity_note)
 from kb_analyze import PROFILE_EXPECT  # noqa: E402
 
 DEAD_LEDGER = META / "backfill_dead.json"
 DEAD_AFTER = 2          # 同一缺口连试 N 轮仍取不到 → 判「结构性不可得」，不再重试
+DEAD_SCHEMA = 2         # 账本 schema：1 = 只有一句自然语言 reason；2 = 加 reason_code/tried[]/http_status
+
+# 死信原因码 —— 判死**必须**落到一个可复核的分类上，而不是一句自然语言。
+# 为什么（2026-09-21 调研报告 §4.2）：旧账本 270 条里 248 条的理由是硬编码的
+# 「Exa 未命中该站」，而流程早已是「直取优先」；看账的人据此得出「Exa 不行」的错误归因。
+# 更贵的代价：66 条 github 目标条目被判死时用的 URL 与「仓库是否可读」无关，
+# 于是「账本说有 66 条可救」本身就是错的 —— 理由与事实不符 ≡ 没有理由。
+REASON_CODES: dict[str, str] = {
+    "media":       "视频/音频帖：页面只有播放器，没有可抽正文（结构性）",
+    "account":     "社交账号页：需登录态（结构性，见渠道台账 auth 段）",
+    "repo_missing": "目标仓库不存在 / 已改名（gh readme 404）",
+    "gh_miss":     "仓库存在但 README 取不到（空仓库 / 取数被限流）",
+    "http_404":    "目标页 404/410（页面已删除）",
+    "http_403":    "目标页 403/401/451（拒绝访问 / 需登录 / 法规屏蔽）",
+    "unreachable": "连接级失败（超时 / TLS 重置 / 主机被本轮拉黑）",
+    "nontext":     "Content-Type 非文本（二进制 / 媒体资源）",
+    "no_backend":  "三档后端都尝试过、都未命中（direct → gh → exa）",
+    "unknown":     "未能归类（需人工看一条）",
+}
 
 
 def load_dead() -> dict:
@@ -47,9 +68,126 @@ def load_dead() -> dict:
 
 def save_dead(d: dict) -> None:
     DEAD_LEDGER.write_text(json.dumps(
-        {"updated": iso(now_cst()), "note": "结构性无正文（视频帖/Twitter 账号页/极短 README/反爬站）——"
-                                          "连试 %d 轮后记账，不再消耗额度" % DEAD_AFTER,
+        {"schema": DEAD_SCHEMA,
+         "updated": iso(now_cst()),
+         "note": "结构性无正文/取数不可得 —— 连试 %d 轮后记账，不再消耗额度。"
+                 "字段：reason（人话）/ reason_code（可复核分类，见 REASON_CODES）/ "
+                 "tried[]（本轮实际试过的后端）/ http_status（direct 档拿到的状态码）" % DEAD_AFTER,
+         "by_reason": dict(collections.Counter(
+             (v.get("reason_code") or "unknown") for v in d.values()).most_common()),
          "items": d}, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def classify_reason(url: str, status=None, tried: list[str] | None = None,
+                    gh_err: str = "") -> str:
+    """把一次「没取到」归到一个原因码（判定顺序：结构性 → HTTP 状态 → 后端档位）。"""
+    u = url or ""
+    tried = tried or []
+    if MEDIA_RE.search(u):
+        return "media"
+    if ACCOUNT_RE.search(u):
+        return "account"
+    s = status
+    if s in (404, 410):
+        return "http_404"
+    if s in (401, 403, 451):
+        return "http_403"
+    if s == "nontext":
+        return "nontext"
+    if s in ("blocked", "timeout", "unreachable"):
+        return "unreachable"
+    if "gh_readme" in tried:
+        low = (gh_err or "").lower()
+        if "404" in low or "not found" in low:
+            return "repo_missing"
+        if "rate limit" in low or "403" in low:
+            return "gh_miss"
+        return "gh_miss"
+    if "exa_web_fetch" in tried or "direct_fetch" in tried:
+        return "no_backend"
+    return "unknown"
+
+
+def migrate_dead(apply: bool = False) -> tuple[int, list[tuple[str, str, str]]]:
+    """把 schema 1 的死信账本升级到 schema 2：补 reason_code / tried[] / http_status。
+
+    只做**信息补齐**，不改判定：attempts / url / title / reason 原文一律保留
+    （旧 reason 文本是审计线索，删了就再也说不清「当初为什么判死」）。
+    """
+    dead = load_dead()
+    changes: list[tuple[str, str, str]] = []
+    for iid, v in dead.items():
+        old_code = v.get("reason_code")
+        tried = v.get("tried")
+        tried_l = [t for t in (tried if isinstance(tried, list) else
+                               str(tried or "").split("→")) if t]
+        code = old_code or classify_reason(v.get("url") or "", status=None,
+                                           tried=tried_l or ["direct_fetch", "exa_web_fetch"])
+        if old_code != code:
+            v["reason_code"] = code
+            changes.append((iid, old_code or "(无)", code))
+        if not isinstance(tried, list):
+            v["tried"] = tried_l or ["direct_fetch", "exa_web_fetch"]
+        v.setdefault("http_status", None)
+        # 人话理由与结构化证据不一致时**以结构化字段为准重建人话**（旧的转存 reason_first）。
+        # 目的：账本里任何一条都不允许出现「理由说 A、字段说 B」——
+        # 那正是本轮修的原始缺陷（248 条理由与实际后端不符）的同一形态。
+        want = (f"取数失败（已试 {'→'.join(v['tried'])}）· 判定 {v['reason_code']}"
+                + (f" · status={v['http_status']}" if v.get("http_status") is not None else ""))
+        cur = v.get("reason") or ""
+        # 只重建**取数失败类**理由（它们才可能与 tried[] 打架）。
+        # 结构性理由（「视频帖无正文」「社交账号页需登录」）是领域知识，与 reason_code 天然一致，
+        # 保留原文更好读 —— 一致性要求是「不矛盾」，不是「长得一样」。
+        if cur.startswith("取数失败（已试") and cur != want:
+            if not v.get("reason_first"):
+                v["reason_first"] = cur
+            v["reason"] = want
+        elif cur and not v.get("reason_first") and v["reason_code"] in ("media", "account"):
+            v["reason_first"] = cur
+    dirty = True                       # 本函数现在总是补齐 reason_code/tried/http_status，直接落盘
+    if apply and dirty:
+        bak = META / f"backfill_dead.schema1.bak-{now_cst():%Y%m%dT%H%M%S}.json"
+        bak.write_text(json.dumps({"schema": 1, "items": dead}, ensure_ascii=False, indent=1),
+                       encoding="utf-8")
+        save_dead(dead)
+    return len(changes), changes
+
+
+def render_dead_report(dead: dict) -> str:
+    """死信账本按原因码复核 —— 这是「判死」这件事的可审计面。"""
+    by = collections.defaultdict(list)
+    for iid, v in dead.items():
+        by[(v.get("reason_code") or "unknown")].append(v)
+    hosts = collections.Counter()
+    for v in dead.values():
+        h = urllib.parse.urlsplit(v.get("url") or "").netloc.lower().removeprefix("www.")
+        if h:
+            hosts[h] += 1
+    L = ["# 死信账本（按原因码复核）", "",
+         f"> 生成 {iso(now_cst())} · 账本 `_meta/backfill_dead.json` · 判死门槛：连试 {DEAD_AFTER} 轮",
+         f"> 合计 **{len(dead)}** 条 · 原因码 schema v{DEAD_SCHEMA}", "",
+         "**这张表回答的问题**：这些条目是「结构性不可得」还是「我们没取到」。"
+         "前者不该再烧额度，后者是缺陷 —— 必须能一眼分开。", "",
+         "| 原因码 | 条数 | 含义 |", "|---|---|---|"]
+    for code, items in sorted(by.items(), key=lambda kv: -len(kv[1])):
+        L.append(f"| `{code}` | {len(items)} | {REASON_CODES.get(code, '—')} |")
+    L += ["", "## 按主机（前 20）", "", "| 主机 | 条数 |", "|---|---|"]
+    L += [f"| `{h}` | {n} |" for h, n in hosts.most_common(20)]
+    for code, items in sorted(by.items(), key=lambda kv: -len(kv[1])):
+        L += ["", f"## `{code}`（{len(items)} 条）", ""]
+        for v in sorted(items, key=lambda x: x.get("source_id") or "")[:30]:
+            t = (v.get("title") or "(无标题)").replace("|", "/")[:70]
+            tried = "/".join(v.get("tried") or [])
+            L.append(f"- [{v.get('source_id', '?')}] {t} —— `{tried}` "
+                     f"· status={v.get('http_status')} · {v.get('reason') or ''}")
+        if len(items) > 30:
+            L.append(f"- …另有 {len(items) - 30} 条")
+    L += ["", "## 下一步", "", "```",
+          "python tools/kb_backfill.py --dead-report        # 重生成本报告",
+          "python tools/kb_backfill.py --migrate-dead --apply   # 账本 schema 升级（带备份）",
+          "python tools/kb_backfill.py --revive-github     # 把路由缺陷造成的死信放回队列",
+          "```"]
+    return "\n".join(L)
 
 
 def revive_github_dead() -> tuple[int, Path]:
@@ -81,6 +219,116 @@ def revive_github_dead() -> tuple[int, Path]:
     rotate_files(META, "backfill_dead_revive_manifest_", 12)
     save_dead(dead)
     return len(moved), manifest
+
+
+def revive_by_code(codes: list[str], apply: bool = False) -> tuple[int, Path | None, list[str]]:
+    """按原因码把死信放回队列（改账本必须留痕：manifest 逐条记 from）。
+
+    为什么需要：原因码本身会暴露「判死是在旧判据下做的」。实例：182 条 `no_backend`
+    是 2026-09-21 之前判的，那时 github 目标按 source_id 路由、压根没走过 gh 档 ——
+    结论「三档都没命中」在当时就不成立。判据变了，被它判过的账必须能重开，
+    否则修复只对新进语料生效（同 kb_prune 的存在理由）。
+    """
+    dead = load_dead()
+    moved: dict = {}
+    ids: list[str] = []
+    for iid, v in list(dead.items()):
+        if (v.get("reason_code") or "unknown") in codes:
+            moved[iid] = dead.pop(iid)
+            ids.append(iid)
+    manifest = None
+    if apply and moved:
+        ts = now_cst().strftime("%Y%m%dT%H%M%S")
+        manifest = META / f"backfill_dead_revive_manifest_{ts}.json"
+        manifest.write_text(json.dumps(
+            {"action": "revive-by-reason-code", "at": iso(now_cst()), "codes": codes,
+             "count": len(moved),
+             "reason": "判据变更后重开旧判定（如 github 目标改按 URL 路由、判死前补跑三档）",
+             "undo": "把这批 item_id 重新写回 _meta/backfill_dead.json 的 items（attempts 保持原值）",
+             "items": moved}, ensure_ascii=False, indent=1), encoding="utf-8")
+        rotate_files(META, "backfill_dead_revive_manifest_", 12)
+        save_dead(dead)
+    return len(moved), manifest, ids
+
+
+def fix_published_at(channels: dict, dry: bool = False, limit: int = 0) -> dict:
+    """B2 契约门的回填侧：把「该有发布日但没有」的条目补上（按渠道专属抽取器）。
+
+    为什么放在 kb_backfill 而不是 kb_reclassify：这跟缺正文是**同一类缺口** —— 条目离开
+    采集窗口后源站变了/当时没解析，本地再怎么自愈也补不出来，必须回源站取。
+    纪律与正文回填一致：raw 只追加、note 原地刷新、抽不到就**留空并记账**（不猜、不用别的
+    日期凑数 —— 时间轴上一个语义错的日期比缺一个日期伤害更大）。
+    """
+    fixers = {"betalist": betalist_launch_date}
+    seen = Seen()
+    archived = {iid for iid, m in seen.items.items()
+                if str(m.get("note") or "").startswith("80-归档/")}
+    todo: list[tuple[str, dict, str]] = []
+    for iid, (r, day) in load_latest().items():
+        cid = r.get("source_id") or ""
+        if cid not in fixers or iid in archived:
+            continue
+        ch = channels.get(cid) or {}
+        if not ch.get("enabled"):
+            continue
+        prof = ch.get("profile") or "discussion"
+        if not PROFILE_EXPECT.get(prof, {}).get("published_at"):
+            continue
+        if (ch.get("meta_unavailable") or {}).get("published_at"):
+            continue                                    # 注册表已声明不可得 → 免追
+        if pub_day_of(r.get("published_at")):
+            continue
+        todo.append((iid, r, day))
+    if limit:
+        todo = todo[:limit]
+    stat = {"candidates": len(todo), "fixed": 0, "not_found": 0, "errors": 0}
+    if not todo:
+        return stat
+    urls = [r.get("url") or "" for _i, r, _d in todo]
+    status_out: dict = {}
+    try:
+        texts = direct_fetch_texts(urls, max_chars=20000, workers=6, status_out=status_out)
+    except Exception as e:                                          # noqa: BLE001
+        print(f"  [w] 详情页批次失败：{str(e)[:70]}")
+        texts = {}
+    if dry:
+        for iid, r, _d in todo:
+            d = fixers[r["source_id"]](texts.get(r.get("url") or "", ""))
+            print(f"  [betalist] {d or '（抽不到）'} ← {(r.get('title') or '')[:50]}")
+        return stat
+    run_id = "backfill-" + now_cst().strftime("%Y%m%d-%H%M%S")
+    day_now = now_cst().strftime("%Y-%m-%d")
+    for iid, r, day in todo:
+        u = r.get("url") or ""
+        date = fixers.get(r["source_id"], lambda _t: None)(texts.get(u, ""))
+        if not date:
+            stat["not_found"] += 1
+            continue
+        rec = dict(r)
+        rec["published_at"] = date
+        rec["extra"] = dict(rec.get("extra") or {})
+        rec["extra"]["published_at_source"] = f"{r['source_id']}:detail-anchor"
+        rec["extra"]["published_at_fixed_by"] = "kb_backfill --fix-meta"
+        rec["captured_at"] = iso(now_cst())
+        rec["record_type"] = "backfill"
+        rec["run_id"] = run_id
+        try:
+            append_jsonl(DIR_RAW / r["source_id"] / f"{day_now}.jsonl", [rec])
+            p = write_corpus_note(rec, note_bucket(seen, iid, day))
+            rel = p.relative_to(ROOT).as_posix()
+            if is_project_ish(rec) or (rec.get("kind") or "").lower() in ("person", "method"):
+                write_entity_note(rec, rel)
+            seen.touch(iid, r["source_id"], rel, None, content_hash=None)
+            stat["fixed"] += 1
+        except Exception as e:                                      # noqa: BLE001
+            print(f"    [!] 写盘失败 {iid}: {str(e)[:60]}")
+            stat["errors"] += 1
+    seen.save()
+    (META / "runs" / f"{run_id}.json").write_text(json.dumps(
+        {"run_id": run_id, "kind": "fix-meta", **stat, "started": iso(now_cst())},
+        ensure_ascii=False, indent=1), encoding="utf-8")
+    rotate_runs()
+    return stat
 
 
 def load_latest() -> dict[str, tuple[dict, str]]:
@@ -150,14 +398,14 @@ MEDIA_RE = re.compile(r"^https?://(?:[^/]*\.)?(?:v\.redd\.it|youtu\.be|youtube\.
 ACCOUNT_RE = re.compile(r"^https?://(?:[^/]*\.)?(?:twitter\.com|x\.com)/[A-Za-z0-9_]+/?$", re.I)
 
 
-def structural_dead(r: dict) -> str:
-    """返回结构性原因（空串=可尝试）。"""
+def structural_dead(r: dict) -> tuple[str, str]:
+    """返回 (人话理由, 原因码)；空串=可尝试。"""
     u = body_target(r)
     if MEDIA_RE.search(u):
-        return "视频帖无正文"
+        return "视频帖无正文", "media"
     if ACCOUNT_RE.search(u):
-        return "社交账号页需登录"
-    return ""
+        return "社交账号页需登录", "account"
+    return "", ""
 
 
 GH_REPO_RE = re.compile(r"^https?://(?:www\.)?github\.com/([^/]+)/([^/#?]+)", re.I)
@@ -231,13 +479,16 @@ def body_target(r: dict) -> str:
     return (ex.get("fulltext_url") or r.get("project_url") or r.get("url") or "").strip()
 
 
-def fetch_github_readme(r: dict) -> str:
-    """取仓库 README（走 api.github.com，本机唯一可达的 GitHub 通道）。
+def fetch_github_readme(r: dict) -> tuple[str, str]:
+    """取仓库 README（走 api.github.com，本机唯一可达的 GitHub 通道）→ (正文, 错误摘要)。
 
     目标 URL 必须用 `body_target(r)` 取 —— 它优先 `extra.fulltext_url`。
     历史实现写 `r.get("url")`，对 hn_show 这类**转发渠道**来说是 HN 帖子页而不是
     GitHub 仓库页，正则匹配不到 owner/repo → 静默返回空串。于是「URL 路由到 gh」
     这一步会看起来生效、实际一条都取不到（静默空转，最坏的一种 bug）。
+
+    为什么现在要把 stderr 一起带出来：判死需要**结构化证据**（是仓库不存在，还是被限流？）。
+    只返回空串 → 所有 gh 失败长得一样 → 只能记一句「未命中」，等于没有理由。
     """
     full = (r.get("extra") or {}).get("full_name")
     if not full:
@@ -245,10 +496,12 @@ def fetch_github_readme(r: dict) -> str:
             re.search(r"github\.com/([^/]+/[^/#?]+)", r.get("url") or "")
         full = m.group(1).replace(".git", "") if m else ""
     if not full:
-        return ""
-    code, out, _ = run_cli(["gh", "api", f"repos/{full}/readme", "-H",
-                            "Accept: application/vnd.github.raw"], timeout=60)
-    return out.strip()[:60000] if code == 0 else ""
+        return "", "no_repo_in_url"
+    code, out, err = run_cli(["gh", "api", f"repos/{full}/readme", "-H",
+                              "Accept: application/vnd.github.raw"], timeout=60)
+    if code == 0 and out.strip():
+        return out.strip()[:60000], ""
+    return "", (err or "").strip().replace("\n", " ")[:160] or f"gh rc={code}"
 
 
 def render_queue_report(queue: list[tuple[dict, str]], dead: dict,
@@ -324,7 +577,53 @@ def main(argv=None) -> int:
     ap.add_argument("--revive-github", action="store_true",
                     help="把「目标 URL 指向 github.com 仓库」的死信放出队列重试"
                          "（旧版按 source_id 路由，这类条目根本没走过 gh readme 就被判死）")
+    ap.add_argument("--migrate-dead", action="store_true",
+                    help="死信账本 schema 1 → 2：补 reason_code / tried[] / http_status（只补齐，不改判定；"
+                         "加 --apply 才落盘，落盘前留 .bak）")
+    ap.add_argument("--dead-report", action="store_true",
+                    help="只生成 00-索引/报告/死信账本.md（按原因码复核判死是否成立）")
+    ap.add_argument("--apply", action="store_true", help="--migrate-dead / --revive-code 的落盘开关")
+    ap.add_argument("--revive-code", default="",
+                    help="按原因码把死信放回队列（逗号分隔，如 no_backend,gh_miss）——"
+                         "判据变更后重开旧判定，必须配 --apply 才落盘，带 undo 清单")
+    ap.add_argument("--fix-meta", action="store_true",
+                    help="回填「该有但没有」的元数据（当前：betalist 发布日，从详情页 Featured 锚点抽）")
     args = ap.parse_args(argv)
+
+    if args.revive_code:
+        codes = [c.strip() for c in args.revive_code.split(",") if c.strip()]
+        n, manifest, _ids = revive_by_code(codes, apply=args.apply)
+        tail = f" → 清单 _meta/{manifest.name}" if manifest else "（dry：加 --apply 落盘）"
+        print(f"按原因码复活 {n} 条（{','.join(codes)}）{tail}")
+        return 0
+
+    if args.fix_meta:
+        reg0 = load_channels_yaml(META / "channels.yaml")
+        st = fix_published_at({c["id"]: c for c in (reg0.get("channels") or [])},
+                              dry=args.dry, limit=args.limit)
+        print(f"元数据回填：候选 {st['candidates']} · 补上 {st['fixed']} · "
+              f"抽不到 {st['not_found']} · 写盘失败 {st['errors']}")
+        return 0
+
+    if args.dead_report:
+        dead = load_dead()
+        out = DIR_REPORT / "死信账本.md"
+        out.parent.mkdir(parents=True, exist_ok=True)
+        out.write_text(render_dead_report(dead), encoding="utf-8")
+        by = collections.Counter((v.get("reason_code") or "unknown") for v in dead.values())
+        print(f"死信 {len(dead)} 条（原因码）：" + "、".join(f"{k}={v}" for k, v in by.most_common()))
+        print(f"[报告] {out.relative_to(ROOT).as_posix()}")
+        return 0
+
+    if args.migrate_dead:
+        n, changes = migrate_dead(apply=args.apply)
+        head = "已落盘（旧账本备份为 _meta/backfill_dead.schema1.bak-*.json）" if args.apply else "dry（加 --apply 落盘）"
+        print(f"schema 升级待改 {n} 条 · {head}")
+        for iid, old, new in changes[:10]:
+            print(f"  {iid}: {old} → {new}")
+        if n > 10:
+            print(f"  …另有 {n - 10} 条")
+        return 0
 
     reg = load_channels_yaml(META / "channels.yaml")
     channels = {c["id"]: c for c in (reg.get("channels") or [])}
@@ -353,12 +652,16 @@ def main(argv=None) -> int:
     todo: list[tuple[dict, str]] = []
     struct = 0
     for r, d in queue:
-        why = structural_dead(r)
+        why, code = structural_dead(r)
         if why:
             rec = dead.setdefault(r["item_id"], {"attempts": DEAD_AFTER, "title": (r.get("title") or "")[:70],
                                                  "url": body_target(r), "source_id": r["source_id"]})
             rec["reason"] = why
+            rec["reason_code"] = code
+            rec.setdefault("first_dead", rec.get("last_try") or iso(now_cst()))
             rec["last_try"] = iso(now_cst())
+            rec.setdefault("http_status", None)
+            rec.setdefault("tried", [])
             struct += 1
             continue
         if len(todo) < args.limit:
@@ -400,6 +703,14 @@ def main(argv=None) -> int:
                  if r["source_id"] != "github_new" and not github_target(r)]
 
     results: dict[str, dict] = {}
+    tried_by_item: dict[str, list[str]] = {}          # 每条实际试过的后端（判死理由的结构化依据）
+    gh_err_by_item: dict[str, str] = {}
+    status_by_url: dict[str, int | str] = {}
+
+    def mark(iid: str, backend: str) -> None:
+        t = tried_by_item.setdefault(iid, [])
+        if backend not in t:
+            t.append(backend)
 
     if gh_items:
         from concurrent.futures import ThreadPoolExecutor
@@ -407,40 +718,54 @@ def main(argv=None) -> int:
         def one(pair):
             r, day = pair
             try:
-                txt = fetch_github_readme(r)
+                txt, err = fetch_github_readme(r)
             except Exception as e:                                 # noqa: BLE001
                 print(f"    [!] readme 失败 {r.get('title', '')[:40]}: {str(e)[:60]}")
-                return None
-            return (r, day, txt)
+                return (r, day, "", str(e)[:120])
+            return (r, day, txt, err)
 
         with ThreadPoolExecutor(4) as ex:
             for res in ex.map(one, gh_items):
-                if res and res[2]:
-                    r, day, txt = res
+                r, day, txt, err = res
+                mark(r["item_id"], "gh_readme")
+                if txt:
                     results[r["item_id"]] = {"rec": r, "day": day, "body": txt,
                                              "via": "gh_readme", "url": body_target(r)}
-        print(f"  github readme 命中 {len(results)}/{len(gh_items)}")
+                elif err:
+                    gh_err_by_item[r["item_id"]] = err
+        print(f"  github readme 命中 "
+              f"{sum(1 for r, _ in gh_items if r['item_id'] in results)}/{len(gh_items)}")
+
+    # ①.5 gh 没拿到的 github 目标 → **仍要跑完 direct + exa 两档**，才算「判死前跑完三档」。
+    #     旧实现把它们排除在 exa_items 之外：gh 失败即判死，理由是「已试 gh_readme」，
+    #     而 exa 可能拿到 repo 的渲染页。判死的前提是**每档都真试过**，不是「路由到哪档算哪档」。
+    pending_all = exa_items + [(r, d) for r, d in gh_items if r["item_id"] not in results]
 
     # ② 其余：先直取（零依赖、无额度），直取拿不到再回退 Exa
     #    为什么改顺序：2026-09-21 实测 Exa 免费额度打满返 429，534 条 hn_show 缺正文全部无法回填，
     #    而**直连 urllib 对 project_url 是通的**（6/6 命中，7k~21k 字符）。Exa 从「唯一后端」
     #    降级为「兜底后端」。
-    if exa_items:
-        pending = [(r, d) for r, d in exa_items if body_target(r)]
+    if pending_all:
+        pending = [(r, d) for r, d in pending_all if body_target(r)]
         got_all: dict[str, dict] = {}
         all_urls = list(dict.fromkeys(body_target(r) for r, _ in pending if body_target(r)))
+        for r, _ in pending:
+            mark(r["item_id"], "direct_fetch")
         try:
             direct = direct_fetch_texts(all_urls, max_chars=FULLTEXT_MAX_CHARS,
-                                        workers=args.direct_workers)
+                                        workers=args.direct_workers, status_out=status_by_url)
             print(f"    [i] 直取命中 {len(direct)}/{len(all_urls)}", flush=True)
         except Exception as e:                                     # noqa: BLE001
             print(f"    [w] 直取批次失败：{str(e)[:70]}")
             direct = {}
         for u, t in direct.items():
             got_all[u] = {"txt": t, "via": "direct_fetch"}
-
         # 直取没拿到的 → 回退 Exa（批量，仍可能 429；429 会被 kb_common 响亮报出）
         rest = [u for u in all_urls if u not in got_all]
+        if rest:
+            for r, _ in pending:
+                if body_target(r) in rest:
+                    mark(r["item_id"], "exa_web_fetch")
         for i in range(0, len(rest), args.exa_batch):
             chunk = rest[i:i + args.exa_batch]
             try:
@@ -558,29 +883,51 @@ def main(argv=None) -> int:
         if r["item_id"] in results:
             continue
         rec = dead.setdefault(r["item_id"], {"attempts": 0, "title": (r.get("title") or "")[:70],
-                                             "url": body_target(r), "source_id": r["source_id"]})
+                                             "url": body_target(r), "source_id": r["source_id"],
+                                             "first_dead": iso(now_cst())})
         rec["attempts"] = rec.get("attempts", 0) + 1
         rec["last_try"] = iso(now_cst())
-        # 理由必须写**实际试过的后端**。旧文本硬编码「Exa 未命中该站」，而流程早已改成
-        # 「直取优先、Exa 兜底」——于是 248 条死信的理由与事实不符，看账的人会得出
-        # 「Exa 不行」的错误结论，而真实原因是「直取被 DIRECT_BLOCKED_HOSTS 拦 + Exa 也拿不到」。
-        tried = "gh_readme" if (r["source_id"] == "github_new" or github_target(r)) \
-            else "direct_fetch→exa_web_fetch"
-        rec["reason"] = rec.get("reason") or f"取数失败（已试 {tried}，均未命中）"
-        rec["tried"] = rec.get("tried") or tried
+        tried = tried_by_item.get(r["item_id"]) or ["direct_fetch"]
+        rec["tried"] = tried
+        u = body_target(r)
+        status = status_by_url.get(u)
+        rec["http_status"] = status if isinstance(status, int) else status
+        code = classify_reason(u, status=status, tried=tried,
+                               gh_err=gh_err_by_item.get(r["item_id"], ""))
+        rec["reason_code"] = code
+        # 人话理由必须与结构化字段**同步刷新**，否则会出现「reason 说已试 gh、tried 说试了
+        # 三档」这种自相矛盾的账（实测踩过：复活条目 attempts 已 ≥2，旧实现只在首判时写 reason
+        # → 结构化证据是新的、人话是老的，看账的人被引回错误归因）。
+        # 审计线索不丢：首判原文转存 `reason_first`，只写一次。
+        if rec.get("reason") and "reason_first" not in rec:
+            rec["reason_first"] = rec["reason"]
+        rec["reason"] = (f"取数失败（已试 {'→'.join(tried)}）· 判定 {code}"
+                         + (f" · status={status}" if status is not None else "")
+                         + (f" · gh: {gh_err_by_item[r['item_id']][:80]}"
+                            if r["item_id"] in gh_err_by_item else ""))
         miss += 1
     save_dead(dead)
 
     (META / "runs" / f"{run_id}.json").write_text(json.dumps(
         {"run_id": run_id, "kind": "backfill", "queue": len(queue), "attempted": len(todo),
          "filled": wrote, "structural_dead": struct, "missed": miss,
+         "miss_reason_codes": dict(collections.Counter(
+             (dead.get(r["item_id"]) or {}).get("reason_code") or "unknown"
+             for r, _ in todo if r["item_id"] not in results).most_common()),
+         "status_hist": dict(collections.Counter(
+             str(v) for v in status_by_url.values()).most_common()),
          "comments_queue": len(cq), "comments_filled": cwrote,
          "via": collections.Counter(v["via"] for v in results.values()).most_common(),
          "channels": collections.Counter(v["rec"]["source_id"] for v in results.values()).most_common(),
          "started": iso(now_cst()), "elapsed_s": 0}, ensure_ascii=False, indent=1), encoding="utf-8")
     rotate_runs()                                              # 运行记录轮转（保 80 份）
-    print(f"回填完成：{wrote}/{len(todo)}（队列 {len(queue)}）· 缺失 {miss} 条已记 attempts · "
-          f"账本累计 {len(dead)} 条（已判死 {sum(1 for v in dead.values() if v.get('attempts', 0) >= DEAD_AFTER)}）")
+    miss_codes = collections.Counter(
+        (dead.get(r["item_id"]) or {}).get("reason_code") or "unknown"
+        for r, _ in todo if r["item_id"] not in results)
+    print(f"回填完成：{wrote}/{len(todo)}（队列 {len(queue)}）· 缺失 {miss} 条已记 attempts"
+          + ("（" + "、".join(f"{k}={v}" for k, v in miss_codes.most_common()) + "）" if miss else "")
+          + f" · 账本累计 {len(dead)} 条（已判死 "
+            f"{sum(1 for v in dead.values() if v.get('attempts', 0) >= DEAD_AFTER)}）")
     return 0
 
 

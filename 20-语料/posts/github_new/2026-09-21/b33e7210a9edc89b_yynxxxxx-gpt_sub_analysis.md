@@ -8,7 +8,7 @@ url: "https://github.com/yynxxxxx/gpt_sub_analysis"
 project_url: "https://github.com/yynxxxxx/gpt_sub_analysis"
 author: "yynxxxxx"
 published_at: "2026-09-17T13:43:00Z"
-captured_at: "2026-09-21T13:02:18+08:00"
+captured_at: "2026-09-21T21:59:53+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -27,7 +27,7 @@ discovered_via: "github:14d"
 # yynxxxxx/gpt_sub_analysis
 
 > [!info] 一句话导读
-> iOS ChatGPT Pro 20x 开通教程
+> yynxxxxx/gpt_sub_analysis
 
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
@@ -35,15 +35,34 @@ discovered_via: "github:14d"
 > 指标：stars=542 · forks=294 · open_issues=11
 > 作者：yynxxxxx　|　发布：2026-09-17T13:43:00Z
 > 项目链接：<https://github.com/yynxxxxx/gpt_sub_analysis>
-> 采集：2026-09-21T13:02:18+08:00　|　id：`b33e7210a9edc89b`
+> 采集：2026-09-21T21:59:53+08:00　|　id：`b33e7210a9edc89b`
 
 ## 正文
+
+# yynxxxxx/gpt_sub_analysis
+
+Security analysis of the ChatGPT iOS subscription / entitlement flow (internal draft, coordinated disclosure WIP)
+
+- Stars: 578
+- Forks: 310
+- Watchers: 578
+- Open issues: 11
+- Default branch: main
+- Created: 2026-09-17T13:43:00Z
+
+## Top Contributors
+
+- yynxxxxx (3 contributions)
+
+---
+
+## README
 
 # iOS ChatGPT Pro 20x 开通教程
 
 ### 📬 联系方式
 
-✈️ **Telegram**：@lengmeng28 &nbsp;&nbsp;|&nbsp;&nbsp; 👥 **Telegram 群组**：@Geminivip1
+✈️ **Telegram**： @lengmeng28   |   👥 **Telegram 群组**： @Geminivip1
 
 ---
 
@@ -51,9 +70,9 @@ discovered_via: "github:14d"
 
 对此项目感兴趣的朋友，欢迎关注 UP 其他的 GitHub 开源项目：
 
-🌐 **官方网站**：https://codex-x.site/
+🌐 **官方网站**： https://codex-x.site/
 
-💻 **GitHub 仓库**：https://github.com/yynxxxxx/Codex-X
+💻 **GitHub 仓库**： https://github.com/yynxxxxx/Codex-X
 
 ⭐ **如果觉得有帮助，请给项目点个 Star！** ⭐
 
@@ -65,11 +84,11 @@ discovered_via: "github:14d"
 
 ## 目录
 
-1. [前置条件](#1-前置条件)
-2. [网络环境配置](#2-网络环境配置)
-3. [iOS 越狱设备配置](#3-ios-越狱设备配置)
-4. [订阅流程详解](#4-订阅流程详解)
-5. [关键请求字段参考](#5-关键请求字段参考)
+1. 前置条件
+2. 网络环境配置
+3. iOS 越狱设备配置
+4. 订阅流程详解
+5. 关键请求字段参考
 
 ---
 
@@ -92,19 +111,19 @@ discovered_via: "github:14d"
 ### 2.1 电脑端配置
 
 1. **启动 Clash**
-   - ✅ 确保 Clash 正常运行（默认端口 `7890`）
-   - ❌ **关闭** 系统代理
-   - ❌ **关闭** 虚拟网卡（TUN 模式）
+ - ✅ 确保 Clash 正常运行（默认端口 `7890`）
+ - ❌ **关闭** 系统代理
+ - ❌ **关闭** 虚拟网卡（TUN 模式）
 
 2. **配置 Reqable 二级代理**
-   - 打开 Reqable
-   - 创建**二级代理规则**，设置如下：
+ - 打开 Reqable
+ - 创建**二级代理规则**，设置如下：
      ```
      协议: HTTP
      地址: 127.0.0.1
      端口: 7890（即 Clash 运行端口）
      ```
-   - Reqable 自身监听端口为 `9000`
+ - Reqable 自身监听端口为 `9000`
 
 ### 2.2 手机端配置
 
@@ -223,7 +242,7 @@ POST https://p44-buy.itunes.apple.com/WebObjects/MZBuy.woa/wa/buyProduct
 
 | 套餐 | `offerName` | `salableAdamId` | `mtSubscriptionAdamId` | `price` |
 |------|-------------|-----------------|------------------------|---------|
-| **Go** 月付 $8 | `oai_chatgpt_go_1000_1m` | `6749460546` | ❌  | `8000` |
+| **Go** 月付 $8 | `oai_chatgpt_go_1000_1m` | `6749460546` | ❌ | `8000` |
 | **Plus** 月付 $19.99 | `oai_chatgpt_plus_1999_1m` | `6448311597` | `6749460546` | `19990` |
 | **Plus** 年付 $200 | `oai_chatgpt_plus_20000_1y` | `6745416289` | `6749460546` | `200000` |
 | **Pro 5x** 月付 $100 | `oai_chatgpt_pro_10000_1m` | `6759817441` | `6749460546` | `100000` |
@@ -282,13 +301,14 @@ POST https://p44-buy.itunes.apple.com/WebObjects/MZBuy.woa/wa/buyProduct
 
 > **最后更新**：2026-09-17
 
+Error fetching https://www.npmjs.com/package/@uindow/css: CRAWL_LIVECRAWL_TIMEOUT
+
 ## 关联链接
 
 - https://codex-x.site/
 - https://github.com/yynxxxxx/Codex-X
 - https://p44-buy.itunes.apple.com/WebObjects/MZBuy.woa/wa/buyProduct
-- https://t.me/Geminivip1
-- https://t.me/lengmeng28
+- https://www.npmjs.com/package/@uindow/css:
 
 ## 导航
 

@@ -8,7 +8,7 @@ url: "https://github.com/inokone/react-micro-saas"
 project_url: "https://github.com/inokone/react-micro-saas"
 author: "inokone"
 published_at: "2025-01-17T19:43:52Z"
-captured_at: "2026-09-21T13:02:19+08:00"
+captured_at: "2026-09-21T21:59:53+08:00"
 lang: "en"
 kind: "post"
 topic: "SaaS/B2B"
@@ -27,7 +27,7 @@ discovered_via: "github:14d"
 # inokone/react-micro-saas
 
 > [!info] 一句话导读
-> Basic frontend for go-micro-saas
+> inokone/react-micro-saas
 
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
@@ -35,9 +35,35 @@ discovered_via: "github:14d"
 > 指标：stars=0 · forks=0 · open_issues=0
 > 作者：inokone　|　发布：2025-01-17T19:43:52Z
 > 项目链接：<https://github.com/inokone/react-micro-saas>
-> 采集：2026-09-21T13:02:19+08:00　|　id：`55af89665fe9e52f`
+> 采集：2026-09-21T21:59:53+08:00　|　id：`55af89665fe9e52f`
 
 ## 正文
+
+# inokone/react-micro-saas
+
+Basic frontend for go-micro-saas
+
+- Stars: 0
+- Forks: 0
+- Watchers: 0
+- Open issues: 0
+- License: MIT License
+- Default branch: main
+- Created: 2025-01-17T19:43:52Z
+
+## Topics
+
+- javascript
+- microsaas
+- react
+
+## Top Contributors
+
+- inokone (1 contributions)
+
+---
+
+## README
 
 # react-micro-saas
 Basic frontend for go-micro-saas

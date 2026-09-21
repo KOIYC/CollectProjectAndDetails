@@ -2,7 +2,7 @@
 type: "project"
 title: "Freedast"
 project_url: "https://betalist.com/startups/freedast"
-first_seen: "2026-09-21T02:52:15+08:00"
+first_seen: "2026-09-21T22:04:08+08:00"
 sources:
   - betalist
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://betalist.com/startups/freedast>
-> 首次收录：2026-09-21T02:52:15+08:00
+> 首次收录：2026-09-21T22:04:08+08:00
 > 来源渠道：BetaList
 > 标签：—
 > 最新指标：—
@@ -30,6 +30,7 @@ lang: "en"
 | 2026-09-20T03:22:04+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-20/1595b50bd9a950a6_Freedast]] |
 | 2026-09-21T01:15:03+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-20/1595b50bd9a950a6_Freedast]] |
 | 2026-09-21T02:52:15+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-20/1595b50bd9a950a6_Freedast]] |
+| 2026-09-21T22:04:08+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-20/1595b50bd9a950a6_Freedast]] |
 
 ## 摘要正文
 

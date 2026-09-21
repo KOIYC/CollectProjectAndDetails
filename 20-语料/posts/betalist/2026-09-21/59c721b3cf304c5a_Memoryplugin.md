@@ -5,11 +5,13 @@ title: "Memoryplugin"
 source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/memoryplugin"
-captured_at: "2026-09-21T02:52:21+08:00"
+published_at: "2025-11-18"
+captured_at: "2026-09-21T22:04:14+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
 shard: "2026-09-21"
+pub_day: "2025-11-18"
 tags:
   - 语料
   - betalist
@@ -28,9 +30,9 @@ discovered_via: "betalist:home"
 > 来源：BetaList（project）
 > 原帖：<https://betalist.com/startups/memoryplugin>
 > 指标：—
-> 作者：—　|　发布：—
+> 作者：—　|　发布：2025-11-18
 > 项目链接：—
-> 采集：2026-09-21T02:52:21+08:00　|　id：`59c721b3cf304c5a`
+> 采集：2026-09-21T22:04:14+08:00　|　id：`59c721b3cf304c5a`
 
 ## 正文
 

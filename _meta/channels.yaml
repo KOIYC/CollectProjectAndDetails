@@ -195,6 +195,13 @@ channels:
     limit: 20
     enrich: fulltext
     fulltext_budget: 20
+    # 元数据契约的**显式豁免**（B2 契约门，2026-09-21）：声明「本渠道按契约拿不到该字段」，
+    # 与「该有但没抓到」区分开。没有这一段的渠道，profile 期望的字段缺失 = 取数缺陷。
+    # IH 的实证：列表页 0 个日期；详情页那个日期三条样本全等于当天 = **最新动态日**，
+    # 拿它当发布日会把「最新活动」伪装成「发布时间」——语义错比缺字段更贵。
+    meta_unavailable:
+      published_at: 产品列表页与详情页都不提供发布日（详情页日期是最新动态日）
+      author: 产品列表页不含作者字段
     params:
       pages: 3
     status: ok
@@ -214,7 +221,11 @@ channels:
     fulltext_budget: 12
     params: {}
     status: ok
-    last_verified: '2026-09-20'
+    last_verified: '2026-09-21'
+    note: >-
+      列表页只有 slug（无日期、无简介）；发布日改从**详情页**抽取，锚点 = `Featured\n<Month D, YYYY>`
+      （2026-09-21 实测样本稳定）。抽不到留空，不用其它日期凑数。存量 56 条走
+      `tools/kb_backfill.py --fix-meta` 回填。
 
   - id: uneed
     name: Uneed
@@ -280,6 +291,13 @@ channels:
     limit: 30
     enrich: fulltext
     fulltext_budget: 15
+    # 名录源是 GitHub README 的 `- [名称](链接)：简介` 列表 → 结构上就没有日期，
+    # 不是「没抓到」。显式豁免，否则 17 条会永远挂在「取数缺陷」里，把真缺陷淹掉。
+    # 2026-09-21 复核补一条：README 的**章节标题带收录日**（`### 2026 年 9 月 21 号添加`），
+    # 但那是「进名录的日期」≠ 项目发布日 —— 语义不同就分字段存（`extra.listed_at`），
+    # 不许塞进 published_at（时间轴掺进第二种语义，整条分组就不可信了）。
+    meta_unavailable:
+      published_at: 名录 README 只有 名称/链接/简介 三列；章节标题的「收录日」语义不同 → 存 extra.listed_at
     params:
       readme: https://raw.githubusercontent.com/1c7/chinese-independent-developer/master/README.md
     status: ok

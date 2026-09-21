@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SideProject/comments/1ujsm5e/im_a_terrible_designer_a_worse_writer_and_cant/"
 author: "Constant_Border_8994"
 published_at: "2026-06-30T23:37:06+08:00"
-captured_at: "2026-09-21T13:04:05+08:00"
+captured_at: "2026-09-21T22:04:18+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -34,7 +34,7 @@ discovered_via: "reddit:113d+settle3"
 > 指标：得分=19 · 评论=17 · 赞踩比=0.85
 > 作者：Constant_Border_8994　|　发布：2026-06-30T23:37:06+08:00
 > 项目链接：—
-> 采集：2026-09-21T13:04:05+08:00　|　id：`7c3df660309ef3ef`
+> 采集：2026-09-21T22:04:18+08:00　|　id：`7c3df660309ef3ef`
 
 ## 正文
 

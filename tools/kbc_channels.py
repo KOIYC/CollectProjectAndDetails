@@ -223,6 +223,42 @@ def derive_project_url(url: str, body: str, existing: str | None = None) -> str 
     return None
 
 
+# --------------------------------------------------- 渠道专属元数据抽取（B2 契约门配套）
+#
+# 为什么需要「按渠道写抽取器」而不是通用日期正则：发布日期在源站上的**语义位置**是渠道特有的。
+# 实例（2026-09-21 实测）：
+#   betalist  详情页 `Featured\n<Month D, YYYY>` = 该项目上榜（发布）日 —— 可用
+#   IH        详情页那个日期是**最新动态日**（三条样本全等于当天）—— 不可当发布日用，
+#             拿它填 published_at 会把「最新活动」伪装成「发布时间」，是典型 metadata-borne defect
+# 所以：能抽的写抽取器，抽不到的**显式声明不可得**（channels.yaml 的 meta_unavailable），
+# 绝不用一个语义不同的日期凑数。
+
+_MONTHS = {m: i for i, m in enumerate(
+    ["January", "February", "March", "April", "May", "June", "July", "August",
+     "September", "October", "November", "December"], 1)}
+BETALIST_FEATURED_RE = re.compile(
+    r"Featured[\s\S]{0,120}?([A-Z][a-z]+)\s+(\d{1,2}),\s+(\d{4})")
+
+# 1c7 名录的章节标题即收录日：`### 2026 年 9 月 21 号添加`
+ONEC7_DATE_RE = re.compile(r"^(\d{4})\s*年\s*(\d{1,2})\s*月\s*(\d{1,2})\s*号")
+
+
+def betalist_launch_date(text: str) -> str | None:
+    """从 betalist 详情页文本里抽「上榜（发布）日」→ YYYY-MM-DD；抽不到返回 None。
+
+    锚点必须挂在 `Featured` 上：页面上还有其它日期（评论、站点更新），
+    无锚点的「第一个日期」在样本间不稳定 —— 而这是个**会被写进时间轴**的值，
+    错一天的代价是趋势分析分组错位，宁缺勿错。
+    """
+    m = BETALIST_FEATURED_RE.search(text or "")
+    if not m:
+        return None
+    mon = _MONTHS.get(m.group(1))
+    if not mon:
+        return None
+    return "%04d-%02d-%02d" % (int(m.group(3)), mon, int(m.group(2)))
+
+
 def make_item(*, source_id, source_name, title, url, body="", project_url=None,
               author=None, author_url=None, published_at=None, metrics=None,
               tags=None, kind="post", extra=None, lang=None, discovered_via=None,
@@ -814,7 +850,25 @@ def ad_betalist(ch, ctx) -> tuple[list[dict], str, str]:
                                title=slug.replace("-", " ").title(),
                                url=f"https://betalist.com{full}", kind="project",
                                lang="en", discovered_via="betalist:home"))
-    return items, ("ok" if items else "empty"), f"{len(items)} startups"
+    # 发布日只存在于**详情页**（列表页 HTML 里一个日期都没有，2026-09-21 实测 0 命中）——
+    # 于是这条渠道长期 100% 缺 published_at，在时间轴上整段消失，且不报错。
+    # 这里补一次详情页直取（并发 5，25 条 ≈ 5~10s），用锚定 `Featured` 的抽取器取值；
+    # 抽不到就留空 —— 宁可缺，也不用语义不同的日期（如 IH 的「最新动态日」）凑数。
+    dated = 0
+    if items:
+        urls = [it["url"] for it in items]
+        try:
+            texts = direct_fetch_texts(urls, max_chars=20000, workers=5)
+        except Exception:                                          # noqa: BLE001
+            texts = {}
+        for it in items:
+            d = betalist_launch_date(texts.get(it["url"], ""))
+            if d:
+                it["published_at"] = d
+                it.setdefault("extra", {})["published_at_source"] = "betalist:detail-featured"
+                dated += 1
+    note = f"{len(items)} startups · 发布日 {dated}/{len(items)}"
+    return items, ("ok" if items else "empty"), note
 
 
 def ad_uneed(ch, ctx) -> tuple[list[dict], str, str]:
@@ -904,10 +958,17 @@ def ad_onec7(ch, ctx) -> tuple[list[dict], str, str]:
     readme = (ch.get("params") or {}).get("readme")
     t = http_get(readme, timeout=40, retries=1).decode("utf-8", "replace")
     limit = int(ch.get("limit") or 60)
-    items, section = [], ""
+    items, section, listed_at = [], "", None
     for line in t.splitlines():
         if line.startswith("#"):
             section = line.lstrip("# ").strip()
+            # 名录的章节标题带**收录日期**（`### 2026 年 9 月 21 号添加`）。
+            # 这是本渠道唯一的时间信息 —— 但它是「进名录的日期」，不是项目发布日。
+            # 语义不同就必须分字段存（`extra.listed_at`），不许塞进 published_at：
+            # 时间轴（pub_day / 趋势）一旦掺进另一种语义，整条分组就不可信了。
+            d = ONEC7_DATE_RE.match(section)
+            if d:
+                listed_at = "%04d-%02d-%02d" % (int(d.group(1)), int(d.group(2)), int(d.group(3)))
             continue
         m = re.match(r"^\s*[-*]\s*\[([^\]]+)\]\((https?://[^\)]+)\)\s*[:：-]?\s*(.*)$", line)
         if not m:
@@ -918,17 +979,21 @@ def ad_onec7(ch, ctx) -> tuple[list[dict], str, str]:
         h1 = PERSON_HANDLE_RE.search(name)
         h2 = ACCOUNT_URL_RE.search(url)
         is_person = bool(h1 or h2)
+        extra: dict = {"section": section}
+        if listed_at:
+            extra["listed_at"] = listed_at
         items.append(make_item(
             source_id=ch["id"], source_name=ch["name"], title=name, url=url,
             project_url=None if is_person else url, body=desc,
             kind="person" if is_person else "project", lang="zh",
             author=(h1.group(1) if h1 else (h2.group(1) if h2 else None)) if is_person else None,
             author_url=url if is_person else None,
-            tags=[section] if section else [], extra={"section": section},
+            tags=[section] if section else [], extra=extra,
             discovered_via="1c7:readme"))
         if len(items) >= limit * 3:
             break
-    return items[:limit], ("ok" if items else "empty"), f"{len(items)} entries"
+    dated = sum(1 for it in items if (it.get("extra") or {}).get("listed_at"))
+    return items[:limit], ("ok" if items else "empty"), f"{len(items)} entries · 收录日 {dated}"
 
 
 def ad_bilibili(ch, ctx) -> tuple[list[dict], str, str]:

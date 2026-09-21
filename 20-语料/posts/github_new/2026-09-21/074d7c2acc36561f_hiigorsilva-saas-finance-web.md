@@ -8,7 +8,7 @@ url: "https://github.com/hiigorsilva/saas-finance-web"
 project_url: "https://github.com/hiigorsilva/saas-finance-web"
 author: "hiigorsilva"
 published_at: "2025-09-04T19:17:13Z"
-captured_at: "2026-09-21T13:02:19+08:00"
+captured_at: "2026-09-21T21:59:53+08:00"
 lang: "en"
 kind: "post"
 topic: "SaaS/B2B"
@@ -28,7 +28,7 @@ discovered_via: "github:14d"
 # hiigorsilva/saas-finance-web
 
 > [!info] 一句话导读
-> Micro Saas - Controle Financeiro
+> hiigorsilva/saas-finance-web
 
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
@@ -36,11 +36,46 @@ discovered_via: "github:14d"
 > 指标：stars=0 · forks=0 · open_issues=0
 > 作者：hiigorsilva　|　发布：2025-09-04T19:17:13Z
 > 项目链接：<https://github.com/hiigorsilva/saas-finance-web>
-> 采集：2026-09-21T13:02:19+08:00　|　id：`074d7c2acc36561f`
+> 采集：2026-09-21T21:59:53+08:00　|　id：`074d7c2acc36561f`
 
 ## 正文
 
+# hiigorsilva/saas-finance-web
+
+Micro-SaaS de controle financeiro com multi workspaces, privado e compartilhado, para contemplar um gerenciamento tanto pessoal quanto em conjunto com outros usuários.
+
+- Stars: 0
+- Forks: 0
+- Watchers: 0
+- Open issues: 0
+- Default branch: main
+- Created: 2025-09-04T19:17:13Z
+
+## Languages
+
+- CSS
+- HTML
+- TypeScript
+
+## Topics
+
+- frontend
+- microsaas
+- reactjs
+- tanstack-router
+- typescript
+
+## Top Contributors
+
+- hiigorsilva (204 contributions)
+
+---
+
+## README
+
 # Micro Saas - Controle Financeiro
+
+# inokone/react-micro-saas
 
 ## 导航
 

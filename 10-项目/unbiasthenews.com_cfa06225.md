@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Simple news aggregator with source bias meters"
 project_url: "https://unbiasthenews.com/"
-first_seen: "2026-09-21T13:02:19+08:00"
+first_seen: "2026-09-21T21:59:53+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://unbiasthenews.com/>
-> 首次收录：2026-09-21T13:02:19+08:00
+> 首次收录：2026-09-21T21:59:53+08:00
 > 来源渠道：HN Show HN
 > 标签：author_sammy0910, story_48327194, show_hn
 > 最新指标：点赞=2 · 评论=0 · engagement_velocity=2
@@ -38,6 +38,7 @@ lang: "en"
 | 2026-09-21T09:54:58+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/76483ad9343ea4c2_Show-HN-Simple-news-aggregator-with-source-bias-me]] |
 | 2026-09-21T12:59:02+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/76483ad9343ea4c2_Show-HN-Simple-news-aggregator-with-source-bias-me]] |
 | 2026-09-21T13:02:19+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/76483ad9343ea4c2_Show-HN-Simple-news-aggregator-with-source-bias-me]] |
+| 2026-09-21T21:59:53+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/76483ad9343ea4c2_Show-HN-Simple-news-aggregator-with-source-bias-me]] |
 
 ## 摘要正文
 

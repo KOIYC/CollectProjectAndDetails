@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=48328184"
 project_url: "https://github.com/jmaczan/tiny-vllm"
 author: "yu3zhou4"
 published_at: "2026-05-29T19:38:27Z"
-captured_at: "2026-09-21T09:54:58+08:00"
+captured_at: "2026-09-21T21:59:54+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:144d"
 > 指标：点赞=205 · 评论=18 · engagement_velocity=205
 > 作者：yu3zhou4　|　发布：2026-05-29T19:38:27Z
 > 项目链接：<https://github.com/jmaczan/tiny-vllm>
-> 采集：2026-09-21T09:54:58+08:00　|　id：`298f3458267a3e3a`
+> 采集：2026-09-21T21:59:54+08:00　|　id：`298f3458267a3e3a`
 
 ## 正文
 

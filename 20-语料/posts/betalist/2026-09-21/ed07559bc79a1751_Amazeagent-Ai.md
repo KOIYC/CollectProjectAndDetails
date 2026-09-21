@@ -5,11 +5,13 @@ title: "Amazeagent Ai"
 source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/amazeagent-ai"
-captured_at: "2026-09-21T02:52:19+08:00"
+published_at: "2026-09-19"
+captured_at: "2026-09-21T22:04:12+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
 shard: "2026-09-21"
+pub_day: "2026-09-19"
 tags:
   - 语料
   - betalist
@@ -28,9 +30,9 @@ discovered_via: "betalist:home"
 > 来源：BetaList（project）
 > 原帖：<https://betalist.com/startups/amazeagent-ai>
 > 指标：—
-> 作者：—　|　发布：—
+> 作者：—　|　发布：2026-09-19
 > 项目链接：—
-> 采集：2026-09-21T02:52:19+08:00　|　id：`ed07559bc79a1751`
+> 采集：2026-09-21T22:04:12+08:00　|　id：`ed07559bc79a1751`
 
 ## 正文
 

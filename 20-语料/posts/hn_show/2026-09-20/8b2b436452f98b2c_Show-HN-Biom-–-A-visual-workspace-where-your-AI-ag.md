@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49720507"
 project_url: "https://biom.dev/"
 author: "jduhking"
 published_at: "2026-09-16T00:02:16Z"
-captured_at: "2026-09-20T14:57:50+08:00"
+captured_at: "2026-09-21T21:59:53+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:90d"
 # Show HN: Biom – A visual workspace where your AI agents' work lands
 
 > [!info] 一句话导读
-> Biom · Visual Workspace for AI Automations
+> Visual Workspace for AI Automations
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,21 +37,27 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=4 · 评论=0 · engagement_velocity=4
 > 作者：jduhking　|　发布：2026-09-16T00:02:16Z
 > 项目链接：<https://biom.dev/>
-> 采集：2026-09-20T14:57:50+08:00　|　id：`8b2b436452f98b2c`
+> 采集：2026-09-21T21:59:53+08:00　|　id：`8b2b436452f98b2c`
 
 ## 正文
 
-Biom · Visual Workspace for AI Automations
-
-# Visual Workspace for AI Automations
-
- Works with Gemini CLI
-
-## Create with agents
-
+Pricing
+ Discord
+ GitHub
+ Get started
+Visual Workspace for AI Automations
+Works with
+ Gemini CLI
+Get started
+Your daily digest
+Agents always working
+Create with agents
 A design document
-
-# 0xb00
+Humans and agents working together
+›
+Let us manage it, or bring your agents.
+Visual Workspace for AI Automations
+Get started
 
 ## 导航
 

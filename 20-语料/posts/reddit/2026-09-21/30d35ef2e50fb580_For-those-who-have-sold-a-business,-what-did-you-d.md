@@ -7,10 +7,10 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1wicije/for_those_who_have_sold_a_business_what_did_you/"
 author: "Mission-Jacket7155"
 published_at: "2026-09-17T06:53:14+08:00"
-captured_at: "2026-09-21T13:03:41+08:00"
+captured_at: "2026-09-21T22:02:09+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "开发者工具"
 shard: "2026-09-21"
 pub_day: "2026-09-17"
 tags:
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=17 · 赞踩比=0.72
 > 作者：Mission-Jacket7155　|　发布：2026-09-17T06:53:14+08:00
 > 项目链接：—
-> 采集：2026-09-21T13:03:41+08:00　|　id：`30d35ef2e50fb580`
+> 采集：2026-09-21T22:02:09+08:00　|　id：`30d35ef2e50fb580`
 
 ## 正文
 
@@ -140,5 +140,5 @@ If you knew you were 1–3 years away from selling, what helped you figure out w
 
 - 项目页：—（本条不是项目，按设计不建实体页）
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

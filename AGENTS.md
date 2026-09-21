@@ -44,15 +44,18 @@
 根目录只放 `Home.md` 与本页。**MOC/地图只放 `00-索引/`** —— 数据目录被计数脚本按 `*.md` glob，
 塞 index 页会污染计数（647 变 648）。
 
-## 2. 工具链（12 个 runbook 工具，顺序不能乱；另有 `kb_selftest.py` 自测 / `kb_render.py` 批量重渲染；渠道层已拆为 `kbc_channels.py`——15 个 adapter + enricher，kb_collect facade re-export）
+## 2. 工具链（15 个 runbook 工具，顺序不能乱；另有 `kb_selftest.py` 自测 / `kb_render.py` 批量重渲染；渠道层已拆为 `kbc_channels.py`——15 个 adapter + enricher，kb_collect facade re-export）
 
 | 工具 | 何时跑 | 干什么 |
 |---|---|---|
 | `kb_audit.py` | 采集前 | 渠道探活 + agent-reach doctor 对账 → 渠道台账 |
-| `kb_collect.py` | 每轮 | 13 渠道取数 → 主题准入过滤 → raw JSONL + 语料页 + 实体页；支持 `--since/--until` 显式窗口、`--throttle-ms` 评论节流（run JSON 带 `write_errors` 计数） |
-| `kb_analyze.py` | 采集后 | **取数诊断**（按渠道 profile 判真缺口）→ 分析报告 + 回填队列 |
-| `kb_backfill.py` | 采集后 | 回填粘性缺口（正文+评论）+ 死信账本；`--report` 出回填队列 |
+| `kb_collect.py` | 每轮 | 13 渠道取数 → 主题准入过滤 → raw JSONL + 语料页 + 实体页；支持 `--since/--until` 显式窗口、`--throttle-ms` 评论节流（run JSON 带 `write_errors` 计数）；**内置在线近重复标注**（`extra.near_dup_of`） |
+| `kb_analyze.py` | 采集后 | **取数诊断**（按渠道 profile 判真缺口）+ **元数据契约门**（字段级，区分「真缺」与 `channels.yaml` 已声明不可得）→ 分析报告 + 回填队列 |
+| `kb_backfill.py` | 采集后 | 回填粘性缺口（正文+评论）+ 死信账本（schema 2：`reason_code`/`tried[]`/`http_status`）；`--report` 出队列、`--dead-report` 按原因分组、`--revive-code` 复活、`--migrate-dead` 迁移 |
 | `kb_content_audit.py` | 采集后 | **内容审计**（相关性/完整性/重复）—— 与取数诊断**正交** |
+| `kb_semantic_lint.py` | 采集后 | **语义 lint**（只读）：跨语料数字冲突 / 过期论断（"即将上线"挂 >60 天）/ 高频概念无页 / 实体页提及在库项目却无链接 |
+| `kb_fetcher_bench.py` | 换后端/网络异常时 | **抽取器基准**：同批 URL × direct/exa/gh，按命中率·中位字符·贴上限率选后端（不由「谁先报 ok」决定） |
+| `kb_near_dup.py` | 采集后/按需 | **近重复**：simhash 候选 → 特征包含度验证（候选≠重复）；`--build` 写指纹、`--check <id>`、`--selftest` |
 | `kb_prune.py` | 规则变更后/每周 | 存量重判归档（undo 清单）；`--liveness`；`--archive-entities`；`--dedupe-archive`（冻结区同条目多份去重）/ `--prune-empty-dirs`（清空日期桶壳），二者均幂等、带 `--undo-dedupe` |
 | `kb_reclassify.py` | 按需 | 实体订正 / 孤儿页合并 / frontmatter 自愈 / 补 project_url |
 | `kb_insight.py` | 每周/大增时 | 洞察报告；`--browse` 重生成入口页（首屏=意图路由） |
@@ -76,10 +79,19 @@ PY="C:/Users/yangcan/.workbuddy/binaries/python/versions/3.13.12/python.exe"
 ```bash
 "$PY" tools/kb_audit.py            # 1 渠道体检（含 doctor 对账，改渠道只改 _meta/channels.yaml）
 "$PY" tools/kb_collect.py --fulltext-budget 8   # 2 采集（周一加 --force-weekly）
-"$PY" tools/kb_analyze.py          # 3 取数诊断
+"$PY" tools/kb_analyze.py          # 3 取数诊断 + 元数据契约门
 "$PY" tools/kb_backfill.py --limit 60           # 4 回填（必做：离开窗口的缺口永不自愈）
 "$PY" tools/kb_content_audit.py    # 5 内容审计（与 3 正交，都要汇报）
-"$PY" tools/kb_healthcheck.py      # 6 收工门
+"$PY" tools/kb_semantic_lint.py    # 6 语义 lint（与 5 正交：5 查单条可用性，6 查跨条一致性）
+"$PY" tools/kb_healthcheck.py      # 7 收工门
+```
+
+**按需**（不是每轮）：
+
+```bash
+"$PY" tools/kb_near_dup.py --build      # 近重复：重建全库指纹 + 出报告（在线标注已内置在 kb_collect）
+"$PY" tools/kb_fetcher_bench.py         # 抽取器基准：换后端 / 怀疑取数质量时跑，别凭印象切
+"$PY" tools/kb_backfill.py --dead-report   # 死信按 reason_code 分组复核
 ```
 
 **每周一追加**：

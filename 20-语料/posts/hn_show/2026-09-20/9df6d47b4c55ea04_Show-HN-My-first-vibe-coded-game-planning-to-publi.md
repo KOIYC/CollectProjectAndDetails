@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49739084"
 project_url: "https://exekite.games/g/saxc3hw2/lava-bound"
 author: "umut-neo"
 published_at: "2026-09-17T11:08:00Z"
-captured_at: "2026-09-20T14:57:50+08:00"
+captured_at: "2026-09-21T21:59:53+08:00"
 lang: "en"
 kind: "post"
 topic: "游戏"
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:90d"
 # Show HN: My first vibe coded game planning to publish to Android
 
 > [!info] 一句话导读
-> Lava Bound — play it free on Exekite
+> Made with Exekite · make your own game →
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,19 +37,34 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=4 · 评论=0 · engagement_velocity=4
 > 作者：umut-neo　|　发布：2026-09-17T11:08:00Z
 > 项目链接：<https://exekite.games/g/saxc3hw2/lava-bound>
-> 采集：2026-09-20T14:57:50+08:00　|　id：`9df6d47b4c55ea04`
+> 采集：2026-09-21T21:59:53+08:00　|　id：`9df6d47b4c55ea04`
 
 ## 正文
 
-Lava Bound — play it free on Exekite
-
-# Lava Bound
-
-▶ Play 47 MB first load
-
-A browser game published with Exekite · 47 MB download · plays right here, no install.
-
-# fcavalcantirj/droidputter
+Made with Exekite · make your own game →
+Lava Bound
+Fullscreen
+ Enable sound
+ Tap Play to load the game.
+▶ Play 48 MB first load
+Starting…
+This browser can't run the game.
+ It needs WebGL2 and WebAssembly over HTTPS. Open the link in Safari or Chrome:
+ https://exekite.games/g/saxc3hw2/lava-bound
+Make your own game with Exekite
+A browser game published with Exekite · 48 MB download · plays right here, no install.
+Report this game
+Reason
+Choose a reason
+ Sexual content
+ Graphic violence
+ Hate or harassment
+ Illegal content
+ Spam or scam
+ Something else
+Details (optional)
+Send report
+© Exekite · Privacy · Terms · Report abuse · DMCA
 
 ## 导航
 

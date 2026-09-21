@@ -5,11 +5,13 @@ title: "Yes Car No Car"
 source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/yes-car-no-car"
-captured_at: "2026-09-21T01:34:59+08:00"
+published_at: "2026-09-19"
+captured_at: "2026-09-21T22:04:07+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
 shard: "2026-09-20"
+pub_day: "2026-09-19"
 tags:
   - 语料
   - betalist
@@ -28,9 +30,9 @@ discovered_via: "betalist:home"
 > 来源：BetaList（project）
 > 原帖：<https://betalist.com/startups/yes-car-no-car>
 > 指标：—
-> 作者：—　|　发布：—
+> 作者：—　|　发布：2026-09-19
 > 项目链接：—
-> 采集：2026-09-21T01:34:59+08:00　|　id：`fd38a035a8d016e7`
+> 采集：2026-09-21T22:04:07+08:00　|　id：`fd38a035a8d016e7`
 
 ## 正文
 

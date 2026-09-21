@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49712345"
 project_url: "https://github.com/stagas/livediff"
 author: "stagas"
 published_at: "2026-09-15T13:37:25Z"
-captured_at: "2026-09-21T13:02:34+08:00"
+captured_at: "2026-09-21T22:00:33+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=6 · 评论=3 · engagement_velocity=6
 > 作者：stagas　|　发布：2026-09-15T13:37:25Z
 > 项目链接：<https://github.com/stagas/livediff>
-> 采集：2026-09-21T13:02:34+08:00　|　id：`179c66c2436f5f92`
+> 采集：2026-09-21T22:00:33+08:00　|　id：`179c66c2436f5f92`
 
 ## 正文
 

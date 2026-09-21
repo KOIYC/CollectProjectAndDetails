@@ -1,8 +1,30 @@
 {
- "generated": "2026-09-21T12:57:49+08:00",
+ "generated": "2026-09-21T21:58:40+08:00",
  "run_id": "20260921T095037",
- "count": 9,
+ "count": 52,
  "items": [
+  {
+   "item_id": "3ff678d3fc55d72b",
+   "source_id": "c1c7",
+   "profile": "project",
+   "missing": [
+    "body"
+   ],
+   "url": "https://oppslist.com/",
+   "page": "https://www.oppslist.com/",
+   "title": "Opps Daily - 这家的 newsletter 做得好，推荐订阅"
+  },
+  {
+   "item_id": "03f418f822ae5044",
+   "source_id": "c1c7",
+   "profile": "project",
+   "missing": [
+    "body"
+   ],
+   "url": "https://liqi.io/creators",
+   "page": "http://liqi.io/creators/",
+   "title": "利器"
+  },
   {
    "item_id": "f79916209c3de950",
    "source_id": "c1c7",
@@ -48,6 +70,17 @@
    "title": "kindrat86/invisible-exit"
   },
   {
+   "item_id": "1d7851ca5365edb9",
+   "source_id": "github_new",
+   "profile": "project",
+   "missing": [
+    "body"
+   ],
+   "url": "https://bananasend.top/",
+   "page": "https://github.com/thomas-almeida/bananasend-saas",
+   "title": "thomas-almeida/bananasend-saas"
+  },
+  {
    "item_id": "074d7c2acc36561f",
    "source_id": "github_new",
    "profile": "project",
@@ -70,6 +103,457 @@
    "title": "inokone/react-micro-saas"
   },
   {
+   "item_id": "167405deb0f8e4a6",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://negronlyfans.com/",
+   "page": "https://news.ycombinator.com/item?id=49755142",
+   "title": "Show HN: Negronlyfans – upload your Negroni, get judged by its 1919 inventor"
+  },
+  {
+   "item_id": "b445baff7f5bccf0",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://rabbitholegame.net/",
+   "page": "https://news.ycombinator.com/item?id=49752118",
+   "title": "Show HN: Rabbit Hole – a daily Wikipedia racing game"
+  },
+  {
+   "item_id": "a602d404ebaeaace",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://jinx.fyi/",
+   "page": "https://news.ycombinator.com/item?id=49749716",
+   "title": "Show HN: Jinx – a link shortener you host free on GitHub Pages"
+  },
+  {
+   "item_id": "6c03e0fd00e0e4f2",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://chromewebstore.google.com/detail/kora-â-focus-reader-websi/kbkcobapaoaoilpfgbaaeaedlincbpmi?hl=en",
+   "page": "https://news.ycombinator.com/item?id=49745788",
+   "title": "Show HN: What if you don't feel overwhelmed reading big articles"
+  },
+  {
+   "item_id": "d7106202aa3344c2",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://publiclandsdata.com/",
+   "page": "https://news.ycombinator.com/item?id=49744755",
+   "title": "Show HN: Publiclandsdata.com – US public lands visitation, reservations, economy"
+  },
+  {
+   "item_id": "891fd61d0d11056a",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://github.com/BandarLabs/Cobalt/tree/beta/apps/birds",
+   "page": "https://news.ycombinator.com/item?id=49743786",
+   "title": "Show HN: Run the birds sound detection on any Kobo eReader"
+  },
+  {
+   "item_id": "bd878a76b73260be",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://lurescope.com/stats",
+   "page": "https://news.ycombinator.com/item?id=49741661",
+   "title": "Show HN: Live honeypot telemetry – 941K attack events, 160 countries"
+  },
+  {
+   "item_id": "f7ed9196fd90c663",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://github.com/wonglok/effectnode-b3-template-code/tree/main/src/runtime-intelligence",
+   "page": "https://news.ycombinator.com/item?id=49738436",
+   "title": "Show HN: ThreeJS Runtime Performance Optimization Tools for ClaudeCode"
+  },
+  {
+   "item_id": "6102b39baf89886b",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://trail.franzai.com/",
+   "page": "https://news.ycombinator.com/item?id=49731551",
+   "title": "Show HN: Trail, a New Logic Game"
+  },
+  {
+   "item_id": "821bb106de420180",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://news.ycombinator.com/item?id=49729212",
+   "page": "https://news.ycombinator.com/item?id=49729212",
+   "title": "Show HN: Rockbox and Doom on iPod nano 3rd gen"
+  },
+  {
+   "item_id": "41db861c4dfa54a6",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://0xb00.com/",
+   "page": "https://news.ycombinator.com/item?id=49717926",
+   "title": "Show HN: Choreographed Algebra"
+  },
+  {
+   "item_id": "a59e2d2c5cae3967",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://claude.ai/artifact/1rTtc9idTXFBcsuhPqJDoU",
+   "page": "https://news.ycombinator.com/item?id=49715824",
+   "title": "Show HN: Free tool that checks if your Etsy/Shopify listing is EU-ready"
+  },
+  {
+   "item_id": "50f24fcca5d4d7f6",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://github.com/sqliteai/warp",
+   "page": "https://news.ycombinator.com/item?id=49714036",
+   "title": "Show HN: Warp – Run DeepSeek v4.1 Flash with 5 GB of RAM at 3.77 tok/s"
+  },
+  {
+   "item_id": "387cc086dd0d786d",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://whats-left-over.pages.dev/",
+   "page": "https://news.ycombinator.com/item?id=49713953",
+   "title": "Show HN: The bottom 50% of U.S. households are short after essentials (BLS data)"
+  },
+  {
+   "item_id": "9cdf2bbef53d5187",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://kong75.github.io/visual-html-editor",
+   "page": "https://news.ycombinator.com/item?id=49713864",
+   "title": "Show HN: Visual HTML – a source-preserving WYSIWYG editor for AI-generated HTML"
+  },
+  {
+   "item_id": "d898e980b7f93b88",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://justmathit.com/",
+   "page": "https://news.ycombinator.com/item?id=47964274",
+   "title": "Show HN: Just Math It. Learn math interactively"
+  },
+  {
+   "item_id": "096e1a8616a229d2",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://wordpress.org/plugins/wfy24-weather-widget",
+   "page": "https://news.ycombinator.com/item?id=47963927",
+   "title": "Show HN: A 11.7KB Weather Widget Built with Vanilla JavaScript and Shadow DOM"
+  },
+  {
+   "item_id": "d961da091a811872",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://sampletext.store/",
+   "page": "https://news.ycombinator.com/item?id=47963825",
+   "title": "Show HN: Sampletext.store/ We built a dumb web shop and we cannot look away"
+  },
+  {
+   "item_id": "3f232af9b9afb5e4",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://isopusok.today/",
+   "page": "https://news.ycombinator.com/item?id=47949376",
+   "title": "Show HN: Is Opus Ok Today?"
+  },
+  {
+   "item_id": "65d03c6b0c56ca4e",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://getmilestones.app/store",
+   "page": "https://news.ycombinator.com/item?id=48345100",
+   "title": "Show HN: I built a native project management app that respects your privacy"
+  },
+  {
+   "item_id": "9588269e01a431d2",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://markal.app/",
+   "page": "https://news.ycombinator.com/item?id=48345057",
+   "title": "Show HN: Markal, a productivity tool for creating collaborative calendars"
+  },
+  {
+   "item_id": "e9a7af726513ec10",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://trost.co/kanji-pairs",
+   "page": "https://news.ycombinator.com/item?id=48341394",
+   "title": "Show HN: Kanji Pairs Explorer"
+  },
+  {
+   "item_id": "1b4b1cddce7b7188",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://prezlo.io/",
+   "page": "https://news.ycombinator.com/item?id=48325814",
+   "title": "Show HN: Prezlo – We built an API that tells AI agent whether to trust an expert"
+  },
+  {
+   "item_id": "c74a4f37b5e005b7",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://npmjs.com/package/@uindow/css",
+   "page": "https://news.ycombinator.com/item?id=48324941",
+   "title": "Show HN: A smarter CSS selector generator"
+  },
+  {
+   "item_id": "251b941e4476ef21",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://semiconductor.review/",
+   "page": "https://news.ycombinator.com/item?id=48324073",
+   "title": "Show HN: Community Reviews for Electronic Components"
+  },
+  {
+   "item_id": "cbc2519e163925d9",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://stillis.xyz/",
+   "page": "https://news.ycombinator.com/item?id=48323911",
+   "title": "Show HN: Stillis – An open-ended anonymous polling platform for anything"
+  },
+  {
+   "item_id": "4c3d04431c6728fd",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://indiegogo.com/en/projects/miradial/miradial",
+   "page": "https://news.ycombinator.com/item?id=48733758",
+   "title": "Show HN: A physical dial that locks your screens until your focus session ends"
+  },
+  {
+   "item_id": "e85e08f838288c7c",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://h1yapp.com/en/scripting/pwa/totpgenerator",
+   "page": "https://news.ycombinator.com/item?id=48732133",
+   "title": "Show HN: TOTP generator – SHA1/256/512 30/60/... 6-9 not via SubtleCrypto"
+  },
+  {
+   "item_id": "4f8139897c6a1ef0",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://cratesdownloadhistory.undivisible.dev/",
+   "page": "https://news.ycombinator.com/item?id=48727277",
+   "title": "Show HN: Embeddable Cumulative Crates Download History"
+  },
+  {
+   "item_id": "9efc36b8b703b4f0",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://marketterminal.com/chart",
+   "page": "https://news.ycombinator.com/item?id=48726204",
+   "title": "Show HN: An Institutional Terminal for Retail Investors"
+  },
+  {
+   "item_id": "49ab01b1a2042426",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://play.google.com/apps/testing/com.apextradingsignals",
+   "page": "https://news.ycombinator.com/item?id=48724761",
+   "title": "Show HN: Apex Trading Signals – AI commodity trade ideas, free Android beta"
+  },
+  {
+   "item_id": "352afce8f70d41df",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://sinusoft.com/loganbasic",
+   "page": "https://news.ycombinator.com/item?id=49115423",
+   "title": "Show HN: Logan Basic v2.1 - An online BASIC interpreter."
+  },
+  {
+   "item_id": "947811021388f4e3",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://orangecrumbs.com/hn",
+   "page": "https://news.ycombinator.com/item?id=49109957",
+   "title": "Show HN: Review flashcards cards (Anki) while reading Hacker News"
+  },
+  {
+   "item_id": "31f57c57aa653c2a",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://codepen.io/editor/alowpoly/pen/019fae67-50d9-74ce-8025-4b9dd5a7c484",
+   "page": "https://news.ycombinator.com/item?id=49109372",
+   "title": "Show HN: 3D CSS Super Mario 64"
+  },
+  {
+   "item_id": "1b54b891bfff72b9",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://largelabormodel.com/mirror",
+   "page": "https://news.ycombinator.com/item?id=49510775",
+   "title": "Show HN: Scoring 4,811 job tasks against machine capability, 1970–2041"
+  },
+  {
+   "item_id": "40660ac5799ea2c1",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://github.com/danthegoodman1/tinysandbox/tree/main/tinysandbox-js-runtime",
+   "page": "https://news.ycombinator.com/item?id=49500882",
+   "title": "Show HN: Tinysandbox-JS-Runtime - JS in WASM in v8"
+  },
+  {
+   "item_id": "3014777b8200a4b3",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://nohtml.felixs.eu/",
+   "page": "https://news.ycombinator.com/item?id=49499459",
+   "title": "Show HN: Nohtml.felixs.eu"
+  },
+  {
+   "item_id": "bfd9557432621d34",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://news.ycombinator.com/item?id=49498469",
+   "page": "https://news.ycombinator.com/item?id=49498469",
+   "title": "Show HN: I built a physical dream machine for my wife"
+  },
+  {
+   "item_id": "9fd5bf8b1db874ad",
+   "source_id": "hn_show",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://play.google.com/store/apps/details?id=com.mohamedgado.masareef&hl=en_US",
+   "page": "https://news.ycombinator.com/item?id=49495918",
+   "title": "Show HN: Masareef – Android expense tracker that reads bank alerts on-device"
+  },
+  {
+   "item_id": "02983cd3fa784ef4",
+   "source_id": "reddit",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://www.reddit.com/r/IndieDev/comments/1szxra6/did_you_encounter_the_problem_of_disorganization/",
+   "page": "https://www.reddit.com/r/IndieDev/comments/1szxra6/did_you_encounter_the_problem_of_disorganization/",
+   "title": "Did you encounter the problem of disorganization in your first game?"
+  },
+  {
+   "item_id": "f3352ca9e6883a97",
+   "source_id": "reddit",
+   "profile": "discussion",
+   "missing": [
+    "body"
+   ],
+   "url": "https://www.reddit.com/r/IndieDev/comments/1tsyis0/everytime_you_check_ops_profile/",
+   "page": "https://www.reddit.com/r/IndieDev/comments/1tsyis0/everytime_you_check_ops_profile/",
+   "title": "Everytime you check OP's profile"
+  },
+  {
    "item_id": "eb17d59084bb175a",
    "source_id": "reddit",
    "profile": "discussion",
@@ -79,17 +563,6 @@
    "url": "https://www.reddit.com/r/IndieDev/comments/1wjb0mg/first_make_it_exist_you_can_make_it_good_later/",
    "page": "https://www.reddit.com/r/IndieDev/comments/1wjb0mg/first_make_it_exist_you_can_make_it_good_later/",
    "title": "First make it exist, you can make it good later"
-  },
-  {
-   "item_id": "032ca85fe718153d",
-   "source_id": "reddit",
-   "profile": "discussion",
-   "missing": [
-    "body"
-   ],
-   "url": "https://www.reddit.com/r/SaaS/comments/1wj83sn/finally_first_sale_on_my_saas_after_3_months_of/",
-   "page": "https://www.reddit.com/r/SaaS/comments/1wj83sn/finally_first_sale_on_my_saas_after_3_months_of/",
-   "title": "Finally First sale on my SaaS after 3 months of launch 💪"
   },
   {
    "item_id": "42bf3de09af7cfeb",

@@ -20,7 +20,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from kb_common import (BODY_MIN, DIR_RAW, DIR_REPORT, META, RUNS, iso,  # noqa: E402
-                       load_ndjson, now_cst, write_note)
+                       load_ndjson, now_cst, pub_day_of, write_note)
 from kb_collect import load_channels_yaml  # noqa: E402
 
 # 渠道画像 → 该渠道「应当具备什么」的期望。QA 阈值由此推导，不再拍脑袋。
@@ -30,12 +30,22 @@ from kb_collect import load_channels_yaml  # noqa: E402
 #   metadata    榜单/目录：只有元数据，不期望正文与评论
 #   discover    语义发现：应有正文，但无评论、可能无独立项目链接
 PROFILE_EXPECT = {
-    "discussion": {"body": True,  "comments": True,  "project_url": False},
-    "linkpost":   {"body": True,  "comments": False, "project_url": False},
-    "project":    {"body": True,  "comments": False, "project_url": True},
-    "metadata":   {"body": False, "comments": False, "project_url": False},
-    "discover":   {"body": True,  "comments": False, "project_url": False},
+    "discussion": {"body": True,  "comments": True,  "project_url": False, "published_at": True},
+    "linkpost":   {"body": True,  "comments": False, "project_url": False, "published_at": True},
+    "project":    {"body": True,  "comments": False, "project_url": True,  "published_at": True},
+    "metadata":   {"body": False, "comments": False, "project_url": False, "published_at": False},
+    "discover":   {"body": True,  "comments": False, "project_url": False, "published_at": True},
 }
+
+# 元数据契约门（B2）——「该有但没有」与「按契约没有」必须分开。
+#
+# 为什么必须做成门而不是「看着缺就补」：`published_at` 是时间轴（`pub_day` / 趋势分析）的
+# 分组键。实测 135 条缺发布日（betalist 56 / IH 43 / apple_rss 18 / c1c7 17 / 小红书 1），
+# 其中 apple_rss 是 profile=metadata（按契约没有），c1c7 是 README 名录（结构上没有），
+# 而 betalist 是**我们没去详情页取** —— 三类混在一个数字里，既不能定责也不能定修法。
+# 论文侧同向印证（SARC-DQ, arXiv 2607.26313）：agent 无法怀疑它看不见的数据，
+# 缺陷必须由「声明的契约」而不是「期望模型自己发现」来暴露。
+META_FIELDS = ("published_at", "author", "project_url")
 
 
 DEAD_LEDGER = META / "backfill_dead.json"
@@ -56,6 +66,24 @@ def load_profiles() -> dict[str, str]:
     except Exception:                                              # noqa: BLE001
         return {}
     return {c["id"]: (c.get("profile") or "discussion") for c in (reg.get("channels") or [])}
+
+
+def load_meta_unavailable() -> dict[str, dict]:
+    """从注册表读 channel_id → {字段: 不可得原因}（`meta_unavailable` 段）。
+
+    这一段的唯一作用：把「按契约没有」从「该有但没抓到」里剥离出来 —— 没有它，
+    两个数字混在一起，既无法定责，也无法判断哪一类该动手。
+    """
+    try:
+        reg = load_channels_yaml(META / "channels.yaml")
+    except Exception:                                              # noqa: BLE001
+        return {}
+    out = {}
+    for c in (reg.get("channels") or []):
+        u = c.get("meta_unavailable")
+        if isinstance(u, dict):
+            out[c["id"]] = u
+    return out
 
 NOISE_RE = re.compile(r"removed by moderator|\[removed\]|\[deleted\]|\[已删除\]", re.I)
 MONEY_RE = re.compile(r"\$\s?\d[\d,\.]*\s?[kKmM]?|MRR|ARR|月入|收入|营收")
@@ -205,6 +233,41 @@ def analyze(round_run: str | None = None) -> dict:
         (g["source_id"], ",".join(g["missing"])) for g in gaps).most_common()
     rep["profiles"] = profiles
 
+    # ---- 元数据契约门（B2）：字段级「该有但没有」 vs 「按契约没有」
+    #
+    # 与 §缺口清单 的分工：缺口清单管**正文/评论**（内容侧，能回填）；本段管**元数据**
+    # （描述侧，回填成本高、且错填比缺更贵）。两者都属「取数诊断」，都不含相关性判断。
+    unavail = load_meta_unavailable()
+    meta_defects: dict[tuple[str, str], int] = collections.Counter()
+    meta_exempt: dict[tuple[str, str], int] = collections.Counter()
+    meta_detail: list[dict] = []
+    for it in live:
+        cid = it["source_id"]
+        prof = profiles.get(cid, "discussion")
+        exp = PROFILE_EXPECT.get(prof, PROFILE_EXPECT["discussion"])
+        exc = unavail.get(cid) or {}
+        # 语义短路：person / method 条目的「项目外链」缺失不是缺陷 —— 它们本来就不是项目
+        # （判据必须与 kb_common.is_project_ish 的语义短路一致，否则会报 3 条假缺陷）。
+        semantic = (it.get("kind") or "").lower() in ("person", "method")
+        for f in META_FIELDS:
+            if not exp.get(f):
+                continue
+            if f == "project_url" and semantic:
+                continue
+            have = bool(it.get(f)) if f != "published_at" else bool(pub_day_of(it.get(f)))
+            if have:
+                continue
+            if f in exc:
+                meta_exempt[(cid, f)] += 1
+            else:
+                meta_defects[(cid, f)] += 1
+                meta_detail.append({"item_id": it["item_id"], "source_id": cid, "field": f,
+                                    "url": it.get("url"), "title": (it.get("title") or "")[:80]})
+    rep["meta_defects"] = meta_detail
+    rep["meta_defects_by_channel"] = meta_defects.most_common()
+    rep["meta_exempt_by_channel"] = meta_exempt.most_common()
+    rep["meta_unavailable_declared"] = unavail
+
     # 噪声 / 语言 / 收入信号
     rep["noise"] = [{"source": r["source_id"], "title": r["title"][:70], "url": r["url"]}
                     for r in items if NOISE_RE.search(f"{r['title']} {r.get('body') or ''}")][:30]
@@ -277,6 +340,22 @@ def render(rep: dict) -> str:
               "B 站视频简介）。它们**不计入缺口、不消耗回填额度**，但也**不属于死信**——"
               "列出是为了让「按契约没有」与「该有但没抓到」在报表上可区分，"
               "避免它们同时缺席两个账本、变成无法判读的账外条目。"]
+    L += ["", "### 元数据契约门（字段级）", "",
+          "> 口径：profile 声明该有的字段缺失 = **取数缺陷**（要动手）；"
+          "`channels.yaml` 的 `meta_unavailable` 显式声明不可得 = **按契约没有**（入账不追）。",
+          "> 为什么必须分：`published_at` 是时间轴分组键，缺了整条在时间维度消失且不报错 ——"
+          " 这是论文 SARC-DQ 说的 metadata-borne defect，得靠**声明的契约**暴露，不能指望下游发现。", ""]
+    if rep.get("meta_defects_by_channel"):
+        L += ["| 渠道 | 缺失字段 | 条数 |", "|---|---|---|"] + \
+             [f"| `{c}` | {f} | {n} |" for (c, f), n in rep["meta_defects_by_channel"]]
+        L += ["", f"合计 **{len(rep['meta_defects'])}** 条字段级缺陷"]
+    else:
+        L.append("- 无字段级缺陷")
+    if rep.get("meta_exempt_by_channel"):
+        L += ["", "**按契约没有（免追）**：", ""]
+        for (c, f), n in rep["meta_exempt_by_channel"]:
+            why = ((rep.get("meta_unavailable_declared") or {}).get(c) or {}).get(f) or ""
+            L.append(f"- `{c}` · {f} × {n} —— {why}")
     L += ["", "## 噪声条目（removed/deleted）", ""]
     L += [f"- `{n['source']}` {n['title']}" for n in rep["noise"]] or ["- 无"]
     L += ["", "## 无正文条目分布", "",
@@ -353,6 +432,12 @@ def main(argv=None) -> int:
         if rep.get("gap_by_channel"):
             print(f"  待回填缺口 {len(rep['gaps'])} 条：" +
                   "、".join(f"{c}/{m}={n}" for (c, m), n in rep["gap_by_channel"][:8]))
+        if rep.get("meta_defects_by_channel"):
+            print(f"  元数据契约缺陷 {len(rep['meta_defects'])} 条：" +
+                  "、".join(f"{c}/{f}={n}" for (c, f), n in rep["meta_defects_by_channel"][:8]))
+        if rep.get("meta_exempt_by_channel"):
+            print("  按契约免追：" +
+                  "、".join(f"{c}/{f}={n}" for (c, f), n in rep["meta_exempt_by_channel"][:6]))
 
     write_note(DIR_REPORT / f"分析-{rid or 'all'}.md",
                {"type": "report", "title": f"诊断 {rid}", "updated": iso(now_cst()),
@@ -377,6 +462,9 @@ def main(argv=None) -> int:
          "gaps": len(rep.get("gaps") or []), "gap_by_channel": rep.get("gap_by_channel"),
          "expected_absent": len(rep.get("expected_absent") or []),
          "expected_absent_by_channel": rep.get("expected_absent_by_channel"),
+         "meta_defects": len(rep.get("meta_defects") or []),
+         "meta_defects_by_channel": rep.get("meta_defects_by_channel"),
+         "meta_exempt_by_channel": rep.get("meta_exempt_by_channel"),
          "money_signal": rep["money_signal"], "lang": rep["lang"]},
         ensure_ascii=False, indent=1), encoding="utf-8")
     # 缺口队列：kb_backfill.py 直接消费

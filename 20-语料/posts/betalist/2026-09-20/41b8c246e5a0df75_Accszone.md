@@ -5,11 +5,13 @@ title: "Accszone"
 source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/accszone"
-captured_at: "2026-09-21T02:52:14+08:00"
+published_at: "2026-06-29"
+captured_at: "2026-09-21T22:04:08+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
 shard: "2026-09-20"
+pub_day: "2026-06-29"
 tags:
   - 语料
   - betalist
@@ -28,9 +30,9 @@ discovered_via: "betalist:home"
 > 来源：BetaList（project）
 > 原帖：<https://betalist.com/startups/accszone>
 > 指标：—
-> 作者：—　|　发布：—
+> 作者：—　|　发布：2026-06-29
 > 项目链接：—
-> 采集：2026-09-21T02:52:14+08:00　|　id：`41b8c246e5a0df75`
+> 采集：2026-09-21T22:04:08+08:00　|　id：`41b8c246e5a0df75`
 
 ## 正文
 

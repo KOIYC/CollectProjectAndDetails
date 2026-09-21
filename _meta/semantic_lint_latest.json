@@ -1,0 +1,64 @@
+{
+ "generated": "2026-09-21T22:04:14+08:00",
+ "n_items": 1732,
+ "n_pages": 1389,
+ "cross": 1,
+ "stale": 0,
+ "concept": 1,
+ "xref": 19,
+ "top_stale": [],
+ "top_cross": [
+  {
+   "key": "https://aliasfleet.com/",
+   "kind": "price",
+   "values": [
+    "7",
+    "17"
+   ],
+   "sources": [
+    {
+     "item_id": "85112e72de766c17",
+     "source_id": "hn_show",
+     "title": "Show HN: AliasFleet – Email aliases with in-app sending. No reverse-al",
+     "claim": "$7/mo",
+     "value": "7"
+    },
+    {
+     "item_id": "85112e72de766c17",
+     "source_id": "hn_show",
+     "title": "Show HN: AliasFleet – Email aliases with in-app sending. No reverse-al",
+     "claim": "$17/mo",
+     "value": "17"
+    },
+    {
+     "item_id": "85112e72de766c17",
+     "source_id": "hn_show",
+     "title": "Show HN: AliasFleet – Email aliases with in-app sending. No reverse-al",
+     "claim": "$7/mo",
+     "value": "7"
+    },
+    {
+     "item_id": "85112e72de766c17",
+     "source_id": "hn_show",
+     "title": "Show HN: AliasFleet – Email aliases with in-app sending. No reverse-al",
+     "claim": "$17/mo",
+     "value": "17"
+    },
+    {
+     "item_id": "94c0d1ffe9e6be23",
+     "source_id": "hn_show",
+     "title": "Show HN: AliasFleet – Email aliases with an in-app composer and teleme",
+     "claim": "$7/mo",
+     "value": "7"
+    },
+    {
+     "item_id": "94c0d1ffe9e6be23",
+     "source_id": "hn_show",
+     "title": "Show HN: AliasFleet – Email aliases with an in-app composer and teleme",
+     "claim": "$17/mo",
+     "value": "17"
+    }
+   ]
+  }
+ ]
+}

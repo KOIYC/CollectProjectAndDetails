@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=49713953"
 project_url: "https://whats-left-over.pages.dev/"
 author: "pwmglenn"
 published_at: "2026-09-15T15:24:11Z"
-captured_at: "2026-09-20T09:38:23+08:00"
+captured_at: "2026-09-21T21:59:53+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "AI 工具/Agent"
 shard: "2026-09-20"
 pub_day: "2026-09-15"
 tags:
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:90d"
 # Show HN: The bottom 50% of U.S. households are short after essentials (BLS data)
 
 > [!info] 一句话导读
-> Show HN: The bottom 50% of U.S. households are short after essentials (BLS data)
+> Household Surplus Lab
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,187 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=39 · 评论=81 · engagement_velocity=39
 > 作者：pwmglenn　|　发布：2026-09-15T15:24:11Z
 > 项目链接：<https://whats-left-over.pages.dev/>
-> 采集：2026-09-20T09:38:23+08:00　|　id：`387cc086dd0d786d`
+> 采集：2026-09-21T21:59:53+08:00　|　id：`387cc086dd0d786d`
 
 ## 正文
 
-Show HN: The bottom 50% of U.S. households are short after essentials (BLS data)
+Skip to results 
+Household Surplus Lab
+BLS data 2000–2024 · projected to 2026 ◐ System
+What’s left, and what it becomes .
+How much do households have left after paying for the essentials, and what would it grow into if they invested it? Built on 25 years of U.S. government survey data (2000–2024). Change the assumptions and watch the answer move.
+Reset 
+ Save as image 
+ Export CSV 
+ Copy scenario link 
+1 · Set the rules Use the numbered controls to choose the income groups, what counts as income, which costs are essential, and whether to add childcare.
+2 · Read Fig. 1 What each group has left each year after essentials. Below the dark $0 line, essentials cost more than the income coming in.
+3 · Read Figs. 2–3 What that surplus grows to if a share is invested, and where U.S. wealth actually sits. Hover or tap ? for definitions.
+Adjust settings 
+Settings Show results
+Try a scenario Market income only Top 1% vs everyone (estimated) Family, 2 kids in childcare In 2024 dollars ?
+Population groups ?
+Split the distribution into 
+Quintiles · 20% each 
+ Quartiles · 25% each 
+ Deciles · 10% each 
+ Bottom 90% vs top 10% 
+ Bottom 95% vs top 5% 
+ Bottom 99% vs top 1% 
+ Bottom 50% · middle 40% · top 10% 
+ Custom top share vs rest 
+Top share ? 1%
+Show amounts ? 
+ Per household Per person 
+Income concept
+After tax ? Subtract estimated personal taxes.
+Include benefits & transfers ? Social Security, pensions, SNAP, SSI, unemployment, veterans’ benefits and support payments, as reported to BLS.
+Income data ? 
+ BLS survey (as reported) CBO totals (fuller, counts health coverage) 
+Essential spending ?
+Food at home 
+ Housing 
+ Transportation 
+ Healthcare 
+ Insurance & pensions 
+ Education 
+Edit expense amounts… Edited 
+Children & childcare ?
+Children in paid childcare ? 0
+Price per child per year · 2024 dollars ? 
+Prices vary a lot: infant care at a center costs far more, after-school care far less.
+Inflation Nominal dollars 
+ What these dollars mean ?
+Show dollars as ? 
+Nominal dollars 
+ Real 2000 dollars · CPI-U 
+ Real dollars · custom base year 
+ Assumed constant inflation 
+Base year ? 
+Assumed annual inflation ? 2.5%
+Investing 10% of surplus · S&P 500 
+ About this what-if ?
+Share of each year’s surplus invested ? 10%
+Portfolio return ? 
+Historical S&P 500 total return 
+ Assumed annual return 
+Assumed return ? 8.0%
+Advanced Tax method · what-if benefits · minimum tax 
+How taxes are estimated ? 
+CBO federal rates (consistent) 
+ BLS, pre-2013 adjusted 
+ BLS 2013–15 rate, all years 
+ BLS as published 
+Benefit amount (what-if) ? 100%
+Minimum tax ? 
+Off 
+ Simple minimum income tax (what-if) 
+ U.S.-style AMT (income-based) 
+Minimum rate ? 20%
+Exemption · 2024 dollars ? 
+Adjusted to other years with CPI-U.
+Where do you fit?
+Enter your household’s yearly income before taxes to see roughly where it sits in 2024. Nothing you type leaves this page or goes into the scenario link.
+Household income before taxes · 2024 dollars ?
+People in household 1 2 3 4 5 6 or more
+Lowest group · left in 2024 ?
+ —
+ —
+Highest group · left in 2024 ?
+ —
+ —
+Top portfolio · 2024 ?
+ —
+ 10% of positive surplus
+Portfolio gap ?
+ —
+ Largest ÷ smallest portfolio
+An illustrative model, not tax or investment advice.
+Fig. 1
+ Money left after essentials ?
+ Yearly pre-tax income excluding benefits, minus essential costs. Per person.
+Nominal $ Quintiles Per person Estimated groups
+Show ? Money left after essentials Income Happiness plateau line ?
+Show 2025–2026 projection ?
+Show the numbers
+Fig. 2
+ What investing it adds up to ?
+ Portfolio balance from investing part of each year’s surplus since 2000.
+S&P 500 10% invested Estimated groups
+Show as ? Portfolio value Contributions vs. growth Return stacked on yearly surplus Return stacked on yearly income
+Show the numbers
+Figs. 1–2 follow yearly cash flow. Fig. 3 turns to what households actually own.
+Fig. 3
+ Where the wealth is ?
+Federal Reserve data Per household
+Show ? Share of all household wealth Cumulative wealth by percentile Average net worth per household Group by ? Wealth · top 0.1% to bottom 50% Income · top 1% to lowest 20%
+Show the numbers
+Fig. 4 · settings
+Wealth tax what-if
+Show ? Revenue, all households Tax per household
+Group by ? Wealth · top 0.1% to bottom 50% Income · top 1% to lowest 20%
+Wealth tax design ? Flat (Warren/Sanders-style) Minimum (Zucman-style)
+Rate on net worth ? 2.0%
+Applies above · 2024 dollars ?
+Tax already paid, % of wealth ? 0.3%
+Fig. 4
+ What if we taxed wealth? ?
+What-if Totals, all households
+Published estimates for Warren’s design (2% above $50 million, 3% above $1 billion): Saez & Zucman put it at about $250 billion a year (2021 score, 2023–2032), Penn Wharton at $2.1–2.7 trillion over ten years, and the Tax Foundation at $2.6 trillion over ten years before behavioral effects. Critics such as Summers & Sarin (2019) argued real collections would be far lower. No official congressional score exists. This chart uses one flat rate on group averages, so treat it as a rough cross-check, not a forecast.
+Show the numbers
+Method and definitions
+What is real data, and what is a what-if
+Real data. Every year from 2000 to 2024 uses that year’s published BLS Consumer Expenditure Survey table, which ranks U.S. households into five income groups (quintiles). From it come income before and after taxes, the income cut-offs between groups, household size, spending on six categories (including education), and benefit income. For the five quintiles, the model reproduces BLS’s averages exactly.
+What-ifs. Anything finer than quintiles (deciles, the top 1%, custom splits) is estimated from a smooth income curve inside each quintile. Childcare, benefit amounts other than 100%, expense edits, the minimum tax, investing and the wealth taxes in Fig. 3 are scenarios you control. Fig. 3’s net worth itself is measured data from the Federal Reserve.
+Breaks in the data Before 2004, BLS income figures cover only households that fully reported their income; from 2004 BLS fills in missing income. From 2013, BLS estimates taxes with a tax model instead of asking households, which is why BLS after-tax income for the top group dips that year. By default this site uses CBO’s consistent federal income tax rates instead, so the dip disappears. To compare, turn on “After tax” and choose a method under Advanced. BLS doesn’t publish the top group’s 2023 public assistance figure, so 2022’s is used. BLS also published no after-tax income for 2024, because it didn’t update its tax model that year; the BLS-based tax methods use each group’s 2023 tax rate for 2024.
+Projections · 2025–2026 BLS hasn’t published household data for these years yet. They start from 2024 and grow every income and cost with consumer prices (CPI-U), so they show what happens if everything simply kept pace with inflation. The 2025 price average covers 11 months because BLS published no October 2025 index; 2026 covers January–August. The 2026 S&P 500 return is year to date through September 14. Projected years are shaded and dashed.
+Known limitations Income, especially at the bottom, is likely understated. BLS’s Consumer Expenditure Survey, the source of this site’s incomes and spending, under-reports income, most of all for lower-income households, many of whom report spending more than their income (through savings, debt, family help or unreported income). The Congressional Budget Office’s Distribution of Household Income, 2022 puts the lowest 20% at about $26,200 before transfers and taxes and $44,800 after (2022 dollars), versus BLS’s $16,700 before taxes and $17,300 after for 2024. The measures differ: CBO counts in-kind benefits such as Medicaid, CHIP and SNAP, refundable tax credits, and employer-paid health insurance and payroll taxes, and it ranks people by size-adjusted income rather than households by income. Part of CBO’s extra income is health coverage, not cash a household can spend. So the shortfalls shown for the lowest groups are likely overstated, and the truth is probably between the two sources; groups nearer the middle and top are affected less. To see the other end, choose “CBO totals” under Income data in 02 · Income concept, and treat it as an upper bound.
+ Groups are averages and snapshots. Figures are group averages, not medians, and each group mixes ages and household types, including retirees and students. That matters most at the bottom: the lowest 20% by income includes many retirees living partly on savings, so a group can show a shortfall every year and still hold wealth. The Federal Reserve puts that group’s average net worth at about $179,000 in 2024 (Fig. 3, grouped by income). Groups are not the same people over time: households move between them as they age, change jobs, retire or change size. Studies that follow the same people find real movement over a decade but strong persistence across generations, so the gaps describe positions in the distribution, not a fixed set of households.
+ Per-person amounts use a simple headcount, and CBO tax rates cover federal income tax only. Treat the results as rough, comparative illustrations.
+An outside check The Federal Reserve’s survey of household economic well-being found that 63% of U.S. adults would cover a $400 emergency expense with cash or its equivalent in 2024 (the same as in 2023), leaving more than a third who couldn’t. That fits this site’s finding that lower-income groups have little or nothing left after essentials, though the survey measures adults, not households, and savings as well as income.
+Definitions
+Left after essentials (the “surplus”). Income under your settings minus what households in each group actually spend on the categories you select, including childcare and any custom expense. It is not a minimum budget: higher-income groups spend more on the same categories. “Insurance & pensions” includes Social Security payroll tax and retirement contributions, so part of it is saving (about $27,300 a year for the highest 20% in 2024, versus about $700 for the lowest). Use “Edit expense amounts” to change the BLS figures.
+Benefits & transfers. Social Security and pensions; public assistance, SSI and SNAP; unemployment, workers’ compensation and veterans’ benefits; regular support payments such as child support.
+Education. BLS’s education spending: tuition, fees, textbooks, supplies and equipment for schools and colleges. It excludes student-loan payments and doesn’t count tax-funded public schooling. Off by default.
+Happiness plateau line. $75,000 of yearly household income in 2008–09 dollars (Kahneman & Deaton, 2010), adjusted with CPI-U for each year: about $110,000 in 2024. A 2023 reanalysis found this plateau only for the least happy 15–20% of people, at about $100,000; for most people happiness keeps rising with income. It is a rough reference, not a threshold for any individual.
+Childcare. Children × price per child, adjusted to each year with the day care and preschool price index.
+Per person. The group’s average amount divided by its average household size, plus any children added.
+Minimum tax. A tax on income, not wealth (under Advanced). “Simple” is a what-if rate above an exemption. “U.S.-style AMT” uses each year’s married-filing-jointly AMT exemption, phase-out and 26%/28% rates, with no deductions or filing status, so it is a rough group-level estimate.
+Where the wealth is (Fig. 3). Household net worth from the Federal Reserve’s Distributional Financial Accounts, by wealth or by income group, 2000–2025. Wealth taxes there are what-ifs: flat charges the rate on net worth above a threshold; the Zucman-style minimum requires covered households to pay at least the rate × total net worth, counting taxes already paid. They are applied to each group’s average, ignore avoidance, and use no official revenue score, so treat them as rough orders of magnitude.
+Investing. Returns accrue on the prior balance; the year’s contribution is added at year-end. A shortfall contributes $0. No taxes, fees or withdrawals: it’s a portfolio built only from this surplus, not a measure of anyone’s actual wealth.
+Read the full methodology : every source, formula and limitation in one place.
+Sources: BLS Consumer Expenditure Survey quintile tables, 2000–2024 ·
+ CBO, The Distribution of Household Income, 2022 ·
+ Kahneman & Deaton (2010), PNAS ·
+ Killingsworth, Kahneman & Mellers (2023), PNAS ·
+ Federal Reserve Distributional Financial Accounts ·
+ Federal Reserve SHED 2024 ·
+ Zucman (2024), G20 report on minimum taxation of the super-rich ·
+ Sen. Warren, Ultra-Millionaire Tax Act (2024) ·
+ IRS Form 6251 (AMT) ·
+ BLS CPI-U ·
+ BLS CPI: day care and preschool ·
+ Child Care Aware of America, 2023 price of care ·
+ S&P 500 total returns (S&P Dow Jones Indices).
+Disclaimer: This site is for illustration purposes only. It was 100% AI-generated from the sources above, and its math and figures have not been independently checked by a human.
+An illustrative model, not tax or investment advice. BLS, CBO and CPI data are U.S. government works in the public domain. Childcare price from Child Care Aware of America, used with attribution.
+Version 1.0 · Data through BLS CE 2024, CPI August 2026 and S&P 500 to September 14, 2026 · Last updated September 15, 2026 · No cookies. Anonymous, privacy-friendly visit counts via Cloudflare Web Analytics; fonts load from Google Fonts.
+Source on GitHub · Made by Patrick Glenn by way of Claude and ChatGPT. Code under the MIT License ; text and charts under CC BY 4.0 .
+Expense amounts
+ Every amount starts as what households in that income group actually spent, according to BLS. Change anything to test your own assumptions. The charts update as you type, and edits are saved in the scenario link.
+× 
+Scale a whole category
+Raises or lowers a category for every group and every year. 100% is BLS as published. Scaling applies on top of any single-year edits below.
+Edit a single year
+Average yearly spending per household, in that year’s dollars. The small grey figure is the original amount (BLS, or the projection from 2024); highlighted boxes have been changed. Clear a box to restore it. Changes to 2024 carry into the 2025–2026 projections.
+Year
+Add your own expense
+A flat yearly cost for every household, such as phone and internet or student loans. Enter it in 2024 dollars; other years are adjusted with CPI-U.
+Name
+Per household per year · 2024 $
+Reset all to BLS 
+ Childcare is set in the sidebar, under 04. 
+ Done
 
 ## 评论（81/81）
 

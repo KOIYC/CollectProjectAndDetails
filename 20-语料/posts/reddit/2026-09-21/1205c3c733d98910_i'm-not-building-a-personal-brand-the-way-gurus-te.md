@@ -7,10 +7,10 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/buildinpublic/comments/1wi3kea/im_not_building_a_personal_brand_the_way_gurus/"
 author: "confidentli_67"
 published_at: "2026-09-17T01:19:46+08:00"
-captured_at: "2026-09-21T13:02:56+08:00"
+captured_at: "2026-09-21T22:01:06+08:00"
 lang: "en"
 kind: "post"
-topic: 开发者工具
+topic: "内容/媒体"
 shard: "2026-09-21"
 pub_day: "2026-09-17"
 tags:
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=7 · 评论=14 · 赞踩比=0.82
 > 作者：confidentli_67　|　发布：2026-09-17T01:19:46+08:00
 > 项目链接：—
-> 采集：2026-09-21T13:02:56+08:00　|　id：`1205c3c733d98910`
+> 采集：2026-09-21T22:01:06+08:00　|　id：`1205c3c733d98910`
 
 ## 正文
 
@@ -125,5 +125,5 @@ anyway, see you tomorrow.
 
 - 项目页：—（本条不是项目，按设计不建实体页）
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`内容/媒体`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

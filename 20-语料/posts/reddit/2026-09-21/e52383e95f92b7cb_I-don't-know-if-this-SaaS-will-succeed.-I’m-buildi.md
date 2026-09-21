@@ -7,10 +7,10 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1wi1tjx/i_dont_know_if_this_saas_will_succeed_im_building/"
 author: "Key_Dentist4998"
 published_at: "2026-09-17T00:17:50+08:00"
-captured_at: "2026-09-21T13:03:09+08:00"
+captured_at: "2026-09-21T22:01:25+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "开发者工具"
 shard: "2026-09-21"
 pub_day: "2026-09-17"
 tags:
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=10 · 评论=11 · 赞踩比=0.82
 > 作者：Key_Dentist4998　|　发布：2026-09-17T00:17:50+08:00
 > 项目链接：—
-> 采集：2026-09-21T13:03:09+08:00　|　id：`e52383e95f92b7cb`
+> 采集：2026-09-21T22:01:25+08:00　|　id：`e52383e95f92b7cb`
 
 ## 正文
 
@@ -168,5 +168,5 @@ For the students or first-time founders here:
 
 - 项目页：—（本条不是项目，按设计不建实体页）
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

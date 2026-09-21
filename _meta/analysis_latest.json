@@ -133,7 +133,7 @@
    "body": 997,
    "with_comments": 425,
    "expect_comments": 430,
-   "comments": 4219,
+   "comments": 4220,
    "platform_comments": 4252,
    "trunc": 0,
    "no_project_url": 37,
@@ -190,10 +190,10 @@
   },
   "reddit": {
    "n": 248,
-   "body": 234,
+   "body": 235,
    "with_comments": 218,
    "expect_comments": 231,
-   "comments": 5323,
+   "comments": 5324,
    "platform_comments": 4686,
    "trunc": 0,
    "no_project_url": 149,
@@ -264,7 +264,7 @@
   ],
   [
    "reddit",
-   14
+   13
   ],
   [
    "c1c7",
@@ -276,21 +276,35 @@
   ]
  ],
  "noise": 4,
- "gaps": 9,
+ "gaps": 52,
  "gap_by_channel": [
+  [
+   [
+    "hn_show",
+    "body"
+   ],
+   39
+  ],
   [
    [
     "github_new",
     "body"
    ],
-   4
+   5
   ],
   [
    [
     "reddit",
     "body"
    ],
-   3
+   4
+  ],
+  [
+   [
+    "c1c7",
+    "body"
+   ],
+   2
   ],
   [
    [
@@ -309,6 +323,53 @@
   [
    "apple_rss",
    18
+  ]
+ ],
+ "meta_defects": 67,
+ "meta_defects_by_channel": [
+  [
+   [
+    "betalist",
+    "published_at"
+   ],
+   56
+  ],
+  [
+   [
+    "c1c7",
+    "project_url"
+   ],
+   5
+  ],
+  [
+   [
+    "exa_discovery",
+    "published_at"
+   ],
+   5
+  ],
+  [
+   [
+    "xiaohongshu",
+    "published_at"
+   ],
+   1
+  ]
+ ],
+ "meta_exempt_by_channel": [
+  [
+   [
+    "indiehackers",
+    "published_at"
+   ],
+   43
+  ],
+  [
+   [
+    "c1c7",
+    "published_at"
+   ],
+   7
   ]
  ],
  "money_signal": 305,

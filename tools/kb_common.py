@@ -459,6 +459,67 @@ DIRECT_UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
 DIRECT_BLOCKED_HOSTS = {"news.ycombinator.com", "github.com"}
 _direct_host_fail: set[str] = set()
 
+# 连接级失败（整台主机都不通）才拉黑。HTTP 状态错误**不是**主机级问题：
+# 单条 404 说明「这个页面没了」，同主机其它页面照样能取。
+# 实测 bug（2026-09-21）：`urllib.error.HTTPError` 是 `URLError` 的子类，
+# 旧判据 `isinstance(e, URLError)` 于是把一次 404 当成主机不可达 →
+# betalist.com 整站被本轮拉黑，后续 55 条白等（本轮探针里 6 条只取到 5 条即此因）。
+_CONN_ERR_KINDS = ("timed out", "timeout", "tunnel", "connection", "reset", "refused",
+                   "unreachable", "getaddrinfo", "ssl", "eof")
+
+
+def host_of(url: str) -> str:
+    return urllib.parse.urlsplit(url).netloc.lower().removeprefix("www.")
+
+
+def _probe_one(u: str, timeout: int) -> tuple[str, str, int | str, str]:
+    """单 URL 直取 → (url, 文本, 状态, 失败种类)。
+
+    状态语义（供死信账本结构化记账用，见 kb_backfill 的 reason_code）：
+      200           取到
+      403/404/410/451  服务端明确拒绝/不存在（**页面级**，与主机无关）
+      "blocked"     在 DIRECT_BLOCKED_HOSTS / 本轮已拉黑的主机
+      "timeout" / "unreachable"  连接级失败
+      "nontext"     Content-Type 不是可读文本（视频/二进制）
+    """
+    try:
+        req = urllib.request.Request(u, headers={
+            "User-Agent": DIRECT_UA,
+            "Accept": "text/html,application/xhtml+xml,text/plain;q=0.9,*/*;q=0.8",
+            "Accept-Language": "en,zh-CN;q=0.8",
+            "Accept-Encoding": "gzip, deflate",
+        })
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            if r.status != 200:
+                return u, "", int(r.status), "http"
+            ctype = (r.headers.get("Content-Type") or "").lower()
+            if ctype and not ("html" in ctype or "text" in ctype or "json" in ctype):
+                return u, "", 200, "nontext"
+            raw = r.read(800_000)
+    except urllib.error.HTTPError as e:
+        # HTTPError 必须**先于** URLError 捕获（它是子类），否则 404 会被当成主机级故障。
+        return u, "", int(e.code), "http"
+    except Exception as e:                                          # noqa: BLE001
+        msg = str(e).lower()
+        kind = "timeout" if ("timed out" in msg or "timeout" in msg) else \
+            ("unreachable" if any(k in msg for k in _CONN_ERR_KINDS) else "error")
+        if kind in ("timeout", "unreachable"):
+            h = host_of(u)
+            if h not in _direct_host_fail:
+                print(f"    [i] 直取拉黑主机 {h}（本轮不再重试）：{str(e)[:70]}", flush=True)
+            _direct_host_fail.add(h)
+        return u, "", kind, kind
+    try:
+        if raw[:2] == b"\x1f\x8b":                                # 服务端没给头但确实是 gzip
+            raw = gzip_lib.decompress(raw)
+        m = re.search(rb'charset=["\']?([\w-]+)', raw[:2048], re.I)
+        cs = m.group(1).decode("ascii", "replace").lower() if m else "utf-8"
+        if cs in {"gb2312", "gbk", "gb18030", "big5"}:            # 国内源常见，别按 utf-8 硬解
+            return u, raw.decode(cs, "replace"), 200, ""
+        return u, raw.decode("utf-8", "replace"), 200, ""
+    except Exception:                                             # noqa: BLE001
+        return u, "", 200, "decode"
+
 
 def html_to_text(html: str) -> str:
     """极简 HTML → 纯文本（stdlib only）：去 script/style/标签、反转义、压空白。
@@ -477,70 +538,56 @@ def html_to_text(html: str) -> str:
     return s.strip()
 
 
-def direct_fetch_texts(urls: list[str], max_chars=8000, timeout=12, workers=4) -> dict[str, str]:
+def direct_fetch_texts(urls: list[str], max_chars=8000, timeout=12, workers=4,
+                       status_out: dict | None = None) -> dict[str, str]:
     """用 stdlib urllib 直取页面正文（零依赖、无额度限制）。
 
     返回 {url: text}；失败/过短的 URL 直接不出现在结果里（调用方据此决定是否回退 Exa）。
     不做任何「伪造正文」：拿不到就是拿不到。
+
+    `status_out`：可选输出字典，逐条填 url → 状态（200 / 403 / 404 / "blocked" /
+    "timeout" / "unreachable" / "nontext"）。**为什么必须有**：死信账本此前只记一句
+    自然语言理由，无法回答「为什么判死」——账本声称 66 条 github 死信可救，实际只救回 6 条，
+    因为「死的时候用的是哪个 URL、后端到底报了什么」根本没记（见 2026-09-21 调研报告 §4.2）。
     """
     out: dict[str, str] = {}
     todo: list[str] = []
     for u in urls:
         if not u or not u.startswith("http"):
+            if status_out is not None and u:
+                status_out[u] = "bad_url"
             continue
-        host = urllib.parse.urlsplit(u).netloc.lower().removeprefix("www.")
+        host = host_of(u)
         if host in DIRECT_BLOCKED_HOSTS or host in _direct_host_fail:
+            if status_out is not None:
+                status_out[u] = "blocked"
             continue
         todo.append(u)
     if not todo:
         return out
 
-    def one(u: str) -> tuple[str, str]:
-        # 异常必须在这里吞掉：ThreadPoolExecutor.map 会在**迭代时**抛出，
-        # 一个 502 会炸掉整批（2026-09-21 实测：HN 页面 502 让整批 12 条全废）。
-        try:
-            req = urllib.request.Request(u, headers={
-                "User-Agent": DIRECT_UA,
-                "Accept": "text/html,application/xhtml+xml,text/plain;q=0.9,*/*;q=0.8",
-                "Accept-Language": "en,zh-CN;q=0.8",
-                "Accept-Encoding": "gzip, deflate",
-            })
-            with urllib.request.urlopen(req, timeout=timeout) as r:
-                if r.status != 200:
-                    return u, ""
-                ctype = (r.headers.get("Content-Type") or "").lower()
-                if ctype and not ("html" in ctype or "text" in ctype or "json" in ctype):
-                    return u, ""
-                raw = r.read(800_000)
-        except Exception as e:                                       # noqa: BLE001
-            # 连接级失败（Tunnel 502 / 超时）多半是**主机级**的：同主机再试 N 次还是失败，
-            # 本轮内拉黑，避免 500 条缺口里 400 条是同一主机时白等超时。
-            host = urllib.parse.urlsplit(u).netloc.lower().removeprefix("www.")
-            if isinstance(e, urllib.error.URLError) or "Tunnel" in str(e):
-                if host not in _direct_host_fail:
-                    print(f"    [i] 直取拉黑主机 {host}（本轮不再重试）：{str(e)[:70]}", flush=True)
-                _direct_host_fail.add(host)
-            return u, ""
-        try:
-            if raw[:2] == b"\x1f\x8b":                                # 服务端没给头但确实是 gzip
-                raw = gzip_lib.decompress(raw)
-            m = re.search(rb'charset=["\']?([\w-]+)', raw[:2048], re.I)
-            cs = m.group(1).decode("ascii", "replace").lower() if m else "utf-8"
-            if cs in {"gb2312", "gbk", "gb18030", "big5"}:            # 国内源常见，别按 utf-8 硬解
-                return u, raw.decode(cs, "replace")
-            return u, raw.decode("utf-8", "replace")
-        except Exception:                                             # noqa: BLE001
-            return u, ""
-
     from concurrent.futures import ThreadPoolExecutor
     with ThreadPoolExecutor(min(workers, len(todo))) as ex:
-        for u, raw_html in ex.map(one, todo):
+        # 异常必须在这里吞掉：ThreadPoolExecutor.map 会在**迭代时**抛出，
+        # 一个 502 会炸掉整批（2026-09-21 实测：HN 页面 502 让整批 12 条全废）。
+        # _probe_one 内部已 try/except 全包，返回状态而不是抛。
+        for u, raw_html, status, _kind in ex.map(lambda x: _probe_one(x, timeout), todo):
+            if status_out is not None:
+                status_out[u] = status
             if not raw_html:
                 continue
             txt = html_to_text(raw_html)
             if len(txt) >= 100:
                 out[u] = txt[:max_chars]
+            elif status_out is not None:
+                status_out[u] = f"{status}:too_short"
     return out
+
+
+def direct_probe(url: str, timeout: int = 15) -> tuple[int | str, str]:
+    """单 URL 直取 → (状态, 文本)。给「按状态分类死信」的小批量场景用（见 kb_backfill）。"""
+    _u, txt, status, _kind = _probe_one(url, timeout)
+    return status, txt
 
 
 def exa_search(query: str, n=10, timeout=120) -> list[dict]:
@@ -796,8 +843,14 @@ class Seen:
 
     def touch(self, iid: str, source: str, note_rel: str, metrics: dict | None = None,
               content_hash: str | None = None):
-        rec = self.items.setdefault(iid, {"first_seen": iso(now_cst()), "seen_count": 0,
-                                          "source": source, "note": note_rel})
+        # setdefault 逐个补，而不是一次性 setdefault 整条：采集端现在会**先**写 simhash
+        # （在线近重复标注要在正文落盘前算），那时记录已经存在但缺 first_seen/seen_count。
+        # 整条 setdefault 会把这些字段永久留空 → first_seen 丢失、seen_count 从 0 起跳。
+        rec = self.items.setdefault(iid, {})
+        rec.setdefault("first_seen", iso(now_cst()))
+        rec.setdefault("seen_count", 0)
+        rec.setdefault("source", source)
+        rec.setdefault("note", note_rel)
         rec["last_seen"] = iso(now_cst())
         rec["seen_count"] = rec.get("seen_count", 0) + 1
         rec["note"] = note_rel
