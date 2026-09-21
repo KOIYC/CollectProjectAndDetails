@@ -43,9 +43,9 @@ from collections import Counter
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from kb_common import (META, ROOT, Seen, fm_scalars, iso, norm_url, now_cst,  # noqa: E402
-                       rotate_files, set_fm_scalar, sha1, slugify, split_note, topic_of,
-                       _BAD)
+from kb_common import (META, ROOT, Seen, del_fm_scalar, fm_scalars, iso,  # noqa: E402
+                       norm_url, now_cst, pub_day_of, rotate_files, set_fm_scalar,
+                       sha1, slugify, split_note, topic_of, _BAD)
 from kb_collect import (corpus_note_path, method_note_path, nav_block,  # noqa: E402
                         person_note_path, project_note_path, write_entity_note)
 from kb_content_audit import load_latest                               # noqa: E402
@@ -78,8 +78,15 @@ def strip_nav(body: str) -> str:
 
 
 def apply(path: Path, *, nav: bool, topic: bool, dates: bool, sync_kind: bool,
-          live: dict[str, dict]) -> set[str]:
-    """就地补一条语料页的结构字段，返回本次实际改动的项名集合（空集 = 无需改）。"""
+          live: dict[str, dict], write: bool = True) -> set[str]:
+    """就地补一条语料页的结构字段，返回本次实际改动的项名集合（空集 = 无需改）。
+
+    `write=False` 时只算不写 —— 干跑（`--dry`）必须走这条路径，**不许另写一套简化判据**。
+    历史教训：--dry 曾自己实现一份只认 topic/shard/导航 的检测器，于是它报的「结果」
+    与真跑实际改的东西**不是同一个集合**（pub_day 归一化、导航过期都不在其中）。
+    后果不是少报几个数字，而是「连跑两次第二次必须为空」这条幂等验证失效 ——
+    干跑说没事、真跑改了 25 处，第二天再干跑又说没事。
+    """
     sp = split_note(path.read_text(encoding="utf-8"))
     if sp is None:
         return {"非法frontmatter"}
@@ -121,10 +128,16 @@ def apply(path: Path, *, nav: bool, topic: bool, dates: bool, sync_kind: bool,
         if m and fm.get("shard") != m.group(1):
             head = set_fm_scalar(head, "shard", m.group(1))
             changed.add("补shard")
-        pub = (fm.get("published_at") or "")[:10]
+        # 归一化后可能得 None（渠道没给发布日，如 betalist/indiehackers）——
+        # 此时要么不写该字段，要么把裸切出来的垃圾值（`Thu, 17 Se` / `N/A`）清掉，
+        # 否则它会永远占着 Bases 时间轴的一个假分组。
+        pub = pub_day_of(fm.get("published_at"))
         if pub and fm.get("pub_day") != pub:
             head = set_fm_scalar(head, "pub_day", pub)
             changed.add("补pub_day")
+        elif not pub and fm.get("pub_day"):
+            head = del_fm_scalar(head, "pub_day")
+            changed.add("清坏pub_day")
 
     # ③ 导航段（出链）—— 放在最后，因为它要读前面同步过的 kind + project_url（rec 已就地更新）
     if nav:
@@ -134,7 +147,7 @@ def apply(path: Path, *, nav: bool, topic: bool, dates: bool, sync_kind: bool,
             body = new_body
             changed.add("写导航")
 
-    if changed:
+    if changed and write:
         path.write_text(head + body, encoding="utf-8")
     return changed
 
@@ -578,33 +591,9 @@ def main() -> int:
             continue
         fm = fm_scalars(sp[0])
         kinds[fm.get("kind") or "?"] += 1
-        if a.dry:
-            if kw["topic"] and "topic" not in fm:
-                stat["缺topic"] += 1
-            if kw["dates"] and "shard" not in fm:
-                stat["缺shard"] += 1
-            if kw["nav"]:
-                if NAV_HEAD not in sp[1]:
-                    stat["缺导航"] += 1
-                else:
-                    # 光看「有没有导航段」查不出**内容过期**（如实体页准入改了，
-                    # 非项目条目不该再出项目页链接）。所以按实际重算一遍比对。
-                    body_text = strip_nav(sp[1])
-                    sec = sp[1][sp[1].find(NAV_HEAD) + len(NAV_HEAD):]
-                    cur = {ln for ln in sec.splitlines() if ln.startswith("- ")}
-                    # 与 apply() 同源：project_url 取 live 记录（否则算出的实体页名与
-                    # healthcheck ② 不同 → 干跑永远报「导航内容过期」，真跑又写回旧名）
-                    _r = as_item(fm, body_text)
-                    _src = live.get(fm.get("item_id"))
-                    if _src and _src.get("project_url") and not _r.get("project_url"):
-                        _r["project_url"] = _src["project_url"]
-                    if _src and _src.get("kind"):
-                        _r["kind"] = _src["kind"]
-                    new = {ln for ln in nav_block(_r) if ln.startswith("- ")}
-                    if cur != new:
-                        stat["导航内容过期"] += 1
-            continue
-        for c in apply(p, live=live, **kw):
+        # 干跑与真跑共用同一个 apply()，只靠 write 开关区分。
+        # 这样 --dry 报出的计数就是「真跑会改的条数」，幂等验证才可信。
+        for c in apply(p, live=live, write=not a.dry, **kw):
             stat[c] += 1
 
     print(f"kind 分布: {dict(kinds)}")

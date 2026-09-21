@@ -12,7 +12,6 @@ lang: "en"
 kind: "method"
 topic: "开发者工具"
 shard: "2026-09-21"
-pub_day: "N/A"
 tags:
   - 语料
   - exa_discovery

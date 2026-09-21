@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/SaaS/comments/1wj8yif/burned_hundreds_on_reddit_a
 project_url: "https://portreeve.com/"
 author: "ernest-ai"
 published_at: "2026-09-18T06:51:40+08:00"
-captured_at: "2026-09-21T09:45:46+08:00"
+captured_at: "2026-09-21T13:04:42+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=17 · 评论=31 · 赞踩比=0.84
 > 作者：ernest-ai　|　发布：2026-09-18T06:51:40+08:00
 > 项目链接：<https://portreeve.com/>
-> 采集：2026-09-21T09:45:46+08:00　|　id：`b9cab6dad2c1be81`
+> 采集：2026-09-21T13:04:42+08:00　|　id：`b9cab6dad2c1be81`
 
 ## 正文
 

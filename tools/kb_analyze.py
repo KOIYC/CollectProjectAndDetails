@@ -169,6 +169,7 @@ def analyze(round_run: str | None = None) -> dict:
     # 缺口清单（按画像判定）：可被 kb_backfill.py 直接消费
     dead = _load_dead()
     gaps: list[dict] = []
+    absent: list[dict] = []                                     # 契约型「本该没有正文」的明账
     dead_cnt = 0
     for it in items:
         prof = profiles.get(it["source_id"], "discussion")
@@ -176,6 +177,15 @@ def analyze(round_run: str | None = None) -> dict:
         miss = []
         if exp["body"] and len(it.get("body") or "") < BODY_MIN:
             miss.append("body")
+        elif not exp["body"] and len(it.get("body") or "") < BODY_MIN:
+            # 该 profile 声明「本渠道不产出正文」（metadata / signal 层）→ 不是缺口。
+            # 但必须**入账**，不能只是 `continue` 掉：那样这些条目既不在回填队列、也不在
+            # 死信账本，成为「账外条目」——审计时无法区分「已判废」与「还没试过」。
+            # 实测 55 条（bilibili 31 / apple_rss 18 / sspai 6）长期悬空，正是这个原因。
+            absent.append({"item_id": it["item_id"], "source_id": it["source_id"],
+                           "profile": prof, "url": it.get("url"),
+                           "title": (it.get("title") or "")[:80]})
+            continue
         if exp["project_url"] and not it.get("project_url"):
             miss.append("project_url")
         if not miss:
@@ -188,6 +198,9 @@ def analyze(round_run: str | None = None) -> dict:
                      "page": it.get("url"), "title": (it.get("title") or "")[:80]})
     rep["gaps"] = gaps
     rep["gap_dead"] = dead_cnt
+    rep["expected_absent"] = absent
+    rep["expected_absent_by_channel"] = collections.Counter(
+        a["source_id"] for a in absent).most_common()
     rep["gap_by_channel"] = collections.Counter(
         (g["source_id"], ",".join(g["missing"])) for g in gaps).most_common()
     rep["profiles"] = profiles
@@ -256,6 +269,14 @@ def render(rep: dict) -> str:
         L.append("- 无缺口")
     if rep.get("gap_dead"):
         L.append(f"- 另有 **{rep['gap_dead']}** 条已判结构性无正文（死信账本 `_meta/backfill_dead.json`），不再重试")
+    if rep.get("expected_absent"):
+        by = "、".join(f"{k}={v}" for k, v in rep["expected_absent_by_channel"])
+        L += ["", "### 契约型无正文（**不是缺口，但要入账**）", "",
+              f"- **{len(rep['expected_absent'])}** 条：{by}",
+              "- 这些渠道的 profile 声明不产出正文（`metadata` / `layer=signal`，如 App Store 榜单、"
+              "B 站视频简介）。它们**不计入缺口、不消耗回填额度**，但也**不属于死信**——"
+              "列出是为了让「按契约没有」与「该有但没抓到」在报表上可区分，"
+              "避免它们同时缺席两个账本、变成无法判读的账外条目。"]
     L += ["", "## 噪声条目（removed/deleted）", ""]
     L += [f"- `{n['source']}` {n['title']}" for n in rep["noise"]] or ["- 无"]
     L += ["", "## 无正文条目分布", "",
@@ -354,6 +375,8 @@ def main(argv=None) -> int:
                         for k, v in rep["by_channel"].items()},
          "body_missing": rep["body_missing"], "noise": len(rep["noise"]),
          "gaps": len(rep.get("gaps") or []), "gap_by_channel": rep.get("gap_by_channel"),
+         "expected_absent": len(rep.get("expected_absent") or []),
+         "expected_absent_by_channel": rep.get("expected_absent_by_channel"),
          "money_signal": rep["money_signal"], "lang": rep["lang"]},
         ensure_ascii=False, indent=1), encoding="utf-8")
     # 缺口队列：kb_backfill.py 直接消费

@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/IndieDev/comments/1w3g81a/aurora_borealis/"
 author: "_V3X3D_"
 published_at: "2026-08-31T22:56:49+08:00"
-captured_at: "2026-09-21T03:20:12+08:00"
+captured_at: "2026-09-21T13:04:32+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -35,7 +35,7 @@ discovered_via: "reddit:52d+settle3"
 > 指标：得分=159 · 评论=14 · 赞踩比=0.99
 > 作者：_V3X3D_　|　发布：2026-08-31T22:56:49+08:00
 > 项目链接：—
-> 采集：2026-09-21T03:20:12+08:00　|　id：`7133e55715dba07a`
+> 采集：2026-09-21T13:04:32+08:00　|　id：`7133e55715dba07a`
 
 ## 正文
 

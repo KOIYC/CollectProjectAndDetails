@@ -8,7 +8,7 @@ url: "https://github.com/NandhaKishorM/laya"
 project_url: "https://github.com/NandhaKishorM/laya"
 author: "NandhaKishorM"
 published_at: "2026-09-18T04:46:33Z"
-captured_at: "2026-09-21T09:54:58+08:00"
+captured_at: "2026-09-21T13:02:19+08:00"
 lang: "en"
 kind: "post"
 topic: "SaaS/B2B"
@@ -36,7 +36,7 @@ discovered_via: "github:14d"
 > 指标：stars=4339 · forks=393 · open_issues=25
 > 作者：NandhaKishorM　|　发布：2026-09-18T04:46:33Z
 > 项目链接：<https://github.com/NandhaKishorM/laya>
-> 采集：2026-09-21T09:54:58+08:00　|　id：`e6a3c3f817cf5690`
+> 采集：2026-09-21T13:02:19+08:00　|　id：`e6a3c3f817cf5690`
 
 ## 正文
 

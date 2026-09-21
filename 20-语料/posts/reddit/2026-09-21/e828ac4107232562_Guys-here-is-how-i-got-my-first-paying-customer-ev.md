@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1wi7lim/guys_here_is_how_i_got_my_first_paying_customer/"
 author: "Confident_Alfalfa228"
 published_at: "2026-09-17T03:42:54+08:00"
-captured_at: "2026-09-21T09:55:38+08:00"
+captured_at: "2026-09-21T13:03:08+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -18,7 +18,7 @@ tags:
   - reddit
   - r/SaaS
 metrics: {"score": 42, "comments": 23, "upvote_ratio": 0.88}
-comments_count: 20
+comments_count: 21
 comments_total: 23
 discovered_via: "reddit:7d+settle3"
 ---
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=42 · 评论=23 · 赞踩比=0.88
 > 作者：Confident_Alfalfa228　|　发布：2026-09-17T03:42:54+08:00
 > 项目链接：—
-> 采集：2026-09-21T09:55:38+08:00　|　id：`e828ac4107232562`
+> 采集：2026-09-21T13:03:08+08:00　|　id：`e828ac4107232562`
 
 ## 正文
 
@@ -42,7 +42,7 @@ Guys i am building my saas for the last 4 months but stopped working then again 
 
 NOTE: Do seo properly to your saas it will help in long run and can get you customers without you even realising
 
-## 评论（20/23）
+## 评论（21/23）
 
 > **Confident_Alfalfa228**（7 分） · 2026-09-17T03:45:55+08:00　
 > https://preview.redd.it/lueskxprrxph1.png?width=1436&format=png&auto=webp&s=6adfb0a74270287537ceef56a88bffd741cfbd0d
@@ -152,6 +152,11 @@ NOTE: Do seo properly to your saas it will help in long run and can get you cust
 > One sale isn't a channel yet obviously, but a stranger finding you while actively shopping for an alternative is a much nicer signal than 1,000 curiosity clicks.
 >
 > Congrats btw 👍🏼
+
+---
+
+> **Imaginary-Bathroom66**（1 分） · 2026-09-21T10:08:17+08:00　
+> Congratulations!
 
 ## 导航
 

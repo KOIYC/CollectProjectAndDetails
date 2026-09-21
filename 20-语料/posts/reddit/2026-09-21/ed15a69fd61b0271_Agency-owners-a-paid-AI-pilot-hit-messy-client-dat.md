@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1wj9f6v/agency_owners_a_paid_ai_pilot_hit_messy_client/"
 author: "andrewaltair"
 published_at: "2026-09-18T07:10:35+08:00"
-captured_at: "2026-09-21T09:45:46+08:00"
+captured_at: "2026-09-21T13:04:47+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=7 · 赞踩比=1
 > 作者：andrewaltair　|　发布：2026-09-18T07:10:35+08:00
 > 项目链接：—
-> 采集：2026-09-21T09:45:46+08:00　|　id：`ed15a69fd61b0271`
+> 采集：2026-09-21T13:04:47+08:00　|　id：`ed15a69fd61b0271`
 
 ## 正文
 

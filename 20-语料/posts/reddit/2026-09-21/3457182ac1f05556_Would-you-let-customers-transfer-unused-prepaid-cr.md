@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/microsaas/comments/1wi9q8e/would_you_let_customers_transfer_unused_prepaid/"
 author: "darterweb"
 published_at: "2026-09-17T05:01:26+08:00"
-captured_at: "2026-09-21T09:55:55+08:00"
+captured_at: "2026-09-21T13:03:30+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=11 · 赞踩比=0.72
 > 作者：darterweb　|　发布：2026-09-17T05:01:26+08:00
 > 项目链接：—
-> 采集：2026-09-21T09:55:55+08:00　|　id：`3457182ac1f05556`
+> 采集：2026-09-21T13:03:30+08:00　|　id：`3457182ac1f05556`
 
 ## 正文
 

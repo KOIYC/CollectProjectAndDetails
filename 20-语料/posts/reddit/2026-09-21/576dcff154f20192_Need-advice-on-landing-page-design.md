@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1wi4mpo/need_advice_on_landing_page_design/"
 author: "Adept-Dog-6716"
 published_at: "2026-09-17T01:57:59+08:00"
-captured_at: "2026-09-21T09:55:33+08:00"
+captured_at: "2026-09-21T13:03:02+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=4 · 评论=18 · 赞踩比=0.84
 > 作者：Adept-Dog-6716　|　发布：2026-09-17T01:57:59+08:00
 > 项目链接：—
-> 采集：2026-09-21T09:55:33+08:00　|　id：`576dcff154f20192`
+> 采集：2026-09-21T13:03:02+08:00　|　id：`576dcff154f20192`
 
 ## 正文
 

@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/IndieDev/comments/1wi6att/i_was_a_fool_indeed_agency_does_matter/"
 author: "disco69games"
 published_at: "2026-09-17T02:56:53+08:00"
-captured_at: "2026-09-21T09:55:36+08:00"
+captured_at: "2026-09-21T13:03:04+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=15 · 评论=3 · 赞踩比=0.89
 > 作者：disco69games　|　发布：2026-09-17T02:56:53+08:00
 > 项目链接：—
-> 采集：2026-09-21T09:55:36+08:00　|　id：`88d325299c94764c`
+> 采集：2026-09-21T13:03:04+08:00　|　id：`88d325299c94764c`
 
 ## 正文
 

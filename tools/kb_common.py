@@ -203,6 +203,46 @@ def iso(dt: datetime | None) -> str | None:
     return dt.astimezone(CST).replace(microsecond=0).isoformat()
 
 
+# ---------------------------------------------------------------- 发布日归一化
+#
+# 为什么必须有这一层：`pub_day` 是 B1 时间轴（Bases groupBy）与所有趋势分析的分组键，
+# 而它一直由 `(published_at or "")[:10]` 裸切产生。published_at 却不是单一格式：
+#   ISO8601   2026-09-20T09:23:24+08:00   （多数渠道）
+#   RFC822    Thu, 17 Sep 2026 10:00:00 +0800（sspai 等 RSS feed）
+#   字面量     "N/A"                        （exa_discovery 等）
+# 裸切 RFC822 得到 `Thu, 17 Se`，裸切 "N/A" 得到 `N/A` —— 两者都会写进 frontmatter，
+# 变成 Bases 视图里的一个独立分组、并且永远排不进时间序（实测：sspai 60 条 +
+# exa_discovery 6 条掉出时间轴）。这是典型的 metadata-borne defect：
+# 载荷本身完好，只有 lineage/时间语义被破坏，且不报错。
+_RFC822_RE = re.compile(r"^[A-Za-z]{3},\s+\d{1,2}\s+[A-Za-z]{3}\s+\d{4}")
+
+
+def pub_day_of(value: str | None) -> str | None:
+    """把任意渠道给出的发布时间归一成 `YYYY-MM-DD`（拿不到就 None，不猜）。
+
+    返回 None 表示「这个渠道没有提供可用的发布日」——调用方应当写 `None` 而不是写
+    垃圾串，让「无发布日」在 frontmatter 里显式为缺失，而不是变成一个假分组。
+    """
+    if not value or not isinstance(value, str):
+        return None
+    v = value.strip()
+    if not v or v.upper() in {"N/A", "NA", "NONE", "NULL", "-"}:
+        return None
+    m = re.match(r"^(\d{4}-\d{2}-\d{2})", v)                    # ISO8601 / date
+    if m:
+        return m.group(1)
+    if _RFC822_RE.match(v):                                     # RFC822 / RFC2822
+        try:
+            from email.utils import parsedate_to_datetime
+            return parsedate_to_datetime(v).strftime("%Y-%m-%d")
+        except Exception:                                      # noqa: BLE001
+            return None
+    m = re.match(r"^(\d{4})/(\d{1,2})/(\d{1,2})", v)            # 2026/09/17
+    if m:
+        return "%04d-%02d-%02d" % (int(m.group(1)), int(m.group(2)), int(m.group(3)))
+    return None
+
+
 def ensure_dirs() -> None:
     for d in ALL_DIRS:
         d.mkdir(parents=True, exist_ok=True)
@@ -922,6 +962,16 @@ def set_fm_scalar(head: str, key: str, value: str) -> str:
     if re.search(rf"^{key}:\s", head, re.M):
         return re.sub(rf"^{key}:.*$", f"{key}: {value}", head, count=1, flags=re.M)
     return head + f"\n{key}: {value}"
+
+
+def del_fm_scalar(head: str, key: str) -> str:
+    """删掉 frontmatter 里的一行 key（不存在则原样返回）。
+
+    为什么需要「删」而不只是「覆写」：`set_fm_scalar(head, k, None)` 写出来的是字面量
+    `k: None`，在 Bases 里会变成一个名为 "None" 的分组 —— 比缺字段更糟。
+    值确实不存在的字段必须整行拿掉，让「无值」在 frontmatter 里表现为缺失。
+    """
+    return re.sub(rf"^{key}:.*\n?", "", head, count=1, flags=re.M)
 
 
 def write_note(path: Path, frontmatter: dict, body: str) -> None:

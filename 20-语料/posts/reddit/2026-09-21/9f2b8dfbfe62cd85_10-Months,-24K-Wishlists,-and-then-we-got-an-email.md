@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/IndieDev/comments/1w3hm70/10_months_24k_wishlists
 project_url: "https://store.steampowered.com/app/3564990/Vales\\_Echo"
 author: "juodabarzdis"
 published_at: "2026-08-31T23:46:20+08:00"
-captured_at: "2026-09-21T03:20:15+08:00"
+captured_at: "2026-09-21T13:04:34+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -36,7 +36,7 @@ discovered_via: "reddit:52d+settle3"
 > 指标：得分=12 · 评论=8 · 赞踩比=0.93
 > 作者：juodabarzdis　|　发布：2026-08-31T23:46:20+08:00
 > 项目链接：<https://store.steampowered.com/app/3564990/Vales\_Echo>
-> 采集：2026-09-21T03:20:15+08:00　|　id：`9f2b8dfbfe62cd85`
+> 采集：2026-09-21T13:04:34+08:00　|　id：`9f2b8dfbfe62cd85`
 
 ## 正文
 

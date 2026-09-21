@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1wj9c9x/engineering_is_spending_half_a_headcount/"
 author: "Upstairs-Crab-2611"
 published_at: "2026-09-18T07:07:11+08:00"
-captured_at: "2026-09-21T09:45:46+08:00"
+captured_at: "2026-09-21T13:04:39+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=23 · 评论=9 · 赞踩比=0.93
 > 作者：Upstairs-Crab-2611　|　发布：2026-09-18T07:07:11+08:00
 > 项目链接：—
-> 采集：2026-09-21T09:45:46+08:00　|　id：`b8c2679504d204f5`
+> 采集：2026-09-21T13:04:39+08:00　|　id：`b8c2679504d204f5`
 
 ## 正文
 

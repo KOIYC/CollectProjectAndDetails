@@ -32,7 +32,7 @@ from kb_common import (BODY_MIN, CST, DIR_CHANNELS, DIR_CORPUS, DIR_METHOD, DIR_
                        DIR_PROJECTS, DIR_RAW, META, BodyCache, FetchError, RunLog, Seen,
                        append_jsonl, body_completeness, ensure_dirs, is_project_ish, iso,
                        load_channels_yaml, load_registry, norm_url, now_cst, note_bucket,
-                       sanitize_record, sha1, slugify, topic_of, write_note)
+                       pub_day_of, sanitize_record, sha1, slugify, topic_of, write_note)
 from kbc_channels import (ACCOUNT_URL_RE, ADAPTERS, ENRICH_ROUTING, FULLTEXT_BUDGET,  # noqa: E402,F401
                           LINK_RE, MAX_COMMENTS, PERSON_HANDLE_RE, as_tags, detect_lang,  # noqa: E402,F401
                           derive_project_url, enrich_generic, excerpt, filter_published,  # noqa: E402,F401
@@ -220,8 +220,11 @@ def write_corpus_note(it: dict, day: str) -> Path:
         # shard/pub_day 是**给 Bases 分组用的纯字符串日字段**：
         # Bases 的 groupBy 支持字符串属性最稳；直接对 ISO 时间串分组会一个时间戳一组（等于没分）。
         # 采到 shard（入库日）和 pub_day（发布日）两个维度，时间轴浏览就不用靠猜。
+        # pub_day 必须走 pub_day_of() 归一化，不能裸切 published_at[:10]：
+        # RFC822（sspai）裸切得 `Thu, 17 Se`、字面量 N/A（exa_discovery）裸切得 `N/A`，
+        # 都会变成 Bases 里一个排不进时间序的假分组。
         "shard": day,
-        "pub_day": (it.get("published_at") or "")[:10] or None,
+        "pub_day": pub_day_of(it.get("published_at")),
         "tags": ["语料", it["source_id"]] + (it.get("tags") or [])[:6],
         "metrics": {k: v for k, v in (it.get("metrics") or {}).items() if v is not None},
         "comments_count": len(comments),

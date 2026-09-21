@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/buildinpublic/comments/1wjcnyj/feedback_required/"
 author: "Effective_Owl8401"
 published_at: "2026-09-18T09:36:57+08:00"
-captured_at: "2026-09-21T09:45:50+08:00"
+captured_at: "2026-09-21T13:04:50+08:00"
 lang: "en"
 kind: "post"
 topic: 开发者工具
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=8 · 赞踩比=1
 > 作者：Effective_Owl8401　|　发布：2026-09-18T09:36:57+08:00
 > 项目链接：—
-> 采集：2026-09-21T09:45:50+08:00　|　id：`82bfca2378b8add3`
+> 采集：2026-09-21T13:04:50+08:00　|　id：`82bfca2378b8add3`
 
 ## 正文
 

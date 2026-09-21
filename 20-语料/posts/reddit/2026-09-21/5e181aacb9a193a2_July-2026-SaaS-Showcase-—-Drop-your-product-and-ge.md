@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/buildinpublic/comments/1ujr9oj/july_2026_saas_showcase_drop_your_product_and_get/"
 author: "aronn2002"
 published_at: "2026-06-30T22:46:37+08:00"
-captured_at: "2026-09-21T09:56:20+08:00"
+captured_at: "2026-09-21T13:04:11+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -34,7 +34,7 @@ discovered_via: "reddit:113d+settle3"
 > 指标：得分=10 · 评论=61 · 赞踩比=1
 > 作者：aronn2002　|　发布：2026-06-30T22:46:37+08:00
 > 项目链接：—
-> 采集：2026-09-21T09:56:20+08:00　|　id：`5e181aacb9a193a2`
+> 采集：2026-09-21T13:04:11+08:00　|　id：`5e181aacb9a193a2`
 
 ## 正文
 

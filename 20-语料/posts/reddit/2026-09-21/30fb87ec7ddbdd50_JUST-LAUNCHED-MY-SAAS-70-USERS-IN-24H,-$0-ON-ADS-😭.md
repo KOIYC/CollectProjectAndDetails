@@ -7,10 +7,10 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/buildinpublic/comments/1wjb535/just_launched_my_saas_70_users_in_24h_0_on_ads/"
 author: "G-Khalil"
 published_at: "2026-09-18T08:26:19+08:00"
-captured_at: "2026-09-21T09:45:50+08:00"
+captured_at: "2026-09-21T13:04:40+08:00"
 lang: "en"
 kind: "post"
-topic: 开发者工具
+topic: "AI 工具/Agent"
 shard: "2026-09-21"
 pub_day: "2026-09-18"
 tags:
@@ -26,7 +26,7 @@ discovered_via: "reddit:7d+settle3"
 # JUST LAUNCHED MY SAAS: 70 USERS IN 24H, $0 ON ADS 😭
 
 > [!info] 一句话导读
-> I just launched my SaaS.
+> document.addEventListener("DOMContentLoaded",async function(){var e=document.forms[0],n=(e.onsubmit=function(t){return new URLSearchParams(document.location.sea…
 
 > [!meta]- 语料信息（点开展开）
 > 来源：Reddit 独立开发版块（post）
@@ -34,19 +34,17 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=23 · 评论=35 · 赞踩比=0.88
 > 作者：G-Khalil　|　发布：2026-09-18T08:26:19+08:00
 > 项目链接：—
-> 采集：2026-09-21T09:45:50+08:00　|　id：`30fb87ec7ddbdd50`
+> 采集：2026-09-21T13:04:40+08:00　|　id：`30fb87ec7ddbdd50`
 
 ## 正文
 
-I just launched my SaaS.
+Reddit
 
-24 hours in:
-70 users.
-$0 on ads.
+ document.addEventListener("DOMContentLoaded",async function(){var e=document.forms[0],n=(e.onsubmit=function(t){return new URLSearchParams(document.location.search).forEach((e,n)=>t.target.appendChild(Object.assign(document.createElement("input"),{name:n,type:"hidden",value:e}))),!0},await(async e=>e+e)("b53d3b9c9d8a88be"));e.elements.namedItem("solution").value=n,e.requestSubmit()},{once:!0});
 
-Stripe notifications keep hitting.
+ main{align-items:center;display:flex;height:100vh;isolation:isolate;justify-content:center;position:relative;width:100vw}main:before{animation:scaleout 1.5s infinite ease-in-out;background-color:#d93900;border-radius:100%;content:'';height:8rem;opacity:.75;position:absolute;width:8rem}.logo{align-items:center;display:flex;fill:currentColor;font-size:4rem;justify-content:center;z-index:1}.logo svg{fill:currentColor;height:8rem;width:auto}@keyframes scaleout{0%{transform:scale(1)}100%{transform:scale(1.5);opacity:0}}.snoo-cls-1{fill:url(#snoo-radial-gragient) white}.snoo-cls-1,.snoo-cls-2,.snoo-cls-3,.snoo-cls-4,.snoo-cls-5,.snoo-cls-6,.snoo-cls-7,.snoo-cls-8,.snoo-cls-9,.snoo-cls-10,.snoo-cls-11{stroke-width:0}.snoo-cls-2{fill:url(#snoo-radial-gragient-2) white}.snoo-cls-3{fill:url(#snoo-radial-gragient-3) white}.snoo-cls-4{fill:url(#snoo-radial-gragient-4) #fc4301}.snoo-cls-5{fill:url(#snoo-radial-gragient-6) black}.snoo-cls-6{fill:url(#snoo-radial-gragient-8) black}.snoo-cls-7{fill:url(#snoo-radial-gragient-5) #fc4301}.snoo-cls-8{fill:url(#snoo-radial-gragient-7) white}.snoo-cls-9{fill:#842123}.snoo-cls-10{fill:#ff4500}.snoo-cls-11{fill:#ffc49c}
 
-I love this feeling. Someone believed. 😭
+# 6gw25kyen5qh1.jpeg
 
 ## 评论（29/35）
 
@@ -214,5 +212,5 @@ I love this feeling. Someone believed. 😭
 
 - 项目页：—（本条不是项目，按设计不建实体页）
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

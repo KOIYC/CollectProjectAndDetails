@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1w3gi3r/got_my_first_user_yippe/"
 author: "East-Carpet-3721"
 published_at: "2026-08-31T23:06:31+08:00"
-captured_at: "2026-09-21T09:56:35+08:00"
+captured_at: "2026-09-21T13:04:30+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -34,7 +34,7 @@ discovered_via: "reddit:52d+settle3"
 > 指标：得分=186 · 评论=34 · 赞踩比=0.89
 > 作者：East-Carpet-3721　|　发布：2026-08-31T23:06:31+08:00
 > 项目链接：—
-> 采集：2026-09-21T09:56:35+08:00　|　id：`7f555662fbd2bce1`
+> 采集：2026-09-21T13:04:30+08:00　|　id：`7f555662fbd2bce1`
 
 ## 正文
 

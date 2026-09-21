@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49711544"
 project_url: "https://github.com/arnegiacomo/fugleramme"
 author: "arnemunthekaas"
 published_at: "2026-09-15T12:31:10Z"
-captured_at: "2026-09-21T09:55:18+08:00"
+captured_at: "2026-09-21T13:02:41+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -21,7 +21,7 @@ tags:
   - story_49711544
   - show_hn
 metrics: {"points": 2355, "comments": 259, "engagement_velocity": 2355}
-comments_count: 246
+comments_count: 247
 comments_total: 259
 discovered_via: "hn:show_hn:90d"
 ---
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=2355 · 评论=259 · engagement_velocity=2355
 > 作者：arnemunthekaas　|　发布：2026-09-15T12:31:10Z
 > 项目链接：<https://github.com/arnegiacomo/fugleramme>
-> 采集：2026-09-21T09:55:18+08:00　|　id：`b6a5a0f6057541b4`
+> 采集：2026-09-21T13:02:41+08:00　|　id：`b6a5a0f6057541b4`
 
 ## 正文
 
@@ -136,7 +136,7 @@ Want to update? Just pull and run ./setup.sh again
  2022, Ecology Letters, doi:10.1111/ele.13898),
  CC BY 4.0.
 
-## 评论（246/259）
+## 评论（247/259）
 
 > **arnemunthekaas** · 2026-09-15T12:31:25.000Z　
 > Author here. A mic listens to the sounds in my garden, BirdNET-Go (an open-source BirdNET classifier) detects birds by sound, and the e-ink frame draws a real 1800s natural-history illustration of each one as it hears them. Here’s a live web-demo from my garden in Bergen, Norway: https://fugleramme.arnegiacomo.devA few things that might be interesting:- The screen only redraws when the set of birds changes, and dithers the collage down to six colours for the e-ink display.- Bigger birds sit toward the centre, scaled by real body mass.- 800+ cutouts across 400+ species, each cut from a real public domain plate. All art is historic and human-made. Coverage is currently best for the Nordics, Britain and Germany (but other parts of the world are in the works).- Runs fully local on a Raspberry Pi or your homelab (yes, even the classifier runs great on a RPI)The e-ink panel is optional and it can run web-only in a container against a BirdNET-Go you already have.Happy to answer any questions!
@@ -810,6 +810,11 @@ Want to update? Just pull and run ./setup.sh again
 
 > **dzhiurgis** · 2026-09-17T00:54:43.000Z　
 > I want a Japanese woodprint inspired colour dashboard for my Home Assistant. I don't need it at all, but I want it so badly. Some sketches I did with chatgpt look amazing.Colour e-ink are kinda small tho. Something like samsung frame tv might be better option.
+
+---
+
+> **westurner** · 2026-09-21T02:32:26.000Z　
+> Meshtastic InkHUD on a device w/ LoRA, BLE, Wifi; https://news.ycombinator.com/item?id=49060831 , an unfinished start at weather, and then Mu Animation Video w/ gaussian splatting to do better than GIF on ESP32-S3, and then also on TI-84: https://news.ycombinator.com/item?id=49262597 , story: https://news.ycombinator.com/item?id=49060309From https://news.ycombinator.com/item?id=48775482 :> Waveshare has a E6 full color ePaper/eInk/EPD display in 3.6" and 7.3"A digital picture frame that's wall-powered could act as a node in a Meshtastic or MeshCore LoRA mesh.
 
 ---
 

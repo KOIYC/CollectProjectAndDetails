@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1wj7krx/whats_the_best_virtual_office_software_for_a/"
 author: "infinitydrift1"
 published_at: "2026-09-18T05:54:43+08:00"
-captured_at: "2026-09-21T09:45:46+08:00"
+captured_at: "2026-09-21T13:04:49+08:00"
 lang: "en"
 kind: "post"
 topic: 开发者工具
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=7 · 赞踩比=1
 > 作者：infinitydrift1　|　发布：2026-09-18T05:54:43+08:00
 > 项目链接：—
-> 采集：2026-09-21T09:45:46+08:00　|　id：`42bf3de09af7cfeb`
+> 采集：2026-09-21T13:04:49+08:00　|　id：`42bf3de09af7cfeb`
 
 ## 正文
 

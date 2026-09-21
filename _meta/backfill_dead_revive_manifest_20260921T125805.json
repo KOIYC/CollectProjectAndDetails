@@ -1,0 +1,537 @@
+{
+ "action": "revive-github",
+ "at": "2026-09-21T12:58:05+08:00",
+ "count": 66,
+ "reason": "路由按 source_id 分流导致 github 目标未走 gh readme，属可修缺陷",
+ "undo": "把这批 item_id 重新写回 _meta/backfill_dead.json 的 items（attempts>=2）",
+ "items": {
+  "891fd61d0d11056a": {
+   "attempts": 2,
+   "title": "Show HN: Run the birds sound detection on any Kobo eReader",
+   "url": "https://github.com/BandarLabs/Cobalt/tree/beta/apps/birds",
+   "source_id": "hn_show",
+   "last_try": "2026-09-20T09:55:17+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "f7ed9196fd90c663": {
+   "attempts": 2,
+   "title": "Show HN: ThreeJS Runtime Performance Optimization Tools for ClaudeCode",
+   "url": "https://github.com/wonglok/effectnode-b3-template-code/tree/main/src/runtime-intelligence",
+   "source_id": "hn_show",
+   "last_try": "2026-09-20T09:55:17+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "50f24fcca5d4d7f6": {
+   "attempts": 2,
+   "title": "Show HN: Warp – Run DeepSeek v4.1 Flash with 5 GB of RAM at 3.77 tok/s",
+   "url": "https://github.com/sqliteai/warp",
+   "source_id": "hn_show",
+   "last_try": "2026-09-20T14:59:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "8ef7753e10c2bd6a": {
+   "attempts": 1,
+   "title": "Show HN: Pizza Bot – An inbox for AI agents that work in the backgroun",
+   "url": "https://github.com/pizza-bot-app/pizza-bot",
+   "source_id": "hn_show",
+   "last_try": "2026-09-20T09:39:56+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "a3fc2c860fa97709": {
+   "attempts": 1,
+   "title": "Show HN: Yet another argument parser for Zig",
+   "url": "https://github.com/gabor-boros/yaap",
+   "source_id": "hn_show",
+   "last_try": "2026-09-20T09:39:56+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "338c1507aa804352": {
+   "attempts": 1,
+   "title": "Show HN: Karen – app feedback as easy as complaining",
+   "url": "https://github.com/bassimeledath/karen/tree/main",
+   "source_id": "hn_show",
+   "last_try": "2026-09-20T09:39:56+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "dbdfc52c10d890f3": {
+   "attempts": 2,
+   "title": "Show HN: LingBot-World 2.0 (1.3B) running at 16 FPS on one RTX 5090",
+   "url": "https://github.com/kaarelkaarelson/lingbot-world-v2-realtime",
+   "source_id": "hn_show",
+   "last_try": "2026-09-20T14:59:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "cff26887b23e93bb": {
+   "attempts": 2,
+   "title": "Show HN: Talos – A personal agent whose kernel gates every tool call",
+   "url": "https://github.com/talos-kernel/Talos",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "1eff0532efaf5002": {
+   "attempts": 2,
+   "title": "Show HN: Proxy-benchmark – is it the proxy, the browser, or your machi",
+   "url": "https://github.com/nodemaven/proxy-benchmark",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "a18a5124a85ae2e5": {
+   "attempts": 2,
+   "title": "Show HN: DroidPutter – Run Cardputer Apps on Android via USB OTG",
+   "url": "https://github.com/fcavalcantirj/droidputter",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "e63b2ecea541875f": {
+   "attempts": 2,
+   "title": "Show HN: Omabib, a Zotero alternative for Omarchy with agent support",
+   "url": "https://github.com/atomashevic/omabib",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:46:05+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "530372d912757b91": {
+   "attempts": 1,
+   "title": "Show HN: Video as Code for Agents",
+   "url": "https://github.com/zPy52/video-as-code-for-agents",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "b844149ab93348a5": {
+   "attempts": 1,
+   "title": "Show HN: Hexlock – Replace PII in text with fake data that has the sam",
+   "url": "https://github.com/ttarvis/hexlock",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "27117b86b123cbf5": {
+   "attempts": 1,
+   "title": "Show HN: Shuck – a fast shell linter written in Rust",
+   "url": "https://github.com/ewhauser/shuck",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "61ad20e98982a471": {
+   "attempts": 1,
+   "title": "Show HN: Agent-relay – multi-agent workflows that learn from past runs",
+   "url": "https://github.com/srijansk/agent-relay",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "7c8bda8842731617": {
+   "attempts": 1,
+   "title": "Show HN: Homebutler – a single-binary homelab ops tool with backup dri",
+   "url": "https://github.com/Higangssh/homebutler",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "b5b2c87d3e453cf0": {
+   "attempts": 1,
+   "title": "Show HN: Iso.me – Open-source, on-device iOS location tracker",
+   "url": "https://github.com/CodyBontecou/isome",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "4fc98001f8d5267a": {
+   "attempts": 1,
+   "title": "Show HN: Agent-recall-AI – Auto-save for AI agents that die mid-task",
+   "url": "https://github.com/srinathsankara/agent-recall-ai",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "c4dbaf0909ff5cdb": {
+   "attempts": 1,
+   "title": "Show HN: Notesync.md, macOS/iOS Keep notes in Markdown for agentic wor",
+   "url": "https://github.com/klinquist/Notesync",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "f92d0aac5b7fbf6e": {
+   "attempts": 1,
+   "title": "Show HN: Keep Mac awake while your agent works even with screen off, l",
+   "url": "https://github.com/ObservedObserver/Macchiato",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "c66b1647bc63cf96": {
+   "attempts": 1,
+   "title": "Show HN: Nimbalyst open-source visual workspace for ClaudeCode, Codex,",
+   "url": "https://github.com/Nimbalyst/nimbalyst",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "ad43ad57e4d9e61a": {
+   "attempts": 1,
+   "title": "Show HN: Secure-by-default Ollama Docker image with built-in auth, onl",
+   "url": "https://github.com/hwdsl2/docker-ollama",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "01473cdc62c00082": {
+   "attempts": 1,
+   "title": "Show HN: New Harness in Town",
+   "url": "https://github.com/1jehuang/jcode",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "76552ae059eb817d": {
+   "attempts": 1,
+   "title": "Show HN: Pollen – distributed WASM runtime, no control plane, single b",
+   "url": "https://github.com/sambigeara/pollen",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "dbfcceed30014099": {
+   "attempts": 1,
+   "title": "Show HN: Kanwas, open-source shared context board for teams and agents",
+   "url": "https://github.com/kanwas-ai/kanwas",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "238e29e45044d5cd": {
+   "attempts": 1,
+   "title": "Show HN: NVIM config that I use with my agents",
+   "url": "https://github.com/NishantJoshi00/nvim-config",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "ad3f10f4e5da0e4d": {
+   "attempts": 1,
+   "title": "Show HN: PortScout – TUI to find and kill processes occupying your por",
+   "url": "https://github.com/abhaikollara/portscout",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "df097c7ece49eb8b": {
+   "attempts": 1,
+   "title": "Show HN: Throwaway – open-source disposable email checker and API",
+   "url": "https://github.com/sslboard/throwaway",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "f02a13e30472e298": {
+   "attempts": 1,
+   "title": "Show HN: Arkloop – Open-source, local-first Agent client",
+   "url": "https://github.com/qqqqqf-q/arkloop",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "3952842f4a6b44fd": {
+   "attempts": 1,
+   "title": "Show HN: Pg_column_Tetris – a pg extension for optimal column alignmen",
+   "url": "https://github.com/rogerwelin/pg_column_tetris",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "6eefd881cf0544a6": {
+   "attempts": 1,
+   "title": "Show HN: Task Manager for AI Agents (MCP, Opensource)",
+   "url": "https://github.com/agentrq/agentrq",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "82ec3c11785c57e7": {
+   "attempts": 1,
+   "title": "Show HN: Lssh – Terminal-native remote access suite for SSH and cloud ",
+   "url": "https://github.com/blacknon/lssh",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "5bb65bac51742106": {
+   "attempts": 1,
+   "title": "Show HN: Agent that refuses to run commands without human approval",
+   "url": "https://github.com/few-sh/fewshell",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "a2f945e69d21275b": {
+   "attempts": 1,
+   "title": "Show HN: WorkProof – JSON schema for skill evidence graphs",
+   "url": "https://github.com/TalentProof/workproof-schema",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "132219dff72ba5f5": {
+   "attempts": 1,
+   "title": "Show HN: SigMap – 81.1% retrieval hit 5, 96.9% token reduce,zero deps",
+   "url": "https://github.com/manojmallick/sigmap",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "e80237eb5c93fa45": {
+   "attempts": 1,
+   "title": "Show HN: Yiitap – AI-native Notion-style block editor",
+   "url": "https://github.com/pileax-ai/yiitap",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "330910a04cc84533": {
+   "attempts": 1,
+   "title": "Show HN: Agent that mines academic research for novel time series disc",
+   "url": "https://github.com/adam-s/alphadidactic",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "97f23b1258d85ead": {
+   "attempts": 1,
+   "title": "Show HN: Nv – workspace orchestrator for jj built for parallel agent w",
+   "url": "https://github.com/eersnington/jj-navi",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "6b707d2135f54453": {
+   "attempts": 1,
+   "title": "Show HN: Stream iOS Simulators to a Browser Window",
+   "url": "https://github.com/EvanBacon/serve-sim",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "1af12ca9a8c17f92": {
+   "attempts": 1,
+   "title": "Show HN: Claude Code Web UI",
+   "url": "https://github.com/alexjbarnes/cockpit",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "a33332663f01bbdf": {
+   "attempts": 1,
+   "title": "Show HN: UART Terminal – Web-based serial terminal using WebSerial API",
+   "url": "https://github.com/baturyilmaz/uartterminal.com",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "2ca8cae4193f1e78": {
+   "attempts": 1,
+   "title": "Show HN: A CLI that'll prevent you from half-assing Auth",
+   "url": "https://github.com/COD434/create-authenik8-app",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "fdc2399a4bafd527": {
+   "attempts": 1,
+   "title": "Show HN: Looplet – a 0-dep agent loop you own",
+   "url": "https://github.com/hsaghir/looplet",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "300d2eda23ccd149": {
+   "attempts": 1,
+   "title": "Show HN: Scout – open-source Company Brain",
+   "url": "https://github.com/agno-agi/scout",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "e8677009e3b98bcb": {
+   "attempts": 1,
+   "title": "Show HN: A Multi User Multi Task Board MCP Server",
+   "url": "https://github.com/dizlexic/moo-tasks",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "ca48fd8b1f5d937e": {
+   "attempts": 1,
+   "title": "Show HN: Drag-and-Drop in the Terminal",
+   "url": "https://github.com/re-marked/yokai",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "4b79592eb7d5eb11": {
+   "attempts": 1,
+   "title": "Show HN: See where your computer connects (TapMap)",
+   "url": "https://github.com/olalie/tapmap",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "d7c2b285a3001306": {
+   "attempts": 1,
+   "title": "Show HN: Study Bible MCP – scholarly Greek/Hebrew lexicons and morphol",
+   "url": "https://github.com/djayatillake/studybible-mcp",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "fa6fecf5d37973b1": {
+   "attempts": 1,
+   "title": "Show HN: Clef – Manage secrets in Git with SOPS + plugin production de",
+   "url": "https://github.com/clef-sh/clef",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "83d9742ac7011b3c": {
+   "attempts": 1,
+   "title": "Show HN: Snitchmd – Cloudflare-protected URLs into clean Markdown via ",
+   "url": "https://github.com/syabro/snitchmd",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "b8846340389c3ac3": {
+   "attempts": 1,
+   "title": "Show HN: Label Design App for BT Thermal Printers – Niimbot, \"Cat Prin",
+   "url": "https://github.com/lukaszliniewicz/catlabel",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "f69b1b037e399a5a": {
+   "attempts": 1,
+   "title": "Show HN: DAC – open-source dashboard as code tool for agents and human",
+   "url": "https://github.com/bruin-data/dac",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "de4a02adca313337": {
+   "attempts": 1,
+   "title": "Show HN: Harness – Manage parallel Claude Code agents across Git workt",
+   "url": "https://github.com/frenchie4111/harness",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "a545e4b4d667ed00": {
+   "attempts": 1,
+   "title": "Show HN: Chuchu – an Android SSH Client powered by libghostty",
+   "url": "https://github.com/jossephus/chuchu",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "30fbd36db56feeb7": {
+   "attempts": 1,
+   "title": "Show HN: Agented, a Text Editor for LLMs",
+   "url": "https://github.com/frane/agented",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "b882d57f249f7c3a": {
+   "attempts": 1,
+   "title": "Show HN: A private-ish bookmark app that uses GitHub Gist as its back ",
+   "url": "https://github.com/chrisdiana/gistkeep",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "242b377d29419f4d": {
+   "attempts": 1,
+   "title": "Show HN: Stateless, system-wide Transparent Tor Proxy for Linux (v0.1.",
+   "url": "https://github.com/onyks-os/TransparentTorProxy",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "fd6aca9934b8b1d9": {
+   "attempts": 1,
+   "title": "Show HN: NeonD – self-hosted Postgres Platform with branching, PITR an",
+   "url": "https://github.com/matisiekpl/neond/",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "7ab158d1523b8c19": {
+   "attempts": 1,
+   "title": "Show HN: Adblock-rust Manager – Firefox extension to enable the Brave ",
+   "url": "https://github.com/electricant/adblock-rust-manager",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T01:45:26+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "41660a1814ccc2cd": {
+   "attempts": 2,
+   "title": "Show HN: Cordium: FOSS sandbox platform that eliminates credential inj",
+   "url": "https://github.com/octelium/cordium",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "cb724ff82291c574": {
+   "attempts": 2,
+   "title": "Show HN: Tab Council – turn your AI tabs into a model council",
+   "url": "https://github.com/vaddisrinivas/tab-council",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "40660ac5799ea2c1": {
+   "attempts": 2,
+   "title": "Show HN: Tinysandbox-JS-Runtime - JS in WASM in v8",
+   "url": "https://github.com/danthegoodman1/tinysandbox/tree/main/tinysandbox-js-runtime",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "11682f608a155d2b": {
+   "attempts": 1,
+   "title": "Show HN: N8n community node for Shotium – screenshot and OG image API",
+   "url": "https://github.com/shotium/n8n-nodes-shotium",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:14:03+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "22f420b5de0ff341": {
+   "attempts": 2,
+   "title": "Show HN: Babo – A scripting natural language that works as intended",
+   "url": "https://github.com/armbox/babo",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T09:56:35+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "c7ff48776160c3bf": {
+   "attempts": 1,
+   "title": "Show HN: Uniflow – a code skeleton so feature #50 looks like feature #",
+   "url": "https://github.com/splendidz/uniflow",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T03:20:20+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  },
+  "52c9c40b28a6ae8d": {
+   "attempts": 1,
+   "title": "Show HN: jevc – compile policy prompts into deterministic verdict prog",
+   "url": "https://github.com/doronp/jevc",
+   "source_id": "hn_show",
+   "last_try": "2026-09-21T09:56:35+08:00",
+   "reason": "取数失败（Exa 未命中该站）"
+  }
+ }
+}

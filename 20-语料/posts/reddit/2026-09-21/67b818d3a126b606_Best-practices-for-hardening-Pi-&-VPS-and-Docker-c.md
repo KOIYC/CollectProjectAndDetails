@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/selfhosted/comments/1w3crhr/best_practices_for_hardening_pi_vps_and_docker/"
 author: "locanse"
 published_at: "2026-08-31T20:46:15+08:00"
-captured_at: "2026-09-21T03:20:20+08:00"
+captured_at: "2026-09-21T13:04:37+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -35,7 +35,7 @@ discovered_via: "reddit:52d+settle3"
 > 指标：得分=8 · 评论=17 · 赞踩比=0.83
 > 作者：locanse　|　发布：2026-08-31T20:46:15+08:00
 > 项目链接：—
-> 采集：2026-09-21T03:20:20+08:00　|　id：`67b818d3a126b606`
+> 采集：2026-09-21T13:04:37+08:00　|　id：`67b818d3a126b606`
 
 ## 正文
 

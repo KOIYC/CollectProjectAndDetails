@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: An e-ink frame that hears birds and draws them as 1800s illustrations"
 project_url: "https://github.com/arnegiacomo/fugleramme"
-first_seen: "2026-09-21T09:55:18+08:00"
+first_seen: "2026-09-21T13:02:41+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/arnegiacomo/fugleramme>
-> 首次收录：2026-09-21T09:55:18+08:00
+> 首次收录：2026-09-21T13:02:41+08:00
 > 来源渠道：HN Show HN
 > 标签：author_arnemunthekaas, story_49711544, show_hn
 > 最新指标：点赞=2355 · 评论=259 · engagement_velocity=2355
@@ -42,6 +42,8 @@ lang: "en"
 | 2026-09-21T03:11:52+08:00 | HN Show HN | 点赞=2355 · 评论=259 · engagement_velocity=2355 | [[20-语料/posts/hn_show/2026-09-21/b6a5a0f6057541b4_Show-HN-An-e-ink-frame-that-hears-birds-and-draws]] |
 | 2026-09-21T03:17:58+08:00 | HN Show HN | 点赞=2355 · 评论=259 · engagement_velocity=2355 | [[20-语料/posts/hn_show/2026-09-21/b6a5a0f6057541b4_Show-HN-An-e-ink-frame-that-hears-birds-and-draws]] |
 | 2026-09-21T09:55:18+08:00 | HN Show HN | 点赞=2355 · 评论=259 · engagement_velocity=2355 | [[20-语料/posts/hn_show/2026-09-21/b6a5a0f6057541b4_Show-HN-An-e-ink-frame-that-hears-birds-and-draws]] |
+| 2026-09-21T12:59:35+08:00 | HN Show HN | 点赞=2355 · 评论=259 · engagement_velocity=2355 | [[20-语料/posts/hn_show/2026-09-21/b6a5a0f6057541b4_Show-HN-An-e-ink-frame-that-hears-birds-and-draws]] |
+| 2026-09-21T13:02:41+08:00 | HN Show HN | 点赞=2355 · 评论=259 · engagement_velocity=2355 | [[20-语料/posts/hn_show/2026-09-21/b6a5a0f6057541b4_Show-HN-An-e-ink-frame-that-hears-birds-and-draws]] |
 
 ## 摘要正文
 

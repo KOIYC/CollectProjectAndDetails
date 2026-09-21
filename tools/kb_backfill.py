@@ -29,7 +29,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from kb_common import (BODY_MIN, DIR_RAW, DIR_REPORT, FULLTEXT_MAX_CHARS, META,  # noqa: E402
                        ROOT, BodyCache, Seen, append_jsonl, body_completeness,
                        direct_fetch_texts, exa_fetch_texts, iso, norm_url, now_cst,
-                       note_bucket, rotate_runs, run_cli, sha1)
+                       note_bucket, rotate_files, rotate_runs, run_cli, sha1)
 from kb_collect import (ENRICH_ROUTING, MAX_COMMENTS, is_project_ish,  # noqa: E402
                         load_channels_yaml, write_corpus_note, write_entity_note)
 from kb_analyze import PROFILE_EXPECT  # noqa: E402
@@ -50,6 +50,37 @@ def save_dead(d: dict) -> None:
         {"updated": iso(now_cst()), "note": "结构性无正文（视频帖/Twitter 账号页/极短 README/反爬站）——"
                                           "连试 %d 轮后记账，不再消耗额度" % DEAD_AFTER,
          "items": d}, ensure_ascii=False, indent=1), encoding="utf-8")
+
+
+def revive_github_dead() -> tuple[int, Path]:
+    """把「目标 URL 指向 github 仓库」的死信放出队列，并留下 undo 清单。
+
+    为什么需要它：这类死信是**路由缺陷**造成的（按 source_id 而非 URL 分流），
+    不是真的取不到 —— 修好路由后必须把它们从账本里放出来，否则 build_queue 仍会
+    以 `attempts >= DEAD_AFTER` 跳过，修复等于没生效。
+    纪律：改账本必须留痕（同搬家三件套），清单里逐条记 from/to，可 --undo 还原语义。
+    """
+    dead = load_dead()
+    moved = {}
+    for iid, v in list(dead.items()):
+        m = GH_REPO_RE.match(v.get("url") or "")
+        if not m:
+            continue
+        if (m.group(2) or "").lower() in {"issues", "discussions", "pulls", "marketplace",
+                                          "sponsors", "topics"}:
+            continue
+        moved[iid] = dead.pop(iid)
+    ts = now_cst().strftime("%Y%m%dT%H%M%S")
+    manifest = META / f"backfill_dead_revive_manifest_{ts}.json"
+    manifest.write_text(json.dumps(
+        {"action": "revive-github", "at": iso(now_cst()), "count": len(moved),
+         "reason": "路由按 source_id 分流导致 github 目标未走 gh readme，属可修缺陷",
+         "undo": "把这批 item_id 重新写回 _meta/backfill_dead.json 的 items（attempts>=%d）"
+                 % DEAD_AFTER,
+         "items": moved}, ensure_ascii=False, indent=1), encoding="utf-8")
+    rotate_files(META, "backfill_dead_revive_manifest_", 12)
+    save_dead(dead)
+    return len(moved), manifest
 
 
 def load_latest() -> dict[str, tuple[dict, str]]:
@@ -129,6 +160,21 @@ def structural_dead(r: dict) -> str:
     return ""
 
 
+GH_REPO_RE = re.compile(r"^https?://(?:www\.)?github\.com/([^/]+)/([^/#?]+)", re.I)
+
+
+def github_target(r: dict) -> bool:
+    """链接落在 github.com/<owner>/<repo> 上 → 可走 gh api 取 README。
+
+    排除 issues / discussions / 用户主页（不是仓库，取不到 README）。
+    """
+    m = GH_REPO_RE.match(body_target(r) or "")
+    if not m:
+        return False
+    repo = m.group(2)
+    return repo.lower() not in {"issues", "discussions", "pulls", "marketplace", "sponsors", "topics"}
+
+
 def comments_gap(r: dict) -> str:
     """评论缺口判定：讨论型渠道、且「上次取数报错」或「抓到的少于平台计数」。
 
@@ -186,9 +232,17 @@ def body_target(r: dict) -> str:
 
 
 def fetch_github_readme(r: dict) -> str:
+    """取仓库 README（走 api.github.com，本机唯一可达的 GitHub 通道）。
+
+    目标 URL 必须用 `body_target(r)` 取 —— 它优先 `extra.fulltext_url`。
+    历史实现写 `r.get("url")`，对 hn_show 这类**转发渠道**来说是 HN 帖子页而不是
+    GitHub 仓库页，正则匹配不到 owner/repo → 静默返回空串。于是「URL 路由到 gh」
+    这一步会看起来生效、实际一条都取不到（静默空转，最坏的一种 bug）。
+    """
     full = (r.get("extra") or {}).get("full_name")
     if not full:
-        m = re.search(r"github\.com/([^/]+/[^/#?]+)", r.get("url") or "")
+        m = GH_REPO_RE.match(body_target(r) or "") or \
+            re.search(r"github\.com/([^/]+/[^/#?]+)", r.get("url") or "")
         full = m.group(1).replace(".git", "") if m else ""
     if not full:
         return ""
@@ -267,10 +321,23 @@ def main(argv=None) -> int:
     ap.add_argument("--exa-batch", type=int, default=12, help="每批 Exa 取数条数")
     ap.add_argument("--direct-workers", type=int, default=6,
                     help="直取后端并发数（urllib，零依赖；先用它，拿不到再回退 Exa）")
+    ap.add_argument("--revive-github", action="store_true",
+                    help="把「目标 URL 指向 github.com 仓库」的死信放出队列重试"
+                         "（旧版按 source_id 路由，这类条目根本没走过 gh readme 就被判死）")
     args = ap.parse_args(argv)
 
     reg = load_channels_yaml(META / "channels.yaml")
     channels = {c["id"]: c for c in (reg.get("channels") or [])}
+
+    if args.revive_github:
+        if args.dry or args.report:
+            print("[dry] --revive-github 需要真正执行（去掉 --dry/--report）")
+            return 0
+        revived, manifest = revive_github_dead()
+        print(f"复活 github 目标死信 {revived} 条 → 清单 _meta/{manifest.name}")
+        if not revived:
+            return 0
+
     queue = build_queue(channels, args.channel)
     if args.only_comments:
         queue = []                                          # 正文缺口本轮不碰
@@ -319,8 +386,18 @@ def main(argv=None) -> int:
     day_now = now_cst().strftime("%Y-%m-%d")
 
     # ① GitHub 单独走 gh（并发 4，比 Exa 准且不花额度）
-    gh_items = [(r, d) for r, d in todo if r["source_id"] == "github_new"]
-    exa_items = [(r, d) for r, d in todo if r["source_id"] != "github_new"]
+    #
+    # 路由键必须是 **URL 主机**，不是 source_id。旧实现按 `source_id == "github_new"`
+    # 分流，于是「非 github_new 渠道、但链接指向 github.com」的条目全部落到 exa_items：
+    #   hn_show 里指向 github 的条目 → direct_fetch 被 DIRECT_BLOCKED_HOSTS 拦 →
+    #   Exa 也拿不到（repo 站正文在 README 里，不在渲染页上）→ 记死信。
+    # 实测代价：死信账本 270 条里 66 条是 github.com；而 fetch_github_readme 本身
+    # **早就支持从 URL 反推 owner/repo**，只是这些条目根本没被路由进 gh_items。
+    # 这是纯路由缺陷，不是能力缺陷。
+    gh_items = [(r, d) for r, d in todo
+                if r["source_id"] == "github_new" or github_target(r)]
+    exa_items = [(r, d) for r, d in todo
+                 if r["source_id"] != "github_new" and not github_target(r)]
 
     results: dict[str, dict] = {}
 
@@ -341,7 +418,7 @@ def main(argv=None) -> int:
                 if res and res[2]:
                     r, day, txt = res
                     results[r["item_id"]] = {"rec": r, "day": day, "body": txt,
-                                             "via": "gh_readme", "url": r.get("url")}
+                                             "via": "gh_readme", "url": body_target(r)}
         print(f"  github readme 命中 {len(results)}/{len(gh_items)}")
 
     # ② 其余：先直取（零依赖、无额度），直取拿不到再回退 Exa
@@ -414,7 +491,11 @@ def main(argv=None) -> int:
             append_jsonl(DIR_RAW / r["source_id"] / f"{day_now}.jsonl", [rec])
             p = write_corpus_note(rec, note_bucket(seen, iid, day))   # 原地刷新，不迁移分片
             rel = p.relative_to(ROOT).as_posix()
-            write_entity_note(rec, rel)
+            # 准入必须与 kb_collect 同一判据：kb_backfill 原先无条件调 write_entity_note，
+            # 实测把 44 条 reddit 讨论帖（kind=post）写进了 10-项目/ → 检索面污染。
+            # 语料页照写（讨论帖是好语料），实体页只给真项目 / person / method。
+            if is_project_ish(rec) or (rec.get("kind") or "").lower() in ("person", "method"):
+                write_entity_note(rec, rel)
             h = sha1(json.dumps({"b": rec.get("body") or "", "c": rec.get("comments") or [],
                                  "m": rec.get("metrics") or {}}, ensure_ascii=False, sort_keys=True))
             seen.touch(iid, r["source_id"], rel, None, content_hash=h)
@@ -459,7 +540,8 @@ def main(argv=None) -> int:
             append_jsonl(DIR_RAW / r["source_id"] / f"{day_now}.jsonl", [rec])
             p = write_corpus_note(rec, note_bucket(seen, r["item_id"], day))   # 原地刷新
             rel = p.relative_to(ROOT).as_posix()
-            write_entity_note(rec, rel)
+            if is_project_ish(rec) or (rec.get("kind") or "").lower() in ("person", "method"):
+                write_entity_note(rec, rel)                        # 同上：实体页准入
             h = sha1(json.dumps({"b": rec.get("body") or "", "c": rec.get("comments") or [],
                                  "m": rec.get("metrics") or {}}, ensure_ascii=False, sort_keys=True))
             seen.touch(r["item_id"], r["source_id"], rel, None, content_hash=h)
@@ -479,7 +561,13 @@ def main(argv=None) -> int:
                                              "url": body_target(r), "source_id": r["source_id"]})
         rec["attempts"] = rec.get("attempts", 0) + 1
         rec["last_try"] = iso(now_cst())
-        rec["reason"] = rec.get("reason") or "取数失败（Exa 未命中该站）"
+        # 理由必须写**实际试过的后端**。旧文本硬编码「Exa 未命中该站」，而流程早已改成
+        # 「直取优先、Exa 兜底」——于是 248 条死信的理由与事实不符，看账的人会得出
+        # 「Exa 不行」的错误结论，而真实原因是「直取被 DIRECT_BLOCKED_HOSTS 拦 + Exa 也拿不到」。
+        tried = "gh_readme" if (r["source_id"] == "github_new" or github_target(r)) \
+            else "direct_fetch→exa_web_fetch"
+        rec["reason"] = rec.get("reason") or f"取数失败（已试 {tried}，均未命中）"
+        rec["tried"] = rec.get("tried") or tried
         miss += 1
     save_dead(dead)
 

@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1w38762/direct_traffic_does_not_mean_someone_typed_your/"
 author: "blossend"
 published_at: "2026-08-31T17:01:14+08:00"
-captured_at: "2026-09-21T03:20:18+08:00"
+captured_at: "2026-09-21T13:04:36+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -35,7 +35,7 @@ discovered_via: "reddit:52d+settle3"
 > 指标：得分=11 · 评论=20 · 赞踩比=0.87
 > 作者：blossend　|　发布：2026-08-31T17:01:14+08:00
 > 项目链接：—
-> 采集：2026-09-21T03:20:18+08:00　|　id：`95b7befd52c54b63`
+> 采集：2026-09-21T13:04:36+08:00　|　id：`95b7befd52c54b63`
 
 ## 正文
 

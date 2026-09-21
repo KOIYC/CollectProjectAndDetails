@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/IndieDev/comments/1ujt1ix/its_been_4_months_but_i
 project_url: "https://store.steampowered.com/app/4316940/The\\_Dice\\_Lodge"
 author: "Sly3055"
 published_at: "2026-06-30T23:53:06+08:00"
-captured_at: "2026-09-21T09:56:17+08:00"
+captured_at: "2026-09-21T13:04:07+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -36,7 +36,7 @@ discovered_via: "reddit:113d+settle3"
 > 指标：得分=19 · 评论=9 · 赞踩比=1
 > 作者：Sly3055　|　发布：2026-06-30T23:53:06+08:00
 > 项目链接：<https://store.steampowered.com/app/4316940/The\_Dice\_Lodge>
-> 采集：2026-09-21T09:56:17+08:00　|　id：`bef5f02215a7068b`
+> 采集：2026-09-21T13:04:07+08:00　|　id：`bef5f02215a7068b`
 
 ## 正文
 

@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/microsaas/comments/1widpbp/title_b2c_saas_founders_how_did_you_get_your/"
 author: "Bobby_with_Quantly"
 published_at: "2026-09-17T07:44:05+08:00"
-captured_at: "2026-09-21T09:55:40+08:00"
+captured_at: "2026-09-21T13:03:11+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=5 · 评论=11 · 赞踩比=0.86
 > 作者：Bobby_with_Quantly　|　发布：2026-09-17T07:44:05+08:00
 > 项目链接：—
-> 采集：2026-09-21T09:55:40+08:00　|　id：`99e26e6e5d268507`
+> 采集：2026-09-21T13:03:11+08:00　|　id：`99e26e6e5d268507`
 
 ## 正文
 

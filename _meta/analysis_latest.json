@@ -300,6 +300,17 @@
    2
   ]
  ],
+ "expected_absent": 43,
+ "expected_absent_by_channel": [
+  [
+   "bilibili",
+   25
+  ],
+  [
+   "apple_rss",
+   18
+  ]
+ ],
  "money_signal": 305,
  "lang": [
   [

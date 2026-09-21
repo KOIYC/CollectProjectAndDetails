@@ -2,7 +2,7 @@
 type: "project"
 title: "Burned hundreds on Reddit Ads"
 project_url: "https://portreeve.com/"
-first_seen: "2026-09-21T09:45:46+08:00"
+first_seen: "2026-09-21T13:04:42+08:00"
 sources:
   - reddit
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://portreeve.com/>
-> 首次收录：2026-09-21T09:45:46+08:00
+> 首次收录：2026-09-21T13:04:42+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/SaaS
 > 最新指标：得分=17 · 评论=31 · 赞踩比=0.84
@@ -29,6 +29,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T09:45:46+08:00 | Reddit 独立开发版块 | 得分=17 · 评论=31 · 赞踩比=0.84 | [[20-语料/posts/reddit/2026-09-21/b9cab6dad2c1be81_Burned-hundreds-on-Reddit-Ads]] |
+| 2026-09-21T13:04:42+08:00 | Reddit 独立开发版块 | 得分=17 · 评论=31 · 赞踩比=0.84 | [[20-语料/posts/reddit/2026-09-21/b9cab6dad2c1be81_Burned-hundreds-on-Reddit-Ads]] |
 
 ## 摘要正文
 

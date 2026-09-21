@@ -1,0 +1,8 @@
+{
+ "action": "revive-github",
+ "at": "2026-09-21T13:00:15+08:00",
+ "count": 0,
+ "reason": "路由按 source_id 分流导致 github 目标未走 gh readme，属可修缺陷",
+ "undo": "把这批 item_id 重新写回 _meta/backfill_dead.json 的 items（attempts>=2）",
+ "items": {}
+}

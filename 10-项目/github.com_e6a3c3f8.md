@@ -2,7 +2,7 @@
 type: "project"
 title: "NandhaKishorM/laya"
 project_url: "https://github.com/NandhaKishorM/laya"
-first_seen: "2026-09-21T09:54:58+08:00"
+first_seen: "2026-09-21T13:02:19+08:00"
 sources:
   - github_new
 tags:
@@ -20,7 +20,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/NandhaKishorM/laya>
-> 首次收录：2026-09-21T09:54:58+08:00
+> 首次收录：2026-09-21T13:02:19+08:00
 > 来源渠道：GitHub 新星仓库
 > 标签：Python, created:>2026-09-07
 > 最新指标：stars=4339 · forks=393 · open_issues=25
@@ -31,6 +31,8 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-21T09:45:26+08:00 | GitHub 新星仓库 | stars=4339 · forks=393 · open_issues=25 | [[20-语料/posts/github_new/2026-09-21/e6a3c3f817cf5690_NandhaKishorM-laya]] |
 | 2026-09-21T09:54:58+08:00 | GitHub 新星仓库 | stars=4339 · forks=393 · open_issues=25 | [[20-语料/posts/github_new/2026-09-21/e6a3c3f817cf5690_NandhaKishorM-laya]] |
+| 2026-09-21T12:59:02+08:00 | GitHub 新星仓库 | stars=4339 · forks=393 · open_issues=25 | [[20-语料/posts/github_new/2026-09-21/e6a3c3f817cf5690_NandhaKishorM-laya]] |
+| 2026-09-21T13:02:19+08:00 | GitHub 新星仓库 | stars=4339 · forks=393 · open_issues=25 | [[20-语料/posts/github_new/2026-09-21/e6a3c3f817cf5690_NandhaKishorM-laya]] |
 
 ## 摘要正文
 

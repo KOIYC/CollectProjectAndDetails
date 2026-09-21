@@ -11,7 +11,6 @@ lang: "zh"
 kind: "method"
 topic: "AI 工具/Agent"
 shard: "2026-09-21"
-pub_day: "N/A"
 tags:
   - 语料
   - exa_discovery

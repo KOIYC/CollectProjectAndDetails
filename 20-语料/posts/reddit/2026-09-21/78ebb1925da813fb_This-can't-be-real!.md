@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1wjbdy6/this_cant_be_real/"
 author: "Alone_Ad_3375"
 published_at: "2026-09-18T08:37:35+08:00"
-captured_at: "2026-09-21T09:45:46+08:00"
+captured_at: "2026-09-21T13:04:46+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=7 · 评论=11 · 赞踩比=1
 > 作者：Alone_Ad_3375　|　发布：2026-09-18T08:37:35+08:00
 > 项目链接：—
-> 采集：2026-09-21T09:45:46+08:00　|　id：`78ebb1925da813fb`
+> 采集：2026-09-21T13:04:46+08:00　|　id：`78ebb1925da813fb`
 
 ## 正文
 

@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49497592"
 project_url: "https://thethousand.co/"
 author: "jabed"
 published_at: "2026-08-30T11:00:49Z"
-captured_at: "2026-09-21T09:54:59+08:00"
+captured_at: "2026-09-21T13:02:20+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:52d"
 > 指标：点赞=3 · 评论=3 · engagement_velocity=3
 > 作者：jabed　|　发布：2026-08-30T11:00:49Z
 > 项目链接：<https://thethousand.co/>
-> 采集：2026-09-21T09:54:59+08:00　|　id：`5496711b19c9e403`
+> 采集：2026-09-21T13:02:20+08:00　|　id：`5496711b19c9e403`
 
 ## 正文
 

@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1wicv2d/i_spent_months_focused_on_building_before_i/"
 author: "Difficult_Stress_127"
 published_at: "2026-09-17T07:07:49+08:00"
-captured_at: "2026-09-21T09:55:58+08:00"
+captured_at: "2026-09-21T13:03:38+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=12 · 赞踩比=1
 > 作者：Difficult_Stress_127　|　发布：2026-09-17T07:07:49+08:00
 > 项目链接：—
-> 采集：2026-09-21T09:55:58+08:00　|　id：`71fee682a5350b1a`
+> 采集：2026-09-21T13:03:38+08:00　|　id：`71fee682a5350b1a`
 
 ## 正文
 
