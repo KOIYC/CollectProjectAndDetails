@@ -152,8 +152,17 @@ PY="C:/Users/yangcan/.workbuddy/binaries/python/versions/3.13.12/python.exe"
 - **MSYS 内联正则陷阱**：`python -c "...re.search(r'^x\s*y'...)"` 里的 `\s` 会被改写成 `/s` → 判据静默失效（实测踩过两次）。**需要正则就写成 .py 文件再跑**。
 - **零第三方依赖**：tools/ 只用 stdlib；PyPI 不可达，不要 pip install。
 - **git/gh**：git 在 PortableGit（前缀已含）；gh 已登录 `KOIYC`（PAT 走 GCM 凭证助手）。
-  收工提交：`git add -A && git commit` 即可推送（**不 force push**）。状态文件（seen/body_cache）
+  收工提交：`git add -A && git commit`（**不 force push**）。状态文件（seen/body_cache）
   损坏时脚本会自动隔离成 `.corrupt-*.bak` 并告警——看到这行先查原因再重跑。
+  **推送路径（2026-09-21 实测修正）**：`github.com` 的 **HTTPS 被 TLS 重置**
+  （`git push https://…` 报 `OpenSSL SSL_read: unexpected eof`；`curl https://github.com` → `http=000`，沙箱内外一致）
+  → `origin`（HTTPS）**推不动是常态**。但 **SSH over 443 可达**，用既有密钥即可推送：
+  ```bash
+  GIT_SSH_COMMAND="ssh -o StrictHostKeyChecking=no -o UserKnownHostsFile=/dev/null" \
+    git push github-ownpet:KOIYC/CollectProjectAndDetails.git HEAD:main
+  ```
+  （`github-ownpet` 是 `~/.ssh/config` 里的别名 → `ssh.github.com:443` + `~/.ssh/ownpet_push_ed25519`，
+  认证身份 = `KOIYC`。HTTPS 挂了 ≠ GitHub 不可达，**不要**改用 API 逐 blob 造提交，那会造出与本地不同的 SHA 导致历史分叉。）
 - **网络**：`github.com` web 超时但 `api.github.com` 通（gh 用 PAT）；Jina Reader 不可用（doctor 却报 ok → 对账时记 delta）；
   **正文取数双后端**：`kb_common.direct_fetch_texts`（stdlib urllib 直取，**首选**，零依赖无额度）→
   `exa_fetch_texts`（Exa web_fetch via mcporter，**兜底**，免费额度会 429 → 已响亮告警）。
