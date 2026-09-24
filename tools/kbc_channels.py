@@ -675,6 +675,21 @@ def _enrich_lobsters_comments(items: list[dict], ctx) -> None:
         list(ex.map(one, items))
 
 
+def _status_from(items: list[dict], errs: list[str], msg: str) -> tuple[str, str]:
+    """渠道状态判定：`empty`（真的没新内容）与 `error`（取数全失败）必须是两个状态。
+
+    为什么单独抽出：多路 query 的 adapter 一律 `except Exception: continue`，
+    于是一个签名失效的 B 站 WBI 接口、一个 502 的 RSS 端点，报回来都是 `empty` ——
+    渠道台账绿灯、运行日志「0 条」，与「今天确实没有新东西」长得一模一样（2026-09-21 审计）。
+    部分失败仍算 ok，但把失败路数写进 message，别让它完全隐形。
+    """
+    if items:
+        return ("ok", f"{msg}（{len(errs)} 路失败）") if errs else ("ok", msg)
+    if errs:
+        return "error", "全部请求失败：" + " / ".join(errs[:2])
+    return "empty", msg
+
+
 def ad_devto(ch, ctx) -> tuple[list[dict], str, str]:
     p = ch.get("params") or {}
     tags = p.get("tags") or ["showdev"]
@@ -684,11 +699,12 @@ def ad_devto(ch, ctx) -> tuple[list[dict], str, str]:
     cutoff = now_cst() - timedelta(days=days)
     if ctx.get("since_ts"):
         cutoff = max(cutoff, datetime.fromtimestamp(int(ctx["since_ts"]), tz=now_cst().tzinfo))
-    items, seen_ids = [], set()
+    items, seen_ids, errs = [], set(), []
     for tag in tags:
         try:
             rows = http_json(f"https://dev.to/api/articles?tag={tag}&per_page={per}&top=30", timeout=30)
-        except Exception:                                          # noqa: BLE001
+        except Exception as e:                                       # noqa: BLE001
+            errs.append(f"{tag}: {str(e)[:60]}")
             continue
         for r in rows:
             if r.get("id") in seen_ids:
@@ -713,7 +729,8 @@ def ad_devto(ch, ctx) -> tuple[list[dict], str, str]:
                          "comments": r.get("comments_count"), "reading_time": r.get("reading_time_minutes")},
                 tags=r.get("tag_list") or [], extra={"devto_id": r.get("id")},
                 lang="en", discovered_via=f"devto:{tag}"))
-    return items[: int(ch.get("limit") or 30)], ("ok" if items else "empty"), f"{len(items)} articles"
+    st, msg = _status_from(items[: int(ch.get("limit") or 30)], errs, f"{len(items)} articles")
+    return items[: int(ch.get("limit") or 30)], st, msg
 
 
 def _enrich_devto_body(items: list[dict], ctx) -> None:
@@ -897,11 +914,12 @@ def ad_apple_rss(ch, ctx) -> tuple[list[dict], str, str]:
     big = ("openai", "meta platforms", "google", "alphabet", "bytedance", "tencent", "alibaba",
            "microsoft", "amazon", "apple", "netflix", "spotify", "kalshi", "roblox", "epic games",
            "youtube", "whatsapp", "discord", "adobe", "x corp", "nvidia", "samsung", "baidu")
-    items, skipped = [], 0
+    items, skipped, errs = [], 0, []
     for p in paths:
         try:
             d = http_json(base + p, timeout=30, retries=1)
-        except Exception:                                          # noqa: BLE001
+        except Exception as e:                                       # noqa: BLE001
+            errs.append(f"{p}: {str(e)[:60]}")
             continue
         region = p.split("/")[0]
         kind = "paid" if "paid" in p else "free"
@@ -919,20 +937,23 @@ def ad_apple_rss(ch, ctx) -> tuple[list[dict], str, str]:
                 extra={"artwork": r.get("artworkUrl100"), "region": region},
                 discovered_via=f"apple:{region}:{kind}"))
     msg = f"{len(items)} apps（过滤大厂 {skipped}）"
-    return items[: int(ch.get("limit") or 30)], ("ok" if items else "empty"), msg
+    out = items[: int(ch.get("limit") or 30)]
+    st, msg = _status_from(out, errs, msg)
+    return out, st, msg
 
 
 def ad_sov2ex(ch, ctx) -> tuple[list[dict], str, str]:
     p = ch.get("params") or {}
     size = int(p.get("size") or 20)
     sort = p.get("sort") or "created"
-    items, seen = [], set()
+    items, seen, errs = [], set(), []
     for q in (p.get("queries") or []):
         u = (f"https://www.sov2ex.com/api/search?q={urllib.parse.quote(q)}"
              f"&size={size}&sort={sort}")
         try:
             d = http_json(u, timeout=30, retries=1)
-        except Exception:                                          # noqa: BLE001
+        except Exception as e:                                       # noqa: BLE001
+            errs.append(f"{q}: {str(e)[:60]}")
             continue
         for h in d.get("hits") or []:
             s = h.get("_source") or {}
@@ -947,7 +968,9 @@ def ad_sov2ex(ch, ctx) -> tuple[list[dict], str, str]:
                 metrics={"replies": s.get("replies")},
                 tags=[s.get("node") or ""], extra={"topic_id": tid, "query": q},
                 discovered_via=f"v2ex:{q}"))
-    return items[: int(ch.get("limit") or 30)], ("ok" if items else "empty"), f"{len(items)} topics"
+    out = items[: int(ch.get("limit") or 30)]
+    st, msg = _status_from(out, errs, f"{len(items)} topics")
+    return out, st, msg
 
 
 PERSON_HANDLE_RE = re.compile(r"\(@([A-Za-z0-9_]{2,})\)")
@@ -999,14 +1022,21 @@ def ad_onec7(ch, ctx) -> tuple[list[dict], str, str]:
 def ad_bilibili(ch, ctx) -> tuple[list[dict], str, str]:
     p = ch.get("params") or {}
     min_play = int(p.get("min_play") or 0)
-    items, seen = [], set()
+    items, seen, errs = [], set(), []
     hdr = {"Referer": "https://www.bilibili.com", "Origin": "https://www.bilibili.com"}
     for q in (p.get("queries") or []):
         u = ("https://api.bilibili.com/x/web-interface/wbi/search/type?"
              f"search_type=video&page=1&keyword={urllib.parse.quote(q)}")
         try:
             d = http_json(u, headers=hdr, timeout=30, retries=1)
-        except Exception:                                          # noqa: BLE001
+        except Exception as e:                                       # noqa: BLE001
+            # WBI 签名/风控失效时接口返回的是错误体或抛错 —— 过去一律 continue，
+            # 于是 B 站整渠道「0 条」看起来像今天没新视频（实为接口坏了）。
+            errs.append(f"{q}: {str(e)[:60]}")
+            continue
+        if (d.get("code") or 0) != 0:
+            # 200 + 错误体是 B 站的主要失败形态（WBI 签名过期 -403/-412），抛不出异常。
+            errs.append(f"{q}: code={d.get('code')} {str(d.get('message'))[:40]}")
             continue
         for r in ((d.get("data") or {}).get("result") or []):
             bv = r.get("bvid")
@@ -1029,28 +1059,43 @@ def ad_bilibili(ch, ctx) -> tuple[list[dict], str, str]:
                 metrics={"play": play, "danmaku": r.get("video_review"), "favorites": r.get("favorites")},
                 tags=[t for t in strip_html(r.get("tag") or "").split(",") if t],
                 extra={"bvid": bv, "query": q}, lang="zh", discovered_via=f"bili:{q}"))
-    return items[: int(ch.get("limit") or 20)], ("ok" if items else "empty"), f"{len(items)} videos"
+    out = items[: int(ch.get("limit") or 20)]
+    st, msg = _status_from(out, errs, f"{len(items)} videos")
+    return out, st, msg
 
 
 def ad_opencli_social(ch, ctx) -> tuple[list[dict], str, str]:
-    """小红书 / X：需浏览器登录态（OpenCLI）；未解锁时返回 auth 状态，不静默跳过。"""
+    """小红书 / X:需浏览器登录态 (OpenCLI);未解锁时返回 auth 状态，不静默跳过。"""
     p = ch.get("params") or {}
     site = p.get("site")
-    code, out, err = run_cli(["opencli", site, "search", (p.get("queries") or [""])[0], "-f", "yaml"],
-                             timeout=90)
-    if code != 0 or "BROWSER_CONNECT" in (out + err):
-        return [], "auth", f"需 OpenCLI 浏览器扩展/登录态：{(err or out)[:80]}"
-    items = []
-    for blk in re.split(r"\n(?=- )", out):
-        url = re.search(r"url:\s*(\S+)", blk)
-        title = re.search(r"title:\s*(.+)", blk)
-        if url:
+    # 2026-09-22 fix: 原先只跑 queries[0]，现三路 query 全部执行（去重在 seen_urls）
+    queries = [q for q in (p.get("queries") or []) if q]
+    if not queries:
+        return [], "error", "缺 queries"
+    items, seen_urls, errs = [], set(), []
+    for q in queries:
+        code, out, err = run_cli(["opencli", site, "search", q, "-f", "yaml"], timeout=90)
+        if code != 0 or "BROWSER_CONNECT" in (out + err):
+            errs.append(f"{q}: {(err or out)[:60]}")
+            continue
+        for blk in re.split(r"\n(?=- )", out):
+            url = re.search(r"url:\s*(\S+)", blk)
+            title = re.search(r"title:\s*(.+)", blk)
+            u = url.group(1).strip() if url else ""
+            if not u or u in seen_urls:
+                continue
+            seen_urls.add(u)
             items.append(make_item(source_id=ch["id"], source_name=ch["name"],
                                    title=(title.group(1).strip() if title else "untitled"),
-                                   url=url.group(1).strip(), body=blk[:4000],
+                                   url=u, body=blk[:4000],
                                    lang="zh" if site == "xiaohongshu" else "en",
-                                   discovered_via=f"opencli:{site}"))
-    return items, ("ok" if items else "auth"), f"{len(items)} items"
+                                   discovered_via=f"opencli:{site}:{q}"))
+    if len(errs) == len(queries):
+        # 全路都失败 = 登录态问题 (auth，结构性);有路成功却没结果 = empty。两者含义不同:
+        # 前者要用户去接 OpenCLI，后者是今天确实没内容。
+        return [], "auth", f"需 OpenCLI 浏览器扩展/登录态：{errs[0][:80]}"
+    st, msg = _status_from(items, errs, f"{len(items)} items（{len(queries)} 路查询）")
+    return items, st, msg
 
 
 def ad_exa_discovery(ch, ctx) -> tuple[list[dict], str, str]:

@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1tsxmr2/how_did_you_feel_when_you_got_your_first_paying/"
 author: "Mysterious_Salad_928"
 published_at: "2026-05-31T22:59:11+08:00"
-captured_at: "2026-09-21T22:04:07+08:00"
+captured_at: "2026-09-22T13:16:26+08:00"
 lang: "en"
 kind: "post"
 topic: "SaaS/B2B"
@@ -34,7 +34,7 @@ discovered_via: "reddit:144d+settle3"
 > 指标：得分=3 · 评论=24 · 赞踩比=0.8100000023841858
 > 作者：Mysterious_Salad_928　|　发布：2026-05-31T22:59:11+08:00
 > 项目链接：—
-> 采集：2026-09-21T22:04:07+08:00　|　id：`2acec6df3cb74ad2`
+> 采集：2026-09-22T13:16:26+08:00　|　id：`2acec6df3cb74ad2`
 
 ## 正文
 

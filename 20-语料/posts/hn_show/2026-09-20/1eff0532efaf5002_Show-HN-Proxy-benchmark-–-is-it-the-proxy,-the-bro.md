@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49752694"
 project_url: "https://github.com/nodemaven/proxy-benchmark"
 author: "pia-nm"
 published_at: "2026-09-18T11:13:46Z"
-captured_at: "2026-09-21T21:59:53+08:00"
+captured_at: "2026-09-22T13:12:52+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：pia-nm　|　发布：2026-09-18T11:13:46Z
 > 项目链接：<https://github.com/nodemaven/proxy-benchmark>
-> 采集：2026-09-21T21:59:53+08:00　|　id：`1eff0532efaf5002`
+> 采集：2026-09-22T13:12:52+08:00　|　id：`1eff0532efaf5002`
 
 ## 正文
 

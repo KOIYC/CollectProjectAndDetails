@@ -1,0 +1,330 @@
+{
+ "run_id": "20260924T232521",
+ "started_at": "2026-09-24T23:25:21+08:00",
+ "ended_at": "2026-09-24T23:36:32+08:00",
+ "elapsed_s": 670.9,
+ "channels": [
+  {
+   "source_id": "hn_show",
+   "name": "HN Show HN",
+   "status": "ok",
+   "count": 3,
+   "message": "3/3 hits",
+   "elapsed_s": 2.2
+  },
+  {
+   "source_id": "reddit",
+   "name": "Reddit 独立开发版块",
+   "status": "ok",
+   "count": 2,
+   "message": "2 posts; ",
+   "elapsed_s": 3.5
+  },
+  {
+   "source_id": "github_new",
+   "name": "GitHub 新星仓库",
+   "status": "ok",
+   "count": 3,
+   "message": "3 repos; ",
+   "elapsed_s": 39.6
+  },
+  {
+   "source_id": "betalist",
+   "name": "BetaList",
+   "status": "ok",
+   "count": 3,
+   "message": "3 startups · 发布日 3/3",
+   "elapsed_s": 9.0
+  },
+  {
+   "source_id": "indiehackers",
+   "name": "Indie Hackers 产品库",
+   "status": "ok",
+   "count": 3,
+   "message": "22 products",
+   "elapsed_s": 10.4
+  },
+  {
+   "source_id": "hn_show",
+   "name": "HN Show HN",
+   "status": "ok",
+   "count": 3,
+   "message": "3/3 hits",
+   "elapsed_s": 1.8
+  },
+  {
+   "source_id": "reddit",
+   "name": "Reddit 独立开发版块",
+   "status": "ok",
+   "count": 2,
+   "message": "2 posts; ",
+   "elapsed_s": 2.1
+  },
+  {
+   "source_id": "github_new",
+   "name": "GitHub 新星仓库",
+   "status": "ok",
+   "count": 3,
+   "message": "3 repos; ",
+   "elapsed_s": 3.8
+  },
+  {
+   "source_id": "betalist",
+   "name": "BetaList",
+   "status": "ok",
+   "count": 3,
+   "message": "3 startups · 发布日 3/3",
+   "elapsed_s": 7.6
+  },
+  {
+   "source_id": "indiehackers",
+   "name": "Indie Hackers 产品库",
+   "status": "ok",
+   "count": 3,
+   "message": "22 products",
+   "elapsed_s": 11.2
+  },
+  {
+   "source_id": "hn_show",
+   "name": "HN Show HN",
+   "status": "ok",
+   "count": 3,
+   "message": "3/3 hits",
+   "elapsed_s": 1.2
+  },
+  {
+   "source_id": "github_new",
+   "name": "GitHub 新星仓库",
+   "status": "ok",
+   "count": 3,
+   "message": "3 repos; ",
+   "elapsed_s": 3.6
+  },
+  {
+   "source_id": "reddit",
+   "name": "Reddit 独立开发版块",
+   "status": "ok",
+   "count": 2,
+   "message": "2 posts; ",
+   "elapsed_s": 3.3
+  },
+  {
+   "source_id": "devto",
+   "name": "dev.to",
+   "status": "ok",
+   "count": 3,
+   "message": "4 articles",
+   "elapsed_s": 3.7
+  },
+  {
+   "source_id": "producthunt",
+   "name": "Product Hunt",
+   "status": "ok",
+   "count": 3,
+   "message": "3 entries",
+   "elapsed_s": 0.9
+  },
+  {
+   "source_id": "v2ex",
+   "name": "V2EX",
+   "status": "ok",
+   "count": 3,
+   "message": "20 topics",
+   "elapsed_s": 0.8
+  },
+  {
+   "source_id": "bilibili",
+   "name": "B 站",
+   "status": "ok",
+   "count": 3,
+   "message": "10 videos",
+   "elapsed_s": 0.6
+  },
+  {
+   "source_id": "c1c7",
+   "name": "1c7 中文独立开发者名录",
+   "status": "error",
+   "count": 0,
+   "message": "ERR: unknown url type: 'None'",
+   "elapsed_s": 1.5
+  },
+  {
+   "source_id": "devto",
+   "name": "dev.to",
+   "status": "ok",
+   "count": 3,
+   "message": "4 articles",
+   "elapsed_s": 6.3
+  },
+  {
+   "source_id": "producthunt",
+   "name": "Product Hunt",
+   "status": "ok",
+   "count": 3,
+   "message": "3 entries",
+   "elapsed_s": 1.1
+  },
+  {
+   "source_id": "v2ex",
+   "name": "V2EX",
+   "status": "ok",
+   "count": 3,
+   "message": "20 topics",
+   "elapsed_s": 2.0
+  },
+  {
+   "source_id": "bilibili",
+   "name": "B 站",
+   "status": "ok",
+   "count": 3,
+   "message": "10 videos",
+   "elapsed_s": 0.5
+  },
+  {
+   "source_id": "c1c7",
+   "name": "1c7 中文独立开发者名录",
+   "status": "error",
+   "count": 0,
+   "message": "ERR: unknown url type: 'None'",
+   "elapsed_s": 1.5
+  },
+  {
+   "source_id": "exa_discovery",
+   "name": "Exa 全网语义发现",
+   "status": "ok",
+   "count": 3,
+   "message": "8 results",
+   "elapsed_s": 22.3
+  },
+  {
+   "source_id": "twitter",
+   "name": "X / Twitter",
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: ok: false\nerror:\n  code: BROWSER_CONNECT\n  message",
+   "elapsed_s": 78.2
+  },
+  {
+   "source_id": "xiaohongshu",
+   "name": "小红书",
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: ok: false\nerror:\n  code: BROWSER_CONNECT\n  message: Browser ",
+   "elapsed_s": 50.5
+  },
+  {
+   "source_id": "exa_discovery",
+   "name": "Exa 全网语义发现",
+   "status": "empty",
+   "count": 0,
+   "message": "0 results",
+   "elapsed_s": 4.6
+  },
+  {
+   "source_id": "twitter",
+   "name": "X / Twitter",
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: ok: false\nerror:\n  code: BROWSER_CONNECT\n  message",
+   "elapsed_s": 47.0
+  },
+  {
+   "source_id": "xiaohongshu",
+   "name": "小红书",
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: ok: false\nerror:\n  code: BROWSER_CONNECT\n  message: Browser ",
+   "elapsed_s": 46.8
+  },
+  {
+   "source_id": "devto",
+   "name": "dev.to",
+   "status": "ok",
+   "count": 3,
+   "message": "4 articles",
+   "elapsed_s": 2.4
+  },
+  {
+   "source_id": "producthunt",
+   "name": "Product Hunt",
+   "status": "ok",
+   "count": 3,
+   "message": "3 entries",
+   "elapsed_s": 1.0
+  },
+  {
+   "source_id": "indiehackers",
+   "name": "Indie Hackers 产品库",
+   "status": "ok",
+   "count": 3,
+   "message": "22 products",
+   "elapsed_s": 19.4
+  },
+  {
+   "source_id": "betalist",
+   "name": "BetaList",
+   "status": "ok",
+   "count": 3,
+   "message": "3 startups · 发布日 3/3",
+   "elapsed_s": 4.4
+  },
+  {
+   "source_id": "v2ex",
+   "name": "V2EX",
+   "status": "ok",
+   "count": 3,
+   "message": "20 topics",
+   "elapsed_s": 0.8
+  },
+  {
+   "source_id": "c1c7",
+   "name": "1c7 中文独立开发者名录",
+   "status": "ok",
+   "count": 3,
+   "message": "9 entries · 收录日 9",
+   "elapsed_s": 119.4
+  },
+  {
+   "source_id": "bilibili",
+   "name": "B站",
+   "status": "ok",
+   "count": 3,
+   "message": "10 videos",
+   "elapsed_s": 0.7
+  },
+  {
+   "source_id": "xiaohongshu",
+   "name": "小红书",
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: ok: false\nerror:\n  code: BROWSER_CONNECT\n  message: Browser ",
+   "elapsed_s": 46.7
+  },
+  {
+   "source_id": "twitter",
+   "name": "X / Twitter",
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: ok: false\nerror:\n  code: BROWSER_CONNECT\n  message",
+   "elapsed_s": 47.1
+  },
+  {
+   "source_id": "exa_discovery",
+   "name": "Exa 全网语义发现",
+   "status": "ok",
+   "count": 3,
+   "message": "8 results",
+   "elapsed_s": 8.1
+  }
+ ],
+ "notes_written": 0,
+ "errors": [],
+ "mode": "audit",
+ "summary": {
+  "total": 39,
+  "ok": 30,
+  "empty": 1,
+  "error": 2,
+  "auth": 6
+ }
+}

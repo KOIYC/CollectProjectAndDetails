@@ -45,7 +45,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from kb_common import (META, ROOT, Seen, del_fm_scalar, fm_scalars, iso,  # noqa: E402
                        norm_url, now_cst, pub_day_of, rotate_files, set_fm_scalar,
-                       sha1, slugify, split_note, topic_of, _BAD)
+                       sha1, slugify, split_note, topic_of, write_ledger,
+                       _atomic_write, _BAD)
 from kb_collect import (corpus_note_path, method_note_path, nav_block,  # noqa: E402
                         person_note_path, project_note_path, write_entity_note)
 from kb_content_audit import load_latest                               # noqa: E402
@@ -148,7 +149,8 @@ def apply(path: Path, *, nav: bool, topic: bool, dates: bool, sync_kind: bool,
             changed.add("写导航")
 
     if changed and write:
-        path.write_text(head + body, encoding="utf-8")
+        # 整页重写走原子替换：中断/AV 占用会把已有正文截断成半截页（采集端 write_note 同源）
+        _atomic_write(path, head + body)
     return changed
 
 
@@ -237,7 +239,7 @@ def fix_links(apply: bool) -> Counter:
 
         new_txt = LINK_RE.sub(repl, txt)
         if apply and new_txt != txt:
-            p.write_text(new_txt, encoding="utf-8")
+            _atomic_write(p, new_txt)            # 全库逐页重写：半截页 = 整篇正文陪葬
             stat["改动文件"] += 1
     print(f"fix-links  apply={apply}  {dict(stat)}")
     if not apply and samples:
@@ -340,7 +342,7 @@ def _rewrite_stem_links(pairs: dict[str, str], apply: bool) -> int:
         if new_txt != txt:
             changed += 1
             if apply:
-                p.write_text(new_txt, encoding="utf-8")
+                _atomic_write(p, new_txt)        # 同上：改名链路的链接改写也不能留半截页
     return changed
 
 
@@ -398,12 +400,22 @@ def fix_names(apply: bool) -> Counter:
                 stat["有记录反算" if want != slugify(p.stem, 120) else "仅按规则清字符"] += 1
             old_rel = p.relative_to(ROOT).as_posix()
             new_rel = dst.relative_to(ROOT).as_posix()
+            if apply:
+                # 上面的 dst.exists() 只是先验：Windows 下目标可能在这一步复现或被
+                # Obsidian/AV 占用（WinError 5/183）→ 单条失败必须跳过继续，整轮不许挂。
+                # 且**没改成就不登记** moves/pairs：manifest 里多出没发生的改名，
+                # --undo-names 会把还站在原地的页「搬回」一个假路径。
+                try:
+                    p.rename(dst)
+                except OSError as e:
+                    stat["改名失败"] += 1
+                    if stat["改名失败"] <= 6:
+                        print(f"  [改名失败] {old_rel} → {dst.name}: {str(e)[:60]}")
+                    continue
+                stat["已改名"] += 1
             if not disambig or want != p.stem:     # 文本有变（反算/清字符）才改写链接；纯消歧不动
                 pairs[p.stem] = new_rel[:-3]       # 裸消歧不加 pairs：[[短名]] 应解析到在库页/最新份
             moves.append({"from": old_rel, "to": new_rel})
-            if apply:
-                p.rename(dst)
-                stat["已改名"] += 1
             if len(moves) <= 15:
                 print(f"  {old_rel}\n    -> {new_rel}")
 
@@ -420,9 +432,11 @@ def fix_names(apply: bool) -> Counter:
         nf = _rewrite_stem_links(pairs, apply=True)
         stat["改写文件"] = nf
         man = META / f"rename_manifest_{now_cst().strftime('%Y%m%dT%H%M%S')}.json"
-        man.write_text(json.dumps({"at": iso(now_cst()), "moves": moves,
-                                   "pairs": pairs}, ensure_ascii=False, indent=2),
-                       encoding="utf-8")
+        # manifest 是 undo 的唯一凭证，必须原子写：半截 JSON 会让 --undo-names 当场抛在
+        # json.loads 上（撤销能力直接没了）。lock_name 用族名而非带时间戳的 path.stem，
+        # 否则每份 manifest 都在 _meta 留一个永不回收的 .lock 文件。
+        write_ledger(man, {"at": iso(now_cst()), "moves": moves, "pairs": pairs},
+                     lock_name="rename_manifest", indent=2)
         rotate_files(META, "rename_manifest_", 12)          # 工作区只留近 12 份（git 历史兜底）
         print(f"[manifest] {man.relative_to(ROOT).as_posix()}")
 
@@ -431,16 +445,39 @@ def fix_names(apply: bool) -> Counter:
 
 
 def undo_names(man_path: str) -> int:
-    man = json.loads(Path(man_path).read_text(encoding="utf-8"))
-    pairs = {}
+    """按 manifest 把文件名改回。单条搬不动不许中断整轮 —— undo 必须能续跑。
+
+    与 kb_prune 的搬运自验同一口径：只有「老名不在了 + 新名在」才算改回，
+    没落地的既不写 seen/链接，也绝不记进成功数；未生效清单写回 manifest 留痕。
+    """
+    man_file = Path(man_path)
+    man = json.loads(man_file.read_text(encoding="utf-8"))
+    todo = man.get("moves") or []
+    pairs: dict[str, str] = {}
     seen = Seen()
+    bad: list[dict] = []
     n = 0
-    for m in man.get("moves") or []:
+    for m in todo:
         src, dst = ROOT / m["to"], ROOT / m["from"]
         if not src.exists():
-            continue
-        dst.parent.mkdir(parents=True, exist_ok=True)
-        src.rename(dst)
+            if not dst.exists():                 # 两头都没有 = 页真丢了，不能当「已改回」
+                bad.append({"from": m["to"], "to": m["from"], "skipped": "src-missing"})
+                continue
+            # 已在原位 = 上一轮改回过；seen/链接可能还记着新名，这里照样补一遍（幂等续跑）
+        else:
+            if dst.exists():
+                # 老名被重新采集/新建占住：覆盖=丢一份在库页，只跳过不猜（同 fix_names 取舍）
+                bad.append({"from": m["to"], "to": m["from"], "skipped": "dst-exists"})
+                continue
+            dst.parent.mkdir(parents=True, exist_ok=True)
+            try:
+                src.rename(dst)                  # 目标这一步复现 / 文件被占用（WinError 5）
+            except OSError as e:
+                bad.append({"from": m["to"], "to": m["from"], "failed": str(e)[:60]})
+                continue
+            if src.exists() or not dst.exists():
+                bad.append({"from": m["to"], "to": m["from"], "unverified": True})
+                continue
         pairs[Path(m["to"]).stem] = m["from"][:-3]
         for meta in seen.items.values():
             if meta.get("note") == m["to"]:
@@ -448,6 +485,18 @@ def undo_names(man_path: str) -> int:
         n += 1
     seen.save()
     _rewrite_stem_links(pairs, apply=True)
+    if not bad:
+        if "undo_unverified" in man:             # 本轮全改回了：清掉上一轮的未生效，别留假警
+            man.pop("undo_unverified")
+            write_ledger(man_file, man, lock_name="rename_manifest", indent=2)
+        return n
+    print(f"[!] 改名未改回 {len(bad)}/{len(todo)} 条（源缺失 / 目标已存在 / 改名报错 / 未生效）"
+          f"—— 这些页仍叫 manifest 里的新名，处理后可重跑同一条 --undo-names：", flush=True)
+    for b in bad[:10]:
+        why = b.get("skipped") or b.get("failed") or "unverified"
+        print(f"     {b['from']} -> {b['to']}  {why}", flush=True)
+    man["undo_unverified"] = bad                 # 只打在终端 = 下一轮无从核对，落盘留痕
+    write_ledger(man_file, man, lock_name="rename_manifest", indent=2)
     return n
 
 
@@ -528,6 +577,10 @@ def fix_note_paths(apply: bool) -> int:
             src = ROOT / rel
             dst = ROOT / "80-归档" / "野页" / ts / rel[len("20-语料/"):]
             dst.parent.mkdir(parents=True, exist_ok=True)
+            if dst.exists():
+                # 同日重跑会撞上一轮的隔离副本 —— replace 是覆盖语义，绝不能拿它当搬运工。
+                print(f"    [!] 目标已存在，跳过 {rel}（防覆盖 80-归档/野页/{ts}/ 现有副本）")
+                continue
             try:
                 src.replace(dst)
                 n += 1

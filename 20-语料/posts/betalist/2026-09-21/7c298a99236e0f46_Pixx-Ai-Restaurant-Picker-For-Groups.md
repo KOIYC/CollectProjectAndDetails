@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/pixx-ai-restaurant-picker-for-groups"
 published_at: "2026-07-26"
-captured_at: "2026-09-21T22:04:14+08:00"
+captured_at: "2026-09-22T14:20:46+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-07-26
 > 项目链接：—
-> 采集：2026-09-21T22:04:14+08:00　|　id：`7c298a99236e0f46`
+> 采集：2026-09-22T14:20:46+08:00　|　id：`7c298a99236e0f46`
 
 ## 正文
 
@@ -86,9 +86,9 @@ Pixx
  Pick a restaurant your group will love in seconds
 Appscribed
  Explore trending AI tools with personalized picks in one place
-Talmaara.com
+WZRD
  BOOSTED
- Organize your story world with linked lore, timelines, and books
+ Turn plain ideas into interactive docs, forms, and decks that converse
  BOOSTED
 Arixify
  Insert prompts into AI chats with one click, no retyping needed
@@ -96,9 +96,9 @@ Ask AI Widget
  Let visitors ask AI about your site with your pre-set prompt
 MatchPoint
  Practice dating texts with real-feel AI and get instant feedback
-MemoryPlugin
+FreeDAST
  BOOSTED
- Long term memory for ALL your AI tools
+ Scan your live site for risks and get a clear security grade
  BOOSTED
 GetPlus AI
  ChatGPT Plus and Pro recharge service with invoicing and corporate payments

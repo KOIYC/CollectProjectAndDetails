@@ -7,7 +7,7 @@ adapter: "reddit_arctic"
 auth: "none"
 lang: "en"
 status: "ok"
-last_verified: "2026-09-21"
+last_verified: "2026-09-22"
 tags:
   - 渠道
   - 渠道/海外社区
@@ -19,7 +19,7 @@ params: {"subs": ["SideProject", "indiehackers", "microsaas", "SaaS", "Entrepren
 - **分组**：海外社区　|　**语言**：en　|　**认证**：none
 - **取数实现**：`reddit_arctic`　|　**单次上限**：30
 - **补全类型**：comments
-- **当前状态**：`ok`（本次 22 条，59.7s）
+- **当前状态**：`ok`（本次 24 条，115.0s）
 - **口径备注**：arctic-shift 镜像（匿名可用）。① 本网络 www.reddit.com 直连 502；② after 只吃 epoch 秒/纯日期，带时区 ISO 会 400；③ **score 有装载延迟**——近 3 天帖子分数未沉淀（实测近 3 天 max=1、7-14 天前 max=42），故用 settle_days=3 取「3~10 天前」窗口
 - **解锁方式**：—
 
@@ -45,3 +45,5 @@ params: {"subs": ["SideProject", "indiehackers", "microsaas", "SaaS", "Entrepren
 | 2026-09-21T01:32:30+08:00 | ok | 26 | 19.6s | 26 posts;  |
 | 2026-09-21T01:34:45+08:00 | ok | 31 | 20.3s | 31 posts;  |
 | 2026-09-21T09:46:37+08:00 | ok | 22 | 59.7s | 22 posts;  |
+| 2026-09-22T12:55:24+08:00 | ok | 26 | 63.3s | 26 posts;  |
+| 2026-09-22T14:18:42+08:00 | ok | 24 | 115.0s | 24 posts;  |

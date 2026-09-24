@@ -1,0 +1,93 @@
+{
+ "run_id": "20260922T130556",
+ "started_at": "2026-09-22T13:05:56+08:00",
+ "ended_at": "2026-09-22T13:08:34+08:00",
+ "elapsed_s": 158.4,
+ "channels": [
+  {
+   "source_id": "github_new",
+   "name": "GitHub 新星仓库",
+   "status": "ok",
+   "count": 11,
+   "message": "28 repos;  | 写盘 9/11 | new=0 chg=9",
+   "elapsed_s": 12.2,
+   "new": 0,
+   "changed": 9,
+   "raw": 11
+  },
+  {
+   "source_id": "producthunt",
+   "name": "Product Hunt",
+   "status": "ok",
+   "count": 30,
+   "message": "30 entries | 写盘 0/30 | new=0 chg=0",
+   "elapsed_s": 3.8,
+   "new": 0,
+   "changed": 0,
+   "raw": 30
+  },
+  {
+   "source_id": "indiehackers",
+   "name": "Indie Hackers 产品库",
+   "status": "ok",
+   "count": 20,
+   "message": "22 products | 写盘 0/20 | new=0 chg=0",
+   "elapsed_s": 18.8,
+   "new": 0,
+   "changed": 0,
+   "raw": 20
+  },
+  {
+   "source_id": "betalist",
+   "name": "BetaList",
+   "status": "ok",
+   "count": 12,
+   "message": "12 startups · 发布日 11/12 | new=0 chg=12",
+   "elapsed_s": 32.8,
+   "new": 0,
+   "changed": 12,
+   "raw": 12
+  },
+  {
+   "source_id": "v2ex",
+   "name": "V2EX",
+   "status": "ok",
+   "count": 21,
+   "message": "82 topics | 写盘 0/21 | new=0 chg=0",
+   "elapsed_s": 23.2,
+   "new": 0,
+   "changed": 0,
+   "raw": 21
+  },
+  {
+   "source_id": "c1c7",
+   "name": "1c7 中文独立开发者名录",
+   "status": "ok",
+   "count": 7,
+   "message": "17 entries · 收录日 17 | 写盘 0/7 | new=0 chg=0",
+   "elapsed_s": 63.6,
+   "new": 0,
+   "changed": 0,
+   "raw": 7
+  },
+  {
+   "source_id": "bilibili",
+   "name": "B站",
+   "status": "ok",
+   "count": 8,
+   "message": "53 videos | 写盘 6/8 | new=0 chg=6",
+   "elapsed_s": 3.6,
+   "new": 0,
+   "changed": 6,
+   "raw": 8
+  }
+ ],
+ "notes_written": 27,
+ "errors": [],
+ "total_items": 109,
+ "total_new": 0,
+ "dry": false,
+ "rule_dropped": 35,
+ "write_errors": 0,
+ "body_cache_pruned": 0
+}

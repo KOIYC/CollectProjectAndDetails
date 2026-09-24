@@ -7,7 +7,7 @@ source_name: "dev.to"
 url: "https://dev.to/mikachu/i-built-a-green-blob-that-lives-on-my-desktop-and-now-it-has-feelings-4pjd"
 author: "Mika Flowers"
 published_at: "2026-09-20T11:15:55Z"
-captured_at: "2026-09-21T09:46:38+08:00"
+captured_at: "2026-09-22T12:55:28+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -20,9 +20,9 @@ tags:
   - python
   - linux
   - opensource
-metrics: {"reactions": 36, "comments": 13, "reading_time": 6}
-comments_count: 13
-comments_total: 13
+metrics: {"reactions": 60, "comments": 20, "reading_time": 6}
+comments_count: 20
+comments_total: 20
 discovered_via: "devto:showdev"
 ---
 
@@ -34,10 +34,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/mikachu/i-built-a-green-blob-that-lives-on-my-desktop-and-now-it-has-feelings-4pjd>
-> 指标：reactions=36 · 评论=13 · reading_time=6
+> 指标：reactions=60 · 评论=20 · reading_time=6
 > 作者：Mika Flowers　|　发布：2026-09-20T11:15:55Z
 > 项目链接：—
-> 采集：2026-09-21T09:46:38+08:00　|　id：`0d0bc342e8f9b9ec`
+> 采集：2026-09-22T12:55:28+08:00　|　id：`0d0bc342e8f9b9ec`
 
 ## 正文
 
@@ -258,7 +258,7 @@ v0.3 is starting to answer the much more interesting question: what would make m
 
 🌱
 
-## 评论（13/13）
+## 评论（20/20）
 
 > **Giorgi Kobaidze** · 2026-09-20T11:33:33Z　
 > That's such a cool idea. I've thought about something like this but I can't decide on the character. 😄
@@ -316,6 +316,11 @@ v0.3 is starting to answer the much more interesting question: what would make m
 
 ---
 
+> **Joseph Afful** · 2026-09-21T13:43:33Z　
+> I am in a similar dilemma😅
+
+---
+
 > **Compound Labs** · 2026-09-20T12:13:20Z　
 > GTK timeout callbacks can still run after Mochi has changed state, so an old callback can overwrite the sprite's current animation. A state-generation check at callback time makes that race testable.
 
@@ -370,6 +375,42 @@ v0.3 is starting to answer the much more interesting question: what would make m
 > cool, Could you maybe help me with some js I'm a new dev. Heres my latest post
 >
 > dev.to/rylen_galloway_5b15f8e262/p...
+
+---
+
+> **Prince Panchani** · 2026-09-21T04:09:20Z　
+> This is such a good example of a “small side project” quietly turning into a proper systems problem 😄
+>
+> The part about old GTK callbacks firing after Mochi has already changed state really caught my attention. You start with “make a blob move”, and suddenly you're dealing with lifecycle, state ownership, timers, Wayland and input handling.
+>
+> I also really like the privacy approach of turning desktop activity into small signals instead of collecting everything happening on the screen. That feels like the right direction for something that's meant to live on your desktop.
+
+---
+
+> **Thomas Bonnet** · 2026-09-21T04:56:59Z　
+> Cute!
+
+---
+
+> **Onizuka** · 2026-09-21T11:01:10Z　
+> The state-management problem you hit is real — I built something similar way back and the moment you add "sleep" as a state, every other interaction needs to check against it, and suddenly you've got a 12-branch switch statement just for click handling. Curious how you structured the state lifecycles — flat enum with timers, or something hierarchical where "sleeping" is a parent state that blocks input? That's usually where these projects either stay clean or turn into spaghetti.
+
+---
+
+> **Mika Flowers** · 2026-09-21T11:05:45Z　
+> The state machine is structured to prioritize certain states over others, with states like sleeping taking precedence. So if another random emote or interaction tries to fire, it first checks the current state; if Mochi is sleeping, that event gets blocked or deferred instead of interrupting it.
+>
+> I’m trying to keep that priority logic centralized so individual interactions don’t each grow their own giant pile of conditionals 😭 It’s definitely been one of the trickier parts of keeping Mochi from turning into spaghetti as more behaviors get added.
+
+---
+
+> **Elmar Chavez** · 2026-09-21T14:27:08Z　
+> Very relatable indeed. Once you do something, the problems naturally comes up. It is up to us to solve it and then eventually learn from it. I really like the design of Mochi. It's just sad that I can't draw something close to what you have done hahaha. Kidding aside, this is a great project!
+
+---
+
+> **Kartik N V J K** · 2026-09-21T20:59:49Z　
+> The emotional attachment to a desktop pet is something I did not expect to relate to, but I have seen users treat voice agents the same way. When the agent has a personality, people forgive failures they would not tolerate from a tool. I wrote about this in my piece on evaluating voice agents (dev.to/kartik-nvjk/choosing-the-ri...). How do you measure whether the "feelings" actually improve the user experience?
 
 ## 关联链接
 

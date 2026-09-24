@@ -38,7 +38,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from kb_common import (DIR_RAW, DIR_REPORT, META, ROOT, Seen, is_project_ish, iso,  # noqa: E402
-                       load_ndjson, now_cst, rotate_files)
+                       load_ndjson, now_cst, rotate_files, write_ledger, _atomic_write)
 from kb_collect import (apply_rules, load_registry, load_rules,  # noqa: E402
                         person_note_path, project_note_path)
 
@@ -166,7 +166,7 @@ def stamp_frontmatter(path: Path, reason: str) -> None:
     add = (f'\narchived: true'
            f'\narchived_at: "{iso(now_cst())}"'
            f'\narchive_reason: {json.dumps(reason, ensure_ascii=False)}')
-    path.write_text(fm + add + rest, encoding="utf-8")
+    _atomic_write(path, fm + add + rest)     # 整页重写：搬完再截断，等于把冻结区写成半截页
 
 
 def _entity_stem_of(p: Path) -> str:
@@ -195,8 +195,60 @@ def _free_dup_name(dst: Path) -> Path:
     return cand
 
 
+def _undo_one(m: dict, keys: tuple[str, ...] = ()) -> dict | None:
+    """按 manifest 的一条记录把文件搬回原位：成功返回 None，没落地返回可入账的原因。
+
+    三条 undo 路径共用同一判据，避免各写一套：目标已复现就**只跳过不覆盖**
+    （覆盖 = 烧掉一份重新采集回来的在库页）；单条 OSError 不许打断整轮 ——
+    undo 抛在半路，剩下的条目永远没人搬。返回前自验「归档位没了 + 原位在了」，
+    与 `do_apply` 的搬运自验同口径，没落地就绝不算成功。
+    """
+    src, dst = ROOT / m["to"], ROOT / m["from"]
+    out = {k: m.get(k) for k in keys}
+    out.update({"from": m["to"], "to": m["from"]})
+    if not src.exists():
+        if dst.exists():
+            return None                       # 早就搬回过：续跑幂等，不是失败
+        out["skipped"] = "src-missing"        # 两头都没有 = 页真丢了
+        return out
+    if dst.exists():
+        out["skipped"] = "dst-exists"
+        return out
+    dst.parent.mkdir(parents=True, exist_ok=True)
+    try:
+        shutil.move(str(src), str(dst))
+    except OSError as e:                      # 目标复现 / 文件被 Obsidian、AV 占用（WinError 5）
+        out["failed"] = str(e)[:60]
+        return out
+    if src.exists() or not dst.exists():
+        out["unverified"] = True
+        return out
+    return None
+
+
+def _undo_report(man_file: Path, man: dict, todo: list, bad: list[dict], lock_name: str) -> None:
+    """未搬回的清单：终端响亮列出 + 写回 manifest 的 `undo_unverified`。
+
+    只打在终端 = 下一轮无从核对谁还没回来；沿用 `manifest.unverified` 的形状（按族
+    固定 lock_name，同 do_apply，免得每份 manifest 都留下一个不回收的 .lock 文件）。
+    """
+    if not bad:
+        if "undo_unverified" in man:        # 本轮全搬回了：清掉上一轮的未搬回，别留假警
+            man.pop("undo_unverified")
+            write_ledger(man_file, man, lock_name=lock_name, indent=2)
+        return
+    print(f"[!] 未搬回 {len(bad)}/{len(todo)} 条（源缺失 / 目标已存在 / 移动报错 / 未生效）"
+          f"—— 这些仍留在归档区原位，处理后可重跑同一条 undo：", flush=True)
+    for b in bad[:10]:
+        print(f"     {b['from']} -> {b['to']}  "
+              f"{b.get('skipped') or b.get('failed') or 'unverified'}", flush=True)
+    man["undo_unverified"] = bad
+    write_ledger(man_file, man, lock_name=lock_name, indent=2)
+
+
 def do_apply(plan: dict[str, list[dict]], seen: Seen) -> Path:
     moves: list[dict] = []
+    failed: list[dict] = []
     for ch_id, rows in plan.items():
         for r in rows:
             src = ROOT / r["note"]
@@ -204,9 +256,20 @@ def do_apply(plan: dict[str, list[dict]], seen: Seen) -> Path:
                 continue
             dst = archive_path(r["note"])
             dst.parent.mkdir(parents=True, exist_ok=True)
-            dst = _free_dup_name(dst)              # 罕见：同 id 重复搬过
-            shutil.move(str(src), str(dst))
-            stamp_frontmatter(dst, r["reason"])
+            dst = _free_dup_name(dst)              # 罕见：同 id 重复搬过（撞名顺延，绝不覆盖）
+            try:
+                shutil.move(str(src), str(dst))
+            except OSError as e:
+                # `_free_dup_name` 只是先验：目标可能在这一步复现，或文件被 Obsidian/AV 占用
+                # （WinError 5）。单条搬不动就记一笔继续 —— 整轮抛在这里，已搬成功的部分
+                # 连 manifest 都写不出来，等于没有 undo 凭证。
+                failed.append({"item_id": r["item_id"], "from": r["note"],
+                               "to": dst.relative_to(ROOT).as_posix(), "failed": str(e)[:60]})
+                continue
+            try:
+                stamp_frontmatter(dst, r["reason"])
+            except OSError as e:
+                print(f"    [!] 归档标记写不进 {dst.name}: {str(e)[:60]}")   # 页已搬动，标记可后补
             rel_new = dst.relative_to(ROOT).as_posix()
             moves.append({"item_id": r["item_id"], "source": ch_id, "reason": r["reason"],
                           "from": r["note"], "to": rel_new})
@@ -225,11 +288,18 @@ def do_apply(plan: dict[str, list[dict]], seen: Seen) -> Path:
               f"不得继续跑下一轮重判，先查原因（多为目标被占用/跨盘 move 退化成复制）：", flush=True)
         for m in bad[:10]:
             print(f"     {m['item_id']} from={m['from']} to={m['to']}", flush=True)
+    if failed:
+        print(f"[!] 搬不动已跳过 {len(failed)} 条（未进 moves，页仍在 20-语料，下一轮重判再试）：",
+              flush=True)
+        for f in failed[:10]:
+            print(f"     {f['item_id']} from={f['from']} {f['failed']}", flush=True)
     seen.save()
     man = META / f"prune_manifest_{now_cst().strftime('%Y%m%dT%H%M%S')}.json"
-    man.write_text(json.dumps({"at": iso(now_cst()), "moves": moves,
-                               "unverified": [m["item_id"] for m in bad]},
-                              ensure_ascii=False, indent=2), encoding="utf-8")
+    # manifest = undo 的唯一凭证，走 write_ledger（锁 + 原子替换）；lock_name 用族名而非
+    # 带时间戳的 path.stem，否则每份 manifest 都在 _meta 留一个永不回收的 .lock 文件。
+    write_ledger(man, {"at": iso(now_cst()), "moves": moves,
+                       "unverified": [m["item_id"] for m in bad],
+                       "failed": failed}, lock_name="prune_manifest", indent=2)
     rotate_files(META, "prune_manifest_", 12)               # 工作区只留近 12 份（git 历史兜底）
     return man
 
@@ -300,33 +370,48 @@ def dedupe_archive(apply: bool, seen: Seen) -> int:
         return len(move)
 
     ts = now_cst().strftime("%Y%m%dT%H%M%S")
-    moves = []
+    moves, failed = [], []
     for p in move:
         rel = p.relative_to(ROOT).as_posix()
         dst = ROOT / "80-归档" / "重复副本" / ts / rel[len("80-归档/"):]
         dst.parent.mkdir(parents=True, exist_ok=True)
         dst = _free_dup_name(dst)
-        shutil.move(str(p), str(dst))
+        try:
+            shutil.move(str(p), str(dst))
+        except OSError as e:
+            # 同 do_apply：单条搬不动（目标复现 / 文件被占用）记一笔继续，
+            # 不许抛出去 —— 那样前面已搬走的份就没人记账了。
+            failed.append({"from": rel, "to": dst.relative_to(ROOT).as_posix(),
+                           "failed": str(e)[:60]})
+            continue
         moves.append({"from": rel, "to": dst.relative_to(ROOT).as_posix()})
     man = META / f"archive_dedupe_manifest_{ts}.json"
-    man.write_text(json.dumps({"at": iso(now_cst()), "moves": moves},
-                              ensure_ascii=False, indent=2), encoding="utf-8")
+    write_ledger(man, {"at": iso(now_cst()), "moves": moves, "failed": failed},
+                 lock_name="archive_dedupe_manifest", indent=2)
     rotate_files(META, "archive_dedupe_manifest_", 12)
+    if failed:
+        print(f"  [!] 搬不动已跳过 {len(failed)} 份（仍在归档区原位，下次 --dedupe-archive 再试）：",
+              flush=True)
+        for f in failed[:10]:
+            print(f"     {f['from']} {f['failed']}", flush=True)
     print(f"  已移出 {len(moves)} 份 → {man.relative_to(ROOT).as_posix()}"
           f"（回滚：python tools/kb_prune.py --undo-dedupe {man.relative_to(ROOT).as_posix()}）")
     return len(moves)
 
 
 def undo_dedupe(man_path: str) -> int:
-    man = json.loads(Path(man_path).read_text(encoding="utf-8"))
-    n = 0
-    for m in man.get("moves") or []:
-        src, dst = ROOT / m["to"], ROOT / m["from"]
-        if not src.exists():
+    """把「重复副本」按 manifest 搬回原位（单条失败不中断，见 `_undo_one`）。"""
+    man_file = Path(man_path)
+    man = json.loads(man_file.read_text(encoding="utf-8"))
+    todo = man.get("moves") or []
+    bad, n = [], 0
+    for m in todo:
+        r = _undo_one(m)
+        if r:
+            bad.append(r)
             continue
-        dst.parent.mkdir(parents=True, exist_ok=True)
-        shutil.move(str(src), str(dst))
         n += 1
+    _undo_report(man_file, man, todo, bad, lock_name="archive_dedupe_manifest")
     return n
 
 
@@ -376,18 +461,21 @@ def prune_empty_dirs(apply: bool) -> int:
 
 
 def do_undo(man_path: str, seen: Seen) -> int:
-    man = json.loads(Path(man_path).read_text(encoding="utf-8"))
-    n = 0
-    for m in man.get("moves") or []:
-        src, dst = ROOT / m["to"], ROOT / m["from"]
-        if not src.exists():
+    """按 manifest 把语料搬回 20-语料。账本只在**确认落地**后才改（判据见 `_undo_one`）。"""
+    man_file = Path(man_path)
+    man = json.loads(man_file.read_text(encoding="utf-8"))
+    todo = man.get("moves") or []
+    bad, n = [], 0
+    for m in todo:
+        r = _undo_one(m, keys=("item_id",))
+        if r:
+            bad.append(r)
             continue
-        dst.parent.mkdir(parents=True, exist_ok=True)
-        shutil.move(str(src), str(dst))
         if m["item_id"] in seen.items:
             seen.items[m["item_id"]]["note"] = m["from"]
         n += 1
     seen.save()
+    _undo_report(man_file, man, todo, bad, lock_name="prune_manifest")
     return n
 
 
@@ -468,12 +556,12 @@ def _entity_liveness(apply: bool) -> dict:
                 if apply:
                     end = txt.find("\n---", 3)
                     if txt.startswith("---") and end > 0:
-                        p.write_text(txt[:end] + f'\nstale: true' + txt[end:], encoding="utf-8")
+                        # 整页重写一律原子替换：实体页是聚合成果，被截断就是丢一整页
+                        _atomic_write(p, txt[:end] + f'\nstale: true' + txt[end:])
                 stale.append(p.stem)
             elif not want and has:
                 if apply:
-                    p.write_text(re.sub(r"^stale:\s*true\s*\n", "", txt, count=1, flags=re.M),
-                                 encoding="utf-8")
+                    _atomic_write(p, re.sub(r"^stale:\s*true\s*\n", "", txt, count=1, flags=re.M))
                 revived.append(p.stem)
     return {"stale": len(stale), "revived": len(revived), "live_stems": len(live_stems),
             "samples": stale[:5]}
@@ -586,7 +674,7 @@ def _rewrite_links(pairs: dict[str, str]) -> int:
         for old, new in pairs.items():
             txt = re.sub(r"\[\[" + re.escape(old) + r"(?=[\]|#])", "[[" + new, txt)
         if txt != orig:
-            p.write_text(txt, encoding="utf-8")
+            _atomic_write(p, txt)            # 冻结区整页重写也要原子：半截页不可复原
             n += 1
     return n
 
@@ -594,6 +682,7 @@ def _rewrite_links(pairs: dict[str, str]) -> int:
 def archive_entities_apply(info: dict) -> Path:
     pairs: dict[str, str] = {}
     moves: list[dict] = []
+    failed: list[dict] = []
     for folder, rows in info["plan"].items():
         dst_dir = ENTITY_ARCHIVE[folder]
         dst_dir.mkdir(parents=True, exist_ok=True)
@@ -602,7 +691,14 @@ def archive_entities_apply(info: dict) -> Path:
             if not src.exists():
                 continue
             dst = _free_dup_name(dst)
-            shutil.move(str(src), str(dst))
+            try:
+                shutil.move(str(src), str(dst))
+            except OSError as e:
+                # 同 do_apply：归档位复现 / 页面被占用时记一笔继续。抛出去会让前面
+                # 真搬走的实体页没有 manifest —— 想撤时既没凭证也认不出哪些是本次搬的。
+                failed.append({"stem": r["stem"], "from": r["note"],
+                               "to": dst.relative_to(ROOT).as_posix(), "failed": str(e)[:60]})
+                continue
             to_rel = dst.relative_to(ROOT).as_posix()
             pairs[r["note"][:-3]] = to_rel[:-3]        # wikilink 文本不带 .md
             moves.append({"stem": r["stem"], "from": r["note"], "to": to_rel})
@@ -616,28 +712,35 @@ def archive_entities_apply(info: dict) -> Path:
               f"先查原因再跑下一轮：", flush=True)
         for m in bad[:10]:
             print(f"     {m['stem']} from={m['from']} to={m['to']}", flush=True)
+    if failed:
+        print(f"[!] 实体页搬不动已跳过 {len(failed)} 个（未进 moves，页仍在检索面，下次再试）：",
+              flush=True)
+        for f in failed[:10]:
+            print(f"     {f['stem']} from={f['from']} {f['failed']}", flush=True)
     man = META / f"entity_archive_manifest_{now_cst().strftime('%Y%m%dT%H%M%S')}.json"
-    man.write_text(json.dumps(
-        {"at": iso(now_cst()), "moves": moves, "rewritten_notes": n_files,
-         "unverified": [m["stem"] for m in bad]},
-        ensure_ascii=False, indent=2), encoding="utf-8")
+    write_ledger(man, {"at": iso(now_cst()), "moves": moves, "rewritten_notes": n_files,
+                       "unverified": [m["stem"] for m in bad], "failed": failed},
+                 lock_name="entity_archive_manifest", indent=2)
     rotate_files(META, "entity_archive_manifest_", 12)      # 同上（kb_moc 聚合近 12 份的理由）
     return man
 
 
 def undo_entities(man_path: str) -> int:
-    man = json.loads(Path(man_path).read_text(encoding="utf-8"))
+    """把实体页按 manifest 搬回 10-项目/30-人物，链接同步改回（判据见 `_undo_one`）。"""
+    man_file = Path(man_path)
+    man = json.loads(man_file.read_text(encoding="utf-8"))
+    todo = man.get("moves") or []
     pairs = {}
-    n = 0
-    for m in man.get("moves") or []:
-        src, dst = ROOT / m["to"], ROOT / m["from"]
-        if not src.exists():
-            continue
-        dst.parent.mkdir(parents=True, exist_ok=True)
-        shutil.move(str(src), str(dst))
+    bad, n = [], 0
+    for m in todo:
+        r = _undo_one(m, keys=("stem",))
+        if r:
+            bad.append(r)
+            continue                          # 没落地就不改 pairs —— 否则链接指向空路径
         pairs[m["to"][:-3]] = m["from"][:-3]
         n += 1
     _rewrite_links(pairs)
+    _undo_report(man_file, man, todo, bad, lock_name="entity_archive_manifest")
     return n
 
 

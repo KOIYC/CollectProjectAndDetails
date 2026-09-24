@@ -32,7 +32,8 @@ from kb_common import (BODY_MIN, CST, DIR_CHANNELS, DIR_CORPUS, DIR_METHOD, DIR_
                        DIR_PROJECTS, DIR_RAW, META, BodyCache, FetchError, RunLog, Seen,
                        append_jsonl, body_completeness, ensure_dirs, is_project_ish, iso,
                        load_channels_yaml, load_registry, norm_url, now_cst, note_bucket,
-                       pub_day_of, sanitize_record, sha1, slugify, topic_of, write_note)
+                       pub_day_of, rotate_jsonl, sanitize_record, sha1, slugify, topic_of,
+                       write_note)
 from kbc_channels import (ACCOUNT_URL_RE, ADAPTERS, ENRICH_ROUTING, FULLTEXT_BUDGET,  # noqa: E402,F401
                           LINK_RE, MAX_COMMENTS, PERSON_HANDLE_RE, as_tags, detect_lang,  # noqa: E402,F401
                           derive_project_url, enrich_generic, excerpt, filter_published,  # noqa: E402,F401
@@ -804,9 +805,20 @@ def main(argv=None) -> int:
 
     if not args.dry:
         seen.save()
+        # body_cache 是**缓存**不是事实源：清掉再也够不到的条目，防它单调膨胀
+        # （实测 9.0MB · 每渠道 + 收尾各全量重序列化一次）。正文的可恢复来源是不可变的 90-原始。
+        pruned = body_cache.prune_stale(seen.items)
+        if pruned:
+            print(f"[缓存] body_cache 清理 {pruned} 条陈旧正文（需要时从 90-原始 重建）", flush=True)
         body_cache.save()
+        # 追加型单文件账本没有前缀族，rotate_files 管不到 → 它是 _meta 里唯一只增不减的一本
+        rot = rotate_jsonl(META / "rule_drops.jsonl")
+        if rot:
+            print(f"[轮转] rule_drops.jsonl 超阈值，已分档（保 4 档 · 只归档不删除）", flush=True)
         out = log.finish({"total_items": total_items, "total_new": total_new, "dry": False,
-                          "rule_dropped": len(drop_sink), "write_errors": write_errors})
+                          "rule_dropped": len(drop_sink), "write_errors": write_errors,
+                          "body_cache_pruned": pruned})
+
         print(f"=== 完成：{total_items} 条（新 {total_new}）· 运行记录 {out} ===")
         if write_errors:
             print(f"[!] 本轮写盘失败 {write_errors} 条（明细见上方 [X] 行与运行记录 errors 字段）",

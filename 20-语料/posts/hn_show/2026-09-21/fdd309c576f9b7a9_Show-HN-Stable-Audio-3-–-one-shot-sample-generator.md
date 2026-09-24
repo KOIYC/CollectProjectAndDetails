@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=48345377"
 project_url: "https://github.com/shiehn/sas-sample-generator"
 author: "stevehiehn"
 published_at: "2026-05-31T13:05:24Z"
-captured_at: "2026-09-21T21:59:54+08:00"
+captured_at: "2026-09-22T13:12:52+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:144d"
 > 指标：点赞=10 · 评论=5 · engagement_velocity=10
 > 作者：stevehiehn　|　发布：2026-05-31T13:05:24Z
 > 项目链接：<https://github.com/shiehn/sas-sample-generator>
-> 采集：2026-09-21T21:59:54+08:00　|　id：`fdd309c576f9b7a9`
+> 采集：2026-09-22T13:12:52+08:00　|　id：`fdd309c576f9b7a9`
 
 ## 正文
 

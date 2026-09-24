@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49743031"
 project_url: "https://mockfreeli.org/"
 author: "ianhil"
 published_at: "2026-09-17T16:20:45Z"
-captured_at: "2026-09-20T14:57:50+08:00"
+captured_at: "2026-09-22T13:12:52+08:00"
 lang: "en"
 kind: "post"
 topic: "未分类"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：ianhil　|　发布：2026-09-17T16:20:45Z
 > 项目链接：<https://mockfreeli.org/>
-> 采集：2026-09-20T14:57:50+08:00　|　id：`90674e6b6a06d27e`
+> 采集：2026-09-22T13:12:52+08:00　|　id：`90674e6b6a06d27e`
 
 ## 正文
 
@@ -47,7 +47,11 @@ Mock Freeli — license-free song recommender
 
 Paste a song. We'll find five license-free cousins.
 
-# The term, read closely · Marginalia
+Error fetching http://www.publiclandsdata.com: CRAWL_HTTP_522
+
+## 关联链接
+
+- http://www.publiclandsdata.com:
 
 ## 导航
 

@@ -16,11 +16,13 @@ import glob
 import json
 import re
 import sys
+from datetime import datetime
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from kb_common import (BODY_MIN, DIR_RAW, DIR_REPORT, META, RUNS, iso,  # noqa: E402
-                       load_ndjson, now_cst, pub_day_of, write_note)
+                       load_ndjson, now_cst, pub_day_of, read_ledger,
+                       write_ledger, write_note)
 from kb_collect import load_channels_yaml  # noqa: E402
 
 # 渠道画像 → 该渠道「应当具备什么」的期望。QA 阈值由此推导，不再拍脑袋。
@@ -52,11 +54,55 @@ DEAD_LEDGER = META / "backfill_dead.json"
 
 
 def _load_dead() -> dict:
-    """死信账本：结构性无正文（视频帖/账号页/极短 README/反爬站）连试 2 轮后记账，不再计入待办。"""
-    try:
-        return json.loads(DEAD_LEDGER.read_text(encoding="utf-8")).get("items") or {}
-    except Exception:                                              # noqa: BLE001
-        return {}
+    """死信账本：结构性无正文（视频帖/账号页/极短 README/反爬站）连试 2 轮后记账，不再计入待办。
+
+    必须走 `read_ledger`：这本账在 kb_backfill 与 kb_analyze 里各有一个读者，
+    两处原先都是 `except Exception: return {}` —— 文件半截时伪装成「一条死信都没有」，
+    于是契约门把结构性缺体当「真缺口」反复追（2026-09-21 全库审计 P2-6 的第二处副本）。
+    """
+    return (read_ledger(DEAD_LEDGER, {"items": {}}) or {}).get("items") or {}
+
+
+
+# 队列账龄门限（天）：超过即说明「离开窗口的缺口永不自愈」正在真实发生
+AGE_WATCH_DAYS = (14, 30)
+
+
+def _age_queue(gaps: list[dict]) -> None:
+    """给缺口队列补 `first_queued_at` / `attempts`（就地改 gaps，不动判定）。
+
+    为什么必须有：`backfill_queue.json` 每轮由本脚本从零重建，「缺口何时第一次入队」
+    没有任何地方记录 —— runbook 要求每轮回填正因「离开窗口的缺口永不自愈」，
+    但 2 天新的缺口和 60 天僵尸缺口在报表上完全同貌，最高价值的与最没救的无法区分。
+    旧文件走 `read_ledger`：队列损坏时隔离告警，而不是伪装成「全是新缺口」重新计时。
+    只加字段、不改条目集合 —— 下游按 item_id/missing/url 消费，附加键无影响。
+    """
+    prev = (read_ledger(META / "backfill_queue.json", {}) or {}).get("items") or []
+    old = {p.get("item_id"): p for p in prev if p.get("item_id")}
+    now = iso(now_cst())
+    for g in gaps:
+        p = old.get(g["item_id"])
+        if p:
+            g["first_queued_at"] = p.get("first_queued_at") or now
+            g["attempts"] = int(p.get("attempts") or 0) + 1        # 已在队 → 又一轮仍未消化
+        else:
+            g["first_queued_at"] = now
+            g["attempts"] = 1
+
+
+def _queue_age(gaps: list[dict]) -> dict:
+    """按 first_queued_at 算账龄：最老多少天 + 超过 14/30 天各多少条。"""
+    now = now_cst()
+    ages = []
+    for g in gaps:
+        try:
+            ages.append((now - datetime.fromisoformat(g["first_queued_at"])).days)
+        except (KeyError, TypeError, ValueError):                  # noqa: BLE001
+            continue
+    return {"n": len(gaps), "with_ts": len(ages),
+            "oldest_days": max(ages) if ages else 0,
+            "gt14": sum(1 for a in ages if a > AGE_WATCH_DAYS[0]),
+            "gt30": sum(1 for a in ages if a > AGE_WATCH_DAYS[1])}
 
 
 def load_profiles() -> dict[str, str]:
@@ -224,7 +270,9 @@ def analyze(round_run: str | None = None) -> dict:
         gaps.append({"item_id": it["item_id"], "source_id": it["source_id"], "profile": prof,
                      "missing": miss, "url": it.get("project_url") or it.get("url"),
                      "page": it.get("url"), "title": (it.get("title") or "")[:80]})
+    _age_queue(gaps)
     rep["gaps"] = gaps
+    rep["queue_age"] = _queue_age(gaps)
     rep["gap_dead"] = dead_cnt
     rep["expected_absent"] = absent
     rep["expected_absent_by_channel"] = collections.Counter(
@@ -328,6 +376,13 @@ def render(rep: dict) -> str:
         L += ["| 渠道 | 缺失字段 | 条数 |", "|---|---|---|"] + \
              [f"| {c} | {m} | {n} |" for (c, m), n in rep["gap_by_channel"]]
         L += ["", f"合计 **{len(rep['gaps'])}** 条待回填（清单见 `_meta/backfill_queue.json`）"]
+        qa = rep.get("queue_age") or {}
+        if qa.get("n"):
+            # 账龄必须出现在收工视野：runbook 说「离开窗口的缺口永不自愈」，
+            # 没有 oldest/>14d/>30d 这三个数，2 天新缺口与 60 天僵尸缺口无法区分。
+            L.append(f"- 队列账龄（按 `first_queued_at` 首次入队时间，跨轮结转）：最老 "
+                     f"**{qa['oldest_days']}** 天 · 超 14 天 **{qa['gt14']}** 条 · "
+                     f"超 30 天 **{qa['gt30']}** 条")
     else:
         L.append("- 无缺口")
     if rep.get("gap_dead"):
@@ -432,6 +487,10 @@ def main(argv=None) -> int:
         if rep.get("gap_by_channel"):
             print(f"  待回填缺口 {len(rep['gaps'])} 条：" +
                   "、".join(f"{c}/{m}={n}" for (c, m), n in rep["gap_by_channel"][:8]))
+            qa = rep.get("queue_age") or {}
+            if qa.get("n"):
+                print(f"    队列账龄：最老 {qa['oldest_days']} 天 · >14天 {qa['gt14']} 条 · "
+                      f">30天 {qa['gt30']} 条（first_queued_at 跨轮结转，僵尸缺口必须在这里现形）")
         if rep.get("meta_defects_by_channel"):
             print(f"  元数据契约缺陷 {len(rep['meta_defects'])} 条：" +
                   "、".join(f"{c}/{f}={n}" for (c, f), n in rep["meta_defects_by_channel"][:8]))
@@ -454,23 +513,23 @@ def main(argv=None) -> int:
                 stale.unlink()
             except OSError:
                 pass
-    (META / "analysis_latest.json").write_text(json.dumps(
+    write_ledger(META / "analysis_latest.json",
         {"unique_items": rep["unique_items"], "no_url": rep["no_url"], "round": rep.get("round"),
          "by_channel": {k: {kk: vv for kk, vv in v.items() if kk != "body_len"}
                         for k, v in rep["by_channel"].items()},
          "body_missing": rep["body_missing"], "noise": len(rep["noise"]),
          "gaps": len(rep.get("gaps") or []), "gap_by_channel": rep.get("gap_by_channel"),
+         "queue_age": rep.get("queue_age"),
          "expected_absent": len(rep.get("expected_absent") or []),
          "expected_absent_by_channel": rep.get("expected_absent_by_channel"),
          "meta_defects": len(rep.get("meta_defects") or []),
          "meta_defects_by_channel": rep.get("meta_defects_by_channel"),
          "meta_exempt_by_channel": rep.get("meta_exempt_by_channel"),
-         "money_signal": rep["money_signal"], "lang": rep["lang"]},
-        ensure_ascii=False, indent=1), encoding="utf-8")
+         "money_signal": rep["money_signal"], "lang": rep["lang"]}, indent=1)
     # 缺口队列：kb_backfill.py 直接消费
-    (META / "backfill_queue.json").write_text(json.dumps(
+    write_ledger(META / "backfill_queue.json",
         {"generated": iso(now_cst()), "run_id": rid or "all", "count": len(rep.get("gaps") or []),
-         "items": rep.get("gaps") or []}, ensure_ascii=False, indent=1), encoding="utf-8")
+         "items": rep.get("gaps") or []}, indent=1)
     return 0
 
 

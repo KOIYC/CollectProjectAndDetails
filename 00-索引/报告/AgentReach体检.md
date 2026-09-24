@@ -1,7 +1,7 @@
 ---
 type: "report"
 title: "agent-reach 体检"
-updated: "2026-09-21T09:42:40+08:00"
+updated: "2026-09-24T23:47:13+08:00"
 tags:
   - 报告
   - 渠道
@@ -10,18 +10,23 @@ tags:
 
 # agent-reach 体检
 
-> 检查时间 2026-09-21T09:42:40+08:00 · 由 `agent-reach doctor --json` 生成
+> 检查时间 2026-09-24T23:47:13+08:00 · 由 `agent-reach doctor --json` 生成
 
 | 平台 | | 状态 | 激活后端 | 说明 |
 |---|---|---|---|---|
-| GitHub 仓库和代码 | ? | error | `—` | gh CLI 版本检查失败：`C:\Program Files\GitHub CLI\gh.EXE` 响应超时（>10s） |
-| Twitter/X 推文 | ⚠️ | warn | `—` | OpenCLI 桥接已连接，但 Twitter/X 登录态和实际命令未实时验证；Doctor 不执行平台命令，因此当前不标记为可用。 |
+| GitHub 仓库和代码 | ⚠️ | warn | `—` | gh CLI 可执行，且检测到显式认证配置；Doctor 不执行会写 device-id 的 `gh auth status`，因此未实时验证，未标记为可用。 |
+| Twitter/X 推文 | ⚠️ | warn | `—` | OpenCLI 已安装，但未检测到已连接的浏览器扩展。
+  1. 安装并启用扩展（Chrome/Edge）：https://chromewebstore.google.com/detail/opencli/ildkmabpimmkaedii |
 | YouTube 视频和字幕 | ❌ | off | `—` | yt-dlp 未安装。安装：python -m pip install -U "yt-dlp[default]" |
-| Reddit 帖子和评论 | ⚠️ | warn | `—` | OpenCLI 桥接已连接，但 Reddit 登录态和实际命令未实时验证；Doctor 不执行平台命令，因此当前不标记为可用。 |
-| Facebook 帖子、主页和群组 | ⚠️ | warn | `—` | OpenCLI 桥接已连接，但 Facebook 帖子、主页和群组 的登录态和实际命令未实时验证；Doctor 不执行平台命令，因此当前不标记为可用。需要时请先在 Chrome 里登录 facebook.com |
-| Instagram 用户、主页和指定用户帖子 | ⚠️ | warn | `—` | OpenCLI 桥接已连接，但 Instagram 用户、主页和指定用户帖子 的登录态和实际命令未实时验证；Doctor 不执行平台命令，因此当前不标记为可用。需要时请先在 Chrome 里登录 instagram.com |
+| Reddit 帖子和评论 | ⚠️ | warn | `—` | OpenCLI 已安装，但未检测到已连接的浏览器扩展。
+  1. 安装并启用扩展（Chrome/Edge）：https://chromewebstore.google.com/detail/opencli/ildkmabpimmkaedii |
+| Facebook 帖子、主页和群组 | ⚠️ | warn | `—` | OpenCLI 已安装，但未检测到已连接的浏览器扩展。
+  1. 安装并启用扩展（Chrome/Edge）：https://chromewebstore.google.com/detail/opencli/ildkmabpimmkaedii |
+| Instagram 用户、主页和指定用户帖子 | ⚠️ | warn | `—` | OpenCLI 已安装，但未检测到已连接的浏览器扩展。
+  1. 安装并启用扩展（Chrome/Edge）：https://chromewebstore.google.com/detail/opencli/ildkmabpimmkaedii |
 | B站视频、字幕和搜索 | ✅ | ok | `B站搜索 API` | B站搜索 API 可达（仅搜索，curl 直连）。完整功能建议安装 bili-cli：pipx install bilibili-cli |
-| 小红书笔记 | ⚠️ | warn | `—` | OpenCLI 桥接已连接，但小红书登录态和实际命令未实时验证；Doctor 不执行平台命令，因此当前不标记为可用。 |
+| 小红书笔记 | ⚠️ | warn | `—` | OpenCLI 已安装，但未检测到已连接的浏览器扩展。
+  1. 安装并启用扩展（Chrome/Edge）：https://chromewebstore.google.com/detail/opencli/ildkmabpimmkaedii |
 | LinkedIn 职业社交 | ⚠️ | warn | `—` | mcporter 本地配置未发现 LinkedIn MCP；配置还启用了 editor imports，Doctor 为避免扩大凭据读取范围没有展开，当前未验证。 |
 | 小宇宙播客转文字 | ❌ | off | `—` | 需要 ffmpeg（音频转码和切片）。安装：
   Ubuntu/Debian: apt install -y ffmpeg

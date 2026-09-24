@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Prezlo – We built an API that tells AI agent whether to trust an expert"
 project_url: "https://prezlo.io/"
-first_seen: "2026-09-21T21:59:53+08:00"
+first_seen: "2026-09-22T13:12:52+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://prezlo.io/>
-> 首次收录：2026-09-21T21:59:53+08:00
+> 首次收录：2026-09-22T13:12:52+08:00
 > 来源渠道：HN Show HN
 > 标签：author_loptymobile, story_48325814, show_hn
 > 最新指标：点赞=2 · 评论=0 · engagement_velocity=2
@@ -32,7 +32,8 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-21T01:27:24+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/1b4b1cddce7b7188_Show-HN-Prezlo-–-We-built-an-API-that-tells-AI-age]] |
 | 2026-09-21T21:59:53+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/1b4b1cddce7b7188_Show-HN-Prezlo-–-We-built-an-API-that-tells-AI-age]] |
+| 2026-09-22T13:12:52+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-21/1b4b1cddce7b7188_Show-HN-Prezlo-–-We-built-an-API-that-tells-AI-age]] |
 
 ## 摘要正文
 
-Author: Prezlo  Prezlo — Get Your Brand Recommended by AI  Prezlo — Get Your Brand Recommended by AI  # yynxxxxx/gpt_sub_analysis
+Author: Prezlo  Prezlo — Get Your Brand Recommended by AI  Prezlo — Get Your Brand Recommended by AI  Error fetching https://www.npmjs.com/package/@uindow/css: CRAWL_UNKNOWN_ERROR

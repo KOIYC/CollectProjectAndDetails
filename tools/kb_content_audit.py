@@ -27,7 +27,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from kb_common import (DIR_REPORT, DIR_RAW, FULLTEXT_MAX_CHARS, LEGACY_EXA_CAP,  # noqa: E402
-                       META, iso, now_cst, write_note)
+                       META, iso, now_cst, write_ledger, write_note)
 
 # ---------------------------------------------------------------- 判定规则
 
@@ -503,14 +503,13 @@ def main(argv=None) -> int:
     write_note(DIR_REPORT / f"内容审计-{tag}.md",
                {"type": "report", "title": f"内容质量审计 {tag}", "updated": iso(now_cst()),
                 "tags": ["索引", "审计", "内容质量"]}, render(rep))
-    (META / "content_audit.json").write_text(json.dumps(
-        {"generated": iso(now_cst()), "scope": tag, "n": rep["n"], "clean": rep["clean"],
-         "unusable": rep["unusable"], "irrelevant": rep["irrelevant"], "flags": rep["flags"],
-         "body_len": rep["body_len"], "captured_days": rep["captured_days"],
-         "by_channel": {k: {kk: vv for kk, vv in v.items() if kk != "bodylen"}
-                        for k, v in rep["by_channel"].items()},
-         "cross_channel_dupes": rep["cross_channel_dupes"]},
-        ensure_ascii=False, indent=1), encoding="utf-8")
+    write_ledger(META / "content_audit.json", {
+        "generated": iso(now_cst()), "scope": tag, "n": rep["n"], "clean": rep["clean"],
+        "unusable": rep["unusable"], "irrelevant": rep["irrelevant"], "flags": rep["flags"],
+        "body_len": rep["body_len"], "captured_days": rep["captured_days"],
+        "by_channel": {k: {kk: vv for kk, vv in v.items() if kk != "bodylen"}
+                       for k, v in rep["by_channel"].items()},
+        "cross_channel_dupes": rep["cross_channel_dupes"]}, indent=1)
     return 0
 
 

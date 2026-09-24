@@ -7,10 +7,10 @@ source_name: "B站"
 url: "https://www.bilibili.com/video/BV1Ta411o7tT"
 author: "ScopeSide"
 published_at: "2022-08-09T23:04:08+08:00"
-captured_at: "2026-09-20T14:17:39+08:00"
+captured_at: "2026-09-22T14:23:08+08:00"
 lang: "zh"
 kind: "post"
-topic: 开发者工具
+topic: "游戏"
 shard: "2026-09-20"
 pub_day: "2022-08-09"
 tags:
@@ -22,7 +22,7 @@ tags:
   - 3D
   - 制作
   - 自制游戏
-metrics: {"play": 37870, "danmaku": 41, "favorites": 247}
+metrics: {"play": 37877, "danmaku": 41, "favorites": 247}
 comments_count: 0
 comments_total: 0
 discovered_via: "bili:独立开发"
@@ -33,10 +33,10 @@ discovered_via: "bili:独立开发"
 > [!meta]- 语料信息（点开展开）
 > 来源：B站（post）
 > 原帖：<https://www.bilibili.com/video/BV1Ta411o7tT>
-> 指标：播放=37870 · 弹幕=41 · 收藏=247
+> 指标：播放=37877 · 弹幕=41 · 收藏=247
 > 作者：ScopeSide　|　发布：2022-08-09T23:04:08+08:00
 > 项目链接：—
-> 采集：2026-09-20T14:17:39+08:00　|　id：`ddf914afa6afff36`
+> 采集：2026-09-22T14:23:08+08:00　|　id：`ddf914afa6afff36`
 
 ## 正文
 
@@ -46,5 +46,5 @@ discovered_via: "bili:独立开发"
 
 - 项目页：—（本条不是项目，按设计不建实体页）
 - 渠道页：[[50-渠道/bilibili]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`游戏`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

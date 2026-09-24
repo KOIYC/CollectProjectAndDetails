@@ -2,6 +2,10 @@
 __pycache__/
 *.pyc
 
+# 账本锁文件 / 原子写残留（进程被杀才会留 tmp；两者都不是数据，也不该进账）
+_meta/*.lock
+_meta/*.tmp
+
 # Agent 工作区（会话记忆，非项目数据）
 .workbuddy/
 

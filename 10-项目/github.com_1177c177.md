@@ -2,7 +2,7 @@
 type: "project"
 title: "huaminghuangtw/Strava-Tool"
 project_url: "https://github.com/huaminghuangtw/Strava-Tool"
-first_seen: "2026-09-21T13:02:19+08:00"
+first_seen: "2026-09-22T13:12:52+08:00"
 sources:
   - github_new
 tags:
@@ -20,7 +20,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/huaminghuangtw/Strava-Tool>
-> 首次收录：2026-09-21T13:02:19+08:00
+> 首次收录：2026-09-22T13:12:52+08:00
 > 来源渠道：GitHub 新星仓库
 > 标签：Python, topic:side-project
 > 最新指标：stars=12 · forks=2 · open_issues=0
@@ -43,6 +43,7 @@ lang: "en"
 | 2026-09-21T09:54:58+08:00 | GitHub 新星仓库 | stars=12 · forks=2 · open_issues=0 | [[20-语料/posts/github_new/2026-09-21/1177c1777ea2ee15_huaminghuangtw-Strava-Tool]] |
 | 2026-09-21T12:59:00+08:00 | GitHub 新星仓库 | stars=12 · forks=2 · open_issues=0 | [[20-语料/posts/github_new/2026-09-21/1177c1777ea2ee15_huaminghuangtw-Strava-Tool]] |
 | 2026-09-21T13:02:19+08:00 | GitHub 新星仓库 | stars=12 · forks=2 · open_issues=0 | [[20-语料/posts/github_new/2026-09-21/1177c1777ea2ee15_huaminghuangtw-Strava-Tool]] |
+| 2026-09-22T13:12:52+08:00 | GitHub 新星仓库 | stars=12 · forks=2 · open_issues=0 | [[20-语料/posts/github_new/2026-09-21/1177c1777ea2ee15_huaminghuangtw-Strava-Tool]] |
 
 ## 摘要正文
 

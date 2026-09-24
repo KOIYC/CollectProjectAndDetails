@@ -2,7 +2,7 @@
 type: "project"
 title: "Pixx Ai Restaurant Picker For Groups"
 project_url: "https://betalist.com/startups/pixx-ai-restaurant-picker-for-groups"
-first_seen: "2026-09-21T22:04:14+08:00"
+first_seen: "2026-09-22T14:20:46+08:00"
 sources:
   - betalist
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://betalist.com/startups/pixx-ai-restaurant-picker-for-groups>
-> 首次收录：2026-09-21T22:04:14+08:00
+> 首次收录：2026-09-22T14:20:46+08:00
 > 来源渠道：BetaList
 > 标签：—
 > 最新指标：—
@@ -30,6 +30,8 @@ lang: "en"
 | 2026-09-21T01:34:59+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/7c298a99236e0f46_Pixx-Ai-Restaurant-Picker-For-Groups]] |
 | 2026-09-21T02:52:22+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/7c298a99236e0f46_Pixx-Ai-Restaurant-Picker-For-Groups]] |
 | 2026-09-21T22:04:14+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/7c298a99236e0f46_Pixx-Ai-Restaurant-Picker-For-Groups]] |
+| 2026-09-22T12:57:25+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/7c298a99236e0f46_Pixx-Ai-Restaurant-Picker-For-Groups]] |
+| 2026-09-22T14:20:46+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/7c298a99236e0f46_Pixx-Ai-Restaurant-Picker-For-Groups]] |
 
 ## 摘要正文
 

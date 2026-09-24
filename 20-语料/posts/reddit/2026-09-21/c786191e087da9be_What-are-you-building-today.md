@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/buildinpublic/comments/1ujpdug/what_are_you_building_today/"
 author: "DiscountResident540"
 published_at: "2026-06-30T21:33:12+08:00"
-captured_at: "2026-09-21T22:04:14+08:00"
+captured_at: "2026-09-22T13:16:35+08:00"
 lang: "en"
 kind: "post"
 topic: "未分类"
@@ -34,7 +34,7 @@ discovered_via: "reddit:113d+settle3"
 > 指标：得分=21 · 评论=86 · 赞踩比=0.97
 > 作者：DiscountResident540　|　发布：2026-06-30T21:33:12+08:00
 > 项目链接：—
-> 采集：2026-09-21T22:04:14+08:00　|　id：`c786191e087da9be`
+> 采集：2026-09-22T13:16:35+08:00　|　id：`c786191e087da9be`
 
 ## 正文
 

@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/microsaas/comments/1szvafn/what_are_you_building_
 project_url: "https://clipvo.site/"
 author: "Far_Education_9201"
 published_at: "2026-04-30T20:55:21+08:00"
-captured_at: "2026-09-21T22:03:59+08:00"
+captured_at: "2026-09-22T13:16:16+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -35,7 +35,7 @@ discovered_via: "reddit:174d+settle3"
 > 指标：得分=19 · 评论=51 · 赞踩比=0.949999988079071
 > 作者：Far_Education_9201　|　发布：2026-04-30T20:55:21+08:00
 > 项目链接：<https://clipvo.site/>
-> 采集：2026-09-21T22:03:59+08:00　|　id：`aa682ef892005fc6`
+> 采集：2026-09-22T13:16:16+08:00　|　id：`aa682ef892005fc6`
 
 ## 正文
 

@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=48336119"
 project_url: "https://jynx.app/"
 author: "akiro____"
 published_at: "2026-05-30T13:45:34Z"
-captured_at: "2026-09-21T22:00:49+08:00"
+captured_at: "2026-09-22T13:13:21+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:144d"
 > 指标：点赞=5 · 评论=3 · engagement_velocity=5
 > 作者：akiro____　|　发布：2026-05-30T13:45:34Z
 > 项目链接：<https://jynx.app/>
-> 采集：2026-09-21T22:00:49+08:00　|　id：`e3c3ead84755f485`
+> 采集：2026-09-22T13:13:21+08:00　|　id：`e3c3ead84755f485`
 
 ## 正文
 

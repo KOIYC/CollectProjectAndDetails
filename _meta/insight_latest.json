@@ -1,37 +1,37 @@
 {
-  "generated": "2026-09-21T10:26:51+08:00",
-  "n_live": 1615,
-  "n_usable": 1411,
-  "n_project": 1258,
-  "signals": 42,
+  "generated": "2026-09-23T00:09:18+08:00",
+  "n_live": 1761,
+  "n_usable": 1541,
+  "n_project": 1366,
+  "signals": 43,
   "topics": [
     [
       "AI 工具/Agent",
-      898
+      974
     ],
     [
       "开发者工具",
-      317
+      337
     ],
     [
       "未分类",
-      95
+      112
     ],
     [
       "游戏",
-      35
+      39
     ],
     [
       "移动 App",
-      23
+      30
     ],
     [
       "SaaS/B2B",
-      16
+      20
     ],
     [
       "内容/媒体",
-      12
+      13
     ],
     [
       "教育/学习",
@@ -47,7 +47,7 @@
     ],
     [
       "浏览器扩展",
-      2
+      3
     ]
   ],
   "strong": [
@@ -77,6 +77,21 @@
       "title": "Iptvstreamingservices",
       "url": "https://www.indiehackers.com/product/iptvstreamingservices",
       "metrics": {}
+    },
+    {
+      "key": "host:pypi.org",
+      "channels": [
+        "github_new",
+        "hn_show"
+      ],
+      "n_channels": 2,
+      "title": "mizorewww/laya-mlx",
+      "url": "https://pypi.org/project/laya-mlx",
+      "metrics": {
+        "stars": 4313,
+        "forks": 288,
+        "open_issues": 4
+      }
     },
     {
       "key": "host:chromewebstore.google.com",
@@ -124,7 +139,8 @@
       }
     }
   ],
-  "money_n": 684,
+  "money_signal_n": 739,
+  "money_evidence_n": 257,
   "money_quotes": [
     {
       "source": "betalist",
@@ -200,18 +216,18 @@
     }
   ],
   "pain_n": {
-    "当前方案不好用": 48,
-    "做不出来/卡住": 66,
-    "愿意付钱": 36,
-    "在找替代品": 37,
-    "想要而找不到": 3
+    "当前方案不好用": 53,
+    "做不出来/卡住": 75,
+    "愿意付钱": 40,
+    "在找替代品": 38,
+    "想要而找不到": 5
   },
   "by_channel": [
     {
       "id": "betalist",
       "profile": "linkpost",
-      "n": 56,
-      "ok": 56,
+      "n": 68,
+      "ok": 68,
       "rate": 1.0
     },
     {
@@ -224,15 +240,8 @@
     {
       "id": "indiehackers",
       "profile": "linkpost",
-      "n": 43,
-      "ok": 43,
-      "rate": 1.0
-    },
-    {
-      "id": "producthunt",
-      "profile": "linkpost",
-      "n": 64,
-      "ok": 64,
+      "n": 63,
+      "ok": 63,
       "rate": 1.0
     },
     {
@@ -243,25 +252,32 @@
       "rate": 1.0
     },
     {
+      "id": "producthunt",
+      "profile": "linkpost",
+      "n": 91,
+      "ok": 90,
+      "rate": 0.989010989010989
+    },
+    {
       "id": "bilibili",
       "profile": "metadata",
-      "n": 42,
-      "ok": 40,
-      "rate": 0.9523809523809523
+      "n": 43,
+      "ok": 41,
+      "rate": 0.9534883720930233
     },
     {
       "id": "hn_show",
       "profile": "discussion",
-      "n": 1040,
-      "ok": 966,
-      "rate": 0.9288461538461539
+      "n": 1080,
+      "ok": 1008,
+      "rate": 0.9333333333333333
     },
     {
       "id": "v2ex",
       "profile": "discussion",
-      "n": 34,
-      "ok": 29,
-      "rate": 0.8529411764705882
+      "n": 45,
+      "ok": 37,
+      "rate": 0.8222222222222222
     },
     {
       "id": "exa_discovery",
@@ -273,16 +289,16 @@
     {
       "id": "github_new",
       "profile": "project",
-      "n": 61,
-      "ok": 43,
-      "rate": 0.7049180327868853
+      "n": 63,
+      "ok": 44,
+      "rate": 0.6984126984126984
     },
     {
       "id": "reddit",
       "profile": "discussion",
-      "n": 244,
-      "ok": 149,
-      "rate": 0.610655737704918
+      "n": 277,
+      "ok": 169,
+      "rate": 0.6101083032490975
     },
     {
       "id": "c1c7",
@@ -292,5 +308,5 @@
       "rate": 0.2857142857142857
     }
   ],
-  "body_median": 2568
+  "body_median": 2257
 }

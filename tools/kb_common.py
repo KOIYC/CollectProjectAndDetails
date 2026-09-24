@@ -5,9 +5,11 @@
 """
 from __future__ import annotations
 
+import contextlib
 import gzip as gzip_lib
 import hashlib
 import html as html_lib
+import itertools
 import json
 import os
 import re
@@ -716,6 +718,30 @@ def load_channels_yaml(path: Path) -> dict:
         val = val.strip()
         if not isinstance(parent, dict):
             raise ValueError(f"映射项挂到非映射容器: {raw!r}")
+        if val in (">-", ">", ">+", "|-", "|", "|+"):
+            # YAML 折叠/字面标量：`>-`（折叠成空格）/ `|`（保留换行）。
+            # 不支持这两种写法时，多行的 note 会被逐行当成 `key: value` 解析 ——
+            # 正文里的 `https://x.com` 会切成 `解锁 = 开 Chrome 登录 https` 这样的**伪键**
+            # 塞进注册表（2026-09-24 实测 twitter / xiaohongshu 两个渠道各中招）。
+            # 折叠标量在原文件里是「本行 val 为 `>-`，后续更深缩进的行都是正文」，照此还原。
+            buf: list[str] = []
+            while i < len(lines):
+                nxt = lines[i]
+                if not nxt.strip():
+                    buf.append("")
+                    i += 1
+                    continue
+                if nxt.lstrip().startswith("#"):
+                    break
+                if len(nxt) - len(nxt.lstrip()) <= indent:
+                    break
+                buf.append(nxt.strip())
+                i += 1
+            while buf and buf[-1] == "":
+                buf.pop()
+            sep = "\n" if val.startswith("|") else " "
+            parent[key] = sep.join(buf)
+            continue
         if val == "":
             node = {}
             parent[key] = node
@@ -784,6 +810,32 @@ def rotate_runs(keep: int = 80, directory: Path | None = None) -> int:
     return removed
 
 
+def rotate_jsonl(path: Path, keep: int = 4, max_bytes: int = 200_000) -> int:
+    """单个追加型 JSONL 账本的分档轮转，返回移走的份数。
+
+    为什么单独要一个函数：`rule_drops.jsonl` 只有一个文件、没有前缀族，`rotate_files`
+    管不到它 —— 于是它成了 `_meta` 里唯一只增不减的账本（实测已 156KB，每天再涨）。
+    轮转不删除历史：判废理由是「主题准入为什么把它筛掉」的分析线索，`.1`~`.keep` 留在
+    `_meta/` 里可核对（git 已入库，等于第三份保险）。超阈值才转，避免每轮都动盘。
+    """
+    try:
+        if not path.exists() or path.stat().st_size < max_bytes:
+            return 0
+    except OSError:
+        return 0
+    for i in range(keep, 1, -1):                               # .3 → .4，依次后移
+        src = path.with_name(f"{path.name}.{i - 1}")
+        if src.exists():
+            try:
+                os.replace(src, path.with_name(f"{path.name}.{i}"))
+            except OSError:
+                return i - 2
+    os.replace(path, path.with_name(f"{path.name}.1"))
+    path.write_text("", encoding="utf-8")
+    return 1
+
+
+
 # ---------------------------------------------------------------- stores
 
 
@@ -819,11 +871,109 @@ def _load_json(path: Path, default):
         return default
 
 
+_TMP_SEQ = itertools.count(1)
+_REPLACE_RETRY_S = (0.2, 0.6, 1.5)
+
+
 def _atomic_write(path: Path, text: str) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
-    tmp = path.with_suffix(path.suffix + ".tmp")
+    # 临时名必须**唯一**（pid + 进程内序号）。原来固定 `x.json.tmp`：两个写者同时写同一
+    # 账本时互相覆盖对方的 tmp，os.replace 之后盘上留下的是两份内容拼起来的半截文件。
+    # 实测 2026-09-21 有会话与本库重跑时间重叠 —— 这类损坏不会报错，只会在
+    # healthcheck ①/⑤ 表现成「盘账不平」，而两边日志各自都是绿的。
+    tmp = path.with_name(f"{path.name}.{os.getpid()}.{next(_TMP_SEQ)}.tmp")
     tmp.write_text(text, encoding="utf-8", newline="\n")
-    os.replace(tmp, path)
+    # os.replace 在 Windows 上会因目标被 AV/索引器/另一进程占用而抛 WinError 5
+    # （kb_navfix 里已留过同类现场记录）。短暂退避重试；仍失败就抛给调用方计入
+    # write_errors —— 写盘失败必须留痕，静默吞掉等于丢一整页。
+    for i, wait in enumerate((0.0,) + _REPLACE_RETRY_S):
+        try:
+            os.replace(tmp, path)
+            return
+        except OSError:
+            if i == len(_REPLACE_RETRY_S) or not tmp.exists():
+                raise
+            time.sleep(wait)
+
+
+_LOCK_TIMEOUT_S = 25.0
+
+
+@contextlib.contextmanager
+def ledger_lock(target: Path, lock_name: str | None = None,
+                timeout: float = _LOCK_TIMEOUT_S):
+    """_meta 账本的跨进程互斥锁（stdlib：Windows 用 msvcrt，POSIX 用 fcntl）。
+
+    为什么必须加：`Seen` / `BodyCache` / 死信账本全是「整读 → 改 → 整写」，没有锁。
+    09:30 自动化与人工重跑（`kb_navfix --fix-names` 也读写 seen）时间重叠时后写覆盖前写，
+    丢的是账本条目 —— 表现成「在盘不在账 / 在账不在盘」，而两边日志各自都绿。
+
+    锁文件放在**目标旁边**而不是统一 _meta/：临时目录里的账本不该往真 _meta 留锁。
+    带时间戳的 manifest 族传 `lock_name` 归并成一把族锁 —— 否则每写一份 manifest
+    就多一个新锁文件，而轮转按前缀匹配、点前缀文件它扫不到。点前缀也让 Obsidian 不索引。
+
+    超时行为：响亮告警后**照样写**。反过来（跳过写入）会把已取到的正文/账本更新永久丢掉，
+    而冲突覆盖至少还能被 healthcheck ①/⑤ 抓到（同「退出码恒 0」的取舍：宁可留可观测的
+    偏差，也不要不可观测的丢失）。
+    """
+    lock_path = target.with_name(f".{lock_name or target.name}.lock")
+    lock_path.parent.mkdir(parents=True, exist_ok=True)
+    fh, ok, waited = None, False, 0.0
+    try:
+        fh = open(lock_path, "a+b")
+        try:
+            import msvcrt                                      # Windows
+
+            def _try():
+                fh.seek(0)
+                msvcrt.locking(fh.fileno(), msvcrt.LK_NBLCK, 1)
+
+            def _un():
+                fh.seek(0)
+                msvcrt.locking(fh.fileno(), msvcrt.LK_UNLCK, 1)
+        except ImportError:                                    # pragma: no cover - POSIX
+            import fcntl                                       # noqa: F401
+
+            def _try():
+                fcntl.flock(fh, fcntl.LOCK_EX | fcntl.LOCK_NB)
+
+            def _un():
+                fcntl.flock(fh, fcntl.LOCK_UN)
+        while True:
+            try:
+                _try()
+                ok = True
+                break
+            except OSError:
+                if waited >= timeout:
+                    break
+                time.sleep(0.25)
+                waited += 0.25
+        if not ok:
+            print(f"[!] 账本锁等待超时 {timeout:.1f}s（{lock_name or target.name}）—— "
+                  f"疑似有另一轮在跑，仍继续写入；收工时若 ①/⑤ 报红请先查并发", flush=True)
+        yield ok
+    finally:
+        if fh is not None:
+            if ok:
+                try:
+                    _un()
+                except OSError:
+                    pass
+            fh.close()
+
+
+def read_ledger(path: Path, default):
+    """账本读盘 = 带损坏隔离的读（见 `_load_json`）。给 kb_backfill 的死信账本用。"""
+    return _load_json(path, default)
+
+
+def write_ledger(path: Path, payload: dict, lock_name: str | None = None,
+                 indent: int = 0) -> None:
+    """账本写盘 = 锁 + 原子替换。任何 _meta 状态文件都该走这里，不要自己 write_text。"""
+    with ledger_lock(path, lock_name):
+        _atomic_write(path, json.dumps(payload, ensure_ascii=False, indent=indent))
+
 
 
 class Seen:
@@ -868,9 +1018,10 @@ class Seen:
         return False
 
     def save(self):
-        _atomic_write(self.path, json.dumps(
-            {"version": 1, "updated": iso(now_cst()), "items": self.items},
-            ensure_ascii=False, indent=0))
+        with ledger_lock(self.path):
+            _atomic_write(self.path, json.dumps(
+                {"version": 1, "updated": iso(now_cst()), "items": self.items},
+                ensure_ascii=False, indent=0))
 
 
 class BodyCache:
@@ -905,12 +1056,46 @@ class BodyCache:
         self.dirty = True
         return True
 
+    def prune_stale(self, seen_items: dict, keep_days: int = 120) -> int:
+        """丢掉「滚动窗口再也够不到」的缓存条目，返回删除数（只增不减的缓存必须有个出口）。
+
+        为什么取 120 天：本缓存唯一的职责是防「本轮空 body 覆盖历史正文」，而采集窗口最长
+        90 天 —— 超过窗口仍未再观测的条目不可能再回榜覆盖，留着只会让 body_cache.json
+        单调膨胀（实测 9.0MB，每渠道 + 每轮收尾各全量重序列化一次）。
+        删了不丢数据：正文的事实源是不可变的 `90-原始/`，需要时从那里重建即可。
+        判据用 seen 的 `last_seen`（账本口径），不用缓存自己的 `at`（那只记最后一次写入）。
+        安全阀：账本明显比缓存小（seen 损坏被隔离重启、或拿了半截账本）时**不 prune** ——
+        否则「账本空 + prune」= 一把清光缓存，把防覆盖的机制反过来变成大规模丢正文。
+        """
+        if len(seen_items) * 2 < len(self.items):
+            print(f"[!] body_cache 清理跳过：账本仅 {len(seen_items)} 条而缓存 {len(self.items)} 条"
+                  f"（先查 seen.json 是否损坏/被隔离，别在失忆状态下清缓存）", flush=True)
+            return 0
+        cutoff = now_cst() - timedelta(days=keep_days)
+        stale = []
+        for iid in self.items:
+            rec = seen_items.get(iid) or {}
+            last = rec.get("last_seen") or rec.get("first_seen") or ""
+            try:
+                seen_at = datetime.fromisoformat(last)
+            except ValueError:                                  # 无账本记录 / 格式非法 → 够不到了
+                stale.append(iid)
+                continue
+            if seen_at < cutoff:
+                stale.append(iid)
+        for iid in stale:
+            self.items.pop(iid, None)
+        if stale:
+            self.dirty = True
+        return len(stale)
+
     def save(self) -> None:
         if not self.dirty:
             return
-        _atomic_write(self.path, json.dumps(
-            {"version": 1, "updated": iso(now_cst()), "count": len(self.items),
-             "items": self.items}, ensure_ascii=False))
+        with ledger_lock(self.path):
+            _atomic_write(self.path, json.dumps(
+                {"version": 1, "updated": iso(now_cst()), "count": len(self.items),
+                 "items": self.items}, ensure_ascii=False))
 
 
 # --------------------------------------------------- JSONL 读写（一行一条的纪律）
@@ -947,12 +1132,18 @@ def sanitize_record(rec: dict) -> dict:
 
 
 def load_ndjson(path: Path) -> list[dict]:
-    """按 `\\n` 切分读 JSONL —— 唯一正确的读法（见上面 _LINE_SEP_CHARS 的注释）。"""
+    """按 `\\n` 切分读 JSONL —— 唯一正确的读法（见上面 _LINE_SEP_CHARS 的注释）。
+
+    坏行必须**报数**，不能静默 `continue`：`90-原始/` 是唯一事实源、只追加不可变，
+    一行解析失败就是一条条目从所有下游统计里隐形（存量重判、洞察、① 计数都会少算，
+    而 healthcheck 拿的是同一份读法 → 一路报绿）。真出现坏行时先查是否被截断写盘。
+    """
     out: list[dict] = []
     try:
         text = path.read_text(encoding="utf-8")
     except OSError:
         return out
+    bad = 0
     for ln in text.split("\n"):
         ln = ln.strip()
         if not ln:
@@ -960,8 +1151,12 @@ def load_ndjson(path: Path) -> list[dict]:
         try:
             out.append(json.loads(ln))
         except json.JSONDecodeError:
-            continue
+            bad += 1
+    if bad:
+        print(f"[!] JSONL 有 {bad} 行解析失败被跳过：{path.name}"
+              f"（唯一事实源里的坏行=条目隐形，请核对是否半截写盘）", flush=True)
     return out
+
 
 
 def append_jsonl(path: Path, records: list[dict]) -> int:
@@ -1008,6 +1203,43 @@ def fm_scalars(head: str) -> dict[str, str]:
                 pass                                   # 不是合法 JSON 的双引号值：退回朴素去引号
         out[k] = v.strip('"') if v else ""
     return out
+
+
+def fm_list(head: str, key: str) -> list[str]:
+    """读 frontmatter 里某个**列表键**（块式 `- x` 或行内 `[a, b]`）→ 字符串列表。
+
+    与 `fm_scalars` 的分工：那个按设计**跳过列表/字典块**（只服务标量键的定点改写），
+    所以 `aliases` 这类块式列表用 `fm_scalars` 读回来是空串 —— 判据不同源就会出现
+    「生成端写的别名，检查器不认」。2026-09-24 实测：`浏览.md` 的 alias「从这里开始」
+    被 healthcheck ④ 误报成 3 处断链。
+    """
+    lines = head.splitlines()
+    body: list[str] = []
+    inline = ""
+    for idx, ln in enumerate(lines):
+        m = re.match(rf"^{re.escape(key)}:\s*(.*)$", ln)
+        if not m:
+            continue
+        inline = m.group(1).strip()
+        if inline:
+            break
+        for j in range(idx + 1, len(lines)):
+            nxt = lines[j]
+            if not nxt.strip() or nxt.lstrip().startswith("#"):
+                continue                                  # 列表块内允许空行/注释
+            if not nxt[:1].isspace():                     # 缩进回到 0 → 列表块结束
+                break
+            item = nxt.strip()
+            if not item.startswith("- "):
+                break
+            body.append(item[2:].strip())
+        break
+    if inline:
+        s = inline
+        if s.startswith("["):
+            s = s[1:-1] if s.endswith("]") else s[1:]
+        return [x.strip().strip("\"'") for x in s.split(",") if x.strip()]
+    return [x.strip().strip("\"'") for x in body if x.strip()]
 
 
 def set_fm_scalar(head: str, key: str, value: str) -> str:

@@ -30,7 +30,8 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from kb_common import (BODY_MIN, DIR_RAW, DIR_REPORT, FULLTEXT_MAX_CHARS, META,  # noqa: E402
                        ROOT, BodyCache, Seen, append_jsonl, body_completeness,
                        direct_fetch_texts, exa_fetch_texts, iso, norm_url, now_cst,
-                       note_bucket, pub_day_of, rotate_files, rotate_runs, run_cli, sha1)
+                       note_bucket, pub_day_of, read_ledger, rotate_files, rotate_runs,
+                       run_cli, sha1, write_ledger)
 from kbc_channels import betalist_launch_date  # noqa: E402
 from kb_collect import (ENRICH_ROUTING, MAX_COMMENTS, is_project_ish,  # noqa: E402
                         load_channels_yaml, write_corpus_note, write_entity_note)
@@ -60,22 +61,29 @@ REASON_CODES: dict[str, str] = {
 
 
 def load_dead() -> dict:
-    try:
-        return json.loads(DEAD_LEDGER.read_text(encoding="utf-8")).get("items") or {}
-    except Exception:                                              # noqa: BLE001
-        return {}
+    """读死信账本 —— 必须走 `read_ledger`（损坏隔离 + 响亮告警），不许自己 try/except。
+
+    为什么原来那版危险：`except Exception: return {}` 把「文件半截 / 编码坏」伪装成
+    「一条死信都没有」。后果不是报错而是**静默清空判定**：已判死的条目集体重回回填队列，
+    下一轮重新烧完三档后端额度再判死，而且没人知道发生过。seen/body_cache 早就有
+    `.corrupt-*.bak` 隔离，这本账是最后一本没有的（2026-09-21 全库审计 P2-6）。
+    """
+    return (read_ledger(DEAD_LEDGER, {"items": {}}) or {}).get("items") or {}
 
 
 def save_dead(d: dict) -> None:
-    DEAD_LEDGER.write_text(json.dumps(
-        {"schema": DEAD_SCHEMA,
-         "updated": iso(now_cst()),
-         "note": "结构性无正文/取数不可得 —— 连试 %d 轮后记账，不再消耗额度。"
-                 "字段：reason（人话）/ reason_code（可复核分类，见 REASON_CODES）/ "
-                 "tried[]（本轮实际试过的后端）/ http_status（direct 档拿到的状态码）" % DEAD_AFTER,
-         "by_reason": dict(collections.Counter(
-             (v.get("reason_code") or "unknown") for v in d.values()).most_common()),
-         "items": d}, ensure_ascii=False, indent=1), encoding="utf-8")
+    """写死信账本 —— 锁 + 原子替换（`write_ledger`）。整本一次落盘，不留半截。"""
+    write_ledger(DEAD_LEDGER, {
+        "schema": DEAD_SCHEMA,
+        "updated": iso(now_cst()),
+        "note": "结构性无正文/取数不可得 —— 连试 %d 轮后记账，不再消耗额度。"
+                "字段：reason（人话）/ reason_code（可复核分类，见 REASON_CODES）/ "
+                "tried[]（本轮实际试过的后端）/ http_status（direct 档拿到的状态码）" % DEAD_AFTER,
+        "by_reason": dict(collections.Counter(
+            (v.get("reason_code") or "unknown") for v in d.values()).most_common()),
+        "items": d,
+    }, lock_name="backfill_dead", indent=1)
+
 
 
 def classify_reason(url: str, status=None, tried: list[str] | None = None,
@@ -210,12 +218,12 @@ def revive_github_dead() -> tuple[int, Path]:
         moved[iid] = dead.pop(iid)
     ts = now_cst().strftime("%Y%m%dT%H%M%S")
     manifest = META / f"backfill_dead_revive_manifest_{ts}.json"
-    manifest.write_text(json.dumps(
+    write_ledger(manifest,
         {"action": "revive-github", "at": iso(now_cst()), "count": len(moved),
          "reason": "路由按 source_id 分流导致 github 目标未走 gh readme，属可修缺陷",
          "undo": "把这批 item_id 重新写回 _meta/backfill_dead.json 的 items（attempts>=%d）"
                  % DEAD_AFTER,
-         "items": moved}, ensure_ascii=False, indent=1), encoding="utf-8")
+         "items": moved}, lock_name="backfill_dead_revive_manifest", indent=1)
     rotate_files(META, "backfill_dead_revive_manifest_", 12)
     save_dead(dead)
     return len(moved), manifest
@@ -240,12 +248,12 @@ def revive_by_code(codes: list[str], apply: bool = False) -> tuple[int, Path | N
     if apply and moved:
         ts = now_cst().strftime("%Y%m%dT%H%M%S")
         manifest = META / f"backfill_dead_revive_manifest_{ts}.json"
-        manifest.write_text(json.dumps(
+        write_ledger(manifest,
             {"action": "revive-by-reason-code", "at": iso(now_cst()), "codes": codes,
              "count": len(moved),
              "reason": "判据变更后重开旧判定（如 github 目标改按 URL 路由、判死前补跑三档）",
              "undo": "把这批 item_id 重新写回 _meta/backfill_dead.json 的 items（attempts 保持原值）",
-             "items": moved}, ensure_ascii=False, indent=1), encoding="utf-8")
+             "items": moved}, lock_name="backfill_dead_revive_manifest", indent=1)
         rotate_files(META, "backfill_dead_revive_manifest_", 12)
         save_dead(dead)
     return len(moved), manifest, ids
@@ -324,9 +332,9 @@ def fix_published_at(channels: dict, dry: bool = False, limit: int = 0) -> dict:
             print(f"    [!] 写盘失败 {iid}: {str(e)[:60]}")
             stat["errors"] += 1
     seen.save()
-    (META / "runs" / f"{run_id}.json").write_text(json.dumps(
+    write_ledger(META / "runs" / f"{run_id}.json",
         {"run_id": run_id, "kind": "fix-meta", **stat, "started": iso(now_cst())},
-        ensure_ascii=False, indent=1), encoding="utf-8")
+        lock_name="runs", indent=1)
     rotate_runs()
     return stat
 
@@ -908,7 +916,7 @@ def main(argv=None) -> int:
         miss += 1
     save_dead(dead)
 
-    (META / "runs" / f"{run_id}.json").write_text(json.dumps(
+    write_ledger(META / "runs" / f"{run_id}.json",
         {"run_id": run_id, "kind": "backfill", "queue": len(queue), "attempted": len(todo),
          "filled": wrote, "structural_dead": struct, "missed": miss,
          "miss_reason_codes": dict(collections.Counter(
@@ -919,7 +927,7 @@ def main(argv=None) -> int:
          "comments_queue": len(cq), "comments_filled": cwrote,
          "via": collections.Counter(v["via"] for v in results.values()).most_common(),
          "channels": collections.Counter(v["rec"]["source_id"] for v in results.values()).most_common(),
-         "started": iso(now_cst()), "elapsed_s": 0}, ensure_ascii=False, indent=1), encoding="utf-8")
+         "started": iso(now_cst()), "elapsed_s": 0}, lock_name="runs", indent=1)
     rotate_runs()                                              # 运行记录轮转（保 80 份）
     miss_codes = collections.Counter(
         (dead.get(r["item_id"]) or {}).get("reason_code") or "unknown"

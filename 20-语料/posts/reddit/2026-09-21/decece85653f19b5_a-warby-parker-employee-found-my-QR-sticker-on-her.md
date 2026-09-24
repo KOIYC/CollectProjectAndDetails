@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1widoj4/a_warby_parker_employee_found_my_qr_sticker_on/"
 author: "ReasonableFee95"
 published_at: "2026-09-17T07:43:08+08:00"
-captured_at: "2026-09-21T22:02:07+08:00"
+captured_at: "2026-09-22T13:15:15+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=7 · 赞踩比=0.81
 > 作者：ReasonableFee95　|　发布：2026-09-17T07:43:08+08:00
 > 项目链接：—
-> 采集：2026-09-21T22:02:07+08:00　|　id：`decece85653f19b5`
+> 采集：2026-09-22T13:15:15+08:00　|　id：`decece85653f19b5`
 
 ## 正文
 

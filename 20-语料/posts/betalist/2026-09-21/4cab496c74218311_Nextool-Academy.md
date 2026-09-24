@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/nextool-academy"
 published_at: "2026-09-18"
-captured_at: "2026-09-21T22:04:13+08:00"
+captured_at: "2026-09-22T14:20:46+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-09-18
 > 项目链接：—
-> 采集：2026-09-21T22:04:13+08:00　|　id：`4cab496c74218311`
+> 采集：2026-09-22T14:20:46+08:00　|　id：`4cab496c74218311`
 
 ## 正文
 
@@ -89,9 +89,9 @@ Discourse AI
  Create complete, trackable courses from any topic in minutes
 Oyeeah AI
  All-in-one AI Platform
-Nodlume
+TapVid
  BOOSTED
- Plan React apps on a visual canvas and export ready project files
+ Turn prompts, PDFs, or links into explainer videos with motion graphics
  BOOSTED
 Kourze
  AI markets your course and publishes clips on social media
@@ -99,9 +99,9 @@ collaborAItr
  A multi-LLM chat app with up to 4 models side by side
 Chatly
  Your modern AI workspace to chat, research, create, and ship
-Aria
+Structura
  BOOSTED
- Free color analysis and honest verdicts before you buy
+ Publish 3 SEO-optimized blog posts a day, hands-off
  BOOSTED
 StewAI
  Build AI workflows without code and share them on a marketplace

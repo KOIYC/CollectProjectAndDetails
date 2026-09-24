@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/microsaas/comments/1vbmb6w/i_think_ive_been_talking_to_the_wrong_customer/"
 author: "Legitimate-Grand1953"
 published_at: "2026-07-31T17:44:30+08:00"
-captured_at: "2026-09-21T13:04:22+08:00"
+captured_at: "2026-09-22T13:17:09+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -34,7 +34,7 @@ discovered_via: "reddit:83d+settle3"
 > 指标：得分=4 · 评论=13 · 赞踩比=0.84
 > 作者：Legitimate-Grand1953　|　发布：2026-07-31T17:44:30+08:00
 > 项目链接：—
-> 采集：2026-09-21T13:04:22+08:00　|　id：`a5edd298cbbd4e88`
+> 采集：2026-09-22T13:17:09+08:00　|　id：`a5edd298cbbd4e88`
 
 ## 正文
 

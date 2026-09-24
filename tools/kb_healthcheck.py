@@ -1,18 +1,24 @@
 """kb_healthcheck — 库健康度自检（独立于 kb_analyze 的计数复核）。
 
 用法：python tools/kb_healthcheck.py
+退出码：**硬门 ①-⑤ 任一非零 → 退出码 1**（⑥⑦⑧⑨ 是软门，只报不阻断）。
+  —— 为什么必须给退出码：此前它恒返 0，`kb_selftest.py` 里
+  `assertEqual(p.returncode, 0)` 是**恒真断言**（检查器红也照样过），
+  自动化/CI 也无法靠退出码判收工门。检查器报红但进程报成功 = 最坏的一种绿。
 核对：
   ① `20-语料/**/*.md` 数 == 在库（live）唯一条目数
   ② live 中「应有项目页」的条目（is_project_ish）全部能找到对应页 → 缺失 0
   ③ 缺 url == 0
   ④ wikilink 断链 == 0（全库解析：先按路径，再按文件名兜底，最后按 alias）
   ⑤ 路径可复现：按当前 slug 规则重算 == 实际路径，且 磁盘 ↔ seen 账本 **双向**无差集
-  ⑥ 孤立语料 == 0：`20-语料/` 每条 note 至少被一个 wikilink 指向
+  ⑥ 孤立语料（软门）：`20-语料/` 每条 note 至少被一个 wikilink 指向
      —— 抓的是「有原料没出口」：项目页 / 人物页 / 方法论页 / 报告 / MOC 都没引到它，
      它就只是磁盘上占位，Obsidian 检索图谱里等于不存在。
   ⑦ 软门 · project_url 合法性：live 条目里「显然不是项目站」的归并键有几条
      —— 它错了会**静默合并两个项目**（② 按文件名匹配，看不出这种塌陷）。
   ⑧ 软门 · 共用项目页的条目组：同一项目的多条语料共页属正常，故只报数供复核。
+  ⑨ 软门 · 单渠道**存量**占比（条目 / 项目页）：门槛 ≤50%，超门槛只报不阻断
+     —— 与运行日志的「当日新增」口径是两回事，历史铺底偏向只能靠新增稀释。
 
 为什么②不能用「10-项目 文件数 == live project_url 去重数」：
 项目页文件名取 `project_url or url`（无 project_url 的条目按自身 url 建页），
@@ -34,6 +40,7 @@ sys.path.insert(0, str(ROOT / "tools"))
 import kb_analyze as KA  # noqa: E402
 import kb_collect as KC  # noqa: E402
 import kb_common as KB  # noqa: E402
+from kb_common import split_note, fm_scalars, fm_list  # noqa: E402
 
 raw = collections.Counter()
 ids = set()
@@ -87,37 +94,44 @@ for p in notes:
 
 
 def _aliases(txt: str) -> list[str]:
-    """取 frontmatter 里的 aliases（块式 `  - x` 与行内式 `[a, b]` 都支持）。"""
-    out: list[str] = []
-    for ln in txt.splitlines()[:40]:
-        m = re.match(r"^aliases?:\s*(.*)$", ln)
-        if not m:
-            continue
-        rest = m.group(1).strip()
-        if rest.startswith("["):
-            out += [x.strip().strip("\"'") for x in rest.strip("[]").split(",")]
-        break
-    else:
-        return out
-    # 块式：aliases: 之后的 `  - x` 行
-    lines = txt.splitlines()[:60]
-    try:
-        i = next(i for i, ln in enumerate(lines) if re.match(r"^aliases?:\s*$", ln))
-    except StopIteration:
-        return [a for a in out if a]
-    for ln in lines[i + 1:]:
-        m = re.match(r"^\s+-\s+(.+)$", ln)
-        if not m:
-            if ln.strip():
-                break
-            continue
-        out.append(m.group(1).strip().strip("\"'"))
-    return [a for a in out if a]
+    """取 frontmatter 里的 aliases —— 复用 kb_common 的**列表**解析器 `fm_list`。
+
+    为什么不能用 `fm_scalars`：它按设计**跳过列表块**（只服务标量键的定点改写），
+    `aliases:` 是块式列表 → 读回来是空串 → 有效 alias 链接被报成断链。
+    2026-09-24 实测：`[[从这里开始]]` 指向 `浏览.md` 的 alias，因这一处不对称
+    被误报 3 处断链（生成端一直写块式 `- "别名"`）。检查器的判据必须与生成端同一份解析。
+    """
+    head = split_note(txt)[0] if split_note(txt) else ""
+    vals = fm_list(head, "aliases") or fm_list(head, "alias")
+    if vals:
+        return vals
+    fm = fm_scalars(head)                     # 兜底：行内 `aliases: [a, b]` /
+    val = fm.get("aliases") or fm.get("alias") or ""   # 单标量 `alias: x`
+    return [a.strip().strip("\"'") for a in str(val).strip("[]").replace("，", ",").split(",") if a.strip()]
 
 
 alias_names: set[str] = set()
 for p in notes:
     alias_names.update(_aliases(p.read_text(encoding="utf-8")))
+
+
+def _resolves(s: str) -> bool:
+    """链接目标能否解析（与 Obsidian 同宽）：路径 / 文件名 / 文件名带 `.md` / alias。
+
+    `.md` 后缀必须认：Obsidian 里 `[[内容审计-all.md]]` 与 `[[内容审计-all]]` 等价，
+    检查器只认前者才叫窄 —— 窄的检查器会逼着人把链接写得更差（2026-09-24 实测：
+    手写报告里的 `[[xxx.md]]` 被全数误报，而 Obsidian 打开是好的）。
+    """
+    if not s:
+        return False
+    if s in by_rel or s in alias_names:
+        return True
+    if s.endswith(".md") and s[:-3] in by_rel:
+        return True
+    tail = s.split("/")[-1]
+    if tail.endswith(".md"):
+        tail = tail[:-3]
+    return bool(by_name.get(tail)) or tail in alias_names
 
 def _link_scannable(p: pathlib.Path, txt: str) -> str:
     """语料页只扫**我们生成的部分**（frontmatter + 导航/关联链接段），正文整段不扫。
@@ -177,9 +191,7 @@ for p in notes:
             continue
         edges += 1
         # 原始目标优先（文件名可含 `#`），再退到按 `#` 切分后的形式，最后按 alias 解析
-        if raw in by_rel or by_name.get(raw.split("/")[-1]) or raw in alias_names:
-            continue
-        if tgt in by_rel or by_name.get(tgt.split("/")[-1]) or tgt in alias_names:
+        if _resolves(raw) or _resolves(tgt):
             continue
         broken.setdefault(raw, []).append(src)
 print(f"④ wikilink 总数={edges}  断链目标={len(broken)}  "
@@ -222,9 +234,9 @@ extra = sorted(_disk_notes - _live_notes)
 ghost = sorted(_live_notes - _disk_notes)
 drift += [(r, "(账本无记录 · 孤儿页)") for r in extra]
 drift += [(r, "(磁盘无文件 · 幽灵账)") for r in ghost]
-print(f"⑤ 路径可复现（slug {len(drift) - len(extra) - len(ghost)}"
-      f" + 盘↔账 孤儿 {len(extra)} / 幽灵 {len(ghost)}）  漂移={len(drift)}  "
-      f"{'OK' if not drift else '!! 有漂移'}")
+print(f"⑤ 路径可复现 (slug {len(drift) - len(extra) - len(ghost)}"
+      f"+ 盘 - 账差异{len(extra)} / 幽灵{len(ghost)}) drift={len(drift)} "
+      f"{'OK' if not drift else '!! DRIFT!'}")
 for a, b in drift[:8]:
     print(f"     实际 {a}\n     应为 {b}")
 
@@ -272,8 +284,8 @@ for p in (ROOT / "20-语料").rglob("*.md"):
 # ⑥ 是**软不变量**（提示性）：孤立语料 = 数据可访问性问题，不是数据完整性问题。
 # 现存 3 例来自 write_person_note 首次建页时 corpus_rel=None，之后 obs 行的 "—" 无自愈路径 ——
 # 已列入 [[待办与决策]] P1-B 尾。硬不变量之外，⑥ 只报不阻断收工。
-status = "OK" if not orphans else f"⚠ 有孤立 {len(orphans)} 条（软门，见待办 P1-B 尾）"
-print(f"⑥ 孤立语料（无入链）  数量={len(orphans)}  {status}")
+status = "OK" if not orphans else f"! 孤立{len(orphans)}条 (软门)"
+print(f"⑥ 孤立语料（无入链） 数量={len(orphans)}  {status}")
 for o in orphans[:8]:
     print(f"     {o}")
 
@@ -304,3 +316,30 @@ print(f"⑧ 共用项目页的条目组  组数={len(shared)}／涉及 {sum(shar
       f"（同一项目多条语料属正常）")
 for n, c in list(shared.items())[:8]:
     print(f"     {n} ← {c} 条")
+
+# ⑨ 软门：单渠道**存量**占比 —— 质检门槛里「单渠道 ≤50%」此前没有任何脚本执行它。
+#    为什么必须看存量而不是增量：运行日志一直报「单渠道最大占比 15%/16% ✅」，那是**当日新增**
+#    口径；而库里实际存量为 hn_show 占条目 60%、占项目页 74%（历史铺底补采只回溯了 hn_show）。
+#    门槛只管增量 = 全库分布可以一路朝单渠道漂移而报告全绿。这条软门不阻断收工（存量偏斜
+#    只能靠采别的渠道稀释），但必须让它在收工门上可见 —— 引用「全库赛道分布」的结论，
+#    在占比回到门槛内之前，实际含义是「HN 开发者在做什么」。
+CHAN_CAP = 0.50
+src_items = collections.Counter(i.get("source_id") or "?" for i in live)
+src_pages = collections.Counter(i.get("source_id") or "?" for i in should)
+
+
+def _top_share(counter) -> tuple[str, float, int]:
+    tot = sum(counter.values())
+    if not tot:
+        return ("-", 0.0, 0)
+    name, n = counter.most_common(1)[0]
+    return (name, n / tot, tot)
+
+
+for label, cnt in (("⑨ 单渠道存量占比（条目）", src_items), ("⑨ 单渠道存量占比（项目页）", src_pages)):
+    name, share, tot = _top_share(cnt)
+    print(f"{label}  最高={name} {share:.0%}／{tot} 条  门槛≤{CHAN_CAP:.0%}  "
+          f"{'OK' if share <= CHAN_CAP else f'⚠ 超门槛（软门：历史铺底偏向，靠新增稀释）'}")
+    for n2, c2 in cnt.most_common(4):
+        print(f"     {n2:16s} {c2 / tot:5.1%} {c2}")
+

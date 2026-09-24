@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Stable Audio 3 – one-shot sample generator (110gb download)"
 project_url: "https://github.com/shiehn/sas-sample-generator"
-first_seen: "2026-09-21T21:59:54+08:00"
+first_seen: "2026-09-22T13:12:52+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/shiehn/sas-sample-generator>
-> 首次收录：2026-09-21T21:59:54+08:00
+> 首次收录：2026-09-22T13:12:52+08:00
 > 来源渠道：HN Show HN
 > 标签：author_stevehiehn, story_48345377, show_hn
 > 最新指标：点赞=10 · 评论=5 · engagement_velocity=10
@@ -38,6 +38,7 @@ lang: "en"
 | 2026-09-21T03:17:41+08:00 | HN Show HN | 点赞=10 · 评论=5 · engagement_velocity=10 | [[20-语料/posts/hn_show/2026-09-21/fdd309c576f9b7a9_Show-HN-Stable-Audio-3-–-one-shot-sample-generator]] |
 | 2026-09-21T09:54:58+08:00 | HN Show HN | 点赞=10 · 评论=5 · engagement_velocity=10 | [[20-语料/posts/hn_show/2026-09-21/fdd309c576f9b7a9_Show-HN-Stable-Audio-3-–-one-shot-sample-generator]] |
 | 2026-09-21T21:59:54+08:00 | HN Show HN | 点赞=10 · 评论=5 · engagement_velocity=10 | [[20-语料/posts/hn_show/2026-09-21/fdd309c576f9b7a9_Show-HN-Stable-Audio-3-–-one-shot-sample-generator]] |
+| 2026-09-22T13:12:52+08:00 | HN Show HN | 点赞=10 · 评论=5 · engagement_velocity=10 | [[20-语料/posts/hn_show/2026-09-21/fdd309c576f9b7a9_Show-HN-Stable-Audio-3-–-one-shot-sample-generator]] |
 
 ## 摘要正文
 

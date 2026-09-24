@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1wi8t3i/having_few_users_doesnt_necessarily_mean_your/"
 author: "Ondr4NDev"
 published_at: "2026-09-17T04:27:15+08:00"
-captured_at: "2026-09-21T22:01:35+08:00"
+captured_at: "2026-09-22T13:14:55+08:00"
 lang: "en"
 kind: "post"
 topic: "SaaS/B2B"
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=5 · 评论=6 · 赞踩比=1
 > 作者：Ondr4NDev　|　发布：2026-09-17T04:27:15+08:00
 > 项目链接：—
-> 采集：2026-09-21T22:01:35+08:00　|　id：`15256e17d0c808b6`
+> 采集：2026-09-22T13:14:55+08:00　|　id：`15256e17d0c808b6`
 
 ## 正文
 

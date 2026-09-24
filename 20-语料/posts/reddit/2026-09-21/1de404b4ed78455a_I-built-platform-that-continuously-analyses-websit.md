@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/SideProject/comments/1wiay6y/i_built_platform_tha
 project_url: "https://web-analyser.com/request-an-audit"
 author: "Zeljko-bilandzija"
 published_at: "2026-09-17T05:48:31+08:00"
-captured_at: "2026-09-21T22:01:51+08:00"
+captured_at: "2026-09-22T13:15:04+08:00"
 lang: "en"
 kind: "post"
 topic: "未分类"
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=13 · 赞踩比=1
 > 作者：Zeljko-bilandzija　|　发布：2026-09-17T05:48:31+08:00
 > 项目链接：<https://web-analyser.com/request-an-audit>
-> 采集：2026-09-21T22:01:51+08:00　|　id：`1de404b4ed78455a`
+> 采集：2026-09-22T13:15:04+08:00　|　id：`1de404b4ed78455a`
 
 ## 正文
 

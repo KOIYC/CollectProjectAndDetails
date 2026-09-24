@@ -7,7 +7,7 @@ source_name: "B站"
 url: "https://www.bilibili.com/video/BV1EagM6SEHN"
 author: "MakerJackie"
 published_at: "2026-08-15T01:02:02+08:00"
-captured_at: "2026-09-21T09:49:34+08:00"
+captured_at: "2026-09-22T13:08:31+08:00"
 lang: "zh"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,7 +21,7 @@ tags:
   - 人工智能
   - 软件
   - 工厂
-metrics: {"play": 18999, "danmaku": 6, "favorites": 1738}
+metrics: {"play": 19216, "danmaku": 6, "favorites": 1751}
 comments_count: 0
 comments_total: 0
 discovered_via: "bili:独立开发"
@@ -35,10 +35,10 @@ discovered_via: "bili:独立开发"
 > [!meta]- 语料信息（点开展开）
 > 来源：B站（post）
 > 原帖：<https://www.bilibili.com/video/BV1EagM6SEHN>
-> 指标：播放=18999 · 弹幕=6 · 收藏=1738
+> 指标：播放=19216 · 弹幕=6 · 收藏=1751
 > 作者：MakerJackie　|　发布：2026-08-15T01:02:02+08:00
 > 项目链接：—
-> 采集：2026-09-21T09:49:34+08:00　|　id：`73649a61bb7c5818`
+> 采集：2026-09-22T13:08:31+08:00　|　id：`73649a61bb7c5818`
 
 ## 正文
 

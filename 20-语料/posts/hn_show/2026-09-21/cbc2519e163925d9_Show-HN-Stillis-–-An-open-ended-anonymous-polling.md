@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=48323911"
 project_url: "https://stillis.xyz/"
 author: "goldylochness"
 published_at: "2026-05-29T14:58:17Z"
-captured_at: "2026-09-21T01:27:24+08:00"
+captured_at: "2026-09-22T13:12:52+08:00"
 lang: "en"
 kind: "post"
 topic: "未分类"
@@ -28,13 +28,33 @@ discovered_via: "hn:show_hn:144d"
 
 # Show HN: Stillis – An open-ended anonymous polling platform for anything
 
+> [!info] 一句话导读
+> Stillis - The Social Stock Market
+
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=48323911>
 > 指标：点赞=4 · 评论=0 · engagement_velocity=4
 > 作者：goldylochness　|　发布：2026-05-29T14:58:17Z
 > 项目链接：<https://stillis.xyz/>
-> 采集：2026-09-21T01:27:24+08:00　|　id：`cbc2519e163925d9`
+> 采集：2026-09-22T13:12:52+08:00　|　id：`cbc2519e163925d9`
+
+## 正文
+
+Stillis - The Social Stock Market
+
+Search:New topic
+
+Sort byPopularityActivityFromPast dayPast weekPast monthPast yearAll timeOrder↓ Desc↑ AscShow102050100per page
+
+how is hacker news as a website?
+
+Should the US stay in Iran?
+
+- 6 contributions
+- 3 contributions
+
+# MIRA Dial - The Focus Tool You Can't Cheat by MIRA Labs - Indiegogo
 
 ## 导航
 

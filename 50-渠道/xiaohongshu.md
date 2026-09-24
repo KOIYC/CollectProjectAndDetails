@@ -6,8 +6,8 @@ group: "中文社媒"
 adapter: "opencli_social"
 auth: "browser"
 lang: "zh"
-status: "ok"
-last_verified: "2026-09-21"
+status: "auth"
+last_verified: "2026-09-22"
 tags:
   - 渠道
   - 渠道/中文社媒
@@ -17,9 +17,9 @@ params: {"site": "xiaohongshu", "queries": ["独立开发", "独立开发者", "
 # 小红书（`xiaohongshu`）
 
 - **分组**：中文社媒　|　**语言**：zh　|　**认证**：browser
-- **取数实现**：`opencli_social`　|　**单次上限**：15
+- **取数实现**：`opencli_social`　|　**单次上限**：45
 - **补全类型**：fulltext
-- **当前状态**：`ok`（本次 1 条，13.7s）
+- **当前状态**：`auth`（本次 0 条，137.5s）
 - **口径备注**：>-
 - **解锁方式**：装 OpenCLI 浏览器扩展并保持 Chrome 打开（chrome web store: OpenCLI）；或 agent-reach configure xhs-cookies 走 xiaohongshu-mcp
 
@@ -39,3 +39,8 @@ params: {"site": "xiaohongshu", "queries": ["独立开发", "独立开发者", "
 | 2026-09-21T01:33:02+08:00 | ok | 1 | 12.0s | 20 items |
 | 2026-09-21T01:35:21+08:00 | ok | 1 | 13.2s | 20 items |
 | 2026-09-21T09:49:50+08:00 | ok | 1 | 13.7s | 20 items |
+| 2026-09-22T13:00:59+08:00 | auth | 0 | 137.6s | 需 OpenCLI 浏览器扩展/登录态：独立开发: ok: false
+| 2026-09-22T14:25:27+08:00 | auth | 0 | 137.5s | 需 OpenCLI 浏览器扩展/登录态：独立开发: ok: false
+error:
+  code: BROWSER_CONNECT
+  m |

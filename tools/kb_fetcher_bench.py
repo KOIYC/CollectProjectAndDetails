@@ -21,7 +21,6 @@ from __future__ import annotations
 
 import argparse
 import collections
-import json
 import statistics
 import sys
 import time
@@ -30,7 +29,8 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from kb_common import (BODY_MIN, DIR_RAW, DIR_REPORT, FULLTEXT_MAX_CHARS, META,  # noqa: E402
                        ROOT, body_completeness, direct_fetch_texts, exa_fetch_texts,
-                       load_ndjson, looks_summary, now_cst, truncated_at_cap, which_cli)
+                       load_ndjson, looks_summary, now_cst, truncated_at_cap, which_cli,
+                       write_ledger)
 
 GH_REPO_RE = None
 
@@ -237,9 +237,9 @@ def main(argv=None) -> int:
     L += ["", f"（结论由**这张表**决定，不由「谁先报 ok」决定。改 `--direct-workers` / "
               f"`FULLTEXT_MAX_CHARS` 之前先看这里的贴上限率。）"]
     out.write_text("\n".join(L) + "\n", encoding="utf-8")
-    (META / "fetcher_bench_latest.json").write_text(json.dumps(
+    write_ledger(META / "fetcher_bench_latest.json",
         {"generated": now_cst().isoformat(timespec="seconds"), "sample": len(rows),
-         "aggregate": agg}, ensure_ascii=False, indent=1), encoding="utf-8")
+         "aggregate": agg}, indent=1)
     day = ts[:8]
     for old in sorted(DIR_REPORT.glob(f"抽取器基准-{day}T*.md"))[:-1]:
         try:

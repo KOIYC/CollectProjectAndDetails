@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49755327"
 project_url: "https://github.com/atomashevic/omabib"
 author: "atomashevic"
 published_at: "2026-09-18T14:57:34Z"
-captured_at: "2026-09-21T21:59:53+08:00"
+captured_at: "2026-09-22T13:12:52+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=3 · 评论=0 · engagement_velocity=3
 > 作者：atomashevic　|　发布：2026-09-18T14:57:34Z
 > 项目链接：<https://github.com/atomashevic/omabib>
-> 采集：2026-09-21T21:59:53+08:00　|　id：`e63b2ecea541875f`
+> 采集：2026-09-22T13:12:52+08:00　|　id：`e63b2ecea541875f`
 
 ## 正文
 

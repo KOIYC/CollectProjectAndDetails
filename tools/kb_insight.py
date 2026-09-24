@@ -26,7 +26,6 @@ from __future__ import annotations
 
 import argparse
 import collections
-import json
 import re
 import statistics
 import sys
@@ -35,10 +34,11 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from kb_common import (DIR_INDEX, DIR_REPORT, META, ROOT, Seen, TOPICS, fm_scalars,  # noqa: E402
-                       iso, now_cst, split_note, topic_of, write_note)
+                       iso, now_cst, split_note, topic_of, write_ledger, write_note)
 from kb_collect import is_project_ish                                  # noqa: E402
 from kb_content_audit import (RELEV, channel_profiles, is_fatal, item_layer,  # noqa: E402
                               load_latest, reasons_for)
+import statistics                                                       # noqa: E402
 
 # 赛道词表定义在 kb_common（采集端 kb_collect 也要用，共用一份；见那里的注释）。
 # 这里 re-export TOPICS / topic_of 以保持本模块既有调用点不变。
@@ -48,6 +48,15 @@ MONEY = re.compile(
     r"pricing|price|付费|订阅|subscription|MRR|ARR|revenue|营收|收入|月入|"
     r"monetiz|变现|paywall|收费|paywall|plan\b|tier|freemium|一次性买断|lifetime\s+deal",
     re.I)
+
+# 变现**证据**（严格口径）：只命中 MONEY 关键词 = 线索，不是「N 个项目在谈收入」。
+# 实测 money_n=684 而含具体数字的页面仅 184（11%），松口径虚高约 3.7 倍、被读者当项目数引用。
+# 判据 = 具体金额数字（货币符号/单位与数字相邻：$1,240 MRR / ¥3000 / 12k/月 / €450 / 月入3万），一条正则、零依赖。
+MONEY_EVIDENCE = re.compile(
+    r"(?:[$¥€£]\s?\d)"
+    r"|(?:\d[\d,.]*\s?[kKmM万]?\s*(?:美元|美金|元|块|rmb|usd|eur|gbp|mrr|arr|[/每]\s*[月年]))"
+    r"|(?:mrr|arr)\s*(?:of|is|was|[:=~约])?\s*\$?\s*\d"
+    r"|(?:月入|收入|营收|定价)\s*(?:约|近|超过|达)?\s*\d", re.I)
 
 # 痛点/需求信号：这些短语后面通常跟着真实需求
 PAIN = [
@@ -136,8 +145,11 @@ def build(items: list[dict], top: int) -> dict:
                            "metrics": best.get("metrics") or {}})
     strong.sort(key=lambda d: (-d["n_channels"], -len(d["channels"])))
 
-    # 变现信号
+    # 变现信号：两口径分开数（旧实现只有一个 money_n=松口径命中数，实测 684 vs 含金额 184，
+    # 虚高约 3.7 倍；读者把它当「N 个项目在谈收入」引用 —— 松口径只能算线索数）。
     money = [r for r in ok if MONEY.search(f"{r.get('title') or ''} {r.get('body') or ''}")]
+    money_ev = [r for r in money
+                if MONEY_EVIDENCE.search(f"{r.get('title') or ''} {r.get('body') or ''}")]
 
     # 痛点信号
     pains = collections.defaultdict(list)
@@ -161,7 +173,8 @@ def build(items: list[dict], top: int) -> dict:
         "signals": sum(1 for r in live if item_layer(r) == "signal"),
         "topics": topics.most_common(),
         "strong": strong[:top],
-        "money_n": len(money),
+        "money_signal_n": len(money),        # 线索数（关键词命中，保留旧序列口径不断档）
+        "money_evidence_n": len(money_ev),   # 金额证据数（货币符号/单位+数字，如 $1,240 MRR / 12k/月）
         "money_quotes": [{"source": r["source_id"], "title": r.get("title"),
                           "url": r.get("url"), "quote": money_quote(r)}
                          for r in money[:12]],
@@ -205,10 +218,12 @@ def conclusions(rep: dict) -> list[str]:
         out.append(f"**暂无可信的跨渠道强信号**（阈值：同一项目出现在 ≥{SIGNAL_FLOOR} 个渠道）。"
                    f"这通常意味着渠道覆盖仍偏窄，或项目链接（project_url）缺失导致无法归一。")
 
-    if rep["money_n"]:
+    if rep["money_signal_n"]:
         out.append(
-            f"**只有 {rep['money_n']}/{ok} 条（{rep['money_n'] / max(1, ok) * 100:.0f}%）"
-            f"在讨论定价与变现**。也就是说当前语料压倒性地在讲「怎么把东西做出来」，"
+            f"**只有 {rep['money_evidence_n']}/{ok} 条（{rep['money_evidence_n'] / max(1, ok) * 100:.0f}%）"
+            f"给出真实金额证据**（口径：文本含具体金额，如 `$1,240 MRR` / `12k/月`）；"
+            f"关键词线索数 {rep['money_signal_n']} 条只是这数的**命中上限**，不是「{rep['money_signal_n']} 个项目在谈收入」。"
+            f"也就是说当前语料压倒性地在讲「怎么把东西做出来」，"
             f"很少讲「怎么收钱」—— 若目标是找变现方向，这是明显的语料偏斜，需要补商业向来源。")
 
     if rep["pain_n"]:
@@ -248,7 +263,9 @@ def render(rep: dict) -> str:
     else:
         L.append("无（阈值：≥2 个渠道）。")
 
-    L += ["", f"## 变现信号（{rep['money_n']} 条命中）", ""]
+    L += ["", f"## 变现信号（金额证据 {rep['money_evidence_n']} 条 · 关键词线索 {rep['money_signal_n']} 条）", "",
+          "> 口径：`金额证据` = 文本里出现具体金额数字（货币符号/单位与数字成对，如 $1,240 MRR / ¥3000 / 12k/月）；"
+          "`关键词线索` 只说明「这条在谈钱」，是前者的命中上限，**不是项目数**。", ""]
     if rep["money_quotes"]:
         for q in rep["money_quotes"]:
             L.append(f"- `{q['source']}` **{(q['title'] or '')[:64]}**")
@@ -632,9 +649,8 @@ def main(argv=None) -> int:
     out = Path(args.out) if args.out else (DIR_REPORT / f"洞察-{now_cst().strftime('%Y%m%d')}.md")
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(md, encoding="utf-8")
-    (META / "insight_latest.json").write_text(
-        json.dumps({k: v for k, v in rep.items() if k != "pains"},
-                   ensure_ascii=False, indent=2), encoding="utf-8")
+    write_ledger(META / "insight_latest.json",
+                 {k: v for k, v in rep.items() if k != "pains"}, indent=2)
 
     if args.browse:
         bp = DIR_INDEX / "浏览.md"
@@ -646,7 +662,8 @@ def main(argv=None) -> int:
               "`--tag` 不再单独执行。")
 
     print(f"在库 {rep['n_live']} · 可用 {rep['n_usable']} · 项目型 {rep['n_project']} · "
-          f"强信号 {len(rep['strong'])} · 变现 {rep['money_n']}")
+          f"强信号 {len(rep['strong'])} · 变现线索 {rep['money_signal_n']}"
+          f"（其中金额证据 {rep['money_evidence_n']}，线索是上限不是项目数）")
     print("赛道：" + "、".join(f"{t}={c}" for t, c in rep["topics"][:6]))
     print(f"[报告] {out.relative_to(ROOT).as_posix()}")
     return 0

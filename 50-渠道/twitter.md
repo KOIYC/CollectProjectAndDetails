@@ -7,7 +7,7 @@ adapter: "opencli_social"
 auth: "browser"
 lang: "en"
 status: "auth"
-last_verified: "2026-09-21"
+last_verified: "2026-09-22"
 tags:
   - 渠道
   - 渠道/海外社媒
@@ -19,7 +19,7 @@ params: {"site": "twitter", "queries": ["build in public indie hacker", "indie h
 - **分组**：海外社媒　|　**语言**：en　|　**认证**：browser
 - **取数实现**：`opencli_social`　|　**单次上限**：15
 - **补全类型**：fulltext
-- **当前状态**：`auth`（本次 0 条，6.5s）
+- **当前状态**：`auth`（本次 0 条，91.7s）
 - **口径备注**：>-
 - **解锁方式**：opencli twitter（装扩展）或 pipx install twitter-cli + 导出 TWITTER_AUTH_TOKEN/TWITTER_CT0
 
@@ -39,6 +39,7 @@ params: {"site": "twitter", "queries": ["build in public indie hacker", "indie h
 | 2026-09-21T01:33:04+08:00 | auth | 0 | 2.3s | 需 OpenCLI 浏览器扩展/登录态：(node:33156) [UNDICI-EHPA] Warning: EnvHttpProxyAg |
 | 2026-09-21T01:35:24+08:00 | auth | 0 | 3.1s | 需 OpenCLI 浏览器扩展/登录态：(node:27436) [UNDICI-EHPA] Warning: EnvHttpProxyAg |
 | 2026-09-21T09:49:57+08:00 | auth | 0 | 6.5s | 需 OpenCLI 浏览器扩展/登录态：ok: false
+| 2026-09-22T13:02:31+08:00 | auth | 0 | 92.0s | 需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: ok: false
+| 2026-09-22T14:26:59+08:00 | auth | 0 | 91.7s | 需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: ok: false
 error:
-  code: COMMAND_EXEC
-  message: ' |
+  c |

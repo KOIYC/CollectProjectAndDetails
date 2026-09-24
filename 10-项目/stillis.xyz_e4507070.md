@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Stillis – An open-ended anonymous polling platform for anything"
 project_url: "https://stillis.xyz/"
-first_seen: "2026-09-21T01:27:24+08:00"
+first_seen: "2026-09-22T13:12:52+08:00"
 sources:
   - hn_show
 tags:
@@ -16,9 +16,12 @@ lang: "en"
 
 # Show HN: Stillis – An open-ended anonymous polling platform for anything
 
+> [!info] 一句话导读
+> Stillis - The Social Stock Market
+
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://stillis.xyz/>
-> 首次收录：2026-09-21T01:27:24+08:00
+> 首次收录：2026-09-22T13:12:52+08:00
 > 来源渠道：HN Show HN
 > 标签：author_goldylochness, story_48323911, show_hn
 > 最新指标：点赞=4 · 评论=0 · engagement_velocity=4
@@ -28,3 +31,8 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T01:27:24+08:00 | HN Show HN | 点赞=4 · 评论=0 · engagement_velocity=4 | [[20-语料/posts/hn_show/2026-09-21/cbc2519e163925d9_Show-HN-Stillis-–-An-open-ended-anonymous-polling]] |
+| 2026-09-22T13:12:52+08:00 | HN Show HN | 点赞=4 · 评论=0 · engagement_velocity=4 | [[20-语料/posts/hn_show/2026-09-21/cbc2519e163925d9_Show-HN-Stillis-–-An-open-ended-anonymous-polling]] |
+
+## 摘要正文
+
+Stillis - The Social Stock Market  Search:New topic  Sort byPopularityActivityFromPast dayPast weekPast monthPast yearAll timeOrder↓ Desc↑ AscShow102050100per page  how is hacker news as a website?  Should the US stay in Iran?  - 6 contributions - 3 contributions  # MIRA Dial - The Focus Tool You Can't Cheat by MIRA Labs - Indiegogo

@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=48725623"
 project_url: "https://forthwrite.ai/blog/how-forthwrite-learns-your-email-voice"
 author: "curtisboortz"
 published_at: "2026-06-29T21:37:49Z"
-captured_at: "2026-09-21T03:11:02+08:00"
+captured_at: "2026-09-22T13:12:52+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:113d"
 > 指标：点赞=4 · 评论=0 · engagement_velocity=4
 > 作者：curtisboortz　|　发布：2026-06-29T21:37:49Z
 > 项目链接：<https://forthwrite.ai/blog/how-forthwrite-learns-your-email-voice>
-> 采集：2026-09-21T03:11:02+08:00　|　id：`4ebaa9c3e91eedeb`
+> 采集：2026-09-22T13:12:52+08:00　|　id：`4ebaa9c3e91eedeb`
 
 ## 正文
 
@@ -102,10 +102,10 @@ Happy to answer questions about the retrieval architecture, the phrasing miner, 
  I Copied My Last 50 Sent Emails Into ChatGPT to Fine-Tune It. It Still Didn't Work.
  A lot of people try to teach ChatGPT their email style by pasting examples. Here's what actually happens when you try it, and why it hits a ceiling fast.
  Read article
- Free tool
- Ready to stop sounding like everyone else?
- Build a first-person persona prompt that captures your voice in under 5 minutes. No account required.
- Generate my prompt
+ In your inbox
+ Drafts that already sound like you.
+ It learns from mail you have already sent, in the Gmail or Outlook window you already use.
+ Open Inbox Or generate a persona prompt
 Email drafts that sound exactly like you wrote them. Save time without sacrificing quality.
 Product
  Inbox
@@ -136,7 +136,7 @@ Legal
  Sub-processors
  Support
 © 2026 ForthWrite. All rights reserved. Professional emails, zero effort
-Features How it Works Consulting Pricing Sign in Try now for free
+Features How it Works Teams Consulting Pricing Sign in Try now for free
  Try now for free
 
 ## 导航

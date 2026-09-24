@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/microsaas/comments/1wibrwx/built_a_landing_page_to_validate_an_invoice/"
 author: "keggs1"
 published_at: "2026-09-17T06:22:00+08:00"
-captured_at: "2026-09-21T22:01:52+08:00"
+captured_at: "2026-09-22T13:15:06+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=15 · 赞踩比=0.8
 > 作者：keggs1　|　发布：2026-09-17T06:22:00+08:00
 > 项目链接：—
-> 采集：2026-09-21T22:01:52+08:00　|　id：`9f82d73ff51bac5c`
+> 采集：2026-09-22T13:15:06+08:00　|　id：`9f82d73ff51bac5c`
 
 ## 正文
 

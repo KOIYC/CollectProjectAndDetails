@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/buildinpublic/comments/1wi26jg/what_are_you_build
 project_url: "https://reoogle.com/"
 author: "Economy-Cupcake6148"
 published_at: "2026-09-17T00:30:40+08:00"
-captured_at: "2026-09-21T22:01:09+08:00"
+captured_at: "2026-09-22T13:13:41+08:00"
 lang: "en"
 kind: "post"
 topic: "未分类"
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=6 · 评论=47 · 赞踩比=1
 > 作者：Economy-Cupcake6148　|　发布：2026-09-17T00:30:40+08:00
 > 项目链接：<https://reoogle.com/>
-> 采集：2026-09-21T22:01:09+08:00　|　id：`1332b973f242f486`
+> 采集：2026-09-22T13:13:41+08:00　|　id：`1332b973f242f486`
 
 ## 正文
 
@@ -342,7 +342,7 @@ Your turn. Send the link, I'm curious about the website
 
 ---
 
-> **heiisenberg_420**（1 分） · 2026-09-20T17:18:06+08:00　
+> **heiisenberg_420**（0 分） · 2026-09-20T17:18:06+08:00　
 > Just launched ShowBuild - Hacker News for indie hackers.
 >
 > A simple place to showcase what you’re building, get discovered, and earn a free dofollow backlink.

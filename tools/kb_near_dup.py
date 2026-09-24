@@ -46,14 +46,13 @@ from __future__ import annotations
 import argparse
 import collections
 import hashlib
-import json
 import re
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from kb_common import (DIR_RAW, DIR_REPORT, META, ROOT, Seen, iso, load_ndjson,  # noqa: E402
-                       now_cst)
+                       now_cst, write_ledger)
 
 MIN_TEXT = 200        # 归一化后低于此长度不建指纹（见文件头「取舍」）
 SHINGLE = 3           # 词级 3-shingle
@@ -364,14 +363,14 @@ def main(argv=None) -> int:
     out = DIR_REPORT / f"近重复-{ts}.md"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(render(items, sh, fs, groups, rejected), encoding="utf-8")
-    (META / "near_dup_latest.json").write_text(json.dumps(
-        {"generated": iso(now_cst()), "fingerprinted": len(sh), "items": len(items),
-         "groups": len(groups), "candidates_rejected": len(rejected),
-         "min_containment": MIN_CONTAINMENT, "max_hamming": MAX_HAMMING,
-         "cross_channel_groups": [[{"item_id": i, "source": (items.get(i) or {}).get("source_id")}
-                                   for i in g]
-                                  for g in groups if len({(items.get(i) or {}).get("source_id") for i in g}) > 1][:50]},
-        ensure_ascii=False, indent=1), encoding="utf-8")
+    write_ledger(META / "near_dup_latest.json", {
+        "generated": iso(now_cst()), "fingerprinted": len(sh), "items": len(items),
+        "groups": len(groups), "candidates_rejected": len(rejected),
+        "min_containment": MIN_CONTAINMENT, "max_hamming": MAX_HAMMING,
+        "cross_channel_groups": [[{"item_id": i, "source": (items.get(i) or {}).get("source_id")}
+                                  for i in g]
+                                 for g in groups if len({(items.get(i) or {}).get("source_id") for i in g}) > 1][:50]},
+        indent=1)
     day = ts[:8]
     for old in sorted(DIR_REPORT.glob(f"近重复-{day}T*.md"))[:-1]:
         try:

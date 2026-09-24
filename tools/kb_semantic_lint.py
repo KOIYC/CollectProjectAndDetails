@@ -38,7 +38,8 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from kb_common import (DIR_PROJECTS, DIR_RAW, DIR_REPORT, META, ROOT,  # noqa: E402
-                       is_project_ish, load_ndjson, now_cst, norm_url, pub_day_of)
+                       is_project_ish, load_ndjson, now_cst, norm_url, pub_day_of,
+                       write_ledger)
 
 STALE_DAYS = 60          # 前瞻性表述超过这个天数仍未更新 → 过期论断
 CONCEPT_MIN = 12         # 一个术语被 ≥ 这么多条语料提到，却没有承载页 → 概念缺页
@@ -316,12 +317,11 @@ def main(argv=None) -> int:
     out = DIR_REPORT / f"语义lint-{ts}.md"
     out.parent.mkdir(parents=True, exist_ok=True)
     out.write_text(render(rep), encoding="utf-8")
-    (META / "semantic_lint_latest.json").write_text(json.dumps(
-        {k: v for k, v in rep.items() if k in ("generated", "n_items", "n_pages")} |
+    write_ledger(META / "semantic_lint_latest.json", {
+        k: v for k, v in rep.items() if k in ("generated", "n_items", "n_pages")} |
         {"cross": len(rep["cross"]), "stale": len(rep["stale"]),
          "concept": len(rep["concept"]), "xref": len(rep["xref"]),
-         "top_stale": rep["stale"][:10], "top_cross": rep["cross"][:10]},
-        ensure_ascii=False, indent=1), encoding="utf-8")
+         "top_stale": rep["stale"][:10], "top_cross": rep["cross"][:10]}, indent=1)
 
     # 同日只留最新一份（与 kb_analyze 的同日清理同一纪律：报告目录不能被时间戳淹没）
     day = ts[:8]

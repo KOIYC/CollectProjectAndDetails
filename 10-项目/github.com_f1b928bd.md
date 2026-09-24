@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Omabib, a Zotero alternative for Omarchy with agent support"
 project_url: "https://github.com/atomashevic/omabib"
-first_seen: "2026-09-21T21:59:53+08:00"
+first_seen: "2026-09-22T13:12:52+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/atomashevic/omabib>
-> 首次收录：2026-09-21T21:59:53+08:00
+> 首次收录：2026-09-22T13:12:52+08:00
 > 来源渠道：HN Show HN
 > 标签：author_atomashevic, story_49755327, show_hn
 > 最新指标：点赞=3 · 评论=0 · engagement_velocity=3
@@ -36,6 +36,7 @@ lang: "en"
 | 2026-09-21T00:03:44+08:00 | HN Show HN | 点赞=3 · 评论=0 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-21/e63b2ecea541875f_Show-HN-Omabib,-a-Zotero-alternative-for-Omarchy-w]] |
 | 2026-09-21T00:06:02+08:00 | HN Show HN | 点赞=3 · 评论=0 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-21/e63b2ecea541875f_Show-HN-Omabib,-a-Zotero-alternative-for-Omarchy-w]] |
 | 2026-09-21T21:59:53+08:00 | HN Show HN | 点赞=3 · 评论=0 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-21/e63b2ecea541875f_Show-HN-Omabib,-a-Zotero-alternative-for-Omarchy-w]] |
+| 2026-09-22T13:12:52+08:00 | HN Show HN | 点赞=3 · 评论=0 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-21/e63b2ecea541875f_Show-HN-Omabib,-a-Zotero-alternative-for-Omarchy-w]] |
 
 ## 摘要正文
 

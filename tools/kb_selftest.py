@@ -22,10 +22,12 @@ import unittest
 
 sys.path.insert(0, str(pathlib.Path(__file__).resolve().parent))
 
-import kb_backfill as BF      # noqa: E402
-import kb_collect as KC       # noqa: E402
-import kb_common as KB        # noqa: E402
-import kbc_channels as KCH    # noqa: E402
+import kb_analyze as KA      # noqa: E402
+import kb_backfill as BF     # noqa: E402
+import kb_collect as KC      # noqa: E402
+import kb_common as KB       # noqa: E402
+import kb_insight as KI      # noqa: E402
+import kbc_channels as KCH   # noqa: E402
 
 
 class JsonlDiscipline(unittest.TestCase):
@@ -486,6 +488,179 @@ class InPlaceRefresh(unittest.TestCase):
             self.assertEqual(PR._free_dup_name(d / "x.md").name, "x-dup2.md")
             (d / "x-dup2.md").write_text("c", encoding="utf-8")
             self.assertEqual(PR._free_dup_name(d / "x.md").name, "x-dup3.md")
+
+
+class LedgerIo(unittest.TestCase):
+    """账本读写纪律：write_ledger / read_ledger = 锁 + 原子替换 + 损坏隔离。
+
+    钉的是 2026-09-21 审计 P2-6/P2-7：死信账本 `except Exception: return {}`
+    把半截文件伪装成「零死信」→ 已判死条目集体重回队列重烧额度且无告警；
+    固定 `.tmp` 临时名在两写者并发时互相覆盖成半截内容。
+    """
+
+    def test_roundtrip_and_no_tmp_residue(self):
+        with tempfile.TemporaryDirectory() as td:
+            p = pathlib.Path(td) / "led.json"
+            KB.write_ledger(p, {"schema": 2, "items": {"a": {"attempts": 2}}}, indent=1)
+            KB.write_ledger(p, {"schema": 2, "items": {"a": {"attempts": 3}}}, indent=1)
+            self.assertEqual(KB.read_ledger(p, {}).get("items", {}).get("a", {}).get("attempts"), 3)
+            self.assertEqual(list(pathlib.Path(td).glob("*.tmp")), [])   # 不留原子写残骸
+            # 锁文件在目标旁边（点前缀），不在全局 _meta —— 临时目录的账本别污染真库
+            self.assertTrue((pathlib.Path(td) / ".led.json.lock").exists())
+
+    def test_corrupt_ledger_is_quarantined_not_swallowed(self):
+        with tempfile.TemporaryDirectory() as td:
+            p = pathlib.Path(td) / "led.json"
+            p.write_text('{"schema": 2, "items": {bro', encoding="utf-8")
+            got = KB.read_ledger(p, {"items": {}})
+            self.assertEqual(got, {"items": {}})                    # 调用方拿 default 重启
+            baks = list(pathlib.Path(td).glob("led.json.corrupt-*.bak"))
+            self.assertTrue(baks, "损坏文件必须改名留现场，不许原地静默吞掉")
+
+    def test_dead_ledger_load_uses_quarantine(self):
+        # kb_backfill 的 load_dead 是旧缺陷本体：except Exception: return {} 直接读文本。
+        with tempfile.TemporaryDirectory() as td:
+            old_path = BF.DEAD_LEDGER
+            try:
+                BF.DEAD_LEDGER = pathlib.Path(td) / "dead.json"
+                BF.DEAD_LEDGER.write_text('{"schema": 2, "items": {xx', encoding="utf-8")
+                self.assertEqual(BF.load_dead(), {})
+                self.assertTrue(list(pathlib.Path(td).glob("dead.json.corrupt-*.bak")),
+                                "死信账本损坏必须走隔离告警，不能伪装成零死信")
+                BF.save_dead({"i1": {"reason_code": "media", "attempts": 2}})
+                self.assertEqual(BF.load_dead()["i1"]["reason_code"], "media")
+                self.assertEqual(list(pathlib.Path(td).glob("dead.json.tmp")), [])
+            finally:
+                BF.DEAD_LEDGER = old_path
+
+    def test_lock_is_cross_process(self):
+        # 子进程持锁 2s，本进程 0.4s 内必须拿不到 → 超时告警路径（yield False）。
+        helper = pathlib.Path(tempfile.mkdtemp()) / "hold_lock.py"
+        helper.write_text(
+            "import sys, time, pathlib\n"
+            "sys.path.insert(0, r'%s')\n"
+            "import kb_common as KB\n"
+            "with KB.ledger_lock(pathlib.Path(r'%s')):\n"
+            "    print('held', flush=True)\n"
+            "    time.sleep(2)\n" % (str(pathlib.Path(__file__).resolve().parent),
+                                    str(helper.with_name("led.json"))), encoding="utf-8")
+        import subprocess
+        proc = subprocess.Popen([sys.executable, "-X", "utf8", str(helper)],
+                                stdout=subprocess.PIPE, text=True, encoding="utf-8")
+        try:
+            self.assertEqual(proc.stdout.readline().strip(), "held")   # 等子进程真的拿到锁
+            got = False
+            with KB.ledger_lock(helper.with_name("led.json"), timeout=0.4) as ok:
+                got = ok
+            self.assertFalse(got, "子进程持锁期间本进程不该拿到锁")
+        finally:
+            proc.kill()
+            proc.wait()
+        # 子进程结束后（真实锁已释放），本进程能正常拿到
+        with KB.ledger_lock(helper.with_name("led.json"), timeout=5) as ok:
+            self.assertTrue(ok)
+
+
+class StateHygiene(unittest.TestCase):
+    """_meta 膨胀治理：body_cache 驱逐（含安全阀）· rule_drops 分档轮转 · JSONL 坏行告警。"""
+
+    def _seen(self, days_ago: int, iid: str) -> dict:
+        ts = (KB.now_cst() - __import__("datetime").timedelta(days=days_ago)).isoformat()
+        return {iid: {"last_seen": ts, "first_seen": ts}}
+
+    def test_body_cache_prune_stale(self):
+        with tempfile.TemporaryDirectory() as td:
+            bc = KB.BodyCache(path=pathlib.Path(td) / "bc.json")
+            bc.put("old", "x" * 600, source="hn_show")
+            bc.put("new", "y" * 600, source="hn_show")
+            seen = {**self._seen(200, "old"), **self._seen(1, "new")}
+            self.assertEqual(bc.prune_stale(seen, keep_days=120), 1)   # 只清出窗的
+            self.assertNotIn("old", bc.items)
+            self.assertIn("new", bc.items)
+
+    def test_body_cache_prune_safety_valve(self):
+        # seen 失忆（损坏被隔离重启）时绝不能清缓存 —— 否则「账本空 + prune」= 大规模丢正文
+        with tempfile.TemporaryDirectory() as td:
+            bc = KB.BodyCache(path=pathlib.Path(td) / "bc.json")
+            for i in range(6):
+                bc.put(f"i{i}", "x" * 600, source="hn_show")
+            self.assertEqual(bc.prune_stale({}, keep_days=120), 0)
+            self.assertEqual(len(bc.items), 6)
+
+    def test_rotate_jsonl_splits_big_file(self):
+        with tempfile.TemporaryDirectory() as td:
+            p = pathlib.Path(td) / "rule_drops.jsonl"
+            KB.append_jsonl(p, [{"reason": "r", "title": "t" * 60} for _ in range(40)])
+            moved = KB.rotate_jsonl(p, keep=2, max_bytes=100)
+            self.assertEqual(moved, 1)
+            self.assertTrue((pathlib.Path(td) / "rule_drops.jsonl.1").exists())
+            self.assertEqual(p.read_text(encoding="utf-8"), "")       # 让位后留空文件继续追加
+
+    def test_load_ndjson_warns_on_bad_lines(self):
+        import io
+        import contextlib
+        with tempfile.TemporaryDirectory() as td:
+            p = pathlib.Path(td) / "x.jsonl"
+            p.write_text('{"item_id": "ok"}\n{broken\n', encoding="utf-8")
+            buf = io.StringIO()
+            with contextlib.redirect_stdout(buf):
+                rows = KB.load_ndjson(p)
+            self.assertEqual(len(rows), 1)                            # 好行照常返回
+            self.assertIn("解析失败", buf.getvalue())                  # 坏行必须响亮报数
+
+
+class QueueAging(unittest.TestCase):
+    """回填队列账龄（2026-09-21 审计 P1-4：缺口何时入队此前无处可查）。"""
+
+    def test_age_queue_carries_and_increments(self):
+        with tempfile.TemporaryDirectory() as td:
+            old_meta, KA.META = KA.META, pathlib.Path(td)
+            try:
+                KB.write_ledger(pathlib.Path(td) / "backfill_queue.json",
+                                {"items": [{"item_id": "a", "first_queued_at": "2026-09-01T00:00:00+08:00",
+                                            "attempts": 2}]})
+                gaps = [{"item_id": "a"}, {"item_id": "b"}]
+                KA._age_queue(gaps)
+                self.assertEqual(gaps[0]["attempts"], 3)               # 在队未消化 → 累加
+                self.assertEqual(gaps[0]["first_queued_at"], "2026-09-01T00:00:00+08:00")
+                self.assertEqual(gaps[1]["attempts"], 1)               # 新缺口 → 1
+                self.assertIn("first_queued_at", gaps[1])
+                age = KA._queue_age(gaps)
+                self.assertEqual(age["n"], 2)
+                self.assertGreater(age["oldest_days"], 15)
+            finally:
+                KA.META = old_meta
+
+
+class ChannelStatusJudgement(unittest.TestCase):
+    """渠道状态判定：empty（没新内容）与 error（取数全失败）必须是两个状态。"""
+
+    def test_status_from_three_way(self):
+        self.assertEqual(KCH._status_from([{"i": 1}], [], "3 apps"), ("ok", "3 apps"))
+        # 部分失败：仍有产出 → ok，但失败路数写进 message
+        self.assertEqual(KCH._status_from([{"i": 1}], ["a: err", "b: err"], "3 apps"),
+                         ("ok", "3 apps（2 路失败）"))
+        # 全失败 → error（渠道台账要能看见「坏了」，而不是装作「今天没内容」）
+        st, msg = KCH._status_from([], ["q1: Boom", "q2: Bam", "q3: X"], "0")
+        self.assertEqual(st, "error")
+        self.assertIn("全部请求失败", msg)
+        self.assertEqual(KCH._status_from([], [], "0"), ("empty", "0"))
+
+
+class MoneyEvidenceSplit(unittest.TestCase):
+    """变现两口径：线索（关键词）≠ 证据（含具体金额），旧 money_n 虚高约 3.7 倍。"""
+
+    def test_strict_requires_amount(self):
+        pos = ["$1,240 MRR", "月入3万", "定价 $29", "€450 lifetime", "12k/月",
+               "revenue is $0 so far", "卖了 ¥3000"]
+        for t in pos:
+            with self.subTest(t=t):
+                self.assertTrue(KI.MONEY_EVIDENCE.search(t), f"应命中金额证据: {t!r}")
+        neg = ["we have a pricing page", "monetization soon", "考虑收费",
+               "revenue without numbers", "MRR discussion"]
+        for t in neg:
+            with self.subTest(t=t):
+                self.assertFalse(KI.MONEY_EVIDENCE.search(t), f"不该算金额证据: {t!r}")
 
 
 if __name__ == "__main__":
