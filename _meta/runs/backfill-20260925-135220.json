@@ -1,0 +1,56 @@
+{
+ "run_id": "backfill-20260925-135220",
+ "kind": "backfill",
+ "queue": 50,
+ "attempted": 48,
+ "filled": 19,
+ "structural_dead": 2,
+ "missed": 29,
+ "miss_reason_codes": {
+  "no_backend": 16,
+  "unreachable": 12,
+  "http_403": 1
+ },
+ "status_hist": {
+  "timeout": 13,
+  "error": 11,
+  "200": 6,
+  "200:too_short": 5,
+  "unreachable": 4,
+  "blocked": 2,
+  "bad_url": 1,
+  "403": 1
+ },
+ "comments_queue": 89,
+ "comments_filled": 57,
+ "via": [
+  [
+   "exa_web_fetch",
+   14
+  ],
+  [
+   "gh_readme",
+   5
+  ]
+ ],
+ "channels": [
+  [
+   "hn_show",
+   10
+  ],
+  [
+   "github_new",
+   5
+  ],
+  [
+   "reddit",
+   3
+  ],
+  [
+   "indiehackers",
+   1
+  ]
+ ],
+ "started": "2026-09-25T13:56:26+08:00",
+ "elapsed_s": 0
+}

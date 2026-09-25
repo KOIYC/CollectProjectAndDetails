@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/imaginemyhouse"
 published_at: "2026-09-21"
-captured_at: "2026-09-25T00:00:08+08:00"
+captured_at: "2026-09-25T13:44:19+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -24,7 +24,7 @@ discovered_via: "betalist:home"
 # Imaginemyhouse
 
 > [!info] 一句话导读
-> size-9 rounded-full hover:bg-gray-100 flex items-center justify-center
+> ImagineMyHouse: Upload a room photo and instantly preview
 
 > [!meta]- 语料信息（点开展开）
 > 来源：BetaList（project）
@@ -32,78 +32,17 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-09-21
 > 项目链接：—
-> 采集：2026-09-25T00:00:08+08:00　|　id：`31e3195a96de338f`
+> 采集：2026-09-25T13:44:19+08:00　|　id：`31e3195a96de338f`
 
 ## 正文
 
-BetaList
-Home
- Browse
- Newsletter
- Search
-FAQ
- Advertise
- Support
-Startup Jobs
- Vision Pro apps
-Home
- Browse
- Newsletter
- Search
-FAQ
- Advertise
- Support
-theme#toggle"
- class="
- size-9 rounded-full hover:bg-gray-100 flex items-center justify-center
- dark:hover:bg-gray-800 text-gray-500 dark:text-gray-400
- "
- title="Toggle theme"
- >
-Log in
-Submit Startup
-Back to all startups
-ImagineMyHouse
-Upload a room photo and instantly preview AI redesigns
+ImagineMyHouse: Upload a room photo and instantly preview | BetaList
+
+## Upload a room photo and instantly preview AI redesigns
+
 ImagineMyHouse lets you visualize home renovations by generating photorealistic redesigns from a single photo. Upload a picture of any room, exterior, or yard, choose a style or use Auto, then compare multiple looks in seconds. The platform supports interior, kitchen, bathroom, exterior, and landscape concepts, plus sketch-to-render workflows. Download high-resolution results without watermarks and use built-in tools for virtual staging, decluttering, and custom edits to plan with confidence.
-Visit Site
-Visit Site
-Makers
-JackLi
-Topics
-Interior Design
-Home Renovation
-3D
-Architecture
-Real Estate Investors
-Featured
-September 21, 2026
-Request changes
-Boost this startup
-Get your badge
-Report this startup
- Manage collections
-Discover startups similar to ImagineMyHouse
-Image to 3D AI
- Turn any image or text into production-ready 3D models in minutes
-WEBSITE•IM
- Build unlimited fast static websites with AI and templates
-TapVid
- BOOSTED
- Turn prompts, PDFs, or links into explainer videos with motion graphics
- BOOSTED
-Diagrimo
- Turn text into clear diagrams, charts, and infographics instantly
-Figmap
- AI mapping tool to visualize concepts, boost learning
-Presite
- Site plans made easier
-Adviserry
- BOOSTED
- Automatically get personalized actions from your YT/Pod/email subs
- BOOSTED
-AssetHQ
- Manage and share files effortlessly with a scalable DAM
+
+# BreakMoves: Turn TV breaks and daily pauses into quick | BetaList
 
 ## 导航
 

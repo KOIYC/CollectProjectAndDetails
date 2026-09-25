@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/mediora-ai-2"
 project_url: "https://mediora-ai-tau.vercel.app/"
-captured_at: "2026-09-25T00:00:28+08:00"
+captured_at: "2026-09-25T13:45:40+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://mediora-ai-tau.vercel.app/>
-> 采集：2026-09-25T00:00:28+08:00　|　id：`408cc76fecf5ccd3`
+> 采集：2026-09-25T13:45:40+08:00　|　id：`408cc76fecf5ccd3`
 
 ## 正文
 
@@ -61,9 +61,17 @@ It's still early, and we're building based on what users actually need.
 https://mediora-ai-tau.vercel.app/
 Kunal Singh
 2 Likes
-8 Comments
+9 Comments
 Say something nice…
 Post Comment
+1
+One good idea can become five bad posts if every platform gets the same generic AI rewrite. I'd show a founder sharing one strong opinion, then Mediora adapting it for LinkedIn and Instagram without losing the original personality.
+The useful test is whether readers still recognize the same person behind both posts.
+abdullah_markets
+·
+11 hours ago
+ ·
+Reply
 2
 Turning one idea into platform-specific posts is exactly where most teams bleed time, because “rewrite” isn’t the hard part—*repackaging* is (different hook, structure, length, CTA, even cadence).
 A few practical things I’d validate in Mediora (and that tend to make these tools actually useful):
@@ -81,7 +89,7 @@ One question I’d ask as a user: **do you treat “YouTube” as a real script 
 Also, I’ve used **ScaleBlogger** for keyword→SEO/GEO workflows; it’s more about research/creation/optimization than taking a single idea and converting it across social/video formats.
 Joy Sarah
 ·
-a day ago
+2 days ago
  ·
 Reply
 1
@@ -91,21 +99,21 @@ For YouTube, we're currently focused on generating platform-specific content, bu
 Really appreciate you taking the time to go this deep.
 Kunal Singh
 ·
-a day ago
+2 days ago
  ·
 Reply
 1
 Thanks, Kunal! Glad the feedback was useful. Your approach to YouTube content sounds like a good starting point. I’m looking forward to seeing how Mediora develops it.
 Joy Sarah
 ·
-6 hours ago
+20 hours ago
  ·
 Reply
 2
 Congrats on launching Mediora-AI! Since generating content for multiple platforms from one idea probably means more generation calls the more platforms someone selects, have you looked at how that affects your cost to serve per user as usage grows? Also curious — since you're gathering feedback: has anyone using it so far generated way more than others, and did that change how you think about pricing?
 Arcsviel
 ·
-2 days ago
+3 days ago
  ·
 Reply
 1
@@ -115,28 +123,28 @@ We haven't seen enough usage yet to confidently identify a “heavy user” patt
 Appreciate you bringing this up!
 Kunal Singh
 ·
-a day ago
+2 days ago
  ·
 Reply
 1
 That's a really thoughtful approach — waiting for real usage data before locking pricing makes sense. Quick follow-up: when you say you're starting to track cost per generation, is that mostly manual (checking API dashboards/spreadsheets) or do you have any tooling for it yet? Also curious if you've come across things like MarginDash or Tanso that try to tie AI cost straight to Stripe revenue per customer — wondering if that's on your radar or still too early-stage to matter yet.
 Arcsviel
 ·
-12 hours ago
+a day ago
  ·
 Reply
 1
 Yes for tracking the cost per generations i made overall api tracking tool that calculate per user per post costing so for now by this i kept the track ..... but thanks for your suggestions of MarginDash i will surely give it a try
 Kunal Singh
 ·
-12 hours ago
+a day ago
  ·
 Reply
 1
 That's awesome that you already built something for it — shows this was a real enough pain to solve yourself. Quick question: does your tracker also connect that cost data to each customer's actual revenue/subscription to show margin, or is it purely cost visibility for now? Curious whether tying cost to per-customer profitability is still a manual step, or something your tool already handles.
 Arcsviel
 ·
-11 hours ago
+a day ago
  ·
 Reply
 About

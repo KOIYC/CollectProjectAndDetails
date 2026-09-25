@@ -5,7 +5,7 @@ title: "Accounting Equation Calculator"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/accounting-equation-calculator"
-captured_at: "2026-09-25T00:00:28+08:00"
+captured_at: "2026-09-25T13:45:40+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-25T00:00:28+08:00　|　id：`fcfa2cb0861f9f2b`
+> 采集：2026-09-25T13:45:40+08:00　|　id：`fcfa2cb0861f9f2b`
 
 ## 正文
 
@@ -117,14 +117,14 @@ Post Comment
 amazing tool
 johnsmith121
 ·
-a day ago
+2 days ago
  ·
 Reply
 1
 If someone, have any issue regarding the tool, please let me know, Thank you.
 johnsmith121
 ·
-3 days ago
+4 days ago
  ·
 Reply
 About

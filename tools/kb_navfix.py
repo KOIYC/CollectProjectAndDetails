@@ -600,6 +600,92 @@ def fix_note_paths(apply: bool) -> int:
     return len(fixes) + len(recover)
 
 
+def fix_note_remnants(apply: bool) -> int:
+    """清「同一 item 在语料区留下多份页」的**改名残留**（幂等；只保留 `seen.note` 指向的那份）。
+
+    成因：语料页名 = `item_id_标题slug`，而 `seen.note` 是唯一权威路径。条目**改标题**后
+    （实测：bilibili 视频《零基础入行…》改名《手机能戒手机瘾…》），采集端在规范路径写出新页，
+    旧页没人清 → 同一 item 两份语料：
+      · healthcheck ①（`20-语料` 页数 == 在库唯一条目数）当场差 1；
+      · 旧页永远停在改名前的内容，却仍被按 `*.md` glob 计数与被索引扫描。
+
+    为什么删旧页安全：同一 item 的内容已在规范路径重写；`90-原始/` 只追加（标题的历史值在里面）、
+    git 是第二份备份；且删除同时**改写指向旧名的链接**（否则 ④ 断链）。
+
+    不动的类型（只报不改）：
+      · 组内找不到 `seen.note` 指向的那份 → 无法判定谁是规范名（可能账本漂移），转 `--fix-note-paths`；
+      · `seen.note` 落在 `80-归档/` → 同一条既归档又在库，属归档搬运残件，先 `kb_prune --dedupe-archive`。
+    """
+    seen = Seen()
+    disk: dict[str, list[str]] = {}
+    for p in sorted((ROOT / "20-语料").rglob("*.md")):
+        iid = None
+        for ln in p.read_text(encoding="utf-8").splitlines()[:40]:
+            m = re.match(r"^item_id:\s*(.+?)\s*$", ln)
+            if m:
+                iid = m.group(1).strip().strip('"')
+                break
+        if iid:
+            disk.setdefault(iid, []).append(p.relative_to(ROOT).as_posix())
+
+    dups = {i: v for i, v in disk.items() if len(v) > 1}
+    plans: list[tuple[str, str, str]] = []
+    unknown: list[tuple[str, str, list[str]]] = []
+    archived: list[tuple[str, str, list[str]]] = []
+    for iid, rels in sorted(dups.items()):
+        cur = str((seen.items.get(iid) or {}).get("note") or "")
+        if cur.startswith("80-归档/"):
+            archived.append((iid, cur, rels))
+            continue
+        if not cur or cur not in rels:
+            unknown.append((iid, cur, rels))
+            continue
+        plans += [(iid, r, cur) for r in rels if r != cur]
+
+    print(f"同一 item 多份语料 {len(dups)} 组 · 待清残件 {len(plans)} 个 · "
+          f"无法判定 {len(unknown)} · 归档并存 {len(archived)}")
+    for iid, old, keep in plans[:10]:
+        print(f"    {iid}: 删 {Path(old).name}\n        留 {keep}")
+    for iid, cur, rels in (unknown + archived)[:5]:
+        print(f"    [!] {iid} 账本={cur or '(空)'} 盘上 {len(rels)} 份 → 不猜，只报")
+    if not apply:
+        print("  （只报告；不带 --dry 才落盘）")
+        return len(plans)
+
+    ts = now_cst().strftime("%Y%m%dT%H%M%S")
+    man_file = META / f"corpus_remnant_manifest_{ts}.json"
+    man = {"at": iso(now_cst()), "kind": "corpus_remnant",
+           "note": "同名 item 多份语料的改名残留清理；undo 需把 from 从 git 历史恢复",
+           "removed": [], "skipped": [], "unknown": [i for i, _, _ in unknown],
+           "archived_coexist": [i for i, _, _ in archived]}
+    pairs: dict[str, str] = {}
+    for iid, old_rel, keep in plans:
+        src = ROOT / old_rel
+        try:
+            src.unlink()
+        except OSError as e:                     # 占用/权限：记下不硬来
+            man["skipped"].append({"item_id": iid, "from": old_rel, "failed": str(e)[:60]})
+            continue
+        if src.exists():                         # 删了还在 = 未生效，不能当已清
+            man["skipped"].append({"item_id": iid, "from": old_rel, "unverified": True})
+            continue
+        man["removed"].append({"item_id": iid, "from": old_rel, "kept": keep})
+        pairs[Path(old_rel).stem] = keep[:-3] if keep.endswith(".md") else keep
+
+    n = _rewrite_stem_links(pairs, apply=True) if pairs else 0
+    if not (man["removed"] or man["skipped"]):   # 空跑不留空 manifest（免得把 12 份配额挤掉真记录）
+        print("  无残件可清（幂等复跑）")
+        return 0
+    write_ledger(man_file, man, lock_name="rename_manifest", indent=2)
+    rotate_files(META, "corpus_remnant_manifest_", 12)
+    print(f"  已清残件 {len(man['removed'])} 个 · 改写链接 {n} 条 · 跳过 {len(man['skipped'])}"
+          f" · manifest {man_file.name}")
+    if man["skipped"]:
+        for b in man["skipped"][:5]:
+            print(f"    [!] 未清 {b['from']}  {b.get('failed') or 'unverified'}")
+    return len(man["removed"])
+
+
 # ---------------------------------------------------------------- cli
 
 def main() -> int:
@@ -616,7 +702,13 @@ def main() -> int:
     ap.add_argument("--undo-names", default="", help="按 manifest 把文件名改回")
     ap.add_argument("--fix-note-paths", action="store_true",
                     help="以磁盘实际路径为准订正 seen.json 的 note（修孤儿页/幽灵账），幂等")
+    ap.add_argument("--fix-note-remnants", action="store_true",
+                    help="清同一 item 的改名残留（同目录多份语料页），只保留 seen.note 那份")
     a = ap.parse_args()
+
+    if a.fix_note_remnants:
+        fix_note_remnants(apply=not a.dry)
+        return 0
 
     if a.fix_note_paths:
         fix_note_paths(apply=not a.dry)

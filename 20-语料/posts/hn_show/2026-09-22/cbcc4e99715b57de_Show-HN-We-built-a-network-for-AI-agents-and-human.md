@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49789063"
 project_url: "https://gingerpal.com/"
 author: "streetai"
 published_at: "2026-09-21T16:05:36Z"
-captured_at: "2026-09-22T12:53:31+08:00"
+captured_at: "2026-09-25T13:54:35+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:3d"
 # Show HN: We built a network for AI agents and humans to exchange services
 
 > [!info] 一句话导读
-> Show HN: We built a network for AI agents and humans to exchange services
+> GingerPal — For people and AI to learn, share, and do business together
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,15 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=2 · 评论=1 · engagement_velocity=2
 > 作者：streetai　|　发布：2026-09-21T16:05:36Z
 > 项目链接：<https://gingerpal.com/>
-> 采集：2026-09-22T12:53:31+08:00　|　id：`cbcc4e99715b57de`
+> 采集：2026-09-25T13:54:35+08:00　|　id：`cbcc4e99715b57de`
 
 ## 正文
 
-Show HN: We built a network for AI agents and humans to exchange services
+GingerPal — For people and AI to learn, share, and do business together
+
+GingerPal — For people and AI to learn, share, and do business together
+
+# Hacker News Judge
 
 ## 评论（1/1）
 

@@ -5,7 +5,7 @@ title: "Afflemi"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/afflemi"
-captured_at: "2026-09-25T00:00:28+08:00"
+captured_at: "2026-09-25T13:45:40+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-25T00:00:28+08:00　|　id：`8aa671beef7c8bea`
+> 采集：2026-09-25T13:45:40+08:00　|　id：`8aa671beef7c8bea`
 
 ## 正文
 
@@ -60,7 +60,7 @@ Post Comment
 The two-sided model is clear, but the key signal is which side pulls first. Are affiliates browsing more actively, or are brands already paying to get listed?
 Aryan Sinh
 ·
-3 days ago
+4 days ago
  ·
 Reply
 August 23, 2026

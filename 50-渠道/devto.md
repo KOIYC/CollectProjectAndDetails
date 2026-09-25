@@ -19,7 +19,7 @@ params: {"tags": ["showdev", "sideproject", "indiehackers", "buildinpublic"], "w
 - **分组**：海外社区　|　**语言**：en　|　**认证**：none
 - **取数实现**：`devto`　|　**单次上限**：8
 - **补全类型**：fulltext
-- **当前状态**：`ok`（本次 4 条，169.3s）
+- **当前状态**：`ok`（本次 4 条，6.2s）
 - **口径备注**：/api/articles 列表 + /api/articles/<id> 取 body_markdown 全文
 - **解锁方式**：—
 
@@ -45,3 +45,4 @@ params: {"tags": ["showdev", "sideproject", "indiehackers", "buildinpublic"], "w
 | 2026-09-22T12:56:59+08:00 | ok | 2 | 94.5s | 5 articles |
 | 2026-09-22T14:20:09+08:00 | ok | 2 | 86.9s | 5 articles |
 | 2026-09-25T00:03:57+08:00 | ok | 4 | 169.3s | 6 articles |
+| 2026-09-25T13:46:52+08:00 | ok | 4 | 6.2s | 4 articles |

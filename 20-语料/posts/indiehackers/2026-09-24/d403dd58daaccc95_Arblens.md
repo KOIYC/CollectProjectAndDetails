@@ -5,7 +5,7 @@ title: "Arblens"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/arblens"
-captured_at: "2026-09-25T00:00:28+08:00"
+captured_at: "2026-09-25T13:45:40+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-25T00:00:28+08:00　|　id：`d403dd58daaccc95`
+> 采集：2026-09-25T13:45:40+08:00　|　id：`d403dd58daaccc95`
 
 ## 正文
 
@@ -68,14 +68,14 @@ Post Comment
 Tried the product -looks good at first glance! What CEX are you planning to add next?
 JasonLuce
 ·
-a day ago
+2 days ago
  ·
 Reply
 1
 Thanks for trying it! We already support 21 exchanges, so right now the priority is improving the existing integrations. But we’re definitely open to adding more - if there’s a CEX you’d like to see, let me know and I’ll add it to the roadmap.
 Surprise
 ·
-a day ago
+2 days ago
  ·
 Reply
 1
@@ -89,28 +89,28 @@ Reply
 We don’t rotate API keys automatically, since ArbLens only has read-only access to your exchange account. If a key expires or stops working, we’ll notify you, and you’ll need to issue a new key on the exchange and update it in ArbLens.
 Surprise
 ·
-a day ago
+2 days ago
  ·
 Reply
 1
 With capital accuracy and trust being critical here, are traders already relying on ArbLens for daily decisions, or is adoption still mainly at the exploration stage?
 Aryan Sinh
 ·
-2 days ago
+3 days ago
  ·
 Reply
 1
 We’re still early, so adoption is mostly in the exploration and validation stage right now. Some users are already connecting real accounts and using ArbLens regularly
 Surprise
 ·
-a day ago
+2 days ago
  ·
 Reply
 1
 Could be useful to compare notes on that as the usage develops — open to email?
 Aryan Sinh
 ·
-a day ago
+2 days ago
  ·
 Reply
 About

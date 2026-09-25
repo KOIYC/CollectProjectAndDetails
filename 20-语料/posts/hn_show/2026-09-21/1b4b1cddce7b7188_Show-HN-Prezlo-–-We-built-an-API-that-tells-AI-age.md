@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=48325814"
 project_url: "https://prezlo.io/"
 author: "loptymobile"
 published_at: "2026-05-29T16:51:01Z"
-captured_at: "2026-09-22T13:12:52+08:00"
+captured_at: "2026-09-25T13:54:35+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:144d"
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：loptymobile　|　发布：2026-05-29T16:51:01Z
 > 项目链接：<https://prezlo.io/>
-> 采集：2026-09-22T13:12:52+08:00　|　id：`1b4b1cddce7b7188`
+> 采集：2026-09-25T13:54:35+08:00　|　id：`1b4b1cddce7b7188`
 
 ## 正文
 
@@ -47,11 +47,7 @@ Prezlo — Get Your Brand Recommended by AI
 
 Prezlo — Get Your Brand Recommended by AI
 
-Error fetching https://www.npmjs.com/package/@uindow/css: CRAWL_UNKNOWN_ERROR
-
-## 关联链接
-
-- https://www.npmjs.com/package/@uindow/css:
+# FlarePeek - a browser extension devtools for Cloudflare Workers developers - Chrome Web Store
 
 ## 导航
 

@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1vbt8ss/i_need_tips_to_become_the_best_closer_i_get_tons/"
 author: "contralai"
 published_at: "2026-07-31T22:55:41+08:00"
-captured_at: "2026-09-22T13:17:12+08:00"
+captured_at: "2026-09-25T13:56:21+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -34,7 +34,7 @@ discovered_via: "reddit:83d+settle3"
 > 指标：得分=4 · 评论=11 · 赞踩比=1
 > 作者：contralai　|　发布：2026-07-31T22:55:41+08:00
 > 项目链接：—
-> 采集：2026-09-22T13:17:12+08:00　|　id：`9c10a0efd34b87e1`
+> 采集：2026-09-25T13:56:21+08:00　|　id：`9c10a0efd34b87e1`
 
 ## 正文
 

@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49825088"
 project_url: "https://unspin.app/"
 author: "azermite"
 published_at: "2026-09-24T01:33:11Z"
-captured_at: "2026-09-24T23:57:22+08:00"
+captured_at: "2026-09-25T13:54:35+08:00"
 lang: "en"
 kind: "post"
 topic: "游戏"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=3 · 评论=1 · engagement_velocity=3
 > 作者：azermite　|　发布：2026-09-24T01:33:11Z
 > 项目链接：<https://unspin.app/>
-> 采集：2026-09-24T23:57:22+08:00　|　id：`925eb755c3edd1e7`
+> 采集：2026-09-25T13:54:35+08:00　|　id：`925eb755c3edd1e7`
 
 ## 正文
 
@@ -49,7 +49,7 @@ EAT CARROTS SEE EVERYTHING
 
 LOST AN ARM GROW IT BACK
 
-# ifoster01/jev-effort
+# Memory Notch — Keep the conversation. Offline recording for Mac.
 
 ## 评论（1/1）
 

@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: The Thousand – 1k founders, 1 question, one book"
 project_url: "https://thethousand.co/"
-first_seen: "2026-09-21T13:02:20+08:00"
+first_seen: "2026-09-25T13:54:35+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://thethousand.co/>
-> 首次收录：2026-09-21T13:02:20+08:00
+> 首次收录：2026-09-25T13:54:35+08:00
 > 来源渠道：HN Show HN
 > 标签：author_jabed, story_49497592, show_hn
 > 最新指标：点赞=3 · 评论=3 · engagement_velocity=3
@@ -36,6 +36,7 @@ lang: "en"
 | 2026-09-21T09:54:59+08:00 | HN Show HN | 点赞=3 · 评论=3 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-21/5496711b19c9e403_Show-HN-The-Thousand-–-1k-founders,-1-question,-on]] |
 | 2026-09-21T12:59:03+08:00 | HN Show HN | 点赞=3 · 评论=3 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-21/5496711b19c9e403_Show-HN-The-Thousand-–-1k-founders,-1-question,-on]] |
 | 2026-09-21T13:02:20+08:00 | HN Show HN | 点赞=3 · 评论=3 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-21/5496711b19c9e403_Show-HN-The-Thousand-–-1k-founders,-1-question,-on]] |
+| 2026-09-25T13:54:35+08:00 | HN Show HN | 点赞=3 · 评论=3 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-21/5496711b19c9e403_Show-HN-The-Thousand-–-1k-founders,-1-question,-on]] |
 
 ## 摘要正文
 

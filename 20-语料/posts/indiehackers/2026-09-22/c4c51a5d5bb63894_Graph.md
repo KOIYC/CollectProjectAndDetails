@@ -5,7 +5,7 @@ title: "Graph"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/graph"
-captured_at: "2026-09-25T00:00:28+08:00"
+captured_at: "2026-09-25T13:45:40+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-25T00:00:28+08:00　|　id：`c4c51a5d5bb63894`
+> 采集：2026-09-25T13:45:40+08:00　|　id：`c4c51a5d5bb63894`
 
 ## 正文
 
@@ -73,7 +73,7 @@ Post Comment
 The context layer is the interesting part. Have any candidates or recruiters found that the added evidence materially changed how they judged someone versus the original resume?
 Aryan Sinh
 ·
-3 days ago
+4 days ago
  ·
 Reply
 1
@@ -87,21 +87,21 @@ But that said, I run an 8 year old recruitment business, focused pre-dominantly 
 graph is a result of seeing this massive influx of AI generated resumes, and our attempt to help folks bring back the real context & evidence...make things real.
 Vikram Parekh
 ·
-3 days ago
+4 days ago
  ·
 Reply
 2
 The candidate reactions are interesting, especially that “didn’t realise I was missing this” signal. Would email be easier? What’s the best address for you?
 Aryan Sinh
 ·
-3 days ago
+4 days ago
  ·
 Reply
 1
 vikram@mygraph.id
 Vikram Parekh
 ·
-3 days ago
+4 days ago
  ·
 Reply
 1
@@ -109,7 +109,7 @@ Thanks! I’ve just sent it over.
 Looking forward to hearing your thoughts whenever you have a chance.
 Aryan Sinh
 ·
-3 days ago
+4 days ago
  ·
 Reply
 About

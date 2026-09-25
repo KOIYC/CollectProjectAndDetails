@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1wid8tq/i_got_engaged_and_ended_up_building_a_micro_saas/"
 author: "Insomnium_111"
 published_at: "2026-09-17T07:24:02+08:00"
-captured_at: "2026-09-25T00:18:25+08:00"
+captured_at: "2026-09-25T13:55:37+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=13 · 赞踩比=0.81
 > 作者：Insomnium_111　|　发布：2026-09-17T07:24:02+08:00
 > 项目链接：—
-> 采集：2026-09-25T00:18:25+08:00　|　id：`50a3235bbb8cf8b5`
+> 采集：2026-09-25T13:55:37+08:00　|　id：`50a3235bbb8cf8b5`
 
 ## 正文
 

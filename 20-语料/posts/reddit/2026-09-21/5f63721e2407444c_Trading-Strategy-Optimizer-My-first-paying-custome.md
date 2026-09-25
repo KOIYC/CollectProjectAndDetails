@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/SideProject/comments/1wifs4c/trading_strategy_opt
 project_url: "https://chromewebstore.google.com/detail/trading-strategy-optimize/pjgikffklocmefghdipdiidfebgbklon"
 author: "PreparationOk3910"
 published_at: "2026-09-17T09:14:43+08:00"
-captured_at: "2026-09-25T00:18:04+08:00"
+captured_at: "2026-09-25T13:55:27+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=13 · 赞踩比=0.67
 > 作者：PreparationOk3910　|　发布：2026-09-17T09:14:43+08:00
 > 项目链接：<https://chromewebstore.google.com/detail/trading-strategy-optimize/pjgikffklocmefghdipdiidfebgbklon>
-> 采集：2026-09-25T00:18:04+08:00　|　id：`5f63721e2407444c`
+> 采集：2026-09-25T13:55:27+08:00　|　id：`5f63721e2407444c`
 
 ## 正文
 

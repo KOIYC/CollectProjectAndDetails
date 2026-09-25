@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/noah-kahan-dog-trail-hoodie"
 project_url: "https://formahand.com/"
-captured_at: "2026-09-25T00:00:28+08:00"
+captured_at: "2026-09-25T13:45:40+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://formahand.com/>
-> 采集：2026-09-25T00:00:28+08:00　|　id：`42253e16168e26a7`
+> 采集：2026-09-25T13:45:40+08:00　|　id：`42253e16168e26a7`
 
 ## 正文
 
@@ -59,7 +59,7 @@ Post Comment
 The hoodie looks awesome ! Are you using https://formahand.com for your storefront ?
 0xDRick
 ·
-7 hours ago
+21 hours ago
  ·
 Reply
 About

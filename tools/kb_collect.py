@@ -553,6 +553,7 @@ def main(argv=None) -> int:
     seen = Seen()
     body_cache = BodyCache()
     drop_sink: list[dict] = []          # 主题准入丢弃账本（可回溯误杀，供规则调参）
+    rename_pairs: dict[str, str] = {}   # 语料页改名（标题变更）→ 旧页清除 + 链接改写，见 write 循环
     ctx = {"max_comments": args.max_comments, "fulltext_budget": args.fulltext_budget,
            "slice_days": args.slice_days, "throttle_ms": args.throttle_ms,
            "since_ts": since_ts, "until_ts": until_ts}
@@ -758,8 +759,22 @@ def main(argv=None) -> int:
                     if it["_changed"]:
                         # 更新条目**原地刷新**：分片日期以现存 note 为准，跨天不迁移
                         # （否则旧分片文件成孤儿，healthcheck ① 红——见 kb_common.note_bucket）
+                        prev_rel = str((seen.get(it["item_id"]) or {}).get("note") or "")
                         note = write_corpus_note(it, note_bucket(seen, it["item_id"], day))
                         rel = note.relative_to(Path(__file__).resolve().parents[1]).as_posix()
+                        # 语料页名 = item_id + `标题slug`，URL 不变而**标题变了**就会换名。
+                        # 只写新页不清旧页 → 同一 item 两份语料：healthcheck ①（页数 == 唯一
+                        # 条目数）当场差 1，且旧页永远停在改名前的内容（实测 bilibili 视频改名）。
+                        # 内容已在规范路径重写，raw 为只追加基线、git 是第二备份 → 清旧页安全；
+                        # 指向旧名的链接在渠道循环后统一改写（否则 ④ 断链）。归档页不在此清。
+                        if (prev_rel and prev_rel != rel
+                                and not prev_rel.startswith("80-归档/")
+                                and (Path(__file__).resolve().parents[1] / prev_rel).is_file()):
+                            try:
+                                (Path(__file__).resolve().parents[1] / prev_rel).unlink()
+                                rename_pairs[prev_rel] = rel
+                            except OSError as e:                       # noqa: BLE001
+                                log.error(f"{ch['id']}.stale[{it.get('item_id')}]", e)
                         log.notes.append(rel)
                         # 实体页准入：不是项目的条目（讨论帖/提问帖/经验帖）不建项目页。
                         # 原实现对**每个条目**都建 → 实测 818 个页面里混进 115 个废页，
@@ -804,6 +819,20 @@ def main(argv=None) -> int:
               f" · 账本 _meta/rule_drops.jsonl", flush=True)
 
     if not args.dry:
+        if rename_pairs:
+            # 改名善后：manifest 落盘（undo 可查）+ 改写指向旧名的 wikilink。
+            # 函数内 import：navfix 反向 import 本模块，模块级 import 会成环。
+            from kb_navfix import _rewrite_stem_links
+            man = {"at": iso(now_cst()), "kind": "corpus_rename",
+                   "note": "条目改标题导致的语料页换名；旧页已清（git/raw 可回溯），链接已改写",
+                   "renames": [{"from": k, "to": v} for k, v in sorted(rename_pairs.items())]}
+            write_ledger(META / f"corpus_rename_manifest_{run_id}.json", man,
+                         lock_name="rename_manifest", indent=2)
+            n = _rewrite_stem_links({Path(k).stem: v[:-3] for k, v in rename_pairs.items()},
+                                    apply=True)
+            rotate_files(META, "corpus_rename_manifest_", 12)
+            print(f"[改名] 标题变更致语料页换名 {len(rename_pairs)} 条 → 旧页已清 · "
+                  f"链接改写 {n} 条", flush=True)
         seen.save()
         # body_cache 是**缓存**不是事实源：清掉再也够不到的条目，防它单调膨胀
         # （实测 9.0MB · 每渠道 + 收尾各全量重序列化一次）。正文的可恢复来源是不可变的 90-原始。

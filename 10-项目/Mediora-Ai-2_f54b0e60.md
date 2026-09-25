@@ -2,7 +2,7 @@
 type: "project"
 title: "Mediora Ai 2"
 project_url: "https://mediora-ai-tau.vercel.app/"
-first_seen: "2026-09-25T00:00:28+08:00"
+first_seen: "2026-09-25T13:45:40+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://mediora-ai-tau.vercel.app/>
-> 首次收录：2026-09-25T00:00:28+08:00
+> 首次收录：2026-09-25T13:45:40+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -29,6 +29,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-22T12:57:04+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-22/408cc76fecf5ccd3_Mediora-Ai-2]] |
 | 2026-09-25T00:00:28+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-22/408cc76fecf5ccd3_Mediora-Ai-2]] |
+| 2026-09-25T13:45:40+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-22/408cc76fecf5ccd3_Mediora-Ai-2]] |
 
 ## 摘要正文
 

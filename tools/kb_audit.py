@@ -256,6 +256,28 @@ def main(argv=None) -> int:
     doctor = {"ok": False, "platforms": {}} if args.no_doctor else agent_reach_doctor()
     backends = [] if args.no_doctor else probe_backends()
 
+    # 子集探针（--channels / --fast）不得摧毁全局体检记录：按 channel_id 合并进既有 health.json。
+    # 实测坑：单渠道复测 c1c7 曾把 13 渠道的 health.json 与 渠道台账.md 覆盖成「启用 1 个渠道」，
+    # 台账（导航层）当场失真，且下一轮会据此误判渠道启停。
+    subset = bool(args.channels) or args.fast
+    prev = {}
+    if subset and HEALTH.exists():
+        try:
+            prev = json.loads(HEALTH.read_text(encoding="utf-8"))
+        except Exception:
+            prev = {}
+    if subset and prev.get("channels"):
+        by_id = {r["channel_id"]: r for r in results}
+        merged = [by_id.get(r["channel_id"], r) for r in prev["channels"]]
+        seen = {r["channel_id"] for r in merged}
+        merged += [r for r in results if r["channel_id"] not in seen]
+        print(f"[i] 子集探针：本轮 {len(results)} 条已合并进既有 {len(prev['channels'])} 条记录"
+              f" → 台账记录 {len(merged)} 个渠道（不覆盖历史体检）")
+        results = merged
+        if args.no_doctor:
+            backends = prev.get("backends", [])
+
+    chans_by_id = {c["id"]: c for c in reg["_enabled_channels"]}
     health = {
         "checked_at": iso(now_cst()),
         "channels": results,
@@ -267,9 +289,13 @@ def main(argv=None) -> int:
             "error": sum(1 for r in results if r["status"] == "error"),
             "auth": sum(1 for r in results if r["status"] == "auth"),
         },
-        "decisions": [{"channel_id": r["channel_id"], "action": classify(c, r, doctor),
-                       "status": r["status"]} for c, r in zip(chans, results)],
-        "agent_reach": {"ok": doctor.get("ok"), "checked_at": doctor.get("checked_at")},
+        "decisions": [{"channel_id": r["channel_id"],
+                       "action": classify(chans_by_id[r["channel_id"]], r, doctor),
+                       "status": r["status"]}
+                      for r in results if r["channel_id"] in chans_by_id],
+        "agent_reach": {"ok": doctor.get("ok"), "checked_at": doctor.get("checked_at")}
+                       if not (subset and args.no_doctor)
+                       else prev.get("agent_reach", {"ok": doctor.get("ok")}),
         "deltas": [b for b in backends if b.get("delta")],
     }
     kb_common._atomic_write(HEALTH, json.dumps(health, ensure_ascii=False, indent=1))

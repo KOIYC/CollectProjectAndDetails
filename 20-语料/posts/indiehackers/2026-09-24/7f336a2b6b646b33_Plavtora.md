@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/plavtora"
 project_url: "https://plavtora.com/"
-captured_at: "2026-09-25T00:00:28+08:00"
+captured_at: "2026-09-25T13:45:40+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://plavtora.com/>
-> 采集：2026-09-25T00:00:28+08:00　|　id：`7f336a2b6b646b33`
+> 采集：2026-09-25T13:45:40+08:00　|　id：`7f336a2b6b646b33`
 
 ## 正文
 
@@ -60,15 +60,22 @@ That's why we're building Plavtora around startup decisions and execution , rath
  What's one startup decision you're currently struggling with?
  Would be useful to compare what we're building against real founder problems.
 Asmit Tiwari
-7 Likes
-1 Comment
+8 Likes
+2 Comments
 Say something nice…
 Post Comment
+1
+Good
+Amdrewjulian
+·
+2 hours ago
+ ·
+Reply
 1
 Good work
 Amdrewjulian
 ·
-6 hours ago
+19 hours ago
  ·
 Reply
 September 24, 2026
@@ -93,8 +100,17 @@ What would make you come back and use it repeatedly
 We're live on Product Hunt today:
  https://www.producthunt.com/products/launch-pilot?utm_source=other&utm_medium=social
 Asmit Tiwari
-19 Likes
-Comment
+26 Likes
+1 Comment
+Say something nice…
+Post Comment
+1
+Best
+Amdrewjulian
+·
+2 hours ago
+ ·
+Reply
 September 22, 2026
  I’m building Plavtora but I’m trying to solve a bigger problem than “AI startup advice”
 The problem is what happens after that.
@@ -115,7 +131,7 @@ Instead of giving you another static startup report, the goal is to help you con
  I’m interested in the problem, not just feedback on the product.
  If you want to see what I’m building: Plavtora is here: https://plavtora.com
 Asmit Tiwari
-20 Likes
+21 Likes
 4 Comments
 Say something nice…
 Post Comment
@@ -125,14 +141,14 @@ Static plans die when the evidence stream is ad-hoc. The hard part is not genera
 How are you deciding which evidence is material enough to reopen a decision vs. just log and move on?
 matthewstadnik
 ·
-a day ago
+2 days ago
  ·
 Reply
 1
 Best content
 Aurangzeb
 ·
-2 days ago
+3 days ago
  ·
 Reply
 1
@@ -146,7 +162,7 @@ Reply
 Would you like to be a paying user for such a software?
 Asmit Tiwari
 ·
-2 days ago
+3 days ago
  ·
 Reply
 September 17, 2026
@@ -228,28 +244,28 @@ Post Comment
 The decision-tracking thesis is interesting, but the real test seems to be behavior. Have any founders changed a product decision because of Plavtora yet?
 aryan_sinh
 ·
-8 days ago
+9 days ago
  ·
 Reply
 1
 We would not say changed but there are two founder Giorghiu and Zaman whom I got from X prospecting they mention that it surely helps them in making decisions swiftly rather than procastinating they dont have to procastinate whether they take the next step or not because Plavtora always directs them based on evidence and observation
 Asmit_Tiwari
 ·
-8 days ago
+9 days ago
  ·
 Reply
 1
 The faster-decision signal is useful, even if you haven’t seen a concrete product change yet. If you’re open to it, what’s the best email to reach you on?
 aryan_sinh
 ·
-8 days ago
+9 days ago
  ·
 Reply
 1
 absolutely open to connect buddy you can reach me on tiwariasmit53@gmail sorry I cant write the full entension because I am not allowed to so yup here you can reach me out
 Asmit_Tiwari
 ·
-8 days ago
+9 days ago
  ·
 Reply
 1
@@ -257,7 +273,7 @@ Thanks! I’ve just sent it over.
 Looking forward to hearing your thoughts whenever you have a chance.
 aryan_sinh
 ·
-8 days ago
+9 days ago
  ·
 Reply
 September 15, 2026
@@ -286,7 +302,7 @@ Post Comment
 I like the focus on helping users actually make a decision instead of just generating another AI answer. How are u thinking about keeping the recommendations explainable once the systems get more complex ??
 i18ner
 ·
-9 days ago
+10 days ago
  ·
 Reply
 September 14, 2026
@@ -336,7 +352,7 @@ The decision we deal with constantly: is the FX rate we're being quoted on a tra
 The analysis-vs-judgment split you're drawing is the right one though, most tools stop at giving you data and leave the actual "is this good or bad" call to you. That gap is where most of the value should sit.
 chely
 ·
-10 days ago
+11 days ago
  ·
 Reply
 September 14, 2026
@@ -351,7 +367,7 @@ Hey everyone,
  What business decision do you currently find hardest to make?
  That’s the kind of problem we want Plavtora to eventually solve.
 Asmit Tiwari
-31 Likes
+32 Likes
 6 Comments
 Say something nice…
 Post Comment
@@ -359,14 +375,14 @@ Post Comment
 Answering your actual question: the hardest decisions I make are not hard for lack of analysis. Killing a product line with real revenue, or moving a good person out of the wrong seat, are hard because the information is already clear and the cost of acting is personal, which is exactly why an analysis layer does not move them. The decisions AI genuinely helps with are the ones nobody has time to think about carefully, not the ones everyone is avoiding, and that distinction should decide which systems you build next.
 Gregory Scott Henson
 ·
-10 days ago
+11 days ago
  ·
 Reply
 2
 When a product promises better decisions, the sharpest first wedge is usually one recurring decision with a clear before-and-after—not a broad analysis layer. I’d choose a decision that already costs a small team time every week, show the inputs, recommendation, and what changes after it. That makes the landing-page analysis less abstract and gives you a concrete activation event to measure. Which decision are users asking you to solve first?
 Kotrixel
 ·
-10 days ago
+11 days ago
  ·
 Reply
 1
@@ -376,14 +392,14 @@ Right now we’re using landing pages as the initial wedge because “what shoul
 So the question we’re trying to answer now is less “how do we make a better landing-page analyzer?” and more “which decisions are painful and recurring enough that people will actually come back to Plavtora to make them?”
 Asmit Tiwari
 ·
-10 days ago
+11 days ago
  ·
 Reply
 1
 That makes sense—the landing-page system is a good proving ground because the decision, evidence, and outcome can be bounded. To discover the next wedge, I’d log each request by frequency, urgency, and whether a user already has the inputs needed to act. The winners will likely be decisions people make weekly and currently take to a blank document or several tools. Once you see a repeatable first use, the broader platform story becomes much easier to earn.
 Kotrixel
 ·
-10 days ago
+11 days ago
  ·
 Reply
 2

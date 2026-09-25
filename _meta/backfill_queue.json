@@ -1,7 +1,7 @@
 {
- "generated": "2026-09-25T00:19:40+08:00",
- "run_id": "20260924T235719",
- "count": 25,
+ "generated": "2026-09-25T13:56:38+08:00",
+ "run_id": "20260925T134223",
+ "count": 10,
  "items": [
   {
    "item_id": "3ff678d3fc55d72b",
@@ -14,7 +14,7 @@
    "page": "https://www.oppslist.com/",
    "title": "Opps Daily - 这家的 newsletter 做得好，推荐订阅",
    "first_queued_at": "2026-09-22T02:46:53+08:00",
-   "attempts": 4
+   "attempts": 6
   },
   {
    "item_id": "03f418f822ae5044",
@@ -27,7 +27,7 @@
    "page": "http://liqi.io/creators/",
    "title": "利器",
    "first_queued_at": "2026-09-22T02:46:53+08:00",
-   "attempts": 4
+   "attempts": 6
   },
   {
    "item_id": "f79916209c3de950",
@@ -40,7 +40,7 @@
    "page": "https://mp.weixin.qq.com/s/WZ6ULaATxIA1fZOUXZVobA",
    "title": "PriceTag 的独立开发者采访（公众号 PriceTagApp）",
    "first_queued_at": "2026-09-22T02:46:53+08:00",
-   "attempts": 4
+   "attempts": 6
   },
   {
    "item_id": "70da07a842b9c2d0",
@@ -53,7 +53,7 @@
    "page": "https://www.v2ex.com/go/create",
    "title": "v2ex 论坛 - 分享创造板块",
    "first_queued_at": "2026-09-22T02:46:53+08:00",
-   "attempts": 4
+   "attempts": 6
   },
   {
    "item_id": "8e8f38ae88e2acd7",
@@ -66,189 +66,7 @@
    "page": "https://github.com/EvanBacon/Instagram",
    "title": "EvanBacon/Instagram",
    "first_queued_at": "2026-09-22T02:46:53+08:00",
-   "attempts": 4
-  },
-  {
-   "item_id": "3014777b8200a4b3",
-   "source_id": "hn_show",
-   "profile": "discussion",
-   "missing": [
-    "body"
-   ],
-   "url": "https://nohtml.felixs.eu/",
-   "page": "https://news.ycombinator.com/item?id=49499459",
-   "title": "Show HN: Nohtml.felixs.eu",
-   "first_queued_at": "2026-09-22T02:46:53+08:00",
-   "attempts": 4
-  },
-  {
-   "item_id": "bfd9557432621d34",
-   "source_id": "hn_show",
-   "profile": "discussion",
-   "missing": [
-    "body"
-   ],
-   "url": "https://news.ycombinator.com/item?id=49498469",
-   "page": "https://news.ycombinator.com/item?id=49498469",
-   "title": "Show HN: I built a physical dream machine for my wife",
-   "first_queued_at": "2026-09-22T02:46:53+08:00",
-   "attempts": 4
-  },
-  {
-   "item_id": "9fd5bf8b1db874ad",
-   "source_id": "hn_show",
-   "profile": "discussion",
-   "missing": [
-    "body"
-   ],
-   "url": "https://play.google.com/store/apps/details?id=com.mohamedgado.masareef&hl=en_US",
-   "page": "https://news.ycombinator.com/item?id=49495918",
-   "title": "Show HN: Masareef – Android expense tracker that reads bank alerts on-device",
-   "first_queued_at": "2026-09-22T02:46:53+08:00",
-   "attempts": 4
-  },
-  {
-   "item_id": "5d2a790e2cff1087",
-   "source_id": "hn_show",
-   "profile": "discussion",
-   "missing": [
-    "body"
-   ],
-   "url": "https://primescript.com/",
-   "page": "https://news.ycombinator.com/item?id=49796142",
-   "title": "Show HN: Primescript – Academic Markdown editor with vector search and LaTeX",
-   "first_queued_at": "2026-09-22T13:09:33+08:00",
-   "attempts": 3
-  },
-  {
-   "item_id": "adbe6f3b36612528",
-   "source_id": "hn_show",
-   "profile": "discussion",
-   "missing": [
-    "body"
-   ],
-   "url": "https://play.google.com/store/apps/details?id=com.safeqr.scancreate&hl=en_US",
-   "page": "https://news.ycombinator.com/item?id=49795549",
-   "title": "Show HN: EagleQR -QR scanner that checks domain age and unshorts URL before open",
-   "first_queued_at": "2026-09-22T13:09:33+08:00",
-   "attempts": 3
-  },
-  {
-   "item_id": "538f2a786eec4bc0",
-   "source_id": "hn_show",
-   "profile": "discussion",
-   "missing": [
-    "body"
-   ],
-   "url": "https://github.com/Emlembow/jev-graph-search",
-   "page": "https://news.ycombinator.com/item?id=49795109",
-   "title": "Show HN: Jev Powered Obsidian Search",
-   "first_queued_at": "2026-09-22T13:09:33+08:00",
-   "attempts": 3
-  },
-  {
-   "item_id": "bad9682483562bff",
-   "source_id": "hn_show",
-   "profile": "discussion",
-   "missing": [
-    "body"
-   ],
-   "url": "https://coralbricks.ai/",
-   "page": "https://news.ycombinator.com/item?id=49794152",
-   "title": "Show HN: Fast inference for deep seek flash v4.1 469 tok/s for coding",
-   "first_queued_at": "2026-09-22T13:09:33+08:00",
-   "attempts": 3
-  },
-  {
-   "item_id": "1eeacbe7b0db730b",
-   "source_id": "hn_show",
-   "profile": "discussion",
-   "missing": [
-    "body"
-   ],
-   "url": "https://csharp.codeguppy.comzx-spectrum/",
-   "page": "https://news.ycombinator.com/item?id=49792062",
-   "title": "Show HN: Two unnecessary playgrounds – C# and ZX Spectrum in the browser",
-   "first_queued_at": "2026-09-22T13:09:33+08:00",
-   "attempts": 3
-  },
-  {
-   "item_id": "6a33dbd4dfbf825f",
-   "source_id": "hn_show",
-   "profile": "discussion",
-   "missing": [
-    "body"
-   ],
-   "url": "https://academia.edu/2998-3665/3/3/10.20935/AcadEnergy8514",
-   "page": "https://news.ycombinator.com/item?id=49791974",
-   "title": "Show HN: Grid flex rhymes with derivatives trading: an observation",
-   "first_queued_at": "2026-09-22T13:09:33+08:00",
-   "attempts": 3
-  },
-  {
-   "item_id": "cbcc4e99715b57de",
-   "source_id": "hn_show",
-   "profile": "discussion",
-   "missing": [
-    "body"
-   ],
-   "url": "https://gingerpal.com/",
-   "page": "https://news.ycombinator.com/item?id=49789063",
-   "title": "Show HN: We built a network for AI agents and humans to exchange services",
-   "first_queued_at": "2026-09-22T13:09:33+08:00",
-   "attempts": 3
-  },
-  {
-   "item_id": "474d74035afb13ca",
-   "source_id": "hn_show",
-   "profile": "discussion",
-   "missing": [
-    "body"
-   ],
-   "url": "https://hnjudge.vercel.app/",
-   "page": "https://news.ycombinator.com/item?id=49788903",
-   "title": "Show HN: Judge HN Threads with Jev",
-   "first_queued_at": "2026-09-22T13:09:33+08:00",
-   "attempts": 3
-  },
-  {
-   "item_id": "4ef5350f30aa6080",
-   "source_id": "hn_show",
-   "profile": "discussion",
-   "missing": [
-    "body"
-   ],
-   "url": "https://app.cubelv.com/",
-   "page": "https://news.ycombinator.com/item?id=49827478",
-   "title": "Show HN: CubeLV – AI that designs your automation before building it",
-   "first_queued_at": "2026-09-25T00:10:12+08:00",
-   "attempts": 2
-  },
-  {
-   "item_id": "77ad58176ff0e178",
-   "source_id": "hn_show",
-   "profile": "discussion",
-   "missing": [
-    "body"
-   ],
-   "url": "https://cms-sfx-demo.apeleg.com/",
-   "page": "https://news.ycombinator.com/item?id=49827375",
-   "title": "Show HN: Air-gapped file encryption as self-decrypting HTML page",
-   "first_queued_at": "2026-09-25T00:10:12+08:00",
-   "attempts": 2
-  },
-  {
-   "item_id": "925eb755c3edd1e7",
-   "source_id": "hn_show",
-   "profile": "discussion",
-   "missing": [
-    "body"
-   ],
-   "url": "https://unspin.app/",
-   "page": "https://news.ycombinator.com/item?id=49825088",
-   "title": "Show HN: A game about fake news and memes",
-   "first_queued_at": "2026-09-25T00:10:12+08:00",
-   "attempts": 2
+   "attempts": 6
   },
   {
    "item_id": "02983cd3fa784ef4",
@@ -261,7 +79,7 @@
    "page": "https://www.reddit.com/r/IndieDev/comments/1szxra6/did_you_encounter_the_problem_of_disorganization/",
    "title": "Did you encounter the problem of disorganization in your first game?",
    "first_queued_at": "2026-09-22T02:46:53+08:00",
-   "attempts": 4
+   "attempts": 6
   },
   {
    "item_id": "f3352ca9e6883a97",
@@ -274,7 +92,7 @@
    "page": "https://www.reddit.com/r/IndieDev/comments/1tsyis0/everytime_you_check_ops_profile/",
    "title": "Everytime you check OP's profile",
    "first_queued_at": "2026-09-22T02:46:53+08:00",
-   "attempts": 4
+   "attempts": 6
   },
   {
    "item_id": "eb17d59084bb175a",
@@ -287,7 +105,7 @@
    "page": "https://www.reddit.com/r/IndieDev/comments/1wjb0mg/first_make_it_exist_you_can_make_it_good_later/",
    "title": "First make it exist, you can make it good later",
    "first_queued_at": "2026-09-22T02:46:53+08:00",
-   "attempts": 4
+   "attempts": 6
   },
   {
    "item_id": "42bf3de09af7cfeb",
@@ -300,33 +118,20 @@
    "page": "https://www.reddit.com/r/SaaS/comments/1wj7krx/whats_the_best_virtual_office_software_for_a/",
    "title": "What's the best virtual office software for a remote SaaS team?",
    "first_queued_at": "2026-09-22T02:46:53+08:00",
-   "attempts": 4
+   "attempts": 6
   },
   {
-   "item_id": "cb7dd9d0944fb645",
+   "item_id": "ba0e7b3dc4af2c1f",
    "source_id": "reddit",
    "profile": "discussion",
    "missing": [
     "body"
    ],
-   "url": "https://www.reddit.com/r/buildinpublic/comments/1wk1paq/your_200_codex_plan_isnt_shrinking_your_context/",
-   "page": "https://www.reddit.com/r/buildinpublic/comments/1wk1paq/your_200_codex_plan_isnt_shrinking_your_context/",
-   "title": "Your $200 Codex plan isn’t shrinking, your context is eating it. Astra benchmark",
-   "first_queued_at": "2026-09-22T13:09:33+08:00",
-   "attempts": 3
-  },
-  {
-   "item_id": "4b04923017aadd9d",
-   "source_id": "reddit",
-   "profile": "discussion",
-   "missing": [
-    "body"
-   ],
-   "url": "https://kebap-guy.itch.io/sugar-cube-8x8-pixel-font",
-   "page": "https://www.reddit.com/r/IndieDev/comments/1wk732m/sugar_cube_8x8_pixel_font_by_kebap_guy/",
-   "title": "Sugar Cube - 8x8 Pixel Font by Kebap Guy",
-   "first_queued_at": "2026-09-22T13:09:33+08:00",
-   "attempts": 3
+   "url": "https://store.steampowered.com/app/5029440/CLICKONAUT",
+   "page": "https://www.reddit.com/r/IndieDev/comments/1wgq6yn/my_demo_is_out_if_anyone_wishes_to_try_it/",
+   "title": "My demo is out!! If anyone wishes to try it",
+   "first_queued_at": "2026-09-25T13:52:04+08:00",
+   "attempts": 2
   }
  ]
 }

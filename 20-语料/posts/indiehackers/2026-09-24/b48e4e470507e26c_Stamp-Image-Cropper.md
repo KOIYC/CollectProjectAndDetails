@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/stamp-image-cropper"
 project_url: "https://alstamps.com/image-cropper"
-captured_at: "2026-09-25T00:00:28+08:00"
+captured_at: "2026-09-25T13:45:40+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://alstamps.com/image-cropper>
-> 采集：2026-09-25T00:00:28+08:00　|　id：`b48e4e470507e26c`
+> 采集：2026-09-25T13:45:40+08:00　|　id：`b48e4e470507e26c`
 
 ## 正文
 
@@ -94,35 +94,35 @@ Post Comment
 “Thanks for sharing this. I’d be interested to know how you measure whether your SEO efforts are actually bringing qualified visitors.”
 Aurangzeb
 ·
-2 days ago
+3 days ago
  ·
 Reply
 1
 “This is helpful. Do you think the strategy works equally well for new websites, or does it depend on having some existing authority?”
 Aurangzeb
 ·
-2 days ago
+3 days ago
  ·
 Reply
 1
 “Good point about focusing on the right audience. How did you identify your ideal customers in the beginning?”
 Aurangzeb
 ·
-2 days ago
+3 days ago
  ·
 Reply
 1
 “I found the customer acquisition section particularly useful. How long did it take before you started seeing measurable results?
 Aurangzeb
 ·
-2 days ago
+3 days ago
  ·
 Reply
 1
 Now that it's public, are collectors mainly using the cropper as a one-off utility, or are you seeing recurring usage that points toward adjacent tools?
 Aryan Sinh
 ·
-2 days ago
+3 days ago
  ·
 Reply
 About

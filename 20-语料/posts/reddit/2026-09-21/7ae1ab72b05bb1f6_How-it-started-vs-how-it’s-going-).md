@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/IndieDev/comments/1vbtbng/how_it_started_vs_how_its_going/"
 author: "Rich-Path-2223"
 published_at: "2026-07-31T22:58:41+08:00"
-captured_at: "2026-09-25T00:19:11+08:00"
+captured_at: "2026-09-25T13:56:11+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -34,7 +34,7 @@ discovered_via: "reddit:83d+settle3"
 > 指标：得分=27 · 评论=16 · 赞踩比=0.94
 > 作者：Rich-Path-2223　|　发布：2026-07-31T22:58:41+08:00
 > 项目链接：—
-> 采集：2026-09-25T00:19:11+08:00　|　id：`7ae1ab72b05bb1f6`
+> 采集：2026-09-25T13:56:11+08:00　|　id：`7ae1ab72b05bb1f6`
 
 ## 正文
 

@@ -5,7 +5,7 @@ title: "Proudsend"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/proudsend"
-captured_at: "2026-09-25T00:00:28+08:00"
+captured_at: "2026-09-25T13:45:40+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-25T00:00:28+08:00　|　id：`5a3cb3590e032c30`
+> 采集：2026-09-25T13:45:40+08:00　|　id：`5a3cb3590e032c30`
 
 ## 正文
 
@@ -61,7 +61,7 @@ Post Comment
 Have early users shown that ProudSend's personalized drafts improve actual sales outcomes, or are they mainly evaluating the writing quality before sending anything?
 Aryan Sinh
 ·
-a day ago
+2 days ago
  ·
 Reply
 1
@@ -70,14 +70,14 @@ What early users are getting today is their time back. A good first message usua
 The reply data will come from my own outreach, which I write with ProudSend at 20–30 messages a week, and from asking early users directly. I'll share the numbers once there are enough to mean something.
 Petar Risteski
 ·
-a day ago
+2 days ago
  ·
 Reply
 1
 The split between draft quality and what happens after sending is probably the thing I’d want to follow as the data builds. Could be useful to compare notes over email sometime, if you’re open to it.
 Aryan Sinh
 ·
-a day ago
+2 days ago
  ·
 Reply
 1
@@ -85,14 +85,14 @@ Absolutely!
 The thing is, Linkedin doesn't like automations or 3rd party apps, so ProudSend doesn't ask you to authenticate with linkedin at all, so we can't know what happens next.
 Petar Risteski
 ·
-a day ago
+2 days ago
  ·
 Reply
 1
 Makes sense. Email probably makes more sense for this one — what’s easiest on your side?
 Aryan Sinh
 ·
-a day ago
+2 days ago
  ·
 Reply
 1
@@ -107,7 +107,7 @@ Thanks! I’ve just sent it over.
 Looking forward to hearing your thoughts whenever you have a chance.
 Aryan Sinh
 ·
-21 hours ago
+a day ago
  ·
 Reply
 About

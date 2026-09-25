@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49712276"
 project_url: "https://github.com/ordewell/ordewell"
 author: "ac-ciano"
 published_at: "2026-09-15T13:31:37Z"
-captured_at: "2026-09-25T00:15:58+08:00"
+captured_at: "2026-09-25T13:54:53+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,7 +21,7 @@ tags:
   - story_49712276
   - show_hn
 metrics: {"points": 54, "comments": 34, "engagement_velocity": 54}
-comments_count: 29
+comments_count: 30
 comments_total: 34
 discovered_via: "hn:show_hn:90d"
 ---
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=54 · 评论=34 · engagement_velocity=54
 > 作者：ac-ciano　|　发布：2026-09-15T13:31:37Z
 > 项目链接：<https://github.com/ordewell/ordewell>
-> 采集：2026-09-25T00:15:58+08:00　|　id：`47c6b23ea2c1601d`
+> 采集：2026-09-25T13:54:53+08:00　|　id：`47c6b23ea2c1601d`
 
 ## 正文
 
@@ -371,7 +371,7 @@ New to the codebase? CONTEXT.md is the domain glossary and docs/adr/ records why
 
 Licensed under the Apache License 2.0. The Ordewell name and logos are not covered by that licence — see NOTICE.
 
-## 评论（29/34）
+## 评论（30/34）
 
 > **ramon156** · 2026-09-15T14:24:19.000Z　
 > i would love a deterministic program that can confidently make plans for lower-cost models like deepseek. ofcourse the LLM part wont be deterministic, but its a lot easier to measure quality like this. you could argue an AGENTS.md is this, but from experience its not enough to make non-frontiers act have a high success rate.
@@ -454,6 +454,11 @@ Licensed under the Apache License 2.0. The Ordewell name and logos are not cover
 > I like your analogy. The main problem though is context and keeping it clean as much as possible as long a parallelization. This is what drove to build this tool: having control of everything that the LLMs will do, controlling all with one main planner that orchestrates the rest. This way we can have cheaper LLMs with a short context window used (less intelligence degradation) while still obtaining the same objective.
 > And again, you can have a clear picture of everything structured as tasks.
 > until we can get to rely on huge swarms of agents (tasks) being directed on the planner alone I don't see how we can get a better framework.
+
+---
+
+> **TheRealCoolGuy** · 2026-09-24T16:31:57.000Z　
+> A bit off-topic, but do I find it remarkable how often the best code solutions come from people with GitHub handles like "Dicklesworth."
 
 ---
 

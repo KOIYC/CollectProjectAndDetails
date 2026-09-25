@@ -1,33 +1,33 @@
 {
-  "generated": "2026-09-25T00:29:50+08:00",
-  "n_live": 1886,
-  "n_usable": 1660,
-  "n_project": 1473,
-  "signals": 48,
+  "generated": "2026-09-25T14:07:28+08:00",
+  "n_live": 1962,
+  "n_usable": 1733,
+  "n_project": 1538,
+  "signals": 49,
   "topics": [
     [
       "AI 工具/Agent",
-      1045
+      1092
     ],
     [
       "开发者工具",
-      363
+      378
     ],
     [
       "未分类",
-      123
+      130
     ],
     [
       "游戏",
-      46
+      47
     ],
     [
       "移动 App",
-      32
+      33
     ],
     [
       "SaaS/B2B",
-      21
+      23
     ],
     [
       "内容/媒体",
@@ -54,11 +54,12 @@
     {
       "key": "host:store.steampowered.com",
       "channels": [
+        "bilibili",
         "exa_discovery",
         "hn_show",
         "reddit"
       ],
-      "n_channels": 3,
+      "n_channels": 4,
       "title": "10 Months, 24K Wishlists, and then we got an email from Telltale (Part IV of our gamedev journey)",
       "url": "https://store.steampowered.com/app/3564990/Vales\\_Echo",
       "metrics": {
@@ -84,6 +85,19 @@
       }
     },
     {
+      "key": "host:v2ex.com",
+      "channels": [
+        "c1c7",
+        "v2ex"
+      ],
+      "n_channels": 2,
+      "title": "讨论一下在手机上编程是不是伪需求",
+      "url": "https://www.v2ex.com/t/1241482",
+      "metrics": {
+        "replies": 1
+      }
+    },
+    {
       "key": "host:indiehackers.com",
       "channels": [
         "exa_discovery",
@@ -104,9 +118,9 @@
       "title": "mizorewww/laya-mlx",
       "url": "https://pypi.org/project/laya-mlx",
       "metrics": {
-        "stars": 6166,
-        "forks": 473,
-        "open_issues": 16
+        "stars": 6248,
+        "forks": 483,
+        "open_issues": 17
       }
     },
     {
@@ -140,8 +154,8 @@
       }
     }
   ],
-  "money_signal_n": 786,
-  "money_evidence_n": 281,
+  "money_signal_n": 817,
+  "money_evidence_n": 286,
   "money_quotes": [
     {
       "source": "betalist",
@@ -217,25 +231,32 @@
     }
   ],
   "pain_n": {
-    "当前方案不好用": 58,
-    "做不出来/卡住": 82,
-    "愿意付钱": 45,
-    "在找替代品": 41,
-    "想要而找不到": 5
+    "当前方案不好用": 60,
+    "在找替代品": 43,
+    "做不出来/卡住": 85,
+    "愿意付钱": 46,
+    "想要而找不到": 6
   },
   "by_channel": [
     {
       "id": "betalist",
       "profile": "linkpost",
-      "n": 78,
-      "ok": 78,
+      "n": 88,
+      "ok": 88,
       "rate": 1.0
     },
     {
       "id": "devto",
       "profile": "discussion",
-      "n": 8,
-      "ok": 8,
+      "n": 9,
+      "ok": 9,
+      "rate": 1.0
+    },
+    {
+      "id": "indiehackers",
+      "profile": "linkpost",
+      "n": 76,
+      "ok": 76,
       "rate": 1.0
     },
     {
@@ -248,37 +269,30 @@
     {
       "id": "producthunt",
       "profile": "linkpost",
-      "n": 121,
-      "ok": 120,
-      "rate": 0.9917355371900827
-    },
-    {
-      "id": "indiehackers",
-      "profile": "linkpost",
-      "n": 75,
-      "ok": 74,
-      "rate": 0.9866666666666667
+      "n": 127,
+      "ok": 126,
+      "rate": 0.9921259842519685
     },
     {
       "id": "bilibili",
       "profile": "metadata",
-      "n": 48,
-      "ok": 46,
-      "rate": 0.9583333333333334
+      "n": 49,
+      "ok": 47,
+      "rate": 0.9591836734693877
     },
     {
       "id": "hn_show",
       "profile": "discussion",
-      "n": 1120,
-      "ok": 1052,
-      "rate": 0.9392857142857143
+      "n": 1160,
+      "ok": 1093,
+      "rate": 0.9422413793103448
     },
     {
       "id": "v2ex",
       "profile": "discussion",
       "n": 51,
-      "ok": 38,
-      "rate": 0.7450980392156863
+      "ok": 39,
+      "rate": 0.7647058823529411
     },
     {
       "id": "github_new",
@@ -286,6 +300,13 @@
       "n": 64,
       "ok": 47,
       "rate": 0.734375
+    },
+    {
+      "id": "c1c7",
+      "profile": "project",
+      "n": 7,
+      "ok": 5,
+      "rate": 0.7142857142857143
     },
     {
       "id": "exa_discovery",
@@ -297,17 +318,10 @@
     {
       "id": "reddit",
       "profile": "discussion",
-      "n": 296,
-      "ok": 182,
-      "rate": 0.6148648648648649
-    },
-    {
-      "id": "c1c7",
-      "profile": "project",
-      "n": 7,
-      "ok": 2,
-      "rate": 0.2857142857142857
+      "n": 313,
+      "ok": 190,
+      "rate": 0.6070287539936102
     }
   ],
-  "body_median": 2116.5
+  "body_median": 2090
 }

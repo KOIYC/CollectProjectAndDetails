@@ -2,7 +2,7 @@
 type: "project"
 title: "Accounting Equation Calculator"
 project_url: "https://www.indiehackers.com/product/accounting-equation-calculator"
-first_seen: "2026-09-25T00:00:28+08:00"
+first_seen: "2026-09-25T13:45:40+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://www.indiehackers.com/product/accounting-equation-calculator>
-> 首次收录：2026-09-25T00:00:28+08:00
+> 首次收录：2026-09-25T13:45:40+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -28,6 +28,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-25T00:00:28+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/fcfa2cb0861f9f2b_Accounting-Equation-Calculator]] |
+| 2026-09-25T13:45:40+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/fcfa2cb0861f9f2b_Accounting-Equation-Calculator]] |
 
 ## 摘要正文
 

@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-25T14:04:04+08:00",
+  "kind": "corpus_remnant",
+  "note": "同名 item 多份语料的改名残留清理；undo 需把 from 从 git 历史恢复",
+  "removed": [
+    {
+      "item_id": "5d9f1878aacdaf5b",
+      "from": "20-语料/posts/bilibili/2026-09-24/5d9f1878aacdaf5b_零基础入行!聊聊我的鸿蒙-App-7TIMERS-开发历程.md",
+      "kept": "20-语料/posts/bilibili/2026-09-24/5d9f1878aacdaf5b_手机能戒手机瘾-自己开发鸿蒙应用两年后复盘!.md"
+    }
+  ],
+  "skipped": [],
+  "unknown": [],
+  "archived_coexist": []
+}

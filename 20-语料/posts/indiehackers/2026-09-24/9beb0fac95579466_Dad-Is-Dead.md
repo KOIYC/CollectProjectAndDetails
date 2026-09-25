@@ -5,7 +5,7 @@ title: "Dad Is Dead"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/dad-is-dead"
-captured_at: "2026-09-25T00:00:28+08:00"
+captured_at: "2026-09-25T13:45:40+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-25T00:00:28+08:00　|　id：`9beb0fac95579466`
+> 采集：2026-09-25T13:45:40+08:00　|　id：`9beb0fac95579466`
 
 ## 正文
 
@@ -58,21 +58,21 @@ Post Comment
 When people describe managing a loved one's affairs, what recurring problem creates the strongest urgency—discovering accounts, gaining access, or coordinating responsibility before something happens?
 Aryan Sinh
 ·
-a day ago
+2 days ago
  ·
 Reply
 1
 Honestly, from the conversations I've had, it's coordinating responsibility before something happens — specifically, nobody had agreed in advance on who should act and when. Discovering accounts and gaining access were real pain, but people described those as solvable-with-enough-time problems. The "nobody decided who's supposed to do this, or when" part is what caused actual paralysis. That's basically the bet the whole product is built on — solve the trigger/coordination problem first, and the access/discovery problem gets a lot more tractable once someone's actually been designated and notified.
 AgeeBgee Solutions
 ·
-a day ago
+2 days ago
  ·
 Reply
 1
 That coordination problem is sharper than the access problem. Could be useful to dig into that a bit more by email sometime.
 Aryan Sinh
 ·
-a day ago
+2 days ago
  ·
 Reply
 About

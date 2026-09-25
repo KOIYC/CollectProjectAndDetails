@@ -8,7 +8,7 @@ url: "https://github.com/Gingiris/gingiris-launch"
 project_url: "https://skills.sh/Gingiris/gingiris-launch"
 author: "Gingiris"
 published_at: "2026-03-05T09:50:48Z"
-captured_at: "2026-09-25T00:12:57+08:00"
+captured_at: "2026-09-25T13:54:34+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -35,7 +35,7 @@ discovered_via: "github:14d"
 > 指标：stars=208 · forks=29 · open_issues=2
 > 作者：Gingiris　|　发布：2026-03-05T09:50:48Z
 > 项目链接：<https://skills.sh/Gingiris/gingiris-launch>
-> 采集：2026-09-25T00:12:57+08:00　|　id：`ab56183769a3cfcb`
+> 采集：2026-09-25T13:54:34+08:00　|　id：`ab56183769a3cfcb`
 
 ## 正文
 

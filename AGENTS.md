@@ -60,7 +60,7 @@
 | `kb_reclassify.py` | 按需 | 实体订正 / 孤儿页合并 / frontmatter 自愈 / 补 project_url |
 | `kb_insight.py` | 每周/大增时 | 洞察报告；`--browse` 重生成入口页（首屏=意图路由） |
 | `kb_moc.py` | 结构变更后/每周 | 三张 MOC：项目地图 / 归档与申诉 / 报告总览 |
-| `kb_navfix.py` | 结构变更后/按需 | 补 topic/shard/pub_day/导航段；`--fix-links`；`--fix-names`（均幂等） |
+| `kb_navfix.py` | 结构变更后/按需 | 补 topic/shard/pub_day/导航段；`--fix-links`；`--fix-names`；`--fix-note-paths`（盘↔账路径脱节）；`--fix-note-remnants`（同 item 多份语料的改名残留，① 差 1 的常见成因）（均幂等） |
 | `kb_name_audit.py` | 命名改动后/每周 | 命名与框架审计（只读），要求**全部通过** |
 | `kb_healthcheck.py` | 任何改动后 | **九项不变量**自检（①-⑤硬门 + ⑥⑦⑧⑨软门），收工门；⑤ 含「磁盘 ↔ 账本」双向差集（孤儿页 / 幽灵账）；⑨ 单渠道**存量**占比（门槛 ≤50%，与运行日志的当日新增口径是两回事） |
 
