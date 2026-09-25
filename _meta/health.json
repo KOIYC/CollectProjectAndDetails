@@ -1,38 +1,405 @@
 {
- "checked_at": "2026-09-24T23:49:09+08:00",
+ "checked_at": "2026-09-25T00:46:48+08:00",
  "channels": [
+  {
+   "channel_id": "hn_show",
+   "name": "HN Show HN",
+   "adapter": "hn_show",
+   "auth": "none",
+   "group": "海外发布",
+   "status": "ok",
+   "count": 3,
+   "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
+   "elapsed_s": 3.2,
+   "probe_at": "2026-09-25T00:41:31+08:00",
+   "sample": [
+    {
+     "title": "Show HN: Vigil Icons – 111 free icons for what people accuse each other of",
+     "url": "https://news.ycombinator.com/item?id=49832773"
+    },
+    {
+     "title": "Show HN: Timebar, a Mac timer shown as a thin line below the menu bar",
+     "url": "https://news.ycombinator.com/item?id=49832470"
+    }
+   ]
+  },
   {
    "channel_id": "reddit",
    "name": "Reddit 独立开发版块",
    "adapter": "reddit_arctic",
    "auth": "none",
    "group": "海外社区",
-   "status": "empty",
+   "status": "ok",
+   "count": 3,
+   "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
+   "elapsed_s": 28.4,
+   "probe_at": "2026-09-25T00:42:00+08:00",
+   "sample": [
+    {
+     "title": "I'm so close, I can see the light!",
+     "url": "https://www.reddit.com/r/IndieDev/comments/1wg7bak/im_so_close_i_can_see_the_light/"
+    },
+    {
+     "title": "Started creating a snow map for War Wolves, how's it looking?",
+     "url": "https://www.reddit.com/r/IndieDev/comments/1wg6uyi/started_creating_a_snow_map_for_war_wolves_hows/"
+    }
+   ]
+  },
+  {
+   "channel_id": "github_new",
+   "name": "GitHub 新星仓库",
+   "adapter": "github_new",
+   "auth": "cli",
+   "group": "海外发布",
+   "status": "ok",
+   "count": 3,
+   "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
+   "elapsed_s": 19.0,
+   "probe_at": "2026-09-25T00:42:19+08:00",
+   "sample": [
+    {
+     "title": "NandhaKishorM/laya",
+     "url": "https://github.com/NandhaKishorM/laya"
+    },
+    {
+     "title": "browser-use/jev-ultrafast",
+     "url": "https://github.com/browser-use/jev-ultrafast"
+    }
+   ]
+  },
+  {
+   "channel_id": "betalist",
+   "name": "BetaList",
+   "adapter": "betalist",
+   "auth": "none",
+   "group": "海外发布站",
+   "status": "ok",
+   "count": 3,
+   "message": "3 startups · 发布日 3/3",
+   "elapsed_s": 11.1,
+   "probe_at": "2026-09-25T00:42:30+08:00",
+   "sample": [
+    {
+     "title": "Tartelo",
+     "url": "https://betalist.com/startups/tartelo"
+    },
+    {
+     "title": "Captureagent",
+     "url": "https://betalist.com/startups/captureagent"
+    }
+   ]
+  },
+  {
+   "channel_id": "indiehackers",
+   "name": "Indie Hackers 产品库",
+   "adapter": "ih_products",
+   "auth": "none",
+   "group": "海外发布站",
+   "status": "ok",
+   "count": 3,
+   "message": "22 products",
+   "elapsed_s": 6.3,
+   "probe_at": "2026-09-25T00:42:36+08:00",
+   "sample": [
+    {
+     "title": "Plavtora",
+     "url": "https://www.indiehackers.com/product/plavtora"
+    },
+    {
+     "title": "Apogee Watcher",
+     "url": "https://www.indiehackers.com/product/apogee-watcher"
+    }
+   ]
+  },
+  {
+   "channel_id": "devto",
+   "name": "dev.to",
+   "adapter": "devto",
+   "auth": "none",
+   "group": "海外社区",
+   "status": "ok",
+   "count": 3,
+   "message": "3 articles",
+   "elapsed_s": 1.4,
+   "probe_at": "2026-09-25T00:42:37+08:00",
+   "sample": [
+    {
+     "title": "Show Me the Article You're Most Proud Of And I'll Read Every Single One of Them",
+     "url": "https://dev.to/georgekobaidze/show-me-the-article-youre-most-proud-of-and-ill-read-every-single-one-of-them-1l53"
+    },
+    {
+     "title": "i built a green blob that lives on my desktop. now it has feelings.",
+     "url": "https://dev.to/mikachu/i-built-a-green-blob-that-lives-on-my-desktop-and-now-it-has-feelings-4pjd"
+    }
+   ]
+  },
+  {
+   "channel_id": "producthunt",
+   "name": "Product Hunt",
+   "adapter": "rss_atom",
+   "auth": "none",
+   "group": "海外发布站",
+   "status": "ok",
+   "count": 3,
+   "message": "3 entries",
+   "elapsed_s": 1.1,
+   "probe_at": "2026-09-25T00:42:39+08:00",
+   "sample": [
+    {
+     "title": "Bitrise Build Hub",
+     "url": "https://www.producthunt.com/products/bitrise"
+    },
+    {
+     "title": "minimi 2.0",
+     "url": "https://www.producthunt.com/products/shram"
+    }
+   ]
+  },
+  {
+   "channel_id": "v2ex",
+   "name": "V2EX",
+   "adapter": "sov2ex",
+   "auth": "none",
+   "group": "中文社区",
+   "status": "ok",
+   "count": 3,
+   "message": "20 topics",
+   "elapsed_s": 0.8,
+   "probe_at": "2026-09-25T00:42:39+08:00",
+   "sample": [
+    {
+     "title": "新项目： OpenApp 开源了。",
+     "url": "https://www.v2ex.com/t/1244631"
+    },
+    {
+     "title": "用 Swift 原生写了一款把“休息”做成仪式的番茄钟：多屏毛玻璃幕布、0 联网纯离线沙盒、一次买断（文末送码）",
+     "url": "https://www.v2ex.com/t/1244621"
+    }
+   ]
+  },
+  {
+   "channel_id": "bilibili",
+   "name": "B 站",
+   "adapter": "bilibili",
+   "auth": "none",
+   "group": "中文社媒",
+   "status": "ok",
+   "count": 3,
+   "message": "9 videos",
+   "elapsed_s": 0.8,
+   "probe_at": "2026-09-25T00:42:40+08:00",
+   "sample": [
+    {
+     "title": "【27届Unity客户端求职】独立开发的多人在线FPS，公网内测功能演示",
+     "url": "https://www.bilibili.com/video/BV1Ggh662Ezy"
+    },
+    {
+     "title": "零基础入行！聊聊我的鸿蒙 App 7TIMERS 开发历程",
+     "url": "https://www.bilibili.com/video/BV1F9aw6oEgL"
+    }
+   ]
+  },
+  {
+   "channel_id": "c1c7",
+   "name": "1c7 中文独立开发者名录",
+   "adapter": "onec7",
+   "auth": "none",
+   "group": "中文名录",
+   "status": "ok",
+   "count": 3,
+   "message": "9 entries · 收录日 9",
+   "elapsed_s": 26.5,
+   "probe_at": "2026-09-25T00:43:07+08:00",
+   "sample": [
+    {
+     "title": "Indie Hacker",
+     "url": "https://www.indiehackers.com/"
+    },
+    {
+     "title": "Failory",
+     "url": "https://www.failory.com/"
+    }
+   ]
+  },
+  {
+   "channel_id": "exa_discovery",
+   "name": "Exa 全网语义发现",
+   "adapter": "exa_discovery",
+   "auth": "cli",
+   "group": "全网发现",
+   "status": "ok",
+   "count": 3,
+   "message": "8 results",
+   "elapsed_s": 32.0,
+   "probe_at": "2026-09-25T00:43:39+08:00",
+   "sample": [
+    {
+     "title": "\"Cosy Fantasy Farming Sim Dragon Shelter Takes Flight Today on PC!\" - Games Pres",
+     "url": "https://www.gamespress.com/Cosy-Fantasy-Farming-Sim-Dragon-Shelter-Takes-Flight-Today-on-PC"
+    },
+    {
+     "title": "CITADEL is Out Now! - CITADEL by Liam Atkinson",
+     "url": "https://l-atk.itch.io/citadel/devlog/1671994/citadel-is-out-now"
+    }
+   ]
+  },
+  {
+   "channel_id": "twitter",
+   "name": "X / Twitter",
+   "adapter": "opencli_social",
+   "auth": "browser",
+   "group": "海外社媒",
+   "status": "auth",
    "count": 0,
-   "message": "0 posts; ",
-   "elapsed_s": 2.0,
-   "probe_at": "2026-09-24T23:49:09+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: ok: false\nerror:\n  code: BROWSER_CONNECT\n  message",
+   "elapsed_s": 58.2,
+   "probe_at": "2026-09-25T00:44:37+08:00",
+   "sample": []
+  },
+  {
+   "channel_id": "xiaohongshu",
+   "name": "小红书",
+   "adapter": "opencli_social",
+   "auth": "browser",
+   "group": "中文社媒",
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: ok: false\nerror:\n  code: BROWSER_CONNECT\n  message: Browser ",
+   "elapsed_s": 51.6,
+   "probe_at": "2026-09-25T00:45:28+08:00",
    "sample": []
   }
  ],
- "backends": [],
+ "backends": [
+  {
+   "backend": "jina_reader",
+   "use": "通用网页正文",
+   "status": "unusable",
+   "declared": "ok",
+   "delta": true,
+   "message": "ERR: <urlopen error timed out>",
+   "elapsed_s": 20.5,
+   "probe_at": "2026-09-25T00:46:21+08:00"
+  },
+  {
+   "backend": "arctic_shift",
+   "use": "Reddit 取数",
+   "status": "ok",
+   "declared": null,
+   "delta": false,
+   "message": "1 rows",
+   "elapsed_s": 2.7,
+   "probe_at": "2026-09-25T00:46:24+08:00"
+  },
+  {
+   "backend": "exa_web_fetch",
+   "use": "通用网页正文后端",
+   "status": "unusable",
+   "declared": "warn",
+   "delta": false,
+   "message": "0 url 返回正文",
+   "elapsed_s": 19.7,
+   "probe_at": "2026-09-25T00:46:43+08:00"
+  },
+  {
+   "backend": "github_gh",
+   "use": "GitHub 取数 (gh CLI)",
+   "status": "ok",
+   "declared": "warn",
+   "delta": false,
+   "message": "remaining=5000",
+   "elapsed_s": 4.8,
+   "probe_at": "2026-09-25T00:46:48+08:00"
+  }
+ ],
  "summary": {
-  "total": 1,
-  "ok": 0,
-  "empty": 1,
+  "total": 13,
+  "ok": 11,
+  "empty": 0,
   "error": 0,
-  "auth": 0
+  "auth": 2
  },
  "decisions": [
   {
+   "channel_id": "hn_show",
+   "action": "keep",
+   "status": "ok"
+  },
+  {
    "channel_id": "reddit",
-   "action": "watch",
-   "status": "empty"
+   "action": "keep",
+   "status": "ok"
+  },
+  {
+   "channel_id": "github_new",
+   "action": "keep",
+   "status": "ok"
+  },
+  {
+   "channel_id": "betalist",
+   "action": "keep",
+   "status": "ok"
+  },
+  {
+   "channel_id": "indiehackers",
+   "action": "keep",
+   "status": "ok"
+  },
+  {
+   "channel_id": "devto",
+   "action": "keep",
+   "status": "ok"
+  },
+  {
+   "channel_id": "producthunt",
+   "action": "keep",
+   "status": "ok"
+  },
+  {
+   "channel_id": "v2ex",
+   "action": "keep",
+   "status": "ok"
+  },
+  {
+   "channel_id": "bilibili",
+   "action": "keep",
+   "status": "ok"
+  },
+  {
+   "channel_id": "c1c7",
+   "action": "keep",
+   "status": "ok"
+  },
+  {
+   "channel_id": "exa_discovery",
+   "action": "keep",
+   "status": "ok"
+  },
+  {
+   "channel_id": "twitter",
+   "action": "unlock",
+   "status": "auth"
+  },
+  {
+   "channel_id": "xiaohongshu",
+   "action": "unlock",
+   "status": "auth"
   }
  ],
  "agent_reach": {
-  "ok": false,
-  "checked_at": null
+  "ok": true,
+  "checked_at": "2026-09-25T00:46:00+08:00"
  },
- "deltas": []
+ "deltas": [
+  {
+   "backend": "jina_reader",
+   "use": "通用网页正文",
+   "status": "unusable",
+   "declared": "ok",
+   "delta": true,
+   "message": "ERR: <urlopen error timed out>",
+   "elapsed_s": 20.5,
+   "probe_at": "2026-09-25T00:46:21+08:00"
+  }
+ ]
 }

@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1wicv2d/i_spent_months_focused_on_building_before_i/"
 author: "Difficult_Stress_127"
 published_at: "2026-09-17T07:07:49+08:00"
-captured_at: "2026-09-22T13:15:13+08:00"
+captured_at: "2026-09-25T00:18:27+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,7 +18,7 @@ tags:
   - reddit
   - r/SaaS
 metrics: {"score": 3, "comments": 12, "upvote_ratio": 1}
-comments_count: 9
+comments_count: 11
 comments_total: 12
 discovered_via: "reddit:7d+settle3"
 ---
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=12 · 赞踩比=1
 > 作者：Difficult_Stress_127　|　发布：2026-09-17T07:07:49+08:00
 > 项目链接：—
-> 采集：2026-09-22T13:15:13+08:00　|　id：`71fee682a5350b1a`
+> 采集：2026-09-25T00:18:27+08:00　|　id：`71fee682a5350b1a`
 
 ## 正文
 
@@ -62,7 +62,7 @@ Curious if anyone else here had the same realization after building their first 
 
 If youre currently trying to solve the same distribution problem, just reach out to me and I’m happy to share notes, approach and help you grow. Especially if you’re a busy founder too, and want GTM on auto while you’re building.
 
-## 评论（9/12）
+## 评论（11/12）
 
 > **francksiduo**（1 分） · 2026-09-17T10:48:26+08:00　
 > Same trap here. spent weeks polishing onboarding while distribution sat at zero. what moved things was writing about the problem in public before the feature was even finished, forced me to explain it in plain words and that clarity fed back into the build too. distribution as an afterthought is the default failure mode, not the exception.
@@ -112,6 +112,16 @@ If youre currently trying to solve the same distribution problem, just reach out
 
 > **Sad_Dependent5255**（1 分） · 2026-09-17T19:06:20+08:00　
 > distribution is the real problem, especially in AI era. Everyone builds something but no one can actually distribute it i've the same problem but idk how can i achieve this.
+
+---
+
+> **Professional-Bag4386**（1 分） · 2026-09-23T06:25:20+08:00　
+> I fell into this same trap, the thing im trying to figure out is how early you start distributing
+
+---
+
+> **Amazing-Arm-2681**（1 分） · 2026-09-24T01:43:14+08:00　
+> Distribution has a funny way of becoming urgent the minute the product finally feels ready :) I’m Natalia, building https://InboxVox.com. It connects existing work mailboxes to other systems, gets data from inbound and sent emails, and passes it on in structured form; having both sides of customer conversations lets a founder bring that context into the CRM and use it to see which distribution messages are actually landing
 
 ## 导航
 

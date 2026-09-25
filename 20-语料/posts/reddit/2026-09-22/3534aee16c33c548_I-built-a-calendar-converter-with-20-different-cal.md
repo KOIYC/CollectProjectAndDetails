@@ -11,7 +11,7 @@ published_at: "2026-09-19T12:43:27+08:00"
 captured_at: "2026-09-22T12:54:24+08:00"
 lang: "en"
 kind: "post"
-topic: "移动 App"
+topic: 开发者工具
 shard: "2026-09-22"
 pub_day: "2026-09-19"
 tags:
@@ -63,5 +63,5 @@ https://play.google.com/store/apps/details?id=app.engelsma.almaniac
 
 - 项目页：[[10-项目/v.redd.it_88bb1e8b]]
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`移动 App`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

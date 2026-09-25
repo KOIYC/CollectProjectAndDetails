@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/SaaS/comments/1wi3b9a/i_made_88k_with_my_saas_as_
 project_url: "https://getle.ad/"
 author: "adgrow"
 published_at: "2026-09-17T01:10:48+08:00"
-captured_at: "2026-09-22T13:13:29+08:00"
+captured_at: "2026-09-25T00:16:12+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -19,7 +19,7 @@ tags:
   - reddit
   - r/SaaS
 metrics: {"score": 50, "comments": 40, "upvote_ratio": 0.8}
-comments_count: 37
+comments_count: 39
 comments_total: 40
 discovered_via: "reddit:7d+settle3"
 ---
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=50 · 评论=40 · 赞踩比=0.8
 > 作者：adgrow　|　发布：2026-09-17T01:10:48+08:00
 > 项目链接：<https://getle.ad/>
-> 采集：2026-09-22T13:13:29+08:00　|　id：`9fd77305a44d280c`
+> 采集：2026-09-25T00:16:12+08:00　|　id：`9fd77305a44d280c`
 
 ## 正文
 
@@ -61,7 +61,7 @@ Happy to break down what actually worked, what failed, and where the $88K came f
 
 [](https://www.reddit.com/submit/?source_id=t3_1whbf04&composer_entry=crosspost_prompt)
 
-## 评论（37/40）
+## 评论（39/40）
 
 > **Infamous-Can3240**（1 分） · 2026-09-17T01:18:33+08:00　
 > Firstly, congrats! So what distribution channel works for you?
@@ -268,6 +268,16 @@ Happy to break down what actually worked, what failed, and where the $88K came f
 
 > **SeaPsychological4022**（1 分） · 2026-09-20T20:07:46+08:00　
 > 想请教下，你是如何选品，验证产品的
+
+---
+
+> **haryochaak**（1 分） · 2026-09-23T02:01:16+08:00　
+> I don't think its a wise decision for him to answer that lol
+
+---
+
+> **provenklvn**（1 分） · 2026-09-23T08:53:45+08:00　
+> What cold outreach you do, email or dm? How do you get the qualified leads?
 
 ## 关联链接
 

@@ -5,7 +5,7 @@ title: "Verbal Ai"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/verbal-ai"
-captured_at: "2026-09-22T12:57:04+08:00"
+captured_at: "2026-09-25T00:00:28+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -22,7 +22,7 @@ discovered_via: "ih:products"
 # Verbal Ai
 
 > [!info] 一句话导读
-> Home Starting Up Case Studies DB Products Ideas DB Subscribe to IH+
+> Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+
 
 > [!meta]- 语料信息（点开展开）
 > 来源：Indie Hackers 产品库（project）
@@ -30,11 +30,11 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-22T12:57:04+08:00　|　id：`def76c8f9ea96edc`
+> 采集：2026-09-25T00:00:28+08:00　|　id：`def76c8f9ea96edc`
 
 ## 正文
 
-Home Starting Up Case Studies DB Products Ideas DB Subscribe to IH+
+Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+
 Starting Up Case Studies
  Ideas DB Products DB Sign in Join
 Verbal AI
@@ -52,8 +52,17 @@ We’re two friends building Verbal AI after realizing how difficult it can be t
  The idea is simple: practice the conversation before it actually matters.
  We’re still early and building the first version, so we’d love feedback from the Indie Hackers community. Our waitlist is now open for anyone interested in trying Verbal when we launch.
 VerbalAI
-3 Likes
-Comment
+4 Likes
+1 Comment
+Say something nice…
+Post Comment
+1
+Interview practice and sales preparation involve different buying triggers—have early conversations revealed which audience has the stronger urgency to practice before a real outcome matters?
+Aryan Sinh
+·
+2 days ago
+ ·
+Reply
 About
  We’re building Verbal to help people practice important conversations before they happen.
  People

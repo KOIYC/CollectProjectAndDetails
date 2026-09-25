@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=48340315"
 project_url: "https://github.com/marekkowalczyk/breathe-cli"
 author: "marekkowalczyk"
 published_at: "2026-05-30T20:30:53Z"
-captured_at: "2026-09-22T13:13:19+08:00"
+captured_at: "2026-09-25T00:16:05+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:144d"
 > 指标：点赞=132 · 评论=55 · engagement_velocity=132
 > 作者：marekkowalczyk　|　发布：2026-05-30T20:30:53Z
 > 项目链接：<https://github.com/marekkowalczyk/breathe-cli>
-> 采集：2026-09-22T13:13:19+08:00　|　id：`a19edfb034532d17`
+> 采集：2026-09-25T00:16:05+08:00　|　id：`a19edfb034532d17`
 
 ## 正文
 

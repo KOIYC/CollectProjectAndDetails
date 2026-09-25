@@ -496,7 +496,15 @@ def _live_stems() -> set[str]:
     规则生成的，天然同源，覆盖绝大多数条目。
 
     来源②（规范名重算）：按 `project_note_path / person_note_path` 对在库条目重算一遍，
-    判据与 `kb_healthcheck.py` 的 ② 完全一致。
+    判据与 `kb_healthcheck.py` 的 ② 一致（同用 `is_project_ish`）。
+
+    2026-09-24 实测订正：**记录来源不同，所以本函数的结果是 ② 的超集，不是等集**。
+      `load_items()` 对同一 id 取「**正文最长**」的那条；healthcheck ② 走
+      `kb_analyze.latest_by_item()` 取「**captured_at 最新**」的那条 ——
+      `record_type=repair` 的记录常带 `project_url=None`，于是同一条目在两处算出**不同的页名**
+      （实测 1716 vs ② 的 1625；共 67 条最新记录丢了仍能从历史取到的 project_url）。
+      超集方向是**安全**的（少打 stale、少搬家），所以此处**不改判据**，只把差异记清楚 ——
+      别照着「与 ② 一致」这句话去把本函数改成 ② 的取数口，那会让在库页被打上 stale。
 
     为什么必须加来源②（2026-09-21 实测级联伤）：
       `kb_reclassify --merge-orphans` 合并孤儿页时**只删旧页、不改写链接**，语料导航段

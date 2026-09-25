@@ -8,10 +8,10 @@ url: "https://www.reddit.com/r/SideProject/comments/1wic69p/their_first_typing_a
 project_url: "https://theirfirstwords.org/typing"
 author: "TheirFirstWords"
 published_at: "2026-09-17T06:38:50+08:00"
-captured_at: "2026-09-22T13:15:02+08:00"
+captured_at: "2026-09-25T00:18:06+08:00"
 lang: "en"
 kind: "post"
-topic: "教育/学习"
+topic: 开发者工具
 shard: "2026-09-21"
 pub_day: "2026-09-17"
 tags:
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=5 · 赞踩比=1
 > 作者：TheirFirstWords　|　发布：2026-09-17T06:38:50+08:00
 > 项目链接：<https://theirfirstwords.org/typing>
-> 采集：2026-09-22T13:15:02+08:00　|　id：`240b129e797cf041`
+> 采集：2026-09-25T00:18:06+08:00　|　id：`240b129e797cf041`
 
 ## 正文
 
@@ -70,5 +70,5 @@ Website: [https://theirfirstwords.org/typing/](https://theirfirstwords.org/typin
 
 - 项目页：[[10-项目/theirfirstwords.org_8cf93c04]]
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`教育/学习`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

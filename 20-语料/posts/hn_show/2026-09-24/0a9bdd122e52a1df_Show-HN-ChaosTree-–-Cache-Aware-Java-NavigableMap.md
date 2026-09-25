@@ -1,0 +1,412 @@
+---
+type: "corpus"
+item_id: "0a9bdd122e52a1df"
+title: "Show HN: ChaosTree – Cache-Aware Java NavigableMap and NavigableSet Library"
+source: "hn_show"
+source_name: "HN Show HN"
+url: "https://news.ycombinator.com/item?id=49824910"
+project_url: "https://github.com/Chaos-vy/ChaosTree"
+author: "chaos_vy"
+published_at: "2026-09-24T01:07:30Z"
+captured_at: "2026-09-24T23:57:22+08:00"
+lang: "en"
+kind: "post"
+topic: "AI 工具/Agent"
+shard: "2026-09-24"
+pub_day: "2026-09-24"
+tags:
+  - 语料
+  - hn_show
+  - author_chaos_vy
+  - story_49824910
+  - show_hn
+metrics: {"points": 2, "comments": 1, "engagement_velocity": 2}
+comments_count: 1
+comments_total: 1
+discovered_via: "hn:show_hn:3d"
+---
+
+# Show HN: ChaosTree – Cache-Aware Java NavigableMap and NavigableSet Library
+
+> [!info] 一句话导读
+> Zero-dependency Java search tree library featuring binary and N-ary families with JMH benchmarks and hardware-counter-backed performance evidence.
+
+> [!meta]- 语料信息（点开展开）
+> 来源：HN Show HN（post）
+> 原帖：<https://news.ycombinator.com/item?id=49824910>
+> 指标：点赞=2 · 评论=1 · engagement_velocity=2
+> 作者：chaos_vy　|　发布：2026-09-24T01:07:30Z
+> 项目链接：<https://github.com/Chaos-vy/ChaosTree>
+> 采集：2026-09-24T23:57:22+08:00　|　id：`0a9bdd122e52a1df`
+
+## 正文
+
+# Chaos-vy/ChaosTree
+
+Zero-dependency Java search tree library featuring binary and N-ary families with JMH benchmarks and hardware-counter-backed performance evidence.
+
+- Stars: 2
+- Forks: 0
+- Watchers: 2
+- Open issues: 1
+- License: Apache License 2.0
+- Homepage: https://chaos-vy.github.io/ChaosTree/
+- Default branch: main
+- Created: 2026-05-17T07:47:23Z
+
+## Languages
+
+- Java
+
+## Topics
+
+- avl-tree
+- binary-search-tree
+- bplus-tree
+- btree
+- collections
+- data-structures
+- java
+- jmh-benchmark
+- maven
+- performance
+- red-black-tree
+- searchtree
+- splay-tree
+- treap
+
+## Top Contributors
+
+- Chaos-vy (150 contributions)
+
+---
+
+## README
+
+Maven Central
+GitHub release
+License
+
+# 🌳 ChaosTree: A Fast, No-Nonsense Java Search Tree Library
+
+**ChaosTree** is a highly optimized in-memory search tree library for Java.
+
+I built ChaosTree because I wanted to see what happens when you take textbook data structures and optimize them for real-world JVM memory and CPU caches. It includes both classic Binary Trees (AVL, RBT, etc.) and cache-friendly N-ary Trees (B-Tree, B+ Tree).
+
+---
+## Installation
+
+> **Note:** ChaosTree is actively maintained. For upcoming patch releases, known fixes, and the current release status, see STATUS.md.
+
+#### Latest Stable Release: v1.0.1
+### Maven
+
+```xml
+<dependency>
+    <groupId>io.github.chaos-vy</groupId>
+    <artifactId>chaos-tree</artifactId>
+    <version>1.0.1</version>
+</dependency>
+```
+
+### Gradle (Kotlin)
+
+```kotlin
+implementation("io.github.chaos-vy:chaos-tree:1.0.1")
+```
+
+### Gradle (Groovy)
+
+```groovy
+implementation 'io.github.chaos-vy:chaos-tree:1.0.1'
+```
+## ☕ Requirements
+
+- Minimum JDK: 17
+- Recommended JDK: 17+
+- Build Tool: Maven 3.8+
+
+* ChaosTree is compiled using `--release 17`.
+* Compatibility testing is performed on JDK 17, JDK 21, and JDK 26 to verify consistent behavior across modern Java runtimes.
+* Performance benchmarks are executed on JDK 21.
+
+---
+
+## 🚀 Quick Start: Modern API Usage
+
+ChaosTree provides a rich, modern, Java Collections-style API. It completely encapsulates pointer arithmetic and exposes functional paradigms like Streams, Range Queries, and Priority Polling.
+
+### 1. Fast Range Scanning (N-ary Engine)
+
+By packing data tightly into arrays, the N-ary trees are extremely friendly to your CPU's L1/L2 caches, making range queries really fast.
+```java
+// Create a B+ Tree (degree must be greater than 1)
+NaryTree<Integer> index = new BPlusTree<>(32);
+BPlusTree<List<Integer>> xyz = new BPlusTree<>(); //Default degree(t) = 32.
+index.insertAll(hugeDataset); //Huge dataset must be Iterable
+
+// Fast Range Extraction (O(log N) search + O(K) memory block copy)
+List<Integer> results = index.range(100, 500);
+
+// Modern Lazy Evaluation via Streams
+index.rangeStream(100, 500)
+     .filter(val -> val % 2 == 0)
+     .forEach(System.out::println);
+```
+
+### 2. Classic Binary Trees (Binary Engine)
+
+Great for everyday data storage, building priority queues, or when you just want a classic, fast binary tree.
+
+```java
+// Create a classic auto-balancing Red-Black Tree
+BinaryTree<String> tree0 = new RBT<>();
+tree0.insertAll(Arrays.asList("Chaos", "Tree", "Java", "Performance"));
+
+// Priority Queue Behaviors (O(log N) extraction)
+String smallest = tree0.pollMin(); 
+String largest = tree0.pollMax();
+
+// Deep Structural Traversals via Stream API
+tree0.stream(TraversalType.LEVEL_ORDER)
+    .forEach(System.out::println);
+````
+### Tree Visualization
+
+```java
+BinaryTree<String> tree = new RBT<>();
+tree.insertAll(List.of("Chaos", "java", "first", "library"));
+
+System.out.println(tree);
+```
+
+Output:
+
+```text
+first(B)
++-- Chaos(B)
+\-- java(B)
+    \-- library(R)
+```
+---
+## 🌟 Available Data Structures (v1.0.1)
+
+* **The Binary Family:** BST, AVL, RBT, Splay, Treap
+* **The N-ary Family:** BTree, BPlusTree
+
+---
+
+## ⚙️ Architecture & Design Choices
+
+### 1. Low Memory Footprint
+
+ChaosTree strictly routes data using `.compareTo()` and never relies on Object Identity (`==`). Unlike standard `ArrayList` implementations that pad extra capacity, the N-ary engine allocates exact-capacity `Object[]` backing arrays. This eliminates wrapper object overhead and packs data tightly.
+
+### 2. No Hidden ArrayList Overhead
+
+The N-ary engine uses exact-capacity `Object[]` storage and `System.arraycopy()` intrinsics, avoiding the spare-capacity growth strategy used by dynamic arrays.
+
+### 📈 Large-Scale Memory Stress Test
+
+**Environment:**
+* JDK 26
+* Ubuntu 26.04
+* -Xmx16g
+
+**Results:**
+
+* Binary Search Tree: ~357 million integer records before OOM
+* N-ary Tree (degree 100): ~695 million integer records before OOM
+* Under identical heap constraints, the N-ary engine demonstrated substantially higher storage density and scaled to nearly twice as many records before memory exhaustion.
+
+### 3. The B+ Tree routing Advantage
+
+The BPlusTree pushes all real data to a contiguous linked-list at the bottom layer. Internal nodes act primarily as routing structures, keeping the tree shallow and making large range scans incredibly smooth.
+
+---
+
+## 📊 Performance Benchmarks
+
+ChaosTree has been extensively profiled to understand how it interacts with modern CPU caches.
+### Test Environment:
+
+* **CPU:** Intel Core i5 13450HX (24GB DDR5)
+* **Java:** JDK 21
+* **Tooling:** JMH + LinuxPerfNormProfiler
+
+### 1. The N-ary Engine: Range Query Performance
+
+(Extracting 1,000,000 contiguous elements)
+
+| Implementation | Average Time |
+|----------------------|---------------|
+| B-Tree (Degree 128) | 352,218 ns/op |
+| B+ Tree (Degree 128) | 263,157 ns/op |
+
+The B+ Tree completed the benchmark approximately 25% faster.
+
+### Reason
+
+**Reduced Traversal Overhead**
+
+The B+ Tree performs range scans directly through its linked leaf layer, reducing the amount of tree traversal required during sequential access.
+
+**Improved Memory Locality**
+
+The linked-leaf structure improves cache locality and enables more effective hardware prefetching during large range scans.
+
+---
+
+## 2. The Binary Engine: Read Throughput & Point Queries
+
+(Random lookups across 100,000 elements)
+
+The binary trees in ChaosTree are tuned for fast lookups without sacrificing strict data guarantees.
+
+| Implementation | Average Time |
+|----------------|--------------|
+| **AVL** | 43 ns/op |
+| **RBT** | 46 ns/op |
+| **Treap** | 54 ns/op |
+| **BST** | 64 ns/op |
+| **Splay** | 686 ns/op |
+
+**ChaosTree RBT:** Provides Red-Black Tree balancing while storing user values directly within tree nodes, reducing per-element memory overhead compared to key-value entry based structures.
+
+**ChaosTree AVL:** Maintains a stricter balancing invariant than Red-Black Trees, yielding a lower theoretical maximum height (≈1.44 log₂N versus ≈2 log₂N). This can improve lookup performance in read-heavy workloads.
+
+### ChaosTree vs java.util.TreeMap
+
+When compared against the JDK's standard `TreeMap` (which is a Red-Black tree), my `BPlusTree` range scan at 1M elements completes in 263K ns/op vs TreeMap's traversal-based approach — approximately 25% faster due to leaf-chain locality, but since it doesn't wrap everything in heavy `Map.Entry` objects, it uses significantly less memory when you just need a Set.
+
+> Results are representative of the test environment described above and may vary across hardware, JVM versions, and workloads.
+
+### CPU Hardware Counters Reveal:
+
+**Instruction Pipeline:** The B+ Tree eliminates stack-traversal overhead, executing tens of thousands fewer CPU instructions per operation.
+
+**Hardware Pre-Fetching:** By riding the contiguous leaf linked-list, the CPU hardware pre-fetcher perfectly anticipates memory accesses, slashing memory load stalls by nearly 40%.
+
+(**Note:** Results shown are representative of the test environment above and may vary across JVM versions, hardware, and workloads).
+
+## 🛡️ Testing & Thread-Safety
+
+I wanted ChaosTree to be correct just as much as I wanted it to be fast. It is validated by a 585-test suite:
+
+**The Fuzz Test:** Trees are subjected to hundreds of thousands of completely randomized insertions, deletions, and sequential bursts to verify structure against a source-of-truth (`java.util.TreeSet`).
+
+**Strict Contracts:** Enforces fail-fast `ConcurrentModificationException` iterator semantics, exact size counting, and strict Null-Pointer guards.
+
+**Thread-Safety Validation:** Trees are stress-tested with 8 threads performing inserts, deletes, and lookups under external monitor synchronization to ensure correctness when wrapped in external locks. (Note: True fine-grained lock-free trees are on the roadmap!).
+
+---
+## 📚 Documentation
+
+Detailed design documents and architectural decisions are available in the `Docs/` directory.
+
+### Core Documentation
+
+| Document | Description |
+|------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| `Docs/Architecture.md` | High-level overview of ChaosTree's architecture, package organization, and design philosophy. |
+| `CONTRIBUTING.md` | For open source contribution and respective guidelines. |
+| `CHANGELOG.md` | Release history and notable changes across versions. |
+
+### Architecture Decision Records (ADR)
+
+The `Docs/ADR/` directory contains records explaining significant architectural and API decisions.
+
+Examples include:
+
+* Why the API is organized as `ITree → ISearchTree → BinaryTree / NaryTree`
+* Why internal node implementations are hidden behind JPMS boundaries
+* Why traversal APIs are exclusive to the Binary family
+* Why range-query operations belong to the common `ISearchTree` contract
+
+### Binary Family Documentation
+
+The `Docs/BinaryFamily/` directory contains implementation and usage details for:
+
+* BST
+* AVL
+* RBT
+* Treap
+* Splay
+
+Topics include balancing strategies, invariants, complexity guarantees, and implementation notes.
+
+### N-ary Family Documentation
+
+The `Docs/NaryFamily/` directory contains implementation and usage details for:
+
+* BTree
+* BPlusTree
+
+Topics include node splitting, merging, degree constraints, leaf-link traversal, and range-query behavior.
+
+### API Documentation
+
+Generated JavaDoc documentation is available with every release and provides complete API references for all public interfaces and implementations.
+
+---
+## 🗺️ Roadmap: The Future of ChaosTree
+
+ChaosTree is actively evolving to support advanced fine-grained, lock-free concurrency models.
+
+* **v1.0.1:** Foundational Binary and N-ary Search Trees. (Current)
+* **v1.1.0:** Concurrent Red-Black Tree
+* **v1.2.0:** Concurrent B+ Tree
+
+---
+
+## 📏 Codebase Metrics
+
+I believe in keeping the core engine clean, lean, and highly tested. Here is the exact breakdown of the ChaosTree v1.0.1 repository:
+
+| Module | Files | Blank | Comments | Code (LOC) |
+|----------------|-------|-------|----------|------------|
+| **Production** | 41 | 600 | 1,979 | **2,875** |
+| **Tests** | 28 | 431 | 98 | **1,698** |
+| **Benchmarks** | 17 | 196 | 92 | **1,003** |
+| **Total** | 86 | 1,227 | 2,169 | **5,576** |
+
+**Production Ratio (`(Tests + Benchmarks) : Production Code`):** `0.94 : 1`
+
+**DRY (Don't Repeat Yourself) Integrity:** `0 Violations` (At a strict 50-token / 10-line threshold, PMD CPD confirms zero lazy algorithmic copy-pasting. The only identified duplicates are structurally forced by JVM inheritance rules or intentionally unrolled for maximum L1 Cache/Branch Predictor mechanical sympathy).
+
+For every line of production logic I write, ChaosTree maintains nearly a full line of test and micro-architectural benchmark code.
+
+---
+
+### 📝 A Note from the Author
+
+## A Personal Note
+
+ChaosTree started as a personal exploration of data structures during the summer. One thing naturally led to another—linked lists to binary trees, binary trees to self-balancing trees, and eventually to B-Trees and B+ Trees. Somewhere along the way, it stopped being a collection of implementations and became a library.
+
+One moment that stayed with me was seeing an individual's name in the Java Collections documentation. It made me realize that libraries are built by people who simply decide to start somewhere.
+
+This is where I started.
+
+**— Vinay**
+
+## 评论（1/1）
+
+> **chaos_vy** · 2026-09-24T02:00:09.000Z　
+> Hello HN
+> These are some Benchmarks:
+> Read-heavy — https://chaos-vy.github.io/ChaosTree/benchmark/nary-read-hea...
+> Write-heavy — https://chaos-vy.github.io/ChaosTree/benchmark/nary-insert-h...
+> Mixed workload — https://chaos-vy.github.io/ChaosTree/benchmark/nary-mixed-wo...
+> Tail latency — https://chaos-vy.github.io/ChaosTree/benchmark/tail-latency....
+
+## 关联链接
+
+- https://chaos-vy.github.io/ChaosTree/
+
+## 导航
+
+- 项目页：[[10-项目/github.com_7e010b7f]]
+- 渠道页：[[50-渠道/hn_show]]
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 同渠道/同赛道批量浏览：[[浏览]]

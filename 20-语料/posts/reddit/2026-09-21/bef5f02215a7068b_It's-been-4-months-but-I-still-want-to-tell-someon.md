@@ -8,10 +8,10 @@ url: "https://www.reddit.com/r/IndieDev/comments/1ujt1ix/its_been_4_months_but_i
 project_url: "https://store.steampowered.com/app/4316940/The\\_Dice\\_Lodge"
 author: "Sly3055"
 published_at: "2026-06-30T23:53:06+08:00"
-captured_at: "2026-09-22T13:16:43+08:00"
+captured_at: "2026-09-25T00:18:57+08:00"
 lang: "en"
 kind: "post"
-topic: "开发者工具"
+topic: AI 工具/Agent
 shard: "2026-09-21"
 pub_day: "2026-06-30"
 tags:
@@ -36,7 +36,7 @@ discovered_via: "reddit:113d+settle3"
 > 指标：得分=19 · 评论=9 · 赞踩比=1
 > 作者：Sly3055　|　发布：2026-06-30T23:53:06+08:00
 > 项目链接：<https://store.steampowered.com/app/4316940/The\_Dice\_Lodge>
-> 采集：2026-09-22T13:16:43+08:00　|　id：`bef5f02215a7068b`
+> 采集：2026-09-25T00:18:57+08:00　|　id：`bef5f02215a7068b`
 
 ## 正文
 
@@ -111,5 +111,5 @@ https://store.steampowered.com/app/4316940/The\_Dice\_Lodge/
 
 - 项目页：[[10-项目/store.steampowered.com_340c4273]]
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

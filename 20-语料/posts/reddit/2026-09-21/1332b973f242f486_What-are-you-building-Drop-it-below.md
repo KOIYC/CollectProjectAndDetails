@@ -8,10 +8,10 @@ url: "https://www.reddit.com/r/buildinpublic/comments/1wi26jg/what_are_you_build
 project_url: "https://reoogle.com/"
 author: "Economy-Cupcake6148"
 published_at: "2026-09-17T00:30:40+08:00"
-captured_at: "2026-09-22T13:13:41+08:00"
+captured_at: "2026-09-25T00:17:21+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: AI 工具/Agent
 shard: "2026-09-21"
 pub_day: "2026-09-17"
 tags:
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=6 · 评论=47 · 赞踩比=1
 > 作者：Economy-Cupcake6148　|　发布：2026-09-17T00:30:40+08:00
 > 项目链接：<https://reoogle.com/>
-> 采集：2026-09-22T13:13:41+08:00　|　id：`1332b973f242f486`
+> 采集：2026-09-25T00:17:21+08:00　|　id：`1332b973f242f486`
 
 ## 正文
 
@@ -359,5 +359,5 @@ Your turn. Send the link, I'm curious about the website
 
 - 项目页：[[10-项目/reoogle.com_cab48bcd]]
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

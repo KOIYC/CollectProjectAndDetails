@@ -11,7 +11,7 @@ published_at: "2026-09-19T10:19:14+08:00"
 captured_at: "2026-09-22T12:54:46+08:00"
 lang: "en"
 kind: "post"
-topic: "游戏"
+topic: 开发者工具
 shard: "2026-09-22"
 pub_day: "2026-09-19"
 tags:
@@ -442,5 +442,5 @@ Steam Page for more info: [https://store.steampowered.com/app/4980180/Best\_View
 
 - 项目页：[[10-项目/v.redd.it_743868f7]]
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`游戏`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

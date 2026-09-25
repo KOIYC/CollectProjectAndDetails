@@ -11,7 +11,7 @@ published_at: "2026-09-19T09:22:49+08:00"
 captured_at: "2026-09-22T12:54:39+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: AI 工具/Agent
 shard: "2026-09-22"
 pub_day: "2026-09-19"
 tags:
@@ -65,5 +65,5 @@ discovered_via: "reddit:7d+settle3"
 
 - 项目页：[[10-项目/v.redd.it_d38ff4d7]]
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

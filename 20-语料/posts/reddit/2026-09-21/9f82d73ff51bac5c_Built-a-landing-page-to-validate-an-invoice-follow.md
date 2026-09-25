@@ -7,10 +7,10 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/microsaas/comments/1wibrwx/built_a_landing_page_to_validate_an_invoice/"
 author: "keggs1"
 published_at: "2026-09-17T06:22:00+08:00"
-captured_at: "2026-09-22T13:15:06+08:00"
+captured_at: "2026-09-25T00:18:13+08:00"
 lang: "en"
 kind: "post"
-topic: "开发者工具"
+topic: AI 工具/Agent
 shard: "2026-09-21"
 pub_day: "2026-09-17"
 tags:
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=15 · 赞踩比=0.8
 > 作者：keggs1　|　发布：2026-09-17T06:22:00+08:00
 > 项目链接：—
-> 采集：2026-09-22T13:15:06+08:00　|　id：`9f82d73ff51bac5c`
+> 采集：2026-09-25T00:18:13+08:00　|　id：`9f82d73ff51bac5c`
 
 ## 正文
 
@@ -125,5 +125,5 @@ Would love feedback from anyone who freelances: is this a real pain for you too,
 
 - 项目页：—（本条不是项目，按设计不建实体页）
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

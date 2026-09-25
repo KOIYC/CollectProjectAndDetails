@@ -1,33 +1,33 @@
 {
-  "generated": "2026-09-23T00:09:18+08:00",
-  "n_live": 1761,
-  "n_usable": 1541,
-  "n_project": 1366,
-  "signals": 43,
+  "generated": "2026-09-25T00:29:50+08:00",
+  "n_live": 1886,
+  "n_usable": 1660,
+  "n_project": 1473,
+  "signals": 48,
   "topics": [
     [
       "AI 工具/Agent",
-      974
+      1045
     ],
     [
       "开发者工具",
-      337
+      363
     ],
     [
       "未分类",
-      112
+      123
     ],
     [
       "游戏",
-      39
+      46
     ],
     [
       "移动 App",
-      30
+      32
     ],
     [
       "SaaS/B2B",
-      20
+      21
     ],
     [
       "内容/媒体",
@@ -39,7 +39,7 @@
     ],
     [
       "健康/生活",
-      4
+      5
     ],
     [
       "电商/独立站",
@@ -68,6 +68,22 @@
       }
     },
     {
+      "key": "host:apps.apple.com",
+      "channels": [
+        "hn_show",
+        "reddit",
+        "v2ex"
+      ],
+      "n_channels": 3,
+      "title": "Show HN: I made a Tamagotchi app that lets you add your real-life pets",
+      "url": "https://apps.apple.com/bg/app/boko-tamagotchi-virtual-pet/id6759446145",
+      "metrics": {
+        "points": 2,
+        "comments": 0,
+        "engagement_velocity": 2
+      }
+    },
+    {
       "key": "host:indiehackers.com",
       "channels": [
         "exa_discovery",
@@ -88,9 +104,9 @@
       "title": "mizorewww/laya-mlx",
       "url": "https://pypi.org/project/laya-mlx",
       "metrics": {
-        "stars": 4313,
-        "forks": 288,
-        "open_issues": 4
+        "stars": 6166,
+        "forks": 473,
+        "open_issues": 16
       }
     },
     {
@@ -109,21 +125,6 @@
       }
     },
     {
-      "key": "host:apps.apple.com",
-      "channels": [
-        "hn_show",
-        "reddit"
-      ],
-      "n_channels": 2,
-      "title": "Show HN: I made a Tamagotchi app that lets you add your real-life pets",
-      "url": "https://apps.apple.com/bg/app/boko-tamagotchi-virtual-pet/id6759446145",
-      "metrics": {
-        "points": 2,
-        "comments": 0,
-        "engagement_velocity": 2
-      }
-    },
-    {
       "key": "host:play.google.com",
       "channels": [
         "indiehackers",
@@ -139,8 +140,8 @@
       }
     }
   ],
-  "money_signal_n": 739,
-  "money_evidence_n": 257,
+  "money_signal_n": 786,
+  "money_evidence_n": 281,
   "money_quotes": [
     {
       "source": "betalist",
@@ -216,32 +217,25 @@
     }
   ],
   "pain_n": {
-    "当前方案不好用": 53,
-    "做不出来/卡住": 75,
-    "愿意付钱": 40,
-    "在找替代品": 38,
+    "当前方案不好用": 58,
+    "做不出来/卡住": 82,
+    "愿意付钱": 45,
+    "在找替代品": 41,
     "想要而找不到": 5
   },
   "by_channel": [
     {
       "id": "betalist",
       "profile": "linkpost",
-      "n": 68,
-      "ok": 68,
+      "n": 78,
+      "ok": 78,
       "rate": 1.0
     },
     {
       "id": "devto",
       "profile": "discussion",
-      "n": 6,
-      "ok": 6,
-      "rate": 1.0
-    },
-    {
-      "id": "indiehackers",
-      "profile": "linkpost",
-      "n": 63,
-      "ok": 63,
+      "n": 8,
+      "ok": 8,
       "rate": 1.0
     },
     {
@@ -254,30 +248,44 @@
     {
       "id": "producthunt",
       "profile": "linkpost",
-      "n": 91,
-      "ok": 90,
-      "rate": 0.989010989010989
+      "n": 121,
+      "ok": 120,
+      "rate": 0.9917355371900827
+    },
+    {
+      "id": "indiehackers",
+      "profile": "linkpost",
+      "n": 75,
+      "ok": 74,
+      "rate": 0.9866666666666667
     },
     {
       "id": "bilibili",
       "profile": "metadata",
-      "n": 43,
-      "ok": 41,
-      "rate": 0.9534883720930233
+      "n": 48,
+      "ok": 46,
+      "rate": 0.9583333333333334
     },
     {
       "id": "hn_show",
       "profile": "discussion",
-      "n": 1080,
-      "ok": 1008,
-      "rate": 0.9333333333333333
+      "n": 1120,
+      "ok": 1052,
+      "rate": 0.9392857142857143
     },
     {
       "id": "v2ex",
       "profile": "discussion",
-      "n": 45,
-      "ok": 37,
-      "rate": 0.8222222222222222
+      "n": 51,
+      "ok": 38,
+      "rate": 0.7450980392156863
+    },
+    {
+      "id": "github_new",
+      "profile": "project",
+      "n": 64,
+      "ok": 47,
+      "rate": 0.734375
     },
     {
       "id": "exa_discovery",
@@ -287,18 +295,11 @@
       "rate": 0.7058823529411765
     },
     {
-      "id": "github_new",
-      "profile": "project",
-      "n": 63,
-      "ok": 44,
-      "rate": 0.6984126984126984
-    },
-    {
       "id": "reddit",
       "profile": "discussion",
-      "n": 277,
-      "ok": 169,
-      "rate": 0.6101083032490975
+      "n": 296,
+      "ok": 182,
+      "rate": 0.6148648648648649
     },
     {
       "id": "c1c7",
@@ -308,5 +309,5 @@
       "rate": 0.2857142857142857
     }
   ],
-  "body_median": 2257
+  "body_median": 2116.5
 }

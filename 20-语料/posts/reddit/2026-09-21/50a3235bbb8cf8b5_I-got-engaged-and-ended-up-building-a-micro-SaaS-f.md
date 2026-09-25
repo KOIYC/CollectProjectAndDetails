@@ -7,10 +7,10 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1wid8tq/i_got_engaged_and_ended_up_building_a_micro_saas/"
 author: "Insomnium_111"
 published_at: "2026-09-17T07:24:02+08:00"
-captured_at: "2026-09-22T13:15:12+08:00"
+captured_at: "2026-09-25T00:18:25+08:00"
 lang: "en"
 kind: "post"
-topic: "开发者工具"
+topic: AI 工具/Agent
 shard: "2026-09-21"
 pub_day: "2026-09-17"
 tags:
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=13 · 赞踩比=0.81
 > 作者：Insomnium_111　|　发布：2026-09-17T07:24:02+08:00
 > 项目链接：—
-> 采集：2026-09-22T13:15:12+08:00　|　id：`50a3235bbb8cf8b5`
+> 采集：2026-09-25T00:18:25+08:00　|　id：`50a3235bbb8cf8b5`
 
 ## 正文
 
@@ -185,5 +185,5 @@ Anything obvious I'm missing?
 
 - 项目页：—（本条不是项目，按设计不建实体页）
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

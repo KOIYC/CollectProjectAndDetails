@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49756627"
 project_url: "https://koieditor.com/"
 author: "hackermanai"
 published_at: "2026-09-18T16:21:45Z"
-captured_at: "2026-09-21T21:59:52+08:00"
+captured_at: "2026-09-25T00:12:57+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=5 · 评论=2 · engagement_velocity=5
 > 作者：hackermanai　|　发布：2026-09-18T16:21:45Z
 > 项目链接：<https://koieditor.com/>
-> 采集：2026-09-21T21:59:52+08:00　|　id：`59afc4bf9a96ab4c`
+> 采集：2026-09-25T00:12:57+08:00　|　id：`59afc4bf9a96ab4c`
 
 ## 正文
 
@@ -47,7 +47,7 @@ Your text editor
 A fast, minimal, local-first, scriptable code editor for macOS
 Download for Mac
 Pricing
-v0.1.0-b210
+v0.1.0-b211 (alpha)
  · Apple Silicon
  · macOS 13.2+
  · Changelog

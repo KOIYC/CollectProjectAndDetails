@@ -38,10 +38,20 @@ def probe_channel(ch: dict, timeout_scale=1.0) -> dict:
     c = json.loads(json.dumps(ch))
     c["limit"] = PROBE_LIMIT
     p = c.get("params") or {}
+    # 探针是「采集器能不能取到」的最小复现，口径必须与采集一致 —— 只按速度裁参数，
+    # 不替采集改判定阈值。
+    #
+    # `subs` 不能一律截到 1 个：arctic-shift 返回的是「窗口内最新 N 条」而不是高分优先，
+    # 而 `min_score` 是采集端在取回后再过滤的。实测 2026-09-24：只探第 1 个 sub
+    # （SideProject，各窗口 25 条最高分仅 2）→ 探针恒报 `empty`；同轮采集用 8 个 sub
+    # 取到 19 条。这种假 empty 会误触 skill 的「连续 2 轮 empty → 降权/停用」规则，
+    # 即用探针的口径停掉一个健康渠道。每 sub 只是 1 次请求（实测整渠道 ~5s），不构成负担。
+    # `queries`/`tags`/`paths` 保持截断：它们是搜索型，逐个探的代价高得多。
+    multi = any(p.get(k) not in (None, 0) for k in ("min_score", "min_points", "min_stars"))
     if isinstance(p.get("queries"), list):
         p["queries"] = p["queries"][:1]
     if isinstance(p.get("subs"), list):
-        p["subs"] = p["subs"][:1]
+        p["subs"] = p["subs"] if multi else p["subs"][:1]
     if isinstance(p.get("tags"), list):
         p["tags"] = p["tags"][:1]
     if isinstance(p.get("paths"), list):
@@ -51,6 +61,12 @@ def probe_channel(ch: dict, timeout_scale=1.0) -> dict:
         items, status, msg = adapter(c, {"max_comments": 3, "fulltext_budget": 0})
     except Exception as e:                                         # noqa: BLE001
         items, status, msg = [], "error", str(e)[:200]
+    if multi and items:
+        # 消息里只说本次真放宽了哪个维度；没有 subs 的阈值渠道（如 hn_show 的 min_points）
+        # 不能硬取 p["subs"]（KeyError 实测踩过一次）。
+        how = (f"全部 {len(p['subs'])} 个 sub" if isinstance(p.get("subs"), list) and p["subs"]
+               else "完整列表参数")
+        msg = (f"{msg} · 探针保留{how}与原阈值（口径同采集）")[:220]
     return {"channel_id": ch["id"], "name": ch.get("name"), "adapter": ch.get("adapter"),
             "auth": ch.get("auth"), "group": ch.get("group"),
             "status": status, "count": len(items), "message": msg[:220],

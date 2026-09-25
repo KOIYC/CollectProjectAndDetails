@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49789314"
 project_url: "https://github.com/otobongfp/code-graph-view"
 author: "otobong"
 published_at: "2026-09-21T16:19:40Z"
-captured_at: "2026-09-22T14:15:46+08:00"
+captured_at: "2026-09-25T00:12:57+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:3d"
 # Show HN: AI Changed How We Write Code. Why Hasn’t Code Review Changed?
 
 > [!info] 一句话导读
-> Show HN: AI Changed How We Write Code. Why Hasn’t Code Review Changed?
+> otobongfp/code-graph-view
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,210 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=3 · 评论=2 · engagement_velocity=3
 > 作者：otobong　|　发布：2026-09-21T16:19:40Z
 > 项目链接：<https://github.com/otobongfp/code-graph-view>
-> 采集：2026-09-22T14:15:46+08:00　|　id：`b75200f1220b14ed`
+> 采集：2026-09-25T00:12:57+08:00　|　id：`b75200f1220b14ed`
 
 ## 正文
 
-Show HN: AI Changed How We Write Code. Why Hasn’t Code Review Changed?
+# otobongfp/code-graph-view
+
+Explore codebases visually as an interactive call graph and export structured, low-token context directly to AI coding assistants.
+
+- Stars: 7
+- Forks: 0
+- Watchers: 7
+- Open issues: 0
+- License: MIT License
+- Homepage: https://open-vsx.org/extension/otobongfp/code-graph-view
+- Default branch: main
+- Created: 2026-09-20T15:21:07Z
+
+## Languages
+
+- CSS
+- JavaScript
+- TypeScript
+
+## Topics
+
+- code-analysis
+- code-graph
+- code-navigation
+- code-review
+- developer-tools
+- typescript
+- visualization
+- vscode
+- vscode-extension
+
+## Top Contributors
+
+- otobongfp (9 contributions)
+
+---
+
+## README
+
+# Code Graph View
+
+> Navigate complex codebases visually as an interactive call graph. Trace execution paths, analyze git change blast radiuses, and curate high-signal context for AI assistants in one click.
+
+VS Code Extension
+Zero Indexers
+Supports 15 Languages
+
+---
+
+Click the Code Graph View icon in the activity bar to get started
+
+Code Graph View Interface
+
+---
+
+## Overview
+
+Understanding non-trivial codebases by jumping through dozens of open editor tabs and running blind text searches is slow and error-prone. When explaining a bug, refactoring a service, or onboarding onto a new repository, developers need to see **how functions connect and pass data**.
+
+**Code Graph View** turns your code into an intuitive visual topology:
+- **Files are cards**, **methods are interactive rows**, and **lines are live calls**.
+- Clicking any method highlights its upstream callers and downstream callees.
+- **AI Context Curation**: Capture the exact execution path you are inspecting—complete with call hierarchy trees, method signatures, and deduplicated types—and hand it to **GitHub Copilot, Cursor, Claude Code, or ChatGPT** (pre-filled into VS Code Chat, or copied to your clipboard to paste).
+- **Visual Git Blast Radius**: See exactly which symbols and downstream callers are impacted by staged, unstaged, branch, or commit changes before opening a pull request.
+
+---
+
+## Quick Start
+
+1. **Open any code file** in a supported language (`.ts`, `.tsx`, `.js`, `.jsx`, `.py`, `.go`, `.rs`, `.java`, `.cs`, `.c`, `.cpp`, `.h`, `.hpp`, `.php`, `.kt`, `.dart`, `.rb`, `.swift`, `.scala`, `.zig`, `.lua`).
+2. **Click the Code Graph icon** in the **top-right action bar of the file editor** (look for the hierarchy/nodes icon next to the Split Editor button). Hovering over it displays **`Code Graph: Open Graph for Active File`**.
+3. *Alternatively*, press Cmd + Shift + P (or Ctrl + Shift + P) and type **`Code Graph: Open Graph for Active File`**.
+
+---
+
+## Core Capabilities
+
+### 1. Interactive Call Hierarchy & Tracing
+- **Live Upstream & Downstream Flow**: Click any method to illuminate who calls it (orange) and what it invokes (blue).
+- **Multi-Hop Exploration**: Adjust the **Hops slider** to expand 1, 2, 3, or more levels deep across the architecture.
+- **Fluid Keyboard Navigation**: Step into callees ( → / Enter), step into callers ( ←), or cycle sibling methods ( ↑ / ↓).
+- **Instant Re-Rooting**: Double-click any method or file to make it the center of your graph.
+
+### 2. AI Context Curation & Export
+AI assistants like Copilot, Cursor, and Claude Code cannot see your screen. Instead of pasting thousands of lines of raw source files or waiting for the model to guess the call chain:
+- **Curate Execution Paths**: Click `+` on individual methods or click `+ Add Trace` to capture an entire multi-hop path.
+- **Granular Detail Control**: Toggle each method between **Name**, **Sig** (inputs, return types, and decorators), or **Full** (complete implementation body).
+- **Deduplicated Schemas**: Automatically extracts referenced project types and data models once, eliminating redundant token usage.
+- **Secrets masked**: Common credentials (API keys, tokens, private keys, passwords in URLs, quoted values on fields like `password` or `apiKey`) are replaced with `[REDACTED]` before you copy or send. On by default; see `codeGraphView.redactSecrets`.
+- **Session-only**: The context lives in memory and is cleared when the workspace closes.
+- **Send to chat**: Opens **VS Code Chat (Copilot)** pre-filled with the context. For **Cursor, Continue, Cline, Cody and Claude Code** the context is copied to your clipboard and, where the extension exposes a command, its chat panel is opened; paste to send. You can also copy prompt-ready markdown with one click.
+- **Pre-Built & Custom Prompts**: Choose from *Explain this flow*, *Find bugs & edge cases*, *Generate unit tests*, or type custom instructions.
+
+### 3. Git Impact & Blast Radius Analysis
+- **Inspect Live Changes**: Filter the graph to show only methods touched by uncommitted edits, staged changes, PR branches (`HEAD vs main`), or recent commits. Clicking a changed method opens VS Code's before/after diff at that method.
+- **Review a Change**: In the changes view a strip above the graph summarises the risk: changed methods, callers this change did not update, signature changes (working-tree diffs), modified methods with no test found reaching them, and removed methods something still seems to call. A red or orange bar marks the risky methods, **⚠ risky** filters to them, and the ‹ › stepper walks the changes riskiest first.
+- **Review a Pull Request**: Run *Code Graph: Review a Pull Request* with a number or link. It checks the branch out (using the GitHub CLI when installed, otherwise GitHub's pull ref) and compares it with the PR's base.
+- **Color-Coded Status**: Amber indicators mark modified methods; green indicators mark newly added symbols.
+- **Callers Impact**: Immediately identify all upstream callers that could break from your modifications.
+
+### 4. Live Signature & Type Inspector (`Alt+S`)
+- Inspect parameter types, optional flags, default values, and decorators (`@Body()`, `@Param()`).
+- View return types and referenced project type definitions side-by-side without leaving the graph.
+- Click **Open in Editor** to jump directly to the exact source location.
+
+### 5. Services Architecture Mode
+- Switch between **Detailed Methods Mode** (fine-grained call graph) and **Services Mode** (file- and module-level dependencies with call counts).
+
+### 6. Diagram Export & Sharing
+- **Mermaid Flowchart**: Copy structured `mermaid` markup ready to embed into GitHub markdown files, PR descriptions, Obsidian, or Notion.
+- **Standalone SVG**: Export clean, vector-accurate standalone SVGs with inlined styles and markers for architecture RFCs and documentation.
+- **High-Resolution PNG**: Render 2x Retina canvas bitmaps with one-click Save or Copy to system clipboard.
+
+---
+
+## Keyboard Shortcuts
+
+| Shortcut | Action |
+|---|---|
+| → / Enter | Step into callees (downstream flow) |
+| ← | Step into callers (upstream origin) |
+| ↑ / ↓ | Step sibling methods in active file |
+| Space | Open active method in editor beside graph |
+| F | Center view on active method |
+| 0 | Fit entire graph in view |
+| / | Search files and symbols to re-root |
+| Alt + C | Toggle AI Context panel |
+| Alt + S | Toggle Signature Inspector |
+| Alt + ← / → | Navigate Back / Forward through history |
+| Esc | Clear selection or exit isolate mode |
+
+---
+
+## Architecture & Design
+
+- **Native Language Server Protocol**: Leverages VS Code's built-in LSP (Call Hierarchy, Document Symbols, Definitions, and Hover). No background daemons, external databases, or heavy local indexing required.
+- **Deterministic Layout Engine**: Powered by ELK with persistent coordinate caching. The graph remains stable and predictable as you expand nodes.
+- **Signature extraction**: `tsSignature.ts` is a lightweight parser supporting 15 languages that reads parameters, generic bounds, and return types from the source, filling in inferred types and doc comments from the language server's hover.
+- **High-Performance SVG**: Custom SVG rendering pipeline with smooth pan, pinch-to-zoom, and responsive interaction.
+
+---
+
+## Requirements
+
+The graph is built from your language server's **call hierarchy**, so each language needs an extension that provides it:
+- **TypeScript / JavaScript**: Built-in to VS Code
+- **Java**: Language Support for Java (Red Hat)
+- **C#**: C# Dev Kit / C# (OmniSharp/Roslyn)
+- **C / C++**: `clangd` or Microsoft C/C++ (`cpptools`)
+- **Python**: Python / Pylance
+- **Go**: Go (`gopls`)
+- **Rust**: `rust-analyzer`
+- **PHP**: PHP Intelephense / PHP Language Server
+- **Kotlin**: Kotlin Language Server
+- **Dart / Flutter**: `Dart-Code`
+- **Ruby**: `Ruby LSP` / `Solargraph`
+- **Swift**: `SourceKit-LSP` / `Swift` extension
+- **Scala**: `Metals`
+- **Zig**: `ZLS`
+- **Lua**: `Lua Language Server` (sumneko)
+
+The git changes view needs `git` on your PATH and a trusted workspace.
+
+**What the review numbers mean.** Callers come from the call hierarchy, so calls through interfaces, callbacks, events, dependency injection or reflection are not seen: treat the counts as a minimum. "No test found" means no test-named file (`*.test.*`, `*.spec.*`, `__tests__`, `_test.go`, `test_*.py`, `*Test.java`, `*Tests.cs`, `*Test.kt`, `*Test.php`, `*_test.cpp`, `*_test.dart`, `*_test.rb`, `*Test.swift`) was found among the calls that reach a method, not that none exists. "Removed, still referenced" is a text search by name, so check each hit.
+
+---
+
+## Configuration
+
+Settings can be customized in `settings.json`:
+
+```json
+{
+  // Call hops fetched upfront when opening a method (1-8, default: 2)
+  "codeGraphView.maxDepth": 2,
+
+  // Hide test files (*.spec.ts, *.test.ts, __tests__) unless explicitly rooted (default: true)
+  "codeGraphView.hideTests": true,
+
+  // Include class constructors as graph nodes (default: false)
+  "codeGraphView.includeConstructors": false,
+
+  // Mask credentials in copied or sent AI context (default: true)
+  "codeGraphView.redactSecrets": true
+}
+```
+
+---
+
+## Contributing & Development
+
+For architecture diagrams, local environment setup, build commands, and testing guidelines, see **DEVELOPMENT.md**.
+
+---
+
+## License
+
+MIT
+
+# modal-projects/sqlite-modal
 
 ## 评论（2/2）
 
@@ -52,6 +251,10 @@ Show HN: AI Changed How We Write Code. Why Hasn’t Code Review Changed?
 
 > **otobong** · 2026-09-21T20:37:08.000Z　
 > Currently, it tracks diffs too. Still extending...
+
+## 关联链接
+
+- https://open-vsx.org/extension/otobongfp/code-graph-view
 
 ## 导航
 

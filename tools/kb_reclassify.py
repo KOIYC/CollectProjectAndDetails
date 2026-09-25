@@ -160,15 +160,20 @@ def merge_orphans(dry: bool = False) -> int:
 
     成因：`project_url` 靠正文外链回退推导，某轮正文取不到 → 退化为 None → 项目页文件名的
     hash 变化 → 新建一页、上一轮那页成了孤儿（实测 20 条，全是 V2EX/Reddit，正文是外链帖）。
+    2026-09-24 实测第二种成因：`project_url` **换成了另一个非空值**（同一项目的仓库链接 →
+    README 里的 HF model 链接 / 发布站页 → Discord 邀请），页名随之改，旧页留成孤儿，
+    观测历史被拆成两页。这类旧页会被 `kb_prune --liveness` 判 stale（确实没有在库语料指向它 ——
+    在库语料指向的是新页），**不要当孤儿直接归档**，否则历史行会丢。
     采集端已改为「project_url 只增不减」防新增；本函数清理存量：
       孤儿页的 project_url == 该条目的 item url → 找到当前 live 页 → 合并「观测历史」行 → 删孤儿页。
     合并后**必须**跑一遍链接改写（否则导航段指向已删的旧名 → 级联伤，见
     `repair_dangling_entity_links` 的 docstring）。
     """
     live = load_latest()
-    by_item_url: dict[str, tuple[dict, str]] = {}
+    seen = Seen()
+    by_item_url: dict[str, tuple[dict, str, str]] = {}
     for iid, (r, day) in live.items():
-        by_item_url[norm_url(r.get("url") or "")] = (r, day)
+        by_item_url[norm_url(r.get("url") or "")] = (r, day, iid)
 
     proj = Path("10-项目")
     orphans, merged = [], 0
@@ -181,24 +186,24 @@ def merge_orphans(dry: bool = False) -> int:
         pair = by_item_url.get(key)
         if not pair:
             continue                                  # 不是「以 item url 为 key 的孤儿页」
-        r, _day = pair
+        r, _day, iid = pair
         if r.get("kind") == "person":
             continue
         target = project_note_path(r)
         if target.resolve() == f.resolve():
             continue                                  # 已是当前页
-        orphans.append((f, target, r))
+        orphans.append((f, target, r, iid))
 
     if not orphans:
         print("无孤儿项目页")
         return 0
     print(f"发现 {len(orphans)} 个孤儿项目页（URL 与当前页不同源，观测历史需合并）：")
-    for f, t, r in orphans:
+    for f, t, r, _iid in orphans:
         print(f"  - 孤儿 {f.name[:56]} → 当前 {t.name[:56]}")
     if dry:
         return len(orphans)
 
-    for f, target, r in orphans:
+    for f, target, r, iid in orphans:
         rows = []
         if target.exists():
             mm = re.search(r"## 观测历史\n\n(.*?)(\n## |\Z)", target.read_text(encoding="utf-8"), re.S)
@@ -208,7 +213,13 @@ def merge_orphans(dry: bool = False) -> int:
         orows = [ln for ln in (mo.group(1).strip().splitlines() if mo else []) if ln.startswith("|")][2:]
         have = {ln.split("|")[1].strip() for ln in rows}
         added = [ln for ln in orows if ln.split("|")[1].strip() not in have]
-        p = write_project_note(r, None, extra_obs=added)      # 正规写页：观测历史一次写对，不做字符串拼接
+        # 语料列必须带对链接：传 None 会让 `_obs_row` 写出「—」，还会把该时刻**原有那条**
+        # 带语料链接的行替掉（合并是「保历史」的动作，不该顺手降级可追溯性）。
+        # 用 seen 账本的 note 当来源，不用 `corpus_note_path(r, day)` —— 后者的 day 是 raw
+        # 分片日，跨零点条目会算出不存在的日期桶（见 kb_common.note_bucket 的教训）。
+        note = (seen.get(iid) or {}).get("note") or ""
+        p = write_project_note(r, note if note.startswith("20-语料/") else None,
+                               extra_obs=added)      # 正规写页：观测历史一次写对，不做字符串拼接
         if added:
             print(f"  合并 {len(added)} 行历史 → {p.name}")
         f.unlink()

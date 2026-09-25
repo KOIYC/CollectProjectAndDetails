@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/SideProject/comments/1vbui3i/i_built_a_spiritual_
 project_url: "https://violabrowser.com/"
 author: "GoodMacAuth"
 published_at: "2026-07-31T23:41:28+08:00"
-captured_at: "2026-09-22T13:17:00+08:00"
+captured_at: "2026-09-25T00:19:13+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -35,7 +35,7 @@ discovered_via: "reddit:83d+settle3"
 > 指标：得分=7 · 评论=6 · 赞踩比=1
 > 作者：GoodMacAuth　|　发布：2026-07-31T23:41:28+08:00
 > 项目链接：<https://violabrowser.com/>
-> 采集：2026-09-22T13:17:00+08:00　|　id：`2a3d5ec0a0b07787`
+> 采集：2026-09-25T00:19:13+08:00　|　id：`2a3d5ec0a0b07787`
 
 ## 正文
 

@@ -11,7 +11,7 @@ published_at: "2026-09-21T15:54:34Z"
 captured_at: "2026-09-22T14:15:47+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: 移动 App
 shard: "2026-09-22"
 pub_day: "2026-09-21"
 tags:
@@ -47,5 +47,5 @@ Show HN: Judge HN Threads with Jev
 
 - 项目页：[[10-项目/hnjudge.vercel.app_6b5c884a]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`移动 App`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

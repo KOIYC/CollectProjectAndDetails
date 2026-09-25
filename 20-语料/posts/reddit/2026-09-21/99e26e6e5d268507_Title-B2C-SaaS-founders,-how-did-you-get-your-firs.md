@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/microsaas/comments/1widpbp/title_b2c_saas_founders_how_did_you_get_your/"
 author: "Bobby_with_Quantly"
 published_at: "2026-09-17T07:44:05+08:00"
-captured_at: "2026-09-22T13:13:59+08:00"
+captured_at: "2026-09-25T00:17:48+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,7 +18,7 @@ tags:
   - reddit
   - r/microsaas
 metrics: {"score": 5, "comments": 11, "upvote_ratio": 0.86}
-comments_count: 7
+comments_count: 8
 comments_total: 11
 discovered_via: "reddit:7d+settle3"
 ---
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=5 · 评论=11 · 赞踩比=0.86
 > 作者：Bobby_with_Quantly　|　发布：2026-09-17T07:44:05+08:00
 > 项目链接：—
-> 采集：2026-09-22T13:13:59+08:00　|　id：`99e26e6e5d268507`
+> 采集：2026-09-25T00:17:48+08:00　|　id：`99e26e6e5d268507`
 
 ## 正文
 
@@ -54,7 +54,7 @@ I'd especially love to hear from founders who have built B2C fintech or SaaS pro
 
 Thanks for the help!
 
-## 评论（7/11）
+## 评论（8/11）
 
 > **deliriousdisarmament**（2 分） · 2026-09-17T07:46:29+08:00　
 > Post in your own Discord groups and related communities where the problem exists, but focus on getting 10 people to actually use it weekly instead of chasing downloads.
@@ -94,6 +94,11 @@ Thanks for the help!
 
 > **Outrageous-Doubt-306**（1 分） · 2026-09-17T16:11:38+08:00　
 > 2 weeks into this and the honest answer is that individual messages to people I already know beat everything else by a wide margin, and it isn't close. Not a broadcast, not a post, one message at a time saying I made this and I'd like you specifically to try it. Feels slow and unscalable and it's the only thing that produced people who actually opened the app twice... The other thing I'd say for B2C specifically is that every community where my users actually are bans app mentions outright, I checked thirteen of them, so the communities that will have you are full of other founders and their installs look great in the numbers and mean nothing. Worth knowing before you spend two weeks finding out 😅
+
+---
+
+> **indiebythenight**（1 分） · 2026-09-22T13:23:41+08:00　
+> the discord community you found this problem in is probably still your best channel for first users, more than any broader b2c push. people who already vented about not being able to use the platform have the exact problem you solved, so going back to that same community (or similar ones for other broker restricted countries) with a direct "this now works for you" message should convert far better than general b2c marketing. i'd also be specific about which countries and brokerages you support on the landing page itself, since "international users" is vague enough that someone from an unsupported country will bounce without telling you why. worth asking the people you already interviewed to be your first users before opening it up broadly, they've already told you what they need so they're the easiest yes you'll get. the regulatory piece you mentioned is also worth putting on the page as a reason to trust you, not just a technical footnote, since it shows you actually understand the compliance side that generic trading apps ignore.
 
 ## 导航
 

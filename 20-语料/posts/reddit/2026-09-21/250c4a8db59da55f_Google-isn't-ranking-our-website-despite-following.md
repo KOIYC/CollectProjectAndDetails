@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/SaaS/comments/1wi4nwv/google_isnt_ranking_our_web
 project_url: "https://discovermacapps.com/"
 author: "Dheeraj_PG"
 published_at: "2026-09-17T01:59:09+08:00"
-captured_at: "2026-09-22T13:13:31+08:00"
+captured_at: "2026-09-25T00:16:16+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -19,7 +19,7 @@ tags:
   - reddit
   - r/SaaS
 metrics: {"score": 20, "comments": 38, "upvote_ratio": 0.95}
-comments_count: 36
+comments_count: 38
 comments_total: 38
 discovered_via: "reddit:7d+settle3"
 ---
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=20 · 评论=38 · 赞踩比=0.95
 > 作者：Dheeraj_PG　|　发布：2026-09-17T01:59:09+08:00
 > 项目链接：<https://discovermacapps.com/>
-> 采集：2026-09-22T13:13:31+08:00　|　id：`250c4a8db59da55f`
+> 采集：2026-09-25T00:16:16+08:00　|　id：`250c4a8db59da55f`
 
 ## 正文
 
@@ -68,7 +68,7 @@ I'd really appreciate any insights, especially from people who have experienced 
 
 Thanks in advance!
 
-## 评论（36/38）
+## 评论（38/38）
 
 > **pavlenkovit**（2 分） · 2026-09-17T02:02:45+08:00　
 > 159 impressions in 28 days means google barely has anything of yours to show, ranking comes after that. Mine sat at about the same numbers for months with a landing page and a blog, and it only moved once there was a page per specific thing people type, in my case one page per word, which grew into roughly 186k pages and about 4.6k clicks a week. Before backlinks i'd count how many distinct queries the site can even answer. A directory of mac apps should be able to have a page per app, that's the query people actually type.
@@ -285,6 +285,22 @@ Thanks in advance!
 > https://preview.redd.it/59tjzpsnvjqh1.png?width=3432&format=png&auto=webp&s=e67348c0195ffc23d6d656b67381345237d44888
 >
 > The SEO is not that great... Fix the title, description, and keywords
+
+---
+
+> **cisummai1232321**（1 分） · 2026-09-23T07:11:52+08:00　
+> It takes a while and people to start consistently clicking and it then starts to grow.
+>
+> This is mine:
+>
+> https://preview.redd.it/fg169uhll5rh1.png?width=2822&format=png&auto=webp&s=409dd5716a2fc191717e728e89b29c29f3462238
+>
+> I am pretty sure they rank higher after people clicking more and more, not just having good on site SEO which I added back in december. Also I barely have any backlinks but I rank high for queries and have high CTRs for when my position is in top 3
+
+---
+
+> **mohn93**（1 分） · 2026-09-23T19:56:25+08:00　
+> yeah 3 months in that's pretty normal. for a mac app directory your most realistic first links are the indie devs you list, email each one when their page goes live and some of them will link to it or share it, since it's a page saying nice things about their app. and pages like "free alternatives to cleanmymac" or "best menu bar apps for developers" are way easier to rank than anything broad like "best mac apps". which queries are those 159 impressions coming from?
 
 ## 关联链接
 

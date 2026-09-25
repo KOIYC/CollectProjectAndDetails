@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49740105"
 project_url: "https://mysetup.ai/"
 author: "steveybrown"
 published_at: "2026-09-17T13:01:44Z"
-captured_at: "2026-09-22T13:12:59+08:00"
+captured_at: "2026-09-25T00:15:49+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,7 +21,7 @@ tags:
   - story_49740105
   - show_hn
 metrics: {"points": 238, "comments": 138, "engagement_velocity": 238}
-comments_count: 137
+comments_count: 138
 comments_total: 138
 discovered_via: "hn:show_hn:90d"
 ---
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=238 · 评论=138 · engagement_velocity=238
 > 作者：steveybrown　|　发布：2026-09-17T13:01:44Z
 > 项目链接：<https://mysetup.ai/>
-> 采集：2026-09-22T13:12:59+08:00　|　id：`a8d3728ddc104075`
+> 采集：2026-09-25T00:15:49+08:00　|　id：`a8d3728ddc104075`
 
 ## 正文
 
@@ -91,7 +91,7 @@ That’s why I built this. A community to share how we're working with AI, learn
 
 Realistically, It'll be my agent that keeps my setup current and maybe this ends up as a community of one - me, but I hope you’ll take something useful away from my setup and I'd appreciate if you could share yours. Thank you!
 
-## 评论（137/138）
+## 评论（138/138）
 
 > **patabyte** · 2026-09-17T14:49:06.000Z　
 > This is a wonderful idea - didnt know I was looking for this until I started browsing. I found it helpful with surfacing that which I didnt-know-I-didnt-know.Thank you for putting this together!
@@ -317,6 +317,11 @@ Realistically, It'll be my agent that keeps my setup current and maybe this ends
 > I also have an even shorter alias for '?' using fabric that answers right in the same terminal, that I learned from Mischa Vandenburg: echo "$*" | fabric --model gemini-2.5-flash --pattern ask_ai
 >
 > that one I use my own API key so it costs some small amount per use.
+
+---
+
+> **amit2403** · 2026-09-22T19:50:36.000Z　
+> quite interesting but i don't see a proper ranking of whose setups are better reviewed or popular?
 
 ---
 

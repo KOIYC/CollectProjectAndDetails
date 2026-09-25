@@ -8,7 +8,7 @@ url: "https://github.com/zai-org/ZCode"
 project_url: "https://zcode.z.ai/"
 author: "zai-org"
 published_at: "2026-09-20T12:01:16Z"
-captured_at: "2026-09-22T14:16:34+08:00"
+captured_at: "2026-09-24T23:59:53+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - TypeScript
-  - created:>2026-09-08
-metrics: {"stars": 5933, "forks": 1703, "open_issues": 11}
+  - created:>2026-09-10
+metrics: {"stars": 6685, "forks": 1994, "open_issues": 11}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/zai-org/ZCode>
-> 指标：stars=5933 · forks=1703 · open_issues=11
+> 指标：stars=6685 · forks=1994 · open_issues=11
 > 作者：zai-org　|　发布：2026-09-20T12:01:16Z
 > 项目链接：<https://zcode.z.ai/>
-> 采集：2026-09-22T14:16:34+08:00　|　id：`11c0e859fa41d76b`
+> 采集：2026-09-24T23:59:53+08:00　|　id：`11c0e859fa41d76b`
 
 ## 正文
 
@@ -49,11 +49,9 @@ discovered_via: "github:14d"
 
 ZCode 是 AI 编程工作台，提供桌面应用、浏览器界面和终端 Agent。本仓库包含客户端、后端服务、共享 UI，以及 Agent CLI 与运行时源码。
 
-| 入口                 | 用途                                                           | 开发命令                       |
-| -------------------- | -------------------------------------------------------------- | ------------------------------ |
-| Desktop              | Electron 桌面应用                                              | `pnpm dev:desktop`             |
-| Web / ZCode 命令行版 | 终端与浏览器工作台；将 TUI、Web、后端和 Agent 组装为独立运行包 | `pnpm dev:web`                 |
-| Agent CLI            | 在终端中使用 `zcode`，也为 Desktop 和 Web 提供 Agent 运行时    | `pnpm --filter @zcode/cli dev` |
+## 更新
+
+- 2026-9-23：更新至 ZCode v3.14.3 版本。
 
 ## 初始化
 

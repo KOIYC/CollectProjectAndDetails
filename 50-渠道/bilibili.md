@@ -1,26 +1,26 @@
 ---
 type: "channel"
 channel_id: "bilibili"
-name: "B站"
+name: "B 站"
 group: "中文社媒"
 adapter: "bilibili"
 auth: "none"
 lang: "zh"
 status: "ok"
-last_verified: "2026-09-22"
+last_verified: "2026-09-25"
 tags:
   - 渠道
   - 渠道/中文社媒
 params: {"queries": ["独立开发", "独立开发者 出海", "一人公司", "副业 产品"], "min_play": 3000}
 ---
 
-# B站（`bilibili`）
+# B 站（`bilibili`）
 
 - **分组**：中文社媒　|　**语言**：zh　|　**认证**：none
 - **取数实现**：`bilibili`　|　**单次上限**：12
 - **补全类型**：none
-- **当前状态**：`ok`（本次 10 条，2.7s）
-- **口径备注**：B站搜索 API（带 Referer 可直连）；bili-cli 未装，暂只取元数据
+- **当前状态**：`ok`（本次 11 条，2.7s）
+- **口径备注**：B 站搜索 API（带 Referer 可直连）；bili-cli 未装，暂只取元数据
 - **解锁方式**：—
 
 ## 运行历史
@@ -44,3 +44,4 @@ params: {"queries": ["独立开发", "独立开发者 出海", "一人公司", "
 | 2026-09-22T12:58:41+08:00 | ok | 10 | 3.9s | 42 videos |
 | 2026-09-22T13:08:34+08:00 | ok | 8 | 3.6s | 53 videos |
 | 2026-09-22T14:23:10+08:00 | ok | 10 | 2.7s | 18 videos |
+| 2026-09-25T00:04:22+08:00 | ok | 11 | 2.7s | 39 videos |

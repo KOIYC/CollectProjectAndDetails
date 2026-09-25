@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/captureagent"
 published_at: "2026-09-21"
-captured_at: "2026-09-21T22:04:14+08:00"
+captured_at: "2026-09-25T00:00:08+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-09-21
 > 项目链接：—
-> 采集：2026-09-21T22:04:14+08:00　|　id：`f42b190edc5624af`
+> 采集：2026-09-25T00:00:08+08:00　|　id：`f42b190edc5624af`
 
 ## 正文
 
@@ -88,9 +88,9 @@ SaveMySaaS
  Track SaaS contracts with AI-powered vendor intelligence
 MakeAutomation
  Automate workflows and voice calls with fast, ops-ready AI systems
-Aria
+MemoryPlugin
  BOOSTED
- Free color analysis and honest verdicts before you buy
+ Long term memory for ALL your AI tools
  BOOSTED
 Tate-A-Tate
  No-Code AI Agent Builder - Build, Deploy & Scale Without Coding
@@ -98,9 +98,9 @@ Hawil AI
  Deploy AI voice, text chat, and microCRM to capture and convert leads
 Supahmation
  Build and run production AI agents via one API across LLMs
-TapVid
+Hi-AI
  BOOSTED
- Turn prompts, PDFs, or links into explainer videos with motion graphics
+ Affordable AI videos, music, voice, images, 3D, search, news, and reports
  BOOSTED
 Clientell AI
  The first AI agent that builds and maintains Salesforce for you

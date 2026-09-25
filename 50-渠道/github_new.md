@@ -7,7 +7,7 @@ adapter: "github_new"
 auth: "cli"
 lang: "en"
 status: "ok"
-last_verified: "2026-09-22"
+last_verified: "2026-09-25"
 tags:
   - 渠道
   - 渠道/海外发布
@@ -19,7 +19,7 @@ params: {"window_days": 14, "min_stars": 20, "queries": ["created:>{since} stars
 - **分组**：海外发布　|　**语言**：en　|　**认证**：cli
 - **取数实现**：`github_new`　|　**单次上限**：30
 - **补全类型**：readme
-- **当前状态**：`ok`（本次 11 条，15.3s）
+- **当前状态**：`ok`（本次 12 条，14.3s）
 - **口径备注**：gh CLI（api.github.com 可达）；README 用 gh api .../readme 取全文
 - **解锁方式**：—
 
@@ -45,3 +45,4 @@ params: {"window_days": 14, "min_stars": 20, "queries": ["created:>{since} stars
 | 2026-09-22T12:54:21+08:00 | error | 0 | 3.1s | 0 repos; created:>2026-09-08 stars:>=: error connecting to api.github. |
 | 2026-09-22T13:06:08+08:00 | ok | 11 | 12.2s | 28 repos;  |
 | 2026-09-22T14:16:47+08:00 | ok | 11 | 15.3s | 28 repos;  |
+| 2026-09-25T00:00:06+08:00 | ok | 12 | 14.3s | 28 repos;  |

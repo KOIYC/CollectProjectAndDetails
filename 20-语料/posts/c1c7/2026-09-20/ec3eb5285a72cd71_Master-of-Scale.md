@@ -6,7 +6,7 @@ source: "c1c7"
 source_name: "1c7 中文独立开发者名录"
 url: "https://mastersofscale.com"
 project_url: "https://mastersofscale.com/"
-captured_at: "2026-09-21T09:51:49+08:00"
+captured_at: "2026-09-25T00:05:28+08:00"
 lang: "zh"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "1c7:readme"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://mastersofscale.com/>
-> 采集：2026-09-21T09:51:49+08:00　|　id：`ec3eb5285a72cd71`
+> 采集：2026-09-25T00:05:28+08:00　|　id：`ec3eb5285a72cd71`
 
 ## 正文
 
@@ -46,7 +46,11 @@ Ina Fried dives into the privacy and data-sharing policies of AI consumer produc
 
  The sometimes messy, always inspiring stories of how great leaders scale businesses to impressive heights — and the insights you’ll need to join them at the top.
 
-# V2EX › 分享创造
+Error fetching https://www.oppslist.com/: CRAWL_LIVECRAWL_TIMEOUT
+
+## 关联链接
+
+- https://www.oppslist.com/:
 
 ## 导航
 

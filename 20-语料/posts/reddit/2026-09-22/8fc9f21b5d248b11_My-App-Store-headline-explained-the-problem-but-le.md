@@ -10,7 +10,7 @@ published_at: "2026-09-19T10:07:21+08:00"
 captured_at: "2026-09-22T12:54:39+08:00"
 lang: "en"
 kind: "post"
-topic: "移动 App"
+topic: 开发者工具
 shard: "2026-09-22"
 pub_day: "2026-09-19"
 tags:
@@ -77,5 +77,5 @@ This is a copy hypothesis, not a conversion win yet. Have you had someone descri
 
 - 项目页：[[10-项目/My-App-Store-headline-explained-the-problem-but_8fc9f21b]]
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`移动 App`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

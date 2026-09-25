@@ -1,30 +1,30 @@
 ---
 type: "project"
-title: "Show HN: Jexxa: High Speed on Device Dictation"
+title: "Show HN: Jexxa – On Device Dictation, Now with Perpetual License"
 project_url: "https://jexxa.org/"
-first_seen: "2026-09-20T14:06:24+08:00"
+first_seen: "2026-09-24T23:57:22+08:00"
 sources:
   - hn_show
 tags:
   - 项目
   - hn_show
   - author_sankde
-  - story_49712720
+  - story_49830869
   - show_hn
 lang: "en"
 ---
 
-# Show HN: Jexxa: High Speed on Device Dictation
+# Show HN: Jexxa – On Device Dictation, Now with Perpetual License
 
 > [!info] 一句话导读
-> JEXXA — Dictation that never leaves your Mac
+> Dictation Demonstration Against a Fast Chatbot: https://www.linkedin.com/feed/update/urn:li:activity:7508058...Also Now with added security, opt in analytics an…
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://jexxa.org/>
-> 首次收录：2026-09-20T14:06:24+08:00
+> 首次收录：2026-09-24T23:57:22+08:00
 > 来源渠道：HN Show HN
-> 标签：author_sankde, story_49712720, show_hn
-> 最新指标：点赞=6 · 评论=18 · engagement_velocity=6
+> 标签：author_sankde, story_49830869, show_hn
+> 最新指标：点赞=2 · 评论=1 · engagement_velocity=2
 
 ## 观测历史
 
@@ -33,7 +33,8 @@ lang: "en"
 | 2026-09-20T09:23:24+08:00 | HN Show HN | 点赞=6 · 评论=18 · engagement_velocity=6 | [[20-语料/posts/hn_show/2026-09-20/acd732f65625e7e1_Show-HN-Jexxa-High-Speed-on-Device-Dictation]] |
 | 2026-09-20T09:37:15+08:00 | HN Show HN | 点赞=6 · 评论=18 · engagement_velocity=6 | [[20-语料/posts/hn_show/2026-09-20/acd732f65625e7e1_Show-HN-Jexxa-High-Speed-on-Device-Dictation]] |
 | 2026-09-20T14:06:24+08:00 | HN Show HN | 点赞=6 · 评论=18 · engagement_velocity=6 | [[20-语料/posts/hn_show/2026-09-20/acd732f65625e7e1_Show-HN-Jexxa-High-Speed-on-Device-Dictation]] |
+| 2026-09-24T23:57:22+08:00 | HN Show HN | 点赞=2 · 评论=1 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-24/95cb7f8fa8977dac_Show-HN-Jexxa-–-On-Device-Dictation,-Now-with-Perp]] |
 
 ## 摘要正文
 
-JEXXA — Dictation that never leaves your Mac  # JEXXA  Dictation that never leaves your Mac.  macOS 14 or later · Apple silicon · version 0.1.10  ## Everything happens on your Mac  The model is on your disk. Hold a key, speak, and the words appear where your cursor already is — in any app that takes text.  ### Nothing is uploaded  No audio, no transcript. What does leave is small and listed in the privacy policy: your subscription check, update checks, and diagnostics you can turn off.  ### Fast enough to think in  Most dictations are typed within a fifth of a second of letting go of the key. No queue, no per-minute cost.  ### It learns your words  Names and jargon it gets wrong once, it gets right after you fix it. It tells you what it learned, and you can undo it.  ### Take back what you said  Say JX minus one to remove the last line, JX minus two for two, JX clear for the lot.  ### See it as you speak  A live preview while you talk, so you know it is hearing you.  ### Works with the wifi off  On a plane, on a train, on a bad hotel connection. It does not care.  ## Which one do I want?  Same app, same features. The difference is how much of your memory the model needs while it is…
+Dictation Demonstration Against a Fast Chatbot: https://www.linkedin.com/feed/update/urn:li:activity:7508058...Also Now with added security, opt in analytics and best of all, Perpetual License With feedback from people here. We also offer enterprise perpetual license now. So please reach out to me on linkedin if interested.

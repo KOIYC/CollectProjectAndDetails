@@ -5,8 +5,9 @@ title: "Tartelo"
 source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/tartelo"
+project_url: "https://discord.gg/3vsQPEmGB9"
 published_at: "2026-09-21"
-captured_at: "2026-09-21T22:04:14+08:00"
+captured_at: "2026-09-25T00:00:08+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,8 +32,8 @@ discovered_via: "betalist:home"
 > 原帖：<https://betalist.com/startups/tartelo>
 > 指标：—
 > 作者：—　|　发布：2026-09-21
-> 项目链接：—
-> 采集：2026-09-21T22:04:14+08:00　|　id：`4823f3bc1bc8f933`
+> 项目链接：<https://discord.gg/3vsQPEmGB9>
+> 采集：2026-09-25T00:00:08+08:00　|　id：`4823f3bc1bc8f933`
 
 ## 正文
 
@@ -64,8 +65,9 @@ Log in
 Submit Startup
 Back to all startups
 Tartelo
-Find and turn personal insights into meaning
-Tartelo is an interactive mind map that lets you prompt and reflect on key memories from your life. Zeke, the AI, helps you uncover and identify recurring insights within your memories to form a unique Path.
+Find and turn personal insights into Meaning
+Tartelo is an interactive mind map journal used for reflecting on and connecting together key memories from your life. Zeke (AI) will probe questions designed to help you find and identify recurring insights within your memories. The recurring insights you find can be used to create a Path you feel drawn to.
+To learn more about Tartelo, along with keeping up to date with the latest progress, check out our Discord: https://discord.gg/3vsQPEmGB9
 Visit Site
 Visit Site
 Makers
@@ -88,26 +90,26 @@ Zettel
  Turn your learning goals into personalized curricula with AI
 ThoughtLogger
  Capture thoughts fast and let AI file, link, and surface answers
-MyIntelBrief
+TapVid
  BOOSTED
- Get a daily one-page brief on competitors with clear next steps
+ Turn prompts, PDFs, or links into explainer videos with motion graphics
  BOOSTED
 Loose Thought
  Plan and learn using natural spatial reasoning
 Tellus
  Turn your parent’s voice recordings into a memoir
-Saaroma
- Find calm with a private AI companion for chatting, journaling, and breath
-Mailtwine
+Toudou
+ Your personal activity planner for surprising experiences
+EntreDash
  BOOSTED
- AI email triage and assistant turning your inbox into an action list
+ Validate and shape your idea with a private AI advisory board
  BOOSTED
 Ertzyx
  Preserve your memories, milestones, and mischief — all in one app
 
 ## 导航
 
-- 项目页：[[10-项目/Tartelo_4823f3bc]]
+- 项目页：[[10-项目/Tartelo_0a7af435]]
 - 渠道页：[[50-渠道/betalist]]
 - 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

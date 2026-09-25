@@ -45,7 +45,7 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from kb_common import (META, ROOT, Seen, del_fm_scalar, fm_scalars, iso,  # noqa: E402
                        norm_url, now_cst, pub_day_of, rotate_files, set_fm_scalar,
-                       sha1, slugify, split_note, topic_of, write_ledger,
+                       sha1, slugify, split_note, strip_code, topic_of, write_ledger,
                        _atomic_write, _BAD)
 from kb_collect import (corpus_note_path, method_note_path, nav_block,  # noqa: E402
                         person_note_path, project_note_path, write_entity_note)
@@ -191,9 +191,19 @@ def fix_links(apply: bool) -> Counter:
         txt = p.read_text(encoding="utf-8")
         if "[[" not in txt:
             continue
+        # 只认「真链接」：行内代码 / 围栏代码块里的 `[[...]]` 是**举例文本**（运行日志里记
+        # 「本轮修过哪条断链」就是这么写的），不是链接。健康检查 ④ 一直剥离代码段
+        # （kb_common.strip_code），本工具不剥就会把这类示例报成「目标不存在」——
+        # 两个工具对「什么算链接」口径不一，读报表的人会以为库里真有断链（实测 1 条假警报）。
+        # strip_code 用**等长空白**占位，偏移与原文一一对应，所以能直接用 m.start() 判定。
+        scan = strip_code(txt)
+        in_code = [scan[i] != txt[i] for i in range(len(txt))] if len(scan) == len(txt) else []
         fixed: list[str] = []
 
         def repl(m: re.Match) -> str:
+            if in_code and in_code[m.start()]:
+                stat["跳过(代码/伪链接)"] += 1
+                return m.group(0)
             core = m.group(1).split("|")[0].split("#")[0].strip()
             if not core:
                 return m.group(0)

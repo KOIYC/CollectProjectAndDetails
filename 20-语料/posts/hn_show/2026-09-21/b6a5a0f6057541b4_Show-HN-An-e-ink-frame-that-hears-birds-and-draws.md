@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=49711544"
 project_url: "https://github.com/arnegiacomo/fugleramme"
 author: "arnemunthekaas"
 published_at: "2026-09-15T12:31:10Z"
-captured_at: "2026-09-22T13:13:12+08:00"
+captured_at: "2026-09-25T00:16:01+08:00"
 lang: "en"
 kind: "post"
-topic: "开发者工具"
+topic: AI 工具/Agent
 shard: "2026-09-21"
 pub_day: "2026-09-15"
 tags:
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=2355 · 评论=259 · engagement_velocity=2355
 > 作者：arnemunthekaas　|　发布：2026-09-15T12:31:10Z
 > 项目链接：<https://github.com/arnegiacomo/fugleramme>
-> 采集：2026-09-22T13:13:12+08:00　|　id：`b6a5a0f6057541b4`
+> 采集：2026-09-25T00:16:01+08:00　|　id：`b6a5a0f6057541b4`
 
 ## 正文
 
@@ -1416,5 +1416,5 @@ Want to update? Just pull and run ./setup.sh again
 
 - 项目页：[[10-项目/github.com_4e7ba9f5]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

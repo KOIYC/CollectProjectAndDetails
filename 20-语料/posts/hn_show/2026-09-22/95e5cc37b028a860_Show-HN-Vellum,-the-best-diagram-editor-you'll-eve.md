@@ -11,7 +11,7 @@ published_at: "2026-09-21T16:05:42Z"
 captured_at: "2026-09-22T14:15:47+08:00"
 lang: "en"
 kind: "post"
-topic: "开发者工具"
+topic: AI 工具/Agent
 shard: "2026-09-22"
 pub_day: "2026-09-21"
 tags:
@@ -82,5 +82,5 @@ https://github.com/blueprintr-io/vellum-editorProud to say its not purely vibe c
 
 - 项目页：[[10-项目/vellum.blueprintr.io_5c4cada1]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

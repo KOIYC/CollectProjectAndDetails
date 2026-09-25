@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49709714"
 project_url: "https://knecht.works/"
 author: "samuelreichor"
 published_at: "2026-09-15T09:01:56Z"
-captured_at: "2026-09-21T21:59:53+08:00"
+captured_at: "2026-09-25T00:12:57+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：samuelreichor　|　发布：2026-09-15T09:01:56Z
 > 项目链接：<https://knecht.works/>
-> 采集：2026-09-21T21:59:53+08:00　|　id：`e8574b244dee0e66`
+> 采集：2026-09-25T00:12:57+08:00　|　id：`e8574b244dee0e66`
 
 ## 正文
 
@@ -56,11 +56,9 @@ These teams are testing Knecht in the beta right now.
 Knecht Connects to the Tools You Already Use.
  A ticket comes in, a result goes out. Knecht boots your project and does the work in a real dev environment.
 Trigger GitHub
- From an issue, a label, or a mention.
-Jira
- From a ticket or a label.
-Cron & Webhook
- On a schedule or a security advisory.
+ Jira
+ Plane
+ Linear
 Let the Knecht Work
  For every ticket, Knecht boots the project and runs the workflow inside it.
  Project Boots with Database
@@ -181,6 +179,12 @@ Done
  Done
  Improve Jira Integration
  The Jira trigger gets more options and better comments back in the ticket.
+ Done
+ Plane Integration
+ Plane work items can start workflows.
+ Done
+ Linear Integration
+ Linear issues can start workflows.
  In progress
  Find Beta Testers
  We look for a sufficient number of beta testers to find problems early and build the final product.
@@ -198,6 +202,10 @@ Done
  You can officially buy Knecht. The price model, the license, and the payment are complete.
 Building in Public.
  We build Knecht in the open. Each milestone is published here.
+September 24, 2026 Architecture
+ One Interface for All Integrations
+ How we put Knecht's integrations behind one shared interface, so a new tool only brings what is actually different about it.
+ Read More
 September 11, 2026 Engine
  Every Repo Boots, Even Without a DDEV Config
  Knecht now builds the environment from the repo files when there is no DDEV config. A dev server becomes the live preview, with hot reload.
@@ -209,10 +217,6 @@ September 10, 2026 Project
 August 18, 2026 Engine
  Langdock as an AI Provider
  The agent now also runs through Langdock. One API key covers GPT and Claude models, and every request stays in the EU or in the US.
- Read More
-August 17, 2026 Engine
- Knecht Now Replies on GitHub
- Every issue gets its own session with an environment and a conversation, the agent replies and labels directly in the thread, and a mention sends it back to work.
  Read More
 See All Updates
 Build Knecht with Us from the Start.

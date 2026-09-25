@@ -8,7 +8,7 @@ url: "https://dev.to/earlgreyhot1701d/my-agents-never-get-tired-i-do-on-satisfic
 project_url: "https://academic.oup.com/qje/article-abstract/69/1/99/1919737"
 author: "Earl Grey"
 published_at: "2026-09-11T03:49:55Z"
-captured_at: "2026-09-21T09:46:46+08:00"
+captured_at: "2026-09-25T00:14:33+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,7 +21,7 @@ tags:
   - buildinpublic
   - agents
   - discuss
-metrics: {"reactions": 38, "comments": 34, "reading_time": 8}
+metrics: {"reactions": 40, "comments": 34, "reading_time": 8}
 comments_count: 34
 comments_total: 34
 discovered_via: "devto:buildinpublic"
@@ -35,10 +35,10 @@ discovered_via: "devto:buildinpublic"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/earlgreyhot1701d/my-agents-never-get-tired-i-do-on-satisficing-1mb>
-> 指标：reactions=38 · 评论=34 · reading_time=8
+> 指标：reactions=40 · 评论=34 · reading_time=8
 > 作者：Earl Grey　|　发布：2026-09-11T03:49:55Z
 > 项目链接：<https://academic.oup.com/qje/article-abstract/69/1/99/1919737>
-> 采集：2026-09-21T09:46:46+08:00　|　id：`805df5e49bac2636`
+> 采集：2026-09-25T00:14:33+08:00　|　id：`805df5e49bac2636`
 
 ## 正文
 

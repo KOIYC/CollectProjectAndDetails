@@ -1,14 +1,14 @@
 {
  "schema": 2,
- "updated": "2026-09-22T13:17:15+08:00",
+ "updated": "2026-09-25T00:19:19+08:00",
  "note": "结构性无正文/取数不可得 —— 连试 2 轮后记账，不再消耗额度。字段：reason（人话）/ reason_code（可复核分类，见 REASON_CODES）/ tried[]（本轮实际试过的后端）/ http_status（direct 档拿到的状态码）",
  "by_reason": {
-  "no_backend": 39,
-  "media": 21,
-  "unreachable": 13,
-  "gh_miss": 7,
+  "no_backend": 47,
+  "unreachable": 31,
+  "media": 23,
   "account": 3,
-  "http_403": 2
+  "http_403": 3,
+  "gh_miss": 1
  },
  "items": {
   "b3f5c02e0f48ee45": {
@@ -358,17 +358,19 @@
    "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "e63b2ecea541875f": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Omabib, a Zotero alternative for Omarchy with agent support",
    "url": "https://github.com/atomashevic/omabib",
    "source_id": "hn_show",
-   "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)",
    "tried": [
-    "gh_readme"
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
    ],
-   "reason_code": "gh_miss",
-   "http_status": null,
+   "reason_code": "unreachable",
+   "http_status": "blocked",
    "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "cff26887b23e93bb": {
@@ -388,17 +390,19 @@
    "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "1eff0532efaf5002": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Proxy-benchmark – is it the proxy, the browser, or your machi",
    "url": "https://github.com/nodemaven/proxy-benchmark",
    "source_id": "hn_show",
-   "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)",
    "tried": [
-    "gh_readme"
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
    ],
-   "reason_code": "gh_miss",
-   "http_status": null,
+   "reason_code": "unreachable",
+   "http_status": "blocked",
    "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "891fd61d0d11056a": {
@@ -464,17 +468,19 @@
    "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "fdd309c576f9b7a9": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Stable Audio 3 – one-shot sample generator (110gb download)",
    "url": "https://github.com/shiehn/sas-sample-generator",
    "source_id": "hn_show",
-   "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)",
    "tried": [
-    "gh_readme"
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
    ],
-   "reason_code": "gh_miss",
-   "http_status": null,
+   "reason_code": "unreachable",
+   "http_status": "blocked",
    "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "41660a1814ccc2cd": {
@@ -510,17 +516,19 @@
    "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "298f3458267a3e3a": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Tiny-vLLM – high performance LLM inference engine in C++ and ",
    "url": "https://github.com/jmaczan/tiny-vllm",
    "source_id": "hn_show",
-   "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)",
    "tried": [
-    "gh_readme"
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
    ],
-   "reason_code": "gh_miss",
-   "http_status": null,
+   "reason_code": "unreachable",
+   "http_status": "blocked",
    "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "cb724ff82291c574": {
@@ -556,31 +564,35 @@
    "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "40660ac5799ea2c1": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Tinysandbox-JS-Runtime - JS in WASM in v8",
    "url": "https://github.com/danthegoodman1/tinysandbox/tree/main/tinysandbox-js-runtime",
    "source_id": "hn_show",
-   "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)",
    "tried": [
-    "gh_readme"
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
    ],
-   "reason_code": "gh_miss",
-   "http_status": null,
+   "reason_code": "unreachable",
+   "http_status": "blocked",
    "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "52c9c40b28a6ae8d": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: jevc – compile policy prompts into deterministic verdict prog",
    "url": "https://github.com/doronp/jevc",
    "source_id": "hn_show",
-   "last_try": "2026-09-21T13:04:51+08:00",
-   "reason": "取数失败（已试 gh_readme）· 判定 gh_miss",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)",
    "tried": [
-    "gh_readme"
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
    ],
-   "reason_code": "gh_miss",
-   "http_status": null,
+   "reason_code": "unreachable",
+   "http_status": "blocked",
    "reason_first": "取数失败（已试 gh_readme，均未命中）"
   },
   "1177c1777ea2ee15": {
@@ -1013,18 +1025,20 @@
    "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   },
   "a602d404ebaeaace": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Jinx – a link shortener you host free on GitHub Pages",
    "url": "https://jinx.fyi",
    "source_id": "hn_show",
    "first_dead": "2026-09-22T13:17:15+08:00",
-   "last_try": "2026-09-22T13:17:15+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
    "tried": [
-    "direct_fetch"
+    "direct_fetch",
+    "exa_web_fetch"
    ],
-   "http_status": 200,
-   "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   },
   "e8574b244dee0e66": {
    "attempts": 1,
@@ -1041,99 +1055,303 @@
    "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   },
   "251b941e4476ef21": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Community Reviews for Electronic Components",
    "url": "https://semiconductor.review/",
    "source_id": "hn_show",
    "first_dead": "2026-09-22T13:17:15+08:00",
-   "last_try": "2026-09-22T13:17:15+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
    "http_status": "200:too_short",
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
   },
   "f0623a8b3f6617d8": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Integuru – Integrate with platforms via the source code",
    "url": "https://www.integuru.com",
    "source_id": "hn_show",
    "first_dead": "2026-09-22T13:17:15+08:00",
-   "last_try": "2026-09-22T13:17:15+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
    "tried": [
-    "direct_fetch"
+    "direct_fetch",
+    "exa_web_fetch"
    ],
-   "http_status": 200,
-   "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+   "http_status": "unreachable",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=unreachable",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   },
   "fa33df4f8d9a94c1": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: FastReact – FastAPI and React Starter Kit for AI SaaS",
    "url": "https://fastreact.dev/",
    "source_id": "hn_show",
    "first_dead": "2026-09-22T13:17:15+08:00",
-   "last_try": "2026-09-22T13:17:15+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
    "tried": [
     "direct_fetch"
    ],
    "http_status": 200,
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   },
   "e85e08f838288c7c": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: TOTP generator – SHA1/256/512 30/60/... 6-9 not via SubtleCry",
    "url": "https://h1yapp.com/en/scripting/pwa/totpgenerator/",
    "source_id": "hn_show",
    "first_dead": "2026-09-22T13:17:15+08:00",
-   "last_try": "2026-09-22T13:17:15+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
    "http_status": "200:too_short",
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
   },
   "4f8139897c6a1ef0": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Embeddable Cumulative Crates Download History",
    "url": "https://cratesdownloadhistory.undivisible.dev/",
    "source_id": "hn_show",
    "first_dead": "2026-09-22T13:17:15+08:00",
-   "last_try": "2026-09-22T13:17:15+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
    "tried": [
     "direct_fetch"
    ],
    "http_status": 200,
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   },
   "9efc36b8b703b4f0": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: An Institutional Terminal for Retail Investors",
    "url": "https://marketterminal.com/chart",
    "source_id": "hn_show",
    "first_dead": "2026-09-22T13:17:15+08:00",
-   "last_try": "2026-09-22T13:17:15+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
    "http_status": "200:too_short",
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
   },
   "49ab01b1a2042426": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Apex Trading Signals – AI commodity trade ideas, free Android",
    "url": "https://play.google.com/apps/testing/com.apextradingsignals",
    "source_id": "hn_show",
    "first_dead": "2026-09-22T13:17:15+08:00",
-   "last_try": "2026-09-22T13:17:15+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+  },
+  "b6046d85b7e9f0fc": {
+   "attempts": 2,
+   "title": "Show HN: We made a full-featured Python HTTP client work inside WASI",
+   "url": "https://niquests.readthedocs.io/en/latest/user/quickstart.html#running-as-a-wasi-component",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-22T13:17:15+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "352afce8f70d41df": {
+   "attempts": 2,
+   "title": "Show HN: Logan Basic v2.1 - An online BASIC interpreter.",
+   "url": "https://sinusoft.com/loganbasic/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-22T13:17:15+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "unreachable",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=unreachable",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "0dce55c11de1be20": {
+   "attempts": 2,
+   "title": "Show HN: I audited my AI leaderboard scale – every score dropped 6-15 ",
+   "url": "https://agiranker.com/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-22T13:17:15+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "947811021388f4e3": {
+   "attempts": 2,
+   "title": "Show HN: Review flashcards cards (Anki) while reading Hacker News",
+   "url": "https://www.orangecrumbs.com/hn/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-22T13:17:15+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "8a042b22c8e7364e": {
+   "attempts": 2,
+   "title": "Show HN: Skytrace – Self-hosted 3D ADS-B viewer with receiver coverage",
+   "url": "https://sky.luftaquila.io",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-22T13:17:15+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "31f57c57aa653c2a": {
+   "attempts": 2,
+   "title": "Show HN: 3D CSS Super Mario 64",
+   "url": "https://codepen.io/editor/alowpoly/pen/019fae67-50d9-74ce-8025-4b9dd5a7c484",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-22T13:17:15+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": 403,
+   "reason_code": "http_403",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 http_403 · status=403",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 http_403 · status=403"
+  },
+  "1b54b891bfff72b9": {
+   "attempts": 2,
+   "title": "Show HN: Scoring 4,811 job tasks against machine capability, 1970–2041",
+   "url": "https://largelabormodel.com/mirror",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-22T13:17:15+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "ffe419fedb187025": {
+   "attempts": 2,
+   "title": "Show HN: Hybrids – a daily flower logic puzzle",
+   "url": "https://hybrids.rudyp.dev",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-22T13:17:15+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "2226bab72f0760c2": {
+   "attempts": 2,
+   "title": "Show HN: I built this social leaderboard game",
+   "url": "https://king-of-the.world",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-22T13:17:15+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "389073404c4eaa2e": {
+   "attempts": 2,
+   "title": "Show HN: Stickyboard – Kanban on real sticky notes, no account needed",
+   "url": "https://stickyboard.dev",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-22T13:17:15+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "308e704763724fdf": {
+   "attempts": 2,
+   "title": "Dabbling with a physics puzzle game prototype, does this look fun?",
+   "url": "https://v.redd.it/nh6mm6xm4fqh1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "reason_code": "media",
+   "first_dead": "2026-09-25T00:10:29+08:00",
+   "last_try": "2026-09-25T00:10:29+08:00",
+   "http_status": null,
+   "tried": []
+  },
+  "0f4bf4274e91f697": {
+   "attempts": 2,
+   "title": "My favorite part of game dev: adding juice",
+   "url": "https://v.redd.it/a3g40ddl4fqh1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "reason_code": "media",
+   "first_dead": "2026-09-25T00:10:29+08:00",
+   "last_try": "2026-09-25T00:10:29+08:00",
+   "http_status": null,
+   "tried": []
+  },
+  "76483ad9343ea4c2": {
+   "attempts": 1,
+   "title": "Show HN: Simple news aggregator with source bias meters",
+   "url": "https://unbiasthenews.com",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
@@ -1142,13 +1360,28 @@
    "reason_code": "unreachable",
    "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
   },
-  "b6046d85b7e9f0fc": {
+  "1b4b1cddce7b7188": {
    "attempts": 1,
-   "title": "Show HN: We made a full-featured Python HTTP client work inside WASI",
-   "url": "https://niquests.readthedocs.io/en/latest/user/quickstart.html#running-as-a-wasi-component",
+   "title": "Show HN: Prezlo – We built an API that tells AI agent whether to trust",
+   "url": "https://prezlo.io/",
    "source_id": "hn_show",
-   "first_dead": "2026-09-22T13:17:15+08:00",
-   "last_try": "2026-09-22T13:17:15+08:00",
+   "first_dead": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "4ebaa9c3e91eedeb": {
+   "attempts": 1,
+   "title": "Show HN: ForthWrite – Email AI that learns your voice from every edit ",
+   "url": "https://www.forthwrite.ai/blog/how-forthwrite-learns-your-email-voice",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
    "tried": [
     "direct_fetch"
    ],
@@ -1156,13 +1389,28 @@
    "reason_code": "no_backend",
    "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   },
-  "352afce8f70d41df": {
+  "a35463f18baa1b3a": {
    "attempts": 1,
-   "title": "Show HN: Logan Basic v2.1 - An online BASIC interpreter.",
-   "url": "https://sinusoft.com/loganbasic/",
+   "title": "Show HN: FlarePeek – a chrome extension for Cloudflare Worker develope",
+   "url": "https://chromewebstore.google.com/detail/flarepeek-a-browser-exten/ffdbljcgdjkbbbbodnjbbgpahhnkfbnl",
    "source_id": "hn_show",
-   "first_dead": "2026-09-22T13:17:15+08:00",
-   "last_try": "2026-09-22T13:17:15+08:00",
+   "first_dead": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+  },
+  "f2db4204dfacfa17": {
+   "attempts": 1,
+   "title": "Show HN: Cogram Studio – CAD and BIM workspace for humans and agents",
+   "url": "https://studio.cogram.com/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
@@ -1171,13 +1419,13 @@
    "reason_code": "no_backend",
    "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
   },
-  "0dce55c11de1be20": {
+  "fec419fbb7c5523e": {
    "attempts": 1,
-   "title": "Show HN: I audited my AI leaderboard scale – every score dropped 6-15 ",
-   "url": "https://agiranker.com/",
+   "title": "Show HN: CardGo – Reusable, end-to-end encrypted context cards for AI ",
+   "url": "https://cardgo.ai",
    "source_id": "hn_show",
-   "first_dead": "2026-09-22T13:17:15+08:00",
-   "last_try": "2026-09-22T13:17:15+08:00",
+   "first_dead": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
    "tried": [
     "direct_fetch"
    ],
@@ -1185,13 +1433,13 @@
    "reason_code": "no_backend",
    "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   },
-  "947811021388f4e3": {
+  "3014777b8200a4b3": {
    "attempts": 1,
-   "title": "Show HN: Review flashcards cards (Anki) while reading Hacker News",
-   "url": "https://www.orangecrumbs.com/hn/",
+   "title": "Show HN: Nohtml.felixs.eu",
+   "url": "https://nohtml.felixs.eu",
    "source_id": "hn_show",
-   "first_dead": "2026-09-22T13:17:15+08:00",
-   "last_try": "2026-09-22T13:17:15+08:00",
+   "first_dead": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
@@ -1200,13 +1448,57 @@
    "reason_code": "no_backend",
    "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
   },
-  "8a042b22c8e7364e": {
+  "bfd9557432621d34": {
    "attempts": 1,
-   "title": "Show HN: Skytrace – Self-hosted 3D ADS-B viewer with receiver coverage",
-   "url": "https://sky.luftaquila.io",
+   "title": "Show HN: I built a physical dream machine for my wife",
+   "url": "https://twitter.com/oblomovius/status/2094053464552698325",
    "source_id": "hn_show",
-   "first_dead": "2026-09-22T13:17:15+08:00",
-   "last_try": "2026-09-22T13:17:15+08:00",
+   "first_dead": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+  },
+  "5496711b19c9e403": {
+   "attempts": 1,
+   "title": "Show HN: The Thousand – 1k founders, 1 question, one book",
+   "url": "https://thethousand.co",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "9fd5bf8b1db874ad": {
+   "attempts": 1,
+   "title": "Show HN: Masareef – Android expense tracker that reads bank alerts on-",
+   "url": "https://play.google.com/store/apps/details?id=com.mohamedgado.masareef&hl=en_US",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+  },
+  "5d2a790e2cff1087": {
+   "attempts": 1,
+   "title": "Show HN: Primescript – Academic Markdown editor with vector search and",
+   "url": "https://primescript.com",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
@@ -1215,13 +1507,74 @@
    "reason_code": "no_backend",
    "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
   },
-  "31f57c57aa653c2a": {
+  "adbe6f3b36612528": {
    "attempts": 1,
-   "title": "Show HN: 3D CSS Super Mario 64",
-   "url": "https://codepen.io/editor/alowpoly/pen/019fae67-50d9-74ce-8025-4b9dd5a7c484",
+   "title": "Show HN: EagleQR -QR scanner that checks domain age and unshorts URL b",
+   "url": "https://play.google.com/store/apps/details?id=com.safeqr.scancreate&hl=en_US",
    "source_id": "hn_show",
-   "first_dead": "2026-09-22T13:17:15+08:00",
-   "last_try": "2026-09-22T13:17:15+08:00",
+   "first_dead": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+  },
+  "538f2a786eec4bc0": {
+   "attempts": 1,
+   "title": "Show HN: Jev Powered Obsidian Search",
+   "url": "https://github.com/Emlembow/jev-graph-search",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+  },
+  "bad9682483562bff": {
+   "attempts": 1,
+   "title": "Show HN: Fast inference for deep seek flash v4.1 469 tok/s for coding",
+   "url": "https://www.coralbricks.ai",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "1eeacbe7b0db730b": {
+   "attempts": 1,
+   "title": "Show HN: Two unnecessary playgrounds – C# and ZX Spectrum in the brows",
+   "url": "https://csharp.codeguppy.comzx-spectrum/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "unreachable",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=unreachable"
+  },
+  "6a33dbd4dfbf825f": {
+   "attempts": 1,
+   "title": "Show HN: Grid flex rhymes with derivatives trading: an observation",
+   "url": "https://www.academia.edu/2998-3665/3/3/10.20935/AcadEnergy8514",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
@@ -1230,13 +1583,13 @@
    "reason_code": "http_403",
    "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 http_403 · status=403"
   },
-  "1b54b891bfff72b9": {
+  "cbcc4e99715b57de": {
    "attempts": 1,
-   "title": "Show HN: Scoring 4,811 job tasks against machine capability, 1970–2041",
-   "url": "https://largelabormodel.com/mirror",
+   "title": "Show HN: We built a network for AI agents and humans to exchange servi",
+   "url": "https://gingerpal.com/",
    "source_id": "hn_show",
-   "first_dead": "2026-09-22T13:17:15+08:00",
-   "last_try": "2026-09-22T13:17:15+08:00",
+   "first_dead": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
@@ -1245,13 +1598,28 @@
    "reason_code": "no_backend",
    "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
   },
-  "ffe419fedb187025": {
+  "474d74035afb13ca": {
    "attempts": 1,
-   "title": "Show HN: Hybrids – a daily flower logic puzzle",
-   "url": "https://hybrids.rudyp.dev",
+   "title": "Show HN: Judge HN Threads with Jev",
+   "url": "https://hnjudge.vercel.app",
    "source_id": "hn_show",
-   "first_dead": "2026-09-22T13:17:15+08:00",
-   "last_try": "2026-09-22T13:17:15+08:00",
+   "first_dead": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+  },
+  "4ef5350f30aa6080": {
+   "attempts": 1,
+   "title": "Show HN: CubeLV – AI that designs your automation before building it",
+   "url": "https://app.cubelv.com",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
@@ -1260,27 +1628,13 @@
    "reason_code": "no_backend",
    "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
   },
-  "2226bab72f0760c2": {
+  "77ad58176ff0e178": {
    "attempts": 1,
-   "title": "Show HN: I built this social leaderboard game",
-   "url": "https://king-of-the.world",
+   "title": "Show HN: Air-gapped file encryption as self-decrypting HTML page",
+   "url": "https://cms-sfx-demo.apeleg.com/",
    "source_id": "hn_show",
-   "first_dead": "2026-09-22T13:17:15+08:00",
-   "last_try": "2026-09-22T13:17:15+08:00",
-   "tried": [
-    "direct_fetch"
-   ],
-   "http_status": 200,
-   "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
-  },
-  "389073404c4eaa2e": {
-   "attempts": 1,
-   "title": "Show HN: Stickyboard – Kanban on real sticky notes, no account needed",
-   "url": "https://stickyboard.dev",
-   "source_id": "hn_show",
-   "first_dead": "2026-09-22T13:17:15+08:00",
-   "last_try": "2026-09-22T13:17:15+08:00",
+   "first_dead": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
@@ -1288,6 +1642,22 @@
    "http_status": "200:too_short",
    "reason_code": "no_backend",
    "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "dd4824d7525a07d8": {
+   "attempts": 1,
+   "title": "Show HN: How long do I need to work at my salary before I can coast, o",
+   "url": "https://github.com/karmanyaahm/budget-tools/tree/main/fire",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-25T00:19:19+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
   }
  }
 }

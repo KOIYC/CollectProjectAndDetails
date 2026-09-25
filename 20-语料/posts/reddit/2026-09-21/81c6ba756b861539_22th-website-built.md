@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1szxbsl/22th_website_built/"
 author: "Ashleyjohnston10"
 published_at: "2026-04-30T22:15:09+08:00"
-captured_at: "2026-09-22T13:16:21+08:00"
+captured_at: "2026-09-25T00:18:41+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -35,7 +35,7 @@ discovered_via: "reddit:174d+settle3"
 > 指标：得分=3 · 评论=2 · 赞踩比=1
 > 作者：Ashleyjohnston10　|　发布：2026-04-30T22:15:09+08:00
 > 项目链接：—
-> 采集：2026-09-22T13:16:21+08:00　|　id：`81c6ba756b861539`
+> 采集：2026-09-25T00:18:41+08:00　|　id：`81c6ba756b861539`
 
 ## 正文
 

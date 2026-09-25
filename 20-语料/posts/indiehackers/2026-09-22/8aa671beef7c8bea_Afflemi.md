@@ -5,7 +5,7 @@ title: "Afflemi"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/afflemi"
-captured_at: "2026-09-22T14:20:15+08:00"
+captured_at: "2026-09-25T00:00:28+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -22,7 +22,7 @@ discovered_via: "ih:products"
 # Afflemi
 
 > [!info] 一句话导读
-> Home Starting Up Case Studies DB Products Ideas DB Subscribe to IH+
+> Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+
 
 > [!meta]- 语料信息（点开展开）
 > 来源：Indie Hackers 产品库（project）
@@ -30,11 +30,11 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-22T14:20:15+08:00　|　id：`8aa671beef7c8bea`
+> 采集：2026-09-25T00:00:28+08:00　|　id：`8aa671beef7c8bea`
 
 ## 正文
 
-Home Starting Up Case Studies DB Products Ideas DB Subscribe to IH+
+Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+
 Starting Up Case Studies
  Ideas DB Products DB Sign in Join
 Afflemi
@@ -60,7 +60,7 @@ Post Comment
 The two-sided model is clear, but the key signal is which side pulls first. Are affiliates browsing more actively, or are brands already paying to get listed?
 Aryan Sinh
 ·
-16 hours ago
+3 days ago
  ·
 Reply
 August 23, 2026
@@ -82,7 +82,7 @@ Post Comment
 Afflemi is exactly the kind of unglamorous-but-necessary tool that actually saves time mid-writing. I built something adjacent: SaaS CEO Snapshot, a free 2-min tool for SaaS founders that flags revenue at risk from churn/refunds, no signup. It's got a $497 backend at 30% commission if you're ever looking for something to add to the link vault for a SaaS audience. Nice build either way.
 NeatlyHQ
 ·
-8 days ago
+11 days ago
  ·
 Reply
 1

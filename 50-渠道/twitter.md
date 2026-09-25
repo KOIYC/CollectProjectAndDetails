@@ -7,7 +7,7 @@ adapter: "opencli_social"
 auth: "browser"
 lang: "en"
 status: "auth"
-last_verified: "2026-09-22"
+last_verified: "2026-09-25"
 tags:
   - 渠道
   - 渠道/海外社媒
@@ -19,8 +19,8 @@ params: {"site": "twitter", "queries": ["build in public indie hacker", "indie h
 - **分组**：海外社媒　|　**语言**：en　|　**认证**：browser
 - **取数实现**：`opencli_social`　|　**单次上限**：15
 - **补全类型**：fulltext
-- **当前状态**：`auth`（本次 0 条，91.7s）
-- **口径备注**：>-
+- **当前状态**：`auth`（本次 0 条，103.7s）
+- **口径备注**：2026-09-21 实测：OpenCLI 扩展**已连接**，失败原因是 x.com 自身没登录。 解锁 = 开 Chrome 登录 https://x.com 即可。
 - **解锁方式**：opencli twitter（装扩展）或 pipx install twitter-cli + 导出 TWITTER_AUTH_TOKEN/TWITTER_CT0
 
 ## 运行历史
@@ -41,5 +41,6 @@ params: {"site": "twitter", "queries": ["build in public indie hacker", "indie h
 | 2026-09-21T09:49:57+08:00 | auth | 0 | 6.5s | 需 OpenCLI 浏览器扩展/登录态：ok: false
 | 2026-09-22T13:02:31+08:00 | auth | 0 | 92.0s | 需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: ok: false
 | 2026-09-22T14:26:59+08:00 | auth | 0 | 91.7s | 需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: ok: false
+| 2026-09-25T00:07:40+08:00 | auth | 0 | 103.7s | 需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: ok: false
 error:
   c |

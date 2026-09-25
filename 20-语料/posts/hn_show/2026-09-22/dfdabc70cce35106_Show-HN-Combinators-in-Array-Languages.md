@@ -11,7 +11,7 @@ published_at: "2026-09-21T18:03:58Z"
 captured_at: "2026-09-22T12:53:31+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: 内容/媒体
 shard: "2026-09-22"
 pub_day: "2026-09-21"
 tags:
@@ -47,5 +47,5 @@ Raymond Smullyan’s "To Mock a Mockingbird" book's aviary of combinator birds i
 
 - 项目页：[[10-项目/blog.softwarewrighter.com_ba931d31]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`内容/媒体`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

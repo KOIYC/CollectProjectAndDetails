@@ -2,7 +2,7 @@
 type: "project"
 title: "i built a green blob that lives on my desktop. now it has feelings."
 project_url: "https://dev.to/mikachu/i-built-a-green-blob-that-lives-on-my-desktop-and-now-it-has-feelings-4pjd"
-first_seen: "2026-09-22T12:55:28+08:00"
+first_seen: "2026-09-25T00:01:09+08:00"
 sources:
   - devto
 tags:
@@ -22,10 +22,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://dev.to/mikachu/i-built-a-green-blob-that-lives-on-my-desktop-and-now-it-has-feelings-4pjd>
-> 首次收录：2026-09-22T12:55:28+08:00
+> 首次收录：2026-09-25T00:01:09+08:00
 > 来源渠道：dev.to
 > 标签：showdev, python, linux, opensource
-> 最新指标：reactions=60 · 评论=20 · reading_time=6
+> 最新指标：reactions=79 · 评论=28 · reading_time=6
 
 ## 观测历史
 
@@ -33,6 +33,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-21T09:46:38+08:00 | dev.to | reactions=36 · 评论=13 · reading_time=6 | [[20-语料/posts/devto/2026-09-21/0d0bc342e8f9b9ec_i-built-a-green-blob-that-lives-on-my-desktop.-now]] |
 | 2026-09-22T12:55:28+08:00 | dev.to | reactions=60 · 评论=20 · reading_time=6 | [[20-语料/posts/devto/2026-09-21/0d0bc342e8f9b9ec_i-built-a-green-blob-that-lives-on-my-desktop.-now]] |
+| 2026-09-25T00:01:09+08:00 | dev.to | reactions=79 · 评论=28 · reading_time=6 | [[20-语料/posts/devto/2026-09-21/0d0bc342e8f9b9ec_i-built-a-green-blob-that-lives-on-my-desktop.-now]] |
 
 ## 摘要正文
 

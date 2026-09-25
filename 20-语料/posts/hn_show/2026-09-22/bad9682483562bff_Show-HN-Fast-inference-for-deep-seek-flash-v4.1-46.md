@@ -11,7 +11,7 @@ published_at: "2026-09-21T22:12:48Z"
 captured_at: "2026-09-22T12:53:31+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: AI 工具/Agent
 shard: "2026-09-22"
 pub_day: "2026-09-21"
 tags:
@@ -67,5 +67,5 @@ Show HN: Fast inference for deep seek flash v4.1 469 tok/s for coding
 
 - 项目页：[[10-项目/coralbricks.ai_7191b14f]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

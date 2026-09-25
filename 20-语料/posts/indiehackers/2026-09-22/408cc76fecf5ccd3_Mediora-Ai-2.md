@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/mediora-ai-2"
 project_url: "https://mediora-ai-tau.vercel.app/"
-captured_at: "2026-09-22T12:57:04+08:00"
+captured_at: "2026-09-25T00:00:28+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -23,7 +23,7 @@ discovered_via: "ih:products"
 # Mediora Ai 2
 
 > [!info] 一句话导读
-> Home Starting Up Case Studies DB Products Ideas DB Subscribe to IH+
+> Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+
 
 > [!meta]- 语料信息（点开展开）
 > 来源：Indie Hackers 产品库（project）
@@ -31,11 +31,11 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://mediora-ai-tau.vercel.app/>
-> 采集：2026-09-22T12:57:04+08:00　|　id：`408cc76fecf5ccd3`
+> 采集：2026-09-25T00:00:28+08:00　|　id：`408cc76fecf5ccd3`
 
 ## 正文
 
-Home Starting Up Case Studies DB Products Ideas DB Subscribe to IH+
+Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+
 Starting Up Case Studies
  Ideas DB Products DB Sign in Join
 Mediora-AI
@@ -60,8 +60,85 @@ It's still early, and we're building based on what users actually need.
  Would love to hear your thoughts.
 https://mediora-ai-tau.vercel.app/
 Kunal Singh
-1 Like
-Comment
+2 Likes
+8 Comments
+Say something nice…
+Post Comment
+2
+Turning one idea into platform-specific posts is exactly where most teams bleed time, because “rewrite” isn’t the hard part—*repackaging* is (different hook, structure, length, CTA, even cadence).
+A few practical things I’d validate in Mediora (and that tend to make these tools actually useful):
+- **Use a “content brief” + constraints, not a single prompt.**
+ Generate a canonical brief first (core claim, 3–5 supporting points, examples, CTA, brand tone). Then each platform gets its own template with hard constraints (e.g., X = hook-first + brevity, LinkedIn = mini-story + value bullets, IG = caption + caption cadence + optional carousel bullets, YouTube = script beats + CTA timing).
+- **Have a “hook bank” per idea.**
+ Most performance differences come from the first 1–2 lines. If the tool can produce multiple hook variants (and keep the rest consistent), you can A/B without rewriting everything.
+- **Asset reuse beats re-generation.**
+ If the generator can pull from reusable chunks (statements, analogies, quotes, links, FAQs) rather than re-deriving facts each time, you get fewer inconsistencies and faster human edits.
+- **Human review loop should be built-in.**
+ Even if it’s “AI-first,” teams will want quick ways to swap a claim/example, enforce brand style, and lock in facts before publishing.
+- **Don’t skip measurement.**
+ At minimum: per-platform UTM/tagging + a naming convention so you can tell which idea/hook performed. Otherwise repurposing just creates noise.
+One question I’d ask as a user: **do you treat “YouTube” as a real script (beats + scene/segment timing + description + title options), or mostly as another text rewrite?** That’s usually where these products either shine or fall apart.
+Also, I’ve used **ScaleBlogger** for keyword→SEO/GEO workflows; it’s more about research/creation/optimization than taking a single idea and converting it across social/video formats.
+Joy Sarah
+·
+a day ago
+ ·
+Reply
+1
+Thanks Joy! This is really thoughtful feedback. I completely agree that the value isn't just rewriting the same text it's adapting the underlying idea to how each platform actually works.
+We're still early with Mediora, so some of the deeper workflows you mentioned, especially hook variations, reusable content blocks, and measurement, are areas we're looking at next.
+For YouTube, we're currently focused on generating platform-specific content, but your point about treating it as a real script with beats, structure, CTA timing, title options, etc. is especially interesting. That's definitely something I'd like to explore.
+Really appreciate you taking the time to go this deep.
+Kunal Singh
+·
+a day ago
+ ·
+Reply
+1
+Thanks, Kunal! Glad the feedback was useful. Your approach to YouTube content sounds like a good starting point. I’m looking forward to seeing how Mediora develops it.
+Joy Sarah
+·
+6 hours ago
+ ·
+Reply
+2
+Congrats on launching Mediora-AI! Since generating content for multiple platforms from one idea probably means more generation calls the more platforms someone selects, have you looked at how that affects your cost to serve per user as usage grows? Also curious — since you're gathering feedback: has anyone using it so far generated way more than others, and did that change how you think about pricing?
+Arcsviel
+·
+2 days ago
+ ·
+Reply
+1
+That's a really good question. We are still early, so we're actively watching usage and API cost per generation rather than locking ourselves into a pricing model too early.
+You're right that generating for multiple platforms can increase the number of generation calls, so cost per user is something we need to pay close attention to as usage grows.
+We haven't seen enough usage yet to confidently identify a “heavy user” pattern, but that's one of the things we're starting to track. It will definitely inform how we structure pricing whether that's usage limits, credits, or different tiers.
+Appreciate you bringing this up!
+Kunal Singh
+·
+a day ago
+ ·
+Reply
+1
+That's a really thoughtful approach — waiting for real usage data before locking pricing makes sense. Quick follow-up: when you say you're starting to track cost per generation, is that mostly manual (checking API dashboards/spreadsheets) or do you have any tooling for it yet? Also curious if you've come across things like MarginDash or Tanso that try to tie AI cost straight to Stripe revenue per customer — wondering if that's on your radar or still too early-stage to matter yet.
+Arcsviel
+·
+12 hours ago
+ ·
+Reply
+1
+Yes for tracking the cost per generations i made overall api tracking tool that calculate per user per post costing so for now by this i kept the track ..... but thanks for your suggestions of MarginDash i will surely give it a try
+Kunal Singh
+·
+12 hours ago
+ ·
+Reply
+1
+That's awesome that you already built something for it — shows this was a real enough pain to solve yourself. Quick question: does your tracker also connect that cost data to each customer's actual revenue/subscription to show margin, or is it purely cost visibility for now? Curious whether tying cost to per-customer profitability is still a manual step, or something your tool already handles.
+Arcsviel
+·
+11 hours ago
+ ·
+Reply
 About
  We built Mediora AI to solve a simple problem turning one idea into content for multiple social platforms takes too much time. Mediora makes it easier to create platform ready content faster.
  People

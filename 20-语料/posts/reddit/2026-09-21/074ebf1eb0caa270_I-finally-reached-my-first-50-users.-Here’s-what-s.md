@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/SideProject/comments/1ujsn6o/i_finally_reached_my
 project_url: "https://freshers.dev/"
 author: "NoNameDotCPP6769"
 published_at: "2026-06-30T23:38:12+08:00"
-captured_at: "2026-09-22T13:16:51+08:00"
+captured_at: "2026-09-25T00:19:02+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -35,7 +35,7 @@ discovered_via: "reddit:113d+settle3"
 > 指标：得分=5 · 评论=7 · 赞踩比=0.78
 > 作者：NoNameDotCPP6769　|　发布：2026-06-30T23:38:12+08:00
 > 项目链接：<https://freshers.dev/>
-> 采集：2026-09-22T13:16:51+08:00　|　id：`074ebf1eb0caa270`
+> 采集：2026-09-25T00:19:02+08:00　|　id：`074ebf1eb0caa270`
 
 ## 正文
 

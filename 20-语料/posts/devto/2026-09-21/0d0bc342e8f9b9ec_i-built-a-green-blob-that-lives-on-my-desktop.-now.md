@@ -7,7 +7,7 @@ source_name: "dev.to"
 url: "https://dev.to/mikachu/i-built-a-green-blob-that-lives-on-my-desktop-and-now-it-has-feelings-4pjd"
 author: "Mika Flowers"
 published_at: "2026-09-20T11:15:55Z"
-captured_at: "2026-09-22T12:55:28+08:00"
+captured_at: "2026-09-25T00:01:09+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -20,9 +20,9 @@ tags:
   - python
   - linux
   - opensource
-metrics: {"reactions": 60, "comments": 20, "reading_time": 6}
-comments_count: 20
-comments_total: 20
+metrics: {"reactions": 79, "comments": 28, "reading_time": 6}
+comments_count: 28
+comments_total: 28
 discovered_via: "devto:showdev"
 ---
 
@@ -34,10 +34,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/mikachu/i-built-a-green-blob-that-lives-on-my-desktop-and-now-it-has-feelings-4pjd>
-> 指标：reactions=60 · 评论=20 · reading_time=6
+> 指标：reactions=79 · 评论=28 · reading_time=6
 > 作者：Mika Flowers　|　发布：2026-09-20T11:15:55Z
 > 项目链接：—
-> 采集：2026-09-22T12:55:28+08:00　|　id：`0d0bc342e8f9b9ec`
+> 采集：2026-09-25T00:01:09+08:00　|　id：`0d0bc342e8f9b9ec`
 
 ## 正文
 
@@ -258,7 +258,7 @@ v0.3 is starting to answer the much more interesting question: what would make m
 
 🌱
 
-## 评论（20/20）
+## 评论（28/28）
 
 > **Giorgi Kobaidze** · 2026-09-20T11:33:33Z　
 > That's such a cool idea. I've thought about something like this but I can't decide on the character. 😄
@@ -316,7 +316,7 @@ v0.3 is starting to answer the much more interesting question: what would make m
 
 ---
 
-> **Joseph Afful** · 2026-09-21T13:43:33Z　
+> **Joseph Boafo Afful** · 2026-09-21T13:43:33Z　
 > I am in a similar dilemma😅
 
 ---
@@ -411,6 +411,68 @@ v0.3 is starting to answer the much more interesting question: what would make m
 
 > **Kartik N V J K** · 2026-09-21T20:59:49Z　
 > The emotional attachment to a desktop pet is something I did not expect to relate to, but I have seen users treat voice agents the same way. When the agent has a personality, people forgive failures they would not tolerate from a tool. I wrote about this in my piece on evaluating voice agents (dev.to/kartik-nvjk/choosing-the-ri...). How do you measure whether the "feelings" actually improve the user experience?
+
+---
+
+> **Luca Caputo** · 2026-09-22T14:49:38Z　
+> Wow, that's really cute! It looks like a Tamagotchi! I love things like that! in fact, I created a game similar to Tamagotchi; feel free to try it out if you'd like!
+>
+> 👇👇👇
+>
+> android free
+
+---
+
+> **Luca Caputo** · 2026-09-22T14:52:10Z　
+> Wow, that's really cute! It looks like a Tamagotchi! I love things like that! in fact, I created a game similar to Tamagotchi; feel free to try it out if you'd like!
+>
+> 👇👇👇
+>
+> ANDROID FREE DOWNLOAD
+
+---
+
+> **Hussein Mahdi** · 2026-09-22T21:13:38Z　
+> A charming and well-written project post. The best parts are the thoughtful design choices: affection instead of obligation, privacy-respecting awareness, and letting Mochi stay quiet. It's also a good example of how a "cute little side project" teaches real skills like state management and handling timing bugs.
+
+---
+
+> **Mika Flowers** · 2026-09-23T11:44:55Z　
+> AW this genuinely means a lot especially that you picked up on the “affection instead of obligation” part.
+>
+> One of my biggest goals with Mochi has been making them feel present without turning them into another thing demanding attention. A lot of the hardest work has actually come from those tiny behavioral decisions: when Mochi should react, when they should stay quiet, how states transition, and how to avoid making something cute become annoying after a week.
+>
+> And you’re absolutely right about the engineering side. I started this thinking I was making a little blob and somehow ended up learning a ridiculous amount about state machines, timing, GTK/Wayland behavior, animation systems, and debugging 😭
+>
+> Thank you for reading it so thoughtfully 💚
+
+---
+
+> **Hussein Mahdi** · 2026-09-23T12:26:09Z　
+> Very nice, but it seems like working with her is tiring.
+>
+> I hope to see the final results as soon as possible.
+
+---
+
+> **Charlene Amanda** · 2026-09-23T12:42:21Z　
+> I’m incredibly grateful to Dr. Benjamin for the guidance and encouragement he gave me during my lottery journey. I reached out to him after hearing about his work, explained my hopes of winning the Mega Millions jackpot, and decided to give it a try. He shared a set of numbers with me and encouraged me to remain positive and hopeful. I purchased my ticket using those numbers, and I was completely shocked when they matched the winning numbers. I won the Mega Millions jackpot of $50 million! It was an unforgettable moment that changed my life. I’ll always appreciate Dr. Benjamin’s support. He can help you too drbenjaminlottospell711@gmail.com or WhatsApp him +18588585788
+
+---
+
+> **Akhouri Anmol Kumar** · 2026-09-23T14:34:39Z　
+> 👋 I’m Anmol, founder of Akhouri Systems. We build lightweight, portable Windows utilities (ATLOCK, ANOTE, ACALCU, APIC).
+>
+> I’m shifting from 'solo building' to 'community-driven building'. I’ve set up a Discord server specifically for power users and fellow devs to tear down my apps, suggest features, and influence the roadmap.
+>
+> It will be great if you join our discord community and give me feedbacks, suggest me new features and more directly to me and a direct line to the dev process, let’s connect.
+>
+> Discord: discord.gg/JmxDcZrAp
+
+---
+
+> **Pavel Kazantsev** · 2026-09-24T12:30:35Z　
+> So cute
 
 ## 关联链接
 
