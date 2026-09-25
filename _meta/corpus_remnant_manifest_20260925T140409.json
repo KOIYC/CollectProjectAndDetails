@@ -1,9 +1,0 @@
-{
-  "at": "2026-09-25T14:04:09+08:00",
-  "kind": "corpus_remnant",
-  "note": "同名 item 多份语料的改名残留清理；undo 需把 from 从 git 历史恢复",
-  "removed": [],
-  "skipped": [],
-  "unknown": [],
-  "archived_coexist": []
-}
