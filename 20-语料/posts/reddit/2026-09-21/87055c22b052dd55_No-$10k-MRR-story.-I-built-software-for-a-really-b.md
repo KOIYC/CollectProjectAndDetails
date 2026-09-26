@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/microsaas/comments/1wi8n62/no_10k_mrr_story_i_bui
 project_url: "https://sopai.systems/"
 author: "Ill-Efficiency4579"
 published_at: "2026-09-17T04:21:21+08:00"
-captured_at: "2026-09-25T13:55:35+08:00"
+captured_at: "2026-09-26T10:01:34+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=9 · 赞踩比=0.72
 > 作者：Ill-Efficiency4579　|　发布：2026-09-17T04:21:21+08:00
 > 项目链接：<https://sopai.systems/>
-> 采集：2026-09-25T13:55:35+08:00　|　id：`87055c22b052dd55`
+> 采集：2026-09-26T10:01:34+08:00　|　id：`87055c22b052dd55`
 
 ## 正文
 

@@ -7,7 +7,7 @@ adapter: "github_new"
 auth: "cli"
 lang: "en"
 status: "ok"
-last_verified: "2026-09-25"
+last_verified: "2026-09-26"
 tags:
   - 渠道
   - 渠道/海外发布
@@ -47,3 +47,4 @@ params: {"window_days": 14, "min_stars": 20, "queries": ["created:>{since} stars
 | 2026-09-22T14:16:47+08:00 | ok | 11 | 15.3s | 28 repos;  |
 | 2026-09-25T00:00:06+08:00 | ok | 12 | 14.3s | 28 repos;  |
 | 2026-09-25T13:44:16+08:00 | ok | 12 | 7.8s | 28 repos;  |
+| 2026-09-26T09:43:47+08:00 | ok | 12 | 7.8s | 28 repos;  |

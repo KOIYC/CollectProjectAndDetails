@@ -2,7 +2,7 @@
 type: "project"
 title: "It's been 4 months but I still want to tell someone"
 project_url: "https://store.steampowered.com/app/4316940/The\\_Dice\\_Lodge"
-first_seen: "2026-09-25T13:56:01+08:00"
+first_seen: "2026-09-26T10:02:04+08:00"
 sources:
   - reddit
 tags:
@@ -20,7 +20,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://store.steampowered.com/app/4316940/The\_Dice\_Lodge>
-> 首次收录：2026-09-25T13:56:01+08:00
+> 首次收录：2026-09-26T10:02:04+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/indiedev, Discussion
 > 最新指标：得分=19 · 评论=9 · 赞踩比=1
@@ -39,6 +39,7 @@ lang: "en"
 | 2026-09-22T13:16:43+08:00 | Reddit 独立开发版块 | 得分=19 · 评论=9 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/bef5f02215a7068b_It's-been-4-months-but-I-still-want-to-tell-someon]] |
 | 2026-09-25T00:18:57+08:00 | Reddit 独立开发版块 | 得分=19 · 评论=9 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/bef5f02215a7068b_It's-been-4-months-but-I-still-want-to-tell-someon]] |
 | 2026-09-25T13:56:01+08:00 | Reddit 独立开发版块 | 得分=19 · 评论=9 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/bef5f02215a7068b_It's-been-4-months-but-I-still-want-to-tell-someon]] |
+| 2026-09-26T10:02:04+08:00 | Reddit 独立开发版块 | 得分=19 · 评论=9 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/bef5f02215a7068b_It's-been-4-months-but-I-still-want-to-tell-someon]] |
 
 ## 摘要正文
 

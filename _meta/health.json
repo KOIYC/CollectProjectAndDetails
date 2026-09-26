@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-09-25T13:42:16+08:00",
+ "checked_at": "2026-09-26T09:40:40+08:00",
  "channels": [
   {
    "channel_id": "hn_show",
@@ -10,16 +10,16 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 1.1,
-   "probe_at": "2026-09-25T13:36:29+08:00",
+   "elapsed_s": 1.4,
+   "probe_at": "2026-09-26T09:35:54+08:00",
    "sample": [
     {
-     "title": "Show HN: Zchyoom - Live-ish Shinkansen Map",
-     "url": "https://news.ycombinator.com/item?id=49839832"
+     "title": "Show HN: Tenjin – A Jev based x402 tool router for Claude Code",
+     "url": "https://news.ycombinator.com/item?id=49851853"
     },
     {
-     "title": "Show HN: Avoid smooth spinners, use low-FPS spinners",
-     "url": "https://news.ycombinator.com/item?id=49839672"
+     "title": "Show HN: A game about fake news and memes",
+     "url": "https://news.ycombinator.com/item?id=49851776"
     }
    ]
   },
@@ -32,16 +32,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
-   "elapsed_s": 17.0,
-   "probe_at": "2026-09-25T13:36:46+08:00",
+   "elapsed_s": 16.5,
+   "probe_at": "2026-09-26T09:36:10+08:00",
    "sample": [
     {
-     "title": "finally finished my dream game",
-     "url": "https://www.reddit.com/r/IndieDev/comments/1wgpj1m/finally_finished_my_dream_game/"
+     "title": "Working on a trailer for my game House Trap, looking for some feedback.",
+     "url": "https://www.reddit.com/r/IndieDev/comments/1whhxw2/working_on_a_trailer_for_my_game_house_trap/"
     },
     {
-     "title": "I added Mages to my RTS Prototype and now it's all the AI wants to build",
-     "url": "https://www.reddit.com/r/IndieDev/comments/1wgqwel/i_added_mages_to_my_rts_prototype_and_now_its_all/"
+     "title": "What should I name this little character?",
+     "url": "https://www.reddit.com/r/IndieDev/comments/1whglwj/what_should_i_name_this_little_character/"
     }
    ]
   },
@@ -54,8 +54,8 @@
    "status": "ok",
    "count": 3,
    "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 1.0,
-   "probe_at": "2026-09-25T13:36:47+08:00",
+   "elapsed_s": 9.2,
+   "probe_at": "2026-09-26T09:36:20+08:00",
    "sample": [
     {
      "title": "NandhaKishorM/laya",
@@ -76,16 +76,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 startups · 发布日 1/3",
-   "elapsed_s": 40.7,
-   "probe_at": "2026-09-25T13:37:28+08:00",
+   "elapsed_s": 36.9,
+   "probe_at": "2026-09-26T09:36:57+08:00",
    "sample": [
     {
-     "title": "Imaginemyhouse",
-     "url": "https://betalist.com/startups/imaginemyhouse"
+     "title": "Life Admin",
+     "url": "https://betalist.com/startups/life-admin"
     },
     {
-     "title": "Breakmoves",
-     "url": "https://betalist.com/startups/breakmoves"
+     "title": "Flamekeeper",
+     "url": "https://betalist.com/startups/flamekeeper"
     }
    ]
   },
@@ -97,13 +97,13 @@
    "group": "海外发布站",
    "status": "ok",
    "count": 3,
-   "message": "20 products",
-   "elapsed_s": 21.8,
-   "probe_at": "2026-09-25T13:37:49+08:00",
+   "message": "21 products",
+   "elapsed_s": 14.9,
+   "probe_at": "2026-09-26T09:37:11+08:00",
    "sample": [
     {
-     "title": "Plavtora",
-     "url": "https://www.indiehackers.com/product/plavtora"
+     "title": "Launchnest Ln 15",
+     "url": "https://www.indiehackers.com/product/launchnest-ln-15"
     },
     {
      "title": "Launchon It",
@@ -119,9 +119,9 @@
    "group": "海外社区",
    "status": "ok",
    "count": 3,
-   "message": "3 articles",
-   "elapsed_s": 3.3,
-   "probe_at": "2026-09-25T13:37:53+08:00",
+   "message": "4 articles",
+   "elapsed_s": 1.9,
+   "probe_at": "2026-09-26T09:37:13+08:00",
    "sample": [
     {
      "title": "i built a green blob that lives on my desktop. now it has feelings.",
@@ -143,15 +143,15 @@
    "count": 3,
    "message": "3 entries",
    "elapsed_s": 0.7,
-   "probe_at": "2026-09-25T13:37:53+08:00",
+   "probe_at": "2026-09-26T09:37:14+08:00",
    "sample": [
     {
-     "title": "LockLines",
-     "url": "https://www.producthunt.com/products/locklines"
+     "title": "Perfect Slice",
+     "url": "https://www.producthunt.com/products/perfect-slice"
     },
     {
-     "title": "Hookest",
-     "url": "https://www.producthunt.com/products/hookest"
+     "title": "Fit Receipt",
+     "url": "https://www.producthunt.com/products/fit-receipt"
     }
    ]
   },
@@ -164,16 +164,16 @@
    "status": "ok",
    "count": 3,
    "message": "20 topics",
-   "elapsed_s": 0.4,
-   "probe_at": "2026-09-25T13:37:54+08:00",
+   "elapsed_s": 1.1,
+   "probe_at": "2026-09-26T09:37:15+08:00",
    "sample": [
+    {
+     "title": "找工作太难了，拿练手做的网站毛遂自荐下",
+     "url": "https://www.v2ex.com/t/1244819"
+    },
     {
      "title": "新项目： OpenApp 开源了。",
      "url": "https://www.v2ex.com/t/1244631"
-    },
-    {
-     "title": "用 Swift 原生写了一款把“休息”做成仪式的番茄钟：多屏毛玻璃幕布、0 联网纯离线沙盒、一次买断（文末送码）",
-     "url": "https://www.v2ex.com/t/1244621"
     }
    ]
   },
@@ -185,17 +185,17 @@
    "group": "中文社媒",
    "status": "ok",
    "count": 3,
-   "message": "16 videos",
-   "elapsed_s": 0.2,
-   "probe_at": "2026-09-25T13:37:54+08:00",
+   "message": "8 videos",
+   "elapsed_s": 0.4,
+   "probe_at": "2026-09-26T09:37:15+08:00",
    "sample": [
     {
-     "title": "独立开发者不上班如何养活自己？收入如何？怎么接单？有什么要求？",
-     "url": "https://www.bilibili.com/video/BV1Tv411b7JZ"
+     "title": "一个土豆游戏，引爆独立开发者的AI噩梦",
+     "url": "https://www.bilibili.com/video/BV1mzaw6KEFf"
     },
     {
-     "title": "从0做出你的第一个App ｜ 零基础AI编程保姆教程",
-     "url": "https://www.bilibili.com/video/BV1sZMq6qEko"
+     "title": "【27届Unity客户端求职】独立开发的多人在线FPS，公网内测功能演示",
+     "url": "https://www.bilibili.com/video/BV1Ggh662Ezy"
     }
    ]
   },
@@ -208,8 +208,8 @@
    "status": "ok",
    "count": 3,
    "message": "9 entries · 收录日 9",
-   "elapsed_s": 1.3,
-   "probe_at": "2026-09-25T13:42:16+08:00",
+   "elapsed_s": 1.2,
+   "probe_at": "2026-09-26T09:37:17+08:00",
    "sample": [
     {
      "title": "Indie Hacker",
@@ -230,12 +230,12 @@
    "status": "ok",
    "count": 3,
    "message": "8 results",
-   "elapsed_s": 9.3,
-   "probe_at": "2026-09-25T13:39:48+08:00",
+   "elapsed_s": 13.5,
+   "probe_at": "2026-09-26T09:37:30+08:00",
    "sample": [
     {
-     "title": "\"Cosy Fantasy Farming Sim Dragon Shelter Takes Flight Today on PC!\" - Games Pres",
-     "url": "https://www.gamespress.com/Cosy-Fantasy-Farming-Sim-Dragon-Shelter-Takes-Flight-Today-on-PC"
+     "title": "\"[Now Available on Steam] Four Players Working Together, One Betrayer. “YOUR LIA",
+     "url": "https://www.gamespress.com/Now-Available-on-Steam-Four-Players-Working-Together-One-Betrayer-YOUR"
     },
     {
      "title": "Sputnika Game Officially Merges Onto Nintendo Switch Today - COGconnected",
@@ -251,9 +251,9 @@
    "group": "海外社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: ok: false\nerror:\n  code: BROWSER_CONNECT\n  message",
-   "elapsed_s": 51.3,
-   "probe_at": "2026-09-25T13:40:40+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: timeout>90s",
+   "elapsed_s": 91.1,
+   "probe_at": "2026-09-26T09:39:01+08:00",
    "sample": []
   },
   {
@@ -265,8 +265,8 @@
    "status": "auth",
    "count": 0,
    "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: ok: false\nerror:\n  code: BROWSER_CONNECT\n  message: Browser ",
-   "elapsed_s": 46.0,
-   "probe_at": "2026-09-25T13:41:26+08:00",
+   "elapsed_s": 49.7,
+   "probe_at": "2026-09-26T09:39:51+08:00",
    "sample": []
   }
  ],
@@ -277,9 +277,9 @@
    "status": "unusable",
    "declared": "ok",
    "delta": true,
-   "message": "ERR: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>",
-   "elapsed_s": 17.1,
-   "probe_at": "2026-09-25T13:42:02+08:00"
+   "message": "ERR: <urlopen error timed out>",
+   "elapsed_s": 20.0,
+   "probe_at": "2026-09-26T09:40:34+08:00"
   },
   {
    "backend": "arctic_shift",
@@ -288,8 +288,8 @@
    "declared": null,
    "delta": false,
    "message": "1 rows",
-   "elapsed_s": 1.3,
-   "probe_at": "2026-09-25T13:42:03+08:00"
+   "elapsed_s": 2.0,
+   "probe_at": "2026-09-26T09:40:36+08:00"
   },
   {
    "backend": "exa_web_fetch",
@@ -298,8 +298,8 @@
    "declared": "warn",
    "delta": false,
    "message": "1 url 返回正文",
-   "elapsed_s": 3.1,
-   "probe_at": "2026-09-25T13:42:06+08:00"
+   "elapsed_s": 3.4,
+   "probe_at": "2026-09-26T09:40:39+08:00"
   },
   {
    "backend": "github_gh",
@@ -308,8 +308,8 @@
    "declared": "warn",
    "delta": false,
    "message": "remaining=5000",
-   "elapsed_s": 0.8,
-   "probe_at": "2026-09-25T13:42:07+08:00"
+   "elapsed_s": 0.9,
+   "probe_at": "2026-09-26T09:40:40+08:00"
   }
  ],
  "summary": {
@@ -388,7 +388,7 @@
  ],
  "agent_reach": {
   "ok": true,
-  "checked_at": "2026-09-25T13:41:45+08:00"
+  "checked_at": "2026-09-26T09:40:14+08:00"
  },
  "deltas": [
   {
@@ -397,9 +397,9 @@
    "status": "unusable",
    "declared": "ok",
    "delta": true,
-   "message": "ERR: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>",
-   "elapsed_s": 17.1,
-   "probe_at": "2026-09-25T13:42:02+08:00"
+   "message": "ERR: <urlopen error timed out>",
+   "elapsed_s": 20.0,
+   "probe_at": "2026-09-26T09:40:34+08:00"
   }
  ]
 }

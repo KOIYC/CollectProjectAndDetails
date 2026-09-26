@@ -7,10 +7,10 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1widoj4/a_warby_parker_employee_found_my_qr_sticker_on/"
 author: "ReasonableFee95"
 published_at: "2026-09-17T07:43:08+08:00"
-captured_at: "2026-09-25T13:55:40+08:00"
+captured_at: "2026-09-26T10:01:41+08:00"
 lang: "en"
 kind: "post"
-topic: "开发者工具"
+topic: AI 工具/Agent
 shard: "2026-09-21"
 pub_day: "2026-09-17"
 tags:
@@ -19,7 +19,7 @@ tags:
   - r/EntrepreneurRideAlong
   - Ride Along Story
 metrics: {"score": 3, "comments": 7, "upvote_ratio": 0.81}
-comments_count: 6
+comments_count: 7
 comments_total: 7
 discovered_via: "reddit:7d+settle3"
 ---
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=7 · 赞踩比=0.81
 > 作者：ReasonableFee95　|　发布：2026-09-17T07:43:08+08:00
 > 项目链接：—
-> 采集：2026-09-25T13:55:40+08:00　|　id：`decece85653f19b5`
+> 采集：2026-09-26T10:01:41+08:00　|　id：`decece85653f19b5`
 
 ## 正文
 
@@ -57,7 +57,7 @@ also just finished rebuilding the whole site this week, fresh look front to back
 
 Last thing...I started a few other projects / businesses the last few months, one of which is doing really well to start..this woman adding something to One Tile just made me so much more motivated to pick back up. i literally was done with it thinking it would never work..she gave me hope on it
 
-## 评论（6/7）
+## 评论（7/7）
 
 > **-_-ITACHI_**（1 分） · 2026-09-17T13:05:53+08:00　
 > Crazy how one random user can reignite the whole project. Have you thought about partnering with local businesses to distribute the QR stickers at scale?
@@ -91,9 +91,14 @@ Last thing...I started a few other projects / businesses the last few months, on
 >
 > Wish I could share the link but if you google search One Tile I’m ranked I believe 2 right now
 
+---
+
+> **stealthagents**（1 分） · 2026-09-26T03:49:46+08:00　
+> That's awesome how one little interaction can spark so much! Partnering with local businesses could be a game-changer, especially if they promote your project too. Imagine having those QR stickers all over town, getting more people involved.
+
 ## 导航
 
 - 项目页：—（本条不是项目，按设计不建实体页）
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

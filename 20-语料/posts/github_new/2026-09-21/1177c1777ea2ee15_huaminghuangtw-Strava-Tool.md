@@ -8,7 +8,7 @@ url: "https://github.com/huaminghuangtw/Strava-Tool"
 project_url: "https://github.com/huaminghuangtw/Strava-Tool"
 author: "huaminghuangtw"
 published_at: "2021-03-08T01:39:25Z"
-captured_at: "2026-09-25T13:54:35+08:00"
+captured_at: "2026-09-26T10:00:28+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -36,7 +36,7 @@ discovered_via: "github:14d"
 > 指标：stars=12 · forks=2 · open_issues=0
 > 作者：huaminghuangtw　|　发布：2021-03-08T01:39:25Z
 > 项目链接：<https://github.com/huaminghuangtw/Strava-Tool>
-> 采集：2026-09-25T13:54:35+08:00　|　id：`1177c1777ea2ee15`
+> 采集：2026-09-26T10:00:28+08:00　|　id：`1177c1777ea2ee15`
 
 ## 正文
 

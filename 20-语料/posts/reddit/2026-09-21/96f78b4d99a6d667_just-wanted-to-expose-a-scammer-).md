@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/IndieDev/comments/1wid9wa/just_wanted_to_expose_a_scammer/"
 author: "ggtfim"
 published_at: "2026-09-17T07:25:16+08:00"
-captured_at: "2026-09-25T13:55:12+08:00"
+captured_at: "2026-09-26T10:01:07+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=104 · 评论=11 · 赞踩比=0.98
 > 作者：ggtfim　|　发布：2026-09-17T07:25:16+08:00
 > 项目链接：—
-> 采集：2026-09-25T13:55:12+08:00　|　id：`96f78b4d99a6d667`
+> 采集：2026-09-26T10:01:07+08:00　|　id：`96f78b4d99a6d667`
 
 ## 正文
 

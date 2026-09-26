@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1tsx103/need_more_landing_page_conversions/"
 author: "Secure-Composer-9458"
 published_at: "2026-05-31T22:35:24+08:00"
-captured_at: "2026-09-25T13:55:54+08:00"
+captured_at: "2026-09-26T10:01:58+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -35,7 +35,7 @@ discovered_via: "reddit:144d+settle3"
 > 指标：得分=3 · 评论=4 · 赞踩比=1
 > 作者：Secure-Composer-9458　|　发布：2026-05-31T22:35:24+08:00
 > 项目链接：—
-> 采集：2026-09-25T13:55:54+08:00　|　id：`4b27ff87e171bde8`
+> 采集：2026-09-26T10:01:58+08:00　|　id：`4b27ff87e171bde8`
 
 ## 正文
 

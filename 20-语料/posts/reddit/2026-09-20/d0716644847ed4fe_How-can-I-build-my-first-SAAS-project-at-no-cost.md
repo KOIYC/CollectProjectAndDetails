@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1wieuaf/how_can_i_build_my_first_saas_project_at_no_cost/"
 author: "Adventurous_Bee2109"
 published_at: "2026-09-17T08:33:28+08:00"
-captured_at: "2026-09-25T13:55:17+08:00"
+captured_at: "2026-09-26T10:01:12+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=6 · 评论=49 · 赞踩比=0.64
 > 作者：Adventurous_Bee2109　|　发布：2026-09-17T08:33:28+08:00
 > 项目链接：—
-> 采集：2026-09-25T13:55:17+08:00　|　id：`d0716644847ed4fe`
+> 采集：2026-09-26T10:01:12+08:00　|　id：`d0716644847ed4fe`
 
 ## 正文
 

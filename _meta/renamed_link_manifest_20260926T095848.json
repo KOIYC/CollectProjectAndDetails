@@ -1,0 +1,15 @@
+{
+  "at": "2026-09-26T09:58:48+08:00",
+  "kind": "renamed_link",
+  "note": "语料页改名后悬空链接的改写（旧页已删，按 seen.note 反算规范名）",
+  "pairs": [
+    {
+      "from": "7c7187ae2983b0f7_Basedash-Models",
+      "to": "20-语料/posts/producthunt/2026-09-20/7c7187ae2983b0f7_Basedash-MCP-write"
+    },
+    {
+      "from": "9fd77305a44d280c_I-made-$88K-with-my-saas-as-a-solo-founder",
+      "to": "20-语料/posts/reddit/2026-09-21/9fd77305a44d280c_I-made-$88K-with-my-saas-as-a-solo-founder"
+    }
+  ]
+}

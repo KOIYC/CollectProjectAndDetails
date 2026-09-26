@@ -8,7 +8,7 @@ url: "https://github.com/emarco177/dandi"
 project_url: "https://dandi.cloud/"
 author: "emarco177"
 published_at: "2024-09-02T19:37:45Z"
-captured_at: "2026-09-25T13:54:34+08:00"
+captured_at: "2026-09-26T10:00:28+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -36,7 +36,7 @@ discovered_via: "github:14d"
 > 指标：stars=162 · forks=74 · open_issues=0
 > 作者：emarco177　|　发布：2024-09-02T19:37:45Z
 > 项目链接：<https://dandi.cloud/>
-> 采集：2026-09-25T13:54:34+08:00　|　id：`7bfb6e055c517164`
+> 采集：2026-09-26T10:00:28+08:00　|　id：`7bfb6e055c517164`
 
 ## 正文
 

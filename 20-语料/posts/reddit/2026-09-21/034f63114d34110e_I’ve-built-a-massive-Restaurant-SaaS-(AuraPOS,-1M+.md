@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1tsys9x/ive_built_a_massive_restaurant_saas_aurapos_1m/"
 author: "Business-Rub-4129"
 published_at: "2026-05-31T23:42:32+08:00"
-captured_at: "2026-09-25T13:55:52+08:00"
+captured_at: "2026-09-26T10:01:53+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -34,7 +34,7 @@ discovered_via: "reddit:144d+settle3"
 > 指标：得分=3 · 评论=3 · 赞踩比=1
 > 作者：Business-Rub-4129　|　发布：2026-05-31T23:42:32+08:00
 > 项目链接：—
-> 采集：2026-09-25T13:55:52+08:00　|　id：`034f63114d34110e`
+> 采集：2026-09-26T10:01:53+08:00　|　id：`034f63114d34110e`
 
 ## 正文
 

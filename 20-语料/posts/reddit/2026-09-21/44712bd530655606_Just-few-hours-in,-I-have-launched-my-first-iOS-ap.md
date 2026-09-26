@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/buildinpublic/comments/1v6d5ae/just_few_hours_in_i_have_launched_my_first_ios/"
 author: "Odd_Courage2344"
 published_at: "2026-07-26T00:40:45+08:00"
-captured_at: "2026-09-25T13:56:09+08:00"
+captured_at: "2026-09-26T10:02:12+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -34,7 +34,7 @@ discovered_via: "reddit:83d+settle3"
 > 指标：得分=31 · 评论=36 · 赞踩比=0.95
 > 作者：Odd_Courage2344　|　发布：2026-07-26T00:40:45+08:00
 > 项目链接：—
-> 采集：2026-09-25T13:56:09+08:00　|　id：`44712bd530655606`
+> 采集：2026-09-26T10:02:12+08:00　|　id：`44712bd530655606`
 
 ## 正文
 

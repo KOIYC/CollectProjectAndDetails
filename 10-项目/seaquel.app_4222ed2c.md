@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Put a Run Button on the SQL in Your Blog Posts"
 project_url: "https://seaquel.app/blog/run-sql-in-your-blog-posts"
-first_seen: "2026-09-25T13:42:25+08:00"
+first_seen: "2026-09-26T10:00:28+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://seaquel.app/blog/run-sql-in-your-blog-posts>
-> 首次收录：2026-09-25T13:42:25+08:00
+> 首次收录：2026-09-26T10:00:28+08:00
 > 来源渠道：HN Show HN
 > 标签：author_mikenikles, story_49834998, show_hn
 > 最新指标：点赞=4 · 评论=0 · engagement_velocity=4
@@ -31,6 +31,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-25T13:42:25+08:00 | HN Show HN | 点赞=4 · 评论=0 · engagement_velocity=4 | [[20-语料/posts/hn_show/2026-09-25/67a4355a563c60f0_Show-HN-Put-a-Run-Button-on-the-SQL-in-Your-Blog-P]] |
+| 2026-09-26T10:00:28+08:00 | HN Show HN | 点赞=4 · 评论=0 · engagement_velocity=4 | [[20-语料/posts/hn_show/2026-09-25/67a4355a563c60f0_Show-HN-Put-a-Run-Button-on-the-SQL-in-Your-Blog-P]] |
 
 ## 摘要正文
 

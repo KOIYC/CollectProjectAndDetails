@@ -2,14 +2,14 @@
 type: "project"
 title: "NandhaKishorM/laya"
 project_url: "https://huggingface.co/convaiinnovations/laya"
-first_seen: "2026-09-25T13:54:35+08:00"
+first_seen: "2026-09-26T09:43:40+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - Python
-  - created:>2026-09-11
+  - created:>2026-09-12
 lang: "en"
 ---
 
@@ -20,10 +20,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://huggingface.co/convaiinnovations/laya>
-> 首次收录：2026-09-25T13:54:35+08:00
+> 首次收录：2026-09-26T09:43:40+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：Python, created:>2026-09-11
-> 最新指标：stars=23394 · forks=2022 · open_issues=149
+> 标签：Python, created:>2026-09-12
+> 最新指标：stars=24690 · forks=2128 · open_issues=151
 
 ## 观测历史
 
@@ -40,6 +40,7 @@ lang: "en"
 | 2026-09-25T00:12:57+08:00 | GitHub 新星仓库 | stars=22439 · forks=1923 · open_issues=130 | [[20-语料/posts/github_new/2026-09-21/e6a3c3f817cf5690_NandhaKishorM-laya]] |
 | 2026-09-25T13:44:10+08:00 | GitHub 新星仓库 | stars=23394 · forks=2022 · open_issues=149 | [[20-语料/posts/github_new/2026-09-21/e6a3c3f817cf5690_NandhaKishorM-laya]] |
 | 2026-09-25T13:54:35+08:00 | GitHub 新星仓库 | stars=23394 · forks=2022 · open_issues=149 | [[20-语料/posts/github_new/2026-09-21/e6a3c3f817cf5690_NandhaKishorM-laya]] |
+| 2026-09-26T09:43:40+08:00 | GitHub 新星仓库 | stars=24690 · forks=2128 · open_issues=151 | [[20-语料/posts/github_new/2026-09-21/e6a3c3f817cf5690_NandhaKishorM-laya]] |
 
 ## 摘要正文
 

@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49834998"
 project_url: "https://seaquel.app/blog/run-sql-in-your-blog-posts"
 author: "mikenikles"
 published_at: "2026-09-24T18:37:16Z"
-captured_at: "2026-09-25T13:42:25+08:00"
+captured_at: "2026-09-26T10:00:28+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=4 · 评论=0 · engagement_velocity=4
 > 作者：mikenikles　|　发布：2026-09-24T18:37:16Z
 > 项目链接：<https://seaquel.app/blog/run-sql-in-your-blog-posts>
-> 采集：2026-09-25T13:42:25+08:00　|　id：`67a4355a563c60f0`
+> 采集：2026-09-26T10:00:28+08:00　|　id：`67a4355a563c60f0`
 
 ## 正文
 
@@ -199,6 +199,7 @@ Liked this? Get the next one.
 Seaquel
  The modern database client built for speed, efficiency, and
  intelligence. Open source.
+Built by Mike Nikles
 Product
  Features
  All Features
@@ -208,12 +209,13 @@ Product
  Download
  Changelog
 Resources
+ About
  Blog
  GitHub
  Discord Community
  Report Issue
  Metrics
-© 2026 Seaquel. MIT Licensed.
+© 2026 Seaquel. Source code MIT licensed .
  Terms Privacy
 svg]:px-2.5 gap-2" href="/download"> Download Seaquel
 

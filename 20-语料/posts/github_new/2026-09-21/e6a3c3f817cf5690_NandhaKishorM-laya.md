@@ -8,7 +8,7 @@ url: "https://github.com/NandhaKishorM/laya"
 project_url: "https://huggingface.co/convaiinnovations/laya"
 author: "NandhaKishorM"
 published_at: "2026-09-18T04:46:33Z"
-captured_at: "2026-09-25T13:54:35+08:00"
+captured_at: "2026-09-26T09:43:40+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - Python
-  - created:>2026-09-11
-metrics: {"stars": 23394, "forks": 2022, "open_issues": 149}
+  - created:>2026-09-12
+metrics: {"stars": 24690, "forks": 2128, "open_issues": 151}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/NandhaKishorM/laya>
-> 指标：stars=23394 · forks=2022 · open_issues=149
+> 指标：stars=24690 · forks=2128 · open_issues=151
 > 作者：NandhaKishorM　|　发布：2026-09-18T04:46:33Z
 > 项目链接：<https://huggingface.co/convaiinnovations/laya>
-> 采集：2026-09-25T13:54:35+08:00　|　id：`e6a3c3f817cf5690`
+> 采集：2026-09-26T09:43:40+08:00　|　id：`e6a3c3f817cf5690`
 
 ## 正文
 
@@ -175,6 +175,18 @@ py -3.11 -m venv .venv
 
 Both checks print the installed Laya version without loading a checkpoint. `-I` excludes the current directory from the import search path, so a local source copy cannot mask a missing installation. Keep using the same virtual environment's Python when running your application.
 
+**Intel GPU (XPU)**
+
+Install a supported Intel GPU driver first. For an XPU-enabled PyTorch build, install its wheel before Laya; the default PyPI wheel may be CPU-only. PyTorch's validated hardware and OS list is in the [Intel GPU guide](https://docs.pytorch.org/docs/2.14/notes/get_start_xpu.html).
+
+```powershell
+.\.venv\Scripts\python.exe -m pip install torch --index-url https://download.pytorch.org/whl/xpu
+.\.venv\Scripts\python.exe -m pip install laya
+.\.venv\Scripts\python.exe -c "import torch; print(torch.xpu.is_available())"
+```
+
+For a source checkout, replace `pip install laya` with `pip install -e .`. Laya automatically selects an available XPU when no device is specified; you can also request one explicitly with `device="xpu"` in `laya.load()` or `Router(device="xpu")`.
+
 **Install from GitHub**
 
 To use the development version instead of the PyPI release, create the virtual environment above and replace its installation command with the appropriate command below. Git must be installed.
@@ -219,15 +231,16 @@ Routing alone never downloads a checkpoint, so it returns in milliseconds. `--pr
 ## Try it locally: web GUI + JSON API
 
 `examples/server.py` is a self-contained FastAPI app for testing Laya without writing any code:
-a request builder (or a raw-JSON paste box) that renders `choice`/`score`/`noul` answers as
-0-100 bars, plus a plain JSON API (`/predict`, `/predict/batch`) for scripting against.
+a two-pane playground (edit the request as a form or as JSON, run it with Ctrl+Enter, read each
+answer's full distribution and calibrated confidence, copy it as curl or Python), plus a plain
+JSON API (`/predict`, `/predict/batch`) for scripting against.
 
 ```bash
 pip install "laya[serve]"
 python examples/server.py               # http://127.0.0.1:8000
 ```
 
-Open `http://127.0.0.1:8000` in a browser for the builder UI, or hit it directly:
+Open `http://127.0.0.1:8000` in a browser for the playground, or hit it directly:
 
 ```bash
 curl -s localhost:8000/predict -H 'content-type: application/json' -d '{
@@ -569,6 +582,38 @@ batched (measured ~9–10×). On CPU, increasing batch size alone may not speed 
 length grouping can help by reducing the padded work in a mixed-length workload. See the
 [CPU measurements and reproduction commands](research/README.md#length-batching).
 
+### Long documents: `predict_long`
+
+`predict`/`system_one` truncate a state that exceeds `max_len` to a single window (the first, or
+for a conversation list the last), silently dropping the rest. `predict_long` scans the whole state
+in overlapping windows, scores them in shared forward passes (via `predict_batch`), and aggregates
+per question:
+
+```python
+result = agent.predict_long(state, questions)              # windows the state, one result back
+result = agent.predict_long(state, questions, window=256)  # smaller window isolates a localized span
+```
+
+- `noul` takes the strongest window (the statement holds if any window supports it).
+- `choice` / `score` take the most-confident window — averaging over a long, mostly-neutral
+  document lets the neutral majority out-vote the one window that saw the deciding span.
+- A state that already fits one window is passed straight to `system_one` (identical output).
+
+A smaller `window` isolates a short deciding span better (it becomes a larger fraction of its
+window); the default (`max_len - head_max_len`) favors context and throughput. Output shape matches
+`predict`, with `usage["windows"]` added.
+
+The returned probability is the deciding window's, **not a calibrated number for the whole
+document** — a `noul` max drifts up with the window count even with no signal, and `choice` can land
+on a confidently-neutral window when nothing is decisive. Each answer carries `answer["window"]`
+(the deciding window's `index`, `token_start`/`token_end`, and `count`) so you can check the span
+the answer actually came from:
+
+```python
+r = agent.predict_long(state, questions)
+r["answers"]["refund"]["window"]   # {'index': 13, 'token_start': 4680, 'token_end': 5432, 'count': 14}
+```
+
 ---
 
 ## GPU Fast Path (TileLang)
@@ -587,6 +632,8 @@ agent.predict(state, questions)                            # same API, same answ
 Numerics: on a fixed set of 60 states the fast path stays within 0.046 of an fp32 forward and within 0.076 of the stock
 bf16 path (max |Δp| ≤ 0.05 vs fp32 on both checkpoints, argmax agreement ≥ 47/48 per question type; every per-option
 probability is in `benchmarks/results/parity_*.json`) — see `benchmarks/parity_fast.py` and [BENCHMARKS.md](BENCHMARKS.md#gpu-fast-path).
+The fast path runs in the agent's autocast dtype at the time `accelerate()` is called: bf16 by default, fp16 if
+`agent.dtype` is `torch.float16`, where it stays within 0.009 of fp32 on the same set ([BENCHMARKS.md](BENCHMARKS.md#fp16)).
 Falls back to the stock forward on CPU/MPS or when `tilelang` is not installed; `agent.deaccelerate()`
 restores it. Kernels compile once per shape bucket on first use (a few seconds, cached on disk).
 
@@ -607,6 +654,8 @@ else:
 ```
 
 A threshold is a policy you choose from measured accuracy at that coverage on your data, not a property of the model. Both checkpoints are over-confident as shipped and `laya-multilingual` has no fitted temperatures at all, so fit them before relying on these numbers — see [Calibration](#calibration) above, and the [fine-tuning notebook](notebooks/laya_finetune_typed_decisions_2xT4_kaggle.ipynb) for the fitting loop itself. Then pick the point where the errors you accept are ones you can live with. Confidence orders decisions; it does not establish that a decision is correct.
+
+A threshold also depends on the autocast dtype. On CUDA at compute capability 8 or above the runtime uses the checkpoint's `amp_dtype`, which is bf16 for all three shipped checkpoints. On the fixed set from `benchmarks/parity_fast.py` (60 states, 288 questions per checkpoint, RTX 2000 Ada) bf16 moves a probability by up to 0.073 against the fp32 forward and flips 3 of 864 argmaxes across the three checkpoints; fp16 stays within 0.019 and flips none, at the same latency. `LAYA_CUDA_AMP=fp16` selects fp16 and `LAYA_CUDA_AMP=bf16` selects bf16 (`LAYA_CPU_AMP=bf16` is the CPU counterpart). Fit and measure a threshold in the dtype you serve with.
 
 ---
 
@@ -747,7 +796,7 @@ override on your own data rather than treating `A`/`B` as a universal fix.
 
 Laya can be exposed as an [MCP](https://modelcontextprotocol.io) stdio server, so any MCP
 client (OpenClaw, Claude Desktop, Cursor, ...) can call typed decisions as tools
-(`laya_predict`, `laya_route`, `laya_preset`, `laya_status`) without writing glue code.
+(`laya_predict`, `laya_route`, `laya_shortlist`, `laya_preset`, `laya_status`) without writing glue code.
 This is an **optional extra**: the core package has no `mcp` dependency.
 
 ```bash
@@ -780,15 +829,41 @@ package:
 | `LAYA_THREADS` | (torch default) | Same as `laya.serve`: cap torch intra-op threads for CPU inference; keep it at or below the physical core count |
 
 The tools return structured JSON (answers with probabilities, routing metadata, device,
-`latency_ms`). As with the SDK, use it for structured decisions only; not for open Q&A or
+`latency_ms`). `laya_shortlist` is the MCP form of [`predict_shortlist`](#honest-limits):
+it shortlists a many-option choice question to its `k` most likely labels by embedding
+similarity (mean-pooled from the answering checkpoint's own encoder, so no extra model is
+downloaded), answers in one forward pass, and returns per-question shortlist metadata
+(kept labels, cosine scores, `k`, option count). The guardrails shown on every decision
+tool point clients here for >20-option choices. As with the SDK, use it for structured
+decisions only; not for open Q&A or
 text generation. Tests: `tests/test_mcp.py` (CI, no weights) and
 `tests/test_mcp_local_e2e.py` (local, real weights and a real stdio handshake).
 
 ---
 
+## Evaluation harness
+
+`laya.evals` scores a labelled dataset and gates a build on it, so a quality change is a
+reviewable diff instead of a hand-check. It is pure Python plus numpy, imports no torch, and
+needs no weights until you point it at a checkpoint.
+
+```bash
+laya-evals validate research/evals/fixture.jsonl
+laya-evals run data.jsonl --model english --min-accuracy 0.8 --max-ece 0.05 --slice language
+laya-evals run data.jsonl --baseline baseline.json --tolerance choice_accuracy=0.02 --json report.json
+```
+
+`run` reports overall and per-slice metrics (`choice_accuracy`, `noul_accuracy`, `score_mae`,
+`ece`, `mean_confidence`, latency) and exits non-zero on a threshold or baseline failure, so it
+drops into CI unchanged. A weight-free job runs the metric and API tests on every PR, and a
+scheduled workflow evaluates the English checkpoint against the committed baseline. See
+[**`docs/evals.md`**](docs/evals.md) for the dataset format and the gate.
+
+---
+
 ## Benchmarks
 
-Community diagnostic: [Chinese workplace decisions (Feishu-style)](research/benchmarks/feishu_zh/README.md) · [中文说明](research/benchmarks/feishu_zh/README.zh-CN.md). Includes frozen synthetic cases, archived paired Laya/Jev responses, and an offline audit; separate from the benchmark suites below.
+Community diagnostics: [Chinese workplace decisions (Feishu-style)](research/benchmarks/feishu_zh/README.md) · [中文说明](research/benchmarks/feishu_zh/README.zh-CN.md). Includes frozen synthetic cases, archived paired Laya/Jev responses, and an offline audit; separate from the benchmark suites below. Also [Chinese short-command routing](research/benchmarks/zh_short_commands/README.md) · [中文说明](research/benchmarks/zh_short_commands/README.zh-CN.md): 18 frozen commands and a seven-rung ablation of the documented prompt guidance, which locates the accuracy loss on the four-question path rather than the six-option one.
 
 **Full report: [`BENCHMARKS.md`](BENCHMARKS.md)** — every run consolidated, languages and themes, with per-language detail for all 51 languages.
 
@@ -956,6 +1031,8 @@ result["shortlist"]["intent"]["labels"]  # the top 20 labels sent to the model
 
 `embed_fn(texts)` returns one vector per string. `embed_fn_from_agent` mean-pools the encoder already loaded on the agent; the decision head runs in the following `predict` / `system_one` call. Probabilities on a shortlisted choice are over those `k` labels. When `k` is at least the number of labels, the original question is passed through and `embed_fn` is not called.
 
+Shortlisting the same option set on every request re-embeds option texts that do not change. Wrap the embedder once with `laya.cached_embed_fn(embed_fn)` and repeat calls embed only the new query text: lookups are exact string matches into an LRU of at most 4,096 entries (about `maxsize * dim * 4` bytes, so ~12 MB at the default with a 768-dim encoder), and texts missing from the cache are still embedded in one batched call. The wrapper's `cache_info()` reports hits and misses; call `cache_clear()` if the model behind `embed_fn` changes.
+
 [Issue #102](https://github.com/NandhaKishorM/laya/issues/102) reports that a top-20 zero-shot shortlist moved a BANKING77 run from 54.3% to 60.8% on the reporter's setup. Those figures are the reporter's; this repository has not remeasured them.
 
 * Ordinal `score` questions are the weakest primitive (SST-5 0.372).
@@ -990,79 +1067,7 @@ result["shortlist"]["intent"]["labels"]  # the top 20 labels sent to the model
 
 ## Community Tools
 
-* **[omp-laya-judge](https://github.com/F0Rextasy/omp-laya-judge)**: an [oh-my-pi](https://github.com/can1357/oh-my-pi) plugin with a local System-1 judge MCP server and skill (`choice`/`bool`/`score`, 0 tokens, about 0.3 s on CPU), confidence-gated escalation, and reproducible quiz and Snake demos.
-* **[laya-adk-toolkit](https://github.com/Ashfaqbs/laya-adk-toolkit)**: [Google ADK](https://google.github.io/adk-docs/) tools that let an agent call Laya's `classify`/`score`/`detect` typed decisions directly as tools, instead of asking an LLM to guess at structured output.
-* **[laya-Ascend](https://github.com/zzhdbw/laya-Ascend)**: Laya on Huawei Ascend NPUs through `torch-npu`, with a CPU vs NPU benchmark (34x to 71x faster at batch size 1), a setup guide, and Snake and Tetris demos.
-* **[laya-apple](https://github.com/tc3oliver/laya-apple)**: a correctness-validated Laya runtime for Apple silicon that uses the MLX GPU and the Apple Neural Engine, with automatic routing and concurrent heterogeneous serving.
-* **[stuntd](https://github.com/bladedevoff/stuntd)**: runs Laya locally behind the Jev API (`POST /v1/systemone`, no key) and trains a head per decision on the frozen encoder from your own labelled rows, with a calibrated confidence threshold (a 12-label intent task: 89.5% zero-shot to 100% trained).
-
----
-
-## Live Demo & Resources
-
-* **Hugging Face Model:** [convaiinnovations/laya](https://huggingface.co/convaiinnovations/laya)
-* **Interactive Web Demo:** [convaiinnovations/laya-demo](https://huggingface.co/spaces/convaiinnovations/laya-demo)
-* **Engineering Writeup:** [Read the full story on Dev.to](https://dev.to/nandakishor_m_6cc0adfde9f/i-built-non-autoregressive-decision-models-a-year-ago-then-a-frontier-lab-called-it-a-18me)
-
----
-
-## Fine-Tuning
-
-Fine-tune Laya on your own domain data. The notebook runs on Kaggle's free 2xT4 GPUs and does
-the whole loop: build the dataset, train with RLCD (proper-scoring-rule rewards, GRPO-style
-policy gradient), fit calibration temperatures, evaluate, and push the result to the Hub.
-
-* **[`notebooks/laya_finetune_typed_decisions_2xT4_kaggle.ipynb`](notebooks/laya_finetune_typed_decisions_2xT4_kaggle.ipynb)**
-
-The notebook enables gradient checkpointing on both the encoder and the decision head.
-For custom training loops, `model.head_checkpointing = True` enables activation
-checkpointing for the decision-head layers; enable the encoder's gradient checkpointing
-separately. During gradient-enabled training, this reduces stored intermediate activations
-by recomputing them during backward, trading extra computation for lower activation memory.
-The head flag defaults to `False` and is bypassed in evaluation and under `torch.no_grad()`.
-
-The notebook fits one `temperature` per type (`choice`, `score`, `noul`) and removes inherited
-`temperature_by_options` from the exported config. Otherwise those old bucket values take
-precedence at inference and silently mask the new fit. Existing checkpoints still honor
-intentional bucket-specific temperatures, falling back to the corresponding per-type value
-when a bucket is absent; the runtime's temperature clamp is unchanged.
-
-This fixes configuration persistence, not measured model accuracy or calibration quality.
-The notebook's calibration samples come from its training items; evaluate on separate held-out
-data before claiming an improvement. Already published checkpoints are not rewritten.
-Run the CPU-only regression checks with `python tests/test_calibration_persistence.py`
-(synthetic configs and tiny local fixtures; no pretrained downloads or training).
-
-Fine-tuning is where most of the value is. On the typed-decisions benchmark the base
-checkpoints score near chance zero-shot (0.36 and 0.35 against a 0.318 random baseline),
-while the fine-tuned checkpoint reaches **0.766** on the same 2,000 decisions -- above
-TypeSafe Jev's published 0.727 and above the 0.735 teacher self-agreement ceiling. Treat Laya
-as a fast base to specialise, not as a zero-shot decision engine.
-
-Runtime on 2xT4 is roughly 4-5 hours for 4 epochs over ~30k questions.
-
-### Worked example: a browser-agent decision head
-
-[`docs/finetune_browser_agent.md`](docs/finetune_browser_agent.md) records a complete specialisation
-on a single 16 GB GPU with no paid API: Laya as the operation/target decider for
-[browser-use/jev-ultrafast](https://github.com/browser-use/jev-ultrafast) (same request format as
-TypeSafe Jev). Element top-1 among ~45 candidates goes from 0.10 zero-shot to 0.66, real-task
-success from 0 % to 62 % at 17-23 ms per step; weights, pipeline code and per-run results are on
-the Hub at [cklxx/laya-browser](https://huggingface.co/cklxx/laya-browser). The write-up covers the
-data recipe (reverse-generated goals, executed DONE states, Mind2Web, on-policy corrections), the
-input-format change that mattered most, and the things that did not work.
-
----
-
-## Support the Project
-
-If Laya helps your research or products, consider supporting independent research:
-
----
-
-## License
-
-Apache 2.0. Developed by Convai Innovations.
+* **[omp-laya-judge](https://github.com/F0Rextasy/omp-laya-judge)**: an [oh-my-pi](https://github.com/can1357/oh-my-pi) plugin with a local System-1 judge MCP server and skill (`choice`/`bool`/`score`, 0 tokens, about 0.3 s on CPU), confidence-gated escalatio
 
 ## 关联链接
 
@@ -1071,8 +1076,9 @@ Apache 2.0. Developed by Convai Innovations.
 - https://colab.research.google.com/assets/colab-badge.svg
 - https://colab.research.google.com/drive/15d4Yv__KHeHjshVb-6PRTfqVllxih2S3?usp=sharing
 - https://dev.to/nandakishor_m_6cc0adfde9f/i-built-non-autoregressive-decision-models-a-year-ago-then-a-frontier-lab-called-it-a-18me
+- https://docs.pytorch.org/docs/2.14/notes/get_start_xpu.html
+- https://download.pytorch.org/whl/xpu
 - https://github.com/AbdelStark/jev-benchmarks
-- https://github.com/Ashfaqbs/laya-adk-toolkit
 - https://github.com/F0Rextasy/omp-laya-judge
 - https://github.com/NandhaKishorM/laya.git
 - https://github.com/NandhaKishorM/laya/blob/main/notebooks/laya_finetune_typed_decisions_2xT4_kaggle.ipynb
@@ -1080,17 +1086,16 @@ Apache 2.0. Developed by Convai Innovations.
 - https://github.com/NandhaKishorM/laya/issues/102
 - https://github.com/NandhaKishorM/laya/issues/156
 - https://github.com/NandhaKishorM/laya/issues/377
-- https://github.com/bladedevoff/stuntd
-- https://github.com/browser-use/jev-ultrafast
 - https://github.com/can1357/oh-my-pi
 - https://github.com/getmissionctrl/hs-jev
 - https://github.com/nibzard/decision-model-benchmark
-- https://github.com/tc3oliver/laya-apple
 - https://github.com/tile-ai/tilelang
-- https://github.com/zzhdbw/laya-Ascend
-- https://google.github.io/adk-docs/
-- https://huggingface.co/cklxx/laya-browser
 - https://huggingface.co/convaiinnovations/laya-multilingual
+- https://huggingface.co/convaiinnovations/laya-typed-decisions
+- https://huggingface.co/spaces/convaiinnovations/laya-demo
+- https://img.shields.io/badge/%F0%9F%A4%97%20Model-convaiinnovations%2Flaya-blue
+- https://img.shields.io/badge/%F0%9F%A4%97%20Model-laya--multilingual-blue
+- https://img.shields.io/badge/%F0%9F%A4%97%20Space-laya--demo-orange
 
 ## 导航
 

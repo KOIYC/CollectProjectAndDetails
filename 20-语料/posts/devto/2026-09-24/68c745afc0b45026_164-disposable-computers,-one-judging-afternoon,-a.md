@@ -8,7 +8,7 @@ url: "https://dev.to/lolocoding/164-disposable-computers-one-judging-afternoon-a
 project_url: "https://github.com/laurenelee/hackjudge"
 author: "Lauren Lee👩🏼‍💻"
 published_at: "2026-09-18T16:16:42Z"
-captured_at: "2026-09-25T13:46:46+08:00"
+captured_at: "2026-09-26T09:46:39+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -21,7 +21,7 @@ tags:
   - showdev
   - opensource
   - devrel
-metrics: {"reactions": 11, "comments": 1, "reading_time": 9}
+metrics: {"reactions": 12, "comments": 1, "reading_time": 9}
 comments_count: 1
 comments_total: 1
 discovered_via: "devto:showdev"
@@ -35,10 +35,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/lolocoding/164-disposable-computers-one-judging-afternoon-and-a-question-nobody-had-time-to-ask-19da>
-> 指标：reactions=11 · 评论=1 · reading_time=9
+> 指标：reactions=12 · 评论=1 · reading_time=9
 > 作者：Lauren Lee👩🏼‍💻　|　发布：2026-09-18T16:16:42Z
 > 项目链接：<https://github.com/laurenelee/hackjudge>
-> 采集：2026-09-25T13:46:46+08:00　|　id：`68c745afc0b45026`
+> 采集：2026-09-26T09:46:39+08:00　|　id：`68c745afc0b45026`
 
 ## 正文
 

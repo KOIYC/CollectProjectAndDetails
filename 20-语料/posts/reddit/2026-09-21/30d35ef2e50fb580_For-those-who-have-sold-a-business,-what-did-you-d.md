@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1wicije/for_those_who_have_sold_a_business_what_did_you/"
 author: "Mission-Jacket7155"
 published_at: "2026-09-17T06:53:14+08:00"
-captured_at: "2026-09-25T13:55:41+08:00"
+captured_at: "2026-09-26T10:01:43+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=17 · 赞踩比=0.72
 > 作者：Mission-Jacket7155　|　发布：2026-09-17T06:53:14+08:00
 > 项目链接：—
-> 采集：2026-09-25T13:55:41+08:00　|　id：`30d35ef2e50fb580`
+> 采集：2026-09-26T10:01:43+08:00　|　id：`30d35ef2e50fb580`
 
 ## 正文
 

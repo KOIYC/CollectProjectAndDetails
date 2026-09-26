@@ -1,13 +1,13 @@
 {
  "schema": 2,
- "updated": "2026-09-25T13:56:26+08:00",
+ "updated": "2026-09-26T10:02:23+08:00",
  "note": "结构性无正文/取数不可得 —— 连试 2 轮后记账，不再消耗额度。字段：reason（人话）/ reason_code（可复核分类，见 REASON_CODES）/ tried[]（本轮实际试过的后端）/ http_status（direct 档拿到的状态码）",
  "by_reason": {
-  "no_backend": 55,
+  "no_backend": 59,
   "unreachable": 37,
-  "media": 25,
+  "media": 27,
+  "http_403": 4,
   "account": 3,
-  "http_403": 3,
   "gh_miss": 1
  },
  "items": {
@@ -1011,18 +1011,20 @@
    "tried": []
   },
   "59afc4bf9a96ab4c": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Koi Editor Alpha",
    "url": "https://koieditor.com/",
    "source_id": "hn_show",
    "first_dead": "2026-09-22T13:17:15+08:00",
-   "last_try": "2026-09-22T13:17:15+08:00",
+   "last_try": "2026-09-26T10:02:23+08:00",
    "tried": [
-    "direct_fetch"
+    "direct_fetch",
+    "exa_web_fetch"
    ],
-   "http_status": 200,
+   "http_status": "error",
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   },
   "a602d404ebaeaace": {
    "attempts": 2,
@@ -1362,19 +1364,20 @@
    "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
   },
   "1b4b1cddce7b7188": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Prezlo – We built an API that tells AI agent whether to trust",
    "url": "https://prezlo.io/",
    "source_id": "hn_show",
    "first_dead": "2026-09-25T00:19:19+08:00",
-   "last_try": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-26T10:02:23+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
-   "http_status": "200:too_short",
+   "http_status": "error",
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
   },
   "4ebaa9c3e91eedeb": {
    "attempts": 2,
@@ -1471,18 +1474,20 @@
    "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
   },
   "5496711b19c9e403": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: The Thousand – 1k founders, 1 question, one book",
    "url": "https://thethousand.co",
    "source_id": "hn_show",
    "first_dead": "2026-09-25T00:19:19+08:00",
-   "last_try": "2026-09-25T00:19:19+08:00",
+   "last_try": "2026-09-26T10:02:23+08:00",
    "tried": [
-    "direct_fetch"
+    "direct_fetch",
+    "exa_web_fetch"
    ],
-   "http_status": 200,
+   "http_status": "error",
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   },
   "9fd5bf8b1db874ad": {
    "attempts": 2,
@@ -1727,33 +1732,35 @@
    "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   },
   "8e887d18d87cf3a2": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Alp90",
    "url": "https://royalbritishiptvuk.com/",
    "source_id": "indiehackers",
    "first_dead": "2026-09-25T13:56:26+08:00",
-   "last_try": "2026-09-25T13:56:26+08:00",
+   "last_try": "2026-09-26T10:02:23+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
-   "http_status": "unreachable",
-   "reason_code": "unreachable",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=unreachable"
+   "http_status": "error",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=unreachable"
   },
   "9a00f304ab6488d4": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Wh Links",
    "url": "https://www.indiehackers.com/product/wh-links",
    "source_id": "indiehackers",
    "first_dead": "2026-09-25T13:56:26+08:00",
-   "last_try": "2026-09-25T13:56:26+08:00",
+   "last_try": "2026-09-26T10:02:23+08:00",
    "tried": [
     "direct_fetch"
    ],
    "http_status": 200,
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   },
   "69bf70929603e47f": {
    "attempts": 1,
@@ -1771,34 +1778,36 @@
    "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
   },
   "d0716644847ed4fe": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "How can I build my first SAAS project at no cost ?",
    "url": "https://www.reddit.com/r/SaaS/comments/1wieuaf/how_can_i_build_my_first_saas_project_at_no_cost/",
    "source_id": "reddit",
    "first_dead": "2026-09-25T13:56:26+08:00",
-   "last_try": "2026-09-25T13:56:26+08:00",
+   "last_try": "2026-09-26T10:02:23+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
    "http_status": "timeout",
    "reason_code": "unreachable",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
   },
   "02983cd3fa784ef4": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Did you encounter the problem of disorganization in your first game?",
    "url": "/r/imscreators/comments/1szu6k6/why_90_of_indie_developers_never_finish_their/",
    "source_id": "reddit",
    "first_dead": "2026-09-25T13:56:26+08:00",
-   "last_try": "2026-09-25T13:56:26+08:00",
+   "last_try": "2026-09-26T10:02:23+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
    "http_status": "bad_url",
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=bad_url"
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=bad_url",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=bad_url"
   },
   "f3352ca9e6883a97": {
    "attempts": 1,
@@ -1904,6 +1913,106 @@
    "http_status": "error",
    "reason_code": "no_backend",
    "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error"
+  },
+  "a97c87d0d2c13f75": {
+   "attempts": 2,
+   "title": "Beta release: tfm (terminal file manager) for linux",
+   "url": "https://v.redd.it/ihex2vrr7sph1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "reason_code": "media",
+   "first_dead": "2026-09-26T09:59:27+08:00",
+   "last_try": "2026-09-26T09:59:27+08:00",
+   "http_status": null,
+   "tried": []
+  },
+  "cecb9430fca6fe4c": {
+   "attempts": 2,
+   "title": "Making a cursed and difficult game where you help a monkey escape usin",
+   "url": "https://v.redd.it/yy7vyosc7sph1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "reason_code": "media",
+   "first_dead": "2026-09-26T09:59:27+08:00",
+   "last_try": "2026-09-26T09:59:27+08:00",
+   "http_status": null,
+   "tried": []
+  },
+  "925eb755c3edd1e7": {
+   "attempts": 1,
+   "title": "Show HN: A game about fake news and memes",
+   "url": "https://unspin.app/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-26T10:02:23+08:00",
+   "last_try": "2026-09-26T10:02:23+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "515ce658d2290719": {
+   "attempts": 1,
+   "title": "Show HN: A game about fake news and memes",
+   "url": "https://unspin.app/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-26T10:02:23+08:00",
+   "last_try": "2026-09-26T10:02:23+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "0f4b03d8c2108e62": {
+   "attempts": 1,
+   "title": "Show HN: Built an open-source AI browser assistant remembers when you ",
+   "url": "https://github.com/Kerneta/daidocs/tree/main/browser-extension",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-26T10:02:23+08:00",
+   "last_try": "2026-09-26T10:02:23+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+  },
+  "794520fb96efa9e8": {
+   "attempts": 1,
+   "title": "Apogee Watcher",
+   "url": "https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance",
+   "source_id": "indiehackers",
+   "first_dead": "2026-09-26T10:02:23+08:00",
+   "last_try": "2026-09-26T10:02:23+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "error",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error"
+  },
+  "38e35334b33b2339": {
+   "attempts": 1,
+   "title": "Usman998982",
+   "url": "https://sports.dhgate.com/",
+   "source_id": "indiehackers",
+   "first_dead": "2026-09-26T10:02:23+08:00",
+   "last_try": "2026-09-26T10:02:23+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": 403,
+   "reason_code": "http_403",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 http_403 · status=403"
   }
  }
 }

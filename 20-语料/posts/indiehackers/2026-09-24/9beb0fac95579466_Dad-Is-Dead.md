@@ -5,7 +5,7 @@ title: "Dad Is Dead"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/dad-is-dead"
-captured_at: "2026-09-25T13:45:40+08:00"
+captured_at: "2026-09-26T09:44:29+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-25T13:45:40+08:00　|　id：`9beb0fac95579466`
+> 采集：2026-09-26T09:44:29+08:00　|　id：`9beb0fac95579466`
 
 ## 正文
 
@@ -50,7 +50,7 @@ I wrote up the full story in a separate post today: https://www.indiehackers.com
 Short version: Dad Is Dead is a digital legacy tool built around a proof-of-life check-in — if you go quiet, your designated custodians are notified automatically, with control over exactly what each of them can see and when. It's live, it works, and it has zero real customers so far.
 If you've dealt with a parent's or spouse's accounts after they passed, or you've been putting off your own version of this, I'd genuinely like to hear what the hardest part was.
 AgeeBgee Solutions
-6 Likes
+7 Likes
 3 Comments
 Say something nice…
 Post Comment

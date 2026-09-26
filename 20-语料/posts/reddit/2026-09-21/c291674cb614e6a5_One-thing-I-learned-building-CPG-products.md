@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1wi9xpb/one_thing_i_learned_building_cpg_products/"
 author: "sscresult2015"
 published_at: "2026-09-17T05:09:15+08:00"
-captured_at: "2026-09-25T13:55:22+08:00"
+captured_at: "2026-09-26T10:01:19+08:00"
 lang: "en"
 kind: "post"
 topic: 开发者工具
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=5 · 评论=2 · 赞踩比=1
 > 作者：sscresult2015　|　发布：2026-09-17T05:09:15+08:00
 > 项目链接：—
-> 采集：2026-09-25T13:55:22+08:00　|　id：`c291674cb614e6a5`
+> 采集：2026-09-26T10:01:19+08:00　|　id：`c291674cb614e6a5`
 
 ## 正文
 

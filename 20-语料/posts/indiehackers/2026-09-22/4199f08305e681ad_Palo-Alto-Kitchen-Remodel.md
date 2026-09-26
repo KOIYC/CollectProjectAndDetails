@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/palo-alto-kitchen-remodel"
 project_url: "https://paloaltokitchenremodel.com/"
-captured_at: "2026-09-25T00:00:28+08:00"
+captured_at: "2026-09-26T09:44:29+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://paloaltokitchenremodel.com/>
-> 采集：2026-09-25T00:00:28+08:00　|　id：`4199f08305e681ad`
+> 采集：2026-09-26T09:44:29+08:00　|　id：`4199f08305e681ad`
 
 ## 正文
 
@@ -72,7 +72,7 @@ I looked at the site. You've already covered costs, permits and nearby areas, so
 I'm with SL Marketing, and I'd measure quote enquiries from those project pages before chasing more rankings. That would tell you whether the trust gap is closing.
 Sam
 ·
-2 days ago
+3 days ago
  ·
 Reply
 About

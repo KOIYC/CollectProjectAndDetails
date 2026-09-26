@@ -1,0 +1,122 @@
+{
+ "run_id": "20260926T093553",
+ "started_at": "2026-09-26T09:35:53+08:00",
+ "ended_at": "2026-09-26T09:40:40+08:00",
+ "elapsed_s": 287.5,
+ "channels": [
+  {
+   "source_id": "hn_show",
+   "name": "HN Show HN",
+   "status": "ok",
+   "count": 3,
+   "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
+   "elapsed_s": 1.4
+  },
+  {
+   "source_id": "reddit",
+   "name": "Reddit 独立开发版块",
+   "status": "ok",
+   "count": 3,
+   "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
+   "elapsed_s": 16.5
+  },
+  {
+   "source_id": "github_new",
+   "name": "GitHub 新星仓库",
+   "status": "ok",
+   "count": 3,
+   "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
+   "elapsed_s": 9.2
+  },
+  {
+   "source_id": "betalist",
+   "name": "BetaList",
+   "status": "ok",
+   "count": 3,
+   "message": "3 startups · 发布日 1/3",
+   "elapsed_s": 36.9
+  },
+  {
+   "source_id": "indiehackers",
+   "name": "Indie Hackers 产品库",
+   "status": "ok",
+   "count": 3,
+   "message": "21 products",
+   "elapsed_s": 14.9
+  },
+  {
+   "source_id": "devto",
+   "name": "dev.to",
+   "status": "ok",
+   "count": 3,
+   "message": "4 articles",
+   "elapsed_s": 1.9
+  },
+  {
+   "source_id": "producthunt",
+   "name": "Product Hunt",
+   "status": "ok",
+   "count": 3,
+   "message": "3 entries",
+   "elapsed_s": 0.7
+  },
+  {
+   "source_id": "v2ex",
+   "name": "V2EX",
+   "status": "ok",
+   "count": 3,
+   "message": "20 topics",
+   "elapsed_s": 1.1
+  },
+  {
+   "source_id": "bilibili",
+   "name": "B 站",
+   "status": "ok",
+   "count": 3,
+   "message": "8 videos",
+   "elapsed_s": 0.4
+  },
+  {
+   "source_id": "c1c7",
+   "name": "1c7 中文独立开发者名录",
+   "status": "ok",
+   "count": 3,
+   "message": "9 entries · 收录日 9",
+   "elapsed_s": 1.2
+  },
+  {
+   "source_id": "exa_discovery",
+   "name": "Exa 全网语义发现",
+   "status": "ok",
+   "count": 3,
+   "message": "8 results",
+   "elapsed_s": 13.5
+  },
+  {
+   "source_id": "twitter",
+   "name": "X / Twitter",
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: timeout>90s",
+   "elapsed_s": 91.1
+  },
+  {
+   "source_id": "xiaohongshu",
+   "name": "小红书",
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: ok: false\nerror:\n  code: BROWSER_CONNECT\n  message: Browser ",
+   "elapsed_s": 49.7
+  }
+ ],
+ "notes_written": 0,
+ "errors": [],
+ "mode": "audit",
+ "summary": {
+  "total": 13,
+  "ok": 11,
+  "empty": 0,
+  "error": 0,
+  "auth": 2
+ }
+}

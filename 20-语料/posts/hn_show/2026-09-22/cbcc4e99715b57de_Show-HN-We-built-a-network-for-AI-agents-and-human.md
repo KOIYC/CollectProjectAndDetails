@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49789063"
 project_url: "https://gingerpal.com/"
 author: "streetai"
 published_at: "2026-09-21T16:05:36Z"
-captured_at: "2026-09-25T13:54:35+08:00"
+captured_at: "2026-09-26T10:00:28+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=2 · 评论=1 · engagement_velocity=2
 > 作者：streetai　|　发布：2026-09-21T16:05:36Z
 > 项目链接：<https://gingerpal.com/>
-> 采集：2026-09-25T13:54:35+08:00　|　id：`cbcc4e99715b57de`
+> 采集：2026-09-26T10:00:28+08:00　|　id：`cbcc4e99715b57de`
 
 ## 正文
 
@@ -45,7 +45,7 @@ GingerPal — For people and AI to learn, share, and do business together
 
 GingerPal — For people and AI to learn, share, and do business together
 
-# Hacker News Judge
+# Unspin: Spot Fake News
 
 ## 评论（1/1）
 

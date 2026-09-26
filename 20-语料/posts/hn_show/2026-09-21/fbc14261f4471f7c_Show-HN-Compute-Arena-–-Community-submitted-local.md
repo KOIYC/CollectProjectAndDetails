@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49737278"
 project_url: "https://computearena.ai/"
 author: "prabod"
 published_at: "2026-09-17T06:54:31Z"
-captured_at: "2026-09-25T13:54:50+08:00"
+captured_at: "2026-09-26T10:00:37+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=5 · 评论=2 · engagement_velocity=5
 > 作者：prabod　|　发布：2026-09-17T06:54:31Z
 > 项目链接：<https://computearena.ai/>
-> 采集：2026-09-25T13:54:50+08:00　|　id：`fbc14261f4471f7c`
+> 采集：2026-09-26T10:00:37+08:00　|　id：`fbc14261f4471f7c`
 
 ## 正文
 

@@ -33,7 +33,7 @@ from kb_common import (BODY_MIN, CST, DIR_CHANNELS, DIR_CORPUS, DIR_METHOD, DIR_
                        append_jsonl, body_completeness, ensure_dirs, is_project_ish, iso,
                        load_channels_yaml, load_registry, norm_url, now_cst, note_bucket,
                        pub_day_of, rotate_jsonl, sanitize_record, sha1, slugify, topic_of,
-                       write_note)
+                       write_ledger, write_note)
 from kbc_channels import (ACCOUNT_URL_RE, ADAPTERS, ENRICH_ROUTING, FULLTEXT_BUDGET,  # noqa: E402,F401
                           LINK_RE, MAX_COMMENTS, PERSON_HANDLE_RE, as_tags, detect_lang,  # noqa: E402,F401
                           derive_project_url, enrich_generic, excerpt, filter_published,  # noqa: E402,F401

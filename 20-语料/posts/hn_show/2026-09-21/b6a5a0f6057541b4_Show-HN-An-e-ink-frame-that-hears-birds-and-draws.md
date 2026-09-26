@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49711544"
 project_url: "https://github.com/arnegiacomo/fugleramme"
 author: "arnemunthekaas"
 published_at: "2026-09-15T12:31:10Z"
-captured_at: "2026-09-25T13:54:54+08:00"
+captured_at: "2026-09-26T10:00:44+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:90d"
 > 指标：点赞=2355 · 评论=259 · engagement_velocity=2355
 > 作者：arnemunthekaas　|　发布：2026-09-15T12:31:10Z
 > 项目链接：<https://github.com/arnegiacomo/fugleramme>
-> 采集：2026-09-25T13:54:54+08:00　|　id：`b6a5a0f6057541b4`
+> 采集：2026-09-26T10:00:44+08:00　|　id：`b6a5a0f6057541b4`
 
 ## 正文
 

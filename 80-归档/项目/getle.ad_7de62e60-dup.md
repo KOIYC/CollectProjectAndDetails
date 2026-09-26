@@ -25,10 +25,10 @@ stale: true
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T02:41:37+08:00 | Reddit 独立开发版块 | 得分=50 · 评论=40 · 赞踩比=0.8 | [[20-语料/posts/reddit/2026-09-20/9fd77305a44d280c_I-made-$88K-with-my-saas-as-a-solo-founder]] |
-| 2026-09-20T02:43:57+08:00 | Reddit 独立开发版块 | 得分=50 · 评论=40 · 赞踩比=0.8 | [[20-语料/posts/reddit/2026-09-20/9fd77305a44d280c_I-made-$88K-with-my-saas-as-a-solo-founder]] |
-| 2026-09-20T02:47:50+08:00 | Reddit 独立开发版块 | 得分=50 · 评论=40 · 赞踩比=0.8 | [[20-语料/posts/reddit/2026-09-20/9fd77305a44d280c_I-made-$88K-with-my-saas-as-a-solo-founder]] |
-| 2026-09-20T02:57:10+08:00 | Reddit 独立开发版块 | 得分=50 · 评论=40 · 赞踩比=0.8 | [[20-语料/posts/reddit/2026-09-20/9fd77305a44d280c_I-made-$88K-with-my-saas-as-a-solo-founder]] |
+| 2026-09-20T02:41:37+08:00 | Reddit 独立开发版块 | 得分=50 · 评论=40 · 赞踩比=0.8 | [[20-语料/posts/reddit/2026-09-21/9fd77305a44d280c_I-made-$88K-with-my-saas-as-a-solo-founder]] |
+| 2026-09-20T02:43:57+08:00 | Reddit 独立开发版块 | 得分=50 · 评论=40 · 赞踩比=0.8 | [[20-语料/posts/reddit/2026-09-21/9fd77305a44d280c_I-made-$88K-with-my-saas-as-a-solo-founder]] |
+| 2026-09-20T02:47:50+08:00 | Reddit 独立开发版块 | 得分=50 · 评论=40 · 赞踩比=0.8 | [[20-语料/posts/reddit/2026-09-21/9fd77305a44d280c_I-made-$88K-with-my-saas-as-a-solo-founder]] |
+| 2026-09-20T02:57:10+08:00 | Reddit 独立开发版块 | 得分=50 · 评论=40 · 赞踩比=0.8 | [[20-语料/posts/reddit/2026-09-21/9fd77305a44d280c_I-made-$88K-with-my-saas-as-a-solo-founder]] |
 | 2026-09-20T03:06:02+08:00 | Reddit 独立开发版块 | 得分=50 · 评论=40 · 赞踩比=0.8 | — |
 | 采集时间 | 渠道 | 指标 | 语料 |
 

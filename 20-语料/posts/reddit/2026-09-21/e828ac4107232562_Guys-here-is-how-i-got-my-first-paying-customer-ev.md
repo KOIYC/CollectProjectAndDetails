@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1wi7lim/guys_here_is_how_i_got_my_first_paying_customer/"
 author: "Confident_Alfalfa228"
 published_at: "2026-09-17T03:42:54+08:00"
-captured_at: "2026-09-25T13:55:14+08:00"
+captured_at: "2026-09-26T10:01:09+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=42 · 评论=23 · 赞踩比=0.88
 > 作者：Confident_Alfalfa228　|　发布：2026-09-17T03:42:54+08:00
 > 项目链接：—
-> 采集：2026-09-25T13:55:14+08:00　|　id：`e828ac4107232562`
+> 采集：2026-09-26T10:01:09+08:00　|　id：`e828ac4107232562`
 
 ## 正文
 

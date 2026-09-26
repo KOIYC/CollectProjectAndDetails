@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/launchon-it"
 project_url: "https://launchon.it/"
-captured_at: "2026-09-25T13:45:40+08:00"
+captured_at: "2026-09-26T09:44:29+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://launchon.it/>
-> 采集：2026-09-25T13:45:40+08:00　|　id：`0b7cac024c1d18d1`
+> 采集：2026-09-26T09:44:29+08:00　|　id：`0b7cac024c1d18d1`
 
 ## 正文
 
@@ -42,9 +42,34 @@ LaunchOn.it
  Product launch platform for indie startups.
 Visit Website
 LaunchOn.it Product launch platform for indie startups.
- Posts 15
+ Posts 16
  Revenue $0 / mo
  Website Twitter
+September 25, 2026
+ We added an MCP server to our launch platform so you can submit your product straight from Claude, Cursor, or Codex
+We added an MCP server to LaunchOn.it , so you can submit your product straight from Claude or Cursor.
+ If you are like me, your daily workflow is entirely inside Cursor or Claude Code now, and switching context to fill out web forms on directory sites feels like total friction.
+ We spend all day making AI agents handle code and deployments, so why are we still doing manual form filling like it is 2015?
+ We just built and shipped an MCP server for LaunchOn.it, check out the endpoints .
+ Now, instead of going to a website and typing out your description, you can literally just tell your AI coding assistant to submit your project straight to our weekly launch board.
+ It hooks right into Claude, Cursor, Codex, or any MCP-compatible client. It grabs your context, formats the payload, and pushes it without you ever touching a browser tab.
+ Why bother building this?
+ First, indie hackers live in their IDE and terminal now. If a platform does not fit into that workflow, it is just extra friction.
+ Second, directories should not just be static web pages anymore. As MCP becomes the standard, tools should be programmable endpoints.
+ Are any of you building custom MCP servers for your own indie apps yet?
+ How are you using agents for distribution? Let us chat below.
+Alex
+19 Likes
+1 Comment
+Say something nice…
+Post Comment
+1
+Love this direction. Agents already write my code and run my tests, so letting them handle the boring form filling feels inevitable. The interesting unlock might be what happens when every agent starts submitting to every directory automatically. Discovery gets noisy, and the directories with the strongest curation win. Curious whether you thought about rate limits or quality gates on the agent side.
+CodeSonar
+·
+16 hours ago
+ ·
+Reply
 September 24, 2026
  We built a launch platform and threw out the 24 hour hype rulebook
 If you look at how software has been launched for the last 10 years, it is a broken loop:
@@ -68,21 +93,21 @@ Post Comment
 Nice
 Amdrewjulian
 ·
-2 hours ago
+a day ago
  ·
 Reply
 1
 Greatest
 Amdrewjulian
 ·
-19 hours ago
+2 days ago
  ·
 Reply
 1
 Thanks for your support!
 Alex
 ·
-13 hours ago
+a day ago
  ·
 Reply
 September 20, 2026
@@ -106,7 +131,7 @@ Post Comment
 Good post. I launched today too (https://heysensa.app) and I was already doing the dumb part: refreshing stats, checking signups, trying to line up votes. This is a good reminder that day one isn't the point. Sensa is a small reflection app. Not another chat bot. It's meant to be used daily, so I'd rather spend the week talking to people than chasing the spike. For anyone who's done a slower launch: did it actually bring users who stuck around? Or just more traffic? That's what I'm trying to figure out.
 Francisco Hidalgo
 ·
-10 hours ago
+a day ago
  ·
 Reply
 September 18, 2026
@@ -118,7 +143,7 @@ By month two, User A asks for integration X. User B needs custom reporting. User
  I’ve been watching this happen across dozens of indie projects, and it made me rethink how we handle product direction. Instead of saying "yes" to every feature request to chase short-term retention, the winners seem to be doubling down on doing one painful thing exceptionally well .
  How do you personally filter out the noise when users ask for features that pull your product away from its core vision? Where do you draw the line?
 Alex
-1 Like
+2 Likes
 Comment
 September 18, 2026
  Why the standard 24-hour product launch is broken for indie hackers
@@ -191,7 +216,7 @@ For AI citations - have you seen a listing actually cited in Perplexity/ChatGPT,
 The 20 slots cap - if week is not full, do you keep it half-empty or fill late? I ask because I'm deciding if I should join this week or wait for a full cohort.
 HungryDevs
 ·
-9 days ago
+10 days ago
  ·
 Reply
 September 14, 2026
@@ -246,28 +271,16 @@ Hi Alex,
  automate Monday Reset Hype: Automatically send an email on Sunday/Monday showcasing the previous week's winner, total clicks served and new, empty board. Automatically tweet/post the weekly winners to tag founders and make them share it again. Highlight Clicks and not just Traffic: Showcase the real-time click counts on the bidding page. Keep floor bids low ($1-$3) during slower weeks. A board that's active but has low floor bids generates competition; a board that's empty scares everybody off.
 Thuthukani
 ·
-21 days ago
+22 days ago
  ·
 Reply
 1
 Thanks for the tips, I pivoted the product to a launch platform instead.
 Alex
 ·
-2 days ago
+3 days ago
  ·
 Reply
-September 2, 2026
- The first outbid just happened: What day 3 of an attention-market board looks like
-A couple of days ago I shared my take on the pay-to-rank craze with launchon.it .
- Day one felt like a ghost town. Zero listings, dead quiet, and staring at an empty table wondering if anyone would ever swipe a card.
- Yesterday the silence broke with a small $6 sale. A few hours later, a developer building an indie 3D game dropped $11 to dethrone the top spot and take #1.
- Watching total strangers outbid each other in real time changes the whole perspective on this model.
- When entry prices are under $15, founders treat it as a fun low-risk marketing test rather than an agonizing ad spend calculation. The real retention loop is not just the leaderboard itself, but that moment someone gets told they have been knocked off the top spot. That competitive friction is what keeps the flywheel moving.
- Because the weekly board resets every Monday, smaller tools know they always have a fresh shot at #1 instead of being permanently buried by high-budget projects.
- For anyone who has experimented with attention boards, directories, or micro-ad auctions, what mechanics have you found actually keep people engaged once the initial novelty wears off?
-Alex
-4 Likes
-Comment
 About
  Product Hunt gives you one noisy day and then your launch disappears under the next wave of products. LaunchOn.it is a Product Hunt and BetaList style board where each product gets a page and a date that still exist.
  People

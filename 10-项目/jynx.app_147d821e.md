@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Jynx, a matchmaking app to find gaming teammates"
 project_url: "https://jynx.app/"
-first_seen: "2026-09-25T13:54:57+08:00"
+first_seen: "2026-09-26T10:00:48+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://jynx.app/>
-> 首次收录：2026-09-25T13:54:57+08:00
+> 首次收录：2026-09-26T10:00:48+08:00
 > 来源渠道：HN Show HN
 > 标签：author_akiro____, story_48336119, show_hn
 > 最新指标：点赞=5 · 评论=3 · engagement_velocity=5
@@ -42,6 +42,7 @@ lang: "en"
 | 2026-09-22T13:13:21+08:00 | HN Show HN | 点赞=5 · 评论=3 · engagement_velocity=5 | [[20-语料/posts/hn_show/2026-09-21/e3c3ead84755f485_Show-HN-Jynx,-a-matchmaking-app-to-find-gaming-tea]] |
 | 2026-09-25T00:16:08+08:00 | HN Show HN | 点赞=5 · 评论=3 · engagement_velocity=5 | [[20-语料/posts/hn_show/2026-09-21/e3c3ead84755f485_Show-HN-Jynx,-a-matchmaking-app-to-find-gaming-tea]] |
 | 2026-09-25T13:54:57+08:00 | HN Show HN | 点赞=5 · 评论=3 · engagement_velocity=5 | [[20-语料/posts/hn_show/2026-09-21/e3c3ead84755f485_Show-HN-Jynx,-a-matchmaking-app-to-find-gaming-tea]] |
+| 2026-09-26T10:00:48+08:00 | HN Show HN | 点赞=5 · 评论=3 · engagement_velocity=5 | [[20-语料/posts/hn_show/2026-09-21/e3c3ead84755f485_Show-HN-Jynx,-a-matchmaking-app-to-find-gaming-tea]] |
 
 ## 摘要正文
 

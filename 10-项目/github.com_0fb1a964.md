@@ -2,7 +2,7 @@
 type: "project"
 title: "164 disposable computers, one judging afternoon, and a question nobody had time to ask"
 project_url: "https://github.com/laurenelee/hackjudge"
-first_seen: "2026-09-25T13:46:46+08:00"
+first_seen: "2026-09-26T09:46:39+08:00"
 sources:
   - devto
 tags:
@@ -22,10 +22,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/laurenelee/hackjudge>
-> 首次收录：2026-09-25T13:46:46+08:00
+> 首次收录：2026-09-26T09:46:39+08:00
 > 来源渠道：dev.to
 > 标签：hackathon, showdev, opensource, devrel
-> 最新指标：reactions=11 · 评论=1 · reading_time=9
+> 最新指标：reactions=12 · 评论=1 · reading_time=9
 
 ## 观测历史
 
@@ -33,6 +33,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-25T00:01:09+08:00 | dev.to | reactions=6 · 评论=1 · reading_time=9 | [[20-语料/posts/devto/2026-09-24/68c745afc0b45026_164-disposable-computers,-one-judging-afternoon,-a]] |
 | 2026-09-25T13:46:46+08:00 | dev.to | reactions=11 · 评论=1 · reading_time=9 | [[20-语料/posts/devto/2026-09-24/68c745afc0b45026_164-disposable-computers,-one-judging-afternoon,-a]] |
+| 2026-09-26T09:46:39+08:00 | dev.to | reactions=12 · 评论=1 · reading_time=9 | [[20-语料/posts/devto/2026-09-24/68c745afc0b45026_164-disposable-computers,-one-judging-afternoon,-a]] |
 
 ## 摘要正文
 

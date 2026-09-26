@@ -7,7 +7,7 @@ source_name: "B 站"
 url: "https://www.bilibili.com/video/BV1F9aw6oEgL"
 author: "Topbook"
 published_at: "2026-09-24T18:36:14+08:00"
-captured_at: "2026-09-25T13:47:12+08:00"
+captured_at: "2026-09-26T09:49:56+08:00"
 lang: "zh"
 kind: "post"
 topic: 开发者工具
@@ -22,7 +22,7 @@ tags:
   - 数码
   - 科技
   - 手机
-metrics: {"play": 31983, "danmaku": 64, "favorites": 486}
+metrics: {"play": 96446, "danmaku": 110, "favorites": 1625}
 comments_count: 0
 comments_total: 0
 discovered_via: "bili:独立开发"
@@ -36,10 +36,10 @@ discovered_via: "bili:独立开发"
 > [!meta]- 语料信息（点开展开）
 > 来源：B 站（post）
 > 原帖：<https://www.bilibili.com/video/BV1F9aw6oEgL>
-> 指标：播放=31983 · 弹幕=64 · 收藏=486
+> 指标：播放=96446 · 弹幕=110 · 收藏=1625
 > 作者：Topbook　|　发布：2026-09-24T18:36:14+08:00
 > 项目链接：—
-> 采集：2026-09-25T13:47:12+08:00　|　id：`5d9f1878aacdaf5b`
+> 采集：2026-09-26T09:49:56+08:00　|　id：`5d9f1878aacdaf5b`
 
 ## 正文
 

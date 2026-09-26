@@ -686,6 +686,88 @@ def fix_note_remnants(apply: bool) -> int:
     return len(man["removed"])
 
 
+def fix_renamed_links(apply: bool) -> int:
+    """修「语料页已改名（旧页已删）但链接仍指旧名」的悬空 wikilink。
+
+    与 `--fix-note-remnants` 的分工：那个管**旧页还在**（删页 + 改写链接一步做完）；
+    这个管**旧页已被删、链接没跟上** —— `kb_collect` 的改名链是「先 unlink 旧页 →
+    收集 pairs → 渠道循环结束后统一改写链接」，中间任何中断（实测 2026-09-26 收尾
+    `write_ledger` NameError）都会留下这种悬空链接，而 `--fix-links` 修不了它
+    （目标文件已不存在，按文件名兜底也命中不了）。
+
+    判据只信 `seen.json`：旧 stem 的前缀是 `item_id`（16 hex），账本里该 item 的
+    `note` 才是规范路径 —— 与采集端 `_rewrite_stem_links` 同源，不靠猜。
+    只处理**带路径**的链接（短名链接由 Obsidian 按文件名解析，不是断链）。
+    """
+    seen = Seen()
+    cur_by_iid: dict[str, str] = {}
+    for iid, rec in (seen.items or {}).items():
+        note = (rec or {}).get("note") or ""
+        if note.startswith("20-语料/") and (ROOT / note).is_file():
+            cur_by_iid[iid] = note
+    by_rel, _ = _note_index()
+
+    pairs: dict[str, str] = {}
+    stat: Counter = Counter()
+    samples: list[str] = []
+    for p in sorted(ROOT.rglob("*.md")):
+        if any(part.startswith(".") for part in p.relative_to(ROOT).parts):
+            continue
+        txt = p.read_text(encoding="utf-8")
+        if "[[" not in txt:
+            continue
+        scan = strip_code(txt)
+        in_code = [scan[i] != txt[i] for i in range(len(txt))] if len(scan) == len(txt) else []
+
+        def repl(m: re.Match) -> str:
+            if in_code and in_code[m.start()]:
+                stat["跳过(代码/伪链接)"] += 1
+                return m.group(0)
+            core = m.group(1).split("|")[0].split("#")[0].strip()
+            if not core:
+                return m.group(0)
+            if core in by_rel:
+                stat["路径已有效"] += 1
+                return m.group(0)
+            if "/" not in core:
+                stat["短名链接(不动)"] += 1
+                return m.group(0)
+            tail = core.split("/")[-1]
+            iid = tail.split("_")[0]
+            cur = cur_by_iid.get(iid)
+            if not cur:                                     # 非语料页 / 账本无此 item：不猜
+                stat["无从判定"] += 1
+                return m.group(0)
+            new_core = cur[:-3] if cur.endswith(".md") else cur
+            if new_core == core:
+                stat["路径已有效"] += 1
+                return m.group(0)
+            stat["改写为新路径"] += 1
+            pairs[Path(tail).stem] = new_core
+            if len(samples) < 10:
+                samples.append(f"[{p.relative_to(ROOT).as_posix()}] {core} -> {new_core}")
+            return m.group(0).replace(core, new_core, 1)
+
+        new_txt = LINK_RE.sub(repl, txt)
+        if new_txt != txt and apply:
+            p.write_text(new_txt, encoding="utf-8")
+
+    for s in samples:
+        print("    " + s)
+    print(f"fix-renamed-links  apply={apply}  {dict(stat)}")
+    if apply and pairs:
+        man_file = META / f"renamed_link_manifest_{now_cst().strftime('%Y%m%dT%H%M%S')}.json"
+        write_ledger(man_file, {"at": iso(now_cst()), "kind": "renamed_link",
+                                "note": "语料页改名后悬空链接的改写（旧页已删，按 seen.note 反算规范名）",
+                                "pairs": [{"from": k, "to": v} for k, v in sorted(pairs.items())]},
+                     lock_name="rename_manifest", indent=2)
+        rotate_files(META, "renamed_link_manifest_", 12)
+        print(f"    manifest {man_file.name}")
+    elif apply:
+        print("    无悬空链接可改（幂等复跑）")
+    return stat.get("改写为新路径", 0)
+
+
 # ---------------------------------------------------------------- cli
 
 def main() -> int:
@@ -704,10 +786,16 @@ def main() -> int:
                     help="以磁盘实际路径为准订正 seen.json 的 note（修孤儿页/幽灵账），幂等")
     ap.add_argument("--fix-note-remnants", action="store_true",
                     help="清同一 item 的改名残留（同目录多份语料页），只保留 seen.note 那份")
+    ap.add_argument("--fix-renamed-links", action="store_true",
+                    help="修「语料页已改名（旧页已删）但链接仍指旧名」的悬空 wikilink（按 seen.note 反算）")
     a = ap.parse_args()
 
     if a.fix_note_remnants:
         fix_note_remnants(apply=not a.dry)
+        return 0
+
+    if a.fix_renamed_links:
+        fix_renamed_links(apply=not a.dry)
         return 0
 
     if a.fix_note_paths:

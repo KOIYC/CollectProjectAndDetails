@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/buildinpublic/comments/1wi26jg/what_are_you_build
 project_url: "https://reoogle.com/"
 author: "Economy-Cupcake6148"
 published_at: "2026-09-17T00:30:40+08:00"
-captured_at: "2026-09-25T13:55:06+08:00"
+captured_at: "2026-09-26T10:01:00+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=6 · 评论=47 · 赞踩比=1
 > 作者：Economy-Cupcake6148　|　发布：2026-09-17T00:30:40+08:00
 > 项目链接：<https://reoogle.com/>
-> 采集：2026-09-25T13:55:06+08:00　|　id：`1332b973f242f486`
+> 采集：2026-09-26T10:01:00+08:00　|　id：`1332b973f242f486`
 
 ## 正文
 

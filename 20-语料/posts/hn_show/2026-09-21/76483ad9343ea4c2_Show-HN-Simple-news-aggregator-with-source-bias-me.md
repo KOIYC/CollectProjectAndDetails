@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=48327194"
 project_url: "https://unbiasthenews.com/"
 author: "sammy0910"
 published_at: "2026-05-29T18:21:24Z"
-captured_at: "2026-09-25T13:54:35+08:00"
+captured_at: "2026-09-26T10:00:28+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:144d"
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：sammy0910　|　发布：2026-05-29T18:21:24Z
 > 项目链接：<https://unbiasthenews.com/>
-> 采集：2026-09-25T13:54:35+08:00　|　id：`76483ad9343ea4c2`
+> 采集：2026-09-26T10:00:28+08:00　|　id：`76483ad9343ea4c2`
 
 ## 正文
 

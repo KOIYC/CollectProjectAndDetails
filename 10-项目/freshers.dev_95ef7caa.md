@@ -2,7 +2,7 @@
 type: "project"
 title: "I finally reached my first 50 users. Here’s what surprised me the most."
 project_url: "https://freshers.dev/"
-first_seen: "2026-09-25T13:56:08+08:00"
+first_seen: "2026-09-26T10:02:10+08:00"
 sources:
   - reddit
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://freshers.dev/>
-> 首次收录：2026-09-25T13:56:08+08:00
+> 首次收录：2026-09-26T10:02:10+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/SideProject
 > 最新指标：得分=5 · 评论=7 · 赞踩比=0.78
@@ -38,6 +38,7 @@ lang: "en"
 | 2026-09-22T13:16:51+08:00 | Reddit 独立开发版块 | 得分=5 · 评论=7 · 赞踩比=0.78 | [[20-语料/posts/reddit/2026-09-21/074ebf1eb0caa270_I-finally-reached-my-first-50-users.-Here’s-what-s]] |
 | 2026-09-25T00:19:02+08:00 | Reddit 独立开发版块 | 得分=5 · 评论=7 · 赞踩比=0.78 | [[20-语料/posts/reddit/2026-09-21/074ebf1eb0caa270_I-finally-reached-my-first-50-users.-Here’s-what-s]] |
 | 2026-09-25T13:56:08+08:00 | Reddit 独立开发版块 | 得分=5 · 评论=7 · 赞踩比=0.78 | [[20-语料/posts/reddit/2026-09-21/074ebf1eb0caa270_I-finally-reached-my-first-50-users.-Here’s-what-s]] |
+| 2026-09-26T10:02:10+08:00 | Reddit 独立开发版块 | 得分=5 · 评论=7 · 赞踩比=0.78 | [[20-语料/posts/reddit/2026-09-21/074ebf1eb0caa270_I-finally-reached-my-first-50-users.-Here’s-what-s]] |
 
 ## 摘要正文
 

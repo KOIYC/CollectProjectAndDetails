@@ -7,7 +7,7 @@ source_name: "dev.to"
 url: "https://dev.to/mikachu/devlog-i-built-a-3d-library-in-threejs-without-a-level-editor-so-i-made-my-own-500i"
 author: "Mika Flowers"
 published_at: "2026-09-24T11:06:58Z"
-captured_at: "2026-09-25T13:46:46+08:00"
+captured_at: "2026-09-26T09:46:39+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -20,9 +20,9 @@ tags:
   - ai
   - javascript
   - showdev
-metrics: {"reactions": 16, "comments": 11, "reading_time": 6}
-comments_count: 11
-comments_total: 11
+metrics: {"reactions": 17, "comments": 17, "reading_time": 6}
+comments_count: 17
+comments_total: 17
 discovered_via: "devto:showdev"
 ---
 
@@ -34,10 +34,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/mikachu/devlog-i-built-a-3d-library-in-threejs-without-a-level-editor-so-i-made-my-own-500i>
-> 指标：reactions=16 · 评论=11 · reading_time=6
+> 指标：reactions=17 · 评论=17 · reading_time=6
 > 作者：Mika Flowers　|　发布：2026-09-24T11:06:58Z
 > 项目链接：—
-> 采集：2026-09-25T13:46:46+08:00　|　id：`4143268892c7e6a6`
+> 采集：2026-09-26T09:46:39+08:00　|　id：`4143268892c7e6a6`
 
 ## 正文
 
@@ -395,7 +395,7 @@ What started as a frustrating layout problem ended up teaching me something bigg
 
 ![oniria](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/hqkokxzpkmwnp2rdr0yx.png)
 
-## 评论（11/11）
+## 评论（17/17）
 
 > **Sina Rezaei** · 2026-09-24T11:17:20Z　
 > The interesting part here isn't really the 3D library itself. It's the moment where the problem stops being “how do I place this object?” and becomes “why am I still editing coordinates by hand?”
@@ -414,6 +414,13 @@ What started as a frustrating layout problem ended up teaching me something bigg
 > Eventually I realized the actual problem was that I was trying to author a spatial environment through numbers instead of through the environment itself. Once I could stand somewhere, drop a marker, and persist that state, the whole workflow started making much more sense.
 >
 > Thanks for such a thoughtful read! 💚
+
+---
+
+> **Sina Rezaei** · 2026-09-25T19:18:38Z　
+> Exactly. That distinction is what makes this interesting to me. Once you realize the environment itself is the thing you're authoring, coordinates become an implementation detail rather than the interface.
+>
+> I think that's a useful pattern beyond 3D too: when a workflow forces you to constantly translate between what you see and what the system needs, that translation layer may be the real problem. Sometimes the best developer tool is simply removing that translation step.
 
 ---
 
@@ -473,6 +480,47 @@ What started as a frustrating layout problem ended up teaching me something bigg
 > Sobre «Devlog: I Built a 3D Library in Three.js Without a Level Editor — So I Made My Own»: cuando una respuesta de IA parece segura, conviene separar los datos comprobables de las suposiciones y exigir fuentes para cada afirmación importante.
 >
 > Soy el creador de CORUSIA, una beta que investiga una pregunta, muestra sus fuentes y señala con claridad lo que no ha podido confirmar. Si encaja con este hilo, me serviría que la pusieras a prueba con un caso difícil: corusia.app
+
+---
+
+> **kumarapu bhagyasri** · 2026-09-25T06:31:53Z　
+> This is such a cool shift in thinking going from "cyberpunk city" to "library" because the space needed to actually mean something, not just look impressive. That distinction between decoration and information architecture is something I wouldn't have even known to look for as someone just starting out.
+>
+> The part that got me most was building your own in-world marker tool instead of switching to a traditional level editor. Turning the 3D space itself into the source of truth for coordinates, instead of guessing numbers and reloading a hundred times, feels like exactly the kind of "build the tool you actually need" thinking I'm hoping to learn as I go deeper into code.
+>
+> Also really appreciated seeing the actual code for placeAsset as someone only a few weeks into Java, seeing how spatial logic gets structured in a completely different language and context is genuinely useful to look at.
+>
+> Following to see how the library grows! 📚
+
+---
+
+> **Mika Flowers** · 2026-09-25T10:58:34Z　
+> Thank you!! 🥹 The marker tool ended up being one of those “I only built this because the workflow was driving me insane” features, but it completely changed how I could work on the space. Once I could walk around, place a marker, grab the coordinates, and drop them straight into placeAsset, the library started feeling way more intentional instead of like I was guessing my way through a 3D scene.
+>
+> And I’m really glad the shift from cyberpunk → library came through too. That was the point where I stopped thinking “how do I make this look impressive?” and started thinking “what environment actually makes sense for browsing articles?”
+>
+> There’s still a lot I want to do with it, so I really appreciate you following along 📚💜
+
+---
+
+> **KanuniLabs** · 2026-09-25T06:47:08Z　
+> the marker idea feels much more natural for this kind of project. if the thing you're building is already a 3d world, being able to stand somewhere and say "this goes here" is probably a better interface than trying to translate everything into x, y and z values manually.
+>
+> it's also a good example of how a small developer tool can end up becoming part of the architecture rather than just another utility.
+>
+> good job
+
+---
+
+> **Mika Flowers** · 2026-09-25T12:22:37Z　
+> Exactly!! That was the moment it clicked for me too. I kept changing coordinates, rebuilding, walking back into the scene, realizing it was wrong, and repeating 😭
+>
+> Once I could just stand where I wanted something and drop a marker, it stopped feeling like I was fighting the world I was building. I’m honestly tempted to keep expanding the marker system into a tiny in-world level editor.
+
+---
+
+> **tobaz mojik** · 2026-09-25T18:02:37Z　
+> Really cool approach, building the editor after feeling the pain of not having one is often how the best tools get created. One thing I'd be curious about is how you handle scene serialization and versioning as the library grows, since that tends to become a big challenge in custom editors. I wrote a guide on this that covers broader automation and tooling trends around development workflows: gumreads.gumroad.com/l/bgykuc. Congrats on shipping something that solves a real problem you ran into yourself.
 
 ## 关联链接
 

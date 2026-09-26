@@ -5,7 +5,7 @@ title: "Launchnest Ln 14"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/launchnest-ln-14"
-captured_at: "2026-09-25T13:45:40+08:00"
+captured_at: "2026-09-26T09:44:29+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-25T13:45:40+08:00　|　id：`15335dcf74f64034`
+> 采集：2026-09-26T09:44:29+08:00　|　id：`15335dcf74f64034`
 
 ## 正文
 
@@ -69,7 +69,7 @@ You built the product. You launched it. But what happens when nobody knows it ex
  Put your product in front of people actively searching for solutions
  LaunchNest is where products launch—and where people come to find them.
 M.asif
-14 Likes
+17 Likes
 Comment
 About
  LaunchNest is a free product discovery platform where founders launch SaaS, AI tools, and indie products—and users discover the right products by searching for what they actually need.
