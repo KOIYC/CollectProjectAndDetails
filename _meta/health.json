@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-09-26T09:40:40+08:00",
+ "checked_at": "2026-09-28T09:46:32+08:00",
  "channels": [
   {
    "channel_id": "hn_show",
@@ -10,16 +10,16 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 1.4,
-   "probe_at": "2026-09-26T09:35:54+08:00",
+   "elapsed_s": 1.7,
+   "probe_at": "2026-09-28T09:40:57+08:00",
    "sample": [
     {
-     "title": "Show HN: Tenjin – A Jev based x402 tool router for Claude Code",
-     "url": "https://news.ycombinator.com/item?id=49851853"
+     "title": "Show HN: Stepgate – an MCP server that won't let agents skip steps",
+     "url": "https://news.ycombinator.com/item?id=49872350"
     },
     {
-     "title": "Show HN: A game about fake news and memes",
-     "url": "https://news.ycombinator.com/item?id=49851776"
+     "title": "Show HN: DynamicNotch – An interactive, customizable notch utility for macOS",
+     "url": "https://news.ycombinator.com/item?id=49871925"
     }
    ]
   },
@@ -33,15 +33,15 @@
    "count": 3,
    "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
    "elapsed_s": 16.5,
-   "probe_at": "2026-09-26T09:36:10+08:00",
+   "probe_at": "2026-09-28T09:41:13+08:00",
    "sample": [
     {
-     "title": "Working on a trailer for my game House Trap, looking for some feedback.",
-     "url": "https://www.reddit.com/r/IndieDev/comments/1whhxw2/working_on_a_trailer_for_my_game_house_trap/"
+     "title": "It took me a year and a half to press that green button on Steam!",
+     "url": "https://www.reddit.com/r/IndieDev/comments/1wj9u0c/it_took_me_a_year_and_a_half_to_press_that_green/"
     },
     {
-     "title": "What should I name this little character?",
-     "url": "https://www.reddit.com/r/IndieDev/comments/1whglwj/what_should_i_name_this_little_character/"
+     "title": "New Project Megathread - Week of 17 Sep 2026",
+     "url": "https://www.reddit.com/r/selfhosted/comments/1wj7qvy/new_project_megathread_week_of_17_sep_2026/"
     }
    ]
   },
@@ -54,8 +54,8 @@
    "status": "ok",
    "count": 3,
    "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 9.2,
-   "probe_at": "2026-09-26T09:36:20+08:00",
+   "elapsed_s": 16.3,
+   "probe_at": "2026-09-28T09:41:30+08:00",
    "sample": [
     {
      "title": "NandhaKishorM/laya",
@@ -75,17 +75,17 @@
    "group": "海外发布站",
    "status": "ok",
    "count": 3,
-   "message": "3 startups · 发布日 1/3",
-   "elapsed_s": 36.9,
-   "probe_at": "2026-09-26T09:36:57+08:00",
+   "message": "3 startups · 发布日 3/3",
+   "elapsed_s": 4.6,
+   "probe_at": "2026-09-28T09:41:34+08:00",
    "sample": [
     {
-     "title": "Life Admin",
-     "url": "https://betalist.com/startups/life-admin"
+     "title": "Commune 2",
+     "url": "https://betalist.com/startups/commune-2"
     },
     {
-     "title": "Flamekeeper",
-     "url": "https://betalist.com/startups/flamekeeper"
+     "title": "Infranest",
+     "url": "https://betalist.com/startups/infranest"
     }
    ]
   },
@@ -97,17 +97,17 @@
    "group": "海外发布站",
    "status": "ok",
    "count": 3,
-   "message": "21 products",
-   "elapsed_s": 14.9,
-   "probe_at": "2026-09-26T09:37:11+08:00",
+   "message": "20 products",
+   "elapsed_s": 6.5,
+   "probe_at": "2026-09-28T09:41:41+08:00",
    "sample": [
-    {
-     "title": "Launchnest Ln 15",
-     "url": "https://www.indiehackers.com/product/launchnest-ln-15"
-    },
     {
      "title": "Launchon It",
      "url": "https://www.indiehackers.com/product/launchon-it"
+    },
+    {
+     "title": "Apogee Watcher",
+     "url": "https://www.indiehackers.com/product/apogee-watcher"
     }
    ]
   },
@@ -120,16 +120,16 @@
    "status": "ok",
    "count": 3,
    "message": "4 articles",
-   "elapsed_s": 1.9,
-   "probe_at": "2026-09-26T09:37:13+08:00",
+   "elapsed_s": 15.5,
+   "probe_at": "2026-09-28T09:41:56+08:00",
    "sample": [
+    {
+     "title": "8 Posts by Women on DEV That Deserve More Than a Once-a-Year Spotlight",
+     "url": "https://dev.to/sheships/8-posts-by-women-on-dev-that-deserve-more-than-a-once-a-year-spotlight-27dc"
+    },
     {
      "title": "i built a green blob that lives on my desktop. now it has feelings.",
      "url": "https://dev.to/mikachu/i-built-a-green-blob-that-lives-on-my-desktop-and-now-it-has-feelings-4pjd"
-    },
-    {
-     "title": "164 disposable computers, one judging afternoon, and a question nobody had time ",
-     "url": "https://dev.to/lolocoding/164-disposable-computers-one-judging-afternoon-and-a-question-nobody-had-time-to-ask-19da"
     }
    ]
   },
@@ -142,16 +142,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 entries",
-   "elapsed_s": 0.7,
-   "probe_at": "2026-09-26T09:37:14+08:00",
+   "elapsed_s": 1.2,
+   "probe_at": "2026-09-28T09:41:58+08:00",
    "sample": [
     {
-     "title": "Perfect Slice",
-     "url": "https://www.producthunt.com/products/perfect-slice"
+     "title": "Harmony",
+     "url": "https://www.producthunt.com/products/harmony-it"
     },
     {
-     "title": "Fit Receipt",
-     "url": "https://www.producthunt.com/products/fit-receipt"
+     "title": "Cuey",
+     "url": "https://www.producthunt.com/products/cuey-2"
     }
    ]
   },
@@ -164,16 +164,16 @@
    "status": "ok",
    "count": 3,
    "message": "20 topics",
-   "elapsed_s": 1.1,
-   "probe_at": "2026-09-26T09:37:15+08:00",
+   "elapsed_s": 0.7,
+   "probe_at": "2026-09-28T09:41:58+08:00",
    "sample": [
     {
-     "title": "找工作太难了，拿练手做的网站毛遂自荐下",
-     "url": "https://www.v2ex.com/t/1244819"
+     "title": "用 Rust 写了一个行式 coding agent",
+     "url": "https://www.v2ex.com/t/1244938"
     },
     {
-     "title": "新项目： OpenApp 开源了。",
-     "url": "https://www.v2ex.com/t/1244631"
+     "title": "招聘链上数据工程师（Go）、业务后端工程师（Go）、内部系统工程师（Go）、全栈工程师（React + Go）\r\n\r\n非 web3 经验优先",
+     "url": "https://www.v2ex.com/t/1244881"
     }
    ]
   },
@@ -186,12 +186,12 @@
    "status": "ok",
    "count": 3,
    "message": "8 videos",
-   "elapsed_s": 0.4,
-   "probe_at": "2026-09-26T09:37:15+08:00",
+   "elapsed_s": 0.6,
+   "probe_at": "2026-09-28T09:41:59+08:00",
    "sample": [
     {
-     "title": "一个土豆游戏，引爆独立开发者的AI噩梦",
-     "url": "https://www.bilibili.com/video/BV1mzaw6KEFf"
+     "title": "黑马程序员2026全网最夯VibeCoding零基础入门到实战项目开发全套视频教程，AI辅助编程从入门到实战，涵盖Claude Code、DeepSeek等内容",
+     "url": "https://www.bilibili.com/video/BV1WWYE6LEzx"
     },
     {
      "title": "【27届Unity客户端求职】独立开发的多人在线FPS，公网内测功能演示",
@@ -208,8 +208,8 @@
    "status": "ok",
    "count": 3,
    "message": "9 entries · 收录日 9",
-   "elapsed_s": 1.2,
-   "probe_at": "2026-09-26T09:37:17+08:00",
+   "elapsed_s": 2.4,
+   "probe_at": "2026-09-28T09:42:01+08:00",
    "sample": [
     {
      "title": "Indie Hacker",
@@ -230,16 +230,16 @@
    "status": "ok",
    "count": 3,
    "message": "8 results",
-   "elapsed_s": 13.5,
-   "probe_at": "2026-09-26T09:37:30+08:00",
+   "elapsed_s": 12.4,
+   "probe_at": "2026-09-28T09:42:14+08:00",
    "sample": [
     {
-     "title": "\"[Now Available on Steam] Four Players Working Together, One Betrayer. “YOUR LIA",
-     "url": "https://www.gamespress.com/Now-Available-on-Steam-Four-Players-Working-Together-One-Betrayer-YOUR"
+     "title": "Respira Exhale, the HTML to WordPress converter: drop an HTML file, get a page i",
+     "url": "https://www.respira.press/blog/respira-exhale-launch"
     },
     {
-     "title": "Sputnika Game Officially Merges Onto Nintendo Switch Today - COGconnected",
-     "url": "https://cogconnected.com/2026/09/sputnika-game-officially-merges-onto-nintendo-switch-today/"
+     "title": "Gemorium 1.0 Launches on Steam From Solo Developer Bagosz Dev | HappyGamer",
+     "url": "https://happygamer.com/gemorium-1-0-release-steam-solo-dev-165898/"
     }
    ]
   },
@@ -252,8 +252,8 @@
    "status": "auth",
    "count": 0,
    "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: timeout>90s",
-   "elapsed_s": 91.1,
-   "probe_at": "2026-09-26T09:39:01+08:00",
+   "elapsed_s": 190.1,
+   "probe_at": "2026-09-28T09:45:24+08:00",
    "sample": []
   },
   {
@@ -262,12 +262,17 @@
    "adapter": "opencli_social",
    "auth": "browser",
    "group": "中文社媒",
-   "status": "auth",
-   "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: ok: false\nerror:\n  code: BROWSER_CONNECT\n  message: Browser ",
-   "elapsed_s": 49.7,
-   "probe_at": "2026-09-26T09:39:51+08:00",
-   "sample": []
+   "status": "ok",
+   "count": 1,
+   "message": "1 items（1 路查询）",
+   "elapsed_s": 15.4,
+   "probe_at": "2026-09-28T09:45:39+08:00",
+   "sample": [
+    {
+     "title": "给脸打分App❓两个月竟然卖10万美元",
+     "url": ">-"
+    }
+   ]
   }
  ],
  "backends": [
@@ -278,8 +283,8 @@
    "declared": "ok",
    "delta": true,
    "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 20.0,
-   "probe_at": "2026-09-26T09:40:34+08:00"
+   "elapsed_s": 20.1,
+   "probe_at": "2026-09-28T09:46:22+08:00"
   },
   {
    "backend": "arctic_shift",
@@ -288,8 +293,8 @@
    "declared": null,
    "delta": false,
    "message": "1 rows",
-   "elapsed_s": 2.0,
-   "probe_at": "2026-09-26T09:40:36+08:00"
+   "elapsed_s": 1.4,
+   "probe_at": "2026-09-28T09:46:23+08:00"
   },
   {
    "backend": "exa_web_fetch",
@@ -298,8 +303,8 @@
    "declared": "warn",
    "delta": false,
    "message": "1 url 返回正文",
-   "elapsed_s": 3.4,
-   "probe_at": "2026-09-26T09:40:39+08:00"
+   "elapsed_s": 8.2,
+   "probe_at": "2026-09-28T09:46:31+08:00"
   },
   {
    "backend": "github_gh",
@@ -308,16 +313,16 @@
    "declared": "warn",
    "delta": false,
    "message": "remaining=5000",
-   "elapsed_s": 0.9,
-   "probe_at": "2026-09-26T09:40:40+08:00"
+   "elapsed_s": 1.0,
+   "probe_at": "2026-09-28T09:46:32+08:00"
   }
  ],
  "summary": {
   "total": 13,
-  "ok": 11,
+  "ok": 12,
   "empty": 0,
   "error": 0,
-  "auth": 2
+  "auth": 1
  },
  "decisions": [
   {
@@ -382,13 +387,13 @@
   },
   {
    "channel_id": "xiaohongshu",
-   "action": "unlock",
-   "status": "auth"
+   "action": "keep",
+   "status": "ok"
   }
  ],
  "agent_reach": {
   "ok": true,
-  "checked_at": "2026-09-26T09:40:14+08:00"
+  "checked_at": "2026-09-28T09:46:02+08:00"
  },
  "deltas": [
   {
@@ -398,8 +403,8 @@
    "declared": "ok",
    "delta": true,
    "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 20.0,
-   "probe_at": "2026-09-26T09:40:34+08:00"
+   "elapsed_s": 20.1,
+   "probe_at": "2026-09-28T09:46:22+08:00"
   }
  ]
 }

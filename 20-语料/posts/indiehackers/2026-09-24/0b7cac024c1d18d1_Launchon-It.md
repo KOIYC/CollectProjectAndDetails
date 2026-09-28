@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/launchon-it"
 project_url: "https://launchon.it/"
-captured_at: "2026-09-26T09:44:29+08:00"
+captured_at: "2026-09-28T09:49:51+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,20 +31,80 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://launchon.it/>
-> 采集：2026-09-26T09:44:29+08:00　|　id：`0b7cac024c1d18d1`
+> 采集：2026-09-28T09:49:51+08:00　|　id：`0b7cac024c1d18d1`
 
 ## 正文
 
 Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+
 Starting Up Case Studies
  Ideas DB Products DB Sign in Join
-LaunchOn.it
+LaunchOnIt
  Product launch platform for indie startups.
 Visit Website
-LaunchOn.it Product launch platform for indie startups.
- Posts 16
+LaunchOnIt Product launch platform for indie startups.
+ Posts 18
  Revenue $0 / mo
  Website Twitter
+September 27, 2026
+ The biggest lie we tell ourselves about indie hacking is that building the product is the hard part
+I talk to so many indie hackers who fall into the exact same trap. They treat marketing like an afterthought. They spend ninety percent of their energy perfecting features that users might not even care about, and then they spend ten percent of a Tuesday dropping a quick link on Twitter and hoping for a miracle.
+ The truth is that distribution beats a great product every single day of the week.
+ A mediocre product with smart distribution will almost always outperform a masterpiece that nobody knows exists. We need to stop treating marketing like a dirty word or something we will figure out "later" after the code is done.
+ This exact frustration is actually why I started building LaunchOnIt . I realized that indie makers needed a platform that does not just give you a 24-hour spike and leave you stranded, but actually bakes long-term discovery and SEO into the core process.
+ Distribution has to be built into the product loops from day one. Whether that means building organic SEO mechanisms, automated directory pipelines, or community hooks, marketing is just another engineering problem waiting to be solved.
+ How do you guys split your time right now? Are you still building first and marketing later, or has distribution become your primary focus?
+Alex
+17 Likes
+1 Comment
+Say something nice…
+Post Comment
+1
+This is something I'm realizing myself. Building the product is actually the part I enjoy the most, so it's easy to spend way too much time there and keep telling yourself that marketing can come later.
+Once the product is ready, though, you realize getting it in front of the right people is a completely different challenge. I've been spending much more time on distribution lately and honestly it's been a learning experience.
+I like the idea of treating distribution as an engineering problem rather than something you do after the product is finished.
+Timothy Baskaran
+·
+15 hours ago
+ ·
+Reply
+September 26, 2026
+ How I grew my launch platform domain rating from 0 to 27 in 2 weeks
+Most indie hackers know the pain of SEO. You build a great product, but your domain rating sits at a depressing 0 for months while you manually submit to random directories, chase guest posts, or wait for Google to notice you.
+ I am getting ready to officially launch a brand new automated distribution and backlink feature for LaunchOn.it very soon, and two weeks ago I decided to run an experiment to prep for it.
+ Instead of doing manual link building or paying an SEO agency, I built an internal agentic workflow using Claude, Cursor, and Codex.
+ I automated the entire submission pipeline across a dense network of launch platforms, software directories, and high-authority curation boards, and through the MCP Server, Claude, Codex, Cursor or any MCP client are able to do it almost on auto-pilot. Of course, there's still the need of human intervention for creating accounts and CAPTCHAs, but other than that the process is completely automated. The AI agent knows exactly what forms to fill, it places reciprocal links or badges automatically in your projects and waits for you to deploy the changes in production to complete the listings.
+ The results after exactly 14 days:
+ Domain Rating jumped from 0 to 27 tracked via Ahrefs
+Do-follow referring domains spiked rapidly
+Zero manual copy-pasting or form-filling fatigue
+It turns out that when you let AI agents handle the repetitive grunt work of directory distribution at scale, SEO authority compounds way faster than humanly possible, right in time for my upcoming feature release.
+ Have any of you tried automating your backlink acquisition or directory distribution using AI agents yet? What results did you see?
+Alex
+21 Likes
+3 Comments
+Say something nice…
+Post Comment
+1
+Could you please share the results in terms of SEO traffic or revenue? Metrics like Domain Rating (DR) and other scores created by third-party tools are not actual Google ranking factors. I believe they are just marketing gimmicks used by those platforms.
+Mindfuse
+·
+9 hours ago
+ ·
+Reply
+1
+We have a Grok Bot that finds potential opportunities for blog post backlinks and drafts the outreach messages (with Gmail integration). A human reviews the end result, of course, but it saves a lot of time.
+Apogee Watcher
+·
+16 hours ago
+ ·
+Reply
+1
+The manual submission grind is real I deal with the inverse side of this, running an AI tools directory, reviewing and approving listings one by one. Automating the outbound submission across directories/curation boards is smart, though I'd be curious how you're handling sites that flag or block bot-like submission patterns, since a lot of directories (including ones like mine) have some friction specifically to filter out automated spam. Did you run into any rejections during the 14-day test, or was it clean across the board?
+Anas, Founder at Daily AI Tools
+·
+a day ago
+ ·
+Reply
 September 25, 2026
  We added an MCP server to our launch platform so you can submit your product straight from Claude, Cursor, or Codex
 We added an MCP server to LaunchOn.it , so you can submit your product straight from Claude or Cursor.
@@ -59,15 +119,22 @@ We added an MCP server to LaunchOn.it , so you can submit your product straight 
  Are any of you building custom MCP servers for your own indie apps yet?
  How are you using agents for distribution? Let us chat below.
 Alex
-19 Likes
-1 Comment
+21 Likes
+2 Comments
 Say something nice…
 Post Comment
+1
+This is a good idea. I will give it a try over the weekend. I am going through the same pain rn. Thank you for sharing
+samay_mars
+·
+2 days ago
+ ·
+Reply
 1
 Love this direction. Agents already write my code and run my tests, so letting them handle the boring form filling feels inevitable. The interesting unlock might be what happens when every agent starts submitting to every directory automatically. Discovery gets noisy, and the directories with the strongest curation win. Curious whether you thought about rate limits or quality gates on the agent side.
 CodeSonar
 ·
-16 hours ago
+3 days ago
  ·
 Reply
 September 24, 2026
@@ -85,7 +152,7 @@ If you look at how software has been launched for the last 10 years, it is a bro
  Friction Kills Feedback: If a platform makes submitting a tool feel like applying for a corporate loan, makers will not bother. Speed matters.
  I am curious for the builders here: What has been your actual return on investment from traditional launch days versus organic long term channels? Are single day spikes still worth the stress or are you looking for alternative distribution? Let us chat below.
 Alex
-16 Likes
+18 Likes
 3 Comments
 Say something nice…
 Post Comment
@@ -93,21 +160,21 @@ Post Comment
 Nice
 Amdrewjulian
 ·
-a day ago
+3 days ago
  ·
 Reply
 1
 Greatest
 Amdrewjulian
 ·
-2 days ago
+4 days ago
  ·
 Reply
 1
 Thanks for your support!
 Alex
 ·
-a day ago
+3 days ago
  ·
 Reply
 September 20, 2026
@@ -123,7 +190,7 @@ If you’ve ever launched a product, you know the cycle:
  Instead of an instant upvote bloodbath, we shifted to weekly cohorts where products get a full 7 days of front-page visibility, real community feedback, and permanent SEO equity.
  I’m curious, how many of you actually converted long-term users from your last 24-hour massive traffic spike, or did it feel like shouting into a void by day three? How do you handle launch fatigue?
 Alex
-4 Likes
+5 Likes
 1 Comment
 Say something nice…
 Post Comment
@@ -131,7 +198,7 @@ Post Comment
 Good post. I launched today too (https://heysensa.app) and I was already doing the dumb part: refreshing stats, checking signups, trying to line up votes. This is a good reminder that day one isn't the point. Sensa is a small reflection app. Not another chat bot. It's meant to be used daily, so I'd rather spend the week talking to people than chasing the spike. For anyone who's done a slower launch: did it actually bring users who stuck around? Or just more traffic? That's what I'm trying to figure out.
 Francisco Hidalgo
 ·
-a day ago
+3 days ago
  ·
 Reply
 September 18, 2026
@@ -162,7 +229,7 @@ AI Search Ready: Structuring pages so modern LLM search engines can actually cra
 I’m genuinely curious—looking back at your past launches, how much actual recurring revenue did those massive 24-hour traffic spikes actually turn into 30 days later?
  Are you still relying on single-day launches, or have you shifted toward long-tail distribution? Let’s talk in the comments.
 Alex
-1 Like
+2 Likes
 Comment
 September 16, 2026
  Why our Wednesday traffic converts 3x better than Monday launch clicks
@@ -206,7 +273,7 @@ The founders who succeed long term are not the ones who win a 24-hour upvote con
 Curious to hear from fellow builders here:
 When you look back at your past launches, what percentage of your initial Day 1 users were still active by Day 30? Which channel ended up bringing your most loyal paying customers?
 Alex
-2 Likes
+4 Likes
 1 Comment
 Say something nice…
 Post Comment
@@ -216,7 +283,7 @@ For AI citations - have you seen a listing actually cited in Perplexity/ChatGPT,
 The 20 slots cap - if week is not full, do you keep it half-empty or fill late? I ask because I'm deciding if I should join this week or wait for a full cohort.
 HungryDevs
 ·
-10 days ago
+12 days ago
  ·
 Reply
 September 14, 2026
@@ -239,50 +306,10 @@ AI indexing is real: Clean structured data gets picked up by answer engines much
 Our new batch went live this morning. Since the 20 slots for this week were not taken, you can also go live in the current week.
 For those of you launching or iterating on products this month: what does your distribution stack look like right now? Are you seeing real traffic from AI search engines yet, or are traditional community channels still doing the heavy lifting for you?
 Alex
-3 Likes
+4 Likes
 Comment
-September 13, 2026
- I killed the pay-to-rank board and turned LaunchOn.it into a Product Hunt alternative that doesn’t die in 24 hours
- Pivoted LaunchOn.it .
-It started as a pay-to-rank leaderboard. People paid to sit higher. The board looked busy. Almost nobody got a real launch out of it.
-It’s now a product launch platform. Product Hunt / BetaList style. Each product gets a page and a date. The listing stays after launch day instead of dying in 24 hours. Weekly batches, 20 products, not an infinite grid
-Submit is open for this week: https://launchon.it
-If you shipped something and you want it to still exist next Monday, list it.
-Alex
-1 Like
-Comment
-September 4, 2026
- What happens to a pay to rank board once the day one excitement settles
-Earlier this week I launched launchon.it to test a different take on the pay to rank craze.
- Instead of a single board where a few huge spenders drop massive bids and break the game for everyone else, I set up a weekly reset alongside permanent all time archive spots.
- The first couple of days brought the usual rollercoaster. We went from an empty room to real transactions, including an indie 3D game dropping eleven dollars to grab the top spot.
- Now that the initial launch dust is settling, the real challenge begins.
- A bidding directory is completely dependent on liquidity and ongoing attention. If traffic is high, bids feel like an obvious marketing spend. If traffic dips, founders hesitate to put down even five dollars.
- The biggest lesson so far is that distribution for an attention board cannot rely on a single launch post. The real value is in keeping the weekly reset cycle visible so new founders know they always have a fresh shot at the number one spot every Monday morning.
- For those who have built marketplaces, directories, or micro ad products, how do you maintain steady referral traffic after the first week of launch buzz wears off?
-Alex
-13 Likes
-2 Comments
-Say something nice…
-Post Comment
-1
-Hi Alex,
- The key to survival after launch is proving ROI and automating distribution:
- automate Monday Reset Hype: Automatically send an email on Sunday/Monday showcasing the previous week's winner, total clicks served and new, empty board. Automatically tweet/post the weekly winners to tag founders and make them share it again. Highlight Clicks and not just Traffic: Showcase the real-time click counts on the bidding page. Keep floor bids low ($1-$3) during slower weeks. A board that's active but has low floor bids generates competition; a board that's empty scares everybody off.
-Thuthukani
-·
-22 days ago
- ·
-Reply
-1
-Thanks for the tips, I pivoted the product to a launch platform instead.
-Alex
-·
-3 days ago
- ·
-Reply
 About
- Product Hunt gives you one noisy day and then your launch disappears under the next wave of products. LaunchOn.it is a Product Hunt and BetaList style board where each product gets a page and a date that still exist.
+ Product Hunt gives you one noisy day and then your launch disappears under the next wave of products. LaunchOnIt is a Product Hunt and BetaList style board where each product gets a page and a date that still exist.
  People
  Alex Founder
 Stay informed as an indie hacker.

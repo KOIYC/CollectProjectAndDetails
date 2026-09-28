@@ -2,7 +2,7 @@
 type: "project"
 title: "120K+ Daily views on TikTok with a Phone Farm"
 project_url: "https://ibb.co/0jK027xy"
-first_seen: "2026-09-21T09:45:46+08:00"
+first_seen: "2026-09-28T09:48:33+08:00"
 sources:
   - reddit
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://ibb.co/0jK027xy>
-> 首次收录：2026-09-21T09:45:46+08:00
+> 首次收录：2026-09-28T09:48:33+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/SaaS
 > 最新指标：得分=3 · 评论=15 · 赞踩比=0.62
@@ -29,6 +29,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-21T09:45:46+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=15 · 赞踩比=0.62 | [[20-语料/posts/reddit/2026-09-21/46a1acf5b4694d4a_120K+-Daily-views-on-TikTok-with-a-Phone-Farm]] |
+| 2026-09-28T09:48:33+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=15 · 赞踩比=0.62 | [[20-语料/posts/reddit/2026-09-21/46a1acf5b4694d4a_120K+-Daily-views-on-TikTok-with-a-Phone-Farm]] |
 
 ## 摘要正文
 

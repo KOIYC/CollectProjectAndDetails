@@ -5,7 +5,8 @@ title: "Launchnest Ln 14"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/launchnest-ln-14"
-captured_at: "2026-09-26T09:44:29+08:00"
+project_url: "https://mobtownweb.com/"
+captured_at: "2026-09-28T09:49:51+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -29,8 +30,8 @@ discovered_via: "ih:products"
 > 原帖：<https://www.indiehackers.com/product/launchnest-ln-14>
 > 指标：—
 > 作者：—　|　发布：—
-> 项目链接：—
-> 采集：2026-09-26T09:44:29+08:00　|　id：`15335dcf74f64034`
+> 项目链接：<https://mobtownweb.com/>
+> 采集：2026-09-28T09:49:51+08:00　|　id：`15335dcf74f64034`
 
 ## 正文
 
@@ -69,8 +70,17 @@ You built the product. You launched it. But what happens when nobody knows it ex
  Put your product in front of people actively searching for solutions
  LaunchNest is where products launch—and where people come to find them.
 M.asif
-17 Likes
-Comment
+18 Likes
+1 Comment
+Say something nice…
+Post Comment
+1
+Great premise—closing that initial discovery gap is huge for solo builders and indie projects. I just rolled out an updated build and deployment architecture over at [MobtownWeb.com](https://mobtownweb.com/?utm_source=gemini), so this problem space resonates. Looking forward to seeing LaunchNest grow!
+Steven Jackson
+·
+3 hours ago
+ ·
+Reply
 About
  LaunchNest is a free product discovery platform where founders launch SaaS, AI tools, and indie products—and users discover the right products by searching for what they actually need.
  People
@@ -87,9 +97,13 @@ Products
 Databases
  Ideas Products Stories
 
+## 关联链接
+
+- https://mobtownweb.com/?utm_source=gemini
+
 ## 导航
 
-- 项目页：[[10-项目/Launchnest-Ln-14_15335dcf]]
+- 项目页：[[10-项目/Launchnest-Ln-14_b41f88dc]]
 - 渠道页：[[50-渠道/indiehackers]]
 - 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

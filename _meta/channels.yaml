@@ -15,7 +15,7 @@
 #   last_verified / status_note  由 kb_audit 与人工维护
 
 version: 2
-updated: '2026-09-24'
+updated: '2026-09-28'
 total_target: 300
 
 channels:
@@ -331,8 +331,8 @@ channels:
     params:
       site: xiaohongshu
       queries: ['独立开发', '独立开发者', '小众软件 出海']
-    status: auth
-    last_verified: '2026-09-26'
+    status: ok
+    last_verified: '2026-09-28'
     unlock: 装 OpenCLI 浏览器扩展并保持 Chrome 打开（chrome web store: OpenCLI）；或 agent-reach configure xhs-cookies 走 xiaohongshu-mcp
     note: >-
       2026-09-22 实测已解锁：opencli doctor 报 daemon running + Extension connected(v1.0.22)，
@@ -340,6 +340,8 @@ channels:
       依赖：Chrome 必须开着且小红书网页端有登录态 —— 扩展在但站点没登录时仍会失败（X 就是这种情况）。
       **2026-09-26 复测回落到 auth**（`BROWSER_CONNECT` / `ok: false`）→ 属浏览器端状态，不是渠道腐化：
       保持 `enabled: true`（本机开 Chrome 登录后自动恢复），不写 disabled 段。
+      **2026-09-28 复测已回升 `ok`**（15.4s / 1 条 / 1 路查询）—— 证实上一轮「浏览器端状态、非渠道腐化」的判断：
+      这类 `auth` 在启停决策里**不应计入腐化**，只需复检。
       已知限制：① url 带 xsec_token（有时效）→ item_id 不稳，应剥 xsec_* 再做去重键；
       ② 无正文 enricher，body 仅为元数据块、likes 未进 metrics；
       ③ fix: 已改 3 路 query 全部执行（之前只跑 queries[0]）。
@@ -484,40 +486,45 @@ channels:
 # 每次跑完内容审计更新本段；数字是「可用/条目」，取自 00-索引/内容审计-all.md。
 
 content_gate:
-  audited_at: '2026-09-26'
-  overall: '1828/2068（88%）'
+  audited_at: '2026-09-28'
+  overall: '1912/2162（88%）'
   rows:
-    - {id: producthunt, ratio: '155/156', verdict: keep}
-    - {id: betalist, ratio: '96/96', verdict: keep}
-    - {id: devto, ratio: '10/10', verdict: keep,
-       note: n=10 小样本；标题 require_any 曾把样本全过滤（0 条 = 杀渠道），已回退为「少量标题排除 + limit 降量」}
-    - {id: bilibili, ratio: '47/49', verdict: keep}
-    - {id: indiehackers, ratio: '77/78', verdict: keep}
-    - {id: hn_show, ratio: '1131/1200', verdict: keep,
+    - {id: producthunt, ratio: '181/182', verdict: keep}
+    - {id: betalist, ratio: '107/107', verdict: keep}
+    - {id: devto, ratio: '11/11', verdict: keep,
+       note: n=11 小样本；标题 require_any 曾把样本全过滤（0 条 = 杀渠道），已回退为「少量标题排除 + limit 降量」}
+    - {id: bilibili, ratio: '49/51', verdict: keep}
+    - {id: indiehackers, ratio: '81/82', verdict: keep}
+    - {id: hn_show, ratio: '1168/1240', verdict: keep,
        note: 94%。大厂产品假阳性已修（Show HN 标题自述的条目不再因提到 Stripe/Google 被判「大厂产品」）；
-       主要残余是视频帖无正文（结构性，记死信）与 Exa 截断}
+       主要残余是视频帖无正文（结构性，记死信）与 Exa 截断 26}
     - {id: github_new, ratio: '48/64', verdict: keep,
        note: 75%。噪声是 awesome-*/directory/clone/wiki/journal 类资源清单（标题规则已排除，见 rule_drops）}
-    - {id: v2ex, ratio: '40/52', verdict: keep,
-       note: 77%。主要噪声是「NAS 必装 Docker 推荐」类资源帖；rules.yaml 已排招聘/求职/求助}
-    - {id: exa_discovery, ratio: '12/17', verdict: keep,
-       note: 71%，小样本（weekly_only，非周一不跑）}
-    - {id: reddit, ratio: '204/338', verdict: limit_reduced,
+    - {id: v2ex, ratio: '40/54', verdict: keep,
+       note: 74%。主要噪声是「NAS 必装 Docker 推荐」类资源帖；rules.yaml 已排招聘/求职/求助}
+    - {id: exa_discovery, ratio: '19/25', verdict: keep,
+       note: 76%，小样本（weekly_only，非周一不跑）。2026-09-28 抽查丢弃账本：
+       1 条「Respira Exhale（HTML→WordPress 转换器）」被「无主题词」滤掉，疑误杀 n=1，未到动手阈值}
+    - {id: reddit, ratio: '203/338', verdict: limit_reduced,
        note: 60%。已把 limit 40→30 控量（标题过滤模拟到 88% 但丢 29 条可用帖，代价大于收益，不采纳）。
        2026-09-24 追加：窗口外移 settle_days=10 / window_days=14 后近两周语料抓不到（见渠道 note），
        审计口径与采集口径要一起看}
-    - {id: c1c7, ratio: '7/7', verdict: keep,
-       note: n=7 小样本，百分比抖动大，**报可用率必须连 n 一起报**；修复前 43%（人物名片被当项目语料）→ 现已 100%（n=7）}
+    - {id: c1c7, ratio: '5/7', verdict: keep,
+       note: n=7 小样本，百分比抖动大，**报可用率必须连 n 一起报**；2026-09-28 回落 5/7（2 条 irrelevant = 名录媒体混入），
+       与 09-26 的 7/7 同属 n<10 的正常抖动，不构成渠道级问题}
 
 # ---------------- 后端可用性订正（实测，会被 kb_audit 复检） ----------------
 backends:
   - id: exa_web_fetch
     use: 通用网页正文后端（唯一可用）
     status: ok
-    verified: '2026-09-24'
+    verified: '2026-09-28'
     evidence: mcporter exa.web_fetch_exa 返回 IH 产品页正文。**2026-09-24 复检补记：免费额度会被打满**——
       同一轮采集与回填里出现 `429 / 空返回（code=1）`，`kb_audit` 打印「exa web_fetch 空返回（后端不可用？）」。
       这不是后端挂了，是额度耗尽；表现是「本轮正文补全整批无效」，容易被误读成渠道取数坏了。
+      **2026-09-28 复检**：同一现象再现（采集 `exa web_fetch 空返回（code=1）` 但直取后仍补 8/24；
+      回填 exa 批次 1 仅 3/9，余 9 条落 `no_backend`）→ 确认是**额度**而非后端故障，处理方式是
+      降 `--fulltext-budget` / 分批跑 / 等额度重置，**不要改渠道参数**。
     limit: 免费额度可耗尽；额度打满时应降 --fulltext-budget 或分批跑，不要改渠道参数
     revive: 额度重置后自动恢复（无需改配置）
   - id: jina_reader

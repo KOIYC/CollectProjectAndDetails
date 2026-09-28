@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49848732"
 project_url: "https://github.com/AcaysiaChem/aslmp"
 author: "AiasT"
 published_at: "2026-09-25T19:18:03Z"
-captured_at: "2026-09-26T10:00:28+08:00"
+captured_at: "2026-09-28T10:06:07+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=3 · 评论=0 · engagement_velocity=3
 > 作者：AiasT　|　发布：2026-09-25T19:18:03Z
 > 项目链接：<https://github.com/AcaysiaChem/aslmp>
-> 采集：2026-09-26T10:00:28+08:00　|　id：`80daa8ace080de62`
+> 采集：2026-09-28T10:06:07+08:00　|　id：`80daa8ace080de62`
 
 ## 正文
 
@@ -59,7 +59,7 @@ An async SLMP client for Mitsubishi MELSEC PLCs
 
 ## Top Contributors
 
-- aiast1 (39 contributions)
+- aiast1 (45 contributions)
 
 ---
 
@@ -115,7 +115,7 @@ asyncio.run(main())
 ```
 
 There is a synchronous facade (`aslmp.sync.Plc`) with the same method names and one background
-event loop for its lifetime, and a command line with eleven subcommands behind one entry point.
+event loop for its lifetime, and a command line with twelve subcommands behind one entry point.
 
 ---
 
@@ -320,7 +320,13 @@ left alone, and where.
 ```
 aslmp identify 192.168.10.250 --port 5002
 aslmp probe    192.168.10.250 --port 5002 --profile melsec:iq-f/fx5u
+aslmp status   192.168.10.250 --port 5002 --profile melsec:iq-f/fx5u
 ```
+
+`status` answers the question `probe` does not: whether the CPU is running and whether it is
+reporting an error. A healthy connection to a CPU with an active fault probes perfectly. The
+error half is iQ-F only for now -- its registers were measured on an FX5U -- and other families
+get the running state alone.
 
 `identify` needs no profile: `0x0619` and `0x0101` carry no device address, so the profile
 cannot change a byte of them. `probe` proves the entry is free, the data code matches, the
@@ -663,12 +669,13 @@ and no latency column shows that.
 
 ## The command line
 
-One console script, eleven subcommands, each imported lazily — `aslmp --help` does not import
+One console script, twelve subcommands, each imported lazily — `aslmp --help` does not import
 `asyncio` or `socket`, and that is a test.
 
 ```
 aslmp identify 192.168.10.250                        what CPU is that, and which profile?
 aslmp probe    HOST --profile KEY                    prove the entry is live, and say what that proves
+aslmp status   HOST --profile KEY                    the CPU's state, and on iQ-F whether it reports an error
 aslmp read     HOST D0 --as f32 --profile KEY        one typed read
 aslmp write    HOST D100 1.25 --as f32 --verify      device memory only
 aslmp cite     0x0403                                the manual sections behind a command
@@ -758,13 +765,7 @@ whole package. Details in `docs/errors.md`.
 
 ## Safety
 
-The notice at the top of this file is the short version. This section is what it means in code.
-
-**Nothing in this library is a safety interlock.** There is no watchdog, no deadman, no
-safe-state-on-disconnect and no attempt at one, because a client on the far side of a network
-cannot implement any of them honestly: a host that has crashed looks exactly like a host that is
-writing the same value over and over. The API documentation does call `allow_remote_control` an
-*interlock*, and that word means a software gate against your ow
+The notice at the top of this file is the sho
 
 ## 导航
 

@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/SaaS/comments/1wj8yif/burned_hundreds_on_reddit_a
 project_url: "https://portreeve.com/"
 author: "ernest-ai"
 published_at: "2026-09-18T06:51:40+08:00"
-captured_at: "2026-09-21T13:04:42+08:00"
+captured_at: "2026-09-28T09:48:33+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -19,9 +19,9 @@ tags:
   - reddit
   - r/SaaS
 metrics: {"score": 17, "comments": 31, "upvote_ratio": 0.84}
-comments_count: 28
+comments_count: 30
 comments_total: 31
-discovered_via: "reddit:7d+settle3"
+discovered_via: "reddit:14d+settle10"
 ---
 
 # Burned hundreds on Reddit Ads
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=17 · 评论=31 · 赞踩比=0.84
 > 作者：ernest-ai　|　发布：2026-09-18T06:51:40+08:00
 > 项目链接：<https://portreeve.com/>
-> 采集：2026-09-21T13:04:42+08:00　|　id：`b9cab6dad2c1be81`
+> 采集：2026-09-28T09:48:33+08:00　|　id：`b9cab6dad2c1be81`
 
 ## 正文
 
@@ -47,7 +47,7 @@ Contrast that with google ads where I was seeing about a 8.2% CTR and meaningful
 
 Likely won't try reddit ads again, but wanted to see if others experienced the same issues
 
-## 评论（28/31）
+## 评论（30/31）
 
 > **MysticForge13**（1 分） · 2026-09-18T06:55:52+08:00　
 > I've heard similar complaints about Reddit Ads. Google traffic usually feels way more intentional, while Reddit can burn through budget fast with little engagement.
@@ -210,6 +210,16 @@ Likely won't try reddit ads again, but wanted to see if others experienced the s
 
 > **iLuvRachetPussy**（1 分） · 2026-09-19T02:15:36+08:00　
 > Where did you put the ads?
+
+---
+
+> **vpnsafe_chris**（1 分） · 2026-09-22T23:33:31+08:00　
+> i am exploring advertising on reddit, but not sure its worth it and what return i would get and most people use ad blocks now.
+
+---
+
+> **azinae_sun**（1 分） · 2026-09-25T03:58:32+08:00　
+> Reddit ads have been hit or miss for my business. Visiting your website, I think the problem might be that it’s unclear what’s the product/service.
 
 ## 关联链接
 

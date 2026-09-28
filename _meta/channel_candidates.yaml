@@ -5,9 +5,33 @@
 # 接入 = adapters 里加实现 + channels.yaml 加条目 + 跑 `kb_content_audit.py --channel <id>` 验可用率。
 
 version: 1
-updated: '2026-09-20'
+updated: '2026-09-28'
 
 candidates:
+
+  - id: launchnest
+    name: LaunchNest（免费产品发布/发现站）
+    url: https://launchnest.io/
+    lang: en
+    group: 海外发布站
+    profile: linkpost
+    status: candidate_ready
+    discovered_via: agent-reach Exa 搜索「new indie hacker launch platform alternative to Product Hunt 2026-09」
+    probe_evidence: >-
+      2026-09-28 实测（直连 urllib，静态 HTML）：
+      ① 首页 HTTP 200 / 271KB，含 30 个 `/p/<slug>` 产品链接；`/products` 200 / 284KB（完整列表页）；
+      ② `/sitemap.xml` 200 / 111KB，含 670 个 loc，其中 **593 个 `/p/<slug>` 产品页** → 可全量枚举；
+      ③ 产品详情页 200 / 97KB，剥标签后正文 ~2500 字符，含产品名 / 标语 / 分类（`Home / Marketing / X`）/
+      「Made by <作者>」/ **外站链接**（实测 `peerbear.io/pricing`、`x.com/peerbear_io`）→ **project_url 可得**；
+      ④ 无 feed：`/rss` `/feed` `/feed.xml` `/api/products` 全 404；无 REST API → HTML 解析。
+    required_work: >-
+      新 adapter `ad_launchnest`（列表用 `/products` 或 `sitemap.xml` 枚举，详情页取正文 + 首个非同源外链做 project_url）。
+      价值：契约型发布站（条目存在≈项目），且**能拿到 project_url** —— 现库三个发布站
+      （producthunt / betalist / exa_discovery）的 project_url 结构性不可得，跨渠道归并键缺失；
+      本候选可直接补这一个缺口。可参考 `ad_betalist` 的 HTML 列表解析结构。
+    risk: >-
+      站点 2026-09-03 才上线，体量小且产品偏「营销/工具」；无 API → 站点改版即腐化，
+      需在 kb_audit 里配独立探针（探 `/products` 首屏链接数）。先试运行一轮看内容审计可用率再定去留。
 
   - id: w2solo
     name: w2solo 独立开发者社区
@@ -41,7 +65,11 @@ candidates:
       `/rss`、`/feed`、`/feed.xml`、`/launches` 全部 404 → 无 feed，只能 HTML 解析。
       站点自我定位：**只收 solo founder / indie hacker 且人工验证**（不收 VC 融资公司），
       每日限 11 个发布位 → 定位与 KB 目标高度一致。
+      **2026-09-28 复测（路径订正）**：首页已改为 **Next.js 客户端渲染**，`/product/` 链接归零
+      （只剩 badges/`_next/static` 资源）；产品真实路径是 **`/p/<slug>`**，
+      由 `/sitemap.xml`（200 / 96KB / 563 loc）给出：**195 个 `/p/` 产品页** + 205 directories + 128 categories。
+      `/products` `/launches` `/rss` 仍 404。→ 取数路径必须从「首页 HTML 解析」改为「sitemap 枚举」，否则会误判成渠道已死。
     required_work: >-
-      新 adapter `ad_wonderlaunch`（HTML 列表 + 详情页正文）。
+      新 adapter `ad_wonderlaunch`（**sitemap.xml 枚举 `/p/<slug>`** + 详情页正文）。
       可参考 `ad_betalist` 的 HTML 列表解析结构。
     risk: 站点新、体量小（日均 ≤11 条）；先接为**试运行**，跑一轮内容审计看可用率再定去留

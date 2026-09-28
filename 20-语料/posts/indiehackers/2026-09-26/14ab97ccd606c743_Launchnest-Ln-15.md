@@ -5,7 +5,7 @@ title: "Launchnest Ln 15"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/launchnest-ln-15"
-captured_at: "2026-09-26T09:44:29+08:00"
+captured_at: "2026-09-28T09:49:51+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-26T09:44:29+08:00　|　id：`14ab97ccd606c743`
+> 采集：2026-09-28T09:49:51+08:00　|　id：`14ab97ccd606c743`
 
 ## 正文
 
@@ -67,15 +67,36 @@ September 25, 2026
 🔎 Discover something useful.
  Welcome to Launch Nest LN.
 M.asif
-31 Likes
-1 Comment
+38 Likes
+4 Comments
 Say something nice…
 Post Comment
+1
+Perfect
+Amdrewjulian
+·
+2 days ago
+ ·
+Reply
+1
+Nice
+Amdrewjulian
+·
+2 days ago
+ ·
+Reply
+1
+Good
+Amdrewjulian
+·
+2 days ago
+ ·
+Reply
 1
 I like the problem-based discovery idea. People often know what they need, not what the tool is called.
 wajib
 ·
-8 hours ago
+2 days ago
  ·
 Reply
 About

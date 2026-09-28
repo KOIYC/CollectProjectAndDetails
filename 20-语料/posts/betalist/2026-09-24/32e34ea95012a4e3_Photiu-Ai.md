@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/photiu-ai"
 published_at: "2026-09-24"
-captured_at: "2026-09-25T00:00:08+08:00"
+captured_at: "2026-09-28T09:49:41+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-09-24
 > 项目链接：—
-> 采集：2026-09-25T00:00:08+08:00　|　id：`32e34ea95012a4e3`
+> 采集：2026-09-28T09:49:41+08:00　|　id：`32e34ea95012a4e3`
 
 ## 正文
 
@@ -86,9 +86,9 @@ PhotoEditorAI
  Edit, enhance, and generate product photos with AI in seconds
 Pixel Perfect
  AI photo editor for headshots, avatars, and profile pictures
-EntreDash
+Nodlume
  BOOSTED
- Validate and shape your idea with a private AI advisory board
+ Plan React apps on a visual canvas and export ready project files
  BOOSTED
 ProfessionalHeadshot.io
  Create professional AI headshots from casual selfies
@@ -96,9 +96,9 @@ Pixizen
  AI-powered platform to create high-converting product content and ads
 Snatched
  AI photo editor for flawless skin and body in one tap
-Terrapin
+All Web Forms
  BOOSTED
- Turn receipts, email & photos into clean, tax-ready insights, automatically
+ Build high-converting contact and lead forms with a no-code builder
  BOOSTED
 Foca AI
  Create Amazon and Shopify product photos from casual shots with one tap

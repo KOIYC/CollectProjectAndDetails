@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/SaaS/comments/1wja0h7/120k_daily_views_on_tiktok_
 project_url: "https://ibb.co/0jK027xy"
 author: "Business_Mix3602"
 published_at: "2026-09-18T07:36:36+08:00"
-captured_at: "2026-09-21T09:45:46+08:00"
+captured_at: "2026-09-28T09:48:33+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,7 +21,7 @@ tags:
 metrics: {"score": 3, "comments": 15, "upvote_ratio": 0.62}
 comments_count: 18
 comments_total: 18
-discovered_via: "reddit:7d+settle3"
+discovered_via: "reddit:14d+settle10"
 ---
 
 # 120K+ Daily views on TikTok with a Phone Farm
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=15 · 赞踩比=0.62
 > 作者：Business_Mix3602　|　发布：2026-09-18T07:36:36+08:00
 > 项目链接：<https://ibb.co/0jK027xy>
-> 采集：2026-09-21T09:45:46+08:00　|　id：`46a1acf5b4694d4a`
+> 采集：2026-09-28T09:48:33+08:00　|　id：`46a1acf5b4694d4a`
 
 ## 正文
 
@@ -384,17 +384,17 @@ happy to answer questions / share more screenshots if anyone wants them.
 
 ---
 
-> **TheXaltrix**（1 分） · 2026-09-19T22:21:06+08:00　
+> **TheXaltrix**（0 分） · 2026-09-19T22:21:06+08:00　
 > He is using proxies
 
 ---
 
-> **TheXaltrix**（1 分） · 2026-09-19T22:22:31+08:00　
+> **TheXaltrix**（0 分） · 2026-09-19T22:22:31+08:00　
 > Just reset the phone use a good proxie and do whatever uh want if uh want to use multiple accounts on a same device then cloning app i don't for I phone but I can tell you for Android clonelycloner
 
 ---
 
-> **TheXaltrix**（1 分） · 2026-09-19T22:23:24+08:00　
+> **TheXaltrix**（0 分） · 2026-09-19T22:23:24+08:00　
 > Reach => Targeted Audience => Sales => Earning
 
 ## 关联链接

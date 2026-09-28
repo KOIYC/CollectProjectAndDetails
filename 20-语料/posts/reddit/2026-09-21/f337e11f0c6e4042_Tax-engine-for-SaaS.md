@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1wjc0fy/tax_engine_for_saas/"
 author: "Ok-Memory2809"
 published_at: "2026-09-18T09:06:26+08:00"
-captured_at: "2026-09-21T09:45:46+08:00"
+captured_at: "2026-09-28T09:48:33+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -18,9 +18,9 @@ tags:
   - reddit
   - r/SaaS
 metrics: {"score": 4, "comments": 14, "upvote_ratio": 0.84}
-comments_count: 14
-comments_total: 14
-discovered_via: "reddit:7d+settle3"
+comments_count: 19
+comments_total: 19
+discovered_via: "reddit:14d+settle10"
 ---
 
 # Tax engine for SaaS?
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=4 · 评论=14 · 赞踩比=0.84
 > 作者：Ok-Memory2809　|　发布：2026-09-18T09:06:26+08:00
 > 项目链接：—
-> 采集：2026-09-21T09:45:46+08:00　|　id：`f337e11f0c6e4042`
+> 采集：2026-09-28T09:48:33+08:00　|　id：`f337e11f0c6e4042`
 
 ## 正文
 
@@ -46,7 +46,7 @@ Ideally, I’d like the cost to scale primarily with our transaction volume rath
 
 I’ve seen solutions like Avalara, TaxJar, Stripe Tax, and similar services, but I’d love to hear from other developers about what they’re actually using.
 
-## 评论（14/14）
+## 评论（19/19）
 
 > **joshdotmn**（2 分） · 2026-09-18T09:11:31+08:00　
 > If you don’t use Stripe Tax, eventually you’re going to wish you had used Stripe Tax.
@@ -133,6 +133,33 @@ I’ve seen solutions like Avalara, TaxJar, Stripe Tax, and similar services, bu
 
 > **InvestmentFree9567**（0 分） · 2026-09-19T15:31:33+08:00　
 > Even if you use any of these tax engines, you still need to handle tax reconciliation on those countries. Why don't you go with merchant of records?
+
+---
+
+> **AutoModerator**（1 分） · 2026-09-23T01:28:04+08:00　
+> Low-Effort/AI content is auto-removed.
+>
+> *I am a bot, and this action was performed automatically. Please [contact the moderators of this subreddit](/message/compose/?to=/r/SaaS) if you have any questions or concerns.*
+
+---
+
+> **catapooh**（3 分） · 2026-09-23T16:08:39+08:00　
+> Have you tried tax wire if you need an api for sales tax, vat and gst without building all that jurisdiction logic yourself. For saas having the calculation and compliance side connected was the bigger advantage for us
+
+---
+
+> **Odd-Car-9220**（1 分） · 2026-09-23T23:05:08+08:00　
+> Kintsugi! super easy to use
+
+---
+
+> **weyoun_9th**（1 分） · 2026-09-24T18:27:46+08:00　
+> That last part matters as you scale. Calculating the tax is one thing but eventually you also have registrations, filings, nexus and changing rules to deal with
+
+---
+
+> **Gryphius**（1 分） · 2026-09-25T18:22:17+08:00　
+> We needed more than a calculation api once registrations and returns entered the picture
 
 ## 导航
 

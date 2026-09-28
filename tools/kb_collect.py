@@ -32,7 +32,7 @@ from kb_common import (BODY_MIN, CST, DIR_CHANNELS, DIR_CORPUS, DIR_METHOD, DIR_
                        DIR_PROJECTS, DIR_RAW, META, BodyCache, FetchError, RunLog, Seen,
                        append_jsonl, body_completeness, ensure_dirs, is_project_ish, iso,
                        load_channels_yaml, load_registry, norm_url, now_cst, note_bucket,
-                       pub_day_of, rotate_jsonl, sanitize_record, sha1, slugify, topic_of,
+                       pub_day_of, rotate_files, rotate_jsonl, sanitize_record, sha1, slugify, topic_of,
                        write_ledger, write_note)
 from kbc_channels import (ACCOUNT_URL_RE, ADAPTERS, ENRICH_ROUTING, FULLTEXT_BUDGET,  # noqa: E402,F401
                           LINK_RE, MAX_COMMENTS, PERSON_HANDLE_RE, as_tags, detect_lang,  # noqa: E402,F401
@@ -689,6 +689,26 @@ def main(argv=None) -> int:
         if pu_derived:
             print(f"    [i] project_url 补推 {pu_derived} 条（正文补全后才可推导）", flush=True)
 
+        # ---- new/update/refresh 判定 ----
+        #
+        # 【必须在「在线近重复标注」之前】—— 那一块会对本条做
+        # `seen.items.setdefault(item_id, {})` 写 simhash（零网络增量指纹）。一旦先跑，
+        # **真·新条目**在 `seen` 里就有了记录 → `seen.get(...) is None` 判 False →
+        # `record_type` 被误标成 `update`、`new` 指标系统性低估。
+        # 实测 2026-09-28：本轮落 94 个新语料页，却只报 new=30（差 64 条），
+        # 而这 64 条的 `seen_count` 全是 1、`first_seen` 就是本轮 —— 正是被误判的铁证。
+        # `new` 进运行日志、进 run 记录、进「新条数 100-300」质检门槛，错不起。
+        for it in items:
+            it["_hash"] = sha1(json.dumps({"b": it.get("body") or "", "c": it.get("comments") or [],
+                                           "m": it.get("metrics") or {}}, ensure_ascii=False,
+                                          sort_keys=True))
+            it["_is_new"] = seen.get(it["item_id"]) is None
+            it["_changed"] = it["_is_new"] or seen.content_hash(it["item_id"]) != it["_hash"]
+        new_cnt = sum(1 for it in items if it["_is_new"])
+        chg_cnt = sum(1 for it in items if (not it["_is_new"]) and it["_changed"])
+        total_items += len(items)
+        total_new += new_cnt
+
         # ---- 在线近重复标注（B5）----
         #
         # 为什么放在「正文补全之后、写盘之前」：raw JSONL 是只追加的不可变事实源，
@@ -731,17 +751,6 @@ def main(argv=None) -> int:
             if nd_hits or nd_unver:
                 print(f"    [i] 近重复：{nd_hits} 条已确认（含候选验证）· "
                       f"{nd_unver} 条仅有候选未验证（对方正文不在缓存，不计为重复）", flush=True)
-
-        for it in items:
-            it["_hash"] = sha1(json.dumps({"b": it.get("body") or "", "c": it.get("comments") or [],
-                                           "m": it.get("metrics") or {}}, ensure_ascii=False,
-                                          sort_keys=True))
-            it["_is_new"] = seen.get(it["item_id"]) is None
-            it["_changed"] = it["_is_new"] or seen.content_hash(it["item_id"]) != it["_hash"]
-        new_cnt = sum(1 for it in items if it["_is_new"])
-        chg_cnt = sum(1 for it in items if (not it["_is_new"]) and it["_changed"])
-        total_items += len(items)
-        total_new += new_cnt
 
         if not args.dry:
             raw_rows = []
@@ -819,20 +828,33 @@ def main(argv=None) -> int:
               f" · 账本 _meta/rule_drops.jsonl", flush=True)
 
     if not args.dry:
+        finish_errors: list[str] = []
+        # 【收尾必须可重入】改名善后与轮转是「善后」不是「记账」：任何一步失败都不许吞掉
+        # 后面的 seen.save()/body_cache.save()/log.finish()。
+        # 实证：2026-09-26 `write_ledger` 漏 import、2026-09-28 `rotate_files` 漏 import，
+        # 连续两轮崩在这里 → 13 渠道全跑完却把 run 记录 + 改名 manifest + 链接改写整体丢掉。
+        # 所以此处改为 try/except：失败响亮告警并写进 run 记录（不静默、不清零、不阻断）。
         if rename_pairs:
             # 改名善后：manifest 落盘（undo 可查）+ 改写指向旧名的 wikilink。
             # 函数内 import：navfix 反向 import 本模块，模块级 import 会成环。
-            from kb_navfix import _rewrite_stem_links
-            man = {"at": iso(now_cst()), "kind": "corpus_rename",
-                   "note": "条目改标题导致的语料页换名；旧页已清（git/raw 可回溯），链接已改写",
-                   "renames": [{"from": k, "to": v} for k, v in sorted(rename_pairs.items())]}
-            write_ledger(META / f"corpus_rename_manifest_{run_id}.json", man,
-                         lock_name="rename_manifest", indent=2)
-            n = _rewrite_stem_links({Path(k).stem: v[:-3] for k, v in rename_pairs.items()},
-                                    apply=True)
-            rotate_files(META, "corpus_rename_manifest_", 12)
-            print(f"[改名] 标题变更致语料页换名 {len(rename_pairs)} 条 → 旧页已清 · "
-                  f"链接改写 {n} 条", flush=True)
+            try:
+                from kb_navfix import _rewrite_stem_links
+                man = {"at": iso(now_cst()), "kind": "corpus_rename",
+                       "note": "条目改标题导致的语料页换名；旧页已清（git/raw 可回溯），链接已改写",
+                       "renames": [{"from": k, "to": v} for k, v in sorted(rename_pairs.items())]}
+                write_ledger(META / f"corpus_rename_manifest_{run_id}.json", man,
+                             lock_name="rename_manifest", indent=2)
+                n = _rewrite_stem_links({Path(k).stem: v[:-3] for k, v in rename_pairs.items()},
+                                        apply=True)
+                rotate_files(META, "corpus_rename_manifest_", 12)
+                print(f"[改名] 标题变更致语料页换名 {len(rename_pairs)} 条 → 旧页已清 · "
+                      f"链接改写 {n} 条", flush=True)
+            except Exception as e:                                 # noqa: BLE001
+                finish_errors.append(f"corpus_rename: {type(e).__name__}: {e}")
+                log.error("corpus_rename", e)
+                print(f"[!] 改名善后失败（语料已落盘，仅善后未完成；"
+                      f"手补：kb_navfix --fix-note-remnants / --fix-renamed-links）"
+                      f"：{type(e).__name__}: {e}", flush=True)
         seen.save()
         # body_cache 是**缓存**不是事实源：清掉再也够不到的条目，防它单调膨胀
         # （实测 9.0MB · 每渠道 + 收尾各全量重序列化一次）。正文的可恢复来源是不可变的 90-原始。
@@ -841,14 +863,21 @@ def main(argv=None) -> int:
             print(f"[缓存] body_cache 清理 {pruned} 条陈旧正文（需要时从 90-原始 重建）", flush=True)
         body_cache.save()
         # 追加型单文件账本没有前缀族，rotate_files 管不到 → 它是 _meta 里唯一只增不减的一本
-        rot = rotate_jsonl(META / "rule_drops.jsonl")
-        if rot:
-            print(f"[轮转] rule_drops.jsonl 超阈值，已分档（保 4 档 · 只归档不删除）", flush=True)
+        try:
+            rot = rotate_jsonl(META / "rule_drops.jsonl")
+            if rot:
+                print(f"[轮转] rule_drops.jsonl 超阈值，已分档（保 4 档 · 只归档不删除）", flush=True)
+        except Exception as e:                                     # noqa: BLE001
+            finish_errors.append(f"rotate_drops: {type(e).__name__}: {e}")
+            print(f"[!] rule_drops.jsonl 轮转失败：{type(e).__name__}: {e}", flush=True)
         out = log.finish({"total_items": total_items, "total_new": total_new, "dry": False,
                           "rule_dropped": len(drop_sink), "write_errors": write_errors,
-                          "body_cache_pruned": pruned})
+                          "body_cache_pruned": pruned, "finish_errors": finish_errors})
 
         print(f"=== 完成：{total_items} 条（新 {total_new}）· 运行记录 {out} ===")
+        if finish_errors:
+            print(f"[!] 收尾有 {len(finish_errors)} 项失败（见上）—— 记账已完成，善后需手工补",
+                  flush=True)
         if write_errors:
             print(f"[!] 本轮写盘失败 {write_errors} 条（明细见上方 [X] 行与运行记录 errors 字段）",
                   flush=True)

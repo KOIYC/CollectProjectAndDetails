@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1wj9c9x/engineering_is_spending_half_a_headcount/"
 author: "Upstairs-Crab-2611"
 published_at: "2026-09-18T07:07:11+08:00"
-captured_at: "2026-09-21T13:04:39+08:00"
+captured_at: "2026-09-28T09:48:33+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,9 +18,9 @@ tags:
   - reddit
   - r/SaaS
 metrics: {"score": 23, "comments": 9, "upvote_ratio": 0.93}
-comments_count: 8
-comments_total: 9
-discovered_via: "reddit:7d+settle3"
+comments_count: 10
+comments_total: 10
+discovered_via: "reddit:14d+settle10"
 ---
 
 # Engineering is spending half a headcount maintaining our docs pipeline
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=23 · 评论=9 · 赞踩比=0.93
 > 作者：Upstairs-Crab-2611　|　发布：2026-09-18T07:07:11+08:00
 > 项目链接：—
-> 采集：2026-09-21T13:04:39+08:00　|　id：`b8c2679504d204f5`
+> 采集：2026-09-28T09:48:33+08:00　|　id：`b8c2679504d204f5`
 
 ## 正文
 
@@ -46,7 +46,7 @@ the other thing that came up is that our docs aren't set up for AI agents at all
 
 looking at managed platforms vs continuing to maintain what we have. mainly want to understand what companies in the 300-500 engineer range are actually using and whether the migration pain is worth it at our scale.
 
-## 评论（8/9）
+## 评论（10/10）
 
 > **VariousFoothold**（1 分） · 2026-09-18T07:12:58+08:00　
 > before switching platforms I would check whether the problem is the tool or the process. we tied docs updates to the PR review checklist and made it a merge blocker. cut the stale docs problem significantly without changing platforms. the AI agent readiness part is a different question though, that does need tooling.
@@ -93,6 +93,18 @@ looking at managed platforms vs continuing to maintain what we have. mainly want
 > that turns the migration debate into a number, and it keeps running as a regression test after you ship.
 >
 > did the tagging record the page, or only that an answer existed?
+
+---
+
+> **fazkan**（1 分） · 2026-09-22T00:46:14+08:00　
+> There are a few options you can look at, gitbooks is the category leader, and readme dot md. All of them come with llms.txt and mcp server, with some price variance.
+>
+> Also, would be happy to demo, docsalot to you. We have series-B companies as customers, with one dev-rel using us.
+
+---
+
+> **arslannasir128**（1 分） · 2026-09-23T21:37:14+08:00　
+> The expensive half here is drift. Every release makes a sentence in those docs false and nobody owns noticing it. I build a support agent that reads the live screen instead of the article, so consider my bias disclosed, and my instinct is to stop paying to keep the page correct at all.
 
 ## 导航
 

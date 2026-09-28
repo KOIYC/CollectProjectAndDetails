@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/IndieDev/comments/1wj8gtc/show_me_your_game_trailersgameplay_wanna_see_what/"
 author: "ilikemyname21"
 published_at: "2026-09-18T06:30:52+08:00"
-captured_at: "2026-09-21T09:45:55+08:00"
+captured_at: "2026-09-28T09:48:40+08:00"
 lang: "en"
 kind: "post"
 topic: 开发者工具
@@ -19,9 +19,9 @@ tags:
   - r/indiedev
   - Discussion
 metrics: {"score": 35, "comments": 81, "upvote_ratio": 0.91}
-comments_count: 81
-comments_total: 81
-discovered_via: "reddit:7d+settle3"
+comments_count: 85
+comments_total: 85
+discovered_via: "reddit:14d+settle10"
 ---
 
 # Show me your game trailers/gameplay! Wanna see what you guys are working on.
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=35 · 评论=81 · 赞踩比=0.91
 > 作者：ilikemyname21　|　发布：2026-09-18T06:30:52+08:00
 > 项目链接：—
-> 采集：2026-09-21T09:45:55+08:00　|　id：`beef61e5760b2712`
+> 采集：2026-09-28T09:48:40+08:00　|　id：`beef61e5760b2712`
 
 ## 正文
 
@@ -45,7 +45,7 @@ Now I just wanna see the coolest upcoming games we’ve all been working on. If 
 
 Just wanna see some cool stuff!
 
-## 评论（81/81）
+## 评论（85/85）
 
 > **willfarm**（3 分） · 2026-09-18T07:01:14+08:00　
 > https://store.steampowered.com/app/5127720/MUSTER/
@@ -668,6 +668,40 @@ Just wanna see some cool stuff!
 > I am sharing the link to the game as well, if you are into psychological horror games do try it out.
 >
 > https://store.steampowered.com/app/4603610/The\_Frozen\_Cabin/
+
+---
+
+> **indieg**（1 分） · 2026-09-21T13:46:02+08:00　
+> [https://www.youtube.com/watch?si=YI8HpT37M7xcy\_Bm&v=QRW3EqEjz6Q&feature=youtu.be](https://www.youtube.com/watch?si=YI8HpT37M7xcy_Bm&v=QRW3EqEjz6Q&feature=youtu.be)
+>
+> we are working on a single-player psychological survival experience built around repetition, failure, and learning.
+
+---
+
+> **murmur_on_reddit**（1 分） · 2026-09-21T20:32:54+08:00　
+> https://reddit.com/link/pb5gfpk/video/y4ys8iuuavqh1/player
+>
+> COP BASTARD is a VHS action FPS inspired by '90s Hong Kong and Japanese action movies. A refreshed demo is available now, with the full game coming this October.
+>
+> Steam: [https://store.steampowered.com/app/1742440/COP\_BASTARD/](https://store.steampowered.com/app/1742440/COP_BASTARD/)
+
+---
+
+> **Dadalida-lpn**（1 分） · 2026-09-21T21:25:25+08:00　
+> [https://store.steampowered.com/app/2959460/Matelotes/](https://store.steampowered.com/app/2959460/Matelotes/)
+>
+> The Royal Hen has disappeared!
+
+---
+
+> **acgabor**（1 分） · 2026-09-22T11:19:59+08:00　
+> Logic-puzzle game 'Steppable' on Android - completely free, no ads, no in-app purchases.
+>
+> Youtube trailer:
+> https://youtube.com/shorts/3tpXsfbcazU
+>
+> Thanks for trying it :)
+> https://play.google.com/store/apps/details?id=com.acgabor.steppable
 
 ## 导航
 

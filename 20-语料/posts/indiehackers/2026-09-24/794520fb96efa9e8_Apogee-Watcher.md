@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/apogee-watcher"
 project_url: "https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance"
-captured_at: "2026-09-26T09:44:29+08:00"
+captured_at: "2026-09-28T09:49:51+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance>
-> 采集：2026-09-26T09:44:29+08:00　|　id：`794520fb96efa9e8`
+> 采集：2026-09-28T09:49:51+08:00　|　id：`794520fb96efa9e8`
 
 ## 正文
 
@@ -58,14 +58,28 @@ TTFB is not a Core Web Vital, but it still gates LCP because the main content ca
  Read more: reduce TTFB when CDN and theme fixes fail
 Apogee Watcher
 11 Likes
-1 Comment
+3 Comments
 Say something nice…
 Post Comment
+1
+Better
+Amdrewjulian
+·
+2 days ago
+ ·
+Reply
+1
+Perfect
+Amdrewjulian
+·
+2 days ago
+ ·
+Reply
 1
 The uncached miss-path point is easy to overlook. Testing that separately from the cached homepage seems like a much better way to find the real bottleneck.
 wajib
 ·
-8 hours ago
+2 days ago
  ·
 Reply
 How Lighthouse Performance Scores Are Recorded and Calculated
@@ -93,14 +107,14 @@ Post Comment
 For an authenticated SaaS app, the public landing page is easy to put through PSI, but most of the actual work happens after sign-in. Do you run scheduled Lighthouse checks against signed-in routes too, or rely on RUM there? I'd be wary of reporting a healthy public-page score as if it covered the product people use every day.
 emreturan_
 ·
-a day ago
+3 days ago
  ·
 Reply
 1
 This is a valid concern. A healthy public-page Performance score does not cover the signed-in product. We schedule Lighthouse / PageSpeed Insights on landing, pricing, and signup URLs, plus any app routes that load without a session. RUM is still needed for other use cases. See https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance
 Apogee Watcher
 ·
-a day ago
+3 days ago
  ·
 Reply
 How to measure LCP and INP in Safari 26.2 (and what still only Chrome reports)
@@ -120,7 +134,7 @@ Re-check Safari INP outliers on a physical device before escalating spikes
 Apogee Watcher stays on the portfolio and deploy side: scheduled PageSpeed tests, budgets, and alerts across listed URLs. Safari field collection belongs in your RUM or first-party web-vitals pipeline. Layer the two. Do not pretend a lab score is a Safari percentile.
  Read more: how to measure LCP and INP in Safari 26.2
 Apogee Watcher
-17 Likes
+18 Likes
 2 Comments
 Say something nice…
 Post Comment
@@ -128,16 +142,45 @@ Post Comment
 Awesome breakdown! Closing that Safari blind spot with real-user data (RUM) while keeping CrUX as the Chrome/SEO benchmark is spot-on advice for agency workflows.
 Online Jobs Media LLC
 ·
-3 days ago
+5 days ago
  ·
 Reply
 1
 Many thanks!
 Apogee Watcher
 ·
-3 days ago
+5 days ago
  ·
 Reply
+September 27, 2026
+ We Scored 58/100 on Agent Readiness. Here Is How We Got to 88
+The same week an Ora-style journey guessed /help , inferred pricing from memory, and hit 404s on paths we never published, is-agentic.com scored apogeewatcher.com at 58/100. That number is not a Google ranking. It reports whether autonomous agents can discover, fetch, and extract facts from your domain without inventing URLs or stale prices.
+ We treated the report as a delivery checklist. Public-site fixes only: no pretend customer API, no fabricated reviews. After a v0 pass and a short follow-up, the live scan on 22 August 2026 read 88/100. Essential rose from roughly 49/80 to about 71/80. Recommended moved from under 8/20 to about 14/20. The label went from "important blockers remain" to "strong technical baseline."
+ Most of the lift was structural hygiene agencies already know how to ship:
+ Publish /llms.txt with when-to-recommend / when-not sections and markdown links to pricing, contact, and key pages
+On-domain /contact , JSON-LD Offer objects on pricing, and a connected schema graph on homepage and money pages
+Real HTTP 404s with recovery links, plus ~60 aliases so guessed paths like /help redirect instead of dying silent
+Markdown 404 bodies when Accept: text/markdown , an honest OpenAPI stub marked planned, and a public status JSON endpoint
+Refuse to fake AggregateRating, a developers portal you cannot staff, or API routes that do not exist yet
+Deterministic fetchability still comes before GEO citation dashboards. Fix the URLs assistants actually retrieve; keep Core Web Vitals work on those same routes. Citations stay noisy. Whether /pricing returns 200 with extractable numbers is binary.
+ Read more: agent readiness from 58 to 88 on is-agentic
+Apogee Watcher
+6 Likes
+Comment
+September 26, 2026
+ Treo vs Apogee Watcher: CrUX Scale, Competitor Benchmarks, and Agency Portfolios
+After the CrUX Dashboard and Looker Studio report retired, agency shortlists often put Treo next to multi-site PageSpeed tools. The question sounds like a feature bake-off. In practice it is usually workflow fit: do you need CrUX at portfolio scale with competitor charts, or scheduled lab coverage across many client sites when URL lists change every sprint?
+ Treo is aimed at the Chrome User Experience Report: large CrUX URL budgets, multi-year field history, connection and country breakdowns, and competitor comparisons without standing up BigQuery. Paid tiers add scheduled Lighthouse. That fits monthly reviews that put named competitors on the same CrUX series, or category sites that must track hundreds of URLs in field data rather than ten hero routes in lab.
+ Apogee Watcher is a multi-tenant pagespeed monitoring platform for agencies. We schedule PageSpeed Insights runs (Lighthouse lab plus CrUX where Google returns it), discover new pages from sitemaps and crawl paths, and keep Admin / Manager / Viewer roles, budgets, and email alerts aligned. We do not ship Treo-scale CrUX inventories or competitor boards. We win when retainers need lab cadence without a spreadsheet per property.
+ Useful split:
+ Favour Treo when CrUX exploration and competitor slides are the product
+Favour Watcher when the brief is keep these URLs inside budget and alert on regression
+Layer both when strategy needs field charts and ops needs scheduled lab checks
+Compare total cost against URL counts and seats, not headline price alone (Treo Vital from $75/mo; Watcher from $9/mo on published tiers)
+Read more: Treo vs Apogee Watcher for CrUX and agency monitoring
+Apogee Watcher
+11 Likes
+Comment
 September 22, 2026
  When PageSpeed Insights Shows No CLS or INP for Your URL
 You paste a client URL into PageSpeed Insights. The lab block looks fine: Largest Contentful Paint, Total Blocking Time, even a Cumulative Layout Shift score from Lighthouse. Scroll to the field section and Interaction to Next Paint or CLS is simply absent. Not red, not amber, just missing. The account manager asks whether the page fails Core Web Vitals.
@@ -153,28 +196,35 @@ Apogee Watcher is built for that layered model: scheduled PageSpeed Insights and
  Read more: When PageSpeed Insights shows no CLS or INP for your URL
 Apogee Watcher
 17 Likes
-3 Comments
+4 Comments
 Say something nice…
 Post Comment
-1
+2
 Good breakdown. The lab versus field data gap catches a lot of people off guard the first time. The CrUX threshold issue is especially relevant for new launches where traffic is still building up. Bookmarking this for when my own app hits that stage.
 OJ Khamidullaev
 ·
-2 days ago
+4 days ago
+ ·
+Reply
+1
+Thanks for the comment! Feel free to reach out if you'd like a free trial of Watcher.
+Apogee Watcher
+·
+a day ago
  ·
 Reply
 1
 I used your website with my domain. The tests were done in only a few minutes. I love how the menu is genuinely useful and gets you where you want to go. Great product.
 Marios Christoforou
 ·
-4 days ago
+6 days ago
  ·
 Reply
 2
 Thanks a lot for the kind words Marios!
 Apogee Watcher
 ·
-3 days ago
+5 days ago
  ·
 Reply
 September 20, 2026
@@ -232,34 +282,6 @@ Escalate third-party Limited features to the vendor or tag owner instead of rewr
 Keep Best Practices / Baseline on a separate slide from LCP, INP, and CLS budgets
 Scheduled PageSpeed runs catch when a tag or theme change reintroduces Limited features after a quiet week. DevTools is still the place for deep triage of a single finding. Layer monitoring onto the stack you already have.
  Read more: Lighthouse Baseline Features audit
-Apogee Watcher
-Like
-Comment
-September 15, 2026
- Soft Navigations in Chrome 151: How to Prepare and What to Measure
-Your React or Vue product site already updates the URL when someone clicks from pricing to checkout. The address bar looks like a new page. Search Console and PageSpeed Insights still treat most of that journey as one long document load, so LCP for the first paint stays on the initial hard navigation while later route changes never get their own Core Web Vitals story.
- Chrome 151 ships soft-navigation and interaction-contentful-paint timeline entries unflagged. Soft navigations are Chrome's way to slice metrics on SPA-style route changes that update the URL and paint after a user action. Lab PageSpeed schedules still measure full document loads of the URLs you list. They do not walk your click path and invent soft-nav entries for every in-app route.
- What to prepare and measure:
- Keep URL updates visible and history-friendly so heuristics can fire
-Paint after the interaction that starts the transition (skeletons count; invisible DOM swaps do not)
-Confirm soft-navigation markers on money routes in DevTools before you promise field soft-nav LCP
-Keep scheduled lab runs on public deep links for deploy regressions; put soft-nav observation in RUM or custom observers
-Apogee Watcher stays on the scheduled lab and portfolio side across client hostnames. Soft-navigation and ICP observation belong in your RUM stack until field tooling catches up. Layer both; do not claim one replaces the other.
- Read more: soft navigations in Chrome 151
-Apogee Watcher
-Like
-Comment
-September 13, 2026
- Why Your Core Web Vitals Fix Isn't in CrUX Yet (28-Day Window)
-You shipped the fix on Tuesday. Hero images are compressed, the heavy tag is gone, and Lighthouse on mobile looks healthier than Monday's run. On Thursday the account manager forwards a Search Console screenshot: the URL group is still Needs improvement. In most cases the change is real. CrUX has not finished rolling the old sessions out of its window yet.
- CrUX is a 28-day rolling average of real Chrome sessions, not a lab run taken on ship day. Sessions collected before your fix stay inside the window until they age out, so a green lab run can sit next to amber field bands for days or weeks.
- What to monitor while field data catches up:
- Baseline lab LCP, INP, and CLS on mobile and desktop before you change anything
-Scheduled lab runs after ship so before/after is stored, not remembered
-Budgets and alerts on lab vitals so regressions during the CrUX wait still notify someone
-Weekly field checks with collection period dates noted in the client report
-Close the engineering ticket when lab verification passes. Keep a separate field-watch item until Search Console moves into the agreed band. One sentence in the retainer report saves a week-one reopening: field CrUX remains a 28-day rolling average; lab trends below are same-week verification.
- Read more: why your Core Web Vitals fix is not in CrUX yet (28-day window)
 Apogee Watcher
 Like
 Comment

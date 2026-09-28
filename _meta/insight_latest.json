@@ -1,33 +1,33 @@
 {
-  "generated": "2026-09-26T10:05:05+08:00",
-  "n_live": 2068,
-  "n_usable": 1826,
-  "n_project": 1620,
-  "signals": 49,
+  "generated": "2026-09-28T10:10:08+08:00",
+  "n_live": 2162,
+  "n_usable": 1910,
+  "n_project": 1698,
+  "signals": 51,
   "topics": [
     [
       "AI 工具/Agent",
-      1146
+      1192
     ],
     [
       "开发者工具",
-      393
+      413
     ],
     [
       "未分类",
-      145
+      157
     ],
     [
       "游戏",
-      48
+      51
     ],
     [
       "移动 App",
-      35
+      37
     ],
     [
       "SaaS/B2B",
-      25
+      26
     ],
     [
       "内容/媒体",
@@ -118,9 +118,9 @@
       "title": "NandhaKishorM/laya",
       "url": "https://huggingface.co/convaiinnovations/laya",
       "metrics": {
-        "stars": 24690,
-        "forks": 2128,
-        "open_issues": 151
+        "stars": 26751,
+        "forks": 2338,
+        "open_issues": 121
       }
     },
     {
@@ -133,9 +133,9 @@
       "title": "mizorewww/laya-mlx",
       "url": "https://pypi.org/project/laya-mlx",
       "metrics": {
-        "stars": 6342,
-        "forks": 495,
-        "open_issues": 18
+        "stars": 6490,
+        "forks": 511,
+        "open_issues": 20
       }
     },
     {
@@ -169,8 +169,8 @@
       }
     }
   ],
-  "money_signal_n": 841,
-  "money_evidence_n": 297,
+  "money_signal_n": 879,
+  "money_evidence_n": 314,
   "money_quotes": [
     {
       "source": "betalist",
@@ -246,68 +246,61 @@
     }
   ],
   "pain_n": {
-    "当前方案不好用": 64,
-    "在找替代品": 44,
-    "做不出来/卡住": 86,
-    "愿意付钱": 48,
+    "当前方案不好用": 65,
+    "在找替代品": 46,
+    "做不出来/卡住": 88,
+    "愿意付钱": 49,
     "想要而找不到": 8
   },
   "by_channel": [
     {
       "id": "betalist",
       "profile": "linkpost",
-      "n": 96,
-      "ok": 96,
+      "n": 107,
+      "ok": 107,
       "rate": 1.0
     },
     {
       "id": "devto",
       "profile": "discussion",
-      "n": 10,
-      "ok": 10,
-      "rate": 1.0
-    },
-    {
-      "id": "xiaohongshu",
-      "profile": "discussion",
-      "n": 1,
-      "ok": 1,
+      "n": 11,
+      "ok": 11,
       "rate": 1.0
     },
     {
       "id": "producthunt",
       "profile": "linkpost",
-      "n": 156,
-      "ok": 155,
-      "rate": 0.9935897435897436
+      "n": 182,
+      "ok": 181,
+      "rate": 0.9945054945054945
     },
     {
       "id": "indiehackers",
       "profile": "linkpost",
-      "n": 78,
-      "ok": 77,
-      "rate": 0.9871794871794872
+      "n": 82,
+      "ok": 81,
+      "rate": 0.9878048780487805
     },
     {
       "id": "bilibili",
       "profile": "metadata",
-      "n": 49,
-      "ok": 47,
-      "rate": 0.9591836734693877
+      "n": 51,
+      "ok": 49,
+      "rate": 0.9607843137254902
     },
     {
       "id": "hn_show",
       "profile": "discussion",
-      "n": 1200,
-      "ok": 1131,
-      "rate": 0.9425
+      "n": 1240,
+      "ok": 1168,
+      "rate": 0.9419354838709677
     },
     {
-      "id": "v2ex",
-      "profile": "discussion",
-      "n": 52,
-      "ok": 40,
-      "rate": 0.7692307692307693
+      "id": "exa_discovery",
+      "profile": "discover",
+      "n": 25,
+      "ok": 19,
+      "rate": 0.76
     },
     {
       "id": "github_new",
@@ -317,26 +310,33 @@
       "rate": 0.75
     },
     {
-      "id": "c1c7",
-      "profile": "project",
-      "n": 7,
-      "ok": 5,
-      "rate": 0.7142857142857143
-    },
-    {
-      "id": "exa_discovery",
-      "profile": "discover",
-      "n": 17,
-      "ok": 12,
-      "rate": 0.7058823529411765
+      "id": "v2ex",
+      "profile": "discussion",
+      "n": 54,
+      "ok": 40,
+      "rate": 0.7407407407407407
     },
     {
       "id": "reddit",
       "profile": "discussion",
       "n": 338,
-      "ok": 204,
-      "rate": 0.6035502958579881
+      "ok": 203,
+      "rate": 0.6005917159763313
+    },
+    {
+      "id": "c1c7",
+      "profile": "project",
+      "n": 7,
+      "ok": 3,
+      "rate": 0.42857142857142855
+    },
+    {
+      "id": "xiaohongshu",
+      "profile": "discussion",
+      "n": 1,
+      "ok": 0,
+      "rate": 0.0
     }
   ],
-  "body_median": 1959.5
+  "body_median": 1940.0
 }

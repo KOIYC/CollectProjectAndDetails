@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1wi4mpo/need_advice_on_landing_page_design/"
 author: "Adept-Dog-6716"
 published_at: "2026-09-17T01:57:59+08:00"
-captured_at: "2026-09-26T10:01:02+08:00"
+captured_at: "2026-09-28T10:06:41+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -18,7 +18,7 @@ tags:
   - reddit
   - r/SaaS
 metrics: {"score": 4, "comments": 18, "upvote_ratio": 0.84}
-comments_count: 17
+comments_count: 18
 comments_total: 18
 discovered_via: "reddit:7d+settle3"
 ---
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=4 · 评论=18 · 赞踩比=0.84
 > 作者：Adept-Dog-6716　|　发布：2026-09-17T01:57:59+08:00
 > 项目链接：—
-> 采集：2026-09-26T10:01:02+08:00　|　id：`576dcff154f20192`
+> 采集：2026-09-28T10:06:41+08:00　|　id：`576dcff154f20192`
 
 ## 正文
 
@@ -52,7 +52,7 @@ It would be really helpful if you share what should I do to lauch my beta to a l
 
 Note: I dont even have X or Facebook accounts right now.
 
-## 评论（17/18）
+## 评论（18/18）
 
 > **mrkeyoor**（3 分） · 2026-09-17T02:10:33+08:00　
 > 1. claim only what works today, and say the rest out loud as "next", with a rough date. two reasons, one about trust and one about your pivot. trust: the first person who signs up for a feature that isn't there tells three people, and beta users are exactly the people who notice. the pivot: you said the beta is limited so you can pivot, but if the page promises the final product, every signup is telling you they wanted the promise, not the beta, so you learn nothing from them. the honest version reads better anyway: "right now it does one thing, X, and it does it in under a minute. Y and Z ship in november." people trust a page that knows what it isn't.
@@ -172,6 +172,15 @@ Note: I dont even have X or Facebook accounts right now.
 > I'd make the main CTA specific to the beta, then track which part of the promise actually gets people to click or sign up. If the final product has 5 planned capabilities but beta users consistently respond to one specific outcome, that's useful product feedback too.
 >
 > That way the landing page isn't just explaining the beta. It's helping you decide what the eventual product should be positioned around.
+
+---
+
+> **afzal-design**（1 分） · 2026-09-27T01:27:37+08:00　
+> I’d keep the landing page honest about what the beta actually does. You can mention the bigger vision, but clearly separate “available now” from “coming later.” It’ll save you from setting the wrong expectations.
+>
+> For reach, I wouldn’t rely only on blogs. Turn what you’re building into content: short demos, before/after screenshots, lessons learned, problems you’re solving, etc. You don’t need to be on every platform either. Pick 1–2 where your target users actually hang out and be consistent.
+>
+> For the beta, I’d focus more on getting 20–50 relevant users who will actually use it and give feedback rather than trying to get a huge launch audience immediately. That feedback is going to be much more valuable for your pivoting.
 
 ## 导航
 

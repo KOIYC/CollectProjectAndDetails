@@ -1,11 +1,11 @@
 {
- "unique_items": 2185,
+ "unique_items": 2279,
  "no_url": 0,
  "round": {
-  "run_id": "20260926T094106",
-  "records": 182,
-  "new": 35,
-  "update": 117
+  "run_id": "20260928T094725",
+  "records": 184,
+  "new": 30,
+  "update": 114
  },
  "by_channel": {
   "apple_rss": {
@@ -24,29 +24,29 @@
    "partial": 0
   },
   "betalist": {
-   "n": 96,
-   "body": 96,
+   "n": 107,
+   "body": 107,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
    "platform_comments": 0,
    "trunc": 0,
-   "no_project_url": 93,
-   "no_author": 96,
+   "no_project_url": 104,
+   "no_author": 107,
    "profile": "linkpost",
    "err_body": 0,
    "err_comments": 0,
    "partial": 0
   },
   "bilibili": {
-   "n": 53,
-   "body": 26,
+   "n": 55,
+   "body": 27,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
    "platform_comments": 0,
    "trunc": 0,
-   "no_project_url": 44,
+   "no_project_url": 45,
    "no_author": 0,
    "profile": "metadata",
    "err_body": 0,
@@ -69,12 +69,12 @@
    "partial": 0
   },
   "devto": {
-   "n": 13,
-   "body": 13,
-   "with_comments": 13,
-   "expect_comments": 13,
-   "comments": 399,
-   "platform_comments": 400,
+   "n": 14,
+   "body": 14,
+   "with_comments": 14,
+   "expect_comments": 14,
+   "comments": 425,
+   "platform_comments": 426,
    "trunc": 0,
    "no_project_url": 7,
    "no_author": 0,
@@ -84,15 +84,15 @@
    "partial": 0
   },
   "exa_discovery": {
-   "n": 23,
-   "body": 23,
+   "n": 31,
+   "body": 31,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
    "platform_comments": 0,
    "trunc": 0,
-   "no_project_url": 20,
-   "no_author": 23,
+   "no_project_url": 26,
+   "no_author": 31,
    "profile": "discover",
    "err_body": 0,
    "err_comments": 0,
@@ -129,14 +129,14 @@
    "partial": 0
   },
   "hn_show": {
-   "n": 1200,
-   "body": 1164,
-   "with_comments": 496,
-   "expect_comments": 497,
-   "comments": 4719,
-   "platform_comments": 4736,
+   "n": 1240,
+   "body": 1203,
+   "with_comments": 507,
+   "expect_comments": 508,
+   "comments": 4850,
+   "platform_comments": 4866,
    "trunc": 0,
-   "no_project_url": 38,
+   "no_project_url": 39,
    "no_author": 0,
    "profile": "discussion",
    "err_body": 0,
@@ -144,15 +144,15 @@
    "partial": 0
   },
   "indiehackers": {
-   "n": 78,
-   "body": 78,
+   "n": 82,
+   "body": 82,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
    "platform_comments": 0,
    "trunc": 0,
-   "no_project_url": 46,
-   "no_author": 78,
+   "no_project_url": 48,
+   "no_author": 82,
    "profile": "linkpost",
    "err_body": 0,
    "err_comments": 0,
@@ -174,14 +174,14 @@
    "partial": 0
   },
   "producthunt": {
-   "n": 156,
-   "body": 156,
+   "n": 182,
+   "body": 182,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
    "platform_comments": 0,
    "trunc": 0,
-   "no_project_url": 156,
+   "no_project_url": 182,
    "no_author": 0,
    "profile": "linkpost",
    "err_body": 0,
@@ -193,7 +193,7 @@
    "body": 327,
    "with_comments": 301,
    "expect_comments": 316,
-   "comments": 6645,
+   "comments": 6749,
    "platform_comments": 5956,
    "trunc": 0,
    "no_project_url": 206,
@@ -219,14 +219,14 @@
    "partial": 0
   },
   "v2ex": {
-   "n": 54,
-   "body": 54,
+   "n": 56,
+   "body": 56,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
    "platform_comments": 0,
    "trunc": 0,
-   "no_project_url": 25,
+   "no_project_url": 26,
    "no_author": 0,
    "profile": "discussion",
    "err_body": 0,
@@ -252,11 +252,11 @@
  "body_missing": [
   [
    "hn_show",
-   36
+   37
   ],
   [
    "bilibili",
-   27
+   28
   ],
   [
    "apple_rss",
@@ -310,15 +310,15 @@
  "queue_age": {
   "n": 6,
   "with_ts": 6,
-  "oldest_days": 4,
+  "oldest_days": 6,
   "gt14": 0,
   "gt30": 0
  },
- "expected_absent": 45,
+ "expected_absent": 46,
  "expected_absent_by_channel": [
   [
    "bilibili",
-   27
+   28
   ],
   [
    "apple_rss",
@@ -348,7 +348,7 @@
     "indiehackers",
     "published_at"
    ],
-   78
+   82
   ],
   [
    [
@@ -372,15 +372,15 @@
    1
   ]
  ],
- "money_signal": 382,
+ "money_signal": 400,
  "lang": [
   [
    "en",
-   2045
+   2135
   ],
   [
    "zh",
-   140
+   144
   ]
  ]
 }

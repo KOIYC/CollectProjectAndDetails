@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/selfhosted/comments/1wj7qvy/new_project_megathread_week_of_17_sep_2026/"
 author: "AutoModerator"
 published_at: "2026-09-18T06:01:14+08:00"
-captured_at: "2026-09-21T09:45:53+08:00"
+captured_at: "2026-09-28T09:48:39+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -19,9 +19,9 @@ tags:
   - r/selfhosted
   - New Project Megathread
 metrics: {"score": 38, "comments": 78, "upvote_ratio": 0.93}
-comments_count: 99
-comments_total: 99
-discovered_via: "reddit:7d+settle3"
+comments_count: 166
+comments_total: 166
+discovered_via: "reddit:14d+settle10"
 ---
 
 # New Project Megathread - Week of 17 Sep 2026
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=38 · 评论=78 · 赞踩比=0.93
 > 作者：AutoModerator　|　发布：2026-09-18T06:01:14+08:00
 > 项目链接：—
-> 采集：2026-09-21T09:45:53+08:00　|　id：`0b44dd1a0ffd030b`
+> 采集：2026-09-28T09:48:39+08:00　|　id：`0b44dd1a0ffd030b`
 
 ## 正文
 
@@ -67,7 +67,7 @@ Please keep our rules on self promotion in mind as well.
 
 Cheers,
 
-## 评论（99/99）
+## 评论（166/166）
 
 > **Dev__**（21 分） · 2026-09-18T06:02:55+08:00　
 > **Project Name:** Teilifís Seán
@@ -1862,7 +1862,7 @@ Cheers,
 
 ---
 
-> **ricterz**（1 分） · 2026-09-19T22:18:18+08:00　
+> **ricterz**（0 分） · 2026-09-19T22:18:18+08:00　
 > **Project Name:** AL1S WMS
 >
 > **Repo/Website Link:**  [https://github.com/RicterZ/AL1S-WMS](https://github.com/RicterZ/AL1S-WMS)
@@ -1940,7 +1940,7 @@ Cheers,
 
 ---
 
-> **Ichirto**（1 分） · 2026-09-20T04:02:29+08:00　
+> **Ichirto**（2 分） · 2026-09-20T04:02:29+08:00　
 > Mango – a lightweight native C++ desktop app to stream local video directly to Smart TVs (No Docker or Chromium needed).
 >
 > I wanted a simple way to stream local videos from my Mac/PC straight to a TV without spinning up heavy media server stacks or requiring Docker containers. So I built **Mango**, a lightweight native desktop server written in C++.
@@ -1959,7 +1959,7 @@ Cheers,
 
 ---
 
-> **Designer-Screen-8626**（1 分） · 2026-09-20T05:16:18+08:00　
+> **Designer-Screen-8626**（0 分） · 2026-09-20T05:16:18+08:00　
 > **Project Name:** immich-gphotos
 >
 > **Repo/Website Link:** https://github.com/ImAleeexx/immich-gphotos
@@ -2352,7 +2352,7 @@ Cheers,
 
 ---
 
-> **ageva**（1 分） · 2026-09-21T01:15:18+08:00　
+> **ageva**（2 分） · 2026-09-21T01:15:18+08:00　
 > Project Name: PortfolioDB
 >
 > Repo/Website Link: [https://github.com/amosgeva/PortfolioDB](https://github.com/amosgeva/PortfolioDB)
@@ -2365,7 +2365,7 @@ Cheers,
 
 ---
 
-> **summitsc**（1 分） · 2026-09-21T02:10:16+08:00　
+> **summitsc**（0 分） · 2026-09-21T02:10:16+08:00　
 > \*\*AI Video Factory\*\* — give it a topic, it renders a complete 20-30 min documentary locally: researched script (citations verified with real HTTP requests), per-scene visuals, local TTS narration, music, captions, FFmpeg assembly, a QC gate, thumbnail and YouTube metadata.
 >
 > No cloud required at any step: scripting via any OpenAI-compatible endpoint (LM Studio/llama-server), local TTS, stock footage via Pexels/Pixabay/NASA, procedural fallbacks if you add no keys at all. Optional LTX-2 backend if you have the GPU.
@@ -2378,7 +2378,7 @@ Cheers,
 
 ---
 
-> **Scalli74**（1 分） · 2026-09-21T02:47:55+08:00　
+> **Scalli74**（2 分） · 2026-09-21T02:47:55+08:00　
 > **Project Name:** WAMF (Wildlife Activity Monitoring Framework) v0.4.0
 >
 > **Repo/Website Link:**
@@ -2516,8 +2516,1720 @@ Cheers,
 
 ---
 
-> **nyc-esq**（1 分） · 2026-09-21T08:49:18+08:00　
+> **nyc-esq**（0 分） · 2026-09-21T08:49:18+08:00　
 > Is there anyone who can help here?
+
+---
+
+> **Substantial_Load_690**（1 分） · 2026-09-21T10:02:10+08:00　
+> Project Name: DEV·TV
+>
+> Repo/Website Link: https://shouvik12.github.io/devtv
+>
+>  source on GitHub: https://github.com/shouvik12/devtv
+>
+> Description: A TV for the developer internet. GitHub, Hacker News, DEV.to, Hugging Face, and release notes presented as channels you tune into, each auto-cycling its own stories, instead of five tabs to remember to check. Real per-pixel static on channel change and a genuine CRT-style power on/off animation, the screen actually collapses to a line then a dot, not a fade. Click a story to read the real README, article, or release notes in an in-app reader, no new tab.
+>
+> Deployment: Single self-contained HTML file. No build step, no backend, no database, nothing to install. Download index.html and open it in any browser, or host it on any static host since it's one file (GitHub Pages, Netlify Drop, etc). Every channel calls its source's public API directly from your own browser.
+>
+> AI Involvement: Built with Claude, more thoroughly than I expected going in. It verified real API/CORS support for every candidate channel instead of guessing, Reddit, Product Hunt, X, LinkedIn, Discord, Medium, and arXiv all got ruled out for documented reasons, not vibes. It also spun up headless Chromium to actually screenshot and click through the running app rather than assuming the code worked. A code review caught a real XSS gap in how Hacker News content was being rendered, which got fixed and verified against an actual malicious payload before I'd call it done. Still a side project, treat it accordingly.
+
+---
+
+> **Big-Bet-3619**（1 分） · 2026-09-21T11:52:34+08:00　
+> # docksight 👁️ — Modern Real-time Docker & Podman Monitoring
+>
+> * **Project Name:** docksight 👁️
+> * **Repo/Website Link:** [https://github.com/teddys48/docksight](https://github.com/teddys48/docksight)
+> * **Description:** docksight is a lightweight, real-time container monitoring and management dashboard for **Docker and Podman**.
+> * I built it as a simpler alternative for people who want a web UI to quickly see what's happening with their containers without deploying a large monitoring stack.
+> * Features include:
+>    * 📊 Real-time host CPU, RAM, and disk monitoring
+>    * 🐳 Docker & Podman container monitoring
+>    * ▶️ Start / stop / restart / remove containers
+>    * 🔍 Container search and status filtering
+>    * 📜 Real-time container logs using SSE
+>    * 🔎 Live log search with stdout/stderr filtering
+>    * 💾 Volume explorer
+>    * 🖼️ Container image explorer
+>    * 📈 Network and block I/O statistics
+>    * 🔍 Container inspect JSON viewer
+>    * 📑 Pagination for containers, volumes, and images
+>    * 🌙 Dark / light mode
+>    * 📱 Responsive UI
+>    * 💾 SQLite for persistent application data
+> * The backend is written in **Go**, while the frontend uses **Svelte 5 + Vite + TailwindCSS**. The application can also be built as a self-contained Go binary.
+> * One of the things I specifically wanted was **Podman support**, including rootless and rootful Podman through its Docker-compatible API socket.
+> * **Deployment:** The project is available as a Docker image on GHCR and can be deployed with Docker Compose.
+> * Then:
+> * Open:
+> * `http://localhost:8080`
+> * **Podman is also supported.** For rootless Podman:
+> * Then the Podman socket can be mounted into the container:
+> * docksight automatically detects Docker and common Podman socket locations, or you can explicitly configure `DOCKER_HOST`.
+> * Full installation and Podman setup instructions are available in the README.
+> * **AI Involvement:** AI was used during development as a coding assistant.
+> * I used AI to help with things such as code generation, debugging, refactoring, documentation, and exploring implementation approaches.
+> * The project was still developed, tested, reviewed, and iterated by me. AI-generated code was not blindly accepted, and I made the final decisions about the architecture, features, configuration, and implementation.
+> * I'm sharing this transparently because AI-assisted development was a significant part of the development process.
+>
+> https://preview.redd.it/0zrynee9qsqh1.jpeg?width=1250&format=pjpg&auto=webp&s=8b3a67648e7433762403b0453903a7cf6c424a50
+
+---
+
+> **Big-Bet-3619**（1 分） · 2026-09-21T12:26:25+08:00　
+> # docksight 👁️ — Modern Real-time Docker & Podman Monitoring
+>
+> * **Project Name:** docksight 👁️
+>
+> * **Repo/Website Link:** https://github.com/teddys48/docksight
+>
+> * **Description:**
+>   docksight is a lightweight, real-time container monitoring and management dashboard for **Docker and Podman**.
+>
+>   I built it as a simpler alternative for people who want a web UI to quickly see what's happening with their containers without deploying a large monitoring stack.
+>
+>   Features include:
+>
+>   * 📊 Real-time host CPU, RAM, and disk monitoring
+>   * 🐳 Docker & Podman container monitoring
+>   * ▶️ Start / stop / restart / remove containers
+>   * 🔍 Container search and status filtering
+>   * 📜 Real-time container logs using SSE
+>   * 🔎 Live log search with stdout/stderr filtering
+>   * 💾 Volume explorer
+>   * 🖼️ Container image explorer
+>   * 📈 Network and block I/O statistics
+>   * 🔍 Container inspect JSON viewer
+>   * 📑 Pagination for containers, volumes, and images
+>   * 🌙 Dark / light mode
+>   * 📱 Responsive UI
+>   * 💾 SQLite for persistent application data
+>
+>   The backend is written in **Go**, while the frontend uses **Svelte 5 + Vite + TailwindCSS**. The application can also be built as a self-contained Go binary.
+>
+>   One of the things I specifically wanted was **Podman support**, including rootless and rootful Podman through its Docker-compatible API socket.
+>
+> * **Deployment:**
+>   The project is available as a Docker image on GHCR and can be deployed with Docker Compose.
+>
+>   ```yaml
+>   services:
+>     docksight:
+>       image: ghcr.io/teddys48/docksight:latest
+>       container_name: docksight
+>       restart: unless-stopped
+>       ports:
+>         - "8080:8080"
+>       volumes:
+>         # Docker socket for container monitoring & management
+>         - /var/run/docker.sock:/var/run/docker.sock:ro
+>
+>         # Persistent SQLite database
+>         - monitoring_data:/data
+>       environment:
+>         - PORT=8080
+>         - DB_PATH=/data/monitoring.db
+>
+>   volumes:
+>     monitoring_data:
+>       driver: local
+>   ```
+>
+>   Then:
+>
+>   ```bash
+>   docker compose up -d
+>   ```
+>
+>   Open:
+>
+>   `http://localhost:8080`
+>
+>   **Podman is also supported.** For rootless Podman:
+>
+>   ```bash
+>   systemctl --user enable --now podman.socket
+>   ```
+>
+>   Then the Podman socket can be mounted into the container:
+>
+>   ```yaml
+>   volumes:
+>     - ${XDG_RUNTIME_DIR}/podman/podman.sock:/var/run/docker.sock:ro
+>     - monitoring_data:/data
+>   ```
+>
+>   docksight automatically detects Docker and common Podman socket locations, or you can explicitly configure `DOCKER_HOST`.
+>
+>   Full installation and Podman setup instructions are available in the README.
+>
+> * **AI Involvement:**
+>   AI was used during development as a coding assistant.
+>
+>   I used AI to help with things such as code generation, debugging, refactoring, documentation, and exploring implementation approaches.
+>
+>   The project was still developed, tested, reviewed, and iterated by me. AI-generated code was not blindly accepted, and I made the final decisions about the architecture, features, configuration, and implementation.
+>
+>   I'm sharing this transparently because AI-assisted development was a significant part of the development process.
+
+---
+
+> **Curious_Objective321**（1 分） · 2026-09-21T14:17:22+08:00　
+> **Project Name**: Isthmus
+>
+> **Repo/Website Link**: [https://github.com/prathish-ks/isthmus](https://github.com/prathish-ks/isthmus)
+>
+> **Description**:
+>
+> **What it does**: Isthmus is an independent, unofficial hardening fork of [NanoClaw](https://github.com/nanocoai/nanoclaw), a self-hosted personal AI assistant that runs agent sessions in per-conversation Docker containers. NanoClaw's TypeScript layer — channels, skills, customisation, the agent runtime — stays untouched. Isthmus pulls a small set of privileged, security-critical decisions out of that process and into a separate, independently auditable Go "trust kernel."
+>
+> **What problem it solves**:
+>
+> In NanoClaw, the same TypeScript process that renders a Discord message also decides whether a mount is safe, whether a container gets built, and whether outbound traffic looks like SSRF. A bug or a prompt-injected tool call anywhere in that large process has a path to those decisions. Isthmus shrinks that trusted surface: container create/stop, mount validation, and egress checks now live in a small, separately tested Go binary instead.
+>
+> What Isthmus adds on top of NanoClaw, roughly in order of how much it matters for trust:
+>
+> 1. A separate, smaller trusted computing base for the privileged decisions. Container create/stop, mount validation, and egress checks move out of the same TypeScript process as channels/routing/customization and into a few thousand lines of independently auditable Go. NanoClaw has no such boundary — one process makes every decision.
+> 2. Egress lockdown against cloud-metadata/link-local SSRF, implemented on Linux via a DOCKER-USER iptables rule installed at kernel startup and independently checkable with nanogo doctor -check-egress-block.
+> 3. A differential-fixture test harness that pins Go behavior against NanoClaw's real TypeScript behavior byte-for-byte, 60+ contracts on the guard catalog alone, so every ported decision is checked against actual behavior instead of a guessed spec. Lifecycle/session concurrency code passes under Go's race detector. Five fuzz targets run on every PR — one of them found and fixed a real path-traversal bug in the mailbox path-resolution code.
+> 4. Real bugs found and fixed along the way, not hypothetical hardening: a mount-validation bypass in allowlisted-extra handling — same failure class as CVE-2026-27002, a Docker-socket exposure in a comparable project — and a macOS-specific symlink path-mismatch bug in the update-transaction machinery.
+> 5. CI-enforced security scanning: zero semgrep findings in the kernel itself (semgrep scans Go too, checking source-code patterns rather than known CVEs — a different, complementary check to govulncheck's dependency-vulnerability lookups).
+> 6. Operational tooling: nanogo doctor (seven independent pass/warn/fail checks, each with concrete remediation, nothing auto-fixed), status, trace  (structural, content-free request tracing), security-check (read-only invariant checks for privilege, dangerous mounts, Docker-socket exposure, credential-exposure indicators).
+> 7. A companion free, zero-install security scanner, [npx isthmus-scan](https://github.com/prathish-ks/isthmus-scan), that works against NanoClaw too, so you can see your actual exposure before deciding whether any of this is worth installing.
+>
+> **Who it actually benefits**: if your NanoClaw agents can reach real credentials or production access, have outbound network access, or share a host with other agents/identities, this project closes a real gap. If you're running a low-stakes personal bot with nothing sensitive reachable from it, NanoClaw's existing container isolation is probably already enough, and Isthmus won't materially change your risk there.
+>
+> **Deployment**:
+>
+> Docker plus a single install script: bash [isthmus.sh](http://isthmus.sh) — installs the Go kernel, then runs NanoClaw's normal setup wizard. The same script handles a fresh install and migrating an existing NanoClaw install in place.
+>
+> Full walkthrough: [https://github.com/prathish-ks/isthmus/blob/main/docs/quickstart.md](https://github.com/prathish-ks/isthmus/blob/main/docs/quickstart.md)
+>
+> **AI Involvement**:
+>
+> Built collaboratively with Claude Code across the whole project — the Go port itself, the differential-testing harness, CI/release tooling, and documentation. I directed the architecture, threat-model scoping, and what got prioritized. Claude Code did a large share of the actual implementation, and, importantly, the adversarial-style testing that found the two real bugs mentioned above.
+>
+> I've also run real end-to-end install/upgrade/rollback cycles by hand before tagging releases, not just automated tests — most recently a full stock-NanoClaw-v2.3.0 → Isthmus → rollback round trip, confirmed zero data loss. Happy to go into more detail on any part of the workflow if useful.
+
+---
+
+> **Medical-Level-858**（0 分） · 2026-09-21T15:19:17+08:00　
+> built in one week is wild, respect for that pace
+
+---
+
+> **Neither-Ad-8957**（1 分） · 2026-09-21T16:21:10+08:00　
+> Project Name: PatzerRepo/Website Link: https://github.com/SikamikanikoBG/patzerDescription: Built this because Chess.com Game Review is paywalled and I wanted my kid to learn chess principles narrated in our language (Bulgarian). One Docker container, runs on a Pi if your Ollama lives elsewhere on the LAN.What it does:- Game Review — pull your public Chess.com games, analyze with bundled Stockfish, get chess.com-style classifications (Brilliant / Great / Best / Excellent / Good / Book / Inaccuracy / Mistake / Miss / Blunder), accuracy %, eval graph- Play vs Stockfish at seven named tiers (Kid → Stockfish max)- Play vs Friend over WebSocket between profiles on the same server — draw offers, takebacks, one-click rematch; a Tailscale share or Cloudflare Tunnel gets a friend in from anywhere- AI Coach that points at your own Ollama or vLLM host. Crucially: the coach is render-only. Chess facts are computed server-side; the LLM is forbidden from inventing moves or pieces. A small local model can't hallucinate a knight that isn't there.- Multi-user with kid mode — per-profile language, blunder warnings, "horsey / birdie / castle" piece names for the youngest profiles- EN · BG · ES out of the box (UI and coach prompts); adding a language is one table entry per fileWhat it isn't: a Chess.com clone. No matchmaking, no tournaments, no public ratings, no puzzle rush. It's the Game Review / training / family-analysis slice, self-hosted.Deployment:docker run -d -p 8800:8800 --name patzer -v patzer-data:/app/data ghcr.io/sikamikanikobg/patzer:latestor the compose file in the repo (image sikamikaniko123/patzer:latest, amd64 + arm64, single named volume, healthcheck, Watchtower label). No database, no sidecars — one SQLite file in /app/data; games never leave the machine. First run walks you through setup at http://localhost:8800. Docs: README + SECURITY.md.AI Involvement: Yes — built with heavy AI assistance (commits carry Co-Authored-By: Claude). I directed the architecture and feature scope; the render-only LLM design is the part I care most about.
+
+---
+
+> **No-Mathematician5599**（1 分） · 2026-09-21T16:38:54+08:00　
+> \*\*Project Name:\*\* SourceLens
+>
+> \*\*Repo/Website Link:\*\* [https://github.com/oneprolabs/sourcelens](https://github.com/oneprolabs/sourcelens)
+>
+> \*\*Description:\*\* SourceLens is an Apache-2.0, self-hosted Agentic RAG system for asking questions over documents and code.
+>
+> Instead of chunking files, generating embeddings, and maintaining a vector database, it runs an agent harness in an isolated environment. The agent searches, reads, and reasons over the mounted files when a question arrives.
+>
+> Useful for teams that want to query mixed knowledge sources without building an indexing pipeline first:
+>
+> \- Documents: Markdown, Word, PowerPoint, images
+>
+> \- Codebases: source-level navigation and cross-file reasoning
+>
+> \- Traceable answers: responses reference the underlying file paths and code locations
+>
+> \- Per-assistant sources and access control
+>
+> \- Configurable models and pre/post-retrieval LLM steps
+>
+> It is not intended to replace vector retrieval in every workload; the trade-off is that answers rely on model inference at query time rather than a pre-built index. I would especially welcome feedback from people running self-hosted RAG over mixed documents and code.
+>
+> \*\*Deployment:\*\* Released and self-hostable with Docker Compose V2. Linux/macOS install:
+>
+> curl -fsSL [https://raw.githubusercontent.com/oneprolabs/sourcelens/main/install.sh](https://raw.githubusercontent.com/oneprolabs/sourcelens/main/install.sh) | sudo bash
+>
+> It requires Docker Compose V2, roughly 4 CPU cores / 8 GB RAM, 100 GB recommended disk, and model API credentials. Full installation and Compose-based development instructions are in the README.
+>
+> \*\*AI Involvement:\*\* AI coding assistants were used during development. The project is maintained as open source; code, deployment instructions, and issue tracking are public in the repository.
+
+---
+
+> **FartificialInTelly**（1 分） · 2026-09-21T17:03:30+08:00　
+> **Project Name:** DoComposer
+>
+> **Repo/Website Link:** [https://github.com/admodumstore/docomposer](https://github.com/admodumstore/docomposer) — live demo (no install): [https://admodumstore.github.io/docomposer/](https://admodumstore.github.io/docomposer/)
+>
+> **Description:** A browser-based Docker Compose generator aimed at people newer to Docker. Pick services from a checklist of 80+ self-hosted apps (media, networking, security, monitoring, AI/dev tools, etc.), and it outputs a working `docker-compose.yml` \+ `.env` (or plain `docker run` commands if you'd rather see exactly what's happening) — no more typo-hunting ports or looking up env vars for each service by hand. Includes port-conflict detection, an "Arr Stack" one-click bundle, and an editable Settings panel for every volume/port/env var before download.
+>
+> Posted here before and the feedback was genuinely useful — since then I've shipped v1.1.0 with a bunch of it baked in: per-port bind-IP control (so you can restrict a service to [`127.0.0.1`](http://127.0.0.1) or a LAN address instead of exposing it on every interface by default), proper `healthcheck` \+ `depends_on: condition: service_healthy` on generated compose files for services with their own database (Nextcloud, Immich, Authentik, WordPress, etc.) so the app actually waits for the DB instead of just racing it, and a Dashboard Health column showing live container health status. Also added 15 more services (Caddy, WordPress, Authelia, Transmission, and others) and fixed a handful of dashboard link/rendering bugs.
+>
+> **Deployment:** Works instantly in-browser at the live demo link above, nothing to install. Can also be self-hosted as its own container: `docker compose up -d` pulls the prebuilt image from GHCR (amd64/arm64). Full instructions, including the optional live-port-checking and one-click Deploy/Dashboard features, are in the README.
+>
+> **AI Involvement:** I used AI (Claude) to help write the code and docs — I'm not a professional dev, so it filled a lot of my gaps. The service catalog, feature decisions, and what to build were mine, and I reviewed and tested everything before it went in. Happy to answer questions about which parts came from where.
+
+---
+
+> **nilsfl**（1 分） · 2026-09-21T17:20:16+08:00　
+> **Project Name:** spotify-weekly-archive
+>
+> **Repo/Website Link:** [https://github.com/nils-fl/spotify-weekly-archive](https://github.com/nils-fl/spotify-weekly-archive)
+>
+> **Description:** I had a routine to archive my Spotify weekly recommendations to a separate archive playlist that I could check whenever I had time for - it did run via [ifttt.com](http://ifttt.com) but Spotify changed their API and blocked access to their stock playlists.
+> I built a little helper using librespot that runs once a week on my home-server to overcome the Web API restrictions.
+>
+> **Deployment:** I use pm2 to manage my apps, but I included a small footprint Dockerfile. All you need is your Spotify credentials from [developer.spotify.com](http://developer.spotify.com), the Discover Weekly playlist ID and the playlist ID of the archive playlist that you have to create first.
+>
+> **AI Involvement:** Largely written using Claude
+
+---
+
+> **ilbert_luca**（1 分） · 2026-09-21T17:56:24+08:00　
+> Lately I've been interested in microVMs. I find it fascinating that you can spin up and down VMs in a few hundred milliseconds (using [Firecracker](https://firecracker-microvm.github.io/)), it opens so many interesting use cases.
+>
+> I could not find a "batteries included" framework that allows meets all my orchestration needs, so I built nibrunner: https://github.com/ilbertt/nibrunner
+>
+> You can specify which microVMs you want by writing to the `desired.json` state file, and nibrunner picks it up and writes back into the `reported.json` state file when your specified state is reached.
+>
+> Features included are:
+> - sleep/wake policies based on network traffic or timers
+> - backups
+> - snapshots
+> - built-in reverse proxy, one subdomain per microVM (TLS with your own wildcard cert or plain HTTP)
+> - raw TCP/UDP ports (ssh, wireguard...) forwarded too, they also wake a sleeping VM
+> - custom base images (a bare binary, a squashfs/ext4, ...)
+> - each microVM gets a dedicated log file
+> - detailed metrics (cpu per microVM, time awake, network traffic, etc.) via Prometeus
+>
+> It just needs x86_64 linux with /dev/kvm (bare metal or a VPS with nested virt).
+>
+> Happy to receive feedback and answer questions!
+>
+> P.S. the docs website (https://nibrunner.dev) has a nice little game that illustrates how nibrunner works ;)
+
+---
+
+> **Big-Bet-3619**（1 分） · 2026-09-21T18:12:38+08:00　
+> # Logly – A lightweight, developer-focused Grafana Loki log viewer
+>
+> * **Project Name:** Logly
+> * **Repo/Website Link:** [https://github.com/teddys48/logly](https://github.com/teddys48/logly)
+> * **Description:** Logly is a lightweight, focused web UI for exploring **Grafana Loki logs**.
+> * I built it because sometimes I just want to query and read Loki logs without opening the full Grafana interface. Logly is **not intended to replace Grafana**. Instead, it focuses specifically on fast, high-density log exploration and live tailing.
+> * Some of the main features:
+>    * ⚡ Svelte 5 virtual windowing for handling thousands of log lines smoothly
+>    * 🔍 LogQL query execution
+>    * 📜 Infinite scrolling for older log entries
+>    * 📡 Real-time log tailing using Server-Sent Events (SSE)
+>    * 🔃 Newest-first / oldest-first sorting
+>    * 🔎 Client-side text and regex filtering
+>    * 🏷️ Loki label and value explorer
+>    * 🎨 Dark/light mode
+>    * 📋 Formatted JSON log viewer
+>    * 🧹 Automatic ANSI escape-code stripping
+>    * 💾 SQLite-backed query history and saved queries
+>    * ⌨️ Keyboard shortcuts
+>    * 🔐 Loki credentials remain server-side
+>    * 🛡️ SSRF protection by restricting the backend to a configured Loki endpoint
+>    * 📦 Docker and Podman compatible
+>    * 🪶 No Docker socket required
+> * The architecture is intentionally simple:
+> * The frontend is built with **Svelte 5 + Vite + TypeScript + Tailwind**, while the backend uses **Go + Fiber + SQLite**.
+> * **Deployment:** Logly is available as a container image:
+> * `ghcr.io/teddys48/logly:latest`
+> * Example Docker Compose:
+> * Then:
+> * Open `http://localhost:8080`.
+> * Podman Compose is also supported:
+> * You can also build it directly from source. The repository contains the full setup instructions, environment variables, example LogQL queries, security considerations, and test/build instructions.
+> * **Requirements for building from source:**
+>    * Go 1.24+
+>    * Node.js 20+ or Bun 1.1+
+>    * A running Grafana Loki instance
+> * **AI Involvement:** AI was used during development as a coding assistant.
+> * I used AI agents to help with implementation, debugging, code review, and generating/refining parts of the application. However, the project was developed and tested by me, and I made the architectural and implementation decisions.
+> * I'm sharing this transparently because AI-assisted development was a significant part of the development process.
+> * Feedback, bug reports, security issues, and suggestions are very welcome. Especially interested in hearing from people who are already running Loki and whether a focused log viewer like this fits into their workflow.
+>
+> https://preview.redd.it/c3ek8ff2muqh1.jpeg?width=1600&format=pjpg&auto=webp&s=46aef85b171d9524f29a9e67c4bfef7722618775
+
+---
+
+> **ChickenLegsOG**（2 分） · 2026-09-21T18:21:45+08:00　
+> Have pushed some updates which should hopefully mean WhatsNewDock will work correctly with docker swarms. Please create an [Issue on Github](https://github.com/TheRealChickenlegs/WhatsNewDock/issues) if you have any problems and I will investigate.
+
+---
+
+> **YardComprehensive186**（1 分） · 2026-09-21T20:48:39+08:00　
+> Project Name: Yūsetu
+>
+> Repo/Website Link:
+>
+> Repo: [https://github.com/builtbyaakash/yusetu](https://github.com/builtbyaakash/yusetu)
+>
+> Description: Yūsetu is a stupidly simple and straightforward self-hosted MCP Gateway. It lets you connect multiple MCP servers and expose them through a single MCP endpoint. One of the main things I wanted to solve was MCPs that don't have a hosted version — you can point Yūsetu at the Git repository and Yūsetu can run the MCP inside an isolated environment and expose it through the gateway. It's MIT licensed and will always be free to use.
+>
+> Features:
+>
+> * Connect multiple MCP servers through a single gateway
+> * Run MCPs directly from Git repositories that don't have a hosted endpoint
+> * Isolated execution for MCPs launched from Git repositories
+> * Unified tool discovery and tool execution
+> * API key authentication
+> * Tool/context optimization with 30%+ token savings in my testing, with higher savings on less-optimized MCP servers
+> * Fully self-hosted
+> * MIT licensed and free to use forever
+>
+> Planned:
+>
+> * Grouping tools based on use case
+> * Team support
+> * Multiple API keys with the ability to restrict tools per API key
+> * MCP health monitoring and alerts when an MCP goes down
+>
+> Deployment:
+>
+>     git clone https://github.com/builtbyaakash/yusetu.git
+>     cd yusetu
+>
+> See the repository README for the current installation and configuration instructions.
+>
+> Repo: [https://github.com/builtbyaakash/yusetu](https://github.com/builtbyaakash/yusetu)
+>
+> AI Involvement: AI was used to assist with parts of the development process. Architecture, product direction, and implementation decisions are mine.
+>
+> I'm mainly posting this because I'd like feedback from people who actually self-host things and work with MCPs.
+>
+> In particular, I'd love feedback on the new features or expected features we can have in this which will benefit people using it.
+
+---
+
+> **raxiel87**（1 分） · 2026-09-21T21:31:01+08:00　
+> Hey,
+>
+> I wanted a video meeting platform that I could run on my own infrastructure without depending on an external meeting provider for the actual calls.
+>
+> That eventually became TiDiTalk.
+>
+> It's a self-hosted video meeting platform built around mediasoup/WebRTC. The idea is pretty simple: I wanted something I could deploy on my own server, manage the users myself and send meeting links to people without making them create accounts.
+>
+> Right now it includes:
+>
+> \- host accounts and guest links
+>
+> \- waiting lobby
+>
+> \- audio/video meetings
+>
+> \- screen sharing
+>
+> \- chat and reactions
+>
+> \- shared annotations/drawing
+>
+> \- local recording
+>
+> \- scheduled meetings
+>
+> \- email invitations with calendar attachments
+>
+> \- virtual backgrounds and face effects
+>
+> \- admin/user management
+>
+> \- configurable branding and room rules
+>
+> \- English, Italian, French and German UI
+>
+> \- localized invitation emails
+>
+> The stack is Node.js, Express, [Socket.IO](http://Socket.IO), mediasoup, SQLite and coturn.
+>
+> Deployment is Docker Compose, but because it's WebRTC you still need to correctly expose the media and TURN ports — putting it behind a reverse proxy isn't enough by itself.
+>
+> I'm using it myself, but I'd really like feedback from people who already self-host communication tools.
+>
+> In particular I'm interested in hearing about:
+>
+> \- anything you'd expect from a self-hosted meeting platform that's currently missing
+>
+> \- deployment/networking issues you run into
+>
+> \- features you consider genuinely useful rather than feature creep
+>
+> GitHub:
+>
+> [https://github.com/Giuseppe-sciarra/TiDiTalk](https://github.com/Giuseppe-sciarra/TiDiTalk)
+>
+> If you find it useful and want to support development:
+>
+> [https://paypal.me/raxiel87](https://paypal.me/raxiel87)
+>
+> AI involvement:
+>
+> AI tools have been used as development/review assistants during parts of the project. The application itself does not depend on an AI service for video meetings.
+
+---
+
+> **OurHeroAndy**（1 分） · 2026-09-21T21:35:09+08:00　
+> The auto-naming in this I think is my favorite part: ToiletHam, GravyGhost, TaxFraud. Well done. The fact that you can have more than one running and them trade with each other surprised and delighted me.
+>
+> Any plans to add compatibility with any other editions?
+
+---
+
+> **Aressito**（1 分） · 2026-09-21T23:02:57+08:00　
+> Hi all, frustrated with my Arr\* setup and always checking why this why that I made something for myself and wonder if it could help others :
+>
+> I've burned enough evenings on "why isn't this downloading" that I automated the interrogation.
+>
+> It started as a 40 line cron script. It's now about 8k lines of python living next to my arrs, and the whole thing is a telegram bot. I've been calling it the Arr Doctor.
+>
+> I'm trying to work out if this is worth cleaning up and releasing, or if it only makes sense for my particular flavour of tinkering. So here's everything it does, warts included.
+>
+> **The interface is my phone.** There's no dashboard and no web UI. It lives in topics in my telegram group, so the media stuff lands in one room and the host audit stuff in another. If it needs me, it messages me with a card: one line of what happened, two lines of why, and buttons. If I want to know something, I ask it.
+>
+> Things I actually type: `/doctor` for the state of the library (theatrical window, pre-release standby, anything graded one way but built another, released-but-missing, queue health). `/doctor standby` when I only want the upcoming list. `/trash` to see what it's binned. `/help`, which changes what it shows depending on which topic I'm standing in.
+>
+> Things I actually tap, on the cards: **🍿 Grab Best** on a film whose releases are all rejected, **🩺 Ask Doctor** for an explanation of that same card, **♻️ Replace with retail** when the real release finally lands, **♻️ Reset budget** after the circuit breaker trips, **📋 View Trash**. Tapping is the only way anything destructive happens, the button is bound to that exact release so a stale one can't act on something else, and once it fires the buttons are cleared so you can't double tap into a second action.
+>
+> Two rules about noise, because a bot you mute is a bot that doesn't work: it tells you about each thing once (standby notices fire once per film, repeat complaints get a cooldown), and decisions get pushed to me while status is pull only. It also ignores anything not from my user id in my group.
+>
+> The plumbing behind it: cron for health and crash checks every 5 minutes, disk hourly, backups daily, a deep sweep every 6 hours. The bot is what you see. Underneath it's flat files and the arr APIs.
+>
+> **It explains why something isn't downloading, instead of just "not downloaded".** My profile has a 200,000 custom format floor from a dictionarry setup. When something sits unfetched for a week the doctor searches and then tells me: 47 releases available, best one scores 0, here's the rule rejecting it. Most of my "radarr is broken" evenings were one profile rule correctly rejecting a release that genuinely didn't qualify.
+>
+> **Parser rejects.** Radarr sometimes refuses a perfectly good release over a title mismatch. The doctor can check the release is really the right film, then push the nzb straight into SABnzbd and skip the parser entirely. Easily the thing that's saved me the most babysitting.
+>
+> **Theatrical windows.** When a film is only in cinemas it says so and stops, which kills the "why isn't this downloading" loop at the source. If you do want the early rip, that's what the Grab Best button is for.
+>
+> **The one I'm happiest with:** it checks whether the file you actually got is what its label claims. I had a film arrive as WEBDL-1080p and Radarr was delighted. The media info disagreed: six channel uncompressed PCM at 6.9 Mbps, audio bitrate roughly 2.6x the video bitrate, empty subtitle track, and the official digital release still nine days out. That's not a web download, that's a capture wearing a retail label. Nothing in the normal stack looks at this, and because the label scored well, Radarr would have kept it forever. It went through all 23 files in my library and flagged exactly one. That was the right one.
+>
+> **Which leads to the follow up.** Radarr reports that file as meeting cutoff, so it will never upgrade it, not even when the real thing shows up. So the doctor watches the release date and pings me when retail lands, with the replace button. It will not do that part on its own and I don't want it to.
+>
+> **It keeps score on indexers.** Every grab gets written down, and six hours later it checks history to see how it ended. Indexers that keep failing get passed over when a healthy one has the same release. If it's the only option it still gets used, because a queue that never moves is worse. Same idea for release groups caught mislabelling. A preference, not a ban.
+>
+> **Bleed shield.** For metered usenet: it watches per job missing article counters and aborts plus requeues a job that's chewing through articles rather than draining the quota. (Unlimited primary, metered blocks as backup here.)
+>
+> **Odds and ends.** Subtitle watchdog. A recycle bin with `/trash` and `/trash-restore` so nothing is hard deleted. Orphan cleanup. Indexer probing that tries to bring a failed indexer back but deliberately skips ones I switched off, because that's a decision, not a fault. An incident ledger so repeating problems get counted instead of re-reported daily.
+>
+> **There's an LLM bit.** Tap Ask Doctor on a card and it explains what's going on instead of you reading logs. It's read only. It can't grab, blocklist or change anything, and the prompt plus a regex guard refuses advice that weakens the setup. That guard exists because it kept telling me to lower my 200,000 floor, which would have quietly wrecked the library.
+>
+> **Safety, because giving a script permission to delete files is how you learn humility.** Everything destructive is a tap. There's a daily action budget with a circuit breaker and a reset button. The only thing it does unprompted is fetch, never delete.
+>
+> Built with python3, urllib, json, flat files, cron and the telegram bot API. No database, no web UI. Three scripts. Every subsystem has a --test switch, mostly because I've broken the picker twice. Needs Radarr, Sonarr, Prowlarr, SABnzbd, optionally Bazarr, and it's opinionated and hardcoded to my paths in places.
+>
+> So, would you run this? And if yes, what would put you off? I'm mostly trying to find out whether the interesting parts are interesting to anyone else, or if this is one of those things that only makes sense because I built it.
+>
+> worth saying up front, this was built with heavy AI assistance and I'm the one who runs and maintains it as I'm just an enthousiast and could not find anything similar that fitted my needs
+
+---
+
+> **DP_CV**（2 分） · 2026-09-21T23:20:34+08:00　
+> **Project Name:** cookbook-importer
+>
+> **Repo/Website Link:** [https://github.com/carllvin/cookbook-importer](https://github.com/carllvin/cookbook-importer)
+>
+> **Description:** I vibecoded this tool to help me import entire cookbook-pdfs into tandoor using LLM
+>
+> **Deployment:** docker compose
+>
+> **AI Involvement:** written by AI but so far it works fine for me
+
+---
+
+> **afk-sapien**（2 分） · 2026-09-22T00:02:57+08:00　
+> Wait till you get the cursed MeatPocket name. As for other games, I think the next gen would be doable. I'm using PyBoy to simulate the games, so this only supports Game Boy and Game Boy Color. I also looked into adding support for Yellow, but its storyline is a bit different and was not drop-in compatible. Funny enough, the ROM hack c\*\*k version loads and is playable, though it's not on the current allowlist.
+
+---
+
+> **Who_Cares_4596**（1 分） · 2026-09-22T00:34:38+08:00　
+> **Hearth** – self-hosted family wall calendar (a DIY Skylight)
+>
+> - Website & screenshots: https://jewaldt27.github.io/hearth-calendar/
+> - GitHub: https://github.com/JEwaldt27/hearth-calendar
+> - License: MIT · Stack: Node + Postgres, Docker Compose (amd64 + arm64)
+>
+> A shared family calendar, chore board and grocery list that runs on your own server and turns an old tablet into a kitchen wall display.
+>
+> - Two-way sync with Google, Outlook/Microsoft 365, iCloud and any CalDAV server, plus read-only ICS subscriptions
+> - A colour and emoji for each family member, chores with stars and rewards for kids, shared grocery lists, and a weekly meal planner
+> - Wall display mode: clock, weather, "up next", countdowns, tap-to-tick chores, night mode, photo frame, portrait or landscape
+> - Installs as a phone app with push reminders, and has multiple accounts with per-calendar sharing
+> - Nightly backups, an admin health page, alerts when something breaks, and no telemetry
+>
+> Install: `curl -fsSL https://raw.githubusercontent.com/JEwaldt27/hearth-calendar/main/install.sh | sudo bash` (or use the docker-compose.yml directly)
+>
+> **AI disclosure:** built with heavy help from an AI coding assistant. I've reviewed, run and tested it on my own family's server. Outlook sync is the newest part, so consider it beta.
+>
+> Feedback and issues are welcome!
+
+---
+
+> **jnnngs_eth**（1 分） · 2026-09-22T01:37:01+08:00　
+> Title: I built Zoomies — free, open-source GitHub Actions runner management with a web UI 🐾
+>
+> Hi everyone! I’m the developer of Zoomies, a self-hosted project for running GitHub Actions on your own infrastructure.
+>
+> The idea is simple: keep your workflows in GitHub, run the jobs on hardware you control, and make managing the runners easier through a web UI.
+>
+> A few things it offers:
+>
+> - Free and open source — you provide the infrastructure.
+> - Multiple runner platforms, including Linux, Windows and macOS.
+> - A web UI for managing hosts and runners.
+> - Simple installation and guided migration to help you get started with existing workflows.
+> - A dog theme, because apparently managing CI needed more zoomies.
+>
+> It’s aimed at people who want to use their own servers, a VPS or homelab hardware for CI, with an easier way to manage everything.
+>
+> It’s actively being developed, and I’d appreciate people trying it and telling me where the setup is confusing, what’s missing, or what would make it useful in their own environment.
+>
+> Website and screenshots: [https://zoomies.sh](https://zoomies.sh)
+> Source: [https://github.com/eyupio/zoomies](https://github.com/eyupio/zoomies)
+>
+> If you already self-host GitHub runners, what’s the biggest headache you’d like a tool like this to solve?
+
+---
+
+> **IamAngusU**（1 分） · 2026-09-22T02:24:10+08:00　
+> https://preview.redd.it/ze7qrmqg0xqh1.jpeg?width=1254&format=pjpg&auto=webp&s=bb53b38693cac3d7df44ea9bdc0731c77b62e40b
+>
+> **Project Name:** ContextBridge (CB)
+> **Repo:** [https://github.com/IamAngusU/ContextBridge](https://github.com/IamAngusU/ContextBridge)
+>
+> **Description:**
+> CB started because I got tired of rebuilding the same AI plumbing for every project — and paying for API calls when I already have perfectly usable hardware sitting around.
+>
+> I have PCs, a rack, VPSes, shared hosting and different model runtimes. I wanted apps to describe what they need instead of caring which machine, API or runtime provides it.
+>
+> So CB turns those resources into one controlled pool. A PHP app on shared hosting can submit work to a model running on my PC. The scheduler filters workers by task, model, tags, RAM/VRAM and policy, then ranks compatible candidates by live capacity. route explain shows why.
+>
+> There are also durable schedules, deterministic pipelines and a bounded planner for multi-step work. The planner can propose steps; it cannot grant itself additional providers, budget, egress or retries.
+>
+> No, it’s not an Ollama wrapper with a WebSocket attached. Ollama is just one possible resource.
+> The idea is closer to Matter: more runtimes, APIs and hardware should make CB more useful, not become another integration I have to rebuild.
+>
+> **Deployment:**
+> Written in Go. Current stripped core binary is \~10 MB, with release archives around **5 MB** depending on platform. Binaries/installers are available for Windows, Linux and macOS. Self-host the relay and pair workers from your other machines. No Docker image at the moment.
+>
+> **AI involvement:**
+> Yes. I use AI for documentation, review, wording and parts of coding/testing. I treat it as a tool, not an autonomous developer: changes are reviewed against the actual code/contracts and tested in an isolated/mirrored environment before I keep them. ChatGPT was also used for the logo based on my original concept. …and partly for this post, because I’m German and would rather debug a race condition than polish English prose.
+>
+> Still pre-1.0. Concrete bugs and weird setups are very welcome.
+
+---
+
+> **contentsmaysettle**（1 分） · 2026-09-22T02:53:23+08:00　
+> **Project name:** Murlet
+>
+> **Website link:** [https://murlet.com](https://murlet.com)
+>
+> **Description:** Murlet is a free NVR for macOS that is easy to install and run (no Docker or YAML). I've been working on it for a couple of years, on and off.
+>
+> Why am I building yet another NVR? I think it's increasingly feasible to build an intelligent sensing layer for the home. Something that tells you who is at the door, or when your kids arrive, or when a package is delivered. There's a decent argument that this is better done locally, both for privacy and for resource usage. But before I can do any of that, I need a solid foundation.
+>
+> Where Murlet is right now: it detects people/vehicles/animals, and you can search for events, view clips, and scrub through footage. Under the hood, Murlet uses an Electron frontend and a Rust backend built around an actor architecture. Motion detection runs on the GPU via wgpu and gates a YOLOX object detector. It has run my nine test cameras for months at a time, and a handful of people are using it.
+>
+> Murlet is not open source, though I'd consider open-sourcing the core down the road. Nothing leaves your machine except daily update checks to GitHub (which can be disabled). It works with any camera that speaks RTSP and requires an Apple silicon Mac running macOS 14 or later.
+>
+> Where Murlet is going in the next six months: remote viewing that Just Works, even when both endpoints are behind NAT. This will take the form of an iOS app that uses WebRTC and TURN, and will be a paid feature. I also need to work on detection accuracy (right now it's good but not great).
+>
+> Where Murlet is going in the next twelve months: natural language search using an image-text model, and experiments in face recognition.
+>
+> I'm looking for any and all feedback. Does it work with your cameras? Is the onboarding flow clear? What surprised you?
+>
+> **Deployment:** Install and run just like any other macOS application.
+>
+> **AI Involvement:** Some. All code is reviewed by me, and I'm very much in-the-loop for core features.
+
+---
+
+> **WanderingITGuy**（1 分） · 2026-09-22T05:24:21+08:00　
+> **Project Name:** Ostiole
+>
+> **Repo/Website Link:** [https://github.com/rforced/ostiole](https://github.com/rforced/ostiole)
+>
+> **Description:** Turns a Linux machine into a firewall and router, managed from a web UI. One static Go binary that owns a single nftables table and drives various system packages — systemd-networkd, dnsmasq, unbound, miniupnpd, pppd — from one config.
+>
+> **The problem it solves:** if you want a router with a real UI, the answer is usually pfSense or OPNsense, which means FreeBSD on a dedicated box. OpenWrt targets embedded hardware and VyOS is a config file and a CLI. Ostiole is for people who want that UI on Linux.
+>
+> Zones and firewall rules with aliases (addresses, ports, URL feeds, countries, AS numbers) and schedules, NAT, rate limits, a live log. VLAN, bridge, bond, PPPoE and WireGuard interfaces, v4 and v6. Static routes, multi-WAN with gateway monitoring, per-rule policy routing. DHCP and DNS with block lists, UPnP/NAT-PMP. A reverse proxy with a WAF in blocking or detection mode. CAKE shaping. Config revisions, backup/restore, encrypted copies to S3, packet capture, drive health. ACME certificates.
+>
+> Configuration is commit driven. The ruleset loads, and if you don't confirm from the UI it reverts on its own. Privacy is the default rather than a setting — DNS queries are never logged at any level by default, the WAN sends your provider no hostname, its IPv6 address carries no hardware address, and no telemetry.
+>
+> **Deployment:** v1.0.0 is released with signed binaries for x86-64 and arm64. Needs Linux 5.14+ and systemd.
+>
+> Script is available on repo.
+>
+> It prints the plan and waits for a yes; --dry-run prints it and stops. The script installs the packages, verifies the release checksum and signature, hands addressing to systemd-networkd keeping the addresses the machine already has, then removes the firewalls and network managers it replaces. Then open https:/// and run the wizard. The README covers requirements, every install flag, and the CLI, which does everything the UI does.
+>
+> **AI Involvement:** Most of the code was written by various models. It's been running as the live router on my own network for some weeks now.
+>
+> It's new and the config format will change between releases. If pfSense/opnsense is working for you, stay there.
+
+---
+
+> **LastStandD**（0 分） · 2026-09-22T06:11:54+08:00　
+> Hey everyone,
+>
+> After working in project management for 8 years, I was still struggling to find a tool that actually fit my workflow. I loved Monday. for its advanced features, but the pricing has become ridiculous, and because I travel a lot, the complete lack of offline functionality was a constant pain point. On the other hand, I’ve used MS Project; while it can be reliable, it feels incredibly outdated for the price you have to pay.
+>
+> Frustrated by the options out there, I decided to build my own project management tool called **MBN Projects**.
+>
+> I took the best parts of advanced modern boards and traditional project controls, compiling it into a native Windows application built with Rust and SQLite. Because it runs locally on your PC, it is incredibly fast—even with thousands of rows.
+>
+> **Here is how it works right now:**
+>
+> * **100% Local & Privacy-First:** Every project, task, and document lives in a local database on your own hardware. No cloud login, no analytics tracking, and no forced monthly subscription.
+> * **True Offline Functionality:** After a quick online activation, the app works entirely offline. If you are on a plane or at a secure site with the Wi-Fi off, your plans keep working.
+> * **Advanced Features:** It includes Gantt timelines with a true critical path, Kanban boards, interactive dashboards, resource workload tracking, a RAID log, baselines, a built-in document writer and Note keeper with reminders!
+>
+> **Where the project is heading:**
+> Right now, it is a single-user tool with a one-off yearly licence per device. There is currently no live team collaboration, but I am already working on a self-hosted server option. This will allow companies to self-host their own database with shared workspaces and joint projects—giving you a Monday-like experience at a fraction of the cost, without your data leaving your infrastructure.
+>
+> Down the line, I want to build a hybrid cloud version. The goal is to let you use a cloud version while online, while everything syncs flawlessly to the desktop app in the background. If you go offline or travel, your plans are right there waiting for you, auto-syncing back to the cloud the moment you reconnect.
+>
+> There is a **7-day free trial** (no credit card required) and a free interactive **web demo** available on the website so you can see how it feels. The desktop app does quite a bit more than the web demo, as I'm currently using the web version to test out future cloud-based architecture.
+>
+> If you want to check it out, it’s called MBN Projects: [https://mbn-projects.com](https://mbn-projects.com)
+>
+> I would love to hear your thoughts, feedback, or any feature requests you might have!
+>
+> AI - I Have used Claude To Help with a lot of the coding and website - I Started this project back in 2022 but got put off due to work and family commitments! with the advance of AI I thought i would give it my old code and see aht we could build.
+
+---
+
+> **Neat_Plateforme**（1 分） · 2026-09-22T07:07:20+08:00　
+> `**Project Name:** Bulle`
+>
+> `**Repo/Website Link:** https://github.com/plateforme/bulle (MIT) — demo video (86 s, English subtitles): https://www.youtube.com/watch?v=ZZdcVW6KyGw`
+>
+> `**Description:** A voice assistant for the living room that runs entirely on hardware I own. The mic is an Xbox 360 Kinect from 2010: I use its 4-mic array, and its depth camera to know where I am in the room, so the eyes of the face on the TV follow me. A Raspberry Pi 3 draws that face over HDMI (GLES2 shader, 30 fps). The brain is one RTX 3090 running Whisper, gpt-oss:20b with tool calling and Kyutai TTS; Home Assistant does the actions, plus Spotify and a calendar. No account, no cloud API, no API key: in the demo I cut internet access for its services and for the Pi with an nftables script, then ask it to turn a lamp off, and it still works. When an answer is annoying to listen to (a list, three days of weather, how a name is spelled) a card appears next to the face, built from the tool result and not from what the model writes. About 5 to 8 seconds from the end of my sentence to the first word of the answer. Every night a local model reads the day's logs and proposes fixes on its own branch, with a bench of 58 real sentences deciding whether they live.`
+>
+> `**Deployment:** MIT on GitHub, with an` [`INSTALL.md`](http://INSTALL.md) `that goes from nothing to a face that answers you. Stage 1 needs one Linux machine with a GPU, a microphone and a screen, no Kinect and no Raspberry Pi, about half an hour: clone, a venv, run the 400+ tests to check the tree, generate a token, then start three processes (the brain, the face, the mic client). You bring your own LLM (Ollama), speech-to-text and text-to-speech endpoints; only the LLM is mandatory, and you can start with no tools at all, in which case she just talks. Stage 2 adds the Kinect, the Pi 3 over HDMI and Home Assistant, with the systemd units in the repo and the libfreenect traps written down. There is no Docker image: the tool servers that hold my house keys are not in this repo, and the brain discovers any OpenAPI server you point it at. It is a worked example you can actually run, not a five-minute install.`
+>
+> `**AI Involvement:** Most of the code was written with coding agents: Claude Code during the day, a local model (qwen through OpenCode) at night. I design, review and merge, and nothing reaches the house without passing the bench. The instructions the nightly one works from are in the repo (agent/consigne_agent.md). The project idea, the architecture decisions and every trade-off in it are mine.`
+
+---
+
+> **AethericWispling**（0 分） · 2026-09-22T10:33:44+08:00　
+> **Project Name:** KFAutonomousAccounting
+>
+> **Repo/Website Link:** [https://github.com/CodeGameDev29/KFAutonomousAccounting](https://github.com/CodeGameDev29/KFAutonomousAccounting)
+>
+> **Description:** A privacy-first, self-hosted bookkeeping app for small Canadian corporations. It ingests receipts and bank statements to output a reconciled ledger and a complete audit binder (XLSX + self-contained HTML report + source attachments). Features a four-pass reconciliation engine (handling strict matches, FX conversions, splits), CRA/GIFI categorization, and GST/HST/PST summaries. It uses a "flags, don't guess" approach to prevent AI hallucinations, plus an optional expense-benchmarking tool against Canadian industry data.
+>
+> **Deployment:** Python 3.11+, Node 20+, PostgreSQL 15+. Deployed via a step-by-step README using FastAPI, `pip`, and `npm`. Database initialization requires running provided SQL scripts (`schema_pg.sql` and `local_auth_schema.sql`). No official Docker image yet, but the setup is script-driven.
+>
+> **AI Involvement:** Fully transparent. Uses a bring-your-own-Vision-LLM (via Ollama, LM Studio, etc.) strictly for document extraction and complex cross-account matching. Deterministic regex pre-pass minimizes AI calls, and strict per-run call budgets prevent runaway usage. Zero telemetry; you provide the local endpoint.
+
+---
+
+> **Big-Bet-3619**（0 分） · 2026-09-22T11:59:58+08:00　
+> ## 🌟 Project Name
+>
+> **Lumina — High-Performance Media & Photo Gallery**
+>
+> ## 🔗 Repo / Website
+>
+> https://github.com/teddys48/lumina
+>
+> ## 📸 Description
+>
+> Lumina is a self-hosted media and photo gallery built with **Svelte 5 + Go/Fiber + SQLite**.
+>
+> It is designed to handle large media libraries while keeping the UI fast and responsive.
+>
+> Features include:
+>
+> * 📅 Timeline view with infinite scrolling and date filtering
+> * 📁 File-manager style folder browsing
+> * 🎬 Image & video support with FFmpeg thumbnail extraction
+> * 🔍 High-resolution lightbox with pan/zoom and EXIF metadata
+> * 📦 Streaming ZIP downloads with O(1) RAM usage
+> * ⚡ Virtualized media lists for large libraries
+> * 🔄 Automatic file scanning and filesystem watching
+> * 🧩 Single Go binary serving both the API and frontend
+>
+> ## 🐳 Deployment
+>
+> Docker Compose is the recommended deployment method.
+>
+> ```yaml
+> services:
+>   lumina:
+>     image: ghcr.io/teddys48/lumina:latest
+>     container_name: lumina
+>     restart: unless-stopped
+>     ports:
+>       - "8080:8080"
+>     environment:
+>       PORT: 8080
+>       MEDIA_DIR: /media
+>       THUMBNAIL_DIR: /thumbnails
+>       DB_PATH: /data/lumina.db
+>       IMAGE_SCAN_WORKERS: 4
+>       VIDEO_SCAN_WORKERS: 2
+>       FFMPEG_THREADS: 1
+>       AUTO_SCAN_ENABLED: "true"
+>       AUTO_SCAN_DEBOUNCE_SEC: 2
+>     volumes:
+>       - /path/to/media:/media:ro
+>       - lumina-thumbnails:/thumbnails
+>       - lumina-data:/data
+>     healthcheck:
+>       test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://localhost:8080/health"]
+>       interval: 30s
+>       timeout: 5s
+>       retries: 3
+>       start_period: 10s
+>
+> volumes:
+>   lumina-thumbnails:
+>   lumina-data:
+> ```
+>
+> Then:
+>
+> ```bash
+> docker compose up -d
+> ```
+>
+> Open `http://localhost:9091`.
+>
+> The media directory is mounted **read-only**, while thumbnails and the SQLite database are stored in persistent volumes.
+>
+> A full installation and configuration guide is available in the repository README.
+>
+> ## 🤖 AI Involvement
+>
+> Lumina was developed with assistance from AI coding agents.
+>
+> AI was used for things such as:
+>
+> * Code generation and refactoring
+> * Reviewing implementation approaches
+> * Debugging
+> * Docker and deployment configuration
+> * Documentation
+>
+> The project architecture, feature decisions, testing, and final code review were still handled by the developer.
+>
+> Feedback, bug reports, and suggestions are welcome!
+
+---
+
+> **WookieMan76**（1 分） · 2026-09-22T12:29:30+08:00　
+> **Project Name:** Kyber Core
+>
+> **Repo/Website Link:** [https://github.com/smurfy7625-commits/KyberCore](https://github.com/smurfy7625-commits/KyberCore)
+>
+> **Description:** New webui written for OMV that gives easier usage and app store. It also lets you integrate a ai if desired and many other things
+>
+> **Deployment:** There is a docker compose file that will do it all.
+>
+> **AI Involvement:** None except maybe asking a question here and there.
+
+---
+
+> **niurenwangdadan**（1 分） · 2026-09-22T15:51:17+08:00　
+> Project Name: Kiso
+>
+> Repo/Website: https://github.com/vincemakes/kiso | https://kiso.work
+>
+> Description: Kiso is an MIT-licensed TypeScript runtime for AI agents, with a terminal coding agent built on top. It records model turns, approvals, tool execution, and results locally. If a tool may have changed something before the process crashed, Kiso marks the outcome uncertain and asks for a human decision instead of automatically retrying. The core is capped at 2,200 lines.
+>
+> Deployment: On macOS or Linux with Node 22+, run `npm install -g @vincemakes/kiso-code` and then `kiso`. The first run has a keyless scripted demo. For a real agent, configure your own model provider credentials or an OpenAI-compatible endpoint. The CLI and session log run on your machine; Kiso does not bundle or host a model. Installation and configuration are documented in the repo.
+>
+> AI Involvement: Approximately 90% of the code was written by AI. I maintain the project; the source, tests, and design records are public for inspection.
+>
+> I would particularly appreciate feedback on the crash-recovery behavior and the local setup.
+
+---
+
+> **Big-Bet-3619**（0 分） · 2026-09-22T17:35:53+08:00　
+> ## 🚀 Project Name
+>
+> **Redora — Lightweight Web-Based Redis Administration Tool**
+>
+> ## 🔗 Repo / Website
+>
+> [https://github.com/teddys48/redora](https://github.com/teddys48/redora)
+>
+> ## 📝 Description
+>
+> Redora is a lightweight, self-hosted web UI for **browsing, inspecting, and managing Redis instances**.
+>
+> It was built as a simple alternative to heavier Redis administration tools, with a focus on being fast, safe, and easy to deploy.
+>
+> ### Features
+>
+> * 🔌 Multi-connection Redis manager
+> * 🔐 AES-256-GCM encrypted connection credentials
+> * 🔎 Cursor-based `SCAN` key browser — no `KEYS *`
+> * 📝 View/edit String, Hash, List, Set, Sorted Set, and Streams
+> * 📊 Realtime Redis server, memory, client, and keyspace metrics
+> * 💻 Interactive Redis console with autocomplete
+> * ⚠️ Safety checks for destructive commands such as `FLUSHALL` and `FLUSHDB`
+> * 🗄️ SQLite for connection metadata
+> * 🐳 Docker & Podman ready
+> * ⚡ Go/Fiber backend with Svelte 5 frontend
+>
+> Redis credentials are encrypted before being stored in SQLite, and Redis connections are handled entirely by the backend rather than exposed to client-side JavaScript.
+>
+> ## 🐳 Deployment
+>
+> A pre-built image is available on GHCR.
+>
+> ### Docker Compose
+>
+>     services:
+>       redora:
+>         image: ghcr.io/teddys48/redora:latest
+>         container_name: redora
+>         ports:
+>           - "8080:8080"
+>         environment:
+>           PORT: 8080
+>           DB_PATH: /data/redora.db
+>           ENCRYPTION_KEY: your-32-byte-secret-key
+>           LOG_LEVEL: info
+>         volumes:
+>           - redora-data:/data
+>         restart: unless-stopped
+>
+>     volumes:
+>       redora-data:
+>
+> Run:
+>
+>     docker compose up -d
+>
+> Or with Podman:
+>
+>     podman compose up -d
+>
+> Then open:
+>
+> `http://localhost:8080`
+>
+> The README contains additional configuration and local development instructions.
+>
+> ## 🤖 AI Involvement
+>
+> Redora was developed with assistance from AI coding agents.
+>
+> AI was used for:
+>
+> * Code generation and refactoring
+> * Debugging
+> * Reviewing implementation approaches
+> * Docker/Podman configuration
+> * Documentation
+>
+> The overall architecture, feature requirements, implementation decisions, testing, and final review were handled by the developer.
+>
+> Feedback and suggestions are welcome!
+>
+> https://preview.redd.it/vwpvb18fk1rh1.jpeg?width=1600&format=pjpg&auto=webp&s=532a146118954f2b5adcbec12b9b8799c6c19db2
+
+---
+
+> **hirenkavad**（1 分） · 2026-09-22T17:56:10+08:00　
+> **Project Name** : Peon
+>
+> **Repo** : [https://github.com/Peon-sh/Peon](https://github.com/Peon-sh/Peon)
+> **Website :** [https://peon.sh/](https://peon.sh/)
+>
+> **Description :** It’s an open-source deployment platform that you install on your own Linux server. The basic idea is that you get a dashboard for managing apps, Docker services, domains, databases, backups, and deployments without giving up control of the server.
+>
+> **Featuers :**
+>
+> * Git push deployments
+> * Docker and Docker Compose support
+> * Automatic HTTPS and custom domains
+> * Built-in database management and backups
+> * Team roles and audit logs
+> * 300+ one-click templates
+> * Support for servers from providers like Hetzner, DigitalOcean, AWS, or bare metal
+> * MCP support for using tools like Cursor or Claude to manage deployments
+>
+> **AI Involvement:** Some parts of its code's latest patches are written by AI. But mostly it is made by the full-stack Developers team
+
+---
+
+> **BigL8r**（1 分） · 2026-09-22T18:31:34+08:00　
+> **Project Name:** ESP-MQTTunnel
+>
+> **Repo/Website Link:** [https://github.com/hack-tramp/ESP-MQTTunnel](https://github.com/hack-tramp/ESP-MQTTunnel)
+>
+> **Description:** A working PoC that turns an ESP32 into a $3 hardware proxy that tunnels traffic over MQTT. Because it connects out to a broker, you can bypass firewalls/censorship without open ports or public IP.
+>
+> **Deployment:**
+> Python server + Browser
+> Flash .ino to ESP32
+>
+> **How it works:**
+>
+> * The **ESP32** connects to your Wi-Fi and subscribes to the MQTT `req` topic.
+> * The **Python script** runs a local HTTP proxy on the laptop (e.g. `127.0.0.1:8080`).
+> * Firefox is configured to use that local proxy.
+> * When Firefox requests a site, the Python proxy:
+>    * Parses the `CONNECT host:port` line.
+>    * Publishes an `open` message over MQTT.
+>    * Streams the raw TLS bytes as `data` messages.
+> * The ESP32 receives those messages, opens a real TCP socket to the target host, and forwards the bytes.
+> * Responses from the real server come back through MQTT (`res` topic), are received by the Python proxy, and written back to Firefox.
+>
+> **AI Involvement:** I wrote the first version and then used DeepSeek to build on that.
+
+---
+
+> **idimus**（1 分） · 2026-09-22T18:34:25+08:00　
+> **Project Name:** CppPlaygroundSelfHosted
+>
+> **Repo/Website Link:**
+>
+> * **GitHub:** [https://github.com/simfeo/CppPlaygroundSelfHosted](https://github.com/simfeo/CppPlaygroundSelfHosted?utm_source=gemini)
+> * **Live Demo:** [https://cpp-playground-self-hosted.vercel.app/](https://cpp-playground-self-hosted.vercel.app/?utm_source=gemini)
+>
+> **Description:** CppPlaygroundSelfHosted is a lightweight, web-based C++ execution environment built for developers who want a quick, private alternative to public tools like [Cpp.sh](http://Cpp.sh) or Wandbox. It works fully in the browser and does not require additional frameworks or tools installation. Only Python is needed, but you can do a lightweight Node.js server as well.
+>
+> * **What it does:** Allows users to write, compile, execute, and debug standard C++ code snippets directly inside their browser (works on mobile browsers as well!).
+> * **Problem solved:** Eliminates dependency on third-party public web runners and availability issues, giving self-hosters full control over compiler flags, execution timeouts, sandboxing, and resource consumption without sending code to external servers.
+> * **Key Features:**
+>    * Clean, responsive web code editor with syntax highlighting.
+>    * Browser-sandboxed compilation and execution using WASM and the browser `tmpfs`.
+>    * Built-in multi-threading support and full interactive debugging tools: breakpoints, local variables inspection, and call stack tracking.
+>    * Supporting standard `clang++` across multiple standard versions (C++11 through C++26).
+>    * Dedicated input/output widgets for standard input (`stdin`), command-line arguments, compiler diagnostics (`stderr`), and execution status.
+>    * Fully customizable compiler flags and build options.
+>    * You can download the project files as a `.zip` with CMake files included.
+>
+> **Deployment:**
+>
+> * Consists of a lightweight Python web server (required to handle headers correctly and avoid CORS limitations so all features like multi-threading work seamlessly) and static assets.
+> * **Self-Hosting Options:** Can be built and run locally or deployed via Docker/container stack. Full setup instructions are provided in the repository `README.md`.
+> * Requires less than 50 mb on the disk.
+>
+> **AI Involvement:**
+>
+> * AI was used heavily throughout development to assist with building, tuning features, and optimizing the browser execution runtime.
+
+---
+
+> **sandeep_tanwar**（0 分） · 2026-09-22T19:50:45+08:00　
+> **Project Name:** Radius: a self-hosted CMS + eCommerce platform (Laravel, MIT licensed)
+>
+> [](https://www.reddit.com/r/selfhosted/?f=flair_name%3A%22Product%20Announcement%22)**Repo/Website Link:** [https://github.com/InsertCart/radius](https://github.com/InsertCart/radius)
+>
+> **Description:**  Been building this as a self-hosted alternative to running WordPress + WooCommerce or paying for Shopify. It's a modular Laravel CMS - turn on only the modules you need (blog, pages, shop, payments, SEO, media/CDN, newsletter, mobile API). Multi-gateway checkout out of the box(Stripe/PayPal/Razorpay/PayU/Cashfree/Wise), theme system, 2FA on accounts. MIT licensed, runs on regular shared hosting. Would love feedback from anyone who self-hosts their store/site.
+>
+> https://preview.redd.it/9tx7xzmc82rh1.png?width=1883&format=png&auto=webp&s=485acab8632d969073a31f0a3f8f7965c1cd2af6
+>
+> **Features :**
+>
+> |Module|What it adds|Required|
+> |:-|:-|:-|
+> |Pages|Static pages, templates, homepage selection|Yes|
+> |Media|Uploads, thumbnails, file manager|Yes|
+> |Themes|Upload and activate front-end templates|Yes|
+> |Users|Accounts, roles, two-factor auth|Yes|
+> |Blog|Posts, categories, tags, comments|No|
+> |eCommerce|Products, cart, checkout, orders, coupons|No|
+> |Payments|PayPal, Stripe, Razorpay, PayU, Cashfree, Wise, COD, bank transfer|No|
+> |SMS|Transactional SMS and OTP via MSG91 or Twilio|No|
+> |Firebase|Web push notifications|No|
+> |SEO|Meta tags, sitemap.xml, robots.txt, [schema.org](http://schema.org), redirects|No|
+> |Contact forms|Front-end form and submission inbox|No|
+> |Newsletter|Subscriber capture and CSV export|No|
+> |Mobile API|JSON API for a mobile app — **ships switched off**|No|
+>
+> Payment Gateways
+>
+> |Gateway|Flow|Refunds from admin|Webhooks|
+> |:-|:-|:-|:-|
+> |Stripe|Hosted Checkout redirect|Yes|Yes|
+> |PayPal|Orders v2 redirect|Yes|Yes|
+> |Razorpay|Checkout modal|Yes|Yes|
+> |PayU|Signed form POST|Yes|No|
+> |Cashfree|Hosted checkout|Yes|Yes|
+> |Wise|Bank transfer, with optional transfer matching|No|No|
+> |Cash on delivery|Offline|No|No|
+> |Bank transfer|Offline|No|No|
+>
+> Emails :
+>
+> |Provider|`.env` keys|Package to install|
+> |:-|:-|:-|
+> |SMTP|—|built in|
+> |Resend|`RESEND_KEY`|`composer require resend/resend-laravel`|
+> |Amazon SES|`AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_DEFAULT_REGION`|`composer require aws/aws-sdk-php`|
+> |Postmark|`POSTMARK_TOKEN`|`composer require symfony/postmark-mailer`|
+>
+> **Deployment:** You can just download latest version of code from Git Repo and upload to web hosting Apache or Nginx then open the URL you will see setup screen just finish setup.  Full documentation [https://radiusdoc.insertcart.com/](https://radiusdoc.insertcart.com/)
+>
+> **AI Involvement:** I started this project many years ago recently picked speed after AI came and I uploaded it to opensource. I have tasted this in my site which are using this.
+
+---
+
+> **IrishWebPerson**（1 分） · 2026-09-22T22:01:03+08:00　
+> **Project Name:** Email Signature Generator
+>
+> **Repo/Website Link:** [signatures.clarkemedia.ie](https://signatures.clarkemedia.ie) (live tool, no install needed) — source on [GitHub](https://github.com/clarkemedia/email-signature-generator)
+>
+> **Description:** Builds HTML email signatures you can actually paste into Outlook, Gmail or Apple Mail without them falling apart. No account, no server, runs in your browser. v1.1 just went out: postal address fields, adjustable logo sizing (was rendering way oversized in Outlook mobile), 13 fonts instead of 7, a text size setting, 4 new social icons plus custom icon slots for anything not built in, and up to 3 clickable CTA buttons like "Book a Call" or "Get a Quote."
+>
+> **Deployment:** Use the hosted version at the link above, or self-host. It's a single HTML file with zero dependencies, so you can serve it from any web server, fork it to GitHub Pages, or run it in Docker: `docker run -d -p 8080:80 ghcr.io/clarkemedia/email-signature-generator:latest`. Docker images now cover amd64, arm64 and arm/v7, so it runs on a Pi or Apple Silicon too.
+>
+> **AI Involvement:** None, hand built. MIT licensed, been live a while, this is a feature release off issues people opened.
+
+---
+
+> **LuckyEdR**（1 分） · 2026-09-23T00:21:20+08:00　
+> Project Name: CalStack simple full featured calendar server
+>
+> Repo/Website Link: [https://github.com/btafoya/CalStack](https://github.com/btafoya/CalStack)
+>
+> Description: This is a very fast, lightweight, full featured (supporting almost all CalDav standard including VTASK and VJOURNAL) self-hosted golang based solution with a postgresql backend. Cane run as a systemd service or under docker/docker compose. Please tell me what you think, give it a star, even offer contributions/feature requests/issues.
+>
+> I have been VERY frustrated with the open source calendar server options such as Radicale and Baïkal. I have been a hosting provider and developer for a very long time and find myself just building my own solutions. Enjoy!
+>
+> Deployment: Docker/Docker Compose or systemd.
+>
+> AI Involvement: Designed by me, code assitance from Ponytail and Claude Code.
+
+---
+
+> **deepaksilaych**（1 分） · 2026-09-23T00:31:57+08:00　
+> I maintain Magio — sharing it here per the template.
+>
+> Project Name: Magio
+>
+> Repo/Website Link: https://github.com/Magi-Labs/Magio
+>
+> Description: Open-source Gmail read receipts, MIT licensed. A Chrome extension drops a tracking pixel into the compose body when you press Send, your own server records each open in Postgres, and you see the result in a Gmail sidebar and on a web dashboard. It stores subject, recipients, and timing — not the message body. The README is upfront about the catch: Gmail's image proxy and client prefetch mean an "open" is a signal, not proof a human read it.
+>
+> Deployment: Extension: download magio-extension-chrome.zip from the latest release, then Load unpacked at chrome://extensions. Server: docker-compose up -d starts Postgres 15 plus the web app (schema push is automatic), open http://localhost:3000 and create an account. There's also a split mode with only Postgres in Docker and the app on the host (Node.js 20+). Steps are in the README.
+>
+> AI Involvement: This comment was drafted with AI assistance. Happy to go deeper on any part of how the project works.
+
+---
+
+> **edward-b-1**（1 分） · 2026-09-23T05:34:07+08:00　
+> # Distributed-JBOD. Combine mixed hardware into a distributed, bit-rot protected object storage system
+>
+> I have been using my spare time to develop Distributed-JBOD, which is a multi-node software system which allows the system administrator to combine together mixed hardware devices into a single object storage pool.
+>
+> The storage pool can be created from arbitrary hardware. Regular consumer-grade desktop PCs are suitable, with whatever mixed layout of disk storage is available in each one.
+>
+> Disks require no special formatting. A simple directory on an ext-4 filesystem is suitable.
+>
+> I was pushed to design and build this system as a consequence of MinIO pulling their community tier software. I have been running an MinIO server for several years, but have started to migrate away from that and could not find a suitable replacement, so I built Distributed-JBOD.
+>
+> * As many of you will be aware, MinIO requires identical disks to perform effectively. Distributed-JBOD does not, it will work effectively across a pool of arbitrary hardware, mixed size drives included.
+> * Garage replicates each object multiple times across multiple systems, which is not an efficient use of storage. Distributed-JBOD permits user-configurable Reed-Solomon Erasure Code parameters. This means storage is used efficiently, is protected against bit-rot, and the storage efficiency to resiliency ratio can be tuned. For example, while it is possible to run a mirrored setup, the typical default might be a 4:2 configuration, where data is sharded across 6 devices, 2 of which are parity blocks.
+> * Ceph is a datacenter grade product and requires a stack of servers for data storage, monitoring, gateway and other components. Distributed-JBOD has a simple single process design. (Caveat: The S3 compatibility layer will come later as a separate binary. You will be able to run it wherever you like.)
+> * SeeweedFS can't be used in a small scale cluster. Distributed-JBOD will run on a single machine with a single disk. If you want redundancy and data protection, a single machine with 2 disks is all you need. Greater efficiency is obtained by scaling up the number of disks, whichever host they sit in.
+>
+> Distributed-JBOD is designed to work with an extremely small memory footprint, and does not require powerful hardware to run.
+>
+> This is a very early stage product, but I would appreciate your thoughts and feedback. Some features which currently exist include TLS, administration web UI, CLI tools including recovery and bit-rot repair tools. Multi-language software client libraries are currently in the works, including libraries for Rust, Python and C++. An S3 compatibility later, multi-user support and permissions will also be supported soon.
+>
+> [https://github.com/edward-b-1/Distributed-JBOD](https://github.com/edward-b-1/Distributed-JBOD)
+
+---
+
+> **fykup**（1 分） · 2026-09-23T05:58:02+08:00　
+> https://preview.redd.it/hgjfafoj85rh1.jpeg?width=2944&format=pjpg&auto=webp&s=aea17b449452f09d1744982453b7e7bba21dab81
+>
+> **StatLite: \~15 MiB self-hosted application monitoring without Prometheus/Grafana**
+>
+> I’m building **StatLite**, a small self-hosted monitoring dashboard for apps running on VPSs and other resource-constrained servers.
+>
+> It’s a single Go binary, uses SQLite for local history, and sits around **15 MiB RSS** in my normal deployments.
+>
+> It has native integrations for **Spring Boot and Quarkus**, and I recently added lightweight integrations for:
+>
+> * Django
+> * FastAPI
+> * Express
+> * Go `net/http`
+> * Gin
+>
+> For those frameworks, the app exposes a small `/statlite/metrics` JSON endpoint with a deliberately fixed set of signals: traffic, errors, latency, health, CPU/memory, uptime, etc. StatLite polls it and keeps the history locally.
+>
+> The goal is intentionally narrower than Prometheus/Grafana: useful application visibility for small deployments without running a general-purpose observability stack.
+>
+> **Project:**
+> [https://pvrlabs.xyz/statlite/](https://pvrlabs.xyz/statlite/)
+>
+> **Integration guides + runnable examples:**
+> [https://github.com/PVRLabs/statlite/tree/main/docs/integrate](https://github.com/PVRLabs/statlite/tree/main/docs/integrate)
+>
+> **GitHub:**
+> [https://github.com/PVRLabs/statlite](https://github.com/PVRLabs/statlite)
+
+---
+
+> **BANANA_101_**（1 分） · 2026-09-23T09:24:32+08:00　
+> **Project Name:** Coalstack
+>
+> **Repo/Website Link:** [https://coalstack.net](https://coalstack.net)
+>
+> **Description:** A local minecraft server manager for Windows and Linux. Point it at a server folder and manage it from a dashboard instead of a bare console, start/stop, live console and player list, one-click mod installs from Modrinth, automated backups (local or to cloud destinations), scheduled restarts/broadcasts, and crash detection with alerts. Everything runs on your own machine so no server files or console output ever leave it. Remote management from a browser (Conduit) is opt-in if you want to check on a server away from the host machine.
+>
+> **Other:** Free tier is fully-featured and not a trial paid tiers add fleet automation and AI tooling for people running several servers. Please note i added a paid tier primarily because of infra costs (Conduit), Free tier comes with a ton of ready features already aswell.
+>
+> **Deployment:** Native installers for Windows and Linux (Linux support is newer/experimental, you can see the docs for current limitations). Download and run, no Docker/VPS required since it manages a server on the same machine it's installed on.
+>
+> **AI Involvement:** I use AI coding assistants as part of my workflow, but I review most of the code myself before it changes anything, especially anything touching security, auth, or third-party integrations (OAuth flows, cloud backup destinations, payment handling). I test those paths by hand rather than trusting them blind.
+>
+> https://preview.redd.it/qlb29se896rh1.png?width=1023&format=png&auto=webp&s=ea0de353d8e0aa19ebd778566e5a4f0eb7c99176
+
+---
+
+> **BANANA_101_**（1 分） · 2026-09-23T09:27:08+08:00　
+> Also i forgot to explain what **Conduit** actually is:
+>
+> It's a relay, not a hosted copy of your server. The desktop app makes an outbound connection to [coalstack.net](http://coalstack.net) and reports live status (console lines, player list, CPU/RAM) you don't open any inbound ports or expose your machine to reach it since the app is the one initiating the connection, not accepting one. World files, the actual server process, and everything else stay entirely local.
+>
+> **Other:** It's also fully opt-in, if you never turn it on [coalstack.net](http://coalstack.net) never hears from your machine at all. The reason it's tied to a connection limit per tier (Free: 1 PRO: 2 MAX: 5) rather than being unlimited on Free is straightforwardly that relaying live data for every Free user's server is the one part of this app that actually costs me money to run, everything else is your hardware, your bandwidth, your storage.
+
+---
+
+> **kamilersz**（1 分） · 2026-09-23T15:06:47+08:00　
+> Central Logs: self-hosted log platform in a single Rust binary (DuckDB hot + Parquet cold, no cluster, no external DB, no container compose stack)
+>
+> * **Project Name: Central Logs**
+> * **Repo/Website Link:** [https://github.com/kamilersz/central-logs](https://github.com/kamilersz/central-logs)
+> * **Description:** My log server died after about 30 days. Not a traffic spike, not a bad deploy — logs just piled up with no real limit until the disk filled and the service fell over. The one tool I needed to debug the problem *was* the problem.
+>
+> The alternatives I looked at were either a paid SaaS tier priced per GB, or a self-hosted stack that meant running Elasticsearch plus a shipper plus a UI and babysitting all three. I wanted something closer to "one binary, one data folder."
+>
+> So Central Logs is a single-node, self-hosted logging platform where storage stops growing without supervision:
+>
+> * **Ingest from what you already run** — HTTP (NDJSON/JSON), OpenTelemetry OTLP/HTTP, syslog UDP+TCP, any Sentry SDK via DSN, Docker log drivers (gelf/fluentd/splunk), and Kubernetes audit webhooks.
+> * **Durable by default** — every log hits a CRC-framed write-ahead log and is fsync'd *before* the write is acknowledged.
+> * **Hot/cold storage** — recent data lives in DuckDB for fast queries; older data compacts automatically into hive-partitioned Parquet. Retention becomes "drop a folder," not `DELETE` across millions of rows. This is the part that fixes my original crash.
+> * **Dashboards that ship with it** — volume, error rate, latency, anomaly detection, and trend forecasting, without building panels first.
+> * **Error tracking** — Sentry-style error grouping, and it speaks the Sentry SDK protocol, so existing SDKs point at it unchanged.
+> * **Alerts** — rules delivering to email, Telegram, or webhooks.
+> * **MCP server** — so Claude/Cursor/whatever can query your logs directly instead of you writing the query.
+>
+> On my box it handled **20,000 logs/sec at \~3% CPU and \~30ms latency**, with durability guaranteed before ack. \[← add your hardware specs here\]
+>
+> Who it's for: homelabbers and small teams who want real centralized logging and error tracking without running a cluster, and who'd rather not watch a disk fill up again.
+>
+> * **Deployment:**
+>
+> **Just ask your preferred coding agent "please setup** [**https://github.com/kamilersz/central-logs**](https://github.com/kamilersz/central-logs)**"**
+> Rust toolchain, then cargo build --release and run ./target/release/central-logs
+> Binds :8080 (API + dashboard) and :5140 (syslog)
+> Prints a one-time admin token on first start; data lands in ./data/
+> No external database, no message queue, no cluster
+> Full docs — API, configuration, security, operations — at [https://central-logs.readthedocs.io/](https://central-logs.readthedocs.io/)
+>
+> * **AI Involvement:** 99% AI with 1% of opinionated taste and manual testing
+
+---
+
+> **Greninja_senpai**（1 分） · 2026-09-23T18:01:14+08:00　
+> **Project Name:** SparkyScale
+>
+> **Repo/Website Link:** [https://github.com/greninjasenpai/SparkyScale](https://github.com/greninjasenpai/SparkyScale?utm_source=gemini)
+>
+> **Description:**
+>
+> SparkyScale is a lightweight Python workflow that listens for Bluetooth Low Energy (BLE) advertisement broadcasts from cheap smart scales (specifically those using Chipsea chipsets and connect to the OKOK International app, tested with the Ruhhy 22525) and automatically posts locked weight readings directly to a self-hosted SparkyFitness server.
+>
+> It solves the annoyance of having to open a proprietary smartphone app every time you weigh in, let alone any privacy risk. Features include an auto-sync background daemon, guided script to detect your BLE scale, impedance filtering (so it only uploads fully locked readings), and session de-duplication to prevent multiple uploads during a single weigh-in.
+>
+> **Deployment:**
+>
+> The repository includes step-by-step documentation for installation and one-time setup, or a systemd service. It runs on any Linux machine, Raspberry Pi, or home server with a working BLE adapter using standard Python 3 dependencies (`bleak` and `aiohttp`).
+>
+> It includes a pre-configured systemd service unit file (`sparky-scale.service`) so you can deploy it as a persistent, headless background daemon that automatically starts on boot and recovers gracefully if Bluetooth drops.
+>
+> **AI Involvement:**
+>
+> AI helped write a decent amount of code, including implementation patterns for the BLE broadcast decoding logic.
+
+---
+
+> **silverfox_248**（1 分） · 2026-09-23T21:20:52+08:00　
+> **Project Name:** Private Browser
+>
+> **Repo:** https://github.com/silverfox-2096/private-browser
+>
+> **Description:** Firefox in Docker, behind a WireGuard VPN, reached from your normal browser at `localhost`. Firefox shares Gluetun's network namespace instead of using a proxy, so it fails closed in two ways.
+>
+> If the tunnel drops, Gluetun's firewall blocks everything, including your LAN. If the Gluetun container dies, the namespace goes with it and Firefox has no network at all. The profile lives in RAM and is wiped on every stop. Resist Fingerprinting is on, and the image ships enough fonts that it doesn't stand out. Firefox comes from Mozilla's own APT repo, and the signing key is checked at build time.
+>
+> Useful if you want a throwaway, VPN-only browser without routing your whole machine through the VPN.
+>
+> **Deployment:** Docker Compose. You fill in your WireGuard provider's details (anything Gluetun supports), then run `./launch.sh`. The image is built locally from a short Dockerfile, so there's no prebuilt image to trust. `verify.sh` checks the kill switch from both sides, plus the exit IP and DNS. CI runs ShellCheck, Hadolint, Checkov, KICS and Trivy on every push and weekly. The README has setup, troubleshooting, and a leak-test checklist.
+>
+> **AI Involvement:** Config, scripts and docs were written with Claude Code and reviewed by me. That's why the checks are automated: don't trust the claims, run `verify.sh`.
+>
+> MIT licensed. Feedback on the namespace approach vs. proxy-based kill switches is welcome.
+
+---
+
+> **comicsnowdev**（1 分） · 2026-09-23T21:27:35+08:00　
+> ComicsNow update
+>
+> Hey everyone,
+>
+> Big update on ComicsNow, the self-hosted comic and manga reader I shared here a while back. Since my last post it's had a total redesign, plus a few features I think are worth calling out on their own.
+>
+> **Tagging is now fully built-in.** ComicTagger was a required dependency before; it isn't anymore. I built the metadata search and matching logic directly into ComicsNow, pulling from multiple sources — Comic Vine, Metron, GCD, LCG, and Google Books — so tagging your library no longer means installing and wiring up a separate Python tool. One less moving part in setup, and tagging happens natively in the app.
+>
+> **Total redesign.** The UI got rebuilt from the ground up, and the architecture underneath went through a major refactor.
+>
+> **MCP server.** ComicsNow now has an MCP server, so you can manage your library, tags, and reading lists through chat with an AI assistant (Claude, etc.) instead of clicking through the UI for everything — think "tag this series," "add these issues to my crossover reading list," or "mark this run as read" as natural-language requests.
+
+---
+
+> **Pure_Owl_2326**（0 分） · 2026-09-23T23:00:05+08:00　
+> **Project Name:** NetLanvas
+>
+> **Repo/Website Link:** github.com/markeaster/NetLanvas (source) — netlanvas.com — live demo: demo.netlanvas.com
+>
+> **Description:** Self-hosted network discovery and mapping tool. Point it at your network and it discovers devices via ARP/SNMP/mDNS/passive DHCP sniffing, builds a live L2/L3 topology map, does VLAN discovery, keeps historical snapshots you can scrub back through ("Time Machine"), and has basic alerting (device online/offline, SNMP misconfiguration exposure, etc.). Built it because I kept finding devices on my own network I couldn't explain and got tired of digging through my router's admin page to figure out what was actually connected where.
+>
+> **Deployment:** Docker (arm64 + amd64 — runs fine on a Raspberry Pi), or native installers for Windows and macOS, all from the same source. One-command Docker Compose pull from the install page; full docs including uninstall at netlanvas.com/install.html. Apache 2.0, appliance/client code fully public — account/billing backend is the one piece that stays closed, since that's where entitlement enforcement actually needs to live.
+>
+> **AI Involvement:** Built with heavy use of an AI coding assistant (Claude/Claude Code) throughout development — architecture and product decisions are mine, but a substantial amount of the actual implementation, debugging, and this post itself were done with AI assistance. Wanted to be straightforwardly upfront about that since this sub asks directly.
+
+---
+
+> **Professional-Pear351**（1 分） · 2026-09-23T23:30:44+08:00　
+> I'm a senior engineer and my day to day work includes doing code reviews of my team and keeping track of tasks. But my org disabled gitlab Duo because of privacy concerns, and also it doesn't have that much capabilities. Even the official GitLab MCP has limited tool support. I liked how Copilot does review when we assign issues to it, so I always wanted to build something similar for myself (I obsess over custom solutions). I have been doing a lot of R&D on RAG systems, AI integration and AI engineering in general. So I started building this a few of months ago, and now it's running in production in our org for a couple of months now. It has been a really useful tool for me and my team.
+>
+> So I wanted to share it with others who might find it useful. It's a self-hosted, GitLab-native AI agent platform that can do code review, task implementation, and chat. It runs as a single Docker Compose stack, and you can bring your own GitLab instance and your own LLM backend.
+>
+> These are the workflows that I've added so far, that gets triggered on gitlab webhook events:
+>
+> \- Code review: loads repo specific instructions and reviews code in a cloned repo of the review branch, then posts the review comments filtered by another llm critic.
+>
+> \- Task implementation: you can assign an issue to the configured bot account, and it will implement the task in a new branch on the server (in a sandboxed environment), tests it and creates a draft MR for you to review. A follow-up comment on the MR will trigger another run to implement the requested changes.
+>
+> \- Scheduled tasks: same as above but you can schedule it instead of having an issue on the gitlab
+>
+> \- Chat: typical chat with gitlab MCP tools, has access to past conversation and memories saved in previous conversations. Also you can ask it about any other workflow run ie. what went wrong and what to improve.
+>
+> All this with full observability, checkpoints, queueing/concurrency and analytics/monitoring service.
+>
+> \- Docs: [https://vrajpal-jhala.github.io/langgraph-harness/](https://vrajpal-jhala.github.io/langgraph-harness/)
+>
+> https://preview.redd.it/h55bj1fmgarh1.png?width=1620&format=png&auto=webp&s=dbdedeba87fdcd926776e442e1f04ad7f4854a3c
+>
+> \- Repo: [https://github.com/vrajpal-jhala/langgraph-harness](https://github.com/vrajpal-jhala/langgraph-harness)
+>
+> Would love to hear your thoughts on custom harness/workflows and agents.
+
+---
+
+> **Professional-Pear351**（1 分） · 2026-09-23T23:31:05+08:00　
+> https://preview.redd.it/0j8xf95ogarh1.png?width=1620&format=png&auto=webp&s=559c09171e820f3094a87033134bb03e8ad56cdc
+>
+> These are production stats
+
+---
+
+> **Alert_Jellyfish_559**（1 分） · 2026-09-23T23:43:10+08:00　
+> **Project Name:** Vexa Insight
+>
+> **Repo/Website Link:** https://github.com/VexaMail/vexa-insight
+>
+> **Description:** A self-hosted DMARC report dashboard. It pulls the aggregate (RUA) reports out of an IMAP mailbox itself, stores them in SQLite, and gives you per-domain and per-source views, so you can answer the question that actually matters: is this failing sender mine, and did it align? I've run it on my own domains since July.
+>
+> Limits, up front: it's SQLite, so one replica and no horizontal scaling. Forensic (RUF) reports are not parsed. The compliance score is coarse. Webhooks are a single attempt with no retry.
+>
+> **Deployment:** One container, with the docker run line and install docs in the README. If you don't have a DMARC mailbox to point it at, the image ships a demo seeder with synthetic reports, so you can see the whole thing in about a minute. Apache-2.0.
+>
+> **AI Involvement:** Fully AI-built. The code, the tests and the docs were all written with AI coding agents, directed and reviewed by me.
+
+---
+
+> **moontear**（1 分） · 2026-09-24T00:37:38+08:00　
+> Interesting! Have you checked out renovate? Renovate creates changelogs for all my containers.
+
+---
+
+> **IvanDoomer**（1 分） · 2026-09-24T00:37:54+08:00　
+> **Project Name:** Up
+>
+> **Repo/Website Link:** [https://github.com/ivancarlosti/up/](https://github.com/ivancarlosti/up/)
+>
+> **Description:** Up is a minimalist, cluster-ready uptime monitor: one Go binary that serves a Vue 3 dashboard, stores data in MariaDB/MySQL, and checks HTTP(s), keyword, TCP, and DNS targets. Multiple nodes share the same database and vote on the real status. Focus to replace Uptime Kuma with (MUCH) faster dashboard and improved useful resources.
+>
+> **Deployment:** Docker Compose
+>
+> **AI Involvement:** Largely written by AI but readable and reviewed by human
+
+---
+
+> **blksrtdzn**（1 分） · 2026-09-24T00:52:45+08:00　
+> I built memo because I wanted AI help with my notes without sending them to anyone's cloud. It's a terminal note-taker where everything — storage and inference — stays on your machine.
+>
+> Press n, type a rough thought, hit Ctrl+R: a local model (MLX on Apple Silicon, Ollama elsewhere) cleans up grammar and adds Markdown structure, original kept side by side. Offline dictation via whisper.cpp too. Notes are plain Markdown files with YAML frontmatter, so there's zero lock-in — delete the app and your notes are still yours.
+>
+> No account, no subscription, no sync server. One Rust binary.
+>
+> v0.2.0 just added a / command palette and one-line installers. MIT licensed: [https://github.com/blackstardesigns/memo](https://github.com/blackstardesigns/memo)
+
+---
+
+> **IvanDoomer**（1 分） · 2026-09-24T00:55:17+08:00　
+> It looks awesome!!! I use miniflux for feeds and it's highy integrated to my n8n to create some articles and notifications to me, if your platform does the same I will definitely use it ;)
+
+---
+
+> **t-nician**（1 分） · 2026-09-24T03:43:19+08:00　
+> **Project Name: npm-logic-gate**
+>
+> **Repo/Website Link:** [https://github.com/t-nician/npm-login-gate](https://github.com/t-nician/npm-login-gate)
+>
+> **Description:**  login page that works with Nginx Proxy Manager to temporarily add your IP to an Access List. I got tired of manually whitelisting IPs to my Jellyfin. I would use a VPN server but my friends weren't comfortable with using one.
+>
+> [](https://www.reddit.com/r/selfhosted/?f=flair_name%3A%22Release%20(AI)%22)**Deployment:** The source is on the github repo. No docker image yet but is planned to be added in the future.
+>
+> **AI Involvement:** I did use AI to generate the [README.md](http://readme.md/) and index.html page(I'm terrible at page design).
+
+---
+
+> **Swityyyy**（1 分） · 2026-09-24T04:24:30+08:00　
+> Hey [r/selfhosted](https://www.reddit.com/r/selfhosted/)
+>
+> Since my last post here, QM has grown significantly and I really, honestly cannot thank you all enough.
+>
+> I know there was a major delay in 1.2 (Apple side) and as an apology I have decided to implement all the feature requests which won in the community votes in the Discord!
+>
+> So the five new connections coming:
+>
+> * Grafana
+> * Peanut
+> * Uptime Kuma
+> * Pulsarr
+> * Grimmory
+>
+> I am working hard on getting this out, going to bed at 4am each morning haha.
+>
+> There is also a new world coming in 1.3 which is QM reader - here you can request, read and listen to your books and audiobooks directly from QM! (I have attached a small preview of what to expect for this)
+>
+> Alongside 1.3, there’ll be a new Companion update with the option to enable your own private relay. This will let you set up notifications for your stack directly from your own server, with no middleman and no Cloudflare relay which has been requested a lot.
+>
+> I do not have a date yet but I just thought to let you all know, just incase you're not in the Discord or on the subreddit.
+>
+> Just a recap if you don't know exactly what QM offers currently as of 1.2
+>
+> Entertainment: Radarr, Sonarr, Lidarr, SABnzbd, NZBGet, qBittorrent, Transmission, Deluge, Prowlarr, Bazarr, NZBHydra2, Jackett, Jellyseerr / Overseerr / Seerr, DroppedNeedle, Shelfmark, Plex, Jellyfin, Emby, Wizarr, Tautulli, Tracearr, Jellystat, Streamystats, Komga, Kavita, Immich, AudioBookshelf, Maintainerr, BookOrbit, Dispatcharr, ReadMeABook and Shelfarr.
+>
+> Command Centre: Portainer, Unraid, Proxmox VE, Synology DSM, Dozzle, Dockhand, Komodo, AdGuard Home, Pi-hole, Cloudflare, CrowdSec, Technitium, UniFi, Gluetun, Glances, Scrutiny, TrueNAS, Beszel, Home Assistant, Tdarr, qui, Coolify, Arcane, Control D, NextDNS, UGREEN NAS and SSH.
+>
+> Thank you again for being the best community a dev could ask for - I really cannot thank you all enough!
+>
+> If you use QM and have any requests and you see this post, please let me know!
+>
+> iOS store - [https://apps.apple.com/gb/app/quartermaster-homelab-stack/id6779994284](https://apps.apple.com/gb/app/quartermaster-homelab-stack/id6779994284)
+> Discord - [https://discord.gg/sEWvE2sfjd](https://discord.gg/sEWvE2sfjd)
+> Companion - [https://github.com/lewlew-glitch/qm\_companion](https://github.com/lewlew-glitch/qm_companion)
+
+---
+
+> **avaya91**（1 分） · 2026-09-24T04:35:59+08:00　
+> **Project Name:** LiteSync
+>
+> **Repo:** [https://github.com/avayadhakal/LiteSync](https://github.com/avayadhakal/LiteSync)
+>
+> **Description:**
+> LiteSync is a lightweight web-based file manager and transfer tool for Linux. It provides a browser-based dual-pane interface for browsing directories, uploading/downloading files, and copying or moving files between disks/filesystems.
+>
+> For transfers, it uses Linux's `copy_file_range()` for straightforward local copies and `rsync` when resumability or exclusions are needed. It also supports background transfers, pause/resume, scheduled transfers, URL downloads, SQLite task persistence, and running as a restricted `systemd` service.
+>
+> It's designed primarily for home servers, NAS systems, Raspberry Pis, and homelabs where I wanted something simpler than a full file-management platform.
+>
+> **Deployment:**
+> Supports Linux on `amd64/x86_64` and `arm64/aarch64`, including Raspberry Pi. Python 3.11+ installation and Docker images are available. Docker image: `avayadhakal/litesync:latest`.
+>
+> **AI Involvement:**
+> AI assisted with parts of the development process, including implementation, debugging, and review. The architecture, design decisions, security model, and overall direction are mine.
+
+---
+
+> **Evening-League-3367**（2 分） · 2026-09-24T05:33:54+08:00　
+> **Project Name:** NodeDesk
+>
+> https://preview.redd.it/4xcg539f9crh1.png?width=2346&format=png&auto=webp&s=77cf2d5a7fad0cf9c8d7b9ecba3816bfab84c5b8
+>
+> **Repo/Website Link:**
+> [https://github.com/JonathanLemes/NodeDesk](https://github.com/JonathanLemes/NodeDesk)
+>
+> **Description:**
+> NodeDesk is an open source desktop interface for home servers.
+>
+> I started it because I wanted something that felt more like an actual desktop and less like another admin dashboard.
+>
+> It has a desktop with windows, widgets, a dock and apps, while also letting you manage Docker containers, files, disks, services, system resources and a terminal directly from the browser.
+>
+> There's also a mobile interface inspired by the iOS home screen, with apps, widgets and a dock.
+>
+> The project is still pretty new and I'm building it around what I personally want to use on my own home server, so feedback and contributions are very welcome.
+>
+> **Deployment:**
+> Right now it can be built from source and run as a single Go binary. The frontend is embedded in the binary and it uses a single SQLite database.
+>
+> There's also an install script for running it as a systemd service and keeping it running after reboot.
+>
+> Installation instructions are available in the repo. I don't have a Docker image yet.
+>
+> **AI Involvement:**
+> I used Claude Code throughout development to help with implementation. I defined the project, architecture, features and UX, and reviewed and tested the changes myself. AI was used extensively as a development tool.
+
+---
+
+> **jcm4atx**（1 分） · 2026-09-24T06:37:23+08:00　
+> Project Name: **Scute**
+>
+> Repo/Website Link: https://github.com/jcm4atx/Scute
+>
+> Description: For years I loved the Turtl note-taking app. But it's seen better days and for all intents and purposes is abandoned. I created Scute. It was inspired by Turtl. It's 100% web-based including a PWA for mobile.
+>
+> Deployment: Build with `docker compose`. Fully documented.
+>
+> AI Involvement: At least 95% AI involvement.
+
+---
+
+> **ElderberryCritical38**（1 分） · 2026-09-24T19:42:54+08:00　
+> * **Project Name:** aerofi
+> * **Repo/Website Link:** [aerofi(github repo)](https://github.com/frostymur/aerofi)
+> * **Description:** Keyboard-driven application launcher and extensible script runner for macOS, built with GPUI and Rust. In a nutshell, FOSS Raycast alternative with low memory footprint. Features include back-compatibility with Raycast scripts, TOML configuration, 6 script execution modes and a declarative widget and widget & theming engine.
+> * **Deployment:** Can be installed via `homebrew`. Documentation and examples can be found in the repo.
+>
+> Quick start:
+>
+>     brew install frostymur/tap/aerofi
+>     brew services start aerofi
+>
+> (press Opt-Space to launch popup)
+>
+> * **AI Involvement:** This project was built with heavy AI assistance. Largely by models available in Opencode Go.
+>
+> https://preview.redd.it/udf4wk9vggrh1.png?width=1508&format=png&auto=webp&s=9f5190d8fb8e60286ffc7b57650cecf9dd6d79ef
+
+---
+
+> **Allwin_N**（1 分） · 2026-09-24T21:12:25+08:00　
+> **Project Name:** portlist
+>
+> **Repo/Website:** [https://github.com/Mr-hunt-007/portlist](https://github.com/Mr-hunt-007/portlist)
+>
+> I built a small CLI because I kept finding random dev servers still running on my laptop.
+>
+> `lsof -i` tells me what's listening, but usually not enough about **why it's still running**.
+>
+> So I made `portlist`.
+>
+>     portlist
+>
+> It tries to add some context around each listening port:
+>
+> * process and command
+> * project directory it came from
+> * terminal/agent session that started it
+> * whether it's reachable over the network
+> * whether the service is still being used over time
+>
+> The main use case for me is development environments involving Claude Code, Cursor, Codex, terminal sessions, etc. An agent finishes its task, but the dev server it started can sometimes keep running in the background.
+>
+> https://preview.redd.it/m0ch610vwgrh1.png?width=1600&format=png&auto=webp&s=2f96ebee543febb4f493f538f82ba8a70c5ce0ae
+>
+> There's also:
+>
+>     portlist --world
+>
+> which opens a browser visualisation of the same data.
+>
+> \[GIF/demo\]
+>
+> Everything shown in the visualisation comes from actual local measurements rather than generated/fake activity.
+>
+> A few details:
+>
+> * Runs locally
+> * No telemetry
+> * macOS / Linux / Windows
+> * MIT licensed
+> * Doesn't automatically kill anything
+>
+> If something looks like a leftover process, it shows me enough context to decide whether I actually want to stop it.
+>
+> I originally built it mostly because I was annoyed at having ports open that I couldn't easily trace back to their source.
+>
+> Curious what you guys normally use when you need to trace a listening port back to the process, project, or command that started it.
+
+---
+
+> **CrisperTV**（1 分） · 2026-09-24T23:54:19+08:00　
+> **Project Name:** [**sonarr-metadata-proxy**](https://github.com/crisperfx/sonarr-metadata-proxy)
+>
+> * **Repo/Website Link:** [https://github.com/crisperfx/sonarr-metadata-proxy](https://github.com/crisperfx/sonarr-metadata-proxy)
+> * **Description:** I created a side-car next to sonarr for docker only atm, so that we have the option to use a different data source to improve metadata searching with other sources. TMDB, Anilist, MAL and possible more...
+> * **Deployment:** Docker image, Docker-compose
+> * **AI Involvement:** Side-help
+>
+> https://preview.redd.it/gwlx552mphrh1.png?width=3607&format=png&auto=webp&s=84b81613e06d91a789d56d3e93aec40aa2c4356d
+
+---
+
+> **dtuando**（1 分） · 2026-09-25T00:54:39+08:00　
+> **Project Name:** jellybird
+>
+> https://preview.redd.it/q98xyngi0irh1.png?width=2859&format=png&auto=webp&s=7533bbc97379c0a84b95c76823657cb5b70d950b
+>
+> **Repo/Website Link:** https://github.com/JustDr00py/jellybird (Jellyfin plugin: https://github.com/JustDr00py/jellyfin-plugin-jellybird)
+>
+> **Description:**
+>
+> jellybird connects your Real-Debrid / TorBox account to Jellyfin (Emby and Silo use the same approach) without rclone, FUSE mounts or an arr stack. It syncs your debrid cloud every few minutes and writes \`.strm\` files into a normal \`Movies/\` + \`Shows/\` layout. When you hit play, it fetches a fresh CDN link from your debrid and redirects the player to it, so seeking works and nothing is proxied through your server. Delete a torrent from your debrid and it disappears from your library too.
+>
+> The big win is that **it doesn't need storage**. The media lives on your debrid and jellybird only writes tiny pointer files. My library is 146 movies and 35 shows, about 12 TB of media, and it takes about 12 MB on disk. No NAS, no stack of drives; a mini PC or an old laptop is plenty.
+>
+> Features:
+>
+> \- **Search & add** (TMDB + Torrentio), showing which releases are already cached on your debrid so adding is instant
+>
+> \- **Cloud manager:** browse, filter and remove what's in your Real-Debrid / TorBox account
+>
+> \- **Jellyseerr integration:** approved requests are added to your debrid automatically
+>
+> \- **Keep local:** one click downloads a title onto the server in place of its \`.strm\`, so it still plays if your internet or debrid goes down. Resumable, with a disk-space check
+>
+> \- **Save to device:** download a file to whatever you're browsing from
+>
+> \- **Jellyfin** plugin to search and add without leaving Jellyfin
+>
+> \- **Release-name parsing** for fansub names, "Episode 01", season packs, double episodes and specials, and it filters out samples and bonus featurettes. An Edit button fixes anything it gets wrong
+>
+> \- **Login-protected dashboard:** \`.strm\` files only contain per-file signed URLs, so your API token isn't exposed to other Jellyfin users
+>
+> Trade-offs: you need a debrid subscription, playback depends on your internet connection, and transcoding still runs on your own hardware.
+>
+> **Deployment:**
+>
+> Docker Compose (builds the image locally from the repo):
+>
+>  `git clone` [`https://github.com/JustDr00py/j`](https://github.com/JustDr00py/j)
+>
+>  `cp .env.example .env    # add your Real-D+ optional TMDB key)`
+>
+>  `docker compose up -d`
+>
+> Then add \`/media/Movies\` and \`/media/Shows\` aexample compose file runs jellybird andJellyfin together and mounts the plugin. You nary with \`go build ./cmd/jellybird\`. TheREADME covers configuration, the dashboard, tg a podman-compose gotcha) and the full API.
+>
+> License: GPL-3.0.
+>
+> AI Involvement:
+>
+> Written and tested with the help of Claude Code.
+
+---
+
+> **mondotechorg**（2 分） · 2026-09-25T02:21:45+08:00　
+> - **Project Name:** Dapple (for Twinkly Lights)
+> - **Repo/Website Link:** https://github.com/andrewfraley/dapple
+> - **Description**: Dapple let's you create static light patterns for Twinkly light strands.  Twinkly offers no way to just pick a few colors and evenly distribute them throughout the strands.  This allows you to do that, save presets, group strands together, and also integrates with Home Assistant via MQTT.
+> - **Deployment**: Simple Docker compose
+> - **AI Involvement**: 100% vibe coded via Claude Code Opus 5.5.  I should mention I am a professional developer and infrastructure engineer with about 25 years in the tech industry, but yes I did vibe code this in an evening.
+
+---
+
+> **PlantainHead304**（1 分） · 2026-09-25T02:59:27+08:00　
+> **Project Name:** Cedar (cedar-server)
+>
+>   **Repo/Website Link:** https://github.com/mlevinmail/cedar-server ·
+>   https://cedarreadaloud.com
+>
+>   **Description:** A self-hosted read-aloud server — Speechify, but your library lives on a machine you own. Import PDFs, EPUBs, articles, or pasted text, and the Cedar app (iPhone/iPad/Android) reads them in natural neural voices (Kokoro) with every word lit as
+>   it's spoken.
+>
+>   - No accounts: one owner, one key. Every device you pair sees the same library, reading positions, bookmarks and highlights
+>   - Original-PDF view, chapters, folders, per-language voices with auto language detection, long-press dictionary/translation
+>   - Optional Classics tab: `docker compose run --rm classics` fills a built-in book store with
+>   the 1,000 most-read Project Gutenberg books (or the whole ~47k corpus)
+>   - Written expecting its port to end up on the internet: constant-time key check with wrong-key throttling, SSRF-guarded link imports, capped bodies, unprivileged container with all capabilities dropped
+>   - FastAPI + SQLite + Kokoro, two containers, no external services. CPU is ~3–4× realtime
+>   (Apple Silicon works); an NVIDIA GPU makes it effectively instant
+>
+>   **Deployment:** `git clone` → `docker compose up -d` → copy the owner key from the logs into the app. GPU override file included. README covers pairing, security, config, and the book store; MIT licensed.
+
+---
+
+> **CrisperTV**（1 分） · 2026-09-25T03:02:02+08:00　
+> This is a cool project, the animation is fantastic, good for a second screen haha
+
+---
+
+> **mcdoggfather**（1 分） · 2026-09-25T03:32:30+08:00　
+> ​Project Name: TopoTrace
+>
+> ​Repo/Website Link: https://topotrace.org/
+> https://sandbox.topotrace.org/
+>
+> ​Description: TopoTrace is a lightweight infrastructure intelligence platform designed to eliminate manual spreadsheet tracking and give IT teams real-time visibility into network assets and configuration drift. It benefits users by replacing fragmented discovery tools with a clean, centralized local workspace.
+> ​Deployment: Available now for users to try via the live sandbox, with documentation and deployment steps hosted on the main site.
+>
+> ​AI Involvement: Of course, I am terrible at design and documentation, but reallt good at coding and architecture. Claude and Codex helped write the documentation and graphics.
+
+---
+
+> **SelfDetermined**（1 分） · 2026-09-25T05:07:46+08:00　
+> **Project Name:** Panelpost
+>
+> **Repo/Website Link:** https://github.com/DasPechCodeWeg/panelpost
+>
+> **Description:**
+> Grafana OSS can't send scheduled PDF reports. That's only in Grafana Enterprise and paid Cloud plans. Panelpost fills that gap: it connects to your Grafana with a read-only Viewer service account, turns a dashboard into a proper PDF and emails it on a schedule.
+>
+> - Periods like "previous week", "previous month" or "previous quarter", worked out in your time zone (DST included). The report states the period it covers.
+> - Schedules: daily, weekly, monthly, quarterly or cron.
+> - Looks like a report, not a screenshot: cover page, page headers, page numbers, and panels are never cut across pages.
+> - Delivery by SMTP email, a drop folder, signed webhooks or a REST API.
+> - Optional: one PDF per value of a template variable (per client, site or team), each emailed to its own recipients.
+> - No telemetry. It only talks to your Grafana, your mail server and the webhooks you configure. Works air-gapped.
+>
+> Licensing, to be upfront: it's source-available under the Elastic License 2.0, not OSI open source. The free edition does 3 scheduled reports with email and folder delivery. Paid tiers (branding, per-client PDFs, webhooks/API) are planned. Right now I'm looking for testers: try it on a real dashboard, tell me what breaks, and you get a free Business licence for 90 days.
+>
+> **Deployment:**
+> Docker image, one container with Chromium inside. There are also binaries for Linux, macOS and Windows, which need Chrome or Chromium installed.
+>
+>     docker run -d --name panelpost -p 8080:8080 -v panelpost-data:/data \
+>       ghcr.io/daspechcodeweg/panelpost:latest
+>     docker logs panelpost   # prints a one-time setup code
+>
+> Docker Compose:
+>
+>     services:
+>       panelpost:
+>         image: ghcr.io/daspechcodeweg/panelpost:latest
+>         ports: ["8080:8080"]
+>         volumes: ["panelpost-data:/data"]
+>         environment:
+>           TZ: Europe/Amsterdam
+>         restart: unless-stopped
+>     volumes:
+>       panelpost-data:
+>
+> Then open port 8080, enter the setup code, add a Grafana service account token (Viewer role) and create a report. Install and configuration docs are in the README. Sample report: https://github.com/DasPechCodeWeg/panelpost/blob/main/docs/sample-report.pdf
+>
+> **AI Involvement:**
+> The code was written almost entirely by an AI coding assistant (Claude Code) and reviewed by another (Codex). I'm not a developer myself. Every change is tested automatically against real Grafana 10.4, 11.6, 12.3, 13.2 and Enterprise 13.2, including rendering and emailing a report. Every release is also installed on a fresh machine following the README to check it works. It hasn't met many real-world dashboards yet, which is exactly why I'm asking for testers.
 
 ## 关联链接
 

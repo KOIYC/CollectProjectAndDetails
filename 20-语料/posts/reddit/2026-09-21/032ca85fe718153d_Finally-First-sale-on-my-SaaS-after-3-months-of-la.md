@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1wj83sn/finally_first_sale_on_my_saas_after_3_months_of/"
 author: "codebi"
 published_at: "2026-09-18T06:15:40+08:00"
-captured_at: "2026-09-21T12:59:04+08:00"
+captured_at: "2026-09-28T09:48:33+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,9 +18,9 @@ tags:
   - reddit
   - r/SaaS
 metrics: {"score": 4, "comments": 1, "upvote_ratio": 0.84}
-comments_count: 3
-comments_total: 3
-discovered_via: "reddit:7d+settle3"
+comments_count: 4
+comments_total: 4
+discovered_via: "reddit:14d+settle10"
 ---
 
 # Finally First sale on my SaaS after 3 months of launch 💪
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=4 · 评论=1 · 赞踩比=0.84
 > 作者：codebi　|　发布：2026-09-18T06:15:40+08:00
 > 项目链接：—
-> 采集：2026-09-21T12:59:04+08:00　|　id：`032ca85fe718153d`
+> 采集：2026-09-28T09:48:33+08:00　|　id：`032ca85fe718153d`
 
 ## 正文
 
@@ -46,7 +46,7 @@ Reddit
 
 Error fetching https://www.reddit.com/r/SaaS/comments/1wj7krx/whats_the_best_virtual_office_software_for_a/: CRAWL_LIVECRAWL_TIMEOUT
 
-## 评论（3/3）
+## 评论（4/4）
 
 > **codisimlabs**（1 分） · 2026-09-18T11:58:06+08:00　
 > Big congrats 👏
@@ -61,6 +61,11 @@ Error fetching https://www.reddit.com/r/SaaS/comments/1wj7krx/whats_the_best_vir
 
 > **Due-Marsupial-778**（1 分） · 2026-09-20T17:45:41+08:00　
 > Link
+
+---
+
+> **codebi**（1 分） · 2026-09-21T19:42:14+08:00　
+> Signalsumo.com
 
 ## 关联链接
 

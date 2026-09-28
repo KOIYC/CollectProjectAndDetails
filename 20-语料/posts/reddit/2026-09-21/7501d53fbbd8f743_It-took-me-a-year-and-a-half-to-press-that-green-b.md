@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/IndieDev/comments/1wj9u0c/it_took_me_a_year_and_a_half_to_press_that_green/"
 author: "NoeNoeGames"
 published_at: "2026-09-18T07:28:37+08:00"
-captured_at: "2026-09-21T09:45:55+08:00"
+captured_at: "2026-09-28T09:48:40+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -20,7 +20,7 @@ tags:
 metrics: {"score": 41, "comments": 11, "upvote_ratio": 1}
 comments_count: 14
 comments_total: 14
-discovered_via: "reddit:7d+settle3"
+discovered_via: "reddit:14d+settle10"
 ---
 
 # It took me a year and a half to press that green button on Steam!
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=41 · 评论=11 · 赞踩比=1
 > 作者：NoeNoeGames　|　发布：2026-09-18T07:28:37+08:00
 > 项目链接：—
-> 采集：2026-09-21T09:45:55+08:00　|　id：`7501d53fbbd8f743`
+> 采集：2026-09-28T09:48:40+08:00　|　id：`7501d53fbbd8f743`
 
 ## 正文
 
@@ -109,7 +109,7 @@ Thanks for taking a look!
 
 ---
 
-> **Tyson_q**（1 分） · 2026-09-20T07:10:02+08:00　
+> **Tyson_q**（2 分） · 2026-09-20T07:10:02+08:00　
 > Congratulations
 
 ---

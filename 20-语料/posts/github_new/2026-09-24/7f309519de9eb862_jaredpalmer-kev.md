@@ -8,7 +8,7 @@ url: "https://github.com/jaredpalmer/kev"
 project_url: "https://github.com/jaredpalmer/kev"
 author: "jaredpalmer"
 published_at: "2026-09-17T20:49:39Z"
-captured_at: "2026-09-26T09:43:40+08:00"
+captured_at: "2026-09-28T09:49:25+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - Python
-  - created:>2026-09-12
-metrics: {"stars": 7032, "forks": 414, "open_issues": 13}
+  - created:>2026-09-14
+metrics: {"stars": 7428, "forks": 451, "open_issues": 22}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/jaredpalmer/kev>
-> 指标：stars=7032 · forks=414 · open_issues=13
+> 指标：stars=7428 · forks=451 · open_issues=22
 > 作者：jaredpalmer　|　发布：2026-09-17T20:49:39Z
 > 项目链接：<https://github.com/jaredpalmer/kev>
-> 采集：2026-09-26T09:43:40+08:00　|　id：`7f309519de9eb862`
+> 采集：2026-09-28T09:49:25+08:00　|　id：`7f309519de9eb862`
 
 ## 正文
 
@@ -227,7 +227,7 @@ A model you fine-tuned with the `kev-finetune` skill deploys the same way from i
 
 **Speed.** Kev-4B answers six questions about a new short text in 18.1 ms of model time on an H100 and 41.5 ms on an L40S, and a container serves around 101 requests per second on an H100. On an Apple M5, Kev-4B takes 721 ms for five questions, or 136 ms when the text repeats and comes from the cache. [Serving Performance](#serving-performance) has every GPU and batch size.
 
-**Length.** Training used states of up to 384 tokens. The server accepts 8,192 tokens for the state and 8,192 for each question. Longer inputs work, but accuracy drops on long documents. Kev-27B holds up much better: on a panel of questions buried in 1k–6k tokens of unrelated text it scores 0.833, against Kev-9B's 0.556.
+**Length.** Training used states of up to 384 tokens. The server accepts states of up to 65,536 tokens, and 8,192 more for each question. Longer inputs work, but accuracy drops on long documents. Kev-27B holds up much better: on a panel of questions buried in 1k–6k tokens of unrelated text it scores 0.833, against Kev-9B's 0.556.
 
 ## Playground
 
@@ -377,16 +377,15 @@ These commands use development data. Test data requires `--allow-test`. The benc
 
 **Dates.** Kev can't subtract dates reliably, but it can use a day count it's given. `KEV_DATE_FACTS=1` appends one sentence per pair of dates in the state ("June 26, 2026 is 8 days before July 4, 2026"). On the deadline policy questions this takes Kev-9B from 0.80 to 0.90 (Jev 0.93). None of the tables use it.
 
-**Other people's test sets.** `evals/external/` holds test sets from other projects, converted to this format, with their published live Jev results. [SemIf](https://github.com/TheoLeeCJ/SemIf) uses the last two to compare its own models, and they are rebuilt from the same hash-verified sources with `scripts/freeze_semif_external.py`. Some were scored on earlier versions of the Kev weights, which the Kev column names.
+**Other people's test sets.** `evals/external/` holds test sets from other projects, converted to this format, with their published live Jev results. [SemIf](https://github.com/TheoLeeCJ/SemIf) uses the last two to compare its own models, and they are rebuilt from the same hash-verified sources with `scripts/freeze_semif_external.py`. Some were scored on earlier versions of the Kev weights, which the Kev column names. Another, scienthoon's synthetic support tickets, was removed on 2026-09-27 because it cannot serve as a gate (templated text; one of its three questions depends on a rule the text does not state); the model cards keep the scienthoon numbers their releases were decided on.
 
 | Suite | What it is | Jev | Kev |
 |---|---|---|---|
 | [SemIf](https://github.com/TheoLeeCJ/SemIf) | 144 authored decisions | 0.965 | 0.917 (Kev-9B at `v7-base`) |
-| [scienthoon](https://github.com/scienthoon/jev-ood-calibration) | 900 support tickets, routing / tone | 0.897 / 0.914 | 0.952 / 0.911 (Kev-9B at `v7-base`) |
 | `wanli-v1` | 256 WANLI test pairs: supported, insufficient or contradicted | 0.758 | 0.703 (Kev-9B), 0.695 (Kev-4B at `night2-du-release`) |
 | `typesafe-v1` | The 102 public evals.typesafe.ai questions over 20 cases: agreement / distance on the 89 that fit | 0.891 / 0.125 | 0.809 / 0.226 (Kev-9B), 0.856 / 0.231 (Kev-4B at `night2-du-release`) |
 
-Kev trails Jev on WANLI and TypeSafe's evals. SemIf reports 0.637 balanced accuracy on WANLI for untrained Qwen3.5-4B. TypeSafe's cases are scored the way SemIf scores them (`scripts/compare_typesafe.py`): agreement with the reference answer and total-variation distance to the reference distribution, averaged within each case and then over cases. The published TypeSafe answers score 0.883 / 0.127 on the same rows. The documents are long, and 13 of them exceed the 8,192-token serving context; counting those as wrong, Kev-9B scores 0.728 / 0.304 and Kev-4B 0.770 / 0.308 over all 102. Document length explains part of the gap: Kev-9B answers 0.92 of the 26 documents inside its 384-token training context and 0.75 to 0.79 of the longer ones (Kev-4B 0.88, then 0.81 to 0.88).
+Kev trails Jev on WANLI and TypeSafe's evals. SemIf reports 0.637 balanced accuracy on WANLI for untrained Qwen3.5-4B. TypeSafe's cases are scored the way SemIf scores them (`scripts/compare_typesafe.py`): agreement with the reference answer and total-variation distance to the reference distribution, averaged within each case and then over cases. The published TypeSafe answers score 0.883 / 0.127 on the same rows. The documents are long, and 13 of them exceeded the 8,192-token serving context these were scored under; counting those as wrong, Kev-9B scores 0.728 / 0.304 and Kev-4B 0.770 / 0.308 over all 102. Document length explains part of the gap: Kev-9B answers 0.92 of the 26 documents inside its 384-token training context and 0.75 to 0.79 of the longer ones (Kev-4B 0.88, then 0.81 to 0.88).
 
 ## Serving Performance
 
@@ -422,7 +421,7 @@ The server runs in bf16 on GPUs and Macs. Its probabilities differ from the fp32
 - Knowledge questions are set by the base model. MMLU is 0.74 for Kev-9B against Jev's 0.90, and MMLU-Pro 0.52 against 0.84.
 - Fine-tuning can make the base model worse at individual tasks. Date arithmetic was the clearest case ([issue #8](https://github.com/jaredpalmer/kev/issues/8)); training on stated day counts plus `KEV_DATE_FACTS=1` recovers it.
 - Changing option order can change an answer. Question isolation doesn't prevent this.
-- Training used at most 384 state tokens and 1,024 tokens for the state plus one question. Serving allows 8,192 of each; longer context wasn't covered by training.
+- Training used at most 384 state tokens and 1,024 tokens for the state plus one question. Serving allows a 65,536-token state; longer context wasn't covered by training.
 - On a Mac, answers take hundreds of milliseconds, not tens. Kev-27B needs an 80 GB GPU and has no Mac path.
 - Kev-27B starts from a post-trained model whose training data we don't know.
 
@@ -487,13 +486,13 @@ Related work: [Hydragen](https://arxiv.org/abs/2402.05099), [DeFT](https://arxiv
 - https://github.com/jaredpalmer/kev/issues/8
 - https://github.com/jaredpalmer/kev/releases/tag/kev-family
 - https://github.com/ml-explore/mlx-lm
-- https://github.com/scienthoon/jev-ood-calibration
 - https://github.com/typesafe-ai/system-one-adapter-python
 - https://huggingface.co/Qwen/Qwen3.5-9B-Base
 - https://huggingface.co/collections/jaredpalmer/kev-6aad9d0ea49f2589665e07cd
 - https://huggingface.co/datasets/jaredpalmer/kev-suites
 - https://huggingface.co/jaredpalmer/kev-0.5b
 - https://huggingface.co/jaredpalmer/kev-0.8b
+- https://huggingface.co/jaredpalmer/kev-27b
 
 ## 导航
 

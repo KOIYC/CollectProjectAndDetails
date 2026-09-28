@@ -6,7 +6,7 @@ source: "exa_discovery"
 source_name: "Exa 全网语义发现"
 url: "https://startupfounderstories.com/stories/damon-chen-testimonial-10k-mrr-building-public"
 published_at: "N/A"
-captured_at: "2026-09-21T01:29:31+08:00"
+captured_at: "2026-09-28T09:52:16+08:00"
 lang: "en"
 kind: "method"
 topic: "开发者工具"
@@ -31,7 +31,7 @@ discovered_via: "exa:solo founder MRR milestone build in public"
 > 指标：—
 > 作者：—　|　发布：N/A
 > 项目链接：—
-> 采集：2026-09-21T01:29:31+08:00　|　id：`79884ea460f28b1a`
+> 采集：2026-09-28T09:52:16+08:00　|　id：`79884ea460f28b1a`
 
 ## 正文
 
@@ -45,15 +45,15 @@ Testimonial.to Revenue: $2.4M ARR, $10K MRR in 11 months | Startup Founder Stori
 # Building a $10K MRR testimonial tool by building in public
 ...
 11 months $10K MRR
-...
+
 Twitter / X Growth channel
-...
+
 Solo founder Founder
 ...
 Damon Chen Solo founder• Technical• USA
 ...
 ### Building in Public
-...
+
 I shared my entire journey on Twitter - the good days and the bad days. When I hit milestones, I'd celebrate publicly. When features flopped, I'd share what I learned. This transparency built trust and attracted early adopters who wanted to support an indie maker.
 ...
 - Twitter building in public: 60% of traffic
@@ -66,7 +66,7 @@ $10K MRR
 Twitter / X
 ...
 ## Milestone Journey
-...
+
 Damon achieved 3 milestones on the path to $10K MRR
 ...
 ### $10K MRR
@@ -74,7 +74,7 @@ Damon achieved 3 milestones on the path to $10K MRR
 11 months November 2021
 ...
 11 months Total journey time
-...
+
 3 Milestones achieved
 ...
 Damon Chen reached $10K MRR in 11 months, faster than 66% of the 295 documented $10K journeys (median 12 months). The amber bar is this journey.
@@ -95,14 +95,12 @@ What they did instead: Reused the working parts of that codebase (mostly from in
 ...
 What they did instead: Shifted toward marketing content, SEO blog posts, and public social media updates, per the same secondhand account.
 ...
-How long did it
-...
-Testimonial.to to reach $10k mrr
+How long did it ... Testimonial.to to reach $10k mrr
 ...
 Damon Chen took 11 months to reach $10k mrr with Testimonial.to.
-...
+
 Was Damon Chen a solo founder?
-...
+
 Yes. Damon Chen built Testimonial.to as a solo founder.
 ...
 Testimonial.to grew primarily through Twitter / X.
