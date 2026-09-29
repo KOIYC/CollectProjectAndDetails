@@ -1,10 +1,10 @@
 {
- "generated": "2026-09-28T10:08:18+08:00",
- "n_items": 2279,
- "n_pages": 1850,
- "cross": 1,
+ "generated": "2026-09-29T09:54:41+08:00",
+ "n_items": 2371,
+ "n_pages": 1931,
+ "cross": 2,
  "stale": 0,
- "concept": 1,
+ "concept": 0,
  "xref": 30,
  "top_stale": [],
  "top_cross": [
@@ -57,6 +57,30 @@
      "title": "Show HN: AliasFleet – Email aliases with an in-app composer and teleme",
      "claim": "$17/mo",
      "value": "17"
+    }
+   ]
+  },
+  {
+   "key": "https://fastrecall.ai/",
+   "kind": "price",
+   "values": [
+    "2",
+    "7"
+   ],
+   "sources": [
+    {
+     "item_id": "aea4e46b3d5c6e64",
+     "source_id": "hn_show",
+     "title": "Show HN: FastRecall, ultra-cheap memory across AI models",
+     "claim": "$7.00/ MO",
+     "value": "7"
+    },
+    {
+     "item_id": "aaca079bc1768dc7",
+     "source_id": "hn_show",
+     "title": "Show HN: FastRecall, OpenRouter for Memory",
+     "claim": "$2/mo",
+     "value": "2"
     }
    ]
   }

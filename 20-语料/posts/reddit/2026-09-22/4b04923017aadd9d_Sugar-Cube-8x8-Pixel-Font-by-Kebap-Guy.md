@@ -8,7 +8,7 @@ url: "https://www.reddit.com/r/IndieDev/comments/1wk732m/sugar_cube_8x8_pixel_fo
 project_url: "https://kebap-guy.itch.io/sugar-cube-8x8-pixel-font"
 author: "KebabGun"
 published_at: "2026-09-19T08:18:25+08:00"
-captured_at: "2026-09-25T13:54:35+08:00"
+captured_at: "2026-09-29T09:43:47+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,7 +21,7 @@ tags:
 metrics: {"score": 3, "comments": 0, "upvote_ratio": 1}
 comments_count: 0
 comments_total: 0
-discovered_via: "reddit:7d+settle3"
+discovered_via: "reddit:14d+settle10"
 ---
 
 # Sugar Cube - 8x8 Pixel Font by Kebap Guy
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=0 · 赞踩比=1
 > 作者：KebabGun　|　发布：2026-09-19T08:18:25+08:00
 > 项目链接：<https://kebap-guy.itch.io/sugar-cube-8x8-pixel-font>
-> 采集：2026-09-25T13:54:35+08:00　|　id：`4b04923017aadd9d`
+> 采集：2026-09-29T09:43:47+08:00　|　id：`4b04923017aadd9d`
 
 ## 正文
 
@@ -115,8 +115,6 @@ First font in Kebap Fonts. More pixel art asset packs at kebap-guy.itch.io
  10 hours ago
 
 ## Leave a comment
-
-# 2bkdcua4ciph1.png
 
 ## 导航
 

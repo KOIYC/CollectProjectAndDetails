@@ -8,7 +8,7 @@ url: "https://dev.to/mikachu/i-built-a-better-codex-pet-than-openai-did-eib"
 project_url: "https://github.com/miflow13/mochi-desktop"
 author: "Mika Flowers"
 published_at: "2026-09-26T11:16:56Z"
-captured_at: "2026-09-28T09:50:07+08:00"
+captured_at: "2026-09-29T09:45:02+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,9 +21,9 @@ tags:
   - python
   - linux
   - showdev
-metrics: {"reactions": 31, "comments": 7, "reading_time": 5}
-comments_count: 7
-comments_total: 7
+metrics: {"reactions": 37, "comments": 8, "reading_time": 5}
+comments_count: 8
+comments_total: 8
 discovered_via: "devto:showdev"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/mikachu/i-built-a-better-codex-pet-than-openai-did-eib>
-> 指标：reactions=31 · 评论=7 · reading_time=5
+> 指标：reactions=37 · 评论=8 · reading_time=5
 > 作者：Mika Flowers　|　发布：2026-09-26T11:16:56Z
 > 项目链接：<https://github.com/miflow13/mochi-desktop>
-> 采集：2026-09-28T09:50:07+08:00　|　id：`7a120cdb79ba4465`
+> 采集：2026-09-29T09:45:02+08:00　|　id：`7a120cdb79ba4465`
 
 ## 正文
 
@@ -165,7 +165,7 @@ I know which one I'd rather maintain.
 
 *Codex Pets details in this post are drawn from public reporting and documentation, not insider access. Mochi is open-source — [browse the code, file an issue, or just come say hi to the little guy](https://github.com/miflow13/mochi-desktop).*
 
-## 评论（7/7）
+## 评论（8/8）
 
 > **DaC** · 2026-09-26T11:34:19Z　
 > Really nice idea, though I noticed a few issues... I'm getting to work🤗
@@ -215,6 +215,11 @@ I know which one I'd rather maintain.
 > "Commit to the bit" is going on my wall.
 >
 > Cool project. Mochi looks great.
+
+---
+
+> **Onizuka** · 2026-09-28T11:02:02Z　
+> The "status light with a tail" line is dead-on — I ran into the same wall building a terminal notifier last year, realized a green checkmark tells you nothing about what broke or why. The state machine approach is the right call; once you have real memory and transitions, the pet stops being decoration and starts being a debugging surface. Curious how you handle state persistence across crashes, since that's where my version fell apart.
 
 ## 关联链接
 

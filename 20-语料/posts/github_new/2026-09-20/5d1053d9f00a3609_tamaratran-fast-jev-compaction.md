@@ -8,7 +8,7 @@ url: "https://github.com/tamaratran/fast-jev-compaction"
 project_url: "https://github.com/tamaratran/fast-jev-compaction"
 author: "tamaratran"
 published_at: "2026-09-17T05:57:20Z"
-captured_at: "2026-09-28T09:49:25+08:00"
+captured_at: "2026-09-29T09:44:30+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - TypeScript
-  - created:>2026-09-14
-metrics: {"stars": 7027, "forks": 436, "open_issues": 92}
+  - created:>2026-09-15
+metrics: {"stars": 7141, "forks": 448, "open_issues": 96}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/tamaratran/fast-jev-compaction>
-> 指标：stars=7027 · forks=436 · open_issues=92
+> 指标：stars=7141 · forks=448 · open_issues=96
 > 作者：tamaratran　|　发布：2026-09-17T05:57:20Z
 > 项目链接：<https://github.com/tamaratran/fast-jev-compaction>
-> 采集：2026-09-28T09:49:25+08:00　|　id：`5d1053d9f00a3609`
+> 采集：2026-09-29T09:44:30+08:00　|　id：`5d1053d9f00a3609`
 
 ## 正文
 

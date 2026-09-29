@@ -8,7 +8,7 @@ url: "https://github.com/NandhaKishorM/laya"
 project_url: "https://huggingface.co/convaiinnovations/laya"
 author: "NandhaKishorM"
 published_at: "2026-09-18T04:46:33Z"
-captured_at: "2026-09-28T09:49:25+08:00"
+captured_at: "2026-09-29T09:44:30+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - Python
-  - created:>2026-09-14
-metrics: {"stars": 26751, "forks": 2338, "open_issues": 121}
+  - created:>2026-09-15
+metrics: {"stars": 27745, "forks": 2422, "open_issues": 175}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/NandhaKishorM/laya>
-> 指标：stars=26751 · forks=2338 · open_issues=121
+> 指标：stars=27745 · forks=2422 · open_issues=175
 > 作者：NandhaKishorM　|　发布：2026-09-18T04:46:33Z
 > 项目链接：<https://huggingface.co/convaiinnovations/laya>
-> 采集：2026-09-28T09:49:25+08:00　|　id：`e6a3c3f817cf5690`
+> 采集：2026-09-29T09:44:30+08:00　|　id：`e6a3c3f817cf5690`
 
 ## 正文
 

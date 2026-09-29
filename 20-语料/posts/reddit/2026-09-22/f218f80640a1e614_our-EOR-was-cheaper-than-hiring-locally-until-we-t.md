@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1wk8ckb/our_eor_was_cheaper_than_hiring_locally_until_we/"
 author: "Pippa-633"
 published_at: "2026-09-19T09:16:31+08:00"
-captured_at: "2026-09-22T12:54:37+08:00"
+captured_at: "2026-09-29T09:43:42+08:00"
 lang: "en"
 kind: "post"
 topic: 开发者工具
@@ -19,9 +19,9 @@ tags:
   - r/EntrepreneurRideAlong
   - Ride Along Story
 metrics: {"score": 7, "comments": 14, "upvote_ratio": 0.65}
-comments_count: 14
-comments_total: 14
-discovered_via: "reddit:7d+settle3"
+comments_count: 15
+comments_total: 15
+discovered_via: "reddit:14d+settle10"
 ---
 
 # our EOR was cheaper than hiring locally until we tried to let someone go
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=7 · 评论=14 · 赞踩比=0.65
 > 作者：Pippa-633　|　发布：2026-09-19T09:16:31+08:00
 > 项目链接：—
-> 采集：2026-09-22T12:54:37+08:00　|　id：`f218f80640a1e614`
+> 采集：2026-09-29T09:43:42+08:00　|　id：`f218f80640a1e614`
 
 ## 正文
 
@@ -53,7 +53,7 @@ We're switching and getting quotes from Deel, Workmotion, and Remote since those
 
 But if your mental model going in is that it's basically like having a local employee with someone else handling the paperwork, the first time you need to let someone go is going to surprise you.
 
-## 评论（14/14）
+## 评论（15/15）
 
 > **Reasonable-Sail5768**（15 分） · 2026-09-19T10:47:57+08:00　
 > The transition payment is Dutch law, not something your EOR made up. Deel and Remote bill you the same thing, the dashboard is just prettier.
@@ -128,6 +128,13 @@ But if your mental model going in is that it's basically like having a local emp
 
 > **akl773**（1 分） · 2026-09-19T20:04:00+08:00　
 > The question I'd ask any EOR before signing is what it costs to end the contract in month 3 and month 18, notice, payouts, their admin fees, in writing. Onboarding gets quoted cleanly because that's the sale. The exit side is where flat monthly pricing turns out to be the cheap part.
+
+---
+
+> **Vaultleap**（1 分） · 2026-09-29T08:59:50+08:00　
+> The line in your post that deserves its own column in the new quotes is "currency conversion margin built into the payment flow". Most EOR invoices bill you in your currency and pay the employee in euros at a rate the EOR sets, and that margin is rarely on the proposal. Over 14 months of salary it can add up to more than the monthly fee.
+>
+> When the new quotes come in, ask each one three things in writing: the exact rate or markup they apply when converting your funding into EUR, whether you can fund the invoice in EUR directly if you hold euros, and the itemized cost of a termination at month 6 and month 18 under a Dutch contract. The akl773 comment is right about the exit, and the FX question is the one that quietly runs every single month while you're not looking.
 
 ## 导航
 

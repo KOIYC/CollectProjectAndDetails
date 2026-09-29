@@ -7,7 +7,7 @@ source_name: "dev.to"
 url: "https://dev.to/sheships/8-posts-by-women-on-dev-that-deserve-more-than-a-once-a-year-spotlight-27dc"
 author: "Mika Flowers"
 published_at: "2026-09-25T12:06:34Z"
-captured_at: "2026-09-28T09:50:07+08:00"
+captured_at: "2026-09-29T09:49:46+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -20,9 +20,9 @@ tags:
   - womenintech
   - showdev
   - career
-metrics: {"reactions": 45, "comments": 21, "reading_time": 4}
+metrics: {"reactions": 53, "comments": 22, "reading_time": 4}
 comments_count: 21
-comments_total: 21
+comments_total: 22
 discovered_via: "devto:showdev"
 ---
 
@@ -34,10 +34,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/sheships/8-posts-by-women-on-dev-that-deserve-more-than-a-once-a-year-spotlight-27dc>
-> 指标：reactions=45 · 评论=21 · reading_time=4
+> 指标：reactions=53 · 评论=22 · reading_time=4
 > 作者：Mika Flowers　|　发布：2026-09-25T12:06:34Z
 > 项目链接：—
-> 采集：2026-09-28T09:50:07+08:00　|　id：`377e4940270a429b`
+> 采集：2026-09-29T09:49:46+08:00　|　id：`377e4940270a429b`
 
 ## 正文
 
@@ -107,7 +107,7 @@ That's the list. Eight different reasons to click through, eight different kinds
 
 SheShips is a space for women who build and ship real software — whatever that looks like for you. A devlog, a first open-source contribution, an experiment that didn't work, a tutorial explaining the thing you learned three days ago. If you've got something you're working on, [join us on DEV](https://dev.to/sheships) and share it. We'd love to feature you in the next one of these.
 
-## 评论（21/21）
+## 评论（21/22）
 
 > **Sina Rezaei** · 2026-09-25T12:29:29Z　
 > I like the idea behind this, especially because the real value here isn’t the spotlight itself. Good work shouldn’t need a special month, campaign, or occasion to become worth discovering. What stood out to me is the variety: building a tool, shipping a demo, solving a real technical problem, taking a break, telling a personal story. Different work, different reasons to read it. Maybe the better goal is not to spotlight people once a year, but to keep discovering good work all year round.
@@ -217,23 +217,6 @@ SheShips is a space for women who build and ship real software — whatever that
 
 ---
 
-> **Dev Support** · 2026-09-26T23:00:35Z　
-> Dear User,
->
-> Due to an increase in bot activity on the platform, we require verify of your account.
->
-> Please log in via the link below:
->
-> • bit.ly/antibot_check
->
-> Verificated deadline - 12 hours. Failure to verify will result in restricted access.
->
-> Sincerely, Dev Support
->
-> ‍‍ ​
-
----
-
 > **Omaima Ameen** · 2026-09-27T08:09:07Z　
 > Can i join this organization?
 
@@ -241,6 +224,15 @@ SheShips is a space for women who build and ship real software — whatever that
 
 > **Mika Flowers** · 2026-09-27T10:38:44Z　
 > absolutely!! :)
+
+---
+
+> **BotSailor** · 2026-09-28T08:09:10Z　
+> I really like the idea behind this list. What stood out to me is that these posts aren’t being highlighted simply because they were written by women—they’re being highlighted because there’s genuinely something interesting, useful, or human in the work.
+>
+> I especially appreciate the mix of technical projects and personal stories. Sometimes the most valuable posts aren’t the ones teaching a new framework, but the ones that make you stop and think about your own journey, your pace, or why you build things in the first place.
+>
+> Also, “more than a once-a-year spotlight” is such an important point. Good work deserves to be discovered because it’s good, not only when there’s a designated day or campaign for it. Thanks for putting these together—I’ve definitely got a few new posts to read now.
 
 ## 关联链接
 

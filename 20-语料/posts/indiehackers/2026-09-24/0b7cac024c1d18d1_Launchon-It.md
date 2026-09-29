@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/launchon-it"
 project_url: "https://launchon.it/"
-captured_at: "2026-09-28T09:49:51+08:00"
+captured_at: "2026-09-29T09:44:49+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://launchon.it/>
-> 采集：2026-09-28T09:49:51+08:00　|　id：`0b7cac024c1d18d1`
+> 采集：2026-09-29T09:44:49+08:00　|　id：`0b7cac024c1d18d1`
 
 ## 正文
 
@@ -42,9 +42,20 @@ LaunchOnIt
  Product launch platform for indie startups.
 Visit Website
 LaunchOnIt Product launch platform for indie startups.
- Posts 18
+ Posts 19
  Revenue $0 / mo
  Website Twitter
+September 28, 2026
+ Week 40 is officially live with 20 new products, and submissions for Week 41 are already open
+Hey everyone, just dropping a quick weekly update from LaunchOnIt .
+ Our brand new lineup for Week 40 is officially live today with 20 fresh SaaS products, AI utilities, and indie tools taking over the front page for the next seven days.
+ Watching how makers use a full week of runway instead of stressing over a 24-hour sprint continues to be a fascinating experiment. The engagement and organic traction on days three through five keep outperforming traditional single-day launches.
+ At the same time, submissions for Week 41 are officially open, and we are down to our last 12 slots for the upcoming batch.
+ If you have a product, a micro-SaaS, or an AI tool that you are looking to get in front of active builders without fighting a massive 24-hour upvote bloodbath, you can lock in your spot directly on the site.
+ For those of you launching or shipping updates this week, what are you working on? Let us chat below.
+Alex
+17 Likes
+Comment
 September 27, 2026
  The biggest lie we tell ourselves about indie hacking is that building the product is the hard part
 I talk to so many indie hackers who fall into the exact same trap. They treat marketing like an afterthought. They spend ninety percent of their energy perfecting features that users might not even care about, and then they spend ten percent of a Tuesday dropping a quick link on Twitter and hoping for a miracle.
@@ -54,17 +65,31 @@ I talk to so many indie hackers who fall into the exact same trap. They treat ma
  Distribution has to be built into the product loops from day one. Whether that means building organic SEO mechanisms, automated directory pipelines, or community hooks, marketing is just another engineering problem waiting to be solved.
  How do you guys split your time right now? Are you still building first and marketing later, or has distribution become your primary focus?
 Alex
-17 Likes
-1 Comment
+23 Likes
+3 Comments
 Say something nice…
 Post Comment
+1
+Totally agree. Wasted too much time on coding, spent too less time on promoting.
+Jeff Chan
+·
+17 hours ago
+ ·
+Reply
+1
+Seems not stable. There's a error msg: Could not autofill automatically
+Jeff Chan
+·
+17 hours ago
+ ·
+Reply
 1
 This is something I'm realizing myself. Building the product is actually the part I enjoy the most, so it's easy to spend way too much time there and keep telling yourself that marketing can come later.
 Once the product is ready, though, you realize getting it in front of the right people is a completely different challenge. I've been spending much more time on distribution lately and honestly it's been a learning experience.
 I like the idea of treating distribution as an engineering problem rather than something you do after the product is finished.
 Timothy Baskaran
 ·
-15 hours ago
+2 days ago
  ·
 Reply
 September 26, 2026
@@ -88,21 +113,21 @@ Post Comment
 Could you please share the results in terms of SEO traffic or revenue? Metrics like Domain Rating (DR) and other scores created by third-party tools are not actual Google ranking factors. I believe they are just marketing gimmicks used by those platforms.
 Mindfuse
 ·
-9 hours ago
+a day ago
  ·
 Reply
 1
 We have a Grok Bot that finds potential opportunities for blog post backlinks and drafts the outreach messages (with Gmail integration). A human reviews the end result, of course, but it saves a lot of time.
 Apogee Watcher
 ·
-16 hours ago
+2 days ago
  ·
 Reply
 1
 The manual submission grind is real I deal with the inverse side of this, running an AI tools directory, reviewing and approving listings one by one. Automating the outbound submission across directories/curation boards is smart, though I'd be curious how you're handling sites that flag or block bot-like submission patterns, since a lot of directories (including ones like mine) have some friction specifically to filter out automated spam. Did you run into any rejections during the 14-day test, or was it clean across the board?
 Anas, Founder at Daily AI Tools
 ·
-a day ago
+2 days ago
  ·
 Reply
 September 25, 2026
@@ -127,14 +152,14 @@ Post Comment
 This is a good idea. I will give it a try over the weekend. I am going through the same pain rn. Thank you for sharing
 samay_mars
 ·
-2 days ago
+3 days ago
  ·
 Reply
 1
 Love this direction. Agents already write my code and run my tests, so letting them handle the boring form filling feels inevitable. The interesting unlock might be what happens when every agent starts submitting to every directory automatically. Discovery gets noisy, and the directories with the strongest curation win. Curious whether you thought about rate limits or quality gates on the agent side.
 CodeSonar
 ·
-3 days ago
+4 days ago
  ·
 Reply
 September 24, 2026
@@ -160,21 +185,21 @@ Post Comment
 Nice
 Amdrewjulian
 ·
-3 days ago
+4 days ago
  ·
 Reply
 1
 Greatest
 Amdrewjulian
 ·
-4 days ago
+5 days ago
  ·
 Reply
 1
 Thanks for your support!
 Alex
 ·
-3 days ago
+4 days ago
  ·
 Reply
 September 20, 2026
@@ -198,7 +223,7 @@ Post Comment
 Good post. I launched today too (https://heysensa.app) and I was already doing the dumb part: refreshing stats, checking signups, trying to line up votes. This is a good reminder that day one isn't the point. Sensa is a small reflection app. Not another chat bot. It's meant to be used daily, so I'd rather spend the week talking to people than chasing the spike. For anyone who's done a slower launch: did it actually bring users who stuck around? Or just more traffic? That's what I'm trying to figure out.
 Francisco Hidalgo
 ·
-3 days ago
+4 days ago
  ·
 Reply
 September 18, 2026
@@ -283,31 +308,9 @@ For AI citations - have you seen a listing actually cited in Perplexity/ChatGPT,
 The 20 slots cap - if week is not full, do you keep it half-empty or fill late? I ask because I'm deciding if I should join this week or wait for a full cohort.
 HungryDevs
 ·
-12 days ago
+13 days ago
  ·
 Reply
-September 14, 2026
- I got tired of 24h launch leaderboards, so I built a 7-day alternative. Here is what happened.
- Hey Indie Hackers,
-If you have launched a side project recently, you know the drill:
-You spend months building. You stay awake for 24 hours refreshing leaderboards, dm-ing friends for support, and battling upvote syndicates. By the next morning, you disappear off the front page, traffic crashes back to zero, and you are left wondering what the hype was actually for.
-The 24-hour launch sprint works great for venture-backed teams with dedicated PR staff. For solo founders and bootstrapped builders, it is exhausting and mostly delivers low-intent spike traffic.
-I wanted a distribution channel that felt sustainable, so I built LaunchOn.it around three rules:
-Exactly 20 slots per week
-Instead of an endless feed where 80 tools get buried by lunch, we hard-cap each weekly cohort at 20 products. Every batch goes live on Monday at 00:00 UTC.
-A full 7 days on the front page
-Every maker gets an entire week of front-page exposure. No fighting a 12-hour decay algorithm, and no waking up at 3 AM to game timezone advantages.
-Structured for AI scrapers, not just human clicks
-A massive chunk of discovery is moving toward Perplexity, ChatGPT, and Claude. Every listing on LaunchOn.it is rendered with deep JSON-LD schema and lightweight markup so LLM bots can parse, index, and cite your product in answers.
-What I have learned from running weekly cohorts:
-The slow burn beats the one-day spike: Founders report that days 3 through 6 bring higher-converting signups than the initial Monday drop.
-Scarcity forces quality: When there are only 20 spots a week, makers spend more time polishing their copy, screenshots, and value props.
-AI indexing is real: Clean structured data gets picked up by answer engines much faster than traditional JavaScript-heavy landing pages.
-Our new batch went live this morning. Since the 20 slots for this week were not taken, you can also go live in the current week.
-For those of you launching or iterating on products this month: what does your distribution stack look like right now? Are you seeing real traffic from AI search engines yet, or are traditional community channels still doing the heavy lifting for you?
-Alex
-4 Likes
-Comment
 About
  Product Hunt gives you one noisy day and then your launch disappears under the next wave of products. LaunchOnIt is a Product Hunt and BetaList style board where each product gets a page and a date that still exist.
  People

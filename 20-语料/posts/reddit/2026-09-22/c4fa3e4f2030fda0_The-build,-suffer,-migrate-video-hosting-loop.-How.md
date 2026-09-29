@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1wjxhc8/the_build_suffer_migrate_video_hosting_loop_how/"
 author: "fish_fucker_69_420"
 published_at: "2026-09-19T02:00:22+08:00"
-captured_at: "2026-09-22T12:54:37+08:00"
+captured_at: "2026-09-29T09:43:42+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -19,9 +19,9 @@ tags:
   - r/EntrepreneurRideAlong
   - Seeking Advice
 metrics: {"score": 3, "comments": 6, "upvote_ratio": 1}
-comments_count: 5
+comments_count: 6
 comments_total: 6
-discovered_via: "reddit:7d+settle3"
+discovered_via: "reddit:14d+settle10"
 ---
 
 # The "build, suffer, migrate" video hosting loop. How do you break it?
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=6 · 赞踩比=1
 > 作者：fish_fucker_69_420　|　发布：2026-09-19T02:00:22+08:00
 > 项目链接：—
-> 采集：2026-09-22T12:54:37+08:00　|　id：`c4fa3e4f2030fda0`
+> 采集：2026-09-29T09:43:42+08:00　|　id：`c4fa3e4f2030fda0`
 
 ## 正文
 
@@ -59,7 +59,7 @@ Looked at Gumlet too, but Kinescope felt more reliable on the CDN side during la
 
 Anyone else stuck in this loop? What does a video tool actually have to do before you’re willing to keep it for good??
 
-## 评论（5/6）
+## 评论（6/6）
 
 > **FatallySmall**（1 分） · 2026-09-19T02:07:04+08:00　
 > this is giving me flashbacks to my first client project where we had 3 different video hosts in 18 months. the migration pain is real
@@ -85,6 +85,11 @@ Anyone else stuck in this loop? What does a video tool actually have to do befor
 
 > **Quinquin_Laughlan**（1 分） · 2026-09-19T08:02:23+08:00　
 > The real move is picking a host that's boring enough to not need migrating - like you're not gonna outgrow Bunny CDN or a simple S3 setup overnight, so you stop chasing the next shiny thing and actually build your product instead.
+
+---
+
+> **ChemicalMobile3998**（0 分） · 2026-09-22T22:40:06+08:00　
+> For us ,we found we were basically paying three different companies for different parts of the same video workflow. Cutting that down to one platform made a bigger difference than I expected. Skippz is what we ended up testing for the video side and it covered more of the workflow than we were expecting.
 
 ## 导航
 

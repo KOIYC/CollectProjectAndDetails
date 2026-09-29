@@ -7,7 +7,7 @@ source_name: "B 站"
 url: "https://www.bilibili.com/video/BV1Ggh662Ezy"
 author: "晴天呼呼w"
 published_at: "2026-09-21T22:56:56+08:00"
-captured_at: "2026-09-28T09:51:28+08:00"
+captured_at: "2026-09-29T09:45:32+08:00"
 lang: "zh"
 kind: "post"
 topic: 开发者工具
@@ -21,7 +21,7 @@ tags:
   - 状态同步
   - 求职作品
   - Unity
-metrics: {"play": 10471, "danmaku": 8, "favorites": 330}
+metrics: {"play": 11197, "danmaku": 8, "favorites": 349}
 comments_count: 0
 comments_total: 0
 discovered_via: "bili:独立开发"
@@ -35,10 +35,10 @@ discovered_via: "bili:独立开发"
 > [!meta]- 语料信息（点开展开）
 > 来源：B 站（post）
 > 原帖：<https://www.bilibili.com/video/BV1Ggh662Ezy>
-> 指标：播放=10471 · 弹幕=8 · 收藏=330
+> 指标：播放=11197 · 弹幕=8 · 收藏=349
 > 作者：晴天呼呼w　|　发布：2026-09-21T22:56:56+08:00
 > 项目链接：—
-> 采集：2026-09-28T09:51:28+08:00　|　id：`3a0a9acf2e8296ac`
+> 采集：2026-09-29T09:45:32+08:00　|　id：`3a0a9acf2e8296ac`
 
 ## 正文
 

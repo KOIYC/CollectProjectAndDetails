@@ -2,14 +2,14 @@
 type: "project"
 title: "jaredpalmer/kev"
 project_url: "https://github.com/jaredpalmer/kev"
-first_seen: "2026-09-28T09:49:25+08:00"
+first_seen: "2026-09-29T09:44:30+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - Python
-  - created:>2026-09-14
+  - created:>2026-09-15
 lang: "en"
 ---
 
@@ -20,10 +20,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/jaredpalmer/kev>
-> 首次收录：2026-09-28T09:49:25+08:00
+> 首次收录：2026-09-29T09:44:30+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：Python, created:>2026-09-14
-> 最新指标：stars=7428 · forks=451 · open_issues=22
+> 标签：Python, created:>2026-09-15
+> 最新指标：stars=7661 · forks=474 · open_issues=27
 
 ## 观测历史
 
@@ -33,6 +33,7 @@ lang: "en"
 | 2026-09-25T13:44:10+08:00 | GitHub 新星仓库 | stars=6796 · forks=396 · open_issues=39 | [[20-语料/posts/github_new/2026-09-24/7f309519de9eb862_jaredpalmer-kev]] |
 | 2026-09-26T09:43:40+08:00 | GitHub 新星仓库 | stars=7032 · forks=414 · open_issues=13 | [[20-语料/posts/github_new/2026-09-24/7f309519de9eb862_jaredpalmer-kev]] |
 | 2026-09-28T09:49:25+08:00 | GitHub 新星仓库 | stars=7428 · forks=451 · open_issues=22 | [[20-语料/posts/github_new/2026-09-24/7f309519de9eb862_jaredpalmer-kev]] |
+| 2026-09-29T09:44:30+08:00 | GitHub 新星仓库 | stars=7661 · forks=474 · open_issues=27 | [[20-语料/posts/github_new/2026-09-24/7f309519de9eb862_jaredpalmer-kev]] |
 
 ## 摘要正文
 

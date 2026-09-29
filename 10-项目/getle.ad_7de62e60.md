@@ -2,7 +2,7 @@
 type: "project"
 title: "I made $88K with my saas as a solo founder"
 project_url: "https://getle.ad/"
-first_seen: "2026-09-28T10:06:36+08:00"
+first_seen: "2026-09-29T09:50:05+08:00"
 sources:
   - reddit
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://getle.ad/>
-> 首次收录：2026-09-28T10:06:36+08:00
+> 首次收录：2026-09-29T09:50:05+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/SaaS
 > 最新指标：得分=50 · 评论=40 · 赞踩比=0.8
@@ -53,6 +53,7 @@ lang: "en"
 | 2026-09-25T13:55:00+08:00 | Reddit 独立开发版块 | 得分=50 · 评论=40 · 赞踩比=0.8 | [[20-语料/posts/reddit/2026-09-21/9fd77305a44d280c_I-made-$88K-with-my-saas-as-a-solo-founder]] |
 | 2026-09-26T10:00:51+08:00 | Reddit 独立开发版块 | 得分=50 · 评论=40 · 赞踩比=0.8 | [[20-语料/posts/reddit/2026-09-21/9fd77305a44d280c_I-made-$88K-with-my-saas-as-a-solo-founder]] |
 | 2026-09-28T10:06:36+08:00 | Reddit 独立开发版块 | 得分=50 · 评论=40 · 赞踩比=0.8 | [[20-语料/posts/reddit/2026-09-21/9fd77305a44d280c_I-made-$88K-with-my-saas-as-a-solo-founder]] |
+| 2026-09-29T09:50:05+08:00 | Reddit 独立开发版块 | 得分=50 · 评论=40 · 赞踩比=0.8 | [[20-语料/posts/reddit/2026-09-21/9fd77305a44d280c_I-made-$88K-with-my-saas-as-a-solo-founder]] |
 
 ## 摘要正文
 

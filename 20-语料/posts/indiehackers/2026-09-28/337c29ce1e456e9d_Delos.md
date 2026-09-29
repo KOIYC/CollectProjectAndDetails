@@ -5,7 +5,7 @@ title: "Delos"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/delos"
-captured_at: "2026-09-28T09:49:51+08:00"
+captured_at: "2026-09-29T09:44:49+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-28T09:49:51+08:00　|　id：`337c29ce1e456e9d`
+> 采集：2026-09-29T09:44:49+08:00　|　id：`337c29ce1e456e9d`
 
 ## 正文
 
@@ -67,14 +67,21 @@ So well, what do we have here, a couple of problems that I'm going to fix. It is
 It requires no account, works out of the box.
 Mr. MK
 2 Likes
-3 Comments
+4 Comments
 Say something nice…
 Post Comment
+1
+Where do you plan to look for the first users? Or maybe you already have them?
+Artem Pryhun
+·
+3 hours ago
+ ·
+Reply
 2
 Have early testers shown that in-video translation actually keeps learners in the viewing flow, or is the main appeal still the idea of not having to switch tools?
 Aryan Sinh
 ·
-18 hours ago
+2 days ago
  ·
 Reply
 1
@@ -84,14 +91,14 @@ Great question! In practice, they feel like two sides of the same coin: reducing
 ​Have you noticed this kind of drop-off when using other language learning tools?
 Mr. MK
 ·
-17 hours ago
+2 days ago
  ·
 Reply
 1
 The “keeps learners watching longer” claim is the part I’d want to follow as real usage comes in. Could be useful to compare notes by email sometime, if you’re open to it.
 Aryan Sinh
 ·
-17 hours ago
+2 days ago
  ·
 Reply
 About

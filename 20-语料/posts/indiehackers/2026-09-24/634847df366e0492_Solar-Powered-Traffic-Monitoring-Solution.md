@@ -5,7 +5,7 @@ title: "Solar Powered Traffic Monitoring Solution"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/solar-powered-traffic-monitoring-solution"
-captured_at: "2026-09-28T09:49:51+08:00"
+captured_at: "2026-09-29T09:44:49+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-28T09:49:51+08:00　|　id：`634847df366e0492`
+> 采集：2026-09-29T09:44:49+08:00　|　id：`634847df366e0492`
 
 ## 正文
 
@@ -61,21 +61,21 @@ Post Comment
 Have you tested the system with a specific potential buyer, such as municipalities or private road operators, and what evidence would make them pay for deployment?
 Aryan Sinh
 ·
-4 days ago
+5 days ago
  ·
 Reply
 1
 I have tested the system in collaboration with the University of Cyprus. It was not meant to be a commercial solution at this point, which is why the project is open source. As stated in the full report, this system can provide valuable information about the traffic patterns on the road and could even allow for a prediction model to be trained off of its data.
 Marios Christoforou
 ·
-4 days ago
+5 days ago
  ·
 Reply
 1
 That gap between a working system and a buyer case is interesting. Could be useful to dig into that transition by email sometime, if you’re open to it.
 Aryan Sinh
 ·
-4 days ago
+5 days ago
  ·
 Reply
 About

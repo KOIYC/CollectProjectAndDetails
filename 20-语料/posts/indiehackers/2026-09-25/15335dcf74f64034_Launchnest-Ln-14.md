@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/launchnest-ln-14"
 project_url: "https://mobtownweb.com/"
-captured_at: "2026-09-28T09:49:51+08:00"
+captured_at: "2026-09-29T09:44:49+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://mobtownweb.com/>
-> 采集：2026-09-28T09:49:51+08:00　|　id：`15335dcf74f64034`
+> 采集：2026-09-29T09:44:49+08:00　|　id：`15335dcf74f64034`
 
 ## 正文
 
@@ -78,7 +78,7 @@ Post Comment
 Great premise—closing that initial discovery gap is huge for solo builders and indie projects. I just rolled out an updated build and deployment architecture over at [MobtownWeb.com](https://mobtownweb.com/?utm_source=gemini), so this problem space resonates. Looking forward to seeing LaunchNest grow!
 Steven Jackson
 ·
-3 hours ago
+a day ago
  ·
 Reply
 About

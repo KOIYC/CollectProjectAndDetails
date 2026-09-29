@@ -1,11 +1,11 @@
 {
  "schema": 2,
- "updated": "2026-09-28T10:07:41+08:00",
+ "updated": "2026-09-29T09:51:30+08:00",
  "note": "结构性无正文/取数不可得 —— 连试 2 轮后记账，不再消耗额度。字段：reason（人话）/ reason_code（可复核分类，见 REASON_CODES）/ tried[]（本轮实际试过的后端）/ http_status（direct 档拿到的状态码）",
  "by_reason": {
-  "no_backend": 62,
-  "unreachable": 38,
-  "media": 27,
+  "no_backend": 63,
+  "unreachable": 40,
+  "media": 28,
   "http_403": 4,
   "account": 3,
   "gh_miss": 1
@@ -2023,55 +2023,116 @@
    "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 http_403 · status=403"
   },
   "400497c1bda7fa38": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: InkVec Studio – In-browser, SOTA, WASM based (rust) vectorize",
    "url": "https://logolabs-inkvec.static.hf.space/studio/index.html",
    "source_id": "hn_show",
    "first_dead": "2026-09-28T10:07:41+08:00",
-   "last_try": "2026-09-28T10:07:41+08:00",
+   "last_try": "2026-09-29T09:51:30+08:00",
    "tried": [
     "direct_fetch"
    ],
    "http_status": 200,
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   },
   "7c1da43efe3664ae": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: iPulse AI – Visitors can inspect disagreement across debating",
    "url": "https://ipulseai.com/stocks/nvidia-nvda/ai-forecasts",
    "source_id": "hn_show",
    "first_dead": "2026-09-28T10:07:41+08:00",
-   "last_try": "2026-09-28T10:07:41+08:00",
+   "last_try": "2026-09-29T09:51:30+08:00",
    "tried": [
     "direct_fetch"
    ],
    "http_status": 200,
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   },
   "318cc75f34ddad06": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: PedalTalk, a hands-free group bike intercom that keeps your m",
    "url": "https://play.google.com/store/apps/details?id=net.mrlatte.pedaltalk&hl=en_US",
    "source_id": "hn_show",
    "first_dead": "2026-09-28T10:07:41+08:00",
-   "last_try": "2026-09-28T10:07:41+08:00",
+   "last_try": "2026-09-29T09:51:30+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
    "http_status": "timeout",
    "reason_code": "unreachable",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
   },
   "30fb87ec7ddbdd50": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "JUST LAUNCHED MY SAAS: 70 USERS IN 24H, $0 ON ADS 😭",
    "url": "https://i.redd.it/cb65vwfia6qh1.png",
    "source_id": "reddit",
    "first_dead": "2026-09-28T10:07:41+08:00",
-   "last_try": "2026-09-28T10:07:41+08:00",
+   "last_try": "2026-09-29T09:51:30+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+  },
+  "a2e6107235fa390e": {
+   "attempts": 2,
+   "title": "pretty happy with how this pause menu turned out",
+   "url": "https://v.redd.it/cqjx13mv7dqh1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "reason_code": "media",
+   "first_dead": "2026-09-29T09:49:14+08:00",
+   "last_try": "2026-09-29T09:49:14+08:00",
+   "http_status": null,
+   "tried": []
+  },
+  "80daa8ace080de62": {
+   "attempts": 1,
+   "title": "Show HN: Aslmp, an async Python SLMP client for Mitsubishi MELSEC PLCs",
+   "url": "https://github.com/AcaysiaChem/aslmp",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-29T09:51:30+08:00",
+   "last_try": "2026-09-29T09:51:30+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+  },
+  "a2ce03d590f913f8": {
+   "attempts": 1,
+   "title": "Show HN: ChuteChat – Browser-based E2EE chat with no accounts required",
+   "url": "https://chutechat.online/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-29T09:51:30+08:00",
+   "last_try": "2026-09-29T09:51:30+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "0cb9e6b6b13676d8": {
+   "attempts": 1,
+   "title": "I finally made my first sale yesterday 🚀🚀",
+   "url": "https://www.reddit.com/r/buildinpublic/comments/1wjzlsc/i_finally_made_my_first_sale_yesterday/",
+   "source_id": "reddit",
+   "first_dead": "2026-09-29T09:51:30+08:00",
+   "last_try": "2026-09-29T09:51:30+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"

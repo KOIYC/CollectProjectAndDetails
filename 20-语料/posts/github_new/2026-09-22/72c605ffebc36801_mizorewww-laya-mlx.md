@@ -8,7 +8,7 @@ url: "https://github.com/mizorewww/laya-mlx"
 project_url: "https://pypi.org/project/laya-mlx"
 author: "mizorewww"
 published_at: "2026-09-19T13:50:26Z"
-captured_at: "2026-09-28T09:49:25+08:00"
+captured_at: "2026-09-29T09:44:30+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - Python
-  - created:>2026-09-14
-metrics: {"stars": 6490, "forks": 511, "open_issues": 20}
+  - created:>2026-09-15
+metrics: {"stars": 6580, "forks": 516, "open_issues": 20}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/mizorewww/laya-mlx>
-> 指标：stars=6490 · forks=511 · open_issues=20
+> 指标：stars=6580 · forks=516 · open_issues=20
 > 作者：mizorewww　|　发布：2026-09-19T13:50:26Z
 > 项目链接：<https://pypi.org/project/laya-mlx>
-> 采集：2026-09-28T09:49:25+08:00　|　id：`72c605ffebc36801`
+> 采集：2026-09-29T09:44:30+08:00　|　id：`72c605ffebc36801`
 
 ## 正文
 

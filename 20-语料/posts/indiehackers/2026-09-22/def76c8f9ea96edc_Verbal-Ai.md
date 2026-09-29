@@ -5,7 +5,7 @@ title: "Verbal Ai"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/verbal-ai"
-captured_at: "2026-09-28T09:49:51+08:00"
+captured_at: "2026-09-29T09:44:49+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-28T09:49:51+08:00　|　id：`def76c8f9ea96edc`
+> 采集：2026-09-29T09:44:49+08:00　|　id：`def76c8f9ea96edc`
 
 ## 正文
 
@@ -60,14 +60,14 @@ Post Comment
 I love this! I actually offered a hybrid version of this service for a while. I would use AI to help job seekers prep for interviews, e.g. generate and send customized example questions for them to prep for, based on their CV and the job they're applying for. But the actual practice interview was held in person over Zoom, with me. Afterwards, I had AI transcribe and summarize the interview, and I'd provide feedback and send the person all the notes. It worked well! I did maybe over 50 interviews, and generally got really good feedback from folks, saying it was really helpful for them.
 Ethan T
 ·
-7 hours ago
+a day ago
  ·
 Reply
 1
 Interview practice and sales preparation involve different buying triggers—have early conversations revealed which audience has the stronger urgency to practice before a real outcome matters?
 Aryan Sinh
 ·
-6 days ago
+7 days ago
  ·
 Reply
 About

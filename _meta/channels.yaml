@@ -15,7 +15,7 @@
 #   last_verified / status_note  由 kb_audit 与人工维护
 
 version: 2
-updated: '2026-09-28'
+updated: '2026-09-29'
 total_target: 300
 
 channels:
@@ -486,26 +486,29 @@ channels:
 # 每次跑完内容审计更新本段；数字是「可用/条目」，取自 00-索引/内容审计-all.md。
 
 content_gate:
-  audited_at: '2026-09-28'
-  overall: '1912/2162（88%）'
+  audited_at: '2026-09-29'
+  overall: '1996/2254（89%）'
   rows:
-    - {id: producthunt, ratio: '181/182', verdict: keep}
-    - {id: betalist, ratio: '107/107', verdict: keep}
+    - {id: producthunt, ratio: '203/205', verdict: keep}
+    - {id: betalist, ratio: '117/117', verdict: keep}
     - {id: devto, ratio: '11/11', verdict: keep,
        note: n=11 小样本；标题 require_any 曾把样本全过滤（0 条 = 杀渠道），已回退为「少量标题排除 + limit 降量」}
-    - {id: bilibili, ratio: '49/51', verdict: keep}
-    - {id: indiehackers, ratio: '81/82', verdict: keep}
-    - {id: hn_show, ratio: '1168/1240', verdict: keep,
+    - {id: bilibili, ratio: '50/52', verdict: keep}
+    - {id: indiehackers, ratio: '85/86', verdict: keep}
+    - {id: hn_show, ratio: '1207/1280', verdict: keep,
        note: 94%。大厂产品假阳性已修（Show HN 标题自述的条目不再因提到 Stripe/Google 被判「大厂产品」）；
        主要残余是视频帖无正文（结构性，记死信）与 Exa 截断 26}
     - {id: github_new, ratio: '48/64', verdict: keep,
-       note: 75%。噪声是 awesome-*/directory/clone/wiki/journal 类资源清单（标题规则已排除，见 rule_drops）}
-    - {id: v2ex, ratio: '40/54', verdict: keep,
-       note: 74%。主要噪声是「NAS 必装 Docker 推荐」类资源帖；rules.yaml 已排招聘/求职/求助}
+       note: 75%。噪声是 awesome-*/directory/clone/wiki/journal 类资源清单（标题规则已排除，见 rule_drops）。
+       2026-09-29 复判：本轮丢弃 16/28（57%），逐条核对仍以 awesome-*/wiki/journal/clone 为主 → 无误杀}
+    - {id: v2ex, ratio: '43/58', verdict: keep,
+       note: 74%。主要噪声是「NAS 必装 Docker 推荐」类资源帖；rules.yaml 已排招聘/求职/求助。
+       2026-09-29 复判：丢弃 6/25（24%），标题排除项为招聘/求职/分析帖 → 无系统性误杀；
+       1 条「做了一个 AI 导航站」被标题规则滤掉（n=1，可能误杀，未到动手阈值）}
     - {id: exa_discovery, ratio: '19/25', verdict: keep,
        note: 76%，小样本（weekly_only，非周一不跑）。2026-09-28 抽查丢弃账本：
        1 条「Respira Exhale（HTML→WordPress 转换器）」被「无主题词」滤掉，疑误杀 n=1，未到动手阈值}
-    - {id: reddit, ratio: '203/338', verdict: limit_reduced,
+    - {id: reddit, ratio: '208/348', verdict: limit_reduced,
        note: 60%。已把 limit 40→30 控量（标题过滤模拟到 88% 但丢 29 条可用帖，代价大于收益，不采纳）。
        2026-09-24 追加：窗口外移 settle_days=10 / window_days=14 后近两周语料抓不到（见渠道 note），
        审计口径与采集口径要一起看}

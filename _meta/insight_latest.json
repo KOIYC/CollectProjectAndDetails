@@ -1,25 +1,25 @@
 {
-  "generated": "2026-09-28T10:10:08+08:00",
-  "n_live": 2162,
-  "n_usable": 1910,
-  "n_project": 1698,
-  "signals": 51,
+  "generated": "2026-09-29T09:52:37+08:00",
+  "n_live": 2254,
+  "n_usable": 1994,
+  "n_project": 1777,
+  "signals": 52,
   "topics": [
     [
       "AI 工具/Agent",
-      1192
+      1249
     ],
     [
       "开发者工具",
-      413
+      427
     ],
     [
       "未分类",
-      157
+      168
     ],
     [
       "游戏",
-      51
+      52
     ],
     [
       "移动 App",
@@ -39,7 +39,7 @@
     ],
     [
       "健康/生活",
-      5
+      6
     ],
     [
       "电商/独立站",
@@ -118,9 +118,9 @@
       "title": "NandhaKishorM/laya",
       "url": "https://huggingface.co/convaiinnovations/laya",
       "metrics": {
-        "stars": 26751,
-        "forks": 2338,
-        "open_issues": 121
+        "stars": 27745,
+        "forks": 2422,
+        "open_issues": 175
       }
     },
     {
@@ -133,8 +133,8 @@
       "title": "mizorewww/laya-mlx",
       "url": "https://pypi.org/project/laya-mlx",
       "metrics": {
-        "stars": 6490,
-        "forks": 511,
+        "stars": 6580,
+        "forks": 516,
         "open_issues": 20
       }
     },
@@ -169,8 +169,8 @@
       }
     }
   ],
-  "money_signal_n": 879,
-  "money_evidence_n": 314,
+  "money_signal_n": 910,
+  "money_evidence_n": 323,
   "money_quotes": [
     {
       "source": "betalist",
@@ -246,18 +246,18 @@
     }
   ],
   "pain_n": {
-    "当前方案不好用": 65,
-    "在找替代品": 46,
-    "做不出来/卡住": 88,
-    "愿意付钱": 49,
+    "当前方案不好用": 66,
+    "在找替代品": 49,
+    "做不出来/卡住": 92,
+    "愿意付钱": 51,
     "想要而找不到": 8
   },
   "by_channel": [
     {
       "id": "betalist",
       "profile": "linkpost",
-      "n": 107,
-      "ok": 107,
+      "n": 117,
+      "ok": 117,
       "rate": 1.0
     },
     {
@@ -270,30 +270,30 @@
     {
       "id": "producthunt",
       "profile": "linkpost",
-      "n": 182,
-      "ok": 181,
-      "rate": 0.9945054945054945
+      "n": 205,
+      "ok": 203,
+      "rate": 0.9902439024390244
     },
     {
       "id": "indiehackers",
       "profile": "linkpost",
-      "n": 82,
-      "ok": 81,
-      "rate": 0.9878048780487805
+      "n": 86,
+      "ok": 85,
+      "rate": 0.9883720930232558
     },
     {
       "id": "bilibili",
       "profile": "metadata",
-      "n": 51,
-      "ok": 49,
-      "rate": 0.9607843137254902
+      "n": 52,
+      "ok": 50,
+      "rate": 0.9615384615384616
     },
     {
       "id": "hn_show",
       "profile": "discussion",
-      "n": 1240,
-      "ok": 1168,
-      "rate": 0.9419354838709677
+      "n": 1280,
+      "ok": 1207,
+      "rate": 0.94296875
     },
     {
       "id": "exa_discovery",
@@ -312,16 +312,16 @@
     {
       "id": "v2ex",
       "profile": "discussion",
-      "n": 54,
-      "ok": 40,
-      "rate": 0.7407407407407407
+      "n": 58,
+      "ok": 43,
+      "rate": 0.7413793103448276
     },
     {
       "id": "reddit",
       "profile": "discussion",
-      "n": 338,
-      "ok": 203,
-      "rate": 0.6005917159763313
+      "n": 348,
+      "ok": 208,
+      "rate": 0.5977011494252874
     },
     {
       "id": "c1c7",
@@ -338,5 +338,5 @@
       "rate": 0.0
     }
   ],
-  "body_median": 1940.0
+  "body_median": 1917.0
 }

@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/microsaas/comments/1wk6i27/built_a_micro_saas_but_struggling_to_get_sales/"
 author: "Epi6lp"
 published_at: "2026-09-19T07:54:00+08:00"
-captured_at: "2026-09-22T12:54:29+08:00"
+captured_at: "2026-09-29T09:43:39+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -18,9 +18,9 @@ tags:
   - reddit
   - r/microsaas
 metrics: {"score": 7, "comments": 22, "upvote_ratio": 1}
-comments_count: 24
-comments_total: 24
-discovered_via: "reddit:7d+settle3"
+comments_count: 26
+comments_total: 26
+discovered_via: "reddit:14d+settle10"
 ---
 
 # Built a micro SaaS, but struggling to get sales? I'll tell you why your homepage isn't converting for free
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=7 · 评论=22 · 赞踩比=1
 > 作者：Epi6lp　|　发布：2026-09-19T07:54:00+08:00
 > 项目链接：—
-> 采集：2026-09-22T12:54:29+08:00　|　id：`35ea8edd4f1fd051`
+> 采集：2026-09-29T09:43:39+08:00　|　id：`35ea8edd4f1fd051`
 
 ## 正文
 
@@ -53,7 +53,7 @@ The way I approach this is walking through a homepage exactly like a first-time 
 In return, I'd ask to use the audit (or excerpts) as portfolio material. I’m happy to anonymize your name/company if you'd rather not be identified.
 Drop your URL below and I'll pick 3 over the next few days.
 
-## 评论（24/24）
+## 评论（26/26）
 
 > **unluckysolicitation**（2 分） · 2026-09-19T07:57:17+08:00　
 > I see this same thing constantly with dev tools. The copy reads like internal docs and assumes the visitor already knows why they should care. What's your take on how much the actual design/layout matters versus just the words on the page?
@@ -183,6 +183,17 @@ Drop your URL below and I'll pick 3 over the next few days.
 
 > **devhisaria**（1 分） · 2026-09-21T23:56:32+08:00　
 > Ran this play at two startups and the fix is almost never the copy, it's the h1 promising an outcome instead of naming the tech, that alone moved demo requests 30%.
+
+---
+
+> **Newbietostocks**（1 分） · 2026-09-24T09:35:04+08:00　
+> Build manufacturing and supply chain apps with no code. Plant objects, relationships and workflows already baked in, so the apps are made perfect
+> https://subassembly.ai
+
+---
+
+> **Epi6lp**（1 分） · 2026-09-26T09:08:34+08:00　
+> DM'd you the audit
 
 ## 导航
 

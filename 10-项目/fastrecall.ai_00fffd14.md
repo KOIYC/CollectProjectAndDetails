@@ -1,29 +1,29 @@
 ---
 type: "project"
-title: "Show HN: FastRecall, ultra-cheap memory across AI models"
+title: "Show HN: FastRecall, OpenRouter for Memory"
 project_url: "https://fastrecall.ai/"
-first_seen: "2026-09-20T09:36:56+08:00"
+first_seen: "2026-09-29T09:42:55+08:00"
 sources:
   - hn_show
 tags:
   - 项目
   - hn_show
   - author_tomrose
-  - story_49735358
+  - story_49879775
   - show_hn
 lang: "en"
 ---
 
-# Show HN: FastRecall, ultra-cheap memory across AI models
+# Show HN: FastRecall, OpenRouter for Memory
 
 > [!info] 一句话导读
-> Context across AI models.
+> Hi everyone! After working on memory at OpenAI, I built FastRecall to solve one problem: using different AI models results in clunky ad-hoc context management s…
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://fastrecall.ai/>
-> 首次收录：2026-09-20T09:36:56+08:00
+> 首次收录：2026-09-29T09:42:55+08:00
 > 来源渠道：HN Show HN
-> 标签：author_tomrose, story_49735358, show_hn
+> 标签：author_tomrose, story_49879775, show_hn
 > 最新指标：点赞=2 · 评论=0 · engagement_velocity=2
 
 ## 观测历史
@@ -32,7 +32,8 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-20T09:23:24+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-20/aea4e46b3d5c6e64_Show-HN-FastRecall,-ultra-cheap-memory-across-AI-m]] |
 | 2026-09-20T09:36:56+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-20/aea4e46b3d5c6e64_Show-HN-FastRecall,-ultra-cheap-memory-across-AI-m]] |
+| 2026-09-29T09:42:55+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-29/aaca079bc1768dc7_Show-HN-FastRecall,-OpenRouter-for-Memory]] |
 
 ## 摘要正文
 
-FastRecall | Home  # Context across AI models.  Made for routers and multi-agent systems. Use any model, keep your context.  ## Lightning fast recall.  Add virtually no latency to model responses.  ## Recalls are free.  Pay for stored context, not retrievals.  ## Long context, intact.  SOTA model-free compaction for long contexts.  FREE SANDBOX  ### 1 week of free sandbox access  Full platform features, no credit card required.  ## Cost calculator  Estimate includes metered platform usage. Model-provider charges are separate.  ESTIMATED MONTHLY COST  $7.00/ MONTH  PLAN Hacker   50K messages stored ~0.1 GB stored  ## FAQ   Why FastRecall? +  Nobody wants to be locked into a single AI model. With routers and multi-agent systems becoming essential infrastructure, your context should move seamlessly between models and providers. Existing memory solutions are overcomplicated, slow, and expensive. Along with SOTA model-free compaction, FastRecall lets the model organize its own context. This is faster, cheaper, and more performant.   Do you host models? +  No, we do not call any model APIs on your behalf.   How is FastRecall so cheap? +  FastRecall uses highly optimized and efficient con…
+Hi everyone! After working on memory at OpenAI, I built FastRecall to solve one problem: using different AI models results in clunky ad-hoc context management systems or lost context entirely. With the model layer becoming commoditized, your context should travel seamlessly across models whether you are using OpenRouter or some other model aggregator.FastRecall offers a simple API that stores your context cheaply and efficiently. In fact, we are so cheap that recalls are entirely free, with generous plans starting at only $2/month!If you use the same model again, FastRecall respects provider caching to save you inference costs. We also have SOTA model-free compaction of context with FlashCompact, in case you don't need full-fidelity context.Hopefully this is useful for some of your projects. Let me know what you think! -tom

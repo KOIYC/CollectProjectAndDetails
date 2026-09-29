@@ -73,7 +73,13 @@ CLAIM_RES: list[tuple[str, re.Pattern]] = [
     ("users", re.compile(_NUM + r"\s*(?:users|用户|注册用户)", re.I)),
 ]
 STOPWORDS = {"the", "and", "for", "with", "new", "app", "saas", "ai", "api", "open", "source",
-             "week", "month", "day", "day1", "hn", "show", "launch", "free", "beta", "v2", "v3"}
+             "week", "month", "day", "day1", "hn", "show", "launch", "free", "beta", "v2", "v3",
+             # 通用 README/文档小节标题：被 PROPER_RE 当成「专有名词」，但从来不是需要建页的「概念」。
+             # 实测 2026-09-29：`contributing` × 126 条（GitHub README 的 "## Contributing" 段）→ 概念缺页假阳性。
+             "contributing", "installation", "install", "usage", "license", "licence", "changelog",
+             "roadmap", "faq", "credits", "acknowledgements", "acknowledgments", "prerequisites",
+             "requirements", "getting", "started", "screenshots", "sponsors", "todo", "contents",
+             "overview", "introduction", "summary", "disclaimer", "caveats", "notes"}
 FORWARD_RE = re.compile(
     r"即将(?:上线|发布|推出)|敬请期待|coming\s+soon|launching\s+soon|in\s+private\s+beta|"
     r"waitlist|预约|内测|early\s+access|coming\s+in\s+\d{4}", re.I)
