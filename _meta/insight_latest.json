@@ -1,25 +1,25 @@
 {
-  "generated": "2026-09-29T09:52:37+08:00",
-  "n_live": 2254,
-  "n_usable": 1994,
-  "n_project": 1777,
-  "signals": 52,
+  "generated": "2026-09-30T19:01:46+08:00",
+  "n_live": 2349,
+  "n_usable": 2082,
+  "n_project": 1861,
+  "signals": 54,
   "topics": [
     [
       "AI 工具/Agent",
-      1249
+      1310
     ],
     [
       "开发者工具",
-      427
+      439
     ],
     [
       "未分类",
-      168
+      177
     ],
     [
       "游戏",
-      52
+      55
     ],
     [
       "移动 App",
@@ -27,7 +27,7 @@
     ],
     [
       "SaaS/B2B",
-      26
+      29
     ],
     [
       "内容/媒体",
@@ -169,8 +169,8 @@
       }
     }
   ],
-  "money_signal_n": 910,
-  "money_evidence_n": 323,
+  "money_signal_n": 938,
+  "money_evidence_n": 330,
   "money_quotes": [
     {
       "source": "betalist",
@@ -247,17 +247,17 @@
   ],
   "pain_n": {
     "当前方案不好用": 66,
-    "在找替代品": 49,
-    "做不出来/卡住": 92,
+    "在找替代品": 51,
+    "做不出来/卡住": 94,
     "愿意付钱": 51,
-    "想要而找不到": 8
+    "想要而找不到": 9
   },
   "by_channel": [
     {
       "id": "betalist",
       "profile": "linkpost",
-      "n": 117,
-      "ok": 117,
+      "n": 128,
+      "ok": 128,
       "rate": 1.0
     },
     {
@@ -268,32 +268,39 @@
       "rate": 1.0
     },
     {
+      "id": "xiaohongshu",
+      "profile": "discussion",
+      "n": 1,
+      "ok": 1,
+      "rate": 1.0
+    },
+    {
       "id": "producthunt",
       "profile": "linkpost",
-      "n": 205,
-      "ok": 203,
-      "rate": 0.9902439024390244
+      "n": 235,
+      "ok": 233,
+      "rate": 0.9914893617021276
     },
     {
       "id": "indiehackers",
       "profile": "linkpost",
-      "n": 86,
-      "ok": 85,
-      "rate": 0.9883720930232558
+      "n": 90,
+      "ok": 87,
+      "rate": 0.9666666666666667
     },
     {
       "id": "bilibili",
       "profile": "metadata",
-      "n": 52,
-      "ok": 50,
-      "rate": 0.9615384615384616
+      "n": 54,
+      "ok": 52,
+      "rate": 0.9629629629629629
     },
     {
       "id": "hn_show",
       "profile": "discussion",
-      "n": 1280,
-      "ok": 1207,
-      "rate": 0.94296875
+      "n": 1320,
+      "ok": 1244,
+      "rate": 0.9424242424242424
     },
     {
       "id": "exa_discovery",
@@ -312,16 +319,16 @@
     {
       "id": "v2ex",
       "profile": "discussion",
-      "n": 58,
-      "ok": 43,
-      "rate": 0.7413793103448276
+      "n": 65,
+      "ok": 48,
+      "rate": 0.7384615384615385
     },
     {
       "id": "reddit",
       "profile": "discussion",
-      "n": 348,
+      "n": 349,
       "ok": 208,
-      "rate": 0.5977011494252874
+      "rate": 0.5959885386819485
     },
     {
       "id": "c1c7",
@@ -329,14 +336,7 @@
       "n": 7,
       "ok": 3,
       "rate": 0.42857142857142855
-    },
-    {
-      "id": "xiaohongshu",
-      "profile": "discussion",
-      "n": 1,
-      "ok": 0,
-      "rate": 0.0
     }
   ],
-  "body_median": 1917.0
+  "body_median": 1898.0
 }

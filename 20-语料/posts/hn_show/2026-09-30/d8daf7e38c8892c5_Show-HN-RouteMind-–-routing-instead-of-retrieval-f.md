@@ -1,0 +1,388 @@
+---
+type: "corpus"
+item_id: "d8daf7e38c8892c5"
+title: "Show HN: RouteMind – routing instead of retrieval for agent knowledge"
+source: "hn_show"
+source_name: "HN Show HN"
+url: "https://news.ycombinator.com/item?id=49897711"
+project_url: "https://github.com/CSP911/routemind"
+author: "csp911"
+published_at: "2026-09-29T18:03:39Z"
+captured_at: "2026-09-30T18:57:07+08:00"
+lang: "en"
+kind: "post"
+topic: "AI 工具/Agent"
+shard: "2026-09-30"
+pub_day: "2026-09-29"
+tags:
+  - 语料
+  - hn_show
+  - author_csp911
+  - story_49897711
+  - show_hn
+metrics: {"points": 2, "comments": 0, "engagement_velocity": 2}
+comments_count: 0
+comments_total: 0
+discovered_via: "hn:show_hn:3d"
+---
+
+# Show HN: RouteMind – routing instead of retrieval for agent knowledge
+
+> [!info] 一句话导读
+> Dynamic routing for agent knowledge. Areas advertise when they're relevant; the agent routes before it reads. MCP server, git-backed, no database.
+
+> [!meta]- 语料信息（点开展开）
+> 来源：HN Show HN（post）
+> 原帖：<https://news.ycombinator.com/item?id=49897711>
+> 指标：点赞=2 · 评论=0 · engagement_velocity=2
+> 作者：csp911　|　发布：2026-09-29T18:03:39Z
+> 项目链接：<https://github.com/CSP911/routemind>
+> 采集：2026-09-30T18:57:07+08:00　|　id：`d8daf7e38c8892c5`
+
+## 正文
+
+# CSP911/routemind
+
+Dynamic routing for agent knowledge. Areas advertise when they're relevant; the agent routes before it reads. MCP server, git-backed, no database.
+
+- Stars: 4
+- Forks: 0
+- Watchers: 4
+- Open issues: 1
+- License: MIT License
+- Default branch: main
+- Created: 2026-09-11T23:43:31Z
+
+## Languages
+
+- CSS
+- Dockerfile
+- HTML
+- JavaScript
+- Python
+- Shell
+
+## Topics
+
+- ai-agents
+- claude
+- knowledge-base
+- llm-tools
+- mcp
+- model-context-protocol
+- ontology
+- rag
+
+## Top Contributors
+
+- CSP911 (140 contributions)
+
+---
+
+## README
+
+# RouteMind
+
+**An ontology you can see the agent reading.** Split a domain into areas, let each area advertise
+itself in one line, and an agent picks from that list before reading anything else. The map draws
+that structure as a wiring diagram, and one click shows you **the exact text an agent is handed**.
+
+The domain is not in this code. The vocabulary and the areas are data, and the data is your own git
+repository.
+
+The RouteMind map: a backbone carrying five areas, two of them opened to show the nodes they hold,
+with the routing table each one hands an agent one button away.
+
+On 700 questions over one frozen corpus, asked **in a person's words** rather than in the codes the
+documents use, retrieval scores **0.028** and this scores **1.000** — and it costs 6.7 tool calls and
+20–100× more per question, which is why 320 of those 700 are questions nothing here argues for
+walking. The study, the corpus and every run are in this repository.
+
+```sh
+./install.sh --name acme --port 9000   # then `claude` in the same directory
+```
+
+---
+
+## How it works
+
+Each area summarizes itself into one advertised route; the backbone holds one row per area, and no
+more. An agent reads that list at hop 0, picks every area the question belongs to — a client dinner on
+the corporate card is expense and approval, not one of them — and only then reads
+documents.
+
+The shape is borrowed from dynamic routing on a network, and the borrowed part is the useful one: an
+area advertises **where it is relevant**, not everything it holds. So the cost of finding something
+does not grow with how much there is.
+
+The thing easiest to get wrong is that **`use_when` is the only text read before a choice is made** —
+an area with a title and no reason is one nobody picks.
+
+### Back-Bone, AS, and the line between them
+
+```
+   BACK-BONE ─ the whole of this ontology. Hop 0: one row per AS, nothing else,
+       │       and the only place absence may be claimed
+       │
+       ├── AS  expense    "what to do with a receipt · whether the corporate card
+       │        │          may be used here · how much a business trip pays"
+       │        ├── AS  corp-card   ← an AS holds AS's: the same thing one level
+       │        │    └── card-limit   down, advertising itself the same way
+       │        └── AS  evidence
+       ├── AS  approval   "whom to put in the approval chain · whether a team
+       │                   lead can sign this off"
+       └── AS  payroll    "what this payslip line means · whether an allowance
+                           is tax free"
+```
+
+**An AS advertises; it does not expose.** What is inside is invisible from hop 0 until something
+picks it — so hop 0 is the same size at 80 documents and at 8,000.
+
+**Absence belongs to the Back-Bone alone.** An AS's table says what that AS holds, never what
+RouteMind lacks. Every table says which of the two it is, in its own footer.
+
+### Overlays
+
+Some questions do not sit in one area: settling a trip is three at once. An **overlay** is that
+working set made as an object — the areas, why each is in it, and what was used to answer.
+**docs/OVERLAY.md**.
+
+## Measured
+
+700 questions over one frozen corpus of 1,126 documents. Four arms, all of them a census — no
+sampling, one fresh agent per question.
+
+| | plain RAG | + reranker | RouteMind |
+|---|---|---|---|
+| a question in codes the rows use | 0.991 | 1.000 | **1.000** |
+| **a question in a person's words** | **0.028** | **0.069** | **1.000** |
+| **a rule two revisions back** | **0.133** | **0.200** | **1.000** |
+| overall | 0.516 | 0.541 | **0.999** |
+
+The two bold rows are the point: retrieval does not *degrade* there, it fails outright, because every
+newer version of a subject outranks the one being asked for and they all look alike.
+
+**What it costs.** A walk is 6.7 tool calls, 23–111 seconds and $0.12–$0.28 a question against one
+sub-second embedding call — and **320 of those 700 are questions retrieval already answers first
+time.** Nothing here argues for walking those.
+
+**The one miss in 700 was a wrong sentence in the map**, not a wrong document, and both routing arms
+obeyed it identically. An agent that trusts the map inherits the map's errors silently. Still
+unmeasured: whether a *correct* map has a size at which it stops working.
+
+**Check it rather than take it.** The corpus is 865 documents in `bench/corpus/`, the gold sets are
+in `eval/gold/`, the generator that made the corpus is `bench/spec.yaml` + `bench/generate.py`, and
+every run — including the ones that failed — is in `eval/runs/`. Re-running needs an API key and
+`./bench/run.py eval/gold/.yaml`; **bench/README.md** has the order.
+
+**eval/report/report-en.html** — the whole thing with figures ·
+**한국어** · **eval/PREREGISTRATION.md** —
+written and frozen before any of it ran.
+
+## Quickstart
+
+Docker, with `docker compose`. That is all it needs — the containers carry python and git.
+
+```sh
+git clone https://github.com/CSP911/routemind.git routemind && cd routemind
+./install.sh --name acme --port 9000
+```
+
+→ **http://localhost:9000**
+
+`--name` is what this domain is called: one word, lowercase, and it appears in every address a linked
+backbone prints (`/v1/peers/acme/…`). `--port` is where the map answers, 8080 by default. Run
+`./install.sh` bare and it asks for both, then asks whether you have an LLM — Enter skips it, and
+`--no-llm` does not ask. An LLM changes one thing: a **✨ Suggest** button that drafts a routing line
+for you to edit.
+
+Safe to run again; an existing `.env` is kept and only what you pass is replaced.
+
+**Three containers, no database.** `ontology` is the API and the only thing that touches your git
+repository; `web` is the map and a proxy; `exchange` is where backbones meet, idle until you link
+one. On first boot an empty ontology is laid into `data/repo` and that becomes a git repository —
+every write **commits**, so undo is `git revert`.
+
+Start from `examples/back-office` rather than an empty map: five areas, 79 entities,
+five levels deep. **docs/INSTALL.md** — that, the manual route, what to do when it
+does not come up, and the first two things to write.
+
+## Connecting an agent
+
+Optional — the map works on its own. An agent reads this ontology the same way every time: **fetch
+the list of areas, pick one, fetch that area, read what it points at.** Two operations, never a third.
+
+```sh
+python3 mcp/knowledge_mcp.py --api http://localhost:8080/api/knowledge
+```
+
+One file, stdlib only: no install, nothing to build. For **Claude Code** there is nothing to do at
+all — `install.sh` writes `.mcp.json` at the root, pointed at the port you chose, so `cd routemind &&
+claude` is the whole setup and `/mcp` shows the tools.
+
+`knowledge_table(path?)` and `knowledge_read(path)` do the reading. The rest appear only where the
+install has what they need: `knowledge_overlay` where overlays are kept, `knowledge_write` where
+there is a `workspace` area, `knowledge_circuit` always. `/circuit ` is the same thing
+from a person's side.
+
+The area list travels in the server's `instructions`, so **you do not have to name RouteMind in the
+question** — what decides whether the agent comes here is the `use_when` line on each area. Without
+MCP, **Copy for an agent** on the map puts the same text on the clipboard; all of them hand over one
+formatter's output, because three descriptions of one ontology would drift.
+
+**docs/AGENTS.md** — every client, the tools, and the prompts.
+
+## How old is this row
+
+Material goes stale and gets replaced; the old record still has to exist. Both versions are in the
+map, both look valid, and an agent reads both as current — so it sometimes answers from the one that
+was replaced.
+
+Every routing row carries two times:
+
+```
+  KIND   ADDRESS                        AGE          WHY YOU WOULD PICK THIS ROW
+  table  /v1/nodes/card-limit           2y / today   Card limits — what the card may be used for …
+  file   /v1/nodes/qualified-list/body  2y / 2y      What qualifies as evidence, and the ceiling …
+
+         how long this path ─┘    └─ when what it points at last moved
+         has been here
+```
+
+**One number cannot say both.** A two-year-old route over a document rewritten today is current —
+somebody is maintaining it. The same route over a document that has not moved is the one to ask about
+before quoting it. Both come from git, so there is nothing to keep in sync.
+
+It is **not** a supersession record: old is not wrong, and an agent that prefers the newest row picks
+a draft over a rule that has held for a decade. The column supports asking, not deciding.
+
+**docs/AGE.md**.
+
+## More than one backbone
+
+An install is **one backbone and an exchange**. A **domain** is one exchange and the backbones on it —
+head office and a subsidiary are one domain; a company and its supplier are two.
+
+An area crosses by somebody setting `export: yes` on it, and by nothing else. The line a peer reads
+is that area's own `use_when` — one sentence, the same one this backbone routes on. `export_to`
+narrows who sees it; a kind marked `export: no` in `vocab.yaml` never leaves whatever an area says.
+
+```
+  PEERING — standing, committed, everyone sees it
+     your BB ── peers.yaml ──▶ EXCHANGE ◀── members.yaml ── their BB
+     Their areas appear in YOUR hop 0. An agent never learns there is a link.
+
+  CIRCUIT — this session only, nothing written on either side
+     /circuit http://their-host:8100 <token>
+     Their areas appear under /v1/circuits/<name>/… , beside yours, never in it.
+```
+
+Both halves of a peering are declarations, so nobody is enrolled by one side alone. A circuit is the
+opposite by design: one person, one session, one address and a token somebody handed them.
+
+Three things worth knowing before relying on either. **Nothing is copied** — a document is relayed,
+held for one request and discarded, so the only record of a read is the one its owner writes.
+**No transit** — a room offers a neighbour its own backbones, never a third room's. **Absence
+suspends itself** — hop 0 may claim something is missing only while every link is up, and says so
+when one is not.
+
+The credential is an **enrolment key** that buys a six-hour session; the key opens nothing else, and
+a session cannot mint another. It shortens how long a leak is worth something. It does not prove who
+is at the far end.
+
+**docs/PEERING.md** — the contract, the circuit, the sessions, and the operator's
+screen at `:8090`.
+
+## Carrying one where a link cannot reach
+
+A partner behind a firewall, an air-gapped site, an auditor who gets a copy and nothing else.
+
+```sh
+./transfer/export.py --api http://localhost:8100 --token "$TOK" --out partner.rmx
+./transfer/import.py partner.rmx --graft data/repo --prefix partner
+```
+
+**Export** in the map's header downloads the same file. It is AES-256-GCM with an authenticated
+header, so it says what it claims to be before anyone types a passphrase at it.
+
+It holds exactly what a peer would have been able to read — the areas somebody set `export` on,
+their documents, and the links between them where both ends are inside that set. That is read from
+the same surface a link reads, not filtered on the way out, so no bug in this code can serve an area
+nobody decided to share.
+
+Grafting prefixes every id, and the receiving repository's **own validator** decides whether the
+result is coherent. Without `--graft` it unpacks to a directory and writes into no ontology at all.
+
+**transfer/README.md**.
+
+## Layout
+
+```
+ontology/     the ontology API — python + pyyaml + git. Knows nothing about any domain
+exchange/     where backbones meet. No repository, no areas, no hop 0
+web/          the map and a proxy — one FastAPI file. Knows nothing about any domain
+admin/        the operator's screen for an exchange. Off unless EXCHANGE_ADMIN_TOKEN is set
+mcp/          the MCP server, so any MCP-capable agent can read the ontology
+transfer/     export, import and graft — one encrypted file, for where a link cannot reach
+static/       the map screen
+seed/         an empty ontology, copied into data/repo on first boot
+examples/     one worked ontology, and seed-demo.sh — six backbones across two rooms
+check/        every check. docs/CHECKS.md
+docs/         everything below
+
+data/repo     ← your ontology. A git repository, and the only thing to back up
+data/*        publish, overlays, harness, exchange, access — all derived or local.
+              docs/DATA-REPO.md
+```
+
+## Everything else
+
+| | |
+|---|---|
+| ROUTING.html | the whole structure, in a browser |
+| INSTALL.md | installing by hand, what to do when it does not come up, the first two things to write |
+| PEERING.md | links between backbones, circuits, six-hour sessions, the operator's screen |
+| AGE.md | the two times on a routing row, and what they deliberately do not say |
+| transfer/README.md | carrying a backbone somewhere a link cannot reach |
+| OVERLAY.md | the working set for one question |
+| AGENTS.md | connecting an agent — every client, and the tools |
+| LLM.md | the optional ✨ Suggest buttons, and the three provider wires |
+| AUTH.md | who may write, and whose name goes on the change |
+| DATA-REPO.md | your ontology as a git repository, and the one derived file in it |
+| CHECKS.md | every check, what it proves, and where it can run |
+| PLATFORMS.md | macOS, Linux, Windows — and what differs on each |
+| I18N.md | English, 한국어, 日本語, 简体中文 — and adding one |
+| SCENARIOS.md | the routing table over a whole lifetime |
+| DOMAIN-NEUTRALITY.md | which rules still belong to the domain this came from |
+| PROVENANCE.md · DELTA-FROM-IRIS.md | where this came from, and what changed |
+| TODO.md | known gaps, written down rather than glossed over |
+| eval/ | the study — pre-registered before it is run |
+
+---
+
+## Contact
+
+Business inquiries, collaboration, or just curious: **qct8377@gmail.com**
+LinkedIn → linkedin.com/in/cspark911
+Bug reports and questions → GitHub Issues
+
+## License
+
+MIT — see LICENSE.
+
+# diggerhq/opendots
+
+## 关联链接
+
+- http://localhost:8080/api/knowledge
+- http://localhost:8100
+- http://localhost:9000**
+- http://their-host:8100
+- https://github.com/CSP911/routemind.git
+
+## 导航
+
+- 项目页：[[10-项目/github.com_d1da6556]]
+- 渠道页：[[50-渠道/hn_show]]
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 同渠道/同赛道批量浏览：[[浏览]]

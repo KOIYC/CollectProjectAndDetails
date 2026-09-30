@@ -5,7 +5,7 @@ title: "Dad Is Dead"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/dad-is-dead"
-captured_at: "2026-09-29T09:44:49+08:00"
+captured_at: "2026-09-30T18:57:07+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-29T09:44:49+08:00　|　id：`9beb0fac95579466`
+> 采集：2026-09-30T18:57:07+08:00　|　id：`9beb0fac95579466`
 
 ## 正文
 
@@ -50,36 +50,58 @@ I wrote up the full story in a separate post today: https://www.indiehackers.com
 Short version: Dad Is Dead is a digital legacy tool built around a proof-of-life check-in — if you go quiet, your designated custodians are notified automatically, with control over exactly what each of them can see and when. It's live, it works, and it has zero real customers so far.
 If you've dealt with a parent's or spouse's accounts after they passed, or you've been putting off your own version of this, I'd genuinely like to hear what the hardest part was.
 AgeeBgee Solutions
-9 Likes
-4 Comments
+10 Likes
+7 Comments
 Say something nice…
 Post Comment
 1
 I think the name might be too controversial, although certainly memorable. Imagine a family seeing it in an email right after a real loss. 😮😮😮
 GetSMS
 ·
+3 days ago
+ ·
+Reply
+2
+Fair point, and you're not the only one saying it — a couple other people have flagged the same thing on the other post. We went for memorable on purpose, but hearing it independently from a few different people now makes me think the "family seeing it in an email right after a real loss" scenario is a real risk, not just an edge case. Genuinely reconsidering the name because of it.
+AgeeBgee Solutions
+·
 a day ago
+ ·
+Reply
+1
+Maybe it's worth experimenting with names like "Still with us", "Life Pulse", "Heart Beat" etc? You domain name has dashes in it anyway, so this is not what people would naturally type in.
+GetSMS
+·
+a day ago
+ ·
+Reply
+1
+Appreciate you actually throwing out alternatives instead of just flagging the problem. The dashes-in-the-domain point is a fair, separate argument from the "email after a loss" one — worth weighing on its own.
+"Still With Us" is the one of those that's actually in the right emotional register for this product — the other two read more fitness-tracker to me. Not committing to anything yet, but it's officially on the shortlist now, not hypothetical.
+AgeeBgee Solutions
+·
+9 minutes ago
  ·
 Reply
 1
 When people describe managing a loved one's affairs, what recurring problem creates the strongest urgency—discovering accounts, gaining access, or coordinating responsibility before something happens?
 Aryan Sinh
 ·
-5 days ago
+7 days ago
  ·
 Reply
 1
 Honestly, from the conversations I've had, it's coordinating responsibility before something happens — specifically, nobody had agreed in advance on who should act and when. Discovering accounts and gaining access were real pain, but people described those as solvable-with-enough-time problems. The "nobody decided who's supposed to do this, or when" part is what caused actual paralysis. That's basically the bet the whole product is built on — solve the trigger/coordination problem first, and the access/discovery problem gets a lot more tractable once someone's actually been designated and notified.
 AgeeBgee Solutions
 ·
-5 days ago
+7 days ago
  ·
 Reply
 1
 That coordination problem is sharper than the access problem. Could be useful to dig into that a bit more by email sometime.
 Aryan Sinh
 ·
-5 days ago
+7 days ago
  ·
 Reply
 About

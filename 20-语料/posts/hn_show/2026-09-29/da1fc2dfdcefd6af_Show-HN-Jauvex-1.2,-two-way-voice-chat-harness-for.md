@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49886390"
 project_url: "https://github.com/reindent/jauvex"
 author: "daraosn"
 published_at: "2026-09-29T00:31:44Z"
-captured_at: "2026-09-29T09:49:37+08:00"
+captured_at: "2026-09-30T18:57:07+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=2 · 评论=1 · engagement_velocity=2
 > 作者：daraosn　|　发布：2026-09-29T00:31:44Z
 > 项目链接：<https://github.com/reindent/jauvex>
-> 采集：2026-09-29T09:49:37+08:00　|　id：`da1fc2dfdcefd6af`
+> 采集：2026-09-30T18:57:07+08:00　|　id：`da1fc2dfdcefd6af`
 
 ## 正文
 
@@ -45,9 +45,9 @@ discovered_via: "hn:show_hn:3d"
 
 Your coding agents, side by side, by voice. Claude, Codex & Grok in one desktop app, with Jev for the fast decisions.
 
-- Stars: 3
+- Stars: 4
 - Forks: 2
-- Watchers: 3
+- Watchers: 4
 - Open issues: 0
 - License: Apache License 2.0
 - Homepage: https://jauvex.reindent.com
@@ -62,7 +62,7 @@ Your coding agents, side by side, by voice. Claude, Codex & Grok in one desktop 
 
 ## Top Contributors
 
-- diegoaraos (8 contributions)
+- diegoaraos (9 contributions)
 
 ---
 
@@ -71,7 +71,7 @@ Your coding agents, side by side, by voice. Claude, Codex & Grok in one desktop 
 # Jauvex
 
 Your coding agents, side by side, by voice. Claude, Codex and Grok in one desktop app, with Jev (TypeSafe) for the fast
-decisions. Jauvex Personal, version 1.2.1, for macOS; Apache License 2.0. Source: github.com/reindent/jauvex; site:
+decisions. Jauvex Personal, version 1.3.0, for macOS; Apache License 2.0. Source: github.com/reindent/jauvex; site:
 jauvex.reindent.com. Made by Reindent (one human and agents).
 
 Jauvex is an Electron client for the Claude Code, Codex and Grok Build sessions on your Mac. Add a folder, pick up any of its
@@ -236,6 +236,58 @@ your Mac from this source: `npm start` runs it from the Electron binary in `node
  state for that board's file (a board's folder is often a repository: nothing of ours is written there), and it is left out of the
  folder's list of agents. A folder reached through a symlink keeps its history too: Claude Code files a session by the real path,
  and the app looks there as well (`tests/window/board-chat.test.ts`).
+- **Workflows** (T-210): a workflow is a markdown file in the folder, `workflows/.md`, and a folder beside it, `workflows/ /`,
+ with one file per step: its instructions. The workflow file has a title and a line, `when:`, then the steps in order, one heading each:
+ `## 1. Script → Video Agent`, the step's name linked to the file of its instructions, and who does it; `→ you`
+ makes a step a human-in-the-loop gate (never a person's name). A step's file holds only what its agent is told, in plain words. They are
+ listed under the folder, between its sessions and its boards; a new one comes from the folder's options (New workflow) or
+ `new-workflow --name "..."`, and starts as a Hello World that runs as it is: the Jauvex agent says hello, you approve, it writes the
+ greeting down in the run's folder. The app's own agent is the one a step goes to when no agent is named, since every install has it.
+ - **The view**: one line, one row per step with its agent and the state of the current run; click a row for its details in the right pane,
+ the file name to edit the markdown in place (the flow follows, the file is saved), and "All runs" for the history. Everything is editable
+ without the markdown: the title and the line under it in place; a step's pane opens to be read (who does it, its instructions and the
+ file they are kept in, how it went in its last runs), and **Edit** opens its editor: who does it, picked from **In this folder** first,
+ then **Elsewhere** (the Jauvex agent first, then the other folders' agents), or you; its instructions; an optional title (without one,
+ the step is called by its instructions, cut short). A + on the line between two steps adds one there; a step can be removed. Each edit
+ rewrites only its part of the file (`shared/workflow-edit.ts`), and a step's file is made, renamed and removed with it; the app reads
+ and writes a step's file only in the workflow's own folder. **The sidebar's order** (T-224; the user, 2026-09-29: "when it needs a human
+ supervision, it should be on top, 100% ... then by those that were last modified, not created or last run"): the workflows waiting for
+ you first, then the running ones, then the rest by the last change of their file or their steps' instructions, the newest first
+ (`sortWorkflows` in `shared/workflow.ts`, `tests/workflow-parse.test.ts`).
+ - **Running one**: the Run button, or an agent's `run --workflow --folder ` (a workflow written a moment ago is found: the
+ folder is read again when the window's list does not have it yet), sends step 1 as one message to the agent it
+ names, through the channel the agents already use, with its instructions, the previous step's words and how to end
+ (`OUTCOME: /runs/NNN.md` (started, result, took, each step's time and last
+ words), and a folder for its files; the view derives the live run, the history and the averages from them. When a run starts, the
+ workflow file and each step's instructions are compared with the latest version: the run takes it when nothing changed, else a new one,
+ `workflows/ /versions/NNN.md`, whole; editing takes none. **Versions** lists them, and any other than the current one can be
+ restored (what the workflow was is kept as a version of its own first, so nothing is lost).
+ - **Tries**: a step may come round as many times as its tries with no decision of yours in between; past that, a loop between agents alone
+ stops the run. A decision of yours starts the count again, so a loop through you has no limit. A workflow's number is its `tries:` line
+ (6 when there is none); a new one is written with the number in Settings, General, Workflows; a step can say its own, `tries: 1`.
+ - **Triggers**: `when:` is manual, a schedule (`every Monday 09:00`, `every weekday 8:30`, `every day at 7pm`, `every 2 hours`), a window
+ (`anytime between 9 and 12 am`: once a day, at a random time in it, at its end at the latest) or an event (`after `: when that one ends done, read from the folder then, so one written a moment before counts too). Schedules are the app's own timer: every 15 s it reads the folder's workflows again (an edited `when:`
+ line counts at once) and starts one whose slot is under ten minutes old, once per slot, while the app is open. A schedule missed while
+ the app was closed (or the computer asleep) is the setting's, in Settings, General, Workflows: run it as soon as the app opens, have the
+ Jauvex agent tell you and ask whether to run it now (the default), or do nothing; only the latest missed time of each workflow counts
+ (`settings --workflow-missed run|alert|nothing`). A run records who started it (`by: its schedule (every weekday 6:32)`).
+ - **Talk to a workflow**: under the flow sits a chat of its own (a hidden session in the folder, kept in `workflows/ /chat.json`),
+ told on every message what the workflow is now, its steps' instructions included: it edits the files (the flow follows), and runs it,
+ stops it or passes its gate on your word. It writes to the app's agents and hears back as any chat does: the router knows it as
+ " workflow" while its view is open and delivers to it there; a board's chat is reached the same way, as " board".
+ - **Moving one to another folder** (T-217; the user, 2026-09-29: "The workflows were actually moved But the sessions of the agents were
+ not"): every provider files a session by the folder it works in, so a workflow moved by hand takes its files and leaves its chat's
+ session under the old folder, and its chat opens empty. `move-workflow --workflow --to [--folder]` moves
+ the file, its folder (steps, runs, versions, `chat.json`) and the chat's session, and puts the files back if the session cannot move:
+ Claude Code's transcript to the new folder's place (` /projects/<folder, dashed>/`, by the folders' real paths, with what it
+ keeps beside it, every line's working folder rewritten, its time kept), Grok's session folder to the new folder's
+ (`<GROK_HOME>/sessions/<folder, URL-encoded>/`), and a Codex thread resumed in the new folder, which Codex records in the thread
+ (`electron/move.ts`, `moveThread` in `electron/codex.ts`, `moveSession` in `electron/grok.ts`). `move-session --session
+ --to ` moves one agent the same way, with what the app keeps for it (its place in the list, provider, settings, context); it
+ works in the new folder from its next turn. Neither runs while the session works or the workflow runs. A step's agent is found by name
+ wherever it lives. Checks: `tests/move-session.test.ts` (a folder reached through a symlink too), `tests/window/move-workflow.test.ts`.
+ - A workflow is deleted from its row's secondary click, after a yes, with its folder (instructions, runs, versions); one that runs is
+ stopped first. Every agent that runs in a folder is told its workflows, and that a step of its own ends with the OUTCOME line.
 - **Images an agent shows** (a markdown image with a local path, relative to its folder or absolute) load from the file
  and never overflow the thread (at most the thread's width and 60% of the window's height).
 - **Images in a message**: paste a screenshot from the clipboard into the composer, drop image files on it, or pick them
@@ -345,7 +397,10 @@ Press the white round button in the message box. All local except the two Claude
   ```
   When its turn ends the app delivers the text to that session, tagged `(from agent "Sender" [id])`: steered into the
   running turn if that agent is working, sent as a new turn otherwise (the session is mounted in the background if it
-  was not open). Whatever the other agent replies comes back to the sender by itself, tagged the same way, so an
+  was not open). A message that wants its own answer is never handed to a turn under way that answers someone else, nor is a
+  workflow's step: it waits in the queue with its address and goes as a turn of its own (T-228: a chat kept one address for its turn's
+  answer, and an answer went to an agent that had asked a question meanwhile; `shared/delivery.ts`, `tests/delivery.test.ts`).
+  Whatever the other agent replies comes back to the sender by itself, tagged the same way, so an
   explicit message is a question and no block is needed to answer it; an answer does not bounce back again, so two
   agents cannot ping-pong on their own (and the app stops relaying after 30 agent-to-agent messages in ten minutes).
   A reply that goes back to its sender leaves out the blocks it addressed to other agents (they went to them) and says who
@@ -369,65 +424,7 @@ Press the white round button in the message box. All local except the two Claude
   prompt, sent as Codex's developer instructions): several agents side by side, messages that arrive mid-turn are new
   information to fold in (not a restart), the full answer is on screen while a separate small model speaks a short
   version (so: conclusion first, short plain answers for simple questions), a turn can be stopped at any moment, and in
-  voice mode the text is dictated. It names no product, so a rename does not touch it.
-- **Accounts** (click the footer of the sidebar): who each provider is signed in as, and the command that signs it in or
-  out in Terminal (`claude auth login|logout`, `codex login|logout`, `grok login|logout`); Refresh after using it. The app has no login of its
-  own: it uses the sign-in of each provider's own tool on this Mac (Claude: `claude auth status` on the SDK's bundled binary;
-  Codex: the app-server's `account/read`; Grok: its agent's `x.ai/auth/info`). Signing in, out and switching from inside the app is built (the provider's
-  browser flow, run from the panel and the welcome) but hidden in this edition (`SIGN_IN_IN_APP` in `shared/types.ts`,
-  since 2026-09-24): Anthropic does not let apps built on its Agent SDK offer the Claude.ai login. Sessions are files on this
-  Mac and stay whichever account is signed in; a running turn keeps the old account until it ends
-  (`tests/window/sign-in-by-cli.test.ts`).
-- **Usage battery**: next to the composer's controls, a small battery shows how much of the session's provider plan is
-  left: green above 40 %, amber to 15 %, red below. It shows the tightest window that applies (Claude: 5 hours, 7 days,
-  and a model's own weekly window only when that model is the one in use; Codex: its ordinary limit, and a model's own
-  extra limit only when that model is in use; Grok: its plan's credits for the week or month, or its on-demand spending once
-  those are used up). A click opens the panel (T-98): one tab per provider signed in, this chat's provider selected, each tab
-  with what is left of it at a glance; in a tab, every window, how much is left and used, and when it resets (counted down,
-  and on the clock), with the plan, Claude's extra usage, Codex's credits, Grok's on-demand spending and bought credits; a model's own window (Claude's Fable week; a Codex model's extra limit, which
-  Codex names after the model and, in its own status, counts only for that model) is greyed in a chat on another model.
-  Refreshed every minute while the window is visible, after each turn, and with the panel's Refresh; a refresh keeps what
-  is shown until the new answer is in. When usage is not available for the account (an
-  organisation plan, no allowance), the battery is a steady outline with "n/a" and the reason in its tooltip, never a
-  flicker. Claude's numbers are the data behind `/usage` (the SDK's experimental usage request, asked of a short-lived
-  idle process: nothing is sent to a model); Codex's come from `account/rateLimits/read`, Grok's from its agent's `x.ai/billing`. Only percentages, reset
-  times, the plan's name, extra usage and the credits balance are read, never account IDs.
-- **Context meter** (T-74): next to the battery, sheets piling up in a small tray show how full the session's context is: one
-  flat sheet per fifth of the model's window (an empty tray at 0 %), white, yellow from 50 %, red from 80 %, with the percentage. Claude's number is what the last request
-  carried (input, cache writes and cache reads, as Anthropic's status line counts it) against the model's window, both from the SDK
-  (`message.usage`, the result's `modelUsage[model].contextWindow`); Codex's is `thread/tokenUsage/updated` (the last request's total
-  against the model's usable window). The numbers are kept with the session (`Project.context`), so the meter shows them when the
-  chat opens. A click opens the numbers and a Compact button; the click itself compacts nothing. Compacting is a turn of its own
-  (Claude Code's `/compact`, Codex's `thread/compact/start`) sent with the last turn's settings, so the provider's cached prompt still
-  applies; a typed `/compact` does the same. While it runs the sheets pulse and the thread says so; when it is over, a note in the
-  thread (kept with the session's notes) says it, with the tokens before and after, and so does the flight recorder, whoever started
-  it (the provider compacting on its own mid-turn included). **Auto-compact** (Jauvex settings, Context; `settings --auto-compact
-  |provider`) is 90 % by default: past it, the chat compacts after the answer, before the next message goes. Claude Code's
-  own trigger is moved to the same share of the window (`CLAUDE_AUTOCOMPACT_PCT_OVERRIDE`, scaled, since Claude Code counts it against
-  the window less the room it keeps for the answer; it can only lower Claude Code's threshold), so a long turn compacts in the middle
-  too; Codex compacts mid-turn at its own limit (90 % of its model's window, about 95 % on the meter). A message that does not fit
-  at all ("Prompt is too long", Codex's `contextWindowExceeded`) is compacted for at once and sent again, once. Why: on 2026-09-23 a
-  Claude session sat at 962K of its 1M window, the next message pushed it over, and the messages after it failed with "Prompt is
-  too long" until it was compacted by hand; no meter had shown how full it was, and nothing said it was compacting. Anthropic gives
-  no recommended percentage (Claude Code's own default is about 967K of a 1M window); 90 % leaves room for the next message.
-- **What you say is written as you say it.** The moment you start talking, a dashed "Hearing you" bubble opens on your
-  side of the thread and fills with your words while you are still speaking (typed out, with only the corrected part
-  retyped when a newer transcript disagrees). When the thought is finished the bubble becomes the real message: sent,
-  queued, or handed over mid-turn. Nothing is repeated under the orb. The live words come from a second, tiny Whisper
-  (`ggml-base`, its own server on the next port, asked about once a second and never while the real transcript is being
-  made), because whisper-server answers one request at a time and the transcript that counts must not wait. Both servers
-  run half a second of silence at start-up, so the first sentence does not pay for loading the model onto the GPU. Before
-  starting its own, the app stops any whisper-server a previous run left on its two ports (found by port, checked by command
-  line, stopped by its own pid): the app dies without them when it is killed, and each restart used to leave a pair behind.
-  Only this install's are stopped (their model is in its own `models/`): on 2026-09-24 the other edition, started next to this
-  one on the same ports, stopped both of this one's servers, and the wake phrase went with them. The editions use ports of
-  their own; one that finds its port taken by another install's server leaves it and says so in the flight recorder.
-- **The orb rides on the conversation.** In voice mode the thread runs on under the orb and fades out behind it (a mask, so
-  it works on any background); the last message rests just above it. The thread stays pinned to the bottom whatever
-  grows (streamed text, a voice line being typed, a table rendering, the draft bubble, the orb appearing): only scrolling
-  up lets go of the bottom.
-- **Voice**: with no voice picked the app uses the system's default voice. (Samantha renders a line in a third of the
-  time, 0.65 s against 1.9 s, but sounds robotic next to it; not worth it.) A half-finished thought
+  voice m
 
 ## 评论（1/1）
 

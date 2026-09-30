@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49885295"
 project_url: "https://github.com/PJHkorea/time-density-tension"
 author: "PJHkorea"
 published_at: "2026-09-28T22:22:41Z"
-captured_at: "2026-09-29T09:49:37+08:00"
+captured_at: "2026-09-30T18:57:07+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=2 · 评论=1 · engagement_velocity=2
 > 作者：PJHkorea　|　发布：2026-09-28T22:22:41Z
 > 项目链接：<https://github.com/PJHkorea/time-density-tension>
-> 采集：2026-09-29T09:49:37+08:00　|　id：`ac3fe87da6675197`
+> 采集：2026-09-30T18:57:07+08:00　|　id：`ac3fe87da6675197`
 
 ## 正文
 
@@ -45,9 +45,9 @@ discovered_via: "hn:show_hn:3d"
 
 A pure topological dynamics engine solving galactic rotation flatness and cosmic web damping without dark matter or dark energy. Validated directly against SPARC and Planck datasets with zero-bias, a priori derived universal constants.
 
-- Stars: 0
+- Stars: 1
 - Forks: 0
-- Watchers: 0
+- Watchers: 1
 - Open issues: 1
 - License: Apache License 2.0
 - Default branch: main
@@ -78,7 +78,7 @@ A pure topological dynamics engine solving galactic rotation flatness and cosmic
 
 ## Top Contributors
 
-- PJHkorea (542 contributions)
+- PJHkorea (562 contributions)
 
 ---
 
@@ -605,7 +605,7 @@ Step   | Time (Myr) | z Map | Gas_Pos (kpc)  Tension_Pos (kpc)   Covariant Error
 ```text
 ===================================
 
-# acu
+Error
 
 ## 评论（1/1）
 

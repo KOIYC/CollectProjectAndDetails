@@ -5,7 +5,7 @@ title: "Launchnest Ln 15"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/launchnest-ln-15"
-captured_at: "2026-09-29T09:44:49+08:00"
+captured_at: "2026-09-30T18:48:20+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-29T09:44:49+08:00　|　id：`14ab97ccd606c743`
+> 采集：2026-09-30T18:48:20+08:00　|　id：`14ab97ccd606c743`
 
 ## 正文
 
@@ -75,28 +75,27 @@ Post Comment
 Perfect
 Amdrewjulian
 ·
-3 days ago
+4 days ago
  ·
 Reply
 1
 Nice
 Amdrewjulian
 ·
-3 days ago
+4 days ago
  ·
 Reply
 1
 Good
 Amdrewjulian
 ·
-3 days ago
+4 days ago
  ·
 Reply
 1
 I like the problem-based discovery idea. People often know what they need, not what the tool is called.
-wajib
 ·
-3 days ago
+5 days ago
  ·
 Reply
 About

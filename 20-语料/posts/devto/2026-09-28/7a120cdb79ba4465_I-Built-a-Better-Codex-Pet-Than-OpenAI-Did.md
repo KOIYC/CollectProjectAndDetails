@@ -8,7 +8,7 @@ url: "https://dev.to/mikachu/i-built-a-better-codex-pet-than-openai-did-eib"
 project_url: "https://github.com/miflow13/mochi-desktop"
 author: "Mika Flowers"
 published_at: "2026-09-26T11:16:56Z"
-captured_at: "2026-09-29T09:45:02+08:00"
+captured_at: "2026-09-30T18:57:18+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,7 +21,7 @@ tags:
   - python
   - linux
   - showdev
-metrics: {"reactions": 37, "comments": 8, "reading_time": 5}
+metrics: {"reactions": 42, "comments": 8, "reading_time": 5}
 comments_count: 8
 comments_total: 8
 discovered_via: "devto:showdev"
@@ -35,10 +35,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/mikachu/i-built-a-better-codex-pet-than-openai-did-eib>
-> 指标：reactions=37 · 评论=8 · reading_time=5
+> 指标：reactions=42 · 评论=8 · reading_time=5
 > 作者：Mika Flowers　|　发布：2026-09-26T11:16:56Z
 > 项目链接：<https://github.com/miflow13/mochi-desktop>
-> 采集：2026-09-29T09:45:02+08:00　|　id：`7a120cdb79ba4465`
+> 采集：2026-09-30T18:57:18+08:00　|　id：`7a120cdb79ba4465`
 
 ## 正文
 

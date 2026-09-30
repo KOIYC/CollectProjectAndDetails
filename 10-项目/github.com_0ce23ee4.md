@@ -2,7 +2,7 @@
 type: "project"
 title: "I Built a Better Codex Pet Than OpenAI Did"
 project_url: "https://github.com/miflow13/mochi-desktop"
-first_seen: "2026-09-29T09:45:02+08:00"
+first_seen: "2026-09-30T18:57:18+08:00"
 sources:
   - devto
 tags:
@@ -22,10 +22,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/miflow13/mochi-desktop>
-> 首次收录：2026-09-29T09:45:02+08:00
+> 首次收录：2026-09-30T18:57:18+08:00
 > 来源渠道：dev.to
 > 标签：opensource, python, linux, showdev
-> 最新指标：reactions=37 · 评论=8 · reading_time=5
+> 最新指标：reactions=42 · 评论=8 · reading_time=5
 
 ## 观测历史
 
@@ -33,6 +33,8 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-28T09:50:07+08:00 | dev.to | reactions=31 · 评论=7 · reading_time=5 | [[20-语料/posts/devto/2026-09-28/7a120cdb79ba4465_I-Built-a-Better-Codex-Pet-Than-OpenAI-Did]] |
 | 2026-09-29T09:45:02+08:00 | dev.to | reactions=37 · 评论=8 · reading_time=5 | [[20-语料/posts/devto/2026-09-28/7a120cdb79ba4465_I-Built-a-Better-Codex-Pet-Than-OpenAI-Did]] |
+| 2026-09-30T18:49:24+08:00 | dev.to | reactions=42 · 评论=8 · reading_time=5 | [[20-语料/posts/devto/2026-09-28/7a120cdb79ba4465_I-Built-a-Better-Codex-Pet-Than-OpenAI-Did]] |
+| 2026-09-30T18:57:18+08:00 | dev.to | reactions=42 · 评论=8 · reading_time=5 | [[20-语料/posts/devto/2026-09-28/7a120cdb79ba4465_I-Built-a-Better-Codex-Pet-Than-OpenAI-Did]] |
 
 ## 摘要正文
 

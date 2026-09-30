@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Aslmp, an async Python SLMP client for Mitsubishi MELSEC PLCs"
 project_url: "https://github.com/AcaysiaChem/aslmp"
-first_seen: "2026-09-28T10:06:07+08:00"
+first_seen: "2026-09-30T18:57:07+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/AcaysiaChem/aslmp>
-> 首次收录：2026-09-28T10:06:07+08:00
+> 首次收录：2026-09-30T18:57:07+08:00
 > 来源渠道：HN Show HN
 > 标签：author_AiasT, story_49848732, show_hn
 > 最新指标：点赞=3 · 评论=0 · engagement_velocity=3
@@ -33,6 +33,7 @@ lang: "en"
 | 2026-09-26T09:41:08+08:00 | HN Show HN | 点赞=3 · 评论=0 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-26/80daa8ace080de62_Show-HN-Aslmp,-an-async-Python-SLMP-client-for-Mit]] |
 | 2026-09-26T10:00:28+08:00 | HN Show HN | 点赞=3 · 评论=0 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-26/80daa8ace080de62_Show-HN-Aslmp,-an-async-Python-SLMP-client-for-Mit]] |
 | 2026-09-28T10:06:07+08:00 | HN Show HN | 点赞=3 · 评论=0 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-26/80daa8ace080de62_Show-HN-Aslmp,-an-async-Python-SLMP-client-for-Mit]] |
+| 2026-09-30T18:57:07+08:00 | HN Show HN | 点赞=3 · 评论=0 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-26/80daa8ace080de62_Show-HN-Aslmp,-an-async-Python-SLMP-client-for-Mit]] |
 
 ## 摘要正文
 

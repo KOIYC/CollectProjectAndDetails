@@ -1,12 +1,12 @@
 {
  "schema": 2,
- "updated": "2026-09-29T09:51:30+08:00",
+ "updated": "2026-09-30T18:58:27+08:00",
  "note": "结构性无正文/取数不可得 —— 连试 2 轮后记账，不再消耗额度。字段：reason（人话）/ reason_code（可复核分类，见 REASON_CODES）/ tried[]（本轮实际试过的后端）/ http_status（direct 档拿到的状态码）",
  "by_reason": {
-  "no_backend": 63,
+  "no_backend": 65,
   "unreachable": 40,
-  "media": 28,
-  "http_403": 4,
+  "media": 29,
+  "http_403": 5,
   "account": 3,
   "gh_miss": 1
  },
@@ -2113,12 +2113,55 @@
    "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
   },
   "a2ce03d590f913f8": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: ChuteChat – Browser-based E2EE chat with no accounts required",
    "url": "https://chutechat.online/",
    "source_id": "hn_show",
    "first_dead": "2026-09-29T09:51:30+08:00",
-   "last_try": "2026-09-29T09:51:30+08:00",
+   "last_try": "2026-09-30T18:58:27+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "0cb9e6b6b13676d8": {
+   "attempts": 2,
+   "title": "I finally made my first sale yesterday 🚀🚀",
+   "url": "https://www.reddit.com/r/buildinpublic/comments/1wjzlsc/i_finally_made_my_first_sale_yesterday/",
+   "source_id": "reddit",
+   "first_dead": "2026-09-29T09:51:30+08:00",
+   "last_try": "2026-09-30T18:58:27+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+  },
+  "15f906101603016d": {
+   "attempts": 2,
+   "title": "I'm technically almost finished with my game and I still don't have en",
+   "url": "https://v.redd.it/lvw5wx5zknqh1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "reason_code": "media",
+   "first_dead": "2026-09-30T18:55:55+08:00",
+   "last_try": "2026-09-30T18:55:55+08:00",
+   "http_status": null,
+   "tried": []
+  },
+  "08f59843f9dbea94": {
+   "attempts": 1,
+   "title": "Show HN: Layout – Order food anywhere with AI",
+   "url": "https://layout.link/",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-30T18:58:27+08:00",
+   "last_try": "2026-09-30T18:58:27+08:00",
    "tried": [
     "direct_fetch"
    ],
@@ -2126,20 +2169,34 @@
    "reason_code": "no_backend",
    "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   },
-  "0cb9e6b6b13676d8": {
+  "4e9e0e1f3a12caac": {
    "attempts": 1,
-   "title": "I finally made my first sale yesterday 🚀🚀",
-   "url": "https://www.reddit.com/r/buildinpublic/comments/1wjzlsc/i_finally_made_my_first_sale_yesterday/",
-   "source_id": "reddit",
-   "first_dead": "2026-09-29T09:51:30+08:00",
-   "last_try": "2026-09-29T09:51:30+08:00",
+   "title": "Show HN: Momentum Mouse – slide your phone on a desk and the PC cursor",
+   "url": "https://www.indiegogo.com/projects/momentum-mouse/momentum-mouse-go?refcode=kH0RTo2_MUm4wpY6MALV9Q",
+   "source_id": "hn_show",
+   "first_dead": "2026-09-30T18:58:27+08:00",
+   "last_try": "2026-09-30T18:58:27+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
-   "http_status": "timeout",
-   "reason_code": "unreachable",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+   "http_status": 403,
+   "reason_code": "http_403",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 http_403 · status=403"
+  },
+  "cb571af8c2adfa9a": {
+   "attempts": 1,
+   "title": "Bookidoro",
+   "url": "https://www.indiehackers.com/product/bookidoro",
+   "source_id": "indiehackers",
+   "first_dead": "2026-09-30T18:58:27+08:00",
+   "last_try": "2026-09-30T18:58:27+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   }
  }
 }

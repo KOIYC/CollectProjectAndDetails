@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49848732"
 project_url: "https://github.com/AcaysiaChem/aslmp"
 author: "AiasT"
 published_at: "2026-09-25T19:18:03Z"
-captured_at: "2026-09-28T10:06:07+08:00"
+captured_at: "2026-09-30T18:57:07+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=3 · 评论=0 · engagement_velocity=3
 > 作者：AiasT　|　发布：2026-09-25T19:18:03Z
 > 项目链接：<https://github.com/AcaysiaChem/aslmp>
-> 采集：2026-09-28T10:06:07+08:00　|　id：`80daa8ace080de62`
+> 采集：2026-09-30T18:57:07+08:00　|　id：`80daa8ace080de62`
 
 ## 正文
 

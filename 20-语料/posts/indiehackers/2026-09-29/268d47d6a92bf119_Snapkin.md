@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/snapkin"
 project_url: "https://getsnapkin.app/"
-captured_at: "2026-09-29T09:44:49+08:00"
+captured_at: "2026-09-30T18:48:20+08:00"
 lang: "en"
 kind: "project"
 topic: 开发者工具
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://getsnapkin.app/>
-> 采集：2026-09-29T09:44:49+08:00　|　id：`268d47d6a92bf119`
+> 采集：2026-09-30T18:48:20+08:00　|　id：`268d47d6a92bf119`
 
 ## 正文
 
@@ -62,28 +62,28 @@ Post Comment
 Have early users actually kept logging after the novelty wears off, or is the strongest signal so far that the two-click flow gets people to try it?
 Aryan Sinh
 ·
-12 hours ago
+2 days ago
  ·
 Reply
 1
 Retention is pretty strong, the fact that the UX is now measurably easier than ever before makes users more sticky 👏
 Mattias Geniar
 ·
-12 hours ago
+2 days ago
  ·
 Reply
 1
 That’s stronger than just first-use data. If you’re open to it, what’s the best email to reach you on?
 Aryan Sinh
 ·
-10 hours ago
+2 days ago
  ·
 Reply
 1
 Reach out via hello@getsnapkin.app
 Mattias Geniar
 ·
-9 hours ago
+2 days ago
  ·
 Reply
 1
@@ -91,28 +91,28 @@ Thanks! I’ve just sent it over.
 Looking forward to hearing your thoughts whenever you have a chance.
 Aryan Sinh
 ·
-9 hours ago
+2 days ago
  ·
 Reply
 1
 Traditional calorie tracking can turn into a lot of manual work pretty quickly. I would want to test the photo-based estimates and how they hold up across different kinds of meals, though, especially the messy/mixed ones where estimating portions gets difficult.
 Diana N.
 ·
-9 hours ago
+2 days ago
  ·
 Reply
 1
 Give it a try, there's a 3-day trial - no strings attached. We tested against 500+ pre-weighed/counted meals and found our accuracy over a week reached 90% - pretty amazing!
 Mattias Geniar
 ·
-8 hours ago
+2 days ago
  ·
 Reply
 1
 Retention is pretty strong, the fact that the UX is now measurably easier than ever before makes users more sticky 👏
 Mattias Geniar
 ·
-12 hours ago
+2 days ago
  ·
 Reply
 About

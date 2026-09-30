@@ -486,35 +486,39 @@ channels:
 # 每次跑完内容审计更新本段；数字是「可用/条目」，取自 00-索引/内容审计-all.md。
 
 content_gate:
-  audited_at: '2026-09-29'
-  overall: '1996/2254（89%）'
+  audited_at: '2026-09-30'
+  overall: '2084/2349（89%）'
   rows:
-    - {id: producthunt, ratio: '203/205', verdict: keep}
-    - {id: betalist, ratio: '117/117', verdict: keep}
+    - {id: producthunt, ratio: '233/235', verdict: keep}
+    - {id: betalist, ratio: '128/128', verdict: keep}
     - {id: devto, ratio: '11/11', verdict: keep,
        note: n=11 小样本；标题 require_any 曾把样本全过滤（0 条 = 杀渠道），已回退为「少量标题排除 + limit 降量」}
-    - {id: bilibili, ratio: '50/52', verdict: keep}
-    - {id: indiehackers, ratio: '85/86', verdict: keep}
-    - {id: hn_show, ratio: '1207/1280', verdict: keep,
+    - {id: bilibili, ratio: '52/54', verdict: keep}
+    - {id: indiehackers, ratio: '87/90', verdict: keep}
+    - {id: hn_show, ratio: '1244/1320', verdict: keep,
        note: 94%。大厂产品假阳性已修（Show HN 标题自述的条目不再因提到 Stripe/Google 被判「大厂产品」）；
-       主要残余是视频帖无正文（结构性，记死信）与 Exa 截断 26}
+       主要残余是视频帖无正文（结构性，记死信）与 Exa 截断 29}
     - {id: github_new, ratio: '48/64', verdict: keep,
        note: 75%。噪声是 awesome-*/directory/clone/wiki/journal 类资源清单（标题规则已排除，见 rule_drops）。
-       2026-09-29 复判：本轮丢弃 16/28（57%），逐条核对仍以 awesome-*/wiki/journal/clone 为主 → 无误杀}
-    - {id: v2ex, ratio: '43/58', verdict: keep,
+       2026-09-30 复判：本轮丢弃 16/21（76%，超 70% 线），逐条核对 = 4 条标题（snapchat-clone / awesome-side-project /
+       awesome-indiehackers / launch-website-directories）+ 12 条无主题词（laya / kev / cssFilters / Tello / zerocal 等库与 demo）
+       → 全部判对，无误杀}
+    - {id: v2ex, ratio: '48/65', verdict: keep,
        note: 74%。主要噪声是「NAS 必装 Docker 推荐」类资源帖；rules.yaml 已排招聘/求职/求助。
-       2026-09-29 复判：丢弃 6/25（24%），标题排除项为招聘/求职/分析帖 → 无系统性误杀；
-       1 条「做了一个 AI 导航站」被标题规则滤掉（n=1，可能误杀，未到动手阈值）}
+       2026-09-30 复判：丢弃 5/25（20%），排除项 = 2 条招聘 + 1 条「AI 导航站」+ 2 条无主题词（精灵图工具 / remote 招聘）
+       → 无系统性误杀；**「做了一个 AI 导航站」已连续两轮（09-29/09-30）被标题规则滤掉（n=2）**，
+       属「自述自建 + 名录型」边界案例，暂不改规则，n≥3 再评估是否给自述发布语加例外}
     - {id: exa_discovery, ratio: '19/25', verdict: keep,
        note: 76%，小样本（weekly_only，非周一不跑）。2026-09-28 抽查丢弃账本：
        1 条「Respira Exhale（HTML→WordPress 转换器）」被「无主题词」滤掉，疑误杀 n=1，未到动手阈值}
-    - {id: reddit, ratio: '208/348', verdict: limit_reduced,
+    - {id: reddit, ratio: '208/349', verdict: limit_reduced,
        note: 60%。已把 limit 40→30 控量（标题过滤模拟到 88% 但丢 29 条可用帖，代价大于收益，不采纳）。
        2026-09-24 追加：窗口外移 settle_days=10 / window_days=14 后近两周语料抓不到（见渠道 note），
-       审计口径与采集口径要一起看}
+       审计口径与采集口径要一起看。2026-09-30 复判：仍 60%，主要标签 = irrelevant 137 / unusable 32 / big 5 → 维持现状}
     - {id: c1c7, ratio: '5/7', verdict: keep,
-       note: n=7 小样本，百分比抖动大，**报可用率必须连 n 一起报**；2026-09-28 回落 5/7（2 条 irrelevant = 名录媒体混入），
-       与 09-26 的 7/7 同属 n<10 的正常抖动，不构成渠道级问题}
+       note: n=7 小样本，百分比抖动大，**报可用率必须连 n 一起报**；2026-09-30 仍 5/7，
+       与 09-26 的 7/7 / 09-28 的 5/7 同属 n<10 的正常抖动，不构成渠道级问题。
+       本轮采集端 error（WinError 10054）—— 属瞬态网络（探针证实 1c7.me TCP+TLS ok 但被重置），不属渠道腐化}
 
 # ---------------- 后端可用性订正（实测，会被 kb_audit 复检） ----------------
 backends:

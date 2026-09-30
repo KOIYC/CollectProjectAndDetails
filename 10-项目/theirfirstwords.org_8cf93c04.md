@@ -2,7 +2,7 @@
 type: "project"
 title: "Their First Typing: a free 9-language typing course I made for my daughters"
 project_url: "https://theirfirstwords.org/typing"
-first_seen: "2026-09-29T09:50:28+08:00"
+first_seen: "2026-09-30T18:58:18+08:00"
 sources:
   - reddit
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://theirfirstwords.org/typing>
-> 首次收录：2026-09-29T09:50:28+08:00
+> 首次收录：2026-09-30T18:58:18+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/SideProject
 > 最新指标：得分=3 · 评论=5 · 赞踩比=1
@@ -45,6 +45,7 @@ lang: "en"
 | 2026-09-26T10:01:27+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=5 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/240b129e797cf041_Their-First-Typing-a-free-9-language-typing-course]] |
 | 2026-09-28T10:06:54+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=5 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/240b129e797cf041_Their-First-Typing-a-free-9-language-typing-course]] |
 | 2026-09-29T09:50:28+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=5 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/240b129e797cf041_Their-First-Typing-a-free-9-language-typing-course]] |
+| 2026-09-30T18:58:18+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=5 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/240b129e797cf041_Their-First-Typing-a-free-9-language-typing-course]] |
 
 ## 摘要正文
 

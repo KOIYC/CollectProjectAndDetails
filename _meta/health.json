@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-09-29T09:42:43+08:00",
+ "checked_at": "2026-09-30T18:23:59+08:00",
  "channels": [
   {
    "channel_id": "hn_show",
@@ -7,21 +7,12 @@
    "adapter": "hn_show",
    "auth": "none",
    "group": "海外发布",
-   "status": "ok",
-   "count": 3,
-   "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 2.0,
-   "probe_at": "2026-09-29T09:40:58+08:00",
-   "sample": [
-    {
-     "title": "Show HN: Corral kill every command your agent starts",
-     "url": "https://news.ycombinator.com/item?id=49886422"
-    },
-    {
-     "title": "Show HN: Jylus – give AI systems evidence from changing data.",
-     "url": "https://news.ycombinator.com/item?id=49886404"
-    }
-   ]
+   "status": "error",
+   "count": 0,
+   "message": "ERR: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>",
+   "elapsed_s": 45.6,
+   "probe_at": "2026-09-30T18:19:29+08:00",
+   "sample": []
   },
   {
    "channel_id": "reddit",
@@ -31,17 +22,17 @@
    "group": "海外社区",
    "status": "ok",
    "count": 3,
-   "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
-   "elapsed_s": 24.1,
-   "probe_at": "2026-09-29T09:41:22+08:00",
+   "message": "3 posts; indiehackers: ERR: <urlopen error _ssl.c:1015: The han; microsaas: ERR: <urlopen error [WinError 100 · 探针保留全部 8 个 sub与原阈值（口径同采集）",
+   "elapsed_s": 449.6,
+   "probe_at": "2026-09-30T18:11:24+08:00",
    "sample": [
     {
-     "title": "AI made everyone a builder. It forgot to make more buyers.",
-     "url": "https://www.reddit.com/r/SaaS/comments/1wk4rbe/ai_made_everyone_a_builder_it_forgot_to_make_more/"
+     "title": "anyone else notice every AI-built site looks the same now?",
+     "url": "https://www.reddit.com/r/SaaS/comments/1wlcl48/anyone_else_notice_every_aibuilt_site_looks_the/"
     },
     {
-     "title": "pretty happy with how this pause menu turned out",
-     "url": "https://www.reddit.com/r/IndieDev/comments/1wk693b/pretty_happy_with_how_this_pause_menu_turned_out/"
+     "title": "Is Service as a Software the next big thing?",
+     "url": "https://www.reddit.com/r/SaaS/comments/1wlc08u/is_service_as_a_software_the_next_big_thing/"
     }
    ]
   },
@@ -54,16 +45,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 1.4,
-   "probe_at": "2026-09-29T09:41:23+08:00",
+   "elapsed_s": 1.7,
+   "probe_at": "2026-09-30T18:11:26+08:00",
    "sample": [
     {
      "title": "NandhaKishorM/laya",
      "url": "https://github.com/NandhaKishorM/laya"
     },
     {
-     "title": "browser-use/jev-ultrafast",
-     "url": "https://github.com/browser-use/jev-ultrafast"
+     "title": "jaredpalmer/kev",
+     "url": "https://github.com/jaredpalmer/kev"
     }
    ]
   },
@@ -73,21 +64,12 @@
    "adapter": "betalist",
    "auth": "none",
    "group": "海外发布站",
-   "status": "ok",
-   "count": 3,
-   "message": "3 startups · 发布日 3/3",
-   "elapsed_s": 3.4,
-   "probe_at": "2026-09-29T09:41:27+08:00",
-   "sample": [
-    {
-     "title": "Halv",
-     "url": "https://betalist.com/startups/halv"
-    },
-    {
-     "title": "Dividend Stacker",
-     "url": "https://betalist.com/startups/dividend-stacker"
-    }
-   ]
+   "status": "error",
+   "count": 0,
+   "message": "ERR: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>",
+   "elapsed_s": 38.9,
+   "probe_at": "2026-09-30T18:20:08+08:00",
+   "sample": []
   },
   {
    "channel_id": "indiehackers",
@@ -97,17 +79,17 @@
    "group": "海外发布站",
    "status": "ok",
    "count": 3,
-   "message": "19 products",
-   "elapsed_s": 6.5,
-   "probe_at": "2026-09-29T09:41:33+08:00",
+   "message": "22 products",
+   "elapsed_s": 114.8,
+   "probe_at": "2026-09-30T18:14:57+08:00",
    "sample": [
-    {
-     "title": "Launchnest Ln 16",
-     "url": "https://www.indiehackers.com/product/launchnest-ln-16"
-    },
     {
      "title": "Launchon It",
      "url": "https://www.indiehackers.com/product/launchon-it"
+    },
+    {
+     "title": "Inide Need",
+     "url": "https://www.indiehackers.com/product/inide-need"
     }
    ]
   },
@@ -120,8 +102,8 @@
    "status": "ok",
    "count": 3,
    "message": "4 articles",
-   "elapsed_s": 1.3,
-   "probe_at": "2026-09-29T09:41:35+08:00",
+   "elapsed_s": 0.9,
+   "probe_at": "2026-09-30T18:14:58+08:00",
    "sample": [
     {
      "title": "8 Posts by Women on DEV That Deserve More Than a Once-a-Year Spotlight",
@@ -142,16 +124,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 entries",
-   "elapsed_s": 6.3,
-   "probe_at": "2026-09-29T09:41:41+08:00",
+   "elapsed_s": 41.0,
+   "probe_at": "2026-09-30T18:15:39+08:00",
    "sample": [
     {
-     "title": "Lattice",
-     "url": "https://www.producthunt.com/products/lattice-11"
+     "title": "Autonomyware",
+     "url": "https://www.producthunt.com/products/autonomyware"
     },
     {
-     "title": "vantage.ai",
-     "url": "https://www.producthunt.com/products/vantage-ai-2"
+     "title": "jambuild",
+     "url": "https://www.producthunt.com/products/jambuild"
     }
    ]
   },
@@ -164,16 +146,16 @@
    "status": "ok",
    "count": 3,
    "message": "20 topics",
-   "elapsed_s": 0.7,
-   "probe_at": "2026-09-29T09:41:42+08:00",
+   "elapsed_s": 1.8,
+   "probe_at": "2026-09-30T18:15:41+08:00",
    "sample": [
     {
-     "title": "5 分钟内一键生成满意的 App 应用、Chrome 插件上架图，支持 ASO 一键多语言出图",
-     "url": "https://www.v2ex.com/t/1245302"
+     "title": "独立游戏精灵图制作工具",
+     "url": "https://www.v2ex.com/t/1245849"
     },
     {
-     "title": "🌱 做了个小程序「订阅精灵」，在找 100 名种子用户，准备了 100 份福利",
-     "url": "https://www.v2ex.com/t/1245277"
+     "title": "个人独立开发日活 5k~8k 的应用属于什么水平？",
+     "url": "https://www.v2ex.com/t/1245845"
     }
    ]
   },
@@ -185,17 +167,17 @@
    "group": "中文社媒",
    "status": "ok",
    "count": 3,
-   "message": "9 videos",
-   "elapsed_s": 0.7,
-   "probe_at": "2026-09-29T09:41:42+08:00",
+   "message": "11 videos",
+   "elapsed_s": 0.6,
+   "probe_at": "2026-09-30T18:15:41+08:00",
    "sample": [
+    {
+     "title": "月入50w的00后开发者？我也做了鸿蒙App！",
+     "url": "https://www.bilibili.com/video/BV1oBaG62EiS"
+    },
     {
      "title": "黑马程序员2026全网最夯VibeCoding零基础入门到实战项目开发全套视频教程，AI辅助编程从入门到实战，涵盖Claude Code、DeepSeek等内容",
      "url": "https://www.bilibili.com/video/BV1WWYE6LEzx"
-    },
-    {
-     "title": "【乐学fc】小程序开发完毕，好好学习",
-     "url": "https://www.bilibili.com/video/BV1MCa466EZJ"
     }
    ]
   },
@@ -205,21 +187,12 @@
    "adapter": "onec7",
    "auth": "none",
    "group": "中文名录",
-   "status": "ok",
-   "count": 3,
-   "message": "9 entries · 收录日 9",
-   "elapsed_s": 2.2,
-   "probe_at": "2026-09-29T09:41:45+08:00",
-   "sample": [
-    {
-     "title": "Indie Hacker",
-     "url": "https://www.indiehackers.com/"
-    },
-    {
-     "title": "Failory",
-     "url": "https://www.failory.com/"
-    }
-   ]
+   "status": "error",
+   "count": 0,
+   "message": "ERR: <urlopen error _ssl.c:1015: The handshake operation timed out>",
+   "elapsed_s": 123.2,
+   "probe_at": "2026-09-30T18:22:12+08:00",
+   "sample": []
   },
   {
    "channel_id": "exa_discovery",
@@ -230,16 +203,16 @@
    "status": "ok",
    "count": 3,
    "message": "8 results",
-   "elapsed_s": 7.4,
-   "probe_at": "2026-09-29T09:41:52+08:00",
+   "elapsed_s": 17.9,
+   "probe_at": "2026-09-30T18:16:48+08:00",
    "sample": [
     {
-     "title": "Can You Spot the Traitor? YOUR LIAR is out now on Steam with 10% Launch Discount",
-     "url": "https://techmash.co.uk/2026/09/28/can-you-spot-the-traitor-your-liar-is-out-now-on-steam-with-10-launch-discount/"
+     "title": "\"Human: Fall Flat Developer Launches Playful VR Puzzler ‘Tiny Flock’ Today\" - Ga",
+     "url": "https://www.gamespress.com/Human-Fall-Flat-Developer-Launches-Playful-VR-Puzzler-Tiny-Flock-Today"
     },
     {
-     "title": "Deskrawl: Idle ARPG Launches on Steam at 30% Off | HappyGamer",
-     "url": "https://happygamer.com/deskrawl-idle-arpg-steam-launch-30-percent-off-166049/"
+     "title": "\"DOG IN THE MACHINE - Tactical Turn-Based Roguelite with Real-Time Preview Syste",
+     "url": "https://www.gamespress.com/DOG-IN-THE-MACHINE---Tactical-Turn-Based-Roguelite-with-Real-Time-Prev"
     }
    ]
   },
@@ -251,9 +224,9 @@
    "group": "海外社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: ok: false\nerror:\n  code: COMMAND_EXEC\n  message: '",
-   "elapsed_s": 2.2,
-   "probe_at": "2026-09-29T09:41:54+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: ok: false\nerror:\n  code: AUTH_REQUIRED\n  message: ",
+   "elapsed_s": 27.7,
+   "probe_at": "2026-09-30T18:17:16+08:00",
    "sample": []
   },
   {
@@ -265,11 +238,11 @@
    "status": "ok",
    "count": 1,
    "message": "1 items（1 路查询）",
-   "elapsed_s": 12.4,
-   "probe_at": "2026-09-29T09:42:07+08:00",
+   "elapsed_s": 12.3,
+   "probe_at": "2026-09-30T18:17:28+08:00",
    "sample": [
     {
-     "title": "国外女博主把白墙当广告位拍卖，100美元起",
+     "title": "大学生就靠抄，抄出月入3万欧元app❗️",
      "url": ">-"
     }
    ]
@@ -283,52 +256,52 @@
    "declared": "ok",
    "delta": true,
    "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 20.1,
-   "probe_at": "2026-09-29T09:42:37+08:00"
+   "elapsed_s": 20.0,
+   "probe_at": "2026-09-30T18:22:54+08:00"
   },
   {
    "backend": "arctic_shift",
    "use": "Reddit 取数",
-   "status": "ok",
+   "status": "unusable",
    "declared": null,
    "delta": false,
-   "message": "1 rows",
-   "elapsed_s": 0.9,
-   "probe_at": "2026-09-29T09:42:38+08:00"
+   "message": "ERR: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>",
+   "elapsed_s": 42.2,
+   "probe_at": "2026-09-30T18:23:36+08:00"
   },
   {
    "backend": "exa_web_fetch",
    "use": "通用网页正文后端",
-   "status": "ok",
+   "status": "unusable",
    "declared": "warn",
    "delta": false,
-   "message": "1 url 返回正文",
-   "elapsed_s": 3.8,
-   "probe_at": "2026-09-29T09:42:42+08:00"
+   "message": "0 url 返回正文",
+   "elapsed_s": 12.0,
+   "probe_at": "2026-09-30T18:23:48+08:00"
   },
   {
    "backend": "github_gh",
    "use": "GitHub 取数 (gh CLI)",
-   "status": "ok",
+   "status": "unusable",
    "declared": "warn",
    "delta": false,
-   "message": "remaining=5000",
-   "elapsed_s": 1.1,
-   "probe_at": "2026-09-29T09:42:43+08:00"
+   "message": "Get \"https://api.github.com/rate_limit\": net/http: TLS handshake timeout\n",
+   "elapsed_s": 11.5,
+   "probe_at": "2026-09-30T18:23:59+08:00"
   }
  ],
  "summary": {
   "total": 13,
-  "ok": 12,
+  "ok": 9,
   "empty": 0,
-  "error": 0,
+  "error": 3,
   "auth": 1
  },
  "decisions": [
   {
    "channel_id": "hn_show",
-   "action": "keep",
-   "status": "ok"
+   "action": "review",
+   "status": "error"
   },
   {
    "channel_id": "reddit",
@@ -342,8 +315,8 @@
   },
   {
    "channel_id": "betalist",
-   "action": "keep",
-   "status": "ok"
+   "action": "review",
+   "status": "error"
   },
   {
    "channel_id": "indiehackers",
@@ -372,8 +345,8 @@
   },
   {
    "channel_id": "c1c7",
-   "action": "keep",
-   "status": "ok"
+   "action": "review",
+   "status": "error"
   },
   {
    "channel_id": "exa_discovery",
@@ -393,7 +366,7 @@
  ],
  "agent_reach": {
   "ok": true,
-  "checked_at": "2026-09-29T09:42:17+08:00"
+  "checked_at": "2026-09-30T18:22:34+08:00"
  },
  "deltas": [
   {
@@ -403,8 +376,8 @@
    "declared": "ok",
    "delta": true,
    "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 20.1,
-   "probe_at": "2026-09-29T09:42:37+08:00"
+   "elapsed_s": 20.0,
+   "probe_at": "2026-09-30T18:22:54+08:00"
   }
  ]
 }

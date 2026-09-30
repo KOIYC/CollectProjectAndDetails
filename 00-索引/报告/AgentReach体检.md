@@ -1,7 +1,7 @@
 ---
 type: "report"
 title: "agent-reach 体检"
-updated: "2026-09-29T09:42:17+08:00"
+updated: "2026-09-30T18:22:34+08:00"
 tags:
   - 报告
   - 渠道
@@ -10,7 +10,7 @@ tags:
 
 # agent-reach 体检
 
-> 检查时间 2026-09-29T09:42:17+08:00 · 由 `agent-reach doctor --json` 生成
+> 检查时间 2026-09-30T18:22:34+08:00 · 由 `agent-reach doctor --json` 生成
 
 | 平台 | | 状态 | 激活后端 | 说明 |
 |---|---|---|---|---|
@@ -26,7 +26,7 @@ tags:
 | 小宇宙播客转文字 | ❌ | off | `—` | 需要 ffmpeg（音频转码和切片）。安装：
   Ubuntu/Debian: apt install -y ffmpeg
   macOS: brew install ffmpeg |
-| V2EX 节点、主题与回复 | ⚠️ | warn | `—` | V2EX API 连接失败（可能需要代理）：<urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。> |
+| V2EX 节点、主题与回复 | ⚠️ | warn | `—` | V2EX API 连接失败（可能需要代理）：<urlopen error timed out> |
 | 雪球股票行情与社区动态 | ⚠️ | warn | `—` | Xueqiu API 连接失败：HTTP Error 400。如需登录 Cookie，请运行：agent-reach configure --from-browser chrome --platform xueqiu；doctor 不会自动 |
 | RSS/Atom 订阅源 | ✅ | ok | `feedparser` | 可读取 RSS/Atom 源 |
 | 全网语义搜索 | ⚠️ | warn | `—` | Exa 已写入 mcporter 配置，但 Doctor 未启动远端服务做连通验证，不能仅凭配置宣称可用。 |

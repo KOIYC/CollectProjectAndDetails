@@ -1,0 +1,122 @@
+{
+ "run_id": "20260930T180238",
+ "started_at": "2026-09-30T18:02:38+08:00",
+ "ended_at": "2026-09-30T18:18:35+08:00",
+ "elapsed_s": 957.2,
+ "channels": [
+  {
+   "source_id": "hn_show",
+   "name": "HN Show HN",
+   "status": "error",
+   "count": 0,
+   "message": "ERR: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>",
+   "elapsed_s": 77.1
+  },
+  {
+   "source_id": "reddit",
+   "name": "Reddit 独立开发版块",
+   "status": "ok",
+   "count": 3,
+   "message": "3 posts; indiehackers: ERR: <urlopen error _ssl.c:1015: The han; microsaas: ERR: <urlopen error [WinError 100 · 探针保留全部 8 个 sub与原阈值（口径同采集）",
+   "elapsed_s": 449.6
+  },
+  {
+   "source_id": "github_new",
+   "name": "GitHub 新星仓库",
+   "status": "ok",
+   "count": 3,
+   "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
+   "elapsed_s": 1.7
+  },
+  {
+   "source_id": "betalist",
+   "name": "BetaList",
+   "status": "error",
+   "count": 0,
+   "message": "ERR: <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1032)>",
+   "elapsed_s": 96.4
+  },
+  {
+   "source_id": "indiehackers",
+   "name": "Indie Hackers 产品库",
+   "status": "ok",
+   "count": 3,
+   "message": "22 products",
+   "elapsed_s": 114.8
+  },
+  {
+   "source_id": "devto",
+   "name": "dev.to",
+   "status": "ok",
+   "count": 3,
+   "message": "4 articles",
+   "elapsed_s": 0.9
+  },
+  {
+   "source_id": "producthunt",
+   "name": "Product Hunt",
+   "status": "ok",
+   "count": 3,
+   "message": "3 entries",
+   "elapsed_s": 41.0
+  },
+  {
+   "source_id": "v2ex",
+   "name": "V2EX",
+   "status": "ok",
+   "count": 3,
+   "message": "20 topics",
+   "elapsed_s": 1.8
+  },
+  {
+   "source_id": "bilibili",
+   "name": "B 站",
+   "status": "ok",
+   "count": 3,
+   "message": "11 videos",
+   "elapsed_s": 0.6
+  },
+  {
+   "source_id": "c1c7",
+   "name": "1c7 中文独立开发者名录",
+   "status": "error",
+   "count": 0,
+   "message": "ERR: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>",
+   "elapsed_s": 48.7
+  },
+  {
+   "source_id": "exa_discovery",
+   "name": "Exa 全网语义发现",
+   "status": "ok",
+   "count": 3,
+   "message": "8 results",
+   "elapsed_s": 17.9
+  },
+  {
+   "source_id": "twitter",
+   "name": "X / Twitter",
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: ok: false\nerror:\n  code: AUTH_REQUIRED\n  message: ",
+   "elapsed_s": 27.7
+  },
+  {
+   "source_id": "xiaohongshu",
+   "name": "小红书",
+   "status": "ok",
+   "count": 1,
+   "message": "1 items（1 路查询）",
+   "elapsed_s": 12.3
+  }
+ ],
+ "notes_written": 0,
+ "errors": [],
+ "mode": "audit",
+ "summary": {
+  "total": 13,
+  "ok": 9,
+  "empty": 0,
+  "error": 3,
+  "auth": 1
+ }
+}

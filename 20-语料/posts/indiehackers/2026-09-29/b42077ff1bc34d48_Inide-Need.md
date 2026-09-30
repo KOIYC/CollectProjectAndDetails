@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/inide-need"
 project_url: "https://indieneed.com/"
-captured_at: "2026-09-29T09:44:49+08:00"
+captured_at: "2026-09-30T18:48:20+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://indieneed.com/>
-> 采集：2026-09-29T09:44:49+08:00　|　id：`b42077ff1bc34d48`
+> 采集：2026-09-30T18:48:20+08:00　|　id：`b42077ff1bc34d48`
 
 ## 正文
 
@@ -42,9 +42,115 @@ Inide Need
  Discover and submit products built by indie makers
 Visit Website
 Inide Need Discover and submit products built by indie makers
- Posts 24
- Revenue $500 / mo
+ Posts 29
+ Revenue $1K / mo
  Website Twitter
+September 30, 2026
+ Just Launched Something? Add It to IndieNeed
+If your SaaS, AI tool, app, or side project is live, don’t stop at posting it once.
+ Add it to IndieNeed and give more people another way to discover what you built.
+ It takes only a few minutes to submit, and your product gets its own place on the platform.
+ Submit your product:
+ https://indieneed.com
+ If you’re building something useful, I’d genuinely like to see it there.
+Rahul Ajmera
+8 Likes
+Comment
+September 30, 2026
+ Put Your Startup in Front of More People — $21/Week
+A great product can still go unnoticed without enough visibility.
+ With IndieNeed advertising , you can feature your SaaS, AI tool, app, or startup for $21/week and give more people a chance to discover it.
+ Simple placement. Clear visibility. No complicated ad setup.
+ Get featured on IndieNeed:
+ https://indieneed.com
+ If you’re already building something worth seeing, don’t keep it hidden.
+Rahul Ajmera
+8 Likes
+Comment
+September 29, 2026
+ Launching Alone? Give Your Product One More Place to Be Found
+Most indie products don’t fail because they’re bad.
+ They fail because too few people ever see them.
+ That’s why I’m building IndieNeed — a simple place for makers to submit and showcase what they’re building.
+ If you’ve got a SaaS, AI tool, app, developer tool, or side project already live, add it.
+ Submit your product:
+ https://indieneed.com
+ I’m looking for more genuinely useful indie products to discover and feature.
+Rahul Ajmera
+15 Likes
+2 Comments
+Say something nice…
+Post Comment
+1
+I’ve submitted my project. Thanks for building this and giving indie makers another place to be discovered.
+Jerry Lee
+·
+4 hours ago
+ ·
+Reply
+1
+The "too few people ever see them" point is the real killer for most launches. A dedicated place to browse indie products is useful as long as it doesn't turn into just another link dump.
+latiny
+·
+5 hours ago
+ ·
+Reply
+September 29, 2026
+ Built Something? Don’t Let It Stay Hidden — Submit It to IndieNeed
+You spent days, weeks, maybe months building your product.
+ Now give people a chance to actually find it.
+ IndieNeed helps indie founders showcase SaaS products, AI tools, apps, developer tools, and side projects in one place.
+ If your product is live, submit it today and give it another path to discovery.
+ Submit here:
+ https://indieneed.com
+ I’m actively looking for more strong indie products to feature.
+ What did you build?
+Rahul Ajmera
+10 Likes
+Comment
+September 29, 2026
+ If You’ve Built Something Useful, I Want to See It on IndieNeed
+A lot of good indie products never get enough attention simply because the right people never find them.
+ That’s what I’m trying to improve with IndieNeed .
+ If you’re building a SaaS, AI tool, developer tool, app, or side project, you can submit it and give it another place to be discovered.
+ No complicated pitch. Just show people what you built and why it matters.
+ Submit your product:
+ https://indieneed.com
+ I’m actively looking for more strong indie products right now.
+Rahul Ajmera
+16 Likes
+4 Comments
+Say something nice…
+Post Comment
+1
+Thanks, thats very useful because it is a real problem.
+Online Market Intel
+·
+2 hours ago
+ ·
+Reply
+1
+Hi, I'm building Developer Tool that makes AWS easier https://limeboost.io.
+I just open-sourced an Angular starter with authentication using AWS Cognito. It also includes instructions for deploying the app to your own AWS account.
+Lea Malkki
+·
+5 hours ago
+ ·
+Reply
+1
+Here Is the code https://github.com/Lime-Boost/lime-boost-starter-angular
+Lea Malkki
+·
+5 hours ago
+ ·
+Reply
+1
+It would begin with allowing people to actually submit anything. I am still getting I am not allowed to post 🤷‍♀️
+Butterfly88
+·
+a day ago
+ ·
+Reply
 September 28, 2026
  Your Product Deserves More Than One Launch Day
 Launching is hard enough. Getting people to actually discover your product is harder.
@@ -55,7 +161,7 @@ Launching is hard enough. Getting people to actually discover your product is ha
  I’m actively looking for more great indie products to feature, and I’d love to see what you’re building.
  What are you working on right now?
 Rahul Ajmera
-13 Likes
+12 Likes
 1 Comment
 Say something nice…
 Post Comment
@@ -63,7 +169,7 @@ Post Comment
 We're building worldesk.ai, an fx rate checker and specialist for people paying across borders. Mostly heads-down on getting it in front of founders who actually deal with cross-border payments, will check out indieneed too.
 chely
 ·
-6 hours ago
+2 days ago
  ·
 Reply
 September 28, 2026
@@ -75,7 +181,7 @@ I’m building IndieNeed for indie founders who are tired of launching something
  https://indieneed.com
  If you try it, tell me what would make IndieNeed more useful for founders. I’m actively improving it based on real feedback.
 Rahul Ajmera
-10 Likes
+11 Likes
 Comment
 September 28, 2026
  Building New product?
@@ -98,7 +204,7 @@ Post Comment
 Great! will definately try
 Doron
 ·
-11 hours ago
+2 days ago
  ·
 Reply
 September 21, 2026
@@ -107,63 +213,6 @@ What would make an indie product directory genuinely useful to you—better disc
 I’m listening as I keep improving IndieNeed. If you’ve built something, you can quietly add it here: https://www.indieneed.com/submit
 Rahul Ajmera
 1 Like
-Comment
-September 21, 2026
- IndieNeed is open for indie submissions
-If you’ve built a small website, tool, SaaS product, app, or side project, you can submit it here: https://www.indieneed.com/submit
-I’m keeping IndieNeed simple so interesting indie products are easier to discover.
-Rahul Ajmera
-1 Like
-Comment
-September 21, 2026
- Show us what you’re making
-Built something you’re proud of? I’d love to discover it.
-Submit your product to IndieNeed:
- https://www.indieneed.com/submit
-What are you making?
-Rahul Ajmera
-1 Like
-Comment
-September 18, 2026
- Where Are All the Indie Products Hiding? 👀
-There are thousands of indie products being built every day.
- Some get attention.
- Most don’t.
- I’m building IndieNeed to make it easier for people to discover interesting products — not just on launch day, but over time.
- If you’ve built something recently, put it in front of a few more people.
- 👉 https://www.indieneed.com/submit
- What are you building? 👇
-Rahul Ajmera
-4 Likes
-Comment
-September 18, 2026
- Built Something? Let’s Discover It.
-Spent weeks building your product?
- Don’t let it disappear after launch.
- Share what you’ve built with other indie founders, get discovered, and see what people think.
- What are you building right now? 👇
- Submit your product to IndieNeed:
- https://www.indieneed.com/submit
-Rahul Ajmera
-2 Likes
-Comment
-September 17, 2026
- What did you build that deserves its first 10 users?
- Most indie founders don’t need thousands of visitors at the beginning.
-They need the right 10 people to actually try the product.
-I’m curious what everyone here is building right now.
-Drop:
-Product:
-Who is it for?
-What problem does it solve?
-What are you looking for right now — users, feedback, or testers?
-I’m going through the replies and discovering new products for IndieNeed.
-If you want another place for people to discover your product, you can submit it here:
-https://www.indieneed.com/submit
-No big launch required. Early products welcome.
-What are you building? 👇
-Rahul Ajmera
-4 Likes
 Comment
 About
  I built Indie Need to give independent makers a simple place to discover and submit the websites, tools, SaaS products, apps, and side projects they have built. Many early-stage builders need a straightforward way to pre
@@ -183,7 +232,9 @@ Databases
 
 ## 关联链接
 
+- https://github.com/Lime-Boost/lime-boost-starter-angular
 - https://indieneed.com
+- https://limeboost.io.
 - https://www.indieneed.com/
 - https://www.indieneed.com/submit
 
