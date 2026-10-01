@@ -5,7 +5,7 @@ title: "Bookidoro"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/bookidoro"
-captured_at: "2026-09-30T18:48:20+08:00"
+captured_at: "2026-10-01T09:43:57+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-30T18:48:20+08:00　|　id：`cb571af8c2adfa9a`
+> 采集：2026-10-01T09:43:57+08:00　|　id：`cb571af8c2adfa9a`
 
 ## 正文
 
@@ -81,7 +81,7 @@ Post Comment
 Have early users actually kept Bookidoro in their break routine long enough to pay voluntarily, or is the habit and $9.99 license model still unvalidated?
 Aryan Sinh
 ·
-a day ago
+2 days ago
  ·
 Reply
 About

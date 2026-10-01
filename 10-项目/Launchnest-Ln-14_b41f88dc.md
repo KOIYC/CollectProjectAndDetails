@@ -2,7 +2,7 @@
 type: "project"
 title: "Launchnest Ln 14"
 project_url: "https://mobtownweb.com/"
-first_seen: "2026-09-30T18:48:20+08:00"
+first_seen: "2026-10-01T09:43:57+08:00"
 sources:
   - indiehackers
 tags:
@@ -14,11 +14,11 @@ lang: "en"
 # Launchnest Ln 14
 
 > [!info] 一句话导读
-> LaunchNest LN - Indie Hackers
+> Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://mobtownweb.com/>
-> 首次收录：2026-09-30T18:48:20+08:00
+> 首次收录：2026-10-01T09:43:57+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -32,7 +32,8 @@ lang: "en"
 | 2026-09-28T09:49:51+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-25/15335dcf74f64034_Launchnest-Ln-14]] |
 | 2026-09-29T09:44:49+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-25/15335dcf74f64034_Launchnest-Ln-14]] |
 | 2026-09-30T18:48:20+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-25/15335dcf74f64034_Launchnest-Ln-14]] |
+| 2026-10-01T09:43:57+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-25/15335dcf74f64034_Launchnest-Ln-14]] |
 
 ## 摘要正文
 
-LaunchNest LN - Indie Hackers  # LaunchNest LN  September 24, 2026 Stop Building in Silence — Get Discovered  You built the product. You launched it. But what happens when nobody knows it exists?  LaunchNest is built to close that discovery gap.  Launch your SaaS, AI tool, startup, or indie product for free and put it in front of people who are actively looking for useful products.  🚀 What makes LaunchNest different?  LaunchNest isn’t just about launching products. It’s about helping people discover the right products for what they actually need.  With AI Product Finder, users can describe their problem in their own words and discover relevant products from LaunchNest.  No need to know the product name.  No endless searching.  Just describe what you need and find products that fit.  🔎 For users  1 Comment  Say something nice…   Post Comment  1. 1  Great premise—closing that initial discovery gap is huge for solo builders and indie projects. I just rolled out an updated build and deployment architecture over at [MobtownWeb.com](https://mobtownweb.com/?utm_source=gemini), so this problem space resonates. Looking forward to seeing LaunchNest grow!  Steven Jackson  ·  3 days ago  ·  Re…
+Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join LaunchNest LN  Share Your Story. Get Discovered. | LaunchNest LN Visit Website LaunchNest LN Share Your Story. Get Discovered. | LaunchNest LN  Post 1  Revenue $0 / mo  Website September 24, 2026  Stop Building in Silence — Get Discovered You built the product. You launched it. But what happens when nobody knows it exists?  LaunchNest is built to close that discovery gap.  Launch your SaaS, AI tool, startup, or indie product for free and put it in front of people who are actively looking for useful products.  🚀 What makes LaunchNest different?  LaunchNest isn’t just about launching products. It’s about helping people discover the right products for what they actually need.  With AI Product Finder, users can describe their problem in their own words and discover relevant products from LaunchNest.  No need to know the product name.  No endless searching.  Just describe what you need and find products that fit.  🔎 For users  Discover useful SaaS & AI products  Search by problem, not just product name  Get relevant recommendations  Explore pr…

@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/launchon-it"
 project_url: "https://launchon.it/"
-captured_at: "2026-09-30T18:48:20+08:00"
+captured_at: "2026-10-01T09:43:57+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://launchon.it/>
-> 采集：2026-09-30T18:48:20+08:00　|　id：`0b7cac024c1d18d1`
+> 采集：2026-10-01T09:43:57+08:00　|　id：`0b7cac024c1d18d1`
 
 ## 正文
 
@@ -54,8 +54,27 @@ It is Wednesday, which usually means the initial Monday motivation is starting t
  Watching the products in our Week 40 cohort right now confirms this. The ones getting the best feedback are not the over engineered giants. They are the lean, targeted micro SaaS tools built by founders who just decided to ship and figure it out on the way.
  For those of you grinding through this week, what are you currently building, and what is holding you back from shipping it today?
 Alex
-11 Likes
-Comment
+20 Likes
+2 Comments
+Say something nice…
+Post Comment
+1
+Needed this today. I'm building SizeBench, a set of free technical calculators (wire size, solar, batteries, 3D printing) in English, Portuguese and Spanish.
+My best proof of your point: I almost held the launch to "finish" more calculators. I shipped anyway, and within days a site audit found a bug I never would have caught locally. Cloudflare redirects /page.html to /page, so every canonical and sitemap URL was pointing at a redirect. That was 800+ warnings, fixed with one line in the generator. More polishing would have hidden it; shipping exposed it.
+Same story this week. I released a 3D printing section with 11 calculators instead of the 20 I had planned, because real usage will tell me which ones deserve more work.
+What's holding me back now isn't building, it's distribution. Shipping is the easy part for me; getting in front of people is where I'm slower. Curious how others here split their week between building and marketing.
+sizebench.com
+·
+5 hours ago
+ ·
+Reply
+1
+Been there with https://worldesk.ai/ , held off adding more advisor personalities for weeks thinking it needed to feel complete before anyone saw it. Shipped the bare version instead and the actual feedback shaped it way faster than more planning would have.
+chely
+·
+11 hours ago
+ ·
+Reply
 September 29, 2026
  Why we rebuilt our launch platform around AI answer engines instead of traditional SEO
 Hey Indie Hackers,
@@ -84,14 +103,21 @@ Hey Indie Hackers,
  Does the answer accurately reflect what you sell, or does the model hallucinate/miss the point? How are you guys approaching AI search optimization right now?
 Alex
 12 Likes
-1 Comment
+2 Comments
 Say something nice…
 Post Comment
+1
+The day 3–5 effect is interesting. How are you separating continued platform exposure from external discovery through search or AI answers? I would expect those mechanisms to produce different signals: impressions inside the launch platform, indexed citations, referral visits and qualified conversations. Without that split, a longer visibility window could look like AI discoverability even when it is mostly the platform continuing to distribute the page.
+Innokenty Bodrov
+·
+7 hours ago
+ ·
+Reply
 1
 This matches what I’m seeing. Clear capability copy matters more than clever positioning, especially for narrow tools. One caveat: being mentioned by an AI answer engine is useful, but it still needs to turn into visits and paying users. Search demand and conversion are separate problems.
 Jerry Lee
 ·
-4 hours ago
+19 hours ago
  ·
 Reply
 September 28, 2026
@@ -103,7 +129,7 @@ Hey everyone, just dropping a quick weekly update from LaunchOnIt .
  If you have a product, a micro-SaaS, or an AI tool that you are looking to get in front of active builders without fighting a massive 24-hour upvote bloodbath, you can lock in your spot directly on the site.
  For those of you launching or shipping updates this week, what are you working on? Let us chat below.
 Alex
-18 Likes
+19 Likes
 Comment
 September 27, 2026
  The biggest lie we tell ourselves about indie hacking is that building the product is the hard part
@@ -114,7 +140,7 @@ I talk to so many indie hackers who fall into the exact same trap. They treat ma
  Distribution has to be built into the product loops from day one. Whether that means building organic SEO mechanisms, automated directory pipelines, or community hooks, marketing is just another engineering problem waiting to be solved.
  How do you guys split your time right now? Are you still building first and marketing later, or has distribution become your primary focus?
 Alex
-23 Likes
+24 Likes
 3 Comments
 Say something nice…
 Post Comment
@@ -122,14 +148,14 @@ Post Comment
 Totally agree. Wasted too much time on coding, spent too less time on promoting.
 Jeff Chan
 ·
-2 days ago
+3 days ago
  ·
 Reply
 1
 Seems not stable. There's a error msg: Could not autofill automatically
 Jeff Chan
 ·
-2 days ago
+3 days ago
  ·
 Reply
 1
@@ -138,7 +164,7 @@ Once the product is ready, though, you realize getting it in front of the right 
 I like the idea of treating distribution as an engineering problem rather than something you do after the product is finished.
 Timothy Baskaran
 ·
-3 days ago
+4 days ago
  ·
 Reply
 September 26, 2026
@@ -169,7 +195,7 @@ Reply
 We have a Grok Bot that finds potential opportunities for blog post backlinks and drafts the outreach messages (with Gmail integration). A human reviews the end result, of course, but it saves a lot of time.
 Apogee Watcher
 ·
-3 days ago
+4 days ago
  ·
 Reply
 1
@@ -201,14 +227,14 @@ Post Comment
 This is a good idea. I will give it a try over the weekend. I am going through the same pain rn. Thank you for sharing
 samay_mars
 ·
-4 days ago
+5 days ago
  ·
 Reply
 1
 Love this direction. Agents already write my code and run my tests, so letting them handle the boring form filling feels inevitable. The interesting unlock might be what happens when every agent starts submitting to every directory automatically. Discovery gets noisy, and the directories with the strongest curation win. Curious whether you thought about rate limits or quality gates on the agent side.
 CodeSonar
 ·
-5 days ago
+6 days ago
  ·
 Reply
 September 24, 2026
@@ -234,14 +260,14 @@ Post Comment
 Nice
 Amdrewjulian
 ·
-5 days ago
+6 days ago
  ·
 Reply
 1
 Greatest
 Amdrewjulian
 ·
-6 days ago
+7 days ago
  ·
 Reply
 1
@@ -303,7 +329,7 @@ AI Search Ready: Structuring pages so modern LLM search engines can actually cra
 I’m genuinely curious—looking back at your past launches, how much actual recurring revenue did those massive 24-hour traffic spikes actually turn into 30 days later?
  Are you still relying on single-day launches, or have you shifted toward long-tail distribution? Let’s talk in the comments.
 Alex
-2 Likes
+3 Likes
 Comment
 About
  Product Hunt gives you one noisy day and then your launch disappears under the next wave of products. LaunchOnIt is a Product Hunt and BetaList style board where each product gets a page and a date that still exist.
@@ -324,6 +350,7 @@ Databases
 ## 关联链接
 
 - https://heysensa.app
+- https://worldesk.ai/
 
 ## 导航
 

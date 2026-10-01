@@ -7,7 +7,7 @@ adapter: "opencli_social"
 auth: "browser"
 lang: "zh"
 status: "ok"
-last_verified: "2026-09-30"
+last_verified: "2026-10-01"
 tags:
   - 渠道
   - 渠道/中文社媒
@@ -19,7 +19,7 @@ params: {"site": "xiaohongshu", "queries": ["独立开发", "独立开发者", "
 - **分组**：中文社媒　|　**语言**：zh　|　**认证**：browser
 - **取数实现**：`opencli_social`　|　**单次上限**：45
 - **补全类型**：fulltext
-- **当前状态**：`ok`（本次 1 条，27.7s）
+- **当前状态**：`ok`（本次 1 条，37.0s）
 - **口径备注**：2026-09-22 实测已解锁：opencli doctor 报 daemon running + Extension connected(v1.0.22)， `opencli xiaohongshu search` 15.8s 返回 20 条，kb_audit 判 ok。 依赖：Chrome 必须开着且小红书网页端有登录态 —— 扩展在但站点没登录时仍会失败（X 就是这种情况）。 **2026-09-26 复测回落到 auth**（`BROWSER_CONNECT` / `ok: false`）→ 属浏览器端状态，不是渠道腐化： 保持 `enabled: true`（本机开 Chrome 登录后自动恢复），不写 disabled 段。 **2026-09-28 复测已回升 `ok`**（15.4s / 1 条 / 1 路查询）—— 证实上一轮「浏览器端状态、非渠道腐化」的判断： 这类 `auth` 在启停决策里**不应计入腐化**，只需复检。 已知限制：① url 带 xsec_token（有时效）→ item_id 不稳，应剥 xsec_* 再做去重键； ② 无正文 enricher，body 仅为元数据块、likes 未进 metrics； ③ fix: 已改 3 路 query 全部执行（之前只跑 queries[0]）。
 - **解锁方式**：装 OpenCLI 浏览器扩展并保持 Chrome 打开（chrome web store: OpenCLI）；或 agent-reach configure xhs-cookies 走 xiaohongshu-mcp
 
@@ -47,3 +47,4 @@ params: {"site": "xiaohongshu", "queries": ["独立开发", "独立开发者", "
 | 2026-09-28T09:53:25+08:00 | ok | 1 | 35.9s | 1 items（3 路查询） |
 | 2026-09-29T09:47:02+08:00 | ok | 1 | 41.1s | 1 items（3 路查询） |
 | 2026-09-30T18:53:53+08:00 | ok | 1 | 27.7s | 1 items（3 路查询） |
+| 2026-10-01T09:49:12+08:00 | ok | 1 | 37.0s | 1 items（3 路查询） |

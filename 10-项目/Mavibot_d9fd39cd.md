@@ -2,7 +2,7 @@
 type: "project"
 title: "Mavibot"
 project_url: "https://mavibot.ai/"
-first_seen: "2026-09-30T18:48:20+08:00"
+first_seen: "2026-10-01T09:43:57+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://mavibot.ai/>
-> 首次收录：2026-09-30T18:48:20+08:00
+> 首次收录：2026-10-01T09:43:57+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -28,6 +28,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-30T18:48:20+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-30/a8ef3eb797ec4fe3_Mavibot]] |
+| 2026-10-01T09:43:57+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-30/a8ef3eb797ec4fe3_Mavibot]] |
 
 ## 摘要正文
 

@@ -1,14 +1,15 @@
 {
  "schema": 2,
- "updated": "2026-09-30T18:58:27+08:00",
+ "updated": "2026-10-01T09:53:35+08:00",
  "note": "结构性无正文/取数不可得 —— 连试 2 轮后记账，不再消耗额度。字段：reason（人话）/ reason_code（可复核分类，见 REASON_CODES）/ tried[]（本轮实际试过的后端）/ http_status（direct 档拿到的状态码）",
  "by_reason": {
-  "no_backend": 65,
-  "unreachable": 40,
-  "media": 29,
+  "no_backend": 64,
+  "unreachable": 43,
+  "media": 30,
   "http_403": 5,
   "account": 3,
-  "gh_miss": 1
+  "gh_miss": 1,
+  "http_404": 1
  },
  "items": {
   "b3f5c02e0f48ee45": {
@@ -2156,18 +2157,19 @@
    "tried": []
   },
   "08f59843f9dbea94": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Layout – Order food anywhere with AI",
    "url": "https://layout.link/",
    "source_id": "hn_show",
    "first_dead": "2026-09-30T18:58:27+08:00",
-   "last_try": "2026-09-30T18:58:27+08:00",
+   "last_try": "2026-10-01T09:53:35+08:00",
    "tried": [
     "direct_fetch"
    ],
    "http_status": 200,
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   },
   "4e9e0e1f3a12caac": {
    "attempts": 1,
@@ -2185,18 +2187,78 @@
    "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 http_403 · status=403"
   },
   "cb571af8c2adfa9a": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Bookidoro",
    "url": "https://www.indiehackers.com/product/bookidoro",
    "source_id": "indiehackers",
    "first_dead": "2026-09-30T18:58:27+08:00",
-   "last_try": "2026-09-30T18:58:27+08:00",
+   "last_try": "2026-10-01T09:53:35+08:00",
    "tried": [
-    "direct_fetch"
+    "direct_fetch",
+    "exa_web_fetch"
    ],
-   "http_status": 200,
-   "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+   "http_status": 404,
+   "reason_code": "http_404",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 http_404 · status=404",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "299f434d9ab554dd": {
+   "attempts": 2,
+   "title": "Immersive sim survival horror you say 👀",
+   "url": "https://v.redd.it/n3lvhhky66qh1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "reason_code": "media",
+   "first_dead": "2026-10-01T09:51:34+08:00",
+   "last_try": "2026-10-01T09:51:34+08:00",
+   "http_status": null,
+   "tried": []
+  },
+  "8a9fd97b1b95b95f": {
+   "attempts": 1,
+   "title": "Show HN: Web server that lets you build iOS & Android offline apps lik",
+   "url": "https://github.com/Qbix/webserver/tree/main",
+   "source_id": "hn_show",
+   "first_dead": "2026-10-01T09:53:35+08:00",
+   "last_try": "2026-10-01T09:53:35+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+  },
+  "36890907f34c7caa": {
+   "attempts": 1,
+   "title": "Show HN: Jamb AI - Voice Agents for Group Calls",
+   "url": "https://twitter.com/sharat_sc/status/2100638882341486961",
+   "source_id": "hn_show",
+   "first_dead": "2026-10-01T09:53:35+08:00",
+   "last_try": "2026-10-01T09:53:35+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+  },
+  "9beb0fac95579466": {
+   "attempts": 1,
+   "title": "Dad Is Dead",
+   "url": "https://www.indiehackers.com/product/dad-is-dead",
+   "source_id": "indiehackers",
+   "first_dead": "2026-10-01T09:53:35+08:00",
+   "last_try": "2026-10-01T09:53:35+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
   }
  }
 }

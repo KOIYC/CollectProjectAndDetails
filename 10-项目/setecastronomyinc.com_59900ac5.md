@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: I created a BGP-based blackhole system that you can set up in minutes"
 project_url: "https://setecastronomyinc.com/shield"
-first_seen: "2026-09-30T18:57:07+08:00"
+first_seen: "2026-10-01T09:52:48+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://setecastronomyinc.com/shield>
-> 首次收录：2026-09-30T18:57:07+08:00
+> 首次收录：2026-10-01T09:52:48+08:00
 > 来源渠道：HN Show HN
 > 标签：author_jkalbfeld, story_49902803, show_hn
 > 最新指标：点赞=2 · 评论=0 · engagement_velocity=2
@@ -32,6 +32,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-30T18:28:30+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-30/e13438c2e9245bfa_Show-HN-I-created-a-BGP-based-blackhole-system-tha]] |
 | 2026-09-30T18:57:07+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-30/e13438c2e9245bfa_Show-HN-I-created-a-BGP-based-blackhole-system-tha]] |
+| 2026-10-01T09:52:48+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-30/e13438c2e9245bfa_Show-HN-I-created-a-BGP-based-blackhole-system-tha]] |
 
 ## 摘要正文
 

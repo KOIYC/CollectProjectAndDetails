@@ -15,7 +15,7 @@
 #   last_verified / status_note  由 kb_audit 与人工维护
 
 version: 2
-updated: '2026-09-29'
+updated: '2026-10-01'
 total_target: 300
 
 channels:
@@ -261,9 +261,21 @@ channels:
     meta_unavailable:
       published_at: 名录 README 只有 名称/链接/简介 三列；章节标题的「收录日」语义不同 → 存 extra.listed_at
     params:
-      readme: https://raw.githubusercontent.com/1c7/chinese-independent-developer/master/README.md
+      # 2026-10-01 换源：原 `raw.githubusercontent.com` 在本网络 **TCP 通、TLS 被重置**
+      # （WinError 10054，三层探针 2/2 复现；同轮 `api.github.com` TLS 0.2s 正常）
+      # → 属该主机的链路层 TLS 干扰，不是站点腐化。改走 jsDelivr CDN 镜像（实测 2.6s / 451666B / 内容一致）。
+      # 备选（实测可用但更慢）：fastly.jsdelivr.net 43.8s、gcore.jsdelivr.net 9.4s。
+      # 不可用（实测）：testingcf.jsdelivr.net（10054）、raw.githack.com（10060）。
+      # 复活条件：raw.githubusercontent.com TLS 恢复正常后可换回（每轮由 kb_audit 探针复检）。
+      readme: https://cdn.jsdelivr.net/gh/1c7/chinese-independent-developer@master/README.md
     status: ok
-    last_verified: '2026-09-20'
+    last_verified: '2026-10-01'
+    note: >-
+      取数源是 GitHub README（`- [名称](链接)：简介` 列表）。2026-09-30 起 raw.githubusercontent.com
+      被 TLS 重置（连续两轮采集/体检同报 WinError 10054），2026-10-01 改走 jsDelivr 镜像。
+      代价：jsDelivr 对 `@master` 分支别名有缓存（最长约 12h）→ 新收录条目可能有半天延迟，
+      对本渠道（名录、低频更新）可接受。**若要更稳可加主源+备用源的 fallback 链，但那需要改 adapter 代码**，
+      按「改渠道只改 channels.yaml」暂不做，待用户确认。
 
 
   # ---------------- 全网发现与信号层补充契约 ----------------
@@ -486,24 +498,27 @@ channels:
 # 每次跑完内容审计更新本段；数字是「可用/条目」，取自 00-索引/内容审计-all.md。
 
 content_gate:
-  audited_at: '2026-09-30'
-  overall: '2084/2349（89%）'
+  audited_at: '2026-10-01'
+  overall: '2151/2425（89%）'
   rows:
-    - {id: producthunt, ratio: '233/235', verdict: keep}
-    - {id: betalist, ratio: '128/128', verdict: keep}
+    - {id: producthunt, ratio: '239/241', verdict: keep}
+    - {id: betalist, ratio: '136/136', verdict: keep}
     - {id: devto, ratio: '11/11', verdict: keep,
        note: n=11 小样本；标题 require_any 曾把样本全过滤（0 条 = 杀渠道），已回退为「少量标题排除 + limit 降量」}
-    - {id: bilibili, ratio: '52/54', verdict: keep}
-    - {id: indiehackers, ratio: '87/90', verdict: keep}
-    - {id: hn_show, ratio: '1244/1320', verdict: keep,
+    - {id: bilibili, ratio: '53/56', verdict: keep}
+    - {id: indiehackers, ratio: '88/91', verdict: keep}
+    - {id: hn_show, ratio: '1284/1360', verdict: keep,
        note: 94%。大厂产品假阳性已修（Show HN 标题自述的条目不再因提到 Stripe/Google 被判「大厂产品」）；
        主要残余是视频帖无正文（结构性，记死信）与 Exa 截断 29}
-    - {id: github_new, ratio: '48/64', verdict: keep,
+    - {id: github_new, ratio: '49/65', verdict: keep,
        note: 75%。噪声是 awesome-*/directory/clone/wiki/journal 类资源清单（标题规则已排除，见 rule_drops）。
        2026-09-30 复判：本轮丢弃 16/21（76%，超 70% 线），逐条核对 = 4 条标题（snapchat-clone / awesome-side-project /
        awesome-indiehackers / launch-website-directories）+ 12 条无主题词（laya / kev / cssFilters / Tello / zerocal 等库与 demo）
-       → 全部判对，无误杀}
-    - {id: v2ex, ratio: '48/65', verdict: keep,
+       → 全部判对，无误杀。
+       2026-10-01 复判：丢弃 17/28（61%，**未过 70% 线**），逐条核对无误杀
+       （Best-Micro-SaaS-Tools / one-person-company-journal / AnvilWiki / snapchat-clone / awesome-side-project /
+       awesome-indiehackers / launch-website-directories + 10 条无主题词的库与 demo）}
+    - {id: v2ex, ratio: '48/66', verdict: keep,
        note: 74%。主要噪声是「NAS 必装 Docker 推荐」类资源帖；rules.yaml 已排招聘/求职/求助。
        2026-09-30 复判：丢弃 5/25（20%），排除项 = 2 条招聘 + 1 条「AI 导航站」+ 2 条无主题词（精灵图工具 / remote 招聘）
        → 无系统性误杀；**「做了一个 AI 导航站」已连续两轮（09-29/09-30）被标题规则滤掉（n=2）**，
@@ -511,14 +526,16 @@ content_gate:
     - {id: exa_discovery, ratio: '19/25', verdict: keep,
        note: 76%，小样本（weekly_only，非周一不跑）。2026-09-28 抽查丢弃账本：
        1 条「Respira Exhale（HTML→WordPress 转换器）」被「无主题词」滤掉，疑误杀 n=1，未到动手阈值}
-    - {id: reddit, ratio: '208/349', verdict: limit_reduced,
+    - {id: reddit, ratio: '216/366', verdict: limit_reduced,
        note: 60%。已把 limit 40→30 控量（标题过滤模拟到 88% 但丢 29 条可用帖，代价大于收益，不采纳）。
        2026-09-24 追加：窗口外移 settle_days=10 / window_days=14 后近两周语料抓不到（见渠道 note），
-       审计口径与采集口径要一起看。2026-09-30 复判：仍 60%，主要标签 = irrelevant 137 / unusable 32 / big 5 → 维持现状}
-    - {id: c1c7, ratio: '5/7', verdict: keep,
-       note: n=7 小样本，百分比抖动大，**报可用率必须连 n 一起报**；2026-09-30 仍 5/7，
-       与 09-26 的 7/7 / 09-28 的 5/7 同属 n<10 的正常抖动，不构成渠道级问题。
-       本轮采集端 error（WinError 10054）—— 属瞬态网络（探针证实 1c7.me TCP+TLS ok 但被重置），不属渠道腐化}
+       审计口径与采集口径要一起看。2026-09-30 复判：仍 60%，主要标签 = irrelevant 137 / unusable 32 / big 5 → 维持现状。
+       2026-10-01 复判：216/366 = 59%，标签结构不变（irrelevant 146 / unusable 33 / resource 10 / big 5 / summary 4）→ 维持 limit_reduced}
+    - {id: c1c7, ratio: '7/7', verdict: keep,
+       note: 2026-10-01 起 7/7（本轮换取数源后恢复取数，n=7 仍属小样本，报可用率要连 n 一起报）。
+       2026-09-30 曾 5/7，与 09-26 的 7/7 同属 n<10 的正常抖动，不构成渠道级问题。
+       09-30 采集端 error（WinError 10054）经 10-01 三层探针定案为 `raw.githubusercontent.com` 的 TLS 重置，
+       已换取数源（jsDelivr 镜像）修复，详见 `backends` 段同条目}
 
 # ---------------- 后端可用性订正（实测，会被 kb_audit 复检） ----------------
 backends:
@@ -550,6 +567,17 @@ backends:
     status: unusable
     verified: '2026-09-20'
     evidence: 公开 search-only key 403；改用 /products HTML 解析 + Exa 正文
+  - id: raw.githubusercontent.com
+    use: c1c7 名录 README 取数源（原）
+    status: unusable
+    verified: '2026-10-01'
+    evidence: >-
+      TCP 通（0.1s）但 **TLS 握手被重置**（WinError 10054，三层探针 2/2 复现）；
+      同轮对照 `api.github.com`（可读 git 仓库、github_new 在用）TLS 0.2s 正常
+      → 属该主机级 SNI/TLS 干扰，不是 GitHub 全域不可用，也不是 c1c7 渠道腐化。
+      表现：kb_audit 与 kb_collect 同轮均报同一句 `10054`（连续两轮 09-30 / 10-01）。
+      处置：c1c7 改走 jsDelivr 镜像（见 channels.yaml c1c7 的 params.readme），不改代码。
+    revive: TLS 复位后可直接换回主源（每轮由 kb_audit 复检；先把 c1c7 的 params.readme 换回并单渠道复跑确认）
 
 # ---------------- 停用登记（保留原因与复活条件，不进采集循环） ----------------
 disabled:

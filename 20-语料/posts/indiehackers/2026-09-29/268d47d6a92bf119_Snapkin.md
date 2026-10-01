@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/snapkin"
 project_url: "https://getsnapkin.app/"
-captured_at: "2026-09-30T18:48:20+08:00"
+captured_at: "2026-10-01T09:43:57+08:00"
 lang: "en"
 kind: "project"
 topic: 开发者工具
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://getsnapkin.app/>
-> 采集：2026-09-30T18:48:20+08:00　|　id：`268d47d6a92bf119`
+> 采集：2026-10-01T09:43:57+08:00　|　id：`268d47d6a92bf119`
 
 ## 正文
 
@@ -62,14 +62,14 @@ Post Comment
 Have early users actually kept logging after the novelty wears off, or is the strongest signal so far that the two-click flow gets people to try it?
 Aryan Sinh
 ·
-2 days ago
+3 days ago
  ·
 Reply
 1
 Retention is pretty strong, the fact that the UX is now measurably easier than ever before makes users more sticky 👏
 Mattias Geniar
 ·
-2 days ago
+3 days ago
  ·
 Reply
 1
@@ -112,7 +112,7 @@ Reply
 Retention is pretty strong, the fact that the UX is now measurably easier than ever before makes users more sticky 👏
 Mattias Geniar
 ·
-2 days ago
+3 days ago
  ·
 Reply
 About

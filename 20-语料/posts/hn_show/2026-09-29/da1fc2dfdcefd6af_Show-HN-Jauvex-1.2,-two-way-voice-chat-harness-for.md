@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49886390"
 project_url: "https://github.com/reindent/jauvex"
 author: "daraosn"
 published_at: "2026-09-29T00:31:44Z"
-captured_at: "2026-09-30T18:57:07+08:00"
+captured_at: "2026-10-01T09:52:19+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=2 · 评论=1 · engagement_velocity=2
 > 作者：daraosn　|　发布：2026-09-29T00:31:44Z
 > 项目链接：<https://github.com/reindent/jauvex>
-> 采集：2026-09-30T18:57:07+08:00　|　id：`da1fc2dfdcefd6af`
+> 采集：2026-10-01T09:52:19+08:00　|　id：`da1fc2dfdcefd6af`
 
 ## 正文
 
@@ -62,7 +62,7 @@ Your coding agents, side by side, by voice. Claude, Codex & Grok in one desktop 
 
 ## Top Contributors
 
-- diegoaraos (9 contributions)
+- diegoaraos (10 contributions)
 
 ---
 
@@ -71,7 +71,7 @@ Your coding agents, side by side, by voice. Claude, Codex & Grok in one desktop 
 # Jauvex
 
 Your coding agents, side by side, by voice. Claude, Codex and Grok in one desktop app, with Jev (TypeSafe) for the fast
-decisions. Jauvex Personal, version 1.3.0, for macOS; Apache License 2.0. Source: github.com/reindent/jauvex; site:
+decisions. Jauvex Personal, version 1.3.1, for macOS; Apache License 2.0. Source: github.com/reindent/jauvex; site:
 jauvex.reindent.com. Made by Reindent (one human and agents).
 
 Jauvex is an Electron client for the Claude Code, Codex and Grok Build sessions on your Mac. Add a folder, pick up any of its
@@ -95,12 +95,16 @@ prebuilt is downloaded, so there is nothing for Apple to notarize. Jauvex lands 
 `/Applications` is not writable), a real app with its own name, icon and microphone permission; the source and the build
 stay in `~/.jauvex/personal/app`. Run the command again to update, with Jauvex closed, or let Jauvex do it: it asks
 jauvex.reindent.com which version is the latest (`/api/personal/version`), at launch and every six hours, and when a newer one is out
-the sidebar's footer says so ("1.2.0 is out") and the Jauvex agent asks you, once per version, whether to update now. On a yes
+the sidebar's footer says so ("1.2.0 is out") and the Jauvex agent tells you what it brings, from the changelog the site serves
+(`/api/personal/changelog`: this repository's `CHANGELOG.md`, the sections since your version), and asks you, once per version, whether
+to update now. On a yes
 (or "update the app" at any time) it runs `node scripts/jauvex.ts update`: refused while other agents work (`--now` on your word);
 otherwise the app fetches the same install command, checks that it installs the version offered, leaves it and a small runner in
 `~/.jauvex/personal/update/`, hands the runner to launchd and quits. The runner waits for the app to exit, runs the install command
 (it rebuilds the app on your Mac and opens it), opens the old app again if it does not finish, and removes it; its log is
-`update/update.log`. Only the app the install command made updates itself; a clone updates with git (T-165). To remove it, quit it and delete
+`update/update.log`. When the app opens on a newer version than the one it last ran, the Jauvex agent's chat opens and it tells you it is
+updated and what the versions since bring, from the app's own `CHANGELOG.md`, then checks that your folders and agents are all there (T-218).
+Only the app the install command made updates itself; a clone updates with git (T-165). To remove it, quit it and delete
 `Jauvex.app` and `~/.jauvex/personal/app`; its settings stay in `~/.jauvex/personal`. To work on the code, clone this
 repository instead: `npm start` runs it from the clone, and `npm run app` makes the same app in `tmp/mac-app/Jauvex.app`
 (`scripts/mac-app.ts`: Electron's app renamed Jauvex, with the built app, the Whisper models, Claude and Codex inside, signed
@@ -420,11 +424,7 @@ Press the white round button in the message box. All local except the two Claude
   background, with its session, or starts one; with no session yet, its folder's id stands in for its id; a session with no name of its own is shown by its first message, cut at 60 characters. Every exchange shows in both
   threads, marked "From agent X", and in the voice log. The briefing tells every agent all of this.
 - **Every agent is told where it is running.** A blank session knows nothing about this app, so each one, on either
-  provider, new or resumed, gets a short briefing (`clientBriefing` in `shared/types.ts`; appended to Claude's system
-  prompt, sent as Codex's developer instructions): several agents side by side, messages that arrive mid-turn are new
-  information to fold in (not a restart), the full answer is on screen while a separate small model speaks a short
-  version (so: conclusion first, short plain answers for simple questions), a turn can be stopped at any moment, and in
-  voice m
+  provider, new or resumed, gets a short briefing (`clientB
 
 ## 评论（1/1）
 

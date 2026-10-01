@@ -2,7 +2,7 @@
 type: "project"
 title: "Master of Scale"
 project_url: "https://mastersofscale.com/"
-first_seen: "2026-09-28T09:51:33+08:00"
+first_seen: "2026-10-01T09:50:37+08:00"
 sources:
   - c1c7
 tags:
@@ -19,7 +19,7 @@ lang: "zh"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://mastersofscale.com/>
-> 首次收录：2026-09-28T09:51:33+08:00
+> 首次收录：2026-10-01T09:50:37+08:00
 > 来源渠道：1c7 中文独立开发者名录
 > 标签：英文
 > 最新指标：—
@@ -45,7 +45,8 @@ lang: "zh"
 | 2026-09-25T00:05:28+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
 | 2026-09-25T13:47:15+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
 | 2026-09-28T09:51:33+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
+| 2026-10-01T09:50:37+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
 
 ## 摘要正文
 
-Masters of Scale – Home  ## We read the AI fine print, so you don’t have to   Axios’s Ina Fried  Ina Fried dives into the privacy and data-sharing policies of AI consumer products from OpenAI, Anthropic, Meta, Google, and more.   The sometimes messy, always inspiring stories of how great leaders scale businesses to impressive heights — and the insights you’ll need to join them at the top.  # V2EX › 分享创造
+Masters of Scale – Home  ## We read the AI fine print, so you don’t have to   Axios’s Ina Fried  Ina Fried dives into the privacy and data-sharing policies of AI consumer products from OpenAI, Anthropic, Meta, Google, and more.   The sometimes messy, always inspiring stories of how great leaders scale businesses to impressive heights — and the insights you’ll need to join them at the top.  # sideidea.com | 独立开发者&远程工作者盈利产品案例分享

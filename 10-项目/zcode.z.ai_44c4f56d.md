@@ -2,14 +2,14 @@
 type: "project"
 title: "zai-org/ZCode"
 project_url: "https://zcode.z.ai/"
-first_seen: "2026-09-30T18:46:00+08:00"
+first_seen: "2026-10-01T09:43:42+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - TypeScript
-  - created:>2026-09-16
+  - created:>2026-09-17
 lang: "en"
 ---
 
@@ -20,10 +20,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://zcode.z.ai/>
-> 首次收录：2026-09-30T18:46:00+08:00
+> 首次收录：2026-10-01T09:43:42+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：TypeScript, created:>2026-09-16
-> 最新指标：stars=7225 · forks=2191 · open_issues=11
+> 标签：TypeScript, created:>2026-09-17
+> 最新指标：stars=7253 · forks=2201 · open_issues=11
 
 ## 观测历史
 
@@ -37,6 +37,7 @@ lang: "en"
 | 2026-09-28T09:49:25+08:00 | GitHub 新星仓库 | stars=6898 · forks=2086 · open_issues=11 | [[20-语料/posts/github_new/2026-09-22/11c0e859fa41d76b_zai-org-ZCode]] |
 | 2026-09-29T09:44:30+08:00 | GitHub 新星仓库 | stars=7050 · forks=2134 · open_issues=11 | [[20-语料/posts/github_new/2026-09-22/11c0e859fa41d76b_zai-org-ZCode]] |
 | 2026-09-30T18:46:00+08:00 | GitHub 新星仓库 | stars=7225 · forks=2191 · open_issues=11 | [[20-语料/posts/github_new/2026-09-22/11c0e859fa41d76b_zai-org-ZCode]] |
+| 2026-10-01T09:43:42+08:00 | GitHub 新星仓库 | stars=7253 · forks=2201 · open_issues=11 | [[20-语料/posts/github_new/2026-09-22/11c0e859fa41d76b_zai-org-ZCode]] |
 
 ## 摘要正文
 

@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49902803"
 project_url: "https://setecastronomyinc.com/shield"
 author: "jkalbfeld"
 published_at: "2026-09-30T00:28:29Z"
-captured_at: "2026-09-30T18:57:07+08:00"
+captured_at: "2026-10-01T09:52:48+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -21,8 +21,8 @@ tags:
   - story_49902803
   - show_hn
 metrics: {"points": 2, "comments": 0, "engagement_velocity": 2}
-comments_count: 0
-comments_total: 0
+comments_count: 8
+comments_total: 8
 discovered_via: "hn:show_hn:3d"
 ---
 
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：jkalbfeld　|　发布：2026-09-30T00:28:29Z
 > 项目链接：<https://setecastronomyinc.com/shield>
-> 采集：2026-09-30T18:57:07+08:00　|　id：`e13438c2e9245bfa`
+> 采集：2026-10-01T09:52:48+08:00　|　id：`e13438c2e9245bfa`
 
 ## 正文
 
@@ -140,6 +140,47 @@ Contact
 Portal
 © 2026 Setec Astronomy, Inc. All rights reserved.
 setecastronomyinc.com
+
+## 评论（8/8）
+
+> **RationPhantoms** · 2026-09-30T17:44:13.000Z　
+> Your 4. is incorrect. Traffic does not get dropped upstream.
+
+---
+
+> **smw** · 2026-09-30T17:45:00.000Z　
+> I guess the real question here is what happens if my service _does_ get attacked by a volumetric DDoS? Do you immediately stop advertising?
+
+---
+
+> **112233** · 2026-09-30T19:14:02.000Z　
+> Hopefully upstream peers will use RPKI properly. It would be sad if this actually worked.
+
+---
+
+> **jkalbfeld** · 2026-09-30T20:49:08.000Z　
+> You're right. I fixed the copy to clarify its functionality. The blackhole feed doesn't actually sit in your traffic path; it tells your own router what to drop by creating longer CIDRs. Traffic still reaches you over your real ISP connection same as always - your router just can't send an ACK reply back, so it kills the handshake and prevents brute force attacks. If you also set up uRPF (covered in our setup docs), it goes a step further and drops their packets on arrival instead of just failing your reply. In this case, since we're not a transit provider, preventing volumetric attacks can be a little bit tricky since we're not actually in your upstream. However, it is possible to ETL chain data and generate a filter list. I figured at this price point, volumetric protection is a little bit hard to implement.
+
+---
+
+> **BrianGragg** · 2026-09-30T20:20:14.000Z　
+> The statement above:
+> It doesn't do volumetric protection against DDoS
+
+---
+
+> **jkalbfeld** · 2026-09-30T20:50:43.000Z　
+> Since you wouldn't be running transit through us, the traffic would still reach you, and you can use uRPF to block it in-situ.
+
+---
+
+> **BrianGragg** · 2026-09-30T20:21:44.000Z　
+> I don't think RPKI will do anything to stop threats or DDOS attacks that happen currently. It should stop rogue route updates though.
+
+---
+
+> **jkalbfeld** · 2026-09-30T20:56:00.000Z　
+> RPKI is great, and I use it for everything except for two /24's that I got pre-ARIN. However, RPKI won't help with the situation where some kind of compromised host is worming its way through the internet running nmap against everything. Most of the IP addresses showing up in our dragnet are in fact announced by the very ISPs that own them. Most of these do not appear to be bogons.
 
 ## 导航
 

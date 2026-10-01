@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/tickralert"
 published_at: "2026-09-27"
-captured_at: "2026-09-30T18:47:57+08:00"
+captured_at: "2026-10-01T09:43:50+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-09-27
 > 项目链接：—
-> 采集：2026-09-30T18:47:57+08:00　|　id：`e78570854acdc881`
+> 采集：2026-10-01T09:43:50+08:00　|　id：`e78570854acdc881`
 
 ## 正文
 
@@ -88,9 +88,9 @@ Aerlerts
  Flight alerts that tell you WHY to book now
 RestockAlerts
  Track Hermès handbag restocks and buy before they sell out
-MemoryPlugin
+Structura
  BOOSTED
- Long term memory for ALL your AI tools
+ Publish 3 SEO-optimized blog posts a day, hands-off
  BOOSTED
 Betvisors
  Follow verified sports betting advisors and only tip when they win
@@ -98,9 +98,9 @@ Broke Fix Flip
  Find broken items worth money, see repairs, and get alerts
 European Remote
  Selected European remote opportunities weekly in your inbox
-Todoless
+Pixx AI Restaurant Picker for Groups
  BOOSTED
- AI-native, privacy-first task management that understands natural typing
+ Decide where your group eats with AI in seconds
  BOOSTED
 ReviewsAlly.com
  Editorial reviews website helping consumers make the best decisions

@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: TurboGPT: train 22KiB transformer in 13s"
 project_url: "https://github.com/lostmsu/TurboGPT"
-first_seen: "2026-09-30T18:57:48+08:00"
+first_seen: "2026-10-01T09:52:53+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/lostmsu/TurboGPT>
-> 首次收录：2026-09-30T18:57:48+08:00
+> 首次收录：2026-10-01T09:52:53+08:00
 > 来源渠道：HN Show HN
 > 标签：author_lostmsu, story_49898931, show_hn
 > 最新指标：点赞=49 · 评论=10 · engagement_velocity=49
@@ -33,6 +33,7 @@ lang: "en"
 | 2026-09-30T18:28:30+08:00 | HN Show HN | 点赞=49 · 评论=10 · engagement_velocity=49 | [[20-语料/posts/hn_show/2026-09-30/f75ab2d7bca162f3_Show-HN-TurboGPT-train-22KiB-transformer-in-13s]] |
 | 2026-09-30T18:57:07+08:00 | HN Show HN | 点赞=49 · 评论=10 · engagement_velocity=49 | [[20-语料/posts/hn_show/2026-09-30/f75ab2d7bca162f3_Show-HN-TurboGPT-train-22KiB-transformer-in-13s]] |
 | 2026-09-30T18:57:48+08:00 | HN Show HN | 点赞=49 · 评论=10 · engagement_velocity=49 | [[20-语料/posts/hn_show/2026-09-30/f75ab2d7bca162f3_Show-HN-TurboGPT-train-22KiB-transformer-in-13s]] |
+| 2026-10-01T09:52:53+08:00 | HN Show HN | 点赞=49 · 评论=10 · engagement_velocity=49 | [[20-语料/posts/hn_show/2026-09-30/f75ab2d7bca162f3_Show-HN-TurboGPT-train-22KiB-transformer-in-13s]] |
 
 ## 摘要正文
 

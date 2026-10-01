@@ -5,7 +5,7 @@ title: "Social Snitch"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/social-snitch"
-captured_at: "2026-09-30T18:48:20+08:00"
+captured_at: "2026-10-01T09:43:57+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-30T18:48:20+08:00　|　id：`0f112d1e9806e429`
+> 采集：2026-10-01T09:43:57+08:00　|　id：`0f112d1e9806e429`
 
 ## 正文
 
@@ -52,7 +52,7 @@ I built it because I wanted to know when people were talking about my projects w
 Try Social Snitch
 Manoj Vivek
 2 Likes
-1 Comment
+2 Comments
 Say something nice…
 Post Comment
 1
@@ -60,7 +60,14 @@ This is a good project. There are quite a few competitors in the market though. 
 Good luck with the project. If you need someone to test it I would be happy to.
 Martin Janse van Rensburg
 ·
-an hour ago
+16 hours ago
+ ·
+Reply
+1
+Hi Martin, I would love for you to try the product and give your feedback. Let me know if you need more than the 3 free keywords, I would increase it happily for you!
+Manoj Vivek
+·
+13 hours ago
  ·
 Reply
 About

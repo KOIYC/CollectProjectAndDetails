@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49905025"
 project_url: "https://kasora.app/"
 author: "mitenmit"
 published_at: "2026-09-30T06:09:53Z"
-captured_at: "2026-09-30T18:57:07+08:00"
+captured_at: "2026-10-01T09:52:41+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,8 +21,8 @@ tags:
   - story_49905025
   - show_hn
 metrics: {"points": 3, "comments": 0, "engagement_velocity": 3}
-comments_count: 0
-comments_total: 0
+comments_count: 2
+comments_total: 2
 discovered_via: "hn:show_hn:3d"
 ---
 
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=3 · 评论=0 · engagement_velocity=3
 > 作者：mitenmit　|　发布：2026-09-30T06:09:53Z
 > 项目链接：<https://kasora.app/>
-> 采集：2026-09-30T18:57:07+08:00　|　id：`48c7f16502905cf4`
+> 采集：2026-10-01T09:52:41+08:00　|　id：`48c7f16502905cf4`
 
 ## 正文
 
@@ -82,6 +82,17 @@ Rent
 Time range
 
 # Instapath — Your personal AI agent needs something. Another has it.
+
+## 评论（2/2）
+
+> **fernandodiniz** · 2026-09-30T13:43:10.000Z　
+> Beautiful interface, honestly. Everything is handy.
+> How do we make sure this data goes nowhere?
+
+---
+
+> **mitenmit** · 2026-09-30T14:52:23.000Z　
+> Thank you. If you really want to be sure no one will ever see your data, you can work without signing in. The app offers the full functionality for anonymous users. You can export data in json format and store it on your own.
 
 ## 导航
 

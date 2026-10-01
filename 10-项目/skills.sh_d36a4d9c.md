@@ -2,7 +2,7 @@
 type: "project"
 title: "Gingiris/gingiris-launch"
 project_url: "https://skills.sh/Gingiris/gingiris-launch"
-first_seen: "2026-09-29T09:49:37+08:00"
+first_seen: "2026-10-01T09:52:19+08:00"
 sources:
   - github_new
 tags:
@@ -19,10 +19,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://skills.sh/Gingiris/gingiris-launch>
-> 首次收录：2026-09-29T09:49:37+08:00
+> 首次收录：2026-10-01T09:52:19+08:00
 > 来源渠道：GitHub 新星仓库
 > 标签：topic:indie-hacker
-> 最新指标：stars=208 · forks=29 · open_issues=2
+> 最新指标：stars=209 · forks=29 · open_issues=2
 
 ## 观测历史
 
@@ -54,6 +54,8 @@ lang: "en"
 | 2026-09-28T10:06:07+08:00 | GitHub 新星仓库 | stars=208 · forks=29 · open_issues=2 | [[20-语料/posts/github_new/2026-09-20/ab56183769a3cfcb_Gingiris-gingiris-launch]] |
 | 2026-09-29T09:44:32+08:00 | GitHub 新星仓库 | stars=208 · forks=29 · open_issues=2 | [[20-语料/posts/github_new/2026-09-20/ab56183769a3cfcb_Gingiris-gingiris-launch]] |
 | 2026-09-29T09:49:37+08:00 | GitHub 新星仓库 | stars=208 · forks=29 · open_issues=2 | [[20-语料/posts/github_new/2026-09-20/ab56183769a3cfcb_Gingiris-gingiris-launch]] |
+| 2026-10-01T09:43:43+08:00 | GitHub 新星仓库 | stars=209 · forks=29 · open_issues=2 | [[20-语料/posts/github_new/2026-09-20/ab56183769a3cfcb_Gingiris-gingiris-launch]] |
+| 2026-10-01T09:52:19+08:00 | GitHub 新星仓库 | stars=209 · forks=29 · open_issues=2 | [[20-语料/posts/github_new/2026-09-20/ab56183769a3cfcb_Gingiris-gingiris-launch]] |
 
 ## 摘要正文
 

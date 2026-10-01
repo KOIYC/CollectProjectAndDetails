@@ -5,7 +5,7 @@ title: "Launchnest Ln 16"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/launchnest-ln-16"
-captured_at: "2026-09-30T18:48:20+08:00"
+captured_at: "2026-10-01T09:43:57+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-30T18:48:20+08:00　|　id：`5f5b225510d8975d`
+> 采集：2026-10-01T09:43:57+08:00　|　id：`5f5b225510d8975d`
 
 ## 正文
 
@@ -71,7 +71,7 @@ This matches what I see on the GEO side too. Directories are noisy, and “descr
 We’re shipping Prisma Postgres + Compute for TypeScript / agent backends. Will might use Launchnest to see how it goes (always trying out new tools). If AI Finder surfaces infra tools well, we'll repeat.
 Martin Janse van Rensburg
 ·
-an hour ago
+16 hours ago
  ·
 Reply
 1
@@ -80,21 +80,21 @@ So the real question for AI Finder: where does the traffic that uses it come fro
 Curious what the retrieval is grounded on - vendor-submitted descriptions, or something you're generating/verifying independently?
 Viacheslav
 ·
-20 hours ago
+a day ago
  ·
 Reply
 1
 Good
 Amdrewjulian
 ·
-a day ago
+2 days ago
  ·
 Reply
 1
 Nice
 Amdrewjulian
 ·
-a day ago
+2 days ago
  ·
 Reply
 About

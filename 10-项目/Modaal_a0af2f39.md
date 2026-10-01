@@ -2,7 +2,7 @@
 type: "project"
 title: "Modaal"
 project_url: "https://betalist.com/startups/modaal"
-first_seen: "2026-09-30T18:47:57+08:00"
+first_seen: "2026-10-01T09:43:50+08:00"
 sources:
   - betalist
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://betalist.com/startups/modaal>
-> 首次收录：2026-09-30T18:47:57+08:00
+> 首次收录：2026-10-01T09:43:50+08:00
 > 来源渠道：BetaList
 > 标签：—
 > 最新指标：—
@@ -28,6 +28,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-30T18:47:57+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-30/a0af2f39482f5055_Modaal]] |
+| 2026-10-01T09:43:50+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-30/a0af2f39482f5055_Modaal]] |
 
 ## 摘要正文
 

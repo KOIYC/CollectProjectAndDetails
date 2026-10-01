@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49906193"
 project_url: "https://layout.link/"
 author: "colemorell"
 published_at: "2026-09-30T08:55:38Z"
-captured_at: "2026-09-30T18:28:30+08:00"
+captured_at: "2026-10-01T09:52:39+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,8 +21,8 @@ tags:
   - story_49906193
   - show_hn
 metrics: {"points": 2, "comments": 0, "engagement_velocity": 2}
-comments_count: 0
-comments_total: 0
+comments_count: 1
+comments_total: 1
 discovered_via: "hn:show_hn:3d"
 ---
 
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：colemorell　|　发布：2026-09-30T08:55:38Z
 > 项目链接：<https://layout.link/>
-> 采集：2026-09-30T18:28:30+08:00　|　id：`08f59843f9dbea94`
+> 采集：2026-10-01T09:52:39+08:00　|　id：`08f59843f9dbea94`
 
 ## 正文
 
@@ -280,6 +280,11 @@ EULA
 Privacy Policy
 Subprocessors
 Terms of Service
+
+## 评论（1/1）
+
+> **bgolson** · 2026-09-30T14:22:05.000Z　
+> Is there a way to get in right away or is the wait-list the best path?
 
 ## 导航
 

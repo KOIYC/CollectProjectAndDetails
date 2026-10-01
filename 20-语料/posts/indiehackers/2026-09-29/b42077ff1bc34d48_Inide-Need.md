@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/inide-need"
 project_url: "https://indieneed.com/"
-captured_at: "2026-09-30T18:48:20+08:00"
+captured_at: "2026-10-01T09:43:57+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,17 +31,17 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://indieneed.com/>
-> 采集：2026-09-30T18:48:20+08:00　|　id：`b42077ff1bc34d48`
+> 采集：2026-10-01T09:43:57+08:00　|　id：`b42077ff1bc34d48`
 
 ## 正文
 
 Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+
 Starting Up Case Studies
  Ideas DB Products DB Sign in Join
-Inide Need
+InideNeed.com
  Discover and submit products built by indie makers
 Visit Website
-Inide Need Discover and submit products built by indie makers
+InideNeed.com Discover and submit products built by indie makers
  Posts 29
  Revenue $1K / mo
  Website Twitter
@@ -54,8 +54,25 @@ If your SaaS, AI tool, app, or side project is live, don’t stop at posting it 
  https://indieneed.com
  If you’re building something useful, I’d genuinely like to see it there.
 Rahul Ajmera
-8 Likes
-Comment
+12 Likes
+2 Comments
+Say something nice…
+Post Comment
+1
+Thanks for building this! Just submitted mine: SizeBench (https://sizebench.com). It's 56 free technical calculators (wire size, voltage drop, solar, batteries, CCTV storage, concrete) and a new 3D printing section (print cost, filament meters ↔ grams, e-steps, Etsy pricing). Every result shows the formula and the steps behind it, and it's available in English, Portuguese and Spanish.
+Quick question: do you plan to add categories for non-SaaS tools like free utilities and calculators? A lot of indie projects are ad- or affiliate-supported rather than subscriptions, and they're hard to place in most launch directories.
+sizebench.com
+·
+5 hours ago
+ ·
+Reply
+1
+Just added worldesk.ai to indieneed, appreciate you building a spot for these to live beyond the usual launch-day platforms.
+chely
+·
+7 hours ago
+ ·
+Reply
 September 30, 2026
  Put Your Startup in Front of More People — $21/Week
 A great product can still go unnoticed without enough visibility.
@@ -65,7 +82,7 @@ A great product can still go unnoticed without enough visibility.
  https://indieneed.com
  If you’re already building something worth seeing, don’t keep it hidden.
 Rahul Ajmera
-8 Likes
+9 Likes
 Comment
 September 29, 2026
  Launching Alone? Give Your Product One More Place to Be Found
@@ -85,14 +102,14 @@ Post Comment
 I’ve submitted my project. Thanks for building this and giving indie makers another place to be discovered.
 Jerry Lee
 ·
-4 hours ago
+19 hours ago
  ·
 Reply
 1
 The "too few people ever see them" point is the real killer for most launches. A dedicated place to browse indie products is useful as long as it doesn't turn into just another link dump.
 latiny
 ·
-5 hours ago
+20 hours ago
  ·
 Reply
 September 29, 2026
@@ -118,15 +135,22 @@ A lot of good indie products never get enough attention simply because the right
  https://indieneed.com
  I’m actively looking for more strong indie products right now.
 Rahul Ajmera
-16 Likes
-4 Comments
+19 Likes
+5 Comments
 Say something nice…
 Post Comment
+1
+what's your plan to get Indieneed itself discovered?
+Nicolò
+·
+13 hours ago
+ ·
+Reply
 1
 Thanks, thats very useful because it is a real problem.
 Online Market Intel
 ·
-2 hours ago
+17 hours ago
  ·
 Reply
 1
@@ -134,21 +158,21 @@ Hi, I'm building Developer Tool that makes AWS easier https://limeboost.io.
 I just open-sourced an Angular starter with authentication using AWS Cognito. It also includes instructions for deploying the app to your own AWS account.
 Lea Malkki
 ·
-5 hours ago
+20 hours ago
  ·
 Reply
 1
 Here Is the code https://github.com/Lime-Boost/lime-boost-starter-angular
 Lea Malkki
 ·
-5 hours ago
+20 hours ago
  ·
 Reply
 1
 It would begin with allowing people to actually submit anything. I am still getting I am not allowed to post 🤷‍♀️
 Butterfly88
 ·
-a day ago
+2 days ago
  ·
 Reply
 September 28, 2026
@@ -235,6 +259,7 @@ Databases
 - https://github.com/Lime-Boost/lime-boost-starter-angular
 - https://indieneed.com
 - https://limeboost.io.
+- https://sizebench.com
 - https://www.indieneed.com/
 - https://www.indieneed.com/submit
 

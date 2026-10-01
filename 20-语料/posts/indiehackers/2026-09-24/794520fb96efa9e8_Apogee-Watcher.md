@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/apogee-watcher"
 project_url: "https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance"
-captured_at: "2026-09-30T18:48:20+08:00"
+captured_at: "2026-10-01T09:43:57+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance>
-> 采集：2026-09-30T18:48:20+08:00　|　id：`794520fb96efa9e8`
+> 采集：2026-10-01T09:43:57+08:00　|　id：`794520fb96efa9e8`
 
 ## 正文
 
@@ -65,14 +65,14 @@ Post Comment
 Better
 Amdrewjulian
 ·
-4 days ago
+5 days ago
  ·
 Reply
 1
 Perfect
 Amdrewjulian
 ·
-4 days ago
+5 days ago
  ·
 Reply
 1
@@ -142,14 +142,14 @@ Post Comment
 Awesome breakdown! Closing that Safari blind spot with real-user data (RUM) while keeping CrUX as the Chrome/SEO benchmark is spot-on advice for agency workflows.
 Online Jobs Media LLC
 ·
-7 days ago
+8 days ago
  ·
 Reply
 1
 Many thanks!
 Apogee Watcher
 ·
-7 days ago
+8 days ago
  ·
 Reply
 September 30, 2026
@@ -234,7 +234,7 @@ Until URL-level field history builds, store scheduled lab CLS and TBT on the pri
 Apogee Watcher is built for that layered model: scheduled PageSpeed Insights and Lighthouse runs across client sites, budgets on lab metrics, and alerts when a priority URL regresses, while you still read field slices where Google publishes them. It does not invent CrUX samples for quiet pages. It keeps lab proof continuous until field data catches up.
  Read more: When PageSpeed Insights shows no CLS or INP for your URL
 Apogee Watcher
-17 Likes
+18 Likes
 4 Comments
 Say something nice…
 Post Comment
@@ -256,7 +256,7 @@ Reply
 I used your website with my domain. The tests were done in only a few minutes. I love how the menu is genuinely useful and gets you where you want to go. Great product.
 Marios Christoforou
 ·
-8 days ago
+9 days ago
  ·
 Reply
 2
@@ -279,7 +279,7 @@ Portfolio regressions before field moves: scheduled PageSpeed lab tests with bud
 We run scheduled lab tests across many client sites and show CrUX field slices beside results when Google returns them. CrUX Vis still owns the six-month INP line on one hero domain; we help when fifty URLs need the same row without fifty bookmarks.
  Read more: where to get TTFB, INP, and field history after the CrUX Dashboard retired
 Apogee Watcher
-3 Likes
+4 Likes
 Comment
 About
  Agencies managing many sites need automated Core Web Vitals monitoring, alerts, and client-ready reports. Not fragile Lighthouse CI, costs that spiral, or enterprise-only multi-tenant. Manual checks do not scale.

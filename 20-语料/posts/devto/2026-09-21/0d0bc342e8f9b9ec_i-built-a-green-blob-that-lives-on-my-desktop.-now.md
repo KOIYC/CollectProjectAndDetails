@@ -7,7 +7,7 @@ source_name: "dev.to"
 url: "https://dev.to/mikachu/i-built-a-green-blob-that-lives-on-my-desktop-and-now-it-has-feelings-4pjd"
 author: "Mika Flowers"
 published_at: "2026-09-20T11:15:55Z"
-captured_at: "2026-09-30T18:57:11+08:00"
+captured_at: "2026-10-01T09:52:22+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "devto:showdev"
 > 指标：reactions=86 · 评论=28 · reading_time=6
 > 作者：Mika Flowers　|　发布：2026-09-20T11:15:55Z
 > 项目链接：—
-> 采集：2026-09-30T18:57:11+08:00　|　id：`0d0bc342e8f9b9ec`
+> 采集：2026-10-01T09:52:22+08:00　|　id：`0d0bc342e8f9b9ec`
 
 ## 正文
 

@@ -2,14 +2,14 @@
 type: "project"
 title: "mizorewww/laya-mlx"
 project_url: "https://pypi.org/project/laya-mlx"
-first_seen: "2026-09-29T09:44:30+08:00"
+first_seen: "2026-10-01T09:43:42+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - Python
-  - created:>2026-09-15
+  - created:>2026-09-17
 lang: "en"
 ---
 
@@ -20,10 +20,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://pypi.org/project/laya-mlx>
-> 首次收录：2026-09-29T09:44:30+08:00
+> 首次收录：2026-10-01T09:43:42+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：Python, created:>2026-09-15
-> 最新指标：stars=6580 · forks=516 · open_issues=20
+> 标签：Python, created:>2026-09-17
+> 最新指标：stars=6661 · forks=524 · open_issues=20
 
 ## 观测历史
 
@@ -36,6 +36,7 @@ lang: "en"
 | 2026-09-26T09:43:40+08:00 | GitHub 新星仓库 | stars=6342 · forks=495 · open_issues=18 | [[20-语料/posts/github_new/2026-09-22/72c605ffebc36801_mizorewww-laya-mlx]] |
 | 2026-09-28T09:49:25+08:00 | GitHub 新星仓库 | stars=6490 · forks=511 · open_issues=20 | [[20-语料/posts/github_new/2026-09-22/72c605ffebc36801_mizorewww-laya-mlx]] |
 | 2026-09-29T09:44:30+08:00 | GitHub 新星仓库 | stars=6580 · forks=516 · open_issues=20 | [[20-语料/posts/github_new/2026-09-22/72c605ffebc36801_mizorewww-laya-mlx]] |
+| 2026-10-01T09:43:42+08:00 | GitHub 新星仓库 | stars=6661 · forks=524 · open_issues=20 | [[20-语料/posts/github_new/2026-09-22/72c605ffebc36801_mizorewww-laya-mlx]] |
 
 ## 摘要正文
 

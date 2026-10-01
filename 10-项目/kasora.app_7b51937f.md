@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Kasora – Simulate your finances month by month, in-browser, no sign-up"
 project_url: "https://kasora.app/"
-first_seen: "2026-09-30T18:57:07+08:00"
+first_seen: "2026-10-01T09:52:41+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://kasora.app/>
-> 首次收录：2026-09-30T18:57:07+08:00
+> 首次收录：2026-10-01T09:52:41+08:00
 > 来源渠道：HN Show HN
 > 标签：author_mitenmit, story_49905025, show_hn
 > 最新指标：点赞=3 · 评论=0 · engagement_velocity=3
@@ -32,6 +32,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-09-30T18:28:30+08:00 | HN Show HN | 点赞=3 · 评论=0 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-30/48c7f16502905cf4_Show-HN-Kasora-–-Simulate-your-finances-month-by-m]] |
 | 2026-09-30T18:57:07+08:00 | HN Show HN | 点赞=3 · 评论=0 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-30/48c7f16502905cf4_Show-HN-Kasora-–-Simulate-your-finances-month-by-m]] |
+| 2026-10-01T09:52:41+08:00 | HN Show HN | 点赞=3 · 评论=0 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-09-30/48c7f16502905cf4_Show-HN-Kasora-–-Simulate-your-finances-month-by-m]] |
 
 ## 摘要正文
 

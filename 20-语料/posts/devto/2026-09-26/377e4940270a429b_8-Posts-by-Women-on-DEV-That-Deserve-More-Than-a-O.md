@@ -7,7 +7,7 @@ source_name: "dev.to"
 url: "https://dev.to/sheships/8-posts-by-women-on-dev-that-deserve-more-than-a-once-a-year-spotlight-27dc"
 author: "Mika Flowers"
 published_at: "2026-09-25T12:06:34Z"
-captured_at: "2026-09-30T18:57:16+08:00"
+captured_at: "2026-10-01T09:52:26+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "devto:showdev"
 > 指标：reactions=68 · 评论=25 · reading_time=4
 > 作者：Mika Flowers　|　发布：2026-09-25T12:06:34Z
 > 项目链接：—
-> 采集：2026-09-30T18:57:16+08:00　|　id：`377e4940270a429b`
+> 采集：2026-10-01T09:52:26+08:00　|　id：`377e4940270a429b`
 
 ## 正文
 

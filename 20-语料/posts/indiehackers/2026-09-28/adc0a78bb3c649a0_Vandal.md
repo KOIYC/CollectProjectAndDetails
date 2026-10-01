@@ -5,7 +5,7 @@ title: "Vandal"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/vandal"
-captured_at: "2026-09-30T18:48:20+08:00"
+captured_at: "2026-10-01T09:43:57+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-30T18:48:20+08:00　|　id：`adc0a78bb3c649a0`
+> 采集：2026-10-01T09:43:57+08:00　|　id：`adc0a78bb3c649a0`
 
 ## 正文
 
@@ -63,7 +63,7 @@ Post Comment
 Have the first users shown a specific place or user type that naturally creates enough tagging activity to make Vandal useful for the next person?
 Aryan Sinh
 ·
-4 days ago
+5 days ago
  ·
 Reply
 1

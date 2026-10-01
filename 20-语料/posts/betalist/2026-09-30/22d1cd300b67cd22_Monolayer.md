@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/monolayer"
 published_at: "2026-09-30"
-captured_at: "2026-09-30T18:47:57+08:00"
+captured_at: "2026-10-01T09:43:50+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-09-30
 > 项目链接：—
-> 采集：2026-09-30T18:47:57+08:00　|　id：`22d1cd300b67cd22`
+> 采集：2026-10-01T09:43:50+08:00　|　id：`22d1cd300b67cd22`
 
 ## 正文
 
@@ -86,9 +86,9 @@ Maton
  Talk to your SaaS tools
 Pinacle
  Start instant browser-based dev environments for serious vibe-coding
-WZRD
+FreeDAST
  BOOSTED
- Turn plain ideas into interactive docs, forms, and decks that converse
+ Scan your live site for risks and get a clear security grade
  BOOSTED
 Host4.ai
  Run Claude Code and Codex 24/7 with SSH and a browser terminal on mobile
@@ -96,9 +96,9 @@ Demios
  Own a local-first AI workspace where your Twin delegates real work
 Supahmation
  Build and run production AI agents via one API across LLMs
-FreeDAST
+Structura
  BOOSTED
- Scan your live site for risks and get a clear security grade
+ Publish 3 SEO-optimized blog posts a day, hands-off
  BOOSTED
 Launchway
  A Remix starter kit with auth, payments, and more. No vendor lock-in.

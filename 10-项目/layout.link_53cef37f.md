@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Layout – Order food anywhere with AI"
 project_url: "https://layout.link/"
-first_seen: "2026-09-30T18:28:30+08:00"
+first_seen: "2026-10-01T09:52:39+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://layout.link/>
-> 首次收录：2026-09-30T18:28:30+08:00
+> 首次收录：2026-10-01T09:52:39+08:00
 > 来源渠道：HN Show HN
 > 标签：author_colemorell, story_49906193, show_hn
 > 最新指标：点赞=2 · 评论=0 · engagement_velocity=2
@@ -31,6 +31,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-09-30T18:28:30+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-30/08f59843f9dbea94_Show-HN-Layout-–-Order-food-anywhere-with-AI]] |
+| 2026-10-01T09:52:39+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-30/08f59843f9dbea94_Show-HN-Layout-–-Order-food-anywhere-with-AI]] |
 
 ## 摘要正文
 

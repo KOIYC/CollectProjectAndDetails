@@ -1,0 +1,26 @@
+{
+ "run_id": "20261001T093900",
+ "started_at": "2026-10-01T09:39:00+08:00",
+ "ended_at": "2026-10-01T09:40:09+08:00",
+ "elapsed_s": 69.8,
+ "channels": [
+  {
+   "source_id": "c1c7",
+   "name": "1c7 中文独立开发者名录",
+   "status": "error",
+   "count": 0,
+   "message": "ERR: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>",
+   "elapsed_s": 23.0
+  }
+ ],
+ "notes_written": 0,
+ "errors": [],
+ "mode": "audit",
+ "summary": {
+  "total": 13,
+  "ok": 10,
+  "empty": 0,
+  "error": 1,
+  "auth": 2
+ }
+}

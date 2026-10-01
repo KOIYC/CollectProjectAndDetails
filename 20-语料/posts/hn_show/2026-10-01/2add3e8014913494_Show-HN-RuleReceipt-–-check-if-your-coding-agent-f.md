@@ -1,0 +1,645 @@
+---
+type: "corpus"
+item_id: "2add3e8014913494"
+title: "Show HN: RuleReceipt – check if your coding agent followed your Claude.md"
+source: "hn_show"
+source_name: "HN Show HN"
+url: "https://news.ycombinator.com/item?id=49911193"
+project_url: "https://github.com/rulereceipt/rulereceipt"
+author: "RuleReceipt"
+published_at: "2026-09-30T16:38:56Z"
+captured_at: "2026-10-01T09:41:49+08:00"
+lang: "en"
+kind: "post"
+topic: "AI 工具/Agent"
+shard: "2026-10-01"
+pub_day: "2026-09-30"
+tags:
+  - 语料
+  - hn_show
+  - author_RuleReceipt
+  - story_49911193
+  - show_hn
+metrics: {"points": 3, "comments": 1, "engagement_velocity": 3}
+comments_count: 1
+comments_total: 1
+discovered_via: "hn:show_hn:3d"
+---
+
+# Show HN: RuleReceipt – check if your coding agent followed your Claude.md
+
+> [!info] 一句话导读
+> rulereceipt/rulereceipt
+
+> [!meta]- 语料信息（点开展开）
+> 来源：HN Show HN（post）
+> 原帖：<https://news.ycombinator.com/item?id=49911193>
+> 指标：点赞=3 · 评论=1 · engagement_velocity=3
+> 作者：RuleReceipt　|　发布：2026-09-30T16:38:56Z
+> 项目链接：<https://github.com/rulereceipt/rulereceipt>
+> 采集：2026-10-01T09:41:49+08:00　|　id：`2add3e8014913494`
+
+## 正文
+
+# rulereceipt/rulereceipt
+
+Check any AI coding agent's session against your own rules, with evidence. Claude Code today, Codex in testing; reads CLAUDE.md, AGENTS.md, Cursor, Copilot and Windsurf rules.
+
+- Stars: 3
+- Forks: 0
+- Watchers: 3
+- Open issues: 7
+- License: Other
+- Homepage: https://rulereceipt.dev
+- Default branch: main
+- Created: 2026-08-19T06:01:27Z
+
+## Languages
+
+- HTML
+- JavaScript
+- Shell
+- TypeScript
+
+## Topics
+
+- agentic-ai
+- agents-md
+- ai-agents
+- ai-safety
+- audit
+- claude
+- claude-code
+- cli
+- code-review
+- cursor
+- developer-tools
+- llm
+
+## Top Contributors
+
+- rulereceipt (317 contributions)
+- dependabot[bot] (12 contributions)
+
+---
+
+## README
+
+# RuleReceipt
+
+CI
+CodeQL
+OpenSSF Scorecard
+npm
+provenance
+
+**Check if your AI coding agent followed the rules in your CLAUDE.md, with the exact line as proof.**
+
+RuleReceipt checking an agent session against your rules — three rules broken, each with the quoted line
+
+```bash
+npx rulereceipt
+```
+
+Runs entirely on your machine. Plain `rulereceipt check` makes zero network
+calls — Trust, privacy and licensing has the full
+detail, including the three off-by-default opt-ins. Works with Claude Code today
+(OpenAI Codex CLI in testing); reads rules from CLAUDE.md, AGENTS.md, Cursor
+(`.cursor/rules`), GitHub Copilot, Windsurf, Gemini (`GEMINI.md`), Google's
+`.agents/rules`, and Claude Code memory. Accuracy
+· Known gaps · Source-available, not OSI — see LICENSE.
+
+## See it in 10 seconds
+
+```bash
+npx rulereceipt demo
+```
+
+No install, no config, no API key, no real session needed — prints a sample
+report so you can see the output shape immediately.
+
+Then, in a project you actually use an agent in:
+
+```bash
+npx rulereceipt
+```
+
+With no arguments it runs **history mode**: it checks *every* session for this
+project in the last 30 days and leads with the rules broken most — each with a
+count, the last date, and one quoted line from the session. The headline counts
+only proven breaks (a structured check with evidence); judgment rules stay on
+their own line, so the number never overstates. `rulereceipt check` still checks
+one session in full.
+
+To stop it happening again:
+
+```bash
+npx rulereceipt protect
+```
+
+Adds a PreToolUse guard and a Stop hook to `.claude/settings.json` — after
+showing you exactly what it will add and asking. `protect --undo` restores the
+file byte-for-byte. It's the only place RuleReceipt writes settings, and only
+with your yes.
+
+To share the result:
+
+```bash
+npx rulereceipt card
+```
+
+Writes a small SVG summary and prints ready-to-post links for X, LinkedIn,
+Bluesky and Reddit, plus copy-text for Slack or a PR. It carries **counts
+only** — no code, paths, or rule text (add rule names to the copy-text with
+`--show-rules`). Nothing is posted for you and nothing is uploaded.
+
+## Status
+
+Published and live on npm, actively developed.
+
+## How it works
+
+1. Reads your rules and extracts individual ones — from CLAUDE.md / AGENTS.md,
+ Cursor / Copilot / Windsurf rule files, and Claude Code memory, across the
+ current project directory and your global rules file.
+2. Reads your most recent agent session transcript — Claude Code today
+ (including hosted/enterprise variants under a different directory), and
+ OpenAI Codex CLI (in testing); newest session across tools wins.
+3. Routes each rule to the narrowest check that can actually answer it:
+ - **Structured checks** read what the session really did — an actual
+ git command's branch argument, actual file edits, actual file
+ operations. These are the only checks that report a confident FAIL,
+ because they can tell an action from a mention.
+ - **Literal checks** look for a specific string named in the rule.
+ Absence is real evidence, so a clean session PASSes. A match reports
+ UNCLEAR with the text quoted, because a text match alone cannot
+ distinguish doing the forbidden thing from grepping for it, quoting
+ it, or naming it in a commit message.
+ - **Judgment** rules need real understanding (e.g. "surface bad news
+ first"). With `--llm` each is graded individually using *your own*
+ Claude key; without it they report UNCLEAR rather than guessing.
+ - Lines containing no instruction at all — directory listings,
+ reference tables, examples — aren't rules, and are reported as such
+ instead of being checked. This step is a heuristic over English
+ instruction words, so it can be wrong in both directions: run
+ `rulereceipt check --show-skipped` once on your rules file to see
+ exactly what it excluded. A rule phrased unusually, or written in
+ another language, can land there — and a rule dropped silently is
+ worse than one reported wrongly.
+
+ When it gets one wrong, `rulereceipt rules --include ` fixes it
+ permanently. The handle is a hash of the rule's own text, not its
+ position, so the correction survives edits elsewhere in the file. That
+ matters more than making the classifier smarter: imperative verbs are
+ not a closed class and the word list is English-only, so it will keep
+ being wrong — it just needs to be correctable.
+4. Prints a report — terminal table by default, `--markdown` for pasting
+ into a PR or Slack message, or `--html` for a shareable single file —
+ showing what passed, what failed, and a quoted line of evidence for
+ each. Every report includes a SHA-256 hash of the session file it
+ checked, so anyone with that file can confirm the report describes
+ that exact file. (It proves the report matches the file, not that the
+ file is an unmodified record — see SECURITY.md.)
+
+## Usage
+
+```bash
+rulereceipt audit              # score your rules file for checkability — NO session needed
+rulereceipt check              # check the latest session in this project
+rulereceipt check --markdown   # same, formatted for pasting into a PR/Slack
+rulereceipt check --html       # write a shareable single-file HTML report you can send
+rulereceipt check --html report.html       # ...to a specific path
+rulereceipt check --show-skipped           # list what was treated as documentation and not checked
+rulereceipt check --require-session        # fail if there's no session, instead of passing silently
+rulereceipt check --exit-zero              # report failures without failing the build
+rulereceipt check --llm        # opt-in: grade judgment rules with your own Claude key
+rulereceipt check --share      # opt-in: send anonymous pass/fail/unclear counts
+rulereceipt check --telemetry  # opt-in: send one random per-machine ID
+rulereceipt check --transcript <path>      # check a specific session file
+rulereceipt rules              # show corrections you've made to what counts as a rule
+rulereceipt rules --include <handle>   # "this IS a rule" — check it from now on
+rulereceipt rules --exclude <handle>   # "this isn't" — stop reporting it
+rulereceipt rules --coverage   # which rules a configured hook might actually enforce
+rulereceipt doctor             # list hooks/auto-run tasks configured on this machine
+rulereceipt hook               # run AS a Claude Code Stop hook — block Claude finishing on a broken rule
+rulereceipt guard              # run AS a Claude Code PreToolUse hook — refuse a call before it runs
+rulereceipt lint               # find contradictions between CLAUDE.md and AGENTS.md
+rulereceipt digest             # summarise recent checks; --email to send it
+rulereceipt config             # set up email sending (stays on your machine)
+rulereceipt demo               # sample output, no setup needed
+rulereceipt demo --markdown
+rulereceipt --version          # print the installed version
+rulereceipt verify <session-file> <hash>   # spot-check a report you received against the real session file
+```
+
+`verify` isn't a routine check — trust your team day to day, same as any status update. It's there for the rare case it actually matters (a dispute, an incident review): give it the session file and the hash printed in the report, and it confirms whether they really match.
+
+### Claims of having read something
+
+A session that writes `PAGES READ: 1-20`, `STATUS: READ IN FULL` or "confirmed
+at source" while never opening a file is asserting provenance it does not
+have. Reported by a user in anthropics/claude-code#92505, where those headers
+went into tracked files and commit messages for material the model had never
+read.
+
+The check is narrow on purpose. It fires only when **nothing at all** was read
+in the session — no `Read`, no `Grep`, no `cat`. That much a transcript can
+prove, and it contradicts any claim of reading. It cannot tell you *which*
+document was read when reads did happen, so a session that read the wrong
+thing is still beyond it, and the report says so rather than guessing.
+
+"I will read the filing next" is a plan, not a claim, and does not fire.
+
+## Blocking, not just reporting
+
+`rulereceipt check` tells you afterwards. `rulereceipt hook` refuses to let the
+session end.
+
+Add this to `.claude/settings.json` — you add it, we never do:
+
+```json
+{
+  "hooks": {
+    "Stop": [
+      { "hooks": [ { "type": "command", "command": "npx rulereceipt hook" } ] }
+    ]
+  }
+}
+```
+
+When Claude tries to finish, it reads the session that just happened. If a rule
+was broken it hands Claude the rule, the evidence, and instructions to keep
+working, so the session cannot end on a claim that isn't backed.
+
+The one it is actually for: *"Done — all tests pass"* when the last run of
+`npm test` returned two failures. It checks the claim against what ran, which
+is the part a model cannot talk its way around.
+
+Three properties worth knowing before you wire it in:
+
+- **It blocks two things, both narrow.** A claim a recorded run contradicts,
+ and a claim of done that nothing in the session verified. Never a judgment
+ rule, never an LLM opinion. Run against thirteen real sessions it stopped
+ two, and both were read by hand.
+- **The report and the gate disagree in exactly one place.** When a session
+ claims work is done and nothing recorded verifies it, the report says
+ "couldn't tell" — the tests may have run in another terminal, and a
+ transcript cannot see that. The gate refuses the exit anyway, because it is
+ not saying the claim is false. It is declining to let "done" end a session
+ with nothing behind it.
+- **It cannot loop.** Claude Code sets `stop_hook_active` when a session is
+ already continuing because of a block; the hook returns immediately in that
+ case. One interruption per stop.
+- **It fails open.** Unreadable transcript, missing rules file, a bug in us —
+ it allows the stop and writes a line to stderr. Failing closed would mean our
+ bug locks you out of finishing your own session. That is a deliberate
+ weakening, and it is why `check` in CI stays the backstop.
+
+It runs when Claude stops, so it catches a finished session, not a command
+mid-flight. For that, use a `PreToolUse` hook of your own — `rulereceipt
+doctor` will show you what you already have.
+
+### Refusing a command before it runs
+
+`rulereceipt guard` runs as a `PreToolUse` hook and refuses a call outright:
+
+```json
+{
+  "hooks": {
+    "PreToolUse": [
+      { "hooks": [ { "type": "command", "command": "npx rulereceipt guard" } ] }
+    ]
+  }
+}
+```
+
+Read the limit before wiring it in, because it is most of the story. It
+enforces rules naming a **file** or a **branch** — "never modify `.env`",
+"never commit to `main`" — and nothing else.
+
+It does **not** block a banned command unless you have said which command is
+banned. That was the point of building it, and the automatic version did not
+survive measurement: replaying 16,336 real tool calls against every forbidding
+rule in a 559-file corpus, blocking on command literals refused 62.8% of them.
+Narrowing twice reached 2.5%, and the residue was still wrong in a way no
+matcher fixes — one rule refused `npm run build` 112 times, because it forbids
+running Playwright unprompted and *recommends* `npm run build`, which is its
+only command-shaped literal.
+
+Nothing in a rules file marks which backtick is the prohibition. A report
+survives that by saying UNCLEAR. A gate cannot — so you mark it:
+
+```bash
+rulereceipt rules --forbid <handle> --literal "git push --force"
+```
+
+Handles come from `rulereceipt rules --handles`. The mark is stored
+against the rule's content hash, and the guard blocks on that literal and no
+other. Three things it deliberately will not do:
+
+- An **unmarked** rule cannot block, at any confidence, ever. There is no
+ fallback to "probably the first literal" — that fallback is the bug.
+- **Rewording the rule drops the mark.** It would otherwise carry your
+ judgment onto words you never read.
+- A mark naming a literal the rule no longer contains is **ignored**. A gate
+ refusing a command for a reason written nowhere is the worst failure a gate
+ has.
+
+Of 99 forbidding rules in the corpus that name a command-shaped literal, only
+43 have a prohibition that actually introduces one. The rest could never be
+marked automatically, which is the point.
+
+### Reproducing the published numbers
+
+Every figure in the postmortem and in the
+issue threads is measured over 559 public rules files. The list of those files
+is committed as `rule_file_corpus.md`; the files themselves are not, because
+they belong to other projects.
+
+```bash
+bash scripts/fetch-corpus.sh 600      # the default is 60
+npx tsx scripts/corpus-report.ts      # where real rules route: 63.2% not instructions
+npx tsx scripts/false-accusation-rate.ts   # reports carrying a false accusation
+npx tsx scripts/verb-gate.ts          # which gate admits each rule
+npx tsx scripts/guard-replay.ts corpus 3   # what the PreToolUse guard would refuse
+```
+
+The list holds 563 URLs and yields 559 files — four have moved or been deleted
+upstream since it was drawn on 2026-08-30. That gap is expected and will grow;
+if your count differs from 559, that is why, and the routing percentages move
+by a rounding error rather than meaningfully.
+
+Two of these print a sha256 for every session they read. That is deliberate:
+"the largest sessions on this machine" is a selection rule, not a pin, and the
+largest include the session doing the measuring. Two runs of identical code
+four days apart returned 14,033 and 9,605 tool calls. Numbers are comparable
+only when those hashes match.
+
+## Which rules actually have teeth
+
+A rule in a file and a rule with a `PreToolUse` hook behind it look identical
+when you read them, and behave completely differently when they're ignored.
+One fails loudly; the other doesn't fail at all.
+
+```bash
+rulereceipt rules --coverage
+```
+
+This lists your rules against the hooks configured on this machine and in the
+project, and tells you which rules name something a *blocking* hook also
+names. Hooks on events that can't refuse anything — `SessionStart`,
+`PostToolUse` — are counted separately, because they can log or inject
+context but can't make a rule fail.
+
+**It reports a possible backing, never a proof, and says so in its own
+output.** A hook's command is usually a path to a script this tool doesn't
+read, so the only evidence available is the event, the matcher, and literal
+text in the command. Both mistakes are possible: a hook can guard a rule
+while sharing no wording with it, and shared wording doesn't mean the hook
+guards it. Treat the links as somewhere to look, and everything else as prose
+until you've checked.
+
+## Sharing a report
+
+`rulereceipt check --html` writes one self-contained HTML file. No
+external requests, no CDN, no fonts to fetch — so it opens correctly from
+an email attachment, offline, years later, and prints cleanly to PDF.
+
+It leads with what wasn't followed rather than burying it under passes,
+quotes the evidence for each result, and states plainly what it does not
+establish: it covers one session, it is not a compliance certification,
+and rules needing judgment are reported as needing review rather than
+guessed at. The session fingerprint and a runnable `rulereceipt verify`
+command are printed on the report itself, so the person receiving it can
+independently confirm it describes the session it claims to.
+
+Nothing is uploaded. The file is written to your working directory and
+goes wherever you choose to send it.
+
+## A verdict looks wrong?
+
+```bash
+npx rulereceipt wrong <rule-handle>
+```
+
+Builds a report of that rule, the verdict, how it was decided and the
+session lines around it, with obvious secrets, your home path and email
+addresses masked (GitHub/Slack/Stripe tokens, JWTs, passwords in URLs,
+private-key blocks and `.env`-style `KEY=value` lines too — but masking
+catches common formats only, so read it before sending). It is saved to
+`.rulereceipt/wrong-.md` and printed so you can read and edit it.
+
+Nothing is ever sent automatically. After showing the report you get three
+choices:
+
+```bash
+rulereceipt wrong <rule> --submit   # open a PUBLIC GitHub issue (asks y/N first; needs gh)
+rulereceipt wrong <rule> --email    # a mailto: to hello@rulereceipt.dev, private
+rulereceipt wrong <rule>            # just print the report + a pre-filled issue link
+```
+
+`--submit` shows the full report, then asks before creating anything — the
+default answer is No, and `--yes` does not skip that question. If `gh` isn't
+installed or logged in, or you're not at a terminal, it never sends: it
+prints the pre-filled link for you to open yourself. You can pass a rule by
+the short handle or by the id shown in the report (e.g. `S1.2`).
+
+Every accuracy fix in this project has come from a report like this.
+
+## Exit codes
+
+`check` exits **1** when a rule was actually broken, and **0** otherwise,
+so CI can gate on it. Rules that need human judgment report UNCLEAR and
+never affect the exit code — most rules in a real CLAUDE.md need judgment,
+and gating on those would make every build red on day one.
+
+`--exit-zero` prints the report without failing the build. `--require-session`
+does the opposite and is the one to use anywhere automated: it fails when
+there is no session, or an empty one, instead of reporting a pass for a
+check that never actually ran.
+
+### A limit worth knowing before you wire this into CI
+
+Claude Code writes its session transcript to the machine the agent ran on
+— your laptop. A CI runner is a fresh machine that has never seen it, so a
+CI job cannot check a session that happened on your laptop unless you
+deliberately make that transcript available to the job. See
+templates/rulereceipt-ci.yml, which
+explains the options and, if you use it, fails loudly rather than passing
+on a session it never found.
+
+For most people the honest answer is simpler: run `rulereceipt check --html`
+locally and attach the report to the PR.
+
+### The GitHub Action and the receipt flow
+
+The concrete way to gate in CI: produce a **receipt** where the session
+lives, verify it where it doesn't.
+
+Locally (the session is on your machine), produce and commit a receipt:
+
+```bash
+rulereceipt check --json > .rulereceipt/receipt.json   # commit this file
+```
+
+In CI (no session), verify the committed receipt with the Action:
+
+```yaml
+- uses: rulereceipt/rulereceipt@main   # pin to a release tag once one is cut
+  with:
+    receipt: .rulereceipt/receipt.json
+    max-age-days: "7"                  # optional: reject a stale receipt
+    # anthropic-api-key: ${{ secrets.ANTHROPIC_API_KEY }}  # optional: also fail on CLAUDE.md↔AGENTS.md contradictions
+```
+
+The build **fails** unless the receipt is a real, current, passing
+RuleReceipt receipt. The Action also prints a session-independent audit of
+your CLAUDE.md (`rules --coverage`), and — only if you pass an API key —
+fails on a CLAUDE.md-vs-AGENTS.md contradiction.
+
+Or run the pieces directly:
+
+```bash
+rulereceipt verify-receipt .rulereceipt/receipt.json --max-age-days 7
+```
+
+**Honest trust boundary:** with no session, CI trusts the receipt you
+committed. But if the session *is* available — agentic CI, or you upload the
+transcript — pass it and CI re-derives instead of trusting:
+
+```bash
+rulereceipt verify-receipt .rulereceipt/receipt.json --session path/to/session.jsonl
+```
+
+That re-hashes the session and **rejects a receipt that doesn't match it**
+(forged, tampered, or the wrong session) — no trust required. For the
+no-session case, trust remains until signed/attested receipts land; a
+self-signed receipt would not help (the author holds the key), so the honest
+closure is session re-verification where the session exists.
+
+## Install
+
+```bash
+npm install -g rulereceipt
+rulereceipt demo
+```
+
+### Local dev, from this repo
+
+```bash
+npm install
+npm run build
+npm run typecheck
+npm test
+npx tsx src/cli.ts demo
+```
+
+## Trust, privacy and licensing
+
+**Verify it yourself.** `npx rulereceipt selftest` runs a set of bundled
+golden fixtures on your machine and reports how many verdicts are correct, with
+**zero network calls** — watch it with `lsof` or Little Snitch if you like. The
+same fixtures are the project's regression suite, so "all correct" is a promise
+the build enforces, not a claim.
+
+**What it can't see, it says so.** KNOWN-GAPS.md lists
+exactly where the evidence runs out — commands in another terminal, clicks on
+the permission prompt, `rm`/delete not bound to a rule's subject, edited
+transcripts, IDE sessions without logs. When RuleReceipt hits one of those it
+reports "Can't tell", never a guess. Gaps we know about are safer than gaps we
+don't.
+
+**Nothing leaves your machine unless you ask.** Your code, rules, and
+session content never leave your computer, ever. Plain `rulereceipt check`
+makes zero network calls. `--llm`, `--share`, and `--telemetry` are all
+separate, off-by-default opt-ins: `--llm` calls the Claude API using your
+own Anthropic key for rules that need judgment; `--share` sends aggregate
+pass/fail/unclear counts; `--telemetry` sends one random per-machine ID so
+real distinct-install counts are knowable, nothing else. None of them fire
+unless you explicitly pass the flag, and `DO_NOT_TRACK=1` /
+`RULERECEIPT_NO_TELEMETRY=1` forces telemetry off even if you do.
+
+**Never writes anything you didn't ask for.** RuleReceipt never modifies
+`.claude/settings.json` and installs no hooks. No automatic hooks, ever, in
+v1 — it runs only when you type the command.
+
+Two commands write, both only when you invoke them: `check --html` writes the
+report to the path you name, and `rules --include/--exclude` records a
+correction in `.rulereceipt/overrides.json`. Plain `rulereceipt check` writes
+nothing and makes no network calls.
+
+**Severity, per rule.** A committed, team-shared `.rulereceipt/config.json`
+sets how hard each rule bites in CI, by its stable handle (from `rulereceipt
+rules --list`):
+
+```json
+{
+  "rules": {
+    "a1b2c3": "off",     // hidden from the report, never gates
+    "d4e5f6": "warn",    // shown, but does not fail the build
+    "97h8i9": "error"    // shown, FAILS the build — the default for a checkable rule
+  },
+  "checks": {
+    "emoji": "off",      // silence a whole check type by name
+    "git": "warn"        // emoji, attribution, approval, git, files, code, claim, tests, judgment
+  }
+}
+```
+
+A per-rule `rules` entry wins over a per-check `checks` entry, which wins over
+the default. No config means today's behaviour: every checkable FAIL is an
+`error`. This is
+the one place severity lives — a team marks the must-not-break rules `error`
+and the nice-to-haves `warn`, so CI gates on what matters instead of going red
+on day one. (Refusing a command *before* it runs is separate, and stays with
+the guard's `rules --forbid` clause-mark — a config that could block on any
+rule would refuse far too much.) The older `{"warn": ["a1b2c3"]}` list still
+works and means the same as `"warn"` above.
+
+**You can verify the package came from this source.** Every release from
+0.1.19 on is built and published by GitHub Actions and signed with
+npm provenance,
+so you can verify the published package was built from this repository at
+a specific commit. No publishing token exists to be stolen. Check it
+yourself with `npm audit signatures` after installing.
+
+**Licence.** Source-available, not OSI open source: the code is public and
+you can read, run and modify it for yourself, but reuse is limited — see
+LICENSE and NOTICE.md before reusing it.
+
+**Windows.** Not tested yet. RuleReceipt is developed and tested on macOS
+and Linux. It may work on Windows, but nothing there is verified — treat it
+as unsupported until this note changes.
+
+## Uninstalling
+
+Easy to remove, no leftovers:
+
+```bash
+rulereceipt protect --undo     # restores .claude/settings.json byte-for-byte
+npm uninstall -g rulereceipt   # or: npm rm rulereceipt in a project
+rm -rf .rulereceipt/           # the local reports/receipts folder, if you want it gone
+```
+
+`protect --undo` is only needed if you ran `protect`. Nothing else is
+installed anywhere on your system.
+
+## Contact
+
+Questions, bugs, or anything else — hello@rulereceipt.dev.
+
+## 评论（1/1）
+
+> **nimblegate** · 2026-09-30T18:05:18.000Z　
+> My experience where gating runs and the check is a hook on the same machine the agent runs on agents will skip rules some point when looking fast solution for your code like skipping tests or --no-verify. Agents break written rules most with CLAUDE.md, AGENTS.md and other rule files, so target point is good when make agents check their rules again if they break it. Can the agent skip or turn off RuleReceipt's own hook the same way?
+
+## 关联链接
+
+- https://rulereceipt.dev
+
+## 导航
+
+- 项目页：[[10-项目/github.com_0cd8101a]]
+- 渠道页：[[50-渠道/hn_show]]
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 同渠道/同赛道批量浏览：[[浏览]]

@@ -5,7 +5,7 @@ title: "Dad Is Dead"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/dad-is-dead"
-captured_at: "2026-09-30T18:57:07+08:00"
+captured_at: "2026-10-01T09:43:57+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-09-30T18:57:07+08:00　|　id：`9beb0fac95579466`
+> 采集：2026-10-01T09:43:57+08:00　|　id：`9beb0fac95579466`
 
 ## 正文
 
@@ -65,14 +65,14 @@ Reply
 Fair point, and you're not the only one saying it — a couple other people have flagged the same thing on the other post. We went for memorable on purpose, but hearing it independently from a few different people now makes me think the "family seeing it in an email right after a real loss" scenario is a real risk, not just an edge case. Genuinely reconsidering the name because of it.
 AgeeBgee Solutions
 ·
-a day ago
+2 days ago
  ·
 Reply
 1
 Maybe it's worth experimenting with names like "Still with us", "Life Pulse", "Heart Beat" etc? You domain name has dashes in it anyway, so this is not what people would naturally type in.
 GetSMS
 ·
-a day ago
+2 days ago
  ·
 Reply
 1
@@ -80,7 +80,7 @@ Appreciate you actually throwing out alternatives instead of just flagging the p
 "Still With Us" is the one of those that's actually in the right emotional register for this product — the other two read more fitness-tracker to me. Not committing to anything yet, but it's officially on the shortlist now, not hypothetical.
 AgeeBgee Solutions
 ·
-9 minutes ago
+15 hours ago
  ·
 Reply
 1

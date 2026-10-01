@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49898931"
 project_url: "https://github.com/lostmsu/TurboGPT"
 author: "lostmsu"
 published_at: "2026-09-29T19:20:02Z"
-captured_at: "2026-09-30T18:57:48+08:00"
+captured_at: "2026-10-01T09:52:53+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=49 · 评论=10 · engagement_velocity=49
 > 作者：lostmsu　|　发布：2026-09-29T19:20:02Z
 > 项目链接：<https://github.com/lostmsu/TurboGPT>
-> 采集：2026-09-30T18:57:48+08:00　|　id：`f75ab2d7bca162f3`
+> 采集：2026-10-01T09:52:53+08:00　|　id：`f75ab2d7bca162f3`
 
 ## 正文
 

@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/yieldso-2"
 project_url: "https://apps.shopify.com/yieldso"
-captured_at: "2026-09-30T18:48:20+08:00"
+captured_at: "2026-10-01T09:43:57+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://apps.shopify.com/yieldso>
-> 采集：2026-09-30T18:48:20+08:00　|　id：`0cf782e51c4f5aa9`
+> 采集：2026-10-01T09:43:57+08:00　|　id：`0cf782e51c4f5aa9`
 
 ## 正文
 
@@ -85,7 +85,7 @@ Post Comment
 You’ve narrowed the audience, but Yieldso still covers several distinct jobs; which one do you expect to drive the first installs that convert into paying merchants?
 Aryan Sinh
 ·
-3 hours ago
+18 hours ago
  ·
 Reply
 About
