@@ -1,7 +1,7 @@
 ---
 type: "report"
 title: "内容质量审计 all"
-updated: "2026-10-01T09:54:00+08:00"
+updated: "2026-10-10T10:34:45+08:00"
 tags:
   - 索引
   - 审计
@@ -10,34 +10,34 @@ tags:
 
 # 语料内容质量审计
 
-> 生成 2026-10-01T09:54:00+08:00 · 审计器 `tools/kb_content_audit.py`
+> 生成 2026-10-10T10:34:45+08:00 · 审计器 `tools/kb_content_audit.py`
 
-- 唯一条目 **2425** · 可用（无致命缺陷、且相关）**2151** (89%)
-- 不可用于深度分析（空/过短/摘要残文）**113** (5%)
-- 相关性可疑（无项目信号/资源清单/泛媒体/大厂）**190** (8%)
-- 正文长度 中位 **1753** · 均值 4522 · 空正文 47 · <200 字符 122
-- 历史深度（**内容发布时间轴**，趋势分析看这个）：近 90 天 **1790 条**，更早 532 条，无发布时间 103 条（最早 ['2014-04-04']）
-- 采集时间轴：`captured_at` 覆盖 10 天 (2026-09-20, 2026-09-21, 2026-09-22, 2026-09-24, 2026-09-25, 2026-09-26, 2026-09-28, 2026-09-29, 2026-09-30, 2026-10-01)
-- 语种：en=2290, zh=135
-- kind：post=2166, project=231, method=25, person=3
+- 唯一条目 **2549** · 可用（无致命缺陷、且相关）**2256** (89%)
+- 不可用于深度分析（空/过短/摘要残文）**117** (5%)
+- 相关性可疑（无项目信号/资源清单/泛媒体/大厂）**205** (8%)
+- 正文长度 中位 **1795** · 均值 4550 · 空正文 47 · <200 字符 125
+- 历史深度（**内容发布时间轴**，趋势分析看这个）：近 90 天 **1891 条**，更早 537 条，无发布时间 121 条（最早 ['2014-04-04']）
+- 采集时间轴：`captured_at` 覆盖 11 天 (2026-09-20, 2026-09-21, 2026-09-22, 2026-09-24, 2026-09-25, 2026-09-26, 2026-09-28, 2026-09-29, 2026-09-30, 2026-10-01, 2026-10-10)
+- 语种：en=2398, zh=151
+- kind：post=2261, project=260, method=25, person=3
 
 ## 问题标签汇总
 
 | 问题 | 条数 | 占比 |
 |---|---|---|
-| 无指标 | 501 | 21% |
-| 无项目链接 | 372 | 15% |
-| HTML未清理 | 287 | 12% |
-| 缺作者 | 257 | 11% |
-| 无项目信号 | 147 | 6% |
+| 无指标 | 558 | 22% |
+| 无项目链接 | 376 | 15% |
+| HTML未清理 | 322 | 13% |
+| 缺作者 | 286 | 11% |
+| 无项目信号 | 148 | 6% |
 | 视频无正文 | 123 | 5% |
-| 缺发布时间 | 103 | 4% |
-| 正文过短(<200) | 75 | 3% |
+| 缺发布时间 | 121 | 5% |
+| 正文过短(<200) | 78 | 3% |
+| 资源清单/名录 | 50 | 2% |
 | 空正文 | 47 | 2% |
-| 资源清单/名录 | 41 | 2% |
-| Exa截断 | 34 | 1% |
-| RSS摘要/残文 | 30 | 1% |
-| 大厂产品 | 7 | 0% |
+| Exa截断 | 35 | 1% |
+| RSS摘要/残文 | 31 | 1% |
+| 大厂产品 | 13 | 1% |
 | 发布时间未规范化 | 5 | 0% |
 | 泛媒体主题 | 4 | 0% |
 
@@ -45,18 +45,18 @@ tags:
 
 | 渠道 | 角色 | 条目 | 可用 | 不可用 | 相关性可疑 | 资源清单 | 大厂 | 摘要残文 | Exa截断 | HTML残留 | 无时间 | 无作者 | 无指标 | 正文中位 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| hn_show | 原文=项目发布帖 | 1360 | 1284 | 76 | 0 | 0 | 0 | 22 | 30 | 26 | 0 | 0 | 0 | 3752 |
+| hn_show | 原文=项目发布帖 | 1400 | 1320 | 80 | 0 | 0 | 0 | 23 | 31 | 26 | 0 | 0 | 0 | 3779 |
 | reddit | 项目讨论 | 366 | 216 | 33 | 146 | 10 | 5 | 4 | 0 | 0 | 0 | 0 | 0 | 903 |
-| producthunt | 项目发布 | 241 | 239 | 0 | 2 | 0 | 2 | 0 | 0 | 241 | 0 | 0 | 241 | 328 |
-| betalist | 预发布项目 | 136 | 136 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 | 136 | 136 | 1822 |
-| indiehackers | 项目库 | 91 | 88 | 3 | 0 | 0 | 0 | 3 | 4 | 0 | 91 | 91 | 91 | 2946 |
-| v2ex | 中文讨论 | 66 | 48 | 0 | 18 | 12 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1137 |
-| github_new | 项目仓库 | 65 | 49 | 1 | 15 | 11 | 0 | 1 | 0 | 19 | 0 | 0 | 0 | 5370 |
+| producthunt | 项目发布 | 269 | 264 | 0 | 5 | 0 | 5 | 0 | 0 | 269 | 0 | 0 | 269 | 328 |
+| betalist | 预发布项目 | 147 | 147 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 4 | 147 | 147 | 1838 |
+| indiehackers | 项目库 | 109 | 106 | 3 | 0 | 0 | 0 | 3 | 4 | 0 | 109 | 109 | 109 | 2726 |
+| v2ex | 中文讨论 | 82 | 57 | 0 | 25 | 17 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 1175 |
+| github_new | 项目仓库 | 72 | 54 | 1 | 17 | 12 | 1 | 1 | 0 | 24 | 0 | 0 | 0 | 5936 |
 | bilibili | 中文视频（仅元数据） | 56 | 53 | 0 | 3 | 2 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 137 |
 | exa_discovery | 全网语义发现 | 25 | 19 | 0 | 6 | 6 | 0 | 0 | 0 | 0 | 5 | 25 | 25 | 2913 |
-| devto | 项目复盘文 | 11 | 11 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 0 | 0 | 0 | 10035 |
-| c1c7 | 中文名录（含资源/人物） | 7 | 7 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 7 | 4 | 7 | 216 |
-| xiaohongshu | 中文社媒 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 500 |
+| devto | 项目复盘文 | 15 | 13 | 0 | 2 | 2 | 0 | 0 | 0 | 3 | 0 | 0 | 0 | 10108 |
+| c1c7 | 中文名录（含资源/人物） | 7 | 6 | 0 | 1 | 1 | 0 | 0 | 0 | 0 | 7 | 4 | 7 | 216 |
+| xiaohongshu | 中文社媒 | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 493 |
 
 ## 跨渠道重复（同 project_url 出现在多渠道，语料层未合并）
 
@@ -64,38 +64,38 @@ tags:
 
 ## 元数据完整性
 
-- `published_at` 缺失 **103** · 格式未规范化 **5**
-- `author` 缺失 **257** · `metrics` 全空 **501**
-- `body_format`：markdown=1404, text=1021
+- `published_at` 缺失 **121** · 格式未规范化 **5**
+- `author` 缺失 **286** · `metrics` 全空 **558**
+- `body_format`：markdown=1465, text=1084
 
 
 ## 问题样例（人工复核用）
 
-### 无指标（501 条）
+### 无指标（558 条）
 - `betalist` Gb7 Meetup
 - `betalist` Zapters
 - `betalist` 1Presence
 - `betalist` Campaignstack
 
-### 无项目链接（372 条）
+### 无项目链接（376 条）
 - `bilibili` 个人独立游戏作品
 - `bilibili` 为什么很多程序员都不去做独立开发者？
 - `bilibili` 独立开发者一年可以赚多少钱？
 - `bilibili` 16岁高一学生正在尝试独立开发galgame（插画和脚本独立完成）但需要BGM支持，有没有会音编的朋友（本人只懂一些钢琴纯音
 
-### HTML未清理（287 条）
+### HTML未清理（322 条）
 - `devto` I Built a Better Codex Pet Than OpenAI Did
+- `devto` Why you still need a Website Portfolio, even though everyone can Vibe Code it.
+- `devto` I Turned My GitHub Profile Into a Cyberpunk Console With a City Built From My Co
 - `github_new` Edge0-AI/Edge0
-- `github_new` s87343472/backlink-pilot
-- `github_new` Gingiris/gingiris-launch
 
-### 缺作者（257 条）
+### 缺作者（286 条）
 - `betalist` Gb7 Meetup
 - `betalist` Zapters
 - `betalist` 1Presence
 - `betalist` Campaignstack
 
-### 无项目信号（147 条）
+### 无项目信号（148 条）
 - `bilibili` 【Lee哥】做了10年Unity后，他说AI已经超过很多程序员了 | 游戏开发 | 案例分析
 - `c1c7` Patrick McKenzie (@patio11)
 - `c1c7` Pieter Levels (@levelsio)
@@ -107,17 +107,23 @@ tags:
 - `bilibili` 为什么很多程序员都不去做独立开发者？
 - `bilibili` 独立开发赚了500W后，我想给你这些建议！
 
-### 缺发布时间（103 条）
+### 缺发布时间（121 条）
 - `betalist` Flowmate
 - `betalist` Matthew Kellogg
 - `betalist` Beteam
 - `betalist` Budgetpixel
 
-### 正文过短(<200)（75 条）
+### 正文过短(<200)（78 条）
 - `bilibili` 独立开发两种赚钱方式！99%的人没想明白！
 - `bilibili` 个人独立游戏作品
 - `bilibili` 为什么很多程序员都不去做独立开发者？
 - `bilibili` 独立开发赚了500W后，我想给你这些建议！
+
+### 资源清单/名录（50 条）
+- `bilibili` 独立开发者省钱之穷鬼套餐，从零开始完整实战，不花一分钱上线完整应用
+- `bilibili` S1E9｜2026年普通人还能做一人公司吗？｜油管大神DanKoe｜三小时教程拆解
+- `c1c7` Sideidea
+- `devto` Why you still need a Website Portfolio, even though everyone can Vibe Code it.
 
 ### 空正文（47 条）
 - `bilibili` 【亲身经历】30+程序员折腾的11年，第二章：独立开发！
@@ -125,29 +131,23 @@ tags:
 - `bilibili` 一个老板八个AI虾兵，AI催生一人公司热潮，睿见
 - `bilibili` 为什么说接下来会诞生很多“一人公司”？
 
-### 资源清单/名录（41 条）
-- `bilibili` 独立开发者省钱之穷鬼套餐，从零开始完整实战，不花一分钱上线完整应用
-- `bilibili` S1E9｜2026年普通人还能做一人公司吗？｜油管大神DanKoe｜三小时教程拆解
-- `exa_discovery` Tony Dinh: $45K/mo Indie Hacker Journey
-- `exa_discovery` 做了个 AI 视频生成工具出海，分享一些踩坑经验 · w2solo - 独立开发者社区
-
-### Exa截断（34 条）
+### Exa截断（35 条）
 - `hn_show` Show HN: LingBot-World 2.0 (1.3B) running at 16 FPS on one RTX 5090
 - `hn_show` Show HN: Omabib, a Zotero alternative for Omarchy with agent support
 - `hn_show` Show HN: Talos – A personal agent whose kernel gates every tool call
 - `hn_show` Show HN: Proxy-benchmark – is it the proxy, the browser, or your machine?
 
-### RSS摘要/残文（30 条）
+### RSS摘要/残文（31 条）
 - `github_new` huaminghuangtw/Strava-Tool
 - `hn_show` Show HN: Koi Editor Alpha
 - `hn_show` Show HN: Concat: the open-source CapCut replacement.
 - `hn_show` Show HN: Knecht, a tool for building software factories for agencies
 
-### 大厂产品（7 条）
-- `producthunt` Google Flow for iOS & Android
+### 大厂产品（13 条）
+- `github_new` openai/math
+- `producthunt` Gemini Agent for Google Cloud
+- `producthunt` Playground by Google Labs
 - `producthunt` Microsoft Copilot
-- `reddit` Google isn't ranking our website despite following basic SEO best practices - wh
-- `reddit` Ranked on Google, ChatGPT within 30 days of launch 💪
 
 ### 发布时间未规范化（5 条）
 - `exa_discovery` Building a $10K MRR testimonial tool by building in public

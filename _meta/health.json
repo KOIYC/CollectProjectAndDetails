@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-01T09:51:19+08:00",
+ "checked_at": "2026-10-10T09:49:31+08:00",
  "channels": [
   {
    "channel_id": "hn_show",
@@ -10,16 +10,16 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 1.7,
-   "probe_at": "2026-10-01T09:34:11+08:00",
+   "elapsed_s": 3.4,
+   "probe_at": "2026-10-10T09:40:02+08:00",
    "sample": [
     {
-     "title": "Show HN: Kanmaps – Product roadmaps like videogame skill trees",
-     "url": "https://news.ycombinator.com/item?id=49916539"
+     "title": "Show HN: Faplex – like `Claude agents` but all machines and harnesses",
+     "url": "https://news.ycombinator.com/item?id=50028461"
     },
     {
-     "title": "Show HN: GeoPreneur – a daily game about the location of startups and tech",
-     "url": "https://news.ycombinator.com/item?id=49916318"
+     "title": "Show HN: Claude Opus 5.5 Video prompts and skills",
+     "url": "https://news.ycombinator.com/item?id=50028341"
     }
    ]
   },
@@ -29,21 +29,12 @@
    "adapter": "reddit_arctic",
    "auth": "none",
    "group": "海外社区",
-   "status": "ok",
-   "count": 3,
-   "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
-   "elapsed_s": 16.9,
-   "probe_at": "2026-10-01T09:34:28+08:00",
-   "sample": [
-    {
-     "title": "Pushing density & verticality in our Norse city builder",
-     "url": "https://www.reddit.com/r/IndieDev/comments/1wlyv8f/pushing_density_verticality_in_our_norse_city/"
-    },
-    {
-     "title": "I built an app, but getting the first users feels much harder",
-     "url": "https://www.reddit.com/r/SaaS/comments/1wlt7ui/i_built_an_app_but_getting_the_first_users_feels/"
-    }
-   ]
+   "status": "empty",
+   "count": 0,
+   "message": "0 posts; SideProject: 522: <none>; indiehackers: 522: <none>; microsaas: 522: <none>; SaaS: 522: <none>; Entr",
+   "elapsed_s": 346.1,
+   "probe_at": "2026-10-10T09:45:48+08:00",
+   "sample": []
   },
   {
    "channel_id": "github_new",
@@ -54,16 +45,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 16.4,
-   "probe_at": "2026-10-01T09:34:44+08:00",
+   "elapsed_s": 2.2,
+   "probe_at": "2026-10-10T09:45:51+08:00",
    "sample": [
     {
-     "title": "NandhaKishorM/laya",
-     "url": "https://github.com/NandhaKishorM/laya"
+     "title": "storytold/photocraft",
+     "url": "https://github.com/storytold/photocraft"
     },
     {
-     "title": "zai-org/ZCode",
-     "url": "https://github.com/zai-org/ZCode"
+     "title": "openai/math",
+     "url": "https://github.com/openai/math"
     }
    ]
   },
@@ -76,16 +67,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 startups · 发布日 3/3",
-   "elapsed_s": 2.0,
-   "probe_at": "2026-10-01T09:34:46+08:00",
+   "elapsed_s": 3.6,
+   "probe_at": "2026-10-10T09:45:54+08:00",
    "sample": [
     {
-     "title": "Tickralert",
-     "url": "https://betalist.com/startups/tickralert"
+     "title": "Knola",
+     "url": "https://betalist.com/startups/knola"
     },
     {
-     "title": "The Final Tape",
-     "url": "https://betalist.com/startups/the-final-tape"
+     "title": "Eventsend",
+     "url": "https://betalist.com/startups/eventsend"
     }
    ]
   },
@@ -98,16 +89,16 @@
    "status": "ok",
    "count": 3,
    "message": "22 products",
-   "elapsed_s": 11.7,
-   "probe_at": "2026-10-01T09:34:58+08:00",
+   "elapsed_s": 9.8,
+   "probe_at": "2026-10-10T09:46:04+08:00",
    "sample": [
+    {
+     "title": "Indieneed",
+     "url": "https://www.indiehackers.com/product/indieneed"
+    },
     {
      "title": "Launchon It",
      "url": "https://www.indiehackers.com/product/launchon-it"
-    },
-    {
-     "title": "Inide Need",
-     "url": "https://www.indiehackers.com/product/inide-need"
     }
    ]
   },
@@ -118,18 +109,18 @@
    "auth": "none",
    "group": "海外社区",
    "status": "ok",
-   "count": 3,
-   "message": "4 articles",
-   "elapsed_s": 1.2,
-   "probe_at": "2026-10-01T09:34:59+08:00",
+   "count": 2,
+   "message": "2 articles",
+   "elapsed_s": 7.5,
+   "probe_at": "2026-10-10T09:46:12+08:00",
    "sample": [
     {
-     "title": "8 Posts by Women on DEV That Deserve More Than a Once-a-Year Spotlight",
-     "url": "https://dev.to/sheships/8-posts-by-women-on-dev-that-deserve-more-than-a-once-a-year-spotlight-27dc"
+     "title": "Why you still need a Website Portfolio, even though everyone can Vibe Code it.",
+     "url": "https://dev.to/francistrdev/why-you-still-need-a-website-portfolio-even-though-everyone-can-vibe-code-it-e63"
     },
     {
-     "title": "i built a green blob that lives on my desktop. now it has feelings.",
-     "url": "https://dev.to/mikachu/i-built-a-green-blob-that-lives-on-my-desktop-and-now-it-has-feelings-4pjd"
+     "title": "I Turned My GitHub Profile Into a Cyberpunk Console With a City Built From My Co",
+     "url": "https://dev.to/georgekobaidze/i-turned-my-github-profile-into-a-cyberpunk-console-with-a-city-built-from-my-contributions-h4c"
     }
    ]
   },
@@ -142,16 +133,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 entries",
-   "elapsed_s": 1.1,
-   "probe_at": "2026-10-01T09:35:00+08:00",
+   "elapsed_s": 4.0,
+   "probe_at": "2026-10-10T09:46:16+08:00",
    "sample": [
     {
-     "title": "Autonomyware",
-     "url": "https://www.producthunt.com/products/autonomyware"
+     "title": "Gemini Agent for Google Cloud",
+     "url": "https://www.producthunt.com/products/google"
     },
     {
-     "title": "Evlat",
-     "url": "https://www.producthunt.com/products/evlat"
+     "title": "Microsoft Surface Laptop Ultra",
+     "url": "https://www.producthunt.com/products/microsoft-surface-laptop-ultra"
     }
    ]
   },
@@ -164,16 +155,16 @@
    "status": "ok",
    "count": 3,
    "message": "20 topics",
-   "elapsed_s": 1.2,
-   "probe_at": "2026-10-01T09:35:01+08:00",
+   "elapsed_s": 2.3,
+   "probe_at": "2026-10-10T09:46:18+08:00",
    "sample": [
     {
-     "title": "[油猴] 硬路由器 Web 后台全系增强插件支持 7 品牌（小米、TP、中兴、华为、华硕、腾达、H3C）",
-     "url": "https://www.v2ex.com/t/1245917"
+     "title": "Deno 宣布停止长期开发独立运行时",
+     "url": "https://www.v2ex.com/t/1247507"
     },
     {
-     "title": "独立游戏精灵图制作工具",
-     "url": "https://www.v2ex.com/t/1245849"
+     "title": "Google Play 上架被封闭测试卡住？我们在坦桑尼亚已经走通了",
+     "url": "https://www.v2ex.com/t/1247475"
     }
    ]
   },
@@ -185,17 +176,17 @@
    "group": "中文社媒",
    "status": "ok",
    "count": 3,
-   "message": "8 videos",
-   "elapsed_s": 0.6,
-   "probe_at": "2026-10-01T09:35:02+08:00",
+   "message": "13 videos",
+   "elapsed_s": 1.2,
+   "probe_at": "2026-10-10T09:46:19+08:00",
    "sample": [
     {
-     "title": "国产的就是强，追赶月入50w的00后开发者！",
-     "url": "https://www.bilibili.com/video/BV1oBaG62EiS"
+     "title": "不对，你不是我们认识的官方，你到底是谁？？？这次的开发日志比以前好太多了hhh",
+     "url": "https://www.bilibili.com/video/BV1DMp86ZECT"
     },
     {
-     "title": "人生首单！让我们恭喜努力又幸运的腹肌哥！",
-     "url": "https://www.bilibili.com/video/BV1TEaH6pEKE"
+     "title": "越来越难了开发，早做打算吧",
+     "url": "https://www.bilibili.com/video/BV1aLaz67Em9"
     }
    ]
   },
@@ -208,8 +199,8 @@
    "status": "ok",
    "count": 3,
    "message": "9 entries · 收录日 9",
-   "elapsed_s": 1.8,
-   "probe_at": "2026-10-01T09:51:19+08:00",
+   "elapsed_s": 3.0,
+   "probe_at": "2026-10-10T09:46:22+08:00",
    "sample": [
     {
      "title": "Indie Hacker",
@@ -230,16 +221,16 @@
    "status": "ok",
    "count": 3,
    "message": "8 results",
-   "elapsed_s": 15.4,
-   "probe_at": "2026-10-01T09:35:19+08:00",
+   "elapsed_s": 11.4,
+   "probe_at": "2026-10-10T09:46:34+08:00",
    "sample": [
     {
-     "title": "\"DOG IN THE MACHINE - Tactical Turn-Based Roguelite with Real-Time Preview Syste",
-     "url": "https://www.gamespress.com/DOG-IN-THE-MACHINE---Tactical-Turn-Based-Roguelite-with-Real-Time-Prev"
+     "title": "Tintslide: A Gravity-Shifting Match-Four Puzzler",
+     "url": "https://rwen.me/en/p/tintslide-release/"
     },
     {
-     "title": "Power Network Tycoon Finally Launches Version 1.0 Today news - IndieDB",
-     "url": "https://www.indiedb.com/news/power-network-tycoon-finally-launches-version-10-today"
+     "title": "Inkwell Infinity: a text adventure where a local AI runs the game news - IndieDB",
+     "url": "https://www.indiedb.com/games/inkwell-infinity/news/inkwell-infinity-a-text-adventure-where-a-local-ai-runs-the-game"
     }
    ]
   },
@@ -251,9 +242,9 @@
    "group": "海外社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: timeout>90s",
-   "elapsed_s": 129.3,
-   "probe_at": "2026-10-01T09:37:29+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 24s\nok: false\nerr",
+   "elapsed_s": 47.8,
+   "probe_at": "2026-10-10T09:47:21+08:00",
    "sample": []
   },
   {
@@ -264,9 +255,9 @@
    "group": "中文社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: ok: false\nerror:\n  code: UNKNOWN\n  message: Navigation rejec",
-   "elapsed_s": 13.9,
-   "probe_at": "2026-10-01T09:37:43+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: [rate-limiter] xiaohongshu: sleeping 19s\nok: false\nerror:\n  ",
+   "elapsed_s": 21.1,
+   "probe_at": "2026-10-10T09:47:42+08:00",
    "sample": []
   }
  ],
@@ -277,19 +268,19 @@
    "status": "unusable",
    "declared": "ok",
    "delta": true,
-   "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 20.0,
-   "probe_at": "2026-10-01T09:41:33+08:00"
+   "message": "ERR: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>",
+   "elapsed_s": 37.3,
+   "probe_at": "2026-10-10T09:48:54+08:00"
   },
   {
    "backend": "arctic_shift",
    "use": "Reddit 取数",
-   "status": "ok",
+   "status": "unusable",
    "declared": null,
    "delta": false,
-   "message": "1 rows",
-   "elapsed_s": 1.6,
-   "probe_at": "2026-10-01T09:41:35+08:00"
+   "message": "522: <none>",
+   "elapsed_s": 21.2,
+   "probe_at": "2026-10-10T09:49:15+08:00"
   },
   {
    "backend": "exa_web_fetch",
@@ -298,8 +289,8 @@
    "declared": "warn",
    "delta": false,
    "message": "1 url 返回正文",
-   "elapsed_s": 3.3,
-   "probe_at": "2026-10-01T09:41:38+08:00"
+   "elapsed_s": 15.1,
+   "probe_at": "2026-10-10T09:49:30+08:00"
   },
   {
    "backend": "github_gh",
@@ -308,14 +299,14 @@
    "declared": "warn",
    "delta": false,
    "message": "remaining=5000",
-   "elapsed_s": 0.7,
-   "probe_at": "2026-10-01T09:41:39+08:00"
+   "elapsed_s": 1.6,
+   "probe_at": "2026-10-10T09:49:31+08:00"
   }
  ],
  "summary": {
   "total": 13,
-  "ok": 11,
-  "empty": 0,
+  "ok": 10,
+  "empty": 1,
   "error": 0,
   "auth": 2
  },
@@ -327,8 +318,8 @@
   },
   {
    "channel_id": "reddit",
-   "action": "keep",
-   "status": "ok"
+   "action": "watch",
+   "status": "empty"
   },
   {
    "channel_id": "github_new",
@@ -388,7 +379,7 @@
  ],
  "agent_reach": {
   "ok": true,
-  "checked_at": "2026-10-01T09:41:13+08:00"
+  "checked_at": "2026-10-10T09:48:16+08:00"
  },
  "deltas": [
   {
@@ -397,9 +388,9 @@
    "status": "unusable",
    "declared": "ok",
    "delta": true,
-   "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 20.0,
-   "probe_at": "2026-10-01T09:41:33+08:00"
+   "message": "ERR: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>",
+   "elapsed_s": 37.3,
+   "probe_at": "2026-10-10T09:48:54+08:00"
   }
  ]
 }

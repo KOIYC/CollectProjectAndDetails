@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/commune-2"
 published_at: "2026-09-24"
-captured_at: "2026-09-28T09:49:41+08:00"
+captured_at: "2026-10-10T10:01:34+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-09-24
 > 项目链接：—
-> 采集：2026-09-28T09:49:41+08:00　|　id：`dc21bedff1d637d5`
+> 采集：2026-10-10T10:01:34+08:00　|　id：`dc21bedff1d637d5`
 
 ## 正文
 
@@ -63,7 +63,7 @@ theme#toggle"
 Log in
 Submit Startup
 Back to all startups
-Commune
+Commune BOOSTED
 A shared home for builders to launch, connect, and grow
 Commune is a community platform where founders, builders, and indie makers share progress, launch projects, and connect. It features a main feed, project pages, a Launchpad for merit-based launches, collaborator matching, and a rewards system using XP, Gold, and Diamonds. Users can post updates, gather feedback, and track milestones on a unified timeline. Join for free, contribute to earn reputation and currency, and turn ideas into shipped products with people who get it.
 Visit Site
@@ -79,31 +79,34 @@ Collaboration
 Featured
 September 24, 2026
 Request changes
-Boost this startup
 Get your badge
 Report this startup
  Manage collections
 Discover startups similar to Commune
+FreeDAST
+ SPONSOR
+ Scan your live site for risks and get a clear security grade
+ SPONSOR
 CommitFit
  Commit to fitness, compete with friends
+VibeCom
+ Growth is too hard alone. Get an AI marketing team.
+WZRD
+ BOOSTED
+ Turn plain ideas into interactive docs, forms, and decks that converse
+ BOOSTED
+Capsemble
+ Your AI-powered companion to plan, experience and relive every event.
 ContentForge
  Repurpose long-form content into platform-native posts
-Nodlume
- BOOSTED
- Plan React apps on a visual canvas and export ready project files
- BOOSTED
 Pluggo
  Get notified when people discuss your space on Reddit, X, and more
+Adviserry
+ BOOSTED
+ Automatically get personalized actions from your YT/Pod/email subs
+ BOOSTED
 Manifest
  Share goals privately with trusted circles and get help that moves you
-Plug Your Build
- List your indie build in a permanent, searchable directory
-PitchMonster
- BOOSTED
- Practice sales calls with AI buyers and get instant coaching
- BOOSTED
-UNIOGRAM
- Create, manage, and grow your AI tools in one space
 
 ## 导航
 

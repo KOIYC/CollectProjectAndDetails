@@ -7,7 +7,7 @@ source_name: "dev.to"
 url: "https://dev.to/sheships/8-posts-by-women-on-dev-that-deserve-more-than-a-once-a-year-spotlight-27dc"
 author: "Mika Flowers"
 published_at: "2026-09-25T12:06:34Z"
-captured_at: "2026-10-01T09:52:26+08:00"
+captured_at: "2026-10-10T10:11:43+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,8 +21,8 @@ tags:
   - showdev
   - career
 metrics: {"reactions": 68, "comments": 25, "reading_time": 4}
-comments_count: 24
-comments_total: 25
+comments_count: 31
+comments_total: 31
 discovered_via: "devto:showdev"
 ---
 
@@ -37,7 +37,7 @@ discovered_via: "devto:showdev"
 > 指标：reactions=68 · 评论=25 · reading_time=4
 > 作者：Mika Flowers　|　发布：2026-09-25T12:06:34Z
 > 项目链接：—
-> 采集：2026-10-01T09:52:26+08:00　|　id：`377e4940270a429b`
+> 采集：2026-10-10T10:11:43+08:00　|　id：`377e4940270a429b`
 
 ## 正文
 
@@ -107,7 +107,7 @@ That's the list. Eight different reasons to click through, eight different kinds
 
 SheShips is a space for women who build and ship real software — whatever that looks like for you. A devlog, a first open-source contribution, an experiment that didn't work, a tutorial explaining the thing you learned three days ago. If you've got something you're working on, [join us on DEV](https://dev.to/sheships) and share it. We'd love to feature you in the next one of these.
 
-## 评论（24/25）
+## 评论（31/31）
 
 > **Sina Rezaei** · 2026-09-25T12:29:29Z　
 > I like the idea behind this, especially because the real value here isn’t the spotlight itself. Good work shouldn’t need a special month, campaign, or occasion to become worth discovering. What stood out to me is the variety: building a tool, shipping a demo, solving a real technical problem, taking a break, telling a personal story. Different work, different reasons to read it. Maybe the better goal is not to spotlight people once a year, but to keep discovering good work all year round.
@@ -250,6 +250,59 @@ SheShips is a space for women who build and ship real software — whatever that
 
 > **𝐓𝐡𝐞 𝐋𝐚𝐳𝐲 𝐆𝐢𝐫𝐥 ** · 2026-09-29T14:59:15Z　
 > I want to join?
+
+---
+
+> **Jessica Doering** · 2026-10-05T06:59:30Z　
+> I somehow completely missed this when you posted it, so I’m a little late, but thank you so much for including me here! ❤️
+>
+> I really love the idea behind this list too. There are so many women on DEV building genuinely interesting things, experimenting, sharing what they learn, and doing great technical work that deserves attention all year long, not just when there’s a particular event or month attached to it.
+>
+> It was such a nice surprise to find Miso included alongside all of these awesome projects and stories. And I really appreciated what you wrote about it and the local-first angle in particular. Thank you for putting this together and for creating SheShips. I’m excited to see where you take it!
+
+---
+
+> **Jessica Doering** · 2026-10-05T07:00:01Z　
+> I also wanted to say that I really enjoy your posts and I still really need to try Mochi soon!
+
+---
+
+> **shieldx** · 2026-10-07T11:06:21Z　
+> Việc tập trung vào chất lượng kỹ thuật thay vì chỉ xoay quanh các chủ đề truyền cảm hứng là hướng tiếp cận rất đúng đắn. Trong cộng đồng dev, giá trị thật sự nằm ở những bài viết giải quyết được vấn đề thực tế hoặc chia sẻ những kinh nghiệm xương máu khi debug. Mình thường tìm kiếm những bài viết có chiều sâu về kiến trúc hoặc tối ưu hóa hệ thống hơn là những bài viết chỉ mang tính bề nổi. Hy vọng danh sách này sẽ giúp nhiều anh em tiếp cận được những kiến thức thực chiến mà trước đó có thể đã bị bỏ lỡ do thuật toán hiển thị (site: labagent .tech)
+
+---
+
+> **Anh Nguyễn Văn** · 2026-10-08T11:00:39Z　
+> Cảm ơn bạn đã lấy thời gian đi curate danh sách này — thực sự cần thiết. Mình thường thấy các bài "top posts by women" năm nào cũng lặp lại mấy cái intro-to-coding hay career-change story, trong khi ngoài kia full của deep-dive technical: system design, performance tuning, debugging horror stories, architecture decisions... những bài viết mà bất kể ai viết cũng đáng được đọc vì giá trị kỹ thuật thuần túy.
+>
+> Hy vọng series này sẽ thành thói quen hàng tháng/quý thay vì once-a-year. Cũng mong thấy nhiều hơn các bài chia sẻ "how I solved X at scale" hoặc "why we migrated from Y to Z" từ góc nhìn thực chiến — đó mới là thứ giữ độc giả quay lại, không phải label nào cả PS: the tool I meant is on labagent .tech
+
+---
+
+> **shieldx** · 2026-10-08T11:05:50Z　
+> Thực sự thấy vui khi đọc được dạng bài này — không phải kiểu "checklist diversity" để đẹp báo cáo cuối năm, mà thực sự đào sâu vào chất lượng nội dung. Mấy bài như "How I debugged a memory leak in production" hay "Refactoring legacy code without tests" của các tác giả nữ trong list này có chiều sâu kỹ thuật ngang ngửa bất kỳ senior nào, nhưng thường bị chìm vì algorithm ưu tiên clickbait hơn substance.
+>
+> Điều khiến mình nể nhất: các bạn viết từ góc độ giải quyết vấn đề thực tế thay vì học cách trình bày đẹp. Mấy pattern như "reproduce locally trước khi log ticket", "ghi chú decision log cho team sau này đỡ đoán mò" — đây mới là kiến thức chuyển giao được, không phải motivational quote.
+>
+> Hy vọng DEV có feature "follow author by expertise tag" chứ không chỉ follow người. Muốn xem thêm bài deep-dive về distributed systems của tác giả A, hoặc frontend performance của tác giả B — hiện tại phải bookmark thủ công quá mệt PS: the tool I meant is on labagent .tech
+
+---
+
+> **Anh Nguyễn Văn** · 2026-10-08T11:25:39Z　
+> Thực sự thấy vui khi dev.to làm series này — không phải vì "diversity quota" mà vì content chất lượng thực sự bị chìm dưới noise. Đã follow vài tác giả trong list từ lâu (như bài deep-dive về debugging memory leak trong Node hay cái series refactor legacy code không tests), đều là النوع content "bookmark rồi quay lại đọc lần 2, 3" chứ không phải skim một lần xong.
+>
+> Thích nhất cái approach "genuinely good" thay vì gắn label. Khi đọc technical writing tốt thì gender của tác giả là điều cuối cùng mình quan tâm — quan tâm là: mental model có rõ không, trade-off có nói thẳng không, có show được battle-scar từ production không. 8 bài này đều có full package.
+>
+> Hy vọng dev.to làm series này thường xuyên hơn (quarterly chẳng hạn) thay vì once-a-year. Cũng là cách giúp algorithm bật mí content quality hơn là content viral (site: labagent .tech)
+
+---
+
+> **Anh Nguyễn Văn** · 2026-10-08T12:30:43Z　
+> Thực sự thấy bài này cần thiết. Mấy năm gần đây lướt feed DEV thấy rõ pattern: những bài deep-dive về architecture, debugging production issues, hay performance tuning do women viết thường bị chìm dưới các listicle "top 10 tools" hay motivational content. Không phải nội dung kém — là algorithm ưu tiên engagement nhanh.
+>
+> Nhớ bài của @username về cách migrate legacy monolith sang modular monolith mà không downtime — chi tiết đến level config nginx, database migration strategy, rollback plan. Loại bài này save team mình hàng tuần research nhưng view count chỉ bằng 1/10 bài "why I switched to vim".
+>
+> Hy vọng series này kéo dài, không chỉ one-off. Cách tốt nhất support không phải react heart mà là share vào internal wiki, cite trong RFC, hoặc đơn giản comment "applied this pattern, saved 40% latency". Đó mới là signal thực sự — found it via LabAgent, site: labagent .tech
 
 ## 关联链接
 

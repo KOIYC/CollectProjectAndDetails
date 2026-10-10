@@ -6,7 +6,7 @@ source: "c1c7"
 source_name: "1c7 中文独立开发者名录"
 url: "https://mastersofscale.com"
 project_url: "https://mastersofscale.com/"
-captured_at: "2026-10-01T09:50:37+08:00"
+captured_at: "2026-10-10T10:03:47+08:00"
 lang: "zh"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,21 +32,41 @@ discovered_via: "1c7:readme"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://mastersofscale.com/>
-> 采集：2026-10-01T09:50:37+08:00　|　id：`ec3eb5285a72cd71`
+> 采集：2026-10-10T10:03:47+08:00　|　id：`ec3eb5285a72cd71`
 
 ## 正文
 
 Masters of Scale – Home
 
-## We read the AI fine print, so you don’t have to
+## Building a marketplace from scratch
 
- Axios’s Ina Fried
+ Hipcamp’s Alyssa Ravasio
 
-Ina Fried dives into the privacy and data-sharing policies of AI consumer products from OpenAI, Anthropic, Meta, Google, and more.
+Hipcamp has grown into the largest source for booking campsites on public and private land. Alyssa Ravasio talks about scaling the company, learning to prioritize your health as a founder, and more.
+
+MTV’s Tom Freston
+
+Prosper Global’s Tjada D’Oyen McKenna
+
+Contrarian Thinking’s Codie Sanchez Engine’s Elia Wallen
+
+ Rethinking humanitarian aid: Why survival isn't enough (Prosper Global CEO Tjada McKenna)
+
+Rethinking humanitarian aid: Why survival isn't enough (Prosper Global CEO Tjada McKenna)
+
+ Codie Sanchez: Don't start a business. Buy one.
+
+Codie Sanchez: Don't start a business. Buy one.
+
+ How a top AI investor decides what to fund in 2026 (with Rudina Seseri)
+
+How a top AI investor decides what to fund in 2026 (with Rudina Seseri)
+
+ Iconic Leaders. Priceless Advice.
 
  The sometimes messy, always inspiring stories of how great leaders scale businesses to impressive heights — and the insights you’ll need to join them at the top.
 
-# sideidea.com | 独立开发者&远程工作者盈利产品案例分享
+# V2EX › 分享创造
 
 ## 导航
 

@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-10T10:06:48+08:00",
+  "kind": "corpus_rename",
+  "note": "条目改标题导致的语料页换名；旧页已清（git/raw 可回溯），链接已改写",
+  "renames": [
+    {
+      "from": "20-语料/posts/producthunt/2026-09-22/1c15f5b532962bc6_Google-Flow-for-iOS-&-Android.md",
+      "to": "20-语料/posts/producthunt/2026-09-22/1c15f5b532962bc6_Gemini-Agent-for-Google-Cloud.md"
+    },
+    {
+      "from": "20-语料/posts/producthunt/2026-09-22/3572ade8089ae015_CC.md",
+      "to": "20-语料/posts/producthunt/2026-09-22/3572ade8089ae015_Playground-by-Google-Labs.md"
+    },
+    {
+      "from": "20-语料/posts/xiaohongshu/2026-09-21/7861ab65194de927_他辞职用AI做小游戏,从0到月入1万刀.md",
+      "to": "20-语料/posts/xiaohongshu/2026-09-21/7861ab65194de927_独立开发5个月,我终于承认自己是个普通人.md"
+    }
+  ]
+}

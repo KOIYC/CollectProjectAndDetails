@@ -498,44 +498,46 @@ channels:
 # 每次跑完内容审计更新本段；数字是「可用/条目」，取自 00-索引/内容审计-all.md。
 
 content_gate:
-  audited_at: '2026-10-01'
-  overall: '2151/2425（89%）'
+  audited_at: '2026-10-10'
+  overall: '2256/2549（89%）'
   rows:
-    - {id: producthunt, ratio: '239/241', verdict: keep}
-    - {id: betalist, ratio: '136/136', verdict: keep}
-    - {id: devto, ratio: '11/11', verdict: keep,
-       note: n=11 小样本；标题 require_any 曾把样本全过滤（0 条 = 杀渠道），已回退为「少量标题排除 + limit 降量」}
-    - {id: bilibili, ratio: '53/56', verdict: keep}
-    - {id: indiehackers, ratio: '88/91', verdict: keep}
-    - {id: hn_show, ratio: '1284/1360', verdict: keep,
+    - {id: producthunt, ratio: '264/269', verdict: keep}
+    - {id: betalist, ratio: '147/147', verdict: keep}
+    - {id: devto, ratio: '13/15', verdict: keep,
+       note: n=15 小样本；标题 require_any 曾把样本全过滤（0 条 = 杀渠道），已回退为「少量标题排除 + limit 降量」}
+    - {id: bilibili, ratio: '53/56', verdict: keep,
+       note: 2026-10-10：本轮采集端 0 videos（2.6s，探针同轮 ok / 13 videos）→ 调查确认 B 站搜索 API 实测健康
+       （code=0 / 20 results / play>3000 有货）→ 判为**瞬态 WBI 风控空返回**，非渠道腐化。B 站是**累计搜索型渠道、无时间窗口**，
+       本轮不补也无数据丢失（同 c1c7 判据），保持 enabled}
+    - {id: indiehackers, ratio: '106/109', verdict: keep}
+    - {id: hn_show, ratio: '1320/1400', verdict: keep,
        note: 94%。大厂产品假阳性已修（Show HN 标题自述的条目不再因提到 Stripe/Google 被判「大厂产品」）；
-       主要残余是视频帖无正文（结构性，记死信）与 Exa 截断 29}
-    - {id: github_new, ratio: '49/65', verdict: keep,
+       主要残余是视频帖无正文（结构性，记死信）与 Exa 截断 31}
+    - {id: github_new, ratio: '54/72', verdict: keep,
        note: 75%。噪声是 awesome-*/directory/clone/wiki/journal 类资源清单（标题规则已排除，见 rule_drops）。
-       2026-09-30 复判：本轮丢弃 16/21（76%，超 70% 线），逐条核对 = 4 条标题（snapchat-clone / awesome-side-project /
-       awesome-indiehackers / launch-website-directories）+ 12 条无主题词（laya / kev / cssFilters / Tello / zerocal 等库与 demo）
-       → 全部判对，无误杀。
-       2026-10-01 复判：丢弃 17/28（61%，**未过 70% 线**），逐条核对无误杀
-       （Best-Micro-SaaS-Tools / one-person-company-journal / AnvilWiki / snapchat-clone / awesome-side-project /
-       awesome-indiehackers / launch-website-directories + 10 条无主题词的库与 demo）}
-    - {id: v2ex, ratio: '48/66', verdict: keep,
-       note: 74%。主要噪声是「NAS 必装 Docker 推荐」类资源帖；rules.yaml 已排招聘/求职/求助。
-       2026-09-30 复判：丢弃 5/25（20%），排除项 = 2 条招聘 + 1 条「AI 导航站」+ 2 条无主题词（精灵图工具 / remote 招聘）
-       → 无系统性误杀；**「做了一个 AI 导航站」已连续两轮（09-29/09-30）被标题规则滤掉（n=2）**，
-       属「自述自建 + 名录型」边界案例，暂不改规则，n≥3 再评估是否给自述发布语加例外}
+       2026-10-10 复判：丢弃 15/28（54%，**未过 70% 线**），逐条核对无误杀
+       （7 条标题 = one-person-company-journal / Best-Micro-SaaS-Tools / AnvilWiki / snapchat-clone /
+       awesome-side-project / awesome-indiehackers / launch-website-directories；8 条无主题词 = AIHOT /
+       ai-architecture / google-profanity-words / snatch / cssFilters / Tello / Instagram / zerocal 等库与 demo）}
+    - {id: v2ex, ratio: '57/82', verdict: keep,
+       note: 70%。主要噪声是「NAS 必装 Docker 推荐」类资源帖；rules.yaml 已排招聘/求职/求助。
+       2026-10-10 复判：丢弃 5/25（20%）= 4 条招聘/内推 + 1 条无主题词（「Deno 宣布停止长期开发独立运行时」）→ 无系统性误杀；
+       「做了一个 AI 导航站」本轮未复现（按 item_id 去重后独立案例仍 =1，不改规则）}
     - {id: exa_discovery, ratio: '19/25', verdict: keep,
        note: 76%，小样本（weekly_only，非周一不跑）。2026-09-28 抽查丢弃账本：
        1 条「Respira Exhale（HTML→WordPress 转换器）」被「无主题词」滤掉，疑误杀 n=1，未到动手阈值}
     - {id: reddit, ratio: '216/366', verdict: limit_reduced,
-       note: 60%。已把 limit 40→30 控量（标题过滤模拟到 88% 但丢 29 条可用帖，代价大于收益，不采纳）。
+       note: 59%。已把 limit 40→30 控量（标题过滤模拟到 88% 但丢 29 条可用帖，代价大于收益，不采纳）。
        2026-09-24 追加：窗口外移 settle_days=10 / window_days=14 后近两周语料抓不到（见渠道 note），
-       审计口径与采集口径要一起看。2026-09-30 复判：仍 60%，主要标签 = irrelevant 137 / unusable 32 / big 5 → 维持现状。
-       2026-10-01 复判：216/366 = 59%，标签结构不变（irrelevant 146 / unusable 33 / resource 10 / big 5 / summary 4）→ 维持 limit_reduced}
-    - {id: c1c7, ratio: '7/7', verdict: keep,
-       note: 2026-10-01 起 7/7（本轮换取数源后恢复取数，n=7 仍属小样本，报可用率要连 n 一起报）。
-       2026-09-30 曾 5/7，与 09-26 的 7/7 同属 n<10 的正常抖动，不构成渠道级问题。
-       09-30 采集端 error（WinError 10054）经 10-01 三层探针定案为 `raw.githubusercontent.com` 的 TLS 重置，
-       已换取数源（jsDelivr 镜像）修复，详见 `backends` 段同条目}
+       审计口径与采集口径要一起看。2026-10-01 复判：216/366 = 59%，标签结构不变 → 维持 limit_reduced。
+       2026-10-10：**体检探针与采集端同轮 empty（0 posts），消息为各 sub `522`** —— 三层探针定案为
+       **arctic-shift 源站故障**（对照：TCP ok 0.5s / TLS ok 0.6s / HTTP 522 复现 4/4；同网络 `api.github.com` 正常）
+       → 属**后端宕机**，非渠道腐化，保持 enabled、不写 disabled（连续 2 轮 empty 的停用规则不适用于后端宕机）}
+    - {id: c1c7, ratio: '6/7', verdict: keep,
+       note: 2026-10-10 6/7（n=7 小样本，报可用率要连 n 一起报）。本轮丢弃 10/17（58.8%，**未过 70% 线**）：
+       全为名录/播客/周刊/新闻信类（Indie Hacker / Failory / Starter Story / Awesome Indie / MicroConf /
+       Stripe Atlas Guide / NomadList / Profitable Founder Podcast / 利器 等）→ 无误杀。
+       取数源已换 jsDelivr 镜像（原 `raw.githubusercontent.com` TLS 重置），详见 `backends` 段}
 
 # ---------------- 后端可用性订正（实测，会被 kb_audit 复检） ----------------
 backends:
@@ -559,9 +561,14 @@ backends:
     revive: 复测能返回正文后恢复，可重新用于 enrich_generic
   - id: arctic_shift
     use: Reddit 取数
-    status: ok
-    verified: '2026-09-20'
-    evidence: ① after/before 只接受 epoch 秒或纯日期，带时区 ISO 会 400；② score 装载延迟：近 3 天帖子分数未沉淀（近 3 天 max=1 vs 7-14 天前 max=42）→ 采集用 settle_days=3 窗口；③ sort 只接受 asc/desc
+    status: unstable
+    verified: '2026-10-10'
+    evidence: ① after/before 只接受 epoch 秒或纯日期，带时区 ISO 会 400；② score 装载延迟：近 3 天帖子分数未沉淀（近 3 天 max=1 vs 7-14 天前 max=42）→ 采集用 settle_days=3 窗口；③ sort 只接受 asc/desc。
+      ④ **2026-10-10 源站故障**：体检探针与采集端同轮返回各 sub `522`（kb_audit 后端复检亦为 `unusable / 522`）。
+      三层探针定案 = **源站侧故障，非本机网络**：TCP ok 0.51s / TLS ok 0.62s / HTTP **522**（Cloudflare「源站连接超时」，
+      连续 4/4 复现，单次 ~20s）；同网络对照 `api.github.com` TCP+TLS 均正常。
+      **处置**：reddit 保持 enabled、不写 disabled（后端宕机 ≠ 渠道腐化；「连续 2 轮 empty → 停用」规则不适用于此）。
+    revive: 源站恢复后由 kb_audit 后端复检自动转 ok；若连续多轮（≥2）仍 522，再评估换 Reddit 取数后端或降该渠道权重
   - id: ih_algolia
     use: IndieHackers 结构化产品库
     status: unusable
