@@ -8,7 +8,7 @@ url: "https://dev.to/ssapable/i-left-28-unsolicited-cartoons-in-strangers-commen
 project_url: "https://payhip.com/b/A2wa8"
 author: "ssapable"
 published_at: "2026-10-09T16:43:48Z"
-captured_at: "2026-10-10T10:02:13+08:00"
+captured_at: "2026-10-11T09:47:17+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,9 +21,9 @@ tags:
   - indiehackers
   - marketing
   - python
-metrics: {"reactions": 6, "comments": 2, "reading_time": 4}
-comments_count: 2
-comments_total: 2
+metrics: {"reactions": 6, "comments": 11, "reading_time": 4}
+comments_count: 11
+comments_total: 11
 discovered_via: "devto:indiehackers"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:indiehackers"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/ssapable/i-left-28-unsolicited-cartoons-in-strangers-comment-threads-over-four-days-16-replies-2-3838>
-> 指标：reactions=6 · 评论=2 · reading_time=4
+> 指标：reactions=6 · 评论=11 · reading_time=4
 > 作者：ssapable　|　发布：2026-10-09T16:43:48Z
 > 项目链接：<https://payhip.com/b/A2wa8>
-> 采集：2026-10-10T10:02:13+08:00　|　id：`c937dfaaf561f391`
+> 采集：2026-10-11T09:47:17+08:00　|　id：`c937dfaaf561f391`
 
 ## 正文
 
@@ -114,7 +114,7 @@ So the honest version of the lesson from four days ago is narrower than I wrote 
 
 I'll keep making them, one a cycle, because the conversations are good and the corrections make the cartoons better. If you want one for your project, the page explains how I pick. If you'd rather render your own, the engine is here: https://payhip.com/b/A2wa8
 
-## 评论（2/2）
+## 评论（11/11）
 
 > **EffessDev** · 2026-10-09T17:17:19Z　
 > Wow! You made 29 cartoons?! That's really impressive! Thanks for creating one for GiffyPy! :D I would recommend that you try creating fewer but higher-quality cartoons. Some of them were really good, while some weren't. Maybe people will consider buying when they see a really good sample?
@@ -125,6 +125,92 @@ I'll keep making them, one a cycle, because the conversations are good and the c
 > That's fair. One an hour was the rule I set; it is not the rule the cartoons need.
 >
 > If you remember which ones felt weak, I'd like to know. Was it the drawing, the pacing, or that the story didn't land? I'll redo the worst one properly rather than add a thirtieth.
+
+---
+
+> **EffessDev** · 2026-10-10T02:43:08Z　
+> I think maybe instead of another sample, what about creating a DEV.to post showing exactly how it works? One that walks through creating a high-quality cartoon from start to finish? That would make it much easier for the reader to justify a purchase. Like I did in this post?
+>
+>  ReptClip: A VS Code Extension to Paste Your Project into Free Chatbots and Apply the Diffs in One Click
+>
+>  EffessDev
+>
+>  EffessDev
+>
+>  EffessDev
+>
+>  Follow
+>
+>  Sep 26
+>
+>  ReptClip: A VS Code Extension to Paste Your Project into Free Chatbots and Apply the Diffs in One Click
+>
+>  #showdev
+>  #productivity
+>  #ai
+>  #vscode
+>
+>  21 reactions
+>
+>  Comments
+>
+>  36 comments
+>
+>  4 min read
+>
+> ReptClip is free. Showing how it works may be more important to ScriptToon since it's paid. I really wanted to know exactly how it works (with screenshots & screen recordings) when I saw those cartoons. But I couldn't find documentation or a tutorial post that's beginner-friendly. Maybe you should add one on the Payhip page itself?
+
+---
+
+> **ssapable** · 2026-10-10T03:37:43Z　
+> Both points taken, and thank you for being this specific.
+>
+> You're right that there's no walkthrough. The Payhip page shows the output, not the process. I'll write a DEV post that builds one cartoon from start to finish: the storyboard file, the images, the voice lines, the render command, and the result, with screenshots at each step. I'll link it from the Payhip page too. Your ReptClip post is a good model for the format.
+>
+> On the mixed art styles: agreed. The samples mix pictures from different sources, and Llama Village's opening looks better because those first images happen to match. I'm working on a single consistent cast so every shot shares one style and stroke weight. I'll use that cast in the walkthrough rather than the mixed images.
+
+---
+
+> **EffessDev** · 2026-10-10T03:48:26Z　
+> Glad it helped! ☺️ Good luck :D You will make it better than my post!
+
+---
+
+> **EffessDev** · 2026-10-10T02:50:03Z　
+> Also, one thing I noticed in the sample was that the images had different art styles. It would be dramatically better if you could find images in the same style and stroke width. It really does make a big difference. While that's not a problem with your tool, the cartoons will look much better. In the first 8 seconds of the "Llama Village" cartoon, it looked really good because all images had similar art styles (not the same, but similar; it can also be improved)!
+
+---
+
+> **ssapable** · 2026-10-10T06:19:17Z　
+> You were right about the mixed styles, so I rebuilt the cast instead of hunting for matching images. Two new characters, Joe (a coffee mug) and Quack (a rubber duck), and three rooms, all rendered in one 3D style with the same light.
+>
+> The first cartoon with them is GiffyPy again, as a 44-second dialogue. It's at the top of the samples page: ssap-pa.github.io/scripttoon-samples
+>
+> The walkthrough post will use this cast.
+
+---
+
+> **EffessDev** · 2026-10-10T06:31:37Z　
+> Wow!!! This is a thousand times better! 😮 Thank you so much for choosing GiffyPy! ☺️ Now I really wish I could purchase it! This cartoon is REALLY impressive! It now supports lip-syncing too?!
+
+---
+
+> **ssapable** · 2026-10-10T06:44:52Z　
+> Thank you! And GiffyPy was an easy pick: the post had all the jokes in it already.
+>
+> On lip-sync: it's the simple kind, not real phoneme matching. Each pose has three mouth frames (closed, half open, open) plus a blink, and on every frame the engine picks the mouth from how loud the voice is at that moment. It reads as talking at cartoon speed, but it won't shape an "o" or an "m".
+>
+> The walkthrough you suggested is up, with the real commands and timings from this GiffyPy cartoon: dev.to/ssapable/how-one-scripttoon...
+
+---
+
+> **EffessDev** · 2026-10-10T06:57:46Z　
+> Even if it's just closed, half-open and open, it looks really nice for that style! Your new demo post is nice too! But a small suggestion about the title. Currently, it says "How one ScriptToon cartoon gets made, start to finish". But the readers don't know what ScriptToon is yet, right? So, there is no reason to click it when they see the post. Would updating it to something like "How to turn a storyboard into a cartoon using ScriptToon" be better? Not exactly like that (it's just an example, not good enough yet), but something similar? People may not want to learn how to use a tool they do not know about, but they might want to learn how to turn storyboards into cartoons?
+
+---
+
+> **ssapable** · 2026-10-10T07:46:23Z　
+> You're right, nobody searches for a tool name they've never heard of. It's renamed: "Turn a Markdown storyboard into a talking cartoon with Python, start to finish". The link stays the same.
 
 ## 关联链接
 

@@ -1,8 +1,8 @@
 {
- "run_id": "20261010T095345",
- "started_at": "2026-10-10T09:53:45+08:00",
- "ended_at": "2026-10-10T10:08:31+08:00",
- "elapsed_s": 885.6,
+ "run_id": "20261011T094348",
+ "started_at": "2026-10-11T09:43:48+08:00",
+ "ended_at": "2026-10-11T09:52:53+08:00",
+ "elapsed_s": 544.5,
  "channels": [
   {
    "source_id": "hn_show",
@@ -10,7 +10,7 @@
    "status": "ok",
    "count": 40,
    "message": "40/40 hits | new=40 chg=0",
-   "elapsed_s": 100.8,
+   "elapsed_s": 91.6,
    "new": 40,
    "changed": 0,
    "raw": 40
@@ -18,23 +18,23 @@
   {
    "source_id": "reddit",
    "name": "Reddit 独立开发版块",
-   "status": "empty",
-   "count": 0,
-   "message": "0 posts; SideProject: 522: <none>; indiehackers: 522: <none>; microsaas: 522: <none>; SaaS: 522: <none>; Entr | new=0 chg=0",
-   "elapsed_s": 325.5,
-   "new": 0,
+   "status": "ok",
+   "count": 24,
+   "message": "24 posts;  | new=24 chg=0",
+   "elapsed_s": 71.1,
+   "new": 24,
    "changed": 0,
-   "raw": 0
+   "raw": 24
   },
   {
    "source_id": "github_new",
    "name": "GitHub 新星仓库",
    "status": "ok",
    "count": 13,
-   "message": "28 repos;  | 写盘 11/13 | new=7 chg=4",
-   "elapsed_s": 39.1,
-   "new": 7,
-   "changed": 4,
+   "message": "28 repos;  | 写盘 11/13 | new=0 chg=11",
+   "elapsed_s": 17.1,
+   "new": 0,
+   "changed": 11,
    "raw": 13
   },
   {
@@ -42,10 +42,10 @@
    "name": "BetaList",
    "status": "ok",
    "count": 12,
-   "message": "12 startups · 发布日 12/12 | new=11 chg=1",
-   "elapsed_s": 14.9,
-   "new": 11,
-   "changed": 1,
+   "message": "12 startups · 发布日 12/12 | new=12 chg=0",
+   "elapsed_s": 10.4,
+   "new": 12,
+   "changed": 0,
    "raw": 12
   },
   {
@@ -53,10 +53,10 @@
    "name": "Indie Hackers 产品库",
    "status": "ok",
    "count": 20,
-   "message": "22 products | new=18 chg=2",
-   "elapsed_s": 15.2,
-   "new": 18,
-   "changed": 2,
+   "message": "20 products | 写盘 6/20 | new=3 chg=3",
+   "elapsed_s": 12.0,
+   "new": 3,
+   "changed": 3,
    "raw": 20
   },
   {
@@ -64,10 +64,10 @@
    "name": "dev.to",
    "status": "ok",
    "count": 4,
-   "message": "4 articles | new=4 chg=0",
-   "elapsed_s": 36.9,
-   "new": 4,
-   "changed": 0,
+   "message": "4 articles | 写盘 3/4 | new=0 chg=3",
+   "elapsed_s": 18.5,
+   "new": 0,
+   "changed": 3,
    "raw": 4
   },
   {
@@ -75,43 +75,43 @@
    "name": "Product Hunt",
    "status": "ok",
    "count": 30,
-   "message": "30 entries | new=28 chg=2",
-   "elapsed_s": 6.1,
-   "new": 28,
-   "changed": 2,
+   "message": "30 entries | new=30 chg=0",
+   "elapsed_s": 1.7,
+   "new": 30,
+   "changed": 0,
    "raw": 30
   },
   {
    "source_id": "v2ex",
    "name": "V2EX",
    "status": "ok",
-   "count": 20,
-   "message": "87 topics | 写盘 16/20 | new=16 chg=0",
-   "elapsed_s": 57.2,
-   "new": 16,
+   "count": 21,
+   "message": "84 topics | 写盘 9/21 | new=9 chg=0",
+   "elapsed_s": 32.7,
+   "new": 9,
    "changed": 0,
-   "raw": 20
+   "raw": 21
   },
   {
    "source_id": "bilibili",
    "name": "B 站",
-   "status": "empty",
-   "count": 0,
-   "message": "0 videos | new=0 chg=0",
-   "elapsed_s": 2.6,
-   "new": 0,
-   "changed": 0,
-   "raw": 0
+   "status": "ok",
+   "count": 5,
+   "message": "39 videos | new=3 chg=2",
+   "elapsed_s": 3.2,
+   "new": 3,
+   "changed": 2,
+   "raw": 5
   },
   {
    "source_id": "c1c7",
    "name": "1c7 中文独立开发者名录",
    "status": "ok",
    "count": 7,
-   "message": "17 entries · 收录日 17 | 写盘 3/7 | new=0 chg=3",
-   "elapsed_s": 32.6,
+   "message": "17 entries · 收录日 17 | 写盘 1/7 | new=0 chg=1",
+   "elapsed_s": 28.8,
    "new": 0,
-   "changed": 3,
+   "changed": 1,
    "raw": 7
   },
   {
@@ -119,8 +119,8 @@
    "name": "X / Twitter",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 25s\nok: false\nerr | new=0 chg=0",
-   "elapsed_s": 49.8,
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 8s\nok: false\nerro | new=0 chg=0",
+   "elapsed_s": 66.3,
    "new": 0,
    "changed": 0,
    "raw": 0
@@ -131,18 +131,18 @@
    "status": "ok",
    "count": 1,
    "message": "1 items（3 路查询） | new=0 chg=1",
-   "elapsed_s": 101.1,
+   "elapsed_s": 87.7,
    "new": 0,
    "changed": 1,
    "raw": 1
   }
  ],
- "notes_written": 137,
+ "notes_written": 142,
  "errors": [],
- "total_items": 147,
- "total_new": 124,
+ "total_items": 177,
+ "total_new": 121,
  "dry": false,
- "rule_dropped": 30,
+ "rule_dropped": 36,
  "write_errors": 0,
  "body_cache_pruned": 0,
  "finish_errors": []

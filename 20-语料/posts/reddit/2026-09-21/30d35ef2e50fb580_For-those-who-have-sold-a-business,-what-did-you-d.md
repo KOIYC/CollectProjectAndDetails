@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1wicije/for_those_who_have_sold_a_business_what_did_you/"
 author: "Mission-Jacket7155"
 published_at: "2026-09-17T06:53:14+08:00"
-captured_at: "2026-10-01T09:53:33+08:00"
+captured_at: "2026-10-11T09:56:02+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -35,7 +35,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=3 · 评论=17 · 赞踩比=0.72
 > 作者：Mission-Jacket7155　|　发布：2026-09-17T06:53:14+08:00
 > 项目链接：—
-> 采集：2026-10-01T09:53:33+08:00　|　id：`30d35ef2e50fb580`
+> 采集：2026-10-11T09:56:02+08:00　|　id：`30d35ef2e50fb580`
 
 ## 正文
 
@@ -145,7 +145,7 @@ If you knew you were 1–3 years away from selling, what helped you figure out w
 
 ---
 
-> **jake_spotswood**（1 分） · 2026-10-01T06:52:47+08:00　
+> **jake_spotswood**（0 分） · 2026-10-01T06:52:47+08:00　
 > If you’re thinking about selling your business I would check out the site below too. Valuation + what to change to sell for more
 >
 > Anvilscore.com

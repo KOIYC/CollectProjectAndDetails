@@ -2,14 +2,14 @@
 type: "project"
 title: "storytold/pdfcraft"
 project_url: "https://getartcraft.com/apps/printcraft"
-first_seen: "2026-10-10T10:00:54+08:00"
+first_seen: "2026-10-11T09:46:35+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - Rust
-  - created:>2026-09-26
+  - created:>2026-09-27
 lang: "en"
 ---
 
@@ -20,16 +20,17 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://getartcraft.com/apps/printcraft>
-> 首次收录：2026-10-10T10:00:54+08:00
+> 首次收录：2026-10-11T09:46:35+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：Rust, created:>2026-09-26
-> 最新指标：stars=6481 · forks=2258 · open_issues=240
+> 标签：Rust, created:>2026-09-27
+> 最新指标：stars=8023 · forks=2853 · open_issues=347
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-10-10T10:00:54+08:00 | GitHub 新星仓库 | stars=6481 · forks=2258 · open_issues=240 | [[20-语料/posts/github_new/2026-10-10/94dff4645acec435_storytold-pdfcraft]] |
+| 2026-10-11T09:46:35+08:00 | GitHub 新星仓库 | stars=8023 · forks=2853 · open_issues=347 | [[20-语料/posts/github_new/2026-10-10/94dff4645acec435_storytold-pdfcraft]] |
 
 ## 摘要正文
 

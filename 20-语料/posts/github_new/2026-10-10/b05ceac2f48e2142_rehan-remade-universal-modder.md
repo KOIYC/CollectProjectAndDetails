@@ -8,7 +8,7 @@ url: "https://github.com/rehan-remade/universal-modder"
 project_url: "https://github.com/rehan-remade/universal-modder"
 author: "rehan-remade"
 published_at: "2026-09-30T05:00:35Z"
-captured_at: "2026-10-10T10:00:54+08:00"
+captured_at: "2026-10-11T09:46:35+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - Python
-  - created:>2026-09-26
-metrics: {"stars": 6061, "forks": 575, "open_issues": 50}
+  - created:>2026-09-27
+metrics: {"stars": 6388, "forks": 626, "open_issues": 33}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/rehan-remade/universal-modder>
-> 指标：stars=6061 · forks=575 · open_issues=50
+> 指标：stars=6388 · forks=626 · open_issues=33
 > 作者：rehan-remade　|　发布：2026-09-30T05:00:35Z
 > 项目链接：<https://github.com/rehan-remade/universal-modder>
-> 采集：2026-10-10T10:00:54+08:00　|　id：`b05ceac2f48e2142`
+> 采集：2026-10-11T09:46:35+08:00　|　id：`b05ceac2f48e2142`
 
 ## 正文
 
@@ -45,6 +45,7 @@ Skills, tools and a shared knowledge base that let any AI coding agent mod almos
   with fal, tests it in the running game, cuts the video, and writes down what it learned for the next agent.
 
 Coming next: the mod hub. Publish your mods, remix other people's, and make new ones.
+  Share what you make, get help, and follow along:
 
 ## Install
 
@@ -200,7 +201,7 @@ Each has a field note with every non-obvious lesson: [knowledge/INDEX.md](knowle
 Full reasoning: [`skills/mod-any-game/references/safety.md`](skills/mod-any-game/references/safety.md).
 
 ## Made a mod with it?
-Put the badge on your mod's page:
+Show it off in the [Discord](https://discord.com/invite/sEZWaf7vV), and put the badge on your mod's page:
 
 ```markdown
 [![made with universal-modder](https://raw.githubusercontent.com/rehan-remade/universal-modder/main/docs/media/made-with-dark.svg)](https://github.com/rehan-remade/universal-modder)
@@ -222,6 +223,7 @@ MIT licensed. Brand type: Geist Pixel, Sometype Mono and Instrument Sans. Video 
 
 ## 关联链接
 
+- https://discord.com/invite/sEZWaf7vV
 - https://fal.ai
 - https://fal.ai/dashboard/keys
 - https://github.com/rehan-remade/universal-modder/stargazers

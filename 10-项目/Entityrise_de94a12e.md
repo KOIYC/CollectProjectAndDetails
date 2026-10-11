@@ -2,7 +2,7 @@
 type: "project"
 title: "Entityrise"
 project_url: "https://www.indiehackers.com/product/entityrise"
-first_seen: "2026-10-10T10:01:48+08:00"
+first_seen: "2026-10-11T09:47:02+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://www.indiehackers.com/product/entityrise>
-> 首次收录：2026-10-10T10:01:48+08:00
+> 首次收录：2026-10-11T09:47:02+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -28,6 +28,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-10-10T10:01:48+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-10/de94a12eddf27c70_Entityrise]] |
+| 2026-10-11T09:47:02+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-10/de94a12eddf27c70_Entityrise]] |
 
 ## 摘要正文
 

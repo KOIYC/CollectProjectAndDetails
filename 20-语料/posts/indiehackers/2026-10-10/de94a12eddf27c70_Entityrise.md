@@ -5,7 +5,7 @@ title: "Entityrise"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/entityrise"
-captured_at: "2026-10-10T10:01:48+08:00"
+captured_at: "2026-10-11T09:47:02+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-10-10T10:01:48+08:00　|　id：`de94a12eddf27c70`
+> 采集：2026-10-11T09:47:02+08:00　|　id：`de94a12eddf27c70`
 
 ## 正文
 
@@ -52,8 +52,8 @@ Hi Indie Hackers, I'm Kamil, founder of Smophy Labs. Some of you know SmophyAI. 
  Here I'll share what we learn from measuring AI answers, including what does not work. Recent example: Hashnode's auto-moderation removed four of our syndicated posts in one evening, and the lesson turned out to be about topic, not wording.
  Happy to compare notes with anyone tracking how AI assistants mention their product.
 Kamil Kępiński
-Upvote
-Comment
+1 Upvote
+2 Comments
 About
  Buyers now ask AI assistants for vendor shortlists before visiting a website. EntityRise measures how ChatGPT, Claude, Gemini, Grok and Perplexity describe and recommend a company, then fixes what keeps it out.
  People

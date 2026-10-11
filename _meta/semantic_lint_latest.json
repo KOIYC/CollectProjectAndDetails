@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-01T09:54:02+08:00",
- "n_items": 2542,
- "n_pages": 2086,
- "cross": 2,
+ "generated": "2026-10-11T09:57:23+08:00",
+ "n_items": 2787,
+ "n_pages": 2304,
+ "cross": 3,
  "stale": 0,
  "concept": 0,
  "xref": 30,
@@ -81,6 +81,30 @@
      "title": "Show HN: FastRecall, OpenRouter for Memory",
      "claim": "$2/mo",
      "value": "2"
+    }
+   ]
+  },
+  {
+   "key": "https://indieneed.com/",
+   "kind": "price",
+   "values": [
+    "260",
+    "1,000"
+   ],
+   "sources": [
+    {
+     "item_id": "b42077ff1bc34d48",
+     "source_id": "indiehackers",
+     "title": "Inide Need",
+     "claim": "$1K / mo",
+     "value": "1,000"
+    },
+    {
+     "item_id": "7499a58da86e9e31",
+     "source_id": "indiehackers",
+     "title": "Indieneed",
+     "claim": "$260 / mo",
+     "value": "260"
     }
    ]
   }

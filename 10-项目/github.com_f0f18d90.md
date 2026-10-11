@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Jauvex 1.2, two-way voice chat harness for Claude+Codex+Grok+Jev"
 project_url: "https://github.com/reindent/jauvex"
-first_seen: "2026-10-10T10:11:21+08:00"
+first_seen: "2026-10-11T09:54:15+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/reindent/jauvex>
-> 首次收录：2026-10-10T10:11:21+08:00
+> 首次收录：2026-10-11T09:54:15+08:00
 > 来源渠道：HN Show HN
 > 标签：author_daraosn, story_49886390, show_hn
 > 最新指标：点赞=2 · 评论=1 · engagement_velocity=2
@@ -35,6 +35,7 @@ lang: "en"
 | 2026-09-30T18:57:07+08:00 | HN Show HN | 点赞=2 · 评论=1 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-29/da1fc2dfdcefd6af_Show-HN-Jauvex-1.2,-two-way-voice-chat-harness-for]] |
 | 2026-10-01T09:52:19+08:00 | HN Show HN | 点赞=2 · 评论=1 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-29/da1fc2dfdcefd6af_Show-HN-Jauvex-1.2,-two-way-voice-chat-harness-for]] |
 | 2026-10-10T10:11:21+08:00 | HN Show HN | 点赞=2 · 评论=1 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-29/da1fc2dfdcefd6af_Show-HN-Jauvex-1.2,-two-way-voice-chat-harness-for]] |
+| 2026-10-11T09:54:15+08:00 | HN Show HN | 点赞=2 · 评论=1 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-09-29/da1fc2dfdcefd6af_Show-HN-Jauvex-1.2,-two-way-voice-chat-harness-for]] |
 
 ## 摘要正文
 

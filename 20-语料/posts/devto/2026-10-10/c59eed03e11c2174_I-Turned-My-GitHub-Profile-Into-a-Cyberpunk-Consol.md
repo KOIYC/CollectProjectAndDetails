@@ -8,7 +8,7 @@ url: "https://dev.to/georgekobaidze/i-turned-my-github-profile-into-a-cyberpunk-
 project_url: "https://w3.org/2000/svg"
 author: "Giorgi Kobaidze"
 published_at: "2026-10-01T18:02:38Z"
-captured_at: "2026-10-10T10:02:03+08:00"
+captured_at: "2026-10-11T09:47:14+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -21,7 +21,7 @@ tags:
   - showdev
   - github
   - design
-metrics: {"reactions": 250, "comments": 161, "reading_time": 15}
+metrics: {"reactions": 251, "comments": 161, "reading_time": 15}
 comments_count: 161
 comments_total: 161
 discovered_via: "devto:showdev"
@@ -35,10 +35,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/georgekobaidze/i-turned-my-github-profile-into-a-cyberpunk-console-with-a-city-built-from-my-contributions-h4c>
-> 指标：reactions=250 · 评论=161 · reading_time=15
+> 指标：reactions=251 · 评论=161 · reading_time=15
 > 作者：Giorgi Kobaidze　|　发布：2026-10-01T18:02:38Z
 > 项目链接：<https://w3.org/2000/svg>
-> 采集：2026-10-10T10:02:03+08:00　|　id：`c59eed03e11c2174`
+> 采集：2026-10-11T09:47:14+08:00　|　id：`c59eed03e11c2174`
 
 ## 正文
 

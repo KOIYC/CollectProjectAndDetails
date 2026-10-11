@@ -8,7 +8,7 @@ url: "https://dev.to/francistrdev/why-you-still-need-a-website-portfolio-even-th
 project_url: "https://francistrdev.github.io/"
 author: "FrancisTRᴅᴇᴠ"
 published_at: "2026-10-05T15:09:58Z"
-captured_at: "2026-10-10T10:12:02+08:00"
+captured_at: "2026-10-11T09:54:33+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,9 +21,9 @@ tags:
   - community
   - showdev
   - a11y
-metrics: {"reactions": 243, "comments": 217, "reading_time": 7}
-comments_count: 216
-comments_total: 217
+metrics: {"reactions": 250, "comments": 235, "reading_time": 7}
+comments_count: 234
+comments_total: 235
 discovered_via: "devto:showdev"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/francistrdev/why-you-still-need-a-website-portfolio-even-though-everyone-can-vibe-code-it-e63>
-> 指标：reactions=243 · 评论=217 · reading_time=7
+> 指标：reactions=250 · 评论=235 · reading_time=7
 > 作者：FrancisTRᴅᴇᴠ　|　发布：2026-10-05T15:09:58Z
 > 项目链接：<https://francistrdev.github.io/>
-> 采集：2026-10-10T10:12:02+08:00　|　id：`371c3e1ecea54117`
+> 采集：2026-10-11T09:54:33+08:00　|　id：`371c3e1ecea54117`
 
 ## 正文
 
@@ -221,7 +221,7 @@ Don't know what your talking about lol
 
 **That is all! Cya :D**
 
-## 评论（216/217）
+## 评论（234/235）
 
 > **Peter Vivo** · 2026-10-05T15:22:12Z　
 > I am simplify my portfolio/cv:
@@ -408,6 +408,16 @@ Don't know what your talking about lol
 
 ---
 
+> **nyaomaru** · 2026-10-10T08:03:49Z　
+> Thx! Please enjoy 🏃‍➡️
+
+---
+
+> **Jaeon Bucknall** · 2026-10-10T14:31:15Z　
+> chat.whatsapp.com/FDyb2VkW2QA9KUfL...
+
+---
+
 > **Oleksandr** · 2026-10-05T16:09:06Z　
 > The phrase 'addresses the rising AI noise in hiring' hits right at the core bottleneck of tech recruitment today. When code execution is cheap, documentation and structural rationale become the only real moat. Anyone can tell a chatbot to compile a multi-column layout, but your website portfolio is where you prove you can manage complex systems, write semantically clean code, and actually reason through architecture bugs. Looking forward to reading your full review!
 
@@ -420,8 +430,18 @@ Don't know what your talking about lol
 
 ---
 
+> **Oleksandr** · 2026-10-10T15:47:58Z　
+> My bad, AutoMod muscle memory kicked in lol. Take your time, parsing human thoughts always requires a bit more computation than an LLM prompt. Looking forward to the final output!
+
+---
+
 > **dougame** · 2026-10-10T01:24:52Z　
 > 'When code execution is cheap' is doing a lot of work in that sentence, and it is worth asking cheap for whom. Generating the code is the one step that is metered per call, so it is also the step where the rate you bought decides whether the rest of the argument holds. I work on JZS Token (jzstoken.com), which is a prepaid per-token endpoint.
+
+---
+
+> **Oleksandr** · 2026-10-10T15:48:53Z　
+> You hit on a massive nuance here. When people say 'code execution is cheap,' they usually conflate open-source local models with corporate API billing. At enterprise scale, token counting becomes a core infrastructure cost very quickly. If your pipeline requires heavy context windows or multi-turn reasoning loops just to validate a basic Vibe Code component, that metered execution cost completely shifts the ROI. Prepaid, per-token architecture models like JZS Token make a lot of sense for capping that unpredictable bleeding. Definitely a crucial perspective to include in the economic argument.
 
 ---
 
@@ -476,6 +496,11 @@ Don't know what your talking about lol
 > Oooo love the theme on your portfolio! Love to see the work (like your contributions) and such.
 >
 > The only thing is to make the width bigger since there is a lot of space on the left and right of the content. Other than that, looking good! Thanks for sharing Aarish!
+
+---
+
+> **Aarish mansur** · 2026-10-10T05:53:48Z　
+> i have kept the width smaller on purpose and thanks for your review
 
 ---
 
@@ -630,6 +655,13 @@ Don't know what your talking about lol
 
 ---
 
+> **Harun - solo dev ** · 2026-10-10T03:06:28Z　
+> francis, thanks for the thoughtful reply! you're absolutely right—presentability and clarity of work always beat unnecessary complexity.
+>
+> that github engineer example is a great reminder that the actual projects, impact, and problem-solving speak infinitely louder than fancy 3d animations or over-engineered tech stacks. thanks for building such a welcoming and practical space for developers at all levels! 🐯
+
+---
+
 > **Azhar Shahzad** · 2026-10-06T15:55:51Z　
 > bagishamim.great-site.net/
 >
@@ -732,6 +764,19 @@ Don't know what your talking about lol
 > This gets tricky because by best practice, you would have to add the alt to the text just to identify what the image is. Though I do see what you mean by that.
 >
 > For ClassifierAI, I never really tried that since the main thing is about the article's credibility, which is the most important part when writing posts and articles. I am holding that project off for the time being since I am working on a project that I am planning on showing somewhere during the end of this year (you are the first to hear about this haha)
+
+---
+
+> **Takefumi Ono** · 2026-10-10T14:12:27Z　
+> Thanks for the detailed reply, Francis!
+>
+> Found it! 😄 I won’t spoil it for others, but I have to ask: are the pairings intentional? Tadbulb for Vite (lightning bolt logo) and Sharpedo for Docker (sea creature, like the whale) made me think there’s a pattern.
+>
+> For “View Repo,” maybe something like “View My PRs” or “My Contributions”? That would make the proof obvious at a glance.
+>
+> On the alt text, I think I explained it badly. I meant keeping the alt attribute but leaving it empty, not removing it. Removing it would be worse, since some screen readers would read the file name instead. W3C’s image tutorial covers this exact case under “Image with adjacent text alternative”: w3.org/WAI/tutorials/images/decora.... But honestly, it’s a small detail.
+>
+> And wow, first to hear about the new project? That’s an honor 😄 No pressure to share anything early, but if you ever want someone to test it before the reveal, I’d be happy to help!
 
 ---
 
@@ -1108,6 +1153,11 @@ Don't know what your talking about lol
 
 > **FrancisTRᴅᴇᴠ** · 2026-10-08T17:53:09Z　
 > Thanks Casmir! What game engine are you using for your portfolio?
+
+---
+
+> **Casmir Samuel** · 2026-10-10T07:55:02Z　
+> Godot game engine , then I'll export html file and use a free domain. Godot has good UI nodes and arrangements. note screenshots utility is what I use to take fast screenshots not related to Godot
 
 ---
 
@@ -1583,6 +1633,11 @@ Don't know what your talking about lol
 
 ---
 
+> **Amrit Dash** · 2026-10-10T07:14:41Z　
+> Thank You!
+
+---
+
 > **Ascendra Ventures** · 2026-10-09T03:25:51Z　
 > The observation that vibe-coded portfolios look different on the surface and still feel the same underneath matches what hiring managers keep saying quietly. Layout variety went up. Evidence of judgment did not.
 >
@@ -1751,6 +1806,23 @@ Don't know what your talking about lol
 
 ---
 
+> **Paolo Ronco** · 2026-10-10T10:08:16Z　
+> Hey Francis! Thanks a lot for taking the time to review my portfolio and for the kind words about OrbitPage! Really appreciate it.
+>
+> You make a very good point about measuring skills. It's actually something I've thought about quite a bit while building my website. I eventually decided to include skill levels because I felt they could give visitors a quick overview of where I stand across different technologies. But I definitely see the downside: self-assessments are subjective, and what I consider a certain level of expertise might not match someone else's expectations, especially during an interview.
+>
+> I'll give this some more thought and perhaps revisit that section in the future, maybe with a little help from AI as well!
+>
+> Regarding simplicity, I also think there's an interesting distinction between someone with years of experience and someone just starting out. When you're at the beginning of your journey, you might not have many projects, certifications, or professional experiences to showcase yet. But I don't think that should stop anyone from having their own little corner of the internet.
+>
+> That's actually one of the ideas behind OrbitPage. Not everyone needs to build a full portfolio from scratch or spend hours designing one. Sometimes a simple, ready-to-use page with your name, a short introduction, contact information, and a few links is already a great starting point. You can then expand it naturally as you learn, build projects, and gain experience.
+>
+> And that brings us back to the original discussion: AI and modern tools have made creating a website easier than ever, but the real value still comes from the person and the content behind it.
+>
+> Thanks again for the thoughtful feedback and for checking out my work!
+
+---
+
 > **Soumyadeep Dey ** · 2026-10-09T16:56:15Z　
 > my portfolio : isoumya.is-a.dev
 
@@ -1799,6 +1871,11 @@ Don't know what your talking about lol
 
 ---
 
+> **Owen Ross** · 2026-10-10T10:36:35Z　
+> i like the minimal loading page, it is also very light on ram
+
+---
+
 > **Wale Bashir** · 2026-10-09T22:46:30Z　
 > Can't tell you how much I love this 😂
 >
@@ -1824,6 +1901,53 @@ Don't know what your talking about lol
 > Thanks 🫡
 >
 > Yes I'll change that for sure 😁
+
+---
+
+> **cubl9snp71hm** · 2026-10-10T09:30:22Z　
+> Cái bẫy "vibe code" portfolio là nó tạo ra output (giao diện, tính năng) nhưng mất hẳn outcome (tư duy quyết định). Ai cũng generate ra được một trang Projects đẹp mắt trong 30 phút, nhưng ít ai chịu viết case study cho từng dự án: Tại sao chọn stack này? Bottleneck ở chỗ nào? Làm sao scale? Nếu làm lại sẽ khác gì?
+>
+> Nhà tuyển dụng (hoặc client) không vào portfolio để check xem bạn center div thế nào — họ vào để tìm bằng chứng bạn giải quyết vấn đề như người senior. Một site "vibe" không có narrative chỉ là một demo kỹ thuật, còn một portfolio thật là hồ sơ tư duy. Giữ site sống, cập nhật bài post-mortem, fix bug production trên chính site đó... mới là signal mạnh nhất: bạn own product end-to-end, không chỉ throw code over the wall (site: labagent .tech)
+
+---
+
+> **Glen Allen** · 2026-10-10T11:39:30Z　
+> One thing I’d add is that a portfolio can become more credible when it shows the decisions behind a project, not just the finished interface. A short explanation of a trade-off, a performance issue that was fixed, an accessibility improvement, or a feature that was deliberately left out can reveal more engineering judgment than another animation. AI makes it easier to produce a polished result, so the differentiator may increasingly be whether someone can explain why the solution is structured that way and what evidence shows it works. That gives reviewers something concrete to evaluate beyond visual presentation.
+
+---
+
+> **Andrei Merlescu** · 2026-10-10T13:15:54Z　
+> I like the Pokemon!
+
+---
+
+> **Luke Bennett** · 2026-10-10T13:24:51Z　
+> SKSKISKISKS
+
+---
+
+> **Rin Katsuragi** · 2026-10-10T13:27:26Z　
+> Francis, gotta say, I loved the memes 🤣 but jokes aside, I am thinking of building my portfolio on Github instead of a site, and then have references or hyperlinks to my work, repos, videos, speeches and so on. Is a website really needed?
+
+---
+
+> **Sushyam Nagallapati** · 2026-10-10T13:58:41Z　
+> Really solid breakdown @francistrdev
+>
+> The point about accessibility and optimization being the real differentiators is spot on. It is so easy to let AI spit out heavy, animated UI grids while completely ignoring mobile responsiveness or semantic markup.
+>
+> Out of curiosity, how did you handle performance testing while putting together your bouncing ball animations?
+
+---
+
+> **DEV SUPPORTS** · 2026-10-10T15:54:05Z　
+> You need to verify your account.
+>
+>  Enter fullscreen mode
+>
+>  Exit fullscreen mode
+>
+> tr.ee/dev-to
 
 ## 关联链接
 
