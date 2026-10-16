@@ -1,149 +1,122 @@
 {
- "run_id": "20261011T094348",
- "started_at": "2026-10-11T09:43:48+08:00",
- "ended_at": "2026-10-11T09:52:53+08:00",
- "elapsed_s": 544.5,
+ "run_id": "20261015T154124",
+ "started_at": "2026-10-15T15:41:24+08:00",
+ "ended_at": "2026-10-15T15:49:58+08:00",
+ "elapsed_s": 513.9,
  "channels": [
   {
    "source_id": "hn_show",
    "name": "HN Show HN",
    "status": "ok",
-   "count": 40,
-   "message": "40/40 hits | new=40 chg=0",
-   "elapsed_s": 91.6,
-   "new": 40,
-   "changed": 0,
-   "raw": 40
+   "count": 3,
+   "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
+   "elapsed_s": 1.4
   },
   {
    "source_id": "reddit",
    "name": "Reddit 独立开发版块",
    "status": "ok",
-   "count": 24,
-   "message": "24 posts;  | new=24 chg=0",
-   "elapsed_s": 71.1,
-   "new": 24,
-   "changed": 0,
-   "raw": 24
+   "count": 3,
+   "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
+   "elapsed_s": 16.9
   },
   {
    "source_id": "github_new",
    "name": "GitHub 新星仓库",
-   "status": "ok",
-   "count": 13,
-   "message": "28 repos;  | 写盘 11/13 | new=0 chg=11",
-   "elapsed_s": 17.1,
-   "new": 0,
-   "changed": 11,
-   "raw": 13
+   "status": "error",
+   "count": 0,
+   "message": "0 repos; created:>2026-10-01 stars:>=: timeout>90s",
+   "elapsed_s": 90.5
   },
   {
    "source_id": "betalist",
    "name": "BetaList",
    "status": "ok",
-   "count": 12,
-   "message": "12 startups · 发布日 12/12 | new=12 chg=0",
-   "elapsed_s": 10.4,
-   "new": 12,
-   "changed": 0,
-   "raw": 12
+   "count": 3,
+   "message": "3 startups · 发布日 3/3",
+   "elapsed_s": 3.7
   },
   {
    "source_id": "indiehackers",
    "name": "Indie Hackers 产品库",
    "status": "ok",
-   "count": 20,
-   "message": "20 products | 写盘 6/20 | new=3 chg=3",
-   "elapsed_s": 12.0,
-   "new": 3,
-   "changed": 3,
-   "raw": 20
+   "count": 3,
+   "message": "20 products",
+   "elapsed_s": 11.1
   },
   {
    "source_id": "devto",
    "name": "dev.to",
    "status": "ok",
-   "count": 4,
-   "message": "4 articles | 写盘 3/4 | new=0 chg=3",
-   "elapsed_s": 18.5,
-   "new": 0,
-   "changed": 3,
-   "raw": 4
+   "count": 2,
+   "message": "2 articles",
+   "elapsed_s": 1.1
   },
   {
    "source_id": "producthunt",
    "name": "Product Hunt",
    "status": "ok",
-   "count": 30,
-   "message": "30 entries | new=30 chg=0",
-   "elapsed_s": 1.7,
-   "new": 30,
-   "changed": 0,
-   "raw": 30
+   "count": 3,
+   "message": "3 entries",
+   "elapsed_s": 0.7
   },
   {
    "source_id": "v2ex",
    "name": "V2EX",
    "status": "ok",
-   "count": 21,
-   "message": "84 topics | 写盘 9/21 | new=9 chg=0",
-   "elapsed_s": 32.7,
-   "new": 9,
-   "changed": 0,
-   "raw": 21
+   "count": 3,
+   "message": "20 topics",
+   "elapsed_s": 1.2
   },
   {
    "source_id": "bilibili",
    "name": "B 站",
    "status": "ok",
-   "count": 5,
-   "message": "39 videos | new=3 chg=2",
-   "elapsed_s": 3.2,
-   "new": 3,
-   "changed": 2,
-   "raw": 5
+   "count": 3,
+   "message": "8 videos",
+   "elapsed_s": 0.7
   },
   {
    "source_id": "c1c7",
    "name": "1c7 中文独立开发者名录",
+   "status": "error",
+   "count": 0,
+   "message": "ERR: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>",
+   "elapsed_s": 2.1
+  },
+  {
+   "source_id": "exa_discovery",
+   "name": "Exa 全网语义发现",
    "status": "ok",
-   "count": 7,
-   "message": "17 entries · 收录日 17 | 写盘 1/7 | new=0 chg=1",
-   "elapsed_s": 28.8,
-   "new": 0,
-   "changed": 1,
-   "raw": 7
+   "count": 3,
+   "message": "8 results",
+   "elapsed_s": 62.5
   },
   {
    "source_id": "twitter",
    "name": "X / Twitter",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 8s\nok: false\nerro | new=0 chg=0",
-   "elapsed_s": 66.3,
-   "new": 0,
-   "changed": 0,
-   "raw": 0
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: timeout>90s",
+   "elapsed_s": 150.5
   },
   {
    "source_id": "xiaohongshu",
    "name": "小红书",
-   "status": "ok",
-   "count": 1,
-   "message": "1 items（3 路查询） | new=0 chg=1",
-   "elapsed_s": 87.7,
-   "new": 0,
-   "changed": 1,
-   "raw": 1
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: [rate-limiter] xiaohongshu: sleeping 12s\nok: false\nerror:\n  ",
+   "elapsed_s": 29.3
   }
  ],
- "notes_written": 142,
+ "notes_written": 0,
  "errors": [],
- "total_items": 177,
- "total_new": 121,
- "dry": false,
- "rule_dropped": 36,
- "write_errors": 0,
- "body_cache_pruned": 0,
- "finish_errors": []
+ "mode": "audit",
+ "summary": {
+  "total": 13,
+  "ok": 9,
+  "empty": 0,
+  "error": 2,
+  "auth": 2
+ }
 }

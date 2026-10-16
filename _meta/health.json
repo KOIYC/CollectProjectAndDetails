@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-11T09:43:37+08:00",
+ "checked_at": "2026-10-15T15:49:58+08:00",
  "channels": [
   {
    "channel_id": "hn_show",
@@ -10,16 +10,16 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 2.2,
-   "probe_at": "2026-10-11T09:35:48+08:00",
+   "elapsed_s": 1.4,
+   "probe_at": "2026-10-15T15:41:25+08:00",
    "sample": [
     {
-     "title": "Show HN: Littleguys – Claude Code, Codex and OpenClaw agents in your menu bar",
-     "url": "https://news.ycombinator.com/item?id=50038883"
+     "title": "Show HN: Umtri (beta) – A living map of your codebase",
+     "url": "https://news.ycombinator.com/item?id=50099555"
     },
     {
-     "title": "Show HN: Markdownee – scrapes web into Markdown, own Trafilatura typescript port",
-     "url": "https://news.ycombinator.com/item?id=50038717"
+     "title": "Show HN: Markov Chains for Programmers – free book (2nd ed.) with C code",
+     "url": "https://news.ycombinator.com/item?id=50099490"
     }
    ]
   },
@@ -32,16 +32,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
-   "elapsed_s": 14.1,
-   "probe_at": "2026-10-11T09:36:02+08:00",
+   "elapsed_s": 16.9,
+   "probe_at": "2026-10-15T15:41:42+08:00",
    "sample": [
     {
-     "title": "I've become ear-blind to my game and can't tell what needs improving. How does i",
-     "url": "https://www.reddit.com/r/IndieDev/comments/1wukkev/ive_become_earblind_to_my_game_and_cant_tell_what/"
+     "title": "When Someone Actually Finishes Your Game...",
+     "url": "https://www.reddit.com/r/IndieDev/comments/1wy2gf3/when_someone_actually_finishes_your_game/"
     },
     {
-     "title": "True per-pixel ray tracing light system in RPG Maker MZ for my game, Junko.",
-     "url": "https://www.reddit.com/r/IndieDev/comments/1wuknol/true_perpixel_ray_tracing_light_system_in_rpg/"
+     "title": "Hitting $25K/mo and going downhill",
+     "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1wxymko/hitting_25kmo_and_going_downhill/"
     }
    ]
   },
@@ -51,21 +51,12 @@
    "adapter": "github_new",
    "auth": "cli",
    "group": "海外发布",
-   "status": "ok",
-   "count": 3,
-   "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 4.4,
-   "probe_at": "2026-10-11T09:43:37+08:00",
-   "sample": [
-    {
-     "title": "storytold/photocraft",
-     "url": "https://github.com/storytold/photocraft"
-    },
-    {
-     "title": "openai/math",
-     "url": "https://github.com/openai/math"
-    }
-   ]
+   "status": "error",
+   "count": 0,
+   "message": "0 repos; created:>2026-10-01 stars:>=: timeout>90s",
+   "elapsed_s": 90.5,
+   "probe_at": "2026-10-15T15:43:13+08:00",
+   "sample": []
   },
   {
    "channel_id": "betalist",
@@ -76,16 +67,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 startups · 发布日 3/3",
-   "elapsed_s": 3.2,
-   "probe_at": "2026-10-11T09:36:50+08:00",
+   "elapsed_s": 3.7,
+   "probe_at": "2026-10-15T15:43:16+08:00",
    "sample": [
     {
-     "title": "Listing Ventures Ai",
-     "url": "https://betalist.com/startups/listing-ventures-ai"
+     "title": "Orgacha",
+     "url": "https://betalist.com/startups/orgacha"
     },
     {
-     "title": "Leal",
-     "url": "https://betalist.com/startups/leal"
+     "title": "Rezyco",
+     "url": "https://betalist.com/startups/rezyco"
     }
    ]
   },
@@ -98,16 +89,16 @@
    "status": "ok",
    "count": 3,
    "message": "20 products",
-   "elapsed_s": 5.0,
-   "probe_at": "2026-10-11T09:36:55+08:00",
+   "elapsed_s": 11.1,
+   "probe_at": "2026-10-15T15:43:27+08:00",
    "sample": [
     {
      "title": "Circlesaas",
      "url": "https://www.indiehackers.com/product/circlesaas"
     },
     {
-     "title": "Launchon It",
-     "url": "https://www.indiehackers.com/product/launchon-it"
+     "title": "Aura 7",
+     "url": "https://www.indiehackers.com/product/aura-7"
     }
    ]
   },
@@ -120,8 +111,8 @@
    "status": "ok",
    "count": 2,
    "message": "2 articles",
-   "elapsed_s": 1.8,
-   "probe_at": "2026-10-11T09:36:57+08:00",
+   "elapsed_s": 1.1,
+   "probe_at": "2026-10-15T15:43:29+08:00",
    "sample": [
     {
      "title": "Why you still need a Website Portfolio, even though everyone can Vibe Code it.",
@@ -143,15 +134,15 @@
    "count": 3,
    "message": "3 entries",
    "elapsed_s": 0.7,
-   "probe_at": "2026-10-11T09:36:57+08:00",
+   "probe_at": "2026-10-15T15:43:29+08:00",
    "sample": [
     {
-     "title": "Pawse",
-     "url": "https://www.producthunt.com/products/pawse-2"
+     "title": "Actually Asked",
+     "url": "https://www.producthunt.com/products/actually-asked"
     },
     {
-     "title": "Onepin",
-     "url": "https://www.producthunt.com/products/onepin"
+     "title": "Atticus",
+     "url": "https://www.producthunt.com/products/atticus"
     }
    ]
   },
@@ -164,16 +155,16 @@
    "status": "ok",
    "count": 3,
    "message": "20 topics",
-   "elapsed_s": 1.1,
-   "probe_at": "2026-10-11T09:36:58+08:00",
+   "elapsed_s": 1.2,
+   "probe_at": "2026-10-15T15:43:31+08:00",
    "sample": [
     {
-     "title": "寻找技术合伙人｜一起做陪诊、陪护数字化平台 “PAPA”",
-     "url": "https://www.v2ex.com/t/1247749"
+     "title": "100 个能找海外远程工作的网站列表：招聘平台、接单渠道与公司直招",
+     "url": "https://www.v2ex.com/t/1249038"
     },
     {
-     "title": "把 Tripo Studio 连接到 Codex 的插件",
-     "url": "https://www.v2ex.com/t/1247744"
+     "title": "招聘｜资深前端开发工程师 Front-End Developer（上海）18-22k",
+     "url": "https://www.v2ex.com/t/1249034"
     }
    ]
   },
@@ -185,17 +176,17 @@
    "group": "中文社媒",
    "status": "ok",
    "count": 3,
-   "message": "13 videos",
-   "elapsed_s": 0.6,
-   "probe_at": "2026-10-11T09:36:59+08:00",
+   "message": "8 videos",
+   "elapsed_s": 0.7,
+   "probe_at": "2026-10-15T15:43:31+08:00",
    "sample": [
     {
-     "title": "AI浪潮下，已经很难接软件开发的活了",
-     "url": "https://www.bilibili.com/video/BV1GHpb6cEkx"
+     "title": "一分钱不花，完成独立产品从0上线！2026年独立开发者免费全家桶",
+     "url": "https://www.bilibili.com/video/BV1sFWA6VEgC"
     },
     {
-     "title": "效率提升百倍？我让全新双端合并的全链路开发平台TRAE开发了一个墨水屏Agent",
-     "url": "https://www.bilibili.com/video/BV18rpv6rE86"
+     "title": "自制独立游戏《男大学生的日常》开发日志",
+     "url": "https://www.bilibili.com/video/BV1Lapq6xExD"
     }
    ]
   },
@@ -205,21 +196,12 @@
    "adapter": "onec7",
    "auth": "none",
    "group": "中文名录",
-   "status": "ok",
-   "count": 3,
-   "message": "9 entries · 收录日 9",
-   "elapsed_s": 4.7,
-   "probe_at": "2026-10-11T09:37:04+08:00",
-   "sample": [
-    {
-     "title": "Indie Hacker",
-     "url": "https://www.indiehackers.com/"
-    },
-    {
-     "title": "Failory",
-     "url": "https://www.failory.com/"
-    }
-   ]
+   "status": "error",
+   "count": 0,
+   "message": "ERR: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>",
+   "elapsed_s": 2.1,
+   "probe_at": "2026-10-15T15:43:33+08:00",
+   "sample": []
   },
   {
    "channel_id": "exa_discovery",
@@ -230,16 +212,16 @@
    "status": "ok",
    "count": 3,
    "message": "8 results",
-   "elapsed_s": 40.3,
-   "probe_at": "2026-10-11T09:37:44+08:00",
+   "elapsed_s": 62.5,
+   "probe_at": "2026-10-15T15:44:36+08:00",
    "sample": [
     {
-     "title": "Wood Watch launches free RV horror built around cameras and sound | Mythscribe",
-     "url": "https://mythscribe.cloud/blog/wood-watch-launches-free-rv-horror-built-around-cameras-and-sound-october-2026"
+     "title": "\"Legion Breaker is Out Today on Steam\" - Games Press",
+     "url": "https://www.gamespress.com/Legion-Breaker-is-Out-Today-on-Steam"
     },
     {
-     "title": "Tintslide: A Gravity-Shifting Match-Four Puzzler",
-     "url": "https://rwen.me/en/p/tintslide-release/"
+     "title": "ORBIT: Bingo Roguelite, my first game, is out on Steam news - IndieDB",
+     "url": "https://www.indiedb.com/news/orbit-bingo-roguelite-my-first-game-is-out-on-steam"
     }
    ]
   },
@@ -251,9 +233,9 @@
    "group": "海外社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 20s\nok: false\nerr",
-   "elapsed_s": 86.2,
-   "probe_at": "2026-10-11T09:39:10+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: timeout>90s",
+   "elapsed_s": 150.5,
+   "probe_at": "2026-10-15T15:47:06+08:00",
    "sample": []
   },
   {
@@ -264,9 +246,9 @@
    "group": "中文社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: [rate-limiter] xiaohongshu: sleeping 14s\nok: false\nerror:\n  ",
-   "elapsed_s": 89.1,
-   "probe_at": "2026-10-11T09:40:39+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: [rate-limiter] xiaohongshu: sleeping 12s\nok: false\nerror:\n  ",
+   "elapsed_s": 29.3,
+   "probe_at": "2026-10-15T15:47:36+08:00",
    "sample": []
   }
  ],
@@ -278,8 +260,8 @@
    "declared": "ok",
    "delta": true,
    "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 40.1,
-   "probe_at": "2026-10-11T09:42:12+08:00"
+   "elapsed_s": 20.1,
+   "probe_at": "2026-10-15T15:49:00+08:00"
   },
   {
    "backend": "arctic_shift",
@@ -288,8 +270,8 @@
    "declared": null,
    "delta": false,
    "message": "1 rows",
-   "elapsed_s": 2.0,
-   "probe_at": "2026-10-11T09:42:14+08:00"
+   "elapsed_s": 1.7,
+   "probe_at": "2026-10-15T15:49:01+08:00"
   },
   {
    "backend": "exa_web_fetch",
@@ -298,25 +280,25 @@
    "declared": "warn",
    "delta": false,
    "message": "1 url 返回正文",
-   "elapsed_s": 3.7,
-   "probe_at": "2026-10-11T09:42:17+08:00"
+   "elapsed_s": 11.1,
+   "probe_at": "2026-10-15T15:49:12+08:00"
   },
   {
    "backend": "github_gh",
    "use": "GitHub 取数 (gh CLI)",
-   "status": "ok",
+   "status": "unusable",
    "declared": "warn",
    "delta": false,
-   "message": "remaining=5000",
-   "elapsed_s": 1.6,
-   "probe_at": "2026-10-11T09:42:19+08:00"
+   "message": "timeout>45s",
+   "elapsed_s": 45.4,
+   "probe_at": "2026-10-15T15:49:58+08:00"
   }
  ],
  "summary": {
   "total": 13,
-  "ok": 11,
+  "ok": 9,
   "empty": 0,
-  "error": 0,
+  "error": 2,
   "auth": 2
  },
  "decisions": [
@@ -332,8 +314,8 @@
   },
   {
    "channel_id": "github_new",
-   "action": "keep",
-   "status": "ok"
+   "action": "review",
+   "status": "error"
   },
   {
    "channel_id": "betalist",
@@ -367,8 +349,8 @@
   },
   {
    "channel_id": "c1c7",
-   "action": "keep",
-   "status": "ok"
+   "action": "review",
+   "status": "error"
   },
   {
    "channel_id": "exa_discovery",
@@ -388,7 +370,7 @@
  ],
  "agent_reach": {
   "ok": true,
-  "checked_at": "2026-10-11T09:41:32+08:00"
+  "checked_at": "2026-10-15T15:48:39+08:00"
  },
  "deltas": [
   {
@@ -398,8 +380,8 @@
    "declared": "ok",
    "delta": true,
    "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 40.1,
-   "probe_at": "2026-10-11T09:42:12+08:00"
+   "elapsed_s": 20.1,
+   "probe_at": "2026-10-15T15:49:00+08:00"
   }
  ]
 }
