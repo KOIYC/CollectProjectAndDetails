@@ -1,11 +1,11 @@
 {
  "schema": 2,
- "updated": "2026-10-11T09:56:45+08:00",
+ "updated": "2026-10-16T09:53:50+08:00",
  "note": "结构性无正文/取数不可得 —— 连试 2 轮后记账，不再消耗额度。字段：reason（人话）/ reason_code（可复核分类，见 REASON_CODES）/ tried[]（本轮实际试过的后端）/ http_status（direct 档拿到的状态码）",
  "by_reason": {
   "no_backend": 71,
-  "unreachable": 46,
-  "media": 32,
+  "unreachable": 47,
+  "media": 34,
   "http_403": 5,
   "account": 3,
   "gh_miss": 1,
@@ -2364,48 +2364,51 @@
    "tried": []
   },
   "6844611eba552efb": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Stop asking \"can you spell that?\" on calls (auto-deletes in 2",
    "url": "https://www.spltfm.com",
    "source_id": "hn_show",
    "first_dead": "2026-10-11T09:56:45+08:00",
-   "last_try": "2026-10-11T09:56:45+08:00",
+   "last_try": "2026-10-16T09:53:50+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
    "http_status": "unreachable",
    "reason_code": "unreachable",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=unreachable"
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=unreachable",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=unreachable"
   },
   "6af3f417fb03b143": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: I asked 10k people to describe AI in 1 word",
    "url": "https://crowdle.gg/ai/",
    "source_id": "hn_show",
    "first_dead": "2026-10-11T09:56:45+08:00",
-   "last_try": "2026-10-11T09:56:45+08:00",
+   "last_try": "2026-10-16T09:53:50+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
    "http_status": "200:too_short",
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
   },
   "df2d399a068cb949": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Printable Calendar",
    "url": "https://printcalendarx.com/",
    "source_id": "hn_show",
    "first_dead": "2026-10-11T09:56:45+08:00",
-   "last_try": "2026-10-11T09:56:45+08:00",
+   "last_try": "2026-10-16T09:53:50+08:00",
    "tried": [
     "direct_fetch"
    ],
    "http_status": 200,
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   },
   "0abd68e2c26b9402": {
    "attempts": 1,
@@ -2436,6 +2439,46 @@
    "http_status": "timeout",
    "reason_code": "unreachable",
    "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+  },
+  "e8937bbfb6cc033e": {
+   "attempts": 2,
+   "title": "What do you think of our games art style?",
+   "url": "https://v.redd.it/z9nzgrywmqth1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "reason_code": "media",
+   "first_dead": "2026-10-16T09:51:29+08:00",
+   "last_try": "2026-10-16T09:51:29+08:00",
+   "http_status": null,
+   "tried": []
+  },
+  "914036a6172687b5": {
+   "attempts": 2,
+   "title": "Starting to get some polish on my studio lay-off project! Here's a com",
+   "url": "https://v.redd.it/b2iihliz8qth1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "reason_code": "media",
+   "first_dead": "2026-10-16T09:51:29+08:00",
+   "last_try": "2026-10-16T09:51:29+08:00",
+   "http_status": null,
+   "tried": []
+  },
+  "ac3fe87da6675197": {
+   "attempts": 1,
+   "title": "Show HN: Procedural universe generation without N-body loops",
+   "url": "https://github.com/PJHkorea/time-density-tension",
+   "source_id": "hn_show",
+   "first_dead": "2026-10-16T09:53:50+08:00",
+   "last_try": "2026-10-16T09:53:50+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
   }
  }
 }

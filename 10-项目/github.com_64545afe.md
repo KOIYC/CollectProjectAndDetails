@@ -2,7 +2,7 @@
 type: "project"
 title: "s87343472/backlink-pilot"
 project_url: "https://github.com/s87343472/backlink-pilot"
-first_seen: "2026-10-11T09:54:15+08:00"
+first_seen: "2026-10-16T09:52:04+08:00"
 sources:
   - github_new
 tags:
@@ -20,10 +20,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/s87343472/backlink-pilot>
-> 首次收录：2026-10-11T09:54:15+08:00
+> 首次收录：2026-10-16T09:52:04+08:00
 > 来源渠道：GitHub 新星仓库
 > 标签：JavaScript, topic:indie-hacker
-> 最新指标：stars=367 · forks=100 · open_issues=6
+> 最新指标：stars=368 · forks=99 · open_issues=6
 
 ## 观测历史
 
@@ -48,6 +48,8 @@ lang: "en"
 | 2026-10-10T10:11:21+08:00 | GitHub 新星仓库 | stars=367 · forks=100 · open_issues=6 | [[20-语料/posts/github_new/2026-09-20/64545afe8d3be4ae_s87343472-backlink-pilot]] |
 | 2026-10-11T09:46:36+08:00 | GitHub 新星仓库 | stars=367 · forks=100 · open_issues=6 | [[20-语料/posts/github_new/2026-09-20/64545afe8d3be4ae_s87343472-backlink-pilot]] |
 | 2026-10-11T09:54:15+08:00 | GitHub 新星仓库 | stars=367 · forks=100 · open_issues=6 | [[20-语料/posts/github_new/2026-09-20/64545afe8d3be4ae_s87343472-backlink-pilot]] |
+| 2026-10-16T09:37:27+08:00 | GitHub 新星仓库 | stars=368 · forks=99 · open_issues=6 | [[20-语料/posts/github_new/2026-09-20/64545afe8d3be4ae_s87343472-backlink-pilot]] |
+| 2026-10-16T09:52:04+08:00 | GitHub 新星仓库 | stars=368 · forks=99 · open_issues=6 | [[20-语料/posts/github_new/2026-09-20/64545afe8d3be4ae_s87343472-backlink-pilot]] |
 
 ## 摘要正文
 

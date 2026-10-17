@@ -8,7 +8,7 @@ url: "https://dev.to/ssapable/i-left-28-unsolicited-cartoons-in-strangers-commen
 project_url: "https://payhip.com/b/A2wa8"
 author: "ssapable"
 published_at: "2026-10-09T16:43:48Z"
-captured_at: "2026-10-11T09:47:17+08:00"
+captured_at: "2026-10-16T09:38:25+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,7 +21,7 @@ tags:
   - indiehackers
   - marketing
   - python
-metrics: {"reactions": 6, "comments": 11, "reading_time": 4}
+metrics: {"reactions": 7, "comments": 11, "reading_time": 4}
 comments_count: 11
 comments_total: 11
 discovered_via: "devto:indiehackers"
@@ -35,10 +35,10 @@ discovered_via: "devto:indiehackers"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/ssapable/i-left-28-unsolicited-cartoons-in-strangers-comment-threads-over-four-days-16-replies-2-3838>
-> 指标：reactions=6 · 评论=11 · reading_time=4
+> 指标：reactions=7 · 评论=11 · reading_time=4
 > 作者：ssapable　|　发布：2026-10-09T16:43:48Z
 > 项目链接：<https://payhip.com/b/A2wa8>
-> 采集：2026-10-11T09:47:17+08:00　|　id：`c937dfaaf561f391`
+> 采集：2026-10-16T09:38:25+08:00　|　id：`c937dfaaf561f391`
 
 ## 正文
 

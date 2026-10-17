@@ -7,7 +7,7 @@ adapter: "devto"
 auth: "none"
 lang: "en"
 status: "ok"
-last_verified: "2026-10-11"
+last_verified: "2026-10-16"
 tags:
   - 渠道
   - 渠道/海外社区
@@ -19,7 +19,7 @@ params: {"tags": ["showdev", "sideproject", "indiehackers", "buildinpublic"], "w
 - **分组**：海外社区　|　**语言**：en　|　**认证**：none
 - **取数实现**：`devto`　|　**单次上限**：8
 - **补全类型**：fulltext
-- **当前状态**：`ok`（本次 4 条，18.5s）
+- **当前状态**：`ok`（本次 4 条，15.2s）
 - **口径备注**：/api/articles 列表 + /api/articles/<id> 取 body_markdown 全文
 - **解锁方式**：—
 
@@ -53,3 +53,4 @@ params: {"tags": ["showdev", "sideproject", "indiehackers", "buildinpublic"], "w
 | 2026-10-01T09:47:31+08:00 | ok | 5 | 201.8s | 5 articles |
 | 2026-10-10T10:02:38+08:00 | ok | 4 | 36.9s | 4 articles |
 | 2026-10-11T09:47:31+08:00 | ok | 4 | 18.5s | 4 articles |
+| 2026-10-16T09:38:38+08:00 | ok | 4 | 15.2s | 4 articles |

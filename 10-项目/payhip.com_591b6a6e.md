@@ -2,7 +2,7 @@
 type: "project"
 title: "I left 28 unsolicited cartoons in strangers' comment threads over four days. 16 replies, 2 corrections, 0 sales. The ledger."
 project_url: "https://payhip.com/b/A2wa8"
-first_seen: "2026-10-11T09:47:17+08:00"
+first_seen: "2026-10-16T09:38:25+08:00"
 sources:
   - devto
 tags:
@@ -22,10 +22,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://payhip.com/b/A2wa8>
-> 首次收录：2026-10-11T09:47:17+08:00
+> 首次收录：2026-10-16T09:38:25+08:00
 > 来源渠道：dev.to
 > 标签：showdev, indiehackers, marketing, python
-> 最新指标：reactions=6 · 评论=11 · reading_time=4
+> 最新指标：reactions=7 · 评论=11 · reading_time=4
 
 ## 观测历史
 
@@ -33,6 +33,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-10-10T10:02:13+08:00 | dev.to | reactions=6 · 评论=2 · reading_time=4 | [[20-语料/posts/devto/2026-10-10/c937dfaaf561f391_I-left-28-unsolicited-cartoons-in-strangers'-comme]] |
 | 2026-10-11T09:47:17+08:00 | dev.to | reactions=6 · 评论=11 · reading_time=4 | [[20-语料/posts/devto/2026-10-10/c937dfaaf561f391_I-left-28-unsolicited-cartoons-in-strangers'-comme]] |
+| 2026-10-16T09:38:25+08:00 | dev.to | reactions=7 · 评论=11 · reading_time=4 | [[20-语料/posts/devto/2026-10-10/c937dfaaf561f391_I-left-28-unsolicited-cartoons-in-strangers'-comme]] |
 
 ## 摘要正文
 

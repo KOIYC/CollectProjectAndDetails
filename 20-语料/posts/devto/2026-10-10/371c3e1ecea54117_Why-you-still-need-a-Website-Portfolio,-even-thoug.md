@@ -8,7 +8,7 @@ url: "https://dev.to/francistrdev/why-you-still-need-a-website-portfolio-even-th
 project_url: "https://francistrdev.github.io/"
 author: "FrancisTRᴅᴇᴠ"
 published_at: "2026-10-05T15:09:58Z"
-captured_at: "2026-10-11T09:54:33+08:00"
+captured_at: "2026-10-16T09:52:12+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,9 +21,9 @@ tags:
   - community
   - showdev
   - a11y
-metrics: {"reactions": 250, "comments": 235, "reading_time": 7}
-comments_count: 234
-comments_total: 235
+metrics: {"reactions": 257, "comments": 248, "reading_time": 7}
+comments_count: 247
+comments_total: 248
 discovered_via: "devto:showdev"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/francistrdev/why-you-still-need-a-website-portfolio-even-though-everyone-can-vibe-code-it-e63>
-> 指标：reactions=250 · 评论=235 · reading_time=7
+> 指标：reactions=257 · 评论=248 · reading_time=7
 > 作者：FrancisTRᴅᴇᴠ　|　发布：2026-10-05T15:09:58Z
 > 项目链接：<https://francistrdev.github.io/>
-> 采集：2026-10-11T09:54:33+08:00　|　id：`371c3e1ecea54117`
+> 采集：2026-10-16T09:52:12+08:00　|　id：`371c3e1ecea54117`
 
 ## 正文
 
@@ -221,7 +221,7 @@ Don't know what your talking about lol
 
 **That is all! Cya :D**
 
-## 评论（234/235）
+## 评论（247/248）
 
 > **Peter Vivo** · 2026-10-05T15:22:12Z　
 > I am simplify my portfolio/cv:
@@ -780,6 +780,29 @@ Don't know what your talking about lol
 
 ---
 
+> **FrancisTRᴅᴇᴠ** · 2026-10-12T21:57:52Z　
+> Ah makes sense now!
+>
+> Not sure what you mean by the pairings? To be fair, had 12 hours of sleep today, so might revist this back (assuming I remember).
+>
+> I will make a post about it in the upcoming future on the new project, though I am looking forward for testing from you especially :)
+
+---
+
+> **Takefumi Ono** · 2026-10-12T23:51:18Z　
+> Haha, enjoy the extra sleep 😄 By "pairings" I meant the Pokémon you matched with each skill, like Tadbulb (Electric-type) with Vite's lightning-bolt logo, or Sharpedo with Docker's whale. Totally fine if it was random though!
+>
+> And count me in for testing! Looking forward to the post 🙌
+
+---
+
+> **FrancisTRᴅᴇᴠ** · 2026-10-15T18:03:59Z　
+> Oh yea, the pokemon is random!
+>
+> Looking forward to it :)
+
+---
+
 > **John Peters** · 2026-10-07T03:50:34Z　
 > npm create wb-starter my-site
 >
@@ -909,6 +932,11 @@ Don't know what your talking about lol
 
 > **FrancisTRᴅᴇᴠ** · 2026-10-09T23:13:16Z　
 > Hey Alptekin. It's always good to show at least something that demonstrates your learning than not having it at all. Note that the projects I had on my portfolio wasn't listed on their a while back since it was COMPLETELY different. Website changes overtime and it shows not only you had the portfolio for a while in general, but also shows the history of changes you have made overtime (showing that on the GitHub Repo).
+
+---
+
+> **alptekin I.** · 2026-10-12T06:08:04Z　
+> Thanks, I see your point. I will resume working on this asap. cheers
 
 ---
 
@@ -1265,6 +1293,15 @@ Don't know what your talking about lol
 > It's important to know this answer because you tend to work with people who has different designs and functionality and it's your job is to figure out which plan is appropriate and things to consider.
 >
 > Hope this makes sense. Otherwise, let me know if there is some aspects that need clarification!
+
+---
+
+> **Valentina Koniukhova** · 2026-10-12T19:25:22Z　
+> I agree that the reasoning is what separates a portfolio from a screenshot gallery. And your last point is the one I'd push on: you work with people who each have their own designs and constraints, so the real skill is picking the right plan for each of them. A finished project doesn't show that. A decision record does: what the options were, which one won, what it cost.
+>
+> That's also why I think it matters more now. When an agent writes most of the code, "I built it" says very little, but "I chose this over that, for this reason" is still something only the person can say.
+>
+> Mainly I speak about my projects during the interview process. It is the time when people really care about what I say and my point of view. They really have a reason to do this. No article could get so much attention, don't you think?
 
 ---
 
@@ -1921,6 +1958,11 @@ Don't know what your talking about lol
 
 ---
 
+> **FrancisTRᴅᴇᴠ** · 2026-10-12T22:01:24Z　
+> Thanks Andrei! Glad you liked it :)
+
+---
+
 > **Luke Bennett** · 2026-10-10T13:24:51Z　
 > SKSKISKISKS
 
@@ -1928,6 +1970,20 @@ Don't know what your talking about lol
 
 > **Rin Katsuragi** · 2026-10-10T13:27:26Z　
 > Francis, gotta say, I loved the memes 🤣 but jokes aside, I am thinking of building my portfolio on Github instead of a site, and then have references or hyperlinks to my work, repos, videos, speeches and so on. Is a website really needed?
+
+---
+
+> **FrancisTRᴅᴇᴠ** · 2026-10-12T22:01:00Z　
+> Hey Rin! Can you clarify on what you mean by building your portfolio on GitHub. Do you mean hosting your site via GitHub or having the portfolio live on the README?
+>
+> Either way, it is up to you. Having a website is more of a friendly way to show your work to everyone who is technical and non-technical. Brings in more audiences to see your work than a narrow one.
+>
+> Thanks Rin!
+
+---
+
+> **Rin Katsuragi** · 2026-10-13T08:37:02Z　
+> I guess I should work on a website. I have been experimenting with GLM html5 and threejs and have some fancy landing pages, but not sure how to approach layout and what kind of info to put on. But you are right, the average user won't be on github, but they could stumble upon your site.
 
 ---
 
@@ -1940,6 +1996,13 @@ Don't know what your talking about lol
 
 ---
 
+> **FrancisTRᴅᴇᴠ** · 2026-10-12T21:59:00Z　
+> Thanks Sushyam!
+>
+> Mainly two things to handle performance: A lot of re prompting and having a website checker to see how optimize it is.
+
+---
+
 > **DEV SUPPORTS** · 2026-10-10T15:54:05Z　
 > You need to verify your account.
 >
@@ -1948,6 +2011,26 @@ Don't know what your talking about lol
 >  Exit fullscreen mode
 >
 > tr.ee/dev-to
+
+---
+
+> **Gabriel Segura** · 2026-10-12T00:10:31Z　
+> AI is just a tool. There's quite a big difference between someone utilizing it to the max vs the average user just using chatgpt with simple prompts. That's why you still need a nice portfolio.
+
+---
+
+> **Noah** · 2026-10-12T12:39:46Z　
+> Agree that AI-built portfolios are starting to look alike. What helps is treating the AI output as a first draft and then making the deliberate choices yourself: one typeface pairing you actually like, a consistent spacing scale, a single accent color, and at least one detail that's clearly yours (your Pokémon easter egg is a good example). Those small decisions are what visitors remember, and they're usually quicker to make by adjusting the page directly than by re-prompting. Disclosure: We work on Tado Studio, an Astro site builder where AI makes the first version and you then click elements to adjust them with the code alongside. It's coming soon: https://tadostudio.com/?utm_source=devto&utm_medium=community&utm_campaign=prelaunch&ref=1012-devto-portfolio#join
+
+---
+
+> **Noah** · 2026-10-12T12:41:57Z　
+> Agree that AI-built portfolios are starting to look alike. What helps is treating the AI output as a first draft and then making the deliberate choices yourself: one typeface pairing you actually like, a consistent spacing scale, a single accent color, and at least one detail that's clearly yours (your Pokémon easter egg is a good example). Those small decisions are what visitors remember, and they're usually quicker to make by adjusting the page directly than by re-prompting. Disclosure: I work on Tado Studio, an Astro site builder where AI makes the first version and you then click elements to adjust them with the code alongside. It's coming soon: tadostudio.com/
+
+---
+
+> **Noah** · 2026-10-12T12:48:19Z　
+> Agree that AI-built portfolios are starting to look alike. What helps is treating the AI output as a first draft and then making the deliberate choices yourself: one typeface pairing you actually like, a consistent spacing scale, a single accent color, and at least one detail that's clearly yours (your Pokémon easter egg is a good example). Those small decisions are what visitors remember, and they're usually quicker to make by adjusting the page directly than by re-prompting. Disclosure: We work on Tado Studio, an Astro site builder where AI makes the first version and you then click elements to adjust them with the code alongside. It's coming soon: Tado studio site
 
 ## 关联链接
 

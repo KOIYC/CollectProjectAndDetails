@@ -1,8 +1,8 @@
 {
- "generated": "2026-10-11T09:57:23+08:00",
- "n_items": 2787,
- "n_pages": 2304,
- "cross": 3,
+ "generated": "2026-10-16T10:02:48+08:00",
+ "n_items": 2926,
+ "n_pages": 2429,
+ "cross": 4,
  "stale": 0,
  "concept": 0,
  "xref": 30,
@@ -105,6 +105,37 @@
      "title": "Indieneed",
      "claim": "$260 / mo",
      "value": "260"
+    }
+   ]
+  },
+  {
+   "key": "title:actually asked",
+   "kind": "mrr",
+   "values": [
+    "12",
+    "20"
+   ],
+   "sources": [
+    {
+     "item_id": "7c9d9e67aa1dbd56",
+     "source_id": "indiehackers",
+     "title": "Actually Asked",
+     "claim": "$12 MRR",
+     "value": "12"
+    },
+    {
+     "item_id": "7c9d9e67aa1dbd56",
+     "source_id": "indiehackers",
+     "title": "Actually Asked",
+     "claim": "$12 MRR",
+     "value": "12"
+    },
+    {
+     "item_id": "7c9d9e67aa1dbd56",
+     "source_id": "indiehackers",
+     "title": "Actually Asked",
+     "claim": "MRR, and $20",
+     "value": "20"
     }
    ]
   }

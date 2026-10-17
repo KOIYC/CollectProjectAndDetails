@@ -2,7 +2,7 @@
 type: "project"
 title: "Why you still need a Website Portfolio, even though everyone can Vibe Code it."
 project_url: "https://francistrdev.github.io/"
-first_seen: "2026-10-11T09:54:33+08:00"
+first_seen: "2026-10-16T09:52:12+08:00"
 sources:
   - devto
 tags:
@@ -22,10 +22,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://francistrdev.github.io/>
-> 首次收录：2026-10-11T09:54:33+08:00
+> 首次收录：2026-10-16T09:52:12+08:00
 > 来源渠道：dev.to
 > 标签：discuss, community, showdev, a11y
-> 最新指标：reactions=250 · 评论=235 · reading_time=7
+> 最新指标：reactions=257 · 评论=248 · reading_time=7
 
 ## 观测历史
 
@@ -35,6 +35,8 @@ lang: "en"
 | 2026-10-10T10:12:02+08:00 | dev.to | reactions=243 · 评论=217 · reading_time=7 | [[20-语料/posts/devto/2026-10-10/371c3e1ecea54117_Why-you-still-need-a-Website-Portfolio,-even-thoug]] |
 | 2026-10-11T09:47:14+08:00 | dev.to | reactions=250 · 评论=235 · reading_time=7 | [[20-语料/posts/devto/2026-10-10/371c3e1ecea54117_Why-you-still-need-a-Website-Portfolio,-even-thoug]] |
 | 2026-10-11T09:54:33+08:00 | dev.to | reactions=250 · 评论=235 · reading_time=7 | [[20-语料/posts/devto/2026-10-10/371c3e1ecea54117_Why-you-still-need-a-Website-Portfolio,-even-thoug]] |
+| 2026-10-16T09:38:23+08:00 | dev.to | reactions=257 · 评论=248 · reading_time=7 | [[20-语料/posts/devto/2026-10-10/371c3e1ecea54117_Why-you-still-need-a-Website-Portfolio,-even-thoug]] |
+| 2026-10-16T09:52:12+08:00 | dev.to | reactions=257 · 评论=248 · reading_time=7 | [[20-语料/posts/devto/2026-10-10/371c3e1ecea54117_Why-you-still-need-a-Website-Portfolio,-even-thoug]] |
 
 ## 摘要正文
 

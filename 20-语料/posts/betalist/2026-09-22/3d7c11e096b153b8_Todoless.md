@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/todoless"
 published_at: "2026-07-08"
-captured_at: "2026-10-01T09:43:50+08:00"
+captured_at: "2026-10-16T09:37:43+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-07-08
 > 项目链接：—
-> 采集：2026-10-01T09:43:50+08:00　|　id：`3d7c11e096b153b8`
+> 采集：2026-10-16T09:37:43+08:00　|　id：`3d7c11e096b153b8`
 
 ## 正文
 
@@ -72,10 +72,10 @@ Makers
 Todoless
 Topics
 SaaS
-Productivity Software
 Startups
 Business Productivity
 Mobile
+Productivity Software
 Featured
 July 8, 2026
 Request changes
@@ -83,13 +83,17 @@ Get your badge
 Report this startup
  Manage collections
 Discover startups similar to Todoless
+FreeDAST
+ SPONSOR
+ Scan your live site for risks and get a clear security grade
+ SPONSOR
 Nothing Notes, Tasks, AI
  Effortless note-taking with AI intelligence
 Taskie
  Get it done, keep it yours
-Paid Lens
+WZRD
  BOOSTED
- Turn cross-platform ad data into ranked, evidence-backed actions
+ Turn plain ideas into interactive docs, forms, and decks that converse
  BOOSTED
 Anything.so
  Catch tasks early. Delegate instantly. Your AI + human assistant.
@@ -97,9 +101,9 @@ Clearo
  The AI second brain that actually stays organized
 11MHz
  Manage tasks and notes with privacy by design
-PitchMonster
+Terrapin
  BOOSTED
- Practice sales calls with AI buyers and get instant coaching
+ Turn receipts, email & photos into clean, tax-ready insights, automatically
  BOOSTED
 TaskNavi
  Manage your tasks using the Eisenhower Matrix

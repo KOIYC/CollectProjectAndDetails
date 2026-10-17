@@ -7,10 +7,10 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/SaaS/comments/1wuhgix/looking_for_a_software_developer/"
 author: "Effective_Check_5884"
 published_at: "2026-10-01T05:32:05+08:00"
-captured_at: "2026-10-11T09:45:30+08:00"
+captured_at: "2026-10-16T09:52:04+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "AI 工具/Agent"
 shard: "2026-10-11"
 pub_day: "2026-10-01"
 tags:
@@ -26,7 +26,7 @@ discovered_via: "reddit:14d+settle10"
 # Looking for a software developer!
 
 > [!info] 一句话导读
-> Hey everyone! I’m looking for someone that could design a music platform/cd burning software. Any leads are appreciated! I’m not sure where to look or even star…
+> Published: 2026-09-30
 
 > [!meta]- 语料信息（点开展开）
 > 来源：Reddit 独立开发版块（post）
@@ -34,11 +34,26 @@ discovered_via: "reddit:14d+settle10"
 > 指标：得分=5 · 评论=30 · 赞踩比=1
 > 作者：Effective_Check_5884　|　发布：2026-10-01T05:32:05+08:00
 > 项目链接：—
-> 采集：2026-10-11T09:45:30+08:00　|　id：`0abd68e2c26b9402`
+> 采集：2026-10-16T09:52:04+08:00　|　id：`0abd68e2c26b9402`
 
 ## 正文
 
+Published: 2026-09-30
+Author: u/Effective_Check_5884
+
+# Looking for a software developer!
+
+Posted by **u/Effective_Check_5884** in r/SaaS · 5 points · 25 comments · September 30, 2026 at 9:32 PM UTC
+
 Hey everyone! I’m looking for someone that could design a music platform/cd burning software. Any leads are appreciated! I’m not sure where to look or even start.
+
+## Top comments (1 shown of 25 reported)
+
+**u/hijinks** · 2 points · September 30, 2026 at 10:28 PM UTC
+> pretty sure you could prompt claude code to do that.. just ask it to be cross platform
+
+Error fetching https://www.spltfm.com: CRAWL_UNKNOWN_ERROR
+Error fetching https://crowdle.gg/ai/: CRAWL_EMPTY_CONTENT
 
 ## 评论（23/30）
 
@@ -169,6 +184,11 @@ Hey everyone! I’m looking for someone that could design a music platform/cd bu
 
 > **SasukeUrushy**（1 分） · 2026-10-05T20:32:41+08:00　
 > You can always try and see what they offer, you are not forced to accept offer that look too expensive or not totaly what you are looking for.
+
+## 关联链接
+
+- https://crowdle.gg/ai/:
+- https://www.spltfm.com:
 
 ## 导航
 

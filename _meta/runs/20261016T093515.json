@@ -1,0 +1,148 @@
+{
+ "run_id": "20261016T093515",
+ "started_at": "2026-10-16T09:35:15+08:00",
+ "ended_at": "2026-10-16T09:44:39+08:00",
+ "elapsed_s": 564.0,
+ "channels": [
+  {
+   "source_id": "hn_show",
+   "name": "HN Show HN",
+   "status": "ok",
+   "count": 39,
+   "message": "40/40 hits | new=39 chg=0",
+   "elapsed_s": 63.2,
+   "new": 39,
+   "changed": 0,
+   "raw": 39
+  },
+  {
+   "source_id": "reddit",
+   "name": "Reddit 独立开发版块",
+   "status": "ok",
+   "count": 19,
+   "message": "19 posts;  | new=19 chg=0",
+   "elapsed_s": 64.8,
+   "new": 19,
+   "changed": 0,
+   "raw": 19
+  },
+  {
+   "source_id": "github_new",
+   "name": "GitHub 新星仓库",
+   "status": "ok",
+   "count": 14,
+   "message": "28 repos;  | 写盘 12/14 | new=6 chg=6",
+   "elapsed_s": 17.2,
+   "new": 6,
+   "changed": 6,
+   "raw": 14
+  },
+  {
+   "source_id": "betalist",
+   "name": "BetaList",
+   "status": "ok",
+   "count": 12,
+   "message": "12 startups · 发布日 12/12 | new=11 chg=1",
+   "elapsed_s": 15.4,
+   "new": 11,
+   "changed": 1,
+   "raw": 12
+  },
+  {
+   "source_id": "indiehackers",
+   "name": "Indie Hackers 产品库",
+   "status": "ok",
+   "count": 20,
+   "message": "21 products | new=16 chg=4",
+   "elapsed_s": 26.0,
+   "new": 16,
+   "changed": 4,
+   "raw": 20
+  },
+  {
+   "source_id": "devto",
+   "name": "dev.to",
+   "status": "ok",
+   "count": 4,
+   "message": "4 articles | new=1 chg=3",
+   "elapsed_s": 15.2,
+   "new": 1,
+   "changed": 3,
+   "raw": 4
+  },
+  {
+   "source_id": "producthunt",
+   "name": "Product Hunt",
+   "status": "ok",
+   "count": 30,
+   "message": "30 entries | new=29 chg=1",
+   "elapsed_s": 11.8,
+   "new": 29,
+   "changed": 1,
+   "raw": 30
+  },
+  {
+   "source_id": "v2ex",
+   "name": "V2EX",
+   "status": "ok",
+   "count": 15,
+   "message": "84 topics | new=15 chg=0",
+   "elapsed_s": 27.0,
+   "new": 15,
+   "changed": 0,
+   "raw": 15
+  },
+  {
+   "source_id": "bilibili",
+   "name": "B 站",
+   "status": "ok",
+   "count": 8,
+   "message": "60 videos | new=3 chg=5",
+   "elapsed_s": 4.6,
+   "new": 3,
+   "changed": 5,
+   "raw": 8
+  },
+  {
+   "source_id": "c1c7",
+   "name": "1c7 中文独立开发者名录",
+   "status": "error",
+   "count": 0,
+   "message": "ERR <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>",
+   "elapsed_s": 1.8
+  },
+  {
+   "source_id": "twitter",
+   "name": "X / Twitter",
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 23s\nok: false\nerr | new=0 chg=0",
+   "elapsed_s": 61.7,
+   "new": 0,
+   "changed": 0,
+   "raw": 0
+  },
+  {
+   "source_id": "xiaohongshu",
+   "name": "小红书",
+   "status": "ok",
+   "count": 1,
+   "message": "1 items（3 路查询）（2 路失败） | new=0 chg=1",
+   "elapsed_s": 78.8,
+   "new": 0,
+   "changed": 1,
+   "raw": 1
+  }
+ ],
+ "notes_written": 160,
+ "errors": [
+  "c1c7: ERR: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>"
+ ],
+ "total_items": 162,
+ "total_new": 139,
+ "dry": false,
+ "rule_dropped": 29,
+ "write_errors": 0,
+ "body_cache_pruned": 0,
+ "finish_errors": []
+}

@@ -8,7 +8,7 @@ url: "https://dev.to/earlgreyhot1701d/a-builder-in-new-orleans-when-your-vibecod
 project_url: "https://github.com/earlgreyhot1701D/le-voyage"
 author: "Earl Grey"
 published_at: "2026-10-04T20:45:02Z"
-captured_at: "2026-10-10T10:02:19+08:00"
+captured_at: "2026-10-16T09:38:25+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,7 +21,7 @@ tags:
   - webdev
   - buildinpublic
   - vibecoding
-metrics: {"reactions": 22, "comments": 9, "reading_time": 9}
+metrics: {"reactions": 23, "comments": 9, "reading_time": 9}
 comments_count: 9
 comments_total: 9
 discovered_via: "devto:buildinpublic"
@@ -35,10 +35,10 @@ discovered_via: "devto:buildinpublic"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/earlgreyhot1701d/a-builder-in-new-orleans-when-your-vibecoded-app-comes-on-vacation-f57>
-> 指标：reactions=22 · 评论=9 · reading_time=9
+> 指标：reactions=23 · 评论=9 · reading_time=9
 > 作者：Earl Grey　|　发布：2026-10-04T20:45:02Z
 > 项目链接：<https://github.com/earlgreyhot1701D/le-voyage>
-> 采集：2026-10-10T10:02:19+08:00　|　id：`39659ecf0822e0a4`
+> 采集：2026-10-16T09:38:25+08:00　|　id：`39659ecf0822e0a4`
 
 ## 正文
 

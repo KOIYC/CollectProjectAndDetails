@@ -6,10 +6,10 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/aura-7"
 project_url: "https://auraplusplus.com/"
-captured_at: "2026-10-10T10:01:48+08:00"
+captured_at: "2026-10-16T09:37:58+08:00"
 lang: "en"
 kind: "project"
-topic: "开发者工具"
+topic: "AI 工具/Agent"
 shard: "2026-09-24"
 tags:
   - 语料
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://auraplusplus.com/>
-> 采集：2026-10-10T10:01:48+08:00　|　id：`afe15bf70a39ff71`
+> 采集：2026-10-16T09:37:58+08:00　|　id：`afe15bf70a39ff71`
 
 ## 正文
 
@@ -45,6 +45,93 @@ Aura++ Launch your project and increase online aura
  Posts 33+
  Revenue $1K / mo
  Website Twitter
+October 15, 2026
+ This morning I shipped live launch stats for makers, because empty rooms stay empty when nobody can see the visitors
+For a while I kept watching the same pattern on Aura++. A maker launches, the listing looks fine, and then the room stays quiet. Not because nobody visited. Because the maker had no way to see that anyone visited. No visitors today, no outbound clicks, nothing to screenshot and send to their own audience. So they don't bring more people, and the empty room stays empty.
+ This morning I shipped a fix for that. Every project now has a shareable live stats page (the /live URL under the project). It shows recorded visitors today and this week, verified upvotes, guest upvotes, outbound clicks to the website, GitHub and X, and comments. The project page links to "Live stats". The card has copy link, Share on X, and Share on LinkedIn.
+ Example that I checked live: the Kai live stats page on Aura++ . Same shape works on a couple other live projects I spot-checked too. Homepage still has no "Live now" block on purpose. This is for the maker, not a global ticker.
+ I also tightened guest upvotes while I was in there. Max three guest votes per project total, pending plus claimed. No IP limit. Browser rate limit unchanged. Winners still count signed-in votes only. After a guest vote, Google sign-in is still prompted, so the guest path is a nudge, not a loophole.
+ The thing I care about isn't the page itself. It's that a maker can finally open something during launch day and say "we got X visitors and Y clicks" without waiting for me to email a digest later. If they can see value, they bring their people. If they can't, they refresh the listing once and go back to work.
+ Curious if you'd share a live stats link mid-launch, or if you'd rather keep the numbers private until the week ends.
+Praneet Brar
+5 Upvotes
+Comment
+October 14, 2026
+ The week after a launch I search for everyone who mentioned my product without tagging me
+During launch week the notifications do all the work. People tag you, comment on the listing, reply to your post. Then it goes quiet and it's easy to think that was all the talk there was.
+ It usually isn't. A lot of people who talk about a new product never tag the maker. They mention it in a reply to someone else, in a "stuff I tried this week" thread, in a newsletter roundup, or with the name spelled a bit wrong.
+ So around day seven after a launch I block one hour and search for the product by hand. Not alerts, by hand, because alerts miss the misspellings and the screenshots.
+ What I search, every time:
+ the product name in quotes on X, Reddit and here on IH
+the domain without the https, since people paste it bare
+the two most likely misspellings (for mine that's stuff like "aura plus plus" or "auraplus")
+the name plus the word "alternative"
+For every hit I write three things in a sheet: where it was, what they called the product in their own words, and if somebody asked a question there that nobody answered.
+ Then two things happen. If there's an unanswered question I reply to it, even a week late. In my experience nobody minds a useful answer that shows up late. And the words people used go into a list, because how a stranger describes your product is very often better copy than what's on your landing page.
+ The "alternative" search is the one I'd keep if I could only do one. It shows which product people put you next to, and that's rarely the one you'd guess from your own positioning.
+ I do this after every Aura++ launch now. It's also how I decide which channels to keep, the same way I wrote about in keeping only the three channels that sent a stranger who replied . An untagged mention from a stranger counts.
+ Do you go looking for the untagged mentions after a launch, or mostly trust the notifications?
+Praneet Brar
+1 Upvote
+Comment
+October 13, 2026
+ This morning I ran my own launch site through the AI recall check I just shipped, and it got 0 out of 40
+Today I shipped a small free thing on Aura++, an AI Visibility Score. You paste a URL and it gives a score out of 100. The biggest chunk, 40 points, is AI recall: the tool actually asks a model three questions, what is this product, what are the best tools in its category, and what are the alternatives to it. The rest is crawlability for AI bots (GPTBot, ClaudeBot, PerplexityBot), on-page clarity, and off-site footprint. You get a grade A to F and three fixes.
+ Obviously the first URL I tested was my own. EarlyHunt, one of my launch sites.
+ It scored 53/100, grade F. And the split is the part that annoyed me:
+ Crawlability for AI: 20/20. All three bots allowed.
+On-page clarity: 20/20. Title, meta description, H1, all there.
+AI recall: 0/40. Zero on all three questions.
+When it asked "What is EarlyHunt?" the model said: "I do not have information about a product called EarlyHunt." Then for best launch platforms it listed Product Hunt, BetaList, AngelList, Crunchbase... and LaunchDarkly, which is a feature flag tool. So the model will happily put a feature flag company in my category, but not me.
+ That's the takeaway I keep coming back to. Green technical SEO only means bots can read your page. It doesn't mean anyone wrote about you enough for a model to remember you. The gap is off-site, and I had been skipping that work because the checklist felt done.
+ The three fixes it gave were boring and correct: a quotable about page that gets cited elsewhere, a comparison page that names the product inside its category, and a proper alternatives page. Those are my next week.
+ I wrote the longer version, with my other site's answers word for word, on Medium: my launch site scored 0/40 on AI recall while its SEO checks were all green . If you want to see where yours lands, the free AI Visibility Score on Aura++ takes about 10 seconds, no signup, 5 checks a day. It's v1, so if your score looks wrong tell me, I'd rather know.
+ Has an AI assistant ever named your product in an alternatives answer? What got you there?
+Praneet Brar
+3 Upvotes
+Comment
+October 12, 2026
+ Three weeks after a launch I only keep the three channels that sent a stranger who replied
+Launch week is noisy. Every board, every Discord, every "share this" thread looks like it worked because the graph goes up. Three weeks later the graph is flat and I still have 12 channels bookmarked that I somehow promised myself I'd keep posting on.
+ So I changed the filter. I don't count clicks. I don't even count signups anymore for this. I count stranger replies. Email, comment, DM, whatever, from someone I don't already know, who said something about the product. If a channel never produced one of those in three weeks, it gets cut, even if it sent traffic.
+ I keep a dumb sheet. Columns are channel, date I posted, traffic that week (rough), and then a column for stranger replies with a short note of what they said. After three weeks I sort by that last column. Usually three channels have something real. The rest have zeros and a story I was telling myself.
+ Rule I stick to now:
+ keep at most three channels that actually sent a stranger who replied
+drop anything with zero replies after three weeks, even if it had a spike on day one
+don't add a new board until one of those three is clearly working again, not just "feels busy"
+This cut my weekly posting load in half and weirdly didn't hurt signups much. The quiet channels were mostly vanity. The ones that stayed were usually one niche community, one weekly launch page, and one place where people already talk about the problem.
+ I do this for launches around Aura++ . Earlier I also wrote about checking Search Console after the spike , which is the other half of the same habit. Referrers lie. Replies don't.
+ How do you decide which channels to keep after the launch week ends?
+Praneet Brar
+3 Upvotes
+Comment
+October 11, 2026
+ Two days before a launch I write the reply to the first bad comment, before anyone posts it
+This sounds a bit negative but it saved me more than once. Two days before I put something on a launch page I open a notes file and write down the worst comment I think I'll get. Not a troll, the honest one. Stuff like "this already exists, why would I switch" or "pricing is weird" or "landing page doesn't say what it does".
+ Then I write my reply to it while I'm calm. Usually 3-4 sentences, no defending, just the real answer plus what I'd change.
+ Two things happen. First, about half the time writing the reply shows me the comment is right, and I fix the page before launch instead of after. Last time it was the pricing one, I had 3 tiers for a product with maybe 40 users, so I cut it to one plan the night before.
+ Second, when a version of that comment does show up (and it mostly does) I'm not replying at 1am with adrenaline. I already have something reasonable, I just reword it to the person.
+ The rule I keep: never reply to a critical comment in the first 10 minutes after reading it. If I don't have a pre-written one, I go make tea first.
+ I've been doing this for launches on Aura++ and it's honestly the cheapest prep step I have. Takes 20 minutes.
+ Anyone else do something like this, or do you just wing the replies on the day?
+Praneet Brar
+4 Upvotes
+Comment
+October 10, 2026
+ On launch day I write down the time of every signup, and it tells me more than my referrer report
+Every time I launch something, on Aura++ or wherever, my analytics says most traffic came from "direct". Which is useless. Half the shares happen in WhatsApp groups, Slack, email, apps that strip the referrer, so the report just shrugs.
+ So now I keep a dumb little note open all day. Two columns. In one I write the time I did each thing: posted the listing, shared in a Discord, sent the newsletter, replied to a big comment thread. In the other I copy the signup times straight from the database, nothing fancy, just created_at.
+ At the end of the day I put them side by side and its usually obvious. A small cluster of signups right after one specific share, and basically nothing after another channel I was sure would work. A burst that happens when a bigger account mentions you, which you would never see otherwise.
+ Few things I learned doing this:
+ write the time the moment you post, not later from memory, memory is wrong by hours
+note what you said too, not only where. The same channel with a different first line behaves different
+a cluster that starts 20–40 min after a post is normal, people open things later
+dont over read one launch. I compare across two or three before I drop a channel
+It wont replace real tracking, and UTM links are still worth adding where you can. But for a solo launch its the most honest picture I get, and it takes like ten minutes. After the spike calms down I switch to looking at search queries instead of referrers , but launch day itself is all timestamps.
+ Anyone else doing something this low tech for attribution?
+Praneet Brar
+4 Upvotes
+Comment
 October 9, 2026
  The day after a launch I send every new signup one plain email with one question, and the replies rewrote my landing page
 After a launch day on Aura++ or anywhere else, the signups come in and then most of them just sit there. I used to send the usual welcome sequence, logo on top, three feature tips, a button. Almost nobody answered it, and why would they, it looked like a newsletter.
@@ -93,7 +180,7 @@ What I don't do is start a fresh blog post because a topic feels exciting. And i
  After a launch, do you go back to the position 8 to 20 queries, or straight to writing something new?
 Praneet Brar
 27 Upvotes
-4 Comments
+8 Comments
 October 5, 2026
  Before I touch onboarding copy now, I check the reset email isn't sitting in spam
 The pattern goes like this. Onboarding emails get weak opens and basically zero replies, so you rewrite the subject lines. Then again. Then someone mentions in a support thread that the welcome email was in spam. And the password reset too.
@@ -112,87 +199,6 @@ Alignment confused me most. DMARC only passes if the domain in your visible From
  Has anyone actually figured out Outlook deliverability for a tiny SaaS? That one still confuses me more than all the rest.
 Praneet Brar
 6 Upvotes
-Comment
-October 4, 2026
- Under 50 customers I treat a failed Stripe charge like involuntary churn — three emails, then pause
-I used to treat a failed Stripe charge like a support ticket I would "get to later." With under fifty paying customers that is a bad habit. One expired card is not noise. It is often a real slice of monthly revenue walking out because the bank declined a $29 renewal and I sent nothing human for a week.
- Voluntary cancel is a different conversation. Failed payments are involuntary churn: the person still wanted the product, the card just said no. Fixing three short emails is cheaper than buying a retention suite.
- Stripe's stock "payment failed" mail is a receipt of failure. It is not a recovery conversation. It does not say what stops working on which day, and it does not give a one-click update path that feels safe on a phone.
- What I actually send:
- Email 1 — same day or within 24h. We tried to charge $X on the card ending ••42 and the bank declined it. What still works today. What breaks on date Y if nothing changes. One button: Update payment method. Reply if the charge looks wrong.
- Email 2 — day 3. Same facts, shorter. Add the decline reason if Stripe gives one ("insufficient funds" vs "card expired"). People fix expired cards fast when you say it plainly.
- Email 3 — day 6 or the day before access changes. Last clear warning. No guilt. Access pauses tomorrow morning. Update anytime and you are back in a few minutes.
- If they still do not update, pause gracefully. Do not delete their data on day 8 over a declined $19 charge. Give 14–30 days of read-only or a warm come-back note later.
- Under fifty customers I still open Stripe every morning, filter failed invoices, ignore $0 and test junk, and write people by hand before lunch. Log date + which email in a sheet. Automate the same three templates only when failed charges show up daily.
- The one ugly number I track: failed → recovered within 7 days. If that is soft and I was only sending Stripe defaults, the emails are the leak. If recovery is already fine, I stop obsessing and go fix activation — same energy as when I wrote about how your churn rate is lying to you when you have under 50 customers and the longer playbook on how to reduce early SaaS churn under 50 customers . Soft launches on Aura++ still matter, but money leaving through a dead card is not a launch-platform problem.
- Write like a person who wants them back, not a collections agency. Clear dates and one link. That is the whole product for year one.
- When was the last time you personally emailed a failed renewal instead of trusting the default Stripe note?
-Praneet Brar
-7 Upvotes
-3 Comments
-October 4, 2026
- My cancel flow was teaching people not to trust me — four screens, then I stop
-I used to treat cancel like a Stripe chore I noticed a week late, or worse, like a maze that "saved" a few people by making them suffer. Both taught the wrong lesson. One said I did not care why they left. The other said leaving was a punishment. Neither is retention when you still have under ~200 paying customers.
- What I needed was boring hygiene: findable cancel, under a minute, slightly useful to me, quiet enough that nobody writes a thread about how hard it was to leave.
- I skip a fancy wizard if I still personally email every cancel. A form nobody reads is theater. I add a real flow when cancels start coming from people I did not onboard myself, Stripe is my only signal (no reason, no timing), I keep guessing whether churn is price vs never-activated, or support already gets "how do I cancel?"
- The skeleton I ship is four screens. Intent from Billing → Cancel, restate plan and next renewal, no drama. Reason optional — five to seven choices in customer language plus a short anything-else box, skip allowed. Pause or one save offer only when the reason maps to something I can actually help with; decline must continue cancel immediately. Confirm with access end date, what happens to data, how to come back, button that literally says Cancel plan. No fifth screen for rate-us or a newsletter upsell.
- Reasons that help look like support language: too expensive / not enough value yet, missing a feature, switched tools, project ended, never got going, role change, other. I log reason + plan + tenure + last active into a sheet the same day. If "never got going" spikes, that is an activation bug — not a coupon problem.
- Pause is for temporary need. Cancel is for "not for me." Mixing them trains people to cancel when they meant hibernate. One save offer max, easy to refuse. Confirmation is where trust is won: plan name, immediate vs period-end, exact end date, data note, one resubscribe path, then one calm email within an hour. No five-email win-back in ten days.
- I wrote the longer breakdown on Medium and keep a wiring checklist in how to design a SaaS cancel flow without dark patterns on Aura++ Studio. Same opinion, more of the sheet. On quiet launch weeks I still put work on Aura++ — but cancel hygiene is not a launch hack. It is brand. Early customers talk. A clean exit is an asset. A maze is a story you cannot unpublish.
- Do you still hide cancel behind a support email, or did you already ship the boring four-step path?
-Praneet Brar
-3 Upvotes
-6 Comments
-October 2, 2026
- For a soft relaunch week I pick 2–3 boards on purpose — not a shotgun of ten
-My old soft-relaunch week looked productive and felt like garbage. Ten submit forms. Same blurry screenshot. Same one-liner pasted into every queue. By Wednesday I was behind on replies, the copy was already stale on half the boards, and I could not tell which surface sent a human who stuck.
- I forced a boring rule after that. Soft relaunch week gets two or three boards max. One daily home I can babysit. One weekly niche that matches the buyer job. Maybe one directory if it is a different discovery path — search SEO, not another Hunt clone. Everything else waits for week two.
- How I pick them now is research, not vibes. I open Best Launch Platforms and Product Hunt Alternatives and ask three questions per row: Is the cadence daily or weekly? Who actually comments there — buyers or badge collectors? Can I rewrite unique copy and still reply for that surface without melting? If the answer to the last one is no, it does not make the shortlist even if the homepage looks loud.
- Last soft relaunch I ran that filter and landed on three: a calm daily for copy QA, a weekly for the niche hunters, and one boring directory for lasting crawl. I skipped four "must submit" sites that were basically the same room with a different logo. Traffic was quieter than the shotgun week. Stranger emails were clearer. I knew which sentence survived because I was only listening in three places.
- Aura++ is usually the daily home when I need a lasting page plus a morning I can actually cover. I do not stack every Hunt-family board the same week like trophies. Cousin boards wait until the one-liner stops confusing people.
- Shotgun feels like distribution. It is usually just unfinished homework across ten tabs.
- If you soft-relaunch next month, what are your two or three boards — and which seven did you cut on purpose?
-Praneet Brar
-1 Upvote
-Comment
-October 2, 2026
- I ship a tiny status page before the next soft launch so hunters don't ask "is it down?"
-I used to treat launch morning like a marketing day and ignore ops until something smoked. Then a daily board day on Aura++ sent a real spike, a deploy hiccup ate fifteen minutes, and the comment thread filled with "is it down?" before I had even finished my coffee. I spent the next hour apologizing instead of answering buyer questions. The ranking was fine. Trust was not.
- That is when I started shipping a tiny status page before the next soft launch — not a fancy status.incident.io empire. One boring public page. Last known-good deploy time. What is green. What is flaky today. One email or form if something looks wrong. Link it in the listing footer and under the primary CTA on the landing page. Hunters who arrive cold from a daily board do not want vibes. They want to know the product is alive while they try it.
- My checklist the night before a board day is short:
- 1. Hit the signup, login, and one core job path myself — not a screenshot from last week.
- 2. Confirm Stripe (or whatever takes money) is not stuck in test mode on the live domain.
- 3. Update the status page with the deploy stamp and one honest line if anything is half-ready.
- 4. Paste the status URL into the board description and the site footer so I do not have to type it into every reply.
- I still pick boards with care — I keep Best Launch Platforms open when I am choosing where the spike will land — but the status page is what keeps that spike from turning into a support theater. When something does flake, I point at the page, fix the thing, and keep the comment thread for product questions. I wrote more about turning those comments into users in how to turn launch-day comments into paying users . The quiet prep is the status line, not another upvote spreadsheet.
- You do not need perfect uptime theater for an indie launch. You need a place hunters can check before they assume you ghosted them mid-signup.
- Do you have a public status link ready before your next daily board day — or do you still find out you are down from a stranger's comment?
-Praneet Brar
-1 Upvote
-Comment
-September 30, 2026
- A featured badge on a loud board did nothing for revenue — a boring niche directory did
-I got "featured" once on a board that loves shiny AI tools. Badge on the card. Screenshot for Slack. Felt like progress for about a day.
-Revenue did not move. Not a trial. Not a stranger email that turned into a call. Just a nicer looking listing and a short bump in profile visits from other founders browsing the same board.
-Two weeks later I submitted the same product to a small niche directory that looks like it was designed in 2019. No badge theatre. Slow review. Listing went live on a Tuesday when I was fixing a bug. Three people clicked through that week. One of them paid. Another asked a question so specific I knew they had already tried the free alternative and hated the export flow.
-I keep replaying that because it wrecked my ranking of "impressive" vs "useful." Featured on a general board mostly gets you peer attention. A directory where buyers already search by category gets you people with a job to finish. Peers upvote. Buyers email.
-When founders ask me inside Aura++ whether they should chase a featured slot next, I ask what happened after the last badge. If the answer is screenshots and zero conversations, skip the next vanity placement. Spend the same afternoon on one boring listing where the filters match your ICP, even if the site looks dead.
-I keep a short note on how I pick directories in Best Startup Directories — dofollow, real category pages, traffic that is not just other makers. And when the stack gets confusing I still point people at Product Hunt Alternatives so they stop treating every board like the same lever.
-Curious — has a "featured" placement ever paid for itself for you, or was the quiet listing the one that actually converted?
-Praneet Brar
-2 Upvotes
-Comment
-September 30, 2026
- I compare soft-launch traffic week-over-week with UTMs, not vanity sessions
-I used to open Analytics after a soft-launch week and feel busy. Sessions up. Bounce weird. Referral blob said "Direct" for half of it. Zero idea which board or directory actually sent someone who stayed.
-So I started tagging every outbound link with a tiny UTM before I hit submit. Not a fancy naming system. Just `utm_source=boardname`, `utm_medium=softlaunch`, `utm_campaign=weekN`. Same week, same campaign tag, different sources. Then I look at the week after and ask one boring question: which source still shows up in signups and replies, not just sessions.
-Week 3 of one soft launch taught me this the hard way. A daily board dumped ~180 sessions in two days. Looked huge next to a quiet niche directory that sent maybe 40. The board people bounced in under twenty seconds. The directory people? Three of them emailed within 48 hours asking a real product question. Sessions lied. Replies did not.
-I keep a one-tab sheet now. Columns: source, sessions, unique signups, stranger emails, paying or trial starts. I ignore "engaged sessions" when the product is early. I care if someone from that UTM asked something I could answer without a sales script.
-Vanity is easy when you run Aura++ and watch founders celebrate a spike that never turns into a conversation. Soft launch is for learning which channel matches the buyer, not collecting a pretty chart. When I am picking where to spend the next week I still skim Best Launch Platforms , but the decision comes from last week's tagged rows, not from the board with the loudest homepage.
-I wrote more about staying discoverable past day one in what happens after you launch . Same idea — compound the channels that leave a trail, drop the ones that only inflate sessions.
-If you soft-launched in the last month, which UTM source still produced a human reply after the spike died?
-Praneet Brar
-2 Upvotes
 Comment
 About
  I’m building Aura++ because I kept seeing great products struggle to get noticed. Launching is easier than ever, but getting real visibility is still incredibly hard, especially for early-stage founders without an audien
@@ -214,5 +220,5 @@ Databases
 
 - 项目页：[[10-项目/Aura-7_6bcffd81]]
 - 渠道页：[[50-渠道/indiehackers]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

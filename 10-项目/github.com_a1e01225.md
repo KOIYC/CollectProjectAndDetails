@@ -2,7 +2,7 @@
 type: "project"
 title: "A Builder in New Orleans: When Your Vibecoded App Comes on Vacation"
 project_url: "https://github.com/earlgreyhot1701D/le-voyage"
-first_seen: "2026-10-10T10:02:19+08:00"
+first_seen: "2026-10-16T09:38:25+08:00"
 sources:
   - devto
 tags:
@@ -22,16 +22,17 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/earlgreyhot1701D/le-voyage>
-> 首次收录：2026-10-10T10:02:19+08:00
+> 首次收录：2026-10-16T09:38:25+08:00
 > 来源渠道：dev.to
 > 标签：ai, webdev, buildinpublic, vibecoding
-> 最新指标：reactions=22 · 评论=9 · reading_time=9
+> 最新指标：reactions=23 · 评论=9 · reading_time=9
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-10-10T10:02:19+08:00 | dev.to | reactions=22 · 评论=9 · reading_time=9 | [[20-语料/posts/devto/2026-10-10/39659ecf0822e0a4_A-Builder-in-New-Orleans-When-Your-Vibecoded-App-C]] |
+| 2026-10-16T09:38:25+08:00 | dev.to | reactions=23 · 评论=9 · reading_time=9 | [[20-语料/posts/devto/2026-10-10/39659ecf0822e0a4_A-Builder-in-New-Orleans-When-Your-Vibecoded-App-C]] |
 
 ## 摘要正文
 

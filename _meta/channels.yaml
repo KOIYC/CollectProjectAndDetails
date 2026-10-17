@@ -276,6 +276,10 @@ channels:
       代价：jsDelivr 对 `@master` 分支别名有缓存（最长约 12h）→ 新收录条目可能有半天延迟，
       对本渠道（名录、低频更新）可接受。**若要更稳可加主源+备用源的 fallback 链，但那需要改 adapter 代码**，
       按「改渠道只改 channels.yaml」暂不做，待用户确认。
+      **2026-10-16 补记**：jsDelivr 镜像本身也出现**间歇性 TLS 重置**（好窗口 6/8、坏窗口 0/8；
+      raw/gcore/fastly 三镜像同批全 0/8）→ 详见 `backends.jsdelivr_cdn`。
+      当日采集 error（3 次，含单渠道复跑）、体检探针 ok → 判镜像可用性波动，**非渠道腐化，保持 enabled**；
+      本渠道无时间窗口 ⇒ 本轮不补无数据丢失。
 
 
   # ---------------- 全网发现与信号层补充契约 ----------------
@@ -498,40 +502,43 @@ channels:
 # 每次跑完内容审计更新本段；数字是「可用/条目」，取自 00-索引/内容审计-all.md。
 
 content_gate:
-  audited_at: '2026-10-11'
-  overall: '2362/2670（88%）'
+  audited_at: '2026-10-16'
+  overall: '2493/2809（89%）'
   rows:
-    - {id: producthunt, ratio: '294/299', verdict: keep}
-    - {id: betalist, ratio: '159/159', verdict: keep}
-    - {id: devto, ratio: '13/15', verdict: keep,
-       note: n=15 小样本；标题 require_any 曾把样本全过滤（0 条 = 杀渠道），已回退为「少量标题排除 + limit 降量」}
-    - {id: bilibili, ratio: '56/59', verdict: keep,
+    - {id: producthunt, ratio: '322/328', verdict: keep}
+    - {id: betalist, ratio: '170/170', verdict: keep}
+    - {id: devto, ratio: '14/16', verdict: keep,
+       note: n=16 小样本；标题 require_any 曾把样本全过滤（0 条 = 杀渠道），已回退为「少量标题排除 + limit 降量」}
+    - {id: bilibili, ratio: '59/62', verdict: keep,
        note: 95%。2026-10-10：曾出现采集端 0 videos（探针同轮 ok）→ 调查确认 B 站搜索 API 实测健康
        （code=0 / 20 results / play>3000 有货）→ 判为**瞬态 WBI 风控空返回**，非渠道腐化。B 站是**累计搜索型渠道、无时间窗口**，
-       本轮不补也无数据丢失（同 c1c7 判据），保持 enabled。2026-10-11 恢复正常（5 条 / new 3）}
-    - {id: indiehackers, ratio: '109/112', verdict: keep}
-    - {id: hn_show, ratio: '1358/1440', verdict: keep,
+       本轮不补也无数据丢失（同 c1c7 判据），保持 enabled。2026-10-16 正常（8 条 / new 3，丢弃 4/12=33%「无主题词」）}
+    - {id: indiehackers, ratio: '125/128', verdict: keep}
+    - {id: hn_show, ratio: '1396/1479', verdict: keep,
        note: 94%。大厂产品假阳性已修（Show HN 标题自述的条目不再因提到 Stripe/Google 被判「大厂产品」）；
-       主要残余是视频帖无正文（结构性，记死信）与 Exa 截断 35}
-    - {id: github_new, ratio: '54/72', verdict: keep,
-       note: 75%。噪声是 awesome-*/directory/clone/wiki/journal 类资源清单（标题规则已排除，见 rule_drops）。
+       主要残余是视频帖无正文（结构性，记死信）与 Exa 截断 36。2026-10-16 丢弃 1/40（排除:URL），无误杀}
+    - {id: github_new, ratio: '58/78', verdict: keep,
+       note: 74%。噪声是 awesome-*/directory/clone/wiki/journal 类资源清单（标题规则已排除，见 rule_drops）。
        2026-10-11：体检探针报 error（0 repos / 44.5s，gh search 网络层 GET 错误），单渠道复检 **ok（3 repos / 4.4s）**
        + 三层探针（api.github.com TCP 0.15s / TLS 0.27s 正常）→ 判**瞬态网络层错误**，非渠道腐化；同轮采集取到 13 条为铁证。
-       本轮丢弃 15/28（54%，未过 70% 线）：7 条标题 + 8 条无主题词，无误杀}
-    - {id: v2ex, ratio: '63/91', verdict: keep,
-       note: 69%。主要噪声是「NAS 必装 Docker 推荐」类资源帖；rules.yaml 已排招聘/求职/求助。
-       2026-10-11 丢弃 4/25（标题），无误杀}
+       2026-10-16 丢弃 14/28（50%，未过 70 线）：7 条标题（journal/awesome-*/clone/directory）+ 7 条无主题词，逐条核对无误杀}
+    - {id: v2ex, ratio: '75/106', verdict: keep,
+       note: 71%。主要噪声是「NAS 必装 Docker 推荐」类资源帖；rules.yaml 已排招聘/求职/求助。
+       2026-10-16 丢弃 10/25（40%）：7 条标题（招聘/求职为主）+ 3 条无主题词，无误杀。
+       ⚠ 待评估：v2ex 自述发布帖（「做了/做了一个/做了个…」）被主题词门滤掉（如「做了一个 Durable Agent Harness
+       支持持久化任务崩溃恢复与断点续跑」），独立案例累计 n=3（按 item_id 去重）已达评估线 —— 见运行日志待跟进，
+       处置方案需先做「小样本模拟 + 看剩余条数」两步校验，不在本轮动规则}
     - {id: exa_discovery, ratio: '19/25', verdict: keep,
        note: 76%，小样本（weekly_only，非周一不跑）。1 条「Respira Exhale」疑误杀 n=1，未到动手阈值}
-    - {id: reddit, ratio: '231/390', verdict: limit_reduced,
-       note: 59%。已把 limit 40→30 控量（标题过滤模拟到 88% 但丢 29 条可用帖，代价大于收益，不采纳）。
+    - {id: reddit, ratio: '248/409', verdict: limit_reduced,
+       note: 61%（全库最低）。已把 limit 40→30 控量（标题过滤模拟到 88% 但丢 29 条可用帖，代价大于收益，不采纳）。
        窗口外移 settle_days=10 / window_days=14 后近两周语料抓不到（见渠道 note），审计口径与采集口径要一起看。
-       **2026-10-11：arctic-shift 源站已恢复**（渠道探针 ok / 24 posts；后端复检 ok / 1 rows）→ 上一轮 522 故障已解除。
-       标签结构不变 → 维持 limit_reduced}
+       2026-10-16：源站正常（探针 ok / 3 posts，19 条 / new 19）→ 维持 limit_reduced}
     - {id: c1c7, ratio: '6/7', verdict: keep,
-       note: 2026-10-11 6/7（n=7 小样本，报可用率要连 n 一起报）。本轮丢弃 10/17（58.8%，**未过 70% 线**）：
-       全为名录/播客/周刊/新闻信类（Indie Hacker / Failory / Starter List 等）→ 无误杀。
-       取数源已换 jsDelivr 镜像（原 `raw.githubusercontent.com` TLS 重置），详见 `backends` 段}
+       note: 2026-10-16 6/7（n=7 小样本，报可用率要连 n 一起报）。本轮采集 error（WinError 10054 / 1.8s）：
+       体检探针同轮 ok（9 entries / 2.8s），镜像对照实验显示 `cdn.jsdelivr.net` **间歇可用（好窗口 6/8、坏窗口 0/8）**，
+       且 `raw`/`gcore`/`fastly` 三个镜像同批 0/8 → 判**镜像可用性波动（链路层 TLS 重置）**，非渠道腐化。
+       累积型名录无时间窗口 ⇒ 本轮不补无数据丢失。详见 `backends` 段}
 
 # ---------------- 后端可用性订正（实测，会被 kb_audit 复检） ----------------
 backends:
@@ -579,7 +586,31 @@ backends:
       → 属该主机级 SNI/TLS 干扰，不是 GitHub 全域不可用，也不是 c1c7 渠道腐化。
       表现：kb_audit 与 kb_collect 同轮均报同一句 `10054`（连续两轮 09-30 / 10-01）。
       处置：c1c7 改走 jsDelivr 镜像（见 channels.yaml c1c7 的 params.readme），不改代码。
+      **2026-10-16 复检：仍 0/8 可用**（8 次直取全部 `WinError 10054`）→ 维持 unusable。
     revive: TLS 复位后可直接换回主源（每轮由 kb_audit 复检；先把 c1c7 的 params.readme 换回并单渠道复跑确认）
+  - id: jsdelivr_cdn
+    use: c1c7 名录 README 取数源（现用镜像）
+    status: unstable
+    verified: '2026-10-16'
+    evidence: >-
+      **间歇可用**：同一小时内实测出现「好窗口」与「坏窗口」两种状态 ——
+      好窗口 `cdn.jsdelivr.net` 6/8 成功（中位 0.87s）且 adapter 连调 6/6 ok（17 entries）；
+      坏窗口 0/8（全部 `WinError 10054`，或 `<urlopen error _ssl.c:1015: The handshake operation timed out>`）。
+      **同批镜像对照（2026-10-16，各 8 次）**：`raw.githubusercontent.com` 0/8、`gcore.jsdelivr.net` 0/8、
+      `fastly.jsdelivr.net` 0/8（后两者 2026-10-01 时还可用 → 说明是**本网络对该 CDN 家族的间歇性 TLS 重置**，
+      不是 jsDelivr 单点故障，也不是 c1c7 渠道腐化）。
+      **错误消息在 `10054` 与 `handshake timeout` 之间漂移** = 链路层特征（稳定同一 HTTP 码才是渠道问题）。
+      表现：kb_audit 探针 `ok / 9 entries / 2.8s`，而同轮 kb_collect 报 `10054 / 1.8s`（连续 3 次，含单渠道复跑）。
+      **同源核实**：把 `kb_collect` 与新进程分别调用同一个 `ad_onec7`，两者在同一时刻**同时失败** → 排除了
+      「采集进程状态差异」，确认是**时间窗口**问题（早期 6/6 成功与后期 0/6 失败各成一段）。
+    limit: >-
+      间歇性链路重置；c1c7 是**累积型名录（无时间窗口）** ⇒ 单个坏窗口不补也无数据丢失，
+      下轮自动恢复即可，**不要因此停用渠道**。`http_get` 现为 `retries=1`（2 次尝试），
+      好窗口下足够，坏窗口下无效。
+    revive: >-
+      每轮由 kb_audit 探针复检。若「坏窗口」占比继续升高（如连续 ≥2 轮采集均取不到），
+      再评估**主源+备用源 fallback 链**（`params.readme` 只能持一个 URL，fallback 需改 adapter 代码 → **须用户确认**）；
+      备选路径候选：GitHub API contents（`api.github.com` 本网络正常，但需 base64 解码 README）。
 
 # ---------------- 停用登记（保留原因与复活条件，不进采集循环） ----------------
 disabled:

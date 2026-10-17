@@ -1,0 +1,19 @@
+{
+  "at": "2026-10-16T09:41:44+08:00",
+  "kind": "corpus_rename",
+  "note": "条目改标题导致的语料页换名；旧页已清（git/raw 可回溯），链接已改写",
+  "renames": [
+    {
+      "from": "20-语料/posts/bilibili/2026-09-24/5d9f1878aacdaf5b_手机能戒手机瘾-自己开发鸿蒙应用两年后复盘!.md",
+      "to": "20-语料/posts/bilibili/2026-09-24/5d9f1878aacdaf5b_零基础入行!聊聊我的鸿蒙-App-7TIMERS-开发历程.md"
+    },
+    {
+      "from": "20-语料/posts/producthunt/2026-09-20/7c7187ae2983b0f7_Basedash-MCP-write.md",
+      "to": "20-语料/posts/producthunt/2026-09-20/7c7187ae2983b0f7_Basedash-Connector-gallery.md"
+    },
+    {
+      "from": "20-语料/posts/xiaohongshu/2026-09-21/7861ab65194de927_四个月,从0到1w用户.md",
+      "to": "20-语料/posts/xiaohongshu/2026-09-21/7861ab65194de927_从程序员到独立开发者,我出发了.md"
+    }
+  ]
+}
