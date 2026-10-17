@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-16T09:35:05+08:00",
+ "checked_at": "2026-10-17T14:08:32+08:00",
  "channels": [
   {
    "channel_id": "hn_show",
@@ -10,16 +10,16 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 1.6,
-   "probe_at": "2026-10-16T09:32:12+08:00",
+   "elapsed_s": 2.7,
+   "probe_at": "2026-10-17T14:05:50+08:00",
    "sample": [
     {
-     "title": "Show HN: My AI induced mania in embedded computer graphics engineering [video]",
-     "url": "https://news.ycombinator.com/item?id=50111421"
+     "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
+     "url": "https://news.ycombinator.com/item?id=50127979"
     },
     {
-     "title": "Show HN: Luksmith – Mount LUKS Ext4 Drives Natively in Finder on Apple Silicon",
-     "url": "https://news.ycombinator.com/item?id=50111381"
+     "title": "Show HN: Online Piano – Play a Free Virtual Piano Keyboard",
+     "url": "https://news.ycombinator.com/item?id=50127889"
     }
    ]
   },
@@ -32,16 +32,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
-   "elapsed_s": 18.9,
-   "probe_at": "2026-10-16T09:32:30+08:00",
+   "elapsed_s": 20.5,
+   "probe_at": "2026-10-17T14:06:10+08:00",
    "sample": [
     {
-     "title": "Would you pay higher payment fees to get your money sooner?",
-     "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1wyolo0/would_you_pay_higher_payment_fees_to_get_your/"
+     "title": "I added cookie texture to my lights and it changed the whole scenery",
+     "url": "https://www.reddit.com/r/IndieDev/comments/1wzoagq/i_added_cookie_texture_to_my_lights_and_it/"
     },
     {
-     "title": "I had way too much fun making this boss fight",
-     "url": "https://www.reddit.com/r/IndieDev/comments/1wyom1w/i_had_way_too_much_fun_making_this_boss_fight/"
+     "title": "What I run - Oct 2026",
+     "url": "https://www.reddit.com/r/selfhosted/comments/1wzngic/what_i_run_oct_2026/"
     }
    ]
   },
@@ -54,16 +54,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 2.0,
-   "probe_at": "2026-10-16T09:32:32+08:00",
+   "elapsed_s": 1.2,
+   "probe_at": "2026-10-17T14:06:11+08:00",
    "sample": [
     {
      "title": "openai/math",
      "url": "https://github.com/openai/math"
     },
     {
-     "title": "storytold/wordcraft",
-     "url": "https://github.com/storytold/wordcraft"
+     "title": "wheresryan22/anatomy",
+     "url": "https://github.com/wheresryan22/anatomy"
     }
    ]
   },
@@ -76,16 +76,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 startups · 发布日 3/3",
-   "elapsed_s": 2.3,
-   "probe_at": "2026-10-16T09:32:35+08:00",
+   "elapsed_s": 2.5,
+   "probe_at": "2026-10-17T14:06:14+08:00",
    "sample": [
     {
-     "title": "Orgacha",
-     "url": "https://betalist.com/startups/orgacha"
+     "title": "Jaah",
+     "url": "https://betalist.com/startups/jaah"
     },
     {
-     "title": "Resumarc",
-     "url": "https://betalist.com/startups/resumarc"
+     "title": "Shipfound",
+     "url": "https://betalist.com/startups/shipfound"
     }
    ]
   },
@@ -98,16 +98,16 @@
    "status": "ok",
    "count": 3,
    "message": "21 products",
-   "elapsed_s": 4.7,
-   "probe_at": "2026-10-16T09:32:39+08:00",
+   "elapsed_s": 6.4,
+   "probe_at": "2026-10-17T14:06:20+08:00",
    "sample": [
+    {
+     "title": "Launchnestln",
+     "url": "https://www.indiehackers.com/product/launchnestln"
+    },
     {
      "title": "Circlesaas",
      "url": "https://www.indiehackers.com/product/circlesaas"
-    },
-    {
-     "title": "Launchon It",
-     "url": "https://www.indiehackers.com/product/launchon-it"
     }
    ]
   },
@@ -120,8 +120,8 @@
    "status": "ok",
    "count": 1,
    "message": "1 articles",
-   "elapsed_s": 1.0,
-   "probe_at": "2026-10-16T09:32:40+08:00",
+   "elapsed_s": 0.4,
+   "probe_at": "2026-10-17T14:06:21+08:00",
    "sample": [
     {
      "title": "Why you still need a Website Portfolio, even though everyone can Vibe Code it.",
@@ -138,16 +138,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 entries",
-   "elapsed_s": 0.9,
-   "probe_at": "2026-10-16T09:32:41+08:00",
+   "elapsed_s": 1.0,
+   "probe_at": "2026-10-17T14:06:22+08:00",
    "sample": [
     {
-     "title": "Brussle",
-     "url": "https://www.producthunt.com/products/brussle-2"
+     "title": "Memory Chess",
+     "url": "https://www.producthunt.com/products/memory-chess"
     },
     {
-     "title": "Apple HomeView",
-     "url": "https://www.producthunt.com/products/apple"
+     "title": "Tesla Roadster",
+     "url": "https://www.producthunt.com/products/tesla-roadster"
     }
    ]
   },
@@ -160,16 +160,16 @@
    "status": "ok",
    "count": 3,
    "message": "20 topics",
-   "elapsed_s": 0.9,
-   "probe_at": "2026-10-16T09:32:42+08:00",
+   "elapsed_s": 0.8,
+   "probe_at": "2026-10-17T14:06:22+08:00",
    "sample": [
     {
-     "title": "第一个独立上线的 Web 站：用 3 天做了个 Rumpelstiltskin 踮脚舞 AI 视频生成器，记录一下踩过的坑",
-     "url": "https://www.v2ex.com/t/1249185"
+     "title": "NanaZip Rev - NanaZip 社区分支，新增主题切换与代码页切换",
+     "url": "https://www.v2ex.com/t/1249464"
     },
     {
-     "title": "remoteAI 应用算法工程师（多模态 / Agent 方向）//AI 研发工程师//\r\nagent 架构师",
-     "url": "https://www.v2ex.com/t/1249180"
+     "title": "AI 全栈开发工程师（后端 Go 方向）",
+     "url": "https://www.v2ex.com/t/1249442"
     }
    ]
   },
@@ -181,17 +181,17 @@
    "group": "中文社媒",
    "status": "ok",
    "count": 3,
-   "message": "16 videos",
-   "elapsed_s": 0.9,
-   "probe_at": "2026-10-16T09:32:43+08:00",
+   "message": "6 videos",
+   "elapsed_s": 0.6,
+   "probe_at": "2026-10-17T14:06:23+08:00",
    "sample": [
     {
      "title": "一分钱不花，完成独立产品从0上线！2026年独立开发者免费全家桶",
      "url": "https://www.bilibili.com/video/BV1sFWA6VEgC"
     },
     {
-     "title": "独立开发赚了500W后，我想给你这些建议！",
-     "url": "https://www.bilibili.com/video/BV1LnAHeSEqJ"
+     "title": "第一个独立游戏上线两周，零宣发能赚到多少钱？",
+     "url": "https://www.bilibili.com/video/BV19zpt6fEk9"
     }
    ]
   },
@@ -201,21 +201,12 @@
    "adapter": "onec7",
    "auth": "none",
    "group": "中文名录",
-   "status": "ok",
-   "count": 3,
-   "message": "9 entries · 收录日 9",
-   "elapsed_s": 2.8,
-   "probe_at": "2026-10-16T09:32:46+08:00",
-   "sample": [
-    {
-     "title": "Indie Hacker",
-     "url": "https://www.indiehackers.com/"
-    },
-    {
-     "title": "Failory",
-     "url": "https://www.failory.com/"
-    }
-   ]
+   "status": "error",
+   "count": 0,
+   "message": "ERR: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>",
+   "elapsed_s": 2.1,
+   "probe_at": "2026-10-17T14:06:25+08:00",
+   "sample": []
   },
   {
    "channel_id": "exa_discovery",
@@ -226,16 +217,16 @@
    "status": "ok",
    "count": 3,
    "message": "8 results",
-   "elapsed_s": 6.6,
-   "probe_at": "2026-10-16T09:32:53+08:00",
+   "elapsed_s": 11.0,
+   "probe_at": "2026-10-17T14:06:36+08:00",
    "sample": [
     {
-     "title": "\"ORBIT: Bingo Roguelite, a strategy roguelite on a bingo card from a one-person ",
-     "url": "https://www.gamespress.com/ORBIT-Bingo-Roguelite-a-strategy-roguelite-on-a-bingo-card-from-a-one-"
+     "title": "\"Dupery: A Game Of Solo Deduction Out Now On Steam\" - Games Press",
+     "url": "https://www.gamespress.com/Dupery-A-Game-Of-Solo-Deduction-Out-Now-On-Steam"
     },
     {
-     "title": "\"Echoes of the Unread Brings Enchanted Musical Adventure to Steam and NES Today\"",
-     "url": "https://www.gamespress.com/Echoes-of-the-Unread-Brings-Enchanted-Musical-Adventure-to-Steam-and-N"
+     "title": "\"Narrative Card-driven RPG Alice Nation out now on Steam\" - Games Press",
+     "url": "https://www.gamespress.com/Narrative-Card-driven-RPG-Alice-Nation-out-now-on-Steam"
     }
    ]
   },
@@ -247,9 +238,9 @@
    "group": "海外社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 16s\nok: false\nerr",
-   "elapsed_s": 50.1,
-   "probe_at": "2026-10-16T09:33:43+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 22s\nok: false\nerr",
+   "elapsed_s": 40.9,
+   "probe_at": "2026-10-17T14:07:17+08:00",
    "sample": []
   },
   {
@@ -261,11 +252,11 @@
    "status": "ok",
    "count": 1,
    "message": "1 items（1 路查询）",
-   "elapsed_s": 35.4,
-   "probe_at": "2026-10-16T09:34:18+08:00",
+   "elapsed_s": 26.3,
+   "probe_at": "2026-10-17T14:07:43+08:00",
    "sample": [
     {
-     "title": "独立开发小程序打卡｜日活下滑，有点焦虑了",
+     "title": "国内个人开发者只剩一条出路",
      "url": ">-"
     }
    ]
@@ -279,8 +270,8 @@
    "declared": "ok",
    "delta": true,
    "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 20.2,
-   "probe_at": "2026-10-16T09:34:58+08:00"
+   "elapsed_s": 20.1,
+   "probe_at": "2026-10-17T14:08:23+08:00"
   },
   {
    "backend": "arctic_shift",
@@ -289,8 +280,8 @@
    "declared": null,
    "delta": false,
    "message": "1 rows",
-   "elapsed_s": 1.5,
-   "probe_at": "2026-10-16T09:35:00+08:00"
+   "elapsed_s": 1.6,
+   "probe_at": "2026-10-17T14:08:24+08:00"
   },
   {
    "backend": "exa_web_fetch",
@@ -299,8 +290,8 @@
    "declared": "warn",
    "delta": false,
    "message": "1 url 返回正文",
-   "elapsed_s": 3.8,
-   "probe_at": "2026-10-16T09:35:03+08:00"
+   "elapsed_s": 6.0,
+   "probe_at": "2026-10-17T14:08:30+08:00"
   },
   {
    "backend": "github_gh",
@@ -308,16 +299,16 @@
    "status": "ok",
    "declared": "warn",
    "delta": false,
-   "message": "remaining=4974",
-   "elapsed_s": 1.1,
-   "probe_at": "2026-10-16T09:35:05+08:00"
+   "message": "remaining=5000",
+   "elapsed_s": 1.2,
+   "probe_at": "2026-10-17T14:08:32+08:00"
   }
  ],
  "summary": {
   "total": 13,
-  "ok": 12,
+  "ok": 11,
   "empty": 0,
-  "error": 0,
+  "error": 1,
   "auth": 1
  },
  "decisions": [
@@ -368,8 +359,8 @@
   },
   {
    "channel_id": "c1c7",
-   "action": "keep",
-   "status": "ok"
+   "action": "review",
+   "status": "error"
   },
   {
    "channel_id": "exa_discovery",
@@ -389,7 +380,7 @@
  ],
  "agent_reach": {
   "ok": true,
-  "checked_at": "2026-10-16T09:34:38+08:00"
+  "checked_at": "2026-10-17T14:08:03+08:00"
  },
  "deltas": [
   {
@@ -399,8 +390,8 @@
    "declared": "ok",
    "delta": true,
    "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 20.2,
-   "probe_at": "2026-10-16T09:34:58+08:00"
+   "elapsed_s": 20.1,
+   "probe_at": "2026-10-17T14:08:23+08:00"
   }
  ]
 }

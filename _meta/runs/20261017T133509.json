@@ -1,0 +1,149 @@
+{
+ "run_id": "20261017T133509",
+ "started_at": "2026-10-17T13:35:09+08:00",
+ "ended_at": "2026-10-17T13:43:43+08:00",
+ "elapsed_s": 513.8,
+ "channels": [
+  {
+   "source_id": "hn_show",
+   "name": "HN Show HN",
+   "status": "ok",
+   "count": 40,
+   "message": "40/40 hits | new=40 chg=0",
+   "elapsed_s": 98.8,
+   "new": 40,
+   "changed": 0,
+   "raw": 40
+  },
+  {
+   "source_id": "reddit",
+   "name": "Reddit 独立开发版块",
+   "status": "ok",
+   "count": 22,
+   "message": "22 posts;  | new=22 chg=0",
+   "elapsed_s": 85.4,
+   "new": 22,
+   "changed": 0,
+   "raw": 22
+  },
+  {
+   "source_id": "github_new",
+   "name": "GitHub 新星仓库",
+   "status": "ok",
+   "count": 13,
+   "message": "28 repos;  | 写盘 11/13 | new=0 chg=11",
+   "elapsed_s": 9.3,
+   "new": 0,
+   "changed": 11,
+   "raw": 13
+  },
+  {
+   "source_id": "betalist",
+   "name": "BetaList",
+   "status": "ok",
+   "count": 12,
+   "message": "12 startups · 发布日 12/12 | new=11 chg=1",
+   "elapsed_s": 8.8,
+   "new": 11,
+   "changed": 1,
+   "raw": 12
+  },
+  {
+   "source_id": "indiehackers",
+   "name": "Indie Hackers 产品库",
+   "status": "ok",
+   "count": 20,
+   "message": "21 products | 写盘 13/20 | new=8 chg=5",
+   "elapsed_s": 18.9,
+   "new": 8,
+   "changed": 5,
+   "raw": 20
+  },
+  {
+   "source_id": "devto",
+   "name": "dev.to",
+   "status": "ok",
+   "count": 3,
+   "message": "3 articles | 写盘 0/3 | new=0 chg=0",
+   "elapsed_s": 10.2,
+   "new": 0,
+   "changed": 0,
+   "raw": 3
+  },
+  {
+   "source_id": "producthunt",
+   "name": "Product Hunt",
+   "status": "ok",
+   "count": 30,
+   "message": "30 entries | new=29 chg=1",
+   "elapsed_s": 1.9,
+   "new": 29,
+   "changed": 1,
+   "raw": 30
+  },
+  {
+   "source_id": "v2ex",
+   "name": "V2EX",
+   "status": "ok",
+   "count": 14,
+   "message": "82 topics | 写盘 7/14 | new=5 chg=2",
+   "elapsed_s": 19.3,
+   "new": 5,
+   "changed": 2,
+   "raw": 14
+  },
+  {
+   "source_id": "bilibili",
+   "name": "B 站",
+   "status": "ok",
+   "count": 10,
+   "message": "33 videos | new=2 chg=8",
+   "elapsed_s": 3.2,
+   "new": 2,
+   "changed": 8,
+   "raw": 10
+  },
+  {
+   "source_id": "c1c7",
+   "name": "1c7 中文独立开发者名录",
+   "status": "ok",
+   "count": 7,
+   "message": "17 entries · 收录日 17 | 写盘 2/7 | new=0 chg=2",
+   "elapsed_s": 20.3,
+   "new": 0,
+   "changed": 2,
+   "raw": 7
+  },
+  {
+   "source_id": "twitter",
+   "name": "X / Twitter",
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 15s\nok: false\nerr | new=0 chg=0",
+   "elapsed_s": 51.8,
+   "new": 0,
+   "changed": 0,
+   "raw": 0
+  },
+  {
+   "source_id": "xiaohongshu",
+   "name": "小红书",
+   "status": "ok",
+   "count": 1,
+   "message": "1 items（3 路查询） | new=0 chg=1",
+   "elapsed_s": 101.1,
+   "new": 0,
+   "changed": 1,
+   "raw": 1
+  }
+ ],
+ "notes_written": 148,
+ "errors": [],
+ "total_items": 172,
+ "total_new": 117,
+ "dry": false,
+ "rule_dropped": 38,
+ "write_errors": 0,
+ "body_cache_pruned": 0,
+ "finish_errors": []
+}

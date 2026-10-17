@@ -8,7 +8,7 @@ url: "https://github.com/storytold/wordcraft"
 project_url: "https://getartcraft.com/apps/wordcraft"
 author: "storytold"
 published_at: "2026-10-07T08:34:24Z"
-captured_at: "2026-10-16T09:37:25+08:00"
+captured_at: "2026-10-17T13:38:15+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - Rust
-  - created:>2026-10-02
-metrics: {"stars": 13210, "forks": 3397, "open_issues": 1061}
+  - created:>2026-10-03
+metrics: {"stars": 13725, "forks": 3574, "open_issues": 1354}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/storytold/wordcraft>
-> 指标：stars=13210 · forks=3397 · open_issues=1061
+> 指标：stars=13725 · forks=3574 · open_issues=1354
 > 作者：storytold　|　发布：2026-10-07T08:34:24Z
 > 项目链接：<https://getartcraft.com/apps/wordcraft>
-> 采集：2026-10-16T09:37:25+08:00　|　id：`69e423048d360d50`
+> 采集：2026-10-17T13:38:15+08:00　|　id：`69e423048d360d50`
 
 ## 正文
 

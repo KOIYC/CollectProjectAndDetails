@@ -2,14 +2,14 @@
 type: "project"
 title: "storytold/cadcraft"
 project_url: "https://github.com/storytold/cadcraft"
-first_seen: "2026-10-16T09:37:25+08:00"
+first_seen: "2026-10-17T13:38:15+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - Rust
-  - created:>2026-10-02
+  - created:>2026-10-03
 lang: "en"
 ---
 
@@ -20,16 +20,17 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/storytold/cadcraft>
-> 首次收录：2026-10-16T09:37:25+08:00
+> 首次收录：2026-10-17T13:38:15+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：Rust, created:>2026-10-02
-> 最新指标：stars=5156 · forks=2287 · open_issues=596
+> 标签：Rust, created:>2026-10-03
+> 最新指标：stars=5433 · forks=2394 · open_issues=677
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-10-16T09:37:25+08:00 | GitHub 新星仓库 | stars=5156 · forks=2287 · open_issues=596 | [[20-语料/posts/github_new/2026-10-16/3ddd7645860fd7eb_storytold-cadcraft]] |
+| 2026-10-17T13:38:15+08:00 | GitHub 新星仓库 | stars=5433 · forks=2394 · open_issues=677 | [[20-语料/posts/github_new/2026-10-16/3ddd7645860fd7eb_storytold-cadcraft]] |
 
 ## 摘要正文
 

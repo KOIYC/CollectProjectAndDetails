@@ -1,33 +1,33 @@
 {
-  "generated": "2026-10-16T10:00:59+08:00",
-  "n_live": 2809,
-  "n_usable": 2491,
-  "n_project": 2232,
-  "signals": 62,
+  "generated": "2026-10-17T13:54:36+08:00",
+  "n_live": 2926,
+  "n_usable": 2595,
+  "n_project": 2325,
+  "signals": 64,
   "topics": [
     [
       "AI 工具/Agent",
-      1572
+      1628
     ],
     [
       "开发者工具",
-      509
+      532
     ],
     [
       "未分类",
-      224
+      235
     ],
     [
       "游戏",
-      69
+      74
     ],
     [
       "移动 App",
-      39
+      44
     ],
     [
       "SaaS/B2B",
-      39
+      43
     ],
     [
       "内容/媒体",
@@ -101,6 +101,22 @@
       }
     },
     {
+      "key": "host:play.google.com",
+      "channels": [
+        "hn_show",
+        "indiehackers",
+        "reddit"
+      ],
+      "n_channels": 3,
+      "title": "How I went from a Word document to my own local-first password manager for Android",
+      "url": "https://play.google.com/store/apps/details?id=com.nick.applab.silentsaver",
+      "metrics": {
+        "score": 3,
+        "comments": 3,
+        "upvote_ratio": 1
+      }
+    },
+    {
       "key": "host:v2ex.com",
       "channels": [
         "c1c7",
@@ -153,25 +169,10 @@
         "comments": 2,
         "engagement_velocity": 6
       }
-    },
-    {
-      "key": "host:play.google.com",
-      "channels": [
-        "indiehackers",
-        "reddit"
-      ],
-      "n_channels": 2,
-      "title": "How I went from a Word document to my own local-first password manager for Android",
-      "url": "https://play.google.com/store/apps/details?id=com.nick.applab.silentsaver",
-      "metrics": {
-        "score": 3,
-        "comments": 3,
-        "upvote_ratio": 1
-      }
     }
   ],
-  "money_signal_n": 1126,
-  "money_evidence_n": 403,
+  "money_signal_n": 1168,
+  "money_evidence_n": 417,
   "money_quotes": [
     {
       "source": "betalist",
@@ -247,18 +248,18 @@
     }
   ],
   "pain_n": {
-    "当前方案不好用": 86,
-    "在找替代品": 56,
-    "做不出来/卡住": 106,
-    "愿意付钱": 60,
+    "当前方案不好用": 90,
+    "在找替代品": 57,
+    "做不出来/卡住": 108,
+    "愿意付钱": 63,
     "想要而找不到": 10
   },
   "by_channel": [
     {
       "id": "betalist",
       "profile": "linkpost",
-      "n": 170,
-      "ok": 170,
+      "n": 181,
+      "ok": 181,
       "rate": 1.0
     },
     {
@@ -271,30 +272,30 @@
     {
       "id": "producthunt",
       "profile": "linkpost",
-      "n": 328,
-      "ok": 322,
-      "rate": 0.9817073170731707
+      "n": 357,
+      "ok": 351,
+      "rate": 0.9831932773109243
     },
     {
       "id": "indiehackers",
       "profile": "linkpost",
-      "n": 128,
-      "ok": 125,
-      "rate": 0.9765625
+      "n": 136,
+      "ok": 133,
+      "rate": 0.9779411764705882
     },
     {
       "id": "bilibili",
       "profile": "metadata",
-      "n": 62,
-      "ok": 59,
-      "rate": 0.9516129032258065
+      "n": 64,
+      "ok": 61,
+      "rate": 0.953125
     },
     {
       "id": "hn_show",
       "profile": "discussion",
-      "n": 1479,
-      "ok": 1396,
-      "rate": 0.9438810006761326
+      "n": 1519,
+      "ok": 1434,
+      "rate": 0.9440421329822252
     },
     {
       "id": "devto",
@@ -320,24 +321,24 @@
     {
       "id": "v2ex",
       "profile": "discussion",
-      "n": 106,
-      "ok": 75,
-      "rate": 0.7075471698113207
+      "n": 111,
+      "ok": 80,
+      "rate": 0.7207207207207207
     },
     {
       "id": "reddit",
       "profile": "discussion",
-      "n": 409,
-      "ok": 248,
-      "rate": 0.6063569682151589
+      "n": 431,
+      "ok": 260,
+      "rate": 0.6032482598607889
     },
     {
       "id": "c1c7",
       "profile": "project",
       "n": 7,
-      "ok": 4,
-      "rate": 0.5714285714285714
+      "ok": 3,
+      "rate": 0.42857142857142855
     }
   ],
-  "body_median": 1865
+  "body_median": 1841
 }

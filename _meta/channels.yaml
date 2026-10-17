@@ -267,7 +267,12 @@ channels:
       # 备选（实测可用但更慢）：fastly.jsdelivr.net 43.8s、gcore.jsdelivr.net 9.4s。
       # 不可用（实测）：testingcf.jsdelivr.net（10054）、raw.githack.com（10060）。
       # 复活条件：raw.githubusercontent.com TLS 恢复正常后可换回（每轮由 kb_audit 探针复检）。
-      readme: https://cdn.jsdelivr.net/gh/1c7/chinese-independent-developer@master/README.md
+      # 2026-10-17 二次换源：**cdn.jsdelivr.net 亦被同一类 TLS 干扰**（TCP ok 0.71s / TLS handshake timeout，
+      # HTTP 10054；三层探针 + 对照 api.github.com（TLSv1.3 200 / 0.31s）证明是主机级而非出口整体）。
+      # 实测候选：gcore.jsdelivr.net 2.6s / 489519B **与 ghproxy.net 逐字节一致** → 采用 gcore；
+      # ghproxy.net 3.7s 可用（备选）；fastly（10054）、testingcf（10054）、cdn.statically.io（10060）、
+      # gitcdn.link（10060）、raw.gitmirror.com（DNS 失败）均不可用。
+      readme: https://gcore.jsdelivr.net/gh/1c7/chinese-independent-developer@master/README.md
     status: ok
     last_verified: '2026-10-01'
     note: >-
@@ -502,27 +507,29 @@ channels:
 # 每次跑完内容审计更新本段；数字是「可用/条目」，取自 00-索引/内容审计-all.md。
 
 content_gate:
-  audited_at: '2026-10-16'
-  overall: '2493/2809（89%）'
+  audited_at: '2026-10-17'
+  overall: '2597/2926（89%）'
   rows:
-    - {id: producthunt, ratio: '322/328', verdict: keep}
-    - {id: betalist, ratio: '170/170', verdict: keep}
+    - {id: producthunt, ratio: '351/357', verdict: keep}
+    - {id: betalist, ratio: '181/181', verdict: keep}
     - {id: devto, ratio: '14/16', verdict: keep,
        note: n=16 小样本；标题 require_any 曾把样本全过滤（0 条 = 杀渠道），已回退为「少量标题排除 + limit 降量」}
-    - {id: bilibili, ratio: '59/62', verdict: keep,
+    - {id: bilibili, ratio: '61/64', verdict: keep,
        note: 95%。2026-10-10：曾出现采集端 0 videos（探针同轮 ok）→ 调查确认 B 站搜索 API 实测健康
        （code=0 / 20 results / play>3000 有货）→ 判为**瞬态 WBI 风控空返回**，非渠道腐化。B 站是**累计搜索型渠道、无时间窗口**，
        本轮不补也无数据丢失（同 c1c7 判据），保持 enabled。2026-10-16 正常（8 条 / new 3，丢弃 4/12=33%「无主题词」）}
-    - {id: indiehackers, ratio: '125/128', verdict: keep}
-    - {id: hn_show, ratio: '1396/1479', verdict: keep,
+    - {id: indiehackers, ratio: '133/136', verdict: keep}
+    - {id: hn_show, ratio: '1434/1519', verdict: keep,
        note: 94%。大厂产品假阳性已修（Show HN 标题自述的条目不再因提到 Stripe/Google 被判「大厂产品」）；
        主要残余是视频帖无正文（结构性，记死信）与 Exa 截断 36。2026-10-16 丢弃 1/40（排除:URL），无误杀}
     - {id: github_new, ratio: '58/78', verdict: keep,
        note: 74%。噪声是 awesome-*/directory/clone/wiki/journal 类资源清单（标题规则已排除，见 rule_drops）。
        2026-10-11：体检探针报 error（0 repos / 44.5s，gh search 网络层 GET 错误），单渠道复检 **ok（3 repos / 4.4s）**
        + 三层探针（api.github.com TCP 0.15s / TLS 0.27s 正常）→ 判**瞬态网络层错误**，非渠道腐化；同轮采集取到 13 条为铁证。
-       2026-10-16 丢弃 14/28（50%，未过 70 线）：7 条标题（journal/awesome-*/clone/directory）+ 7 条无主题词，逐条核对无误杀}
-    - {id: v2ex, ratio: '75/106', verdict: keep,
+       2026-10-16 丢弃 14/28（50%，未过 70 线）：7 条标题（journal/awesome-*/clone/directory）+ 7 条无主题词，逐条核对无误杀。
+       2026-10-17 体检再报 error（`gh search` 90.8s 超时，`github_gh` 后端复检 timeout>45s）→ 三层探针对照
+       `api.github.com` **/search/repositories 实测 200（7.37s，慢但通）**，且**同轮采集取到 13 条 / 写盘 11** ⇒ 瞬态链路慢，保持 enabled}
+    - {id: v2ex, ratio: '80/111', verdict: keep,
        note: 71%。主要噪声是「NAS 必装 Docker 推荐」类资源帖；rules.yaml 已排招聘/求职/求助。
        2026-10-16 丢弃 10/25（40%）：7 条标题（招聘/求职为主）+ 3 条无主题词，无误杀。
        ⚠ 待评估：v2ex 自述发布帖（「做了/做了一个/做了个…」）被主题词门滤掉（如「做了一个 Durable Agent Harness
@@ -530,15 +537,19 @@ content_gate:
        处置方案需先做「小样本模拟 + 看剩余条数」两步校验，不在本轮动规则}
     - {id: exa_discovery, ratio: '19/25', verdict: keep,
        note: 76%，小样本（weekly_only，非周一不跑）。1 条「Respira Exhale」疑误杀 n=1，未到动手阈值}
-    - {id: reddit, ratio: '248/409', verdict: limit_reduced,
+    - {id: reddit, ratio: '260/431', verdict: limit_reduced,
        note: 61%（全库最低）。已把 limit 40→30 控量（标题过滤模拟到 88% 但丢 29 条可用帖，代价大于收益，不采纳）。
        窗口外移 settle_days=10 / window_days=14 后近两周语料抓不到（见渠道 note），审计口径与采集口径要一起看。
        2026-10-16：源站正常（探针 ok / 3 posts，19 条 / new 19）→ 维持 limit_reduced}
-    - {id: c1c7, ratio: '6/7', verdict: keep,
+    - {id: c1c7, ratio: '5/7', verdict: keep,
        note: 2026-10-16 6/7（n=7 小样本，报可用率要连 n 一起报）。本轮采集 error（WinError 10054 / 1.8s）：
        体检探针同轮 ok（9 entries / 2.8s），镜像对照实验显示 `cdn.jsdelivr.net` **间歇可用（好窗口 6/8、坏窗口 0/8）**，
        且 `raw`/`gcore`/`fastly` 三个镜像同批 0/8 → 判**镜像可用性波动（链路层 TLS 重置）**，非渠道腐化。
-       累积型名录无时间窗口 ⇒ 本轮不补无数据丢失。详见 `backends` 段}
+       累积型名录无时间窗口 ⇒ 本轮不补无数据丢失。详见 `backends` 段。
+       2026-10-17 5/7（71%，n=7）。本轮再遇 10054：三层探针 TCP ok 0.71s / **TLS handshake timeout**、
+       对照 api.github.com TLS1.3 200/0.31s 正常 → 仍是 CDN 家族主机级干扰；**gcore.jsdelivr.net 实测 200/489519B/2.6s
+       且与 ghproxy.net 逐字节一致**（10-16 时 gcore 还 0/8）→ 换 gcore 后单渠道复检 ok/9 entries，采集取到 7 条。
+       ⇒ **该 CDN 是窗口轮转，每次坏窗口都要重新用探针挑镜像，不要以为换过一次就一劳永逸**}
 
 # ---------------- 后端可用性订正（实测，会被 kb_audit 复检） ----------------
 backends:
@@ -591,7 +602,7 @@ backends:
   - id: jsdelivr_cdn
     use: c1c7 名录 README 取数源（现用镜像）
     status: unstable
-    verified: '2026-10-16'
+    verified: '2026-10-17'
     evidence: >-
       **间歇可用**：同一小时内实测出现「好窗口」与「坏窗口」两种状态 ——
       好窗口 `cdn.jsdelivr.net` 6/8 成功（中位 0.87s）且 adapter 连调 6/6 ok（17 entries）；
@@ -603,6 +614,12 @@ backends:
       表现：kb_audit 探针 `ok / 9 entries / 2.8s`，而同轮 kb_collect 报 `10054 / 1.8s`（连续 3 次，含单渠道复跑）。
       **同源核实**：把 `kb_collect` 与新进程分别调用同一个 `ad_onec7`，两者在同一时刻**同时失败** → 排除了
       「采集进程状态差异」，确认是**时间窗口**问题（早期 6/6 成功与后期 0/6 失败各成一段）。
+      **2026-10-17 复检（窗口轮转再证）**：`cdn.jsdelivr.net` TCP ok 0.71s 但 **TLS handshake timeout**、HTTP 10054；
+      `raw.githubusercontent.com` TCP ok 0.10s + TLS 10054；对照 `api.github.com` **TLSv1.3 / 200 / 0.31s 正常**
+      ⇒ 仍是该 CDN 家族的**主机级** TLS 干扰（非出口整体故障）。
+      同批换 `gcore.jsdelivr.net` → **200 / 489519B / 2.6s，与 ghproxy.net 逐字节一致**（10-16 时 gcore 为 0/8）
+      ⇒ 证实是**窗口轮转而非某一主机永久坏掉**：镜像选择每一轮都应由探针重新裁决，不要以为换过就一劳永逸。
+      已把 `params.readme` 指向 gcore 并单渠道复检 `ok / 9 entries / 2.0s`（端到端通过）。
     limit: >-
       间歇性链路重置；c1c7 是**累积型名录（无时间窗口）** ⇒ 单个坏窗口不补也无数据丢失，
       下轮自动恢复即可，**不要因此停用渠道**。`http_get` 现为 `retries=1`（2 次尝试），

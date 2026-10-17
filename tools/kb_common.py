@@ -1259,6 +1259,21 @@ def del_fm_scalar(head: str, key: str) -> str:
     return re.sub(rf"^{key}:.*\n?", "", head, count=1, flags=re.M)
 
 
+def md_link_safe(text: str) -> str:
+    """把**原始内容里自带的字面 `[[...]]`** 转义，避免被 Obsidian 当成 wikilink。
+
+    为什么需要：语料正文本身可能含 wikilink 语法（实测 HN 标题
+    "CLIMB — a [[slopcore]] production"、README 的 `[[keys.command]]` 键位表）。
+    原样写进 note 的「正文 / 摘要正文」段落 → Obsidian 解析成链接 → healthcheck ④ 断链，
+    且这些「链接」永远修不好（目标页不存在，也不该存在）。
+
+    只在**正文类段落**用，不要用在「导航」段和观测历史表（那里的 `[[...]]` 是真链接）。
+    转义只影响 note 渲染，`90-原始/` 不动 —— 原文按原样保留在 raw 里。
+    """
+    return re.sub(r"(?<!\\)\[\[([^\[\]\n]{1,120})\]\](?!\])",
+                  lambda m: f"\\[[{m.group(1)}\\]]", text)
+
+
 def write_note(path: Path, frontmatter: dict, body: str) -> None:
     fm = ["---"]
     for k, v in frontmatter.items():

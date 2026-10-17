@@ -8,7 +8,7 @@ url: "https://github.com/storytold/cadcraft"
 project_url: "https://github.com/storytold/cadcraft"
 author: "storytold"
 published_at: "2026-10-07T05:22:31Z"
-captured_at: "2026-10-16T09:37:25+08:00"
+captured_at: "2026-10-17T13:38:15+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - Rust
-  - created:>2026-10-02
-metrics: {"stars": 5156, "forks": 2287, "open_issues": 596}
+  - created:>2026-10-03
+metrics: {"stars": 5433, "forks": 2394, "open_issues": 677}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/storytold/cadcraft>
-> 指标：stars=5156 · forks=2287 · open_issues=596
+> 指标：stars=5433 · forks=2394 · open_issues=677
 > 作者：storytold　|　发布：2026-10-07T05:22:31Z
 > 项目链接：<https://github.com/storytold/cadcraft>
-> 采集：2026-10-16T09:37:25+08:00　|　id：`3ddd7645860fd7eb`
+> 采集：2026-10-17T13:38:15+08:00　|　id：`3ddd7645860fd7eb`
 
 ## 正文
 

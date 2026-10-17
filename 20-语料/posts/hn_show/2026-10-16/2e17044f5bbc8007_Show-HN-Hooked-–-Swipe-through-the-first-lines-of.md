@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=50106849"
 project_url: "https://hooked.boondoggle.studio/"
 author: "DJSnackySnack"
 published_at: "2026-10-15T17:12:24Z"
-captured_at: "2026-10-16T09:52:04+08:00"
+captured_at: "2026-10-17T13:46:22+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=4 · 评论=3 · engagement_velocity=4
 > 作者：DJSnackySnack　|　发布：2026-10-15T17:12:24Z
 > 项目链接：<https://hooked.boondoggle.studio/>
-> 采集：2026-10-16T09:52:04+08:00　|　id：`2e17044f5bbc8007`
+> 采集：2026-10-17T13:46:22+08:00　|　id：`2e17044f5bbc8007`
 
 ## 正文
 
@@ -67,7 +67,9 @@ Press Esc to return to the excerpt.Tap “Back to excerpt” to return.
 
 Done
 
-# Looking for a software developer! : r/SaaS
+Error fetching https://prologwaf.site/: CRAWL_LIVECRAWL_TIMEOUT
+Error fetching https://i.redd.it/tvpqkprrczth1.png: CRAWL_LIVECRAWL_TIMEOUT
+Error fetching https://i.redd.it/ksbao0kd1zth1.png: CRAWL_LIVECRAWL_TIMEOUT
 
 ## 评论（3/3）
 
@@ -83,6 +85,12 @@ Done
 
 > **DJSnackySnack** · 2026-10-15T17:16:23.000Z　
 > That's awesome to hear, glad you're enjoying it!
+
+## 关联链接
+
+- https://i.redd.it/ksbao0kd1zth1.png:
+- https://i.redd.it/tvpqkprrczth1.png:
+- https://prologwaf.site/:
 
 ## 导航
 

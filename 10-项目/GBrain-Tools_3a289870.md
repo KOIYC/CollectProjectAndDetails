@@ -1,0 +1,35 @@
+---
+type: "project"
+title: "GBrain Tools"
+project_url: "https://www.producthunt.com/products/gbrain"
+first_seen: "2026-10-17T13:39:02+08:00"
+sources:
+  - producthunt
+tags:
+  - 项目
+  - producthunt
+lang: "en"
+---
+
+# GBrain Tools
+
+> [!info] 一句话导读
+> A password manager for AI
+
+> [!meta]- 项目信息（点开展开）
+> 项目链接：<https://www.producthunt.com/products/gbrain>
+> 首次收录：2026-10-17T13:39:02+08:00
+> 来源渠道：Product Hunt
+> 标签：—
+> 最新指标：—
+
+## 观测历史
+
+| 采集时间 | 渠道 | 指标 | 语料 |
+|---|---|---|---|
+| 2026-09-25T00:03:58+08:00 | Product Hunt | — | [[20-语料/posts/producthunt/2026-09-24/3a289870737bf184_GBrain-Tools]] |
+| 2026-10-17T13:39:02+08:00 | Product Hunt | — | [[20-语料/posts/producthunt/2026-09-24/3a289870737bf184_GBrain-Tools]] |
+
+## 摘要正文
+
+A password manager for AI   Discussion  |  Link

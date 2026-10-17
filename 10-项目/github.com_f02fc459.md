@@ -2,14 +2,14 @@
 type: "project"
 title: "openai/math"
 project_url: "https://github.com/openai/math"
-first_seen: "2026-10-16T09:37:25+08:00"
+first_seen: "2026-10-17T13:38:15+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - Lean
-  - created:>2026-10-02
+  - created:>2026-10-03
 lang: "en"
 ---
 
@@ -20,10 +20,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/openai/math>
-> 首次收录：2026-10-16T09:37:25+08:00
+> 首次收录：2026-10-17T13:38:15+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：Lean, created:>2026-10-02
-> 最新指标：stars=14948 · forks=1714 · open_issues=0
+> 标签：Lean, created:>2026-10-03
+> 最新指标：stars=15048 · forks=1733 · open_issues=0
 
 ## 观测历史
 
@@ -32,6 +32,7 @@ lang: "en"
 | 2026-10-10T10:00:54+08:00 | GitHub 新星仓库 | stars=13112 · forks=1426 · open_issues=0 | [[20-语料/posts/github_new/2026-10-10/f02fc4590b9cd78f_openai-math]] |
 | 2026-10-11T09:46:35+08:00 | GitHub 新星仓库 | stars=13695 · forks=1511 · open_issues=0 | [[20-语料/posts/github_new/2026-10-10/f02fc4590b9cd78f_openai-math]] |
 | 2026-10-16T09:37:25+08:00 | GitHub 新星仓库 | stars=14948 · forks=1714 · open_issues=0 | [[20-语料/posts/github_new/2026-10-10/f02fc4590b9cd78f_openai-math]] |
+| 2026-10-17T13:38:15+08:00 | GitHub 新星仓库 | stars=15048 · forks=1733 · open_issues=0 | [[20-语料/posts/github_new/2026-10-10/f02fc4590b9cd78f_openai-math]] |
 
 ## 摘要正文
 

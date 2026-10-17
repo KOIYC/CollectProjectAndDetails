@@ -97,7 +97,7 @@ Code blocks that respect identifiers
 Math, within reason
  TeX becomes Unicode: $E = mc^2$ renders as E = mc², \alpha \leq \beta as α ≤ β. Matrices and other things Unicode can't say are shown as source, honestly, instead of wrong.
 The extensions people actually use
- Tables, task lists, footnotes that link both ways, callouts with real icons, definition lists, [[wiki links]] , H~2~O, 2^10^, {#custom-ids} . Mermaid diagrams are shown as code. We're sorry. We're not that sorry.
+ Tables, task lists, footnotes that link both ways, callouts with real icons, definition lists, \[[wiki links\]] , H~2~O, 2^10^, {#custom-ids} . Mermaid diagrams are shown as code. We're sorry. We're not that sorry.
 Keyboard first
  Everything is a key away: zoom, themes, back, select all, copy, a help page on F1 . The mouse is welcome too. It just isn't required.
 # Weight class

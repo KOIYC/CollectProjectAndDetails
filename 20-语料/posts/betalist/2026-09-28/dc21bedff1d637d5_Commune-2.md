@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/commune-2"
 published_at: "2026-09-24"
-captured_at: "2026-10-10T10:01:34+08:00"
+captured_at: "2026-10-17T13:38:24+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-09-24
 > 项目链接：—
-> 采集：2026-10-10T10:01:34+08:00　|　id：`dc21bedff1d637d5`
+> 采集：2026-10-17T13:38:24+08:00　|　id：`dc21bedff1d637d5`
 
 ## 正文
 
@@ -71,11 +71,11 @@ Visit Site
 Makers
 Tim
 Topics
-Communities
 Startups
 Platforms
-Professional Networking
 Collaboration
+Professional Networking
+Communities
 Featured
 September 24, 2026
 Request changes
@@ -91,9 +91,9 @@ CommitFit
  Commit to fitness, compete with friends
 VibeCom
  Growth is too hard alone. Get an AI marketing team.
-WZRD
+MemoryPlugin
  BOOSTED
- Turn plain ideas into interactive docs, forms, and decks that converse
+ Long term memory for ALL your AI tools
  BOOSTED
 Capsemble
  Your AI-powered companion to plan, experience and relive every event.
@@ -101,9 +101,9 @@ ContentForge
  Repurpose long-form content into platform-native posts
 Pluggo
  Get notified when people discuss your space on Reddit, X, and more
-Adviserry
+Taupia
  BOOSTED
- Automatically get personalized actions from your YT/Pod/email subs
+ Track, compare, and switch UK household bills from one app
  BOOSTED
 Manifest
  Share goals privately with trusted circles and get help that moves you

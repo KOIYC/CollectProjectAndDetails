@@ -101,7 +101,7 @@ Tap at the end of this line and press Enter to continue the list
 
 Wiki links connect notes. Type [[ for autocomplete, and Cmd/Ctrl-click a rendered link to open it — inside inline code it stays raw:
 
-Labeled: [demo-project-atlas| Project Atlas] · Bare: [demo-meeting-notes] Meeting Notes · In code: [[demo-project-atlas]]
+Labeled: [demo-project-atlas| Project Atlas] · Bare: [demo-meeting-notes] Meeting Notes · In code: \[[demo-project-atlas\]]
 
 And the usual markdown
 

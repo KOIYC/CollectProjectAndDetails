@@ -31,7 +31,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 from kb_common import (BODY_MIN, CST, DIR_CHANNELS, DIR_CORPUS, DIR_METHOD, DIR_PEOPLE,  # noqa: E402
                        DIR_PROJECTS, DIR_RAW, META, BodyCache, FetchError, RunLog, Seen,
                        append_jsonl, body_completeness, ensure_dirs, is_project_ish, iso,
-                       load_channels_yaml, load_registry, norm_url, now_cst, note_bucket,
+                       load_channels_yaml, load_registry, md_link_safe, norm_url, now_cst, note_bucket,
                        pub_day_of, rotate_files, rotate_jsonl, sanitize_record, sha1, slugify, topic_of,
                        write_ledger, write_note)
 from kbc_channels import (ACCOUNT_URL_RE, ADAPTERS, ENRICH_ROUTING, FULLTEXT_BUDGET,  # noqa: E402,F401
@@ -252,7 +252,7 @@ def write_corpus_note(it: dict, day: str) -> Path:
         "",
     ]
     if body:
-        parts += ["## 正文", "", readable_body(body), ""]
+        parts += ["## 正文", "", md_link_safe(readable_body(body)), ""]
     if comments:
         parts += [f"## 评论（{len(comments)}/{it.get('comments_total')}"
                   f"{'，已截断' if it.get('comments_truncated') else ''}）", ""]
@@ -260,7 +260,7 @@ def write_corpus_note(it: dict, day: str) -> Path:
             head = (f"**{c.get('author') or '匿名'}**"
                     f"{f'（{c.get("score")} 分）' if c.get('score') is not None else ''}"
                     f"{f' · {c.get("created_at")}' if c.get('created_at') else ''}")
-            text = readable_body((c.get("text") or "").strip())
+            text = md_link_safe(readable_body((c.get("text") or "").strip()))
             blines = [f"> {ln}".rstrip() for ln in text.splitlines()] if text else []
             parts += [f"> {head}　"] + blines + ["", "---", ""]
         parts = parts[:-2]                                 # 最后一条评论后不留分隔线
@@ -350,7 +350,7 @@ def write_person_note(it: dict, corpus_rel: str | None,
         "| 采集时间 | 渠道 | 指标 | 语料 |", "|---|---|---|---|", *obs, "",
     ]
     if it.get("body"):
-        body += ["## 摘要正文", "", excerpt(readable_body(it["body"]), 1200), ""]
+        body += ["## 摘要正文", "", md_link_safe(excerpt(readable_body(it["body"]), 1200)), ""]
     fm = {"type": "person", "title": it["title"], "handle": it.get("author"),
           "profile_url": it.get("author_url") or it["url"], "first_seen": it["captured_at"],
           "sources": [it["source_id"]], "tags": ["人物", it["source_id"]] + (it.get("tags") or [])[:6],
@@ -394,7 +394,7 @@ def write_method_note(it: dict, corpus_rel: str | None,
         "| 采集时间 | 渠道 | 指标 | 语料 |", "|---|---|---|---|", *obs, "",
     ]
     if it.get("body"):
-        body += ["## 摘要正文", "", excerpt(readable_body(it["body"]), 1200), ""]
+        body += ["## 摘要正文", "", md_link_safe(excerpt(readable_body(it["body"]), 1200)), ""]
     fm = {"type": "method", "title": it["title"], "url": it["url"],
           "author": it.get("author"), "first_seen": it["captured_at"],
           "sources": [it["source_id"]],
@@ -458,7 +458,7 @@ def write_project_note(it: dict, corpus_rel: str | None,
         "| 采集时间 | 渠道 | 指标 | 语料 |", "|---|---|---|---|", *obs, "",
     ]
     if it.get("body"):
-        body += ["## 摘要正文", "", excerpt(readable_body(it["body"]), 1200), ""]
+        body += ["## 摘要正文", "", md_link_safe(excerpt(readable_body(it["body"]), 1200)), ""]
     fm = {"type": "project", "title": it["title"], "project_url": it.get("project_url") or it["url"],
           "first_seen": it["captured_at"], "sources": [it["source_id"]],
           "tags": ["项目", it["source_id"]] + (it.get("tags") or [])[:6], "lang": it["lang"]}

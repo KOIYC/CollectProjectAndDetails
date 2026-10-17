@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/indieneed"
 project_url: "https://indieneed.com/"
-captured_at: "2026-10-16T09:37:58+08:00"
+captured_at: "2026-10-17T13:38:36+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://indieneed.com/>
-> 采集：2026-10-16T09:37:58+08:00　|　id：`7499a58da86e9e31`
+> 采集：2026-10-17T13:38:36+08:00　|　id：`7499a58da86e9e31`
 
 ## 正文
 
@@ -42,9 +42,29 @@ Indie Need
  A free launch directory for indie products, SaaS and AI tool
 Visit Website
 Indie Need A free launch directory for indie products, SaaS and AI tool
- Posts 15
+ Posts 17
  Revenue $260 / mo
  Website
+October 16, 2026
+ Know What Brings Customers
+Stop guessing where your traffic comes from.
+ VisitorFast shows who visits your site, where they came from, what pages they view, which campaigns convert, and which channels actually generate revenue—all in one clean analytics dashboard. It also supports goals, funnels, real-time visitors, and payment attribution. Visitor Fast
+ Try it free for 7 days — no card required:
+ https://visitorfast.com/
+Rahul Ajmera
+8 Upvotes
+Comment
+October 16, 2026
+ Built It? Get It Seen.
+Your product is already live.
+Don’t let it stay hidden.
+ Submit your SaaS, AI tool, app, dev tool, or side project to IndieNeed and give more people a chance to discover it.
+ Free to submit. No big audience needed.
+ 👉 https://indieneed.com
+ If it’s live, list it today.
+Rahul Ajmera
+8 Upvotes
+Comment
 October 15, 2026
  Submit Your Product. Get Discovered.
 Your product doesn’t need 10,000 followers to deserve attention.
@@ -135,28 +155,6 @@ If your product is already live, don’t leave it sitting undiscovered.
 Rahul Ajmera
 15 Upvotes
 2 Comments
-October 10, 2026
- Built It? Get It Seen - Submit.
-If you’ve built something people can actually use, don’t keep it sitting in one corner of the internet.
- IndieNeed is open for SaaS products, AI tools, apps, developer tools, and side projects from independent makers.
- Submit it, give people a clear reason to try it, and add another place where your product can be discovered.
- Submit here → https://indieneed.com
- What are you shipping right now?
-Rahul Ajmera
-19 Upvotes
-Comment
-October 9, 2026
- What’s One Product You Wish More People Knew About?
-I’m looking for underrated products from independent builders to add to IndieNeed .
- Not the loudest launch.
-Not the biggest following.
-Just something genuinely useful.
- If you’ve built a SaaS, AI tool, app, dev tool, or side project, submit it here:
- https://indieneed.com
- Then drop the name below — I want to see what everyone is building.
-Rahul Ajmera
-58 Upvotes
-22 Comments
 About
  IndieNeed is a free directory where indie makers list their SaaS and AI tools. Every listing is reviewed by a real person, and makers pick their own launch date. Built by a solo founder for other solo founders.
  People
@@ -178,6 +176,7 @@ Databases
 - https://indieneed.com
 - https://indieneed.com/submit?utm_source=indie_hackers&utm_medium=social&utm_campaign=launch&utm_content=ih-indie_hackers-035
 - https://indieneed.com/submit?utm_source=indie_hackers&utm_medium=social&utm_campaign=launch&utm_content=ih-indie_hackers-037
+- https://visitorfast.com/
 - https://www.indieneed.com/
 
 ## 导航

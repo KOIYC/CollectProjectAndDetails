@@ -1,0 +1,26 @@
+{
+ "run_id": "20261017T132715",
+ "started_at": "2026-10-17T13:27:15+08:00",
+ "ended_at": "2026-10-17T13:28:33+08:00",
+ "elapsed_s": 77.9,
+ "channels": [
+  {
+   "source_id": "github_new",
+   "name": "GitHub 新星仓库",
+   "status": "error",
+   "count": 0,
+   "message": "0 repos; created:>2026-10-03 stars:>=: Get \"https://api.github.com/search/repositories?page=1&per_p",
+   "elapsed_s": 77.8
+  }
+ ],
+ "notes_written": 0,
+ "errors": [],
+ "mode": "audit",
+ "summary": {
+  "total": 13,
+  "ok": 8,
+  "empty": 1,
+  "error": 2,
+  "auth": 2
+ }
+}

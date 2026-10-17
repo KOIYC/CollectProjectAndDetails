@@ -5,7 +5,7 @@ title: "Kitedocs"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/kitedocs"
-captured_at: "2026-10-16T09:37:58+08:00"
+captured_at: "2026-10-17T13:38:36+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-10-16T09:37:58+08:00　|　id：`5c2f5a7d2979e829`
+> 采集：2026-10-17T13:38:36+08:00　|　id：`5c2f5a7d2979e829`
 
 ## 正文
 
@@ -63,7 +63,7 @@ where do you host your website?
 I also want to give those who answer free LIFETIME access to the PRO plan ($29/month, unlimited projects, 500 pages). All you need to do is to answer my questions and give me your email (to change the limits after you register for free), you can send it to info@kitedocs.com
 Aspiring Dev
 5 Upvotes
-2 Comments
+6 Comments
 About
  Every time when I started a new project I faced the problem of creating, organizing and hosting the documentation. Paid solutions are greedy, open-source are hard to use, and organizing docs under a folder is a nightmare
  People

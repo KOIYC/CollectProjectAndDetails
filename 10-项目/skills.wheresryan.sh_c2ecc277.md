@@ -2,14 +2,14 @@
 type: "project"
 title: "wheresryan22/anatomy"
 project_url: "https://skills.wheresryan.sh/anatomy"
-first_seen: "2026-10-16T09:37:25+08:00"
+first_seen: "2026-10-17T13:38:15+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - JavaScript
-  - created:>2026-10-02
+  - created:>2026-10-03
 lang: "en"
 ---
 
@@ -20,16 +20,17 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://skills.wheresryan.sh/anatomy>
-> 首次收录：2026-10-16T09:37:25+08:00
+> 首次收录：2026-10-17T13:38:15+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：JavaScript, created:>2026-10-02
-> 最新指标：stars=12815 · forks=928 · open_issues=20
+> 标签：JavaScript, created:>2026-10-03
+> 最新指标：stars=14138 · forks=1068 · open_issues=41
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-10-16T09:37:25+08:00 | GitHub 新星仓库 | stars=12815 · forks=928 · open_issues=20 | [[20-语料/posts/github_new/2026-10-16/673796e09e736161_wheresryan22-anatomy]] |
+| 2026-10-17T13:38:15+08:00 | GitHub 新星仓库 | stars=14138 · forks=1068 · open_issues=41 | [[20-语料/posts/github_new/2026-10-16/673796e09e736161_wheresryan22-anatomy]] |
 
 ## 摘要正文
 

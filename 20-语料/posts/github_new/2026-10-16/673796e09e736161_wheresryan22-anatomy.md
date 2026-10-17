@@ -8,7 +8,7 @@ url: "https://github.com/wheresryan22/anatomy"
 project_url: "https://skills.wheresryan.sh/anatomy"
 author: "wheresryan22"
 published_at: "2026-10-08T10:12:49Z"
-captured_at: "2026-10-16T09:37:25+08:00"
+captured_at: "2026-10-17T13:38:15+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - JavaScript
-  - created:>2026-10-02
-metrics: {"stars": 12815, "forks": 928, "open_issues": 20}
+  - created:>2026-10-03
+metrics: {"stars": 14138, "forks": 1068, "open_issues": 41}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/wheresryan22/anatomy>
-> 指标：stars=12815 · forks=928 · open_issues=20
+> 指标：stars=14138 · forks=1068 · open_issues=41
 > 作者：wheresryan22　|　发布：2026-10-08T10:12:49Z
 > 项目链接：<https://skills.wheresryan.sh/anatomy>
-> 采集：2026-10-16T09:37:25+08:00　|　id：`673796e09e736161`
+> 采集：2026-10-17T13:38:15+08:00　|　id：`673796e09e736161`
 
 ## 正文
 

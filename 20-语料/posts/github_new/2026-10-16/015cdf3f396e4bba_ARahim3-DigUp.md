@@ -8,7 +8,7 @@ url: "https://github.com/ARahim3/DigUp"
 project_url: "https://github.com/ARahim3/DigUp"
 author: "ARahim3"
 published_at: "2026-10-08T20:37:51Z"
-captured_at: "2026-10-16T09:37:25+08:00"
+captured_at: "2026-10-17T13:38:15+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - Swift
-  - created:>2026-10-02
-metrics: {"stars": 4120, "forks": 285, "open_issues": 84}
+  - created:>2026-10-03
+metrics: {"stars": 4365, "forks": 306, "open_issues": 93}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/ARahim3/DigUp>
-> 指标：stars=4120 · forks=285 · open_issues=84
+> 指标：stars=4365 · forks=306 · open_issues=93
 > 作者：ARahim3　|　发布：2026-10-08T20:37:51Z
 > 项目链接：<https://github.com/ARahim3/DigUp>
-> 采集：2026-10-16T09:37:25+08:00　|　id：`015cdf3f396e4bba`
+> 采集：2026-10-17T13:38:15+08:00　|　id：`015cdf3f396e4bba`
 
 ## 正文
 

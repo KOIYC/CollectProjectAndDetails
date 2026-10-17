@@ -1,11 +1,11 @@
 {
- "unique_items": 2926,
+ "unique_items": 3043,
  "no_url": 0,
  "round": {
-  "run_id": "20261016T093515",
-  "records": 162,
-  "new": 139,
-  "update": 21
+  "run_id": "20261017T133509",
+  "records": 172,
+  "new": 117,
+  "update": 31
  },
  "by_channel": {
   "apple_rss": {
@@ -24,29 +24,29 @@
    "partial": 0
   },
   "betalist": {
-   "n": 170,
-   "body": 170,
+   "n": 181,
+   "body": 181,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
    "platform_comments": 0,
    "trunc": 0,
-   "no_project_url": 167,
-   "no_author": 170,
+   "no_project_url": 178,
+   "no_author": 181,
    "profile": "linkpost",
    "err_body": 0,
    "err_comments": 0,
    "partial": 0
   },
   "bilibili": {
-   "n": 66,
-   "body": 33,
+   "n": 68,
+   "body": 34,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
    "platform_comments": 0,
    "trunc": 0,
-   "no_project_url": 54,
+   "no_project_url": 55,
    "no_author": 0,
    "profile": "metadata",
    "err_body": 0,
@@ -129,12 +129,12 @@
    "partial": 0
   },
   "hn_show": {
-   "n": 1479,
-   "body": 1438,
-   "with_comments": 585,
-   "expect_comments": 582,
-   "comments": 5242,
-   "platform_comments": 5243,
+   "n": 1519,
+   "body": 1476,
+   "with_comments": 606,
+   "expect_comments": 603,
+   "comments": 5420,
+   "platform_comments": 5421,
    "trunc": 0,
    "no_project_url": 44,
    "no_author": 0,
@@ -144,15 +144,15 @@
    "partial": 0
   },
   "indiehackers": {
-   "n": 128,
-   "body": 128,
+   "n": 136,
+   "body": 136,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
    "platform_comments": 0,
    "trunc": 0,
-   "no_project_url": 77,
-   "no_author": 128,
+   "no_project_url": 81,
+   "no_author": 136,
    "profile": "linkpost",
    "err_body": 0,
    "err_comments": 0,
@@ -174,14 +174,14 @@
    "partial": 0
   },
   "producthunt": {
-   "n": 328,
-   "body": 328,
+   "n": 357,
+   "body": 357,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
    "platform_comments": 0,
    "trunc": 0,
-   "no_project_url": 328,
+   "no_project_url": 357,
    "no_author": 0,
    "profile": "linkpost",
    "err_body": 0,
@@ -189,14 +189,14 @@
    "partial": 0
   },
   "reddit": {
-   "n": 413,
-   "body": 391,
-   "with_comments": 364,
-   "expect_comments": 385,
-   "comments": 7991,
-   "platform_comments": 7169,
+   "n": 435,
+   "body": 410,
+   "with_comments": 386,
+   "expect_comments": 406,
+   "comments": 8369,
+   "platform_comments": 7555,
    "trunc": 0,
-   "no_project_url": 246,
+   "no_project_url": 261,
    "no_author": 0,
    "profile": "discussion",
    "err_body": 0,
@@ -219,14 +219,14 @@
    "partial": 0
   },
   "v2ex": {
-   "n": 108,
-   "body": 108,
+   "n": 113,
+   "body": 113,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
    "platform_comments": 0,
    "trunc": 0,
-   "no_project_url": 47,
+   "no_project_url": 49,
    "no_author": 0,
    "profile": "discussion",
    "err_body": 0,
@@ -252,15 +252,15 @@
  "body_missing": [
   [
    "hn_show",
-   41
+   43
   ],
   [
    "bilibili",
-   33
+   34
   ],
   [
    "reddit",
-   22
+   25
   ],
   [
    "apple_rss",
@@ -276,8 +276,15 @@
   ]
  ],
  "noise": 4,
- "gaps": 5,
+ "gaps": 10,
  "gap_by_channel": [
+  [
+   [
+    "reddit",
+    "body"
+   ],
+   3
+  ],
   [
    [
     "c1c7",
@@ -294,6 +301,13 @@
   ],
   [
    [
+    "hn_show",
+    "body"
+   ],
+   2
+  ],
+  [
+   [
     "github_new",
     "body"
    ],
@@ -301,17 +315,17 @@
   ]
  ],
  "queue_age": {
-  "n": 5,
-  "with_ts": 5,
-  "oldest_days": 24,
+  "n": 10,
+  "with_ts": 10,
+  "oldest_days": 25,
   "gt14": 5,
   "gt30": 0
  },
- "expected_absent": 51,
+ "expected_absent": 52,
  "expected_absent_by_channel": [
   [
    "bilibili",
-   33
+   34
   ],
   [
    "apple_rss",
@@ -341,7 +355,7 @@
     "indiehackers",
     "published_at"
    ],
-   128
+   136
   ],
   [
    [
@@ -365,15 +379,15 @@
    1
   ]
  ],
- "money_signal": 511,
+ "money_signal": 529,
  "lang": [
   [
    "en",
-   2719
+   2829
   ],
   [
    "zh",
-   207
+   214
   ]
  ]
 }

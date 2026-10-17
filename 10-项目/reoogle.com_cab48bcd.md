@@ -2,7 +2,7 @@
 type: "project"
 title: "What are you building? Drop it below"
 project_url: "https://reoogle.com/"
-first_seen: "2026-10-16T09:52:47+08:00"
+first_seen: "2026-10-17T13:48:31+08:00"
 sources:
   - reddit
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://reoogle.com/>
-> 首次收录：2026-10-16T09:52:47+08:00
+> 首次收录：2026-10-17T13:48:31+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/buildinpublic
 > 最新指标：得分=6 · 评论=47 · 赞踩比=1
@@ -62,6 +62,7 @@ lang: "en"
 | 2026-10-01T09:53:00+08:00 | Reddit 独立开发版块 | 得分=6 · 评论=47 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/1332b973f242f486_What-are-you-building-Drop-it-below]] |
 | 2026-10-11T09:55:35+08:00 | Reddit 独立开发版块 | 得分=6 · 评论=47 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/1332b973f242f486_What-are-you-building-Drop-it-below]] |
 | 2026-10-16T09:52:47+08:00 | Reddit 独立开发版块 | 得分=6 · 评论=47 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/1332b973f242f486_What-are-you-building-Drop-it-below]] |
+| 2026-10-17T13:48:31+08:00 | Reddit 独立开发版块 | 得分=6 · 评论=47 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/1332b973f242f486_What-are-you-building-Drop-it-below]] |
 
 ## 摘要正文
 

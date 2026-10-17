@@ -1,0 +1,26 @@
+{
+ "run_id": "20261017T133318",
+ "started_at": "2026-10-17T13:33:18+08:00",
+ "ended_at": "2026-10-17T13:33:20+08:00",
+ "elapsed_s": 2.0,
+ "channels": [
+  {
+   "source_id": "c1c7",
+   "name": "1c7 中文独立开发者名录",
+   "status": "ok",
+   "count": 3,
+   "message": "9 entries · 收录日 9",
+   "elapsed_s": 2.0
+  }
+ ],
+ "notes_written": 0,
+ "errors": [],
+ "mode": "audit",
+ "summary": {
+  "total": 13,
+  "ok": 9,
+  "empty": 1,
+  "error": 1,
+  "auth": 2
+ }
+}

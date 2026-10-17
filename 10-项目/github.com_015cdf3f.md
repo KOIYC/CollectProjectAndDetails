@@ -2,14 +2,14 @@
 type: "project"
 title: "ARahim3/DigUp"
 project_url: "https://github.com/ARahim3/DigUp"
-first_seen: "2026-10-16T09:37:25+08:00"
+first_seen: "2026-10-17T13:38:15+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - Swift
-  - created:>2026-10-02
+  - created:>2026-10-03
 lang: "en"
 ---
 
@@ -20,16 +20,17 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/ARahim3/DigUp>
-> 首次收录：2026-10-16T09:37:25+08:00
+> 首次收录：2026-10-17T13:38:15+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：Swift, created:>2026-10-02
-> 最新指标：stars=4120 · forks=285 · open_issues=84
+> 标签：Swift, created:>2026-10-03
+> 最新指标：stars=4365 · forks=306 · open_issues=93
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-10-16T09:37:25+08:00 | GitHub 新星仓库 | stars=4120 · forks=285 · open_issues=84 | [[20-语料/posts/github_new/2026-10-16/015cdf3f396e4bba_ARahim3-DigUp]] |
+| 2026-10-17T13:38:15+08:00 | GitHub 新星仓库 | stars=4365 · forks=306 · open_issues=93 | [[20-语料/posts/github_new/2026-10-16/015cdf3f396e4bba_ARahim3-DigUp]] |
 
 ## 摘要正文
 

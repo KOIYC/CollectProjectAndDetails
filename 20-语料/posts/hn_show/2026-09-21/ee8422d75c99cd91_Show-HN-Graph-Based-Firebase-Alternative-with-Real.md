@@ -298,7 +298,7 @@ const [ , onCompleted ] = useAsyncFn ( async ( id : string , checked ) => {
 todoAttr?. set ({ ... todoObj, completed: checked });
  }, [ lr.Fact ]);
 const [ , setTodoState ] = useAsyncFn ( async ( id : string , state : 'Archived' | 'Active' ) => {
- await lr.Fact. createAll ([[id, 'stateIs' , state]]);
+ await lr.Fact. createAll (\[[id, 'stateIs' , state\]]);
  }, [ lr.Fact ]);
 return (
  < div className = "space-y-6" >
@@ -367,7 +367,7 @@ const [ , onCompleted ] = useAsyncFn ( async ( id : string , checked ) => {
 todoAttr?. set ({ ... todoObj, completed: checked });
  }, [ lr.Fact ]);
 const [ , setTodoState ] = useAsyncFn ( async ( id : string , state : 'Archived' | 'Active' ) => {
- await lr.Fact. createAll ([[id, 'stateIs' , state]]);
+ await lr.Fact. createAll (\[[id, 'stateIs' , state\]]);
  }, [ lr.Fact ]);
 const [ , shareTodo ] = useAsyncFn ( async ( id : string ) => {
  const email = prompt ( 'Enter email address to share with:' );
@@ -378,7 +378,7 @@ const [ , shareTodo ] = useAsyncFn ( async ( id : string ) => {
  if ( ! userId) {
  return alert ( 'User not found. The user must sign up first.' );
  }
- await lr.Fact. createAll ([[userId, '$canAccess' , id]]);
+ await lr.Fact. createAll (\[[userId, '$canAccess' , id\]]);
  }, [ lr.Fact ]);
 return (
  < div className = "space-y-6" >

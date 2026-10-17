@@ -3,11 +3,11 @@ type: "corpus"
 item_id: "c9c9c26c1a9ab5ed"
 title: "【中配】月入7.7万美元的独立开发者，每天只工作4小时？他的秘诀竟然是疯狂发布产品！"
 source: "bilibili"
-source_name: "B站"
+source_name: "B 站"
 url: "https://www.bilibili.com/video/BV1QVLp6dEMC"
 author: "EdgeAITech"
 published_at: "2026-05-21T06:31:00+08:00"
-captured_at: "2026-09-21T01:36:49+08:00"
+captured_at: "2026-10-17T13:39:23+08:00"
 lang: "zh"
 kind: "post"
 topic: 开发者工具
@@ -22,7 +22,7 @@ tags:
   - 具身智能
   - 深度工作
   - 大模型
-metrics: {"play": 42298, "danmaku": 39, "favorites": 2467}
+metrics: {"play": 43154, "danmaku": 39, "favorites": 2511}
 comments_count: 0
 comments_total: 0
 discovered_via: "bili:独立开发者 出海"
@@ -34,12 +34,12 @@ discovered_via: "bili:独立开发者 出海"
 > Marc Lou 是一名月入 7.7 万美元的独立创业者，创办了 35 家初创公司。很多人好奇他是如何完成这么多事情的？在这期视频中，他分享了自己一天的工作流程和核心习惯：从早上的深度工作、完全离线，到不断发布新产品、快速迭代。他揭示了成功的秘诀不是追求完美，而是持续发布、不断试错。如果你也想提高效率、打造自己的事业，…
 
 > [!meta]- 语料信息（点开展开）
-> 来源：B站（post）
+> 来源：B 站（post）
 > 原帖：<https://www.bilibili.com/video/BV1QVLp6dEMC>
-> 指标：播放=42298 · 弹幕=39 · 收藏=2467
+> 指标：播放=43154 · 弹幕=39 · 收藏=2511
 > 作者：EdgeAITech　|　发布：2026-05-21T06:31:00+08:00
 > 项目链接：—
-> 采集：2026-09-21T01:36:49+08:00　|　id：`c9c9c26c1a9ab5ed`
+> 采集：2026-10-17T13:39:23+08:00　|　id：`c9c9c26c1a9ab5ed`
 
 ## 正文
 

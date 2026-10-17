@@ -8,7 +8,7 @@ url: "https://dev.to/francistrdev/why-you-still-need-a-website-portfolio-even-th
 project_url: "https://francistrdev.github.io/"
 author: "FrancisTRᴅᴇᴠ"
 published_at: "2026-10-05T15:09:58Z"
-captured_at: "2026-10-16T09:52:12+08:00"
+captured_at: "2026-10-17T13:46:43+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -38,7 +38,7 @@ discovered_via: "devto:showdev"
 > 指标：reactions=257 · 评论=248 · reading_time=7
 > 作者：FrancisTRᴅᴇᴠ　|　发布：2026-10-05T15:09:58Z
 > 项目链接：<https://francistrdev.github.io/>
-> 采集：2026-10-16T09:52:12+08:00　|　id：`371c3e1ecea54117`
+> 采集：2026-10-17T13:46:43+08:00　|　id：`371c3e1ecea54117`
 
 ## 正文
 

@@ -6,7 +6,7 @@ source: "c1c7"
 source_name: "1c7 中文独立开发者名录"
 url: "https://mastersofscale.com"
 project_url: "https://mastersofscale.com/"
-captured_at: "2026-10-10T10:03:47+08:00"
+captured_at: "2026-10-17T13:39:26+08:00"
 lang: "zh"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,35 +32,37 @@ discovered_via: "1c7:readme"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://mastersofscale.com/>
-> 采集：2026-10-10T10:03:47+08:00　|　id：`ec3eb5285a72cd71`
+> 采集：2026-10-17T13:39:26+08:00　|　id：`ec3eb5285a72cd71`
 
 ## 正文
 
 Masters of Scale – Home
 
-## Building a marketplace from scratch
+## You’re a media company now
 
- Hipcamp’s Alyssa Ravasio
+ Media Executive Barbara Peng
 
-Hipcamp has grown into the largest source for booking campsites on public and private land. Alyssa Ravasio talks about scaling the company, learning to prioritize your health as a founder, and more.
+Former Business Insider CEO, Barbara Peng discusses the state of journalism, the future of trust, and what leaders in every industry need to understand about operating in an AI world.
 
-MTV’s Tom Freston
+Hipcamp’s Alyssa Ravasio
 
-Prosper Global’s Tjada D’Oyen McKenna
+Creative Planning’s Jamie Battmer KCRW’s Jennifer Ferro
 
-Contrarian Thinking’s Codie Sanchez Engine’s Elia Wallen
+Savannah Bananas’ Jesse Cole
 
- Rethinking humanitarian aid: Why survival isn't enough (Prosper Global CEO Tjada McKenna)
+Engine’s Elia Wallen The Hershey Company’s Kirk Tanner
 
-Rethinking humanitarian aid: Why survival isn't enough (Prosper Global CEO Tjada McKenna)
+Halloween meets GLP-1s
 
- Codie Sanchez: Don't start a business. Buy one.
+MIT’s Sherry Turkle
 
-Codie Sanchez: Don't start a business. Buy one.
+The slippery slope of artificial intimacy
 
- How a top AI investor decides what to fund in 2026 (with Rudina Seseri)
+Don't be boring: KCRW's Jennifer Ferro on building a brand people love
 
-How a top AI investor decides what to fund in 2026 (with Rudina Seseri)
+ Can Hershey last another 132 years? Its CEO on the two things it'll take
+
+Can Hershey last another 132 years? Its CEO on the two things it'll take
 
  Iconic Leaders. Priceless Advice.
 

@@ -1,7 +1,7 @@
 ---
 type: "report"
 title: "agent-reach 体检"
-updated: "2026-10-16T09:34:38+08:00"
+updated: "2026-10-17T14:08:03+08:00"
 tags:
   - 报告
   - 渠道
@@ -10,7 +10,7 @@ tags:
 
 # agent-reach 体检
 
-> 检查时间 2026-10-16T09:34:38+08:00 · 由 `agent-reach doctor --json` 生成
+> 检查时间 2026-10-17T14:08:03+08:00 · 由 `agent-reach doctor --json` 生成
 
 | 平台 | | 状态 | 激活后端 | 说明 |
 |---|---|---|---|---|

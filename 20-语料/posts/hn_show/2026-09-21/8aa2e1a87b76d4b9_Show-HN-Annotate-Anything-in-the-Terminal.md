@@ -111,45 +111,45 @@ Required. The plugin does not add key bindings. Copy one block into ~/.config/he
 full install keys terminal + documents + agent replies
 [ copy ]
  # Terminal annotations
-[[keys.command]]
+\[[keys.command\]]
 key = "prefix+a"
 type = "plugin_action"
 command = "annotate.capture"
 description = "annotate text"
-[[keys.command]]
+\[[keys.command\]]
 key = "prefix+shift+a"
 type = "plugin_action"
 command = "annotate.copy-context"
 description = "copy annotations as context"
-[[keys.command]]
+\[[keys.command\]]
 key = "prefix+m"
 type = "plugin_action"
 command = "annotate.manage"
 description = "manage annotations"
 # Document review (plannotator-tui)
-[[keys.command]]
+\[[keys.command\]]
 key = "prefix+o"
 type = "plugin_action"
 command = "annotate.open"
 description = "review documents in this folder"
-[[keys.command]]
+\[[keys.command\]]
 key = "prefix+shift+o"
 type = "plugin_action"
 command = "annotate.last"
 description = "review the agent's last reply"
 lite install keys terminal annotations only
 [ copy ]
- [[keys.command]]
+ \[[keys.command\]]
 key = "prefix+a"
 type = "plugin_action"
 command = "annotate.capture"
 description = "annotate text"
-[[keys.command]]
+\[[keys.command\]]
 key = "prefix+shift+a"
 type = "plugin_action"
 command = "annotate.copy-context"
 description = "copy annotations as context"
-[[keys.command]]
+\[[keys.command\]]
 key = "prefix+m"
 type = "plugin_action"
 command = "annotate.manage"
