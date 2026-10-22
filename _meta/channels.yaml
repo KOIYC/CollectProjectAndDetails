@@ -507,40 +507,46 @@ channels:
 # 每次跑完内容审计更新本段；数字是「可用/条目」，取自 00-索引/内容审计-all.md。
 
 content_gate:
-  audited_at: '2026-10-17'
-  overall: '2597/2926（89%）'
+  audited_at: '2026-10-22'
+  overall: '2715/3055（89%）'
   rows:
-    - {id: producthunt, ratio: '351/357', verdict: keep}
-    - {id: betalist, ratio: '181/181', verdict: keep}
-    - {id: devto, ratio: '14/16', verdict: keep,
-       note: n=16 小样本；标题 require_any 曾把样本全过滤（0 条 = 杀渠道），已回退为「少量标题排除 + limit 降量」}
-    - {id: bilibili, ratio: '61/64', verdict: keep,
-       note: 95%。2026-10-10：曾出现采集端 0 videos（探针同轮 ok）→ 调查确认 B 站搜索 API 实测健康
+    - {id: producthunt, ratio: '381/387', verdict: keep}
+    - {id: betalist, ratio: '192/192', verdict: keep}
+    - {id: devto, ratio: '16/19', verdict: keep,
+       note: n=19 小样本；标题 require_any 曾把样本全过滤（0 条 = 杀渠道），已回退为「少量标题排除 + limit 降量」}
+    - {id: bilibili, ratio: '62/66', verdict: keep,
+       note: 94%。2026-10-10：曾出现采集端 0 videos（探针同轮 ok）→ 调查确认 B 站搜索 API 实测健康
        （code=0 / 20 results / play>3000 有货）→ 判为**瞬态 WBI 风控空返回**，非渠道腐化。B 站是**累计搜索型渠道、无时间窗口**，
        本轮不补也无数据丢失（同 c1c7 判据），保持 enabled。2026-10-16 正常（8 条 / new 3，丢弃 4/12=33%「无主题词」）}
-    - {id: indiehackers, ratio: '133/136', verdict: keep}
-    - {id: hn_show, ratio: '1434/1519', verdict: keep,
-       note: 94%。大厂产品假阳性已修（Show HN 标题自述的条目不再因提到 Stripe/Google 被判「大厂产品」）；
-       主要残余是视频帖无正文（结构性，记死信）与 Exa 截断 36。2026-10-16 丢弃 1/40（排除:URL），无误杀}
-    - {id: github_new, ratio: '58/78', verdict: keep,
+    - {id: indiehackers, ratio: '150/154', verdict: keep}
+    - {id: hn_show, ratio: '1474/1559', verdict: keep,
+       note: 95%。大厂产品假阳性已修（Show HN 标题自述的条目不再因提到 Stripe/Google 被判「大厂产品」）；
+       主要残余是视频帖无正文（结构性，记死信）与 Exa 截断 34。2026-10-22 采集 40 条全命中、丢弃 0}
+    - {id: github_new, ratio: '61/82', verdict: keep,
        note: 74%。噪声是 awesome-*/directory/clone/wiki/journal 类资源清单（标题规则已排除，见 rule_drops）。
        2026-10-11：体检探针报 error（0 repos / 44.5s，gh search 网络层 GET 错误），单渠道复检 **ok（3 repos / 4.4s）**
        + 三层探针（api.github.com TCP 0.15s / TLS 0.27s 正常）→ 判**瞬态网络层错误**，非渠道腐化；同轮采集取到 13 条为铁证。
        2026-10-16 丢弃 14/28（50%，未过 70 线）：7 条标题（journal/awesome-*/clone/directory）+ 7 条无主题词，逐条核对无误杀。
        2026-10-17 体检再报 error（`gh search` 90.8s 超时，`github_gh` 后端复检 timeout>45s）→ 三层探针对照
-       `api.github.com` **/search/repositories 实测 200（7.37s，慢但通）**，且**同轮采集取到 13 条 / 写盘 11** ⇒ 瞬态链路慢，保持 enabled}
-    - {id: v2ex, ratio: '80/111', verdict: keep,
+       `api.github.com` **/search/repositories 实测 200（7.37s，慢但通）**，且**同轮采集取到 13 条 / 写盘 11** ⇒ 瞬态链路慢，保持 enabled。
+       2026-10-22 丢弃 17/28 = **61%**（7 标题 journal/awesome-*/clone/directory + 10 无主题词 库与 demo），逐条核对无误杀；探针 ok 3 repos / 2.1s}
+    - {id: v2ex, ratio: '94/132', verdict: keep,
        note: 71%。主要噪声是「NAS 必装 Docker 推荐」类资源帖；rules.yaml 已排招聘/求职/求助。
        2026-10-16 丢弃 10/25（40%）：7 条标题（招聘/求职为主）+ 3 条无主题词，无误杀。
        ⚠ 待评估：v2ex 自述发布帖（「做了/做了一个/做了个…」）被主题词门滤掉（如「做了一个 Durable Agent Harness
        支持持久化任务崩溃恢复与断点续跑」），独立案例累计 n=3（按 item_id 去重）已达评估线 —— 见运行日志待跟进，
-       处置方案需先做「小样本模拟 + 看剩余条数」两步校验，不在本轮动规则}
+       处置方案需先做「小样本模拟 + 看剩余条数」两步校验，不在本轮动规则。
+       2026-10-22 丢弃 2/25（8%）：1 条提问帖（无主题词，正确）+ 1 条**疑误杀**——
+       「[分享创造] 测了 20 多个导航站后做的 Builderoom」（`2425218c95f8ecdd`，n=1 独立案例），命中全局 `exclude_title`
+       的 `导航站|目录站`。该规则本意排「名录/资源站内容」，不该排「我做了个导航站」这种**自述发布** →
+       同类独立案例累计 **n=2**（另一例 `889eb28da2792b1d` 9-29 起 n=3 但同一 item），**未到 n≥3 不动规则**}
     - {id: exa_discovery, ratio: '19/25', verdict: keep,
        note: 76%，小样本（weekly_only，非周一不跑）。1 条「Respira Exhale」疑误杀 n=1，未到动手阈值}
     - {id: reddit, ratio: '260/431', verdict: limit_reduced,
-       note: 61%（全库最低）。已把 limit 40→30 控量（标题过滤模拟到 88% 但丢 29 条可用帖，代价大于收益，不采纳）。
+       note: 60%（全库最低）。已把 limit 40→30 控量（标题过滤模拟到 88% 但丢 29 条可用帖，代价大于收益，不采纳）。
        窗口外移 settle_days=10 / window_days=14 后近两周语料抓不到（见渠道 note），审计口径与采集口径要一起看。
-       2026-10-16：源站正常（探针 ok / 3 posts，19 条 / new 19）→ 维持 limit_reduced}
+       2026-10-16：源站正常（探针 ok / 3 posts，19 条 / new 19）→ 维持 limit_reduced。
+       2026-10-22：**后端 arctic-shift 时间窗查询整体 500** → 本轮 0 条（属后端故障非渠道腐化，保持 enabled，详见 `backends` 段）}
     - {id: c1c7, ratio: '5/7', verdict: keep,
        note: 2026-10-16 6/7（n=7 小样本，报可用率要连 n 一起报）。本轮采集 error（WinError 10054 / 1.8s）：
        体检探针同轮 ok（9 entries / 2.8s），镜像对照实验显示 `cdn.jsdelivr.net` **间歇可用（好窗口 6/8、坏窗口 0/8）**，
@@ -549,7 +555,10 @@ content_gate:
        2026-10-17 5/7（71%，n=7）。本轮再遇 10054：三层探针 TCP ok 0.71s / **TLS handshake timeout**、
        对照 api.github.com TLS1.3 200/0.31s 正常 → 仍是 CDN 家族主机级干扰；**gcore.jsdelivr.net 实测 200/489519B/2.6s
        且与 ghproxy.net 逐字节一致**（10-16 时 gcore 还 0/8）→ 换 gcore 后单渠道复检 ok/9 entries，采集取到 7 条。
-       ⇒ **该 CDN 是窗口轮转，每次坏窗口都要重新用探针挑镜像，不要以为换过一次就一劳永逸**}
+       ⇒ **该 CDN 是窗口轮转，每次坏窗口都要重新用探针挑镜像，不要以为换过一次就一劳永逸**。
+       2026-10-22 采集再报 10054（体检探针 ok / 9 entries / 4.3s）→ 同一个「窗口轮转」现象，第 3 次复现；
+       累积型名录无时间窗口 ⇒ 不补无数据丢失，不改配置（换镜像只解决当时那个窗口）}
+
 
 # ---------------- 后端可用性订正（实测，会被 kb_audit 复检） ----------------
 backends:
@@ -573,15 +582,26 @@ backends:
     revive: 复测能返回正文后恢复，可重新用于 enrich_generic
   - id: arctic_shift
     use: Reddit 取数
-    status: ok
-    verified: '2026-10-11'
+    status: unstable
+    verified: '2026-10-22'
     evidence: ① after/before 只接受 epoch 秒或纯日期，带时区 ISO 会 400；② score 装载延迟：近 3 天帖子分数未沉淀（近 3 天 max=1 vs 7-14 天前 max=42）→ 采集用 settle_days=3 窗口；③ sort 只接受 asc/desc。
       ④ **2026-10-10 源站故障**（已恢复）：体检探针与采集端同轮返回各 sub `522`（kb_audit 后端复检亦为 `unusable / 522`）。
       三层探针定案 = **源站侧故障，非本机网络**：TCP ok 0.51s / TLS ok 0.62s / HTTP **522**（Cloudflare「源站连接超时」，
       连续 4/4 复现，单次 ~20s）；同网络对照 `api.github.com` TCP+TLS 均正常。
       **处置**：reddit 保持 enabled、不写 disabled（后端宕机 ≠ 渠道腐化；「连续 2 轮 empty → 停用」规则不适用于此）。
       ⑤ **2026-10-11 恢复**：kb_audit 渠道探针 reddit `ok / 3 posts`、后端复检 `ok / 1 rows / 2.0s` → 源站已恢复，status 转 ok。
-    revive: 源站恢复后由 kb_audit 后端复检自动转 ok（已于 2026-10-11 转回）；若再现 ≥2 轮 522，再评估换 Reddit 取数后端或降该渠道权重
+      ⑥ **2026-10-22 再次故障（时间窗查询整体 500，非渠道腐化、非本机网络）**：体检 reddit `empty`，消息各 sub 稳定同报
+      `500: Internal Server Error`（非网络错误漂移）。三层探针 = **TCP ok 0.32s / TLS ok 0.68s（TLSv1.3）/ HTTP 500**
+      （body `{"data":null,"error":"Internal server error"}`，0.8s 快速失败，非超时）；同网络对照 `api.github.com` TCP 0.15s / TLS 0.41s 正常。
+      参数矩阵定位到**触发条件**：不带任何时间窗 → `SideProject` 200 / 3 rows 正常；**只要带 `after` 或 `before`（epoch 秒、`YYYY-MM-DD`
+      两种格式都试过，含 `sort=asc`）→ 一律 500**；`since` / `created_after` / `start` 报 400 `Unknown query parameter`
+      ⇒ 参数名没变、是**服务端时间索引查询路径挂了**。另：`buildinpublic` / `indiehackers` / `microsaas` / `SaaS` 连**不带窗口**也 500
+      （分片级故障，仅 SideProject 分片可用）。备选 `api.pullpush.io` 实测 **429**（`This website does not provide free scraping
+      resources for agents`）；`www.reddit.com` / `old.reddit.com` 直连 **10060 超时**（本网络老问题）。
+      **处置**：reddit 保持 enabled、**不写 disabled**（后端宕机 ≠ 渠道腐化），本轮 reddit 语料为空属预期损耗，不加 `--channels` 重试
+      （时窗路径全挂，重试必空）。
+    revive: 源站恢复后由 kb_audit 后端复检自动转 ok（2026-10-11 已有先例）；复活判据 = 带 after/before 的请求返回 200 且 rows>0。
+      若连续 ≥2 轮仍 500，再评估换 Reddit 取数后端（pullpush 已 429 不可用，需另找）或临时降该渠道权重；换后端要改 adapter，须用户确认
   - id: ih_algolia
     use: IndieHackers 结构化产品库
     status: unusable

@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-17T14:08:32+08:00",
+ "checked_at": "2026-10-22T09:42:28+08:00",
  "channels": [
   {
    "channel_id": "hn_show",
@@ -10,16 +10,16 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 2.7,
-   "probe_at": "2026-10-17T14:05:50+08:00",
+   "elapsed_s": 3.7,
+   "probe_at": "2026-10-22T09:38:35+08:00",
    "sample": [
     {
-     "title": "Show HN: Llmspeed – feel how fast a local LLM runs before you buy the hardware",
-     "url": "https://news.ycombinator.com/item?id=50127979"
+     "title": "Show HN: Twine is a meta-harness with workflows, cross-agent memories and traces",
+     "url": "https://news.ycombinator.com/item?id=50189550"
     },
     {
-     "title": "Show HN: Online Piano – Play a Free Virtual Piano Keyboard",
-     "url": "https://news.ycombinator.com/item?id=50127889"
+     "title": "Show HN: I built a Markdown and raw HTML blog platform scoring 99 on PageSpeed",
+     "url": "https://news.ycombinator.com/item?id=50189175"
     }
    ]
   },
@@ -29,21 +29,12 @@
    "adapter": "reddit_arctic",
    "auth": "none",
    "group": "海外社区",
-   "status": "ok",
-   "count": 3,
-   "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
-   "elapsed_s": 20.5,
-   "probe_at": "2026-10-17T14:06:10+08:00",
-   "sample": [
-    {
-     "title": "I added cookie texture to my lights and it changed the whole scenery",
-     "url": "https://www.reddit.com/r/IndieDev/comments/1wzoagq/i_added_cookie_texture_to_my_lights_and_it/"
-    },
-    {
-     "title": "What I run - Oct 2026",
-     "url": "https://www.reddit.com/r/selfhosted/comments/1wzngic/what_i_run_oct_2026/"
-    }
-   ]
+   "status": "empty",
+   "count": 0,
+   "message": "0 posts; SideProject: 500: Internal Server Error; indiehackers: 500: Internal Server Error; microsaas: 500: I",
+   "elapsed_s": 27.7,
+   "probe_at": "2026-10-22T09:39:03+08:00",
+   "sample": []
   },
   {
    "channel_id": "github_new",
@@ -54,16 +45,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 1.2,
-   "probe_at": "2026-10-17T14:06:11+08:00",
+   "elapsed_s": 2.1,
+   "probe_at": "2026-10-22T09:39:05+08:00",
    "sample": [
     {
-     "title": "openai/math",
-     "url": "https://github.com/openai/math"
+     "title": "Gathin23/cleanyourtv",
+     "url": "https://github.com/Gathin23/cleanyourtv"
     },
     {
-     "title": "wheresryan22/anatomy",
-     "url": "https://github.com/wheresryan22/anatomy"
+     "title": "deepseek-ai/DeepInfer",
+     "url": "https://github.com/deepseek-ai/DeepInfer"
     }
    ]
   },
@@ -76,16 +67,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 startups · 发布日 3/3",
-   "elapsed_s": 2.5,
-   "probe_at": "2026-10-17T14:06:14+08:00",
+   "elapsed_s": 3.6,
+   "probe_at": "2026-10-22T09:39:09+08:00",
    "sample": [
     {
-     "title": "Jaah",
-     "url": "https://betalist.com/startups/jaah"
+     "title": "Blueveta",
+     "url": "https://betalist.com/startups/blueveta"
     },
     {
-     "title": "Shipfound",
-     "url": "https://betalist.com/startups/shipfound"
+     "title": "Rezup",
+     "url": "https://betalist.com/startups/rezup"
     }
    ]
   },
@@ -97,17 +88,17 @@
    "group": "海外发布站",
    "status": "ok",
    "count": 3,
-   "message": "21 products",
-   "elapsed_s": 6.4,
-   "probe_at": "2026-10-17T14:06:20+08:00",
+   "message": "23 products",
+   "elapsed_s": 6.0,
+   "probe_at": "2026-10-22T09:39:15+08:00",
    "sample": [
     {
-     "title": "Launchnestln",
-     "url": "https://www.indiehackers.com/product/launchnestln"
+     "title": "Discounthub",
+     "url": "https://www.indiehackers.com/product/discounthub"
     },
     {
-     "title": "Circlesaas",
-     "url": "https://www.indiehackers.com/product/circlesaas"
+     "title": "Mediafast 16",
+     "url": "https://www.indiehackers.com/product/mediafast-16"
     }
    ]
   },
@@ -118,14 +109,18 @@
    "auth": "none",
    "group": "海外社区",
    "status": "ok",
-   "count": 1,
-   "message": "1 articles",
-   "elapsed_s": 0.4,
-   "probe_at": "2026-10-17T14:06:21+08:00",
+   "count": 2,
+   "message": "2 articles",
+   "elapsed_s": 1.8,
+   "probe_at": "2026-10-22T09:39:17+08:00",
    "sample": [
     {
-     "title": "Why you still need a Website Portfolio, even though everyone can Vibe Code it.",
-     "url": "https://dev.to/francistrdev/why-you-still-need-a-website-portfolio-even-though-everyone-can-vibe-code-it-e63"
+     "title": "Promise Delivered: Welcome to the DEV Hall of Fame (65 Authors, 65 Masterpieces)",
+     "url": "https://dev.to/georgekobaidze/promise-delivered-welcome-to-the-dev-hall-of-fame-65-authors-65-masterpieces-15fa"
+    },
+    {
+     "title": "I Vibe-Coded My Way Out of Angular Upgrades",
+     "url": "https://dev.to/gramli/i-vibe-coded-my-way-out-of-angular-upgrades-4fkh"
     }
    ]
   },
@@ -138,16 +133,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 entries",
-   "elapsed_s": 1.0,
-   "probe_at": "2026-10-17T14:06:22+08:00",
+   "elapsed_s": 0.8,
+   "probe_at": "2026-10-22T09:39:17+08:00",
    "sample": [
     {
-     "title": "Memory Chess",
-     "url": "https://www.producthunt.com/products/memory-chess"
+     "title": "Needle",
+     "url": "https://www.producthunt.com/products/needle-3"
     },
     {
-     "title": "Tesla Roadster",
-     "url": "https://www.producthunt.com/products/tesla-roadster"
+     "title": "Hotly",
+     "url": "https://www.producthunt.com/products/hotly"
     }
    ]
   },
@@ -160,16 +155,16 @@
    "status": "ok",
    "count": 3,
    "message": "20 topics",
-   "elapsed_s": 0.8,
-   "probe_at": "2026-10-17T14:06:22+08:00",
+   "elapsed_s": 1.0,
+   "probe_at": "2026-10-22T09:39:18+08:00",
    "sample": [
     {
-     "title": "NanaZip Rev - NanaZip 社区分支，新增主题切换与代码页切换",
-     "url": "https://www.v2ex.com/t/1249464"
+     "title": "QuotaPanel：基于 Wails 的 AI 订阅额度管理工具",
+     "url": "https://www.v2ex.com/t/1250750"
     },
     {
-     "title": "AI 全栈开发工程师（后端 Go 方向）",
-     "url": "https://www.v2ex.com/t/1249442"
+     "title": "高级服务器开发工程师 远程",
+     "url": "https://www.v2ex.com/t/1250716"
     }
    ]
   },
@@ -183,15 +178,15 @@
    "count": 3,
    "message": "6 videos",
    "elapsed_s": 0.6,
-   "probe_at": "2026-10-17T14:06:23+08:00",
+   "probe_at": "2026-10-22T09:39:19+08:00",
    "sample": [
     {
      "title": "一分钱不花，完成独立产品从0上线！2026年独立开发者免费全家桶",
      "url": "https://www.bilibili.com/video/BV1sFWA6VEgC"
     },
     {
-     "title": "第一个独立游戏上线两周，零宣发能赚到多少钱？",
-     "url": "https://www.bilibili.com/video/BV19zpt6fEk9"
+     "title": "数字游民必看 | 独立开发者的出海赚钱实战经验分享!",
+     "url": "https://www.bilibili.com/video/BV1d9dKYxEiX"
     }
    ]
   },
@@ -201,12 +196,21 @@
    "adapter": "onec7",
    "auth": "none",
    "group": "中文名录",
-   "status": "error",
-   "count": 0,
-   "message": "ERR: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>",
-   "elapsed_s": 2.1,
-   "probe_at": "2026-10-17T14:06:25+08:00",
-   "sample": []
+   "status": "ok",
+   "count": 3,
+   "message": "9 entries · 收录日 9",
+   "elapsed_s": 4.3,
+   "probe_at": "2026-10-22T09:39:23+08:00",
+   "sample": [
+    {
+     "title": "Indie Hacker",
+     "url": "https://www.indiehackers.com/"
+    },
+    {
+     "title": "Failory",
+     "url": "https://www.failory.com/"
+    }
+   ]
   },
   {
    "channel_id": "exa_discovery",
@@ -217,16 +221,16 @@
    "status": "ok",
    "count": 3,
    "message": "8 results",
-   "elapsed_s": 11.0,
-   "probe_at": "2026-10-17T14:06:36+08:00",
+   "elapsed_s": 14.0,
+   "probe_at": "2026-10-22T09:39:37+08:00",
    "sample": [
     {
-     "title": "\"Dupery: A Game Of Solo Deduction Out Now On Steam\" - Games Press",
-     "url": "https://www.gamespress.com/Dupery-A-Game-Of-Solo-Deduction-Out-Now-On-Steam"
+     "title": "\"The Killing Stone Launches in 1.0 on PC and Consoles Today\" - Games Press",
+     "url": "https://www.gamespress.com/The-Killing-Stone-Launches-in-10-on-PC-and-Consoles-Today"
     },
     {
-     "title": "\"Narrative Card-driven RPG Alice Nation out now on Steam\" - Games Press",
-     "url": "https://www.gamespress.com/Narrative-Card-driven-RPG-Alice-Nation-out-now-on-Steam"
+     "title": "\"CRITICAL REFLEX SURPRISE-RELEASES THE PSYCHOLOGICAL HORROR COOKING GAME CUCINA ",
+     "url": "https://www.gamespress.com/CRITICAL-REFLEX-SURPRISE-RELEASES-THE-PSYCHOLOGICAL-HORROR-COOKING-GAM"
     }
    ]
   },
@@ -238,9 +242,9 @@
    "group": "海外社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 22s\nok: false\nerr",
-   "elapsed_s": 40.9,
-   "probe_at": "2026-10-17T14:07:17+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 14s\nok: false\nerr",
+   "elapsed_s": 68.1,
+   "probe_at": "2026-10-22T09:40:45+08:00",
    "sample": []
   },
   {
@@ -249,17 +253,12 @@
    "adapter": "opencli_social",
    "auth": "browser",
    "group": "中文社媒",
-   "status": "ok",
-   "count": 1,
-   "message": "1 items（1 路查询）",
-   "elapsed_s": 26.3,
-   "probe_at": "2026-10-17T14:07:43+08:00",
-   "sample": [
-    {
-     "title": "国内个人开发者只剩一条出路",
-     "url": ">-"
-    }
-   ]
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: [rate-limiter] xiaohongshu: sleeping 9s\nok: false\nerror:\n  c",
+   "elapsed_s": 55.3,
+   "probe_at": "2026-10-22T09:41:41+08:00",
+   "sample": []
   }
  ],
  "backends": [
@@ -271,17 +270,17 @@
    "delta": true,
    "message": "ERR: <urlopen error timed out>",
    "elapsed_s": 20.1,
-   "probe_at": "2026-10-17T14:08:23+08:00"
+   "probe_at": "2026-10-22T09:42:21+08:00"
   },
   {
    "backend": "arctic_shift",
    "use": "Reddit 取数",
-   "status": "ok",
+   "status": "unusable",
    "declared": null,
    "delta": false,
-   "message": "1 rows",
-   "elapsed_s": 1.6,
-   "probe_at": "2026-10-17T14:08:24+08:00"
+   "message": "500: Internal Server Error",
+   "elapsed_s": 2.0,
+   "probe_at": "2026-10-22T09:42:23+08:00"
   },
   {
    "backend": "exa_web_fetch",
@@ -290,8 +289,8 @@
    "declared": "warn",
    "delta": false,
    "message": "1 url 返回正文",
-   "elapsed_s": 6.0,
-   "probe_at": "2026-10-17T14:08:30+08:00"
+   "elapsed_s": 4.0,
+   "probe_at": "2026-10-22T09:42:27+08:00"
   },
   {
    "backend": "github_gh",
@@ -300,16 +299,16 @@
    "declared": "warn",
    "delta": false,
    "message": "remaining=5000",
-   "elapsed_s": 1.2,
-   "probe_at": "2026-10-17T14:08:32+08:00"
+   "elapsed_s": 1.0,
+   "probe_at": "2026-10-22T09:42:28+08:00"
   }
  ],
  "summary": {
   "total": 13,
-  "ok": 11,
-  "empty": 0,
-  "error": 1,
-  "auth": 1
+  "ok": 10,
+  "empty": 1,
+  "error": 0,
+  "auth": 2
  },
  "decisions": [
   {
@@ -319,8 +318,8 @@
   },
   {
    "channel_id": "reddit",
-   "action": "keep",
-   "status": "ok"
+   "action": "watch",
+   "status": "empty"
   },
   {
    "channel_id": "github_new",
@@ -359,8 +358,8 @@
   },
   {
    "channel_id": "c1c7",
-   "action": "review",
-   "status": "error"
+   "action": "keep",
+   "status": "ok"
   },
   {
    "channel_id": "exa_discovery",
@@ -374,13 +373,13 @@
   },
   {
    "channel_id": "xiaohongshu",
-   "action": "keep",
-   "status": "ok"
+   "action": "unlock",
+   "status": "auth"
   }
  ],
  "agent_reach": {
   "ok": true,
-  "checked_at": "2026-10-17T14:08:03+08:00"
+  "checked_at": "2026-10-22T09:42:01+08:00"
  },
  "deltas": [
   {
@@ -391,7 +390,7 @@
    "delta": true,
    "message": "ERR: <urlopen error timed out>",
    "elapsed_s": 20.1,
-   "probe_at": "2026-10-17T14:08:23+08:00"
+   "probe_at": "2026-10-22T09:42:21+08:00"
   }
  ]
 }

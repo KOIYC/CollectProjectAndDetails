@@ -3,11 +3,11 @@ type: "corpus"
 item_id: "ad627cce586d9af8"
 title: "【100W奖金】从0入局Token出海：普通人的AI服务出海课❗️汕头好姐妹的独家内幕：普通人也能入局的AI新生意"
 source: "bilibili"
-source_name: "B站"
+source_name: "B 站"
 url: "https://www.bilibili.com/video/BV1SrjT6LEy2"
 author: "智灵Shaw"
 published_at: "2026-06-16T11:02:37+08:00"
-captured_at: "2026-09-21T01:36:49+08:00"
+captured_at: "2026-10-22T09:49:58+08:00"
 lang: "zh"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -22,7 +22,7 @@ tags:
   - token
   - 汕头
   - AI
-metrics: {"play": 15555, "danmaku": 46, "favorites": 281}
+metrics: {"play": 15663, "danmaku": 46, "favorites": 284}
 comments_count: 0
 comments_total: 0
 discovered_via: "bili:独立开发者 出海"
@@ -34,12 +34,12 @@ discovered_via: "bili:独立开发者 出海"
 > 这门课不讲虚拟币，也不讲遥远的概念，而是围绕一个正在出现的新产业机会：海外企业和用户对 AI 服务的需求正在快速增长，包括跨境电商文案、多语种客服、智能翻译、AI设计、数据处理、订单分析、图像识别等。这些需求背后，本质上都需要算力、大模型、数据加工和合规通道来支撑。
 
 > [!meta]- 语料信息（点开展开）
-> 来源：B站（post）
+> 来源：B 站（post）
 > 原帖：<https://www.bilibili.com/video/BV1SrjT6LEy2>
-> 指标：播放=15555 · 弹幕=46 · 收藏=281
+> 指标：播放=15663 · 弹幕=46 · 收藏=284
 > 作者：智灵Shaw　|　发布：2026-06-16T11:02:37+08:00
 > 项目链接：—
-> 采集：2026-09-21T01:36:49+08:00　|　id：`ad627cce586d9af8`
+> 采集：2026-10-22T09:49:58+08:00　|　id：`ad627cce586d9af8`
 
 ## 正文
 

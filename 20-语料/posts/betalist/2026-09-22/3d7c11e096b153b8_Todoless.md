@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/todoless"
 published_at: "2026-07-08"
-captured_at: "2026-10-16T09:37:43+08:00"
+captured_at: "2026-10-22T09:48:06+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-07-08
 > 项目链接：—
-> 采集：2026-10-16T09:37:43+08:00　|　id：`3d7c11e096b153b8`
+> 采集：2026-10-22T09:48:06+08:00　|　id：`3d7c11e096b153b8`
 
 ## 正文
 
@@ -91,19 +91,21 @@ Nothing Notes, Tasks, AI
  Effortless note-taking with AI intelligence
 Taskie
  Get it done, keep it yours
-WZRD
+Space
  BOOSTED
- Turn plain ideas into interactive docs, forms, and decks that converse
+ TESTFLIGHT
+ Send files and text instantly using a six-character code
  BOOSTED
+ TESTFLIGHT
 Anything.so
  Catch tasks early. Delegate instantly. Your AI + human assistant.
 Clearo
  The AI second brain that actually stays organized
 11MHz
  Manage tasks and notes with privacy by design
-Terrapin
+WZRD
  BOOSTED
- Turn receipts, email & photos into clean, tax-ready insights, automatically
+ Turn plain ideas into interactive docs, forms, and decks that converse
  BOOSTED
 TaskNavi
  Manage your tasks using the Eisenhower Matrix

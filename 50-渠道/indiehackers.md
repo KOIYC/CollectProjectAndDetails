@@ -7,7 +7,7 @@ adapter: "ih_products"
 auth: "none"
 lang: "en"
 status: "ok"
-last_verified: "2026-10-17"
+last_verified: "2026-10-22"
 tags:
   - 渠道
   - 渠道/海外发布站
@@ -19,7 +19,7 @@ params: {"pages": 3}
 - **分组**：海外发布站　|　**语言**：en　|　**认证**：none
 - **取数实现**：`ih_products`　|　**单次上限**：20
 - **补全类型**：fulltext
-- **当前状态**：`ok`（本次 20 条，18.9s）
+- **当前状态**：`ok`（本次 20 条，27.2s）
 - **口径备注**：/products 列表页 HTML 解析 /product/ 链接；详情补充走 Jina。旧 Algolia key 已 403
 - **解锁方式**：—
 
@@ -56,3 +56,4 @@ params: {"pages": 3}
 | 2026-10-11T09:47:12+08:00 | ok | 20 | 12.0s | 20 products |
 | 2026-10-16T09:38:22+08:00 | ok | 20 | 25.7s | 21 products |
 | 2026-10-17T13:38:51+08:00 | ok | 20 | 18.9s | 21 products |
+| 2026-10-22T09:48:45+08:00 | ok | 20 | 27.2s | 23 products |

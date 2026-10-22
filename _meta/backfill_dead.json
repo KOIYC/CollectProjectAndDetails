@@ -1,12 +1,12 @@
 {
  "schema": 2,
- "updated": "2026-10-17T13:51:42+08:00",
+ "updated": "2026-10-22T10:00:35+08:00",
  "note": "结构性无正文/取数不可得 —— 连试 2 轮后记账，不再消耗额度。字段：reason（人话）/ reason_code（可复核分类，见 REASON_CODES）/ tried[]（本轮实际试过的后端）/ http_status（direct 档拿到的状态码）",
  "by_reason": {
-  "no_backend": 72,
-  "unreachable": 52,
+  "no_backend": 71,
+  "unreachable": 55,
   "media": 34,
-  "http_403": 5,
+  "http_403": 6,
   "account": 3,
   "gh_miss": 1,
   "http_404": 1
@@ -2512,64 +2512,114 @@
    "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
   },
   "c8022718023f47a7": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "I added cookie texture to my lights and it changed the whole scenery",
    "url": "https://i.redd.it/tvpqkprrczth1.png",
    "source_id": "reddit",
    "first_dead": "2026-10-17T13:51:42+08:00",
-   "last_try": "2026-10-17T13:51:42+08:00",
+   "last_try": "2026-10-22T10:00:35+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
    "http_status": "timeout",
    "reason_code": "unreachable",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
   },
   "bbee196cc559fe0f": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Reached 7.5k organic visitors this month on my SaaS!",
    "url": "https://i.redd.it/ksbao0kd1zth1.png",
    "source_id": "reddit",
    "first_dead": "2026-10-17T13:51:42+08:00",
-   "last_try": "2026-10-17T13:51:42+08:00",
+   "last_try": "2026-10-22T10:00:35+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
    "http_status": "timeout",
    "reason_code": "unreachable",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
   },
   "89adb6cbb1026eb2": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Any ways to come up with saas ideas",
    "url": "https://www.reddit.com/r/SaaS/comments/1wzn9fg/any_ways_to_come_up_with_saas_ideas/",
    "source_id": "reddit",
    "first_dead": "2026-10-17T13:51:42+08:00",
-   "last_try": "2026-10-17T13:51:42+08:00",
+   "last_try": "2026-10-22T10:00:35+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
    "http_status": "timeout",
    "reason_code": "unreachable",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
   },
   "17c28d9ba52eb41d": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Is this a legit capsule or should it have more of the game elements?",
    "url": "https://i.redd.it/ypam52nz3zth1.png",
    "source_id": "reddit",
    "first_dead": "2026-10-17T13:51:42+08:00",
-   "last_try": "2026-10-17T13:51:42+08:00",
+   "last_try": "2026-10-22T10:00:35+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
-   "http_status": "error",
-   "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error"
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error"
+  },
+  "da1fc2dfdcefd6af": {
+   "attempts": 1,
+   "title": "Show HN: Jauvex 1.2, two-way voice chat harness for Claude+Codex+Grok+",
+   "url": "https://github.com/reindent/jauvex",
+   "source_id": "hn_show",
+   "first_dead": "2026-10-22T10:00:35+08:00",
+   "last_try": "2026-10-22T10:00:35+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+  },
+  "2e17044f5bbc8007": {
+   "attempts": 1,
+   "title": "Show HN: Hooked – Swipe through the first lines of classic books Tinde",
+   "url": "https://hooked.boondoggle.studio",
+   "source_id": "hn_show",
+   "first_dead": "2026-10-22T10:00:35+08:00",
+   "last_try": "2026-10-22T10:00:35+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": 403,
+   "reason_code": "http_403",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 http_403 · status=403"
+  },
+  "8d9778b3778a509c": {
+   "attempts": 1,
+   "title": "Rezi",
+   "url": "https://linkedin.rezi.io/",
+   "source_id": "indiehackers",
+   "first_dead": "2026-10-22T10:00:35+08:00",
+   "last_try": "2026-10-22T10:00:35+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "unreachable",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=unreachable"
   }
  }
 }

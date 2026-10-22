@@ -8,7 +8,7 @@ url: "https://dev.to/francistrdev/why-you-still-need-a-website-portfolio-even-th
 project_url: "https://francistrdev.github.io/"
 author: "FrancisTRᴅᴇᴠ"
 published_at: "2026-10-05T15:09:58Z"
-captured_at: "2026-10-17T13:46:43+08:00"
+captured_at: "2026-10-22T09:57:11+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -22,8 +22,8 @@ tags:
   - showdev
   - a11y
 metrics: {"reactions": 257, "comments": 248, "reading_time": 7}
-comments_count: 247
-comments_total: 248
+comments_count: 249
+comments_total: 249
 discovered_via: "devto:showdev"
 ---
 
@@ -38,7 +38,7 @@ discovered_via: "devto:showdev"
 > 指标：reactions=257 · 评论=248 · reading_time=7
 > 作者：FrancisTRᴅᴇᴠ　|　发布：2026-10-05T15:09:58Z
 > 项目链接：<https://francistrdev.github.io/>
-> 采集：2026-10-17T13:46:43+08:00　|　id：`371c3e1ecea54117`
+> 采集：2026-10-22T09:57:11+08:00　|　id：`371c3e1ecea54117`
 
 ## 正文
 
@@ -221,7 +221,7 @@ Don't know what your talking about lol
 
 **That is all! Cya :D**
 
-## 评论（247/248）
+## 评论（249/249）
 
 > **Peter Vivo** · 2026-10-05T15:22:12Z　
 > I am simplify my portfolio/cv:
@@ -2003,6 +2003,11 @@ Don't know what your talking about lol
 
 ---
 
+> **Sushyam Nagallapati** · 2026-10-19T19:33:20Z　
+> Thanks!
+
+---
+
 > **DEV SUPPORTS** · 2026-10-10T15:54:05Z　
 > You need to verify your account.
 >
@@ -2031,6 +2036,13 @@ Don't know what your talking about lol
 
 > **Noah** · 2026-10-12T12:48:19Z　
 > Agree that AI-built portfolios are starting to look alike. What helps is treating the AI output as a first draft and then making the deliberate choices yourself: one typeface pairing you actually like, a consistent spacing scale, a single accent color, and at least one detail that's clearly yours (your Pokémon easter egg is a good example). Those small decisions are what visitors remember, and they're usually quicker to make by adjusting the page directly than by re-prompting. Disclosure: We work on Tado Studio, an Astro site builder where AI makes the first version and you then click elements to adjust them with the code alongside. It's coming soon: Tado studio site
+
+---
+
+> **Tweak** · 2026-10-20T16:55:54Z　
+> Spot-on take. Vibe coding can throw together UI fast, but it rarely accounts for real UX architecture, client communication loops, or edge-case handling. A portfolio shows how you actually think through problems, not just how fast you can prompt code.
+>
+> Thanks for sharing this perspective—much needed with all the recent AI noise!
 
 ## 关联链接
 
