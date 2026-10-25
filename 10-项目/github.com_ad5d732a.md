@@ -1,38 +1,40 @@
 ---
 type: "project"
-title: "Crowdwide is ALMOST DONE!! WOOOHOOO!! 🎉🚀"
+title: "Day 21 of Building Crowdwide — Finally, Time to Polish the UI! 🎉"
 project_url: "https://github.com/DeveloperPuneet/Crowdwide"
-first_seen: "2026-10-16T09:38:25+08:00"
+first_seen: "2026-10-25T23:48:16+08:00"
 sources:
   - devto
 tags:
   - 项目
   - devto
-  - discuss
-  - opensource
+  - webdev
   - buildinpublic
-  - tutorial
+  - opensource
+  - discuss
 lang: "en"
 ---
 
-# Crowdwide is ALMOST DONE!! WOOOHOOO!! 🎉🚀
+# Day 21 of Building Crowdwide — Finally, Time to Polish the UI! 🎉
 
 > [!info] 一句话导读
-> So… after weeks of building, fixing, breaking, fixing again, questioning my life choices, and repeating the same cycle…
+> I was building Crowdwide, a social media platform I started for new indie devs, smaller communities, and smaller creators to raise their voices higher.
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/DeveloperPuneet/Crowdwide>
-> 首次收录：2026-10-16T09:38:25+08:00
+> 首次收录：2026-10-25T23:48:16+08:00
 > 来源渠道：dev.to
-> 标签：discuss, opensource, buildinpublic, tutorial
-> 最新指标：reactions=21 · 评论=0 · reading_time=8
+> 标签：webdev, buildinpublic, opensource, discuss
+> 最新指标：reactions=21 · 评论=70 · reading_time=2
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-10-16T09:38:25+08:00 | dev.to | reactions=21 · 评论=0 · reading_time=8 | [[20-语料/posts/devto/2026-10-16/f4224f171caa076d_Crowdwide-is-ALMOST-DONE!!-WOOOHOOO!!-🎉🚀]] |
+| 2026-10-25T23:32:57+08:00 | dev.to | reactions=21 · 评论=70 · reading_time=2 | [[20-语料/posts/devto/2026-10-25/5066fb3887dfa6e8_Day-21-of-Building-Crowdwide-—-Finally,-Time-to-Po]] |
+| 2026-10-25T23:48:16+08:00 | dev.to | reactions=21 · 评论=70 · reading_time=2 | [[20-语料/posts/devto/2026-10-25/5066fb3887dfa6e8_Day-21-of-Building-Crowdwide-—-Finally,-Time-to-Po]] |
 
 ## 摘要正文
 
-So… after weeks of building, fixing, breaking, fixing again, questioning my life choices, and repeating the same cycle…  **Crowdwide is almost done!!** 😭🎉  ![Image description](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/d59eelc3uosv6grhdz6r.webp) And by almost done, I mean almost ready for its first stable release!  GitHub: https://github.com/DeveloperPuneet/Crowdwide Live website: https://www.crowdwide.run.place/  I dont wanted crowdwide to just look like a simple social network platform so at first I thought that i will build all the features like common social media platform have and then i will add some my own feature ...  When I first started building Crowdwide, I thought about all the features a social media platform should have.  Chat? Done. Group chats? Done. Sharing links? Done. Media uploads? Done. Communities? Done. Posts, articles, polls, reactions, bookmarks, notifications… all those usual social media features? Done!  ![Image description](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/4cc7padff7xrobhf8es1.png)  But then I started thinking…  *If other platforms already have these features, what can I build that makes Crowdwid…
+I was building Crowdwide, a social media platform I started for new indie devs, smaller communities, and smaller creators to raise their voices higher.  Your voice shouldn't be judged based on how big a platform you join. Everyone's voice should be equal.  And today is **Day 21 of building Crowdwide!!!**  YESSSSS!! 🔥🔥  Crowdwide is in a mostly stable state now! Its core features, main algorithm, mailing system, and recommendation system, Widewave, are finally DONE!  So now, it's time to polish the UI.  On Day 21, I'm just polishing the UI of Crowdwide.  The things I thought needed the most improvement were the background color combination, theme adaptability, and sidebar (THIS NEEDS HEAVY IMPROVEMENT!).  The background used to have gradients, but when users scrolled a lot, the background stretched and created a weird shade at the top.  In some themes, a few text colors weren't looking good and were making things difficult to read.  And the sidebar... I was SO confused about how it should look!  Like, should it be on the left or right?  When it opens, should it compress the page?  Or should it stay over the page without compressing anything, making the rest of the screen a bit darke…

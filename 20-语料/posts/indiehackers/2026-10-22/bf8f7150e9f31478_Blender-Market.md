@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/blender-market"
 project_url: "https://blendermarket.com/posts/2019-cyber-weekend-sale-results"
-captured_at: "2026-10-22T09:48:20+08:00"
+captured_at: "2026-10-25T23:31:48+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://blendermarket.com/posts/2019-cyber-weekend-sale-results>
-> 采集：2026-10-22T09:48:20+08:00　|　id：`bf8f7150e9f31478`
+> 采集：2026-10-25T23:31:48+08:00　|　id：`bf8f7150e9f31478`
 
 ## 正文
 
@@ -62,14 +62,14 @@ Primary responsibilities:
  forms.gle
 Jonathan Williamson
 5 Upvotes
-1 Comment
+Comment
 November 30, 2020
  Doubled 2019 Gross Revenue
  As of today Blender Market has doubled the 2019 gross revenue. The Blender community is growing at an alarming pace and that's showing in the growth of Blender Market.
 We have now processed over $4,083,500.00 USD in 2020, with the bulk of this going straight into creators pockets.
 Jonathan Williamson
 1 Upvote
-1 Comment
+Comment
 October 29, 2020
  Indie Hackers Interview Published
  Our interview with Indie Hackers from few weeks ago was just published to the blog. It's a long read but shares a lot of details on how we bootstrapped Blender Market and how we got the first major creators to buy in: https://www.indiehackers.com/interview/how-i-used-influencers-to-market-my-offshoot-product-46a6a66d14
@@ -78,7 +78,7 @@ How I Used Influencers to Market My Offshoot Product - Indie Hackers
  indiehackers.com
 Jonathan Williamson
 2 Upvotes
-1 Comment
+Comment
 September 1, 2020
  Profitable and a record revenue month in August
  August saw yet another record for Blender Market gross revenue with $529,593.94 USD. Of that $261,386.34 was processed through Stripe and the rest being handled by PayPal.
@@ -88,7 +88,7 @@ Thanks to the great growth and staying diligent on expenses Blender Market has f
 It's only taken six years of steadfastness!
 Jonathan Williamson
 2 Upvotes
-1 Comment
+Comment
 April 27, 2020
  Surpassed $372,000.00 in April revenue
  We hosted our seasonal Spring sale last week, which pushed us past $372,000.00 in gross revenue for the month of April, making it our highest grossing month ever! The previous top month, November 2019, was $311,000.00.
@@ -99,7 +99,7 @@ Spring Sale 2020 Results
  blendermarket.com
 Jonathan Williamson
 3 Upvotes
-1 Comment
+Comment
 March 3, 2020
  Creator Affiliates Launched!
  After a few months of work we launched a new Creator Affiliates system for Blender Market! This enables any Creator to add affiliates for their products for help marketing in exchange for a small cut of the earnings.
@@ -108,14 +108,14 @@ Anyone with a Blender Market account can be added as an affiliate simply by havi
 If all goes well this system will help incentivize Creators to collaborate with influencers within the Blender community to spread the word and help promote their products.
 Jonathan Williamson
 2 Upvotes
-1 Comment
+Comment
 March 1, 2020
  $216k revenue in February; 3rd best month to date
  February 2020 was our 3rd highest grossing month to date! Last month was beat only by November and December 2019, which hold the record due to Cyber Weekend sale boosts. February has no such sale campaign and thus is encouraging for the continued growth and health of the marketplace.
 On $216,647.65 USD of gross revenue we paid out $180,799.42 USD in commissions to 441 Creators and $4,514.51 in donations to the Blender Development Fund.
 Jonathan Williamson
 4 Upvotes
-1 Comment
+Comment
 December 12, 2019
  2019 Cyber Weekend Results
  Each year we run a Creator opt-in sale for Black Friday and Cyber Monday. Without fail, it's always been our busiest sales weekend of the year.
@@ -131,7 +131,7 @@ Fast-forward five years and Blender Market is an established marketplace with a 
 Read the full blog post here: https://blendermarket.com/posts/blender-market-has-a-new-look
 Jonathan Williamson
 2 Upvotes
-1 Comment
+Comment
 January 15, 2019
  2018 in Review
  Each year Blender Market continues to grow a steady pace. In 2018 our gross revenue rose 150% compared to 2017, surpassing one million for the first time!
@@ -154,7 +154,7 @@ Stay informed as an indie hacker.
  Market insights that help you start and grow your business.
 Subscribe
 Follow @IndieHackers on X for stories and insights about founders building profitable online businesses, and to connect with others in the Indie Hackers community.
- © Indie Hackers, Inc. · FAQ · Terms · Privacy · Cookie Settings / Policy ·
+ © Indie Hackers, Inc. · FAQ · Terms · Privacy · Cookie Policy ·
 Community
  Top Today Top This Week Top This Month Join
 Products

@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Panel – A research workspace where the agent can build its own panes"
 project_url: "https://github.com/greentfrapp/panel"
-first_seen: "2026-10-22T09:57:30+08:00"
+first_seen: "2026-10-25T23:48:24+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/greentfrapp/panel>
-> 首次收录：2026-10-22T09:57:30+08:00
+> 首次收录：2026-10-25T23:48:24+08:00
 > 来源渠道：HN Show HN
 > 标签：author_greentfrapp, story_49712621, show_hn
 > 最新指标：点赞=53 · 评论=22 · engagement_velocity=53
@@ -59,6 +59,7 @@ lang: "en"
 | 2026-10-16T09:52:17+08:00 | HN Show HN | 点赞=53 · 评论=22 · engagement_velocity=53 | [[20-语料/posts/hn_show/2026-09-21/67861861e81ac9c2_Show-HN-Panel-–-A-research-workspace-where-the-age]] |
 | 2026-10-17T13:47:00+08:00 | HN Show HN | 点赞=53 · 评论=22 · engagement_velocity=53 | [[20-语料/posts/hn_show/2026-09-21/67861861e81ac9c2_Show-HN-Panel-–-A-research-workspace-where-the-age]] |
 | 2026-10-22T09:57:30+08:00 | HN Show HN | 点赞=53 · 评论=22 · engagement_velocity=53 | [[20-语料/posts/hn_show/2026-09-21/67861861e81ac9c2_Show-HN-Panel-–-A-research-workspace-where-the-age]] |
+| 2026-10-25T23:48:24+08:00 | HN Show HN | 点赞=53 · 评论=22 · engagement_velocity=53 | [[20-语料/posts/hn_show/2026-09-21/67861861e81ac9c2_Show-HN-Panel-–-A-research-workspace-where-the-age]] |
 
 ## 摘要正文
 

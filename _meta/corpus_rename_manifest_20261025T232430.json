@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-25T23:38:18+08:00",
+  "kind": "corpus_rename",
+  "note": "条目改标题导致的语料页换名；旧页已清（git/raw 可回溯），链接已改写",
+  "renames": [
+    {
+      "from": "20-语料/posts/producthunt/2026-09-20/7c7187ae2983b0f7_Basedash-Connector-gallery.md",
+      "to": "20-语料/posts/producthunt/2026-09-20/7c7187ae2983b0f7_Basedash-Scheduled-CSV-Exports.md"
+    },
+    {
+      "from": "20-语料/posts/producthunt/2026-09-24/25a270af6ff3aa31_Dub-Program-Marketplace.md",
+      "to": "20-语料/posts/producthunt/2026-09-24/25a270af6ff3aa31_Dub-Startup-Program.md"
+    }
+  ]
+}

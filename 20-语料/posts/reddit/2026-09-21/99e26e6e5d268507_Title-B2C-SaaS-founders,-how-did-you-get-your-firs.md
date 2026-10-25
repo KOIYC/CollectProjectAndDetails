@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/microsaas/comments/1widpbp/title_b2c_saas_founders_how_did_you_get_your/"
 author: "Bobby_with_Quantly"
 published_at: "2026-09-17T07:44:05+08:00"
-captured_at: "2026-10-17T13:49:05+08:00"
+captured_at: "2026-10-25T23:50:26+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,7 +18,7 @@ tags:
   - reddit
   - r/microsaas
 metrics: {"score": 5, "comments": 11, "upvote_ratio": 0.86}
-comments_count: 8
+comments_count: 9
 comments_total: 11
 discovered_via: "reddit:7d+settle3"
 ---
@@ -34,7 +34,7 @@ discovered_via: "reddit:7d+settle3"
 > 指标：得分=5 · 评论=11 · 赞踩比=0.86
 > 作者：Bobby_with_Quantly　|　发布：2026-09-17T07:44:05+08:00
 > 项目链接：—
-> 采集：2026-10-17T13:49:05+08:00　|　id：`99e26e6e5d268507`
+> 采集：2026-10-25T23:50:26+08:00　|　id：`99e26e6e5d268507`
 
 ## 正文
 
@@ -54,7 +54,7 @@ I'd especially love to hear from founders who have built B2C fintech or SaaS pro
 
 Thanks for the help!
 
-## 评论（8/11）
+## 评论（9/11）
 
 > **deliriousdisarmament**（2 分） · 2026-09-17T07:46:29+08:00　
 > Post in your own Discord groups and related communities where the problem exists, but focus on getting 10 people to actually use it weekly instead of chasing downloads.
@@ -99,6 +99,23 @@ Thanks for the help!
 
 > **indiebythenight**（1 分） · 2026-09-22T13:23:41+08:00　
 > the discord community you found this problem in is probably still your best channel for first users, more than any broader b2c push. people who already vented about not being able to use the platform have the exact problem you solved, so going back to that same community (or similar ones for other broker restricted countries) with a direct "this now works for you" message should convert far better than general b2c marketing. i'd also be specific about which countries and brokerages you support on the landing page itself, since "international users" is vague enough that someone from an unsupported country will bounce without telling you why. worth asking the people you already interviewed to be your first users before opening it up broadly, they've already told you what they need so they're the easiest yes you'll get. the regulatory piece you mentioned is also worth putting on the page as a reason to trust you, not just a technical footnote, since it shows you actually understand the compliance side that generic trading apps ignore.
+
+---
+
+> **LuckiestToast**（1 分） · 2026-10-19T01:00:53+08:00　
+> i actually got my first users doing posts and comments like this. finding people who were looking for a solution like mine and giving them a useful answer, with my product mentioned when it genuinely fit.
+>
+> i built and exited a b2c ai saas for cv optimization. different space, but reddit brought most of my first users. later, SEO started bringing a lot of traffic from google and chatgpt too.
+>
+> in your case i'd start with that discord. you've already found people who wanted a product and couldn't access it. go back to those conversations and offer to walk a few people through yours, starting with one country you support.
+>
+> alongside that, i'd test instagram and tiktok. short videos, ai presenter videos if you don't want to show your face, or simple slideshows. show how the product works and answer the questions people asked during your interviews. with investing i'd make the demos and limitations really clear, rather than leading with return claims.
+>
+> google seo and ai search visibility would also be on my list. country-specific questions and brokerage compatibility seem like useful starting points for content. maybe also localisation
+>
+> if you have a small budget later, look at niche investing newsletters with readers in the countries you support. a small paid placement could be worth testing. i'd ask about audience geography first, subscriber count alone doesn't tell you much
+>
+> full disclosure, after exiting my app and working on growth at other startups, i'm now testing a done-for-you service, basically an [outsourced marketing for solo founders](https://getsuperorganic.com/?utm_source=reddit). i handle reddit, social content and seo. instead of buying a bunch of tools and doing it yourself, you get the research, content and publishing done for you. might interest you :D
 
 ## 导航
 

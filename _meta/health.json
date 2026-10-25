@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-22T09:42:28+08:00",
+ "checked_at": "2026-10-25T23:24:01+08:00",
  "channels": [
   {
    "channel_id": "hn_show",
@@ -10,16 +10,16 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 3.7,
-   "probe_at": "2026-10-22T09:38:35+08:00",
+   "elapsed_s": 6.0,
+   "probe_at": "2026-10-25T23:19:30+08:00",
    "sample": [
     {
-     "title": "Show HN: Twine is a meta-harness with workflows, cross-agent memories and traces",
-     "url": "https://news.ycombinator.com/item?id=50189550"
+     "title": "Show HN: I put employees inside S&P 500 market-cap bubbles",
+     "url": "https://news.ycombinator.com/item?id=50232312"
     },
     {
-     "title": "Show HN: I built a Markdown and raw HTML blog platform scoring 99 on PageSpeed",
-     "url": "https://news.ycombinator.com/item?id=50189175"
+     "title": "Show HN: HissingKitty – what teams pay for software and what replaced it",
+     "url": "https://news.ycombinator.com/item?id=50232108"
     }
    ]
   },
@@ -29,12 +29,21 @@
    "adapter": "reddit_arctic",
    "auth": "none",
    "group": "海外社区",
-   "status": "empty",
-   "count": 0,
-   "message": "0 posts; SideProject: 500: Internal Server Error; indiehackers: 500: Internal Server Error; microsaas: 500: I",
-   "elapsed_s": 27.7,
-   "probe_at": "2026-10-22T09:39:03+08:00",
-   "sample": []
+   "status": "ok",
+   "count": 3,
+   "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
+   "elapsed_s": 25.8,
+   "probe_at": "2026-10-25T23:19:56+08:00",
+   "sample": [
+    {
+     "title": "NameCheap Price Increases",
+     "url": "https://www.reddit.com/r/selfhosted/comments/1x6oaco/namecheap_price_increases/"
+    },
+    {
+     "title": "Dashing across an Eastern steampunk city as a little fox spirit",
+     "url": "https://www.reddit.com/r/IndieDev/comments/1x6o4fl/dashing_across_an_eastern_steampunk_city_as_a/"
+    }
+   ]
   },
   {
    "channel_id": "github_new",
@@ -45,8 +54,8 @@
    "status": "ok",
    "count": 3,
    "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 2.1,
-   "probe_at": "2026-10-22T09:39:05+08:00",
+   "elapsed_s": 78.3,
+   "probe_at": "2026-10-25T23:21:14+08:00",
    "sample": [
     {
      "title": "Gathin23/cleanyourtv",
@@ -67,16 +76,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 startups · 发布日 3/3",
-   "elapsed_s": 3.6,
-   "probe_at": "2026-10-22T09:39:09+08:00",
+   "elapsed_s": 15.0,
+   "probe_at": "2026-10-25T23:21:29+08:00",
    "sample": [
     {
-     "title": "Blueveta",
-     "url": "https://betalist.com/startups/blueveta"
+     "title": "Aserp",
+     "url": "https://betalist.com/startups/aserp"
     },
     {
-     "title": "Rezup",
-     "url": "https://betalist.com/startups/rezup"
+     "title": "Engineforge",
+     "url": "https://betalist.com/startups/engineforge"
     }
    ]
   },
@@ -89,16 +98,16 @@
    "status": "ok",
    "count": 3,
    "message": "23 products",
-   "elapsed_s": 6.0,
-   "probe_at": "2026-10-22T09:39:15+08:00",
+   "elapsed_s": 9.5,
+   "probe_at": "2026-10-25T23:21:38+08:00",
    "sample": [
     {
-     "title": "Discounthub",
-     "url": "https://www.indiehackers.com/product/discounthub"
+     "title": "Launchon It",
+     "url": "https://www.indiehackers.com/product/launchon-it"
     },
     {
-     "title": "Mediafast 16",
-     "url": "https://www.indiehackers.com/product/mediafast-16"
+     "title": "Circlesaas",
+     "url": "https://www.indiehackers.com/product/circlesaas"
     }
    ]
   },
@@ -111,8 +120,8 @@
    "status": "ok",
    "count": 2,
    "message": "2 articles",
-   "elapsed_s": 1.8,
-   "probe_at": "2026-10-22T09:39:17+08:00",
+   "elapsed_s": 12.3,
+   "probe_at": "2026-10-25T23:21:51+08:00",
    "sample": [
     {
      "title": "Promise Delivered: Welcome to the DEV Hall of Fame (65 Authors, 65 Masterpieces)",
@@ -133,16 +142,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 entries",
-   "elapsed_s": 0.8,
-   "probe_at": "2026-10-22T09:39:17+08:00",
+   "elapsed_s": 2.1,
+   "probe_at": "2026-10-25T23:21:53+08:00",
    "sample": [
     {
-     "title": "Needle",
-     "url": "https://www.producthunt.com/products/needle-3"
+     "title": "Moli by Lexmount",
+     "url": "https://www.producthunt.com/products/lexmount-browser"
     },
     {
-     "title": "Hotly",
-     "url": "https://www.producthunt.com/products/hotly"
+     "title": "Badgey",
+     "url": "https://www.producthunt.com/products/badgey"
     }
    ]
   },
@@ -155,16 +164,16 @@
    "status": "ok",
    "count": 3,
    "message": "20 topics",
-   "elapsed_s": 1.0,
-   "probe_at": "2026-10-22T09:39:18+08:00",
+   "elapsed_s": 1.9,
+   "probe_at": "2026-10-25T23:21:55+08:00",
    "sample": [
     {
-     "title": "QuotaPanel：基于 Wails 的 AI 订阅额度管理工具",
-     "url": "https://www.v2ex.com/t/1250750"
+     "title": "二开信源管道跑了半个月，聊聊用 pgvector 语义降噪和防重推送踩的几个深坑",
+     "url": "https://www.v2ex.com/t/1251702"
     },
     {
-     "title": "高级服务器开发工程师 远程",
-     "url": "https://www.v2ex.com/t/1250716"
+     "title": "求职: 运维",
+     "url": "https://www.v2ex.com/t/1251667"
     }
    ]
   },
@@ -176,17 +185,17 @@
    "group": "中文社媒",
    "status": "ok",
    "count": 3,
-   "message": "6 videos",
-   "elapsed_s": 0.6,
-   "probe_at": "2026-10-22T09:39:19+08:00",
+   "message": "12 videos",
+   "elapsed_s": 1.0,
+   "probe_at": "2026-10-25T23:21:56+08:00",
    "sample": [
     {
      "title": "一分钱不花，完成独立产品从0上线！2026年独立开发者免费全家桶",
      "url": "https://www.bilibili.com/video/BV1sFWA6VEgC"
     },
     {
-     "title": "数字游民必看 | 独立开发者的出海赚钱实战经验分享!",
-     "url": "https://www.bilibili.com/video/BV1d9dKYxEiX"
+     "title": "我想做世界上最好的个人AI记忆软件，用一年时间，守一份初心。用一生白守，养一颗真心【B站AI创造公开赛】",
+     "url": "https://www.bilibili.com/video/BV1z9Hw68ER9"
     }
    ]
   },
@@ -196,21 +205,12 @@
    "adapter": "onec7",
    "auth": "none",
    "group": "中文名录",
-   "status": "ok",
-   "count": 3,
-   "message": "9 entries · 收录日 9",
-   "elapsed_s": 4.3,
-   "probe_at": "2026-10-22T09:39:23+08:00",
-   "sample": [
-    {
-     "title": "Indie Hacker",
-     "url": "https://www.indiehackers.com/"
-    },
-    {
-     "title": "Failory",
-     "url": "https://www.failory.com/"
-    }
-   ]
+   "status": "error",
+   "count": 0,
+   "message": "ERR: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>",
+   "elapsed_s": 2.3,
+   "probe_at": "2026-10-25T23:21:58+08:00",
+   "sample": []
   },
   {
    "channel_id": "exa_discovery",
@@ -218,21 +218,12 @@
    "adapter": "exa_discovery",
    "auth": "cli",
    "group": "全网发现",
-   "status": "ok",
-   "count": 3,
-   "message": "8 results",
-   "elapsed_s": 14.0,
-   "probe_at": "2026-10-22T09:39:37+08:00",
-   "sample": [
-    {
-     "title": "\"The Killing Stone Launches in 1.0 on PC and Consoles Today\" - Games Press",
-     "url": "https://www.gamespress.com/The-Killing-Stone-Launches-in-10-on-PC-and-Consoles-Today"
-    },
-    {
-     "title": "\"CRITICAL REFLEX SURPRISE-RELEASES THE PSYCHOLOGICAL HORROR COOKING GAME CUCINA ",
-     "url": "https://www.gamespress.com/CRITICAL-REFLEX-SURPRISE-RELEASES-THE-PSYCHOLOGICAL-HORROR-COOKING-GAM"
-    }
-   ]
+   "status": "empty",
+   "count": 0,
+   "message": "0 results",
+   "elapsed_s": 31.0,
+   "probe_at": "2026-10-25T23:22:29+08:00",
+   "sample": []
   },
   {
    "channel_id": "twitter",
@@ -242,9 +233,9 @@
    "group": "海外社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 14s\nok: false\nerr",
-   "elapsed_s": 68.1,
-   "probe_at": "2026-10-22T09:40:45+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 16s\nok: false\nerr",
+   "elapsed_s": 43.2,
+   "probe_at": "2026-10-25T23:23:12+08:00",
    "sample": []
   },
   {
@@ -256,8 +247,8 @@
    "status": "auth",
    "count": 0,
    "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: [rate-limiter] xiaohongshu: sleeping 9s\nok: false\nerror:\n  c",
-   "elapsed_s": 55.3,
-   "probe_at": "2026-10-22T09:41:41+08:00",
+   "elapsed_s": 10.6,
+   "probe_at": "2026-10-25T23:23:23+08:00",
    "sample": []
   }
  ],
@@ -270,17 +261,17 @@
    "delta": true,
    "message": "ERR: <urlopen error timed out>",
    "elapsed_s": 20.1,
-   "probe_at": "2026-10-22T09:42:21+08:00"
+   "probe_at": "2026-10-25T23:23:45+08:00"
   },
   {
    "backend": "arctic_shift",
    "use": "Reddit 取数",
-   "status": "unusable",
+   "status": "ok",
    "declared": null,
    "delta": false,
-   "message": "500: Internal Server Error",
-   "elapsed_s": 2.0,
-   "probe_at": "2026-10-22T09:42:23+08:00"
+   "message": "1 rows",
+   "elapsed_s": 6.6,
+   "probe_at": "2026-10-25T23:23:52+08:00"
   },
   {
    "backend": "exa_web_fetch",
@@ -289,8 +280,8 @@
    "declared": "warn",
    "delta": false,
    "message": "1 url 返回正文",
-   "elapsed_s": 4.0,
-   "probe_at": "2026-10-22T09:42:27+08:00"
+   "elapsed_s": 6.7,
+   "probe_at": "2026-10-25T23:23:58+08:00"
   },
   {
    "backend": "github_gh",
@@ -299,15 +290,15 @@
    "declared": "warn",
    "delta": false,
    "message": "remaining=5000",
-   "elapsed_s": 1.0,
-   "probe_at": "2026-10-22T09:42:28+08:00"
+   "elapsed_s": 2.2,
+   "probe_at": "2026-10-25T23:24:01+08:00"
   }
  ],
  "summary": {
   "total": 13,
-  "ok": 10,
+  "ok": 9,
   "empty": 1,
-  "error": 0,
+  "error": 1,
   "auth": 2
  },
  "decisions": [
@@ -318,8 +309,8 @@
   },
   {
    "channel_id": "reddit",
-   "action": "watch",
-   "status": "empty"
+   "action": "keep",
+   "status": "ok"
   },
   {
    "channel_id": "github_new",
@@ -358,13 +349,13 @@
   },
   {
    "channel_id": "c1c7",
-   "action": "keep",
-   "status": "ok"
+   "action": "review",
+   "status": "error"
   },
   {
    "channel_id": "exa_discovery",
-   "action": "keep",
-   "status": "ok"
+   "action": "watch",
+   "status": "empty"
   },
   {
    "channel_id": "twitter",
@@ -378,8 +369,8 @@
   }
  ],
  "agent_reach": {
-  "ok": true,
-  "checked_at": "2026-10-22T09:42:01+08:00"
+  "ok": false,
+  "checked_at": null
  },
  "deltas": [
   {
@@ -390,7 +381,7 @@
    "delta": true,
    "message": "ERR: <urlopen error timed out>",
    "elapsed_s": 20.1,
-   "probe_at": "2026-10-22T09:42:21+08:00"
+   "probe_at": "2026-10-25T23:23:45+08:00"
   }
  ]
 }

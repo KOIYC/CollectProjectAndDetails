@@ -6,7 +6,7 @@ source: "c1c7"
 source_name: "1c7 中文独立开发者名录"
 url: "https://mastersofscale.com"
 project_url: "https://mastersofscale.com/"
-captured_at: "2026-10-17T13:39:26+08:00"
+captured_at: "2026-10-25T23:35:51+08:00"
 lang: "zh"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,37 +32,33 @@ discovered_via: "1c7:readme"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://mastersofscale.com/>
-> 采集：2026-10-17T13:39:26+08:00　|　id：`ec3eb5285a72cd71`
+> 采集：2026-10-25T23:35:51+08:00　|　id：`ec3eb5285a72cd71`
 
 ## 正文
 
 Masters of Scale – Home
 
-## You’re a media company now
+## Where AI goes from here
 
- Media Executive Barbara Peng
+ OpenAI’s Sarah Friar
 
-Former Business Insider CEO, Barbara Peng discusses the state of journalism, the future of trust, and what leaders in every industry need to understand about operating in an AI world.
+Reid Hoffman sits down with OpenAI CFO Sarah Friar to understand the precipice of the moment we are in and the decisions that could shape what comes next for each of us.
+
+Meet the latest speakers joining the Summit 2026 lineup. These leaders from OpenAI, Google, Suno, and more are defining what comes next for business, creativity, and tech.
 
 Hipcamp’s Alyssa Ravasio
 
 Creative Planning’s Jamie Battmer KCRW’s Jennifer Ferro
 
-Savannah Bananas’ Jesse Cole
+MTV’s Tom Freston
 
 Engine’s Elia Wallen The Hershey Company’s Kirk Tanner
 
 Halloween meets GLP-1s
 
-MIT’s Sherry Turkle
-
-The slippery slope of artificial intimacy
+ Don't be boring: KCRW's Jennifer Ferro on building a brand people love
 
 Don't be boring: KCRW's Jennifer Ferro on building a brand people love
-
- Can Hershey last another 132 years? Its CEO on the two things it'll take
-
-Can Hershey last another 132 years? Its CEO on the two things it'll take
 
  Iconic Leaders. Priceless Advice.
 

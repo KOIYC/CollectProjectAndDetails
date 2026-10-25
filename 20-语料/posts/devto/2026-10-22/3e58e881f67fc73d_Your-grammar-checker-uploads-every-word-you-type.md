@@ -8,7 +8,7 @@ url: "https://dev.to/rudratosh/your-grammar-checker-uploads-every-word-you-type-
 project_url: "https://brisktype.com/"
 author: "Rudratosh Shastri"
 published_at: "2026-10-19T18:06:54Z"
-captured_at: "2026-10-22T09:49:03+08:00"
+captured_at: "2026-10-25T23:32:53+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,9 +21,9 @@ tags:
   - ai
   - macos
   - indiehackers
-metrics: {"reactions": 6, "comments": 4, "reading_time": 6}
-comments_count: 4
-comments_total: 4
+metrics: {"reactions": 7, "comments": 15, "reading_time": 6}
+comments_count: 15
+comments_total: 15
 discovered_via: "devto:indiehackers"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:indiehackers"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/rudratosh/your-grammar-checker-uploads-every-word-you-type-i-built-one-that-never-leaves-your-mac-8pj>
-> 指标：reactions=6 · 评论=4 · reading_time=6
+> 指标：reactions=7 · 评论=15 · reading_time=6
 > 作者：Rudratosh Shastri　|　发布：2026-10-19T18:06:54Z
 > 项目链接：<https://brisktype.com/>
-> 采集：2026-10-22T09:49:03+08:00　|　id：`3e58e881f67fc73d`
+> 采集：2026-10-25T23:32:53+08:00　|　id：`3e58e881f67fc73d`
 
 ## 正文
 
@@ -157,7 +157,7 @@ If "my grammar checker shouldn't need the internet" sounds right to you, that's 
 
 I built this solo, and I read everything. If you try it, tell me what breaks, what you wish it did, and which app you most want out of beta. That feedback is the roadmap.
 
-## 评论（4/4）
+## 评论（15/15）
 
 > **arcwrightai** · 2026-10-19T18:08:58Z　
 > Local-first is the right call for anything that touches your writing. Privacy shouldn't be a premium feature.
@@ -178,8 +178,75 @@ I built this solo, and I read everything. If you try it, tell me what breaks, wh
 
 ---
 
+> **Rudratosh Shastri** · 2026-10-23T06:26:36Z　
+> Keeping the deterministic feature deterministic is a detail only someone who honored the constraint would write.
+>
+> The line I most wanted someone to catch — thank you. And yes, "does this actually need a server?" extends way past AI; most text chores are embarrassingly client-side. Good to see BulkTextKit taking the same stance in the no-AI space. Agreed on one-time pricing too: a tool that needs you to keep paying keeps needing your data — worth naming out loud.
+
+---
+
 > **Om Yaduvanshi** · 2026-10-20T13:18:11Z　
 > the 'touched the internet twice' line is doing a lot of work, and i mean that as a compliment. most privacy pitches collapse on the exact things they quietly exclude. one small crack in the story though: the license check sends the mac's name. that is not your writing, so the rule technically holds, but it is one identifying string crossing the wire. worth naming in the architecture section before someone else names it for you.
+
+---
+
+> **Rudratosh Shastri** · 2026-10-23T06:26:44Z　
+> the license check sends the mac's name... one identifying string crossing the wire
+>
+> Fair, and you're right to make me name it before someone else does. It's not your writing — but it is one identifying string, once, at activation, and "touched the internet twice" should say what crossed, not just how often. Adding it to the architecture section explicitly: device name at license check, nothing after. Precision is the whole pitch; hand-waving the one exception undercuts it.
+
+---
+
+> **Om Yaduvanshi** · 2026-10-23T07:22:04Z　
+> precision being the whole pitch is a good way to put it. i'd say the license ping matters less for how often it fires and more because it's the one moment where the "your words never leave" story has an exception. that's exactly the line worth naming plainly, good call.
+
+---
+
+> **Rudratosh Shastri** · 2026-10-23T09:19:05Z　
+> the one moment where the "your words never leave" story has an exception
+>
+> Exactly — which is why it has to be named plainly, not buried. The frequency is almost irrelevant; it's that there is an exception at all when the whole pitch is "no exceptions." The honest version states it as a boundary: device name at license check, once, and never a word of your text — so the reader audits the exception instead of discovering it later. A privacy claim is only as strong as the thing it admits.
+
+---
+
+> **Om Yaduvanshi** · 2026-10-23T13:14:07Z　
+> fair. and the bar in that last line is brutal, which is the point. most tools name the exception only after someone finds it. naming it yourself is what makes the rest of the claim hold.
+
+---
+
+> **Rudratosh Shastri** · 2026-10-24T07:32:33Z　
+> naming it yourself is what makes the rest of the claim hold
+>
+> Exactly that. The exception you disclose is credibility; the one someone finds for you is a retraction. Same fact, opposite outcome — and the only difference is who said it first.
+
+---
+
+> **Om Yaduvanshi** · 2026-10-24T13:08:55Z　
+> yes, that last line is the sharpest version of it. same fact, different story depending on who says it first. that is a good test for any privacy claim, really.
+
+---
+
+> **Rudratosh Shastri** · 2026-10-25T08:59:11Z　
+> naming it yourself is what makes the rest of the claim hold.
+>
+> Exactly — the exception you disclose yourself costs you a sentence; the one a user finds costs you the whole claim. Cheap insurance.
+
+---
+
+> **Om Yaduvanshi** · 2026-10-25T13:09:01Z　
+> that cost framing is the part i would keep. a disclosed exception reads as a limit, a found one reads as a cover-up.
+
+---
+
+> **Vardum (formerly VEIL)** · 2026-10-22T21:49:55Z　
+> Two small models instead of one bigger one is interesting. Was that for speed, or was one model bad at doing both jobs? Mail is the app I'd want it in first.
+
+---
+
+> **Rudratosh Shastri** · 2026-10-23T06:27:01Z　
+> Two small models instead of one bigger one — speed, or was one bad at both?
+>
+> Mostly the RAM budget, then speed. The "Faster" model keeps autocomplete under a keystroke's latency on an 8GB Air where one bigger model would swap; the "Higher quality" one does better rewrites if you can spare the memory. Not one-bad-at-both so much as one-size-doesn't-fit-both-machines — you pick per device. And agreed, Mail's the first app most people want it in; it's supported out of the box (the browser/Slack-type apps are what's still in beta).
 
 ## 关联链接
 

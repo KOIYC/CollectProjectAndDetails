@@ -582,8 +582,8 @@ backends:
     revive: 复测能返回正文后恢复，可重新用于 enrich_generic
   - id: arctic_shift
     use: Reddit 取数
-    status: unstable
-    verified: '2026-10-22'
+    status: ok
+    verified: '2026-10-25'
     evidence: ① after/before 只接受 epoch 秒或纯日期，带时区 ISO 会 400；② score 装载延迟：近 3 天帖子分数未沉淀（近 3 天 max=1 vs 7-14 天前 max=42）→ 采集用 settle_days=3 窗口；③ sort 只接受 asc/desc。
       ④ **2026-10-10 源站故障**（已恢复）：体检探针与采集端同轮返回各 sub `522`（kb_audit 后端复检亦为 `unusable / 522`）。
       三层探针定案 = **源站侧故障，非本机网络**：TCP ok 0.51s / TLS ok 0.62s / HTTP **522**（Cloudflare「源站连接超时」，
@@ -600,7 +600,10 @@ backends:
       resources for agents`）；`www.reddit.com` / `old.reddit.com` 直连 **10060 超时**（本网络老问题）。
       **处置**：reddit 保持 enabled、**不写 disabled**（后端宕机 ≠ 渠道腐化），本轮 reddit 语料为空属预期损耗，不加 `--channels` 重试
       （时窗路径全挂，重试必空）。
-    revive: 源站恢复后由 kb_audit 后端复检自动转 ok（2026-10-11 已有先例）；复活判据 = 带 after/before 的请求返回 200 且 rows>0。
+      ⑦ **2026-10-25 恢复**：kb_audit 渠道探针 reddit `ok / 3 posts / 25.8s`、后端复检 `ok / 1 rows / 6.6s` → 时间窗查询路径已修好，
+      status 由 `unstable` 转 **ok**。**第二次正面证实「后端宕机保持 enabled」判据**（首次 10-11 的 522 → 10-11 恢复）。
+      复现规律：arctic-shift 的故障窗口约 2-4 轮（10-10 522 / 10-22 500 / 10-25 ok），**故障期不重试、不停用、不改配置**是正确处置。
+    revive: 源站恢复后由 kb_audit 后端复检自动转 ok（2026-10-11、2026-10-25 两次先例）；复活判据 = 带 after/before 的请求返回 200 且 rows>0。
       若连续 ≥2 轮仍 500，再评估换 Reddit 取数后端（pullpush 已 429 不可用，需另找）或临时降该渠道权重；换后端要改 adapter，须用户确认
   - id: ih_algolia
     use: IndieHackers 结构化产品库

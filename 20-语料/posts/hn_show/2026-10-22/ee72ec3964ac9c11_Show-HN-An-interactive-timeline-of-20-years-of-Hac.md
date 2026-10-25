@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=50181085"
 project_url: "https://adriankrebs.ch/hn-timeline"
 author: "hubraumhugo"
 published_at: "2026-10-21T13:59:15Z"
-captured_at: "2026-10-22T09:56:54+08:00"
+captured_at: "2026-10-25T23:45:19+08:00"
 lang: "en"
 kind: "post"
-topic: "未分类"
+topic: "AI 工具/Agent"
 shard: "2026-10-22"
 pub_day: "2026-10-21"
 tags:
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=2 · 评论=3 · engagement_velocity=2
 > 作者：hubraumhugo　|　发布：2026-10-21T13:59:15Z
 > 项目链接：<https://adriankrebs.ch/hn-timeline>
-> 采集：2026-10-22T09:56:54+08:00　|　id：`ee72ec3964ac9c11`
+> 采集：2026-10-25T23:45:19+08:00　|　id：`ee72ec3964ac9c11`
 
 ## 正文
 
@@ -54,7 +54,7 @@ Mood-meter****
 Imagined
 ▶ Play
 
-Error fetching https://linkedin.rezi.io/: CRAWL_UNKNOWN_ERROR
+Error fetching https://chatgpt.com/plugins/plugin_asdk_app_6abdec89d46c81919cda058ca9f62cb8?search=call4me: CRAWL_EMPTY_CONTENT
 
 ## 评论（3/3）
 
@@ -73,11 +73,11 @@ Error fetching https://linkedin.rezi.io/: CRAWL_UNKNOWN_ERROR
 
 ## 关联链接
 
-- https://linkedin.rezi.io/:
+- https://chatgpt.com/plugins/plugin_asdk_app_6abdec89d46c81919cda058ca9f62cb8?search=call4me:
 
 ## 导航
 
 - 项目页：[[10-项目/adriankrebs.ch_aaaccbd6]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

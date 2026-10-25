@@ -8,10 +8,10 @@ url: "https://github.com/Jakeschincariol/replica-skill"
 project_url: "https://opusjake.ai/"
 author: "Jakeschincariol"
 published_at: "2026-10-03T12:07:49Z"
-captured_at: "2026-10-22T09:47:45+08:00"
+captured_at: "2026-10-25T23:30:20+08:00"
 lang: "en"
 kind: "post"
-topic: AI 工具/Agent
+topic: "开发者工具"
 shard: "2026-10-10"
 pub_day: "2026-10-03"
 tags:
@@ -19,7 +19,7 @@ tags:
   - github_new
   - Python
   - topic:indie-hacker
-metrics: {"stars": 4045, "forks": 705, "open_issues": 12}
+metrics: {"stars": 5411, "forks": 948, "open_issues": 13}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/Jakeschincariol/replica-skill>
-> 指标：stars=4045 · forks=705 · open_issues=12
+> 指标：stars=5411 · forks=948 · open_issues=13
 > 作者：Jakeschincariol　|　发布：2026-10-03T12:07:49Z
 > 项目链接：<https://opusjake.ai/>
-> 采集：2026-10-22T09:47:45+08:00　|　id：`056cd65a152e2b1f`
+> 采集：2026-10-25T23:30:20+08:00　|　id：`056cd65a152e2b1f`
 
 ## 正文
 
@@ -272,5 +272,5 @@ MIT. Take it, change it, ship it.
 
 - 项目页：[[10-项目/opusjake.ai_857871ce]]
 - 渠道页：[[50-渠道/github_new]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

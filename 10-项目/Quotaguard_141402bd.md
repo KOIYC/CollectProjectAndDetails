@@ -2,7 +2,7 @@
 type: "project"
 title: "Quotaguard"
 project_url: "https://quotaguard.baremetrics.com/"
-first_seen: "2026-10-22T09:48:20+08:00"
+first_seen: "2026-10-25T23:31:48+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://quotaguard.baremetrics.com/>
-> 首次收录：2026-10-22T09:48:20+08:00
+> 首次收录：2026-10-25T23:31:48+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -28,6 +28,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-10-22T09:48:20+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/9930629dc0ba0d5c_Quotaguard]] |
+| 2026-10-25T23:31:48+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/9930629dc0ba0d5c_Quotaguard]] |
 
 ## 摘要正文
 

@@ -2,7 +2,7 @@
 type: "project"
 title: "Master of Scale"
 project_url: "https://mastersofscale.com/"
-first_seen: "2026-10-17T13:39:26+08:00"
+first_seen: "2026-10-25T23:35:51+08:00"
 sources:
   - c1c7
 tags:
@@ -19,7 +19,7 @@ lang: "zh"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://mastersofscale.com/>
-> 首次收录：2026-10-17T13:39:26+08:00
+> 首次收录：2026-10-25T23:35:51+08:00
 > 来源渠道：1c7 中文独立开发者名录
 > 标签：英文
 > 最新指标：—
@@ -48,7 +48,8 @@ lang: "zh"
 | 2026-10-01T09:50:37+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
 | 2026-10-10T10:03:47+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
 | 2026-10-17T13:39:26+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
+| 2026-10-25T23:35:51+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
 
 ## 摘要正文
 
-Masters of Scale – Home  ## You’re a media company now   Media Executive Barbara Peng  Former Business Insider CEO, Barbara Peng discusses the state of journalism, the future of trust, and what leaders in every industry need to understand about operating in an AI world.  Hipcamp’s Alyssa Ravasio  Creative Planning’s Jamie Battmer KCRW’s Jennifer Ferro  Savannah Bananas’ Jesse Cole  Engine’s Elia Wallen The Hershey Company’s Kirk Tanner  Halloween meets GLP-1s  MIT’s Sherry Turkle  The slippery slope of artificial intimacy  Don't be boring: KCRW's Jennifer Ferro on building a brand people love   Can Hershey last another 132 years? Its CEO on the two things it'll take  Can Hershey last another 132 years? Its CEO on the two things it'll take   Iconic Leaders. Priceless Advice.   The sometimes messy, always inspiring stories of how great leaders scale businesses to impressive heights — and the insights you’ll need to join them at the top.  # V2EX › 分享创造
+Masters of Scale – Home  ## Where AI goes from here   OpenAI’s Sarah Friar  Reid Hoffman sits down with OpenAI CFO Sarah Friar to understand the precipice of the moment we are in and the decisions that could shape what comes next for each of us.  Meet the latest speakers joining the Summit 2026 lineup. These leaders from OpenAI, Google, Suno, and more are defining what comes next for business, creativity, and tech.  Hipcamp’s Alyssa Ravasio  Creative Planning’s Jamie Battmer KCRW’s Jennifer Ferro  MTV’s Tom Freston  Engine’s Elia Wallen The Hershey Company’s Kirk Tanner  Halloween meets GLP-1s   Don't be boring: KCRW's Jennifer Ferro on building a brand people love  Don't be boring: KCRW's Jennifer Ferro on building a brand people love   Iconic Leaders. Priceless Advice.   The sometimes messy, always inspiring stories of how great leaders scale businesses to impressive heights — and the insights you’ll need to join them at the top.  # V2EX › 分享创造

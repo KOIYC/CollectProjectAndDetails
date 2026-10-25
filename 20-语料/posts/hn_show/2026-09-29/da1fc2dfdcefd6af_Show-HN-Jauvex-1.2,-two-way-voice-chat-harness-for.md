@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=49886390"
 project_url: "https://github.com/reindent/jauvex"
 author: "daraosn"
 published_at: "2026-09-29T00:31:44Z"
-captured_at: "2026-10-17T13:46:22+08:00"
+captured_at: "2026-10-25T23:45:19+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=2 · 评论=1 · engagement_velocity=2
 > 作者：daraosn　|　发布：2026-09-29T00:31:44Z
 > 项目链接：<https://github.com/reindent/jauvex>
-> 采集：2026-10-17T13:46:22+08:00　|　id：`da1fc2dfdcefd6af`
+> 采集：2026-10-25T23:45:19+08:00　|　id：`da1fc2dfdcefd6af`
 
 ## 正文
 

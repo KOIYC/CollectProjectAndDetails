@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/apogee-watcher"
 project_url: "https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance"
-captured_at: "2026-10-22T09:48:20+08:00"
+captured_at: "2026-10-25T23:31:48+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance>
-> 采集：2026-10-22T09:48:20+08:00　|　id：`794520fb96efa9e8`
+> 采集：2026-10-25T23:31:48+08:00　|　id：`794520fb96efa9e8`
 
 ## 正文
 
@@ -59,58 +59,63 @@ The CDN dashboard says compression is on. A host panel lists Brotli as enabled. 
 Apogee Watcher
 2 Upvotes
 1 Comment
-TTFB Won't Go Down? Server-Side Culprits Beyond the Theme
-You put the site behind a CDN, trimmed the theme, deferred scripts, and still watch Waiting (TTFB) eat the PageSpeed Insights waterfall. The next ticket proposes a bigger hosting plan. In our experience that upgrade often treats the symptom while the origin keeps doing too much work per uncached request, or background jobs steal capacity when real visitors arrive.
- When DNS and TLS are already short, high Time to First Byte is almost always origin processing: PHP execution, database queries, remote calls inside the page build, or contention from other jobs on the same machine. A page cache can hide this until a logged-in session, cart cookie, or query-string variant bypasses the edge. Lab tests then look slow while marketing reports that the CDN is on.
- Server-side checklist we walk before the next hosting invoice:
- Disable request-driven WP-Cron; trigger due events from system cron on a fixed interval, then compare TTFB at :05 and :55 past the hour
-Confirm OPcache, sensible PHP worker counts, and warm critical URLs after deploy so cold workers are not the whole story
-Add Redis or Memcached object cache; audit fat wp_options autoload rows and N+1 queries on the uncached path
-Watch admin-ajax volume in access logs; move backup and scanner plugins off peak in the site traffic timezone
-Re-test the same priority URL on an uncached miss, not only the cached marketing homepage
-TTFB is not a Core Web Vital, but it still gates LCP because the main content cannot paint until HTML arrives. Fix origin compute on the miss path before doubling RAM.
- Read more: reduce TTFB when CDN and theme fixes fail
+October 25, 2026
+ Watcher Affiliate Programme: 30% Commission for Agencies and Publishers
+If you already tell clients or readers to stop relying on a once-a-week PageSpeed Insights paste, you have probably also heard the follow-up: what should we actually run? That conversation helps them. Until now it did not give you a tracked commercial path when they chose Apogee Watcher.
+ We opened a referral programme on the coupon system we already use for trials. Partners get one unique code tied to a Watcher account. Append it to any public Watcher URL. When someone redeems, finishes the trial, and converts to a paying subscription, commission accrues in EUR. Redemptions and balances sit under Account → Affiliate, next to the same login you would use if you also run Watcher for clients.
+ The terms that are live today:
+ 30% of attributed plan revenue in EUR for the first twelve months after trial-to-paid conversion.
+One coupon per partner account; free plans and pure trials do not generate commission.
+30-day hold per accrual before payable, then a €50 available minimum for PayPal payout to the email on your Watcher account.
+Share via ?coupon_code=YOUR-CODE on sign-up, blog, features, pricing, or home; a short-lived cookie keeps the offer if they browse first.
+The fit is strongest for agencies that already mention monitoring in proposals, consultants who write about Lighthouse or CrUX, and newsletter or comparison publishers who cover web performance tooling. Confirm numbers on the live programme page before you quote them to a client.
+ Read more: Watcher affiliate programme 30% commission for agencies
 Apogee Watcher
-11 Upvotes
+4 Upvotes
 Comment
-How Lighthouse Performance Scores Are Recorded and Calculated
-You paste a client URL into PageSpeed Insights and the green circle pops up. The account manager forwards it as "Google speed." That number is a lab Performance score from one controlled run. It is not a ranking factor by itself, and it is not a Chrome User Experience Report percentile.
- Lighthouse records metrics under a throttled profile (mobile or desktop), maps each raw value through an HTTP Archive scoring curve, then blends those metric scores with documented weights. Under Lighthouse 10 the blend is Total Blocking Time 30%, Largest Contentful Paint and Cumulative Layout Shift 25% each, First Contentful Paint and Speed Index 10% each. Opportunities and Diagnostics do not add points directly; they explain what might move the underlying metrics.
- What agencies keep mixing up on the same PSI screen:
- Lab Performance is synthetic, versioned, and fast after a deploy
-Field Core Web Vitals come from CrUX over a rolling window, with INP instead of TBT
-Colour bands (0–49 / 50–89 / 90–100) describe that lab run, not every visitor on every network
-A five-point swing across a Lighthouse major can be scoring math, not a regression
-How we report the number without score-chasing:
- Name the artefact: Lighthouse / PSI lab Performance, plus device and Lighthouse major when known
-Show the drivers: LCP, TBT, and CLS usually explain most of the blend
-Keep CrUX / Search Console on a separate slide
-Prefer three or more scheduled runs over one heroic paste after a tag change
-Open the Lighthouse scoring calculator before promising "ten points is one easy fix"
-Apogee Watcher stores those lab scores on a schedule across listed URLs so you compare like with like. Pair the trend with metric budgets on money pages. Layer field status separately when samples exist.
- Read more: how Lighthouse performance scores are recorded and calculated
+October 24, 2026
+ Calibre vs Apogee Watcher: Continuous Monitoring for Agencies
+When an agency asks for a Calibre alternative, the brief usually mixes two jobs. One is continuous synthetic runs plus first-party RUM on a flagship origin the delivery team controls. The other is scheduled PageSpeed Insights coverage across a book of client hosts where you will never win consent for another tag.
+ Calibre (calibreapp.com) is built for the owned-site job: continuous synthetic page-speed tests, CrUX Core Web Vitals, and RUM in one workflow. Public pricing starts at $75/month on Starter, with seats and synthetic test packs that fit a product squad better than twenty brochure retainers. Apogee Watcher is built for the portfolio job: PageSpeed Insights API history inside multi-tenant organisations, Admin / Manager / Viewer roles, and automated page discovery. We do not ship first-party RUM. Field context comes from CrUX in each result.
+ Mixing those jobs on one invoice is where retainer margin usually disappears. A healthier pattern for most mature shops:
+ Keep Calibre (or a peer RUM tool) on one or two money sites where continuous synthetic depth and session sampling pay for themselves.
+Use Watcher for breadth across the long tail of CMS stacks without placing RUM snippets everywhere.
+Watch seat caps and synthetic pack maths before you roll Starter or Team pricing across every microsite.
+Treat automated discovery as a real requirement when marketing ships templates faster than anyone updates monitor lists.
+Pick by job, then pilot two weeks on the sites that create the most noise in Slack. Replacement is not the goal when one owned-site engagement is already funded.
+ Read more: Calibre vs Apogee Watcher for continuous monitoring
 Apogee Watcher
-15 Upvotes
-2 Comments
-How to measure LCP and INP in Safari 26.2 (and what still only Chrome reports)
-For years, agency Core Web Vitals programmes had a quiet Safari blind spot. Chrome users filled CrUX, Search Console, and PageSpeed Insights field panels. Safari users on iPhone and Mac still felt slow pages, yet JavaScript often never saw largest-contentful-paint or Event Timing entries in WebKit.
- Safari 26.2 (12 December 2025) adds the Largest Contentful Paint API and the Event Timing API in WebKit. You can collect LCP and INP from real Safari sessions through PerformanceObserver, web-vitals , or your RUM vendor. Metric definitions did not change. What changed is whether Safari emits the entries at all.
- What still stays Chrome-only in Google's public field tools:
- CrUX remains a Chrome-user sample
-Search Console's Core Web Vitals report still draws on that CrUX world
-PageSpeed Insights field blocks stay Chrome-skewed even after you instrument Safari RUM
-Scheduled Lighthouse / PSI lab runs stay useful for deploy regression, not as Safari field percentiles
-Agency checklist we use once Safari 26.2+ volume appears:
- Confirm Safari version share for priority clients before rewriting SLAs
-Upgrade or verify RUM so onLCP / onINP actually receive Safari sessions
-Baseline by browser family for two to four weeks
-Keep CrUX and Search Console as the Chrome field story for SEO conversations
-Re-check Safari INP outliers on a physical device before escalating spikes
-Apogee Watcher stays on the portfolio and deploy side: scheduled PageSpeed tests, budgets, and alerts across listed URLs. Safari field collection belongs in your RUM or first-party web-vitals pipeline. Layer the two. Do not pretend a lab score is a Safari percentile.
- Read more: how to measure LCP and INP in Safari 26.2
+1 Upvote
+Comment
+October 23, 2026
+ Key Metrics in Web Performance Monitoring
+Most performance tools can show dozens of charts. The expensive failure is quieter. After a release, nobody can answer three questions with confidence: what got worse, where it got worse, and which change likely caused it. Teams that cannot answer those still 'monitor,' but they discover pain from support tickets and client emails instead of from the board.
+ That is why a short list of key metrics in web performance monitoring beats a crowded scoreboard. Google's Core Web Vitals give a shared language for load, interactivity, and layout stability. Supporting metrics help you diagnose why a vital moved. Deploy deltas and alertable signals turn those numbers into work someone can schedule.
+ What we put on the default agency board:
+ LCP, INP, and CLS at p75, split by mobile and desktop, on the money-path templates (home, listing, product, checkout), not a single site-wide average.
+FCP, TBT, and TTFB as supporting signals next to the vitals they explain, not as client-facing replacements for the Core Web Vitals.
+Lab history on a fixed URL list plus field (CrUX or RUM) for user truth, especially for INP, which lab cannot measure directly.
+Deploy deltas with release markers, and alerts only for sharp regressions or sustained drift with an owner, not every chart that can move.
+Leave off the default board: a lone global score with no route or device label, one-off lab runs treated as production truth, and custom events with no decision and no owner. If a tile cannot support user-experience risk, regression detection, a diagnosis path, or a sentence an account lead can send, it belongs in a drill-down.
+ Read more: key metrics in web performance monitoring
 Apogee Watcher
-18 Upvotes
-2 Comments
+4 Upvotes
+1 Comment
+October 22, 2026
+ Preload, Prefetch, and Preconnect: Resource Hints for Faster Core Web Vitals
+PageSpeed Insights flags a late Largest Contentful Paint image. A WordPress optimisation plugin responds by dumping dns-prefetch, preconnect, preload, and prefetch into every template head. The client report says resource hints are done. Lighthouse then warns about unused preloads, and nobody can name which origin each tag was meant to help.
+ Those four hints are not interchangeable. dns-prefetch starts DNS only. preconnect opens DNS plus TCP and TLS to a cross-origin host. preload fetches a specific resource for the current document. prefetch is a low-priority hint for a likely next navigation. None of them compresses a 3 MB hero or fixes a lazy-loaded above-the-fold banner on their own.
+ What we put in the retainer deck when someone asks which tag belongs in head:
+ Prefer discoverable HTML for the LCP image before adding preload. If the scanner already sees the img, skip the duplicate link.
+When preload is needed, set as="image", match the real URL, and use fetchpriority="high". For responsive heroes, use imagesrcset and imagesizes on the preload.
+Keep preconnect to a short list of critical origins. Use dns-prefetch for the rest, then measure.
+Do not use prefetch for current-page LCP, and do not confuse classic link prefetch with Speculation Rules prerender.
+Verify with dated lab rows before and after one change. Field CrUX will lag; unused-preload warnings are a signal to prune, not to add more tags.
+Hints change when the browser starts work. Dated lab history is how you prove the early fetch actually moved LCP.
+ Read more: preload, prefetch, and preconnect for faster Core Web Vitals
+Apogee Watcher
+2 Upvotes
+Comment
 October 21, 2026
  Partial Page Loads in CrUX: What Field Data Includes (and Excludes)
 You finish a PageSpeed Insights lab run on Tuesday. Largest Contentful Paint is green under the fixed profile. On Thursday Search Console still shows the URL amber in the Chrome UX Report field panel. The client asks which screenshot is wrong. Neither is. The lab profile finished by design. CrUX is aggregating many real Chrome visits, including ones that never matched that quiet network window.
@@ -123,7 +128,7 @@ For SPA-heavy products, add route-aware RUM or soft-navigation debugging until c
 A green lab card is useful regression evidence. It is weak proof that field percentiles will flip by Friday.
  Read more: partial page loads in CrUX field data
 Apogee Watcher
-5 Upvotes
+7 Upvotes
 1 Comment
 October 20, 2026
  Why CrUX Has No Data for Your Site
@@ -183,21 +188,6 @@ Speculation multiplies whatever the destination loads. It is not a substitute fo
 Apogee Watcher
 4 Upvotes
 Comment
-October 17, 2026
- TTFB Is Not Only the Server: The Unattributed Slice Agencies Should Name in Reports
-Monthly report deck. High Waiting (TTFB) bar from PageSpeed Insights. Someone writes "server response" under it. The hosting ticket opens before anyone asks what else sat inside that first-byte clock.
- In the browser, Time to First Byte is wider than origin PHP. Redirects, DNS, connection setup, TLS, network latency, CDN work, and browser overhead can all share the same number. Unattributed Navigation Overhead (UNO) is the residual after you subtract the phases Navigation Timing can name: redirect, DNS, connection, and request to responseStart. Harry Roberts documented the metric; agencies still leave that leftover unnamed, so it inherits the server label by default.
- CrUX can show field TTFB is poor. It cannot decompose phases. Without a Navigation Timing breakdown from real navigations (or a careful local reproduction), the whole bar looks like hosting. Hidden cross-origin hops (shorteners, trackers, even http to https) often inflate UNO while redirectCount stays at zero.
- What we want on the client slide before anyone upgrades the plan:
- Calculate UNO = TTFB minus redirect, DNS, connection, and request to responseStart (floor at zero)
-Label the residual as unexplained navigation time inside TTFB, not another name for "server"
-Segment campaign and referrer landings when UNO rises and lab on the final URL looks fine
-Hand off to origin work only when the attributed request to first-byte span still dominates
-Name the slice first. Then open the right ticket.
- Read more: TTFB is not only the server: unattributed navigation overhead
-Apogee Watcher
-4 Upvotes
-Comment
 About
  Agencies managing many sites need automated Core Web Vitals monitoring, alerts, and client-ready reports. Not fragile Lighthouse CI, costs that spiral, or enterprise-only multi-tenant. Manual checks do not scale.
  People
@@ -206,7 +196,7 @@ Stay informed as an indie hacker.
  Market insights that help you start and grow your business.
 Subscribe
 Follow @IndieHackers on X for stories and insights about founders building profitable online businesses, and to connect with others in the Indie Hackers community.
- © Indie Hackers, Inc. · FAQ · Terms · Privacy · Cookie Settings / Policy ·
+ © Indie Hackers, Inc. · FAQ · Terms · Privacy · Cookie Policy ·
 Community
  Top Today Top This Week Top This Month Join
 Products

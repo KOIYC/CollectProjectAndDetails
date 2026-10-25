@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/browserless"
 project_url: "https://blog.brandfetch.io/automating-browsers-with-browserless"
-captured_at: "2026-10-22T09:48:20+08:00"
+captured_at: "2026-10-25T23:31:48+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://blog.brandfetch.io/automating-browsers-with-browserless>
-> 采集：2026-10-22T09:48:20+08:00　|　id：`f201583e2d2e923a`
+> 采集：2026-10-25T23:31:48+08:00　|　id：`f201583e2d2e923a`
 
 ## 正文
 
@@ -43,7 +43,7 @@ browserless
 Visit Website
 browserless Headless browser automation for developers
  Posts 19
- Revenue $297K / mo
+ Revenue $316K / mo
  Website Twitter
 September 11, 2023
  Some BIG stuff is coming in browserless.io!
@@ -169,7 +169,7 @@ Stay informed as an indie hacker.
  Market insights that help you start and grow your business.
 Subscribe
 Follow @IndieHackers on X for stories and insights about founders building profitable online businesses, and to connect with others in the Indie Hackers community.
- © Indie Hackers, Inc. · FAQ · Terms · Privacy · Cookie Settings / Policy ·
+ © Indie Hackers, Inc. · FAQ · Terms · Privacy · Cookie Policy ·
 Community
  Top Today Top This Week Top This Month Join
 Products

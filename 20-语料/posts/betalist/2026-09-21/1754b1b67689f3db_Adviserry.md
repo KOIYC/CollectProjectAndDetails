@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/adviserry"
 published_at: "2026-07-01"
-captured_at: "2026-09-21T22:04:12+08:00"
+captured_at: "2026-10-25T23:31:07+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-07-01
 > 项目链接：—
-> 采集：2026-09-21T22:04:12+08:00　|　id：`1754b1b67689f3db`
+> 采集：2026-10-25T23:31:07+08:00　|　id：`1754b1b67689f3db`
 
 ## 正文
 
@@ -41,18 +41,16 @@ Home
  Browse
  Newsletter
  Search
-FAQ
+Help
  Advertise
- Support
 Startup Jobs
  Vision Pro apps
 Home
  Browse
  Newsletter
  Search
-FAQ
+Help
  Advertise
- Support
 theme#toggle"
  class="
  size-9 rounded-full hover:bg-gray-100 flex items-center justify-center
@@ -73,11 +71,11 @@ Visit Site
 Makers
 Adam Casson
 Topics
+Email Newsletters
+Decision Support
 Personal Knowledge Management
 Content Aggregation
 Prioritization
-Decision Support
-Email Newsletters
 Featured
 July 1, 2026
 Request changes
@@ -85,26 +83,33 @@ Get your badge
 Report this startup
  Manage collections
 Discover startups similar to Adviserry
+FreeDAST
+ SPONSOR
+ Scan your live site for risks and get a clear security grade
+ SPONSOR
+Admove AI
+ AI agent that turns your product data into on-brand video and static ads.
 SubstantAI
  AI to monitor your watchlist of interest, companies & clients
-Recomate
- Get tailored picks for shows, food, and activities in seconds with AI
-Mailtwine
- BOOSTED
- AI email triage and assistant turning your inbox into an action list
- BOOSTED
-InsightScout
- Find and act on live public threads where buyers ask for your solution
-ThePromptAgent
- Schedule your AI prompts and get results when you need them
-IntelCue
- Your market intelligence live inside Claude and ChatGPT
 WZRD
  BOOSTED
  Turn plain ideas into interactive docs, forms, and decks that converse
  BOOSTED
-Promptmonitor
- Track & Optimize brand's visibility in ChatGPT, Gemini etc
+Recomate
+ Get tailored picks for shows, food, and activities in seconds with AI
+InsightScout
+ Find and act on live public threads where buyers ask for your solution
+ThePromptAgent
+ Schedule your AI prompts and get results when you need them
+Terrapin
+ BOOSTED
+ Turn receipts, email & photos into clean, tax-ready insights, automatically
+ BOOSTED
+creafico
+ AI competitor intelligence app for short-form creators.
+auth-dialog#closeOnBackdrop close->auth-dialog#reset turbo:before-cache@document->auth-dialog#close"
+ aria-label="Log in or sign up"
+ class="m-auto w-[min(28rem,calc(100vw-2rem))] max-h-[calc(100dvh-2rem)] rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 shadow-2xl p-0 backdrop:bg-gray-500/75 dark:backdrop:bg-black/80 backdrop:backdrop-blur-sm">
 
 ## 导航
 

@@ -1,6 +1,6 @@
 {
 "version": 1,
-"updated": "2026-10-22T10:00:35+08:00",
+"updated": "2026-10-25T23:51:46+08:00",
 "items": {
 "0caea506fadb6bec": {
 "first_seen": "2026-09-20T02:35:48+08:00",
@@ -769,10 +769,10 @@
 },
 "3d4fcf2aca63d9e4": {
 "first_seen": "2026-09-20T02:35:50+08:00",
-"seen_count": 33,
+"seen_count": 34,
 "source": "hn_show",
 "note": "20-语料/posts/hn_show/2026-09-21/3d4fcf2aca63d9e4_Show-HN-LiveWorld-–-Every-24-7-YouTube-live-camera.md",
-"last_seen": "2026-10-22T09:57:27+08:00",
+"last_seen": "2026-10-25T23:48:19+08:00",
 "metric_history": [
 {
 "at": "2026-09-20T02:35:50+08:00",
@@ -1591,10 +1591,10 @@
 },
 "64545afe8d3be4ae": {
 "first_seen": "2026-09-20T02:36:02+08:00",
-"seen_count": 28,
+"seen_count": 30,
 "source": "github_new",
 "note": "20-语料/posts/github_new/2026-09-20/64545afe8d3be4ae_s87343472-backlink-pilot.md",
-"last_seen": "2026-10-22T09:56:54+08:00",
+"last_seen": "2026-10-25T23:45:19+08:00",
 "metric_history": [
 {
 "at": "2026-09-20T02:36:02+08:00",
@@ -1667,9 +1667,15 @@
 "stars": 373,
 "forks": 103,
 "open_issues": 8
+},
+{
+"at": "2026-10-25T23:31:02+08:00",
+"stars": 379,
+"forks": 103,
+"open_issues": 8
 }
 ],
-"content_hash": "2919183307f7da51",
+"content_hash": "888acf1b59b59fa4",
 "project_url": "https://github.com/s87343472/backlink-pilot",
 "simhash": "ce23a52cb3e7a71b"
 },
@@ -1721,10 +1727,10 @@
 },
 "ab56183769a3cfcb": {
 "first_seen": "2026-09-20T02:36:02+08:00",
-"seen_count": 38,
+"seen_count": 40,
 "source": "github_new",
 "note": "20-语料/posts/github_new/2026-09-20/ab56183769a3cfcb_Gingiris-gingiris-launch.md",
-"last_seen": "2026-10-22T09:56:54+08:00",
+"last_seen": "2026-10-25T23:45:19+08:00",
 "metric_history": [
 {
 "at": "2026-09-20T02:36:02+08:00",
@@ -1767,9 +1773,15 @@
 "stars": 212,
 "forks": 29,
 "open_issues": 2
+},
+{
+"at": "2026-10-25T23:31:02+08:00",
+"stars": 213,
+"forks": 29,
+"open_issues": 2
 }
 ],
-"content_hash": "4ec9bc8bc6a45fc6",
+"content_hash": "70a7bfe8d04abe31",
 "project_url": "https://skills.sh/Gingiris/gingiris-launch",
 "simhash": "57923ff4a1c8703d"
 },
@@ -2099,10 +2111,10 @@
 },
 "7bfb6e055c517164": {
 "first_seen": "2026-09-20T02:36:03+08:00",
-"seen_count": 40,
+"seen_count": 42,
 "source": "github_new",
 "note": "20-语料/posts/github_new/2026-09-20/7bfb6e055c517164_emarco177-dandi.md",
-"last_seen": "2026-10-22T09:56:54+08:00",
+"last_seen": "2026-10-25T23:45:19+08:00",
 "metric_history": [
 {
 "at": "2026-09-20T02:36:03+08:00",
@@ -2133,9 +2145,15 @@
 "stars": 165,
 "forks": 75,
 "open_issues": 0
+},
+{
+"at": "2026-10-25T23:31:02+08:00",
+"stars": 164,
+"forks": 75,
+"open_issues": 0
 }
 ],
-"content_hash": "d58abe3d401e041e",
+"content_hash": "504c29a03d26bb38",
 "project_url": "https://dandi.cloud/",
 "simhash": "585f33624177c434"
 },
@@ -2165,10 +2183,10 @@
 },
 "9e8bc439b020dbaf": {
 "first_seen": "2026-09-20T02:36:04+08:00",
-"seen_count": 25,
+"seen_count": 26,
 "source": "github_new",
 "note": "20-语料/posts/github_new/2026-09-20/9e8bc439b020dbaf_marcelodosreis-sassy.md",
-"last_seen": "2026-10-22T09:48:02+08:00",
+"last_seen": "2026-10-25T23:31:02+08:00",
 "metric_history": [
 {
 "at": "2026-09-20T02:36:04+08:00",
@@ -2189,10 +2207,10 @@
 },
 "02155241c8b55df0": {
 "first_seen": "2026-09-20T02:36:04+08:00",
-"seen_count": 25,
+"seen_count": 26,
 "source": "github_new",
 "note": "20-语料/posts/github_new/2026-09-20/02155241c8b55df0_m121-emailgenerator.md",
-"last_seen": "2026-10-22T09:48:02+08:00",
+"last_seen": "2026-10-25T23:31:02+08:00",
 "metric_history": [
 {
 "at": "2026-09-20T02:36:04+08:00",
@@ -2213,10 +2231,10 @@
 },
 "07755757e7a6bd55": {
 "first_seen": "2026-09-20T02:36:04+08:00",
-"seen_count": 40,
+"seen_count": 42,
 "source": "github_new",
 "note": "20-语料/posts/github_new/2026-09-20/07755757e7a6bd55_samuel-howell-SIM.md",
-"last_seen": "2026-10-22T09:56:54+08:00",
+"last_seen": "2026-10-25T23:45:19+08:00",
 "metric_history": [
 {
 "at": "2026-09-20T02:36:04+08:00",
@@ -2531,10 +2549,10 @@
 },
 "9f7bfad9d3b489a3": {
 "first_seen": "2026-09-20T02:36:22+08:00",
-"seen_count": 31,
+"seen_count": 32,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/9f7bfad9d3b489a3_First-customer-feedback-is-in-and-it-feels-amazing.md",
-"last_seen": "2026-10-17T13:48:24+08:00",
+"last_seen": "2026-10-25T23:50:06+08:00",
 "metric_history": [
 {
 "at": "2026-09-20T02:36:22+08:00",
@@ -2614,10 +2632,10 @@
 },
 "1205c3c733d98910": {
 "first_seen": "2026-09-20T02:36:23+08:00",
-"seen_count": 31,
+"seen_count": 32,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/1205c3c733d98910_i'm-not-building-a-personal-brand-the-way-gurus-te.md",
-"last_seen": "2026-10-17T13:48:27+08:00",
+"last_seen": "2026-10-25T23:50:09+08:00",
 "metric_history": [
 {
 "at": "2026-09-20T02:36:23+08:00",
@@ -2655,10 +2673,10 @@
 },
 "1332b973f242f486": {
 "first_seen": "2026-09-20T02:36:23+08:00",
-"seen_count": 32,
+"seen_count": 33,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/1332b973f242f486_What-are-you-building-Drop-it-below.md",
-"last_seen": "2026-10-17T13:48:31+08:00",
+"last_seen": "2026-10-25T23:50:13+08:00",
 "metric_history": [
 {
 "at": "2026-09-20T02:36:23+08:00",
@@ -3890,11 +3908,11 @@
 },
 "7c7187ae2983b0f7": {
 "first_seen": "2026-09-20T02:36:50+08:00",
-"seen_count": 10,
+"seen_count": 11,
 "source": "producthunt",
-"note": "20-语料/posts/producthunt/2026-09-20/7c7187ae2983b0f7_Basedash-Connector-gallery.md",
-"last_seen": "2026-10-16T09:38:48+08:00",
-"content_hash": "77f704ed0202e5e5"
+"note": "20-语料/posts/producthunt/2026-09-20/7c7187ae2983b0f7_Basedash-Scheduled-CSV-Exports.md",
+"last_seen": "2026-10-25T23:34:54+08:00",
+"content_hash": "b767fea4fdb48c59"
 },
 "ad1849ddfdb7d7e7": {
 "first_seen": "2026-09-20T02:36:50+08:00",
@@ -5225,13 +5243,13 @@
 },
 "ec3eb5285a72cd71": {
 "first_seen": "2026-09-20T02:37:51+08:00",
-"seen_count": 26,
+"seen_count": 27,
 "source": "c1c7",
 "note": "20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale.md",
-"last_seen": "2026-10-17T13:39:45+08:00",
-"content_hash": "77de3798786642d9",
+"last_seen": "2026-10-25T23:36:14+08:00",
+"content_hash": "e52a5b92cc9e7da1",
 "project_url": "https://mastersofscale.com/",
-"simhash": "ae121875ccf2d106"
+"simhash": "ae6e09f1fd5ae316"
 },
 "f467739c34eb646b": {
 "first_seen": "2026-09-20T02:37:51+08:00",
@@ -5253,10 +5271,10 @@
 },
 "064dbfefba9d513a": {
 "first_seen": "2026-09-20T02:37:51+08:00",
-"seen_count": 26,
+"seen_count": 27,
 "source": "c1c7",
 "note": "20-语料/posts/c1c7/2026-09-20/064dbfefba9d513a_Sideidea.md",
-"last_seen": "2026-10-17T13:39:45+08:00",
+"last_seen": "2026-10-25T23:36:14+08:00",
 "content_hash": "a570d2182aded302",
 "project_url": "https://sideidea.com/",
 "simhash": "217dbd67267e8b68"
@@ -5271,45 +5289,45 @@
 },
 "f79916209c3de950": {
 "first_seen": "2026-09-20T02:37:52+08:00",
-"seen_count": 26,
+"seen_count": 27,
 "source": "c1c7",
 "note": "20-语料/posts/c1c7/2026-09-20/f79916209c3de950_PriceTag-的独立开发者采访(公众号-PriceTagApp).md",
-"last_seen": "2026-10-17T13:39:45+08:00",
+"last_seen": "2026-10-25T23:36:14+08:00",
 "content_hash": "c29ca7f229447406",
 "project_url": null
 },
 "70da07a842b9c2d0": {
 "first_seen": "2026-09-20T02:37:52+08:00",
-"seen_count": 26,
+"seen_count": 27,
 "source": "c1c7",
 "note": "20-语料/posts/c1c7/2026-09-20/70da07a842b9c2d0_v2ex-论坛-分享创造板块.md",
-"last_seen": "2026-10-17T13:39:45+08:00",
-"content_hash": "297dfa671d7f4902",
+"last_seen": "2026-10-25T23:36:14+08:00",
+"content_hash": "2d0dd70f1cc88194",
 "project_url": null,
-"simhash": "730c6a20bd4eb319"
+"simhash": "0f684cddd44f700b"
 },
 "b3f5c02e0f48ee45": {
 "first_seen": "2026-09-20T02:37:52+08:00",
-"seen_count": 26,
+"seen_count": 27,
 "source": "c1c7",
 "note": "20-语料/posts/c1c7/2026-09-20/b3f5c02e0f48ee45_Patrick-McKenzie-(@patio11).md",
-"last_seen": "2026-10-17T13:39:45+08:00",
+"last_seen": "2026-10-25T23:36:14+08:00",
 "content_hash": "ba7093d79d538ae1"
 },
 "1f6c289cc51efc0b": {
 "first_seen": "2026-09-20T02:37:52+08:00",
-"seen_count": 26,
+"seen_count": 27,
 "source": "c1c7",
 "note": "20-语料/posts/c1c7/2026-09-20/1f6c289cc51efc0b_Pieter-Levels-(@levelsio).md",
-"last_seen": "2026-10-17T13:39:45+08:00",
+"last_seen": "2026-10-25T23:36:14+08:00",
 "content_hash": "da00323f1354e242"
 },
 "c64307ad404fe1f3": {
 "first_seen": "2026-09-20T02:37:52+08:00",
-"seen_count": 26,
+"seen_count": 27,
 "source": "c1c7",
 "note": "20-语料/posts/c1c7/2026-09-20/c64307ad404fe1f3_Courtland-Allen-(@csallen).md",
-"last_seen": "2026-10-17T13:39:45+08:00",
+"last_seen": "2026-10-25T23:36:14+08:00",
 "content_hash": "5268f4d74670b14f"
 },
 "8d3ee79304431485": {
@@ -5398,10 +5416,10 @@
 },
 "e8be0713cc27aae1": {
 "first_seen": "2026-09-20T02:38:10+08:00",
-"seen_count": 17,
+"seen_count": 18,
 "source": "bilibili",
 "note": "20-语料/posts/bilibili/2026-09-20/e8be0713cc27aae1_独立开发两种赚钱方式!99%的人没想明白!.md",
-"last_seen": "2026-10-17T13:39:25+08:00",
+"last_seen": "2026-10-25T23:35:20+08:00",
 "metric_history": [
 {
 "at": "2026-09-20T02:38:10+08:00",
@@ -5480,9 +5498,15 @@
 "play": 21064,
 "danmaku": 14,
 "favorites": 528
+},
+{
+"at": "2026-10-25T23:35:20+08:00",
+"play": 21309,
+"danmaku": 14,
+"favorites": 534
 }
 ],
-"content_hash": "1d6fb2433bb965b7",
+"content_hash": "8f3ada62971e3826",
 "project_url": "https://bitfree.cn/"
 },
 "ddf914afa6afff36": {
@@ -5557,10 +5581,10 @@
 },
 "c3f647ee6fe3e01a": {
 "first_seen": "2026-09-20T02:38:10+08:00",
-"seen_count": 15,
+"seen_count": 16,
 "source": "bilibili",
 "note": "20-语料/posts/bilibili/2026-09-20/c3f647ee6fe3e01a_独立开发赚了500W后,我想给你这些建议!.md",
-"last_seen": "2026-10-17T13:39:25+08:00",
+"last_seen": "2026-10-25T23:35:20+08:00",
 "metric_history": [
 {
 "at": "2026-09-20T02:38:10+08:00",
@@ -5627,9 +5651,15 @@
 "play": 97419,
 "danmaku": 108,
 "favorites": 2530
+},
+{
+"at": "2026-10-25T23:35:20+08:00",
+"play": 97625,
+"danmaku": 108,
+"favorites": 2527
 }
 ],
-"content_hash": "bef3dd3d516886e7",
+"content_hash": "0585821017c64a45",
 "project_url": "https://bitfree.cn/"
 },
 "c11c892b75d76942": {
@@ -6242,10 +6272,10 @@
 },
 "88d325299c94764c": {
 "first_seen": "2026-09-20T03:06:40+08:00",
-"seen_count": 26,
+"seen_count": 27,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/88d325299c94764c_I-was-a-fool-indeed,-agency-DOES-matter.md",
-"last_seen": "2026-10-17T13:48:33+08:00",
+"last_seen": "2026-10-25T23:50:15+08:00",
 "content_hash": "5d2a23f676e9aec3",
 "metric_history": [
 {
@@ -7202,11 +7232,11 @@
 },
 "92d5c8b5d06bc86b": {
 "first_seen": "2026-09-20T03:35:13+08:00",
-"seen_count": 17,
+"seen_count": 18,
 "source": "bilibili",
 "note": "20-语料/posts/bilibili/2026-09-20/92d5c8b5d06bc86b_数字游民必看-独立开发者的出海赚钱实战经验分享!.md",
-"last_seen": "2026-10-22T09:50:01+08:00",
-"content_hash": "e4b2c74f896961c6",
+"last_seen": "2026-10-25T23:35:20+08:00",
+"content_hash": "89f4da0bc2eadd2f",
 "metric_history": [
 {
 "at": "2026-09-20T03:35:13+08:00",
@@ -7297,6 +7327,12 @@
 "play": 40521,
 "danmaku": 7,
 "favorites": 3061
+},
+{
+"at": "2026-10-25T23:35:20+08:00",
+"play": 40619,
+"danmaku": 7,
+"favorites": 3065
 }
 ],
 "project_url": null,
@@ -10345,10 +10381,10 @@
 },
 "fbc14261f4471f7c": {
 "first_seen": "2026-09-20T09:23:41+08:00",
-"seen_count": 27,
+"seen_count": 28,
 "source": "hn_show",
 "note": "20-语料/posts/hn_show/2026-09-21/fbc14261f4471f7c_Show-HN-Compute-Arena-–-Community-submitted-local.md",
-"last_seen": "2026-10-22T09:57:29+08:00",
+"last_seen": "2026-10-25T23:48:21+08:00",
 "content_hash": "ba464e6b05d57cb0",
 "metric_history": [
 {
@@ -13001,10 +13037,10 @@
 },
 "67861861e81ac9c2": {
 "first_seen": "2026-09-20T09:23:54+08:00",
-"seen_count": 28,
+"seen_count": 29,
 "source": "hn_show",
 "note": "20-语料/posts/hn_show/2026-09-21/67861861e81ac9c2_Show-HN-Panel-–-A-research-workspace-where-the-age.md",
-"last_seen": "2026-10-22T09:57:31+08:00",
+"last_seen": "2026-10-25T23:48:24+08:00",
 "content_hash": "735fa0ba66802835",
 "metric_history": [
 {
@@ -13055,10 +13091,10 @@
 },
 "179c66c2436f5f92": {
 "first_seen": "2026-09-20T09:23:55+08:00",
-"seen_count": 27,
+"seen_count": 28,
 "source": "hn_show",
 "note": "20-语料/posts/hn_show/2026-09-21/179c66c2436f5f92_Show-HN-A-live-Git-diff-view-cli-to-stay-on-top-of.md",
-"last_seen": "2026-10-22T09:57:32+08:00",
+"last_seen": "2026-10-25T23:48:28+08:00",
 "content_hash": "bab97a0cb995aa8f",
 "metric_history": [
 {
@@ -13109,10 +13145,10 @@
 },
 "47c6b23ea2c1601d": {
 "first_seen": "2026-09-20T09:23:55+08:00",
-"seen_count": 28,
+"seen_count": 29,
 "source": "hn_show",
 "note": "20-语料/posts/hn_show/2026-09-21/47c6b23ea2c1601d_Show-HN-Ordewell-–-turn-one-goal-into-an-ordered-p.md",
-"last_seen": "2026-10-22T09:57:34+08:00",
+"last_seen": "2026-10-25T23:48:31+08:00",
 "content_hash": "b983a3ec73f5beb0",
 "metric_history": [
 {
@@ -13397,10 +13433,10 @@
 },
 "b6a5a0f6057541b4": {
 "first_seen": "2026-09-20T09:23:56+08:00",
-"seen_count": 27,
+"seen_count": 28,
 "source": "hn_show",
 "note": "20-语料/posts/hn_show/2026-09-21/b6a5a0f6057541b4_Show-HN-An-e-ink-frame-that-hears-birds-and-draws.md",
-"last_seen": "2026-10-22T09:57:44+08:00",
+"last_seen": "2026-10-25T23:48:36+08:00",
 "content_hash": "03054c4fba197b02",
 "metric_history": [
 {
@@ -14631,10 +14667,10 @@
 },
 "1177c1777ea2ee15": {
 "first_seen": "2026-09-20T09:24:17+08:00",
-"seen_count": 27,
+"seen_count": 28,
 "source": "github_new",
 "note": "20-语料/posts/github_new/2026-09-21/1177c1777ea2ee15_huaminghuangtw-Strava-Tool.md",
-"last_seen": "2026-10-22T09:56:54+08:00",
+"last_seen": "2026-10-25T23:45:19+08:00",
 "content_hash": "3a1a5d8991d32133",
 "metric_history": [
 {
@@ -14973,10 +15009,10 @@
 },
 "96f78b4d99a6d667": {
 "first_seen": "2026-09-20T09:24:50+08:00",
-"seen_count": 22,
+"seen_count": 23,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/96f78b4d99a6d667_just-wanted-to-expose-a-scammer-).md",
-"last_seen": "2026-10-17T13:48:38+08:00",
+"last_seen": "2026-10-25T23:50:17+08:00",
 "content_hash": "32339765e772bf4c",
 "metric_history": [
 {
@@ -15026,10 +15062,10 @@
 },
 "e828ac4107232562": {
 "first_seen": "2026-09-20T09:24:51+08:00",
-"seen_count": 23,
+"seen_count": 24,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/e828ac4107232562_Guys-here-is-how-i-got-my-first-paying-customer-ev.md",
-"last_seen": "2026-10-17T13:48:44+08:00",
+"last_seen": "2026-10-25T23:50:20+08:00",
 "content_hash": "cf5ee54f3fc22d99",
 "metric_history": [
 {
@@ -15113,10 +15149,10 @@
 },
 "e52383e95f92b7cb": {
 "first_seen": "2026-09-20T09:24:52+08:00",
-"seen_count": 22,
+"seen_count": 23,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/e52383e95f92b7cb_I-don't-know-if-this-SaaS-will-succeed.-I’m-buildi.md",
-"last_seen": "2026-10-17T13:48:57+08:00",
+"last_seen": "2026-10-25T23:50:23+08:00",
 "content_hash": "a2c472e2d233697f",
 "metric_history": [
 {
@@ -15217,11 +15253,11 @@
 },
 "99e26e6e5d268507": {
 "first_seen": "2026-09-20T09:24:53+08:00",
-"seen_count": 23,
+"seen_count": 24,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/99e26e6e5d268507_Title-B2C-SaaS-founders,-how-did-you-get-your-firs.md",
-"last_seen": "2026-10-17T13:49:05+08:00",
-"content_hash": "a37bdd77787b9a32",
+"last_seen": "2026-10-25T23:50:26+08:00",
+"content_hash": "78295b3cdc8f8dba",
 "metric_history": [
 {
 "at": "2026-09-20T09:24:53+08:00",
@@ -15234,10 +15270,10 @@
 },
 "15256e17d0c808b6": {
 "first_seen": "2026-09-20T09:24:54+08:00",
-"seen_count": 22,
+"seen_count": 23,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/15256e17d0c808b6_Having-few-users-doesn’t-necessarily-mean-your-mar.md",
-"last_seen": "2026-10-17T13:49:09+08:00",
+"last_seen": "2026-10-25T23:50:30+08:00",
 "content_hash": "5070edd99f22238d",
 "metric_history": [
 {
@@ -15251,10 +15287,10 @@
 },
 "c291674cb614e6a5": {
 "first_seen": "2026-09-20T09:24:54+08:00",
-"seen_count": 23,
+"seen_count": 24,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/c291674cb614e6a5_One-thing-I-learned-building-CPG-products.md",
-"last_seen": "2026-10-17T13:49:12+08:00",
+"last_seen": "2026-10-25T23:50:33+08:00",
 "content_hash": "a0aad01ceeeee75e",
 "metric_history": [
 {
@@ -15357,10 +15393,10 @@
 },
 "e76976a196f0e3bc": {
 "first_seen": "2026-09-20T09:24:55+08:00",
-"seen_count": 22,
+"seen_count": 23,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/e76976a196f0e3bc_What-are-you-building-right-now.md",
-"last_seen": "2026-10-17T13:49:14+08:00",
+"last_seen": "2026-10-25T23:50:36+08:00",
 "content_hash": "26bf148721882b61",
 "metric_history": [
 {
@@ -15408,10 +15444,10 @@
 },
 "6f076376d21192d4": {
 "first_seen": "2026-09-20T09:24:55+08:00",
-"seen_count": 23,
+"seen_count": 24,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/6f076376d21192d4_Day-6-30-Learning-APIs-Changed-How-I-See-Software.md",
-"last_seen": "2026-10-17T13:49:18+08:00",
+"last_seen": "2026-10-25T23:50:39+08:00",
 "content_hash": "20a692ddd5260dc7",
 "metric_history": [
 {
@@ -15478,10 +15514,10 @@
 },
 "5f63721e2407444c": {
 "first_seen": "2026-09-20T09:24:55+08:00",
-"seen_count": 23,
+"seen_count": 24,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/5f63721e2407444c_Trading-Strategy-Optimizer-My-first-paying-custome.md",
-"last_seen": "2026-10-17T13:49:22+08:00",
+"last_seen": "2026-10-25T23:50:41+08:00",
 "content_hash": "8b8b81ee303c94e3",
 "metric_history": [
 {
@@ -15532,10 +15568,10 @@
 },
 "240b129e797cf041": {
 "first_seen": "2026-09-20T09:24:56+08:00",
-"seen_count": 22,
+"seen_count": 23,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/240b129e797cf041_Their-First-Typing-a-free-9-language-typing-course.md",
-"last_seen": "2026-10-17T13:49:36+08:00",
+"last_seen": "2026-10-25T23:50:43+08:00",
 "content_hash": "8517fb2e7f9c8ca7",
 "metric_history": [
 {
@@ -15550,10 +15586,10 @@
 },
 "1de404b4ed78455a": {
 "first_seen": "2026-09-20T09:24:56+08:00",
-"seen_count": 22,
+"seen_count": 23,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/1de404b4ed78455a_I-built-platform-that-continuously-analyses-websit.md",
-"last_seen": "2026-10-17T13:49:44+08:00",
+"last_seen": "2026-10-25T23:50:45+08:00",
 "content_hash": "55e2b6016132c566",
 "metric_history": [
 {
@@ -15568,10 +15604,10 @@
 },
 "9f82d73ff51bac5c": {
 "first_seen": "2026-09-20T09:24:56+08:00",
-"seen_count": 23,
+"seen_count": 24,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/9f82d73ff51bac5c_Built-a-landing-page-to-validate-an-invoice-follow.md",
-"last_seen": "2026-10-17T13:49:54+08:00",
+"last_seen": "2026-10-25T23:50:49+08:00",
 "content_hash": "b5444c97936918a8",
 "metric_history": [
 {
@@ -15585,10 +15621,10 @@
 },
 "3457182ac1f05556": {
 "first_seen": "2026-09-20T09:24:56+08:00",
-"seen_count": 23,
+"seen_count": 24,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/3457182ac1f05556_Would-you-let-customers-transfer-unused-prepaid-cr.md",
-"last_seen": "2026-10-17T13:50:01+08:00",
+"last_seen": "2026-10-25T23:50:55+08:00",
 "content_hash": "ca9c1f20a1bb7b4d",
 "metric_history": [
 {
@@ -15602,10 +15638,10 @@
 },
 "87055c22b052dd55": {
 "first_seen": "2026-09-20T09:24:56+08:00",
-"seen_count": 23,
+"seen_count": 24,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/87055c22b052dd55_No-$10k-MRR-story.-I-built-software-for-a-really-b.md",
-"last_seen": "2026-10-17T13:50:16+08:00",
+"last_seen": "2026-10-25T23:51:02+08:00",
 "content_hash": "ca23afdf2c954daf",
 "metric_history": [
 {
@@ -15708,10 +15744,10 @@
 },
 "50a3235bbb8cf8b5": {
 "first_seen": "2026-09-20T09:24:57+08:00",
-"seen_count": 23,
+"seen_count": 24,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/50a3235bbb8cf8b5_I-got-engaged-and-ended-up-building-a-micro-SaaS-f.md",
-"last_seen": "2026-10-17T13:50:19+08:00",
+"last_seen": "2026-10-25T23:51:07+08:00",
 "content_hash": "50f61de1b4f29935",
 "metric_history": [
 {
@@ -15725,10 +15761,10 @@
 },
 "71fee682a5350b1a": {
 "first_seen": "2026-09-20T09:24:57+08:00",
-"seen_count": 22,
+"seen_count": 23,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/71fee682a5350b1a_I-spent-months-focused-on-building-before-I-realiz.md",
-"last_seen": "2026-10-17T13:50:22+08:00",
+"last_seen": "2026-10-25T23:51:10+08:00",
 "content_hash": "daf708911a072af0",
 "metric_history": [
 {
@@ -15811,10 +15847,10 @@
 },
 "30d35ef2e50fb580": {
 "first_seen": "2026-09-20T09:24:58+08:00",
-"seen_count": 22,
+"seen_count": 23,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/30d35ef2e50fb580_For-those-who-have-sold-a-business,-what-did-you-d.md",
-"last_seen": "2026-10-17T13:50:25+08:00",
+"last_seen": "2026-10-25T23:51:14+08:00",
 "content_hash": "a528d29044a3e7b7",
 "metric_history": [
 {
@@ -15845,10 +15881,10 @@
 },
 "37705ffbe1d5ebb6": {
 "first_seen": "2026-09-20T09:24:58+08:00",
-"seen_count": 21,
+"seen_count": 22,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/37705ffbe1d5ebb6_Curious-to-connect-with-people-around-business-tec.md",
-"last_seen": "2026-10-17T13:50:29+08:00",
+"last_seen": "2026-10-25T23:51:19+08:00",
 "content_hash": "36866cfbc0f234f3",
 "metric_history": [
 {
@@ -16181,11 +16217,11 @@
 },
 "493c098238fd9250": {
 "first_seen": "2026-09-20T09:52:42+08:00",
-"seen_count": 5,
+"seen_count": 6,
 "source": "bilibili",
 "note": "20-语料/posts/bilibili/2026-09-20/493c098238fd9250_独立开发者省钱之穷鬼套餐,从零开始完整实战,不花一分钱上线完整应用.md",
-"last_seen": "2026-10-22T09:50:01+08:00",
-"content_hash": "3d0a43215cb020b6",
+"last_seen": "2026-10-25T23:35:20+08:00",
+"content_hash": "7c53fadc57afaec1",
 "metric_history": [
 {
 "at": "2026-09-20T09:52:42+08:00",
@@ -16216,6 +16252,12 @@
 "play": 107733,
 "danmaku": 47,
 "favorites": 10652
+},
+{
+"at": "2026-10-25T23:35:20+08:00",
+"play": 107840,
+"danmaku": 47,
+"favorites": 10654
 }
 ],
 "project_url": null,
@@ -18445,10 +18487,10 @@
 },
 "e17f916095f200c5": {
 "first_seen": "2026-09-21T01:10:13+08:00",
-"seen_count": 18,
+"seen_count": 19,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/e17f916095f200c5_We-may-have-gone-too-far-with-tiny-details-in-Couc.md",
-"last_seen": "2026-10-17T13:50:40+08:00",
+"last_seen": "2026-10-25T23:51:26+08:00",
 "content_hash": "8a26bbe2f0902825",
 "metric_history": [
 {
@@ -18532,10 +18574,10 @@
 },
 "aa682ef892005fc6": {
 "first_seen": "2026-09-21T01:10:15+08:00",
-"seen_count": 17,
+"seen_count": 18,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/aa682ef892005fc6_What-are-you-building-right-now-(and-how-many-user.md",
-"last_seen": "2026-10-17T13:50:49+08:00",
+"last_seen": "2026-10-25T23:51:30+08:00",
 "content_hash": "6e3d296c137ed176",
 "metric_history": [
 {
@@ -18775,10 +18817,10 @@
 },
 "ad90a5e5070952bb": {
 "first_seen": "2026-09-21T01:10:18+08:00",
-"seen_count": 17,
+"seen_count": 18,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/ad90a5e5070952bb_One-small-thing-that-slowed-us-down-a-lot.md",
-"last_seen": "2026-10-17T13:51:14+08:00",
+"last_seen": "2026-10-25T23:51:34+08:00",
 "content_hash": "08fe10230bd72f20",
 "metric_history": [
 {
@@ -18792,10 +18834,10 @@
 },
 "81c6ba756b861539": {
 "first_seen": "2026-09-21T01:10:19+08:00",
-"seen_count": 18,
+"seen_count": 19,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/81c6ba756b861539_22th-website-built.md",
-"last_seen": "2026-10-17T13:51:16+08:00",
+"last_seen": "2026-10-25T23:51:36+08:00",
 "content_hash": "73c37e09aa00ffca",
 "metric_history": [
 {
@@ -19119,12 +19161,12 @@
 },
 "1754b1b67689f3db": {
 "first_seen": "2026-09-21T01:10:53+08:00",
-"seen_count": 2,
+"seen_count": 3,
 "source": "betalist",
 "note": "20-语料/posts/betalist/2026-09-21/1754b1b67689f3db_Adviserry.md",
-"last_seen": "2026-09-21T02:52:18+08:00",
-"content_hash": "7c91549b35e83749",
-"simhash": "5583a2c7c5469331"
+"last_seen": "2026-10-25T23:31:40+08:00",
+"content_hash": "7ab9cc9cb51bcbd2",
+"simhash": "958960a5d5629331"
 },
 "5cf761895bcf5a7a": {
 "first_seen": "2026-09-21T01:10:54+08:00",
@@ -20406,10 +20448,10 @@
 },
 "a19edfb034532d17": {
 "first_seen": "2026-09-21T01:27:29+08:00",
-"seen_count": 21,
+"seen_count": 22,
 "source": "hn_show",
 "note": "20-语料/posts/hn_show/2026-09-21/a19edfb034532d17_Show-HN-Breathe-CLI-–-Paced-resonance-breathing-in.md",
-"last_seen": "2026-10-22T09:57:49+08:00",
+"last_seen": "2026-10-25T23:48:43+08:00",
 "content_hash": "388429de4bd8534c",
 "metric_history": [
 {
@@ -20745,10 +20787,10 @@
 },
 "e3c3ead84755f485": {
 "first_seen": "2026-09-21T01:27:31+08:00",
-"seen_count": 21,
+"seen_count": 22,
 "source": "hn_show",
 "note": "20-语料/posts/hn_show/2026-09-21/e3c3ead84755f485_Show-HN-Jynx,-a-matchmaking-app-to-find-gaming-tea.md",
-"last_seen": "2026-10-22T09:57:51+08:00",
+"last_seen": "2026-10-25T23:48:46+08:00",
 "content_hash": "8347c5172353708b",
 "metric_history": [
 {
@@ -22004,10 +22046,10 @@
 },
 "034f63114d34110e": {
 "first_seen": "2026-09-21T01:28:08+08:00",
-"seen_count": 16,
+"seen_count": 17,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/034f63114d34110e_I’ve-built-a-massive-Restaurant-SaaS-(AuraPOS,-1M+.md",
-"last_seen": "2026-10-17T13:51:19+08:00",
+"last_seen": "2026-10-25T23:51:39+08:00",
 "content_hash": "5dad19314a6bc5d2",
 "metric_history": [
 {
@@ -22038,10 +22080,10 @@
 },
 "2acec6df3cb74ad2": {
 "first_seen": "2026-09-21T01:28:08+08:00",
-"seen_count": 16,
+"seen_count": 17,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/2acec6df3cb74ad2_How-did-you-feel-when-you-got-your-first-paying-cu.md",
-"last_seen": "2026-10-17T13:51:21+08:00",
+"last_seen": "2026-10-25T23:51:44+08:00",
 "content_hash": "35ef7e0f33df6d54",
 "metric_history": [
 {
@@ -22055,10 +22097,10 @@
 },
 "4b27ff87e171bde8": {
 "first_seen": "2026-09-21T01:28:08+08:00",
-"seen_count": 17,
+"seen_count": 18,
 "source": "reddit",
 "note": "20-语料/posts/reddit/2026-09-21/4b27ff87e171bde8_Need-more-landing-page-conversions.md",
-"last_seen": "2026-10-17T13:51:23+08:00",
+"last_seen": "2026-10-25T23:51:46+08:00",
 "content_hash": "ba26654c68f16361",
 "metric_history": [
 {
@@ -26331,10 +26373,10 @@
 },
 "a0a6055cc981434a": {
 "first_seen": "2026-09-21T01:31:55+08:00",
-"seen_count": 20,
+"seen_count": 21,
 "source": "hn_show",
 "note": "20-语料/posts/hn_show/2026-09-21/a0a6055cc981434a_Show-HN-Claude-account-–-switch-Claude-Code-accoun.md",
-"last_seen": "2026-10-22T09:57:53+08:00",
+"last_seen": "2026-10-25T23:48:50+08:00",
 "content_hash": "8a20d5d155e0769e",
 "metric_history": [
 {
@@ -35111,13 +35153,13 @@
 "project_url": "https://plavtora.com/"
 },
 "794520fb96efa9e8": {
-"simhash": "60620c051e6032d0",
+"simhash": "4c4a89141b2438d6",
 "source": "indiehackers",
 "note": "20-语料/posts/indiehackers/2026-09-24/794520fb96efa9e8_Apogee-Watcher.md",
 "first_seen": "2026-09-25T00:01:07+08:00",
-"seen_count": 7,
-"last_seen": "2026-10-22T09:48:45+08:00",
-"content_hash": "d15f5691e7451980",
+"seen_count": 8,
+"last_seen": "2026-10-25T23:32:34+08:00",
+"content_hash": "ab3d505a155577a2",
 "project_url": "https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance"
 },
 "afe15bf70a39ff71": {
@@ -35131,13 +35173,13 @@
 "project_url": "https://auraplusplus.com/"
 },
 "0b7cac024c1d18d1": {
-"simhash": "0ec743685aed8985",
+"simhash": "3c83d55a16b5f3cb",
 "source": "indiehackers",
 "note": "20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It.md",
 "first_seen": "2026-09-25T00:01:07+08:00",
-"seen_count": 11,
-"last_seen": "2026-10-17T13:38:50+08:00",
-"content_hash": "6af0c912306bb19e",
+"seen_count": 12,
+"last_seen": "2026-10-25T23:32:33+08:00",
+"content_hash": "11ae424d2744ca89",
 "project_url": "https://launchon.it/"
 },
 "42253e16168e26a7": {
@@ -35504,11 +35546,11 @@
 },
 "25a270af6ff3aa31": {
 "first_seen": "2026-09-25T00:03:58+08:00",
-"seen_count": 1,
+"seen_count": 2,
 "source": "producthunt",
-"note": "20-语料/posts/producthunt/2026-09-24/25a270af6ff3aa31_Dub-Program-Marketplace.md",
-"last_seen": "2026-09-25T00:03:58+08:00",
-"content_hash": "377f6c9f0a04d145"
+"note": "20-语料/posts/producthunt/2026-09-24/25a270af6ff3aa31_Dub-Startup-Program.md",
+"last_seen": "2026-10-25T23:34:56+08:00",
+"content_hash": "98ffb46c8ecf0d3f"
 },
 "b8295be6039e887a": {
 "first_seen": "2026-09-25T00:03:58+08:00",
@@ -37311,8 +37353,8 @@
 "source": "hn_show",
 "note": "20-语料/posts/hn_show/2026-09-26/80daa8ace080de62_Show-HN-Aslmp,-an-async-Python-SLMP-client-for-Mit.md",
 "first_seen": "2026-09-26T09:42:47+08:00",
-"seen_count": 10,
-"last_seen": "2026-10-22T09:56:54+08:00",
+"seen_count": 11,
+"last_seen": "2026-10-25T23:45:19+08:00",
 "content_hash": "c5fa49e40e3e8f24",
 "metric_history": [
 {
@@ -39656,9 +39698,9 @@
 "source": "bilibili",
 "note": "20-语料/posts/bilibili/2026-09-28/553b0c9858bd835c_【Lee哥】4人3月拿4000愿望单!小团队怎么做宣发,才不浪费每一次机会-经验分享-游戏开发.md",
 "first_seen": "2026-09-28T09:51:30+08:00",
-"seen_count": 2,
-"last_seen": "2026-10-11T09:48:08+08:00",
-"content_hash": "e8abc70a1906e72b",
+"seen_count": 3,
+"last_seen": "2026-10-25T23:35:20+08:00",
+"content_hash": "2a4de1e8e0b81602",
 "metric_history": [
 {
 "at": "2026-09-28T09:51:30+08:00",
@@ -39671,6 +39713,12 @@
 "play": 16160,
 "danmaku": 7,
 "favorites": 1595
+},
+{
+"at": "2026-10-25T23:35:20+08:00",
+"play": 16219,
+"danmaku": 7,
+"favorites": 1594
 }
 ]
 },
@@ -39812,8 +39860,8 @@
 "source": "hn_show",
 "note": "20-语料/posts/hn_show/2026-09-29/da1fc2dfdcefd6af_Show-HN-Jauvex-1.2,-two-way-voice-chat-harness-for.md",
 "first_seen": "2026-09-29T09:43:32+08:00",
-"seen_count": 8,
-"last_seen": "2026-10-17T13:46:22+08:00",
+"seen_count": 9,
+"last_seen": "2026-10-25T23:45:19+08:00",
 "content_hash": "95f8396f5e423058",
 "metric_history": [
 {
@@ -41623,10 +41671,10 @@
 },
 "f75ab2d7bca162f3": {
 "first_seen": "2026-09-30T18:37:26+08:00",
-"seen_count": 9,
+"seen_count": 10,
 "source": "hn_show",
 "note": "20-语料/posts/hn_show/2026-09-30/f75ab2d7bca162f3_Show-HN-TurboGPT-train-22KiB-transformer-in-13s.md",
-"last_seen": "2026-10-22T09:58:27+08:00",
+"last_seen": "2026-10-25T23:49:59+08:00",
 "content_hash": "3ad8a7d760ec0189",
 "metric_history": [
 {
@@ -44357,9 +44405,9 @@
 "source": "github_new",
 "note": "20-语料/posts/github_new/2026-10-10/056cd65a152e2b1f_Jakeschincariol-replica-skill.md",
 "first_seen": "2026-10-10T10:01:30+08:00",
-"seen_count": 5,
-"last_seen": "2026-10-22T09:48:02+08:00",
-"content_hash": "6327eadb4ca03287",
+"seen_count": 6,
+"last_seen": "2026-10-25T23:31:02+08:00",
+"content_hash": "2930170440a67cd0",
 "metric_history": [
 {
 "at": "2026-10-10T10:01:30+08:00",
@@ -44390,6 +44438,12 @@
 "stars": 4045,
 "forks": 705,
 "open_issues": 12
+},
+{
+"at": "2026-10-25T23:31:02+08:00",
+"stars": 5411,
+"forks": 948,
+"open_issues": 13
 }
 ],
 "project_url": "https://opusjake.ai/"
@@ -46485,13 +46539,13 @@
 "content_hash": "e1cc0703bfdcb63d"
 },
 "d2bccc43c69206ee": {
-"simhash": "f3c52ee0fcd502cb",
+"simhash": "382dc68c4ae09ec9",
 "source": "indiehackers",
 "note": "20-语料/posts/indiehackers/2026-10-11/d2bccc43c69206ee_Circlesaas.md",
 "first_seen": "2026-10-11T09:47:12+08:00",
-"seen_count": 3,
-"last_seen": "2026-10-17T13:38:50+08:00",
-"content_hash": "92dd7130b8cb0850",
+"seen_count": 4,
+"last_seen": "2026-10-25T23:32:33+08:00",
+"content_hash": "394b9cfef4e268c4",
 "project_url": "https://circlesaasboard.com/"
 },
 "18040d2b123161dd": {
@@ -48781,8 +48835,8 @@
 "source": "v2ex",
 "note": "20-语料/posts/v2ex/2026-10-16/6a89ff8465891d78_上个站-56-天零收入,这个站-5-天收到第一笔钱.md",
 "first_seen": "2026-10-16T09:39:15+08:00",
-"seen_count": 3,
-"last_seen": "2026-10-22T09:49:56+08:00",
+"seen_count": 4,
+"last_seen": "2026-10-25T23:35:17+08:00",
 "content_hash": "26945f9f8e5ba64e",
 "metric_history": [
 {
@@ -48793,13 +48847,13 @@
 "project_url": "https://voicewove.com/"
 },
 "067c6f91b8755af8": {
-"simhash": "b82adf0ab38d751b",
+"simhash": "b83e5f0af38df53b",
 "source": "v2ex",
 "note": "20-语料/posts/v2ex/2026-10-16/067c6f91b8755af8_AI-太牛逼了,总想用-ai-来搞点副业,但是用-ai-扫了一圈不少的苹果论坛,-reddit-啥的.md",
 "first_seen": "2026-10-16T09:39:15+08:00",
-"seen_count": 3,
-"last_seen": "2026-10-22T09:49:56+08:00",
-"content_hash": "a8917cc26eb589fd",
+"seen_count": 4,
+"last_seen": "2026-10-25T23:35:17+08:00",
+"content_hash": "597de4f74185768c",
 "metric_history": [
 {
 "at": "2026-10-16T09:39:15+08:00",
@@ -48839,11 +48893,11 @@
 },
 "6e20ffd8c44b5707": {
 "first_seen": "2026-10-16T09:39:19+08:00",
-"seen_count": 3,
+"seen_count": 4,
 "source": "bilibili",
 "note": "20-语料/posts/bilibili/2026-10-16/6e20ffd8c44b5707_一分钱不花,完成独立产品从0上线!2026年独立开发者免费全家桶.md",
-"last_seen": "2026-10-22T09:50:01+08:00",
-"content_hash": "921760800c03c144",
+"last_seen": "2026-10-25T23:35:20+08:00",
+"content_hash": "466440e364f0d019",
 "metric_history": [
 {
 "at": "2026-10-16T09:39:19+08:00",
@@ -48862,6 +48916,12 @@
 "play": 10789,
 "danmaku": 1,
 "favorites": 1580
+},
+{
+"at": "2026-10-25T23:35:20+08:00",
+"play": 11525,
+"danmaku": 1,
+"favorites": 1715
 }
 ],
 "project_url": "https://developers.cloudflare.com/d1"
@@ -50479,11 +50539,11 @@
 },
 "b2919ea577cd79ac": {
 "first_seen": "2026-10-17T13:39:25+08:00",
-"seen_count": 2,
+"seen_count": 3,
 "source": "bilibili",
 "note": "20-语料/posts/bilibili/2026-10-17/b2919ea577cd79ac_第一个独立游戏上线两周,零宣发能赚到多少钱.md",
-"last_seen": "2026-10-22T09:50:01+08:00",
-"content_hash": "68b1c958e0569012",
+"last_seen": "2026-10-25T23:35:20+08:00",
+"content_hash": "b87a033d01e7cee4",
 "metric_history": [
 {
 "at": "2026-10-17T13:39:25+08:00",
@@ -50496,6 +50556,12 @@
 "play": 68508,
 "danmaku": 31,
 "favorites": 2504
+},
+{
+"at": "2026-10-25T23:35:20+08:00",
+"play": 77305,
+"danmaku": 31,
+"favorites": 2675
 }
 ],
 "project_url": "https://store.steampowered.com/app/4617090"
@@ -51219,11 +51285,11 @@
 },
 "ee72ec3964ac9c11": {
 "first_seen": "2026-10-22T09:47:07+08:00",
-"seen_count": 2,
+"seen_count": 3,
 "source": "hn_show",
 "note": "20-语料/posts/hn_show/2026-10-22/ee72ec3964ac9c11_Show-HN-An-interactive-timeline-of-20-years-of-Hac.md",
-"last_seen": "2026-10-22T09:56:54+08:00",
-"content_hash": "42476481e25b4baa",
+"last_seen": "2026-10-25T23:45:19+08:00",
+"content_hash": "6864a91aa10a6198",
 "metric_history": [
 {
 "at": "2026-10-22T09:47:07+08:00",
@@ -51235,55 +51301,73 @@
 "project_url": "https://adriankrebs.ch/hn-timeline"
 },
 "ab0e470b36e49b22": {
-"simhash": "b695a81950d32450",
+"simhash": "b2918150d05304f2",
 "source": "github_new",
 "note": "20-语料/posts/github_new/2026-10-22/ab0e470b36e49b22_Gathin23-cleanyourtv.md",
 "first_seen": "2026-10-22T09:48:02+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:48:02+08:00",
-"content_hash": "13e9187af2888c10",
+"seen_count": 2,
+"last_seen": "2026-10-25T23:31:01+08:00",
+"content_hash": "6ab7e69163113ef1",
 "metric_history": [
 {
 "at": "2026-10-22T09:48:02+08:00",
 "stars": 19453,
 "forks": 2100,
 "open_issues": 98
+},
+{
+"at": "2026-10-25T23:31:01+08:00",
+"stars": 33950,
+"forks": 4016,
+"open_issues": 239
 }
 ],
 "project_url": "https://cleanyour.tv/"
 },
 "a6e633d8cf44b3fc": {
-"simhash": "28268f26324254d2",
+"simhash": "0827ad27824044f2",
 "source": "github_new",
 "note": "20-语料/posts/github_new/2026-10-22/a6e633d8cf44b3fc_jhaizhou-ops-d2r-mobile.md",
 "first_seen": "2026-10-22T09:48:02+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:48:02+08:00",
-"content_hash": "cfefea2f136269ef",
+"seen_count": 2,
+"last_seen": "2026-10-25T23:31:01+08:00",
+"content_hash": "34f4cd845bb7618b",
 "metric_history": [
 {
 "at": "2026-10-22T09:48:02+08:00",
 "stars": 4317,
 "forks": 1179,
 "open_issues": 43
+},
+{
+"at": "2026-10-25T23:31:01+08:00",
+"stars": 4610,
+"forks": 1239,
+"open_issues": 54
 }
 ],
 "project_url": "https://github.com/jhaizhou-ops/d2r-mobile"
 },
 "635d210d95ce60ba": {
-"simhash": "7e2d0d5f349971ad",
+"simhash": "6eb1c55d26d97cfd",
 "source": "github_new",
 "note": "20-语料/posts/github_new/2026-10-22/635d210d95ce60ba_ly05010419-MacNativeGames.md",
 "first_seen": "2026-10-22T09:48:02+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:48:02+08:00",
-"content_hash": "eb403d05e4bce1c4",
+"seen_count": 2,
+"last_seen": "2026-10-25T23:31:01+08:00",
+"content_hash": "f04d9dfd4baf5dc7",
 "metric_history": [
 {
 "at": "2026-10-22T09:48:02+08:00",
 "stars": 3899,
 "forks": 547,
 "open_issues": 74
+},
+{
+"at": "2026-10-25T23:31:01+08:00",
+"stars": 5392,
+"forks": 782,
+"open_issues": 148
 }
 ],
 "project_url": "https://github.com/ly05010419/MacNativeGames"
@@ -51361,13 +51445,13 @@
 "content_hash": "8518f2c0c87bbd37"
 },
 "6bd5a4728497c4d3": {
-"simhash": "d0d84f00e47353c3",
+"simhash": "d4c84a24e45233c3",
 "source": "betalist",
 "note": "20-语料/posts/betalist/2026-10-22/6bd5a4728497c4d3_Engineforge.md",
 "first_seen": "2026-10-22T09:48:17+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:48:17+08:00",
-"content_hash": "b082ea2264923794"
+"seen_count": 2,
+"last_seen": "2026-10-25T23:31:40+08:00",
+"content_hash": "b488f96c2f69bbb0"
 },
 "655d6ffee7178f5b": {
 "simhash": "94ea15742d4f7952",
@@ -51426,89 +51510,89 @@
 "project_url": "https://mediafa.st/"
 },
 "ed4ad7227abdc9a3": {
-"simhash": "7f207eb10c6ba245",
+"simhash": "1cc606909fa59cc9",
 "source": "indiehackers",
 "note": "20-语料/posts/indiehackers/2026-10-22/ed4ad7227abdc9a3_Citewing.md",
 "first_seen": "2026-10-22T09:48:44+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:48:44+08:00",
-"content_hash": "bf8a647b719b741a"
+"seen_count": 2,
+"last_seen": "2026-10-25T23:32:33+08:00",
+"content_hash": "868e1b447aab79cd"
 },
 "e841adcbe78baaac": {
-"simhash": "aa66bcef395ba6bb",
+"simhash": "aa66bcef7959a6bb",
 "source": "indiehackers",
 "note": "20-语料/posts/indiehackers/2026-10-22/e841adcbe78baaac_Ghost.md",
 "first_seen": "2026-10-22T09:48:45+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:48:45+08:00",
-"content_hash": "f7048e1d51acb3e0",
+"seen_count": 2,
+"last_seen": "2026-10-25T23:32:34+08:00",
+"content_hash": "b538613caf5da2c8",
 "project_url": "https://blog.ghost.org/2-0"
 },
 "bf8f7150e9f31478": {
-"simhash": "2b1ca7c43ba134b1",
+"simhash": "ab1ca7c43ba934b1",
 "source": "indiehackers",
 "note": "20-语料/posts/indiehackers/2026-10-22/bf8f7150e9f31478_Blender-Market.md",
 "first_seen": "2026-10-22T09:48:45+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:48:45+08:00",
-"content_hash": "50402659ff85dca0",
+"seen_count": 2,
+"last_seen": "2026-10-25T23:32:34+08:00",
+"content_hash": "6c9ff7608f5c6511",
 "project_url": "https://blendermarket.com/posts/2019-cyber-weekend-sale-results"
 },
 "ac0906d1a7113c1d": {
-"simhash": "b4c60f7f55082810",
+"simhash": "b4c6077f55082830",
 "source": "indiehackers",
 "note": "20-语料/posts/indiehackers/2026-10-22/ac0906d1a7113c1d_Cloud-Campaign.md",
 "first_seen": "2026-10-22T09:48:45+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:48:45+08:00",
-"content_hash": "0516017ec7ac5e25",
+"seen_count": 2,
+"last_seen": "2026-10-25T23:32:34+08:00",
+"content_hash": "72ef49b7db9a11c9",
 "project_url": "https://angel.co/company/cloudcampaign/jobs/898766-fullstack-software-engineer"
 },
 "5c9eb17c37a39ffd": {
-"simhash": "accee1675a8c843c",
+"simhash": "acdee1675a8c8c3c",
 "source": "indiehackers",
 "note": "20-语料/posts/indiehackers/2026-10-22/5c9eb17c37a39ffd_Whaticket.md",
 "first_seen": "2026-10-22T09:48:45+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:48:45+08:00",
-"content_hash": "a8dfa2084e7d739d"
+"seen_count": 2,
+"last_seen": "2026-10-25T23:32:34+08:00",
+"content_hash": "b6506d9e051a74e7"
 },
 "0f1f4a460ecae2a1": {
-"simhash": "3be42bf14b451252",
+"simhash": "3be46fe14b45b252",
 "source": "indiehackers",
 "note": "20-语料/posts/indiehackers/2026-10-22/0f1f4a460ecae2a1_Postiz-2.md",
 "first_seen": "2026-10-22T09:48:45+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:48:45+08:00",
-"content_hash": "5dd7000785532b60"
+"seen_count": 2,
+"last_seen": "2026-10-25T23:32:34+08:00",
+"content_hash": "183ad321a60d6edf"
 },
 "f201583e2d2e923a": {
-"simhash": "abd95d328b382a85",
+"simhash": "2bd95d328b2c2a85",
 "source": "indiehackers",
 "note": "20-语料/posts/indiehackers/2026-10-22/f201583e2d2e923a_Browserless.md",
 "first_seen": "2026-10-22T09:48:45+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:48:45+08:00",
-"content_hash": "1d204fdb03bfb822",
+"seen_count": 2,
+"last_seen": "2026-10-25T23:32:34+08:00",
+"content_hash": "4024b72372c14a68",
 "project_url": "https://blog.brandfetch.io/automating-browsers-with-browserless"
 },
 "30b704d6223258d4": {
-"simhash": "2dc82bfcf441c28b",
+"simhash": "2dd86ffcf441828b",
 "source": "indiehackers",
 "note": "20-语料/posts/indiehackers/2026-10-22/30b704d6223258d4_Savvy-Nomad.md",
 "first_seen": "2026-10-22T09:48:45+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:48:45+08:00",
-"content_hash": "8bed8031007141af"
+"seen_count": 2,
+"last_seen": "2026-10-25T23:32:34+08:00",
+"content_hash": "3da752a9ba4f1b2d"
 },
 "8d9778b3778a509c": {
 "simhash": "5ed27d251cb6bbe7",
 "source": "indiehackers",
 "note": "20-语料/posts/indiehackers/2026-10-22/8d9778b3778a509c_Rezi.md",
 "first_seen": "2026-10-22T09:48:45+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:48:45+08:00",
-"content_hash": "1d5e1ceec0509225",
+"seen_count": 2,
+"last_seen": "2026-10-25T23:32:34+08:00",
+"content_hash": "54263b371d241fdc",
 "project_url": "https://linkedin.rezi.io/"
 },
 "b74e0477cf8c5606": {
@@ -51516,79 +51600,85 @@
 "source": "indiehackers",
 "note": "20-语料/posts/indiehackers/2026-10-22/b74e0477cf8c5606_Appraiseitnow.md",
 "first_seen": "2026-10-22T09:48:45+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:48:45+08:00",
-"content_hash": "44f8a153b62b1898"
+"seen_count": 2,
+"last_seen": "2026-10-25T23:32:34+08:00",
+"content_hash": "49196c38193cc6b2"
 },
 "6e6b46fff7de489b": {
 "simhash": "a651a3d2781da2ac",
 "source": "indiehackers",
 "note": "20-语料/posts/indiehackers/2026-10-22/6e6b46fff7de489b_Shugert.md",
 "first_seen": "2026-10-22T09:48:45+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:48:45+08:00",
-"content_hash": "31c9459253b89d5a",
+"seen_count": 2,
+"last_seen": "2026-10-25T23:32:34+08:00",
+"content_hash": "24436f040806c966",
 "project_url": "https://storetwin.shugert.com.mx/"
 },
 "abf09f09bea2efe4": {
-"simhash": "d9843dc7d99900bb",
+"simhash": "9980fdc5999900bb",
 "source": "indiehackers",
 "note": "20-语料/posts/indiehackers/2026-10-22/abf09f09bea2efe4_Taxx.md",
 "first_seen": "2026-10-22T09:48:45+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:48:45+08:00",
-"content_hash": "ba2569d74073fb98"
+"seen_count": 2,
+"last_seen": "2026-10-25T23:32:34+08:00",
+"content_hash": "fb32973a1ce5c738"
 },
 "b5b0a4732e0146b5": {
-"simhash": "4adc13b703a5508e",
+"simhash": "48dc11a70325508e",
 "source": "indiehackers",
 "note": "20-语料/posts/indiehackers/2026-10-22/b5b0a4732e0146b5_Dealsourcr.md",
 "first_seen": "2026-10-22T09:48:45+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:48:45+08:00",
-"content_hash": "b615360e8493058b"
+"seen_count": 2,
+"last_seen": "2026-10-25T23:32:34+08:00",
+"content_hash": "ea6c85214922c06c"
 },
 "9930629dc0ba0d5c": {
 "simhash": "dc1a06d2e1adbce0",
 "source": "indiehackers",
 "note": "20-语料/posts/indiehackers/2026-10-22/9930629dc0ba0d5c_Quotaguard.md",
 "first_seen": "2026-10-22T09:48:45+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:48:45+08:00",
-"content_hash": "0014c8c126fa278c",
+"seen_count": 2,
+"last_seen": "2026-10-25T23:32:34+08:00",
+"content_hash": "23dcedbc7a9d9c27",
 "project_url": "https://quotaguard.baremetrics.com/"
 },
 "8d97abb26cbbe357": {
-"simhash": "865c47e363ef8366",
+"simhash": "965c47c323ef8366",
 "source": "indiehackers",
 "note": "20-语料/posts/indiehackers/2026-10-22/8d97abb26cbbe357_Gigalixir.md",
 "first_seen": "2026-10-22T09:48:45+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:48:45+08:00",
-"content_hash": "437bec1144aa9daf"
+"seen_count": 2,
+"last_seen": "2026-10-25T23:32:34+08:00",
+"content_hash": "32c5c08e0d7e34c2"
 },
 "3cd97ac96cf3a4a7": {
-"simhash": "dbac71f473859092",
+"simhash": "9bacf1d433859092",
 "source": "indiehackers",
 "note": "20-语料/posts/indiehackers/2026-10-22/3cd97ac96cf3a4a7_Apiframe-The-Midjourney-Api.md",
 "first_seen": "2026-10-22T09:48:45+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:48:45+08:00",
-"content_hash": "dadcd39045776c35"
+"seen_count": 2,
+"last_seen": "2026-10-25T23:32:34+08:00",
+"content_hash": "e806aff099b10594"
 },
 "7473f2320a0c5efc": {
 "simhash": "7dd79db1268ef15c",
 "source": "devto",
 "note": "20-语料/posts/devto/2026-10-22/7473f2320a0c5efc_Promise-Delivered-Welcome-to-the-DEV-Hall-of-Fame.md",
 "first_seen": "2026-10-22T09:49:27+08:00",
-"seen_count": 2,
-"last_seen": "2026-10-22T09:57:19+08:00",
-"content_hash": "aeb44559b1032283",
+"seen_count": 4,
+"last_seen": "2026-10-25T23:47:54+08:00",
+"content_hash": "f1feb2777646493c",
 "metric_history": [
 {
 "at": "2026-10-22T09:49:27+08:00",
 "reactions": 199,
 "comments": 100,
+"reading_time": 25
+},
+{
+"at": "2026-10-25T23:34:49+08:00",
+"reactions": 225,
+"comments": 125,
 "reading_time": 25
 }
 ]
@@ -51598,8 +51688,8 @@
 "source": "devto",
 "note": "20-语料/posts/devto/2026-10-22/8237951271bb0076_I-Vibe-Coded-My-Way-Out-of-Angular-Upgrades.md",
 "first_seen": "2026-10-22T09:49:27+08:00",
-"seen_count": 2,
-"last_seen": "2026-10-22T09:57:25+08:00",
+"seen_count": 4,
+"last_seen": "2026-10-25T23:48:07+08:00",
 "content_hash": "b9a456576dc939d0",
 "metric_history": [
 {
@@ -51616,14 +51706,20 @@
 "source": "devto",
 "note": "20-语料/posts/devto/2026-10-22/3e58e881f67fc73d_Your-grammar-checker-uploads-every-word-you-type.md",
 "first_seen": "2026-10-22T09:49:27+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:49:27+08:00",
-"content_hash": "ec4d9987b3525eb5",
+"seen_count": 2,
+"last_seen": "2026-10-25T23:34:49+08:00",
+"content_hash": "c7cf516ddb9d5520",
 "metric_history": [
 {
 "at": "2026-10-22T09:49:27+08:00",
 "reactions": 6,
 "comments": 4,
+"reading_time": 6
+},
+{
+"at": "2026-10-25T23:34:49+08:00",
+"reactions": 7,
+"comments": 15,
 "reading_time": 6
 }
 ],
@@ -51874,8 +51970,8 @@
 "source": "v2ex",
 "note": "20-语料/posts/v2ex/2026-10-22/db75f5c9da297f4c_QuotaPanel-基于-Wails-的-AI-订阅额度管理工具.md",
 "first_seen": "2026-10-22T09:49:55+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:49:55+08:00",
+"seen_count": 2,
+"last_seen": "2026-10-25T23:35:17+08:00",
 "content_hash": "e9bea4deb1254fb9",
 "metric_history": [
 {
@@ -51890,8 +51986,8 @@
 "source": "v2ex",
 "note": "20-语料/posts/v2ex/2026-10-22/9e0e6e3447d93b09_高级服务器开发工程师-远程.md",
 "first_seen": "2026-10-22T09:49:55+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:49:55+08:00",
+"seen_count": 2,
+"last_seen": "2026-10-25T23:35:17+08:00",
 "content_hash": "ea45d699854e4f0b",
 "metric_history": [
 {
@@ -51905,8 +52001,8 @@
 "source": "v2ex",
 "note": "20-语料/posts/v2ex/2026-10-22/40ffd3d13b20a818_开源自用的多-Agent-桌面工作台,-Agent-放一起管,订阅额度一点不浪费.md",
 "first_seen": "2026-10-22T09:49:55+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:49:55+08:00",
+"seen_count": 2,
+"last_seen": "2026-10-25T23:35:17+08:00",
 "content_hash": "8449daa6fb2d3c49",
 "metric_history": [
 {
@@ -52154,8 +52250,8 @@
 "source": "v2ex",
 "note": "20-语料/posts/v2ex/2026-10-22/3f6cc5a93b1d2101_裸辞半年后时间好像停滞了.md",
 "first_seen": "2026-10-22T09:49:56+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:49:56+08:00",
+"seen_count": 2,
+"last_seen": "2026-10-25T23:35:17+08:00",
 "content_hash": "6332f6a7f5e54611",
 "metric_history": [
 {
@@ -52169,8 +52265,8 @@
 "source": "v2ex",
 "note": "20-语料/posts/v2ex/2026-10-22/7912f810e0d51653_从大厂出来,远程工作-4-年后,发现自己似乎本质不适合远程(古法手搓贴,已焦虑.md",
 "first_seen": "2026-10-22T09:49:56+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:49:56+08:00",
+"seen_count": 2,
+"last_seen": "2026-10-25T23:35:17+08:00",
 "content_hash": "9f31dc8d668c5de3",
 "metric_history": [
 {
@@ -52185,8 +52281,8 @@
 "source": "v2ex",
 "note": "20-语料/posts/v2ex/2026-10-22/ef3d60d31f707489_分享-我搭建了-AI-出海赚社群,交流-AI-短剧、漫剧、出海工具站美金变现.md",
 "first_seen": "2026-10-22T09:49:56+08:00",
-"seen_count": 1,
-"last_seen": "2026-10-22T09:49:56+08:00",
+"seen_count": 2,
+"last_seen": "2026-10-25T23:35:17+08:00",
 "content_hash": "a2b68a3188842567",
 "metric_history": [
 {
@@ -52228,6 +52324,1792 @@
 "favorites": 100
 }
 ]
+},
+"c832a45e1d62ff00": {
+"simhash": "fba14998fe867990",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/c832a45e1d62ff00_Show-HN-I-put-employees-inside-S&P-500-market-cap.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "3cd1ac8f63ddba7a",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 13,
+"comments": 0,
+"engagement_velocity": 13
+}
+],
+"project_url": "https://bigwhalehunting.com/workforce"
+},
+"cfbcb13770c6084d": {
+"simhash": "868912a991cc16a5",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/cfbcb13770c6084d_Show-HN-HissingKitty-–-what-teams-pay-for-software.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "679422ae2134c1d9",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 2,
+"comments": 2,
+"engagement_velocity": 2
+}
+],
+"project_url": "https://hissingkitty.com/"
+},
+"1ff035201bf475fe": {
+"simhash": "e5b9f3836b533373",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/1ff035201bf475fe_Show-HN-TemplateBox-–-Free-resume,-invoice-and-moc.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "3d93256a42c4eaf5",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 2,
+"comments": 0,
+"engagement_velocity": 2
+}
+],
+"project_url": "https://templatebox.win/"
+},
+"94e16c477aa67c94": {
+"simhash": "17cf6b63f30d4af7",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/94e16c477aa67c94_Show-HN-Kolo-–-share-your-AI-coding-sessions-with.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "7d20c43087531958",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 4,
+"comments": 0,
+"engagement_velocity": 4
+}
+],
+"project_url": "https://github.com/komovaar/kolo"
+},
+"a76a0bd8ce8b2d7e": {
+"simhash": "b2902c5634470da5",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/a76a0bd8ce8b2d7e_Show-HN-Kosh-Give-the-browser-bookmarks-a-second-l.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "163e3b15970a763a",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 7,
+"comments": 1,
+"engagement_velocity": 7
+}
+],
+"project_url": "https://addons.mozilla.org/en-US/firefox/addon/kosh"
+},
+"c1da1845706a842b": {
+"simhash": "c799dbf0c6862cdb",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/c1da1845706a842b_Show-HN-Open-Source-Cybersecurity-Platform-Uses-AI.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "83fa6da4f1529818",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 15,
+"comments": 4,
+"engagement_velocity": 15
+}
+],
+"project_url": "https://github.com/thomasunise/argus"
+},
+"855e17d52ab8bec0": {
+"simhash": "f27f9cc506afb3a2",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/855e17d52ab8bec0_Show-HN-macOS-window-switcher-replacement-that-kee.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "6a2c4f1e376b26bc",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 2,
+"comments": 1,
+"engagement_velocity": 2
+}
+],
+"project_url": "https://debutspace.com/"
+},
+"24bc98a339adcf89": {
+"simhash": "8c462b4b229dc214",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/24bc98a339adcf89_Show-HN-Farol-–-a-risk-map-of-a-pull-request-for-t.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 2,
+"last_seen": "2026-10-25T23:50:03+08:00",
+"content_hash": "b75d184dc29b7296",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 31,
+"comments": 19,
+"engagement_velocity": 31
+}
+],
+"project_url": "https://github.com/winnin/farol"
+},
+"a0fc58e3aee97676": {
+"simhash": "d56428507f3584c7",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/a0fc58e3aee97676_Show-HN-Find-overlapping-Rust-tests-with-mutation.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "c1fc752e3c1c5bf7",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 5,
+"comments": 0,
+"engagement_velocity": 5
+}
+],
+"project_url": "https://github.com/yasuyuky/cargo-test-prune"
+},
+"5af0d2b1ea9e5e33": {
+"simhash": "6846abf66ab33f99",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/5af0d2b1ea9e5e33_Show-HN-Shrinking-my-159-byte-x86-64-Hello-World-E.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "a31884d15a35d1d3",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 3,
+"comments": 0,
+"engagement_velocity": 3
+}
+],
+"project_url": "https://blog.lohr.dev/hello-world-contd"
+},
+"f5a4d1a14ae1e623": {
+"simhash": "f45ccf2aeaa356e8",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/f5a4d1a14ae1e623_Show-HN-EdgePad-–-tool-for-configuring-edge-touchp.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "8e208194e41218b4",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 6,
+"comments": 0,
+"engagement_velocity": 6
+}
+],
+"project_url": "https://github.com/assembledev/edgepad"
+},
+"27bc95c9c683e02a": {
+"simhash": "9d15f263eafd4b0d",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/27bc95c9c683e02a_Show-HN-Philosphic-Moon-in-your-terminal-where-you.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "c6cb7ca35ed1d300",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 2,
+"comments": 0,
+"engagement_velocity": 2
+}
+],
+"project_url": "https://github.com/SorBalda/philosophic-moon"
+},
+"849136528e85e9ca": {
+"simhash": "2f4c682b9f75b27d",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/849136528e85e9ca_Show-HN-Where-does-my-tax-go-A-UK-tax-receipt-calc.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "7743d010544b7cdd",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 2,
+"comments": 0,
+"engagement_velocity": 2
+}
+],
+"project_url": "https://wheredoesmytaxgo.co.uk/"
+},
+"95e972e46ee1e623": {
+"simhash": "6143411407344178",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/95e972e46ee1e623_Show-HN-OpenXet.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "e1ec6611fef0aba6",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 2,
+"comments": 0,
+"engagement_velocity": 2
+}
+],
+"project_url": "https://github.com/stubbi/openxet"
+},
+"926953c14186ce27": {
+"simhash": "5602a0ae0c5e3497",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/926953c14186ce27_Show-HN-Online-Ruler,-a-Free-Ruler-for-Your-Screen.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "0d6be47adb7f18c3",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 2,
+"comments": 0,
+"engagement_velocity": 2
+}
+],
+"project_url": "https://onlineruler.in/"
+},
+"ee10fdf02fbaf1b0": {
+"simhash": "eb979b388d155a5d",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/ee10fdf02fbaf1b0_Show-HN-Black-Swan-–-a-Flappy-Bird-where-the-rules.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "ff215166ca8ff5c3",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 2,
+"comments": 1,
+"engagement_velocity": 2
+}
+],
+"project_url": "https://flappyswan.com/"
+},
+"c7d77e36d5b04220": {
+"simhash": "f082622baf7ef6fb",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/c7d77e36d5b04220_Show-HN-Hindsight-–-Lightweight,-elegant,-open-sou.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "1d0d5d4cf84fa24d",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 2,
+"comments": 0,
+"engagement_velocity": 2
+}
+],
+"project_url": "https://github.com/Tomotsugu-dev/Hindsight"
+},
+"8a0e82ee502656d6": {
+"simhash": "526b4034644073a9",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/8a0e82ee502656d6_Show-HN-Independent-Vet-–-Find-locally-owned-vets.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "6603d442b6cda3a1",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 4,
+"comments": 1,
+"engagement_velocity": 4
+}
+],
+"project_url": "https://independentvet.com/"
+},
+"7fed65578cf264fe": {
+"simhash": "13f6ce4194442631",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/7fed65578cf264fe_Show-HN-Dadgpt-Open-Source-Halloween-Costume.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "71a32cc2a9af9166",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 3,
+"comments": 0,
+"engagement_velocity": 3
+}
+],
+"project_url": "https://dadgptcostume.vercel.app/"
+},
+"b474e7b3c6f9b902": {
+"simhash": "8996f255ac850b2a",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/b474e7b3c6f9b902_Show-HN-A-Truly-Modular-Keyboard.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "afe588a20a7f13a8",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 4,
+"comments": 1,
+"engagement_velocity": 4
+}
+],
+"project_url": "https://github.com/notaroomba/keybytes"
+},
+"3a4e9ea9464f1add": {
+"simhash": "7af1915206221e15",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/3a4e9ea9464f1add_Show-HN-Four-Leaf-job-matches-that-find-you-automa.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "94b1dfb5d991b707",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 2,
+"comments": 0,
+"engagement_velocity": 2
+}
+],
+"project_url": "https://four-leaf.ai/jobs"
+},
+"a28a04fbbd4f1dec": {
+"simhash": "a549e1bc397fa42b",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/a28a04fbbd4f1dec_Show-HN-AI-Heat-Map-Sourced-from-over-140-News-Fee.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "7e888dc0b4743567",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 4,
+"comments": 2,
+"engagement_velocity": 4
+}
+],
+"project_url": "https://ai.jagular.io/"
+},
+"1599868f01632e5a": {
+"simhash": "04d1489d73019e5d",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/1599868f01632e5a_Show-HN-CodeAIHQ-–-High-performance-technical-anal.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "7022bb69a62d1652",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 2,
+"comments": 0,
+"engagement_velocity": 2
+}
+],
+"project_url": "https://codeaihq.com/dawn-of-the-planet-of-the-apes-vfx-pipeline"
+},
+"d3bcf58cd8375ddd": {
+"simhash": "1f4ff9fd65358c79",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/d3bcf58cd8375ddd_Show-HN-DeepSearch-–-Search-engine-built-on-DeepSe.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "803f7614a33dfe0a",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 3,
+"comments": 2,
+"engagement_velocity": 3
+}
+],
+"project_url": "https://deepsearch.ing/"
+},
+"13a5b7c66a4751b8": {
+"simhash": "832b8ba7f4fe1100",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/13a5b7c66a4751b8_Show-HN-A-client-side-adaptive-cognitive-test-meas.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "33e174b5459fe8dd",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 2,
+"comments": 1,
+"engagement_velocity": 2
+}
+],
+"project_url": "https://kat-assessment.com/"
+},
+"53adb2af922e1b18": {
+"simhash": "8ed026d257026415",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/53adb2af922e1b18_Show-HN-Tributary-–-Discover-who-influenced-your-f.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "67c87a3bb8df83c2",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 3,
+"comments": 0,
+"engagement_velocity": 3
+}
+],
+"project_url": "https://tributary.music/"
+},
+"49880bc6f733ab3c": {
+"simhash": "2d15c7ef1e60e813",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/49880bc6f733ab3c_Show-HN-WhatsApp-Bridge-for-those-with-their-own-V.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "9e34f16f6d7a0d21",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 3,
+"comments": 3,
+"engagement_velocity": 3
+}
+],
+"project_url": "https://github.com/vid-t/whatsapp-bridge"
+},
+"d7382ebb9d77576e": {
+"simhash": "8d116392b78ac318",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/d7382ebb9d77576e_Show-HN-Perch,-a-calm-Mac-app-for-juggling-Claude.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "eafe7cd6d27b6ac5",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 2,
+"comments": 0,
+"engagement_velocity": 2
+}
+],
+"project_url": "https://perchfocus.com/"
+},
+"bcf7c191918480b0": {
+"simhash": "34a65c9b9bcf786d",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/bcf7c191918480b0_Show-HN-Steal-My-Bitcoin.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "25a2a9da04ddac64",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 546,
+"comments": 341,
+"engagement_velocity": 546
+}
+],
+"project_url": "https://stealmybitcoin.com/"
+},
+"436024cea3a79a21": {
+"simhash": "d9578cfa3c8855e2",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/436024cea3a79a21_Show-HN-Wasi-Python-–-CPython,-NumPy,-and-Pandas-i.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "d6f4e976d45d3dd2",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 2,
+"comments": 0,
+"engagement_velocity": 2
+}
+],
+"project_url": "https://github.com/ClayGendron/wasi-python"
+},
+"40de2b36b037b7e0": {
+"simhash": "b7a1707aadeca5f5",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/40de2b36b037b7e0_Show-HN-Duls-–-A-bit-of-du,-a-bit-of-ls.-Best-of-b.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "1fba3e3a085ed11e",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 4,
+"comments": 0,
+"engagement_velocity": 4
+}
+],
+"project_url": "https://github.com/baalimago/duls"
+},
+"7e20c7f7fc126ffd": {
+"simhash": "04cf4bca1e306f33",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/7e20c7f7fc126ffd_Show-HN-AeonCut-–-Open-source-silence-cutter-for-D.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "58d4e724bc4deedc",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 2,
+"comments": 0,
+"engagement_velocity": 2
+}
+],
+"project_url": "https://github.com/aethelisdev/aeoncut"
+},
+"07b06d9a0f347920": {
+"simhash": "de13672e1cde7a46",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/07b06d9a0f347920_Show-HN-Whistle-Translator.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "2a18b1b5cef065d1",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 2,
+"comments": 1,
+"engagement_velocity": 2
+}
+],
+"project_url": "https://mahmoud.sh/whistle-translator"
+},
+"9506aed906b9d995": {
+"simhash": "148498af22d93ce1",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/9506aed906b9d995_Show-HN-Narro-–-Read-web-pages-and-Kindle-books-us.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "6f4e85034bc6c116",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 9,
+"comments": 1,
+"engagement_velocity": 9
+}
+],
+"project_url": "https://github.com/swrdfish/narro"
+},
+"4328c98aba726dc4": {
+"simhash": "642b210953cb232d",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/4328c98aba726dc4_Show-HN-Infinite-Zoom-Collaborative-Canvas.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "4ff936bae4232cbc",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 2,
+"comments": 1,
+"engagement_velocity": 2
+}
+],
+"project_url": "https://neverendingpainting.art/"
+},
+"e63c6e828f0d7c79": {
+"simhash": "9ab1574bfadec67b",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/e63c6e828f0d7c79_Show-HN-Agentsh-–-A-Decentralized,-Scalable-Multia.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "2e5c0426df2f7a14",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 7,
+"comments": 1,
+"engagement_velocity": 7
+}
+],
+"project_url": "https://github.com/microsoft/Agensh"
+},
+"8f01735ec960798f": {
+"simhash": "34af0d644b714691",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/8f01735ec960798f_Show-HN-The-missing-clipboard-history-for-macOS-th.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "e8fdd91d64516a77",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 4,
+"comments": 0,
+"engagement_velocity": 4
+}
+],
+"project_url": "https://roush.io/paste-buff"
+},
+"ee928bfd37b0ab61": {
+"simhash": "1059c8e0cc1c28f8",
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/ee928bfd37b0ab61_Show-HN-Argus-open-source-security-platform-to-pro.md",
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "dc0a285fa6031b17",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 17,
+"comments": 4,
+"engagement_velocity": 17
+}
+],
+"project_url": "https://github.com/thomasunise/argus"
+},
+"7919d1e7a7c15bbe": {
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 2,
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/7919d1e7a7c15bbe_Show-HN-Redmi-phone-can-do-things-that-$16K-GPU-is.md",
+"last_seen": "2026-10-25T23:45:19+08:00",
+"content_hash": "c315cfac4ff0bf83",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 2,
+"comments": 0,
+"engagement_velocity": 2
+}
+],
+"project_url": "https://github.com/ignotusnemo/paramo1d"
+},
+"60fb0b52f713111a": {
+"first_seen": "2026-10-25T23:27:14+08:00",
+"seen_count": 1,
+"source": "hn_show",
+"note": "20-语料/posts/hn_show/2026-10-25/60fb0b52f713111a_Show-HN-Call4me-–-a-ChatGPT-plugin-that-lets-it-ma.md",
+"last_seen": "2026-10-25T23:27:14+08:00",
+"content_hash": "1ba327c568e88ac8",
+"metric_history": [
+{
+"at": "2026-10-25T23:27:14+08:00",
+"points": 2,
+"comments": 2,
+"engagement_velocity": 2
+}
+],
+"project_url": "https://chatgpt.com/plugins/plugin_asdk_app_6abdec89d46c81919cda058ca9f62cb8?search=call4me"
+},
+"09df5f4e0c383d7f": {
+"simhash": "4f421e2799846026",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/09df5f4e0c383d7f_NameCheap-Price-Increases.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "76593bfba4b08d96",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 308,
+"comments": 202,
+"upvote_ratio": 0.9425287356321839
+}
+]
+},
+"4769490b4b398e69": {
+"simhash": "1a87ba8cbb207f96",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/4769490b4b398e69_Dashing-across-an-Eastern-steampunk-city-as-a-litt.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "d03d36ad59603e76",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 142,
+"comments": 16,
+"upvote_ratio": 1
+}
+],
+"project_url": "https://v.redd.it/njx74ypcbnvh1"
+},
+"b1a7799dd082e4ef": {
+"simhash": "650bd8cbcdd93750",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/b1a7799dd082e4ef_Steam-Headless-v2-Amazing!.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "157442783c2b283a",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 92,
+"comments": 43,
+"upvote_ratio": 0.9791666666666666
+}
+],
+"project_url": "https://steamheadless.com/"
+},
+"d4cab022084077b6": {
+"simhash": "03c49502e633e6af",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/d4cab022084077b6_Kuvasz-Uptime-4.5.0-is-out,-the-biggest-release-in.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "ee52179f772b9d77",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 52,
+"comments": 33,
+"upvote_ratio": 0.8513513513513513
+}
+],
+"project_url": "https://demo.kuvasz-uptime.dev/"
+},
+"eab22ca42e0df421": {
+"simhash": "1055e02ca2937178",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/eab22ca42e0df421_GPT-Load-a-self-hosted-AI-gateway-with-reversible.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "4162da91052dcf61",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 38,
+"comments": 24,
+"upvote_ratio": 0.6759259259259259
+}
+],
+"project_url": "https://github.com/tbphp/gpt-load"
+},
+"1bd81c72d3a06c4a": {
+"simhash": "099266a5500e3723",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/1bd81c72d3a06c4a_Zync-SSH-workspace-SSH-workspace-for-desktop-(Wind.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "8b409ef85c4e4f08",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 21,
+"comments": 35,
+"upvote_ratio": 0.6666666666666666
+}
+],
+"project_url": "https://github.com/zync-sh/zync"
+},
+"12a116331f465a73": {
+"simhash": "ca58941bbefb6825",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/12a116331f465a73_carders-kept-targeting-my-$9-plan.-here's-how-I-st.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "a3f848b86c6107c8",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 15,
+"comments": 12,
+"upvote_ratio": 1
+}
+]
+},
+"38d8409f58e6c84e": {
+"simhash": "88509632fef7680f",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/38d8409f58e6c84e_carders-loved-my-$9-plan.-here's-what-finally-stop.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "e45460b40d66d80b",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 11,
+"comments": 2,
+"upvote_ratio": 0.9230769230769231
+}
+]
+},
+"94b57708c5c3ae86": {
+"simhash": "33fe404e0255b7b3",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/94b57708c5c3ae86_I-made-a-snake-game-where-you-eat-lemons-and-spit.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "7aa42a7070d0447c",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 7,
+"comments": 3,
+"upvote_ratio": 1
+}
+],
+"project_url": "https://v.redd.it/w475dahbdnvh1"
+},
+"2e3ac71a020e8174": {
+"simhash": "71a8580c60c25428",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/2e3ac71a020e8174_Selling-to-fashion-e-commerce-merchants-how-did-yo.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "ac0a7a25f1820e2b",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 6,
+"comments": 9,
+"upvote_ratio": 1
+}
+]
+},
+"08bd5d1d1055d9e5": {
+"simhash": "d13993a17652d532",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/08bd5d1d1055d9e5_How-to-price-a-product.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "594aaf279b438562",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 6,
+"comments": 14,
+"upvote_ratio": 1
+}
+]
+},
+"ca4a4f22e4c07ff3": {
+"simhash": "3a175aeec68cbf80",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/ca4a4f22e4c07ff3_What-do-you-use-for-customer-support,-and-how-do-y.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "e00751693f2bf0cf",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 5,
+"comments": 22,
+"upvote_ratio": 1
+}
+]
+},
+"894c6f4fe7579875": {
+"simhash": "6995d8afa30da68c",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/894c6f4fe7579875_They-said-building-was-the-easy-part-and-I'm-livin.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "7e6cca8959f4881b",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 5,
+"comments": 19,
+"upvote_ratio": 0.8571428571428571
+}
+]
+},
+"a185af5f9179f9ff": {
+"simhash": "5eb58a2d0382e1fb",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/a185af5f9179f9ff_Founders-who-raised-pre-seed-this-year,-how-did-yo.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "c6d598c0bb99a9c2",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 4,
+"comments": 9,
+"upvote_ratio": 1
+}
+]
+},
+"d5c290b03a47ebda": {
+"simhash": "8b0d1b63ba16bc12",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/d5c290b03a47ebda_At-what-point-does-custom-software-become-a-better.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "2b97e1a9f2a6173c",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 4,
+"comments": 16,
+"upvote_ratio": 0.8333333333333334
+}
+]
+},
+"f3812af3f4d7405f": {
+"simhash": "03a823e0580bcd9e",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/f3812af3f4d7405f_France-first,-everyone-else-later-=-bad-decision.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "077b3777b859c3fb",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 4,
+"comments": 21,
+"upvote_ratio": 0.8333333333333334
+}
+]
+},
+"5ba3ca3267a26ae7": {
+"simhash": "0f5bdb7badaaa5f2",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/5ba3ca3267a26ae7_Deploying-Pterodactyl-with-Cloudflare-Tunnels.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "4f2017b6c3edc13e",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 4,
+"comments": 15,
+"upvote_ratio": 0.75
+}
+]
+},
+"10d0d67f35d370ad": {
+"simhash": "1798ca0067c2f3b1",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/10d0d67f35d370ad_I-built-an-Android-game-where-the-army-attacking-y.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "f317278eadbd6b06",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 3,
+"comments": 0,
+"upvote_ratio": 1
+}
+],
+"project_url": "https://v.redd.it/ok1bngmgfnvh1"
+},
+"e16d721c368503fb": {
+"simhash": "3a175aeec68cbf80",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/e16d721c368503fb_What-do-you-use-for-customer-support,-and-how-do-y.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "bfc067a1c881e401",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 3,
+"comments": 9,
+"upvote_ratio": 1
+}
+]
+},
+"e12a59918a341795": {
+"simhash": "b6be3dbf2c051a12",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/e12a59918a341795_2-weeks-in-with-my-free-chrome-extension,-24-insta.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "2f359cdb04dfa51d",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 3,
+"comments": 4,
+"upvote_ratio": 1
+}
+]
+},
+"d4848fe8cf97c079": {
+"simhash": "8c9c2d69ca014a95",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/d4848fe8cf97c079_First-paying-customer-from-a-total-stranger-yester.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "ad0b0260bc2bee83",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 3,
+"comments": 5,
+"upvote_ratio": 1
+}
+]
+},
+"fc115e843e699b21": {
+"simhash": "639043b5e7c91dae",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/fc115e843e699b21_We-make-progress!.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "5d117c1c728b3d7a",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 3,
+"comments": 1,
+"upvote_ratio": 1
+}
+],
+"project_url": "https://sharpthought.app/quotes/l-m-montgomery/isnt-it-nice-to-think-that-tomorrow-is-a-new-day-with-no-mistakes-in-it-yet"
+},
+"c14c032dd9236b70": {
+"simhash": "e741983d86b336ad",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/c14c032dd9236b70_Ten-months-ago-I-built-a-canvas-for-my-projects.-T.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "8323fda80d34cf7c",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 3,
+"comments": 11,
+"upvote_ratio": 0.5652173913043478
+}
+],
+"project_url": "https://github.com/3xpyth0n/ideon"
+},
+"811ed6460c04f5ff": {
+"simhash": "bb9d4e7781df61c2",
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/811ed6460c04f5ff_Finishing-up-new-animations-for-an-indie-game!.md",
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "6dd9eb9dab03b67e",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 3,
+"comments": 3,
+"upvote_ratio": 1
+}
+],
+"project_url": "https://v.redd.it/in6rv8xd6nvh1"
+},
+"83a6dcca0f79f815": {
+"first_seen": "2026-10-25T23:29:53+08:00",
+"seen_count": 1,
+"source": "reddit",
+"note": "20-语料/posts/reddit/2026-10-25/83a6dcca0f79f815_We-tried-our-app-on-Todoist-to-record-a-product-tu.md",
+"last_seen": "2026-10-25T23:29:53+08:00",
+"content_hash": "2f34cad670bb60e0",
+"metric_history": [
+{
+"at": "2026-10-25T23:29:53+08:00",
+"score": 3,
+"comments": 2,
+"upvote_ratio": 1
+}
+],
+"project_url": "https://v.redd.it/flffvw995nvh1"
+},
+"8acda1e9f09f4448": {
+"simhash": "c4f8b5591c24eef6",
+"source": "github_new",
+"note": "20-语料/posts/github_new/2026-10-25/8acda1e9f09f4448_Zagitta-gpu-unlock.md",
+"first_seen": "2026-10-25T23:31:01+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:31:01+08:00",
+"content_hash": "3947850efef53584",
+"metric_history": [
+{
+"at": "2026-10-25T23:31:01+08:00",
+"stars": 5442,
+"forks": 585,
+"open_issues": 97
+}
+],
+"project_url": "https://github.com/Zagitta/gpu-unlock"
+},
+"f097e65b6a7782ba": {
+"simhash": "0f4a1599ed417c92",
+"source": "github_new",
+"note": "20-语料/posts/github_new/2026-10-25/f097e65b6a7782ba_simbasjungles-free-my-tv.md",
+"first_seen": "2026-10-25T23:31:02+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:31:02+08:00",
+"content_hash": "0c935c84b2e3b931",
+"metric_history": [
+{
+"at": "2026-10-25T23:31:02+08:00",
+"stars": 4466,
+"forks": 739,
+"open_issues": 84
+}
+],
+"project_url": "https://freemytv.io/"
+},
+"8a15909684a9f0ac": {
+"simhash": "24c5204814a1f9c9",
+"source": "betalist",
+"note": "20-语料/posts/betalist/2026-10-25/8a15909684a9f0ac_Aserp.md",
+"first_seen": "2026-10-25T23:31:40+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:31:40+08:00",
+"content_hash": "2b4102d3c8bd1983"
+},
+"89cdee45733d5c73": {
+"simhash": "94a26e859f5269c9",
+"source": "betalist",
+"note": "20-语料/posts/betalist/2026-10-25/89cdee45733d5c73_Problyx.md",
+"first_seen": "2026-10-25T23:31:40+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:31:40+08:00",
+"content_hash": "22fad1fa780a45d2"
+},
+"6383d700ed9c516c": {
+"simhash": "94bd085dcc23a5e0",
+"source": "betalist",
+"note": "20-语料/posts/betalist/2026-10-25/6383d700ed9c516c_Zoommap.md",
+"first_seen": "2026-10-25T23:31:40+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:31:40+08:00",
+"content_hash": "17ae4649bd2b6235"
+},
+"916d2d41a622f6f6": {
+"simhash": "d4a068de9c62dfe1",
+"source": "betalist",
+"note": "20-语料/posts/betalist/2026-10-25/916d2d41a622f6f6_Chai-Ui.md",
+"first_seen": "2026-10-25T23:31:40+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:31:40+08:00",
+"content_hash": "46c8dd2860d0b31c"
+},
+"e94ee706064e9901": {
+"simhash": "a08d66848d2295c9",
+"source": "betalist",
+"note": "20-语料/posts/betalist/2026-10-25/e94ee706064e9901_Anvilai.md",
+"first_seen": "2026-10-25T23:31:41+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:31:41+08:00",
+"content_hash": "e18912e86e1ca37d",
+"project_url": "https://testflight.apple.com/join/5JGCZpxt"
+},
+"9db4c3a92ff5b377": {
+"simhash": "95c968cefc5b24e5",
+"source": "betalist",
+"note": "20-语料/posts/betalist/2026-10-25/9db4c3a92ff5b377_Astaroam.md",
+"first_seen": "2026-10-25T23:31:41+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:31:41+08:00",
+"content_hash": "18772cac1d771fab"
+},
+"c8185bace3a12512": {
+"simhash": "85c9086f85676d71",
+"source": "betalist",
+"note": "20-语料/posts/betalist/2026-10-25/c8185bace3a12512_Smarkly.md",
+"first_seen": "2026-10-25T23:31:41+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:31:41+08:00",
+"content_hash": "12365bf67053b310"
+},
+"b72bd041f07092d7": {
+"simhash": "fcc1416ccd274ec1",
+"source": "betalist",
+"note": "20-语料/posts/betalist/2026-10-25/b72bd041f07092d7_Ascend.md",
+"first_seen": "2026-10-25T23:31:41+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:31:41+08:00",
+"content_hash": "06c78ce2143d2291"
+},
+"c9c60d47db38a15d": {
+"simhash": "d4ed63cedde635e1",
+"source": "betalist",
+"note": "20-语料/posts/betalist/2026-10-25/c9c60d47db38a15d_Karmaboard.md",
+"first_seen": "2026-10-25T23:31:41+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:31:41+08:00",
+"content_hash": "02203d5cce9ea14a"
+},
+"428eaf90cda0a1a0": {
+"simhash": "94c3429c9f22d539",
+"source": "betalist",
+"note": "20-语料/posts/betalist/2026-10-25/428eaf90cda0a1a0_Linty.md",
+"first_seen": "2026-10-25T23:31:41+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:31:41+08:00",
+"content_hash": "13e84b1cc3e44db3"
+},
+"d387c5afa61c8aea": {
+"simhash": "2430cdba39a1880d",
+"source": "indiehackers",
+"note": "20-语料/posts/indiehackers/2026-10-25/d387c5afa61c8aea_Link-Mesh.md",
+"first_seen": "2026-10-25T23:32:34+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:32:34+08:00",
+"content_hash": "9d866ff63a260335",
+"project_url": "https://github.com/businesstrip-ship-it/N8N-autoposting-from-RSS-to-WordPress"
+},
+"058e2d877b858415": {
+"simhash": "b43dbbb8f4a1cedc",
+"source": "devto",
+"note": "20-语料/posts/devto/2026-10-25/058e2d877b858415_Day-22-of-Building-Crowdwide-I-Thought-UI-Polish-W.md",
+"first_seen": "2026-10-25T23:34:49+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:34:49+08:00",
+"content_hash": "360cbf11b1160dfa",
+"metric_history": [
+{
+"at": "2026-10-25T23:34:49+08:00",
+"reactions": 20,
+"comments": 22,
+"reading_time": 2
+}
+],
+"project_url": "https://github.com/DeveloperPuneet/Crowdwide"
+},
+"02ccab47bf2d0192": {
+"simhash": "37459199f8dc968d",
+"source": "devto",
+"note": "20-语料/posts/devto/2026-10-25/02ccab47bf2d0192_Crowdwide-Day-20-Almost-Done...-But-There’s-Always.md",
+"first_seen": "2026-10-25T23:34:49+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:34:49+08:00",
+"content_hash": "03e28f1ddf45d8cb",
+"metric_history": [
+{
+"at": "2026-10-25T23:34:49+08:00",
+"reactions": 29,
+"comments": 6,
+"reading_time": 2
+}
+],
+"project_url": "https://crowdwide.run.place/"
+},
+"5066fb3887dfa6e8": {
+"simhash": "73d0537e00963f46",
+"source": "devto",
+"note": "20-语料/posts/devto/2026-10-25/5066fb3887dfa6e8_Day-21-of-Building-Crowdwide-—-Finally,-Time-to-Po.md",
+"first_seen": "2026-10-25T23:34:49+08:00",
+"seen_count": 2,
+"last_seen": "2026-10-25T23:48:16+08:00",
+"content_hash": "b8b7d468cffb246f",
+"metric_history": [
+{
+"at": "2026-10-25T23:34:49+08:00",
+"reactions": 21,
+"comments": 70,
+"reading_time": 2
+}
+],
+"project_url": "https://github.com/DeveloperPuneet/Crowdwide"
+},
+"d14932b012193f6c": {
+"first_seen": "2026-10-25T23:34:52+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/d14932b012193f6c_Openstatus-Incident-Management.md",
+"last_seen": "2026-10-25T23:34:52+08:00",
+"content_hash": "21017ea09217716d"
+},
+"42f591ceab230443": {
+"first_seen": "2026-10-25T23:34:52+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/42f591ceab230443_Papermark-Data-Rooms.md",
+"last_seen": "2026-10-25T23:34:52+08:00",
+"content_hash": "4dd2921049653cf1"
+},
+"6d14d397ff9f9fa4": {
+"first_seen": "2026-10-25T23:34:52+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/6d14d397ff9f9fa4_Badgey.md",
+"last_seen": "2026-10-25T23:34:52+08:00",
+"content_hash": "3527537bf1c8fc82"
+},
+"699fd12d1ba74fe4": {
+"first_seen": "2026-10-25T23:34:52+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/699fd12d1ba74fe4_Llama-Windows.md",
+"last_seen": "2026-10-25T23:34:52+08:00",
+"content_hash": "d1d0f0dd0792703f"
+},
+"86fb3a1e842e0a4c": {
+"first_seen": "2026-10-25T23:34:52+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/86fb3a1e842e0a4c_git-flow-next.md",
+"last_seen": "2026-10-25T23:34:52+08:00",
+"content_hash": "88100d704836e183"
+},
+"bd5e57415f4b5902": {
+"first_seen": "2026-10-25T23:34:52+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/bd5e57415f4b5902_MRRaudit.md",
+"last_seen": "2026-10-25T23:34:52+08:00",
+"content_hash": "7fbf23b4e25e5e47"
+},
+"97179d753dbb7f34": {
+"first_seen": "2026-10-25T23:34:52+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/97179d753dbb7f34_How-It-Spread.md",
+"last_seen": "2026-10-25T23:34:52+08:00",
+"content_hash": "0858c22db509ee20"
+},
+"c05c75122ef9a2fe": {
+"first_seen": "2026-10-25T23:34:52+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/c05c75122ef9a2fe_Specsight.md",
+"last_seen": "2026-10-25T23:34:52+08:00",
+"content_hash": "bacb552fab63803f"
+},
+"e8c519b074fde7d6": {
+"first_seen": "2026-10-25T23:34:52+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/e8c519b074fde7d6_pawl.md",
+"last_seen": "2026-10-25T23:34:52+08:00",
+"content_hash": "8411c69297b21e72"
+},
+"d5153a96e51f5b91": {
+"first_seen": "2026-10-25T23:34:53+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/d5153a96e51f5b91_AgentGrid.io.md",
+"last_seen": "2026-10-25T23:34:53+08:00",
+"content_hash": "d6961e05085eb3be"
+},
+"f4ec22e382d0bc35": {
+"first_seen": "2026-10-25T23:34:53+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/f4ec22e382d0bc35_Yourcast-2.0.md",
+"last_seen": "2026-10-25T23:34:53+08:00",
+"content_hash": "4eafe0a8aaaf5b9a"
+},
+"dc6a5581540bb3c1": {
+"first_seen": "2026-10-25T23:34:53+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/dc6a5581540bb3c1_Clips-by-Plastic.md",
+"last_seen": "2026-10-25T23:34:53+08:00",
+"content_hash": "f3cfcab3123aacdc"
+},
+"78a4964ce389c08e": {
+"first_seen": "2026-10-25T23:34:53+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/78a4964ce389c08e_Moli-by-Lexmount.md",
+"last_seen": "2026-10-25T23:34:53+08:00",
+"content_hash": "da9f1322f2794366"
+},
+"f2ac795eea601b50": {
+"first_seen": "2026-10-25T23:34:53+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/f2ac795eea601b50_sideOS.ai.md",
+"last_seen": "2026-10-25T23:34:53+08:00",
+"content_hash": "e696744f5d680b0a"
+},
+"35cae97ff301ce80": {
+"first_seen": "2026-10-25T23:34:53+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/35cae97ff301ce80_1Password-for-Agents.md",
+"last_seen": "2026-10-25T23:34:53+08:00",
+"content_hash": "1a4a6182749ed4d2"
+},
+"681d497d945cd56c": {
+"first_seen": "2026-10-25T23:34:53+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/681d497d945cd56c_Penta.md",
+"last_seen": "2026-10-25T23:34:53+08:00",
+"content_hash": "ef9037d11968db0e"
+},
+"bdb48ad976cc3433": {
+"first_seen": "2026-10-25T23:34:53+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/bdb48ad976cc3433_zCAD-AI.md",
+"last_seen": "2026-10-25T23:34:53+08:00",
+"content_hash": "6c9a0f70d8529651"
+},
+"2a71c6d86921e3fc": {
+"first_seen": "2026-10-25T23:34:54+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/2a71c6d86921e3fc_Many-Displays.md",
+"last_seen": "2026-10-25T23:34:54+08:00",
+"content_hash": "efbc219a6f7f3f76"
+},
+"26d1c3bcdaa8096c": {
+"first_seen": "2026-10-25T23:34:54+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/26d1c3bcdaa8096c_Canva-Craft.md",
+"last_seen": "2026-10-25T23:34:54+08:00",
+"content_hash": "78da3cff4b28fc24"
+},
+"a4f22e32447821f7": {
+"first_seen": "2026-10-25T23:34:54+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/a4f22e32447821f7_LinkIntel.md",
+"last_seen": "2026-10-25T23:34:54+08:00",
+"content_hash": "6cdd39cd36665ee5"
+},
+"40470000570ef425": {
+"first_seen": "2026-10-25T23:34:54+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/40470000570ef425_River-Writer.md",
+"last_seen": "2026-10-25T23:34:54+08:00",
+"content_hash": "7b690f4fece28257"
+},
+"ea1bad794c2720a8": {
+"first_seen": "2026-10-25T23:34:54+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/ea1bad794c2720a8_myPip.md",
+"last_seen": "2026-10-25T23:34:54+08:00",
+"content_hash": "c29209b4a14190ba"
+},
+"cc07bc987b497d3c": {
+"first_seen": "2026-10-25T23:34:54+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/cc07bc987b497d3c_Byter.md",
+"last_seen": "2026-10-25T23:34:54+08:00",
+"content_hash": "264badc890da6e33"
+},
+"f0fb7e4b833856e1": {
+"first_seen": "2026-10-25T23:34:54+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/f0fb7e4b833856e1_Shedi.md",
+"last_seen": "2026-10-25T23:34:54+08:00",
+"content_hash": "26595a132cb29e56"
+},
+"7c29c5d10dfc50fd": {
+"first_seen": "2026-10-25T23:34:54+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/7c29c5d10dfc50fd_How-It-Went.md",
+"last_seen": "2026-10-25T23:34:54+08:00",
+"content_hash": "1e9c81ecb2fa015e"
+},
+"2c981b3ddc801aed": {
+"first_seen": "2026-10-25T23:34:54+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/2c981b3ddc801aed_AgentValley.md",
+"last_seen": "2026-10-25T23:34:54+08:00",
+"content_hash": "c63b75e8bd3135e5"
+},
+"ecfa65be2efa9c0c": {
+"first_seen": "2026-10-25T23:34:54+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/ecfa65be2efa9c0c_Polylane-for-Cloudflare.md",
+"last_seen": "2026-10-25T23:34:54+08:00",
+"content_hash": "56eea71db9766345"
+},
+"655ea01e06066164": {
+"first_seen": "2026-10-25T23:34:56+08:00",
+"seen_count": 1,
+"source": "producthunt",
+"note": "20-语料/posts/producthunt/2026-10-25/655ea01e06066164_Truffle.md",
+"last_seen": "2026-10-25T23:34:56+08:00",
+"content_hash": "8b305d938ebbd43e"
+},
+"a1d04a4c2a52c0d0": {
+"simhash": "ee9f7a9d91c674a3",
+"source": "v2ex",
+"note": "20-语料/posts/v2ex/2026-10-25/a1d04a4c2a52c0d0_二开信源管道跑了半个月,聊聊用-pgvector-语义降噪和防重推送踩的几个深坑.md",
+"first_seen": "2026-10-25T23:35:17+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:35:17+08:00",
+"content_hash": "8846df7b97f196f4",
+"metric_history": [
+{
+"at": "2026-10-25T23:35:17+08:00",
+"replies": 0
+}
+],
+"project_url": "https://github.com/louis-cai/daily-indie-radar"
+},
+"fda6a730f4ac6c2d": {
+"simhash": "da77e54495febd2c",
+"source": "v2ex",
+"note": "20-语料/posts/v2ex/2026-10-25/fda6a730f4ac6c2d_全职-AI-公司-AI-应用开发工程师-招募像姚顺雨一样,有技术追求的工程师.md",
+"first_seen": "2026-10-25T23:35:17+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:35:17+08:00",
+"content_hash": "f91a7dce67b3f8b5",
+"metric_history": [
+{
+"at": "2026-10-25T23:35:17+08:00",
+"replies": 0
+}
+]
+},
+"ac6feb8e60b2f161": {
+"simhash": "9efee6366a00fbba",
+"source": "v2ex",
+"note": "20-语料/posts/v2ex/2026-10-25/ac6feb8e60b2f161_App-开发工程师.md",
+"first_seen": "2026-10-25T23:35:17+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:35:17+08:00",
+"content_hash": "4ef9f863c0fccbe6",
+"metric_history": [
+{
+"at": "2026-10-25T23:35:17+08:00",
+"replies": 0
+}
+]
+},
+"79a7396bc1d3af43": {
+"simhash": "d8737a1cdc523fea",
+"source": "v2ex",
+"note": "20-语料/posts/v2ex/2026-10-25/79a7396bc1d3af43_全职-AI-公司-后端开发工程师-招募像姚顺雨一样,有技术追求的工程师.md",
+"first_seen": "2026-10-25T23:35:17+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:35:17+08:00",
+"content_hash": "ac0c783601d8485f",
+"metric_history": [
+{
+"at": "2026-10-25T23:35:17+08:00",
+"replies": 0
+}
+]
+},
+"c79a2baa5d8aec89": {
+"simhash": "5bac7469861ee54c",
+"source": "v2ex",
+"note": "20-语料/posts/v2ex/2026-10-25/c79a2baa5d8aec89_做了个-Vibe-Coding-展示站,天天更新却没人投稿.md",
+"first_seen": "2026-10-25T23:35:17+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:35:17+08:00",
+"content_hash": "181b314265520957",
+"metric_history": [
+{
+"at": "2026-10-25T23:35:17+08:00",
+"replies": 0
+}
+],
+"project_url": "https://vibefix.work/"
+},
+"888e940db20654bb": {
+"simhash": "71fec0988709a143",
+"source": "v2ex",
+"note": "20-语料/posts/v2ex/2026-10-25/888e940db20654bb_做了几个不上传文件的浏览器小工具-去照片定位、批量改名预览、图片合并-PDF.md",
+"first_seen": "2026-10-25T23:35:17+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:35:17+08:00",
+"content_hash": "2c38df503bd24f36",
+"metric_history": [
+{
+"at": "2026-10-25T23:35:17+08:00",
+"replies": 0
+}
+],
+"project_url": "https://obelisk.club/tools/batch-rename?lang=zh"
+},
+"2799fde14e223b47": {
+"simhash": "21034fb9a1c76499",
+"source": "v2ex",
+"note": "20-语料/posts/v2ex/2026-10-25/2799fde14e223b47_全栈-独立开发者看过来,进群一起聊副业和产品.md",
+"first_seen": "2026-10-25T23:35:17+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:35:17+08:00",
+"content_hash": "650b4724db69171f",
+"metric_history": [
+{
+"at": "2026-10-25T23:35:17+08:00",
+"replies": 0
+}
+],
+"project_url": "https://imgse.com/i/wErhe"
+},
+"eaa88f535141d143": {
+"simhash": "c1451f496148290b",
+"source": "v2ex",
+"note": "20-语料/posts/v2ex/2026-10-25/eaa88f535141d143_送会员-加班过多,脑雾了-速来抢救您的大脑吧!.md",
+"first_seen": "2026-10-25T23:35:17+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:35:17+08:00",
+"content_hash": "a767a2382a4b012b",
+"metric_history": [
+{
+"at": "2026-10-25T23:35:17+08:00",
+"replies": 0
+}
+]
+},
+"cebe60bdda4f0790": {
+"simhash": "7ffc2aab515e9f1c",
+"source": "v2ex",
+"note": "20-语料/posts/v2ex/2026-10-25/cebe60bdda4f0790_应用商店截图美化工具-Pixsolo-更新-支持折叠屏-iPhone-Watch-Mac-边框,继续.md",
+"first_seen": "2026-10-25T23:35:17+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:35:17+08:00",
+"content_hash": "56ff9f4bb5059e33",
+"metric_history": [
+{
+"at": "2026-10-25T23:35:17+08:00",
+"replies": 0
+}
+],
+"project_url": "https://pixsolo.com/"
+},
+"0f41a10c24d3647b": {
+"simhash": "7497d528ef015f74",
+"source": "v2ex",
+"note": "20-语料/posts/v2ex/2026-10-25/0f41a10c24d3647b_高强度-AI-Coding-后,我给自己做了个-ADE-App-来解决碰到的痛点.md",
+"first_seen": "2026-10-25T23:35:17+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:35:17+08:00",
+"content_hash": "f828ce35e7671bed",
+"metric_history": [
+{
+"at": "2026-10-25T23:35:17+08:00",
+"replies": 0
+}
+],
+"project_url": "https://github.com/user-attachments/assets/1482f20b-31ea-4d82-8e8c-acd63e500cad"
+},
+"4db3ce8382846943": {
+"simhash": "a36151475c3402ab",
+"source": "v2ex",
+"note": "20-语料/posts/v2ex/2026-10-25/4db3ce8382846943_分享一个我在维护的-macOS-菜单栏整理工具-Floe,免费开源,支持中英文.md",
+"first_seen": "2026-10-25T23:35:17+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:35:17+08:00",
+"content_hash": "a301ad47d7163c20",
+"metric_history": [
+{
+"at": "2026-10-25T23:35:17+08:00",
+"replies": 0
+}
+],
+"project_url": "https://github.com/wudb/Floe"
+},
+"d3f8d3568232c824": {
+"simhash": "32b45ded9c3f8fbd",
+"source": "v2ex",
+"note": "20-语料/posts/v2ex/2026-10-25/d3f8d3568232c824_私有代码仓库除了自己用,还能有什么价值-AI-时代会不会成为一种数字资产.md",
+"first_seen": "2026-10-25T23:35:17+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:35:17+08:00",
+"content_hash": "a83fb3e656ec9384",
+"metric_history": [
+{
+"at": "2026-10-25T23:35:17+08:00",
+"replies": 0
+}
+]
+},
+"19c05402866932c2": {
+"simhash": "51f43dad194125f7",
+"source": "v2ex",
+"note": "20-语料/posts/v2ex/2026-10-25/19c05402866932c2_短剧公司招远程-Golang-后端工程师-20-40k-面议.md",
+"first_seen": "2026-10-25T23:35:17+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:35:17+08:00",
+"content_hash": "7b6a47c5a1662c57",
+"metric_history": [
+{
+"at": "2026-10-25T23:35:17+08:00",
+"replies": 0
+}
+]
+},
+"6094449ce3a1f326": {
+"simhash": "fe4ca522fad4d5fa",
+"source": "v2ex",
+"note": "20-语料/posts/v2ex/2026-10-25/6094449ce3a1f326_即将失业的大龄程序员开始折腾出海了,最近做了个-AI-图片工具,感觉颜值还行,本帖评论送积分.md",
+"first_seen": "2026-10-25T23:35:17+08:00",
+"seen_count": 1,
+"last_seen": "2026-10-25T23:35:17+08:00",
+"content_hash": "4a87801911114a56",
+"metric_history": [
+{
+"at": "2026-10-25T23:35:17+08:00",
+"replies": 1
+}
+],
+"project_url": "https://pimg.ai/zh"
 }
 }
 }

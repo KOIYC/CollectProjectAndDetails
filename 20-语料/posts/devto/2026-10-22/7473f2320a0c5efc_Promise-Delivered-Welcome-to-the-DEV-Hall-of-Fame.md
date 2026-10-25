@@ -7,7 +7,7 @@ source_name: "dev.to"
 url: "https://dev.to/georgekobaidze/promise-delivered-welcome-to-the-dev-hall-of-fame-65-authors-65-masterpieces-15fa"
 author: "Giorgi Kobaidze"
 published_at: "2026-10-18T10:55:38Z"
-captured_at: "2026-10-22T09:57:19+08:00"
+captured_at: "2026-10-25T23:47:54+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -20,9 +20,9 @@ tags:
   - discuss
   - showdev
   - writing
-metrics: {"reactions": 199, "comments": 100, "reading_time": 25}
-comments_count: 99
-comments_total: 100
+metrics: {"reactions": 225, "comments": 125, "reading_time": 25}
+comments_count: 124
+comments_total: 125
 discovered_via: "devto:showdev"
 ---
 
@@ -34,10 +34,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/georgekobaidze/promise-delivered-welcome-to-the-dev-hall-of-fame-65-authors-65-masterpieces-15fa>
-> 指标：reactions=199 · 评论=100 · reading_time=25
+> 指标：reactions=225 · 评论=125 · reading_time=25
 > 作者：Giorgi Kobaidze　|　发布：2026-10-18T10:55:38Z
 > 项目链接：—
-> 采集：2026-10-22T09:57:19+08:00　|　id：`7473f2320a0c5efc`
+> 采集：2026-10-25T23:47:54+08:00　|　id：`7473f2320a0c5efc`
 
 ## 正文
 
@@ -641,7 +641,7 @@ And if you missed the first round, stay tuned, maybe there's a Vol. 2 coming. �
 - 🎥 [Watch my videos on YouTube](https://www.youtube.com/@Pilotronica)
 - 💬 [Let's Chat on Discord](https://discord.com/users/571315867426488330)
 
-## 评论（99/100）
+## 评论（124/125）
 
 > **Giorgi Kobaidze** · 2026-10-18T10:56:10Z　
 > 🚪🏛️ The Welcome Desk & Stories From the Trenches: @francistrdev @earlgreyhot1701d @hadil @westernal @alptekin @canro91 @technogamerz @dj29 @puneetkumar2010 @sameerqaiser17
@@ -709,6 +709,16 @@ And if you missed the first round, stay tuned, maybe there's a Vol. 2 coming. �
 
 ---
 
+> **Tejas Shinkar** · 2026-10-22T10:29:45Z　
+> Glad you enjoyed it @georgekobaidze
+
+---
+
+> **Giorgi Kobaidze** · 2026-10-22T10:41:20Z　
+> 🫡👏
+
+---
+
 > **Giorgi Kobaidze** · 2026-10-18T10:56:34Z　
 > 💡 The "Finally, It Clicked" Wing (2/2): @citronbrick @namingthingsishard @devopsdaily @effessdev @dylanscottmickelson @4thwithme
 
@@ -749,6 +759,16 @@ And if you missed the first round, stay tuned, maybe there's a Vol. 2 coming. �
 
 ---
 
+> **Gagandeep Singh Ahuja** · 2026-10-24T10:30:42Z　
+> Thanks for the shoutout 🙌! @georgekobaidze
+
+---
+
+> **Giorgi Kobaidze** · 2026-10-24T10:48:07Z　
+> You're welcome!
+
+---
+
 > **Giorgi Kobaidze** · 2026-10-18T10:56:59Z　
 > ⚙️ The Engine Room (2/2): @elanatframework @pcmagas @marvelcoder @anchildress1 @swaroop_krishna_e2f4b83b2 @edmundsparrow
 
@@ -776,6 +796,11 @@ And if you missed the first round, stay tuned, maybe there's a Vol. 2 coming. �
 
 > **Orvi Das** · 2026-10-21T21:12:13Z　
 > Thank you a lot for selecting my article . Glad that you enjoyed it.
+
+---
+
+> **Giorgi Kobaidze** · 2026-10-22T04:20:43Z　
+> Thank you for sharing!
 
 ---
 
@@ -1018,6 +1043,11 @@ And if you missed the first round, stay tuned, maybe there's a Vol. 2 coming. �
 
 ---
 
+> **ramzan kamlana** · 2026-10-23T10:15:24Z　
+> velmoraearn.com/signup?ref=34883
+
+---
+
 > **Giorgi Kobaidze** · 2026-10-19T07:09:01Z　
 > Thanks for taking time to read the articles👏
 
@@ -1209,6 +1239,133 @@ And if you missed the first round, stay tuned, maybe there's a Vol. 2 coming. �
 
 > **Holder** · 2026-10-21T13:37:26Z　
 > I don't think I've had or can remember any satisfactory service like the one I got from jbeespyhack when I contacted them through a friend's recommendation following the loss of my BTC account and over $325,000 saved on crypto. I haven't seen such a professional service and with the way the process seemed easy, it was nothing short of pure satisfaction when they eventually were able to get my money back and also gave bonus additional and professional advice on how best I can secure my account. If you face a similar problem and want help, reach out to them via; jbeespyhack@gmail c o m
+
+---
+
+> **vijay** · 2026-10-22T12:26:07Z　
+> "Thank you so much for the detailed feedback!
+>
+> You nailed it—the Two-Stage Funnel and SQLite WAL rollback were non-negotiable for me. I wanted to build something that people can actually trust with their local files without fear of losing data.
+>
+> Love your suggestion about whisper.cpp for local voice memos and screen recordings! That’s actually a brilliant next step for the roadmap.
+>
+> Thanks for testing out the fixture and for the support! 🍂"
+
+---
+
+> **Jack** · 2026-10-22T21:20:01Z　
+> there are no room for the jokes, thats why im not in there tho... my lights are off, thats why you cant see the jokes the dark jokes hides.
+>
+> sigh and humming in the same time silently in the corner watchin with beer in hand.
+
+---
+
+> **Abhisek Roy** · 2026-10-23T03:35:22Z　
+> Wonderful collection !!
+
+---
+
+> **Giorgi Kobaidze** · 2026-10-23T04:10:07Z　
+> Thanks!
+
+---
+
+> **Kenneth Atienza** · 2026-10-23T03:51:34Z　
+> Will definitely put all these on my To Read list!
+
+---
+
+> **Rudratosh Shastri** · 2026-10-23T07:40:27Z　
+> Congrats everyone.
+>
+> @georgekobaidze , I think missing my name :-D
+
+---
+
+> **Giorgi Kobaidze** · 2026-10-23T18:21:57Z　
+> Interesting.. for some reason, I can't see your comment.
+
+---
+
+> **Rudratosh Shastri** · 2026-10-23T21:44:23Z　
+> HAHA.. expecting my name also in 65 Authors 🥲
+
+---
+
+> **ramzan kamlana** · 2026-10-23T10:14:55Z　
+> velmoraearn.com/signup?ref=34883
+
+---
+
+> **Mighty Hacker Recovery Free Recovery Assistance** · 2026-10-24T07:59:32Z　
+> Mighty Hacker Recovery – Free Recovery Assistance
+>
+> Have you lost important data, funds, digital assets, or access to your business? Mighty Hacker Recovery offers free initial consultations to help you explore recovery options with an experienced recovery specialist.
+>
+> Our goal is to help individuals and businesses understand their recovery options and take the next steps toward recovering what they have lost.
+>
+> ✅ Lost data and files
+>
+> ✅ Inaccessible digital assets and funds
+>
+> ✅ Compromised accounts
+>
+> ✅ Business data and access recovery
+>
+> No upfront consultation fee. Contact Mighty Hacker Recovery today to discuss your situation and learn about available recovery options.
+>
+> If you would like to discuss your case, you can reach us through:
+>
+> WhatsApp: + 1 7 4 2 3 8 9 6 8 4 0
+>
+> Telegram: @ m i g h t y h a c k e r r e c o v e r y e x p e r t
+
+---
+
+> **Odinaka Robert Nnamani** · 2026-10-24T15:51:34Z　
+> I love the rule that the author picks, not the algorithm — that is the whole bet. I have watched my own quietest pieces, the ones with almost no reactions, teach me more about what I actually think than the ones that travelled, because nobody was performing for a count. The eight zero-reaction exhibits are the reason this hall matters: without a shelf like this, that work just sinks. Which wing was hardest to fill — the trenches, where everyone has a story, or the philosophy floor, where the pieces resist easy praise?
+
+---
+
+> **Giorgi Kobaidze** · 2026-10-24T16:23:07Z　
+> I don't think either one of them was hard at all. The authors just handed me their work, so all I had to do was to read them and feature them in this post.
+>
+> The only hardest part was reading so many articles wihout taking too long.
+
+---
+
+> **Odinaka Robert Nnamani** · 2026-10-24T18:55:27Z　
+> Fair correction — if the authors handed you the work, the hard part was never filling a wing, it was reading 65 pieces carefully enough to feature them honestly without the project dragging on for months. I have felt that exact trade-off curating a reading list: skimming keeps the pace but risks featuring something I would not actually defend, while reading everything end to end is what makes the shelf trustworthy. Did you read all 65 all the way through, or did you set a cutoff for when a piece had earned its place?
+
+---
+
+> **Giorgi Kobaidze** · 2026-10-24T19:05:57Z　
+> I read every single one of them as promised.
+
+---
+
+> **Odinaka Robert Nnamani** · 2026-10-24T19:43:55Z　
+> That answer is what makes the shelf trustworthy to me. Reading all 65 end to end is the part nobody can fake after the fact — I have kept reading lists where I skimmed a piece, featured it, and later could not defend a line in it when someone pressed me. The promise to read every one is the whole mechanism, not the ceremony around it. That is a shelf I would actually point someone to.
+
+---
+
+> **Giorgi Kobaidze** · 2026-10-24T19:44:23Z　
+> Thank you!
+
+---
+
+> **Odinaka Robert Nnamani** · 2026-10-24T23:38:30Z　
+> You are welcome, and I meant that point about the reading itself. I keep a short note for every long list I work through, because skimming 65 titles feels productive and leaves me with nothing I can actually quote back. Reading each piece end to end is slower, but it is the only way I have found to tell whether a collection is a real shelf or just a good-looking list. Which of the 65 stayed with you longest after you finished?
+
+---
+
+> **Emily Woods** · 2026-10-25T04:16:49Z　
+> I'd love a small reading route through the wings: one fundamentals post, one deep dive, and one builder story. That would give me a manageable first visit without turning the selection back into a popularity ranking.
+
+---
+
+> **Giorgi Kobaidze** · 2026-10-25T04:29:43Z　
+> Good idea! Every one of those kinds of reads is somewhere in this list. I tried to arrange them so they flow naturally from one to the next, though with 65 articles I'm sure the order isn't perfect. Hope you enjoy it!
 
 ## 关联链接
 

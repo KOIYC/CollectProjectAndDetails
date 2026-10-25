@@ -1,0 +1,34 @@
+---
+type: "project"
+title: "Clips by Plastic"
+project_url: "https://www.producthunt.com/products/clips-by-plastic"
+first_seen: "2026-10-25T23:34:52+08:00"
+sources:
+  - producthunt
+tags:
+  - 项目
+  - producthunt
+lang: "en"
+---
+
+# Clips by Plastic
+
+> [!info] 一句话导读
+> Lyric video ads for every part of your song, on the beat
+
+> [!meta]- 项目信息（点开展开）
+> 项目链接：<https://www.producthunt.com/products/clips-by-plastic>
+> 首次收录：2026-10-25T23:34:52+08:00
+> 来源渠道：Product Hunt
+> 标签：—
+> 最新指标：—
+
+## 观测历史
+
+| 采集时间 | 渠道 | 指标 | 语料 |
+|---|---|---|---|
+| 2026-10-25T23:34:52+08:00 | Product Hunt | — | [[20-语料/posts/producthunt/2026-10-25/dc6a5581540bb3c1_Clips-by-Plastic]] |
+
+## 摘要正文
+
+Lyric video ads for every part of your song, on the beat   Discussion  |  Link

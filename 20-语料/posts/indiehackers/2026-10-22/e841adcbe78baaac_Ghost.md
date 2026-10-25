@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/ghost"
 project_url: "https://blog.ghost.org/2-0"
-captured_at: "2026-10-22T09:48:20+08:00"
+captured_at: "2026-10-25T23:31:48+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://blog.ghost.org/2-0>
-> 采集：2026-10-22T09:48:20+08:00　|　id：`e841adcbe78baaac`
+> 采集：2026-10-25T23:31:48+08:00　|　id：`e841adcbe78baaac`
 
 ## 正文
 
@@ -43,7 +43,7 @@ Ghost
 Visit Website
 Ghost Indie subscription platform for creators
  Posts 5
- Revenue $881K / mo
+ Revenue $888K / mo
  Website Twitter Facebook
 May 23, 2022
  Ghost 5.0
@@ -65,7 +65,7 @@ Ghost 5.0
  The next generation of powerful technology for independent publishers.
  ghost.org
 John O'Nolan
-51 Upvotes
+53 Upvotes
 11 Comments
 October 22, 2019
  Ghost 3.0
@@ -76,7 +76,7 @@ Ghost 3.0
  A new business model for publishing, reimagined an improved, smaller, faster, headless CMS.
  ghost.org
 John O'Nolan
-81 Upvotes
+82 Upvotes
 20 Comments
 August 21, 2018
 Show IH: Ghost 2.0 Launch
@@ -106,7 +106,7 @@ Stay informed as an indie hacker.
  Market insights that help you start and grow your business.
 Subscribe
 Follow @IndieHackers on X for stories and insights about founders building profitable online businesses, and to connect with others in the Indie Hackers community.
- © Indie Hackers, Inc. · FAQ · Terms · Privacy · Cookie Settings / Policy ·
+ © Indie Hackers, Inc. · FAQ · Terms · Privacy · Cookie Policy ·
 Community
  Top Today Top This Week Top This Month Join
 Products

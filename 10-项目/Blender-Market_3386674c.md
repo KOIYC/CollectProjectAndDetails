@@ -2,7 +2,7 @@
 type: "project"
 title: "Blender Market"
 project_url: "https://blendermarket.com/posts/2019-cyber-weekend-sale-results"
-first_seen: "2026-10-22T09:48:20+08:00"
+first_seen: "2026-10-25T23:31:48+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://blendermarket.com/posts/2019-cyber-weekend-sale-results>
-> 首次收录：2026-10-22T09:48:20+08:00
+> 首次收录：2026-10-25T23:31:48+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -28,6 +28,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-10-22T09:48:20+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/bf8f7150e9f31478_Blender-Market]] |
+| 2026-10-25T23:31:48+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/bf8f7150e9f31478_Blender-Market]] |
 
 ## 摘要正文
 

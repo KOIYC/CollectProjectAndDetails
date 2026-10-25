@@ -5,7 +5,7 @@ title: "Appraiseitnow"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/appraiseitnow"
-captured_at: "2026-10-22T09:48:20+08:00"
+captured_at: "2026-10-25T23:31:48+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-10-22T09:48:20+08:00　|　id：`b74e0477cf8c5606`
+> 采集：2026-10-25T23:31:48+08:00　|　id：`b74e0477cf8c5606`
 
 ## 正文
 
@@ -101,7 +101,7 @@ And we're now hitting $90K revenue per month over the past few months.
  joe
 Joe Kattan
 2 Upvotes
-3 Comments
+4 Comments
 About
  We're bringing a modern, tech-oriented spin to the antiquated appraisal industry. I'm personally interested in this problem since I think the space is ripe for digital marketing, automation, and AI.
  People
@@ -110,7 +110,7 @@ Stay informed as an indie hacker.
  Market insights that help you start and grow your business.
 Subscribe
 Follow @IndieHackers on X for stories and insights about founders building profitable online businesses, and to connect with others in the Indie Hackers community.
- © Indie Hackers, Inc. · FAQ · Terms · Privacy · Cookie Settings / Policy ·
+ © Indie Hackers, Inc. · FAQ · Terms · Privacy · Cookie Policy ·
 Community
  Top Today Top This Week Top This Month Join
 Products
