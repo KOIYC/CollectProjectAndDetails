@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=50230693"
 project_url: "https://blog.lohr.dev/hello-world-contd"
 author: "michidk"
 published_at: "2026-10-25T12:00:06Z"
-captured_at: "2026-10-25T23:24:35+08:00"
+captured_at: "2026-10-26T00:19:08+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=3 · 评论=0 · engagement_velocity=3
 > 作者：michidk　|　发布：2026-10-25T12:00:06Z
 > 项目链接：<https://blog.lohr.dev/hello-world-contd>
-> 采集：2026-10-25T23:24:35+08:00　|　id：`5af0d2b1ea9e5e33`
+> 采集：2026-10-26T00:19:08+08:00　|　id：`5af0d2b1ea9e5e33`
 
 ## 正文
 
@@ -183,7 +183,7 @@ You can find all the files and build instructions here .
  # zig
  # linux
  # optimization
- 178 views
+ 232 views
 About the author
  M Michael Lohr
  Passionate about software development and architecture, web and cloud technologies, as well as game development.

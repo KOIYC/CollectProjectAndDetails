@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/smarkly"
 published_at: "2026-10-25"
-captured_at: "2026-10-25T23:31:07+08:00"
+captured_at: "2026-10-26T00:22:11+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-10-25
 > 项目链接：—
-> 采集：2026-10-25T23:31:07+08:00　|　id：`c8185bace3a12512`
+> 采集：2026-10-26T00:22:11+08:00　|　id：`c8185bace3a12512`
 
 ## 正文
 
@@ -90,9 +90,9 @@ Markat.ai
  Test early-stage AI products with real users and get structured feedback
 Buzzly
  Your always-on AI CMO, launching, managing, and optimizing ad campaigns
-Aria
+Commune
  BOOSTED
- Free color analysis and honest verdicts before you buy
+ A shared home for builders to launch, connect, and grow
  BOOSTED
 LookSky
  Launch a website, attract leads, and automate sales 24/7
@@ -100,9 +100,9 @@ DataEase AI
  Brand presence intelligence for founders and marketing teams
 ZeroRank AI
  Track and improve your brand’s visibility across AI search
-PitchMonster
+MemoryPlugin
  BOOSTED
- Practice sales calls with AI buyers and get instant coaching
+ Long term memory for ALL your AI tools
  BOOSTED
 The AI Growth Lab
  Practical AI workflows, save 5 hrs per week, no hype

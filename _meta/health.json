@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-25T23:24:01+08:00",
+ "checked_at": "2026-10-26T00:18:40+08:00",
  "channels": [
   {
    "channel_id": "hn_show",
@@ -10,16 +10,16 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 6.0,
-   "probe_at": "2026-10-25T23:19:30+08:00",
+   "elapsed_s": 2.0,
+   "probe_at": "2026-10-26T00:15:24+08:00",
    "sample": [
     {
-     "title": "Show HN: I put employees inside S&P 500 market-cap bubbles",
-     "url": "https://news.ycombinator.com/item?id=50232312"
+     "title": "Show HN: My Kids TV – Calm, ad-free replacement home screen for Google TV",
+     "url": "https://news.ycombinator.com/item?id=50232818"
     },
     {
-     "title": "Show HN: HissingKitty – what teams pay for software and what replaced it",
-     "url": "https://news.ycombinator.com/item?id=50232108"
+     "title": "Show HN: Swingback, get feedback from your user for free",
+     "url": "https://news.ycombinator.com/item?id=50232583"
     }
    ]
   },
@@ -32,8 +32,8 @@
    "status": "ok",
    "count": 3,
    "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
-   "elapsed_s": 25.8,
-   "probe_at": "2026-10-25T23:19:56+08:00",
+   "elapsed_s": 26.9,
+   "probe_at": "2026-10-26T00:15:51+08:00",
    "sample": [
     {
      "title": "NameCheap Price Increases",
@@ -54,8 +54,8 @@
    "status": "ok",
    "count": 3,
    "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 78.3,
-   "probe_at": "2026-10-25T23:21:14+08:00",
+   "elapsed_s": 2.8,
+   "probe_at": "2026-10-26T00:15:54+08:00",
    "sample": [
     {
      "title": "Gathin23/cleanyourtv",
@@ -76,8 +76,8 @@
    "status": "ok",
    "count": 3,
    "message": "3 startups · 发布日 3/3",
-   "elapsed_s": 15.0,
-   "probe_at": "2026-10-25T23:21:29+08:00",
+   "elapsed_s": 7.3,
+   "probe_at": "2026-10-26T00:16:01+08:00",
    "sample": [
     {
      "title": "Aserp",
@@ -98,8 +98,8 @@
    "status": "ok",
    "count": 3,
    "message": "23 products",
-   "elapsed_s": 9.5,
-   "probe_at": "2026-10-25T23:21:38+08:00",
+   "elapsed_s": 7.3,
+   "probe_at": "2026-10-26T00:16:08+08:00",
    "sample": [
     {
      "title": "Launchon It",
@@ -120,8 +120,8 @@
    "status": "ok",
    "count": 2,
    "message": "2 articles",
-   "elapsed_s": 12.3,
-   "probe_at": "2026-10-25T23:21:51+08:00",
+   "elapsed_s": 6.5,
+   "probe_at": "2026-10-26T00:16:15+08:00",
    "sample": [
     {
      "title": "Promise Delivered: Welcome to the DEV Hall of Fame (65 Authors, 65 Masterpieces)",
@@ -142,16 +142,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 entries",
-   "elapsed_s": 2.1,
-   "probe_at": "2026-10-25T23:21:53+08:00",
+   "elapsed_s": 1.2,
+   "probe_at": "2026-10-26T00:16:16+08:00",
    "sample": [
     {
-     "title": "Moli by Lexmount",
-     "url": "https://www.producthunt.com/products/lexmount-browser"
+     "title": "AgentGrid.io",
+     "url": "https://www.producthunt.com/products/agentgrid-io"
     },
     {
-     "title": "Badgey",
-     "url": "https://www.producthunt.com/products/badgey"
+     "title": "MRRaudit",
+     "url": "https://www.producthunt.com/products/mrraudit"
     }
    ]
   },
@@ -164,8 +164,8 @@
    "status": "ok",
    "count": 3,
    "message": "20 topics",
-   "elapsed_s": 1.9,
-   "probe_at": "2026-10-25T23:21:55+08:00",
+   "elapsed_s": 0.8,
+   "probe_at": "2026-10-26T00:16:17+08:00",
    "sample": [
     {
      "title": "二开信源管道跑了半个月，聊聊用 pgvector 语义降噪和防重推送踩的几个深坑",
@@ -186,8 +186,8 @@
    "status": "ok",
    "count": 3,
    "message": "12 videos",
-   "elapsed_s": 1.0,
-   "probe_at": "2026-10-25T23:21:56+08:00",
+   "elapsed_s": 0.5,
+   "probe_at": "2026-10-26T00:16:17+08:00",
    "sample": [
     {
      "title": "一分钱不花，完成独立产品从0上线！2026年独立开发者免费全家桶",
@@ -205,12 +205,21 @@
    "adapter": "onec7",
    "auth": "none",
    "group": "中文名录",
-   "status": "error",
-   "count": 0,
-   "message": "ERR: <urlopen error [WinError 10054] 远程主机强迫关闭了一个现有的连接。>",
-   "elapsed_s": 2.3,
-   "probe_at": "2026-10-25T23:21:58+08:00",
-   "sample": []
+   "status": "ok",
+   "count": 3,
+   "message": "9 entries · 收录日 9",
+   "elapsed_s": 4.8,
+   "probe_at": "2026-10-26T00:16:22+08:00",
+   "sample": [
+    {
+     "title": "Indie Hacker",
+     "url": "https://www.indiehackers.com/"
+    },
+    {
+     "title": "Failory",
+     "url": "https://www.failory.com/"
+    }
+   ]
   },
   {
    "channel_id": "exa_discovery",
@@ -218,12 +227,21 @@
    "adapter": "exa_discovery",
    "auth": "cli",
    "group": "全网发现",
-   "status": "empty",
-   "count": 0,
-   "message": "0 results",
-   "elapsed_s": 31.0,
-   "probe_at": "2026-10-25T23:22:29+08:00",
-   "sample": []
+   "status": "ok",
+   "count": 3,
+   "message": "8 results",
+   "elapsed_s": 21.4,
+   "probe_at": "2026-10-26T00:16:43+08:00",
+   "sample": [
+    {
+     "title": "\"SCP: Project Pneuma Launches Today, Putting Players Inside Site-19 After Contai",
+     "url": "https://www.gamespress.com/en-US/SCP-Project-Pneuma-Launches-Today"
+    },
+    {
+     "title": "Chesstria Launches on Steam as a Solo-Dev Chess Roguelite | HappyGamer",
+     "url": "https://happygamer.com/chesstria-steam-release-chess-roguelite-169791/"
+    }
+   ]
   },
   {
    "channel_id": "twitter",
@@ -233,9 +251,9 @@
    "group": "海外社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 16s\nok: false\nerr",
-   "elapsed_s": 43.2,
-   "probe_at": "2026-10-25T23:23:12+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 21s\nok: false\nerr",
+   "elapsed_s": 44.9,
+   "probe_at": "2026-10-26T00:17:28+08:00",
    "sample": []
   },
   {
@@ -244,12 +262,17 @@
    "adapter": "opencli_social",
    "auth": "browser",
    "group": "中文社媒",
-   "status": "auth",
-   "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: [rate-limiter] xiaohongshu: sleeping 9s\nok: false\nerror:\n  c",
-   "elapsed_s": 10.6,
-   "probe_at": "2026-10-25T23:23:23+08:00",
-   "sample": []
+   "status": "ok",
+   "count": 1,
+   "message": "1 items（1 路查询）",
+   "elapsed_s": 38.9,
+   "probe_at": "2026-10-26T00:18:07+08:00",
+   "sample": [
+    {
+     "title": "四个月，从0到1w用户",
+     "url": ">-"
+    }
+   ]
   }
  ],
  "backends": [
@@ -260,8 +283,8 @@
    "declared": "ok",
    "delta": true,
    "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 20.1,
-   "probe_at": "2026-10-25T23:23:45+08:00"
+   "elapsed_s": 20.0,
+   "probe_at": "2026-10-26T00:18:32+08:00"
   },
   {
    "backend": "arctic_shift",
@@ -270,8 +293,8 @@
    "declared": null,
    "delta": false,
    "message": "1 rows",
-   "elapsed_s": 6.6,
-   "probe_at": "2026-10-25T23:23:52+08:00"
+   "elapsed_s": 2.4,
+   "probe_at": "2026-10-26T00:18:34+08:00"
   },
   {
    "backend": "exa_web_fetch",
@@ -280,8 +303,8 @@
    "declared": "warn",
    "delta": false,
    "message": "1 url 返回正文",
-   "elapsed_s": 6.7,
-   "probe_at": "2026-10-25T23:23:58+08:00"
+   "elapsed_s": 4.5,
+   "probe_at": "2026-10-26T00:18:39+08:00"
   },
   {
    "backend": "github_gh",
@@ -289,17 +312,17 @@
    "status": "ok",
    "declared": "warn",
    "delta": false,
-   "message": "remaining=5000",
-   "elapsed_s": 2.2,
-   "probe_at": "2026-10-25T23:24:01+08:00"
+   "message": "remaining=4984",
+   "elapsed_s": 1.3,
+   "probe_at": "2026-10-26T00:18:40+08:00"
   }
  ],
  "summary": {
   "total": 13,
-  "ok": 9,
-  "empty": 1,
-  "error": 1,
-  "auth": 2
+  "ok": 12,
+  "empty": 0,
+  "error": 0,
+  "auth": 1
  },
  "decisions": [
   {
@@ -349,13 +372,13 @@
   },
   {
    "channel_id": "c1c7",
-   "action": "review",
-   "status": "error"
+   "action": "keep",
+   "status": "ok"
   },
   {
    "channel_id": "exa_discovery",
-   "action": "watch",
-   "status": "empty"
+   "action": "keep",
+   "status": "ok"
   },
   {
    "channel_id": "twitter",
@@ -364,8 +387,8 @@
   },
   {
    "channel_id": "xiaohongshu",
-   "action": "unlock",
-   "status": "auth"
+   "action": "keep",
+   "status": "ok"
   }
  ],
  "agent_reach": {
@@ -380,8 +403,8 @@
    "declared": "ok",
    "delta": true,
    "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 20.1,
-   "probe_at": "2026-10-25T23:23:45+08:00"
+   "elapsed_s": 20.0,
+   "probe_at": "2026-10-26T00:18:32+08:00"
   }
  ]
 }

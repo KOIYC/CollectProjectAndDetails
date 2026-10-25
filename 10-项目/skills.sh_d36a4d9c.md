@@ -2,7 +2,7 @@
 type: "project"
 title: "Gingiris/gingiris-launch"
 project_url: "https://skills.sh/Gingiris/gingiris-launch"
-first_seen: "2026-10-25T23:45:19+08:00"
+first_seen: "2026-10-26T00:37:34+08:00"
 sources:
   - github_new
 tags:
@@ -15,11 +15,11 @@ lang: "en"
 # Gingiris/gingiris-launch
 
 > [!info] 一句话导读
-> <div align="center">
+> Packs Topics Official Audits Docs Navigate
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://skills.sh/Gingiris/gingiris-launch>
-> 首次收录：2026-10-25T23:45:19+08:00
+> 首次收录：2026-10-26T00:37:34+08:00
 > 来源渠道：GitHub 新星仓库
 > 标签：topic:indie-hacker
 > 最新指标：stars=213 · forks=29 · open_issues=2
@@ -68,7 +68,9 @@ lang: "en"
 | 2026-10-22T09:56:54+08:00 | GitHub 新星仓库 | stars=212 · forks=29 · open_issues=2 | [[20-语料/posts/github_new/2026-09-20/ab56183769a3cfcb_Gingiris-gingiris-launch]] |
 | 2026-10-25T23:30:20+08:00 | GitHub 新星仓库 | stars=213 · forks=29 · open_issues=2 | [[20-语料/posts/github_new/2026-09-20/ab56183769a3cfcb_Gingiris-gingiris-launch]] |
 | 2026-10-25T23:45:19+08:00 | GitHub 新星仓库 | stars=213 · forks=29 · open_issues=2 | [[20-语料/posts/github_new/2026-09-20/ab56183769a3cfcb_Gingiris-gingiris-launch]] |
+| 2026-10-26T00:21:52+08:00 | GitHub 新星仓库 | stars=213 · forks=29 · open_issues=2 | [[20-语料/posts/github_new/2026-09-20/ab56183769a3cfcb_Gingiris-gingiris-launch]] |
+| 2026-10-26T00:37:34+08:00 | GitHub 新星仓库 | stars=213 · forks=29 · open_issues=2 | [[20-语料/posts/github_new/2026-09-20/ab56183769a3cfcb_Gingiris-gingiris-launch]] |
 
 ## 摘要正文
 
-# Go-to-Market Strategy Playbook  ### The complete product hunt launch playbook & startup launch checklist — go-to-market strategy, how to launch on product hunt, KOL outreach, viral marketing  [![GitHub stars](https://img.shields.io/github/stars/Gingiris/gingiris-launch?style=social)](https://github.com/Gingiris/gingiris-launch/stargazers) [![GitHub forks](https://img.shields.io/github/forks/Gingiris/gingiris-launch?style=social)](https://github.com/Gingiris/gingiris-launch/network/members) [![GitHub watchers](https://img.shields.io/github/watchers/Gingiris/gingiris-launch?style=social)](https://github.com/Gingiris/gingiris-launch/watchers) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![Website](https://img.shields.io/badge/Website-gingiris.com-blue)](https://www.gingiris.com) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Gingiris/gingiris-launch/pulls) [![Last Commit](https://img.shields.io/github/last-commit/Gingiris/gingiris-launch?color=blue)](https://github.com/Gingiris/gingiris-launch/commits/main) [![Contributors](https://img.shields.io/github/contributors/Gingiris…
+Skills  Packs Topics Official Audits Docs Navigate  Packs Topics Official Audits Docs skills / gingiris / gingiris-launch gingiris / gingiris-launch  1 skill 7 total installs GitHub $ npx skills add gingiris/gingiris-launch  Command Prompt Skill  Installs gingiris-launch 7 Browse  All skills  Trending  Hot  Official  Packs  Security audits Topics  React  Next.js  Design & UI  Mobile  Agent workflows  Databases  Testing  Marketing  All topics → Agents  Claude Code  Cursor  Codex  GitHub Copilot  Windsurf  Gemini  Cline  AMP  Antigravity  OpenClaw  All agents → Docs  Overview  CLI  Customize pages  API  FAQ Project  About  Contact  Privacy  Terms  GitHub Made with care by Vercel . Skills are open source on GitHub .

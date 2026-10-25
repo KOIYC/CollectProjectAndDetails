@@ -10,7 +10,7 @@ published_at: "2026-10-15T22:33:22+08:00"
 captured_at: "2026-10-25T23:28:28+08:00"
 lang: "en"
 kind: "post"
-topic: "电商/独立站"
+topic: AI 工具/Agent
 shard: "2026-10-25"
 pub_day: "2026-10-15"
 tags:
@@ -86,5 +86,5 @@ I’m a solo founder working on a fit/try-on tool for fashion retailers. Cold Li
 
 - 项目页：—（本条不是项目，按设计不建实体页）
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`电商/独立站`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

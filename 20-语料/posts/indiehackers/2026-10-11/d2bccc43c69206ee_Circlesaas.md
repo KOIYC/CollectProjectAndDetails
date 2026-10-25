@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/circlesaas"
 project_url: "https://circlesaasboard.com/"
-captured_at: "2026-10-25T23:31:48+08:00"
+captured_at: "2026-10-26T00:22:30+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://circlesaasboard.com/>
-> 采集：2026-10-25T23:31:48+08:00　|　id：`d2bccc43c69206ee`
+> 采集：2026-10-26T00:22:30+08:00　|　id：`d2bccc43c69206ee`
 
 ## 正文
 
@@ -62,7 +62,7 @@ When I first shared CircleSaaS , I learned quickly that people read it different
  Be honest, because I'd like to fix whatever is unclear.
  If you haven't listed your startup yet, you can claim a free tile at circlesaasboard.com.
 Vikas Yadav
-15 Upvotes
+16 Upvotes
 3 Comments
 October 24, 2026
  My launch checklist for the CircleSaaS directory launches (tell me what I’m missing)

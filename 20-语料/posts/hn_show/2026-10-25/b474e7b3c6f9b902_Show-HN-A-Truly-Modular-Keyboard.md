@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=50228115"
 project_url: "https://github.com/notaroomba/keybytes"
 author: "NotARoomba"
 published_at: "2026-10-25T03:47:56Z"
-captured_at: "2026-10-25T23:24:35+08:00"
+captured_at: "2026-10-26T00:19:08+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=4 · 评论=1 · engagement_velocity=4
 > 作者：NotARoomba　|　发布：2026-10-25T03:47:56Z
 > 项目链接：<https://github.com/notaroomba/keybytes>
-> 采集：2026-10-25T23:24:35+08:00　|　id：`b474e7b3c6f9b902`
+> 采集：2026-10-26T00:19:08+08:00　|　id：`b474e7b3c6f9b902`
 
 ## 正文
 
@@ -156,7 +156,7 @@ MIT
 > notaroomba.dev  · 
 > GitHub @NotARoomba  · 
 
-# vid-t/whatsapp-bridge
+# Dawn of the Planet of the Apes (2014): VFX & SSS Pipeline
 
 ## 评论（1/1）
 

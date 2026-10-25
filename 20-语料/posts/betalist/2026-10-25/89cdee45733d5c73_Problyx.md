@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/problyx"
 published_at: "2026-10-25"
-captured_at: "2026-10-25T23:31:07+08:00"
+captured_at: "2026-10-26T00:22:11+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-10-25
 > 项目链接：—
-> 采集：2026-10-25T23:31:07+08:00　|　id：`89cdee45733d5c73`
+> 采集：2026-10-26T00:22:11+08:00　|　id：`89cdee45733d5c73`
 
 ## 正文
 
@@ -91,9 +91,9 @@ PredictionHero
  Data and intelligence layer for prediction markets
 Pikket
  Join weekly football prediction leagues with live scoring
-Commune
+MemoryPlugin
  BOOSTED
- A shared home for builders to launch, connect, and grow
+ Long term memory for ALL your AI tools
  BOOSTED
 Sharpify
  Place market predictions privately, prove accuracy, and get ranked
@@ -101,9 +101,9 @@ Pounce
  Turn 15 minutes into real followers and replies on X and Reddit
 Stat Sniper
  Get AI sports picks, track props, and analyze bets in one place
-MemoryPlugin
+Taupia
  BOOSTED
- Long term memory for ALL your AI tools
+ Track, compare, and switch UK household bills from one app
  BOOSTED
 Hipe
  Follow news, join and start communities, and share insights in one place

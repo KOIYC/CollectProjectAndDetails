@@ -1,0 +1,222 @@
+---
+type: "corpus"
+item_id: "b5211702f1e9e321"
+title: "Show HN: My Kids TV – Calm, ad-free replacement home screen for Google TV"
+source: "hn_show"
+source_name: "HN Show HN"
+url: "https://news.ycombinator.com/item?id=50232818"
+project_url: "https://github.com/suboss87/my-kids-tv"
+author: "suboss87"
+published_at: "2026-10-25T15:46:54Z"
+captured_at: "2026-10-26T00:19:08+08:00"
+lang: "en"
+kind: "post"
+topic: "开发者工具"
+shard: "2026-10-26"
+pub_day: "2026-10-25"
+tags:
+  - 语料
+  - hn_show
+  - author_suboss87
+  - story_50232818
+  - show_hn
+metrics: {"points": 2, "comments": 0, "engagement_velocity": 2}
+comments_count: 0
+comments_total: 0
+discovered_via: "hn:show_hn:3d"
+---
+
+# Show HN: My Kids TV – Calm, ad-free replacement home screen for Google TV
+
+> [!info] 一句话导读
+> A calm, ad-free TV home screen for kids: age-right picks from vetted catalogs (4-6, 7-10, 11-13), parent PIN, no tracking. Google TV, Android TV, LG and Samsung…
+
+> [!meta]- 语料信息（点开展开）
+> 来源：HN Show HN（post）
+> 原帖：<https://news.ycombinator.com/item?id=50232818>
+> 指标：点赞=2 · 评论=0 · engagement_velocity=2
+> 作者：suboss87　|　发布：2026-10-25T15:46:54Z
+> 项目链接：<https://github.com/suboss87/my-kids-tv>
+> 采集：2026-10-26T00:19:08+08:00　|　id：`b5211702f1e9e321`
+
+## 正文
+
+# suboss87/my-kids-tv
+
+A calm, ad-free TV home screen for kids: age-right picks from vetted catalogs (4-6, 7-10, 11-13), parent PIN, no tracking. Google TV, Android TV, LG and Samsung.
+
+- Stars: 0
+- Forks: 0
+- Watchers: 0
+- Open issues: 1
+- License: MIT License
+- Default branch: main
+- Created: 2026-10-25T04:49:54Z
+
+## Languages
+
+- CSS
+- HTML
+- Java
+- JavaScript
+- Python
+- Shell
+
+## Topics
+
+- android-tv
+- dataset
+- google-tv
+- home-screen
+- kids
+- launcher
+- no-ads
+- open-source
+- parental-controls
+- tizen
+- tmdb
+- webos
+
+## Top Contributors
+
+- suboss87 (29 contributions)
+
+---
+
+## README
+
+ My Kids TV
+
+ A calm, ad-free home screen for your child's TV, with only the films and shows worth their time.
+
+The stock home screen on most TVs is built to keep everyone watching: ads, autoplay, whatever is trending. My Kids
+TV replaces it with something made for a child. One title at a time, picked for their age from a catalog where every
+title earned its place: fun to watch, well made, and leaving something behind.
+
+It runs on **Google TV and Android TV**, and as an app on **LG (webOS)** and **Samsung (Tizen)** TVs. It is free,
+open source, and nothing about your child ever leaves the TV.
+
+## What your child sees
+
+- **One title, shown well.** A large window with the picture, the name, the story in one line, and why it's worth
+ watching: *Must-watch*, *Learn something* or *Kids love it*. Three thumbnails under it show what's next.
+- **Something new every few seconds, never in their face.** The window moves on every 10 seconds and a fresh set
+ arrives every 30. The moment your child picks up the remote, everything holds still so they can choose.
+- **Movies and Shows**, from the catalog for their age: **4-6**, **7-10** or **11-13**.
+- **Only what you can play, one press away.** A title appears only if it's on an app you have in your country
+ (Netflix, Disney+, Prime Video, Apple TV+, ...), and OK opens that title's page in the app, no searching (for most
+ titles; the rest open the app). Once your child opens a title, it isn't suggested again.
+- **A quiet night sky**, a greeting with their name and the weather, and your apps underneath. Press down for the
+ week's weather, your HDMI input and the settings.
+- **A screensaver** after 10 minutes without a key press: the titles' pictures full screen, slowly drifting, with the
+ time.
+
+## What you control
+
+Everything below sits behind a **parent PIN**.
+
+| | |
+|---|---|
+| **Age** | Switch between 4-6, 7-10 and 11-13 at any time. |
+| **The YouTube button** | Make the remote's YouTube button do nothing (Haier, TCL, Hisense, Sony). The app itself stays. |
+| **Apps** | Choose which apps sit on the home screen; hide the ones your child shouldn't see (turned off, never uninstalled). |
+| **Sleep timer** | Turn the TV off after 5 minutes to 4 hours, with the time left on screen. |
+| **The way back** | *Original* restores the TV's own home screen and everything that was turned off. No root needed. |
+
+**Privacy:** no ads, no accounts, no tracking. The app talks only to TMDB (titles and pictures) and Open-Meteo
+(weather). What your child opened is remembered on the TV and nowhere else.
+
+## How titles are chosen
+
+| Age | Titles | For example |
+|---|---|---|
+| 4-6 | 86 | *My Neighbor Totoro*, *Bluey*, *Paddington 2*, *The Magic School Bus*, *Finding Nemo* |
+| 7-10 | 314 | *Coco*, *The Iron Giant*, *Planet Earth*, *Avatar: The Last Airbender*, *Wolfwalkers*, *Taare Zameen Par* |
+| 11-13 | 400 | *Princess Mononoke*, *Interstellar*, *To Kill a Mockingbird*, *The Man Who Knew Infinity*, *Dangal* |
+
+1. **Wide search.** Best-of lists (Common Sense Media, BFI, children's film awards), sweeps of
+ TMDB, and TMDB's recommendations for every title kept: about 4,800 candidates.
+2. **Hard rules.** Official age ratings, enough votes, a good audience rating.
+3. **Judged one by one.** Jev, TypeSafe's System One model, rates each title for that age:
+ right for the age, lasting value, must-watch, how much a child will enjoy it and, from 7, how well it's made.
+4. **A clear policy, in code.** Mostly English-language titles plus the outstanding few from elsewhere; the best
+ come up most often; the famous ones every family has seen come up only now and then.
+5. **A person reviews** every borderline title before it ships.
+
+Every candidate, judgment and decision is in `catalog/`, so any choice can be read, questioned and changed.
+The lists are also an open dataset (CSV and JSON, CC BY 4.0) for parents, schools and developers.
+
+## Set it up
+
+About twenty minutes. You need the TV and a computer on the same Wi-Fi.
+
+1. **On the TV:** Settings → System → About → press *Build* 7 times. Then Developer options → **USB debugging** on.
+ Note the TV's IP address (Settings → Network & Internet).
+2. **On your computer:** open an AI coding assistant (Claude Code, Codex, ...) in
+ this folder and say:
+ > Set up My Kids TV on our TV at 192.168.1.50 for my 8-year-old.
+
+ It asks a few questions (age, first name, your country and city, the streaming apps you pay for there, a parent
+ PIN, the YouTube button), builds the app and installs it, asking before anything important. It works in any
+ country: the titles shown are the ones streaming where you live.
+3. **On the TV:** open *My Kids TV* → *Home Screen* → *My Kids TV*, and allow USB debugging when asked.
+
+You'll need a free TMDB API key for the titles. It stays on your computer
+and your TV. Optional: put a `child-photo.png` next to `build.sh` to show your child's picture in the settings; it is
+packed into your own build only and never committed.
+
+## For developers
+
+```
+app/        Android TV app (Java, no Gradle): HomeView draws the home screen, Recs picks the titles
+web/        The same home screen for LG and Samsung (HTML, CSS, ES5)
+webos/      LG package          tizen/   Samsung package
+catalog/    The catalog pipeline: candidates → rules → Jev → policy → review
+data/       The open dataset
+tools/      check.sh (all builds and translations), translate.py (25 languages), webapp.py
+docs/       TECHNICAL.md: builds, adb and every TV brand's quirks
+```
+
+```bash
+./build.sh            # MyKidsTV.apk (JDK 17 and the Android command-line tools)
+tools/check.sh        # Android build, 25 translations, LG and Samsung packages
+TYPESAFE_API_KEY=... python3 catalog/pipeline.py --band 7-10 all   # rebuild a catalog
+```
+
+The design principles are in PRODUCT.md; the setup flow an AI assistant follows is in
+CLAUDE.md. Issues and pull requests are welcome.
+
+**Status:** running daily on a Haier Google TV (Android 14). The LG and Samsung apps build and pass the checks, and
+still need a run on real TVs.
+
+## Please note
+
+- **Use it at your own risk.** My Kids TV is a free, independent project, provided as is, without warranty (see the
+ LICENSE). It has run daily on one family's TV, not on every model.
+- **It changes how your TV starts up.** It becomes the home screen and turns off some preinstalled apps (never
+ uninstalls them). *Original* in its settings puts everything back.
+- **USB debugging stays on** so the app can switch modes. Keep the TV on your home Wi-Fi, and never open port 5555 on
+ your router.
+- **It's a calmer home screen, not a lock.** Apps like YouTube still work inside, and the picks come from a curated
+ list, not a guarantee. You know your child best; please keep an eye on what they watch.
+- **Not affiliated** with Google, any TV maker, or any streaming service. All names and trademarks belong to their
+ owners.
+
+## Credits
+
+- Titles, pictures and availability: TMDB. *This product uses the TMDB API but is not
+ endorsed or certified by TMDB.*
+- Title judgments: Jev by TypeSafe. Weather: Open-Meteo.
+- MIT License, see LICENSE.
+
+Thanks to Free My TV for the inspiration and the open-source code My
+Kids TV grew from.
+
+# komovaar/kolo
+
+## 导航
+
+- 项目页：[[10-项目/github.com_ea311d86]]
+- 渠道页：[[50-渠道/hn_show]]
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 同渠道/同赛道批量浏览：[[浏览]]

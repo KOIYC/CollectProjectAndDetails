@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: AeonCut – Open-source silence cutter for DaVinci Resolve (Rust/egui)"
 project_url: "https://github.com/aethelisdev/aeoncut"
-first_seen: "2026-10-25T23:24:35+08:00"
+first_seen: "2026-10-26T00:19:08+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/aethelisdev/aeoncut>
-> 首次收录：2026-10-25T23:24:35+08:00
+> 首次收录：2026-10-26T00:19:08+08:00
 > 来源渠道：HN Show HN
 > 标签：author_aethelis, story_50224560, show_hn
 > 最新指标：点赞=2 · 评论=0 · engagement_velocity=2
@@ -31,6 +31,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-10-25T23:24:35+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-10-25/7e20c7f7fc126ffd_Show-HN-AeonCut-–-Open-source-silence-cutter-for-D]] |
+| 2026-10-26T00:19:08+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-10-25/7e20c7f7fc126ffd_Show-HN-AeonCut-–-Open-source-silence-cutter-for-D]] |
 
 ## 摘要正文
 

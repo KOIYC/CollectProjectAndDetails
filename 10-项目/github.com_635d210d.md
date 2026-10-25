@@ -2,14 +2,14 @@
 type: "project"
 title: "ly05010419/MacNativeGames"
 project_url: "https://github.com/ly05010419/MacNativeGames"
-first_seen: "2026-10-25T23:30:16+08:00"
+first_seen: "2026-10-26T00:21:51+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - C
-  - created:>2026-10-11
+  - created:>2026-10-12
 lang: "en"
 ---
 
@@ -20,10 +20,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/ly05010419/MacNativeGames>
-> 首次收录：2026-10-25T23:30:16+08:00
+> 首次收录：2026-10-26T00:21:51+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：C, created:>2026-10-11
-> 最新指标：stars=5392 · forks=782 · open_issues=148
+> 标签：C, created:>2026-10-12
+> 最新指标：stars=5402 · forks=785 · open_issues=128
 
 ## 观测历史
 
@@ -31,6 +31,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-10-22T09:47:43+08:00 | GitHub 新星仓库 | stars=3899 · forks=547 · open_issues=74 | [[20-语料/posts/github_new/2026-10-22/635d210d95ce60ba_ly05010419-MacNativeGames]] |
 | 2026-10-25T23:30:16+08:00 | GitHub 新星仓库 | stars=5392 · forks=782 · open_issues=148 | [[20-语料/posts/github_new/2026-10-22/635d210d95ce60ba_ly05010419-MacNativeGames]] |
+| 2026-10-26T00:21:51+08:00 | GitHub 新星仓库 | stars=5402 · forks=785 · open_issues=128 | [[20-语料/posts/github_new/2026-10-22/635d210d95ce60ba_ly05010419-MacNativeGames]] |
 
 ## 摘要正文
 

@@ -5,7 +5,7 @@ title: "Citewing"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/citewing"
-captured_at: "2026-10-25T23:31:48+08:00"
+captured_at: "2026-10-26T00:22:30+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-10-25T23:31:48+08:00　|　id：`ed4ad7227abdc9a3`
+> 采集：2026-10-26T00:22:30+08:00　|　id：`ed4ad7227abdc9a3`
 
 ## 正文
 
@@ -49,7 +49,7 @@ So I kept wondering if the bots crawling my sites check robots.txt before grabbi
  Pulled the raw access logs and filtered by user agent, the annoying part was sorting real crawlers from scrapers faking a browser string so I checked the IPs against the published lists, biggest surprise was how fast a couple of them showed up, within hours even though nothing pointed at those pages
  A handful more came back over the next few days and at least three bots went straight to a page without requesting robots.txt first, which threw me off since that's literally the file they're supposed to read first, still not sure if that means they ignore it or just cached it from some request I can't see, and I don't know if they hit robots.txt from a different IP earlier so honestly the logs raise more questions than they answer tbh
 Tom Han
-8 Upvotes
+9 Upvotes
 2 Comments
 October 23, 2026
  Agency wanted $1,800 a month for link building and the sample report had 14 links nobody visits

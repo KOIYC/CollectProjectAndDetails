@@ -2,14 +2,14 @@
 type: "project"
 title: "simbasjungles/free-my-tv"
 project_url: "https://freemytv.io/"
-first_seen: "2026-10-25T23:30:16+08:00"
+first_seen: "2026-10-26T00:21:51+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - Java
-  - created:>2026-10-11
+  - created:>2026-10-12
 lang: "en"
 ---
 
@@ -20,16 +20,17 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://freemytv.io/>
-> 首次收录：2026-10-25T23:30:16+08:00
+> 首次收录：2026-10-26T00:21:51+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：Java, created:>2026-10-11
-> 最新指标：stars=4466 · forks=739 · open_issues=84
+> 标签：Java, created:>2026-10-12
+> 最新指标：stars=4482 · forks=739 · open_issues=86
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-10-25T23:30:16+08:00 | GitHub 新星仓库 | stars=4466 · forks=739 · open_issues=84 | [[20-语料/posts/github_new/2026-10-25/f097e65b6a7782ba_simbasjungles-free-my-tv]] |
+| 2026-10-26T00:21:51+08:00 | GitHub 新星仓库 | stars=4482 · forks=739 · open_issues=86 | [[20-语料/posts/github_new/2026-10-25/f097e65b6a7782ba_simbasjungles-free-my-tv]] |
 
 ## 摘要正文
 

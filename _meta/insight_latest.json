@@ -1,21 +1,21 @@
 {
-  "generated": "2026-10-22T10:05:49+08:00",
-  "n_live": 3055,
-  "n_usable": 2713,
-  "n_project": 2433,
+  "generated": "2026-10-26T00:44:37+08:00",
+  "n_live": 3203,
+  "n_usable": 2839,
+  "n_project": 2537,
   "signals": 66,
   "topics": [
     [
       "AI 工具/Agent",
-      1702
+      1777
     ],
     [
       "开发者工具",
-      559
+      590
     ],
     [
       "未分类",
-      247
+      261
     ],
     [
       "游戏",
@@ -27,7 +27,7 @@
     ],
     [
       "SaaS/B2B",
-      43
+      45
     ],
     [
       "内容/媒体",
@@ -35,15 +35,15 @@
     ],
     [
       "教育/学习",
-      7
+      8
     ],
     [
       "健康/生活",
-      6
+      7
     ],
     [
       "电商/独立站",
-      4
+      6
     ],
     [
       "浏览器扩展",
@@ -117,6 +117,21 @@
       }
     },
     {
+      "key": "host:testflight.apple.com",
+      "channels": [
+        "betalist",
+        "hn_show"
+      ],
+      "n_channels": 2,
+      "title": "Show HN: dishlist – my favorite things on the menu",
+      "url": "https://testflight.apple.com/join/VB1YAe63",
+      "metrics": {
+        "points": 2,
+        "comments": 0,
+        "engagement_velocity": 2
+      }
+    },
+    {
       "key": "host:v2ex.com",
       "channels": [
         "c1c7",
@@ -186,8 +201,8 @@
       }
     }
   ],
-  "money_signal_n": 1217,
-  "money_evidence_n": 441,
+  "money_signal_n": 1262,
+  "money_evidence_n": 457,
   "money_quotes": [
     {
       "source": "betalist",
@@ -263,47 +278,40 @@
     }
   ],
   "pain_n": {
-    "当前方案不好用": 96,
+    "当前方案不好用": 104,
     "在找替代品": 60,
-    "做不出来/卡住": 116,
-    "愿意付钱": 65,
-    "想要而找不到": 11
+    "做不出来/卡住": 120,
+    "愿意付钱": 68,
+    "想要而找不到": 12
   },
   "by_channel": [
     {
       "id": "betalist",
       "profile": "linkpost",
-      "n": 192,
-      "ok": 192,
-      "rate": 1.0
-    },
-    {
-      "id": "xiaohongshu",
-      "profile": "discussion",
-      "n": 1,
-      "ok": 1,
+      "n": 204,
+      "ok": 204,
       "rate": 1.0
     },
     {
       "id": "producthunt",
       "profile": "linkpost",
-      "n": 387,
-      "ok": 381,
-      "rate": 0.9844961240310077
+      "n": 418,
+      "ok": 412,
+      "rate": 0.9856459330143541
     },
     {
       "id": "indiehackers",
       "profile": "linkpost",
-      "n": 154,
-      "ok": 150,
-      "rate": 0.974025974025974
+      "n": 155,
+      "ok": 151,
+      "rate": 0.9741935483870968
     },
     {
       "id": "hn_show",
       "profile": "discussion",
-      "n": 1559,
-      "ok": 1474,
-      "rate": 0.9454778704297627
+      "n": 1602,
+      "ok": 1517,
+      "rate": 0.9469413233458177
     },
     {
       "id": "bilibili",
@@ -315,37 +323,37 @@
     {
       "id": "devto",
       "profile": "discussion",
-      "n": 19,
-      "ok": 16,
-      "rate": 0.8421052631578947
+      "n": 22,
+      "ok": 17,
+      "rate": 0.7727272727272727
     },
     {
       "id": "exa_discovery",
       "profile": "discover",
-      "n": 25,
-      "ok": 19,
-      "rate": 0.76
+      "n": 34,
+      "ok": 26,
+      "rate": 0.7647058823529411
     },
     {
       "id": "github_new",
       "profile": "project",
-      "n": 82,
-      "ok": 61,
-      "rate": 0.7439024390243902
+      "n": 85,
+      "ok": 63,
+      "rate": 0.7411764705882353
     },
     {
       "id": "v2ex",
       "profile": "discussion",
-      "n": 132,
-      "ok": 94,
-      "rate": 0.7121212121212122
+      "n": 146,
+      "ok": 105,
+      "rate": 0.7191780821917808
     },
     {
       "id": "reddit",
       "profile": "discussion",
-      "n": 431,
-      "ok": 260,
-      "rate": 0.6032482598607889
+      "n": 463,
+      "ok": 279,
+      "rate": 0.6025917926565875
     },
     {
       "id": "c1c7",
@@ -353,7 +361,14 @@
       "n": 7,
       "ok": 3,
       "rate": 0.42857142857142855
+    },
+    {
+      "id": "xiaohongshu",
+      "profile": "discussion",
+      "n": 1,
+      "ok": 0,
+      "rate": 0.0
     }
   ],
-  "body_median": 1835
+  "body_median": 1816
 }

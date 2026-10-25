@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=50232108"
 project_url: "https://hissingkitty.com/"
 author: "drewlem"
 published_at: "2026-10-25T14:46:10Z"
-captured_at: "2026-10-25T23:24:35+08:00"
+captured_at: "2026-10-26T00:19:08+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -20,7 +20,7 @@ tags:
   - author_drewlem
   - story_50232108
   - show_hn
-metrics: {"points": 2, "comments": 2, "engagement_velocity": 2}
+metrics: {"points": 3, "comments": 2, "engagement_velocity": 3}
 comments_count: 2
 comments_total: 2
 discovered_via: "hn:show_hn:3d"
@@ -34,15 +34,15 @@ discovered_via: "hn:show_hn:3d"
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=50232108>
-> 指标：点赞=2 · 评论=2 · engagement_velocity=2
+> 指标：点赞=3 · 评论=2 · engagement_velocity=3
 > 作者：drewlem　|　发布：2026-10-25T14:46:10Z
 > 项目链接：<https://hissingkitty.com/>
-> 采集：2026-10-25T23:24:35+08:00　|　id：`cfbcb13770c6084d`
+> 采集：2026-10-26T00:19:08+08:00　|　id：`cfbcb13770c6084d`
 
 ## 正文
 
 HissingKitty Every software alternative, ranked. Categories Stories Research Calculators Methodology Write a review List yours List your alternative
-Live 129 companies tracked · 108 alternatives listed · 95 reviews · updated 59m ago
+Live 129 companies tracked · 108 alternatives listed · 95 reviews · updated 1h ago
 See What Teams Pay, Why They Leave, and What Replaced It.
  Search
 Popular: HubSpot Salesforce Adobe Figma
@@ -61,35 +61,35 @@ List yours
 Nitrosend
  AI-native alternative
 Email and newsletter platform run from your AI assistant (Claude, ChatGPT). Unlimited subscribers, priced by emails sent.
-Replaces Beehiiv +1 · 5h ago
+Replaces Beehiiv +1 · 6h ago
 10 Grounds
  Built for you
 Software agency that built a custom newsletter platform sending 500,000+ emails a day to 300,000+ subscribers.
-Replaces Beehiiv 5h ago
+Replaces Beehiiv 6h ago
 Hanbai
  AI-native alternative
 Newsletter platform with AI writing, content curation, sequences and referrals. Free up to 500 subscribers.
-Replaces Beehiiv 5h ago
+Replaces Beehiiv 6h ago
 Botensten Mail
  AI-native alternative
 Newsletter tool priced by emails sent, not by subscribers who stopped reading.
-Replaces Beehiiv 5h ago
+Replaces Beehiiv 6h ago
 Aldus
  AI-native alternative
 Newsletter platform where AI drafts each issue from your videos, podcasts and posts, with paid tiers and sponsorships.
-Replaces Beehiiv 5h ago
+Replaces Beehiiv 6h ago
 Kenodo
  Built for you
 Software firm that builds newsletter and email platforms for publishers, with your own sending, segmentation and analytics.
-Replaces Beehiiv 5h ago
+Replaces Beehiiv 6h ago
 Notionology
  Built for you
 We design and build custom Notion workspaces that replace multiple business tools.
-Replaces Notion 5h ago
+Replaces Notion 6h ago
 BrainBuild
  Built for you
 We build custom Notion, Airtable and Make systems that run your operations autonomously.
-Replaces Notion 5h ago
+Replaces Notion 6h ago
 Most activity this month
  Trending Now
 All categories
@@ -138,12 +138,12 @@ From teams who pay for it
 Write a review
 ClickUp
  From X
-3h ago
+4h ago
  “ Closed his agency's ClickUp account. Work now runs in Slack with agents watching channels, and they're building an internal tool that joins ClickUp, Clockify, Notion and their own stack. ClickUp with AI add-ons was about $9.4k a year; the new setup will be almost free to run. ”
  Adrian · @adriankuleszo
 Beehiiv
  From X
-3h ago
+4h ago
  “ Got no response and no support. Paid the higher amount anyway because he couldn't risk losing his list. ”
  Kris · @wifiimoolah
 Wix

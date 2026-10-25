@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/karmaboard"
 published_at: "2026-10-25"
-captured_at: "2026-10-25T23:31:07+08:00"
+captured_at: "2026-10-26T00:22:11+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-10-25
 > 项目链接：—
-> 采集：2026-10-25T23:31:07+08:00　|　id：`c9c60d47db38a15d`
+> 采集：2026-10-26T00:22:11+08:00　|　id：`c9c60d47db38a15d`
 
 ## 正文
 
@@ -88,9 +88,9 @@ ChatterKB
  Chat with your documents and turn them into reports
 RedditMaster
  Grow on Reddit with AI that builds karma, finds intent, and drives leads
-GoldMine
+Wilo
  BOOSTED
- Let AI agents run your content, SEO, and outreach while you build
+ AI clerk that helps shoppers find, compare, and choose products
  BOOSTED
 SideKik
  Capture enquiries, track follow-ups, and win more customers
@@ -98,12 +98,10 @@ StrmOn
  Never miss when a show's renewed, cancelled, or back. Built by one person.
 PulseKit
  Your key metrics, as widgets across your Apple devices
-Space
+Todoless
  BOOSTED
- TESTFLIGHT
- Send files and text instantly using a six-character code
+ AI-native, privacy-first task management that understands natural typing
  BOOSTED
- TESTFLIGHT
 PolyProjects
  Run projects from WhatsApp with Kanban, Gantt, KPIs, and budgets
 auth-dialog#closeOnBackdrop close->auth-dialog#reset turbo:before-cache@document->auth-dialog#close"

@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Steal My Bitcoin"
 project_url: "https://stealmybitcoin.com/"
-first_seen: "2026-10-25T23:24:35+08:00"
+first_seen: "2026-10-26T00:19:08+08:00"
 sources:
   - hn_show
 tags:
@@ -21,16 +21,17 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://stealmybitcoin.com/>
-> 首次收录：2026-10-25T23:24:35+08:00
+> 首次收录：2026-10-26T00:19:08+08:00
 > 来源渠道：HN Show HN
 > 标签：author_cloudlandsdev, story_50224916, show_hn
-> 最新指标：点赞=546 · 评论=341 · engagement_velocity=546
+> 最新指标：点赞=548 · 评论=352 · engagement_velocity=548
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-10-25T23:24:35+08:00 | HN Show HN | 点赞=546 · 评论=341 · engagement_velocity=546 | [[20-语料/posts/hn_show/2026-10-25/bcf7c191918480b0_Show-HN-Steal-My-Bitcoin]] |
+| 2026-10-26T00:19:08+08:00 | HN Show HN | 点赞=548 · 评论=352 · engagement_velocity=548 | [[20-语料/posts/hn_show/2026-10-25/bcf7c191918480b0_Show-HN-Steal-My-Bitcoin]] |
 
 ## 摘要正文
 

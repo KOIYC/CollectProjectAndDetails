@@ -8,18 +8,18 @@ url: "https://github.com/Zagitta/gpu-unlock"
 project_url: "https://github.com/Zagitta/gpu-unlock"
 author: "Zagitta"
 published_at: "2026-10-18T01:28:31Z"
-captured_at: "2026-10-25T23:30:16+08:00"
+captured_at: "2026-10-26T00:21:51+08:00"
 lang: "en"
 kind: "post"
-topic: "AI 工具/Agent"
+topic: 未分类
 shard: "2026-10-25"
 pub_day: "2026-10-18"
 tags:
   - 语料
   - github_new
   - C
-  - created:>2026-10-11
-metrics: {"stars": 5442, "forks": 585, "open_issues": 97}
+  - created:>2026-10-12
+metrics: {"stars": 5647, "forks": 603, "open_issues": 100}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/Zagitta/gpu-unlock>
-> 指标：stars=5442 · forks=585 · open_issues=97
+> 指标：stars=5647 · forks=603 · open_issues=100
 > 作者：Zagitta　|　发布：2026-10-18T01:28:31Z
 > 项目链接：<https://github.com/Zagitta/gpu-unlock>
-> 采集：2026-10-25T23:30:16+08:00　|　id：`8acda1e9f09f4448`
+> 采集：2026-10-26T00:21:51+08:00　|　id：`8acda1e9f09f4448`
 
 ## 正文
 
@@ -267,5 +267,5 @@ SOL: 8Rih6HY7V4LcdjYHz4iSffT4fTniqw5CACaBigSVxNYu
 
 - 项目页：[[10-项目/github.com_8acda1e9]]
 - 渠道页：[[50-渠道/github_new]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`未分类`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

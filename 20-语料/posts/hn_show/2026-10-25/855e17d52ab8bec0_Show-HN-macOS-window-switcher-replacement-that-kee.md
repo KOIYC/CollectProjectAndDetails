@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=50231429"
 project_url: "https://debutspace.com/"
 author: "thomplth"
 published_at: "2026-10-25T13:35:57Z"
-captured_at: "2026-10-25T23:24:35+08:00"
+captured_at: "2026-10-26T00:19:08+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -20,7 +20,7 @@ tags:
   - author_thomplth
   - story_50231429
   - show_hn
-metrics: {"points": 2, "comments": 1, "engagement_velocity": 2}
+metrics: {"points": 3, "comments": 1, "engagement_velocity": 3}
 comments_count: 1
 comments_total: 1
 discovered_via: "hn:show_hn:3d"
@@ -34,10 +34,10 @@ discovered_via: "hn:show_hn:3d"
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=50231429>
-> 指标：点赞=2 · 评论=1 · engagement_velocity=2
+> 指标：点赞=3 · 评论=1 · engagement_velocity=3
 > 作者：thomplth　|　发布：2026-10-25T13:35:57Z
 > 项目链接：<https://debutspace.com/>
-> 采集：2026-10-25T23:24:35+08:00　|　id：`855e17d52ab8bec0`
+> 采集：2026-10-26T00:19:08+08:00　|　id：`855e17d52ab8bec0`
 
 ## 正文
 

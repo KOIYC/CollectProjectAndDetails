@@ -8,7 +8,7 @@ url: "https://github.com/ly05010419/MacNativeGames"
 project_url: "https://github.com/ly05010419/MacNativeGames"
 author: "ly05010419"
 published_at: "2026-10-17T19:52:00Z"
-captured_at: "2026-10-25T23:30:16+08:00"
+captured_at: "2026-10-26T00:21:51+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - C
-  - created:>2026-10-11
-metrics: {"stars": 5392, "forks": 782, "open_issues": 148}
+  - created:>2026-10-12
+metrics: {"stars": 5402, "forks": 785, "open_issues": 128}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/ly05010419/MacNativeGames>
-> 指标：stars=5392 · forks=782 · open_issues=148
+> 指标：stars=5402 · forks=785 · open_issues=128
 > 作者：ly05010419　|　发布：2026-10-17T19:52:00Z
 > 项目链接：<https://github.com/ly05010419/MacNativeGames>
-> 采集：2026-10-25T23:30:16+08:00　|　id：`635d210d95ce60ba`
+> 采集：2026-10-26T00:21:51+08:00　|　id：`635d210d95ce60ba`
 
 ## 正文
 

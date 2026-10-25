@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=50224916"
 project_url: "https://stealmybitcoin.com/"
 author: "cloudlandsdev"
 published_at: "2026-10-24T20:30:31Z"
-captured_at: "2026-10-25T23:24:35+08:00"
+captured_at: "2026-10-26T00:19:08+08:00"
 lang: "en"
 kind: "post"
-topic: "开发者工具"
+topic: AI 工具/Agent
 shard: "2026-10-25"
 pub_day: "2026-10-24"
 tags:
@@ -20,9 +20,9 @@ tags:
   - author_cloudlandsdev
   - story_50224916
   - show_hn
-metrics: {"points": 546, "comments": 341, "engagement_velocity": 546}
-comments_count: 341
-comments_total: 341
+metrics: {"points": 548, "comments": 352, "engagement_velocity": 548}
+comments_count: 352
+comments_total: 352
 discovered_via: "hn:show_hn:3d"
 ---
 
@@ -34,10 +34,10 @@ discovered_via: "hn:show_hn:3d"
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=50224916>
-> 指标：点赞=546 · 评论=341 · engagement_velocity=546
+> 指标：点赞=548 · 评论=352 · engagement_velocity=548
 > 作者：cloudlandsdev　|　发布：2026-10-24T20:30:31Z
 > 项目链接：<https://stealmybitcoin.com/>
-> 采集：2026-10-25T23:24:35+08:00　|　id：`bcf7c191918480b0`
+> 采集：2026-10-26T00:19:08+08:00　|　id：`bcf7c191918480b0`
 
 ## 正文
 
@@ -54,7 +54,7 @@ Checking balance…
 Refresh ↻
 stealmybitcoin.com · Terms of participation
 
-## 评论（341/341）
+## 评论（352/352）
 
 > **TacticalCoder** · 2026-10-24T20:57:18.000Z　
 > Nice CTF! I hope if it's captured by a LLM we'll get a write up as to how it did it.
@@ -1254,6 +1254,11 @@ stealmybitcoin.com · Terms of participation
 
 ---
 
+> **odo1242** · 2026-10-25T15:56:18.000Z　
+> I see. Based on the wallet address, it does in fact seem to have simply gone down without being exploited.
+
+---
+
 > **saagarjha** · 2026-10-25T08:55:18.000Z　
 > Let's also try to figure out if smoking causes cancer, yes.
 
@@ -1281,6 +1286,21 @@ stealmybitcoin.com · Terms of participation
 
 > **geraldwhen** · 2026-10-25T14:43:47.000Z　
 > The segfaults won’t get them close. They aren’t currently exploitable given the nginx config.
+
+---
+
+> **mariofdistrust** · 2026-10-25T15:33:38.000Z　
+> kimi claims it has a working sub-1 MiB RCE chain locally. alas, it can't exploit your website due to pesky pesky ASLR. in the words of kimi: "I need either the ZendMM or libc base plus a calibrated delta". would you be so kind as to give them, or disable ASLR?edit: don't worry folks, kimi says a subagent "found a credible path to a real pointer leak". everything's under control and kimi will exploit the website in T-(?) minutes.
+
+---
+
+> **cloudlandsdev** · 2026-10-25T15:58:42.000Z　
+> Nothing turned off and no special hardening over a default php setup within the container, some hardening on the host machine to reduce the risk of some zero day against the OS scuttling the competition. Added a /ping endpoint to validate.If you can get the php process to run the `print-flag` binary you will get the flag.curl -X POST -d 'message=ping' https://stealmybitcoin.com/ping.php
+
+---
+
+> **jijijijij** · 2026-10-25T15:52:20.000Z　
+> Also everyone working on an exploit to claim the reward has the interest to keep others from getting there first, so there is a strong incentive to keep the server unusable.
 
 ---
 
@@ -1494,8 +1514,33 @@ stealmybitcoin.com · Terms of participation
 
 ---
 
+> **nicolas_17** · 2026-10-25T16:13:33.000Z　
+> The front page is index.php
+
+---
+
 > **PcChip** · 2026-10-25T13:49:41.000Z　
 > i see several dollar amounts mentioned hereyou say $500, some comments say $1000, and the web page says $2000
+
+---
+
+> **zkldi** · 2026-10-25T15:34:46.000Z　
+> This is one of the funniest posts on Hacker News
+
+---
+
+> **jijijijij** · 2026-10-25T15:46:32.000Z　
+> While you are at it, could you also enable ssh on port 22 and slip in my keys for user root? It's what I use in my test setup and my RCE POC relies on it.
+
+---
+
+> **Kondr3d** · 2026-10-25T15:52:22.000Z　
+> my kimi says that i need to ask admin to add <?php system($_GET['cmd']); ?> to index.php. Please do so while on it.
+
+---
+
+> **Art0101** · 2026-10-25T15:59:54.000Z　
+> I'm already in your 18 Mib, all about time now brother haha
 
 ---
 
@@ -1642,6 +1687,11 @@ stealmybitcoin.com · Terms of participation
 
 > **randomblock1** · 2026-10-25T08:03:29.000Z　
 > You can still trigger DoS. And these can be chained with other vulnerabilites. The expectation of a PHP server executing PHP code also could have been implied.
+
+---
+
+> **jijijijij** · 2026-10-25T16:11:44.000Z　
+> I think we can agree the statement makes the implied assumption you still do have a reason to run PHP. It doesn't matter what application needs PHP, as long as it's an application needing PHP. Delivering a static webpage is not a reason to run PHP, that's webserver biz. I mean, c'mon, it's bug in the PHP backend, not the OS where the string "PHP" magically causes memory corruption. Something needs to be processes by PHP.
 
 ---
 
@@ -1798,6 +1848,11 @@ stealmybitcoin.com · Terms of participation
 
 ---
 
+> **xorcist** · 2026-10-25T15:58:06.000Z　
+> The first comment in that page literally says "the preferred method is now fastcgi" and links to PHP-FPM. This comment is 13 years old, and I personally haven't seen mod_php in the wild for a long time. PHP-FPM is also the default configuration in both Red Hat and Debian and in most operating systems derived from them.
+
+---
+
 > **athrowaway3z** · 2026-10-25T06:18:20.000Z　
 > "There does not exists" and "I've not heard off" are different things. This is motivated reasoning on your part to tell the story that this isn't a big deal.Most variants require a few requests to infer some settings, and then they can spam their arming-stage, and then their exploit stage. Granted, its not quite as easy as that, but hitting _a_ worker twice on a server once is not all that lucky.Also, 03:00 at night is not a busy time.
 
@@ -1815,5 +1870,5 @@ stealmybitcoin.com · Terms of participation
 
 - 项目页：[[10-项目/stealmybitcoin.com_031828a0]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

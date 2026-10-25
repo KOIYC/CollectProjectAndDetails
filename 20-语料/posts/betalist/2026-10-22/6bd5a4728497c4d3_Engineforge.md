@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/engineforge"
 published_at: "2026-10-21"
-captured_at: "2026-10-25T23:31:07+08:00"
+captured_at: "2026-10-26T00:22:11+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-10-21
 > 项目链接：—
-> 采集：2026-10-25T23:31:07+08:00　|　id：`6bd5a4728497c4d3`
+> 采集：2026-10-26T00:22:11+08:00　|　id：`6bd5a4728497c4d3`
 
 ## 正文
 
@@ -90,9 +90,9 @@ Forgecode
  Forge brings AI coding agents to your CLI.
 TeacherForge
  Generate ESL worksheets, practice material, and exams in minutes
-Taupia
+Terrapin
  BOOSTED
- Track, compare, and switch UK household bills from one app
+ Turn receipts, email & photos into clean, tax-ready insights, automatically
  BOOSTED
 Animarrow
  Create game-ready 2D character animation faster and iterate freely
@@ -100,9 +100,9 @@ UGCraft AI
  UGCraft AI lets Roblox creators make clothing and accessories with AI
 AI Photo Generator
  Studio-quality AI photos without the studio
-WZRD
+SmartBI
  BOOSTED
- Turn plain ideas into interactive docs, forms, and decks that converse
+ AI copilot that turns marketing data into next steps
  BOOSTED
 TensorBlock Forge
  An AI model API platform that provides access to multiple providers

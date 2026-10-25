@@ -11,7 +11,7 @@ published_at: "2026-10-22T12:06:45Z"
 captured_at: "2026-10-25T23:32:57+08:00"
 lang: "en"
 kind: "post"
-topic: "开发者工具"
+topic: AI 工具/Agent
 shard: "2026-10-25"
 pub_day: "2026-10-22"
 tags:
@@ -127,5 +127,5 @@ Not afraid of failing or just ending up with another ONLY showcase for my profil
 
 - 项目页：[[10-项目/crowdwide.run.place_97ad0470]]
 - 渠道页：[[50-渠道/devto]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

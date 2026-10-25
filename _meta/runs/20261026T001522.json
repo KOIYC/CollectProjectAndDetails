@@ -1,8 +1,8 @@
 {
- "run_id": "20260928T094055",
- "started_at": "2026-09-28T09:40:55+08:00",
- "ended_at": "2026-09-28T09:46:32+08:00",
- "elapsed_s": 337.2,
+ "run_id": "20261026T001522",
+ "started_at": "2026-10-26T00:15:22+08:00",
+ "ended_at": "2026-10-26T00:18:40+08:00",
+ "elapsed_s": 198.3,
  "channels": [
   {
    "source_id": "hn_show",
@@ -10,7 +10,7 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 1.7
+   "elapsed_s": 2.0
   },
   {
    "source_id": "reddit",
@@ -18,7 +18,7 @@
    "status": "ok",
    "count": 3,
    "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
-   "elapsed_s": 16.5
+   "elapsed_s": 26.9
   },
   {
    "source_id": "github_new",
@@ -26,7 +26,7 @@
    "status": "ok",
    "count": 3,
    "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 16.3
+   "elapsed_s": 2.8
   },
   {
    "source_id": "betalist",
@@ -34,23 +34,23 @@
    "status": "ok",
    "count": 3,
    "message": "3 startups · 发布日 3/3",
-   "elapsed_s": 4.6
+   "elapsed_s": 7.3
   },
   {
    "source_id": "indiehackers",
    "name": "Indie Hackers 产品库",
    "status": "ok",
    "count": 3,
-   "message": "20 products",
-   "elapsed_s": 6.5
+   "message": "23 products",
+   "elapsed_s": 7.3
   },
   {
    "source_id": "devto",
    "name": "dev.to",
    "status": "ok",
-   "count": 3,
-   "message": "4 articles",
-   "elapsed_s": 15.5
+   "count": 2,
+   "message": "2 articles",
+   "elapsed_s": 6.5
   },
   {
    "source_id": "producthunt",
@@ -66,15 +66,15 @@
    "status": "ok",
    "count": 3,
    "message": "20 topics",
-   "elapsed_s": 0.7
+   "elapsed_s": 0.8
   },
   {
    "source_id": "bilibili",
    "name": "B 站",
    "status": "ok",
    "count": 3,
-   "message": "8 videos",
-   "elapsed_s": 0.6
+   "message": "12 videos",
+   "elapsed_s": 0.5
   },
   {
    "source_id": "c1c7",
@@ -82,7 +82,7 @@
    "status": "ok",
    "count": 3,
    "message": "9 entries · 收录日 9",
-   "elapsed_s": 2.4
+   "elapsed_s": 4.8
   },
   {
    "source_id": "exa_discovery",
@@ -90,15 +90,15 @@
    "status": "ok",
    "count": 3,
    "message": "8 results",
-   "elapsed_s": 12.4
+   "elapsed_s": 21.4
   },
   {
    "source_id": "twitter",
    "name": "X / Twitter",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: timeout>90s",
-   "elapsed_s": 190.1
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 21s\nok: false\nerr",
+   "elapsed_s": 44.9
   },
   {
    "source_id": "xiaohongshu",
@@ -106,7 +106,7 @@
    "status": "ok",
    "count": 1,
    "message": "1 items（1 路查询）",
-   "elapsed_s": 15.4
+   "elapsed_s": 38.9
   }
  ],
  "notes_written": 0,

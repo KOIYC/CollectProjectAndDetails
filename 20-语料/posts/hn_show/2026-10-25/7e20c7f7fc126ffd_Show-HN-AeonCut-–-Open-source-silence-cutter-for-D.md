@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=50224560"
 project_url: "https://github.com/aethelisdev/aeoncut"
 author: "aethelis"
 published_at: "2026-10-24T19:59:27Z"
-captured_at: "2026-10-25T23:24:35+08:00"
+captured_at: "2026-10-26T00:19:08+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：aethelis　|　发布：2026-10-24T19:59:27Z
 > 项目链接：<https://github.com/aethelisdev/aeoncut>
-> 采集：2026-10-25T23:24:35+08:00　|　id：`7e20c7f7fc126ffd`
+> 采集：2026-10-26T00:19:08+08:00　|　id：`7e20c7f7fc126ffd`
 
 ## 正文
 
@@ -161,8 +161,6 @@ cargo test
 
 This project is licensed under the **GNU Affero General Public License v3.0 (AGPL-3.0)**.
 See the LICENSE file for details.
-
-# microsoft/Agensh
 
 ## 关联链接
 

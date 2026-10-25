@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: WhatsApp Bridge for those with their own VPS"
 project_url: "https://github.com/vid-t/whatsapp-bridge"
-first_seen: "2026-10-25T23:24:35+08:00"
+first_seen: "2026-10-26T00:19:08+08:00"
 sources:
   - hn_show
 tags:
@@ -21,16 +21,17 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/vid-t/whatsapp-bridge>
-> 首次收录：2026-10-25T23:24:35+08:00
+> 首次收录：2026-10-26T00:19:08+08:00
 > 来源渠道：HN Show HN
 > 标签：author_vid_t, story_50225644, show_hn
-> 最新指标：点赞=3 · 评论=3 · engagement_velocity=3
+> 最新指标：点赞=4 · 评论=3 · engagement_velocity=4
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-10-25T23:24:35+08:00 | HN Show HN | 点赞=3 · 评论=3 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-10-25/49880bc6f733ab3c_Show-HN-WhatsApp-Bridge-for-those-with-their-own-V]] |
+| 2026-10-26T00:19:08+08:00 | HN Show HN | 点赞=4 · 评论=3 · engagement_velocity=4 | [[20-语料/posts/hn_show/2026-10-25/49880bc6f733ab3c_Show-HN-WhatsApp-Bridge-for-those-with-their-own-V]] |
 
 ## 摘要正文
 

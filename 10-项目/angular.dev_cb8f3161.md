@@ -2,7 +2,7 @@
 type: "project"
 title: "I Vibe-Coded My Way Out of Angular Upgrades"
 project_url: "https://angular.dev/update-guide"
-first_seen: "2026-10-25T23:48:07+08:00"
+first_seen: "2026-10-26T00:38:45+08:00"
 sources:
   - devto
 tags:
@@ -22,7 +22,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://angular.dev/update-guide>
-> 首次收录：2026-10-25T23:48:07+08:00
+> 首次收录：2026-10-26T00:38:45+08:00
 > 来源渠道：dev.to
 > 标签：ai, vibecoding, angular, showdev
 > 最新指标：reactions=90 · 评论=64 · reading_time=3
@@ -34,6 +34,7 @@ lang: "en"
 | 2026-10-22T09:48:59+08:00 | dev.to | reactions=90 · 评论=64 · reading_time=3 | [[20-语料/posts/devto/2026-10-22/8237951271bb0076_I-Vibe-Coded-My-Way-Out-of-Angular-Upgrades]] |
 | 2026-10-22T09:57:25+08:00 | dev.to | reactions=90 · 评论=64 · reading_time=3 | [[20-语料/posts/devto/2026-10-22/8237951271bb0076_I-Vibe-Coded-My-Way-Out-of-Angular-Upgrades]] |
 | 2026-10-25T23:48:07+08:00 | dev.to | reactions=90 · 评论=64 · reading_time=3 | [[20-语料/posts/devto/2026-10-22/8237951271bb0076_I-Vibe-Coded-My-Way-Out-of-Angular-Upgrades]] |
+| 2026-10-26T00:38:45+08:00 | dev.to | reactions=90 · 评论=64 · reading_time=3 | [[20-语料/posts/devto/2026-10-22/8237951271bb0076_I-Vibe-Coded-My-Way-Out-of-Angular-Upgrades]] |
 
 ## 摘要正文
 

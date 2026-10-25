@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=50224730"
 project_url: "https://github.com/baalimago/duls"
 author: "baalimago"
 published_at: "2026-10-24T20:14:40Z"
-captured_at: "2026-10-25T23:24:35+08:00"
+captured_at: "2026-10-26T00:19:08+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=4 · 评论=0 · engagement_velocity=4
 > 作者：baalimago　|　发布：2026-10-24T20:14:40Z
 > 项目链接：<https://github.com/baalimago/duls>
-> 采集：2026-10-25T23:24:35+08:00　|　id：`40de2b36b037b7e0`
+> 采集：2026-10-26T00:19:08+08:00　|　id：`40de2b36b037b7e0`
 
 ## 正文
 
@@ -169,10 +169,11 @@ must pass with exit code 0.
 MIT, see LICENSE. The view, the palette, and the presentation are
 extracted from slivingdoc by the same author.
 
-# aethelisdev/aeoncut
+Error fetching https://chatgpt.com/plugins/plugin_asdk_app_6abdec89d46c81919cda058ca9f62cb8?search=call4me: CRAWL_EMPTY_CONTENT
 
 ## 关联链接
 
+- https://chatgpt.com/plugins/plugin_asdk_app_6abdec89d46c81919cda058ca9f62cb8?search=call4me:
 - https://raw.githubusercontent.com/baalimago/duls/master/setup.sh
 
 ## 导航

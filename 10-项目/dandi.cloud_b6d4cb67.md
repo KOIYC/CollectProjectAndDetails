@@ -2,7 +2,7 @@
 type: "project"
 title: "emarco177/dandi"
 project_url: "https://dandi.cloud/"
-first_seen: "2026-10-25T23:45:19+08:00"
+first_seen: "2026-10-26T00:37:34+08:00"
 sources:
   - github_new
 tags:
@@ -16,11 +16,11 @@ lang: "en"
 # emarco177/dandi
 
 > [!info] 一句话导读
-> 🌻 Dandi API - Boilerplate for AI Micro SaaS Applications
+> Dandi Github Analyzer Features Pricing About Dashboards Sign In
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://dandi.cloud/>
-> 首次收录：2026-10-25T23:45:19+08:00
+> 首次收录：2026-10-26T00:37:34+08:00
 > 来源渠道：GitHub 新星仓库
 > 标签：TypeScript, topic:microsaas
 > 最新指标：stars=164 · forks=75 · open_issues=0
@@ -70,7 +70,9 @@ lang: "en"
 | 2026-10-22T09:56:54+08:00 | GitHub 新星仓库 | stars=165 · forks=75 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/7bfb6e055c517164_emarco177-dandi]] |
 | 2026-10-25T23:30:35+08:00 | GitHub 新星仓库 | stars=164 · forks=75 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/7bfb6e055c517164_emarco177-dandi]] |
 | 2026-10-25T23:45:19+08:00 | GitHub 新星仓库 | stars=164 · forks=75 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/7bfb6e055c517164_emarco177-dandi]] |
+| 2026-10-26T00:21:57+08:00 | GitHub 新星仓库 | stars=164 · forks=75 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/7bfb6e055c517164_emarco177-dandi]] |
+| 2026-10-26T00:37:34+08:00 | GitHub 新星仓库 | stars=164 · forks=75 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/7bfb6e055c517164_emarco177-dandi]] |
 
 ## 摘要正文
 
-# 🌻 Dandi API - Boilerplate for AI Micro SaaS Applications  **🤯 🤯 This repo was buikt with ENGLISH as the programming language with Cursor IDE and v0.🤯**  ![Logo](https://github.com/emarco177/dandi/blob/main/public/demo.gif)  Dandi API is a comprehensive boilerplate repository for building AI-powered micro SaaS applications. It provides a solid foundation with essential components and functionalities needed to run an end-to-end micro SaaS application.  The service itself offers powerful insights, summaries, and analytics for open source GitHub repositories.  **🌐 Live Application: [https://www.dandi.cloud/](https://www.dandi.cloud/)**  ## 🚀 Key Features  - **Complete Micro SaaS Structure**: Implements all necessary components for a fully functional AI micro SaaS application. - **API Key Management**: Built-in system for handling API keys, UI heavily inspired by [Tavily](https://www.tavily.com/). - **Rate Limiting**: Integrated rate limiting for API protection. - **SSO Login**: Implemented Single Sign-On functionality. - **AI Integration**: Leverages LangChain JS for AI capabilities.  ## 🛠️ Built with Cursor IDE and v0  This entire project was developed using [Cursor IDE](https://cur…
+Dandi Github Analyzer Features Pricing About Dashboards Sign In  Unlock GitHub Insights with Dandi  Get powerful insights, summaries, and analytics for open source GitHub repositories. Discover trends, track important updates, and stay ahead of the curve. Get Started Learn More Key Features  Repository Insights Get comprehensive summaries and analytics for any GitHub repository. Important PRs Track and analyze the most impactful pull requests in real-time. Version Updates Stay informed about the latest version releases and changelogs. Try It Out  API Request  Edit the payload and send a request {  "githubUrl": "https://github.com/assafelovic/gpt-researcher" }  Try it out Documentation API Response  View the response from the API {  "summary": "GPT Researcher is an autonomous agent designed for comprehensive online research on various tasks. It aims to provide detailed, factual, and unbiased research reports by leveraging AI technology. The project addresses issues of misinformation, speed, determinism, and reliability in research tasks.",  "cool_facts": [  "The project leverages both `gpt-4o-mini` and `gpt-4o` (128K context) to complete research tasks, optimizing costs and achievin…

@@ -27,8 +27,8 @@ lang: "en"
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-21T01:29:31+08:00 | Exa 全网语义发现 | — | [[20-语料/posts/exa_discovery/2026-09-21/79884ea460f28b1a_Building-a-$10K-MRR-testimonial-tool-by-building-i]] |
-| 2026-09-28T09:52:16+08:00 | Exa 全网语义发现 | — | [[20-语料/posts/exa_discovery/2026-09-21/79884ea460f28b1a_Building-a-$10K-MRR-testimonial-tool-by-building-i]] |
+| 2026-09-21T01:29:31+08:00 | Exa 全网语义发现 | — | [[20-语料/posts/exa_discovery/2026-09-21/79884ea460f28b1a_Testimonial.to-Revenue-$2.4M-ARR.-How-Damon-Chen-b]] |
+| 2026-09-28T09:52:16+08:00 | Exa 全网语义发现 | — | [[20-语料/posts/exa_discovery/2026-09-21/79884ea460f28b1a_Testimonial.to-Revenue-$2.4M-ARR.-How-Damon-Chen-b]] |
 
 ## 摘要正文
 

@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=50226569"
 project_url: "https://github.com/ignotusnemo/paramo1d"
 author: "ignotusnemo"
 published_at: "2026-10-24T23:32:57Z"
-captured_at: "2026-10-25T23:45:19+08:00"
+captured_at: "2026-10-26T00:37:35+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：ignotusnemo　|　发布：2026-10-24T23:32:57Z
 > 项目链接：<https://github.com/ignotusnemo/paramo1d>
-> 采集：2026-10-25T23:45:19+08:00　|　id：`7919d1e7a7c15bbe`
+> 采集：2026-10-26T00:37:35+08:00　|　id：`7919d1e7a7c15bbe`
 
 ## 正文
 
@@ -184,12 +184,9 @@ The `isolated-testnet` build feature selects the local test profile in `profiles
 
 Licensed under Apache-2.0.
 
-Error fetching https://linkedin.rezi.io/: CRAWL_UNKNOWN_ERROR
-
 ## 关联链接
 
 - http://127.0.0.1:9601
-- https://linkedin.rezi.io/:
 - https://parano1d.org
 
 ## 导航

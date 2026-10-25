@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=50225644"
 project_url: "https://github.com/vid-t/whatsapp-bridge"
 author: "vid_t"
 published_at: "2026-10-24T21:41:02Z"
-captured_at: "2026-10-25T23:24:35+08:00"
+captured_at: "2026-10-26T00:19:08+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -20,7 +20,7 @@ tags:
   - author_vid_t
   - story_50225644
   - show_hn
-metrics: {"points": 3, "comments": 3, "engagement_velocity": 3}
+metrics: {"points": 4, "comments": 3, "engagement_velocity": 4}
 comments_count: 3
 comments_total: 3
 discovered_via: "hn:show_hn:3d"
@@ -34,10 +34,10 @@ discovered_via: "hn:show_hn:3d"
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=50225644>
-> 指标：点赞=3 · 评论=3 · engagement_velocity=3
+> 指标：点赞=4 · 评论=3 · engagement_velocity=4
 > 作者：vid_t　|　发布：2026-10-24T21:41:02Z
 > 项目链接：<https://github.com/vid-t/whatsapp-bridge>
-> 采集：2026-10-25T23:24:35+08:00　|　id：`49880bc6f733ab3c`
+> 采集：2026-10-26T00:19:08+08:00　|　id：`49880bc6f733ab3c`
 
 ## 正文
 
@@ -211,7 +211,7 @@ member sees (today every member sees all ticked chats).
 AGPL-3.0-only. If you run a modified whatsapp-bridge as a service, you must offer
 its source code to the people who use it.
 
-Error fetching https://chatgpt.com/plugins/plugin_asdk_app_6abdec89d46c81919cda058ca9f62cb8?search=call4me: CRAWL_EMPTY_CONTENT
+# ClayGendron/wasi-python
 
 ## 评论（3/3）
 
@@ -230,7 +230,6 @@ Error fetching https://chatgpt.com/plugins/plugin_asdk_app_6abdec89d46c81919cda0
 
 ## 关联链接
 
-- https://chatgpt.com/plugins/plugin_asdk_app_6abdec89d46c81919cda058ca9f62cb8?search=call4me:
 - https://github.com/vid-t/whatsapp-bridge.git
 
 ## 导航

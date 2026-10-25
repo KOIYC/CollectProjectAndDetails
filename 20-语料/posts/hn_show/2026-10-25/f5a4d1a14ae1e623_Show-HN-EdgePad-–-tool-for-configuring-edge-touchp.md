@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=50230557"
 project_url: "https://github.com/assembledev/edgepad"
 author: "dev-e"
 published_at: "2026-10-25T11:39:53Z"
-captured_at: "2026-10-25T23:24:35+08:00"
+captured_at: "2026-10-26T00:19:08+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=6 · 评论=0 · engagement_velocity=6
 > 作者：dev-e　|　发布：2026-10-25T11:39:53Z
 > 项目链接：<https://github.com/assembledev/edgepad>
-> 采集：2026-10-25T23:24:35+08:00　|　id：`f5a4d1a14ae1e623`
+> 采集：2026-10-26T00:19:08+08:00　|　id：`f5a4d1a14ae1e623`
 
 ## 正文
 
@@ -488,6 +488,8 @@ Licensed under either of:
 - MIT license (LICENSE-MIT)
 
 at your option.
+
+# DADGPT Costume
 
 ## 关联链接
 

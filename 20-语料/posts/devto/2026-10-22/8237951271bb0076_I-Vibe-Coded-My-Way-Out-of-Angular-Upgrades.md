@@ -8,7 +8,7 @@ url: "https://dev.to/gramli/i-vibe-coded-my-way-out-of-angular-upgrades-4fkh"
 project_url: "https://angular.dev/update-guide"
 author: "Daniel Balcarek"
 published_at: "2026-10-15T07:10:18Z"
-captured_at: "2026-10-25T23:48:07+08:00"
+captured_at: "2026-10-26T00:38:45+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -38,7 +38,7 @@ discovered_via: "devto:showdev"
 > 指标：reactions=90 · 评论=64 · reading_time=3
 > 作者：Daniel Balcarek　|　发布：2026-10-15T07:10:18Z
 > 项目链接：<https://angular.dev/update-guide>
-> 采集：2026-10-25T23:48:07+08:00　|　id：`8237951271bb0076`
+> 采集：2026-10-26T00:38:45+08:00　|　id：`8237951271bb0076`
 
 ## 正文
 

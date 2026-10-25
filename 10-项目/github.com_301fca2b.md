@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Redmi phone can do things that $16K GPU is needed for on Ethereum"
 project_url: "https://github.com/ignotusnemo/paramo1d"
-first_seen: "2026-10-25T23:45:19+08:00"
+first_seen: "2026-10-26T00:37:35+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/ignotusnemo/paramo1d>
-> 首次收录：2026-10-25T23:45:19+08:00
+> 首次收录：2026-10-26T00:37:35+08:00
 > 来源渠道：HN Show HN
 > 标签：author_ignotusnemo, story_50226569, show_hn
 > 最新指标：点赞=2 · 评论=0 · engagement_velocity=2
@@ -32,6 +32,8 @@ lang: "en"
 |---|---|---|---|
 | 2026-10-25T23:24:35+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-10-25/7919d1e7a7c15bbe_Show-HN-Redmi-phone-can-do-things-that-$16K-GPU-is]] |
 | 2026-10-25T23:45:19+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-10-25/7919d1e7a7c15bbe_Show-HN-Redmi-phone-can-do-things-that-$16K-GPU-is]] |
+| 2026-10-26T00:19:08+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-10-25/7919d1e7a7c15bbe_Show-HN-Redmi-phone-can-do-things-that-$16K-GPU-is]] |
+| 2026-10-26T00:37:35+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-10-25/7919d1e7a7c15bbe_Show-HN-Redmi-phone-can-do-things-that-$16K-GPU-is]] |
 
 ## 摘要正文
 

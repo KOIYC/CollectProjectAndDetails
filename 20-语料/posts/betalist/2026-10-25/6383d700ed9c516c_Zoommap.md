@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/zoommap"
 published_at: "2026-10-25"
-captured_at: "2026-10-25T23:31:07+08:00"
+captured_at: "2026-10-26T00:22:11+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-10-25
 > 项目链接：—
-> 采集：2026-10-25T23:31:07+08:00　|　id：`6383d700ed9c516c`
+> 采集：2026-10-26T00:22:11+08:00　|　id：`6383d700ed9c516c`
 
 ## 正文
 
@@ -90,9 +90,9 @@ MapMaster
  Browse and contribute to interactive maps for games
 Map Your Video
  Know what to film before you press record
-EntreDash
+Adviserry
  BOOSTED
- Validate and shape your idea with a private AI advisory board
+ Automatically get personalized actions from your YT/Pod/email subs
  BOOSTED
 MeetingSketch
  Turn transcripts into architecture maps, briefs, and next steps
@@ -100,9 +100,9 @@ Misconception.ai
  Create interactive 3D visualizations for products or concepts
 Workbench
  Collaborative screen sharing for designers and developers
-Aria
+Terrapin
  BOOSTED
- Free color analysis and honest verdicts before you buy
+ Turn receipts, email & photos into clean, tax-ready insights, automatically
  BOOSTED
 Macroplane
  Map AI supply-chain bottlenecks and risks across public companies

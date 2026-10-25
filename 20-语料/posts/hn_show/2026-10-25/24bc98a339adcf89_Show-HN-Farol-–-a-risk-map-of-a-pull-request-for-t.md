@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=50231349"
 project_url: "https://github.com/winnin/farol"
 author: "ericholiveira"
 published_at: "2026-10-25T13:28:06Z"
-captured_at: "2026-10-25T23:50:02+08:00"
+captured_at: "2026-10-26T00:19:08+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,9 +21,9 @@ tags:
   - story_50231349
   - show_hn
   - front_page
-metrics: {"points": 31, "comments": 19, "engagement_velocity": 31}
-comments_count: 21
-comments_total: 21
+metrics: {"points": 43, "comments": 25, "engagement_velocity": 43}
+comments_count: 25
+comments_total: 25
 discovered_via: "hn:show_hn:3d"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "hn:show_hn:3d"
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=50231349>
-> 指标：点赞=31 · 评论=19 · engagement_velocity=31
+> 指标：点赞=43 · 评论=25 · engagement_velocity=43
 > 作者：ericholiveira　|　发布：2026-10-25T13:28:06Z
 > 项目链接：<https://github.com/winnin/farol>
-> 采集：2026-10-25T23:50:02+08:00　|　id：`24bc98a339adcf89`
+> 采集：2026-10-26T00:19:08+08:00　|　id：`24bc98a339adcf89`
 
 ## 正文
 
@@ -549,9 +549,7 @@ SECURITY.md to report a vulnerability.
 
 MIT © 2026 Winnin
 
-# assembledev/edgepad
-
-## 评论（21/21）
+## 评论（25/25）
 
 > **ericholiveira** · 2026-10-25T13:28:48.000Z　
 > Hi HN, I built farol at Winnin, where we open-sourced it (MIT).AI agents now write a lot of our code, and AI reviewers catch a lot of
@@ -681,6 +679,26 @@ MIT © 2026 Winnin
 
 > **alex_suzuki** · 2026-10-25T15:23:37.000Z　
 > > SQLAlchemy has an eDSL of SQL, so you can skip the whole ORM/table mapping layer, and just use it to programmatically construct SQL syntaxYes, this is called SQLAlchemy Core: http://docs.sqlalchemy.org/en/latest/core/You can also just use psycopg (the Postgres driver layer) directly, it’s surprisingly ergonomic in my (limited) experience.
+
+---
+
+> **nico** · 2026-10-25T15:52:35.000Z　
+> > It said code generate with Claude, is it really still this bad?Anecdata, datapoint of 1 personal experience: I had been using Opus 4.6 with no problems until yesterday, then it seemed like it was missing things constantly, introducing random bugs, forgetting basic stuff that was in its memory and skills and should never missSame thing happened on 2 separate sessions I had with Opus 4.6Ended up switching to 5.5 and Fable, things improved instantlyThis left me with a weird taste
+
+---
+
+> **Zambyte** · 2026-10-25T16:00:02.000Z　
+> If there couldn't be multiple monorepos, there would be no such thing as a monorepo.
+
+---
+
+> **nico** · 2026-10-25T15:59:11.000Z　
+> In my personal experience, it’s very rare to catch a comment/story while vouchable. Not sure how many flags does it take for something to be killed, but it seems like almost as soon as something gets flagged, it becomes a signal for others to flag it too immediately without thought (similar thing kinda happens too when you post a comment and the first vote is a downvote, it almost never recovers, even if it was a good comment, as the initial drop/greying biases anyone that sees it before they even read it)
+
+---
+
+> **nico** · 2026-10-25T15:55:40.000Z　
+> No restriction for the submission itself, unless it’s something like an Ask/Tell/Show HN, in which the content goes directly on the post (and will get flagged if AI-generated/assisted)
 
 ## 关联链接
 

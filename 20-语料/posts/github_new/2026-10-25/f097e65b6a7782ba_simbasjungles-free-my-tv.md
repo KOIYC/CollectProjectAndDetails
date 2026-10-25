@@ -8,7 +8,7 @@ url: "https://github.com/simbasjungles/free-my-tv"
 project_url: "https://freemytv.io/"
 author: "simbasjungles"
 published_at: "2026-10-19T19:29:01Z"
-captured_at: "2026-10-25T23:30:16+08:00"
+captured_at: "2026-10-26T00:21:51+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - Java
-  - created:>2026-10-11
-metrics: {"stars": 4466, "forks": 739, "open_issues": 84}
+  - created:>2026-10-12
+metrics: {"stars": 4482, "forks": 739, "open_issues": 86}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/simbasjungles/free-my-tv>
-> 指标：stars=4466 · forks=739 · open_issues=84
+> 指标：stars=4482 · forks=739 · open_issues=86
 > 作者：simbasjungles　|　发布：2026-10-19T19:29:01Z
 > 项目链接：<https://freemytv.io/>
-> 采集：2026-10-25T23:30:16+08:00　|　id：`f097e65b6a7782ba`
+> 采集：2026-10-26T00:21:51+08:00　|　id：`f097e65b6a7782ba`
 
 ## 正文
 

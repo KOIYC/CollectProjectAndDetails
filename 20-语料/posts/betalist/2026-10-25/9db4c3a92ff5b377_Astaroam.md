@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/astaroam"
 published_at: "2026-10-25"
-captured_at: "2026-10-25T23:31:07+08:00"
+captured_at: "2026-10-26T00:22:11+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-10-25
 > 项目链接：—
-> 采集：2026-10-25T23:31:07+08:00　|　id：`9db4c3a92ff5b377`
+> 采集：2026-10-26T00:22:11+08:00　|　id：`9db4c3a92ff5b377`
 
 ## 正文
 
@@ -91,9 +91,9 @@ Mindfuse
  Talk one-on-one by voice with real people worldwide anonymously
 Quick Contacts
  Access your phone book from any browser with an alias and PIN
-GoldMine
+Terrapin
  BOOSTED
- Let AI agents run your content, SEO, and outreach while you build
+ Turn receipts, email & photos into clean, tax-ready insights, automatically
  BOOSTED
 On-Device AI
  Offline AI suite: Voice live transcription, chat with AI models and more

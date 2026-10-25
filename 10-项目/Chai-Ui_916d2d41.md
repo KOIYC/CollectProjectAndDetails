@@ -2,7 +2,7 @@
 type: "project"
 title: "Chai Ui"
 project_url: "https://betalist.com/startups/chai-ui"
-first_seen: "2026-10-25T23:31:07+08:00"
+first_seen: "2026-10-26T00:22:11+08:00"
 sources:
   - betalist
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://betalist.com/startups/chai-ui>
-> 首次收录：2026-10-25T23:31:07+08:00
+> 首次收录：2026-10-26T00:22:11+08:00
 > 来源渠道：BetaList
 > 标签：—
 > 最新指标：—
@@ -28,6 +28,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-10-25T23:31:07+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-10-25/916d2d41a622f6f6_Chai-Ui]] |
+| 2026-10-26T00:22:11+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-10-25/916d2d41a622f6f6_Chai-Ui]] |
 
 ## 摘要正文
 

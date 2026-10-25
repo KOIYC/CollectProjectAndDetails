@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=50224416"
 project_url: "https://mahmoud.sh/whistle-translator"
 author: "msdocs"
 published_at: "2026-10-24T19:42:59Z"
-captured_at: "2026-10-25T23:24:35+08:00"
+captured_at: "2026-10-26T00:19:08+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=2 · 评论=1 · engagement_velocity=2
 > 作者：msdocs　|　发布：2026-10-24T19:42:59Z
 > 项目链接：<https://mahmoud.sh/whistle-translator>
-> 采集：2026-10-25T23:24:35+08:00　|　id：`07b06d9a0f347920`
+> 采集：2026-10-26T00:19:08+08:00　|　id：`07b06d9a0f347920`
 
 ## 正文
 
@@ -47,10 +47,10 @@ Whistle Translator
  Python example
  GitHub
 Speak. Translate. Type anywhere. Offline.
-An app for Mac and Windows that turns your voice into text and translates it, entirely on your computer. Speak in seven languages, translate into eight, record whole meetings, and hold a shortcut in any app to dictate. Nothing you say ever leaves your computer.
+An app for Mac and Windows that turns your voice into text and translates it, entirely on your computer. Speak and translate in eight languages, including Arabic, record whole meetings, and hold a shortcut in any app to dictate. Nothing you say ever leaves your computer.
 Download for Mac
  Download for Windows
-Version 0.4.0 · Free · Mac: Apple Silicon, macOS 12 or later, 6.0 MB · Windows: 10 or 11, x64, 5.6 MB
+Free · Mac 0.5.1: Apple Silicon, macOS 12 or later, 6.5 MB · Windows 0.4.0: 10 or 11, x64, 5.6 MB
 Or with Homebrew : brew install --cask msdocs/tap/whistle-translator
 From Detect language ⇄ To German
 English Turn off the kitchen lights and set a timer for ten minutes.
@@ -73,7 +73,7 @@ Record meetings
  Meeting mode transcribes for as long as you talk, saves a timestamped transcript and its translation as it goes, and keeps your computer awake until you stop.
 Transcribe recordings
  Open a WAV file of any length and get its transcript and translation.
-English German French Spanish Italian Dutch Polish Arabic (translate into)
+English German French Spanish Italian Dutch Polish Arabic
 Install
 The app isn't signed by Apple or Microsoft yet, so your computer asks you to confirm it the first time.
 Mac, with Homebrew
@@ -84,15 +84,16 @@ Mac, or download it
 Download the .dmg , open it, and drag Whistle Translator to Applications. (Homebrew does this step for you.)
 Open the app. When macOS says it can't verify the developer, click Done .
 Go to System Settings → Privacy & Security , scroll to Security, and click Open Anyway . Then open the app again.
-Pick your languages. The speech model (17 MB) and each language (about 150–240 MB) download once.
+Pick your languages. The speech model (17 MB) and each language (about 150–240 MB; Arabic, which brings its own speech model, about 745 MB) download once.
 To dictate into other apps, allow it in System Settings → Privacy & Security → Accessibility when asked.
-SHA-256 of the 0.4.0 download: 29202f0e1254474599de60d56bef24c95e06e42dc5b6c3b76b4491a5db070918
+SHA-256 of the 0.5.1 download: b9dd995fe4e45ed2f76fb25b8020c8db0c52380ca11fe4a41be2d0bcefc2a4d5
 Prefer Terminal? After copying the app to Applications, xattr -dr com.apple.quarantine "/Applications/Whistle Translator.app" lets it open normally.
 Windows
 Download the installer and run it.
 If Windows SmartScreen says it protected your PC, click More info , then Run anyway .
 Pick your languages. The speech model (17 MB) and each language (about 150–240 MB) download once.
 Dictate in any app with Alt+Space . No extra permission is needed.
+The Windows version is still 0.4.0, which translates into Arabic but can't transcribe spoken Arabic yet; that comes with its next update.
 Windows 10 or 11 on x64. SHA-256 of the 0.4.0 installer: 5d462d56543fe3a9580773df89c4c90879f1a57490f4ac25b671dc2731d7e8c1
 Start with the Python example
 The app grew out of a small Python project: offline speech-to-text and translation in a few lines, from a WAV file, the microphone or a live stream.

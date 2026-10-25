@@ -2,7 +2,7 @@
 type: "project"
 title: "Launchon It"
 project_url: "https://launchon.it/"
-first_seen: "2026-10-25T23:31:48+08:00"
+first_seen: "2026-10-26T00:22:30+08:00"
 sources:
   - indiehackers
 tags:
@@ -14,11 +14,11 @@ lang: "en"
 # Launchon It
 
 > [!info] 一句话导读
-> LaunchOnIt - Indie Hackers
+> Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://launchon.it/>
-> 首次收录：2026-10-25T23:31:48+08:00
+> 首次收录：2026-10-26T00:22:30+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -39,7 +39,8 @@ lang: "en"
 | 2026-10-16T09:37:58+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
 | 2026-10-17T13:38:36+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
 | 2026-10-25T23:31:48+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
+| 2026-10-26T00:22:30+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
 
 ## 摘要正文
 
-LaunchOnIt - Indie Hackers  # LaunchOnIt  Product launch platform for indie startups.  October 21, 2026 What I learned growing a startup directory to DR 43 and turning it into a weekly launch platform for indie hackers  When you build a product in public, people usually only see the polished metrics or the final launch day. But the messy middle is where the actual lessons happen.  A few weeks ago, I got tired of the traditional software launch model. Watching months of hard work get compressed into a chaotic 24 hour upvote race on sites like Product Hunt, only for traffic to flatline by Wednesday, felt completely broken for bootstrapped creators.  That frustration is why I launched LaunchOnIt.  Instead of a single day of panic, we set up a weekly cohort system where products stay on the front page for a full seven days, backed by permanent dofollow backlinks and clean Schema.org structured data built for Google SEO.  The growth since then has been a wild ride. Thanks to organic momentum, the domain rating climbed to over 40, revenue started compounding, and hundreds of indie makers have used the platform to get actual visibility instead of vanity metrics.  To make things even smoot…
+Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join LaunchOnIt  Product launch platform for indie startups. Visit Website LaunchOnIt Product launch platform for indie startups.  Posts 34+  Revenue $0 / mo  Website Twitter October 25, 2026  The Sunday planning ritual: building a software distribution engine that runs while you sleep Sundays are usually my favorite day to step away from active coding, clear my head, and look at the structural side of my projects without the constant ping of notifications.  When you look at how most early-stage founders try to get users, it is exhausting. They spend all week manually posting links, chasing algorithms, and grinding out social media content. If they stop posting for two days, their traffic drops straight to zero. That is not a business, that is just a very tiring treadmill.  Real leverage in indie hacking comes from building systems that compound on their own.  This is the exact philosophy we baked into the core of LaunchOnIt . Instead of forcing makers into a brutal 24 hour upvote race that vanishes by Wednesday, the platform is designed to gi…
