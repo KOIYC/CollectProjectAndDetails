@@ -2,7 +2,7 @@
 type: "project"
 title: "Jakeschincariol/replica-skill"
 project_url: "https://opusjake.ai/"
-first_seen: "2026-10-26T00:21:52+08:00"
+first_seen: "2026-10-26T09:44:48+08:00"
 sources:
   - github_new
 tags:
@@ -20,10 +20,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://opusjake.ai/>
-> 首次收录：2026-10-26T00:21:52+08:00
+> 首次收录：2026-10-26T09:44:48+08:00
 > 来源渠道：GitHub 新星仓库
 > 标签：Python, topic:indie-hacker
-> 最新指标：stars=5423 · forks=950 · open_issues=13
+> 最新指标：stars=5494 · forks=965 · open_issues=13
 
 ## 观测历史
 
@@ -36,6 +36,7 @@ lang: "en"
 | 2026-10-22T09:47:45+08:00 | GitHub 新星仓库 | stars=4045 · forks=705 · open_issues=12 | [[20-语料/posts/github_new/2026-10-10/056cd65a152e2b1f_Jakeschincariol-replica-skill]] |
 | 2026-10-25T23:30:20+08:00 | GitHub 新星仓库 | stars=5411 · forks=948 · open_issues=13 | [[20-语料/posts/github_new/2026-10-10/056cd65a152e2b1f_Jakeschincariol-replica-skill]] |
 | 2026-10-26T00:21:52+08:00 | GitHub 新星仓库 | stars=5423 · forks=950 · open_issues=13 | [[20-语料/posts/github_new/2026-10-10/056cd65a152e2b1f_Jakeschincariol-replica-skill]] |
+| 2026-10-26T09:44:48+08:00 | GitHub 新星仓库 | stars=5494 · forks=965 · open_issues=13 | [[20-语料/posts/github_new/2026-10-10/056cd65a152e2b1f_Jakeschincariol-replica-skill]] |
 
 ## 摘要正文
 

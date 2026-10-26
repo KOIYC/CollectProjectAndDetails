@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/link-mesh"
 project_url: "https://github.com/businesstrip-ship-it/N8N-autoposting-from-RSS-to-WordPress"
-captured_at: "2026-10-25T23:31:48+08:00"
+captured_at: "2026-10-26T09:45:11+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://github.com/businesstrip-ship-it/N8N-autoposting-from-RSS-to-WordPress>
-> 采集：2026-10-25T23:31:48+08:00　|　id：`d387c5afa61c8aea`
+> 采集：2026-10-26T09:45:11+08:00　|　id：`d387c5afa61c8aea`
 
 ## 正文
 
@@ -53,7 +53,7 @@ I built LinkMesh and learned how hard it is to get your first customers. It’s 
  I decided to make it completely free . No credit card, no Reddit account required. Just enter the keywords related to your project and you’re good to go.
  Enjoy! And I’d really appreciate any feedback 🙌
 Vladimir Che
-3 Upvotes
+4 Upvotes
 2 Comments
 September 28, 2026
  "Scheduled for Nov 2027" — The ridiculous state of "free" startup directories

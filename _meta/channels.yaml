@@ -366,6 +366,11 @@ channels:
       已知限制：① url 带 xsec_token（有时效）→ item_id 不稳，应剥 xsec_* 再做去重键；
       ② 无正文 enricher，body 仅为元数据块、likes 未进 metrics；
       ③ fix: 已改 3 路 query 全部执行（之前只跑 queries[0]）。
+      **2026-10-26 09:42 复测又回落 `auth`**（`[rate-limiter] xiaohongshu: sleeping 14s` / `ok: false`），
+      而**同一轮采集侧成功取到 1 条**（3 路查询 / 89.9s / 写盘 0 = 无变化不重写）→ 两边口径不一致：
+      体检探针打的是「一次性 search」，撞上 rate-limiter 睡眠窗口即判 auth，采集端慢速三路跑能过。
+      ⇒ 判据补充：**该渠道的 `auth` 只在「体检 + 采集同轮都取不到」时才算登录态问题**，
+      单侧 auth 属限流抖动，照旧保持 enabled、不复检、不写 disabled。
     meta_unavailable:
       author: "小红书用户 ID 可用但非真实姓名 → conditional availability"
       project_url: "帖子中可能有外部链接但非项目官网 → structural dependency"
@@ -508,21 +513,21 @@ channels:
 
 content_gate:
   audited_at: '2026-10-26'
-  overall: '2841/3203（89%）'
+  overall: '2904/3279（89%）'
   rows:
-    - {id: producthunt, ratio: '412/418', verdict: keep}
-    - {id: betalist, ratio: '204/204', verdict: keep}
+    - {id: producthunt, ratio: '415/421', verdict: keep}
+    - {id: betalist, ratio: '212/212', verdict: keep}
     - {id: devto, ratio: '17/22', verdict: keep,
        note: n=19 小样本；标题 require_any 曾把样本全过滤（0 条 = 杀渠道），已回退为「少量标题排除 + limit 降量」}
-    - {id: bilibili, ratio: '62/66', verdict: keep,
+    - {id: bilibili, ratio: '65/69', verdict: keep,
        note: 94%。2026-10-10：曾出现采集端 0 videos（探针同轮 ok）→ 调查确认 B 站搜索 API 实测健康
        （code=0 / 20 results / play>3000 有货）→ 判为**瞬态 WBI 风控空返回**，非渠道腐化。B 站是**累计搜索型渠道、无时间窗口**，
        本轮不补也无数据丢失（同 c1c7 判据），保持 enabled。2026-10-16 正常（8 条 / new 3，丢弃 4/12=33%「无主题词」）}
     - {id: indiehackers, ratio: '151/155', verdict: keep}
-    - {id: hn_show, ratio: '1517/1602', verdict: keep,
+    - {id: hn_show, ratio: '1542/1627', verdict: keep,
        note: 95%。大厂产品假阳性已修（Show HN 标题自述的条目不再因提到 Stripe/Google 被判「大厂产品」）；
        主要残余是视频帖无正文（结构性，记死信）与 Exa 截断 34。2026-10-22 采集 40 条全命中、丢弃 0。2026-10-26 1517/1602（95%）；残余 unusable 85 / summary 26 / trunc 34 结构未变}
-    - {id: github_new, ratio: '63/85', verdict: keep,
+    - {id: github_new, ratio: '62/86', verdict: keep,
        note: 74%。噪声是 awesome-*/directory/clone/wiki/journal 类资源清单（标题规则已排除，见 rule_drops）。
        2026-10-11：体检探针报 error（0 repos / 44.5s，gh search 网络层 GET 错误），单渠道复检 **ok（3 repos / 4.4s）**
        + 三层探针（api.github.com TCP 0.15s / TLS 0.27s 正常）→ 判**瞬态网络层错误**，非渠道腐化；同轮采集取到 13 条为铁证。
@@ -530,7 +535,7 @@ content_gate:
        2026-10-17 体检再报 error（`gh search` 90.8s 超时，`github_gh` 后端复检 timeout>45s）→ 三层探针对照
        `api.github.com` **/search/repositories 实测 200（7.37s，慢但通）**，且**同轮采集取到 13 条 / 写盘 11** ⇒ 瞬态链路慢，保持 enabled。
        2026-10-22 丢弃 17/28 = **61%**（7 标题 journal/awesome-*/clone/directory + 10 无主题词 库与 demo），逐条核对无误杀；探针 ok 3 repos / 2.1s。2026-10-26 丢弃 16/28 = 57%（标题 7 + 无主题词 9），无误杀；63/85 = 74%}
-    - {id: v2ex, ratio: '105/146', verdict: keep,
+    - {id: v2ex, ratio: '107/148', verdict: keep,
        note: 71%。主要噪声是「NAS 必装 Docker 推荐」类资源帖；rules.yaml 已排招聘/求职/求助。
        2026-10-16 丢弃 10/25（40%）：7 条标题（招聘/求职为主）+ 3 条无主题词，无误杀。
        ⚠ 待评估：v2ex 自述发布帖（「做了/做了一个/做了个…」）被主题词门滤掉（如「做了一个 Durable Agent Harness
@@ -540,9 +545,9 @@ content_gate:
        「[分享创造] 测了 20 多个导航站后做的 Builderoom」（`2425218c95f8ecdd`，n=1 独立案例），命中全局 `exclude_title`
        的 `导航站|目录站`。该规则本意排「名录/资源站内容」，不该排「我做了个导航站」这种**自述发布** →
        同类独立案例累计 **n=2**（另一例 `889eb28da2792b1d` 9-29 起 n=3 但同一 item），**未到 n≥3 不动规则**。2026-10-26 105/146 = 72%（resource 31 为主，NAS/Docker 推荐类）；丢弃 3/25（标题 2 招聘 + 无主题词 1 提问帖），无误杀}
-    - {id: exa_discovery, ratio: '26/34', verdict: keep,
+    - {id: exa_discovery, ratio: '31/39', verdict: keep,
        note: 76%，小样本（weekly_only，非周一不跑）。1 条「Respira Exhale」疑误杀 n=1，未到动手阈值。2026-10-26 26/34 = 76%（irrelevant 8 / resource 8）；本轮 32 results → 收 10 条（URL 2 + 无主题词 3），丢弃项均为 IndieDB/Steam 游戏新闻，非目标语料}
-    - {id: reddit, ratio: '279/463', verdict: limit_reduced,
+    - {id: reddit, ratio: '297/492', verdict: limit_reduced,
        note: 60%（全库最低）。已把 limit 40→30 控量（标题过滤模拟到 88% 但丢 29 条可用帖，代价大于收益，不采纳）。
        窗口外移 settle_days=10 / window_days=14 后近两周语料抓不到（见渠道 note），审计口径与采集口径要一起看。
        2026-10-16：源站正常（探针 ok / 3 posts，19 条 / new 19）→ 维持 limit_reduced。
@@ -557,7 +562,10 @@ content_gate:
        且与 ghproxy.net 逐字节一致**（10-16 时 gcore 还 0/8）→ 换 gcore 后单渠道复检 ok/9 entries，采集取到 7 条。
        ⇒ **该 CDN 是窗口轮转，每次坏窗口都要重新用探针挑镜像，不要以为换过一次就一劳永逸**。
        2026-10-22 采集再报 10054（体检探针 ok / 9 entries / 4.3s）→ 同一个「窗口轮转」现象，第 3 次复现；
-       累积型名录无时间窗口 ⇒ 不补无数据丢失，不改配置（换镜像只解决当时那个窗口）。2026-10-26 体检 ok（9 entries / 4.8s）· 采集 7 条（17 entries 过滤标题 10）；5/7 = 71%，n=7 小样本}
+       累积型名录无时间窗口 ⇒ 不补无数据丢失，不改配置（换镜像只解决当时那个窗口）。2026-10-26 体检 ok（9 entries / 4.8s）· 采集 7 条（17 entries 过滤标题 10）；5/7 = 71%，n=7 小样本。
+       2026-10-26 09:42 轮：体检同轮 ok（9 entries / 7.0s）但采集 0 条报 10054 → **窗口轮转第 4 次复现**，
+       再次证实「探针 ok 不代表采集那一刻」（同 10-17 判据）；累积型名录无时间窗口 ⇒ 不补无数据丢失，
+       不改配置。5/7 维持，`project_url` 2 条缺口待下轮好窗口自然收}
 
 
 # ---------------- 后端可用性订正（实测，会被 kb_audit 复检） ----------------

@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=50231486"
 project_url: "https://github.com/thomasunise/argus"
 author: "modern_cmo"
 published_at: "2026-10-25T13:41:19Z"
-captured_at: "2026-10-25T23:24:35+08:00"
+captured_at: "2026-10-26T09:42:36+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=15 · 评论=4 · engagement_velocity=15
 > 作者：modern_cmo　|　发布：2026-10-25T13:41:19Z
 > 项目链接：<https://github.com/thomasunise/argus>
-> 采集：2026-10-25T23:24:35+08:00　|　id：`c1da1845706a842b`
+> 采集：2026-10-26T09:42:36+08:00　|　id：`c1da1845706a842b`
 
 ## 正文
 
@@ -79,8 +79,6 @@ I built ARGUS because I think businesses should have access to better cybersecur
 It’s available on GitHub now. I’d love to get feedback from developers, security engineers, and anyone interested in trying it.
 
 https://github.com/thomasunise/argus
-
-# winnin/farol
 
 ## 评论（4/4）
 

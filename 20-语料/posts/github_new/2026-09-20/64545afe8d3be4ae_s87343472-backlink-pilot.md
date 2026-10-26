@@ -8,7 +8,7 @@ url: "https://github.com/s87343472/backlink-pilot"
 project_url: "https://github.com/s87343472/backlink-pilot"
 author: "s87343472"
 published_at: "2026-02-16T03:48:48Z"
-captured_at: "2026-10-26T00:37:34+08:00"
+captured_at: "2026-10-26T09:53:18+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -19,7 +19,7 @@ tags:
   - github_new
   - JavaScript
   - topic:indie-hacker
-metrics: {"stars": 379, "forks": 103, "open_issues": 8}
+metrics: {"stars": 381, "forks": 103, "open_issues": 8}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -28,64 +28,27 @@ discovered_via: "github:14d"
 # s87343472/backlink-pilot
 
 > [!info] 一句话导读
-> s87343472/backlink-pilot
+> [中文文档](README.zh.md)**
 
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/s87343472/backlink-pilot>
-> 指标：stars=379 · forks=103 · open_issues=8
+> 指标：stars=381 · forks=103 · open_issues=8
 > 作者：s87343472　|　发布：2026-02-16T03:48:48Z
 > 项目链接：<https://github.com/s87343472/backlink-pilot>
-> 采集：2026-10-26T00:37:34+08:00　|　id：`64545afe8d3be4ae`
+> 采集：2026-10-26T09:53:18+08:00　|　id：`64545afe8d3be4ae`
 
 ## 正文
 
-# s87343472/backlink-pilot
-
-Automated backlink submission toolkit for indie hackers — submit your product to directory sites, awesome-lists, and search engines with one command
-
-- Stars: 375
-- Forks: 103
-- Watchers: 375
-- Open issues: 8
-- License: MIT License
-- Default branch: main
-- Created: 2026-02-16T03:48:48Z
-
-## Languages
-
-- JavaScript
-
-## Topics
-
-- automation
-- awesome-lists
-- backlinks
-- directory-submission
-- indie-hacker
-- link-building
-- marketing
-- openclaw
-- playwright
-- seo
-
-## Top Contributors
-
-- s87343472 (6 contributions)
-
----
-
-## README
-
 # Backlink Pilot v2.1
 
-**中文文档**
+**[中文文档](README.zh.md)**
 
 **One config, one command. Automated backlink submission for indie products.**
 
-> Built by an AI Agent (OpenClaw) during real-world link building — battle-tested on 30+ sites.
+> Built by an AI Agent ([OpenClaw](https://openclaw.ai)) during real-world link building — battle-tested on 30+ sites.
 
-**259 target sites** in `targets.yaml` — 226 auto-submittable with bb-browser.
+**259 target sites** in [`targets.yaml`](targets.yaml) — 226 auto-submittable with bb-browser.
 
 ---
 
@@ -101,7 +64,7 @@ claude    # Open Claude Code, just say "submit my product to free directories"
 
 Claude automatically reads `CLAUDE.md`, guides you through config, installs bb-browser, and starts submitting.
 
-Detailed tutorial: docs/tutorial.md | Full guide: docs/guide.md
+Detailed tutorial: [docs/tutorial.md](docs/tutorial.md) | Full guide: [docs/guide.md](docs/guide.md)
 
 ---
 
@@ -257,13 +220,13 @@ node src/cli.js scout https://new-site.com --deep
 npm test
 ```
 
-> Full debugging notes: docs/troubleshooting.md
+> Full debugging notes: [docs/troubleshooting.md](docs/troubleshooting.md)
 
 ---
 
 ## Contributing
 
-See docs/contributing.md. PRs welcome: new adapters, CAPTCHA improvements, bug fixes.
+See [docs/contributing.md](docs/contributing.md). PRs welcome: new adapters, CAPTCHA improvements, bug fixes.
 
 ## License
 
@@ -271,19 +234,17 @@ MIT
 
 ## Credits
 
-Built with OpenClaw. Browser automation by bb-browser and rebrowser-playwright.
-
-Error fetching https://chatgpt.com/plugins/plugin_asdk_app_6abdec89d46c81919cda058ca9f62cb8?search=call4me: CRAWL_EMPTY_CONTENT
-Error fetching https://www.reddit.com/r/SaaS/comments/1x6pnnd/i_got_tired_so_i_built_nothing/: CRAWL_EMPTY_CONTENT
+Built with [OpenClaw](https://openclaw.ai). Browser automation by [bb-browser](https://github.com/niciral/bb-browser) and [rebrowser-playwright](https://github.com/nickthecoder/rebrowser-playwright).
 
 ## 关联链接
 
 - https://any-site.com
-- https://chatgpt.com/plugins/plugin_asdk_app_6abdec89d46c81919cda058ca9f62cb8?search=call4me:
+- https://github.com/niciral/bb-browser
+- https://github.com/nickthecoder/rebrowser-playwright
 - https://github.com/s87343472/backlink-pilot.git
 - https://new-site.com
 - https://new-site.com/submit
-- https://www.reddit.com/r/SaaS/comments/1x6pnnd/i_got_tired_so_i_built_nothing/:
+- https://openclaw.ai
 
 ## 导航
 

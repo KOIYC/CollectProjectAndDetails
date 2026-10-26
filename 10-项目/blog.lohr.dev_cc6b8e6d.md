@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: Shrinking my 159-byte x86-64 Hello World ELF to 153 bytes"
 project_url: "https://blog.lohr.dev/hello-world-contd"
-first_seen: "2026-10-26T00:19:08+08:00"
+first_seen: "2026-10-26T09:42:36+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://blog.lohr.dev/hello-world-contd>
-> 首次收录：2026-10-26T00:19:08+08:00
+> 首次收录：2026-10-26T09:42:36+08:00
 > 来源渠道：HN Show HN
 > 标签：author_michidk, story_50230693, show_hn
 > 最新指标：点赞=3 · 评论=0 · engagement_velocity=3
@@ -32,6 +32,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-10-25T23:24:35+08:00 | HN Show HN | 点赞=3 · 评论=0 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-10-25/5af0d2b1ea9e5e33_Show-HN-Shrinking-my-159-byte-x86-64-Hello-World-E]] |
 | 2026-10-26T00:19:08+08:00 | HN Show HN | 点赞=3 · 评论=0 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-10-25/5af0d2b1ea9e5e33_Show-HN-Shrinking-my-159-byte-x86-64-Hello-World-E]] |
+| 2026-10-26T09:42:36+08:00 | HN Show HN | 点赞=3 · 评论=0 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-10-25/5af0d2b1ea9e5e33_Show-HN-Shrinking-my-159-byte-x86-64-Hello-World-E]] |
 
 ## 摘要正文
 

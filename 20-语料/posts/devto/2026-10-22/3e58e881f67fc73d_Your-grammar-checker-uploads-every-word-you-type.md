@@ -8,7 +8,7 @@ url: "https://dev.to/rudratosh/your-grammar-checker-uploads-every-word-you-type-
 project_url: "https://brisktype.com/"
 author: "Rudratosh Shastri"
 published_at: "2026-10-19T18:06:54Z"
-captured_at: "2026-10-25T23:32:53+08:00"
+captured_at: "2026-10-26T09:45:36+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,9 +21,9 @@ tags:
   - ai
   - macos
   - indiehackers
-metrics: {"reactions": 7, "comments": 15, "reading_time": 6}
-comments_count: 15
-comments_total: 15
+metrics: {"reactions": 7, "comments": 16, "reading_time": 6}
+comments_count: 16
+comments_total: 16
 discovered_via: "devto:indiehackers"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:indiehackers"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/rudratosh/your-grammar-checker-uploads-every-word-you-type-i-built-one-that-never-leaves-your-mac-8pj>
-> 指标：reactions=7 · 评论=15 · reading_time=6
+> 指标：reactions=7 · 评论=16 · reading_time=6
 > 作者：Rudratosh Shastri　|　发布：2026-10-19T18:06:54Z
 > 项目链接：<https://brisktype.com/>
-> 采集：2026-10-25T23:32:53+08:00　|　id：`3e58e881f67fc73d`
+> 采集：2026-10-26T09:45:36+08:00　|　id：`3e58e881f67fc73d`
 
 ## 正文
 
@@ -157,7 +157,7 @@ If "my grammar checker shouldn't need the internet" sounds right to you, that's 
 
 I built this solo, and I read everything. If you try it, tell me what breaks, what you wish it did, and which app you most want out of beta. That feedback is the roadmap.
 
-## 评论（15/15）
+## 评论（16/16）
 
 > **arcwrightai** · 2026-10-19T18:08:58Z　
 > Local-first is the right call for anything that touches your writing. Privacy shouldn't be a premium feature.
@@ -247,6 +247,11 @@ I built this solo, and I read everything. If you try it, tell me what breaks, wh
 > Two small models instead of one bigger one — speed, or was one bad at both?
 >
 > Mostly the RAM budget, then speed. The "Faster" model keeps autocomplete under a keystroke's latency on an 8GB Air where one bigger model would swap; the "Higher quality" one does better rewrites if you can spare the memory. Not one-bad-at-both so much as one-size-doesn't-fit-both-machines — you pick per device. And agreed, Mail's the first app most people want it in; it's supported out of the box (the browser/Slack-type apps are what's still in beta).
+
+---
+
+> **Vardum (formerly VEIL)** · 2026-10-25T19:26:44Z　
+> That makes sense. Picking the model per machine is smarter than one size for everyone, and 8 GB Airs are everywhere. Good to hear Mail already works.
 
 ## 关联链接
 

@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/circlesaas"
 project_url: "https://circlesaasboard.com/"
-captured_at: "2026-10-26T00:22:30+08:00"
+captured_at: "2026-10-26T09:45:11+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://circlesaasboard.com/>
-> 采集：2026-10-26T00:22:30+08:00　|　id：`d2bccc43c69206ee`
+> 采集：2026-10-26T09:45:11+08:00　|　id：`d2bccc43c69206ee`
 
 ## 正文
 
@@ -62,8 +62,8 @@ When I first shared CircleSaaS , I learned quickly that people read it different
  Be honest, because I'd like to fix whatever is unclear.
  If you haven't listed your startup yet, you can claim a free tile at circlesaasboard.com.
 Vikas Yadav
-16 Upvotes
-3 Comments
+19 Upvotes
+8 Comments
 October 24, 2026
  My launch checklist for the CircleSaaS directory launches (tell me what I’m missing)
 I’m about to launch CircleSaaS on bigger directories, so I wrote down the checklist I’m working through. It’s the solo-founder version of a longer one I published, trimmed to 12 items.
@@ -87,8 +87,8 @@ On launch
  The full version, with a 7-phase timeline, is here: https://circlesaasboard.com/blog/saas-launch-checklist
  If you haven’t listed your startup on circlesaasboard.com yet, you can submit it free.
 Vikas Yadav
-32 Upvotes
-14 Comments
+34 Upvotes
+23 Comments
 October 23, 2026
  Looking for 50 more startups to list on CircleSaaS
 I’m looking for 50 more startups to list on CircleSaaS . It’s a directory shaped like a circle of tiles, where every startup gets its own page and link.
@@ -99,7 +99,7 @@ I’m looking for 50 more startups to list on CircleSaaS . It’s a directory sh
  If you’ve listed before, tell me what you’d improve. If you’re not sure, ask me anything below.
 Vikas Yadav
 32 Upvotes
-24 Comments
+29 Comments
 October 19, 2026
  What’s the real reason your startup still isn’t live?
 Is it the logo?
@@ -186,8 +186,8 @@ I spent a few days reading what ranks for this question, plus Reddit's own help 
  Full guide with the picks, a 4-week plan and what to check before posting:
  https://circlesaasboard.com/blog/best-subreddits-to-promote-and-market-your-startup-for-founders-b2b-saas-marketing-and-product-launch
 Vikas Yadav
-39 Upvotes
-26 Comments
+40 Upvotes
+27 Comments
 October 16, 2026
  Day 7: 100+ startups listed on my directory
 CircleSaaS Board has crossed 100+ startups listed, all within 7 days.

@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: TemplateBox – Free resume, invoice and mockup editors in the browser"
 project_url: "https://templatebox.win/"
-first_seen: "2026-10-25T23:24:35+08:00"
+first_seen: "2026-10-26T09:42:36+08:00"
 sources:
   - hn_show
 tags:
@@ -21,16 +21,17 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://templatebox.win/>
-> 首次收录：2026-10-25T23:24:35+08:00
+> 首次收录：2026-10-26T09:42:36+08:00
 > 来源渠道：HN Show HN
 > 标签：author_Templatebox, story_50231634, show_hn
-> 最新指标：点赞=2 · 评论=0 · engagement_velocity=2
+> 最新指标：点赞=3 · 评论=0 · engagement_velocity=3
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-10-25T23:24:35+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-10-25/1ff035201bf475fe_Show-HN-TemplateBox-–-Free-resume,-invoice-and-moc]] |
+| 2026-10-26T09:42:36+08:00 | HN Show HN | 点赞=3 · 评论=0 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-10-25/1ff035201bf475fe_Show-HN-TemplateBox-–-Free-resume,-invoice-and-moc]] |
 
 ## 摘要正文
 

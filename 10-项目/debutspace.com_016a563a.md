@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: macOS window switcher replacement that keeps each Space separate"
 project_url: "https://debutspace.com/"
-first_seen: "2026-10-26T00:19:08+08:00"
+first_seen: "2026-10-26T09:42:36+08:00"
 sources:
   - hn_show
 tags:
@@ -21,10 +21,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://debutspace.com/>
-> 首次收录：2026-10-26T00:19:08+08:00
+> 首次收录：2026-10-26T09:42:36+08:00
 > 来源渠道：HN Show HN
 > 标签：author_thomplth, story_50231429, show_hn
-> 最新指标：点赞=3 · 评论=1 · engagement_velocity=3
+> 最新指标：点赞=5 · 评论=3 · engagement_velocity=5
 
 ## 观测历史
 
@@ -32,6 +32,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-10-25T23:24:35+08:00 | HN Show HN | 点赞=2 · 评论=1 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-10-25/855e17d52ab8bec0_Show-HN-macOS-window-switcher-replacement-that-kee]] |
 | 2026-10-26T00:19:08+08:00 | HN Show HN | 点赞=3 · 评论=1 · engagement_velocity=3 | [[20-语料/posts/hn_show/2026-10-25/855e17d52ab8bec0_Show-HN-macOS-window-switcher-replacement-that-kee]] |
+| 2026-10-26T09:42:36+08:00 | HN Show HN | 点赞=5 · 评论=3 · engagement_velocity=5 | [[20-语料/posts/hn_show/2026-10-25/855e17d52ab8bec0_Show-HN-macOS-window-switcher-replacement-that-kee]] |
 
 ## 摘要正文
 

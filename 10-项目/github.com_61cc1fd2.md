@@ -1,8 +1,8 @@
 ---
 type: "project"
-title: "Show HN: Farol – a risk map of a pull request for the person who approves it"
+title: "Show HN: Farol – A risk map of a pull request for the person who approves it"
 project_url: "https://github.com/winnin/farol"
-first_seen: "2026-10-26T00:19:08+08:00"
+first_seen: "2026-10-26T09:42:36+08:00"
 sources:
   - hn_show
 tags:
@@ -11,29 +11,29 @@ tags:
   - author_ericholiveira
   - story_50231349
   - show_hn
-  - front_page
 lang: "en"
 ---
 
-# Show HN: Farol – a risk map of a pull request for the person who approves it
+# Show HN: Farol – A risk map of a pull request for the person who approves it
 
 > [!info] 一句话导读
 > Know the risk of merging a pull request, and where it lives. Free, open-source CLI and GitHub Action: after your AI review, farol shows the riskiest files, what…
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/winnin/farol>
-> 首次收录：2026-10-26T00:19:08+08:00
+> 首次收录：2026-10-26T09:42:36+08:00
 > 来源渠道：HN Show HN
-> 标签：author_ericholiveira, story_50231349, show_hn, front_page
-> 最新指标：点赞=43 · 评论=25 · engagement_velocity=43
+> 标签：author_ericholiveira, story_50231349, show_hn
+> 最新指标：点赞=59 · 评论=37 · engagement_velocity=59
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-10-25T23:24:35+08:00 | HN Show HN | 点赞=31 · 评论=19 · engagement_velocity=31 | [[20-语料/posts/hn_show/2026-10-25/24bc98a339adcf89_Show-HN-Farol-–-a-risk-map-of-a-pull-request-for-t]] |
-| 2026-10-25T23:50:02+08:00 | HN Show HN | 点赞=31 · 评论=19 · engagement_velocity=31 | [[20-语料/posts/hn_show/2026-10-25/24bc98a339adcf89_Show-HN-Farol-–-a-risk-map-of-a-pull-request-for-t]] |
-| 2026-10-26T00:19:08+08:00 | HN Show HN | 点赞=43 · 评论=25 · engagement_velocity=43 | [[20-语料/posts/hn_show/2026-10-25/24bc98a339adcf89_Show-HN-Farol-–-a-risk-map-of-a-pull-request-for-t]] |
+| 2026-10-25T23:24:35+08:00 | HN Show HN | 点赞=31 · 评论=19 · engagement_velocity=31 | [[20-语料/posts/hn_show/2026-10-25/24bc98a339adcf89_Show-HN-Farol-–-A-risk-map-of-a-pull-request-for-t]] |
+| 2026-10-25T23:50:02+08:00 | HN Show HN | 点赞=31 · 评论=19 · engagement_velocity=31 | [[20-语料/posts/hn_show/2026-10-25/24bc98a339adcf89_Show-HN-Farol-–-A-risk-map-of-a-pull-request-for-t]] |
+| 2026-10-26T00:19:08+08:00 | HN Show HN | 点赞=43 · 评论=25 · engagement_velocity=43 | [[20-语料/posts/hn_show/2026-10-25/24bc98a339adcf89_Show-HN-Farol-–-A-risk-map-of-a-pull-request-for-t]] |
+| 2026-10-26T09:42:36+08:00 | HN Show HN | 点赞=59 · 评论=37 · engagement_velocity=59 | [[20-语料/posts/hn_show/2026-10-25/24bc98a339adcf89_Show-HN-Farol-–-A-risk-map-of-a-pull-request-for-t]] |
 
 ## 摘要正文
 

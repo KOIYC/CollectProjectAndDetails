@@ -2,7 +2,7 @@
 type: "project"
 title: "Launchon It"
 project_url: "https://launchon.it/"
-first_seen: "2026-10-26T00:22:30+08:00"
+first_seen: "2026-10-26T09:45:11+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://launchon.it/>
-> 首次收录：2026-10-26T00:22:30+08:00
+> 首次收录：2026-10-26T09:45:11+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -40,6 +40,7 @@ lang: "en"
 | 2026-10-17T13:38:36+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
 | 2026-10-25T23:31:48+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
 | 2026-10-26T00:22:30+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
+| 2026-10-26T09:45:11+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
 
 ## 摘要正文
 

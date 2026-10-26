@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import argparse
 import json
+import os
 import re
 import sys
 import time
@@ -779,11 +780,30 @@ def main(argv=None) -> int:
                         if (prev_rel and prev_rel != rel
                                 and not prev_rel.startswith("80-归档/")
                                 and (Path(__file__).resolve().parents[1] / prev_rel).is_file()):
-                            try:
-                                (Path(__file__).resolve().parents[1] / prev_rel).unlink()
-                                rename_pairs[prev_rel] = rel
-                            except OSError as e:                       # noqa: BLE001
-                                log.error(f"{ch['id']}.stale[{it.get('item_id')}]", e)
+                            _root = Path(__file__).resolve().parents[1]
+                            _old, _new = _root / prev_rel, _root / rel
+                            # 大小写不敏感的文件系统（Windows）：若新旧路径只差大小写，
+                            # 二者是**同一个文件** —— `write_corpus_note` 已经写进它身体里
+                            # （NTFS 大小写不敏感，目录项仍保留旧的大小写），此时 unlink 等于
+                            # 把刚写好的唯一一份删掉。实证 2026-10-26：HN 把标题 `– a risk map`
+                            # 改成 `– A risk map`（只差一个字母大小写）→ 旧页被删、新页从没落盘
+                            # → healthcheck ① 差 1 + ④ 断链 5 处 + ⑤ 幽灵账 1，而 raw 里
+                            # record_type=update 看起来一切正常。
+                            # 处置：不删，改用「两步改名」把磁盘上的名字修成规范大小写。
+                            if os.path.normcase(str(_old)) == os.path.normcase(str(_new)):
+                                try:
+                                    _tmp = _old.with_name(_old.name + ".casefix.tmp")
+                                    _old.rename(_tmp)
+                                    _tmp.rename(_new)
+                                    rename_pairs[prev_rel] = rel
+                                except OSError as e:                   # noqa: BLE001
+                                    log.error(f"{ch['id']}.casefix[{it.get('item_id')}]", e)
+                            else:
+                                try:
+                                    _old.unlink()
+                                    rename_pairs[prev_rel] = rel
+                                except OSError as e:                   # noqa: BLE001
+                                    log.error(f"{ch['id']}.stale[{it.get('item_id')}]", e)
                         log.notes.append(rel)
                         # 实体页准入：不是项目的条目（讨论帖/提问帖/经验帖）不建项目页。
                         # 原实现对**每个条目**都建 → 实测 818 个页面里混进 115 个废页，

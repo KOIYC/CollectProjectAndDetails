@@ -1,0 +1,11 @@
+{
+  "at": "2026-10-26T09:49:51+08:00",
+  "kind": "corpus_rename",
+  "note": "条目改标题导致的语料页换名；旧页已清（git/raw 可回溯），链接已改写",
+  "renames": [
+    {
+      "from": "20-语料/posts/hn_show/2026-10-25/24bc98a339adcf89_Show-HN-Farol-–-a-risk-map-of-a-pull-request-for-t.md",
+      "to": "20-语料/posts/hn_show/2026-10-25/24bc98a339adcf89_Show-HN-Farol-–-A-risk-map-of-a-pull-request-for-t.md"
+    }
+  ]
+}

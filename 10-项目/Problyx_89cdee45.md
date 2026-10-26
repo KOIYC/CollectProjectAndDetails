@@ -2,7 +2,7 @@
 type: "project"
 title: "Problyx"
 project_url: "https://betalist.com/startups/problyx"
-first_seen: "2026-10-26T00:22:11+08:00"
+first_seen: "2026-10-26T09:44:59+08:00"
 sources:
   - betalist
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://betalist.com/startups/problyx>
-> 首次收录：2026-10-26T00:22:11+08:00
+> 首次收录：2026-10-26T09:44:59+08:00
 > 来源渠道：BetaList
 > 标签：—
 > 最新指标：—
@@ -29,6 +29,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-10-25T23:31:07+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-10-25/89cdee45733d5c73_Problyx]] |
 | 2026-10-26T00:22:11+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-10-25/89cdee45733d5c73_Problyx]] |
+| 2026-10-26T09:44:59+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-10-25/89cdee45733d5c73_Problyx]] |
 
 ## 摘要正文
 

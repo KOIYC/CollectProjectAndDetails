@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-26T00:18:40+08:00",
+ "checked_at": "2026-10-26T09:42:15+08:00",
  "channels": [
   {
    "channel_id": "hn_show",
@@ -10,16 +10,16 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 2.0,
-   "probe_at": "2026-10-26T00:15:24+08:00",
+   "elapsed_s": 1.5,
+   "probe_at": "2026-10-26T09:38:35+08:00",
    "sample": [
     {
-     "title": "Show HN: My Kids TV – Calm, ad-free replacement home screen for Google TV",
-     "url": "https://news.ycombinator.com/item?id=50232818"
+     "title": "Show HN: QuickRust replaces cargo, sets up sccache, centralizes build cache",
+     "url": "https://news.ycombinator.com/item?id=50236987"
     },
     {
-     "title": "Show HN: Swingback, get feedback from your user for free",
-     "url": "https://news.ycombinator.com/item?id=50232583"
+     "title": "Show HN: simdown – use SIMD to parse Markdown at ~1 GB/s",
+     "url": "https://news.ycombinator.com/item?id=50236813"
     }
    ]
   },
@@ -32,16 +32,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
-   "elapsed_s": 26.9,
-   "probe_at": "2026-10-26T00:15:51+08:00",
+   "elapsed_s": 15.5,
+   "probe_at": "2026-10-26T09:38:50+08:00",
    "sample": [
     {
-     "title": "NameCheap Price Increases",
-     "url": "https://www.reddit.com/r/selfhosted/comments/1x6oaco/namecheap_price_increases/"
+     "title": "I built a ticketing app for my kid's afterprom. 14 months after opening it up, i",
+     "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1x6xm60/i_built_a_ticketing_app_for_my_kids_afterprom_14/"
     },
     {
-     "title": "Dashing across an Eastern steampunk city as a little fox spirit",
-     "url": "https://www.reddit.com/r/IndieDev/comments/1x6o4fl/dashing_across_an_eastern_steampunk_city_as_a/"
+     "title": "2,100 Steam games launched this spring and summer. 61% still have under 10 revie",
+     "url": "https://www.reddit.com/r/IndieDev/comments/1x70u5h/2100_steam_games_launched_this_spring_and_summer/"
     }
    ]
   },
@@ -54,8 +54,8 @@
    "status": "ok",
    "count": 3,
    "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 2.8,
-   "probe_at": "2026-10-26T00:15:54+08:00",
+   "elapsed_s": 2.5,
+   "probe_at": "2026-10-26T09:38:53+08:00",
    "sample": [
     {
      "title": "Gathin23/cleanyourtv",
@@ -76,16 +76,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 startups · 发布日 3/3",
-   "elapsed_s": 7.3,
-   "probe_at": "2026-10-26T00:16:01+08:00",
+   "elapsed_s": 4.3,
+   "probe_at": "2026-10-26T09:38:57+08:00",
    "sample": [
     {
      "title": "Aserp",
      "url": "https://betalist.com/startups/aserp"
     },
     {
-     "title": "Engineforge",
-     "url": "https://betalist.com/startups/engineforge"
+     "title": "Logo Animation Ai",
+     "url": "https://betalist.com/startups/logo-animation-ai"
     }
    ]
   },
@@ -98,8 +98,8 @@
    "status": "ok",
    "count": 3,
    "message": "23 products",
-   "elapsed_s": 7.3,
-   "probe_at": "2026-10-26T00:16:08+08:00",
+   "elapsed_s": 7.2,
+   "probe_at": "2026-10-26T09:39:04+08:00",
    "sample": [
     {
      "title": "Launchon It",
@@ -120,8 +120,8 @@
    "status": "ok",
    "count": 2,
    "message": "2 articles",
-   "elapsed_s": 6.5,
-   "probe_at": "2026-10-26T00:16:15+08:00",
+   "elapsed_s": 2.6,
+   "probe_at": "2026-10-26T09:39:07+08:00",
    "sample": [
     {
      "title": "Promise Delivered: Welcome to the DEV Hall of Fame (65 Authors, 65 Masterpieces)",
@@ -142,16 +142,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 entries",
-   "elapsed_s": 1.2,
-   "probe_at": "2026-10-26T00:16:16+08:00",
+   "elapsed_s": 2.3,
+   "probe_at": "2026-10-26T09:39:09+08:00",
    "sample": [
-    {
-     "title": "AgentGrid.io",
-     "url": "https://www.producthunt.com/products/agentgrid-io"
-    },
     {
      "title": "MRRaudit",
      "url": "https://www.producthunt.com/products/mrraudit"
+    },
+    {
+     "title": "Papermark Data Rooms",
+     "url": "https://www.producthunt.com/products/papermark-2"
     }
    ]
   },
@@ -164,16 +164,16 @@
    "status": "ok",
    "count": 3,
    "message": "20 topics",
-   "elapsed_s": 0.8,
-   "probe_at": "2026-10-26T00:16:17+08:00",
+   "elapsed_s": 0.7,
+   "probe_at": "2026-10-26T09:39:10+08:00",
    "sample": [
+    {
+     "title": "高级 Unity3D 游戏开发工程师 1 名 远程办公",
+     "url": "https://www.v2ex.com/t/1251724"
+    },
     {
      "title": "二开信源管道跑了半个月，聊聊用 pgvector 语义降噪和防重推送踩的几个深坑",
      "url": "https://www.v2ex.com/t/1251702"
-    },
-    {
-     "title": "求职: 运维",
-     "url": "https://www.v2ex.com/t/1251667"
     }
    ]
   },
@@ -185,17 +185,17 @@
    "group": "中文社媒",
    "status": "ok",
    "count": 3,
-   "message": "12 videos",
-   "elapsed_s": 0.5,
-   "probe_at": "2026-10-26T00:16:17+08:00",
+   "message": "11 videos",
+   "elapsed_s": 0.9,
+   "probe_at": "2026-10-26T09:39:11+08:00",
    "sample": [
     {
      "title": "一分钱不花，完成独立产品从0上线！2026年独立开发者免费全家桶",
      "url": "https://www.bilibili.com/video/BV1sFWA6VEgC"
     },
     {
-     "title": "我想做世界上最好的个人AI记忆软件，用一年时间，守一份初心。用一生白守，养一颗真心【B站AI创造公开赛】",
-     "url": "https://www.bilibili.com/video/BV1z9Hw68ER9"
+     "title": "想创造一门语言？这款软件助你一臂之力！",
+     "url": "https://www.bilibili.com/video/BV1HPaX6AE2x"
     }
    ]
   },
@@ -208,8 +208,8 @@
    "status": "ok",
    "count": 3,
    "message": "9 entries · 收录日 9",
-   "elapsed_s": 4.8,
-   "probe_at": "2026-10-26T00:16:22+08:00",
+   "elapsed_s": 7.0,
+   "probe_at": "2026-10-26T09:39:18+08:00",
    "sample": [
     {
      "title": "Indie Hacker",
@@ -230,16 +230,16 @@
    "status": "ok",
    "count": 3,
    "message": "8 results",
-   "elapsed_s": 21.4,
-   "probe_at": "2026-10-26T00:16:43+08:00",
+   "elapsed_s": 15.2,
+   "probe_at": "2026-10-26T09:39:33+08:00",
    "sample": [
     {
-     "title": "\"SCP: Project Pneuma Launches Today, Putting Players Inside Site-19 After Contai",
-     "url": "https://www.gamespress.com/en-US/SCP-Project-Pneuma-Launches-Today"
+     "title": "🦇 LaurEli & the Blood Dipped Manor Is OUT NOW! 💜 - Oto-hime by Maple, Natsumen.C",
+     "url": "https://maple0.itch.io/oto-hime/devlog/1729479/-laureli-the-blood-dipped-manor-is-out-now-"
     },
     {
-     "title": "Chesstria Launches on Steam as a Solo-Dev Chess Roguelite | HappyGamer",
-     "url": "https://happygamer.com/chesstria-steam-release-chess-roguelite-169791/"
+     "title": "MOGIZ: a 3D indie game where you are the mosquito, and grandpa has a fly swatter",
+     "url": "https://www.indiedb.com/games/mogiz/news/mogiz-a-3d-indie-game-where-you-are-the-mosquito-and-grandpa-has-a-fly-swatter"
     }
    ]
   },
@@ -251,9 +251,9 @@
    "group": "海外社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 21s\nok: false\nerr",
-   "elapsed_s": 44.9,
-   "probe_at": "2026-10-26T00:17:28+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 19s\nok: false\nerr",
+   "elapsed_s": 30.9,
+   "probe_at": "2026-10-26T09:40:04+08:00",
    "sample": []
   },
   {
@@ -262,17 +262,12 @@
    "adapter": "opencli_social",
    "auth": "browser",
    "group": "中文社媒",
-   "status": "ok",
-   "count": 1,
-   "message": "1 items（1 路查询）",
-   "elapsed_s": 38.9,
-   "probe_at": "2026-10-26T00:18:07+08:00",
-   "sample": [
-    {
-     "title": "四个月，从0到1w用户",
-     "url": ">-"
-    }
-   ]
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: [rate-limiter] xiaohongshu: sleeping 14s\nok: false\nerror:\n  ",
+   "elapsed_s": 75.1,
+   "probe_at": "2026-10-26T09:41:19+08:00",
+   "sample": []
   }
  ],
  "backends": [
@@ -282,9 +277,9 @@
    "status": "unusable",
    "declared": "ok",
    "delta": true,
-   "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 20.0,
-   "probe_at": "2026-10-26T00:18:32+08:00"
+   "message": "ERR: <urlopen error [Errno 11001] getaddrinfo failed>",
+   "elapsed_s": 0.0,
+   "probe_at": "2026-10-26T09:41:22+08:00"
   },
   {
    "backend": "arctic_shift",
@@ -293,8 +288,8 @@
    "declared": null,
    "delta": false,
    "message": "1 rows",
-   "elapsed_s": 2.4,
-   "probe_at": "2026-10-26T00:18:34+08:00"
+   "elapsed_s": 1.6,
+   "probe_at": "2026-10-26T09:41:23+08:00"
   },
   {
    "backend": "exa_web_fetch",
@@ -303,8 +298,8 @@
    "declared": "warn",
    "delta": false,
    "message": "1 url 返回正文",
-   "elapsed_s": 4.5,
-   "probe_at": "2026-10-26T00:18:39+08:00"
+   "elapsed_s": 49.0,
+   "probe_at": "2026-10-26T09:42:12+08:00"
   },
   {
    "backend": "github_gh",
@@ -312,17 +307,17 @@
    "status": "ok",
    "declared": "warn",
    "delta": false,
-   "message": "remaining=4984",
-   "elapsed_s": 1.3,
-   "probe_at": "2026-10-26T00:18:40+08:00"
+   "message": "remaining=5000",
+   "elapsed_s": 2.5,
+   "probe_at": "2026-10-26T09:42:15+08:00"
   }
  ],
  "summary": {
   "total": 13,
-  "ok": 12,
+  "ok": 11,
   "empty": 0,
   "error": 0,
-  "auth": 1
+  "auth": 2
  },
  "decisions": [
   {
@@ -387,8 +382,8 @@
   },
   {
    "channel_id": "xiaohongshu",
-   "action": "keep",
-   "status": "ok"
+   "action": "unlock",
+   "status": "auth"
   }
  ],
  "agent_reach": {
@@ -402,9 +397,9 @@
    "status": "unusable",
    "declared": "ok",
    "delta": true,
-   "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 20.0,
-   "probe_at": "2026-10-26T00:18:32+08:00"
+   "message": "ERR: <urlopen error [Errno 11001] getaddrinfo failed>",
+   "elapsed_s": 0.0,
+   "probe_at": "2026-10-26T09:41:22+08:00"
   }
  ]
 }

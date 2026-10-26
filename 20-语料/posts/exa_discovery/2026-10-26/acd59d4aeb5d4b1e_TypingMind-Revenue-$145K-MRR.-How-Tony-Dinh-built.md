@@ -5,8 +5,8 @@ title: "TypingMind Revenue: $145K MRR. How Tony Dinh built it | Startup Founder 
 source: "exa_discovery"
 source_name: "Exa 全网语义发现"
 url: "https://startupfounderstories.com/stories/tony-dinh-typingmind-22k-7-days"
-published_at: "2024-02-10T11:28:53.000Z"
-captured_at: "2026-10-26T00:25:26+08:00"
+published_at: "2024-02-10T23:51:31.000Z"
+captured_at: "2026-10-26T09:46:53+08:00"
 lang: "en"
 kind: "method"
 topic: "AI 工具/Agent"
@@ -30,15 +30,15 @@ discovered_via: "exa:solo founder MRR milestone build in public"
 > 来源：Exa 全网语义发现（method）
 > 原帖：<https://startupfounderstories.com/stories/tony-dinh-typingmind-22k-7-days>
 > 指标：—
-> 作者：—　|　发布：2024-02-10T11:28:53.000Z
+> 作者：—　|　发布：2024-02-10T23:51:31.000Z
 > 项目链接：—
-> 采集：2026-10-26T00:25:26+08:00　|　id：`acd59d4aeb5d4b1e`
+> 采集：2026-10-26T09:46:53+08:00　|　id：`acd59d4aeb5d4b1e`
 
 ## 正文
 
 Title: TypingMind Revenue: $145K MRR. How Tony Dinh built it | Startup Founder Stories
 URL: https://startupfounderstories.com/stories/tony-dinh-typingmind-22k-7-days
-Published: 2024-02-10T11:28:53.000Z
+Published: 2024-02-10T23:51:31.000Z
 Author: Tony Dinh
 Highlights:
 TypingMind Revenue: $145K MRR, $10K MRR in 4 days | Startup Founder Stories
@@ -146,23 +146,13 @@ vs median 1 year
 
 Tony Dinh reached $10K MRR in 4 days, faster than 99% of the 295 documented $10K journeys (median 12 months). The amber bar is this journey.
 
+median
+
 ...
 
 How much does TypingMind make?
 
-TypingMind reports $145K MRR as of October 2025. B2B Team version now >50% of revenue; rapid growth from $45K MRR (Sep 2024). Source: Founder blog.
-
-What is TypingMind?
-
-A better UI for ChatGPT with plugins, prompt library, and chat organization. It operates in AI / ML.
-
-How long did it take TypingMind to reach $10k mrr?
-
-Tony Dinh took 4 days to reach $10k mrr with TypingMind.
-
-Was Tony Dinh a solo founder?
-
-Yes. Tony Dinh built TypingMind as a solo founder.
+TypingMind reports $145K MRR as of October 2025. B2B Team version now >50% of revenue; rapid growth from $45K MRR
 
 ---
 

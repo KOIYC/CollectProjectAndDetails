@@ -1,14 +1,14 @@
 ---
 type: "corpus"
 item_id: "24bc98a339adcf89"
-title: "Show HN: Farol – a risk map of a pull request for the person who approves it"
+title: "Show HN: Farol – A risk map of a pull request for the person who approves it"
 source: "hn_show"
 source_name: "HN Show HN"
 url: "https://news.ycombinator.com/item?id=50231349"
 project_url: "https://github.com/winnin/farol"
 author: "ericholiveira"
 published_at: "2026-10-25T13:28:06Z"
-captured_at: "2026-10-26T00:19:08+08:00"
+captured_at: "2026-10-26T09:42:36+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -20,14 +20,13 @@ tags:
   - author_ericholiveira
   - story_50231349
   - show_hn
-  - front_page
-metrics: {"points": 43, "comments": 25, "engagement_velocity": 43}
-comments_count: 25
-comments_total: 25
+metrics: {"points": 59, "comments": 37, "engagement_velocity": 59}
+comments_count: 37
+comments_total: 37
 discovered_via: "hn:show_hn:3d"
 ---
 
-# Show HN: Farol – a risk map of a pull request for the person who approves it
+# Show HN: Farol – A risk map of a pull request for the person who approves it
 
 > [!info] 一句话导读
 > Know the risk of merging a pull request, and where it lives. Free, open-source CLI and GitHub Action: after your AI review, farol shows the riskiest files, what…
@@ -35,10 +34,10 @@ discovered_via: "hn:show_hn:3d"
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=50231349>
-> 指标：点赞=43 · 评论=25 · engagement_velocity=43
+> 指标：点赞=59 · 评论=37 · engagement_velocity=59
 > 作者：ericholiveira　|　发布：2026-10-25T13:28:06Z
 > 项目链接：<https://github.com/winnin/farol>
-> 采集：2026-10-26T00:19:08+08:00　|　id：`24bc98a339adcf89`
+> 采集：2026-10-26T09:42:36+08:00　|　id：`24bc98a339adcf89`
 
 ## 正文
 
@@ -549,7 +548,9 @@ SECURITY.md to report a vulnerability.
 
 MIT © 2026 Winnin
 
-## 评论（25/25）
+# assembledev/edgepad
+
+## 评论（37/37）
 
 > **ericholiveira** · 2026-10-25T13:28:48.000Z　
 > Hi HN, I built farol at Winnin, where we open-sourced it (MIT).AI agents now write a lot of our code, and AI reviewers catch a lot of
@@ -632,6 +633,21 @@ MIT © 2026 Winnin
 
 ---
 
+> **hbcdbff** · 2026-10-25T17:11:48.000Z　
+> I want off this train. Please, make it stop…
+
+---
+
+> **realitylabs** · 2026-10-25T17:58:25.000Z　
+> An engineer where I work built something like this so that when QA is about to deploy, they have a better indication of who to call and what is potentially going to be impacted. Our implementation is done prior to production deploy (which requires human approval) and compares currrebt deployed build code to new build changes diff and then analyses. I think there is a lot of room for tools like this in the future. Scoping/homing/etc
+
+---
+
+> **cpan22** · 2026-10-25T20:39:56.000Z　
+> this is very needed - I don't think we'll see a world where agents approve all our PRs but there can definitely be better tooling for focusing human attention during review
+
+---
+
 > **shiandow** · 2026-10-25T14:07:23.000Z　
 > I'm not sure either. The comments don't look wrong to me.
 
@@ -644,6 +660,11 @@ MIT © 2026 Winnin
 
 > **BalinKing** · 2026-10-25T14:17:41.000Z　
 > AI-edited or -generated comments are disallowed by HN guidelines: https://news.ycombinator.com/newsguidelines.html#generated. I don't think any such restriction exists for submissions themselves, so that's my guess as to why the comment but not the submission has been flagged to death.
+
+---
+
+> **tomhow** · 2026-10-25T17:20:38.000Z　
+> It was classified by our software as genai, which is explicitly against the guidelines: https://news.ycombinator.com/newsguidelines.html#genai
 
 ---
 
@@ -692,6 +713,31 @@ MIT © 2026 Winnin
 
 ---
 
+> **lubujackson** · 2026-10-25T16:38:14.000Z　
+> Monorepo -> microservices -> monoreposervices
+
+---
+
+> **hbcdbff** · 2026-10-25T17:12:12.000Z　
+> Birepo
+
+---
+
+> **pixl97** · 2026-10-25T17:13:44.000Z　
+> >we still need a human forA trained human mind that is.Your average human in any given topic will give confidently incorrect risk assessments just like an LLM.
+
+---
+
+> **b473a** · 2026-10-25T16:30:44.000Z　
+> What, are you doubting in the integrity of the large language binary blob?
+
+---
+
+> **ericholiveira** · 2026-10-25T19:22:40.000Z　
+> I do agree those kinds of tools are needed... great to know youve been working on something similar
+
+---
+
 > **nico** · 2026-10-25T15:59:11.000Z　
 > In my personal experience, it’s very rare to catch a comment/story while vouchable. Not sure how many flags does it take for something to be killed, but it seems like almost as soon as something gets flagged, it becomes a signal for others to flag it too immediately without thought (similar thing kinda happens too when you post a comment and the first vote is a downvote, it almost never recovers, even if it was a good comment, as the initial drop/greying biases anyone that sees it before they even read it)
 
@@ -699,6 +745,21 @@ MIT © 2026 Winnin
 
 > **nico** · 2026-10-25T15:55:40.000Z　
 > No restriction for the submission itself, unless it’s something like an Ask/Tell/Show HN, in which the content goes directly on the post (and will get flagged if AI-generated/assisted)
+
+---
+
+> **lurkshark** · 2026-10-25T17:09:58.000Z　
+> Out of curiosity, was this on a codebase where other folks started using Opus 5.5? I’ve been curious if each generation of model has its own biases that make it generate output that’s more difficult for other models/previous models to work with. That’s been my personal suspicion when I’ve hit situations like yours
+
+---
+
+> **dboreham** · 2026-10-25T16:25:21.000Z　
+> Well there's one at Google, one at Facebook...
+
+---
+
+> **nico** · 2026-10-25T17:20:43.000Z　
+> It was on 2 separate private repos, personal projects. No one else working on thoseBut now that you asked, I recently had a similar experience with Codex, but on a shared repo. I also was using a slightly older model, and the all of a sudden it kinda stopped running tasks. I would ask it to do something and the it would just kind of do an analysis, then give me a recommendation of what to do. I had to tell it to execute the task, and then it would “be lazy”, like run one part then give me a recap and recommendation again instead of just goingSwitched to a newer model, and the issue was instantly gone
 
 ## 关联链接
 

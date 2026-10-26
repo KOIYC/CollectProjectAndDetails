@@ -8,7 +8,7 @@ url: "https://dev.to/puneetkumar2010/day-21-of-building-crowdwide-finally-time-t
 project_url: "https://github.com/DeveloperPuneet/Crowdwide"
 author: "Puneet-Kumar2010"
 published_at: "2026-10-23T11:54:10Z"
-captured_at: "2026-10-26T00:38:52+08:00"
+captured_at: "2026-10-26T09:53:43+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -21,9 +21,9 @@ tags:
   - buildinpublic
   - opensource
   - discuss
-metrics: {"reactions": 21, "comments": 70, "reading_time": 2}
-comments_count: 69
-comments_total: 70
+metrics: {"reactions": 21, "comments": 73, "reading_time": 2}
+comments_count: 72
+comments_total: 73
 discovered_via: "devto:buildinpublic"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:buildinpublic"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/puneetkumar2010/day-21-of-building-crowdwide-finally-time-to-polish-the-ui-1696>
-> 指标：reactions=21 · 评论=70 · reading_time=2
+> 指标：reactions=21 · 评论=73 · reading_time=2
 > 作者：Puneet-Kumar2010　|　发布：2026-10-23T11:54:10Z
 > 项目链接：<https://github.com/DeveloperPuneet/Crowdwide>
-> 采集：2026-10-26T00:38:52+08:00　|　id：`5066fb3887dfa6e8`
+> 采集：2026-10-26T09:53:43+08:00　|　id：`5066fb3887dfa6e8`
 
 ## 正文
 
@@ -114,7 +114,7 @@ THAT'S IT!!
 
 See you in the next update! 👋
 
-## 评论（69/70）
+## 评论（72/73）
 
 > **EffessDev** · 2026-10-23T12:00:29Z　
 > @akhourianmolkumar @koda2026 and @technogamerz joined, so me too joined! 🥳
@@ -402,6 +402,21 @@ See you in the next update! 👋
 
 > **Puneet-Kumar2010** · 2026-10-25T13:50:04Z　
 > Exactly! 😭 That’s what I was trying to get right with Crowdwide — making the UI cleaner without hiding the things people actually need. It’s done now! 🙌 You can check it out in my latest article, Day 23 of Building Crowdwide. 🚀
+
+---
+
+> **Odinaka Robert Nnamani** · 2026-10-25T17:18:04Z　
+> cleaner without hiding things, and already on Day 23. fast loop.
+
+---
+
+> **Puneet-Kumar2010** · 2026-10-25T18:34:04Z　
+> yeah! Trying to keep the UI cleaner without hiding things. Day 23 already, and there’s still a lot to improve. Appreciate you noticing the fast loop!
+
+---
+
+> **Odinaka Robert Nnamani** · 2026-10-25T18:52:46Z　
+> Day 23 and still a lot to improve sounds like the loop is doing its job.
 
 ---
 

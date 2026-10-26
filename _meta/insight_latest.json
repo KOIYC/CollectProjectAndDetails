@@ -1,33 +1,33 @@
 {
-  "generated": "2026-10-26T00:44:37+08:00",
-  "n_live": 3203,
-  "n_usable": 2839,
-  "n_project": 2537,
-  "signals": 66,
+  "generated": "2026-10-26T09:59:28+08:00",
+  "n_live": 3279,
+  "n_usable": 2902,
+  "n_project": 2581,
+  "signals": 69,
   "topics": [
     [
       "AI 工具/Agent",
-      1777
+      1814
     ],
     [
       "开发者工具",
-      590
+      604
     ],
     [
       "未分类",
-      261
+      268
     ],
     [
       "游戏",
-      75
+      77
     ],
     [
       "移动 App",
-      46
+      48
     ],
     [
       "SaaS/B2B",
-      45
+      46
     ],
     [
       "内容/媒体",
@@ -69,6 +69,23 @@
       }
     },
     {
+      "key": "host:apps.apple.com",
+      "channels": [
+        "bilibili",
+        "hn_show",
+        "reddit",
+        "v2ex"
+      ],
+      "n_channels": 4,
+      "title": "Show HN: I made a Tamagotchi app that lets you add your real-life pets",
+      "url": "https://apps.apple.com/bg/app/boko-tamagotchi-virtual-pet/id6759446145",
+      "metrics": {
+        "points": 2,
+        "comments": 0,
+        "engagement_velocity": 2
+      }
+    },
+    {
       "key": "host:pypi.org",
       "channels": [
         "github_new",
@@ -82,22 +99,6 @@
         "points": 6,
         "comments": 1,
         "engagement_velocity": 6
-      }
-    },
-    {
-      "key": "host:apps.apple.com",
-      "channels": [
-        "hn_show",
-        "reddit",
-        "v2ex"
-      ],
-      "n_channels": 3,
-      "title": "Show HN: I made a Tamagotchi app that lets you add your real-life pets",
-      "url": "https://apps.apple.com/bg/app/boko-tamagotchi-virtual-pet/id6759446145",
-      "metrics": {
-        "points": 2,
-        "comments": 0,
-        "engagement_velocity": 2
       }
     },
     {
@@ -201,8 +202,8 @@
       }
     }
   ],
-  "money_signal_n": 1262,
-  "money_evidence_n": 457,
+  "money_signal_n": 1285,
+  "money_evidence_n": 462,
   "money_quotes": [
     {
       "source": "betalist",
@@ -278,26 +279,26 @@
     }
   ],
   "pain_n": {
-    "当前方案不好用": 104,
-    "在找替代品": 60,
-    "做不出来/卡住": 120,
-    "愿意付钱": 68,
-    "想要而找不到": 12
+    "当前方案不好用": 106,
+    "在找替代品": 61,
+    "做不出来/卡住": 124,
+    "愿意付钱": 69,
+    "想要而找不到": 13
   },
   "by_channel": [
     {
       "id": "betalist",
       "profile": "linkpost",
-      "n": 204,
-      "ok": 204,
+      "n": 212,
+      "ok": 212,
       "rate": 1.0
     },
     {
       "id": "producthunt",
       "profile": "linkpost",
-      "n": 418,
-      "ok": 412,
-      "rate": 0.9856459330143541
+      "n": 421,
+      "ok": 415,
+      "rate": 0.9857482185273159
     },
     {
       "id": "indiehackers",
@@ -309,16 +310,23 @@
     {
       "id": "hn_show",
       "profile": "discussion",
-      "n": 1602,
-      "ok": 1517,
-      "rate": 0.9469413233458177
+      "n": 1627,
+      "ok": 1542,
+      "rate": 0.9477566072526121
     },
     {
       "id": "bilibili",
       "profile": "metadata",
-      "n": 66,
-      "ok": 62,
-      "rate": 0.9393939393939394
+      "n": 69,
+      "ok": 65,
+      "rate": 0.9420289855072463
+    },
+    {
+      "id": "exa_discovery",
+      "profile": "discover",
+      "n": 39,
+      "ok": 31,
+      "rate": 0.7948717948717948
     },
     {
       "id": "devto",
@@ -328,32 +336,25 @@
       "rate": 0.7727272727272727
     },
     {
-      "id": "exa_discovery",
-      "profile": "discover",
-      "n": 34,
-      "ok": 26,
-      "rate": 0.7647058823529411
+      "id": "v2ex",
+      "profile": "discussion",
+      "n": 148,
+      "ok": 107,
+      "rate": 0.722972972972973
     },
     {
       "id": "github_new",
       "profile": "project",
-      "n": 85,
-      "ok": 63,
-      "rate": 0.7411764705882353
-    },
-    {
-      "id": "v2ex",
-      "profile": "discussion",
-      "n": 146,
-      "ok": 105,
-      "rate": 0.7191780821917808
+      "n": 86,
+      "ok": 62,
+      "rate": 0.7209302325581395
     },
     {
       "id": "reddit",
       "profile": "discussion",
-      "n": 463,
-      "ok": 279,
-      "rate": 0.6025917926565875
+      "n": 492,
+      "ok": 297,
+      "rate": 0.6036585365853658
     },
     {
       "id": "c1c7",
@@ -370,5 +371,5 @@
       "rate": 0.0
     }
   ],
-  "body_median": 1816
+  "body_median": 1818.0
 }

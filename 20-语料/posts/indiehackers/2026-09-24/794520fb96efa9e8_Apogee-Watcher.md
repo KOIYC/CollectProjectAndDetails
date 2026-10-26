@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/apogee-watcher"
 project_url: "https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance"
-captured_at: "2026-10-25T23:31:48+08:00"
+captured_at: "2026-10-26T09:45:11+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance>
-> 采集：2026-10-25T23:31:48+08:00　|　id：`794520fb96efa9e8`
+> 采集：2026-10-26T09:45:11+08:00　|　id：`794520fb96efa9e8`
 
 ## 正文
 
@@ -71,7 +71,7 @@ Share via ?coupon_code=YOUR-CODE on sign-up, blog, features, pricing, or home; a
 The fit is strongest for agencies that already mention monitoring in proposals, consultants who write about Lighthouse or CrUX, and newsletter or comparison publishers who cover web performance tooling. Confirm numbers on the live programme page before you quote them to a client.
  Read more: Watcher affiliate programme 30% commission for agencies
 Apogee Watcher
-4 Upvotes
+5 Upvotes
 Comment
 October 24, 2026
  Calibre vs Apogee Watcher: Continuous Monitoring for Agencies

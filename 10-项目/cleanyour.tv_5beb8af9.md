@@ -2,7 +2,7 @@
 type: "project"
 title: "Gathin23/cleanyourtv"
 project_url: "https://cleanyour.tv/"
-first_seen: "2026-10-26T00:21:51+08:00"
+first_seen: "2026-10-26T09:44:46+08:00"
 sources:
   - github_new
 tags:
@@ -20,10 +20,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://cleanyour.tv/>
-> 首次收录：2026-10-26T00:21:51+08:00
+> 首次收录：2026-10-26T09:44:46+08:00
 > 来源渠道：GitHub 新星仓库
 > 标签：Java, created:>2026-10-12
-> 最新指标：stars=34078 · forks=4046 · open_issues=220
+> 最新指标：stars=35333 · forks=4200 · open_issues=239
 
 ## 观测历史
 
@@ -32,6 +32,7 @@ lang: "en"
 | 2026-10-22T09:47:43+08:00 | GitHub 新星仓库 | stars=19453 · forks=2100 · open_issues=98 | [[20-语料/posts/github_new/2026-10-22/ab0e470b36e49b22_Gathin23-cleanyourtv]] |
 | 2026-10-25T23:30:16+08:00 | GitHub 新星仓库 | stars=33950 · forks=4016 · open_issues=239 | [[20-语料/posts/github_new/2026-10-22/ab0e470b36e49b22_Gathin23-cleanyourtv]] |
 | 2026-10-26T00:21:51+08:00 | GitHub 新星仓库 | stars=34078 · forks=4046 · open_issues=220 | [[20-语料/posts/github_new/2026-10-22/ab0e470b36e49b22_Gathin23-cleanyourtv]] |
+| 2026-10-26T09:44:46+08:00 | GitHub 新星仓库 | stars=35333 · forks=4200 · open_issues=239 | [[20-语料/posts/github_new/2026-10-22/ab0e470b36e49b22_Gathin23-cleanyourtv]] |
 
 ## 摘要正文
 

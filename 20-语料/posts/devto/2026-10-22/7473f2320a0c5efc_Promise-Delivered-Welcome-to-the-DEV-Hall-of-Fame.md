@@ -7,7 +7,7 @@ source_name: "dev.to"
 url: "https://dev.to/georgekobaidze/promise-delivered-welcome-to-the-dev-hall-of-fame-65-authors-65-masterpieces-15fa"
 author: "Giorgi Kobaidze"
 published_at: "2026-10-18T10:55:38Z"
-captured_at: "2026-10-26T00:38:39+08:00"
+captured_at: "2026-10-26T09:53:33+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "devto:showdev"
 > 指标：reactions=225 · 评论=125 · reading_time=25
 > 作者：Giorgi Kobaidze　|　发布：2026-10-18T10:55:38Z
 > 项目链接：—
-> 采集：2026-10-26T00:38:39+08:00　|　id：`7473f2320a0c5efc`
+> 采集：2026-10-26T09:53:33+08:00　|　id：`7473f2320a0c5efc`
 
 ## 正文
 

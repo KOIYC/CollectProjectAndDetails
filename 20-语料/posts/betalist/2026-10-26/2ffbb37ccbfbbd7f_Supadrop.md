@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/supadrop"
 published_at: "2026-10-25"
-captured_at: "2026-10-26T00:22:11+08:00"
+captured_at: "2026-10-26T09:44:59+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-10-25
 > 项目链接：—
-> 采集：2026-10-26T00:22:11+08:00　|　id：`2ffbb37ccbfbbd7f`
+> 采集：2026-10-26T09:44:59+08:00　|　id：`2ffbb37ccbfbbd7f`
 
 ## 正文
 
@@ -90,9 +90,9 @@ OnePagey
  Launch a one-page business website in 5 minutes
 Sochobanao
  Describe your idea and get a website, app, or game generated fast
-Todoless
+Adviserry
  BOOSTED
- AI-native, privacy-first task management that understands natural typing
+ Automatically get personalized actions from your YT/Pod/email subs
  BOOSTED
 Propopad
  Scan your site and send branded proposals in 60 seconds
@@ -100,9 +100,9 @@ PriceFast
  Build Your Pricing Table in 5 Minutes
 Launch.Today
  Build functional apps or websites fast, with zero code
-Taupia
+Aria
  BOOSTED
- Track, compare, and switch UK household bills from one app
+ Free color analysis and honest verdicts before you buy
  BOOSTED
 Eazysites
  Build Better with Eazysites

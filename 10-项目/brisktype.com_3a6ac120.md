@@ -2,7 +2,7 @@
 type: "project"
 title: "Your grammar checker uploads every word you type. I built one that never leaves your Mac."
 project_url: "https://brisktype.com/"
-first_seen: "2026-10-25T23:32:53+08:00"
+first_seen: "2026-10-26T09:45:36+08:00"
 sources:
   - devto
 tags:
@@ -22,10 +22,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://brisktype.com/>
-> 首次收录：2026-10-25T23:32:53+08:00
+> 首次收录：2026-10-26T09:45:36+08:00
 > 来源渠道：dev.to
 > 标签：privacy, ai, macos, indiehackers
-> 最新指标：reactions=7 · 评论=15 · reading_time=6
+> 最新指标：reactions=7 · 评论=16 · reading_time=6
 
 ## 观测历史
 
@@ -33,6 +33,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-10-22T09:49:03+08:00 | dev.to | reactions=6 · 评论=4 · reading_time=6 | [[20-语料/posts/devto/2026-10-22/3e58e881f67fc73d_Your-grammar-checker-uploads-every-word-you-type]] |
 | 2026-10-25T23:32:53+08:00 | dev.to | reactions=7 · 评论=15 · reading_time=6 | [[20-语料/posts/devto/2026-10-22/3e58e881f67fc73d_Your-grammar-checker-uploads-every-word-you-type]] |
+| 2026-10-26T09:45:36+08:00 | dev.to | reactions=7 · 评论=16 · reading_time=6 | [[20-语料/posts/devto/2026-10-22/3e58e881f67fc73d_Your-grammar-checker-uploads-every-word-you-type]] |
 
 ## 摘要正文
 

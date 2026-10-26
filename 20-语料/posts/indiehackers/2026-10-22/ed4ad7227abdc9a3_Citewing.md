@@ -5,7 +5,7 @@ title: "Citewing"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/citewing"
-captured_at: "2026-10-26T00:22:30+08:00"
+captured_at: "2026-10-26T09:45:11+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-10-26T00:22:30+08:00　|　id：`ed4ad7227abdc9a3`
+> 采集：2026-10-26T09:45:11+08:00　|　id：`ed4ad7227abdc9a3`
 
 ## 正文
 
@@ -49,8 +49,8 @@ So I kept wondering if the bots crawling my sites check robots.txt before grabbi
  Pulled the raw access logs and filtered by user agent, the annoying part was sorting real crawlers from scrapers faking a browser string so I checked the IPs against the published lists, biggest surprise was how fast a couple of them showed up, within hours even though nothing pointed at those pages
  A handful more came back over the next few days and at least three bots went straight to a page without requesting robots.txt first, which threw me off since that's literally the file they're supposed to read first, still not sure if that means they ignore it or just cached it from some request I can't see, and I don't know if they hit robots.txt from a different IP earlier so honestly the logs raise more questions than they answer tbh
 Tom Han
-9 Upvotes
-2 Comments
+13 Upvotes
+3 Comments
 October 23, 2026
  Agency wanted $1,800 a month for link building and the sample report had 14 links nobody visits
 Agency pitched me $1,800 a month for link building last week and I was kinda ready to say yes, they attached a sample report with 14 links in it, almost all directory listings on sites with basically zero traffic, a couple were old business profiles still showing my old address??
@@ -58,7 +58,7 @@ Agency pitched me $1,800 a month for link building last week and I was kinda rea
  So I spent a few evenings finding pages that already cite stuff in my space, the ones answering the which one is best questions, then emailed the owners myself with a short note, got a handful of replies which is honestly normal but way better than paying someone to guess
  The part I'm still stuck on is tracking where those links end up after someone says yes, some get edited later or removed and I only notice when rankings move, right now I use citewing to check every couple weeks where the links sit and it tells me when one disappears, I'd rather something watch the list and flag when a link disappears but I haven't found a setup I trust yet so it's still a spreadsheet
 Tom Han
-11 Upvotes
+12 Upvotes
 5 Comments
 October 22, 2026
  Ran the same niche AI query for 3 weeks, 2 domains got cited in almost every run

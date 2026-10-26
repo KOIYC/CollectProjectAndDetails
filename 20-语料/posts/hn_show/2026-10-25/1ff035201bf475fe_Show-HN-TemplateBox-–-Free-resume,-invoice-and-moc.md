@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=50231634"
 project_url: "https://templatebox.win/"
 author: "Templatebox"
 published_at: "2026-10-25T13:54:55Z"
-captured_at: "2026-10-25T23:24:35+08:00"
+captured_at: "2026-10-26T09:42:36+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -20,7 +20,7 @@ tags:
   - author_Templatebox
   - story_50231634
   - show_hn
-metrics: {"points": 2, "comments": 0, "engagement_velocity": 2}
+metrics: {"points": 3, "comments": 0, "engagement_velocity": 3}
 comments_count: 0
 comments_total: 0
 discovered_via: "hn:show_hn:3d"
@@ -34,10 +34,10 @@ discovered_via: "hn:show_hn:3d"
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=50231634>
-> 指标：点赞=2 · 评论=0 · engagement_velocity=2
+> 指标：点赞=3 · 评论=0 · engagement_velocity=3
 > 作者：Templatebox　|　发布：2026-10-25T13:54:55Z
 > 项目链接：<https://templatebox.win/>
-> 采集：2026-10-25T23:24:35+08:00　|　id：`1ff035201bf475fe`
+> 采集：2026-10-26T09:42:36+08:00　|　id：`1ff035201bf475fe`
 
 ## 正文
 

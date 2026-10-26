@@ -8,7 +8,7 @@ url: "https://github.com/Zagitta/gpu-unlock"
 project_url: "https://github.com/Zagitta/gpu-unlock"
 author: "Zagitta"
 published_at: "2026-10-18T01:28:31Z"
-captured_at: "2026-10-26T00:21:51+08:00"
+captured_at: "2026-10-26T09:44:46+08:00"
 lang: "en"
 kind: "post"
 topic: 未分类
@@ -19,7 +19,7 @@ tags:
   - github_new
   - C
   - created:>2026-10-12
-metrics: {"stars": 5647, "forks": 603, "open_issues": 100}
+metrics: {"stars": 6875, "forks": 715, "open_issues": 123}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/Zagitta/gpu-unlock>
-> 指标：stars=5647 · forks=603 · open_issues=100
+> 指标：stars=6875 · forks=715 · open_issues=123
 > 作者：Zagitta　|　发布：2026-10-18T01:28:31Z
 > 项目链接：<https://github.com/Zagitta/gpu-unlock>
-> 采集：2026-10-26T00:21:51+08:00　|　id：`8acda1e9f09f4448`
+> 采集：2026-10-26T09:44:46+08:00　|　id：`8acda1e9f09f4448`
 
 ## 正文
 

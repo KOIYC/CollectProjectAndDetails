@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: EdgePad – tool for configuring edge touchpad gestures on Linux laptops"
 project_url: "https://github.com/assembledev/edgepad"
-first_seen: "2026-10-26T00:19:08+08:00"
+first_seen: "2026-10-26T09:42:36+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/assembledev/edgepad>
-> 首次收录：2026-10-26T00:19:08+08:00
+> 首次收录：2026-10-26T09:42:36+08:00
 > 来源渠道：HN Show HN
 > 标签：author_dev-e, story_50230557, show_hn
 > 最新指标：点赞=6 · 评论=0 · engagement_velocity=6
@@ -32,6 +32,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-10-25T23:24:35+08:00 | HN Show HN | 点赞=6 · 评论=0 · engagement_velocity=6 | [[20-语料/posts/hn_show/2026-10-25/f5a4d1a14ae1e623_Show-HN-EdgePad-–-tool-for-configuring-edge-touchp]] |
 | 2026-10-26T00:19:08+08:00 | HN Show HN | 点赞=6 · 评论=0 · engagement_velocity=6 | [[20-语料/posts/hn_show/2026-10-25/f5a4d1a14ae1e623_Show-HN-EdgePad-–-tool-for-configuring-edge-touchp]] |
+| 2026-10-26T09:42:36+08:00 | HN Show HN | 点赞=6 · 评论=0 · engagement_velocity=6 | [[20-语料/posts/hn_show/2026-10-25/f5a4d1a14ae1e623_Show-HN-EdgePad-–-tool-for-configuring-edge-touchp]] |
 
 ## 摘要正文
 

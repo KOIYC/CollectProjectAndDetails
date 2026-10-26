@@ -212,7 +212,8 @@ def analyze(round_run: str | None = None) -> dict:
                                           "expect_comments": 0,
                                           "comments": 0, "platform_comments": 0, "trunc": 0,
                                           "no_project_url": 0, "no_author": 0, "profile": "discussion",
-                                          "err_body": 0, "err_comments": 0, "partial": 0})
+                                          "err_body": 0, "err_comments": 0, "err_comments_noop": 0,
+                                          "partial": 0})
     for it in items:
         d = by[it["source_id"]]
         d["profile"] = profiles.get(it["source_id"], "discussion")
@@ -236,7 +237,16 @@ def analyze(round_run: str | None = None) -> dict:
         d["no_author"] += 0 if it.get("author") else 1
         # 取数错误必须可见：静默失败比失败本身更贵（R3 实测 dev.to 大帖评论被静默截断）
         d["err_body"] += 1 if ex.get("body_error") else 0
-        d["err_comments"] += 1 if ex.get("comments_error") else 0
+        # 但「错误」要按「是否真丢了数据」计量（口径与质检门的评论分母同源：comments_count>0）：
+        # 平台自报 0 条评论的帖子，评论请求超时/被重置**没有丢任何东西**，算错误只会
+        # 让「取数错误」栏长期挂着一个修不掉的数（实测 2026-10-26：hn_show 17 条全是
+        # plat_comments=0 的帖子在 09-30 那次回填里超时，却被读了整整两轮）。
+        _pc = ((it.get("metrics") or {}).get("comments") or 0)
+        if ex.get("comments_error"):
+            if _pc > 0:
+                d["err_comments"] += 1
+            else:
+                d["err_comments_noop"] += 1
         d["partial"] += 1 if ex.get("comments_partial") else 0
     rep["by_channel"] = by
 
@@ -473,7 +483,9 @@ def main(argv=None) -> int:
             if exp["project_url"] and d["no_project_url"] == d["n"]:
                 flag.append("无项目链接")
             if d.get("err_body") or d.get("err_comments"):
-                flag.append(f"取数错误 正文{d.get('err_body', 0)}/评论{d.get('err_comments', 0)}")
+                extra = f"（另有 {d['err_comments_noop']} 条 0 评论帖取数失败，无数据损失）" \
+                    if d.get("err_comments_noop") else ""
+                flag.append(f"取数错误 正文{d.get('err_body', 0)}/评论{d.get('err_comments', 0)}{extra}")
             if d.get("partial"):
                 flag.append(f"翻页中断{d['partial']}")
             if d.get("profile") == "metadata" and d["body"] == 0:
@@ -484,6 +496,12 @@ def main(argv=None) -> int:
         if want:
             print("  需要优化：")
             print("\n".join(want))
+        # 「0 评论帖取数失败」单列成 informational，不混进「需要优化」——
+        # 它既不是渠道缺陷也不是内容缺陷，但也不能悄悄吞掉（否则看不出「为什么不报了」）。
+        noop = [(c, v) for c, v in (rep.get("by_channel") or {}).items() if v.get("err_comments_noop")]
+        for cid, v in noop:
+            print(f"    [i] {cid}: {v['err_comments_noop']} 条平台评论数=0 的帖子评论请求失败"
+                  f"（无数据损失，不计入取数错误）")
         if rep.get("gap_by_channel"):
             print(f"  待回填缺口 {len(rep['gaps'])} 条：" +
                   "、".join(f"{c}/{m}={n}" for (c, m), n in rep["gap_by_channel"][:8]))

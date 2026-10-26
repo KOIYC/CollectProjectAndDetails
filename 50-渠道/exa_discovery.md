@@ -19,7 +19,7 @@ params: {"weekly_only": true, "queries": ["indie developer launched their produc
 - **分组**：全网发现　|　**语言**：mix　|　**认证**：cli
 - **取数实现**：`exa_discovery`　|　**单次上限**：15
 - **补全类型**：none
-- **当前状态**：`ok`（本次 10 条，47.4s）
+- **当前状态**：`ok`（本次 11 条，39.2s）
 - **口径备注**：每周一次，补金字塔顶（博客/复盘文/新闻稿）
 - **解锁方式**：—
 
@@ -35,3 +35,4 @@ params: {"weekly_only": true, "queries": ["indie developer launched their produc
 | 2026-09-21T09:50:21+08:00 | ok | 9 | 24.4s | 32 results |
 | 2026-09-28T09:52:30+08:00 | ok | 10 | 32.2s | 32 results |
 | 2026-10-26T00:25:52+08:00 | ok | 10 | 47.4s | 32 results |
+| 2026-10-26T09:47:14+08:00 | ok | 11 | 39.2s | 32 results |

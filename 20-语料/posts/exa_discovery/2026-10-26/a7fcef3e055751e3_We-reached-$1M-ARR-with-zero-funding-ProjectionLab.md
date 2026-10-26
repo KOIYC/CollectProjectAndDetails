@@ -6,10 +6,10 @@ source: "exa_discovery"
 source_name: "Exa 全网语义发现"
 url: "https://projectionlab.com/blog/we-reached-1m-arr-with-zero-funding"
 published_at: "2025-06-30T00:00:00.000Z"
-captured_at: "2026-10-26T00:25:26+08:00"
+captured_at: "2026-10-26T09:46:53+08:00"
 lang: "en"
 kind: "method"
-topic: "AI 工具/Agent"
+topic: "开发者工具"
 shard: "2026-10-26"
 pub_day: "2025-06-30"
 tags:
@@ -32,7 +32,7 @@ discovered_via: "exa:solo founder MRR milestone build in public"
 > 指标：—
 > 作者：—　|　发布：2025-06-30T00:00:00.000Z
 > 项目链接：—
-> 采集：2026-10-26T00:25:26+08:00　|　id：`a7fcef3e055751e3`
+> 采集：2026-10-26T09:46:53+08:00　|　id：`a7fcef3e055751e3`
 
 ## 正文
 
@@ -80,18 +80,6 @@ If this is your first time hearing about ProjectionLab, here’s a quick recap:
 
 ...
 
-## The emotions behind the numbers
-
-Want to know what building in public from zero to a million dollars a year really felt like? NOT like serenely progressing up-and-to-the-right…
-
-More like riding a dopamine rollercoaster while getting attacked by a bear.
-
-The flat months in the early years? The dips in earnings? The times I woke up to a dozen canceled subscriptions?
-
-Each one had me questioning everything, wondering if I should just focus on the corporate ladder, or maybe try to get into big tech instead.
-
-...
-
 ## From solo dev to real team
 
 For the first two years, I burned the candle at both ends working solo. 4-6 hours every night after work, entire weekends, holidays, you name it.
@@ -109,25 +97,11 @@ But long-term, I knew there would be a choice to face:
 
 I was just an ordinary engineer with zero marketing experience. So I figured I should try to team up with someone good at growth & marketing.
 
-...
-
-## What’s next?
-
-Hitting $1M ARR is just the beginning.
-
-And that only counts recurring revenue. With non-recurring income sources like Lifetime subscriptions and 1-on-1 training sessions, monthly revenue has consistently been 20 to 50 percent higher.
-
-With that momentum, we’re doubling down on what got us here:
-
-- Making a good product that people actually like to use (including us)
-- Staying lean, bootstrapped, and aligned with the interests of our customers
-- Building thoughtfully and sustainably, not chasing AI hype or growth-at-all-costs
-
 ---
 
 ## 导航
 
 - 方法论页：[[40-方法论/We-reached-$1M-ARR-with-zero-funding-Pro_0b0fdb11]]
 - 渠道页：[[50-渠道/exa_discovery]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

@@ -19,7 +19,7 @@ params: {"window_days": 14, "min_stars": 20, "queries": ["created:>{since} stars
 - **分组**：海外发布　|　**语言**：en　|　**认证**：cli
 - **取数实现**：`github_new`　|　**单次上限**：30
 - **补全类型**：readme
-- **当前状态**：`ok`（本次 12 条，19.9s）
+- **当前状态**：`ok`（本次 12 条，13.2s）
 - **口径备注**：gh CLI（api.github.com 可达）；README 用 gh api .../readme 取全文
 - **解锁方式**：—
 
@@ -59,3 +59,4 @@ params: {"window_days": 14, "min_stars": 20, "queries": ["created:>{since} stars
 | 2026-10-22T09:48:02+08:00 | ok | 11 | 20.6s | 28 repos;  |
 | 2026-10-25T23:31:03+08:00 | ok | 12 | 69.5s | 28 repos;  |
 | 2026-10-26T00:22:08+08:00 | ok | 12 | 19.9s | 28 repos;  |
+| 2026-10-26T09:44:57+08:00 | ok | 12 | 13.2s | 28 repos;  |

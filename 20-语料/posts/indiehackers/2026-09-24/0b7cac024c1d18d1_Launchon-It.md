@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/launchon-it"
 project_url: "https://launchon.it/"
-captured_at: "2026-10-26T00:22:30+08:00"
+captured_at: "2026-10-26T09:45:11+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://launchon.it/>
-> 采集：2026-10-26T00:22:30+08:00　|　id：`0b7cac024c1d18d1`
+> 采集：2026-10-26T09:45:11+08:00　|　id：`0b7cac024c1d18d1`
 
 ## 正文
 
@@ -54,7 +54,7 @@ Sundays are usually my favorite day to step away from active coding, clear my he
  When your distribution stack relies on automated directories and compounding search equity instead of manual daily hustle, building software becomes fun again.
  How are you setting up your systems for the upcoming week? Are you planning manual outreach, or letting your infrastructure do the heavy lifting?
 Alex
-23 Upvotes
+27 Upvotes
 1 Comment
 October 24, 2026
  The Saturday reminder for solo founders: if your business cannot survive forty eight hours without you, you bought yourself a job
@@ -65,7 +65,7 @@ When you are bootstrapping a startup by yourself, weekends tend to lose their me
  Taking a step back gives your brain the space to look at the big picture, figure out actual distribution strategies, and come back on Monday with a clear head.
  How do you guys handle weekends? Are you strict about disconnecting, or are you deep in the code right now?
 Alex
-22 Upvotes
+23 Upvotes
 7 Comments
 October 23, 2026
  The Friday reality check: why doing less manual marketing will actually grow your startup faster
@@ -126,7 +126,7 @@ Every single week, hundreds of brilliant indie hackers finish building amazing S
  Head over to LaunchOnIt , submit your product yourself, and get it in front of real founders today.
  How are you handling distribution for your project this week?
 Alex
-28 Upvotes
+29 Upvotes
 11 Comments
 October 18, 2026
  How to build an automated distribution system for your SaaS so you do not have to rely on social media all day

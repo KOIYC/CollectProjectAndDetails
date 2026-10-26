@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=50231429"
 project_url: "https://debutspace.com/"
 author: "thomplth"
 published_at: "2026-10-25T13:35:57Z"
-captured_at: "2026-10-26T00:19:08+08:00"
+captured_at: "2026-10-26T09:42:36+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -20,9 +20,9 @@ tags:
   - author_thomplth
   - story_50231429
   - show_hn
-metrics: {"points": 3, "comments": 1, "engagement_velocity": 3}
-comments_count: 1
-comments_total: 1
+metrics: {"points": 5, "comments": 3, "engagement_velocity": 5}
+comments_count: 3
+comments_total: 3
 discovered_via: "hn:show_hn:3d"
 ---
 
@@ -34,10 +34,10 @@ discovered_via: "hn:show_hn:3d"
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
 > 原帖：<https://news.ycombinator.com/item?id=50231429>
-> 指标：点赞=3 · 评论=1 · engagement_velocity=3
+> 指标：点赞=5 · 评论=3 · engagement_velocity=5
 > 作者：thomplth　|　发布：2026-10-25T13:35:57Z
 > 项目链接：<https://debutspace.com/>
-> 采集：2026-10-26T00:19:08+08:00　|　id：`855e17d52ab8bec0`
+> 采集：2026-10-26T09:42:36+08:00　|　id：`855e17d52ab8bec0`
 
 ## 正文
 
@@ -107,10 +107,20 @@ Press Enter or Space to pause or play this demo.
 Debut is free and open source, licensed under GPL-3.0.
  GitHub ↗ Contact ↗ License Privacy
 
-## 评论（1/1）
+## 评论（3/3）
 
 > **thomplth** · 2026-10-25T13:38:19.000Z　
 > macOS Cmd-Tab doesn't work well with Spaces. When an app has windows on several Spaces, Cmd-Tab treats them as one app, so it's hard to get to the right window.Debut is a replacement that shows only the windows on the current Space. With switchers per-space stacked in one view, you can also add/remove/reorder Spaces and move windows between them.
+
+---
+
+> **xyxc** · 2026-10-25T16:32:56.000Z　
+> Very nice. Thanks. I loved addons for world and warcraft and I love addons for Mac too!
+
+---
+
+> **thomplth** · 2026-10-25T17:23:26.000Z　
+> Thank you :)
 
 ## 导航
 

@@ -6,7 +6,7 @@ source: "exa_discovery"
 source_name: "Exa 全网语义发现"
 url: "https://superframeworks.com/blog/sitegpt"
 published_at: "2024-04-13T15:47:49.000Z"
-captured_at: "2026-10-26T00:25:26+08:00"
+captured_at: "2026-10-26T09:46:53+08:00"
 lang: "en"
 kind: "method"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "exa:solo founder MRR milestone build in public"
 > 指标：—
 > 作者：—　|　发布：2024-04-13T15:47:49.000Z
 > 项目链接：—
-> 采集：2026-10-26T00:25:26+08:00　|　id：`6a6f003bfcffcc7e`
+> 采集：2026-10-26T09:46:53+08:00　|　id：`6a6f003bfcffcc7e`
 
 ## 正文
 
@@ -56,16 +56,6 @@ SiteGPT is an AI customer service chatbot tool.
 - No marketing team
 
 Last week, it crossed $250K revenue in just 1 year
-
-...
-
-I asked Bhanu, how does he come up with new features to build, and how does he prioritize features to build when he has many customer requests piling up.
-
-He only builds features that his enterprise customers request, and already pay for.
-
-Once they are stable, then he brings those features to the rest of the customer base and includes them in his regular offering.
-
-So he only builds features which already validated demand.
 
 ...
 

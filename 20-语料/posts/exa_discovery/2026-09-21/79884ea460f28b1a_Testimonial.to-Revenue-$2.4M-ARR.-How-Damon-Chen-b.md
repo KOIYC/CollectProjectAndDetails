@@ -5,8 +5,8 @@ title: "Testimonial.to Revenue: $2.4M ARR. How Damon Chen built it | Startup Fou
 source: "exa_discovery"
 source_name: "Exa 全网语义发现"
 url: "https://startupfounderstories.com/stories/damon-chen-testimonial-10k-mrr-building-public"
-published_at: "2024-02-20T09:51:00.000Z"
-captured_at: "2026-10-26T00:25:26+08:00"
+published_at: "2024-02-20T22:13:44.000Z"
+captured_at: "2026-10-26T09:46:53+08:00"
 lang: "en"
 kind: "method"
 topic: "开发者工具"
@@ -30,15 +30,15 @@ discovered_via: "exa:solo founder MRR milestone build in public"
 > 来源：Exa 全网语义发现（method）
 > 原帖：<https://startupfounderstories.com/stories/damon-chen-testimonial-10k-mrr-building-public>
 > 指标：—
-> 作者：—　|　发布：2024-02-20T09:51:00.000Z
+> 作者：—　|　发布：2024-02-20T22:13:44.000Z
 > 项目链接：—
-> 采集：2026-10-26T00:25:26+08:00　|　id：`79884ea460f28b1a`
+> 采集：2026-10-26T09:46:53+08:00　|　id：`79884ea460f28b1a`
 
 ## 正文
 
 Title: Testimonial.to Revenue: $2.4M ARR. How Damon Chen built it | Startup Founder Stories
 URL: https://startupfounderstories.com/stories/damon-chen-testimonial-10k-mrr-building-public
-Published: 2024-02-20T09:51:00.000Z
+Published: 2024-02-20T22:13:44.000Z
 Author: Damon Chen
 Highlights:
 Testimonial.to Revenue: $2.4M ARR, $10K MRR in 11 months | Startup Founder Stories
@@ -82,8 +82,6 @@ Collect and display video testimonials from customers with no coding required.
 Type
 
 SaaS
-
-Industry
 
 ...
 
@@ -151,16 +149,6 @@ vs median 1 year
 Damon Chen reached $10K MRR in 11 months, faster than 66% of the 295 documented $10K journeys (median 12 months). The amber bar is this journey.
 
 median 12 months
-
-...
-
-How long did it take Testimonial.to to reach $10k mrr?
-
-Damon Chen took 11 months to reach $10k mrr with Testimonial.to.
-
-Was Damon Chen a solo founder?
-
-Yes. Damon Chen built Testimonial.to as a solo founder.
 
 ---
 
