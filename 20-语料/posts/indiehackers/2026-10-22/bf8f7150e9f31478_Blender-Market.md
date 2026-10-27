@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/blender-market"
 project_url: "https://blendermarket.com/posts/2019-cyber-weekend-sale-results"
-captured_at: "2026-10-25T23:31:48+08:00"
+captured_at: "2026-10-27T23:49:41+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://blendermarket.com/posts/2019-cyber-weekend-sale-results>
-> 采集：2026-10-25T23:31:48+08:00　|　id：`bf8f7150e9f31478`
+> 采集：2026-10-27T23:49:41+08:00　|　id：`bf8f7150e9f31478`
 
 ## 正文
 
@@ -43,7 +43,7 @@ Blender Market
 Visit Website
 Blender Market The indie market for Blender creators
  Posts 14
- Revenue $566K / mo
+ Revenue $565K / mo
  Website Twitter Facebook
 February 18, 2021
  Hiring 2nd Rails Developer
@@ -146,7 +146,7 @@ Jonathan Williamson
 Comment
 About
  We built Blender Market to create intrinsic incentives for developers to maintain their Blender add-ons with each new release of Blender while also enabling them to generate a revenue streams with their skills.
- People
+People
  Jonathan Williamson Founder
  Nick Haskins Developer
  Wes Burke Co-founder

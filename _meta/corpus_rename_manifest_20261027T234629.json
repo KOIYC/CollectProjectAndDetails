@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-28T00:04:00+08:00",
+  "kind": "corpus_rename",
+  "note": "条目改标题导致的语料页换名；旧页已清（git/raw 可回溯），链接已改写",
+  "renames": [
+    {
+      "from": "20-语料/posts/producthunt/2026-10-16/6b556e4c61b9e9d3_Apple-HomeView.md",
+      "to": "20-语料/posts/producthunt/2026-10-16/6b556e4c61b9e9d3_iPad-mini-8.md"
+    },
+    {
+      "from": "20-语料/posts/xiaohongshu/2026-09-21/7861ab65194de927_四个月,从0到1w用户.md",
+      "to": "20-语料/posts/xiaohongshu/2026-09-21/7861ab65194de927_会做小程序的独立开发者-线上接单中.md"
+    }
+  ]
+}

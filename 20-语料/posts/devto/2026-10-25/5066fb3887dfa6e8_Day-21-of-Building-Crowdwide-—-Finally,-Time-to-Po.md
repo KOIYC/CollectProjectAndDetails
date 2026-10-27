@@ -6,9 +6,9 @@ source: "devto"
 source_name: "dev.to"
 url: "https://dev.to/puneetkumar2010/day-21-of-building-crowdwide-finally-time-to-polish-the-ui-1696"
 project_url: "https://github.com/DeveloperPuneet/Crowdwide"
-author: "Puneet-Kumar2010"
+author: "Puneet Kumar Mishra"
 published_at: "2026-10-23T11:54:10Z"
-captured_at: "2026-10-26T09:53:43+08:00"
+captured_at: "2026-10-28T00:18:42+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -21,9 +21,9 @@ tags:
   - buildinpublic
   - opensource
   - discuss
-metrics: {"reactions": 21, "comments": 73, "reading_time": 2}
-comments_count: 72
-comments_total: 73
+metrics: {"reactions": 30, "comments": 192, "reading_time": 2}
+comments_count: 129
+comments_total: 192
 discovered_via: "devto:buildinpublic"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:buildinpublic"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/puneetkumar2010/day-21-of-building-crowdwide-finally-time-to-polish-the-ui-1696>
-> 指标：reactions=21 · 评论=73 · reading_time=2
-> 作者：Puneet-Kumar2010　|　发布：2026-10-23T11:54:10Z
+> 指标：reactions=30 · 评论=192 · reading_time=2
+> 作者：Puneet Kumar Mishra　|　发布：2026-10-23T11:54:10Z
 > 项目链接：<https://github.com/DeveloperPuneet/Crowdwide>
-> 采集：2026-10-26T09:53:43+08:00　|　id：`5066fb3887dfa6e8`
+> 采集：2026-10-28T00:18:42+08:00　|　id：`5066fb3887dfa6e8`
 
 ## 正文
 
@@ -114,14 +114,14 @@ THAT'S IT!!
 
 See you in the next update! 👋
 
-## 评论（72/73）
+## 评论（129/192）
 
 > **EffessDev** · 2026-10-23T12:00:29Z　
 > @akhourianmolkumar @koda2026 and @technogamerz joined, so me too joined! 🥳
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-23T12:04:31Z　
+> **Puneet Kumar Mishra** · 2026-10-23T12:04:31Z　
 > YOOO LET'S GOOO!! 🔥 Welcome aboard, brooo!! 🐯🤝 Hope you enjoy being part of Crowdwide!! ❤️
 
 ---
@@ -131,7 +131,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-23T12:18:53Z　
+> **Puneet Kumar Mishra** · 2026-10-23T12:18:53Z　
 > ✌🙌
 
 ---
@@ -181,12 +181,283 @@ See you in the next update! 👋
 
 ---
 
+> **Sᴛᴀʀ⭐** · 2026-10-27T11:33:07Z　
+> you online now. Where have you been all these days?
+
+---
+
+> **𝐓𝐡𝐞 𝐋𝐚𝐳𝐲 𝐆𝐢𝐫𝐥 ** · 2026-10-27T11:43:10Z　
+> @star123 I had gone to Kerala for some work.
+
+---
+
+> **EffessDev** · 2026-10-27T11:45:06Z　
+> Kerala!? 😱 Where?!
+
+---
+
+> **EffessDev** · 2026-10-27T12:06:11Z　
+> WHATTTTT!??????? 🤯🤯🤯🤯🤯🤯🤯🤯🤯
+
+---
+
+> **EffessDev** · 2026-10-27T12:06:46Z　
+> You came to my place?! FOR REAL? Or just joking?
+
+---
+
+> **𝐓𝐡𝐞 𝐋𝐚𝐳𝐲 𝐆𝐢𝐫𝐥 ** · 2026-10-27T12:10:30Z　
+> For real, I’m not even joking. I didn’t know that was your place.😅
+
+---
+
+> **EffessDev** · 2026-10-27T12:11:18Z　
+> BUT WHY WOULD YOU COME TO ALAPPUZHA?!!! What kind of work is that?!
+
+---
+
+> **𝐓𝐡𝐞 𝐋𝐚𝐳𝐲 𝐆𝐢𝐫𝐥 ** · 2026-10-27T12:13:43Z　
+> Because my friends live there, I went to meet them.
+
+---
+
+> **EffessDev** · 2026-10-27T12:14:54Z　
+> What a coincidence is that?! Where are you now?
+
+---
+
+> **Puneet Kumar Mishra** · 2026-10-27T12:17:55Z　
+> Interesting thread... meanwhile me: READING 👀
+
+---
+
+> **EffessDev** · 2026-10-27T12:21:31Z　
+> Bro i can't believe she came to Alappuzha. I am right in the center of Alappuzha. @technogamerz were you near the Alappuzha railway station, the Alappuzha beach, or something?
+
+---
+
+> **𝐓𝐡𝐞 𝐋𝐚𝐳𝐲 𝐆𝐢𝐫𝐥 ** · 2026-10-27T12:33:19Z　
+> But bro, you’re shy, aren’t you?
+
+---
+
+> **Puneet Kumar Mishra** · 2026-10-27T12:41:58Z　
+> 🙌
+
+---
+
+> **𝐓𝐡𝐞 𝐋𝐚𝐳𝐲 𝐆𝐢𝐫𝐥 ** · 2026-10-27T12:49:17Z　
+> @puneetkumar2010 🙌🏻Huge Respect Puneet superstar 👏🏻
+>
+> @effessdev
+>
+> I mostly love traveling around South India, especially Kerala and Tamil Nadu. It was my first time visiting your place, and honestly, it was so beautiful, truly stunning! If we ever get the chance, we should all meet someday, offline or online, haha. Next time I visit your place again! I’ll definitely come to your college. I don’t even know which college it is yet, hahaha! 🤣
+
+---
+
+> **Puneet Kumar Mishra** · 2026-10-27T12:54:16Z　
+> Haha, superstar? 😂😅😂😂 You're making me famous already! Thank you so much for the love and support! 🙌 And yesss, we should definitely meet someday, online or offline! 😂
+
+---
+
+> **EffessDev** · 2026-10-27T13:27:05Z　
+> @technogamerz I was about to ask you what you think about our place but you already said?
+>
+> My college is not in Alappuzha and also it's on top of a hill lol. It's very hard to travel to there. So not college but anywhere else... 🤣 (I don't like schools & colleges)
+
+---
+
+> **EffessDev** · 2026-10-27T13:28:04Z　
+> @akhourianmolkumar bro you said that I'm shy right??
+
+---
+
+> **Puneet Kumar Mishra** · 2026-10-27T13:48:37Z　
+> Do you play hill climbing IRL on your way to college? :D
+
+---
+
+> **Puneet Kumar Mishra** · 2026-10-27T13:48:59Z　
+> 😂😂😂😂 THIS GIF!!
+
+---
+
+> **EffessDev** · 2026-10-27T13:54:36Z　
+> Yep. And not only on our way to college but inside college too (if one department is on top of the hill, the other is on the bottom lol).
+
+---
+
+> **Puneet Kumar Mishra** · 2026-10-27T14:04:55Z　
+> Your college is really based on real-life ups and downs 😂
+
+---
+
+> **Akhouri Anmol Kumar** · 2026-10-27T13:53:51Z　
+> heheheheh 🙃
+
+---
+
+> **Akhouri Anmol Kumar** · 2026-10-27T13:55:05Z　
+> bro come online please
+
+---
+
+> **EffessDev** · 2026-10-27T13:55:44Z　
+> Aha I got it!
+
+---
+
+> **EffessDev** · 2026-10-27T13:57:01Z　
+> @akhourianmolkumar bro I want to come online but I have a stupid assignment (I mean literally a STUPID assignment)
+
+---
+
+> **Akhouri Anmol Kumar** · 2026-10-27T13:57:06Z　
+> coming or not? bro my 2 days school holiday tomorrow because of severe weather 😂
+
+---
+
+> **EffessDev** · 2026-10-27T13:57:48Z　
+> I'll come when I finish bro...
+
+---
+
+> **Akhouri Anmol Kumar** · 2026-10-27T13:58:19Z　
+> okay so can you be online in dev.to for some reasons (remember that??????)
+
+---
+
+> **Harun - solo dev ** · 2026-10-27T13:58:23Z　
+> Guys why this thread messages are coming to my notifications?
+
+---
+
+> **Puneet Kumar Mishra** · 2026-10-27T14:07:22Z　
+> congrats bro😭
+
+---
+
+> **Harun - solo dev ** · 2026-10-27T14:09:51Z　
+> Bro how to stop getting notifications from the post
+
+---
+
+> **Puneet Kumar Mishra** · 2026-10-27T14:32:18Z　
+> 😭 idk... i think unsubs to thread
+
+---
+
+> **Puneet Kumar Mishra** · 2026-10-27T14:06:51Z　
+> THESE MEMES 😂😂😂🤣 MOODI JI ON PEAK
+
+---
+
+> **Harun - solo dev ** · 2026-10-27T14:10:09Z　
+> Lol i dont want the thread
+
+---
+
+> **𝐓𝐡𝐞 𝐋𝐚𝐳𝐲 𝐆𝐢𝐫𝐥 ** · 2026-10-27T14:18:25Z　
+> Online?
+
+---
+
+> **EffessDev** · 2026-10-27T14:20:29Z　
+> ?
+
+---
+
+> **Akhouri Anmol Kumar** · 2026-10-27T14:22:04Z　
+> yupp
+
+---
+
+> **EffessDev** · 2026-10-27T14:23:51Z　
+> What?
+
+---
+
+> **𝐓𝐡𝐞 𝐋𝐚𝐳𝐲 𝐆𝐢𝐫𝐥 ** · 2026-10-27T14:24:02Z　
+> rizzzler.work.gd/puneet2010
+>
+> Song name? 🤣
+
+---
+
+> **EffessDev** · 2026-10-27T14:26:32Z　
+> Link not working :(((
+
+---
+
+> **𝐓𝐡𝐞 𝐋𝐚𝐳𝐲 𝐆𝐢𝐫𝐥 ** · 2026-10-27T14:31:45Z　
+> Link not working:(((((( why???
+>
+> My favourite Phonk song!
+
+---
+
+> **Akhouri Anmol Kumar** · 2026-10-27T14:33:42Z　
+> casually didi, flexed that he can solve all physics and didi really???????????
+>
+> 😂 IITian listening phonks.
+
+---
+
+> **Puneet Kumar Mishra** · 2026-10-27T14:39:52Z　
+> 😅🙄 i got this from youtube...
+>
+> and... one more things... Actually, it was my old project lol. It was a link-in-bio platform that kinda helps you build your portfolio in one place! 😅🤣🤣
+
+---
+
+> **Puneet Kumar Mishra** · 2026-10-27T14:40:32Z　
+> rizzzler.work.gd/puneet2010 try this one...
+
+---
+
+> **Puneet Kumar Mishra** · 2026-10-27T14:41:29Z　
+> woow!! Nice taste 😎🥇
+
+---
+
+> **𝐓𝐡𝐞 𝐋𝐚𝐳𝐲 𝐆𝐢𝐫𝐥 ** · 2026-10-27T15:09:36Z　
+> @effessdev for you.....
+>
+> -
+
+---
+
+> **Akhouri Anmol Kumar** · 2026-10-27T15:13:31Z　
+> India is changing, world is changing
+>
+> IITians are sending shorts in dev.to 😂
+>
+> didi now you are in league of own rules people
+>
+> in this league currently 3 people only fall before you
+>
+> Me, FS BRO, and puneet we 3 were the people who break the law of professionalism of dev.to but now we all 3 are considering you too in the league
+>
+> congrats
+
+---
+
+> **Puneet Kumar Mishra** · 2026-10-27T14:31:57Z　
+> 🤣 bruh where is option of gif in dev!!
+
+---
+
+> **Puneet Kumar Mishra** · 2026-10-27T14:03:29Z　
+> 😂😂
+
+---
+
 > **Oleksandr** · 2026-10-23T12:59:00Z　
 > Huge congrats on hitting Day 21! Getting the core algorithm and mailing system done before touching the UI is a massive milestone. For the sidebar dilemma—you made the right call going with the overlay approach. Compressing the main feed causes heavy layout shifts and reflows, which feels really clunky, especially when users are just trying to peek at navigation. Keeping the main content fixed and just dimming the background is much smoother. Also, for that gradient stretching issue you mentioned, using background-attachment: fixed or a fixed pseudo-element behind the content usually fixes the weird top shading. Good luck with the remaining polishing, and thanks for the #HackerStage shoutout!
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-23T13:03:02Z　
+> **Puneet Kumar Mishra** · 2026-10-23T13:03:02Z　
 > thank you so much!! 🔥 And yeah, the overlay approach feels much smoother instead of compressing the whole page!
 >
 > Also, thanks for the gradient fix suggestion, I'll keep that in mind! Really appreciate the detailed feedback and support, bro! 🤝
@@ -198,7 +469,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-23T13:12:53Z　
+> **Puneet Kumar Mishra** · 2026-10-23T13:12:53Z　
 > appreciate you bro!! Thanks for the support, means a lot! More updates coming soon
 
 ---
@@ -208,7 +479,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-23T14:40:18Z　
+> **Puneet Kumar Mishra** · 2026-10-23T14:40:18Z　
 > 🙌🙌
 
 ---
@@ -218,7 +489,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-24T04:30:19Z　
+> **Puneet Kumar Mishra** · 2026-10-24T04:30:19Z　
 > that's some really valuable feedback!! 🤝
 >
 > Honestly, I was mostly checking the theme contrast visually, but you're right, using WCAG contrast ratios would be a much more systematic way to catch issues. I'll look into running a proper contrast check before the next theme update!
@@ -234,7 +505,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-24T05:07:09Z　
+> **Puneet Kumar Mishra** · 2026-10-24T05:07:09Z　
 > that secondary-button example makes so much sense! 🔥 I'll definitely check out axe DevTools and try to make the contrast checking more systematic.
 >
 > and honestly, I'm most looking forward to making the whole UI feel consistent across themes and getting the sidebar and feed interactions really smooth! Once that's stable, I can focus more on user requests and moderation.
@@ -246,7 +517,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-24T05:53:24Z　
+> **Puneet Kumar Mishra** · 2026-10-24T05:53:24Z　
 > that 2.1:1 example is wild 😭 I'm gonna start with the high-traffic pages first: landing page, dashboard, posts/articles, polls, Widewave, and community pages!
 >
 > Also, I'm curious about something — how can a page look perfectly fine visually but still fail the WCAG contrast check? 🤔 Is it mostly because our eyes perceive colors differently, or are there other factors too?
@@ -258,7 +529,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-24T08:31:26Z　
+> **Puneet Kumar Mishra** · 2026-10-24T08:31:26Z　
 > I was genuinely shocked when I ran axe and found that almost every page had at least a few accessibility issues!! I thought things were looking fine, but apparently there's a lot more to polish thanks for pointing me toward this tool, Odinaka!
 
 ---
@@ -268,7 +539,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-24T08:54:57Z　
+> **Puneet Kumar Mishra** · 2026-10-24T08:54:57Z　
 > THE DASHBOARD!! It had the most issues out of all the pages I checked! Looks like I've got quite a bit of polishing to do there. Thanks again for all the guidance, Odinaka!! 🤝
 
 ---
@@ -278,7 +549,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-24T10:12:32Z　
+> **Puneet Kumar Mishra** · 2026-10-24T10:12:32Z　
 > it was spread across different widgets on the dashboard! Not just one component causing everything. Looks like I'll need to check each widget and see what's going wrong!
 
 ---
@@ -288,7 +559,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-24T10:44:06Z　
+> **Puneet Kumar Mishra** · 2026-10-24T10:44:06Z　
 > Labels are the longest on my dashboard list!
 
 ---
@@ -298,7 +569,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-24T11:48:00Z　
+> **Puneet Kumar Mishra** · 2026-10-24T11:48:00Z　
 > Ohh, in my case, I found both types of issues 😭 Some elements need labels, while on others, adding a label doesn't seem to have any effect. I'll check them separately and see what's actually causing the issue.I fixed a few of them, but most of the issues are still left! Thanks for the detailed explanation, Odinaka!
 
 ---
@@ -308,7 +579,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-24T12:46:17Z　
+> **Puneet Kumar Mishra** · 2026-10-24T12:46:17Z　
 > Haven't checked the pattern yet lol I fixed a few, but most are still left. I'll see if the no-effect ones are coming from the same component or different places. In next few updates mostly will be solved!
 >
 > Also, what if I leave those no-effect labels as they are? If they aren't causing any actual issues, should I keep them or remove them? 🤔
@@ -320,7 +591,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-24T13:52:35Z　
+> **Puneet Kumar Mishra** · 2026-10-24T13:52:35Z　
 > I'll remove those unnecessary labels! Most of the remaining issues seem to be with decorative elements, actually. I'll go through them and clean them up.
 
 ---
@@ -330,7 +601,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-25T04:35:22Z　
+> **Puneet Kumar Mishra** · 2026-10-25T04:35:22Z　
 > Most of them seem to be purely visual, from what I've seen so far. I'll check if any of them actually carry meaning that might not be obvious to a screen reader and handle those separately. The decorative icon sounding like a button is a good example of what I need to watch out for
 
 ---
@@ -340,7 +611,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-25T04:39:30Z　
+> **Puneet Kumar Mishra** · 2026-10-25T04:39:30Z　
 > That “every announced element earns a decision” check is actually a really good way to think about it I haven't fully checked the borderline ones yet, but status icons and hint icons are definitely the ones I'll look at more carefully. I don't wanna hide something that actually helps users understand what's happening.
 
 ---
@@ -350,7 +621,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-25T04:43:47Z　
+> **Puneet Kumar Mishra** · 2026-10-25T04:43:47Z　
 > That makes sense! A short label like “active” or “pending” is way more useful than just announcing an icon I think the trickiest ones in Crowdwide would be status indicators around posts and community activity. I'll check how to make those clear without making the screen reader output too noisy.
 
 ---
@@ -360,7 +631,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-25T06:43:26Z　
+> **Puneet Kumar Mishra** · 2026-10-25T06:43:26Z　
 > Oohh, adding the noun makes sense! “Post: active” is much clearer than just “active” 😭 I think the post indicators might be trickier because I need to make the status clear without repeating it everywhere. I'll check both, though, especially how the status fits into the card heading order.
 
 ---
@@ -370,7 +641,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-25T08:06:48Z　
+> **Puneet Kumar Mishra** · 2026-10-25T08:06:48Z　
 > Yeahh, that makes sense! I'll work on the heading order and clean up the noisy post indicators. I think I can get these accessibility updates done by tomorrow 👀
 
 ---
@@ -380,7 +651,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-25T08:52:15Z　
+> **Puneet Kumar Mishra** · 2026-10-25T08:52:15Z　
 > that's the goal! I wanna make the cards cleaner without losing the useful info for screen reader users too
 
 ---
@@ -390,7 +661,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-25T12:52:27Z　
+> **Puneet Kumar Mishra** · 2026-10-25T12:52:27Z　
 > Exactlyyy! 😭 I don't wanna make the cards look cleaner visually but accidentally make them less useful for screen reader users. Still figuring out the right balance, but this is helping me think about it better 👀
 
 ---
@@ -400,7 +671,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-25T13:50:04Z　
+> **Puneet Kumar Mishra** · 2026-10-25T13:50:04Z　
 > Exactly! 😭 That’s what I was trying to get right with Crowdwide — making the UI cleaner without hiding the things people actually need. It’s done now! 🙌 You can check it out in my latest article, Day 23 of Building Crowdwide. 🚀
 
 ---
@@ -410,7 +681,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-25T18:34:04Z　
+> **Puneet Kumar Mishra** · 2026-10-25T18:34:04Z　
 > yeah! Trying to keep the UI cleaner without hiding things. Day 23 already, and there’s still a lot to improve. Appreciate you noticing the fast loop!
 
 ---
@@ -420,12 +691,17 @@ See you in the next update! 👋
 
 ---
 
+> **Puneet Kumar Mishra** · 2026-10-26T04:47:35Z　
+> true! There’s always something to improve, and every time I fix one thing, I notice something else. Just trying to make Crowdwide better step by step!
+
+---
+
 > **Gabriel Segura** · 2026-10-24T04:46:30Z　
 > That's a good catch!
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-24T05:07:45Z　
+> **Puneet Kumar Mishra** · 2026-10-24T05:07:45Z　
 > Glad you think so! Really appreciate the feedback and support!
 
 ---
@@ -444,7 +720,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-24T04:31:32Z　
+> **Puneet Kumar Mishra** · 2026-10-24T04:31:32Z　
 > thank you so much!! and yesss, the overlay approach felt like the better choice to keep things smooth without shifting the whole page! Really appreciate the support, we're getting there!! 🤝
 
 ---
@@ -454,7 +730,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-24T05:09:29Z　
+> **Puneet Kumar Mishra** · 2026-10-24T05:09:29Z　
 > YESSS!! I actually saw your post about this yesterday, added it to my to-do list, and started working on it a little yesterday! I'll get it done today!! Thanks for suggesting it, bro!! 🤝
 
 ---
@@ -464,7 +740,7 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-24T05:50:10Z　
+> **Puneet Kumar Mishra** · 2026-10-24T05:50:10Z　
 > BROOO, OF COURSE!! 🤝 Your suggestions matter, and if something can make Crowdwide better, I'll definitely take it seriously!! We're building this together!!
 
 ---
@@ -474,8 +750,13 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-24T05:55:28Z　
+> **Puneet Kumar Mishra** · 2026-10-24T05:55:28Z　
 > 🤝 always bro, keep the suggestions coming
+
+---
+
+> **𝐓𝐡𝐞 𝐋𝐚𝐳𝐲 𝐆𝐢𝐫𝐥 ** · 2026-10-27T16:03:58Z　
+> @effessdev Happy Birthday to you and your mom in advance! 🎉❤️
 
 ---
 
@@ -484,15 +765,63 @@ See you in the next update! 👋
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-24T10:39:47Z　
+> **Puneet Kumar Mishra** · 2026-10-24T10:39:47Z　
 > which logo?
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-24T11:26:28Z　
+> **Puneet Kumar Mishra** · 2026-10-24T11:26:28Z　
 > 😭 i used AI to generate the banner of post... so tht ai added random logo there
 >
 > logo of crowdwide is same lol
+
+---
+
+> **shadow-fintech** · 2026-10-27T13:51:50Z　
+> I have a built a cli based sql anamoly triage detector and I'm new to this kinda stuff . How do I find beta testers
+
+---
+
+> **Puneet Kumar Mishra** · 2026-10-27T14:05:34Z　
+> Since you're just starting out, I'd suggest sharing your project in communities where developers and database engineers hang out. You can try Reddit, DEV Community, relevant Discord servers, and LinkedIn.
+>
+> Make a short demo showing how your CLI tool detects SQL anomalies, explain who it can help, and ask people to try it out and share feedback. You don't need a huge audience even 5–10 relevant testers can help you learn a lot!
+>
+> Also, make sure your GitHub README clearly explains how to set it up and try it. All the best!
+
+---
+
+> **Abhinav Dunna** · 2026-10-27T14:15:26Z　
+> The sidebar overlay sounds like a good choice, especially for avoiding layout shifts. One thing I'm curious about: when you're polishing a UI, how do you test what happens when the user interacts with it under less-than-ideal conditions?
+>
+> For example, if someone clicks a button to create a post and the request fails, does the UI preserve their input and let them retry? Or if they click twice before the first request finishes, how do you prevent duplicate actions?
+>
+> Do you have a small checklist for testing these edge cases, or do you usually discover them while using the app? I'd love to hear how you approach this as Crowdwide grows!
+
+---
+
+> **Puneet Kumar Mishra** · 2026-10-27T14:37:44Z　
+> I’ve made my repo public and I’m building Crowdwide in public so everyone can see what I’m building and suggest changes I can make. Actually, most of the features and improvements in Crowdwide are suggested by users themselves!
+>
+> For the optimistic UI, I built a system on the frontend and adjusted the backend accordingly. For example, when you click the button to post something, it disappears immediately without waiting for any server response, and you just see Posting.... That’s how I prevented users from clicking the button multiple times while the first request was still processing.
+>
+> I’ve also made a basic checklist for testing the UI and other edge cases, but honestly, I discover the more serious issues when I test the app like a real user and use it normally. 😅
+>
+> That’s also one of the reasons I’m building in public — people can use Crowdwide, suggest improvements, and help me discover things I might have missed!
+
+---
+
+> **Dexoryn** · 2026-10-27T15:21:57Z　
+> UI polish is one of those stages where small decisions can make a big difference to how a product feels. I like that you focused on readability and the sidebar instead of just adding more features.
+>
+> A platform built to give smaller creators a voice also needs to feel comfortable and intuitive enough that people actually want to stay and use it.
+
+---
+
+> **Puneet Kumar Mishra** · 2026-10-27T15:45:28Z　
+> Exactly and i just realized that i made UI little bit complex...
+>
+> Providing too many option in front just after login... I need to fix that too 🙄
 
 ## 关联链接
 

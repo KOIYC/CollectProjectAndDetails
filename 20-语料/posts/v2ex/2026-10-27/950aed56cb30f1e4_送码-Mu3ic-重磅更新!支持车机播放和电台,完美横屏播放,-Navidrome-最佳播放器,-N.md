@@ -1,0 +1,122 @@
+---
+type: "corpus"
+item_id: "950aed56cb30f1e4"
+title: "[送码] Mu3ic 重磅更新！支持车机播放和电台，完美横屏播放， Navidrome 最佳播放器， Nas 音乐玩家的优选"
+source: "v2ex"
+source_name: "V2EX"
+url: "https://www.v2ex.com/t/1252164"
+project_url: "https://dl.robb3n.site/mu3ic/Mu3ic-stable.apk"
+author: "aslehx"
+published_at: "2026-10-27T03:12:11"
+captured_at: "2026-10-27T23:56:38+08:00"
+lang: "zh"
+kind: "post"
+topic: "AI 工具/Agent"
+shard: "2026-10-27"
+pub_day: "2026-10-27"
+tags:
+  - 语料
+  - v2ex
+  - 17
+metrics: {"replies": 0}
+comments_count: 0
+comments_total: 0
+discovered_via: "v2ex:独立开发"
+---
+
+# [送码] Mu3ic 重磅更新！支持车机播放和电台，完美横屏播放， Navidrome 最佳播放器， Nas 音乐玩家的优选
+
+> [!info] 一句话导读
+> [主页]( https://mu3ic.xyz) 进行了升级重构，更新的所有内容都可以直接在主页上体验，无需下载应用即可上手体验，玩起来：
+
+> [!meta]- 语料信息（点开展开）
+> 来源：V2EX（post）
+> 原帖：<https://www.v2ex.com/t/1252164>
+> 指标：回复=0
+> 作者：aslehx　|　发布：2026-10-27T03:12:11
+> 项目链接：<https://dl.robb3n.site/mu3ic/Mu3ic-stable.apk>
+> 采集：2026-10-27T23:56:38+08:00　|　id：`950aed56cb30f1e4`
+
+## 正文
+
+🎉Mu3ic 1.7.0 正式版发布🎉
+
+[主页]( https://mu3ic.xyz) 进行了升级重构，更新的所有内容都可以直接在主页上体验，无需下载应用即可上手体验，玩起来：
+
+![](  )
+
+![](  )
+
+## 本帖专属福利规则
+
+本帖送码分为三层，**激活码**和**优惠券**：
+
+- **50 个 Pro 激活码**：前 50 个留下邮箱的，会送出 Mu3ic Pro 激活码，**24h 内激活有效，逾期不补**，最后一批 Pro 赠码
+- **可叠加优惠券**：50 个码送完后，本帖留下邮箱（优惠券本帖不限量供应），送出 6 元 Pro 优惠券，叠加推广期优惠，限时 ~~38~~ **12 元**即可激活 Mu3ic Pro （史低价格，6 元优惠券 24h 有效，推广期优惠截至日期 11.05 ）
+- **反馈/评价赠码**：免费版使用后，提出有效反馈/任何使用体验或评价，可以获得 50 个赠码外的额外赠码
+
+## 进群
+
+- 进群可以**许愿**！
+- 🎉任何问题和需求都会被重视，让我们共同提升应用体验🎉
+- 资源交流（博文也写的很详细，曲目自动化入库 prompt 进群获取）
+
+## 主要更新内容
+
+1. 车机播放，支持手机车机模式、横屏播放和 Android Auto ，也可以与电台模块结合，实现车载自定义电台
+	![](  )
+	![](  )
+    唱机皮肤实机播放： https://www.bilibili.com/video/BV1JWno61ENf 
+2. 新增电台，支持 Navidrome 服务端电台配置，也支持本地添加配置，电台可以批量导入，也可以分类
+	![](  )
+3. 歌曲统计，八个维度的听歌数据统计，首页随心切换展示维度，每个维度都配备独立 UI 设计，丝滑构建音乐复利系统
+	![](  )
+	![](  )
+	![](  )
+4. 拖动进度条显示歌词，丝滑查看歌词分布，上滑取消跳转，完美交互逻辑
+	![](  )
+5. APP 内应用说明，7 个主题 43 篇说明，每一篇均图文并茂，说透每一处交互逻辑和设计思路，丝滑掌握 APP 最佳使用姿势
+	![](  )
+6. 歌曲切换支持淡入淡出和交叉切换
+	![](  )
+7. 支持 ReplayGain 音乐标签，曲目模式和专辑模式随心切换
+	![](  )
+8. 首页支持自定义界面，新增拾遗，可以自由展示/隐藏逻辑块，随心拖动以改变展示顺序，满足您的审美
+	![](  )
+
+## 相关链接
+
+- **产品主页**： https://mu3ic.xyz
+- **软件直链下载**： https://dl.robb3n.site/mu3ic/Mu3ic-stable.apk （海外慢的话用 https://mu3ic.xyz/dl/Mu3ic-stable.apk ）
+- **相关 Blog**：
+	- [黑胶唱机：横过手机，放一张唱片]( https://robb3n.site/posts/turn-phone-sideways-play-vinyl/) 
+	- [从文件夹到曲库：音乐文件标签最佳实践]( https://robb3n.site/posts/folder-to-music-library-tagging-best-practices/) 
+	- [入库自动化：一首歌进曲库要过的几道闸]( https://robb3n.site/posts/song-ingestion-automation-gates/) 
+- **更新日志**： https://mu3ic.xyz/changelog/
+- **官方讨论群**： https://t.me/+wQQlVDMami4xNzNl
+- **唱机皮肤实机播放**： https://www.bilibili.com/video/BV1JWno61ENf 
+
+## 后续开发计划
+
+1. 支持播客
+2. 本地/Nas/Webdav 播放器
+3. 桌面端播放器
+4. 短期内不考虑 ios 端
+
+## 关联链接
+
+- https://mu3ic.xyz
+- https://mu3ic.xyz/changelog/
+- https://mu3ic.xyz/dl/Mu3ic-stable.apk
+- https://robb3n.site/posts/folder-to-music-library-tagging-best-practices/
+- https://robb3n.site/posts/song-ingestion-automation-gates/
+- https://robb3n.site/posts/turn-phone-sideways-play-vinyl/
+- https://t.me/+wQQlVDMami4xNzNl
+- https://www.bilibili.com/video/BV1JWno61ENf
+
+## 导航
+
+- 项目页：[[10-项目/dl.robb3n.site_db6123aa]]
+- 渠道页：[[50-渠道/v2ex]]
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 同渠道/同赛道批量浏览：[[浏览]]

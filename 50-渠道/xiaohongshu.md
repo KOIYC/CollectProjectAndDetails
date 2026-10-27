@@ -7,7 +7,7 @@ adapter: "opencli_social"
 auth: "browser"
 lang: "zh"
 status: "ok"
-last_verified: "2026-10-26"
+last_verified: "2026-10-28"
 tags:
   - 渠道
   - 渠道/中文社媒
@@ -19,8 +19,8 @@ params: {"site": "xiaohongshu", "queries": ["独立开发", "独立开发者", "
 - **分组**：中文社媒　|　**语言**：zh　|　**认证**：browser
 - **取数实现**：`opencli_social`　|　**单次上限**：45
 - **补全类型**：fulltext
-- **当前状态**：`ok`（本次 1 条，89.9s）
-- **口径备注**：2026-09-22 实测已解锁：opencli doctor 报 daemon running + Extension connected(v1.0.22)， `opencli xiaohongshu search` 15.8s 返回 20 条，kb_audit 判 ok。 依赖：Chrome 必须开着且小红书网页端有登录态 —— 扩展在但站点没登录时仍会失败（X 就是这种情况）。 **2026-09-26 复测回落到 auth**（`BROWSER_CONNECT` / `ok: false`）→ 属浏览器端状态，不是渠道腐化： 保持 `enabled: true`（本机开 Chrome 登录后自动恢复），不写 disabled 段。 **2026-09-28 复测已回升 `ok`**（15.4s / 1 条 / 1 路查询）—— 证实上一轮「浏览器端状态、非渠道腐化」的判断： 这类 `auth` 在启停决策里**不应计入腐化**，只需复检。 已知限制：① url 带 xsec_token（有时效）→ item_id 不稳，应剥 xsec_* 再做去重键； ② 无正文 enricher，body 仅为元数据块、likes 未进 metrics； ③ fix: 已改 3 路 query 全部执行（之前只跑 queries[0]）。
+- **当前状态**：`ok`（本次 1 条，189.0s）
+- **口径备注**：2026-09-22 实测已解锁：opencli doctor 报 daemon running + Extension connected(v1.0.22)， `opencli xiaohongshu search` 15.8s 返回 20 条，kb_audit 判 ok。 依赖：Chrome 必须开着且小红书网页端有登录态 —— 扩展在但站点没登录时仍会失败（X 就是这种情况）。 **2026-09-26 复测回落到 auth**（`BROWSER_CONNECT` / `ok: false`）→ 属浏览器端状态，不是渠道腐化： 保持 `enabled: true`（本机开 Chrome 登录后自动恢复），不写 disabled 段。 **2026-09-28 复测已回升 `ok`**（15.4s / 1 条 / 1 路查询）—— 证实上一轮「浏览器端状态、非渠道腐化」的判断： 这类 `auth` 在启停决策里**不应计入腐化**，只需复检。 已知限制：① url 带 xsec_token（有时效）→ item_id 不稳，应剥 xsec_* 再做去重键； ② 无正文 enricher，body 仅为元数据块、likes 未进 metrics； ③ fix: 已改 3 路 query 全部执行（之前只跑 queries[0]）。 **2026-10-26 09:42 复测又回落 `auth`**（`[rate-limiter] xiaohongshu: sleeping 14s` / `ok: false`）， 而**同一轮采集侧成功取到 1 条**（3 路查询 / 89.9s / 写盘 0 = 无变化不重写）→ 两边口径不一致： 体检探针打的是「一次性 search」，撞上 rate-limiter 睡眠窗口即判 auth，采集端慢速三路跑能过。 ⇒ 判据补充：**该渠道的 `auth` 只在「体检 + 采集同轮都取不到」时才算登录态问题**， 单侧 auth 属限流抖动，照旧保持 enabled、不复检、不写 disabled。
 - **解锁方式**：装 OpenCLI 浏览器扩展并保持 Chrome 打开（chrome web store: OpenCLI）；或 agent-reach configure xhs-cookies 走 xiaohongshu-mcp
 
 ## 运行历史
@@ -56,3 +56,4 @@ params: {"site": "xiaohongshu", "queries": ["独立开发", "独立开发者", "
 | 2026-10-25T23:38:18+08:00 | auth | 0 | 73.3s | 需 OpenCLI 浏览器扩展/登录态：独立开发: [rate-limiter] xiaohongshu: sleeping 24s
 | 2026-10-26T00:28:36+08:00 | ok | 1 | 89.4s | 1 items（3 路查询） |
 | 2026-10-26T09:49:51+08:00 | ok | 1 | 89.9s | 1 items（3 路查询） |
+| 2026-10-28T00:03:59+08:00 | ok | 1 | 189.0s | 1 items（3 路查询）（1 路失败） |

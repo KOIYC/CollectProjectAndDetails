@@ -1,11 +1,11 @@
 {
  "schema": 2,
- "updated": "2026-10-26T09:55:21+08:00",
+ "updated": "2026-10-28T00:21:06+08:00",
  "note": "结构性无正文/取数不可得 —— 连试 2 轮后记账，不再消耗额度。字段：reason（人话）/ reason_code（可复核分类，见 REASON_CODES）/ tried[]（本轮实际试过的后端）/ http_status（direct 档拿到的状态码）",
  "by_reason": {
-  "no_backend": 73,
+  "no_backend": 76,
   "unreachable": 57,
-  "media": 37,
+  "media": 38,
   "http_403": 6,
   "account": 3,
   "gh_miss": 1,
@@ -2576,12 +2576,12 @@
    "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error"
   },
   "da1fc2dfdcefd6af": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Jauvex 1.2, two-way voice chat harness for Claude+Codex+Grok+",
    "url": "https://github.com/reindent/jauvex",
    "source_id": "hn_show",
    "first_dead": "2026-10-22T10:00:35+08:00",
-   "last_try": "2026-10-22T10:00:35+08:00",
+   "last_try": "2026-10-28T00:21:06+08:00",
    "tried": [
     "gh_readme",
     "direct_fetch",
@@ -2589,7 +2589,8 @@
    ],
    "http_status": "blocked",
    "reason_code": "unreachable",
-   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)",
+   "reason_first": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
   },
   "2e17044f5bbc8007": {
    "attempts": 2,
@@ -2708,18 +2709,75 @@
    "tried": []
   },
   "2c48c116ce7c5938": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: tmux source code – Explore the deep C internals",
    "url": "https://libtmux.org/en/tmux/latest/reference/",
    "source_id": "hn_show",
    "first_dead": "2026-10-26T09:55:21+08:00",
-   "last_try": "2026-10-26T09:55:21+08:00",
+   "last_try": "2026-10-28T00:21:06+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "261df21b288dc7da": {
+   "attempts": 2,
+   "title": "Made a zombie shooter in one day. How many rounds can you survive?",
+   "url": "https://v.redd.it/myfj3wueo1wh1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "reason_code": "media",
+   "first_dead": "2026-10-28T00:12:35+08:00",
+   "last_try": "2026-10-28T00:12:35+08:00",
+   "http_status": null,
+   "tried": []
+  },
+  "c4aeb9f4ce44fb4e": {
+   "attempts": 1,
+   "title": "Show HN: 600+ Web Assets. Scroll for free inspiration...",
+   "url": "https://forevercomponents.com/",
+   "source_id": "hn_show",
+   "first_dead": "2026-10-28T00:21:06+08:00",
+   "last_try": "2026-10-28T00:21:06+08:00",
    "tried": [
     "direct_fetch"
    ],
    "http_status": 200,
    "reason_code": "no_backend",
    "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "86f91d6a763c7b11": {
+   "attempts": 1,
+   "title": "How to start SaaS as a node.js backend developer?",
+   "url": "https://www.reddit.com/r/SaaS/comments/1x8ami2/how_to_start_saas_as_a_nodejs_backend_developer/",
+   "source_id": "reddit",
+   "first_dead": "2026-10-28T00:21:06+08:00",
+   "last_try": "2026-10-28T00:21:06+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "error",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error"
+  },
+  "9dffce3b44db67f5": {
+   "attempts": 1,
+   "title": "iOS Indian pricing",
+   "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1x890v0/ios_indian_pricing/",
+   "source_id": "reddit",
+   "first_dead": "2026-10-28T00:21:06+08:00",
+   "last_try": "2026-10-28T00:21:06+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "error",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error"
   }
  }
 }

@@ -5,7 +5,7 @@ title: "Gigalixir"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/gigalixir"
-captured_at: "2026-10-25T23:31:48+08:00"
+captured_at: "2026-10-27T23:49:41+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-10-25T23:31:48+08:00　|　id：`8d97abb26cbbe357`
+> 采集：2026-10-27T23:49:41+08:00　|　id：`8d97abb26cbbe357`
 
 ## 正文
 
@@ -105,7 +105,7 @@ Michael Frew
 Comment
 About
  Elixir is a smaller, but fun, language that can be quite elegant and powerful. We love being one of the few - if only - platforms that is exclusively devoted to serving the Elixir / Phoenix community.
- People
+People
  Michael Frew Owner/BizOps
 Stay informed as an indie hacker.
  Market insights that help you start and grow your business.

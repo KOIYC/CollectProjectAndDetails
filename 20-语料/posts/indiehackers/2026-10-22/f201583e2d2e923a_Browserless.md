@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/browserless"
 project_url: "https://blog.brandfetch.io/automating-browsers-with-browserless"
-captured_at: "2026-10-25T23:31:48+08:00"
+captured_at: "2026-10-27T23:49:41+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://blog.brandfetch.io/automating-browsers-with-browserless>
-> 采集：2026-10-25T23:31:48+08:00　|　id：`f201583e2d2e923a`
+> 采集：2026-10-27T23:49:41+08:00　|　id：`f201583e2d2e923a`
 
 ## 正文
 
@@ -43,7 +43,7 @@ browserless
 Visit Website
 browserless Headless browser automation for developers
  Posts 19
- Revenue $316K / mo
+ Revenue $300K / mo
  Website Twitter
 September 11, 2023
  Some BIG stuff is coming in browserless.io!
@@ -163,7 +163,7 @@ Joel Griffith
 Comment
 About
  Running a headless browser in production is fraught with frustration and downtime. browserless solves these issues by providing a rich set of developer tools, hosting, and reliability.
- People
+People
  Joel Griffith Founder
 Stay informed as an indie hacker.
  Market insights that help you start and grow your business.

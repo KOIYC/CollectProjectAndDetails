@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/quotaguard"
 project_url: "https://quotaguard.baremetrics.com/"
-captured_at: "2026-10-25T23:31:48+08:00"
+captured_at: "2026-10-27T23:49:41+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://quotaguard.baremetrics.com/>
-> 采集：2026-10-25T23:31:48+08:00　|　id：`9930629dc0ba0d5c`
+> 采集：2026-10-27T23:49:41+08:00　|　id：`9930629dc0ba0d5c`
 
 ## 正文
 
@@ -43,7 +43,7 @@ QuotaGuard
 Visit Website
 QuotaGuard Static IP Proxies for Cloud-based Apps
  Posts 24
- Revenue $77K / mo
+ Revenue $79K / mo
  Website
 March 20, 2023
  Integrating our Service with Addons.io
@@ -169,7 +169,7 @@ Michael Frew
 Comment
 About
  I love working on QG because thousands of SMB's, startups and Enterprise businesses rely on me every day to stay online. It's really a great feeling to be able to support so many different businesses missions.
- People
+People
  Michael Frew Owner / Not Founder
 Stay informed as an indie hacker.
  Market insights that help you start and grow your business.

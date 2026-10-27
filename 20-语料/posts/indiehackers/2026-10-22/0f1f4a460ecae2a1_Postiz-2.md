@@ -5,7 +5,7 @@ title: "Postiz 2"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/postiz-2"
-captured_at: "2026-10-26T09:45:11+08:00"
+captured_at: "2026-10-27T23:49:41+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-10-26T09:45:11+08:00　|　id：`0f1f4a460ecae2a1`
+> 采集：2026-10-27T23:49:41+08:00　|　id：`0f1f4a460ecae2a1`
 
 ## 正文
 
@@ -42,7 +42,7 @@ Postiz
 Visit Website
 Postiz Agentic social media scheduling tool
  Post 1
- Revenue $350K / mo
+ Revenue $357K / mo
  Website Twitter Facebook
 June 29, 2025
  Big Growth
@@ -50,10 +50,10 @@ Postiz increased its traffic this month from 11,000 to 21,000 unique visitors.
  MRR growth from 4k to 5k.
 Nevo David
 4 Upvotes
-1 Comment
+2 Comments
 About
  I have discovered there is a big gap in the market with everything connected to open-source scheduler, also I thought I can do it better.
- People
+People
  Nevo David Founder
 Stay informed as an indie hacker.
  Market insights that help you start and grow your business.

@@ -1,0 +1,366 @@
+---
+type: "corpus"
+item_id: "3f7c44ef111e1c5e"
+title: "Show HN: Cordane – run coding agents on machines you own, no open ports"
+source: "hn_show"
+source_name: "HN Show HN"
+url: "https://news.ycombinator.com/item?id=50258440"
+project_url: "https://github.com/cordane/cordane"
+author: "tiberiuc"
+published_at: "2026-10-27T12:56:46Z"
+captured_at: "2026-10-27T23:46:32+08:00"
+lang: "en"
+kind: "post"
+topic: "AI 工具/Agent"
+shard: "2026-10-27"
+pub_day: "2026-10-27"
+tags:
+  - 语料
+  - hn_show
+  - author_tiberiuc
+  - story_50258440
+  - show_hn
+metrics: {"points": 2, "comments": 1, "engagement_velocity": 2}
+comments_count: 1
+comments_total: 1
+discovered_via: "hn:show_hn:3d"
+---
+
+# Show HN: Cordane – run coding agents on machines you own, no open ports
+
+> [!info] 一句话导读
+> Run your team's coding agents from anywhere — on machines you own. Workers dial out: no inbound ports, no VPN.
+
+> [!meta]- 语料信息（点开展开）
+> 来源：HN Show HN（post）
+> 原帖：<https://news.ycombinator.com/item?id=50258440>
+> 指标：点赞=2 · 评论=1 · engagement_velocity=2
+> 作者：tiberiuc　|　发布：2026-10-27T12:56:46Z
+> 项目链接：<https://github.com/cordane/cordane>
+> 采集：2026-10-27T23:46:32+08:00　|　id：`3f7c44ef111e1c5e`
+
+## 正文
+
+# cordane/cordane
+
+Run your team's coding agents from anywhere — on machines you own. Workers dial out: no inbound ports, no VPN.
+
+- Stars: 3
+- Forks: 0
+- Watchers: 3
+- Open issues: 0
+- License: Other
+- Homepage: https://cordane.ai
+- Default branch: main
+- Created: 2026-09-01T11:32:36Z
+
+## Languages
+
+- Dockerfile
+
+## Topics
+
+- agentic-coding
+- ai-agents
+- ai-coding-agents
+- claude-code
+- codex
+- coding-agents
+- developer-tools
+- docker-compose
+- git-worktree
+- homelab
+- kanban
+- opencode
+- remote-development
+- self-hosted
+- selfhosted
+- terminal
+- tmux
+
+## Top Contributors
+
+- tiberiuc (16 contributions)
+
+---
+
+## README
+
+# Cordane
+
+**Run your team's coding agents from anywhere — on machines you own.**
+
+Cordane is a self-hostable control plane for AI coding agents (Claude Code and
+friends) and the terminals, dev servers, and tickets around them. Workers run on
+your hardware and dial **out** to the hub over a single outbound connection — so
+you can reach a box behind corporate NAT or a home router from any browser, with
+no inbound ports, no VPN, no SSH config.
+
+🌐 **cordane.ai** · 📖 **Docs** ·
+🗺 **Roadmap** · 🔒 **Security**
+
+**Free forever, self-hosted, every feature.** Try it on your own machine in one
+command (`cordane up`), run two containers on a small
+VPS for your team (quickstart), or let us run the hub for you:
+see pricing.
+
+ A real run, not a rehearsal — watch the full 3:36 · 30+ one-feature walkthroughs
+
+```mermaid
+flowchart LR
+    subgraph anywhere["Any browser, anywhere"]
+        B["You + your team<br/>(laptop, phone)"]
+    end
+    subgraph hub["Hub — one Go binary<br/>(your VPS or managed cloud)"]
+        H["Web UI · board · proxy"]
+    end
+    subgraph yours["Machines you own (behind NAT/firewall)"]
+        W1["Worker: terminals · agents · apps"]
+        W2["Worker: terminals · agents · apps"]
+    end
+    B -->|HTTPS| H
+    W1 -.->|"dials OUT (WSS)"| H
+    W2 -.->|"dials OUT (WSS)"| H
+```
+
+## What it does
+
+**Persistent terminals, one browser tab away.** Real PTYs on your machines —
+your login shell, your dotfiles, true color — that survive closing the laptop,
+network drops, and hub restarts. Reattach from any browser, including your
+phone (with a touch key bar for ctrl/esc/arrows). Two people can attach to the
+same live terminal. If you live in tmux: sessions map to *spaces*, panes to
+side-by-side terminals, and *space definitions* (saved layout + working dir +
+command per pane) respawn your setup on demand — an alternative, not a drop-in
+replacement (no tmux keybindings or copy-mode). Files move without `scp`: a
+**files** menu on the space browses the machine, downloads a file or a whole
+folder (videos, PDFs, images and logs also open in a tab), and takes drops to
+upload; `cordane get report.pdf` typed in a terminal
+offers that file to whoever may download it. Owner-only unless you say
+otherwise.
+
+**A board that runs the work.** Drop a ticket on the kanban board and Cordane
+cuts a git worktree, boots the dev server on its own port, and turns your
+coding agent loose — while the whole team watches live. Or give the ticket a
+start time — 07:00, in *your* time zone, not the server's — and it runs itself
+overnight, so the branch and the diff are waiting when you sit down. Review a
+diff and a green-checks badge, then merge — from your phone if that's where you
+are. Not right yet? **Request changes**: write what to fix, click lines of the
+diff to pin notes to them, and send it back — to the agent in the ticket's
+space (the same session, if the space is still open) or as a background pass
+on the same branch. A project can also send failing checks back to the agent on
+its own: the failing commands and the tail of their output, up to a retry
+budget you set (off by default), after which the ticket waits in review for
+you. Review on GitHub instead? A *changes requested* on the PR becomes the same
+kind of round, read with the worker's own `gh` and only from the repo's
+collaborators. Anything the agent leaves in `.cordane/outputs/` — a screenshot
+of the feature, a report — is attached to the ticket when its run ends. Agents
+know both channels without being told: the hub installs a skill on
+every worker that Claude Code, Codex, opencode and pi read at session start.
+Every run keeps its full audit trail: exact prompt, exact diff, what checks ran.
+Keep your tracker — this is the execution layer where agent work happens, not a
+project-management tool. Tickets come in from **Sentry, Jira, GitHub Issues or
+Linear** (paste an issue URL, or let a filter create them), and the upstream
+issue is closed when the ticket is done.
+
+**More than one agent, more than one ticket.** A ticket can wait on others
+(*blocked by*), and a plan too big for one pass splits into sub-tickets that
+can run one after another. Not sure which agent will do it best? **Race** two or three on the
+same ticket — each in its own worktree on its own branch — compare their diffs
+and checks side by side, and keep the winner. **Detect from repo** reads your
+manifests on the worker and proposes the setup, start and check hooks, so a new
+project doesn't start from a blank form.
+
+**Told when it matters, and what it cost.** An agent stuck on a permission
+prompt, a failed run, a plan waiting for approval, work ready for review:
+Cordane tells the person whose agent it is — in the browser, through a webhook
+(presets for ntfy, Slack and Discord), or by email when the hub has SMTP.
+Agents can speak up mid-run too: `cordane mcp` gives the agent working a ticket
+tools to read it, comment, file a follow-up, attach a file or flag it for a
+human. Each headless run records the usage its agent CLI reports — tokens, and
+cost from Claude Code and opencode — and a per-project **Insights** page shows
+runs, success rate, time and spend by agent.
+
+**Terminals an agent — or your laptop — can drive.** In a space, the same
+`cordane mcp` server lets an agent work the space's other terminals: run a
+command and get back its output and exit code, type keys, wait for output, or
+hand the agent in another pane a task. It reaches only its own space, and by
+default an agent working a ticket imported from Sentry, Jira, Linear or GitHub
+— or one that has read such a ticket — may only read its neighbours. With a
+personal API token (**Settings → API tokens**), an MCP client on your laptop —
+Claude Code or Cursor over `https:// /api/v1/mcp`, Claude Desktop by
+signing in — can start and stop spaces, define layouts, run worker apps, share
+spaces and drive their terminals. Admins can turn tokens off or limit them to
+admins; terminal input is written to the audit log.
+
+**Preview links without a tunnel.** Apps on a worker get a stable subdomain
+(`myapp--worker.your-domain`) served through the worker's outbound connection —
+no ngrok, no rotating hostnames, no per-seat paywall. Auth on by default;
+flip an app to **Public** to share it with anyone, no account needed. Ticket
+previews stay team-only. (For sharing previews — Cordane is not an inbound
+tunnel for webhooks.)
+
+**Teams on your terms.** GitHub sign-in with an admin-managed allowlist,
+projects shared across a team, each member running work on their own private
+worker. Self-host the hub on a $5 VPS, or use the managed cloud
+(`your-team.cordane.app`) — workers stay on your hardware either way. Your
+code, secrets, and compute never leave machines you control.
+
+## See it
+
+One short video per feature, nothing staged — the agent output is whatever the
+model produced on the day it was filmed.
+
+| | |
+|---|---|
+| Close your laptop, keep your shell · 1:26 | a process on your machine survives a closed tab **and a hub restart** — timestamps prove it |
+| Handing a ticket to a coding agent · 3:36 | Plan cuts a worktree and hands Claude Code the ticket; the plan lands back on the card |
+| Self-hosting a worker · 1:16 | one command behind NAT, then `ss -ltnp` shows it listens on nothing |
+| Port forwards — no ngrok · 3:20 | a stable link for any port, and a share link that needs no account |
+| Cordane on a phone · 0:35 | the whole hub, not a cut-down app — a PR reviewed and merged from a phone |
+
+All of them, by topic: @cordanehq. How it
+works under the hood: One outbound WebSocket.
+
+## How it's built
+
+- **One Go binary, two roles**: `cordane server` (hub) and `cordane worker`.
+- **Workers dial out** over WebSocket; the hub never connects in. Nothing to
+ port-forward, nothing inbound to firewall.
+- **SQLite** for all hub state — trivial backups (built-in Litestream
+ replication to any S3-compatible bucket), no database server, easy export.
+- Joining a machine is one command:
+
+```sh
+cordane worker join https://your-team.cordane.app --token crdjt_…
+```
+
+## Try it on your machine
+
+One command, no server, no DNS, no GitHub app:
+
+```sh
+curl -fsSL https://cordane.ai/install.sh | sh   # the `cordane` binary (Linux, macOS)
+cordane up
+```
+
+Or both in one go, which also works before `~/.local/bin` is on your `PATH`:
+`curl -fsSL https://cordane.ai/install.sh | sh -s up`.
+
+`cordane up` starts a hub on `localhost` with this machine as its worker, signs
+you in, and opens the board in your browser. It's a single-user hub that
+listens only on loopback: sign-in links come from the terminal (`cordane login`
+prints a fresh one), and app previews open at
+`http:// --.localhost:8080` in Chrome, Firefox or Edge
+(`--path-previews` covers Safari). Everything lives in `~/.cordane-local`, so
+`rm -rf ~/.cordane-local` starts over. Terminals and agents run while the
+command does, and Ctrl-C stops them; `cordane up --install-service` keeps it
+running in the background instead (a systemd user service or launchd agent that
+starts at login). When you want it on your phone, for a
+team, or always on, self-host a hub (below) or use
+managed cloud. Your machine stays the worker
+either way.
+
+## Self-hosting
+
+Two containers on one small VPS: the hub, plus Caddy for automatic TLS. Images
+are public on GHCR, so you need nothing installed but Docker. First point a DNS
+`A` record for your hub's hostname (e.g. `cordane.example.com`) at the box.
+
+```sh
+git clone https://github.com/cordane/cordane.git
+cd cordane/deploy
+cp .env.example .env         # fill in the values below, then:
+docker compose up -d
+docker compose logs -f       # both containers; Ctrl-C once the hub is listening
+```
+
+Five values in `.env` get you running — your hub's URL, a secret key, and a
+GitHub OAuth app's id/secret for sign-in:
+
+| Var | What |
+|-----|------|
+| `EXTERNAL_URL` / `CONTROL_HOST` | your hub's URL / hostname |
+| `CORDANE_SECRET_KEY` | `openssl rand -base64 32` — **back this up** |
+| `CORDANE_GITHUB_CLIENT_ID/SECRET` | a GitHub OAuth app (create one): homepage = your `EXTERNAL_URL`, callback `${EXTERNAL_URL}/api/v1/auth/github/callback`; then *Generate a new client secret* |
+
+That's simple mode: one hostname, a normal certificate, previews at
+`/w/{worker}/{app}/`. Wildcard preview subdomains need a DNS API token —
+switching is three lines in `.env`, see `deploy/README.md`.
+
+Open your `EXTERNAL_URL` and sign in with GitHub — **the first account to sign
+in becomes the admin**, so do it right away. Then connect a machine:
+
+```sh
+curl -fsSL https://<your-hub>/install.sh | sh            # installs the `cordane` binary
+cordane worker join https://<your-hub> --token crdjt_…   # token from the hub's Workers page
+```
+
+`join` enrolls the machine and keeps running as the worker; to keep it up after
+you log out, run it under systemd/launchd (`cordane worker run` — see
+`deploy/README.md`).
+
+### Your first agent run
+
+1. **On the worker**, install the agent you want and sign in once in a normal
+ terminal — e.g. `claude` (Claude Code), `codex`, `opencode` or `pi`. Cordane
+ drives the agent that's there; it doesn't bring its own login.
+2. **New project**: pick your worker and a repo (an SSH/HTTPS URL it can clone,
+ or a checkout already on the worker). For implementing, tick **Allow the
+ agent to run commands** — off by default, because a background (headless)
+ implement runs the agent without permission prompts.
+3. **New ticket** → **▶ Plan**: the ticket's space opens with the agent working.
+ When the plan lands, **✓ Approve → Implement**. These buttons drive the agent
+ live in the space, so it asks you there for any permission it needs — answer
+ in the pane (or set the project's agent command to skip them, e.g.
+ `claude --dangerously-skip-permissions`). When the agent finishes, the ticket
+ moves to review with its diff, and a PR if the worker has `gh`.
+
+Backups to any S3-compatible bucket and the wildcard mode are in
+`deploy/README.md`.
+
+**No license key required.** The Community tier — 1 worker, 1 project, 2 users,
+3 concurrent agent runs, and *every* feature — is free forever and makes no
+license calls; the only request a keyless hub sends us is an update check
+(release channel name only — `CORDANE_UPDATE_CHECK=off` turns it off). Paid keys
+lift the caps and keep working offline within a grace window, so a Cordane
+outage never blocks you. See pricing.
+
+## Issues & feedback
+
+This is Cordane's public home — bug reports and feature requests are welcome in
+Issues. For anything security-related, see
+SECURITY.md.
+
+## License
+
+The contents of **this repository** — documentation and deployment
+configuration — are MIT-licensed (LICENSE). Copy, fork and adapt them
+freely.
+
+The **container images** they deploy (`ghcr.io/cordane/cordane`,
+`ghcr.io/cordane/caddy`) are proprietary software owned by Sitedity SRL, free to
+run on the Community tier and otherwise governed by the
+Terms. `NOTICE` spells out the split.
+
+# saftacatalinmihai/lcars
+
+## 评论（1/1）
+
+> **amorroxic** · 2026-10-27T14:39:39.000Z　
+> Amazing, was just reading a paper - "Harness-of-Harness: Multi-Day Autonomous Software with Continual Improvement" [1]
+> Was wondering whether Cordane could be used as an execution layer with HoH prompts as skills - will play around, thanks a lot![1] https://arxiv.org/pdf/2609.01481
+
+## 关联链接
+
+- https://cordane.ai
+- https://cordane.ai/install.sh
+- https://github.com/cordane/cordane.git
+- https://your-team.cordane.app
+
+## 导航
+
+- 项目页：[[10-项目/github.com_1babdace]]
+- 渠道页：[[50-渠道/hn_show]]
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 同渠道/同赛道批量浏览：[[浏览]]

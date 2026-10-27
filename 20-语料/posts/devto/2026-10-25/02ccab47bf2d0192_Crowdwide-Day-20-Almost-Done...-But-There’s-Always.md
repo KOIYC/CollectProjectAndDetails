@@ -6,9 +6,9 @@ source: "devto"
 source_name: "dev.to"
 url: "https://dev.to/puneetkumar2010/crowdwide-day-20-almost-done-but-theres-always-something-more-chf"
 project_url: "https://crowdwide.run.place/"
-author: "Puneet-Kumar2010"
+author: "Puneet Kumar Mishra"
 published_at: "2026-10-22T12:06:45Z"
-captured_at: "2026-10-25T23:32:57+08:00"
+captured_at: "2026-10-27T23:52:07+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -36,9 +36,9 @@ discovered_via: "devto:buildinpublic"
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/puneetkumar2010/crowdwide-day-20-almost-done-but-theres-always-something-more-chf>
 > 指标：reactions=29 · 评论=6 · reading_time=2
-> 作者：Puneet-Kumar2010　|　发布：2026-10-22T12:06:45Z
+> 作者：Puneet Kumar Mishra　|　发布：2026-10-22T12:06:45Z
 > 项目链接：<https://crowdwide.run.place/>
-> 采集：2026-10-25T23:32:57+08:00　|　id：`02ccab47bf2d0192`
+> 采集：2026-10-27T23:52:07+08:00　|　id：`02ccab47bf2d0192`
 
 ## 正文
 
@@ -91,7 +91,7 @@ Not afraid of failing or just ending up with another ONLY showcase for my profil
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-23T10:18:10Z　
+> **Puneet Kumar Mishra** · 2026-10-23T10:18:10Z　
 > fr 😂 the “just one more feature” loop is never-ending Gotta learn to stop tweaking and actually let people use it lol. Btw, what was your project about?
 
 ---
@@ -101,7 +101,7 @@ Not afraid of failing or just ending up with another ONLY showcase for my profil
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-23T13:13:40Z　
+> **Puneet Kumar Mishra** · 2026-10-23T13:13:40Z　
 > that sounds awesome bro!! 🔥🔥 Building solo is a whole different grind 🤝 Hope ResumeOrbitz gets the attention it deserves! All the best with getting it out there, bro ❤️
 
 ---
@@ -115,7 +115,7 @@ Not afraid of failing or just ending up with another ONLY showcase for my profil
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-23T10:21:17Z　
+> **Puneet Kumar Mishra** · 2026-10-23T10:21:17Z　
 > so true 😭 There’s always something else you wanna add, but at some point you just gotta ship and see how people use it. Thanks for the wishes! 🙌
 
 ## 关联链接

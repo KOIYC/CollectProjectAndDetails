@@ -2,7 +2,7 @@
 type: "project"
 title: "Crowdwide Day 20: Almost Done… But There’s Always Something More! 😭"
 project_url: "https://crowdwide.run.place/"
-first_seen: "2026-10-25T23:32:57+08:00"
+first_seen: "2026-10-27T23:52:07+08:00"
 sources:
   - devto
 tags:
@@ -22,7 +22,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://crowdwide.run.place/>
-> 首次收录：2026-10-25T23:32:57+08:00
+> 首次收录：2026-10-27T23:52:07+08:00
 > 来源渠道：dev.to
 > 标签：webdev, buildinpublic, opensource, discuss
 > 最新指标：reactions=29 · 评论=6 · reading_time=2
@@ -32,6 +32,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-10-25T23:32:57+08:00 | dev.to | reactions=29 · 评论=6 · reading_time=2 | [[20-语料/posts/devto/2026-10-25/02ccab47bf2d0192_Crowdwide-Day-20-Almost-Done...-But-There’s-Always]] |
+| 2026-10-27T23:52:07+08:00 | dev.to | reactions=29 · 评论=6 · reading_time=2 | [[20-语料/posts/devto/2026-10-25/02ccab47bf2d0192_Crowdwide-Day-20-Almost-Done...-But-There’s-Always]] |
 
 ## 摘要正文
 

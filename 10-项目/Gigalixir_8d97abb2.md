@@ -2,7 +2,7 @@
 type: "project"
 title: "Gigalixir"
 project_url: "https://www.indiehackers.com/product/gigalixir"
-first_seen: "2026-10-25T23:31:48+08:00"
+first_seen: "2026-10-27T23:49:41+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://www.indiehackers.com/product/gigalixir>
-> 首次收录：2026-10-25T23:31:48+08:00
+> 首次收录：2026-10-27T23:49:41+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -29,6 +29,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-10-22T09:48:20+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/8d97abb26cbbe357_Gigalixir]] |
 | 2026-10-25T23:31:48+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/8d97abb26cbbe357_Gigalixir]] |
+| 2026-10-27T23:49:41+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/8d97abb26cbbe357_Gigalixir]] |
 
 ## 摘要正文
 

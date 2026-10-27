@@ -7,7 +7,7 @@ source_name: "dev.to"
 url: "https://dev.to/georgekobaidze/promise-delivered-welcome-to-the-dev-hall-of-fame-65-authors-65-masterpieces-15fa"
 author: "Giorgi Kobaidze"
 published_at: "2026-10-18T10:55:38Z"
-captured_at: "2026-10-26T09:53:33+08:00"
+captured_at: "2026-10-28T00:16:35+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -20,9 +20,9 @@ tags:
   - discuss
   - showdev
   - writing
-metrics: {"reactions": 225, "comments": 125, "reading_time": 25}
-comments_count: 124
-comments_total: 125
+metrics: {"reactions": 224, "comments": 125, "reading_time": 25}
+comments_count: 128
+comments_total: 128
 discovered_via: "devto:showdev"
 ---
 
@@ -34,10 +34,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/georgekobaidze/promise-delivered-welcome-to-the-dev-hall-of-fame-65-authors-65-masterpieces-15fa>
-> 指标：reactions=225 · 评论=125 · reading_time=25
+> 指标：reactions=224 · 评论=125 · reading_time=25
 > 作者：Giorgi Kobaidze　|　发布：2026-10-18T10:55:38Z
 > 项目链接：—
-> 采集：2026-10-26T09:53:33+08:00　|　id：`7473f2320a0c5efc`
+> 采集：2026-10-28T00:16:35+08:00　|　id：`7473f2320a0c5efc`
 
 ## 正文
 
@@ -641,14 +641,14 @@ And if you missed the first round, stay tuned, maybe there's a Vol. 2 coming. �
 - 🎥 [Watch my videos on YouTube](https://www.youtube.com/@Pilotronica)
 - 💬 [Let's Chat on Discord](https://discord.com/users/571315867426488330)
 
-## 评论（124/125）
+## 评论（128/128）
 
 > **Giorgi Kobaidze** · 2026-10-18T10:56:10Z　
 > 🚪🏛️ The Welcome Desk & Stories From the Trenches: @francistrdev @earlgreyhot1701d @hadil @westernal @alptekin @canro91 @technogamerz @dj29 @puneetkumar2010 @sameerqaiser17
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-18T11:26:22Z　
+> **Puneet Kumar Mishra** · 2026-10-18T11:26:22Z　
 > Thank you so much for featuring my article, Giorgi!! 🙌😄✨ Really appreciate the recognition! ❤️🎉 It's amazing to be included alongside so many talented authors! 🏛️📚💫🤠😎🤝✌✨🌞👑🔥🔥🔥🦉🌟🍋🤣🥇🥇🥇
 >
 > I'm very happy After seeing my name
@@ -895,7 +895,7 @@ And if you missed the first round, stay tuned, maybe there's a Vol. 2 coming. �
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-18T11:28:56Z　
+> **Puneet Kumar Mishra** · 2026-10-18T11:28:56Z　
 > PEAK DEVELOPER CONTENT SIR!! 🔥🔥💯🙌
 >
 > HUGE RESPECT SIR!! ❤️‍🔥👏
@@ -911,7 +911,7 @@ And if you missed the first round, stay tuned, maybe there's a Vol. 2 coming. �
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-18T11:44:26Z　
+> **Puneet Kumar Mishra** · 2026-10-18T11:44:26Z　
 > And you've definitely made a lot of developers happy with this initiative, sir!! ❤️🙌 Keep doing what you're doing!! 🚀✨
 
 ---
@@ -921,7 +921,7 @@ And if you missed the first round, stay tuned, maybe there's a Vol. 2 coming. �
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-18T12:11:48Z　
+> **Puneet Kumar Mishra** · 2026-10-18T12:11:48Z　
 > Waiting for it, sir... 😎
 
 ---
@@ -1366,6 +1366,26 @@ And if you missed the first round, stay tuned, maybe there's a Vol. 2 coming. �
 
 > **Giorgi Kobaidze** · 2026-10-25T04:29:43Z　
 > Good idea! Every one of those kinds of reads is somewhere in this list. I tried to arrange them so they flow naturally from one to the next, though with 65 articles I'm sure the order isn't perfect. Hope you enjoy it!
+
+---
+
+> **Frankie Sullivan** · 2026-10-27T15:56:31Z　
+> Nice to see this kind of roundup. The 'build in public' posts are the ones I learn the most from — the failures especially.
+
+---
+
+> **Giorgi Kobaidze** · 2026-10-27T16:05:51Z　
+> Failures teach us way more than success, that’s why posts about failures are way more interesting.
+
+---
+
+> **Frankie Sullivan** · 2026-10-27T15:56:43Z　
+> Great roundup — saved this.
+
+---
+
+> **Giorgi Kobaidze** · 2026-10-27T16:06:07Z　
+> Enjoy!⭐️
 
 ## 关联链接
 

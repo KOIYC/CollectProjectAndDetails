@@ -8,7 +8,7 @@ url: "https://dev.to/rudratosh/your-grammar-checker-uploads-every-word-you-type-
 project_url: "https://brisktype.com/"
 author: "Rudratosh Shastri"
 published_at: "2026-10-19T18:06:54Z"
-captured_at: "2026-10-26T09:45:36+08:00"
+captured_at: "2026-10-27T23:51:54+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,9 +21,9 @@ tags:
   - ai
   - macos
   - indiehackers
-metrics: {"reactions": 7, "comments": 16, "reading_time": 6}
-comments_count: 16
-comments_total: 16
+metrics: {"reactions": 7, "comments": 19, "reading_time": 6}
+comments_count: 19
+comments_total: 19
 discovered_via: "devto:indiehackers"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:indiehackers"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/rudratosh/your-grammar-checker-uploads-every-word-you-type-i-built-one-that-never-leaves-your-mac-8pj>
-> 指标：reactions=7 · 评论=16 · reading_time=6
+> 指标：reactions=7 · 评论=19 · reading_time=6
 > 作者：Rudratosh Shastri　|　发布：2026-10-19T18:06:54Z
 > 项目链接：<https://brisktype.com/>
-> 采集：2026-10-26T09:45:36+08:00　|　id：`3e58e881f67fc73d`
+> 采集：2026-10-27T23:51:54+08:00　|　id：`3e58e881f67fc73d`
 
 ## 正文
 
@@ -157,7 +157,7 @@ If "my grammar checker shouldn't need the internet" sounds right to you, that's 
 
 I built this solo, and I read everything. If you try it, tell me what breaks, what you wish it did, and which app you most want out of beta. That feedback is the roadmap.
 
-## 评论（16/16）
+## 评论（19/19）
 
 > **arcwrightai** · 2026-10-19T18:08:58Z　
 > Local-first is the right call for anything that touches your writing. Privacy shouldn't be a premium feature.
@@ -238,6 +238,18 @@ I built this solo, and I read everything. If you try it, tell me what breaks, wh
 
 ---
 
+> **Rudratosh Shastri** · 2026-10-26T06:10:34Z　
+> a disclosed exception reads as a limit, a found one reads as a cover-up.
+>
+> That's the sentence. Same fact, opposite trust outcome, and the only variable is who said it first.
+
+---
+
+> **Om Yaduvanshi** · 2026-10-26T07:09:14Z　
+> fair point, and it puts the burden in the right place. if the claim is strict, the disclosure has to be just as strict, otherwise the exception does the quiet work of undermining it.
+
+---
+
 > **Vardum (formerly VEIL)** · 2026-10-22T21:49:55Z　
 > Two small models instead of one bigger one is interesting. Was that for speed, or was one model bad at doing both jobs? Mail is the app I'd want it in first.
 
@@ -252,6 +264,13 @@ I built this solo, and I read everything. If you try it, tell me what breaks, wh
 
 > **Vardum (formerly VEIL)** · 2026-10-25T19:26:44Z　
 > That makes sense. Picking the model per machine is smarter than one size for everyone, and 8 GB Airs are everywhere. Good to hear Mail already works.
+
+---
+
+> **Rudratosh Shastri** · 2026-10-26T06:10:44Z　
+> Picking the model per machine is smarter than one size for everyone, and 8 GB Airs are everywhere.
+>
+> Exactly the constraint that drove it — the floor hardware sets the default, not the top. Appreciate you reading it.
 
 ## 关联链接
 

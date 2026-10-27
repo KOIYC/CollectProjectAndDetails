@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/cloud-campaign"
 project_url: "https://angel.co/company/cloudcampaign/jobs/898766-fullstack-software-engineer"
-captured_at: "2026-10-25T23:31:48+08:00"
+captured_at: "2026-10-27T23:49:41+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://angel.co/company/cloudcampaign/jobs/898766-fullstack-software-engineer>
-> 采集：2026-10-25T23:31:48+08:00　|　id：`ac0906d1a7113c1d`
+> 采集：2026-10-27T23:49:41+08:00　|　id：`ac0906d1a7113c1d`
 
 ## 正文
 
@@ -43,7 +43,7 @@ Cloud Campaign
 Visit Website
 Cloud Campaign Social media marketing software for digital agencies.
  Posts 30+
- Revenue $419K / mo
+ Revenue $409K / mo
  Website Twitter Facebook
 June 9, 2023
  AI Generated Social Media Captions
@@ -191,7 +191,7 @@ Ryan Born
 2 Comments
 About
  Cloud Campaign helps marketing agencies scale social media management so they can increase the number of brands they manage and charge a higher retainer with a leaner team.
- People
+People
  Ryan Born Founder
 Stay informed as an indie hacker.
  Market insights that help you start and grow your business.

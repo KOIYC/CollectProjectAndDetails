@@ -5,7 +5,7 @@ title: "Dealsourcr"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/dealsourcr"
-captured_at: "2026-10-25T23:31:48+08:00"
+captured_at: "2026-10-27T23:49:41+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-10-25T23:31:48+08:00　|　id：`b5b0a4732e0146b5`
+> 采集：2026-10-27T23:49:41+08:00　|　id：`b5b0a4732e0146b5`
 
 ## 正文
 
@@ -42,7 +42,7 @@ Dealsourcr
 Visit Website
 Dealsourcr Helps UK investors find amazing property deals in seconds
  Posts 3
- Revenue $99K / mo
+ Revenue $92K / mo
  Website
 September 3, 2026
  Hit $500K ARR
@@ -68,7 +68,7 @@ Ashley Rudland
 2 Comments
 About
  Property is a numbers game, I was spending 8 hours a day searching Rightmove in the UK, so I built a script to search the market and do all the calculations for me. Now used by 100s of people in the UK.
- People
+People
  Ashley Rudland Co-founder
 Stay informed as an indie hacker.
  Market insights that help you start and grow your business.

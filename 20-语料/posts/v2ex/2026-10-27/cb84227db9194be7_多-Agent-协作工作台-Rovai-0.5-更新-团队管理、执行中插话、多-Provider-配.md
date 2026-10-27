@@ -1,0 +1,117 @@
+---
+type: "corpus"
+item_id: "cb84227db9194be7"
+title: "多 Agent 协作工作台 Rovai 0.5 更新：团队管理、执行中插话、多 Provider 配置"
+source: "v2ex"
+source_name: "V2EX"
+url: "https://www.v2ex.com/t/1252235"
+project_url: "https://github.com/murray17/rovai-ai"
+author: "RMurray"
+published_at: "2026-10-27T06:59:27"
+captured_at: "2026-10-27T23:56:38+08:00"
+lang: "zh"
+kind: "post"
+topic: "AI 工具/Agent"
+shard: "2026-10-27"
+pub_day: "2026-10-27"
+tags:
+  - 语料
+  - v2ex
+  - 17
+metrics: {"replies": 0}
+comments_count: 0
+comments_total: 0
+discovered_via: "v2ex:独立开发"
+---
+
+# 多 Agent 协作工作台 Rovai 0.5 更新：团队管理、执行中插话、多 Provider 配置
+
+> [!info] 一句话导读
+> 上次在 V2EX 分享 [Rovai 0.3]( https://www.v2ex.com/t/1243553) 版本，主要介绍了使命板、远程连接和实时群聊的功能。
+
+> [!meta]- 语料信息（点开展开）
+> 来源：V2EX（post）
+> 原帖：<https://www.v2ex.com/t/1252235>
+> 指标：回复=0
+> 作者：RMurray　|　发布：2026-10-27T06:59:27
+> 项目链接：<https://github.com/murray17/rovai-ai>
+> 采集：2026-10-27T23:56:38+08:00　|　id：`cb84227db9194be7`
+
+## 正文
+
+上次在 V2EX 分享 [Rovai 0.3]( https://www.v2ex.com/t/1243553) 版本，主要介绍了使命板、远程连接和实时群聊的功能。
+这一个多月又陆陆续续更新了不少东西，最近发布了 0.5 ，继续来分享一下进展。
+
+Rovai AI 是一个开源的多 Agent 工作台，可以把 Claude Code 、Codex 、OpenCode 、Pi 等编程 Agent 组织成长期队友，让他们在同一个会话里讨论、分工、交接和执行任务。
+
+GitHub： https://github.com/murray17/rovai-ai
+
+## 新增 Team 管理
+现在可以把常用的队员组合保存成不同 Team ；每支队伍有自己的名称、成员、默认队长，还可以填写一段共同遵循的团队指引。
+
+比如开发组可以约定：实现完成后交给审查者复核，审核内容的格式如何如何；研究组则可以采用另外一套协作方式。
+
+**保存常用的 Agent 团队**
+
+![Team 管理](  )
+
+**新建会话直接选择 Team**
+
+![新建会话选择 Team](  )
+
+## 增强与队员的实时对话
+
+0.3 版本已经支持在同一个会话中同时与多位队员沟通。比如 Claude Code 正在实现功能时，也可以让 Codex 去研究其他问题，不需要等前一个队员执行结束。
+
+这段时间又新增了执行中插话；比如让 Claude Code 修改一个页面，执行到一半发现还需要兼容手机端，就可以继续补充要求，不用每次都先停止执行、重新发送完整任务。
+
+
+**Steer 执行中插话**
+
+![Steer 执行中插话](  )
+
+## 多 Provider 配置
+适用于一个 cc/codex 需要配置多个中转的场景。（简单通过 env 实现）
+
+**队员独立配置环境变量和模型**
+
+![多 Provider 配置](  )
+
+## 跨会话与使命引用
+
+**在公屏中引用其他会话和使命**
+
+![跨会话与使命引用](  )
+
+## 其他更新
+
+这一个多月也陆续补了不少其他功能：
+
+- 新增 Command Code 、Minimax Code 智能体支持。
+- 重新整理了管理和选择方式，可以在会话中通过 `/` 查找和选择。
+- 网页版现在可以更方便地上传、下载和预览文件。
+- 公屏消息撤回后，两分钟内可以重新编辑发送。
+- 队员搜索：支持通过拼音和首字母搜索中文队员。
+- 界面主题：新增「晨雾」「朝霞」「绯夜」三款主题。
+- 调整 Claude Code 和 CodeBuddy 的任务收尾。 减少后台任务尚未完成，就提前结束回复的情况。
+
+另外还有一些执行控制、文件预览、界面交互和兼容性方面的修复，就不一条条列了。完整更新内容可以在 GitHub Release 中查看。
+
+GitHub： https://github.com/murray17/rovai-ai
+
+官网与下载： https://rovai.dev/
+
+
+欢迎 Issue / PR ～
+
+## 关联链接
+
+- https://rovai.dev/
+- https://www.v2ex.com/t/1243553
+
+## 导航
+
+- 项目页：[[10-项目/github.com_e03a67dc]]
+- 渠道页：[[50-渠道/v2ex]]
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 同渠道/同赛道批量浏览：[[浏览]]

@@ -6,9 +6,9 @@ source: "devto"
 source_name: "dev.to"
 url: "https://dev.to/puneetkumar2010/day-22-of-building-crowdwide-i-thought-ui-polish-would-be-easy-but-i-was-wronggggg-27jk"
 project_url: "https://github.com/DeveloperPuneet/Crowdwide"
-author: "Puneet-Kumar2010"
+author: "Puneet Kumar Mishra"
 published_at: "2026-10-24T11:37:01Z"
-captured_at: "2026-10-25T23:32:57+08:00"
+captured_at: "2026-10-27T23:52:07+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -21,9 +21,9 @@ tags:
   - buildinpublic
   - opensource
   - discuss
-metrics: {"reactions": 20, "comments": 22, "reading_time": 2}
-comments_count: 22
-comments_total: 22
+metrics: {"reactions": 20, "comments": 30, "reading_time": 2}
+comments_count: 30
+comments_total: 30
 discovered_via: "devto:buildinpublic"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:buildinpublic"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/puneetkumar2010/day-22-of-building-crowdwide-i-thought-ui-polish-would-be-easy-but-i-was-wronggggg-27jk>
-> 指标：reactions=20 · 评论=22 · reading_time=2
-> 作者：Puneet-Kumar2010　|　发布：2026-10-24T11:37:01Z
+> 指标：reactions=20 · 评论=30 · reading_time=2
+> 作者：Puneet Kumar Mishra　|　发布：2026-10-24T11:37:01Z
 > 项目链接：<https://github.com/DeveloperPuneet/Crowdwide>
-> 采集：2026-10-25T23:32:57+08:00　|　id：`058e2d877b858415`
+> 采集：2026-10-27T23:52:07+08:00　|　id：`058e2d877b858415`
 
 ## 正文
 
@@ -95,14 +95,14 @@ comment if you think anything is left...
 
 💻 GitHub repository: https://github.com/DeveloperPuneet/Crowdwide
 
-## 评论（22/22）
+## 评论（30/30）
 
 > **EffessDev** · 2026-10-24T11:43:10Z　
 > Bro you were this serious I just randomly mentioned optimistic UI thanks 🫨
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-24T11:44:40Z　
+> **Puneet Kumar Mishra** · 2026-10-24T11:44:40Z　
 > Lmaooo bro 😭😂 you have no idea how seriously I take suggestions, even the random ones. If it can make Crowdwide better, I'm implementing it
 
 ---
@@ -112,7 +112,7 @@ comment if you think anything is left...
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-24T12:00:34Z　
+> **Puneet Kumar Mishra** · 2026-10-24T12:00:34Z　
 > ✌🙌
 
 ---
@@ -122,7 +122,7 @@ comment if you think anything is left...
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-24T12:43:15Z　
+> **Puneet Kumar Mishra** · 2026-10-24T12:43:15Z　
 > Ohhh, I never thought about using a separate agent just for UI design Keeping the context clean while working on UI sounds really useful! I'll definitely check out Anthropic's skill. Thanks for the suggestion! 🔥
 
 ---
@@ -132,7 +132,7 @@ comment if you think anything is left...
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-24T13:44:48Z　
+> **Puneet Kumar Mishra** · 2026-10-24T13:44:48Z　
 > I've read a bit about MoE models before, actually! 👀 I was even trying to learn how to build something like that and integrate it into my project.
 >
 > I understand how LLMs work at a basic level, but I haven't really figured out the actual MoE mechanism, how the experts are built, how the routing works, and how everything comes together during training. I tried looking for resources, but couldn't find a good explanation of how to build one from scratch.
@@ -152,7 +152,7 @@ comment if you think anything is left...
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-25T04:33:00Z　
+> **Puneet Kumar Mishra** · 2026-10-25T04:33:00Z　
 > Ohh this is actually a really helpful explanation! The Iron Man analogy makes it much easier to picture how the experts work I’ll check out the course and look into Qwen too. I’ve been wanting to understand how the router actually selects experts, not just the high-level concept.
 >
 > Also, do you know any open-source repos where I can see a MoE model actually working in code? I wanna understand how the router selects experts, how tokens get routed to them, and how their outputs get combined. Something I can run and experiment with would be even better!
@@ -164,7 +164,7 @@ comment if you think anything is left...
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-25T08:51:35Z　
+> **Puneet Kumar Mishra** · 2026-10-25T08:51:35Z　
 > I actually played it, and it was really interesting!! 🔥 Thanks for sharing this, it was a fun way to understand MoE routing better.
 
 ---
@@ -174,7 +174,7 @@ comment if you think anything is left...
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-25T04:30:06Z　
+> **Puneet Kumar Mishra** · 2026-10-25T04:30:06Z　
 > so true I thought it’d just be colors and spacing, but apparently UI polish is a whole different battle. The 4/8/16/24 spacing scale is a good tip, though. I’ll try that instead of fixing margins one by one!
 
 ---
@@ -184,7 +184,7 @@ comment if you think anything is left...
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-25T04:30:46Z　
+> **Puneet Kumar Mishra** · 2026-10-25T04:30:46Z　
 > Ohh, that’s a really good point. I’ve mostly focused on making the successful update feel instant, but I should test what happens when the request fails too I’ll check the rollback and double-submit cases so posts don’t get lost or duplicated.
 
 ---
@@ -194,7 +194,7 @@ comment if you think anything is left...
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-25T05:23:38Z　
+> **Puneet Kumar Mishra** · 2026-10-25T05:23:38Z　
 > I haven't checked the idempotency part yet 😭 I'm gonna look into whether the create endpoint supports idempotency keys, because you're right, disabling the button only protects the client side. Two concurrent requests reaching the server is a different problem entirely.
 
 ---
@@ -204,7 +204,7 @@ comment if you think anything is left...
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-25T04:34:17Z　
+> **Puneet Kumar Mishra** · 2026-10-25T04:34:17Z　
 > I hadn't thought about the responses coming back out of order That's a really good catch. I'll test that too, because both requests succeeding doesn't necessarily mean the final state is correct. The revision/request identity approach makes sense!
 
 ---
@@ -214,8 +214,68 @@ comment if you think anything is left...
 
 ---
 
-> **Puneet-Kumar2010** · 2026-10-25T04:36:37Z　
+> **Puneet Kumar Mishra** · 2026-10-25T04:36:37Z　
 > so you were keeping the discussions separated by project, and now you're gonna try separating them by expertise instead? That's actually interesting. Curious to see which approach works better for you! 🤠
+
+---
+
+> **huali** · 2026-10-27T09:42:20Z　
+> Haha, I feel your pain! 😭 UI polish is a black hole. I'm currently building Lihayo Tools (a collection of 20+ free web utilities) and I've spent way too many hours just tweaking the CSS of a single gradient bar. But you're right, those tiny details are exactly what make a product feel 'real'. Your UI looks super clean by the way! Keep it up!
+
+---
+
+> **Puneet Kumar Mishra** · 2026-10-27T10:18:05Z　
+> BROO, the gradient bar struggle is so real 😂 You start with one tiny CSS tweak and somehow lose hours trying to make it look perfect.
+>
+> And thank you for the compliment! 🙌 Lihayo Tools sounds interesting too, 20+ free utilities is a lot to build! How do you manage to keep so many tools polished without getting stuck tweaking the UI forever? 😭
+
+---
+
+> **huali** · 2026-10-27T12:18:45Z　
+> Haha, honestly, I do get stuck sometimes! 😂 My secret is: I build the core logic first, and force myself to step away from the margin adjustments. Since Lihayo Tools are all pure HTML/JS, there’s no backend to worry about, which makes things a bit easier.
+>
+> Actually, I just launched it on Product Hunt today! If you have a minute, I'd love to hear your thoughts on the UI design of the tools (especially the gradient bar you mentioned! 😂): producthunt.com/products/lihayo-tools
+
+---
+
+> **Puneet Kumar Mishra** · 2026-10-27T12:22:54Z　
+> Bro i actually checked out Lihayo Tools and even tried the BMI calculator lol Mine came out to 23.9
+>
+> Jokes aside, the project looks really good! The tools are useful, and I like how you've put everything together. Also, I gave you an upvote on Product Hunt! 🔥 That's one more from me!
+>
+> Great work on the launch, and good luck getting more support!
+
+---
+
+> **huali** · 2026-10-27T12:31:42Z　
+> Haha, 23.9 is a perfectly healthy number, my friend! 😂 Thank you so much for actually taking the time to try it out and for the PH upvote. It really means the world to a solo dev. Let me know if you ever need any new tools built! 🙌
+
+---
+
+> **Puneet Kumar Mishra** · 2026-10-27T12:44:56Z　
+> Your project looks pretty good, bro! 🙌 If I ever need a new tool, for sure I’ll let you know!
+
+---
+
+> **Olivia Brooks** · 2026-10-27T10:28:01Z　
+> I completely relate to discovering hidden margin and padding issues when a UI polish feels like a simple color swap. A seamless experience is especially critical for a vibrant Travis TX Community where users expect intuitive navigation to find local resources. Implementing optimistic cleverly smooths perceived performance and keeps creators engaged. Your detailed checklist mirrors the meticulous testing we run before releasing any visual update, and it’ll pay off in user growth.
+
+---
+
+> **Smith federico** · 2026-10-27T14:37:17Z　
+> CyberNoxSecurity — Trusted Cyber Security, Digital Investigation & Recovery Support
+>
+> CyberNoxSecurity provides professional cyber security solutions, authorised ethical hacking services, digital investigation assistance, and recovery guidance to help individuals and businesses protect themselves against evolving online threats.
+>
+> Our services cover cryptocurrency-related investigations, awareness of recovery scams, digital fraud analysis, authorised security testing, and credit repair guidance. We aim to help clients recognise potential security risks, investigate suspicious online activities, strengthen digital protection, and understand the possible steps available when facing financial fraud or cyber-security challenges.
+>
+> Our mission is to promote safer online experiences through responsible security practices, informed guidance, and professional investigative support.
+>
+> Contact Us via Whats-app: +447928388124
+>
+> Website: https: //cybernoxsecurity . com
+>
+> Email: support @cybernoxsecurity . com
 
 ## 关联链接
 

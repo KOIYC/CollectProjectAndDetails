@@ -2,7 +2,7 @@
 type: "project"
 title: "Aura 7"
 project_url: "https://auraplusplus.com/"
-first_seen: "2026-10-22T09:48:20+08:00"
+first_seen: "2026-10-27T23:49:41+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://auraplusplus.com/>
-> 首次收录：2026-10-22T09:48:20+08:00
+> 首次收录：2026-10-27T23:49:41+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -32,7 +32,8 @@ lang: "en"
 | 2026-10-10T10:01:48+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/afe15bf70a39ff71_Aura-7]] |
 | 2026-10-16T09:37:58+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/afe15bf70a39ff71_Aura-7]] |
 | 2026-10-22T09:48:20+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/afe15bf70a39ff71_Aura-7]] |
+| 2026-10-27T23:49:41+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/afe15bf70a39ff71_Aura-7]] |
 
 ## 摘要正文
 
-Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join Aura++  Launch your project and increase online aura Visit Website Aura++ Launch your project and increase online aura  Posts 33+  Revenue $1K / mo  Website Twitter October 21, 2026  Four things I keep off my pricing page until ten people have paid Confession: the first pricing pages I made were mostly costume. Three tiers, a "most popular" badge on the middle one, a big comparison grid, an enterprise box. For a product nobody had paid for yet.  Nothing on that page was a lie exactly. It just wasn't true yet either, and people can smell that. So now I have a rule for anything new: until ten people have actually paid, these four things stay off the pricing page.  A "most popular" badge. Popular with who? If zero or two people bought, the badge is a guess dressed up as social proof. I'd rather write one plain line under the plan, like "this is the one I'd pick if I was you, because X". The "contact us" enterprise tier. It looks grown up, but at this stage it mostly invites discount asks and custom builds a solo founder can't support. One pa…
+Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join Aura++  Launch your project and increase online aura Visit Website Aura++ Launch your project and increase online aura  Posts 33+  Revenue $1K / mo  Website Twitter October 27, 2026  14 of our articles were telling Google they were copies of the homepage, because of one line I never wrote Last week I found a bug that had been sitting quietly on three of our launch sites, EarlyHunt, MakerHunt and SideHunt. Every article under /posts had a canonical tag pointing at the homepage. So 14 articles were basically telling Google "I'm just a copy of the homepage, you can ignore me".  Nobody wrote that on purpose. The canonical was set in the Next.js root layout, and every route that doesn't override it just inherits it. The pages looked totally fine in the browser. Nothing broke, no error, nothing in the logs. You only see it if you view source. We fixed it on Oct 21 and each article now points at itself. I can't tell you yet if it changed anything in search, it's way too early, I'll look in Search Console in a few weeks.  What bugged me more is h…

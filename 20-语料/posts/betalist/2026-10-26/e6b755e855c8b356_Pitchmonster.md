@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/pitchmonster"
 published_at: "2026-09-12"
-captured_at: "2026-10-26T09:44:59+08:00"
+captured_at: "2026-10-27T23:49:20+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-09-12
 > 项目链接：—
-> 采集：2026-10-26T09:44:59+08:00　|　id：`e6b755e855c8b356`
+> 采集：2026-10-27T23:49:20+08:00　|　id：`e6b755e855c8b356`
 
 ## 正文
 
@@ -89,9 +89,9 @@ RepEdge.ai
  Analyze sales calls and coach reps with real-time AI insights
 PitchMit
  Win more Upwork jobs with AI that learns your winning patterns
-WZRD
+GoldMine
  BOOSTED
- Turn plain ideas into interactive docs, forms, and decks that converse
+ Let AI agents run your content, SEO, and outreach while you build
  BOOSTED
 AvairAI
  AI agents book meetings while you close deals
@@ -99,9 +99,9 @@ Pitch31.ai
  Turn your APIs into AI agents
 implo.ai
  Buy ready-to-deploy AI prompts, workflows, agents, and templates
-SmartBI
+EntreDash
  BOOSTED
- AI copilot that turns marketing data into next steps
+ Validate and shape your idea with a private AI advisory board
  BOOSTED
 Pondeo
  Sell more with smart account intelligence
