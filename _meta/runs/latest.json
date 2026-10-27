@@ -1,149 +1,122 @@
 {
- "run_id": "20261027T234629",
- "started_at": "2026-10-27T23:46:29+08:00",
- "ended_at": "2026-10-28T00:11:38+08:00",
- "elapsed_s": 1508.7,
+ "run_id": "20261028T004028",
+ "started_at": "2026-10-28T00:40:28+08:00",
+ "ended_at": "2026-10-28T00:43:18+08:00",
+ "elapsed_s": 170.1,
  "channels": [
   {
    "source_id": "hn_show",
    "name": "HN Show HN",
    "status": "ok",
-   "count": 40,
-   "message": "40/40 hits | new=40 chg=0",
-   "elapsed_s": 83.5,
-   "new": 40,
-   "changed": 0,
-   "raw": 40
+   "count": 3,
+   "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
+   "elapsed_s": 2.0
   },
   {
    "source_id": "reddit",
    "name": "Reddit 独立开发版块",
-   "status": "ok",
-   "count": 22,
-   "message": "22 posts;  | new=22 chg=0",
-   "elapsed_s": 61.8,
-   "new": 22,
-   "changed": 0,
-   "raw": 22
+   "status": "empty",
+   "count": 0,
+   "message": "0 posts; SideProject: 500: Internal Server Error; indiehackers: 500: Internal Server Error; microsaas: 500: I",
+   "elapsed_s": 33.0
   },
   {
    "source_id": "github_new",
    "name": "GitHub 新星仓库",
    "status": "ok",
-   "count": 10,
-   "message": "28 repos;  | 写盘 8/10 | new=0 chg=8",
-   "elapsed_s": 22.3,
-   "new": 0,
-   "changed": 8,
-   "raw": 10
+   "count": 3,
+   "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
+   "elapsed_s": 2.2
   },
   {
    "source_id": "betalist",
    "name": "BetaList",
    "status": "ok",
-   "count": 12,
-   "message": "12 startups · 发布日 12/12 | new=11 chg=1",
-   "elapsed_s": 20.2,
-   "new": 11,
-   "changed": 1,
-   "raw": 12
+   "count": 3,
+   "message": "3 startups · 发布日 3/3",
+   "elapsed_s": 5.7
   },
   {
    "source_id": "indiehackers",
    "name": "Indie Hackers 产品库",
    "status": "ok",
-   "count": 20,
-   "message": "23 products | 写盘 19/20 | new=4 chg=15",
-   "elapsed_s": 24.5,
-   "new": 4,
-   "changed": 15,
-   "raw": 20
+   "count": 3,
+   "message": "23 products",
+   "elapsed_s": 7.6
   },
   {
    "source_id": "devto",
    "name": "dev.to",
    "status": "ok",
-   "count": 6,
-   "message": "6 articles | 写盘 5/6 | new=0 chg=5",
-   "elapsed_s": 370.5,
-   "new": 0,
-   "changed": 5,
-   "raw": 6
+   "count": 2,
+   "message": "2 articles",
+   "elapsed_s": 23.5
   },
   {
    "source_id": "producthunt",
    "name": "Product Hunt",
    "status": "ok",
-   "count": 30,
-   "message": "30 entries | new=29 chg=1",
-   "elapsed_s": 23.8,
-   "new": 29,
-   "changed": 1,
-   "raw": 30
+   "count": 3,
+   "message": "3 entries",
+   "elapsed_s": 1.3
   },
   {
    "source_id": "v2ex",
    "name": "V2EX",
    "status": "ok",
-   "count": 22,
-   "message": "85 topics | 写盘 18/22 | new=18 chg=0",
-   "elapsed_s": 60.0,
-   "new": 18,
-   "changed": 0,
-   "raw": 22
+   "count": 3,
+   "message": "20 topics",
+   "elapsed_s": 0.7
   },
   {
    "source_id": "bilibili",
    "name": "B 站",
    "status": "empty",
    "count": 0,
-   "message": "0 videos | new=0 chg=0",
-   "elapsed_s": 4.1,
-   "new": 0,
-   "changed": 0,
-   "raw": 0
+   "message": "0 videos",
+   "elapsed_s": 0.4
   },
   {
    "source_id": "c1c7",
    "name": "1c7 中文独立开发者名录",
    "status": "ok",
-   "count": 7,
-   "message": "17 entries · 收录日 17 | 写盘 1/7 | new=0 chg=1",
-   "elapsed_s": 100.6,
-   "new": 0,
-   "changed": 1,
-   "raw": 7
+   "count": 3,
+   "message": "9 entries · 收录日 9",
+   "elapsed_s": 4.2
+  },
+  {
+   "source_id": "exa_discovery",
+   "name": "Exa 全网语义发现",
+   "status": "ok",
+   "count": 3,
+   "message": "8 results",
+   "elapsed_s": 7.8
   },
   {
    "source_id": "twitter",
    "name": "X / Twitter",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 16s\nok: false\nerr | new=0 chg=0",
-   "elapsed_s": 88.7,
-   "new": 0,
-   "changed": 0,
-   "raw": 0
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 17s\nok: false\nerr",
+   "elapsed_s": 19.7
   },
   {
    "source_id": "xiaohongshu",
    "name": "小红书",
    "status": "ok",
    "count": 1,
-   "message": "1 items（3 路查询）（1 路失败） | new=0 chg=1",
-   "elapsed_s": 189.0,
-   "new": 0,
-   "changed": 1,
-   "raw": 1
+   "message": "1 items（1 路查询）",
+   "elapsed_s": 30.4
   }
  ],
- "notes_written": 156,
+ "notes_written": 0,
  "errors": [],
- "total_items": 170,
- "total_new": 124,
- "dry": false,
- "rule_dropped": 31,
- "write_errors": 0,
- "body_cache_pruned": 0,
- "finish_errors": []
+ "mode": "audit",
+ "summary": {
+  "total": 13,
+  "ok": 10,
+  "empty": 2,
+  "error": 0,
+  "auth": 1
+ }
 }

@@ -559,7 +559,8 @@ content_gate:
        2026-10-16：源站正常（探针 ok / 3 posts，19 条 / new 19）→ 维持 limit_reduced。
        2026-10-22：**后端 arctic-shift 时间窗查询整体 500** → 本轮 0 条（属后端故障非渠道腐化，保持 enabled，详见 `backends` 段）。2026-10-25 后端恢复（探针 ok / 25 posts），2026-10-26 采集 27 条 / new 7 已正常；可用率 279/463 = 60% 仍最低，维持 limit_reduced。
        2026-10-27 轮：后端正常（体检 3 posts / 20.9s，采集 22 条 / new 22）；313/514 = 61% 仍最低，维持 limit_reduced，
-       2 条 comments_error 属真缺口（平台报过评论数），已进回填评论通道}
+       2 条 comments_error 属真缺口（平台报过评论数），已进回填评论通道。
+       同日 00:43 复跑体检时后端被节流（422 slow down）后降级 500（见 `backends.arctic_shift` ⑧）；采集已完成，无数据损失}
     - {id: c1c7, ratio: '4/7', verdict: keep,
        note: 2026-10-16 6/7（n=7 小样本，报可用率要连 n 一起报）。本轮采集 error（WinError 10054 / 1.8s）：
        体检探针同轮 ok（9 entries / 2.8s），镜像对照实验显示 `cdn.jsdelivr.net` **间歇可用（好窗口 6/8、坏窗口 0/8）**，
@@ -602,8 +603,8 @@ backends:
     revive: 复测能返回正文后恢复，可重新用于 enrich_generic
   - id: arctic_shift
     use: Reddit 取数
-    status: ok
-    verified: '2026-10-25'
+    status: unstable
+    verified: '2026-10-28'
     evidence: ① after/before 只接受 epoch 秒或纯日期，带时区 ISO 会 400；② score 装载延迟：近 3 天帖子分数未沉淀（近 3 天 max=1 vs 7-14 天前 max=42）→ 采集用 settle_days=3 窗口；③ sort 只接受 asc/desc。
       ④ **2026-10-10 源站故障**（已恢复）：体检探针与采集端同轮返回各 sub `522`（kb_audit 后端复检亦为 `unusable / 522`）。
       三层探针定案 = **源站侧故障，非本机网络**：TCP ok 0.51s / TLS ok 0.62s / HTTP **522**（Cloudflare「源站连接超时」，
@@ -622,6 +623,15 @@ backends:
       （时窗路径全挂，重试必空）。
       ⑦ **2026-10-25 恢复**：kb_audit 渠道探针 reddit `ok / 3 posts / 25.8s`、后端复检 `ok / 1 rows / 6.6s` → 时间窗查询路径已修好，
       status 由 `unstable` 转 **ok**。**第二次正面证实「后端宕机保持 enabled」判据**（首次 10-11 的 522 → 10-11 恢复）。
+      ⑧ **2026-10-28 00:36～00:43 再度降级（ok → unstable）**：采集轮（00:36 前）**正常取到 22 条 / new 22**，
+      00:36 体检 `ok / 3 posts / 19.8s`；随后 00:42 后端复检首现 **HTTP 422 + body `{"error":"Timeout. Maybe slow down a bit"}`**
+      （= 服务端**限流**，非参数错：`limit=1/2/5/100` × 有/无 after × 有/无 sort 的**参数矩阵全 422**），
+      00:43 全量体检 reddit 转 `empty`，各 sub 报 `500: Internal server error`，后端复检亦 500。
+      **归因**：同一 IP 在 20 分钟内被跑了 **3 次全量体检 + 1 次采集 + 多次参数矩阵/body 探针** → 服务端 shed load（先把请求节流成 422，再降级成 500），
+      **属后端过载/故障，不是渠道腐化、也不是参数问题**。旁证：同轮采集 22 条成功、30 分钟前探针 ok。
+      **处置**：reddit 保持 enabled、**不写 disabled**、**不重试采集**（数据已到手，重试只会加重节流）；
+      **revive 判据 = 渠道探针恢复 `ok / N posts` 且后端复检返回 rows>0**；`kb_audit` 已加 `throttled` 第三态（422+slow down 不判 unusable、不记 delta）。
+      **操作教训：不要为查一个疑问在短时间内反复跑全量体检** —— 它本身就会把限流型后端打到降级。
       复现规律：arctic-shift 的故障窗口约 2-4 轮（10-10 522 / 10-22 500 / 10-25 ok），**故障期不重试、不停用、不改配置**是正确处置。
     revive: 源站恢复后由 kb_audit 后端复检自动转 ok（2026-10-11、2026-10-25 两次先例）；复活判据 = 带 after/before 的请求返回 200 且 rows>0。
       若连续 ≥2 轮仍 500，再评估换 Reddit 取数后端（pullpush 已 429 不可用，需另找）或临时降该渠道权重；换后端要改 adapter，须用户确认

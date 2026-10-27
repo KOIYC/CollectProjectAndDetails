@@ -1,7 +1,7 @@
 ---
 type: "report"
 title: "agent-reach 体检"
-updated: "2026-10-22T09:42:01+08:00"
+updated: "2026-10-28T00:42:49+08:00"
 tags:
   - 报告
   - 渠道
@@ -10,32 +10,24 @@ tags:
 
 # agent-reach 体检
 
-> 检查时间 2026-10-22T09:42:01+08:00 · 由 `agent-reach doctor --json` 生成
+> 检查时间 2026-10-28T00:42:49+08:00 · agent-reach 1.6.0 · 由 `agent-reach doctor`（默认输出 JSON）生成
 
 | 平台 | | 状态 | 激活后端 | 说明 |
 |---|---|---|---|---|
-| GitHub 仓库和代码 | ⚠️ | warn | `—` | gh CLI 可执行，且检测到显式认证配置；Doctor 不执行会写 device-id 的 `gh auth status`，因此未实时验证，未标记为可用。 |
-| Twitter/X 推文 | ⚠️ | warn | `—` | OpenCLI 已安装，但未检测到已连接的浏览器扩展。
-  1. 安装并启用扩展（Chrome/Edge）：https://chromewebstore.google.com/detail/opencli/ildkmabpimmkaedii |
-| YouTube 视频和字幕 | ❌ | off | `—` | yt-dlp 未安装。安装：python -m pip install -U "yt-dlp[default]" |
-| Reddit 帖子和评论 | ⚠️ | warn | `—` | OpenCLI 已安装，但未检测到已连接的浏览器扩展。
-  1. 安装并启用扩展（Chrome/Edge）：https://chromewebstore.google.com/detail/opencli/ildkmabpimmkaedii |
-| Facebook 帖子、主页和群组 | ⚠️ | warn | `—` | OpenCLI 已安装，但未检测到已连接的浏览器扩展。
-  1. 安装并启用扩展（Chrome/Edge）：https://chromewebstore.google.com/detail/opencli/ildkmabpimmkaedii |
-| Instagram 用户、主页和指定用户帖子 | ⚠️ | warn | `—` | OpenCLI 已安装，但未检测到已连接的浏览器扩展。
-  1. 安装并启用扩展（Chrome/Edge）：https://chromewebstore.google.com/detail/opencli/ildkmabpimmkaedii |
-| B站视频、字幕和搜索 | ✅ | ok | `B站搜索 API` | B站搜索 API 可达（仅搜索，curl 直连）。完整功能建议安装 bili-cli：pipx install bilibili-cli |
-| 小红书笔记 | ⚠️ | warn | `—` | OpenCLI 已安装，但未检测到已连接的浏览器扩展。
-  1. 安装并启用扩展（Chrome/Edge）：https://chromewebstore.google.com/detail/opencli/ildkmabpimmkaedii |
-| LinkedIn 职业社交 | ⚠️ | warn | `—` | mcporter 本地配置未发现 LinkedIn MCP；配置还启用了 editor imports，Doctor 为避免扩大凭据读取范围没有展开，当前未验证。 |
-| 小宇宙播客转文字 | ❌ | off | `—` | 需要 ffmpeg（音频转码和切片）。安装：
-  Ubuntu/Debian: apt install -y ffmpeg
-  macOS: brew install ffmpeg |
-| V2EX 节点、主题与回复 | ⚠️ | warn | `—` | V2EX API 连接失败（可能需要代理）：<urlopen error timed out> |
-| 雪球股票行情与社区动态 | ⚠️ | warn | `—` | Xueqiu API 连接失败：HTTP Error 400。如需登录 Cookie，请运行：agent-reach configure --from-browser chrome --platform xueqiu；doctor 不会自动 |
-| RSS/Atom 订阅源 | ✅ | ok | `feedparser` | 可读取 RSS/Atom 源 |
-| 全网语义搜索 | ⚠️ | warn | `—` | Exa 已写入 mcporter 配置，但 Doctor 未启动远端服务做连通验证，不能仅凭配置宣称可用。 |
-| 任意网页 | ✅ | ok | `Jina Reader` | 通过 Jina Reader 读取任意网页（curl https://r.jina.ai/URL） |
+| GitHub 仓库和代码 | ⚠️ | unverified | `—` | agent-reach check github |
+| Twitter/X 推文 | ❌ | not_added | `—` | agent-reach add twitter |
+| YouTube 视频和字幕 | ⚠️ | unverified | `—` | agent-reach check youtube |
+| Reddit 帖子和评论 | ❌ | not_added | `—` | agent-reach add reddit |
+| Facebook 帖子、主页和群组 | ❌ | not_added | `—` | agent-reach add facebook |
+| Instagram 用户、主页和指定用户帖子 | ❌ | not_added | `—` | agent-reach add instagram |
+| B站视频、字幕和搜索 | ⚠️ | unverified | `—` | agent-reach check bilibili |
+| 小红书笔记 | ❌ | not_added | `—` | agent-reach add xiaohongshu |
+| LinkedIn 职业社交 | ❌ | not_added | `—` | agent-reach add linkedin |
+| boss | ❌ | not_added | `—` | agent-reach add boss |
+| V2EX 节点、主题与回复 | ⚠️ | unverified | `—` | agent-reach check v2ex |
+| 雪球股票行情与社区动态 | ❌ | not_added | `—` | agent-reach add xueqiu |
+| 小宇宙播客转文字 | ❌ | not_added | `—` | agent-reach add xiaoyuzhou |
+| 任意网页 | ⚠️ | unverified | `—` | agent-reach check web |
 
 ## 与 KB 渠道的对应关系
 

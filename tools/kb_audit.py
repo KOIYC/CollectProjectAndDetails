@@ -2,7 +2,7 @@
 
 作用：
   1) 读 _meta/channels.yaml 逐渠道做最小探针（每渠道取 3 条，不写语料）
-  2) 跑 agent-reach doctor --json 采集外部平台后端状态
+  2) 跑 agent-reach doctor（1.6.0 起默认输出 JSON，旧的 `--json` 已移除）采集外部平台后端状态
   3) 写 _meta/health.json，并重生成 00-索引/渠道台账.md（导航层）+ 00-索引/报告/AgentReach体检.md
   4) 输出「建议新增 / 建议停用 / 可解锁」清单，供 skill 流程判断
 
@@ -18,6 +18,8 @@ import json
 import re
 import sys
 import time
+import urllib.error
+import urllib.request
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
@@ -30,6 +32,10 @@ HEALTH = META / "health.json"
 CANDIDATES = META / "channel_candidates.yaml"
 
 PROBE_LIMIT = 3
+
+# 后端复检的状态图标（throttled = 服务端限流，既不能算 ok 也不能算不可用）
+BACKEND_ICON = {"ok": "✅ ok", "throttled": "⏳ throttled（服务端限流，非不可用）",
+                "unusable": "❌ unusable"}
 
 
 def probe_channel(ch: dict, timeout_scale=1.0) -> dict:
@@ -74,13 +80,45 @@ def probe_channel(ch: dict, timeout_scale=1.0) -> dict:
             "sample": [{"title": i["title"][:80], "url": i["url"]} for i in items[:2]]}
 
 
-def probe_backends() -> list[dict]:
-    """复检关键后端（含 agent-reach doctor 声明可用但实测不可用的 delta）。"""
+def _fetch_json_probe(url: str, timeout: int = 30):
+    """探针专用 JSON 取数：返回 (payload|None, http_status, body_text)。
+
+    比 `kb_common.http_json` 多带一步「读错误响应体」—— 有些后端把**限流**也报成 4xx
+    （实测 arctic-shift：HTTP 422 + `{"error":"Timeout. Maybe slow down a bit"}`），
+    只看状态码会把它误判成「后端不可用」。
+    """
+    req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (kb-audit probe)",
+                                               "Accept": "application/json"})
+    try:
+        with urllib.request.urlopen(req, timeout=timeout) as r:
+            return json.loads(r.read().decode("utf-8", "replace")), r.status, ""
+    except urllib.error.HTTPError as e:
+        return None, e.code, e.read(400).decode("utf-8", "replace")
+    except Exception as e:                                         # noqa: BLE001
+        return None, 0, f"{type(e).__name__}: {e}"
+
+
+def probe_backends(doctor: dict | None = None) -> list[dict]:
+    """复检关键后端（含 agent-reach doctor 声明可用但实测不可用的 delta）。
+
+    `declared` 按 doctor 的**实际声明**取（1.6.0 起 json 里是 `unverified` / `not_added` 这类措辞），
+    不能写死 `ok` —— 否则 doctor 改了口径就会凭空造出「矛盾」delta（2026-10-27 实测：doctor 已把
+    `web` 报成 `unverified`，而脚本仍宣称它「声明 ok」）。只有 doctor 真的说 `ok/ready` 才算矛盾。
+    """
     out = []
 
-    def add(bid, use, ok, msg, elapsed, declared=None):
-        out.append({"backend": bid, "use": use, "status": "ok" if ok else "unusable",
-                    "declared": declared, "delta": (declared == "ok" and not ok),
+    plat = (doctor or {}).get("platforms") or {}
+
+    def declared_of(bid: str, fallback: str | None = None) -> str | None:
+        p = plat.get({"jina_reader": "web", "exa_web_fetch": "exa",
+                      "arctic_shift": "reddit", "github_gh": "github"}.get(bid, "")) or {}
+        raw = p.get("raw_status") or p.get("status")
+        return raw or fallback
+
+    def add(bid, use, ok, msg, elapsed, declared=None, status=None):
+        st = status or ("ok" if ok else "unusable")
+        out.append({"backend": bid, "use": use, "status": st,
+                    "declared": declared, "delta": (declared == "ok" and st == "unusable"),
                     "message": msg[:150], "elapsed_s": round(elapsed, 1),
                     "probe_at": iso(now_cst())})
 
@@ -88,49 +126,108 @@ def probe_backends() -> list[dict]:
     try:
         body = kb_common.http_get("https://r.jina.ai/https://example.com", timeout=20, retries=0)
         add("jina_reader", "通用网页正文", len(body) > 100,
-            f"HTTP {len(body)}B", time.time() - t0, declared="ok")
+            f"HTTP {len(body)}B", time.time() - t0, declared=declared_of("jina_reader", "ok"))
     except Exception as e:                                         # noqa: BLE001
-        add("jina_reader", "通用网页正文", False, str(e)[:110], time.time() - t0, declared="ok")
+        add("jina_reader", "通用网页正文", False, str(e)[:110], time.time() - t0,
+            declared=declared_of("jina_reader", "ok"))
 
     t0 = time.time()
-    try:
-        d = kb_common.http_json("https://arctic-shift.photon-reddit.com/api/posts/search"
-                                "?subreddit=SideProject&limit=1&after=1789000000",
-                                timeout=25, retries=0)
-        add("arctic_shift", "Reddit 取数", bool(d.get("data")), f"{len(d.get('data') or [])} rows",
-            time.time() - t0)
-    except Exception as e:                                         # noqa: BLE001
-        add("arctic_shift", "Reddit 取数", False, str(e)[:110], time.time() - t0)
+    payload, code, body = _fetch_json_probe(
+        "https://arctic-shift.photon-reddit.com/api/posts/search"
+        "?subreddit=SideProject&limit=5&sort=desc&after=1789000000", timeout=30)
+    dt = time.time() - t0
+    if payload is not None:
+        add("arctic_shift", "Reddit 取数", bool(payload.get("data")),
+            f"{len(payload.get('data') or [])} rows", dt, declared=declared_of("arctic_shift"))
+    elif code == 422 and "slow down" in (body or "").lower():
+        # 服务端限流（探针紧随渠道探针/采集之后连打，容易撞上）→ 既不是不可用也不是渠道腐化
+        add("arctic_shift", "Reddit 取数", True, f"HTTP 422 服务端限流：{body.strip()[:70]}",
+            dt, declared=declared_of("arctic_shift"), status="throttled")
+    else:
+        add("arctic_shift", "Reddit 取数", False, f"HTTP {code} {body[:90]}", dt,
+            declared=declared_of("arctic_shift"))
 
     t0 = time.time()
     try:
         res = kb_common.exa_fetch_texts(["https://example.com"], max_chars=1200, timeout=120)
         add("exa_web_fetch", "通用网页正文后端", bool(res),
-            f"{len(res)} url 返回正文", time.time() - t0, declared="warn")
+            f"{len(res)} url 返回正文", time.time() - t0, declared=declared_of("exa_web_fetch", "warn"))
     except Exception as e:                                         # noqa: BLE001
-        add("exa_web_fetch", "通用网页正文后端", False, str(e)[:110], time.time() - t0, declared="warn")
+        add("exa_web_fetch", "通用网页正文后端", False, str(e)[:110], time.time() - t0,
+            declared=declared_of("exa_web_fetch", "warn"))
 
     t0 = time.time()
     code, gh_out, gh_err = run_cli(["gh", "api", "rate_limit", "--jq", ".resources.core.remaining"],
                                    timeout=45)
     add("github_gh", "GitHub 取数 (gh CLI)", code == 0,
         f"remaining={gh_out.strip()[:12]}" if code == 0 else (gh_err or gh_out)[:110],
-        time.time() - t0, declared="warn")
+        time.time() - t0, declared=declared_of("github_gh", "warn"))
     return out
 
 
+_DOCTOR_STATUS = {
+    "ok": "ok", "ready": "ok", "available": "ok",
+    "warn": "warn", "degraded": "warn", "error": "warn", "failed": "warn",
+    "unverified": "warn", "unknown": "warn",
+    "off": "off", "not_added": "off", "missing": "off",
+}
+
+_DOCTOR_LABELS = {
+    "github": "GitHub 仓库和代码", "twitter": "Twitter/X 推文", "youtube": "YouTube 视频和字幕",
+    "reddit": "Reddit 帖子和评论", "facebook": "Facebook 帖子、主页和群组",
+    "instagram": "Instagram 用户、主页和指定用户帖子", "bilibili": "B站视频、字幕和搜索",
+    "xiaohongshu": "小红书笔记", "linkedin": "LinkedIn 职业社交", "xiaoyuzhou": "小宇宙播客转文字",
+    "v2ex": "V2EX 节点、主题与回复", "xueqiu": "雪球股票行情与社区动态",
+    "rss": "RSS/Atom 订阅源", "exa": "全网语义搜索", "web": "任意网页", "jina": "任意网页",
+}
+
+
+def _doctor_platforms(d: dict) -> dict:
+    """把 agent-reach doctor 的新旧两种 JSON 结构归一成 {平台: {status,name,active_backend,message}}。
+
+    1.6.0 起 CLI 改为「默认输出 JSON、去掉 --json」，结构也从 `{平台: {...}}` 变成
+    `{ok, result: {version, channels: [{channel, status, problems, hint, ...}]}}`。
+    旧结构若被新版覆盖而未归一，体检报告会渲染成 0 行（曾导致 `AgentReach体检.md` 从 10-22 起停更）。
+    """
+    res = d.get("result")
+    if isinstance(res, dict) and isinstance(res.get("channels"), list):
+        plats = {}
+        for c in res["channels"]:
+            if not isinstance(c, dict):
+                continue
+            cid = c.get("channel") or "?"
+            raw = str(c.get("status") or "").lower()
+            msg = "; ".join(c.get("problems") or []) or (c.get("hint") or "")
+            plats[cid] = {"status": _DOCTOR_STATUS.get(raw, "warn"), "raw_status": raw,
+                          "active_backend": c.get("backend") or c.get("active_backend"),
+                          "name": _DOCTOR_LABELS.get(cid, cid), "level": c.get("level"),
+                          "message": msg[:160]}
+        return plats
+    # 旧结构：{平台名: {status, active_backend, name, message}}
+    return {k: {"status": v.get("status"), "active_backend": v.get("active_backend"),
+                "name": v.get("name") or k, "message": (v.get("message") or "")[:160]}
+            for k, v in d.items() if isinstance(v, dict) and "status" in v}
+
+
 def agent_reach_doctor() -> dict:
-    code, out, err = run_cli(["agent-reach", "doctor", "--json"], timeout=120)
-    if code != 0:
-        return {"ok": False, "error": (err or out)[:200], "platforms": {}}
+    # 1.6.0 起 `--json` 已移除（传了会 BAD_INPUT）；旧版默认输出人类可读表格 → 故先试无参，失败再退回 --json。
+    code, out, err = run_cli(["agent-reach", "doctor"], timeout=180)
+    if code != 0 or "{" not in (out or ""):
+        code2, out2, err2 = run_cli(["agent-reach", "doctor", "--json"], timeout=180)
+        if code2 == 0 and "{" in (out2 or ""):
+            out = out2
+        else:
+            return {"ok": False, "error": (err or out or err2 or out2 or "")[:200], "platforms": {}}
     try:
         d = json.loads(out[out.index("{"):])
     except Exception as e:                                         # noqa: BLE001
         return {"ok": False, "error": f"parse: {e}", "platforms": {}}
-    plats = {k: {"status": v.get("status"), "active_backend": v.get("active_backend"),
-                 "name": v.get("name"), "message": (v.get("message") or "")[:160]}
-             for k, v in d.items() if isinstance(v, dict)}
-    return {"ok": True, "checked_at": iso(now_cst()), "platforms": plats}
+    plats = _doctor_platforms(d)
+    res = d.get("result") if isinstance(d.get("result"), dict) else {}
+    err_obj = d.get("error") if isinstance(d.get("error"), dict) else {}
+    return {"ok": bool(plats) and bool(d.get("ok", True)), "checked_at": iso(now_cst()),
+            "platforms": plats, "version": res.get("version") or d.get("version"),
+            "error": (err_obj.get("message") or "")[:200] or None}
 
 
 RECOMMEND_TEMPLATES = {
@@ -174,7 +271,7 @@ def render_ledger(registry: dict, health: dict, doctor: dict) -> str:
     plat_rows = []
     for k, v in (doctor.get("platforms") or {}).items():
         icon = {"ok": "✅", "warn": "⚠️", "off": "❌"}.get(v.get("status"), "?")
-        plat_rows.append(f"| {k} | {icon} {v.get('status')} | `{v.get('active_backend') or '—'}` | "
+        plat_rows.append(f"| {k} | {icon} {v.get('raw_status') or v.get('status')} | `{v.get('active_backend') or '—'}` | "
                          f"{v.get('message', '')[:90]} |")
 
     hdr = ("| 渠道 | id | 分组 | 认证 | 状态 | 条数 | 耗时 | 消息 |\n|---|---|---|---|---|---|---|---|")
@@ -196,7 +293,7 @@ def render_ledger(registry: dict, health: dict, doctor: dict) -> str:
         "| 平台 | doctor | 激活后端 | 说明 |", "|---|---|---|---|", *plat_rows, "",
         "## 6. 关键后端复检（实测 vs doctor 声明）", "",
         "| 后端 | 用途 | 实测 | doctor 声明 | Delta | 证据 |", "|---|---|---|---|---|---|",
-        *[f"| `{b['backend']}` | {b['use']} | {'✅ ok' if b['status'] == 'ok' else '❌ unusable'} | "
+        *[f"| `{b['backend']}` | {b['use']} | {BACKEND_ICON.get(b['status'], '❌ unusable')} | "
           f"{b.get('declared') or '—'} | {'⚠️ **矛盾**' if b.get('delta') else '—'} | {b['message']} |"
           for b in (health.get("backends") or [])], "",
         "## 7. 建议评估新增通道（需 agent-reach 验证后决定）", "",
@@ -212,12 +309,14 @@ def render_doctor_note(doctor: dict) -> str:
     rows = []
     for k, v in (doctor.get("platforms") or {}).items():
         icon = {"ok": "✅", "warn": "⚠️", "off": "❌"}.get(v.get("status"), "?")
-        rows.append(f"| {v.get('name') or k} | {icon} | {v.get('status')} | `{v.get('active_backend') or '—'}` | "
+        rows.append(f"| {v.get('name') or k} | {icon} | {v.get('raw_status') or v.get('status')} | `{v.get('active_backend') or '—'}` | "
                     f"{v.get('message', '')[:120]} |")
+    ver = f" · agent-reach {doctor['version']}" if doctor.get("version") else ""
+    broken = f"\n> ⚠️ doctor 未返回平台状态：{doctor['error']}" if not rows and doctor.get("error") else ""
     return "\n".join([
         "# agent-reach 体检", "",
-        f"> 检查时间 {doctor.get('checked_at')} · 由 `agent-reach doctor --json` 生成", "",
-        "| 平台 | | 状态 | 激活后端 | 说明 |", "|---|---|---|---|---|", *rows, "",
+        f"> 检查时间 {doctor.get('checked_at')}{ver} · 由 `agent-reach doctor`（默认输出 JSON）生成{broken}", "",
+        "| 平台 | | 状态 | 激活后端 | 说明 |", "|---|---|---|---|---|", *(rows or ["| — | — | — | — | — |"]), "",
         "## 与 KB 渠道的对应关系", "",
         "| KB 渠道 | 依赖的 agent-reach 平台 | 说明 |", "|---|---|---|",
         "| `hn_show` / `reddit` / `lobsters` / `devto` / `producthunt` | 无（直连 API/RSS） | 零配置，不依赖 agent-reach 后端 |",
@@ -254,7 +353,7 @@ def main(argv=None) -> int:
         log.channel(r["channel_id"], r["name"], r["status"], r["count"], r["message"], r["elapsed_s"])
 
     doctor = {"ok": False, "platforms": {}} if args.no_doctor else agent_reach_doctor()
-    backends = [] if args.no_doctor else probe_backends()
+    backends = [] if args.no_doctor else probe_backends(doctor)
 
     # 子集探针（--channels / --fast）不得摧毁全局体检记录：按 channel_id 合并进既有 health.json。
     # 实测坑：单渠道复测 c1c7 曾把 13 渠道的 health.json 与 渠道台账.md 覆盖成「启用 1 个渠道」，
@@ -293,7 +392,9 @@ def main(argv=None) -> int:
                        "action": classify(chans_by_id[r["channel_id"]], r, doctor),
                        "status": r["status"]}
                       for r in results if r["channel_id"] in chans_by_id],
-        "agent_reach": {"ok": doctor.get("ok"), "checked_at": doctor.get("checked_at")}
+        "agent_reach": {"ok": doctor.get("ok"), "checked_at": doctor.get("checked_at"),
+                        "version": doctor.get("version"), "error": doctor.get("error"),
+                        "platforms": len(doctor.get("platforms") or {})}
                        if not (subset and args.no_doctor)
                        else prev.get("agent_reach", {"ok": doctor.get("ok")}),
         "deltas": [b for b in backends if b.get("delta")],
