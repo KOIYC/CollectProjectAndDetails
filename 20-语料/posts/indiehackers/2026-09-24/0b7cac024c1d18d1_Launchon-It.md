@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/launchon-it"
 project_url: "https://launchon.it/"
-captured_at: "2026-10-27T23:49:41+08:00"
+captured_at: "2026-10-28T09:43:59+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://launchon.it/>
-> 采集：2026-10-27T23:49:41+08:00　|　id：`0b7cac024c1d18d1`
+> 采集：2026-10-28T09:43:59+08:00　|　id：`0b7cac024c1d18d1`
 
 ## 正文
 
@@ -42,7 +42,7 @@ LaunchOnIt
  Product launch platform for indie startups.
 Visit Website
 LaunchOnIt Product launch platform for indie startups.
- Posts 34+
+ Posts 50+
  Revenue $0 / mo
  Website Twitter
 October 27, 2026
@@ -57,7 +57,7 @@ If you talk to any bootstrapped founder about SEO, you will usually hear a colle
  If you are trying to grow your domain authority right now, are you still grinding away at cold outreach, or have you automated your distribution stack? Let us chat below.
 Alex
 9 Upvotes
-Comment
+2 Comments
 October 26, 2026
  The Monday morning reminder for founders: your product launch is a marathon, not a twenty four hour sprint
 Monday mornings are when most startup founders look at their analytics dashboards, check their pipeline, and map out what needs to ship for the week.
@@ -89,7 +89,7 @@ When you are bootstrapping a startup by yourself, weekends tend to lose their me
  Taking a step back gives your brain the space to look at the big picture, figure out actual distribution strategies, and come back on Monday with a clear head.
  How do you guys handle weekends? Are you strict about disconnecting, or are you deep in the code right now?
 Alex
-24 Upvotes
+25 Upvotes
 9 Comments
 October 23, 2026
  The Friday reality check: why doing less manual marketing will actually grow your startup faster
@@ -112,7 +112,7 @@ If you are a developer or solo founder building software right now, your daily l
  We spend all day making AI write our code, so it is about time we let it handle our boring distribution grunt work too.
  Are you using AI agents or custom scripts to automate any parts of your marketing or operations stack yet?
 Alex
-27 Upvotes
+28 Upvotes
 4 Comments
 October 21, 2026
  What I learned growing a startup directory to DR 43 and turning it into a weekly launch platform for indie hackers

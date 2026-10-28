@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/aura-7"
 project_url: "https://auraplusplus.com/"
-captured_at: "2026-10-27T23:49:41+08:00"
+captured_at: "2026-10-28T09:43:59+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://auraplusplus.com/>
-> 采集：2026-10-27T23:49:41+08:00　|　id：`afe15bf70a39ff71`
+> 采集：2026-10-28T09:43:59+08:00　|　id：`afe15bf70a39ff71`
 
 ## 正文
 
@@ -42,7 +42,7 @@ Aura++
  Launch your project and increase online aura
 Visit Website
 Aura++ Launch your project and increase online aura
- Posts 33+
+ Posts 42+
  Revenue $1K / mo
  Website Twitter
 October 27, 2026
@@ -59,7 +59,7 @@ If you want to check one of your own pages, the free canonical tag checker on Au
  Have you ever checked what canonical your blog posts actually point to? Did anything surprise you?
 Praneet Brar
 7 Upvotes
-5 Comments
+9 Comments
 October 26, 2026
  Four rules I wrote down before the second customer asked to pause instead of cancel
 A pause request is one of the nicer support emails you can get. The person isn't leaving. They just don't want to pay for months they won't use. Think a tool for wedding photographers, and in November someone writes "season's done, can I pause till March, I don't want to lose my setup".
@@ -75,7 +75,7 @@ The reply then is boring in a good way: "Sure, paused from today until March 1. 
  Do you offer pause at all? Or do you just cancel people and hope they come back?
 Praneet Brar
 2 Upvotes
-Comment
+1 Comment
 October 25, 2026
  Two of our launch sites had zero votes for a whole week. So I stopped adding features to the listing page
 Honest numbers first. On MakerHunt and SideHunt, two of the five launch sites I run, the Oct 19 cohort got 0 upvotes and 0 real comments through day six. Not low. Zero. And those listing pages already had stats, a comment box, the maker's links, all of it.
@@ -107,7 +107,7 @@ Worked example from the real tests we ran while building it. Typing http://githu
  What I still don't know is how common this is out there. When you launch, do you submit your bare domain, the www version, or a specific landing page? And have you ever actually looked at what it redirects through?
 Praneet Brar
 1 Upvote
-3 Comments
+4 Comments
 October 23, 2026
  Should "delete my account" be as easy to find as "upgrade"? I think it should
 Here's a small test I like doing on any SaaS I sign up for, including my own. Open settings and try to find how to delete the account. Not cancel the plan, delete the whole thing, data and all. Time how long it takes.

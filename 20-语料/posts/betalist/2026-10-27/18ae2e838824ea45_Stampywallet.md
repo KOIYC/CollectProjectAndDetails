@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/stampywallet"
 published_at: "2026-10-27"
-captured_at: "2026-10-27T23:49:20+08:00"
+captured_at: "2026-10-28T09:43:46+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-10-27
 > 项目链接：—
-> 采集：2026-10-27T23:49:20+08:00　|　id：`18ae2e838824ea45`
+> 采集：2026-10-28T09:43:46+08:00　|　id：`18ae2e838824ea45`
 
 ## 正文
 
@@ -90,9 +90,9 @@ FaveCard
  Digital loyalty cards in Apple & Google Wallet with no app
 The Wellness Wallet
  Tie your spending money to workouts and unlock cash when you hit goals
-PitchMonster
+Aria
  BOOSTED
- Practice sales calls with AI buyers and get instant coaching
+ Free color analysis and honest verdicts before you buy
  BOOSTED
 ScrollToll: Screen-Time Gym
  The app that locks your apps until you exercise.
@@ -100,9 +100,9 @@ VaultLeap
  A clock that shows your money growing in real time
 PaywallPro
  Subscription Intelligence & 46,000+ iOS Paywall Screenshots
-Wilo
+Whacka
  BOOSTED
- AI clerk that helps shoppers find, compare, and choose products
+ AI app builder: describe your app in any language, get a real working app
  BOOSTED
 Snapkin
  Log meals by taking a photo and get calories and protein

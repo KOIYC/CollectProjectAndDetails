@@ -5,7 +5,7 @@ title: "Indiehunt"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/indiehunt"
-captured_at: "2026-10-27T23:49:41+08:00"
+captured_at: "2026-10-28T09:43:59+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-10-27T23:49:41+08:00　|　id：`c869a011618f25b4`
+> 采集：2026-10-28T09:43:59+08:00　|　id：`c869a011618f25b4`
 
 ## 正文
 
@@ -41,7 +41,7 @@ Indiehunt
  Launch your product on Indiehunt to get discovered by indies
 Visit Website
 Indiehunt Launch your product on Indiehunt to get discovered by indies
- Posts 33+
+ Posts 50+
  Revenue $500 / mo
  Website Twitter
 October 27, 2026
@@ -57,7 +57,7 @@ I used to add marketing channels the way people open browser tabs. A new subredd
  Which channel did you keep way longer than you should have? And what finally made you drop it?
 Praneet Brar
 5 Upvotes
-3 Comments
+5 Comments
 October 26, 2026
  Three reasons I won't sell a lifetime deal until 20 people pay me monthly
 Every few weeks someone suggests I do a lifetime deal. Quick cash, a pile of users, some feedback. I get the appeal, especially when the monthly revenue chart is flat and you're tired of looking at it.
@@ -71,7 +71,7 @@ Every few weeks someone suggests I do a lifetime deal. Quick cash, a pile of use
  Anyone here did an LTD early and still glad about it? Or the opposite. I'd like to hear the number of paying customers you had when you did it.
 Praneet Brar
 1 Upvote
-2 Comments
+3 Comments
 October 25, 2026
  Three questions I ask before I build an integration a customer asked for
 Integration requests are the hardest ones for me to say no to. They sound small ("just connect it to Notion"), they come from people who are actually paying, and they look great on a features page. They're also the stuff that quietly eats a month and then breaks every time the other company changes their API.

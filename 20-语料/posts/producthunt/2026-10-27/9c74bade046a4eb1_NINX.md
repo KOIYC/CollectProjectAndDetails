@@ -7,7 +7,7 @@ source_name: "Product Hunt"
 url: "https://www.producthunt.com/products/ninx-2"
 author: "Nalanda N"
 published_at: "2026-07-21T12:34:05-07:00"
-captured_at: "2026-10-27T23:56:15+08:00"
+captured_at: "2026-10-28T09:47:37+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -25,7 +25,7 @@ discovered_via: "producthunt"
 # NINX
 
 > [!info] 一句话导读
-> On-device AI, connected tools, and creative workflows
+> Private On-device AI, connected tools, & creative workflows
 
 > [!meta]- 语料信息（点开展开）
 > 来源：Product Hunt（post）
@@ -33,11 +33,11 @@ discovered_via: "producthunt"
 > 指标：—
 > 作者：Nalanda N　|　发布：2026-07-21T12:34:05-07:00
 > 项目链接：—
-> 采集：2026-10-27T23:56:15+08:00　|　id：`9c74bade046a4eb1`
+> 采集：2026-10-28T09:47:37+08:00　|　id：`9c74bade046a4eb1`
 
 ## 正文
 
-On-device AI, connected tools, and creative workflows
+Private On-device AI, connected tools, & creative workflows
 
  Discussion
  |

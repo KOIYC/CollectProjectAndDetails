@@ -6,7 +6,7 @@ source: "c1c7"
 source_name: "1c7 中文独立开发者名录"
 url: "https://mastersofscale.com"
 project_url: "https://mastersofscale.com/"
-captured_at: "2026-10-25T23:35:51+08:00"
+captured_at: "2026-10-28T09:48:19+08:00"
 lang: "zh"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,33 +32,23 @@ discovered_via: "1c7:readme"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://mastersofscale.com/>
-> 采集：2026-10-25T23:35:51+08:00　|　id：`ec3eb5285a72cd71`
+> 采集：2026-10-28T09:48:19+08:00　|　id：`ec3eb5285a72cd71`
 
 ## 正文
 
 Masters of Scale – Home
 
-## Where AI goes from here
+## Eric Schmidt scores US vs. China
 
- OpenAI’s Sarah Friar
+ Relativity Space’s Eric Schmidt
 
-Reid Hoffman sits down with OpenAI CFO Sarah Friar to understand the precipice of the moment we are in and the decisions that could shape what comes next for each of us.
+The AI race between the U.S. and China is the defining competition of our age. Live from Masters of Scale Summit, Eric Schmidt gives his most unvarnished assessment yet.
 
 Meet the latest speakers joining the Summit 2026 lineup. These leaders from OpenAI, Google, Suno, and more are defining what comes next for business, creativity, and tech.
 
 Hipcamp’s Alyssa Ravasio
 
-Creative Planning’s Jamie Battmer KCRW’s Jennifer Ferro
-
-MTV’s Tom Freston
-
-Engine’s Elia Wallen The Hershey Company’s Kirk Tanner
-
-Halloween meets GLP-1s
-
- Don't be boring: KCRW's Jennifer Ferro on building a brand people love
-
-Don't be boring: KCRW's Jennifer Ferro on building a brand people love
+ OpenAI’s Tibo Sottiaux doesn’t want humans to be an ‘afterthought’
 
  Iconic Leaders. Priceless Advice.
 

@@ -513,22 +513,23 @@ channels:
 
 content_gate:
   audited_at: '2026-10-28'
-  overall: '3017/3403（89%）'
+  overall: '3091/3489（89%）'
   rows:
-    - {id: producthunt, ratio: '445/450', verdict: keep}
-    - {id: betalist, ratio: '223/223', verdict: keep}
-    - {id: devto, ratio: '17/22', verdict: keep,
+    - {id: producthunt, ratio: '452/457', verdict: keep}
+    - {id: betalist, ratio: '233/233', verdict: keep}
+    - {id: devto, ratio: '17/23', verdict: keep,
        note: n=19 小样本；标题 require_any 曾把样本全过滤（0 条 = 杀渠道），已回退为「少量标题排除 + limit 降量」}
-    - {id: bilibili, ratio: '65/69', verdict: keep,
+    - {id: bilibili, ratio: '67/71', verdict: keep,
        note: 94%。2026-10-10：曾出现采集端 0 videos（探针同轮 ok）→ 调查确认 B 站搜索 API 实测健康
        （code=0 / 20 results / play>3000 有货）→ 判为**瞬态 WBI 风控空返回**，非渠道腐化。B 站是**累计搜索型渠道、无时间窗口**，
        本轮不补也无数据丢失（同 c1c7 判据），保持 enabled。2026-10-16 正常（8 条 / new 3，丢弃 4/12=33%「无主题词」）。
        2026-10-27 轮：体检探针 ok（3 条 / 4 videos）但采集端 0 videos（4.1s，与 10-10 同型）→ 判**瞬态 WBI 风控空返回**，
        累计搜索型无时间窗口 ⇒ 无数据丢失，保持 enabled、不重跑。可用率 65/69 = 94%}
     - {id: indiehackers, ratio: '155/159', verdict: keep}
-    - {id: hn_show, ratio: '1581/1667', verdict: keep,
+    - {id: hn_show, ratio: '1618/1707', verdict: keep,
        note: 95%。大厂产品假阳性已修（Show HN 标题自述的条目不再因提到 Stripe/Google 被判「大厂产品」）；
-       主要残余是视频帖无正文（结构性，记死信）与 Exa 截断 36。2026-10-22 采集 40 条全命中、丢弃 0。2026-10-26 1517/1602（95%）；残余 unusable 85 / summary 26 / trunc 34 结构未变。2026-10-27 轮 1581/1667（95%），采集 40 条 / new 40 / 正文 40-40 直取全命中}
+       主要残余是视频帖无正文（结构性，记死信）与 Exa 截断 36。2026-10-22 采集 40 条全命中、丢弃 0。2026-10-26 1517/1602（95%）；残余 unusable 85 / summary 26 / trunc 34 结构未变。2026-10-27 轮 1581/1667（95%），采集 40 条 / new 40 / 正文 40-40 直取全命中。
+       2026-10-28 轮 1618/1707（95%），采集 40 条 / new 40；残留 body 3 条在回填队列（exa web_fetch 本轮 2 次 code=1 空返回，属额度/瞬态）}
     - {id: github_new, ratio: '62/86', verdict: keep,
        note: 74%。噪声是 awesome-*/directory/clone/wiki/journal 类资源清单（标题规则已排除，见 rule_drops）。
        2026-10-11：体检探针报 error（0 repos / 44.5s，gh search 网络层 GET 错误），单渠道复检 **ok（3 repos / 4.4s）**
@@ -537,8 +538,9 @@ content_gate:
        2026-10-17 体检再报 error（`gh search` 90.8s 超时，`github_gh` 后端复检 timeout>45s）→ 三层探针对照
        `api.github.com` **/search/repositories 实测 200（7.37s，慢但通）**，且**同轮采集取到 13 条 / 写盘 11** ⇒ 瞬态链路慢，保持 enabled。
        2026-10-22 丢弃 17/28 = **61%**（7 标题 journal/awesome-*/clone/directory + 10 无主题词 库与 demo），逐条核对无误杀；探针 ok 3 repos / 2.1s。2026-10-26 丢弃 16/28 = 57%（标题 7 + 无主题词 9），无误杀；63/85 = 74%。
-       2026-10-27 丢弃 18/28 = 64%（标题 7 awesome-*/wiki/clone/directory + 无主题词 11 库与 demo），逐条核对无误杀；62/86 = 72%}
-    - {id: v2ex, ratio: '120/166', verdict: keep,
+       2026-10-27 丢弃 18/28 = 64%（标题 7 awesome-*/wiki/clone/directory + 无主题词 11 库与 demo），逐条核对无误杀；62/86 = 72%。
+       2026-10-28 丢弃 18/28 = 64%（同型：标题 7 + 无主题词 11），逐条核对无误杀；62/86 = 72% 维持，采集 10 条 / new 0 chg 8}
+    - {id: v2ex, ratio: '121/168', verdict: keep,
        note: 71%。主要噪声是「NAS 必装 Docker 推荐」类资源帖；rules.yaml 已排招聘/求职/求助。
        2026-10-16 丢弃 10/25（40%）：7 条标题（招聘/求职为主）+ 3 条无主题词，无误杀。
        ⚠ 待评估：v2ex 自述发布帖（「做了/做了一个/做了个…」）被主题词门滤掉（如「做了一个 Durable Agent Harness
@@ -548,20 +550,23 @@ content_gate:
        「[分享创造] 测了 20 多个导航站后做的 Builderoom」（`2425218c95f8ecdd`，n=1 独立案例），命中全局 `exclude_title`
        的 `导航站|目录站`。该规则本意排「名录/资源站内容」，不该排「我做了个导航站」这种**自述发布** →
        同类独立案例累计 **n=2**（另一例 `889eb28da2792b1d` 9-29 起 n=3 但同一 item），**未到 n≥3 不动规则**。2026-10-26 105/146 = 72%（resource 31 为主，NAS/Docker 推荐类）；丢弃 3/25（标题 2 招聘 + 无主题词 1 提问帖），无误杀。
-       2026-10-27 轮：120/166 = 72%（resource 35 为主）；采集 22 条 / new 18，丢弃 3/25（标题 3：2 招聘 + 1 求职），无误杀}
+       2026-10-27 轮：120/166 = 72%（resource 35 为主）；采集 22 条 / new 18，丢弃 3/25（标题 3：2 招聘 + 1 求职），无误杀。
+       2026-10-28 轮：121/168 = 72%；采集 22 条 / new 2，丢弃 3/25（标题 3：2 招聘 + 1 求职），无误杀}
     - {id: exa_discovery, ratio: '31/39', verdict: keep,
        note: 76%，小样本（weekly_only，非周一不跑）。1 条「Respira Exhale」疑误杀 n=1，未到动手阈值。2026-10-26 26/34 = 76%（irrelevant 8 / resource 8）；本轮 32 results → 收 10 条（URL 2 + 无主题词 3），丢弃项均为 IndieDB/Steam 游戏新闻，非目标语料。
        2026-10-27 体检探针报 empty（0 results / 39.4s）→ 直连 `mcporter exa.web_search_exa` 同 query **返回 3 条含当日新条目**
        ⇒ **探针侧波动（慢返回），非后端不可用**；今天周二该渠道本就不跑（weekly_only）⇒ 无数据损失，保持 enabled、不写 disabled}
-    - {id: reddit, ratio: '313/514', verdict: limit_reduced,
+    - {id: reddit, ratio: '329/538', verdict: limit_reduced,
        note: 60%（全库最低）。已把 limit 40→30 控量（标题过滤模拟到 88% 但丢 29 条可用帖，代价大于收益，不采纳）。
        窗口外移 settle_days=10 / window_days=14 后近两周语料抓不到（见渠道 note），审计口径与采集口径要一起看。
        2026-10-16：源站正常（探针 ok / 3 posts，19 条 / new 19）→ 维持 limit_reduced。
        2026-10-22：**后端 arctic-shift 时间窗查询整体 500** → 本轮 0 条（属后端故障非渠道腐化，保持 enabled，详见 `backends` 段）。2026-10-25 后端恢复（探针 ok / 25 posts），2026-10-26 采集 27 条 / new 7 已正常；可用率 279/463 = 60% 仍最低，维持 limit_reduced。
        2026-10-27 轮：后端正常（体检 3 posts / 20.9s，采集 22 条 / new 22）；313/514 = 61% 仍最低，维持 limit_reduced，
        2 条 comments_error 属真缺口（平台报过评论数），已进回填评论通道。
-       同日 00:43 复跑体检时后端被节流（422 slow down）后降级 500（见 `backends.arctic_shift` ⑧）；采集已完成，无数据损失}
-    - {id: c1c7, ratio: '4/7', verdict: keep,
+       同日 00:43 复跑体检时后端被节流（422 slow down）后降级 500（见 `backends.arctic_shift` ⑧）；采集已完成，无数据损失。
+       2026-10-28 轮：329/538 = 61%（irrelevant 195 为主要噪声源，全库最低）；后端正常（体检 25 posts / 16.8s），
+       采集 25 条 / new 24，但**正文补全 0/6（直取 0 / exa 0）**——reddit.com 直取被拉黑 + exa web_fetch 同轮 2 次 code=1 空返回 ⇒ 7 条 body 缺口进队列（回填后余 3），非渠道腐化}
+    - {id: c1c7, ratio: '5/7', verdict: keep,
        note: 2026-10-16 6/7（n=7 小样本，报可用率要连 n 一起报）。本轮采集 error（WinError 10054 / 1.8s）：
        体检探针同轮 ok（9 entries / 2.8s），镜像对照实验显示 `cdn.jsdelivr.net` **间歇可用（好窗口 6/8、坏窗口 0/8）**，
        且 `raw`/`gcore`/`fastly` 三个镜像同批 0/8 → 判**镜像可用性波动（链路层 TLS 重置）**，非渠道腐化。
@@ -577,7 +582,10 @@ content_gate:
        不改配置。5/7 维持，`project_url` 2 条缺口待下轮好窗口自然收。
        2026-10-27 轮：体检 ok（9 entries / 4.0s）+ **采集也 ok（17 entries / 7 条 / new 0 chg 1）** → 好窗口，第 5 次证实"窗口轮转"；
        累积型名录无时间窗口 ⇒ 本轮 body 2 + project_url 2 缺口仍在队列（坏窗口遗留），待好窗口自然收。
-       可用率 4/7 = 57%（n=7 小样本，irrelevant 3 / resource 1）}
+       可用率 4/7 = 57%（n=7 小样本，irrelevant 3 / resource 1）。
+       2026-10-28 轮：体检 ok（9 entries / 6.3s）+ 采集 ok（17 entries / 7 条 / new 0 chg 2）→ 好窗口第 6 次；
+       丢弃 10/17 = 59%（Indie Hacker / Failory / Starter Story / 利器 等 newsletter 与名录，政策命中无误杀）；
+       可用 5/7 = 71%（irrelevant 2 / resource 1）；body 2 + project_url 2 缺口仍在队列（坏窗口遗留）}
 
 
 # ---------------- 后端可用性订正（实测，会被 kb_audit 复检） ----------------

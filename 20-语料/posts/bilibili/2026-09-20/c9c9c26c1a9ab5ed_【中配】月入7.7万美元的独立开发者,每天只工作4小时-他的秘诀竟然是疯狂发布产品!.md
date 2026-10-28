@@ -7,7 +7,7 @@ source_name: "B 站"
 url: "https://www.bilibili.com/video/BV1QVLp6dEMC"
 author: "EdgeAITech"
 published_at: "2026-05-21T06:31:00+08:00"
-captured_at: "2026-10-22T09:49:58+08:00"
+captured_at: "2026-10-28T09:48:14+08:00"
 lang: "zh"
 kind: "post"
 topic: 开发者工具
@@ -22,7 +22,7 @@ tags:
   - 具身智能
   - 深度工作
   - 大模型
-metrics: {"play": 43226, "danmaku": 39, "favorites": 2511}
+metrics: {"play": 43309, "danmaku": 39, "favorites": 2512}
 comments_count: 0
 comments_total: 0
 discovered_via: "bili:独立开发者 出海"
@@ -36,10 +36,10 @@ discovered_via: "bili:独立开发者 出海"
 > [!meta]- 语料信息（点开展开）
 > 来源：B 站（post）
 > 原帖：<https://www.bilibili.com/video/BV1QVLp6dEMC>
-> 指标：播放=43226 · 弹幕=39 · 收藏=2511
+> 指标：播放=43309 · 弹幕=39 · 收藏=2512
 > 作者：EdgeAITech　|　发布：2026-05-21T06:31:00+08:00
 > 项目链接：—
-> 采集：2026-10-22T09:49:58+08:00　|　id：`c9c9c26c1a9ab5ed`
+> 采集：2026-10-28T09:48:14+08:00　|　id：`c9c9c26c1a9ab5ed`
 
 ## 正文
 

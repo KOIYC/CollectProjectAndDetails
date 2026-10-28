@@ -7,7 +7,7 @@ source_name: "dev.to"
 url: "https://dev.to/georgekobaidze/promise-delivered-welcome-to-the-dev-hall-of-fame-65-authors-65-masterpieces-15fa"
 author: "Giorgi Kobaidze"
 published_at: "2026-10-18T10:55:38Z"
-captured_at: "2026-10-28T00:16:35+08:00"
+captured_at: "2026-10-28T09:56:20+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -20,9 +20,9 @@ tags:
   - discuss
   - showdev
   - writing
-metrics: {"reactions": 224, "comments": 125, "reading_time": 25}
+metrics: {"reactions": 226, "comments": 129, "reading_time": 25}
 comments_count: 128
-comments_total: 128
+comments_total: 129
 discovered_via: "devto:showdev"
 ---
 
@@ -34,10 +34,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/georgekobaidze/promise-delivered-welcome-to-the-dev-hall-of-fame-65-authors-65-masterpieces-15fa>
-> 指标：reactions=224 · 评论=125 · reading_time=25
+> 指标：reactions=226 · 评论=129 · reading_time=25
 > 作者：Giorgi Kobaidze　|　发布：2026-10-18T10:55:38Z
 > 项目链接：—
-> 采集：2026-10-28T00:16:35+08:00　|　id：`7473f2320a0c5efc`
+> 采集：2026-10-28T09:56:20+08:00　|　id：`7473f2320a0c5efc`
 
 ## 正文
 
@@ -641,7 +641,7 @@ And if you missed the first round, stay tuned, maybe there's a Vol. 2 coming. �
 - 🎥 [Watch my videos on YouTube](https://www.youtube.com/@Pilotronica)
 - 💬 [Let's Chat on Discord](https://discord.com/users/571315867426488330)
 
-## 评论（128/128）
+## 评论（128/129）
 
 > **Giorgi Kobaidze** · 2026-10-18T10:56:10Z　
 > 🚪🏛️ The Welcome Desk & Stories From the Trenches: @francistrdev @earlgreyhot1701d @hadil @westernal @alptekin @canro91 @technogamerz @dj29 @puneetkumar2010 @sameerqaiser17

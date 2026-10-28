@@ -1,0 +1,15 @@
+{
+  "at": "2026-10-28T09:51:46+08:00",
+  "kind": "corpus_rename",
+  "note": "条目改标题导致的语料页换名；旧页已清（git/raw 可回溯），链接已改写",
+  "renames": [
+    {
+      "from": "20-语料/posts/producthunt/2026-09-28/c70e9f4491128cb4_GPT-6-Sol-&-Luna.md",
+      "to": "20-语料/posts/producthunt/2026-09-28/c70e9f4491128cb4_GPT-6.1-Terra.md"
+    },
+    {
+      "from": "20-语料/posts/xiaohongshu/2026-09-21/7861ab65194de927_会做小程序的独立开发者-线上接单中.md",
+      "to": "20-语料/posts/xiaohongshu/2026-09-21/7861ab65194de927_改名背后-一个独立开发者,和财务打工人的.md"
+    }
+  ]
+}

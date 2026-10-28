@@ -2,28 +2,28 @@
 type: "project"
 title: "Zagitta/gpu-unlock"
 project_url: "https://github.com/Zagitta/gpu-unlock"
-first_seen: "2026-10-27T23:49:00+08:00"
+first_seen: "2026-10-28T09:43:17+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - C
-  - created:>2026-10-13
+  - created:>2026-10-14
 lang: "en"
 ---
 
 # Zagitta/gpu-unlock
 
 > [!info] 一句话导读
-> Unlock FP/BF16 instruction issue rate on consumer Nvidia 30 series cards to their professional equivalents
+> ![gpu-unlock: full-speed tensor cores for GeForce RTX](assets/banner.svg)
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/Zagitta/gpu-unlock>
-> 首次收录：2026-10-27T23:49:00+08:00
+> 首次收录：2026-10-28T09:43:17+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：C, created:>2026-10-13
-> 最新指标：stars=10903 · forks=1075 · open_issues=195
+> 标签：C, created:>2026-10-14
+> 最新指标：stars=11395 · forks=1117 · open_issues=78
 
 ## 观测历史
 
@@ -33,7 +33,8 @@ lang: "en"
 | 2026-10-26T00:21:51+08:00 | GitHub 新星仓库 | stars=5647 · forks=603 · open_issues=100 | [[20-语料/posts/github_new/2026-10-25/8acda1e9f09f4448_Zagitta-gpu-unlock]] |
 | 2026-10-26T09:44:46+08:00 | GitHub 新星仓库 | stars=6875 · forks=715 · open_issues=123 | [[20-语料/posts/github_new/2026-10-25/8acda1e9f09f4448_Zagitta-gpu-unlock]] |
 | 2026-10-27T23:49:00+08:00 | GitHub 新星仓库 | stars=10903 · forks=1075 · open_issues=195 | [[20-语料/posts/github_new/2026-10-25/8acda1e9f09f4448_Zagitta-gpu-unlock]] |
+| 2026-10-28T09:43:17+08:00 | GitHub 新星仓库 | stars=11395 · forks=1117 · open_issues=78 | [[20-语料/posts/github_new/2026-10-25/8acda1e9f09f4448_Zagitta-gpu-unlock]] |
 
 ## 摘要正文
 
-# GPU unlock 1.1.0  Unlock FP/BF16 instruction issue rate on consumer Nvidia 30 series cards to their professional equivalents  This Linux kernel module combines the cmpunlocker's V67/PLM technique with the pre-driver timing of the UEFI approach. It runs the unlock, writes the speed selectors (SS0 `0x88888888`, which selects the full BF16 rate, and the 4-bit SS1 `0x8` IMLA4) and performs FLR before the unmodified NVIDIA driver binds the card. It is neither a UEFI application nor a patched NVIDIA driver.  The benefit of this early kmod driver is that it does not require manual patching each time nvidia releases a new driver version.  The effect of this unlock is that it doubles the instruction issuing speed of FP/BF16 FMA into FP32 operations on GA102, GA103, GA104 and GA106 cards.  [3090 Ti dense 8192³ GEMM at 450 W, five-sample medians with FP32 accumulation](https://github.com/Zagitta/gpu-unlock/issues/1#issue-5905622687):  | Input | Before       | After         | | ----- | ------------ | ------------- | | FP16  | 87.46 TFLOPS | 118.39 TFLOPS | | BF16  | 87.50 TFLOPS | 157.41 TFLOPS | | TF32  | 42.58 TFLOPS | 82.61 TFLOPS  |  ## How to install  First run:  ```sh git clone https:/…
+![gpu-unlock: full-speed tensor cores for GeForce RTX](assets/banner.svg)  ### Your GeForce runs AI at half speed. This fixes it.  ![Version](https://img.shields.io/badge/version-2.0.0-76b900)![RTX 20 | 30 | 40](https://img.shields.io/badge/GeForce-RTX%2020%20%7C%2030%20%7C%2040-76b900?logo=nvidia&logoColor=white)![Linux](https://img.shields.io/badge/platform-Linux-informational?logo=linux&logoColor=white)![License GPL-2.0](https://img.shields.io/badge/license-GPL--2.0-blue)![Stars](https://img.shields.io/github/stars/Zagitta/gpu-unlock?style=flat&color=yellow)  **Up to 2× FP16 / BF16 / TF32 tensor throughput** · **+25–55% LLM prefill** · **+25–50% fine-tuning** · **+30–55% image generation**  [Supported GPUs](#supported-gpus) · [Benchmarks](#what-you-get) · [Install](#how-to-install) · [FAQ](#faq) · [Support](#support-me)  ---  NVIDIA ships GeForce cards with their tensor cores capped to **half speed** for FP16, BF16 and TF32 math with FP32 accumulation, which is what nearly all AI training and unquantized inference uses. The same silicon sold as an RTX A-series or professional card runs at full rate. `gpu_unlock` removes that cap at boot, before the stock NVIDIA driver loads. No …

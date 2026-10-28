@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-28T00:43:18+08:00",
+ "checked_at": "2026-10-28T09:38:38+08:00",
  "channels": [
   {
    "channel_id": "hn_show",
@@ -10,16 +10,16 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 2.0,
-   "probe_at": "2026-10-28T00:40:30+08:00",
+   "elapsed_s": 6.9,
+   "probe_at": "2026-10-28T09:34:03+08:00",
    "sample": [
     {
-     "title": "Show HN: AperFolio – a portfolio for every camera and lens you own, from EXIF",
-     "url": "https://news.ycombinator.com/item?id=50261557"
+     "title": "Show HN: VelaTrace KiCad plugin: Catch PCB mistakes before you order the board",
+     "url": "https://news.ycombinator.com/item?id=50267795"
     },
     {
-     "title": "Show HN: Freightfloor. Have 3 minutes? Drive a forklift vs. AI",
-     "url": "https://news.ycombinator.com/item?id=50261492"
+     "title": "Show HN: Guess what frontier LLMs do in a repeated prisoner's dilemma",
+     "url": "https://news.ycombinator.com/item?id=50267680"
     }
    ]
   },
@@ -29,12 +29,21 @@
    "adapter": "reddit_arctic",
    "auth": "none",
    "group": "海外社区",
-   "status": "empty",
-   "count": 0,
-   "message": "0 posts; SideProject: 500: Internal Server Error; indiehackers: 500: Internal Server Error; microsaas: 500: I",
-   "elapsed_s": 33.0,
-   "probe_at": "2026-10-28T00:41:03+08:00",
-   "sample": []
+   "status": "ok",
+   "count": 3,
+   "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
+   "elapsed_s": 16.8,
+   "probe_at": "2026-10-28T09:34:20+08:00",
+   "sample": [
+    {
+     "title": "I made this boomer shooter where you can blow everything (and everyone) to piece",
+     "url": "https://www.reddit.com/r/IndieDev/comments/1x8p2xu/i_made_this_boomer_shooter_where_you_can_blow/"
+    },
+    {
+     "title": "My Remote Access Dashboard",
+     "url": "https://www.reddit.com/r/selfhosted/comments/1x8eyre/my_remote_access_dashboard/"
+    }
+   ]
   },
   {
    "channel_id": "github_new",
@@ -45,8 +54,8 @@
    "status": "ok",
    "count": 3,
    "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 2.2,
-   "probe_at": "2026-10-28T00:41:05+08:00",
+   "elapsed_s": 1.5,
+   "probe_at": "2026-10-28T09:34:21+08:00",
    "sample": [
     {
      "title": "Gathin23/cleanyourtv",
@@ -67,16 +76,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 startups · 发布日 3/3",
-   "elapsed_s": 5.7,
-   "probe_at": "2026-10-28T00:41:11+08:00",
+   "elapsed_s": 6.2,
+   "probe_at": "2026-10-28T09:34:27+08:00",
    "sample": [
     {
-     "title": "Avantagpt",
-     "url": "https://betalist.com/startups/avantagpt"
+     "title": "Ascend",
+     "url": "https://betalist.com/startups/ascend"
     },
     {
-     "title": "Clipseek",
-     "url": "https://betalist.com/startups/clipseek"
+     "title": "Fastsocial Instagram Data Api",
+     "url": "https://betalist.com/startups/fastsocial-instagram-data-api"
     }
    ]
   },
@@ -89,8 +98,8 @@
    "status": "ok",
    "count": 3,
    "message": "23 products",
-   "elapsed_s": 7.6,
-   "probe_at": "2026-10-28T00:41:18+08:00",
+   "elapsed_s": 7.3,
+   "probe_at": "2026-10-28T09:34:35+08:00",
    "sample": [
     {
      "title": "Launchon It",
@@ -109,18 +118,18 @@
    "auth": "none",
    "group": "海外社区",
    "status": "ok",
-   "count": 2,
-   "message": "2 articles",
-   "elapsed_s": 23.5,
-   "probe_at": "2026-10-28T00:41:42+08:00",
+   "count": 3,
+   "message": "3 articles",
+   "elapsed_s": 20.0,
+   "probe_at": "2026-10-28T09:34:55+08:00",
    "sample": [
     {
      "title": "Promise Delivered: Welcome to the DEV Hall of Fame (65 Authors, 65 Masterpieces)",
      "url": "https://dev.to/georgekobaidze/promise-delivered-welcome-to-the-dev-hall-of-fame-65-authors-65-masterpieces-15fa"
     },
     {
-     "title": "I Vibe-Coded My Way Out of Angular Upgrades",
-     "url": "https://dev.to/gramli/i-vibe-coded-my-way-out-of-angular-upgrades-4fkh"
+     "title": "Your DEV posts have a beautiful new share card ✨",
+     "url": "https://dev.to/devteam/your-dev-posts-have-a-beautiful-new-share-card-4be8"
     }
    ]
   },
@@ -133,16 +142,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 entries",
-   "elapsed_s": 1.3,
-   "probe_at": "2026-10-28T00:41:43+08:00",
+   "elapsed_s": 2.1,
+   "probe_at": "2026-10-28T09:34:57+08:00",
    "sample": [
     {
-     "title": "Revix AI",
-     "url": "https://www.producthunt.com/products/revix-ai-2"
+     "title": "Off Grid AI",
+     "url": "https://www.producthunt.com/products/off-grid-ai"
     },
     {
-     "title": "Coachare",
-     "url": "https://www.producthunt.com/products/coachare"
+     "title": "NuPlay",
+     "url": "https://www.producthunt.com/products/nuplay"
     }
    ]
   },
@@ -155,16 +164,16 @@
    "status": "ok",
    "count": 3,
    "message": "20 topics",
-   "elapsed_s": 0.7,
-   "probe_at": "2026-10-28T00:41:44+08:00",
+   "elapsed_s": 0.6,
+   "probe_at": "2026-10-28T09:34:57+08:00",
    "sample": [
+    {
+     "title": "[开源] 记事喵 · TaskCat，微信随手记，待办随身行",
+     "url": "https://www.v2ex.com/t/1252398"
+    },
     {
      "title": "独立开发产品，你们做第一个产品时，怎么判断会有人买？",
      "url": "https://www.v2ex.com/t/1252383"
-    },
-    {
-     "title": "类 Fomo 社交应用项目，已获 BN 融资 招聘： Go 后端/DevOps Engineer/RN 工程师",
-     "url": "https://www.v2ex.com/t/1252375"
     }
    ]
   },
@@ -174,12 +183,21 @@
    "adapter": "bilibili",
    "auth": "none",
    "group": "中文社媒",
-   "status": "empty",
-   "count": 0,
-   "message": "0 videos",
-   "elapsed_s": 0.4,
-   "probe_at": "2026-10-28T00:41:44+08:00",
-   "sample": []
+   "status": "ok",
+   "count": 3,
+   "message": "7 videos",
+   "elapsed_s": 0.6,
+   "probe_at": "2026-10-28T09:34:58+08:00",
+   "sample": [
+    {
+     "title": "一分钱不花，完成独立产品从0上线！2026年独立开发者免费全家桶",
+     "url": "https://www.bilibili.com/video/BV1sFWA6VEgC"
+    },
+    {
+     "title": "【辞职做游戏，靠谱吗？】独立开发真的能赚钱！素质与独立游戏 如何拿捏程序员",
+     "url": "https://www.bilibili.com/video/BV1JQHV6hEdp"
+    }
+   ]
   },
   {
    "channel_id": "c1c7",
@@ -190,8 +208,8 @@
    "status": "ok",
    "count": 3,
    "message": "9 entries · 收录日 9",
-   "elapsed_s": 4.2,
-   "probe_at": "2026-10-28T00:41:49+08:00",
+   "elapsed_s": 6.3,
+   "probe_at": "2026-10-28T09:35:04+08:00",
    "sample": [
     {
      "title": "Indie Hacker",
@@ -212,8 +230,8 @@
    "status": "ok",
    "count": 3,
    "message": "8 results",
-   "elapsed_s": 7.8,
-   "probe_at": "2026-10-28T00:41:56+08:00",
+   "elapsed_s": 30.9,
+   "probe_at": "2026-10-28T09:35:35+08:00",
    "sample": [
     {
      "title": "\"Arctic Roll Launches Today on Steam - A Relaxing Tactical Roguelite Adventure f",
@@ -233,9 +251,9 @@
    "group": "海外社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 17s\nok: false\nerr",
-   "elapsed_s": 19.7,
-   "probe_at": "2026-10-28T00:42:16+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 20s\nok: false\nerr",
+   "elapsed_s": 74.1,
+   "probe_at": "2026-10-28T09:36:49+08:00",
    "sample": []
   },
   {
@@ -247,11 +265,11 @@
    "status": "ok",
    "count": 1,
    "message": "1 items（1 路查询）",
-   "elapsed_s": 30.4,
-   "probe_at": "2026-10-28T00:42:46+08:00",
+   "elapsed_s": 58.6,
+   "probe_at": "2026-10-28T09:37:48+08:00",
    "sample": [
     {
-     "title": "做了个贴在锁屏上的便签App",
+     "title": "改名背后：一个独立开发者，和财务打工人的",
      "url": ">-"
     }
    ]
@@ -265,18 +283,18 @@
    "declared": "unverified",
    "delta": false,
    "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 20.2,
-   "probe_at": "2026-10-28T00:43:09+08:00"
+   "elapsed_s": 20.1,
+   "probe_at": "2026-10-28T09:38:21+08:00"
   },
   {
    "backend": "arctic_shift",
    "use": "Reddit 取数",
-   "status": "unusable",
+   "status": "ok",
    "declared": "not_added",
    "delta": false,
-   "message": "HTTP 500 {\"data\":null,\"error\":\"Internal server error\"}",
-   "elapsed_s": 1.1,
-   "probe_at": "2026-10-28T00:43:11+08:00"
+   "message": "5 rows",
+   "elapsed_s": 1.4,
+   "probe_at": "2026-10-28T09:38:22+08:00"
   },
   {
    "backend": "exa_web_fetch",
@@ -285,8 +303,8 @@
    "declared": "warn",
    "delta": false,
    "message": "1 url 返回正文",
-   "elapsed_s": 5.8,
-   "probe_at": "2026-10-28T00:43:16+08:00"
+   "elapsed_s": 14.2,
+   "probe_at": "2026-10-28T09:38:37+08:00"
   },
   {
    "backend": "github_gh",
@@ -294,15 +312,15 @@
    "status": "ok",
    "declared": "unverified",
    "delta": false,
-   "message": "remaining=4955",
-   "elapsed_s": 1.7,
-   "probe_at": "2026-10-28T00:43:18+08:00"
+   "message": "remaining=4958",
+   "elapsed_s": 1.5,
+   "probe_at": "2026-10-28T09:38:38+08:00"
   }
  ],
  "summary": {
   "total": 13,
-  "ok": 10,
-  "empty": 2,
+  "ok": 12,
+  "empty": 0,
   "error": 0,
   "auth": 1
  },
@@ -314,8 +332,8 @@
   },
   {
    "channel_id": "reddit",
-   "action": "watch",
-   "status": "empty"
+   "action": "keep",
+   "status": "ok"
   },
   {
    "channel_id": "github_new",
@@ -349,8 +367,8 @@
   },
   {
    "channel_id": "bilibili",
-   "action": "watch",
-   "status": "empty"
+   "action": "keep",
+   "status": "ok"
   },
   {
    "channel_id": "c1c7",
@@ -375,7 +393,10 @@
  ],
  "agent_reach": {
   "ok": true,
-  "checked_at": "2026-10-28T00:42:49+08:00"
+  "checked_at": "2026-10-28T09:38:01+08:00",
+  "version": "1.6.0",
+  "error": null,
+  "platforms": 14
  },
  "deltas": []
 }

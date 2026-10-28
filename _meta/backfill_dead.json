@@ -1,11 +1,11 @@
 {
  "schema": 2,
- "updated": "2026-10-28T00:21:06+08:00",
+ "updated": "2026-10-28T10:00:47+08:00",
  "note": "结构性无正文/取数不可得 —— 连试 2 轮后记账，不再消耗额度。字段：reason（人话）/ reason_code（可复核分类，见 REASON_CODES）/ tried[]（本轮实际试过的后端）/ http_status（direct 档拿到的状态码）",
  "by_reason": {
-  "no_backend": 76,
-  "unreachable": 57,
-  "media": 38,
+  "no_backend": 78,
+  "unreachable": 61,
+  "media": 41,
   "http_403": 6,
   "account": 3,
   "gh_miss": 1,
@@ -2736,26 +2736,140 @@
    "tried": []
   },
   "c4aeb9f4ce44fb4e": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: 600+ Web Assets. Scroll for free inspiration...",
    "url": "https://forevercomponents.com/",
    "source_id": "hn_show",
    "first_dead": "2026-10-28T00:21:06+08:00",
-   "last_try": "2026-10-28T00:21:06+08:00",
+   "last_try": "2026-10-28T10:00:47+08:00",
    "tried": [
     "direct_fetch"
    ],
    "http_status": 200,
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   },
   "86f91d6a763c7b11": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "How to start SaaS as a node.js backend developer?",
    "url": "https://www.reddit.com/r/SaaS/comments/1x8ami2/how_to_start_saas_as_a_nodejs_backend_developer/",
    "source_id": "reddit",
    "first_dead": "2026-10-28T00:21:06+08:00",
-   "last_try": "2026-10-28T00:21:06+08:00",
+   "last_try": "2026-10-28T10:00:47+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error"
+  },
+  "9dffce3b44db67f5": {
+   "attempts": 2,
+   "title": "iOS Indian pricing",
+   "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1x890v0/ios_indian_pricing/",
+   "source_id": "reddit",
+   "first_dead": "2026-10-28T00:21:06+08:00",
+   "last_try": "2026-10-28T10:00:47+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error"
+  },
+  "c2498a88ded0bc56": {
+   "attempts": 2,
+   "title": "I made this boomer shooter where you can blow everything (and everyone",
+   "url": "https://v.redd.it/bmxq0563a4wh1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "reason_code": "media",
+   "first_dead": "2026-10-28T09:55:02+08:00",
+   "last_try": "2026-10-28T09:55:02+08:00",
+   "http_status": null,
+   "tried": []
+  },
+  "036813e20e4a21bd": {
+   "attempts": 2,
+   "title": "Hamsteria Announcement Trailer",
+   "url": "https://v.redd.it/za79vmttp4wh1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "reason_code": "media",
+   "first_dead": "2026-10-28T09:55:02+08:00",
+   "last_try": "2026-10-28T09:55:02+08:00",
+   "http_status": null,
+   "tried": []
+  },
+  "b567516d037d8f6f": {
+   "attempts": 2,
+   "title": "90s Internet JRPG - WEBSCAPE",
+   "url": "https://v.redd.it/3jh4d105r4wh1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "reason_code": "media",
+   "first_dead": "2026-10-28T09:55:02+08:00",
+   "last_try": "2026-10-28T09:55:02+08:00",
+   "http_status": null,
+   "tried": []
+  },
+  "8edb1277b01690fc": {
+   "attempts": 1,
+   "title": "Show HN: Guess what frontier LLMs do in a repeated prisoner's dilemma",
+   "url": "https://thenunchiproject.com/game/ai-decides",
+   "source_id": "hn_show",
+   "first_dead": "2026-10-28T10:00:47+08:00",
+   "last_try": "2026-10-28T10:00:47+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "f393cbeabbec8102": {
+   "attempts": 1,
+   "title": "Show HN: Advaita Vedanta – Offline Books for Android",
+   "url": "https://play.google.com/store/apps/details?id=com.vedantalibrary.vedanta_library&hl=en_US",
+   "source_id": "hn_show",
+   "first_dead": "2026-10-28T10:00:47+08:00",
+   "last_try": "2026-10-28T10:00:47+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+  },
+  "d2e14ebdff2a93a1": {
+   "attempts": 1,
+   "title": "Show HN: Freightfloor. Have 3 minutes? Drive a forklift vs. AI",
+   "url": "https://freightfloor.com",
+   "source_id": "hn_show",
+   "first_dead": "2026-10-28T10:00:47+08:00",
+   "last_try": "2026-10-28T10:00:47+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "200:too_short",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+  },
+  "a5549706ec5fd9d3": {
+   "attempts": 1,
+   "title": "I revamped this boss’s design, what do you guys think?",
+   "url": "https://i.redd.it/bmoioqubq4wh1.gif",
+   "source_id": "reddit",
+   "first_dead": "2026-10-28T10:00:47+08:00",
+   "last_try": "2026-10-28T10:00:47+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
@@ -2764,13 +2878,13 @@
    "reason_code": "no_backend",
    "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error"
   },
-  "9dffce3b44db67f5": {
+  "ae29b9b3a39cc254": {
    "attempts": 1,
-   "title": "iOS Indian pricing",
-   "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1x890v0/ios_indian_pricing/",
+   "title": "My Remote Access Dashboard",
+   "url": "https://i.redd.it/g5fwt28042wh1.jpeg",
    "source_id": "reddit",
-   "first_dead": "2026-10-28T00:21:06+08:00",
-   "last_try": "2026-10-28T00:21:06+08:00",
+   "first_dead": "2026-10-28T10:00:47+08:00",
+   "last_try": "2026-10-28T10:00:47+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
@@ -2778,6 +2892,21 @@
    "http_status": "error",
    "reason_code": "no_backend",
    "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error"
+  },
+  "85a03e0530227a14": {
+   "attempts": 1,
+   "title": "Started learning to draw in the last 4 months. My drawing style is evo",
+   "url": "https://www.reddit.com/r/IndieDev/comments/1x8ppcb/started_learning_to_draw_in_the_last_4_months_my/",
+   "source_id": "reddit",
+   "first_dead": "2026-10-28T10:00:47+08:00",
+   "last_try": "2026-10-28T10:00:47+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
   }
  }
 }

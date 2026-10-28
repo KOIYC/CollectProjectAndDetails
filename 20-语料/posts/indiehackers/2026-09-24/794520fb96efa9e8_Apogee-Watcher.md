@@ -6,10 +6,10 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/apogee-watcher"
 project_url: "https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance"
-captured_at: "2026-10-26T09:45:11+08:00"
+captured_at: "2026-10-28T09:43:59+08:00"
 lang: "en"
 kind: "project"
-topic: "开发者工具"
+topic: "AI 工具/Agent"
 shard: "2026-09-24"
 tags:
   - 语料
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance>
-> 采集：2026-10-26T09:45:11+08:00　|　id：`794520fb96efa9e8`
+> 采集：2026-10-28T09:43:59+08:00　|　id：`794520fb96efa9e8`
 
 ## 正文
 
@@ -42,7 +42,7 @@ Apogee Watcher
  Solving web performance for agencies and solopreneurs
 Visit Website
 Apogee Watcher Solving web performance for agencies and solopreneurs
- Posts 30+
+ Posts 55+
  Revenue $0 / mo
  Website Twitter
 Brotli and Gzip Compression: Shrink Text Assets Without Breaking PageSpeed Scores
@@ -57,8 +57,37 @@ The CDN dashboard says compression is on. A host panel lists Brotli as enabled. 
  Double compression, wrong MIME allow-lists, and max Brotli quality on uncached HTML are the failure modes we still see on client portfolios. Compression sits beside Cache-Control and CDN rules; it is not a substitute for fixing an oversized LCP image.
  Read more: Brotli and gzip compression for PageSpeed
 Apogee Watcher
-2 Upvotes
+3 Upvotes
 1 Comment
+October 27, 2026
+ Critical CSS and Render-Blocking Resources: Faster First Paint Without Guessing
+Lighthouse keeps recommending "Eliminate render-blocking resources," and the usual fix is to inline more CSS or defer everything in sight. That can help First Contentful Paint. It can also ship a Flash of Unstyled Content, bloat the HTML, or leave Largest Contentful Paint worse than before.
+ Critical CSS is a narrower job: ship only the styles needed for the first viewport with the HTML response, then load the remainder without blocking that first paint. Chrome's Coverage tab shows what was used on load. Guessing from a theme "optimise" toggle is not the same work.
+ A practical pass looks like this:
+ Open Coverage on a representative mobile viewport and reload so the report captures the initial load.
+Treat green rules that style header, hero, primary text, and navigation as candidates for the critical set.
+Inline that small set in a  block, then async-load the full sheet with a noscript fallback.
+Keep LCP element styles in the critical set; clearing the opportunity while LCP stays amber loses the client.
+Re-run Lighthouse or PageSpeed Insights on the same URL and strategy, then schedule a follow-up after the next theme update.
+Media-query sheets for print or wide breakpoints can stay on a media attribute without a full extraction. That helps when conditional CSS inflates a shared bundle. It does not replace Coverage when the default sheet is still the blocker Lighthouse names.
+ If those lab checks need to run on a schedule across many client domains, we keep dated baselines in Apogee Watcher so the next plugin toggle does not quietly reverse the win.
+ Read more: critical CSS and render-blocking resources
+Apogee Watcher
+2 Upvotes
+2 Comments
+October 26, 2026
+ Site-Level Guidance: AI Actionable Insights Leave Beta
+Agencies already know how to read a single PageSpeed Insights run. The harder job is turning twenty URLs on one host into a fix order a developer can ship without reopening every Lighthouse tab.
+ Domain report Summary already gives a deterministic triage layer: attention-free score, top pages, and merged opportunities. What was still missing was an optional synthesis step that names shared problems and ranks what to change first across the property. That step is out of beta.
+ AI actionable insights now generate from a domain-report snapshot in Apogee Watcher: one site-level evaluation grounded in stored PageSpeed / Lighthouse evidence, not a one-off chat about a homepage run. Lighthouse stays the source of truth for scores and audits. The insight synthesises what the deterministic report already shows so an account lead can hand a developer an ordered checklist instead of a screenshot dump.
+ Generate from a domain report after scheduled or manual tests finish (Personal+ plans, one AI credit per generate).
+Skip generate when Summary already answers the client call; AI is optional briefing, not a replacement for budgets or alerts.
+Public share links show the insight only after someone with access has generated a completed one.
+The refreshed site view keeps tests, pages, discovery, and reports on one property record so the snapshot is less likely to be incomplete.
+Read more: site-level AI actionable insights leave beta
+Apogee Watcher
+4 Upvotes
+Comment
 October 25, 2026
  Watcher Affiliate Programme: 30% Commission for Agencies and Publishers
 If you already tell clients or readers to stop relying on a once-a-week PageSpeed Insights paste, you have probably also heard the follow-up: what should we actually run? That conversation helps them. Until now it did not give you a tracked commercial path when they chose Apogee Watcher.
@@ -72,7 +101,7 @@ The fit is strongest for agencies that already mention monitoring in proposals, 
  Read more: Watcher affiliate programme 30% commission for agencies
 Apogee Watcher
 5 Upvotes
-Comment
+2 Comments
 October 24, 2026
  Calibre vs Apogee Watcher: Continuous Monitoring for Agencies
 When an agency asks for a Calibre alternative, the brief usually mixes two jobs. One is continuous synthetic runs plus first-party RUM on a flagship origin the delivery team controls. The other is scheduled PageSpeed Insights coverage across a book of client hosts where you will never win consent for another tag.
@@ -160,37 +189,9 @@ You cannot manually submit a site into CrUX. Fix discoverability, grow real Chro
 Apogee Watcher
 1 Upvote
 Comment
-October 19, 2026
- Lazy Loading for LCP and CLS: When to Use loading="lazy" (and When Not To)
-A theme update lands on Tuesday. The speed plugin ticks "lazy load all images." By Thursday PageSpeed Insights names the hero as LCP and resource load delay jumps. The gallery below the fold is lighter. The first paint is not.
- Native loading="lazy" is a browser hint for offscreen media, not a global faster switch. When WordPress, Shopify, or a page builder injects it on every attachment, the LCP candidate often sits in that list. The browser may defer a fetch for an image that is already in the viewport. Lighthouse and PSI show the delay; CrUX follows when mobile traffic paints that same hero.
- What we use before anyone ships "lazy everything":
- Keep the confirmed LCP image eager (or explicit loading="eager" ) on mobile and desktop breakpoints.
-Lazy-load body photos, related grids, footer badges, and other scroll-first media.
-Reserve width and height or aspect-ratio on lazy and eager images alike so CLS does not rise when bytes arrive.
-Re-check money URLs in lab after the attribute change; watch LCP element identity and load delay, not only the score.
-Eager heroes and lazy galleries travel together. Write the exclusion list into the theme or retainer runbook so the next plugin install does not reverse it quietly.
- Read more: lazy loading for LCP and CLS: when to use loading="lazy"
-Apogee Watcher
-2 Upvotes
-Comment
-October 18, 2026
- WordPress Speculation and Prerender Plugins vs Core Web Vitals
-A retainer client installs a wordpress prerender plugin on Tuesday. By Thursday the account lead forwards a PageSpeed Insights screenshot: homepage LCP still amber, yet the demo walkthrough from article to related post feels instant in Chrome. Two clocks, one ticket.
- WordPress 6.8 already ships speculative loading as Core behaviour for most logged-out front ends: conservative prefetch around the start of a click. The Speculative Loading plugin (and third-party prefetch tools) often push toward prerender with moderate eagerness. That can warm the next navigation and help Interaction to Next Paint on the path the user actually takes. It does not fix a cold landing from search, and broad prerender on mega-menus can waste bandwidth while the current page still fights for main-thread time.
- What we use on agency audits before anyone flips another speed toggle:
- Name the owner: Core defaults, the Speculative Loading plugin, or a stack of hover-prefetch scripts. Overlap is common.
-Exclude cart, checkout, account, and GET action URLs before raising eagerness to prerender.
-Judge first-visit LCP and CLS on the entry template separately from next-page feel after speculation.
-Re-run the same lab profile on priority URLs after the change; watch TTFB and LCP, not only a green Instant Page demo.
-Speculation multiplies whatever the destination loads. It is not a substitute for fixing the LCP resource on the URL paid traffic actually hits.
- Read more: WordPress speculation rules and prerender plugins vs Core Web Vitals
-Apogee Watcher
-4 Upvotes
-Comment
 About
  Agencies managing many sites need automated Core Web Vitals monitoring, alerts, and client-ready reports. Not fragile Lighthouse CI, costs that spiral, or enterprise-only multi-tenant. Manual checks do not scale.
- People
+People
  Apogee Watcher Founder
 Stay informed as an indie hacker.
  Market insights that help you start and grow your business.
@@ -208,5 +209,5 @@ Databases
 
 - 项目页：[[10-项目/Apogee-Watcher_251434df]]
 - 渠道页：[[50-渠道/indiehackers]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/aova"
 project_url: "https://aova.app/?promo=IH"
-captured_at: "2026-10-27T23:49:41+08:00"
+captured_at: "2026-10-28T09:43:59+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://aova.app/?promo=IH>
-> 采集：2026-10-27T23:49:41+08:00　|　id：`9f8dcf3b1e95d399`
+> 采集：2026-10-28T09:43:59+08:00　|　id：`9f8dcf3b1e95d399`
 
 ## 正文
 
@@ -66,7 +66,7 @@ Hey IH 👋
  Try it on your own material (the link adds +500 bonus credits ): aova.app
 SenArkadiy
 3 Upvotes
-Comment
+2 Comments
 October 14, 2026
  We built an AI assistant for one expert's course library. People asked for their own, so we made it a platform
 Hey IH 👋

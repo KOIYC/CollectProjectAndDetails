@@ -8,7 +8,7 @@ url: "https://dev.to/puneetkumar2010/day-21-of-building-crowdwide-finally-time-t
 project_url: "https://github.com/DeveloperPuneet/Crowdwide"
 author: "Puneet Kumar Mishra"
 published_at: "2026-10-23T11:54:10Z"
-captured_at: "2026-10-28T00:18:42+08:00"
+captured_at: "2026-10-28T09:58:12+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -21,9 +21,9 @@ tags:
   - buildinpublic
   - opensource
   - discuss
-metrics: {"reactions": 30, "comments": 192, "reading_time": 2}
-comments_count: 129
-comments_total: 192
+metrics: {"reactions": 35, "comments": 227, "reading_time": 2}
+comments_count: 130
+comments_total: 227
 discovered_via: "devto:buildinpublic"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:buildinpublic"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/puneetkumar2010/day-21-of-building-crowdwide-finally-time-to-polish-the-ui-1696>
-> 指标：reactions=30 · 评论=192 · reading_time=2
+> 指标：reactions=35 · 评论=227 · reading_time=2
 > 作者：Puneet Kumar Mishra　|　发布：2026-10-23T11:54:10Z
 > 项目链接：<https://github.com/DeveloperPuneet/Crowdwide>
-> 采集：2026-10-28T00:18:42+08:00　|　id：`5066fb3887dfa6e8`
+> 采集：2026-10-28T09:58:12+08:00　|　id：`5066fb3887dfa6e8`
 
 ## 正文
 
@@ -114,7 +114,7 @@ THAT'S IT!!
 
 See you in the next update! 👋
 
-## 评论（129/192）
+## 评论（130/227）
 
 > **EffessDev** · 2026-10-23T12:00:29Z　
 > @akhourianmolkumar @koda2026 and @technogamerz joined, so me too joined! 🥳
@@ -822,6 +822,11 @@ See you in the next update! 👋
 > Exactly and i just realized that i made UI little bit complex...
 >
 > Providing too many option in front just after login... I need to fix that too 🙄
+
+---
+
+> **DigiNest** · 2026-10-27T18:30:09Z　
+> Managing your weight is a personal journey. Between busy schedules, changing eating habits, and limited time for exercise, maintaining a healthy routine can sometimes feel challenging. MetaboSana represents a wellness-focused approach to nutrition, daily habits, and overall well-being. For people looking to manage their weight, building realistic goals and sustainable routines is an important place to start.
 
 ## 关联链接
 

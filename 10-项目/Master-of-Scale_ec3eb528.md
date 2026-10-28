@@ -2,7 +2,7 @@
 type: "project"
 title: "Master of Scale"
 project_url: "https://mastersofscale.com/"
-first_seen: "2026-10-25T23:35:51+08:00"
+first_seen: "2026-10-28T09:48:19+08:00"
 sources:
   - c1c7
 tags:
@@ -19,7 +19,7 @@ lang: "zh"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://mastersofscale.com/>
-> 首次收录：2026-10-25T23:35:51+08:00
+> 首次收录：2026-10-28T09:48:19+08:00
 > 来源渠道：1c7 中文独立开发者名录
 > 标签：英文
 > 最新指标：—
@@ -49,7 +49,8 @@ lang: "zh"
 | 2026-10-10T10:03:47+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
 | 2026-10-17T13:39:26+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
 | 2026-10-25T23:35:51+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
+| 2026-10-28T09:48:19+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
 
 ## 摘要正文
 
-Masters of Scale – Home  ## Where AI goes from here   OpenAI’s Sarah Friar  Reid Hoffman sits down with OpenAI CFO Sarah Friar to understand the precipice of the moment we are in and the decisions that could shape what comes next for each of us.  Meet the latest speakers joining the Summit 2026 lineup. These leaders from OpenAI, Google, Suno, and more are defining what comes next for business, creativity, and tech.  Hipcamp’s Alyssa Ravasio  Creative Planning’s Jamie Battmer KCRW’s Jennifer Ferro  MTV’s Tom Freston  Engine’s Elia Wallen The Hershey Company’s Kirk Tanner  Halloween meets GLP-1s   Don't be boring: KCRW's Jennifer Ferro on building a brand people love  Don't be boring: KCRW's Jennifer Ferro on building a brand people love   Iconic Leaders. Priceless Advice.   The sometimes messy, always inspiring stories of how great leaders scale businesses to impressive heights — and the insights you’ll need to join them at the top.  # V2EX › 分享创造
+Masters of Scale – Home  ## Eric Schmidt scores US vs. China   Relativity Space’s Eric Schmidt  The AI race between the U.S. and China is the defining competition of our age. Live from Masters of Scale Summit, Eric Schmidt gives his most unvarnished assessment yet.  Meet the latest speakers joining the Summit 2026 lineup. These leaders from OpenAI, Google, Suno, and more are defining what comes next for business, creativity, and tech.  Hipcamp’s Alyssa Ravasio   OpenAI’s Tibo Sottiaux doesn’t want humans to be an ‘afterthought’   Iconic Leaders. Priceless Advice.   The sometimes messy, always inspiring stories of how great leaders scale businesses to impressive heights — and the insights you’ll need to join them at the top.  # V2EX › 分享创造

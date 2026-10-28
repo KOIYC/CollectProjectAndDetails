@@ -8,7 +8,7 @@ url: "https://github.com/Gathin23/cleanyourtv"
 project_url: "https://cleanyour.tv/"
 author: "Gathin23"
 published_at: "2026-10-17T08:12:35Z"
-captured_at: "2026-10-27T23:49:00+08:00"
+captured_at: "2026-10-28T09:43:17+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - Python
-  - created:>2026-10-13
-metrics: {"stars": 41009, "forks": 4967, "open_issues": 199}
+  - created:>2026-10-14
+metrics: {"stars": 41941, "forks": 5103, "open_issues": 217}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/Gathin23/cleanyourtv>
-> 指标：stars=41009 · forks=4967 · open_issues=199
+> 指标：stars=41941 · forks=5103 · open_issues=217
 > 作者：Gathin23　|　发布：2026-10-17T08:12:35Z
 > 项目链接：<https://cleanyour.tv/>
-> 采集：2026-10-27T23:49:00+08:00　|　id：`ab0e470b36e49b22`
+> 采集：2026-10-28T09:43:17+08:00　|　id：`ab0e470b36e49b22`
 
 ## 正文
 
