@@ -2,7 +2,7 @@
 type: "project"
 title: "No $10k MRR story. I built software for a really boring problem instead."
 project_url: "https://sopai.systems/"
-first_seen: "2026-10-28T10:00:18+08:00"
+first_seen: "2026-10-29T21:05:12+08:00"
 sources:
   - reddit
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://sopai.systems/>
-> 首次收录：2026-10-28T10:00:18+08:00
+> 首次收录：2026-10-29T21:05:12+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/microsaas
 > 最新指标：得分=3 · 评论=9 · 赞踩比=0.72
@@ -58,6 +58,7 @@ lang: "en"
 | 2026-10-26T09:54:56+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=9 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-21/87055c22b052dd55_No-$10k-MRR-story.-I-built-software-for-a-really-b]] |
 | 2026-10-28T00:20:38+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=9 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-21/87055c22b052dd55_No-$10k-MRR-story.-I-built-software-for-a-really-b]] |
 | 2026-10-28T10:00:18+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=9 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-21/87055c22b052dd55_No-$10k-MRR-story.-I-built-software-for-a-really-b]] |
+| 2026-10-29T21:05:12+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=9 · 赞踩比=0.72 | [[20-语料/posts/reddit/2026-09-21/87055c22b052dd55_No-$10k-MRR-story.-I-built-software-for-a-really-b]] |
 
 ## 摘要正文
 

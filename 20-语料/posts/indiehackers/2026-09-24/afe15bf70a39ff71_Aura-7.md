@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/aura-7"
 project_url: "https://auraplusplus.com/"
-captured_at: "2026-10-28T09:43:59+08:00"
+captured_at: "2026-10-29T20:46:10+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://auraplusplus.com/>
-> 采集：2026-10-28T09:43:59+08:00　|　id：`afe15bf70a39ff71`
+> 采集：2026-10-29T20:46:10+08:00　|　id：`afe15bf70a39ff71`
 
 ## 正文
 
@@ -42,9 +42,34 @@ Aura++
  Launch your project and increase online aura
 Visit Website
 Aura++ Launch your project and increase online aura
- Posts 42+
+ Posts 39+
  Revenue $1K / mo
  Website Twitter
+October 29, 2026
+ Five things I check on a launch directory before I pay for its premium slot
+Disclosure first, since it matters for this one: I run a few launch sites myself, and they sell paid slots too. So I've seen this from both sides, and I still think most founders buy the upgrade too fast. It's usually $15 to $50, it's late at night before a launch, and the button says "skip the queue". Before I pay any directory now, mine included, I check five things.
+ 1. The rel attribute on a live paid listing. Not the pricing page, not the FAQ. Open someone else's premium listing, view source, find the link to their site. If it says nofollow or sponsored, that's the deal, whatever the marketing copy says. Our own dofollow link checker does this in a few seconds if you don't feel like reading HTML.
+ 2. Whether the listing page is even indexed. Search site: plus the directory domain plus a product name from last month. A dofollow link on a page Google never picked up doesn't do much.
+ 3. What "featured" actually means and for how long. One day on the home page and seven days in a sidebar are very different purchases. If they don't say, ask. If they won't answer, that's an answer.
+ 4. Whether last week's paid launches got any comments. Upvotes are easy to inflate. Real comments from people who aren't the maker are harder, and they tell you if anyone reads the site.
+ 5. What I'm actually buying: a date, a link, or eyeballs. Most of the time I'm paying to pick my launch date and skip a queue. That's fine! I just want to know that's what it is before I expect traffic from it.
+ None of this takes more than ten minutes, and it's the difference between buying a backlink and buying a nicer badge. If you want a wider list of where to launch when you're bootstrapped, I keep notes on launch platforms that make sense for bootstrapped founders .
+ What's on your list before you pay a directory? Have you ever bought a premium slot and found out it was nofollow later?
+Praneet Brar
+6 Upvotes
+3 Comments
+October 28, 2026
+ Two pages on Hunt0's own site disagree about its backlinks. Read both before you count on one
+I was writing a how-it-works guide for Hunt0 this week and ended up reading their pages way more carefully than I normally would. Two of them don't agree with each other.
+ On the submit form, Badge and Premium links are described as dofollow. On the pricing FAQ, Premium links are described as sponsored and badge links as nofollow. Same site, checked in October 2026, two different answers to the one question a lot of founders care about when they pick a launch directory.
+ Then there's the free queue. The home page, the pricing card and the submit form all say 70 free slots per week. The pricing FAQ says up to 80. Smaller deal, but it tells you the FAQ and the rest of the site probably weren't updated at the same time.
+ I don't think this is anyone being sneaky. My guess is the usual thing: a policy changed, one page got updated, another one didn't. It happens on small sites all the time. But if you're picking a launch platform partly for the backlink, it matters which page is the current one, and from the outside you can't tell.
+ So when we wrote the guide we didn't pick a side. It quotes both versions, says where each one comes from, and anything Hunt0 doesn't publish is just written as "not stated". It also covers the UTC launch week, the free queue, the one-time $16.90 Premium Launch for picking a date and skipping the queue, who can submit and how ranking works as far as they say. If you're thinking about launching there, the guide to how Hunt0 works, with both link policies quoted side by side is here.
+ The bigger takeaway for me isn't about Hunt0 at all. Before I count on a backlink from any launch directory now, I read two pages, not one: the FAQ and the submit form. If they disagree, I assume the less generous one until the live link on my listing says otherwise. A directory's marketing copy is a promise, the rel attribute on the actual link is the fact.
+ Has anyone else found a launch site whose own pages contradict each other? Which page turned out to be right?
+Praneet Brar
+1 Upvote
+Comment
 October 27, 2026
  14 of our articles were telling Google they were copies of the homepage, because of one line I never wrote
 Last week I found a bug that had been sitting quietly on three of our launch sites, EarlyHunt, MakerHunt and SideHunt. Every article under /posts had a canonical tag pointing at the homepage. So 14 articles were basically telling Google "I'm just a copy of the homepage, you can ignore me".
@@ -58,8 +83,8 @@ If you want to check one of your own pages, the free canonical tag checker on Au
  My rule now: any time I add a layout or template that sets metadata, I open one deep page, not the homepage, and check the canonical before I call it done.
  Have you ever checked what canonical your blog posts actually point to? Did anything surprise you?
 Praneet Brar
-7 Upvotes
-9 Comments
+8 Upvotes
+10 Comments
 October 26, 2026
  Four rules I wrote down before the second customer asked to pause instead of cancel
 A pause request is one of the nicer support emails you can get. The person isn't leaving. They just don't want to pay for months they won't use. Think a tool for wedding photographers, and in November someone writes "season's done, can I pause till March, I don't want to lose my setup".
@@ -180,39 +205,6 @@ What's left in the marketing bucket is kind of boring. Replying to people in thr
 Praneet Brar
 13 Upvotes
 6 Comments
-October 19, 2026
- My dashboard's empty state was the first screen every new user saw, and it said nothing
-For a long time the first thing a new user saw after signing up was a grey box that said "No projects yet" and a button that said "New project". That's it. I'd spent weeks on the landing page and maybe ten minutes on the screen people actually land on.
- The problem is that empty screen is where trust gets decided. They just gave you an email, maybe a card. Now they're alone with a blank page and they have to guess what "done" looks like. A lot of people don't guess. They close the tab and tell themselves they'll come back, and they don't.
- So I rewrote it, and these are the four things I check now on any empty state before I call onboarding finished:
- Show a finished example, not a blank. A greyed out sample of what a real filled-in project looks like, clearly labeled as an example. People copy what they can see much faster than they follow instructions.
-One action, in their words. Not "Create resource". Whatever the user would say out loud, like "Add your first product". If there are three buttons on an empty screen, there's really zero.
-Say how long it takes. "Takes about 2 minutes" next to the button. Sounds silly, but an unknown amount of work is exactly what makes people postpone it.
-Tell them what you'll do with their stuff. If the first step asks for a URL, an API key or a file, one plain line about what happens to it. Nobody reads the privacy page at this moment, but they do read one sentence right next to the input.
-What I don't put there anymore: a product tour with seven tooltips, a welcome video, a "complete your profile" bar at 10%. All of those are me talking. The empty state should be the user doing the first thing.
- The way I test it is boring. I make a fresh account in a private window, don't read anything I wrote, and see if I know what to do in five seconds. Then I ask one person who has never seen the product to do the same while I keep my mouth shut. The second test is the one that hurts, and the useful one.
- I wrote longer about the emails side of this, the ones that go out after the first screen, in this guide on onboarding emails that get people to a first win . But honestly fix the empty screen first. An email can't rescue someone who already decided your app is confusing.
- Curious what yours shows right now. If you open your own app in a private window today, what's the first thing a stranger sees?
-Praneet Brar
-5 Upvotes
-15 Comments
-October 18, 2026
- Two weeks after a launch I ask my three happiest users for a review, on one site only
-Launch week gives you a bunch of nice comments that nobody outside that thread will ever see. Two weeks later the comments are buried and the people who wrote them are just... users. So around day 14 I do one small thing, and I keep it small on purpose.
- I pick three people. Not the loudest ones from launch day, the ones who actually came back. Logged in more than once in week two, used the thing for real work, maybe replied to an email. If I can't find three people like that, that's my answer, and I go fix onboarding instead of collecting reviews.
- Then I pick one review site. Just one. For a B2B tool that's usually whichever one buyers in that niche already check, G2 or Capterra most of the time. Sending three people to five different sites gets you one review on each and a profile that looks dead everywhere. Three reviews in one place at least looks like a product somebody uses.
- The ask is a plain email, written by me, sent one at a time:
- one line on what they did with the product (so they know it's not a blast)
-the direct link to the review form, not the profile page
-"two or three sentences is plenty, say what you used it for"
-no discount, no gift card, nothing in exchange. The review sites have rules about incentives and honestly a bribed review reads like one anyway
-If someone says no or ignores it, that's fine, I don't follow up more than once. And if one of them writes back with a complaint instead of a review, that's the more useful email of the two.
- Why day 14 and not launch day: on launch day people are reacting to the idea. Two weeks in they're reacting to the product, and that's what a buyer reading reviews wants to hear about.
- The Aura++ Studio has a longer write-up on getting your first G2 and Capterra reviews if you want the setup side (claiming the profile, categories, all that).
- Curious how others do this. Do you ask right after launch while people are excited, or wait until they've actually used it for a while?
-Praneet Brar
-4 Upvotes
-3 Comments
 About
  I’m building Aura++ because I kept seeing great products struggle to get noticed. Launching is easier than ever, but getting real visibility is still incredibly hard, especially for early-stage founders without an audien
 People

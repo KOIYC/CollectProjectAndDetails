@@ -5,7 +5,7 @@ title: "Taxx"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/taxx"
-captured_at: "2026-10-27T23:49:41+08:00"
+captured_at: "2026-10-29T20:46:10+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-10-27T23:49:41+08:00　|　id：`abf09f09bea2efe4`
+> 采集：2026-10-29T20:46:10+08:00　|　id：`abf09f09bea2efe4`
 
 ## 正文
 
@@ -42,20 +42,19 @@ TAXX
 Visit Website
 TAXX Luxembourgish income tax statement made easy
  Posts 2
- Revenue $134K / mo
+ Revenue $137K / mo
  Website
 September 15, 2020
  Integrated into our bigger venture
+Votre déclaration d'impôt en ligne au Luxembourg
  We made the leap and went from side-project to all-in. AccountTech has been created as the parent-company for TAXX.lu and will enable us to reach new audiences and develop different solutions in the same problem space.
 We also brought on some investors and went from 3 people running it part-time to 5,5 people running it full-time.
-Votre déclaration d'impôt en ligne au Luxembourg
- taxx.lu
 Sven Clement
 4 Upvotes
 Comment
 October 1, 2017
  Decision to move ahead
- We decided to move ahead with our initial ideas, having experienced yet another year of gruesome tax declarations for the three founders, we knew we had to do something.
+We decided to move ahead with our initial ideas, having experienced yet another year of gruesome tax declarations for the three founders, we knew we had to do something.
 So we started coding the first iteration for internal use and see if our assumptions were at least somehow right.
 Sven Clement
 1 Upvote

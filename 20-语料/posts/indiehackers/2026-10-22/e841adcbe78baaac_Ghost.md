@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/ghost"
 project_url: "https://blog.ghost.org/2-0"
-captured_at: "2026-10-28T09:43:59+08:00"
+captured_at: "2026-10-29T20:46:10+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://blog.ghost.org/2-0>
-> 采集：2026-10-28T09:43:59+08:00　|　id：`e841adcbe78baaac`
+> 采集：2026-10-29T20:46:10+08:00　|　id：`e841adcbe78baaac`
 
 ## 正文
 
@@ -43,10 +43,11 @@ Ghost
 Visit Website
 Ghost Indie subscription platform for creators
  Posts 5
- Revenue $892K / mo
+ Revenue $893K / mo
  Website Twitter Facebook
 May 23, 2022
  Ghost 5.0
+Ghost 5.0
  Hey IndieHackers 👋 It's been 9 years since the first version of Ghost launched on Kickstarter and today we're excited to launch the 5th major version of the platform.
 Around this time last year, we launched the first public version of Ghost with memberships and subscriptions built-in natively. Ever since then, we've been sprinting to keep up with demand as the creator economy has taken off at full-tilt.
 So, the major focus of this release has been expanding on that core foundation and delivering a set of features to help creators build successful indie businesses themselves.
@@ -61,45 +62,36 @@ Full changelog here:
 https://ghost.org/changelog/5/
 I also spent a bit of time in the post above talking about our product strategy as a self-funded indie company, which has certainly been pretty different to all our funded competitors. Back when we first started working on memberships in Ghost, we were a team of 5 with $36k MRR trying to figure out how to realise our dreams.
 Today Ghost is a team of 31 with $5M annual revenue. Still completely open source, still non-profit, still remote, still decentralised, still growing — and still 100% independent.
-Ghost 5.0
- The next generation of powerful technology for independent publishers.
- ghost.org
 John O'Nolan
 53 Upvotes
-11 Comments
+12 Comments
 October 22, 2019
  Ghost 3.0
+Ghost 3.0
  A new business model for publishing, a more powerful headless CMS and a refined publishing experience.
 Ghost is about 6 years old now, and this is the biggest release we've done since the original launch. The company is structured as an Indie Non-profit organisation, and everything we do is released as open source.
 3.0 is a big step in a new direction for us, enabling indie publishing businesses to be created with a really easy way to spin up a recurring revenue members website using stripe — and it's open source, so you own every part of it. This may come in handy for indie makers who are looking to launch an MVP with simple billing without having to build a whole platform, too :)
-Ghost 3.0
- A new business model for publishing, reimagined an improved, smaller, faster, headless CMS.
- ghost.org
 John O'Nolan
 82 Upvotes
 20 Comments
 August 21, 2018
+ Show IH: Ghost 2.0 Launch
 Show IH: Ghost 2.0 Launch
- https://blog.ghost.org/2-0/
- indiehackers.com
 John O'Nolan
 8 Upvotes
 Comment
 May 15, 2018
+ 5 years, $3M & no investors: Everything we learned building the #1 CMS on Github (AMA)
 5 years, $3M & no investors: Everything we learned building the #1 CMS on Github (AMA)
- https://blog.ghost.org/5/
- indiehackers.com
 John O'Nolan
 2 Upvotes
-Comment
+1 Comment
 February 23, 2017
  Indie Hackers Interview
 How John O'Nolan Grew His Publishing Platform to $750,000/year
- Hello! 👋🏻 &nbsp;My name is John O'Nolan, and I run a not-for-profit technology foundation which makes technology for journalists. Our main product is...
- indiehackers.com
 John S
 2 Upvotes
-Comment
+1 Comment
 People
  John O'Nolan Creator
 Stay informed as an indie hacker.
@@ -116,8 +108,6 @@ Databases
 
 ## 关联链接
 
-- https://blog.ghost.org/2-0/
-- https://blog.ghost.org/5/
 - https://ghost.org/changelog/5/
 
 ## 导航

@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-29T20:53:25+08:00",
+  "kind": "corpus_rename",
+  "note": "条目改标题导致的语料页换名；旧页已清（git/raw 可回溯），链接已改写",
+  "renames": [
+    {
+      "from": "20-语料/posts/producthunt/2026-09-20/7207d53392e77f45_Dictation-API-by-AssemblyAI.md",
+      "to": "20-语料/posts/producthunt/2026-09-20/7207d53392e77f45_AssemblyAI.md"
+    },
+    {
+      "from": "20-语料/posts/producthunt/2026-09-24/64e65a973935292c_Floot-MCP.md",
+      "to": "20-语料/posts/producthunt/2026-09-24/64e65a973935292c_Floot-in-ChatGPT.md"
+    },
+    {
+      "from": "20-语料/posts/producthunt/2026-10-25/ecfa65be2efa9c0c_Polylane-for-Cloudflare.md",
+      "to": "20-语料/posts/producthunt/2026-10-25/ecfa65be2efa9c0c_Polylane-for-ChatGPT.md"
+    },
+    {
+      "from": "20-语料/posts/xiaohongshu/2026-09-21/7861ab65194de927_改名背后-一个独立开发者,和财务打工人的.md",
+      "to": "20-语料/posts/xiaohongshu/2026-09-21/7861ab65194de927_独立开发app上架3个月日活突破4000!.md"
+    }
+  ]
+}

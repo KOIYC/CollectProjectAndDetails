@@ -6,7 +6,7 @@ source: "c1c7"
 source_name: "1c7 中文独立开发者名录"
 url: "https://mastersofscale.com"
 project_url: "https://mastersofscale.com/"
-captured_at: "2026-10-28T09:48:19+08:00"
+captured_at: "2026-10-29T20:50:45+08:00"
 lang: "zh"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "1c7:readme"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://mastersofscale.com/>
-> 采集：2026-10-28T09:48:19+08:00　|　id：`ec3eb5285a72cd71`
+> 采集：2026-10-29T20:50:45+08:00　|　id：`ec3eb5285a72cd71`
 
 ## 正文
 
@@ -44,15 +44,53 @@ Masters of Scale – Home
 
 The AI race between the U.S. and China is the defining competition of our age. Live from Masters of Scale Summit, Eric Schmidt gives his most unvarnished assessment yet.
 
-Meet the latest speakers joining the Summit 2026 lineup. These leaders from OpenAI, Google, Suno, and more are defining what comes next for business, creativity, and tech.
+OpenAI’s Sarah Friar
+
+ Rich Roll’s ‘crash course’ in entrepreneurship
+
+Rich Roll
+
+Rich Roll’s ‘crash course’ in entrepreneurship
+
+ Building a marketplace from scratch
 
 Hipcamp’s Alyssa Ravasio
 
- OpenAI’s Tibo Sottiaux doesn’t want humans to be an ‘afterthought’
+Building a marketplace from scratch
 
- Iconic Leaders. Priceless Advice.
+ Don't be boring
 
- The sometimes messy, always inspiring stories of how great leaders scale businesses to impressive heights — and the insights you’ll need to join them at the top.
+Creative Planning’s Jamie Battmer KCRW’s Jennifer Ferro
+
+Don't be boring
+
+ How to build a billion-dollar sports team
+
+Golden State Valkyries’s Jess Smith Creative Planning’s Jamie Battmer
+
+How to build a billion-dollar sports team
+
+ From high school dropout to CEO
+
+Autodesk’s Andrew Anagnost
+
+From high school dropout to CEO
+
+ How Barnes & Noble made a comeback
+
+Barnes & Noble’s James Daunt
+
+How Barnes & Noble made a comeback
+
+ Know which rules to break
+
+MTV’s Tom Freston
+
+Know which rules to break
+
+Media Executive Barbara Peng
+
+Journalist Kevin Roose
 
 # V2EX › 分享创造
 

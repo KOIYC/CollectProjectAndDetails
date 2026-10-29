@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/shugert"
 project_url: "https://storetwin.shugert.com.mx/"
-captured_at: "2026-10-27T23:49:41+08:00"
+captured_at: "2026-10-29T20:46:10+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://storetwin.shugert.com.mx/>
-> 采集：2026-10-27T23:49:41+08:00　|　id：`6e6b46fff7de489b`
+> 采集：2026-10-29T20:46:10+08:00　|　id：`6e6b46fff7de489b`
 
 ## 正文
 
@@ -43,7 +43,7 @@ Shugert
 Visit Website
 Shugert Shopify Select Partner for DTC brands doing $500K–$10M+
  Posts 3
- Revenue $134K / mo
+ Revenue $129K / mo
  Website
 September 18, 2026
  I built a visual twin of Shopify stores to find where customers get stuck

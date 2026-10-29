@@ -7,7 +7,7 @@ adapter: "hn_show"
 auth: "none"
 lang: "en"
 status: "ok"
-last_verified: "2026-10-28"
+last_verified: "2026-10-29"
 tags:
   - 渠道
   - 渠道/海外发布
@@ -19,7 +19,7 @@ params: {"tags": "show_hn", "min_points": 2}
 - **分组**：海外发布　|　**语言**：en　|　**认证**：none
 - **取数实现**：`hn_show`　|　**单次上限**：40
 - **补全类型**：comments
-- **当前状态**：`ok`（本次 40 条，91.8s）
+- **当前状态**：`ok`（本次 40 条，109.3s）
 - **口径备注**：algolia API 列表 + /items/<id> 取全量评论树（全量，mega 帖截断 800 条并标 truncated）
 - **解锁方式**：—
 
@@ -62,3 +62,4 @@ params: {"tags": "show_hn", "min_points": 2}
 | 2026-10-26T09:43:42+08:00 | ok | 40 | 68.8s | 40/40 hits |
 | 2026-10-27T23:47:53+08:00 | ok | 40 | 83.4s | 40/40 hits |
 | 2026-10-28T09:40:44+08:00 | ok | 40 | 91.8s | 40/40 hits |
+| 2026-10-29T20:43:39+08:00 | ok | 40 | 109.3s | 40/40 hits |

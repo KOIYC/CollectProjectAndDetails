@@ -1,10 +1,10 @@
 {
  "schema": 2,
- "updated": "2026-10-28T10:00:47+08:00",
+ "updated": "2026-10-29T21:05:37+08:00",
  "note": "结构性无正文/取数不可得 —— 连试 2 轮后记账，不再消耗额度。字段：reason（人话）/ reason_code（可复核分类，见 REASON_CODES）/ tried[]（本轮实际试过的后端）/ http_status（direct 档拿到的状态码）",
  "by_reason": {
-  "no_backend": 78,
-  "unreachable": 61,
+  "no_backend": 77,
+  "unreachable": 67,
   "media": 41,
   "http_403": 6,
   "account": 3,
@@ -2098,12 +2098,12 @@
    "tried": []
   },
   "80daa8ace080de62": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Aslmp, an async Python SLMP client for Mitsubishi MELSEC PLCs",
    "url": "https://github.com/AcaysiaChem/aslmp",
    "source_id": "hn_show",
    "first_dead": "2026-09-29T09:51:30+08:00",
-   "last_try": "2026-09-29T09:51:30+08:00",
+   "last_try": "2026-10-29T21:05:37+08:00",
    "tried": [
     "gh_readme",
     "direct_fetch",
@@ -2111,7 +2111,8 @@
    ],
    "http_status": "blocked",
    "reason_code": "unreachable",
-   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)",
+   "reason_first": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
   },
   "a2ce03d590f913f8": {
    "attempts": 2,
@@ -2819,79 +2820,84 @@
    "tried": []
   },
   "8edb1277b01690fc": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Guess what frontier LLMs do in a repeated prisoner's dilemma",
    "url": "https://thenunchiproject.com/game/ai-decides",
    "source_id": "hn_show",
    "first_dead": "2026-10-28T10:00:47+08:00",
-   "last_try": "2026-10-28T10:00:47+08:00",
+   "last_try": "2026-10-29T21:05:37+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
    "http_status": "200:too_short",
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
   },
   "f393cbeabbec8102": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Advaita Vedanta – Offline Books for Android",
    "url": "https://play.google.com/store/apps/details?id=com.vedantalibrary.vedanta_library&hl=en_US",
    "source_id": "hn_show",
    "first_dead": "2026-10-28T10:00:47+08:00",
-   "last_try": "2026-10-28T10:00:47+08:00",
+   "last_try": "2026-10-29T21:05:37+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
    "http_status": "timeout",
    "reason_code": "unreachable",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
   },
   "d2e14ebdff2a93a1": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Freightfloor. Have 3 minutes? Drive a forklift vs. AI",
    "url": "https://freightfloor.com",
    "source_id": "hn_show",
    "first_dead": "2026-10-28T10:00:47+08:00",
-   "last_try": "2026-10-28T10:00:47+08:00",
+   "last_try": "2026-10-29T21:05:37+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
    "http_status": "200:too_short",
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
   },
   "a5549706ec5fd9d3": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "I revamped this boss’s design, what do you guys think?",
    "url": "https://i.redd.it/bmoioqubq4wh1.gif",
    "source_id": "reddit",
    "first_dead": "2026-10-28T10:00:47+08:00",
-   "last_try": "2026-10-28T10:00:47+08:00",
+   "last_try": "2026-10-29T21:05:37+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
-   "http_status": "error",
-   "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error"
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error"
   },
   "ae29b9b3a39cc254": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "My Remote Access Dashboard",
    "url": "https://i.redd.it/g5fwt28042wh1.jpeg",
    "source_id": "reddit",
    "first_dead": "2026-10-28T10:00:47+08:00",
-   "last_try": "2026-10-28T10:00:47+08:00",
+   "last_try": "2026-10-29T21:05:37+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
-   "http_status": "error",
-   "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error"
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error"
   },
   "85a03e0530227a14": {
    "attempts": 1,
@@ -2907,6 +2913,84 @@
    "http_status": "timeout",
    "reason_code": "unreachable",
    "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
+  },
+  "5066fb3887dfa6e8": {
+   "attempts": 1,
+   "title": "Day 21 of Building Crowdwide — Finally, Time to Polish the UI! 🎉",
+   "url": "https://github.com/DeveloperPuneet/Crowdwide",
+   "source_id": "devto",
+   "first_dead": "2026-10-29T21:05:37+08:00",
+   "last_try": "2026-10-29T21:05:37+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+  },
+  "61e2b555d452a019": {
+   "attempts": 1,
+   "title": "Show HN: Audio-chat-box – offline speech in and out for any program, o",
+   "url": "https://github.com/cjus/audio-chat-box",
+   "source_id": "hn_show",
+   "first_dead": "2026-10-29T21:05:37+08:00",
+   "last_try": "2026-10-29T21:05:37+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+  },
+  "5f3918448263e41e": {
+   "attempts": 1,
+   "title": "Show HN: Turn the prompts you keep retyping into slash commands",
+   "url": "https://github.com/kishormorol/cli-faq-shortcuts",
+   "source_id": "hn_show",
+   "first_dead": "2026-10-29T21:05:37+08:00",
+   "last_try": "2026-10-29T21:05:37+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+  },
+  "0dd492bab80d16dd": {
+   "attempts": 1,
+   "title": "Show HN: Breakout coordinator (Launch cross-vendor breakout sessions i",
+   "url": "https://github.com/saranyan/breakout-coordinator",
+   "source_id": "hn_show",
+   "first_dead": "2026-10-29T21:05:37+08:00",
+   "last_try": "2026-10-29T21:05:37+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+  },
+  "e88bee4e2fce5744": {
+   "attempts": 1,
+   "title": "Show HN: Gitby",
+   "url": "https://gitby.dev",
+   "source_id": "hn_show",
+   "first_dead": "2026-10-29T21:05:37+08:00",
+   "last_try": "2026-10-29T21:05:37+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   }
  }
 }

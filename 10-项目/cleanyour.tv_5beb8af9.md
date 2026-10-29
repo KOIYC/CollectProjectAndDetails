@@ -2,14 +2,14 @@
 type: "project"
 title: "Gathin23/cleanyourtv"
 project_url: "https://cleanyour.tv/"
-first_seen: "2026-10-28T09:43:17+08:00"
+first_seen: "2026-10-29T20:45:27+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - Python
-  - created:>2026-10-14
+  - created:>2026-10-15
 lang: "en"
 ---
 
@@ -20,10 +20,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://cleanyour.tv/>
-> 首次收录：2026-10-28T09:43:17+08:00
+> 首次收录：2026-10-29T20:45:27+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：Python, created:>2026-10-14
-> 最新指标：stars=41941 · forks=5103 · open_issues=217
+> 标签：Python, created:>2026-10-15
+> 最新指标：stars=44677 · forks=5460 · open_issues=157
 
 ## 观测历史
 
@@ -35,7 +35,8 @@ lang: "en"
 | 2026-10-26T09:44:46+08:00 | GitHub 新星仓库 | stars=35333 · forks=4200 · open_issues=239 | [[20-语料/posts/github_new/2026-10-22/ab0e470b36e49b22_Gathin23-cleanyourtv]] |
 | 2026-10-27T23:49:00+08:00 | GitHub 新星仓库 | stars=41009 · forks=4967 · open_issues=199 | [[20-语料/posts/github_new/2026-10-22/ab0e470b36e49b22_Gathin23-cleanyourtv]] |
 | 2026-10-28T09:43:17+08:00 | GitHub 新星仓库 | stars=41941 · forks=5103 · open_issues=217 | [[20-语料/posts/github_new/2026-10-22/ab0e470b36e49b22_Gathin23-cleanyourtv]] |
+| 2026-10-29T20:45:27+08:00 | GitHub 新星仓库 | stars=44677 · forks=5460 · open_issues=157 | [[20-语料/posts/github_new/2026-10-22/ab0e470b36e49b22_Gathin23-cleanyourtv]] |
 
 ## 摘要正文
 
-**Samsung, LG, Roku or another non-Android TV?** CleanYourTV can't run there, but you can still turn off the tracking, step by step with your remote: [cleanyour.tv/not-android](https://cleanyour.tv/not-android)  **The viral tweet:** [x.com/gathint/status/2111379569030939102](https://x.com/gathint/status/2111379569030939102)  On 17 October 2026 I posted a before and after of my parents' TV, cleaned up by Claude Code over Wi-Fi. It reached 7.4M views, people started doing the same to their own TVs, and their replies turned into the lists here: 170+ TV models from 200+ contributors in four days. The repo was called tv-vibehack until the 19th; old links work.  **Themes, switches and add-ons:** [cleanyour.tv/addons](https://cleanyour.tv/addons)  **Official links:** the website is [cleanyour.tv](https://cleanyour.tv) and the code, launcher and tools live only in this repo. Other domains using the name, such as cleanyourtv.com, are not run by this project ([#1004](https://github.com/Gathin23/cleanyourtv/issues/1004)).  ## How it works  Android TVs have the same debug bridge as Android phones. Switch on USB debugging in the TV's developer options, allow your computer once, and the rest is …
+Read in: 简体中文 · 正體中文 · Tiếng Việt · 日本語 · Italiano · Nederlands · Deutsch  ## Start here  | You have | Go to | |---|---| | **An Android TV or Google TV** | [Quick start](#quick-start): a coding assistant does the work in about fifteen minutes. | | **A Samsung, LG, Roku, Vizio or Hisense VIDAA TV** | [cleanyour.tv/not-android](https://cleanyour.tv/not-android): CleanYourTV can't run there, but you can turn off the tracking with your remote. | | **Only an Android phone** | The community-built [Clean Your TV app](https://cleanyour.tv/app): no laptop, no coding agent. | | **Want to see it first** | [What you get](#what-you-get): screenshots of the new home screen. |  **Official links:** [cleanyour.tv](https://cleanyour.tv) and this repo. Other domains using the name, such as cleanyourtv.com, are not run by this project ([#1004](https://github.com/Gathin23/cleanyourtv/issues/1004)).  [How it works](#how-it-works) · [Quick start](#quick-start) · [What you get](#what-you-get) · [Supported TVs](#supported-tvs) · [Doing it by hand](#doing-it-by-hand) · [The launcher](#the-launcher) · [Restoring](#restoring-your-tv) · [Firmware updates](#after-a-firmware-update) · [Questions](#questions-peop…

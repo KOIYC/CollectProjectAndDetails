@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-28T09:38:38+08:00",
+ "checked_at": "2026-10-29T20:41:33+08:00",
  "channels": [
   {
    "channel_id": "hn_show",
@@ -10,16 +10,16 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 6.9,
-   "probe_at": "2026-10-28T09:34:03+08:00",
+   "elapsed_s": 1.4,
+   "probe_at": "2026-10-29T20:39:44+08:00",
    "sample": [
     {
-     "title": "Show HN: VelaTrace KiCad plugin: Catch PCB mistakes before you order the board",
-     "url": "https://news.ycombinator.com/item?id=50267795"
+     "title": "Show HN: Sovereign – free financial crisis SIM webgame",
+     "url": "https://news.ycombinator.com/item?id=50287659"
     },
     {
-     "title": "Show HN: Guess what frontier LLMs do in a repeated prisoner's dilemma",
-     "url": "https://news.ycombinator.com/item?id=50267680"
+     "title": "Show HN: AI social media interview platform",
+     "url": "https://news.ycombinator.com/item?id=50287379"
     }
    ]
   },
@@ -32,16 +32,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
-   "elapsed_s": 16.8,
-   "probe_at": "2026-10-28T09:34:20+08:00",
+   "elapsed_s": 21.6,
+   "probe_at": "2026-10-29T20:40:06+08:00",
    "sample": [
     {
-     "title": "I made this boomer shooter where you can blow everything (and everyone) to piece",
-     "url": "https://www.reddit.com/r/IndieDev/comments/1x8p2xu/i_made_this_boomer_shooter_where_you_can_blow/"
+     "title": "I got tired of hunting through menus, so we built a ring of actions that opens a",
+     "url": "https://www.reddit.com/r/SideProject/comments/1x9vm03/i_got_tired_of_hunting_through_menus_so_we_built/"
     },
     {
-     "title": "My Remote Access Dashboard",
-     "url": "https://www.reddit.com/r/selfhosted/comments/1x8eyre/my_remote_access_dashboard/"
+     "title": "work in progress",
+     "url": "https://www.reddit.com/r/IndieDev/comments/1x9udvh/work_in_progress/"
     }
    ]
   },
@@ -54,8 +54,8 @@
    "status": "ok",
    "count": 3,
    "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 1.5,
-   "probe_at": "2026-10-28T09:34:21+08:00",
+   "elapsed_s": 56.3,
+   "probe_at": "2026-10-29T20:35:29+08:00",
    "sample": [
     {
      "title": "Gathin23/cleanyourtv",
@@ -76,16 +76,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 startups · 发布日 3/3",
-   "elapsed_s": 6.2,
-   "probe_at": "2026-10-28T09:34:27+08:00",
+   "elapsed_s": 6.6,
+   "probe_at": "2026-10-29T20:40:12+08:00",
    "sample": [
     {
-     "title": "Ascend",
-     "url": "https://betalist.com/startups/ascend"
+     "title": "Schoolwize",
+     "url": "https://betalist.com/startups/schoolwize"
     },
     {
-     "title": "Fastsocial Instagram Data Api",
-     "url": "https://betalist.com/startups/fastsocial-instagram-data-api"
+     "title": "The Ai Agent Company Company",
+     "url": "https://betalist.com/startups/the-ai-agent-company-company"
     }
    ]
   },
@@ -98,8 +98,8 @@
    "status": "ok",
    "count": 3,
    "message": "23 products",
-   "elapsed_s": 7.3,
-   "probe_at": "2026-10-28T09:34:35+08:00",
+   "elapsed_s": 9.8,
+   "probe_at": "2026-10-29T20:40:22+08:00",
    "sample": [
     {
      "title": "Launchon It",
@@ -118,10 +118,10 @@
    "auth": "none",
    "group": "海外社区",
    "status": "ok",
-   "count": 3,
-   "message": "3 articles",
-   "elapsed_s": 20.0,
-   "probe_at": "2026-10-28T09:34:55+08:00",
+   "count": 2,
+   "message": "2 articles",
+   "elapsed_s": 35.1,
+   "probe_at": "2026-10-29T20:40:57+08:00",
    "sample": [
     {
      "title": "Promise Delivered: Welcome to the DEV Hall of Fame (65 Authors, 65 Masterpieces)",
@@ -143,15 +143,15 @@
    "count": 3,
    "message": "3 entries",
    "elapsed_s": 2.1,
-   "probe_at": "2026-10-28T09:34:57+08:00",
+   "probe_at": "2026-10-29T20:40:59+08:00",
    "sample": [
     {
-     "title": "Off Grid AI",
-     "url": "https://www.producthunt.com/products/off-grid-ai"
+     "title": "AutoShelf 2.6",
+     "url": "https://www.producthunt.com/products/autoshelf"
     },
     {
-     "title": "NuPlay",
-     "url": "https://www.producthunt.com/products/nuplay"
+     "title": "Empacer",
+     "url": "https://www.producthunt.com/products/empacer"
     }
    ]
   },
@@ -165,15 +165,15 @@
    "count": 3,
    "message": "20 topics",
    "elapsed_s": 0.6,
-   "probe_at": "2026-10-28T09:34:57+08:00",
+   "probe_at": "2026-10-29T20:41:00+08:00",
    "sample": [
     {
-     "title": "[开源] 记事喵 · TaskCat，微信随手记，待办随身行",
-     "url": "https://www.v2ex.com/t/1252398"
+     "title": "[Midalo 中转站]一个 Key 调用 Claude、GPT、Gemini、DeepSeek、grok 等主流模型，支持国内直连与按量计费，欢迎前来试吃！",
+     "url": "https://www.v2ex.com/t/1252940"
     },
     {
-     "title": "独立开发产品，你们做第一个产品时，怎么判断会有人买？",
-     "url": "https://www.v2ex.com/t/1252383"
+     "title": "ai 应用创业公司招聘-北京",
+     "url": "https://www.v2ex.com/t/1252876"
     }
    ]
   },
@@ -185,17 +185,17 @@
    "group": "中文社媒",
    "status": "ok",
    "count": 3,
-   "message": "7 videos",
+   "message": "10 videos",
    "elapsed_s": 0.6,
-   "probe_at": "2026-10-28T09:34:58+08:00",
+   "probe_at": "2026-10-29T20:41:01+08:00",
    "sample": [
+    {
+     "title": "【Lee哥】AI毁了Steam新品节？7300款游戏涌入，36%使用生成式AI！独立开发者该怎么办？ | 游戏开发 | 案例分析",
+     "url": "https://www.bilibili.com/video/BV1ghxL6tEMy"
+    },
     {
      "title": "一分钱不花，完成独立产品从0上线！2026年独立开发者免费全家桶",
      "url": "https://www.bilibili.com/video/BV1sFWA6VEgC"
-    },
-    {
-     "title": "【辞职做游戏，靠谱吗？】独立开发真的能赚钱！素质与独立游戏 如何拿捏程序员",
-     "url": "https://www.bilibili.com/video/BV1JQHV6hEdp"
     }
    ]
   },
@@ -208,8 +208,8 @@
    "status": "ok",
    "count": 3,
    "message": "9 entries · 收录日 9",
-   "elapsed_s": 6.3,
-   "probe_at": "2026-10-28T09:35:04+08:00",
+   "elapsed_s": 3.6,
+   "probe_at": "2026-10-29T20:41:04+08:00",
    "sample": [
     {
      "title": "Indie Hacker",
@@ -230,16 +230,16 @@
    "status": "ok",
    "count": 3,
    "message": "8 results",
-   "elapsed_s": 30.9,
-   "probe_at": "2026-10-28T09:35:35+08:00",
+   "elapsed_s": 15.7,
+   "probe_at": "2026-10-29T20:36:27+08:00",
    "sample": [
-    {
-     "title": "\"Arctic Roll Launches Today on Steam - A Relaxing Tactical Roguelite Adventure f",
-     "url": "https://www.gamespress.com/Arctic-Roll-Launches-Today-on-Steam---A-Relaxing-Tactical-Roguelite-Ad"
-    },
     {
      "title": "\"Cozy Sim Warehouse Catastrophe Launches Today on PC\" - Games Press",
      "url": "https://www.gamespress.com/Cozy-Sim-Warehouse-Catastrophe-Launches-Today-on-PC"
+    },
+    {
+     "title": "\"Copperfell: OUT NOW!\" - Games Press",
+     "url": "https://www.gamespress.com/Copperfell-OUT-NOW"
     }
    ]
   },
@@ -251,9 +251,9 @@
    "group": "海外社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 20s\nok: false\nerr",
-   "elapsed_s": 74.1,
-   "probe_at": "2026-10-28T09:36:49+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 22s\nok: false\nerr",
+   "elapsed_s": 58.1,
+   "probe_at": "2026-10-29T20:37:25+08:00",
    "sample": []
   },
   {
@@ -265,11 +265,11 @@
    "status": "ok",
    "count": 1,
    "message": "1 items（1 路查询）",
-   "elapsed_s": 58.6,
-   "probe_at": "2026-10-28T09:37:48+08:00",
+   "elapsed_s": 23.4,
+   "probe_at": "2026-10-29T20:37:48+08:00",
    "sample": [
     {
-     "title": "改名背后：一个独立开发者，和财务打工人的",
+     "title": "我准备干一辈子独立开发了",
      "url": ">-"
     }
    ]
@@ -284,7 +284,7 @@
    "delta": false,
    "message": "ERR: <urlopen error timed out>",
    "elapsed_s": 20.1,
-   "probe_at": "2026-10-28T09:38:21+08:00"
+   "probe_at": "2026-10-29T20:41:25+08:00"
   },
   {
    "backend": "arctic_shift",
@@ -293,8 +293,8 @@
    "declared": "not_added",
    "delta": false,
    "message": "5 rows",
-   "elapsed_s": 1.4,
-   "probe_at": "2026-10-28T09:38:22+08:00"
+   "elapsed_s": 2.0,
+   "probe_at": "2026-10-29T20:41:27+08:00"
   },
   {
    "backend": "exa_web_fetch",
@@ -303,8 +303,8 @@
    "declared": "warn",
    "delta": false,
    "message": "1 url 返回正文",
-   "elapsed_s": 14.2,
-   "probe_at": "2026-10-28T09:38:37+08:00"
+   "elapsed_s": 4.6,
+   "probe_at": "2026-10-29T20:41:32+08:00"
   },
   {
    "backend": "github_gh",
@@ -312,9 +312,9 @@
    "status": "ok",
    "declared": "unverified",
    "delta": false,
-   "message": "remaining=4958",
-   "elapsed_s": 1.5,
-   "probe_at": "2026-10-28T09:38:38+08:00"
+   "message": "remaining=5000",
+   "elapsed_s": 1.6,
+   "probe_at": "2026-10-29T20:41:33+08:00"
   }
  ],
  "summary": {
@@ -393,7 +393,7 @@
  ],
  "agent_reach": {
   "ok": true,
-  "checked_at": "2026-10-28T09:38:01+08:00",
+  "checked_at": "2026-10-29T20:41:05+08:00",
   "version": "1.6.0",
   "error": null,
   "platforms": 14

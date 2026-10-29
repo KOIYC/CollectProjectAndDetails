@@ -5,10 +5,10 @@ title: "Indiehunt"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/indiehunt"
-captured_at: "2026-10-28T09:43:59+08:00"
+captured_at: "2026-10-29T20:46:10+08:00"
 lang: "en"
 kind: "project"
-topic: "AI 工具/Agent"
+topic: "开发者工具"
 shard: "2026-10-27"
 tags:
   - 语料
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-10-28T09:43:59+08:00　|　id：`c869a011618f25b4`
+> 采集：2026-10-29T20:46:10+08:00　|　id：`c869a011618f25b4`
 
 ## 正文
 
@@ -41,9 +41,33 @@ Indiehunt
  Launch your product on Indiehunt to get discovered by indies
 Visit Website
 Indiehunt Launch your product on Indiehunt to get discovered by indies
- Posts 50+
+ Posts 46+
  Revenue $500 / mo
  Website Twitter
+October 29, 2026
+ Three runway numbers I'd want written down before quitting a job to go indie
+I'm close to going full time on my own stuff, so runway math has been on my mind a lot this month. The thing I noticed is that "how many months do I have" is the question everyone asks, and it's the least useful one on its own. These are the three numbers I'd want on paper before handing in notice.
+ 1. Months left at today's burn. The simple one. Cash divided by monthly net burn, where net burn is expenses minus whatever revenue is already coming in. With example numbers, $48,000 in the bank and $8,000 a month out is 6 months. Fine as a starting point, but it assumes nothing changes, and something always changes.
+ 2. Months left if burn creeps up. Going indie almost always means a few new monthly costs: health insurance, tools you used to get free at work, a coworking desk, maybe ads. Same example, but burn grows 5% a month, and the 6 months becomes about 5.4. Not dramatic, but that half month is exactly when you'd be waiting on a first big customer.
+ 3. The most I can spend per month and still reach month 12. This is the one I find most useful, because it turns runway into a budget. Flip the question: if I want 12 months no matter what, what's my max burn? $48,000 over 12 months is $4,000 a month flat. If costs creep 3% a month, the max starting burn drops to about $3,382. That's a number you can actually check your bank statement against every month.
+ I put this math into a free runway calculator on IndieHunt . It does months left from cash and burn, an optional monthly burn change with a month by month table, and the reverse mode for max burn over N months. The formulas are written on the page, and it runs in your browser so nothing you type gets uploaded.
+ For people who already made the jump: which number did you wish you'd taken more seriously, the runway or the burn creep?
+Praneet Brar
+3 Upvotes
+Comment
+October 28, 2026
+ Three rules I'd write down before saying yes to a $2,736 pay-by-invoice request
+Here's an email I think every small SaaS gets eventually. Say you sell a $19 per seat tool, most of your 40-ish customers pay monthly by card, and an office manager at a 12-person agency writes: "we want the annual plan for the whole team, but finance can't use a card. Can you send an invoice, net 30, bank transfer?"
+ 12 seats x $19 x 12 months is $2,736. At under 50 customers that might be your biggest payment of the year, so of course you want to say yes. I wrote up the full Stripe side of this on dev.to , but the decisions matter more than the API, so here are the three I'd make before replying.
+ 1. Invoices are for annual plans only. The fee math is the reason. With US list prices as I read them in October 2026, a card payment on $2,736 costs about $79.64. A USD bank transfer is 0.5% capped at $5. Around $75 saved on one invoice, nice. On a $19 monthly invoice the difference is pennies and the admin isn't worth it, so monthly stays on card.
+ 2. Decide access on purpose, because Stripe won't wait for the money. This is the one that surprised me. A subscription set to send_invoice is active the moment you create it, even if the first invoice is unpaid. If your paywall checks for "active", that agency has 12 seats for 30 days before a cent arrives. For a known company, access on trust is probably fine. For a stranger, I'd keep them locked until the first invoice is paid, or make the first one net 7 instead of net 30.
+ 3. Late means a personal email, not just a robot. Stripe can send reminders, but a $2,736 invoice 7 days late deserves a short note from me to whoever asked for it. Usually it's stuck in someone's approval queue. Access gets paused around 30 days, and I'd tell them that upfront.
+ Write those three down once and the reply to the next agency takes five minutes instead of an evening.
+ The longer version, with the bank transfer matching rules, underpayments and a paywall snippet, is in my post on handling a pay-by-invoice request when you have under 50 customers .
+ If you already sell to teams, do you give access the day the invoice goes out, or only once it's paid?
+Praneet Brar
+1 Upvote
+Comment
 October 27, 2026
  Every marketing channel gets 30 days and 3 hours a week from me. Then I ask it three questions
 I used to add marketing channels the way people open browser tabs. A new subreddit, a newsletter, one more directory, a second social account. None of them ever got closed, they just quietly ate my evenings.
@@ -57,7 +81,7 @@ I used to add marketing channels the way people open browser tabs. A new subredd
  Which channel did you keep way longer than you should have? And what finally made you drop it?
 Praneet Brar
 5 Upvotes
-5 Comments
+4 Comments
 October 26, 2026
  Three reasons I won't sell a lifetime deal until 20 people pay me monthly
 Every few weeks someone suggests I do a lifetime deal. Quick cash, a pile of users, some feedback. I get the appeal, especially when the monthly revenue chart is flat and you're tired of looking at it.
@@ -191,37 +215,6 @@ Also worth saying: "likely available" is a strong hint, not a promise. The regis
 Praneet Brar
 3 Upvotes
 3 Comments
-October 19, 2026
- 6 of 31 founders launching today had no working preview image on their site
-Before today's launches on IndieHunt and EarlyHunt we emailed the 31 founders who were going live and ran each of their sites through the free OG image checker on SideHunt. 6 of the 31 had no working og:image. Either the tag was missing completely or it pointed to an image that returns a 404.
- That means on launch day, when they paste their link into X, LinkedIn, a Slack group or a DM, it shows up as a plain grey link with no picture. On the one day people are actually looking. On Saturday it was 2 out of 8 live launches, so this isn't a one off. Roughly one in five.
- Not naming anyone obviously, and I don't think any of them were being lazy. It's just one of those things you never see yourself, because you're always on your own site, never looking at it as a shared link.
- The usual problems we keep seeing, in order of how often:
- No og:image tag at all. Common on sites made from a template or a quick landing page builder.
-Relative path. The tag says /og.png instead of the full https URL. Browsers are fine with that, the social crawlers mostly aren't.
-Wrong size. A square logo gets cropped into something weird. Use 1200x630 (LinkedIn also takes 1200x627).
-Title cut off. The og:title is a full sentence and the card chops it halfway.
-And the part that catches people after they fix it: the networks cache the card. You fix the tag, share again, still the old broken one. You have to ask them to re-scrape, with X's Card Validator, Facebook's Sharing Debugger or LinkedIn's Post Inspector. Do this the day before launch, not 20 minutes after your launch post is already out with an ugly card on it.
- If you want to check yours, the OG image checker on SideHunt shows the card X, LinkedIn and Facebook will build from your tags. No signup and nothing gets stored, you paste a URL and look.
- The bigger lesson for me, running the launch sites: the founders who got the email and fixed it before going live didn't need a better product, they needed someone to look at their link from the outside once. I want to keep running this check for every batch before launch day and see if that number goes down.
- When did you last share your own link somewhere just to see what it looks like?
-Praneet Brar
-2 Upvotes
-Comment
-October 18, 2026
- The night before a launch I make one Stripe promo code per platform and put four limits on each
-Most of us make our first public discount code on launch day, in a hurry. Open Stripe, make a coupon, type LAUNCH50, paste it into the launch post and the first comment, go back to replying. It works. It also leaves a code on the internet that you never really decided anything about. How long does the 50% last, who can use it, when does it stop, what happens when it shows up on a coupon site next month.
- Under 100 customers every one of those answers sits in your MRR for a long time. So now I do it the night before, and it takes maybe 20 minutes.
- One code per place I post it. In Stripe a coupon is the discount logic and a promotion code is the string people type. Many codes can point at one coupon. So same 30% coupon underneath, but PH30 for one launch platform, IH30 for another, NEWS30 for my own list. Each code has its own redemption count, so a week later I can see which audience actually paid, not just which one clicked. With 20 launch week signups that's often the only clean attribution you get.
- Duration on purpose. "once" is the first invoice, "repeating" is a window of months, "forever" is forever. The trap: forever plus an expiry date only stops new people redeeming it. Everyone who used it before keeps half price until they cancel. Also a repeating coupon on an annual plan can quietly turn "3 months at 50% off" into a year at 50% off.
- Four limits on the code itself: an expiry date, a max redemptions cap (shared across all codes on that coupon, so 50 total, not 50 each), first-time-only, and optionally a minimum amount.
- The first-time-only catch. Stripe counts a past trial as transaction history, even a canceled one. So if you email your 30 trial users "30% off this week" with a first-time-only code, a lot of them hit an error at checkout. They're the warmest people you have. I give them a separate code without that box ticked.
- And if you use Stripe Checkout, the promo field only shows up if the session has allow_promotion_codes on. Test the real code once in test mode, it saves a few confused emails.
- The full checklist, including what to do when launch week ends (don't delete the coupon), is in my post on the five limits to set before a launch-day promo code . If you're thinking about a lifetime deal instead, the IndieHunt Studio piece on running a lifetime deal without wrecking your SaaS covers what that costs you later.
- Did you ever end up with a "forever" discount you didn't mean to give?
-Praneet Brar
-1 Upvote
-Comment
 About
  We built IndieHunt because launching as an indie maker is still too noisy and unfair. Most platforms favor already-established products with large audiences, making it hard for early-stage builders to get visibility.
 People
@@ -242,5 +235,5 @@ Databases
 
 - 项目页：[[10-项目/Indiehunt_c869a011]]
 - 渠道页：[[50-渠道/indiehackers]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

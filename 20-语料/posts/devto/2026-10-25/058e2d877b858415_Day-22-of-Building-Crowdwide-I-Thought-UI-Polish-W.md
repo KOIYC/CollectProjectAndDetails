@@ -8,7 +8,7 @@ url: "https://dev.to/puneetkumar2010/day-22-of-building-crowdwide-i-thought-ui-p
 project_url: "https://github.com/DeveloperPuneet/Crowdwide"
 author: "Puneet Kumar Mishra"
 published_at: "2026-10-24T11:37:01Z"
-captured_at: "2026-10-28T09:44:58+08:00"
+captured_at: "2026-10-29T20:47:20+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -21,9 +21,9 @@ tags:
   - buildinpublic
   - opensource
   - discuss
-metrics: {"reactions": 20, "comments": 31, "reading_time": 2}
-comments_count: 31
-comments_total: 31
+metrics: {"reactions": 23, "comments": 33, "reading_time": 2}
+comments_count: 33
+comments_total: 33
 discovered_via: "devto:buildinpublic"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:buildinpublic"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/puneetkumar2010/day-22-of-building-crowdwide-i-thought-ui-polish-would-be-easy-but-i-was-wronggggg-27jk>
-> 指标：reactions=20 · 评论=31 · reading_time=2
+> 指标：reactions=23 · 评论=33 · reading_time=2
 > 作者：Puneet Kumar Mishra　|　发布：2026-10-24T11:37:01Z
 > 项目链接：<https://github.com/DeveloperPuneet/Crowdwide>
-> 采集：2026-10-28T09:44:58+08:00　|　id：`058e2d877b858415`
+> 采集：2026-10-29T20:47:20+08:00　|　id：`058e2d877b858415`
 
 ## 正文
 
@@ -95,7 +95,7 @@ comment if you think anything is left...
 
 💻 GitHub repository: https://github.com/DeveloperPuneet/Crowdwide
 
-## 评论（31/31）
+## 评论（33/33）
 
 > **EffessDev** · 2026-10-24T11:43:10Z　
 > Bro you were this serious I just randomly mentioned optimistic UI thanks 🫨
@@ -259,6 +259,18 @@ comment if you think anything is left...
 
 > **huali** · 2026-10-27T22:13:10Z　
 > You're the best, Puneet! 🙌 That really means a lot to me. You have a deal — if you ever need a custom utility, just drop me a message. Hope you have a fantastic week ahead! 🚀
+
+---
+
+> **Puneet Kumar Mishra** · 2026-10-28T10:14:10Z　
+> Yesss, I’ll definitely let you know! 🙌 Btw, what’s your tech stack? And if you have any cool ideas, we could collaborate on something together too! 🚀
+
+---
+
+> **huali** · 2026-10-28T22:10:00Z　
+> Haha, that would be awesome! 🙌 My tech stack is super simple and 'vanilla': just pure HTML/CSS/JS hosted on Cloudflare Pages (zero backend, zero server cost). Since I'm a solo dev learning as I go, I actually use AI (like DeepSeek) to help me write the logic.
+>
+> I'd love to brainstorm some cool tool ideas with you sometime. Hit me up whenever you want to jam! 🚀
 
 ---
 

@@ -8,7 +8,7 @@ url: "https://dev.to/devteam/your-dev-posts-have-a-beautiful-new-share-card-4be8
 project_url: "https://github.com/forem/forem/pull/19826"
 author: "Jess Lee"
 published_at: "2026-10-27T16:44:29Z"
-captured_at: "2026-10-28T09:44:18+08:00"
+captured_at: "2026-10-29T20:46:37+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -21,9 +21,9 @@ tags:
   - showdev
   - opensource
   - design
-metrics: {"reactions": 53, "comments": 9, "reading_time": 2}
-comments_count: 9
-comments_total: 9
+metrics: {"reactions": 95, "comments": 21, "reading_time": 2}
+comments_count: 21
+comments_total: 21
 discovered_via: "devto:showdev"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/devteam/your-dev-posts-have-a-beautiful-new-share-card-4be8>
-> 指标：reactions=53 · 评论=9 · reading_time=2
+> 指标：reactions=95 · 评论=21 · reading_time=2
 > 作者：Jess Lee　|　发布：2026-10-27T16:44:29Z
 > 项目链接：<https://github.com/forem/forem/pull/19826>
-> 采集：2026-10-28T09:44:18+08:00　|　id：`257ee7043d31f170`
+> 采集：2026-10-29T20:46:37+08:00　|　id：`257ee7043d31f170`
 
 ## 正文
 
@@ -84,7 +84,7 @@ In August 2023, Ben moved generation in-house with ImageMagick ([#19949](https:/
 
 Share one of your posts (without a cover image) and take a look at your new card. Tag us ([@thepracticaldev](https://x.com/thepracticaldev)) or me ([@jessleenyc](https://x.com/jessleenyc)) on X so I can admire it. If anything looks off, like a name that renders strangely or a quote that cuts off in a weird spot, let me know in the comments!
 
-## 评论（9/9）
+## 评论（21/21）
 
 > **Jess Lee** · 2026-10-27T16:48:46Z　
 > 😐😐😐😐😐😐
@@ -132,6 +132,70 @@ Share one of your posts (without a cover image) and take a look at your new card
 
 > **Emily Woods** · 2026-10-27T21:09:43Z　
 > The quote selection rules are the part I'd keep beside the visual examples. An intro that starts with inline code or a link would make an interesting fixture: I'd want the card to read naturally after formatting disappears, while still attributing only my own words. Could the editor eventually show the selected excerpt before I share? That would make awkward cuts easier to catch.
+
+---
+
+> **Logan Jenkins** · 2026-10-28T04:39:00Z　
+> The new share cards look clean — the type scale got much better.
+
+---
+
+> **Peter Vivo** · 2026-10-28T05:35:03Z　
+> I really like this!
+>
+> Do these new cards also work when I use a video instead of a cover image for an article? Because currently, the video appears as a blank space when shared elsewhere.
+>
+> Also, I'm not sure where to suggest this, but I think it would be great if we could provide both an image and a video for an article. That way, external shares could display the image instead of a blank video placeholder.
+
+---
+
+> **Petra** · 2026-10-28T06:00:48Z　
+> Thanks
+
+---
+
+> **Stefan** · 2026-10-28T06:25:00Z　
+> 73% of posts had no cover image? That's a lot of authors getting a better preview without having to design anything. Skipping blockquotes is a thoughtful detail too. Someone else's words could look very different with my name underneath them.
+
+---
+
+> **Ntombizakhona Mabaso** · 2026-10-28T07:41:27Z　
+> i would love a cool one for sharing to Instagram and Facebook stories & highlights. 🥺
+
+---
+
+> **Varshith V Hegde** · 2026-10-28T07:51:05Z　
+> Nice one . Love this !!!
+
+---
+
+> **Sheraz Manzoor** · 2026-10-28T12:15:51Z　
+> Cool update.
+
+---
+
+> **KC** · 2026-10-28T13:18:43Z　
+> Mind blowing
+
+---
+
+> **Timothy Thomas** · 2026-10-28T19:11:55Z　
+> This is sick
+
+---
+
+> **FuriLabs** · 2026-10-29T08:54:55Z　
+> I really like this! Cool update.
+
+---
+
+> **Maame Afua A. P. Fordjour ** · 2026-10-29T11:05:02Z　
+> This looks amazing!
+
+---
+
+> **Alex Shev** · 2026-10-29T12:21:03Z　
+> Nice improvement. Share cards are part of a post’s distribution surface, so it would be helpful to know how title length, code blocks, and non-Latin text are handled. Those edge cases decide whether the new design stays polished outside the happy path.
 
 ## 关联链接
 

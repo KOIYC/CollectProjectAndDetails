@@ -8,7 +8,7 @@ url: "https://dev.to/puneetkumar2010/day-21-of-building-crowdwide-finally-time-t
 project_url: "https://github.com/DeveloperPuneet/Crowdwide"
 author: "Puneet Kumar Mishra"
 published_at: "2026-10-23T11:54:10Z"
-captured_at: "2026-10-28T09:58:12+08:00"
+captured_at: "2026-10-29T21:03:23+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -21,9 +21,9 @@ tags:
   - buildinpublic
   - opensource
   - discuss
-metrics: {"reactions": 35, "comments": 227, "reading_time": 2}
+metrics: {"reactions": 44, "comments": 239, "reading_time": 2}
 comments_count: 130
-comments_total: 227
+comments_total: 239
 discovered_via: "devto:buildinpublic"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:buildinpublic"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/puneetkumar2010/day-21-of-building-crowdwide-finally-time-to-polish-the-ui-1696>
-> 指标：reactions=35 · 评论=227 · reading_time=2
+> 指标：reactions=44 · 评论=239 · reading_time=2
 > 作者：Puneet Kumar Mishra　|　发布：2026-10-23T11:54:10Z
 > 项目链接：<https://github.com/DeveloperPuneet/Crowdwide>
-> 采集：2026-10-28T09:58:12+08:00　|　id：`5066fb3887dfa6e8`
+> 采集：2026-10-29T21:03:23+08:00　|　id：`5066fb3887dfa6e8`
 
 ## 正文
 
@@ -114,7 +114,7 @@ THAT'S IT!!
 
 See you in the next update! 👋
 
-## 评论（130/227）
+## 评论（130/239）
 
 > **EffessDev** · 2026-10-23T12:00:29Z　
 > @akhourianmolkumar @koda2026 and @technogamerz joined, so me too joined! 🥳

@@ -373,8 +373,12 @@ def which_cli(name: str) -> str | None:
     exts = [e for e in (os.environ.get("PATHEXT", "").split(os.pathsep)) if e] or \
            [".COM", ".EXE", ".BAT", ".CMD"]
     dirs = [d for d in os.environ.get("PATH", "").split(os.pathsep) if d]
+    # `~/.local/bin` 必须列进来：agent-reach.exe 装在这里，而自动化/子进程继承的 PATH
+    # 常常不含它（2026-10-29 实测：PATH 里没有 → which_cli 返回 None → doctor 静默跳过 →
+    # AgentReach体检.md 停更，而终端只看得到渠道 ok）。缺了它 = 检查器静默失效。
     dirs += [r"C:\Users\yangcan\AppData\Roaming\npm", r"C:\Program Files\GitHub CLI",
-             r"C:\Program Files\nodejs", str(Path.home() / "AppData/Roaming/npm")]
+             r"C:\Program Files\nodejs", str(Path.home() / "AppData/Roaming/npm"),
+             str(Path.home() / ".local" / "bin"), str(Path.home() / ".workbuddy" / "bin")]
     for d in dirs:
         for ext in exts + [""]:
             cand = Path(d) / f"{name}{ext}"

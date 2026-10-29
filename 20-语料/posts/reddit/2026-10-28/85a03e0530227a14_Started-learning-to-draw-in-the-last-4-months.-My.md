@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/IndieDev/comments/1x8ppcb/started_learning_to_draw_in_the_last_4_months_my/"
 author: "Los_Pantalones22"
 published_at: "2026-10-18T08:35:38+08:00"
-captured_at: "2026-10-28T09:41:07+08:00"
+captured_at: "2026-10-29T20:57:20+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -26,7 +26,7 @@ discovered_via: "reddit:14d+settle10"
 # Started learning to draw in the last 4 months. My drawing style is evolving- I am not sure what into but its definitely... something. Leaning into the jankiness of it- thoughts?
 
 > [!info] 一句话导读
-> Slowly replacing my AI placeholders with my own art has been a real journey... Only 50 cards left to do :/
+> Published: 2026-10-18
 
 > [!meta]- 语料信息（点开展开）
 > 来源：Reddit 独立开发版块（post）
@@ -34,11 +34,24 @@ discovered_via: "reddit:14d+settle10"
 > 指标：得分=4 · 评论=6 · 赞踩比=0.6666666666666666
 > 作者：Los_Pantalones22　|　发布：2026-10-18T08:35:38+08:00
 > 项目链接：—
-> 采集：2026-10-28T09:41:07+08:00　|　id：`85a03e0530227a14`
+> 采集：2026-10-29T20:57:20+08:00　|　id：`85a03e0530227a14`
 
 ## 正文
 
-Slowly replacing my AI placeholders with my own art has been a real journey... Only 50 cards left to do :/
+Published: 2026-10-18
+Author: u/Los_Pantalones22
+
+Reddit - The heart of the internet
+
+ 12d ago
+
+# Started learning to draw in the last 4 months. My drawing style is evolving- I am not sure what into but its definitely... something. Leaning into the jankiness of it- thoughts?
+
+ Slowly replacing my AI placeholders with my own art has been a real journey... Only 50 cards left to do :/
+
+ What?! #17 reddit community for programming? Never saw any code here, but I’ll take it. r/ndiedev strong! 💪
+
+# DeveloperPuneet/Crowdwide
 
 ## 评论（6/6）
 

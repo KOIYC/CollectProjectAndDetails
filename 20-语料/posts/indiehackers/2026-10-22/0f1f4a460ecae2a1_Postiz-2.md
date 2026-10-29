@@ -5,7 +5,7 @@ title: "Postiz 2"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/postiz-2"
-captured_at: "2026-10-27T23:49:41+08:00"
+captured_at: "2026-10-29T20:46:10+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-10-27T23:49:41+08:00　|　id：`0f1f4a460ecae2a1`
+> 采集：2026-10-29T20:46:10+08:00　|　id：`0f1f4a460ecae2a1`
 
 ## 正文
 
@@ -42,7 +42,7 @@ Postiz
 Visit Website
 Postiz Agentic social media scheduling tool
  Post 1
- Revenue $357K / mo
+ Revenue $363K / mo
  Website Twitter Facebook
 June 29, 2025
  Big Growth

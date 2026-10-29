@@ -2,7 +2,7 @@
 type: "project"
 title: "Day 21 of Building Crowdwide — Finally, Time to Polish the UI! 🎉"
 project_url: "https://github.com/DeveloperPuneet/Crowdwide"
-first_seen: "2026-10-28T09:58:12+08:00"
+first_seen: "2026-10-29T21:03:23+08:00"
 sources:
   - devto
 tags:
@@ -22,10 +22,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/DeveloperPuneet/Crowdwide>
-> 首次收录：2026-10-28T09:58:12+08:00
+> 首次收录：2026-10-29T21:03:23+08:00
 > 来源渠道：dev.to
 > 标签：webdev, buildinpublic, opensource, discuss
-> 最新指标：reactions=35 · 评论=227 · reading_time=2
+> 最新指标：reactions=44 · 评论=239 · reading_time=2
 
 ## 观测历史
 
@@ -41,6 +41,8 @@ lang: "en"
 | 2026-10-28T00:18:42+08:00 | dev.to | reactions=30 · 评论=192 · reading_time=2 | [[20-语料/posts/devto/2026-10-25/5066fb3887dfa6e8_Day-21-of-Building-Crowdwide-—-Finally,-Time-to-Po]] |
 | 2026-10-28T09:44:58+08:00 | dev.to | reactions=20 · 评论=31 · reading_time=2 | [[20-语料/posts/devto/2026-10-25/058e2d877b858415_Day-22-of-Building-Crowdwide-I-Thought-UI-Polish-W]] |
 | 2026-10-28T09:58:12+08:00 | dev.to | reactions=35 · 评论=227 · reading_time=2 | [[20-语料/posts/devto/2026-10-25/5066fb3887dfa6e8_Day-21-of-Building-Crowdwide-—-Finally,-Time-to-Po]] |
+| 2026-10-29T20:47:20+08:00 | dev.to | reactions=23 · 评论=33 · reading_time=2 | [[20-语料/posts/devto/2026-10-25/058e2d877b858415_Day-22-of-Building-Crowdwide-I-Thought-UI-Polish-W]] |
+| 2026-10-29T21:03:23+08:00 | dev.to | reactions=44 · 评论=239 · reading_time=2 | [[20-语料/posts/devto/2026-10-25/5066fb3887dfa6e8_Day-21-of-Building-Crowdwide-—-Finally,-Time-to-Po]] |
 
 ## 摘要正文
 
