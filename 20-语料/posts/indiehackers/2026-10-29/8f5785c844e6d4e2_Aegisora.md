@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/aegisora"
 project_url: "https://aegisora.org/"
-captured_at: "2026-10-29T20:46:10+08:00"
+captured_at: "2026-10-30T09:49:51+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://aegisora.org/>
-> 采集：2026-10-29T20:46:10+08:00　|　id：`8f5785c844e6d4e2`
+> 采集：2026-10-30T09:49:51+08:00　|　id：`8f5785c844e6d4e2`
 
 ## 正文
 
@@ -69,7 +69,7 @@ Open-source repository: https://github.com/aegisora-ai/aegisora
  For those of you building AI agents: how are you currently preventing an agent from taking an action it shouldn't?
  I'd love to hear about your approach, challenges, and suggestions.
 Eray Özer
-2 Upvotes
+4 Upvotes
 1 Comment
 October 12, 2026
  Preparing Aegisora for Pilot Testing: Runtime Security for AI Agents

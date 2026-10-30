@@ -1,11 +1,11 @@
 {
  "schema": 2,
- "updated": "2026-10-29T21:05:37+08:00",
+ "updated": "2026-10-30T10:01:48+08:00",
  "note": "结构性无正文/取数不可得 —— 连试 2 轮后记账，不再消耗额度。字段：reason（人话）/ reason_code（可复核分类，见 REASON_CODES）/ tried[]（本轮实际试过的后端）/ http_status（direct 档拿到的状态码）",
  "by_reason": {
   "no_backend": 77,
-  "unreachable": 67,
-  "media": 41,
+  "unreachable": 68,
+  "media": 43,
   "http_403": 6,
   "account": 3,
   "gh_miss": 1,
@@ -2931,12 +2931,12 @@
    "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
   },
   "61e2b555d452a019": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Audio-chat-box – offline speech in and out for any program, o",
    "url": "https://github.com/cjus/audio-chat-box",
    "source_id": "hn_show",
    "first_dead": "2026-10-29T21:05:37+08:00",
-   "last_try": "2026-10-29T21:05:37+08:00",
+   "last_try": "2026-10-30T10:01:48+08:00",
    "tried": [
     "gh_readme",
     "direct_fetch",
@@ -2944,15 +2944,16 @@
    ],
    "http_status": "blocked",
    "reason_code": "unreachable",
-   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)",
+   "reason_first": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
   },
   "5f3918448263e41e": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Turn the prompts you keep retyping into slash commands",
    "url": "https://github.com/kishormorol/cli-faq-shortcuts",
    "source_id": "hn_show",
    "first_dead": "2026-10-29T21:05:37+08:00",
-   "last_try": "2026-10-29T21:05:37+08:00",
+   "last_try": "2026-10-30T10:01:48+08:00",
    "tried": [
     "gh_readme",
     "direct_fetch",
@@ -2960,15 +2961,16 @@
    ],
    "http_status": "blocked",
    "reason_code": "unreachable",
-   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)",
+   "reason_first": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
   },
   "0dd492bab80d16dd": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Breakout coordinator (Launch cross-vendor breakout sessions i",
    "url": "https://github.com/saranyan/breakout-coordinator",
    "source_id": "hn_show",
    "first_dead": "2026-10-29T21:05:37+08:00",
-   "last_try": "2026-10-29T21:05:37+08:00",
+   "last_try": "2026-10-30T10:01:48+08:00",
    "tried": [
     "gh_readme",
     "direct_fetch",
@@ -2976,21 +2978,63 @@
    ],
    "http_status": "blocked",
    "reason_code": "unreachable",
-   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)",
+   "reason_first": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
   },
   "e88bee4e2fce5744": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Gitby",
    "url": "https://gitby.dev",
    "source_id": "hn_show",
    "first_dead": "2026-10-29T21:05:37+08:00",
-   "last_try": "2026-10-29T21:05:37+08:00",
+   "last_try": "2026-10-30T10:01:48+08:00",
    "tried": [
     "direct_fetch"
    ],
    "http_status": 200,
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "48b9dcf6469a10ac": {
+   "attempts": 2,
+   "title": "Turning a big into a feature",
+   "url": "https://v.redd.it/cuz4ave37fwh1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "reason_code": "media",
+   "first_dead": "2026-10-30T09:56:27+08:00",
+   "last_try": "2026-10-30T09:56:27+08:00",
+   "http_status": null,
+   "tried": []
+  },
+  "0e8494f8347d7a29": {
+   "attempts": 2,
+   "title": "One of our players testing out finger guns in our game!",
+   "url": "https://v.redd.it/co9a6rniwiwh1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "reason_code": "media",
+   "first_dead": "2026-10-30T09:56:27+08:00",
+   "last_try": "2026-10-30T09:56:27+08:00",
+   "http_status": null,
+   "tried": []
+  },
+  "9628ff61f1295296": {
+   "attempts": 1,
+   "title": "Show HN: Charter, field-level control over agents' calls into customer",
+   "url": "https://github.com/r28ai/charter",
+   "source_id": "hn_show",
+   "first_dead": "2026-10-30T10:01:48+08:00",
+   "last_try": "2026-10-30T10:01:48+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
   }
  }
 }

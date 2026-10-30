@@ -8,7 +8,7 @@ url: "https://github.com/Gathin23/cleanyourtv"
 project_url: "https://cleanyour.tv/"
 author: "Gathin23"
 published_at: "2026-10-17T08:12:35Z"
-captured_at: "2026-10-29T20:45:27+08:00"
+captured_at: "2026-10-30T09:49:18+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - Python
-  - created:>2026-10-15
-metrics: {"stars": 44677, "forks": 5460, "open_issues": 157}
+  - created:>2026-10-16
+metrics: {"stars": 45547, "forks": 5592, "open_issues": 234}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -28,19 +28,21 @@ discovered_via: "github:14d"
 # Gathin23/cleanyourtv
 
 > [!info] 一句话导读
-> <a href="https://cleanyour.tv"><img src="https://raw.githubusercontent.com/Gathin23/cleanyourtv/main/docs/banner.png" alt="CleanYourTV. Your TV, minus the ads. …
+> <a href="https://cleanyour.tv/halloween"><img src="https://raw.githubusercontent.com/Gathin23/cleanyourtv/main/docs/banner-halloween.png" alt="CleanYourTV, Hall…
 
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/Gathin23/cleanyourtv>
-> 指标：stars=44677 · forks=5460 · open_issues=157
+> 指标：stars=45547 · forks=5592 · open_issues=234
 > 作者：Gathin23　|　发布：2026-10-17T08:12:35Z
 > 项目链接：<https://cleanyour.tv/>
-> 采集：2026-10-29T20:45:27+08:00　|　id：`ab0e470b36e49b22`
+> 采集：2026-10-30T09:49:18+08:00　|　id：`ab0e470b36e49b22`
 
 ## 正文
 
-Read in: 简体中文 · 正體中文 · Tiếng Việt · 日本語 · Italiano · Nederlands · Deutsch
+🎃 New: the Halloween pack (until 1 Nov): cleanyour.tv/halloween
+
+  Read in: 简体中文 · 正體中文 · Tiếng Việt · 日本語 · Italiano · Nederlands · Deutsch
 
 ## Start here
 
@@ -217,7 +219,7 @@ tools/theme.sh themes/aurora                                 # push a theme; --r
 | [`tools/flamechart.py`](tools/flamechart.py) | Draws a before/after flame chart from those traces, for a pull request: one lane per thread on a shared time scale, the work a change targets in magenta with its total. Optional, like the trace tools. [Guide](tools/flamechart.md). |
 | [`tools/screendiff.py`](tools/screendiff.py) | Compares a before and an after screenshot pixel by pixel, leaving out the clock or anything you mask, and writes the pair with your Wi-Fi name blurred. Optional, like the trace tools. [Guide](tools/screendiff.md). |
 | [`tools/race_calendar.py`](tools/race_calendar.py) | Writes this season's F1 calendar into a theme for race-weekend mode, from the free Jolpica API. |
-| [`launcher/build-and-install.sh`](launcher/build-and-install.sh) | Builds a shrunk release (about 532 KB), installs it, switches Home, and rolls back if Home does not land on it. |
+| [`launcher/build-and-install.sh`](launcher/build-and-install.sh) | Builds a shrunk release (about 561 KB), installs it, switches Home, and rolls back if Home does not land on it. |
 
 The scripts never leave the TV without a Home app: they only disable a stock launcher they recognise,
 and skip the Home app in a list until another launcher answers HOME. Your own lists can live outside
@@ -274,7 +276,7 @@ debloat list. What the audit cannot do is prove intent: [docs/privacy.md](docs/p
 
 ## The launcher
 
-A small native home screen for Android TV: **about 532 KB**, plain Java, built for TVs with 1 GB of RAM.
+A small native home screen for Android TV: **about 561 KB**, plain Java, built for TVs with 1 GB of RAM.
 No blur, no video, no network permission, no background services. The **TV** needs Android 8.0 (API 26)
 or newer, the `minSdk` in [`launcher/app/build.gradle`](launcher/app/build.gradle); what is left on an older
 set is in [Troubleshooting](docs/TROUBLESHOOTING.md).
@@ -283,7 +285,7 @@ set is in [Troubleshooting](docs/TROUBLESHOOTING.md).
 |---|---|
 | **Configure** | Dock order, hidden apps, Live TV app, 4 to 7 tiles per row, reduced motion. All in [`config.xml`](launcher/app/src/main/res/values/config.xml) |
 | **Settings on the TV** | Hold OK on Settings for launcher settings. Optional `launcher_settings_button` makes a normal click open them directly; TV settings remain on the settings page and their app tile. |
-| **Themes** | Background, wallpaper and layout from a `config.json` pushed over Wi-Fi, no rebuild. eleven ship in [`themes/`](themes/), the built-in `default/` included |
+| **Themes** | Background, wallpaper and layout from a `config.json` pushed over Wi-Fi, no rebuild. twelve ship in [`themes/`](themes/), the built-in `default/` included |
 | **30 languages** | Follows the TV's language, with a fully mirrored right-to-left layout for Hebrew |
 | **App library** | Optional: browse every installed app and add or remove Home shortcuts. See [the app library guide](docs/app-library.md) |
 | **Tile menu** | Optional (`tile_menu`): hold OK on a tile for Move, Remove from Home and App info. Off, holding OK opens App info |
@@ -481,6 +483,7 @@ MIT, see [`LICENSE`](LICENSE). The Outfit typeface is under the SIL Open Font Li
 - https://cleanyour.tv
 - https://cleanyour.tv/addons
 - https://cleanyour.tv/app
+- https://cleanyour.tv/halloween
 - https://cleanyour.tv/not-android
 - https://cleanyour.tv/tvs
 - https://cleanyour.tv/tvs?q=Amazon%20Fire%20TV
@@ -497,7 +500,6 @@ MIT, see [`LICENSE`](LICENSE). The Outfit typeface is under the SIL Open Font Li
 - https://cleanyour.tv/tvs?q=JVC
 - https://cleanyour.tv/tvs?q=Kalley
 - https://cleanyour.tv/tvs?q=Kogan
-- https://cleanyour.tv/tvs?q=Motorola
 
 ## 导航
 

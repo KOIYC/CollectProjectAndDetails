@@ -8,7 +8,7 @@ url: "https://github.com/Jakeschincariol/replica-skill"
 project_url: "https://opusjake.ai/"
 author: "Jakeschincariol"
 published_at: "2026-10-03T12:07:49Z"
-captured_at: "2026-10-29T20:45:29+08:00"
+captured_at: "2026-10-30T09:49:20+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -19,7 +19,7 @@ tags:
   - github_new
   - Python
   - topic:indie-hacker
-metrics: {"stars": 6370, "forks": 1127, "open_issues": 15}
+metrics: {"stars": 6491, "forks": 1149, "open_issues": 15}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/Jakeschincariol/replica-skill>
-> 指标：stars=6370 · forks=1127 · open_issues=15
+> 指标：stars=6491 · forks=1149 · open_issues=15
 > 作者：Jakeschincariol　|　发布：2026-10-03T12:07:49Z
 > 项目链接：<https://opusjake.ai/>
-> 采集：2026-10-29T20:45:29+08:00　|　id：`056cd65a152e2b1f`
+> 采集：2026-10-30T09:49:20+08:00　|　id：`056cd65a152e2b1f`
 
 ## 正文
 

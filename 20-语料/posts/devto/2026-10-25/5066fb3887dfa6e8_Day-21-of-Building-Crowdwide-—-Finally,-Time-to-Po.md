@@ -8,7 +8,7 @@ url: "https://dev.to/puneetkumar2010/day-21-of-building-crowdwide-finally-time-t
 project_url: "https://github.com/DeveloperPuneet/Crowdwide"
 author: "Puneet Kumar Mishra"
 published_at: "2026-10-23T11:54:10Z"
-captured_at: "2026-10-29T21:03:23+08:00"
+captured_at: "2026-10-30T09:59:17+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -38,7 +38,7 @@ discovered_via: "devto:buildinpublic"
 > 指标：reactions=44 · 评论=239 · reading_time=2
 > 作者：Puneet Kumar Mishra　|　发布：2026-10-23T11:54:10Z
 > 项目链接：<https://github.com/DeveloperPuneet/Crowdwide>
-> 采集：2026-10-29T21:03:23+08:00　|　id：`5066fb3887dfa6e8`
+> 采集：2026-10-30T09:59:17+08:00　|　id：`5066fb3887dfa6e8`
 
 ## 正文
 

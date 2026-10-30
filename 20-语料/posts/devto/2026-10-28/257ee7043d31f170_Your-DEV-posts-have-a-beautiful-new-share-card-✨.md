@@ -8,7 +8,7 @@ url: "https://dev.to/devteam/your-dev-posts-have-a-beautiful-new-share-card-4be8
 project_url: "https://github.com/forem/forem/pull/19826"
 author: "Jess Lee"
 published_at: "2026-10-27T16:44:29Z"
-captured_at: "2026-10-29T20:46:37+08:00"
+captured_at: "2026-10-30T09:50:08+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -21,9 +21,9 @@ tags:
   - showdev
   - opensource
   - design
-metrics: {"reactions": 95, "comments": 21, "reading_time": 2}
-comments_count: 21
-comments_total: 21
+metrics: {"reactions": 126, "comments": 28, "reading_time": 2}
+comments_count: 28
+comments_total: 28
 discovered_via: "devto:showdev"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/devteam/your-dev-posts-have-a-beautiful-new-share-card-4be8>
-> 指标：reactions=95 · 评论=21 · reading_time=2
+> 指标：reactions=126 · 评论=28 · reading_time=2
 > 作者：Jess Lee　|　发布：2026-10-27T16:44:29Z
 > 项目链接：<https://github.com/forem/forem/pull/19826>
-> 采集：2026-10-29T20:46:37+08:00　|　id：`257ee7043d31f170`
+> 采集：2026-10-30T09:50:08+08:00　|　id：`257ee7043d31f170`
 
 ## 正文
 
@@ -84,7 +84,7 @@ In August 2023, Ben moved generation in-house with ImageMagick ([#19949](https:/
 
 Share one of your posts (without a cover image) and take a look at your new card. Tag us ([@thepracticaldev](https://x.com/thepracticaldev)) or me ([@jessleenyc](https://x.com/jessleenyc)) on X so I can admire it. If anything looks off, like a name that renders strangely or a quote that cuts off in a weird spot, let me know in the comments!
 
-## 评论（21/21）
+## 评论（28/28）
 
 > **Jess Lee** · 2026-10-27T16:48:46Z　
 > 😐😐😐😐😐😐
@@ -196,6 +196,41 @@ Share one of your posts (without a cover image) and take a look at your new card
 
 > **Alex Shev** · 2026-10-29T12:21:03Z　
 > Nice improvement. Share cards are part of a post’s distribution surface, so it would be helpful to know how title length, code blocks, and non-Latin text are handled. Those edge cases decide whether the new design stays polished outside the happy path.
+
+---
+
+> **leob** · 2026-10-29T13:44:26Z　
+> Well done, great improvement!
+
+---
+
+> **Shubhra Pokhariya** · 2026-10-29T15:56:43Z　
+> Love this, Jess! Showing the opening lines instead of repeating the title is such a nice touch. And the extra space so X’s label doesn’t cover the author’s name and details is a thoughtful detail too. Great work! 😊
+
+---
+
+> **G-type** · 2026-10-29T18:13:23Z　
+> So great. I love this new design and well, it looks amazing in my emails and messages.
+
+---
+
+> **Jessica Doering** · 2026-10-29T19:02:47Z　
+> Awesome!
+
+---
+
+> **Alex Shev** · 2026-10-29T20:27:25Z　
+> This is a small visual change with a real distribution effect. Consistent share cards make a post legible before anyone reads it; it would be interesting to see an accessible fallback checklist too, especially for titles that become dense at social-preview sizes.
+
+---
+
+> **Klaudia Grzondziel** · 2026-10-29T22:09:57Z　
+> I just noticed the change while sharing a post with a colleague, and now I found this article 😄 Very cool improvement, thank you for your work! 🚀
+
+---
+
+> **Earl Grey** · 2026-10-29T22:25:48Z　
+> Thanks so much!
 
 ## 关联链接
 

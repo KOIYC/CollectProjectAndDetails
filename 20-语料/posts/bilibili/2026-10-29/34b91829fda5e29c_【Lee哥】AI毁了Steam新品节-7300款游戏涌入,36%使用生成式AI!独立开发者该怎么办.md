@@ -8,7 +8,7 @@ url: "https://www.bilibili.com/video/BV1ghxL6tEMy"
 project_url: "https://afdian.com/a/leetgame"
 author: "Lee哥的游戏开发加油站"
 published_at: "2026-10-28T18:00:00+08:00"
-captured_at: "2026-10-29T20:50:39+08:00"
+captured_at: "2026-10-30T09:52:49+08:00"
 lang: "zh"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -23,7 +23,7 @@ tags:
   - unreal
   - godot
   - 经验分享
-metrics: {"play": 4318, "danmaku": 5, "favorites": 66}
+metrics: {"play": 4950, "danmaku": 11, "favorites": 75}
 comments_count: 0
 comments_total: 0
 discovered_via: "bili:独立开发"
@@ -37,10 +37,10 @@ discovered_via: "bili:独立开发"
 > [!meta]- 语料信息（点开展开）
 > 来源：B 站（post）
 > 原帖：<https://www.bilibili.com/video/BV1ghxL6tEMy>
-> 指标：播放=4318 · 弹幕=5 · 收藏=66
+> 指标：播放=4950 · 弹幕=11 · 收藏=75
 > 作者：Lee哥的游戏开发加油站　|　发布：2026-10-28T18:00:00+08:00
 > 项目链接：<https://afdian.com/a/leetgame>
-> 采集：2026-10-29T20:50:39+08:00　|　id：`34b91829fda5e29c`
+> 采集：2026-10-30T09:52:49+08:00　|　id：`34b91829fda5e29c`
 
 ## 正文
 

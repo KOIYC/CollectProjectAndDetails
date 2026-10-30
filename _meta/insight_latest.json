@@ -1,29 +1,29 @@
 {
-  "generated": "2026-10-29T21:11:59+08:00",
-  "n_live": 3608,
-  "n_usable": 3191,
-  "n_project": 2828,
-  "signals": 73,
+  "generated": "2026-10-30T10:09:49+08:00",
+  "n_live": 3688,
+  "n_usable": 3258,
+  "n_project": 2884,
+  "signals": 74,
   "topics": [
     [
       "AI 工具/Agent",
-      1992
+      2034
     ],
     [
       "开发者工具",
-      658
+      673
     ],
     [
       "未分类",
-      299
+      304
     ],
     [
       "游戏",
-      85
+      86
     ],
     [
       "移动 App",
-      55
+      57
     ],
     [
       "SaaS/B2B",
@@ -31,19 +31,19 @@
     ],
     [
       "内容/媒体",
-      21
+      22
     ],
     [
       "教育/学习",
       11
     ],
     [
-      "健康/生活",
+      "电商/独立站",
       8
     ],
     [
-      "电商/独立站",
-      7
+      "健康/生活",
+      8
     ],
     [
       "浏览器扩展",
@@ -93,12 +93,12 @@
         "reddit"
       ],
       "n_channels": 3,
-      "title": "Show HN: Pre Python 3.15 PEP 661 compat-sentinel",
-      "url": "https://pypi.org/project/compat-sentinel",
+      "title": "Show HN: Capo-S3 – a typed, async-first S3 client for Python",
+      "url": "https://pypi.org/project/capo-s3",
       "metrics": {
-        "points": 6,
-        "comments": 1,
-        "engagement_velocity": 6
+        "points": 11,
+        "comments": 2,
+        "engagement_velocity": 11
       }
     },
     {
@@ -189,8 +189,8 @@
       }
     }
   ],
-  "money_signal_n": 1399,
-  "money_evidence_n": 499,
+  "money_signal_n": 1437,
+  "money_evidence_n": 510,
   "money_quotes": [
     {
       "source": "betalist",
@@ -266,10 +266,10 @@
     }
   ],
   "pain_n": {
-    "当前方案不好用": 114,
-    "在找替代品": 63,
-    "做不出来/卡住": 144,
-    "愿意付钱": 74,
+    "当前方案不好用": 115,
+    "在找替代品": 69,
+    "做不出来/卡住": 149,
+    "愿意付钱": 77,
     "想要而找不到": 15
   },
   "by_channel": [
@@ -283,16 +283,16 @@
     {
       "id": "betalist",
       "profile": "linkpost",
-      "n": 245,
-      "ok": 244,
-      "rate": 0.9959183673469387
+      "n": 255,
+      "ok": 254,
+      "rate": 0.996078431372549
     },
     {
       "id": "producthunt",
       "profile": "linkpost",
-      "n": 484,
-      "ok": 479,
-      "rate": 0.9896694214876033
+      "n": 485,
+      "ok": 480,
+      "rate": 0.9896907216494846
     },
     {
       "id": "indiehackers",
@@ -302,18 +302,18 @@
       "rate": 0.9751552795031055
     },
     {
-      "id": "hn_show",
-      "profile": "discussion",
-      "n": 1747,
-      "ok": 1652,
-      "rate": 0.9456210646823126
-    },
-    {
       "id": "bilibili",
       "profile": "metadata",
-      "n": 73,
-      "ok": 69,
-      "rate": 0.9452054794520548
+      "n": 74,
+      "ok": 70,
+      "rate": 0.9459459459459459
+    },
+    {
+      "id": "hn_show",
+      "profile": "discussion",
+      "n": 1787,
+      "ok": 1690,
+      "rate": 0.9457190822607723
     },
     {
       "id": "exa_discovery",
@@ -339,16 +339,16 @@
     {
       "id": "v2ex",
       "profile": "discussion",
-      "n": 185,
-      "ok": 131,
-      "rate": 0.7081081081081081
+      "n": 189,
+      "ok": 134,
+      "rate": 0.708994708994709
     },
     {
       "id": "reddit",
       "profile": "discussion",
-      "n": 556,
-      "ok": 345,
-      "rate": 0.6205035971223022
+      "n": 580,
+      "ok": 359,
+      "rate": 0.6189655172413793
     },
     {
       "id": "c1c7",
@@ -358,5 +358,5 @@
       "rate": 0.2857142857142857
     }
   ],
-  "body_median": 1783
+  "body_median": 1795.0
 }

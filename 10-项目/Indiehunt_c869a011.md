@@ -2,7 +2,7 @@
 type: "project"
 title: "Indiehunt"
 project_url: "https://www.indiehackers.com/product/indiehunt"
-first_seen: "2026-10-29T20:46:10+08:00"
+first_seen: "2026-10-30T09:49:51+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://www.indiehackers.com/product/indiehunt>
-> 首次收录：2026-10-29T20:46:10+08:00
+> 首次收录：2026-10-30T09:49:51+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -30,6 +30,7 @@ lang: "en"
 | 2026-10-27T23:49:41+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-27/c869a011618f25b4_Indiehunt]] |
 | 2026-10-28T09:43:59+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-27/c869a011618f25b4_Indiehunt]] |
 | 2026-10-29T20:46:10+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-27/c869a011618f25b4_Indiehunt]] |
+| 2026-10-30T09:49:51+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-27/c869a011618f25b4_Indiehunt]] |
 
 ## 摘要正文
 

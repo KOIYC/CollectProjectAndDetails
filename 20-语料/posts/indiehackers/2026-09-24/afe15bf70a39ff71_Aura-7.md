@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/aura-7"
 project_url: "https://auraplusplus.com/"
-captured_at: "2026-10-29T20:46:10+08:00"
+captured_at: "2026-10-30T09:49:51+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://auraplusplus.com/>
-> 采集：2026-10-29T20:46:10+08:00　|　id：`afe15bf70a39ff71`
+> 采集：2026-10-30T09:49:51+08:00　|　id：`afe15bf70a39ff71`
 
 ## 正文
 
@@ -56,8 +56,8 @@ Disclosure first, since it matters for this one: I run a few launch sites myself
  None of this takes more than ten minutes, and it's the difference between buying a backlink and buying a nicer badge. If you want a wider list of where to launch when you're bootstrapped, I keep notes on launch platforms that make sense for bootstrapped founders .
  What's on your list before you pay a directory? Have you ever bought a premium slot and found out it was nofollow later?
 Praneet Brar
-6 Upvotes
-3 Comments
+12 Upvotes
+4 Comments
 October 28, 2026
  Two pages on Hunt0's own site disagree about its backlinks. Read both before you count on one
 I was writing a how-it-works guide for Hunt0 this week and ended up reading their pages way more carefully than I normally would. Two of them don't agree with each other.

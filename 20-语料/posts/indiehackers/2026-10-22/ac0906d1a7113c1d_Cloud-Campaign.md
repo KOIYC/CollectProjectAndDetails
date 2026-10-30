@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/cloud-campaign"
 project_url: "https://angel.co/company/cloudcampaign/jobs/898766-fullstack-software-engineer"
-captured_at: "2026-10-29T20:46:10+08:00"
+captured_at: "2026-10-30T09:49:51+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://angel.co/company/cloudcampaign/jobs/898766-fullstack-software-engineer>
-> 采集：2026-10-29T20:46:10+08:00　|　id：`ac0906d1a7113c1d`
+> 采集：2026-10-30T09:49:51+08:00　|　id：`ac0906d1a7113c1d`
 
 ## 正文
 
@@ -54,7 +54,7 @@ Couple the AI captions with Cloud Campaign's full-suite of social media manageme
 You can even have the AI write captions in the tone of your favorite influencer. @csallen 👀 watch out for the look-a-likes.
 https://www.cloudcampaign.com/solutions/captionai
 Ryan Born
-3 Upvotes
+4 Upvotes
 Comment
 March 30, 2023
  Cloud Campaign is now used in 120 countries
@@ -122,8 +122,8 @@ Ryan - CEO
 We're actively hiring for a fullstack engineer in Boulder, CO:
 https://angel.co/company/cloudcampaign/jobs/898766-fullstack-software-engineer
 Ryan Born
-2 Upvotes
-2 Comments
+3 Upvotes
+3 Comments
 May 15, 2020
  We hired a UX designer
 Instagram Grid Preview - Cloud Campaign updates

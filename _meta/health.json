@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-10-29T20:41:33+08:00",
+ "checked_at": "2026-10-30T09:45:26+08:00",
  "channels": [
   {
    "channel_id": "hn_show",
@@ -10,16 +10,16 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 1.4,
-   "probe_at": "2026-10-29T20:39:44+08:00",
+   "elapsed_s": 4.0,
+   "probe_at": "2026-10-30T09:42:31+08:00",
    "sample": [
     {
-     "title": "Show HN: Sovereign – free financial crisis SIM webgame",
-     "url": "https://news.ycombinator.com/item?id=50287659"
+     "title": "Show HN: Arken – Passwordless auth middleware using secp256k1 keys",
+     "url": "https://news.ycombinator.com/item?id=50298738"
     },
     {
-     "title": "Show HN: AI social media interview platform",
-     "url": "https://news.ycombinator.com/item?id=50287379"
+     "title": "Show HN: Cubic Doggo 07B Wouf: A low-cost open-source quadruped with ST3215",
+     "url": "https://news.ycombinator.com/item?id=50298302"
     }
    ]
   },
@@ -32,16 +32,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
-   "elapsed_s": 21.6,
-   "probe_at": "2026-10-29T20:40:06+08:00",
+   "elapsed_s": 20.5,
+   "probe_at": "2026-10-30T09:42:52+08:00",
    "sample": [
     {
-     "title": "I got tired of hunting through menus, so we built a ring of actions that opens a",
-     "url": "https://www.reddit.com/r/SideProject/comments/1x9vm03/i_got_tired_of_hunting_through_menus_so_we_built/"
+     "title": "You didn't kill SaaS. You just invented a new form of unemployment.",
+     "url": "https://www.reddit.com/r/SaaS/comments/1xaak7b/you_didnt_kill_saas_you_just_invented_a_new_form/"
     },
     {
-     "title": "work in progress",
-     "url": "https://www.reddit.com/r/IndieDev/comments/1x9udvh/work_in_progress/"
+     "title": "Have the “replace in a weekend crowd” never heard of open source?",
+     "url": "https://www.reddit.com/r/SaaS/comments/1xabkdj/have_the_replace_in_a_weekend_crowd_never_heard/"
     }
    ]
   },
@@ -54,16 +54,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 56.3,
-   "probe_at": "2026-10-29T20:35:29+08:00",
+   "elapsed_s": 3.8,
+   "probe_at": "2026-10-30T09:42:55+08:00",
    "sample": [
     {
      "title": "Gathin23/cleanyourtv",
      "url": "https://github.com/Gathin23/cleanyourtv"
     },
     {
-     "title": "deepseek-ai/DeepInfer",
-     "url": "https://github.com/deepseek-ai/DeepInfer"
+     "title": "Zagitta/gpu-unlock",
+     "url": "https://github.com/Zagitta/gpu-unlock"
     }
    ]
   },
@@ -76,8 +76,8 @@
    "status": "ok",
    "count": 3,
    "message": "3 startups · 发布日 3/3",
-   "elapsed_s": 6.6,
-   "probe_at": "2026-10-29T20:40:12+08:00",
+   "elapsed_s": 5.6,
+   "probe_at": "2026-10-30T09:43:01+08:00",
    "sample": [
     {
      "title": "Schoolwize",
@@ -98,8 +98,8 @@
    "status": "ok",
    "count": 3,
    "message": "23 products",
-   "elapsed_s": 9.8,
-   "probe_at": "2026-10-29T20:40:22+08:00",
+   "elapsed_s": 11.7,
+   "probe_at": "2026-10-30T09:43:13+08:00",
    "sample": [
     {
      "title": "Launchon It",
@@ -120,8 +120,8 @@
    "status": "ok",
    "count": 2,
    "message": "2 articles",
-   "elapsed_s": 35.1,
-   "probe_at": "2026-10-29T20:40:57+08:00",
+   "elapsed_s": 1.9,
+   "probe_at": "2026-10-30T09:43:15+08:00",
    "sample": [
     {
      "title": "Promise Delivered: Welcome to the DEV Hall of Fame (65 Authors, 65 Masterpieces)",
@@ -142,16 +142,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 entries",
-   "elapsed_s": 2.1,
-   "probe_at": "2026-10-29T20:40:59+08:00",
+   "elapsed_s": 1.3,
+   "probe_at": "2026-10-30T09:43:16+08:00",
    "sample": [
     {
      "title": "AutoShelf 2.6",
      "url": "https://www.producthunt.com/products/autoshelf"
     },
     {
-     "title": "Empacer",
-     "url": "https://www.producthunt.com/products/empacer"
+     "title": "Radar",
+     "url": "https://www.producthunt.com/products/radar-7"
     }
    ]
   },
@@ -164,16 +164,16 @@
    "status": "ok",
    "count": 3,
    "message": "20 topics",
-   "elapsed_s": 0.6,
-   "probe_at": "2026-10-29T20:41:00+08:00",
+   "elapsed_s": 1.1,
+   "probe_at": "2026-10-30T09:43:17+08:00",
    "sample": [
     {
-     "title": "[Midalo 中转站]一个 Key 调用 Claude、GPT、Gemini、DeepSeek、grok 等主流模型，支持国内直连与按量计费，欢迎前来试吃！",
-     "url": "https://www.v2ex.com/t/1252940"
+     "title": "AI 交互产品负责人 | 远程",
+     "url": "https://www.v2ex.com/t/1253022"
     },
     {
-     "title": "ai 应用创业公司招聘-北京",
-     "url": "https://www.v2ex.com/t/1252876"
+     "title": "因为忍受不了兄弟打印机手机打印的锯齿和 Word 变字体，我手搓了套 600/1200DPI 1-Bit 点阵渲染引擎 + 免费多端远程打印网关",
+     "url": "https://www.v2ex.com/t/1253015"
     }
    ]
   },
@@ -185,17 +185,17 @@
    "group": "中文社媒",
    "status": "ok",
    "count": 3,
-   "message": "10 videos",
-   "elapsed_s": 0.6,
-   "probe_at": "2026-10-29T20:41:01+08:00",
+   "message": "7 videos",
+   "elapsed_s": 0.8,
+   "probe_at": "2026-10-30T09:43:18+08:00",
    "sample": [
     {
-     "title": "【Lee哥】AI毁了Steam新品节？7300款游戏涌入，36%使用生成式AI！独立开发者该怎么办？ | 游戏开发 | 案例分析",
-     "url": "https://www.bilibili.com/video/BV1ghxL6tEMy"
+     "title": "我做的 App，两次改变了我的命运",
+     "url": "https://www.bilibili.com/video/BV1MxuQ6SEVC"
     },
     {
-     "title": "一分钱不花，完成独立产品从0上线！2026年独立开发者免费全家桶",
-     "url": "https://www.bilibili.com/video/BV1sFWA6VEgC"
+     "title": "2026 现代 Android 开发完整课程｜Kotlin + Jetpack Compose",
+     "url": "https://www.bilibili.com/video/BV19XaA6jEEF"
     }
    ]
   },
@@ -208,8 +208,8 @@
    "status": "ok",
    "count": 3,
    "message": "9 entries · 收录日 9",
-   "elapsed_s": 3.6,
-   "probe_at": "2026-10-29T20:41:04+08:00",
+   "elapsed_s": 9.9,
+   "probe_at": "2026-10-30T09:43:28+08:00",
    "sample": [
     {
      "title": "Indie Hacker",
@@ -230,12 +230,12 @@
    "status": "ok",
    "count": 3,
    "message": "8 results",
-   "elapsed_s": 15.7,
-   "probe_at": "2026-10-29T20:36:27+08:00",
+   "elapsed_s": 13.5,
+   "probe_at": "2026-10-30T09:43:41+08:00",
    "sample": [
     {
-     "title": "\"Cozy Sim Warehouse Catastrophe Launches Today on PC\" - Games Press",
-     "url": "https://www.gamespress.com/Cozy-Sim-Warehouse-Catastrophe-Launches-Today-on-PC"
+     "title": "\"Farkle: Tavern Dice Launches on Steam, Bringing Classic Dice Gameplay to an Atm",
+     "url": "https://www.gamespress.com/Farkle-Tavern-Dice-Launches-on-Steam-Bringing-Classic-Dice-Gameplay-to"
     },
     {
      "title": "\"Copperfell: OUT NOW!\" - Games Press",
@@ -251,9 +251,9 @@
    "group": "海外社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 22s\nok: false\nerr",
-   "elapsed_s": 58.1,
-   "probe_at": "2026-10-29T20:37:25+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 18s\nok: false\nerr",
+   "elapsed_s": 42.0,
+   "probe_at": "2026-10-30T09:44:23+08:00",
    "sample": []
   },
   {
@@ -265,8 +265,8 @@
    "status": "ok",
    "count": 1,
    "message": "1 items（1 路查询）",
-   "elapsed_s": 23.4,
-   "probe_at": "2026-10-29T20:37:48+08:00",
+   "elapsed_s": 30.7,
+   "probe_at": "2026-10-30T09:44:54+08:00",
    "sample": [
     {
      "title": "我准备干一辈子独立开发了",
@@ -284,7 +284,7 @@
    "delta": false,
    "message": "ERR: <urlopen error timed out>",
    "elapsed_s": 20.1,
-   "probe_at": "2026-10-29T20:41:25+08:00"
+   "probe_at": "2026-10-30T09:45:16+08:00"
   },
   {
    "backend": "arctic_shift",
@@ -293,8 +293,8 @@
    "declared": "not_added",
    "delta": false,
    "message": "5 rows",
-   "elapsed_s": 2.0,
-   "probe_at": "2026-10-29T20:41:27+08:00"
+   "elapsed_s": 1.1,
+   "probe_at": "2026-10-30T09:45:17+08:00"
   },
   {
    "backend": "exa_web_fetch",
@@ -303,18 +303,18 @@
    "declared": "warn",
    "delta": false,
    "message": "1 url 返回正文",
-   "elapsed_s": 4.6,
-   "probe_at": "2026-10-29T20:41:32+08:00"
+   "elapsed_s": 9.3,
+   "probe_at": "2026-10-30T09:45:26+08:00"
   },
   {
    "backend": "github_gh",
    "use": "GitHub 取数 (gh CLI)",
-   "status": "ok",
+   "status": "unusable",
    "declared": "unverified",
    "delta": false,
-   "message": "remaining=5000",
-   "elapsed_s": 1.6,
-   "probe_at": "2026-10-29T20:41:33+08:00"
+   "message": "error connecting to api.github.com\ncheck your internet connection or https://githubstatus.com\n",
+   "elapsed_s": 0.3,
+   "probe_at": "2026-10-30T09:45:26+08:00"
   }
  ],
  "summary": {
@@ -393,7 +393,7 @@
  ],
  "agent_reach": {
   "ok": true,
-  "checked_at": "2026-10-29T20:41:05+08:00",
+  "checked_at": "2026-10-30T09:44:56+08:00",
   "version": "1.6.0",
   "error": null,
   "platforms": 14

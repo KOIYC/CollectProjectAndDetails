@@ -7,7 +7,7 @@ source_name: "Product Hunt"
 url: "https://www.producthunt.com/products/notch-metrics"
 author: "Musthaq Ahamad"
 published_at: "2026-10-28T02:57:56-07:00"
-captured_at: "2026-10-29T20:50:14+08:00"
+captured_at: "2026-10-30T09:52:22+08:00"
 lang: "en"
 kind: "post"
 topic: "SaaS/B2B"
@@ -25,7 +25,7 @@ discovered_via: "producthunt"
 # Notch Metrics
 
 > [!info] 一句话导读
-> Put your revenue and product analytics metrics in the notch
+> Use claude code to build analytics widgets for your notch
 
 > [!meta]- 语料信息（点开展开）
 > 来源：Product Hunt（post）
@@ -33,11 +33,11 @@ discovered_via: "producthunt"
 > 指标：—
 > 作者：Musthaq Ahamad　|　发布：2026-10-28T02:57:56-07:00
 > 项目链接：—
-> 采集：2026-10-29T20:50:14+08:00　|　id：`fc69a3c8ff22be5f`
+> 采集：2026-10-30T09:52:22+08:00　|　id：`fc69a3c8ff22be5f`
 
 ## 正文
 
-Put your revenue and product analytics metrics in the notch
+Use claude code to build analytics widgets for your notch
 
  Discussion
  |

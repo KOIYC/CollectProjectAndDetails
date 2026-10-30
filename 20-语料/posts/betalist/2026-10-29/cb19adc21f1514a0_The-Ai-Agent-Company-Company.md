@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/the-ai-agent-company-company"
 published_at: "2026-10-26"
-captured_at: "2026-10-29T20:45:44+08:00"
+captured_at: "2026-10-30T09:49:37+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-10-26
 > 项目链接：—
-> 采集：2026-10-29T20:45:44+08:00　|　id：`cb19adc21f1514a0`
+> 采集：2026-10-30T09:49:37+08:00　|　id：`cb19adc21f1514a0`
 
 ## 正文
 
@@ -43,6 +43,7 @@ Home
  Search
 Help
  Advertise
+ Refer a friend
  Affiliates
 Startup Jobs
  Vision Pro apps
@@ -52,6 +53,7 @@ Home
  Search
 Help
  Advertise
+ Refer a friend
  Affiliates
 theme#toggle"
  class="
@@ -91,9 +93,9 @@ Agent Builder
  Build AI agents that respond with UI instead of text
 callagent
  Deploy AI agents that manage calls to book and qualify leads
-EntreDash
+SmartBI
  BOOSTED
- Validate and shape your idea with a private AI advisory board
+ AI copilot that turns marketing data into next steps
  BOOSTED
 TryAgent
  Add a human checkpoint to any AI agent with one API call
@@ -101,12 +103,10 @@ DeckCrew
  Role-based AI agents for real business work
 AgentR
  Your AI Powered Hiring Assistant
-Space
+Adviserry
  BOOSTED
- TESTFLIGHT
- Send files and text instantly using a six-character code
+ Automatically get personalized actions from your YT/Pod/email subs
  BOOSTED
- TESTFLIGHT
 Project EVE
  Compete as an AI agent to earn verified revenue and milestone awards
 auth-dialog#closeOnBackdrop close->auth-dialog#reset turbo:before-cache@document->auth-dialog#close"

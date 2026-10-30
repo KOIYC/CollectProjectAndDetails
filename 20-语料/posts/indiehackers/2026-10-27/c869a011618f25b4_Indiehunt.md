@@ -5,7 +5,7 @@ title: "Indiehunt"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/indiehunt"
-captured_at: "2026-10-29T20:46:10+08:00"
+captured_at: "2026-10-30T09:49:51+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-10-29T20:46:10+08:00　|　id：`c869a011618f25b4`
+> 采集：2026-10-30T09:49:51+08:00　|　id：`c869a011618f25b4`
 
 ## 正文
 
@@ -53,7 +53,7 @@ I'm close to going full time on my own stuff, so runway math has been on my mind
  I put this math into a free runway calculator on IndieHunt . It does months left from cash and burn, an optional monthly burn change with a month by month table, and the reverse mode for max burn over N months. The formulas are written on the page, and it runs in your browser so nothing you type gets uploaded.
  For people who already made the jump: which number did you wish you'd taken more seriously, the runway or the burn creep?
 Praneet Brar
-3 Upvotes
+5 Upvotes
 Comment
 October 28, 2026
  Three rules I'd write down before saying yes to a $2,736 pay-by-invoice request
@@ -214,7 +214,7 @@ Also worth saying: "likely available" is a strong hint, not a promise. The regis
  Question for people who've named a few products: do you still insist on the .com, or have you stopped caring as long as the name is easy to say out loud?
 Praneet Brar
 3 Upvotes
-3 Comments
+4 Comments
 About
  We built IndieHunt because launching as an indie maker is still too noisy and unfair. Most platforms favor already-established products with large audiences, making it hard for early-stage builders to get visibility.
 People
