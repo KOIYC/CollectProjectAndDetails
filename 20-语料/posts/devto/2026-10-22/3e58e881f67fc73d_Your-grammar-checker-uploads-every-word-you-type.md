@@ -8,7 +8,7 @@ url: "https://dev.to/rudratosh/your-grammar-checker-uploads-every-word-you-type-
 project_url: "https://brisktype.com/"
 author: "Rudratosh Shastri"
 published_at: "2026-10-19T18:06:54Z"
-captured_at: "2026-10-29T20:47:17+08:00"
+captured_at: "2026-11-01T09:40:51+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,7 +21,7 @@ tags:
   - ai
   - macos
   - indiehackers
-metrics: {"reactions": 8, "comments": 20, "reading_time": 6}
+metrics: {"reactions": 9, "comments": 20, "reading_time": 6}
 comments_count: 20
 comments_total: 20
 discovered_via: "devto:indiehackers"
@@ -35,10 +35,10 @@ discovered_via: "devto:indiehackers"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/rudratosh/your-grammar-checker-uploads-every-word-you-type-i-built-one-that-never-leaves-your-mac-8pj>
-> 指标：reactions=8 · 评论=20 · reading_time=6
+> 指标：reactions=9 · 评论=20 · reading_time=6
 > 作者：Rudratosh Shastri　|　发布：2026-10-19T18:06:54Z
 > 项目链接：<https://brisktype.com/>
-> 采集：2026-10-29T20:47:17+08:00　|　id：`3e58e881f67fc73d`
+> 采集：2026-11-01T09:40:51+08:00　|　id：`3e58e881f67fc73d`
 
 ## 正文
 

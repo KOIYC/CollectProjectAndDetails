@@ -2,7 +2,7 @@
 type: "project"
 title: "What I learned building wfreq"
 project_url: "https://crates.io/crates/thiserror"
-first_seen: "2026-10-29T20:47:20+08:00"
+first_seen: "2026-11-01T09:40:54+08:00"
 sources:
   - devto
 tags:
@@ -22,16 +22,17 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://crates.io/crates/thiserror>
-> 首次收录：2026-10-29T20:47:20+08:00
+> 首次收录：2026-11-01T09:40:54+08:00
 > 来源渠道：dev.to
 > 标签：rust, cli, buildinpublic, discuss
-> 最新指标：reactions=12 · 评论=3 · reading_time=5
+> 最新指标：reactions=22 · 评论=3 · reading_time=5
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-10-29T20:47:20+08:00 | dev.to | reactions=12 · 评论=3 · reading_time=5 | [[20-语料/posts/devto/2026-10-29/916ec5f34791cb5a_What-I-learned-building-wfreq]] |
+| 2026-11-01T09:40:54+08:00 | dev.to | reactions=22 · 评论=3 · reading_time=5 | [[20-语料/posts/devto/2026-10-29/916ec5f34791cb5a_What-I-learned-building-wfreq]] |
 
 ## 摘要正文
 

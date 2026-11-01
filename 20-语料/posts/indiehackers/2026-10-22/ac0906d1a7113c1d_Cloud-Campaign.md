@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/cloud-campaign"
 project_url: "https://angel.co/company/cloudcampaign/jobs/898766-fullstack-software-engineer"
-captured_at: "2026-10-30T09:49:51+08:00"
+captured_at: "2026-11-01T09:40:34+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://angel.co/company/cloudcampaign/jobs/898766-fullstack-software-engineer>
-> 采集：2026-10-30T09:49:51+08:00　|　id：`ac0906d1a7113c1d`
+> 采集：2026-11-01T09:40:34+08:00　|　id：`ac0906d1a7113c1d`
 
 ## 正文
 
@@ -43,7 +43,7 @@ Cloud Campaign
 Visit Website
 Cloud Campaign Social media marketing software for digital agencies.
  Posts 60+
- Revenue $413K / mo
+ Revenue $406K / mo
  Website Twitter Facebook
 June 9, 2023
  AI Generated Social Media Captions
@@ -86,7 +86,7 @@ The top ~20 countries (ordered by number of users) are:
 🇻🇪 Venezuela
 Ryan Born
 1 Upvote
-Comment
+1 Comment
 September 30, 2020
  We crossed $1M ARR
 Thinking back 3 years ago when I started the company and it was just me working from my apartment, I thought this day would never come.

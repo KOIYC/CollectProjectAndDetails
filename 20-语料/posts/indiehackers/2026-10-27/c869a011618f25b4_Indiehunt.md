@@ -5,7 +5,7 @@ title: "Indiehunt"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/indiehunt"
-captured_at: "2026-10-30T09:49:51+08:00"
+captured_at: "2026-11-01T09:40:34+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-10-30T09:49:51+08:00　|　id：`c869a011618f25b4`
+> 采集：2026-11-01T09:40:34+08:00　|　id：`c869a011618f25b4`
 
 ## 正文
 
@@ -44,6 +44,33 @@ Indiehunt Launch your product on Indiehunt to get discovered by indies
  Posts 46+
  Revenue $500 / mo
  Website Twitter
+October 31, 2026
+ Four lines I'd cut from a cold email to a first B2B customer
+I've been rereading cold emails I sent early on, and honestly most of them were about me. Who I am, what I built, how excited I am. The person reading it has maybe eight seconds and none of that helps them decide anything.
+ These are the four lines I'd delete now, before hitting send.
+ 1. "I hope this email finds you well." Everyone knows it's filler. The first line is the only one that's sure to get read, so it should be about them. Something specific you noticed, like a job post they have open or a thing they complained about publicly.
+ 2. "My name is X and I'm the founder of Y." It's in the signature already. If the email is good they'll look.
+ 3. The feature list. Three or four bullets of what the product does. I'd swap that for one sentence about the one problem I think they have, and why I think they have it. If I'm wrong, they'll often tell me, and that's still a useful reply.
+ 4. "Would you be open to a 30 minute call?" Thirty minutes with a stranger is a big ask for a first email. A smaller ask works better for me: "Is this a problem for you, or am I off?" It's a yes/no question they can answer from their phone.
+ What's left is short. Maybe five sentences. That felt rude to me at first, like I wasn't trying hard enough. But short is what respects their time, and it's easier to send 20 good ones than 100 long ones.
+ IndieHunt's Studio has a fuller guide to sending cold emails to your first B2B customers , including how to pick who gets them in the first place.
+ Which line do you still keep in your cold emails even though you suspect it doesn't help?
+Praneet Brar
+3 Upvotes
+Comment
+October 30, 2026
+ Three questions I ask before I run another discount code, now that our 40% off one has ended
+We had a 40% off launch code running on one of our sites, and it ended on Oct 25. Before I set up the next one, I wanted a rule for myself. Discounts are the easiest marketing to ship. One field in Stripe or Polar and you feel like you did something. That's kind of the problem.
+ So here are the three questions I'm going to answer, in writing, before another code goes live.
+ 1. Would this person have paid full price anyway? If the code is sitting on the checkout page where everyone sees it, the answer is often yes. You're not buying new customers, you're cutting the price for the ones you already had. A code that only goes out in one place, a newsletter or a single community post, at least tells you where it worked.
+ 2. What's the end date, and will I actually stick to it? A launch code that quietly runs for weeks stops being a launch code. It's just your real price, and the "full" price on the page turns into fiction. If I can't name the day it ends, I don't run it.
+ 3. What does the price look like the day after it ends? Our launch listings are $29 across all six sites now. 40% off that is about $17. If a lot of people only showed up at $17, that's useful pricing info, not a win to repeat. Maybe the price is wrong. Maybe the page isn't explaining why it's worth $29. A discount can hide both.
+ None of this means "never discount". A short, dated code for a specific crowd is fine. A permanent one is a price change you didn't decide on.
+ If you want something besides discounts to move people up a plan, IndieHunt's Studio has a piece on getting customers to upgrade without nagging them .
+ Do you run launch discounts? And did you ever go back to full price without losing the people who came in at the discount?
+Praneet Brar
+1 Upvote
+Comment
 October 29, 2026
  Three runway numbers I'd want written down before quitting a job to go indie
 I'm close to going full time on my own stuff, so runway math has been on my mind a lot this month. The thing I noticed is that "how many months do I have" is the question everyone asks, and it's the least useful one on its own. These are the three numbers I'd want on paper before handing in notice.
@@ -95,7 +122,7 @@ Every few weeks someone suggests I do a lifetime deal. Quick cash, a pile of use
  Anyone here did an LTD early and still glad about it? Or the opposite. I'd like to hear the number of paying customers you had when you did it.
 Praneet Brar
 1 Upvote
-3 Comments
+4 Comments
 October 25, 2026
  Three questions I ask before I build an integration a customer asked for
 Integration requests are the hardest ones for me to say no to. They sound small ("just connect it to Notion"), they come from people who are actually paying, and they look great on a features page. They're also the stuff that quietly eats a month and then breaks every time the other company changes their API.
@@ -175,46 +202,6 @@ The ask in all three is the click to the product, not the upvote. If someone lik
 Praneet Brar
 4 Upvotes
 1 Comment
-October 21, 2026
- Unpopular rule: I hold one finished feature back from a weekly launch until Thursday
-This one usually gets pushback when I say it out loud, so let me just put it here.
- When I launch on a weekly board, I don't ship everything I have ready on Monday. I keep one small, finished feature in a branch and ship it on Thursday. On purpose.
- The reason is how weekly launches actually behave. On a weekly board like IndieHunt the week starts Monday 8:00am UTC and runs seven days. Monday is loud, Tuesday is ok, and then by Wednesday the listing is mostly quiet. People who saw it once already decided "cool, maybe later". Nothing new is happening, so nobody has a reason to look again.
- The Thursday feature is the reason. It's not marketing really, it's giving the listing a second day.
- Worked example. Say I'm launching a little invoice tool. Monday it goes out with the core thing: make an invoice, send it, get paid. I already have CSV export done and working, and I hold it back. Monday and Tuesday I'm in the comments. If anyone asks about export, I say honestly "it's done, shipping Thursday". Thursday morning I ship it, then I:
- reply under the launch listing with one line on what shipped and who asked for it
-email the people who signed up that week, short, just "the export you asked about is live"
-update the listing description if the board lets me
-That's three reasons for someone who already saw it to come back, and none of them is "please upvote".
- Some rules so this doesn't become a trick:
- the held feature must be finished and tested, not a promise
-it can't be the main thing. If the core product is weak on Monday, holding stuff back makes it worse
-if someone needs it on Monday for real, they get it. I'll just send them the build
-The obvious counter argument is "ship everything, first impression is all you get". I get it. But a weekly board isn't a first impression, it's seven days, and most launches I see have nothing to say after day two. The dropoff after the first days is a pattern, not bad luck. There's a longer piece on what happens when launch week traffic fades on the IndieHunt blog if you want the why behind it.
- If you're launching on a Monday week anyway, IndieHunt is where I try this, but the rule works on any board that runs longer than a day.
- So tell me where I'm wrong. Would you rather show everything on day one, or have you seen a mid-week ship actually bring people back?
-Praneet Brar
-1 Upvote
-Comment
-October 20, 2026
- I shipped a domain checker that says "can't check" for .io and .co instead of guessing
-Yesterday I added a small free domain name checker to IndieHunt. You type a startup name and it checks six endings: .com, .io, .co, .app, .dev and .ai. No signup.
- The part I want to talk about is the honest answer it gives for two of those six. When you check a name, .io and .co come back as "Can't check via RDAP". Not available, not taken. Just can't check.
- Quick background on why. The checker uses RDAP, which is basically the modern structured version of WHOIS. IANA publishes a bootstrap file that says which RDAP server handles which ending. The tool loads that, and for each ending it asks that registry's server about the name. If the server says 404, the name is likely available. If it says 200, it's registered, and you often get the registrar and the registration date too. A timeout or anything else, it says it couldn't check.
- And .io and .co simply don't have an RDAP server in that bootstrap file. So there's nothing reliable to ask.
- A lot of domain checkers will still show you a green tick or a red cross for those endings. I don't know exactly how each one does it, but if there's no source to ask, the answer is coming from somewhere else, maybe a registrar search, maybe a guess. I didn't want to ship a guess, so it says so instead. Same reason the launch stats pages say "Not tracked yet" instead of a made-up number.
- What it shows on a real name, I ran "google" through it on Oct 19:
- google.com : registered, registrar MarkMonitor, registration date 15 Sept 1997 (straight from Verisign's RDAP server)
-google.ai : registered Dec 2017
-google.app : registered March 2018
-google.dev : registered June 2018
-google.io and google.co : Can't check via RDAP
-Also worth saying: "likely available" is a strong hint, not a promise. The registrar you buy from has the final say, and a name can be reserved or premium priced even when the registry says 404.
- If you're naming something this week you can try the free domain name checker on IndieHunt . For .io and .co you'll still need to check at a registrar, sorry, I'd rather tell you that than fake it.
- Question for people who've named a few products: do you still insist on the .com, or have you stopped caring as long as the name is easy to say out loud?
-Praneet Brar
-3 Upvotes
-4 Comments
 About
  We built IndieHunt because launching as an indie maker is still too noisy and unfair. Most platforms favor already-established products with large audiences, making it hard for early-stage builders to get visibility.
 People

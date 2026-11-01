@@ -2,7 +2,7 @@
 type: "project"
 title: "Launchon It"
 project_url: "https://launchon.it/"
-first_seen: "2026-10-30T09:49:51+08:00"
+first_seen: "2026-11-01T09:40:34+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://launchon.it/>
-> 首次收录：2026-10-30T09:49:51+08:00
+> 首次收录：2026-11-01T09:40:34+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -45,7 +45,8 @@ lang: "en"
 | 2026-10-28T09:43:59+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
 | 2026-10-29T20:46:10+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
 | 2026-10-30T09:49:51+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
+| 2026-11-01T09:40:34+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
 
 ## 摘要正文
 
-Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join LaunchOnIt  Product launch platform for indie startups. Visit Website LaunchOnIt Product launch platform for indie startups.  Posts 52+  Revenue $0 / mo  Website Twitter October 29, 2026  Why are we still filling out manual directory forms in 2026 when we have AI coding agents? If you are a developer or solo founder building software right now, your daily life probably revolves around your IDE, terminal, and AI coding assistants like Cursor or Claude Code. We automate our database migrations, our Vercel deployments, and our test suites without blinking an eye.  Yet, the moment we finish building a product and need to market it, we regress back to 2015.  We open ten browser tabs, manually copy-paste descriptions, resize logos, and fill out endless directory and submission forms just to get basic distribution. It is an enormous amount of context-switching friction for tasks a script or an agent could handle in seconds.  This friction is exactly why we decided to change things on LaunchOnIt .  Instead of forcing makers to use static web form…
+Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join LaunchOnIt  Product launch platform for indie startups. Visit Website LaunchOnIt Product launch platform for indie startups.  Posts 54+  Revenue $0 / mo  Website Twitter October 31, 2026  Why we built an affiliate program for our launch platform and how indie makers are using it When you run an early-stage startup or a launch platform, customer acquisition usually comes down to two things: a massive outbound grind or relying purely on organic word-of-mouth.  While organic growth is amazing, it moves slowly. To really speed things up without burning money on paid ads, you need to align incentives with people who already talk to founders every single day.  That is why we decided to open up a dedicated affiliate program for LaunchOn.it .  Instead of keeping all the growth loops internal, we wanted to reward the writers, community builders, newsletter creators, and SEO folks who constantly help indie hackers find better distribution tools. If someone is already recommending alternatives to Product Hunt or talking about building in public, the…

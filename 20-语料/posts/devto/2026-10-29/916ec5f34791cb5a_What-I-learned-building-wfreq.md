@@ -8,7 +8,7 @@ url: "https://dev.to/yashksaini/what-i-learned-building-wfreq-52f5"
 project_url: "https://crates.io/crates/thiserror"
 author: "Yash Kumar Saini"
 published_at: "2026-10-28T15:10:42Z"
-captured_at: "2026-10-29T20:47:20+08:00"
+captured_at: "2026-11-01T09:40:54+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -21,7 +21,7 @@ tags:
   - cli
   - buildinpublic
   - discuss
-metrics: {"reactions": 12, "comments": 3, "reading_time": 5}
+metrics: {"reactions": 22, "comments": 3, "reading_time": 5}
 comments_count: 3
 comments_total: 3
 discovered_via: "devto:buildinpublic"
@@ -35,10 +35,10 @@ discovered_via: "devto:buildinpublic"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/yashksaini/what-i-learned-building-wfreq-52f5>
-> 指标：reactions=12 · 评论=3 · reading_time=5
+> 指标：reactions=22 · 评论=3 · reading_time=5
 > 作者：Yash Kumar Saini　|　发布：2026-10-28T15:10:42Z
 > 项目链接：<https://crates.io/crates/thiserror>
-> 采集：2026-10-29T20:47:20+08:00　|　id：`916ec5f34791cb5a`
+> 采集：2026-11-01T09:40:54+08:00　|　id：`916ec5f34791cb5a`
 
 ## 正文
 

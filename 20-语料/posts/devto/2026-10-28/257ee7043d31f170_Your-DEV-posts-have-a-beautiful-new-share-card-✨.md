@@ -8,7 +8,7 @@ url: "https://dev.to/devteam/your-dev-posts-have-a-beautiful-new-share-card-4be8
 project_url: "https://github.com/forem/forem/pull/19826"
 author: "Jess Lee"
 published_at: "2026-10-27T16:44:29Z"
-captured_at: "2026-10-30T09:50:08+08:00"
+captured_at: "2026-11-01T09:40:47+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -21,9 +21,9 @@ tags:
   - showdev
   - opensource
   - design
-metrics: {"reactions": 126, "comments": 28, "reading_time": 2}
-comments_count: 28
-comments_total: 28
+metrics: {"reactions": 150, "comments": 34, "reading_time": 2}
+comments_count: 34
+comments_total: 34
 discovered_via: "devto:showdev"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/devteam/your-dev-posts-have-a-beautiful-new-share-card-4be8>
-> 指标：reactions=126 · 评论=28 · reading_time=2
+> 指标：reactions=150 · 评论=34 · reading_time=2
 > 作者：Jess Lee　|　发布：2026-10-27T16:44:29Z
 > 项目链接：<https://github.com/forem/forem/pull/19826>
-> 采集：2026-10-30T09:50:08+08:00　|　id：`257ee7043d31f170`
+> 采集：2026-11-01T09:40:47+08:00　|　id：`257ee7043d31f170`
 
 ## 正文
 
@@ -84,7 +84,7 @@ In August 2023, Ben moved generation in-house with ImageMagick ([#19949](https:/
 
 Share one of your posts (without a cover image) and take a look at your new card. Tag us ([@thepracticaldev](https://x.com/thepracticaldev)) or me ([@jessleenyc](https://x.com/jessleenyc)) on X so I can admire it. If anything looks off, like a name that renders strangely or a quote that cuts off in a weird spot, let me know in the comments!
 
-## 评论（28/28）
+## 评论（34/34）
 
 > **Jess Lee** · 2026-10-27T16:48:46Z　
 > 😐😐😐😐😐😐
@@ -231,6 +231,36 @@ Share one of your posts (without a cover image) and take a look at your new card
 
 > **Earl Grey** · 2026-10-29T22:25:48Z　
 > Thanks so much!
+
+---
+
+> **janer ruiz** · 2026-10-30T04:35:19Z　
+> youtube.com/shorts/VQQiUCJmOG0?fea...
+
+---
+
+> **Jesse Gamble** · 2026-10-30T06:13:34Z　
+> Do you expect the opening-line quote to change which posts get clicked, or is it mainly a cleaner presentation?
+
+---
+
+> **janer ruiz** · 2026-10-30T12:22:30Z　
+> instagram.com/reel/DfG8mQLtoO5/?ps...
+
+---
+
+> **Earl Grey** · 2026-10-30T18:58:16Z　
+> Seeing these cards out in the wild, example X, has been awesome. They look so, so good! #swagger
+
+---
+
+> **v🐸** · 2026-10-30T19:27:32Z　
+> looks cool
+
+---
+
+> **Bogdan** · 2026-10-30T20:44:55Z　
+> These look incredibly sharp! The custom brand colors feature is a huge plus for creators trying to build a consistent identity while sharing snippets. DEV is really setting the standard for what a modern developer community should look like. Great update, team!
 
 ## 关联链接
 

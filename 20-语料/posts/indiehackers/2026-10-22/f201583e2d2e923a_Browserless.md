@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/browserless"
 project_url: "https://blog.brandfetch.io/automating-browsers-with-browserless"
-captured_at: "2026-10-29T20:46:10+08:00"
+captured_at: "2026-11-01T09:40:34+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://blog.brandfetch.io/automating-browsers-with-browserless>
-> 采集：2026-10-29T20:46:10+08:00　|　id：`f201583e2d2e923a`
+> 采集：2026-11-01T09:40:34+08:00　|　id：`f201583e2d2e923a`
 
 ## 正文
 
@@ -43,7 +43,7 @@ browserless
 Visit Website
 browserless Headless browser automation for developers
  Posts 19
- Revenue $284K / mo
+ Revenue $286K / mo
  Website Twitter
 September 11, 2023
  Some BIG stuff is coming in browserless.io!
@@ -76,8 +76,8 @@ As always, I’ve approached building Browserless openly. The benefit is checkin
 Thanks and keep building!
 -Joel
 Joel Griffith
-12 Upvotes
-1 Comment
+13 Upvotes
+2 Comments
 November 16, 2020
  Three years and trending on Github!
 Build software better, together
@@ -118,20 +118,20 @@ September 30, 2019
 After two years of running the business we have now hit 500 paying users! This an incredible accomplishment, and we couldn't have done it without the support and help from this community.
 If you're on IndieHackers, and wondering how to get started, we were in your same shoes not so long ago. Please reach out and we'd be more than happy to share our insights!
 Joel Griffith
-23 Upvotes
+24 Upvotes
 15 Comments
 June 7, 2019
  300 Customers!
 Just a short 8 months ago, after nearly a year of being in production, we announced that we had 100 users.
 Now, fast-forward about 8 months later, and we've tripled that number! Here's to fighting and growing for your users!
 Joel Griffith
-7 Upvotes
+8 Upvotes
 8 Comments
 April 25, 2019
  We just hit 3M sessions in a day!
 We've hit 3M sessions ran in one day! This is a huge milestone for us, and places us as one of the largest providers for browser-based automation. Even with the likes of SauceLabs and Browserstack!
 Joel Griffith
-2 Upvotes
+3 Upvotes
 2 Comments
 April 16, 2019
  We've launched our new Live debugger!
@@ -139,7 +139,7 @@ How do you answer the question of "it works locally, but not in prod?" for headl
 This is a question we've often asked ourselves, and the only answer is a better toolset. With that in mind, our latest docker release now includes a "live" debugger! You can now drop-in on active Puppeteer/REST API sessions and see what the browser is doing + have access to the entirety of Chrome's developer tools!
 Our README has more information on how this all works, and it's now a part of our Dedicated plans, so go forth and conquer headless Chrome!
 Joel Griffith
-Upvote
+1 Upvote
 Comment
 April 1, 2019
  Usage-based accounts are live

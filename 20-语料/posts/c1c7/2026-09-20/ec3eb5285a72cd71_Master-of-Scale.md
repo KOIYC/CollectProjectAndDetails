@@ -6,10 +6,10 @@ source: "c1c7"
 source_name: "1c7 中文独立开发者名录"
 url: "https://mastersofscale.com"
 project_url: "https://mastersofscale.com/"
-captured_at: "2026-10-29T20:50:45+08:00"
+captured_at: "2026-11-01T09:43:28+08:00"
 lang: "zh"
 kind: "project"
-topic: "AI 工具/Agent"
+topic: "教育/学习"
 shard: "2026-09-20"
 tags:
   - 语料
@@ -32,17 +32,21 @@ discovered_via: "1c7:readme"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://mastersofscale.com/>
-> 采集：2026-10-29T20:50:45+08:00　|　id：`ec3eb5285a72cd71`
+> 采集：2026-11-01T09:43:28+08:00　|　id：`ec3eb5285a72cd71`
 
 ## 正文
 
 Masters of Scale – Home
 
-## Eric Schmidt scores US vs. China
+## How to save democracy from Big Tech
 
- Relativity Space’s Eric Schmidt
+ Rappler’s Maria Ressa
 
-The AI race between the U.S. and China is the defining competition of our age. Live from Masters of Scale Summit, Eric Schmidt gives his most unvarnished assessment yet.
+In conversation with Reid Hoffman and Aria Finger, Maria Ressa explores the crises facing truth, accountability, and democracy, and what we can do to help defend them.
+
+ How to save democracy from Big Tech
+
+Rappler’s Maria Ressa
 
 OpenAI’s Sarah Friar
 
@@ -82,15 +86,17 @@ Barnes & Noble’s James Daunt
 
 How Barnes & Noble made a comeback
 
- Know which rules to break
+ REI’s secrets to sustaining a beloved brand
 
-MTV’s Tom Freston
-
-Know which rules to break
+REI’s Mary Beth Laughton
 
 Media Executive Barbara Peng
 
 Journalist Kevin Roose
+
+OpenAI’s Thibault Sottiaux
+
+Kalshi’s Luana Lopes Lara
 
 # V2EX › 分享创造
 
@@ -98,5 +104,5 @@ Journalist Kevin Roose
 
 - 项目页：[[10-项目/Master-of-Scale_ec3eb528]]
 - 渠道页：[[50-渠道/c1c7]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`教育/学习`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

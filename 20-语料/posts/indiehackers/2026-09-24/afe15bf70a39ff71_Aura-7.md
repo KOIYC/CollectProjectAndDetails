@@ -6,10 +6,10 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/aura-7"
 project_url: "https://auraplusplus.com/"
-captured_at: "2026-10-30T09:49:51+08:00"
+captured_at: "2026-11-01T09:40:34+08:00"
 lang: "en"
 kind: "project"
-topic: "开发者工具"
+topic: "AI 工具/Agent"
 shard: "2026-09-24"
 tags:
   - 语料
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://auraplusplus.com/>
-> 采集：2026-10-30T09:49:51+08:00　|　id：`afe15bf70a39ff71`
+> 采集：2026-11-01T09:40:34+08:00　|　id：`afe15bf70a39ff71`
 
 ## 正文
 
@@ -45,6 +45,31 @@ Aura++ Launch your project and increase online aura
  Posts 39+
  Revenue $1K / mo
  Website Twitter
+October 31, 2026
+ Three replies I write to launch-day comments instead of "thanks!"
+On launch day the comments come in fast and the easy thing is to answer every one with "thanks so much!" and an emoji. I did that for a while. It felt polite. It also did basically nothing, because a thank-you is a dead end. Nobody replies to it, and the person who was half interested just scrolls on.
+ So now I try to sort comments into three kinds and answer each one differently.
+ 1. "Looks cool" comments get a question back. Not a fake engagement question, a real one. Something like "thanks, what are you using right now for this?" Maybe one in five answers, and that answer is the most useful thing I'll read all day, because it tells me what I'm actually competing with.
+ 2. Feature questions get a straight yes or no first. "Does it do X?" deserves "No, not yet" or "Yes, here's where" in the first five words. I used to write a paragraph explaining the roadmap before admitting the answer was no. People can tell. If it's a no and I'd consider building it, I say that, and I write their name down.
+ 3. Complaints get answered first, before the nice ones. "The pricing page is confusing" or "signup broke for me" is the comment other people read most closely, because they want to see how you react. A short "you're right, fixing it now" and then an actual fix the same day does more than ten thank-yous.
+ One thing I don't do anymore is paste a link in every reply. If someone asked how something works, sure. Otherwise the post already has the link.
+ The Aura++ Studio has a longer piece on turning launch-day comments into paying users if you want the follow-up part, what to do with those names after the day is over.
+ What's the most useful launch-day comment you ever got? Mine are almost always the slightly annoyed ones.
+Praneet Brar
+5 Upvotes
+2 Comments
+October 30, 2026
+ Three fields I'd cut from a signup form until the person has seen the product once
+Every field on a signup form is a small question: do you trust me yet? And on the first screen the honest answer is usually no. They haven't seen anything. So I've got a short list of fields I'd rather ask for later, once someone has actually used the thing.
+ 1. Company size and role. I get why people ask. It's nice for segmenting. But a solo founder trying your tool at 11pm doesn't want to pick "1-10 employees" from a dropdown before they've clicked anything. If you really need it, ask inside the product after the first useful action, with a skip button. Most people will answer then, because now it feels like setup, not a toll booth.
+ 2. The card, if the trial is short. Card up front filters out tire kickers, sure. It also filters out a lot of people who would've paid after seeing it work. Before PMF I'd rather know which features people touch than have a cleaner trial list. If you're stuck on this one, there's a longer breakdown of free trial vs freemium before product market fit on the Aura++ Studio.
+ 3. "How did you hear about us?" as a required field. I like asking it. I just don't want it blocking the door. Required, people pick the first option to get past it and your data gets worse. Optional, in free text, a day or two in, you get real answers like "my friend's newsletter" that no dropdown would've had.
+ What I'd keep: email, a password or magic link, and that's mostly it. Name maybe, if the product sends anything with it.
+ The test I use is boring. Open the signup in a private window and count how many things you have to type or pick before you see anything that's yours. If it's more than three, something can probably wait.
+ Which field did you remove from your signup that you were sure you needed? Did anything break when it was gone?
+Praneet Brar
+3 Upvotes
+Comment
 October 29, 2026
  Five things I check on a launch directory before I pay for its premium slot
 Disclosure first, since it matters for this one: I run a few launch sites myself, and they sell paid slots too. So I've seen this from both sides, and I still think most founders buy the upgrade too fast. It's usually $15 to $50, it's late at night before a launch, and the button says "skip the queue". Before I pay any directory now, mine included, I check five things.
@@ -174,37 +199,6 @@ If you want to check your own listings, the free dofollow link checker takes a p
 Praneet Brar
 3 Upvotes
 4 Comments
-October 21, 2026
- Four things I keep off my pricing page until ten people have paid
-Confession: the first pricing pages I made were mostly costume. Three tiers, a "most popular" badge on the middle one, a big comparison grid, an enterprise box. For a product nobody had paid for yet.
- Nothing on that page was a lie exactly. It just wasn't true yet either, and people can smell that. So now I have a rule for anything new: until ten people have actually paid, these four things stay off the pricing page.
- A "most popular" badge. Popular with who? If zero or two people bought, the badge is a guess dressed up as social proof. I'd rather write one plain line under the plan, like "this is the one I'd pick if I was you, because X".
-The "contact us" enterprise tier. It looks grown up, but at this stage it mostly invites discount asks and custom builds a solo founder can't support. One paid plan and a free option is enough to learn if anyone pays at all.
-A countdown or "launch price ends Friday". Fake urgency on a page with no buyers reads like a scam to the exact careful people I want early. If the price is going up, I just say the month and why.
-A 25 row feature grid. Early on most rows are things I'm still figuring out, and the grid makes people compare checkboxes instead of asking "does this do my one job". Three or four lines in plain words beat it.
-What stays on the page: the price, what you get, what you don't get yet, how to cancel in one sentence, and my name. That's it.
- A worked example so this isn't just vibes. Say you're selling a small $12/mo tool that cleans up messy CSV exports. The costume version has Starter / Pro / Team, Pro marked popular, and a grid listing "API access (coming soon)". The honest version says: $12 a month, cleans up to 500 files a month, no API yet, cancel from settings in two clicks, questions go to my email. The second one looks smaller. It's also the one where a stranger can decide in ten seconds without wondering what's hidden.
- After ten payers you actually have data. Which plan they picked, what they asked before buying, who wanted a team seat. Then the badge can be real and the extra tier can be built around a real request instead of a template.
- Picking the number is a harder problem. I wrote up how I think about it in how to price your first SaaS when you have almost no data on the Aura++ blog, the short version is pick a number you can explain out loud and change it later with a note to existing users.
- I know some people will say three tiers is basic anchoring and it works. Maybe it does once you have traffic. So I'm curious: what's on your pricing page right now that you'd quietly delete if nobody was watching?
-Praneet Brar
-8 Upvotes
-8 Comments
-October 20, 2026
- Three things I stopped counting as marketing time
-For a while my weekly "marketing hours" looked great on paper. Then I actually wrote down what I did in those hours and a big chunk of it was me feeling productive near marketing, not doing marketing.
- So now I have a rule: an hour only counts as marketing if a stranger could see the result, or if it ended with someone new knowing the product exists. Everything else goes in a different bucket, even if it feels like marketing. These are the three that got kicked out first.
- Tweaking the landing page with zero new visitors. Changing the hero line for the fourth time when 30 people saw the last version is not marketing, it's building. Sometimes it's the right thing to do, fine, but I log it as build time. Otherwise I tell myself I "did marketing" all week and nobody new came.
-Reading other founders' growth threads. This one hurt. Some of it is useful, but most of it is just comfortable. If I read for an hour and didn't change anything I'm doing this week, that was entertainment. Now it counts as nothing. Not build, not marketing.
-Setting up tools. Scheduling apps, analytics dashboards, a new UTM sheet, picking the perfect email tool. All of it feels like progress. None of it puts the product in front of anyone. I give it one block a month and log it as admin.
-What's left in the marketing bucket is kind of boring. Replying to people in threads where my kind of user already hangs out. Writing one honest post. Sending a couple of personal emails to people who might actually care. Submitting to a launch site and then being there on the day. Asking a happy user if I can quote them.
- The weird result is my marketing hours went down after I started doing this, and the stuff that actually brings people in went up, simply because I can see it now. When the number was inflated I never felt the need to protect the real hours.
- The test I use at the end of the week is simple. For every hour I called marketing, can I point at a thing someone outside my laptop saw? If not, it moves.
- I'm not saying never polish the landing page or set up tools. Just don't let them hide inside the marketing number. If you want a starting point for how to split the week depending on your stage, there's a longer write-up on how much time a solo founder should spend on marketing vs building on the Aura++ blog, including a small two-week time audit you can copy.
- Curious what's on your list. What's something you used to count as marketing that you quietly don't anymore?
-Praneet Brar
-13 Upvotes
-6 Comments
 About
  I’m building Aura++ because I kept seeing great products struggle to get noticed. Launching is easier than ever, but getting real visibility is still incredibly hard, especially for early-stage founders without an audien
 People
@@ -234,5 +228,5 @@ Databases
 
 - 项目页：[[10-项目/Aura-7_6bcffd81]]
 - 渠道页：[[50-渠道/indiehackers]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

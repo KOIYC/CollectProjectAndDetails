@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/launchon-it"
 project_url: "https://launchon.it/"
-captured_at: "2026-10-30T09:49:51+08:00"
+captured_at: "2026-11-01T09:40:34+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://launchon.it/>
-> 采集：2026-10-30T09:49:51+08:00　|　id：`0b7cac024c1d18d1`
+> 采集：2026-11-01T09:40:34+08:00　|　id：`0b7cac024c1d18d1`
 
 ## 正文
 
@@ -42,9 +42,31 @@ LaunchOnIt
  Product launch platform for indie startups.
 Visit Website
 LaunchOnIt Product launch platform for indie startups.
- Posts 52+
+ Posts 54+
  Revenue $0 / mo
  Website Twitter
+October 31, 2026
+ Why we built an affiliate program for our launch platform and how indie makers are using it
+When you run an early-stage startup or a launch platform, customer acquisition usually comes down to two things: a massive outbound grind or relying purely on organic word-of-mouth.
+ While organic growth is amazing, it moves slowly. To really speed things up without burning money on paid ads, you need to align incentives with people who already talk to founders every single day.
+ That is why we decided to open up a dedicated affiliate program for LaunchOn.it .
+ Instead of keeping all the growth loops internal, we wanted to reward the writers, community builders, newsletter creators, and SEO folks who constantly help indie hackers find better distribution tools. If someone is already recommending alternatives to Product Hunt or talking about building in public, they might as well get a cut of the value they bring.
+ The response so far has been wild. It turns out that turning your users and creators into partners is infinitely more effective than any cold marketing campaign.
+ If you run a blog, a newsletter, a Discord, or an audience of builders and want to partner up, you can check out the details directly on our affiliate page .
+ For those of you running software products right now, have you launched an affiliate program yet, or are you still relying solely on direct acquisition?
+Alex
+12 Upvotes
+4 Comments
+October 30, 2026
+ The Friday wrap-up: why setting up automated distribution loops is the best thing you can do for your startup before the weekend
+By the time Friday afternoon rolls around, most bootstrapped founders are completely exhausted. If your week looked anything like mine usually does, you spent half your time wrestling with code and the other half frantically copy-pasting links, updating software directories, and trying to figure out why an algorithm ignored your latest post.
+ We treat marketing like a manual labor job. We grind ourselves into dust doing repetitive administrative chores that a basic script or an AI agent could handle in seconds.
+ Building and running LaunchOnIt has made me realize just how much friction we needlessly accept in our workflows. When you set up automated systems for your distribution, your SEO footprint, and your curation loops, you stop trading hours for low-yield vanity metrics.
+ You do not need to work eighty hours a week if sixty of those hours are spent doing things a computer should be doing for you.
+ As you wrap up your work for the week, take a look at your task list. How much of what you did this week could have been completely automated? Have a great weekend everyone! Let us chat below.
+Alex
+7 Upvotes
+Comment
 October 29, 2026
  Why are we still filling out manual directory forms in 2026 when we have AI coding agents?
 If you are a developer or solo founder building software right now, your daily life probably revolves around your IDE, terminal, and AI coding assistants like Cursor or Claude Code. We automate our database migrations, our Vercel deployments, and our test suites without blinking an eye.
@@ -56,7 +78,7 @@ If you are a developer or solo founder building software right now, your daily l
  We spend all day making AI write our code, so it is about time we let it handle our boring distribution grunt work too.
  Are you using AI agents or custom scripts to automate any parts of your marketing or operations stack yet? Let us chat below.
 Alex
-13 Upvotes
+14 Upvotes
 1 Comment
 October 28, 2026
  The ultimate guide to choosing the best product launch platforms for your SaaS in 2026
@@ -140,31 +162,6 @@ If you are a developer or solo founder building software right now, your daily l
 Alex
 28 Upvotes
 4 Comments
-October 21, 2026
- What I learned growing a startup directory to DR 43 and turning it into a weekly launch platform for indie hackers
-When you build a product in public, people usually only see the polished metrics or the final launch day. But the messy middle is where the actual lessons happen.
- A few weeks ago, I got tired of the traditional software launch model. Watching months of hard work get compressed into a chaotic 24 hour upvote race on sites like Product Hunt, only for traffic to flatline by Wednesday, felt completely broken for bootstrapped creators.
- That frustration is why I launched LaunchOnIt .
- Instead of a single day of panic, we set up a weekly cohort system where products stay on the front page for a full seven days, backed by permanent dofollow backlinks and clean Schema.org structured data built for Google SEO.
- The growth since then has been a wild ride. Thanks to organic momentum, the domain rating climbed to over 40, revenue started compounding, and hundreds of indie makers have used the platform to get actual visibility instead of vanity metrics.
- To make things even smoother for builders, we just shipped an official Model Protocol Context (MCP) server endpoint. Now, makers can connect Claude, Cursor, or any MCP-compatible agent to search rankings, check open calendar slots, and draft product launches straight from their IDE without touching a browser form.
- For those of you scaling your own tools right now, how are you handling distribution and repetitive workflow automation?
-Alex
-4 Upvotes
-1 Comment
-October 20, 2026
- How to build clean dofollow backlinks for your SaaS without doing months of painful manual outreach
-If you talk to any bootstrap founder about SEO, you will usually hear a collective sigh. Everyone knows that building domain authority requires clean, dofollow backlinks, but nobody wants to spend forty hours a week sending desperate cold emails, begging for guest posts, or getting ghosted by link-broker blogs.
- Manual SEO outreach is soul crushing.
- When I was trying to solve this bottleneck for my own projects, I realized that founders should not be wasting their engineering talent on manual form filling. That is why we built LaunchOnIt to handle the heavy lifting natively.
- Instead of hunting down random sites, putting your product on structured launch platforms and software directories does two massive things at once:
- 1. It puts your SaaS in front of actual buyers and active makers during your launch window.
- 2. It generates clean, permanent dofollow backlinks that actually compound your domain authority over time without looking like spam to search engine crawlers.
- We even built automated endpoints so you can handle submissions programmatically if you want to skip the web forms entirely.
- If you are trying to grow your domain authority right now, are you still grinding away at cold outreach, or have you automated your distribution stack?
-Alex
-23 Upvotes
-3 Comments
 About
  Product Hunt gives you one noisy day and then your launch disappears under the next wave of products. LaunchOnIt is a Product Hunt and BetaList style board where each product gets a page and a date that still exist.
 People
