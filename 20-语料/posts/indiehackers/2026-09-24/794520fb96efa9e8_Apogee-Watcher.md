@@ -6,10 +6,10 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/apogee-watcher"
 project_url: "https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance"
-captured_at: "2026-10-28T09:43:59+08:00"
+captured_at: "2026-11-02T09:41:05+08:00"
 lang: "en"
 kind: "project"
-topic: "AI 工具/Agent"
+topic: "开发者工具"
 shard: "2026-09-24"
 tags:
   - 语料
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance>
-> 采集：2026-10-28T09:43:59+08:00　|　id：`794520fb96efa9e8`
+> 采集：2026-11-02T09:41:05+08:00　|　id：`794520fb96efa9e8`
 
 ## 正文
 
@@ -42,9 +42,24 @@ Apogee Watcher
  Solving web performance for agencies and solopreneurs
 Visit Website
 Apogee Watcher Solving web performance for agencies and solopreneurs
- Posts 55+
+ Posts 62+
  Revenue $0 / mo
  Website Twitter
+Defer, Async, and Module Scripts: A Field Guide for INP and TBT
+You clear render-blocking CSS on a client homepage. First Contentful Paint improves. Interaction to Next Paint stays red in the field, and Lighthouse Total Blocking Time barely moves. The next place to look is usually not another stylesheet pass. It is which classic scripts still pause HTML parsing, and when they claim the main thread.
+ A classic script with no attributes stops the parser while it downloads and runs. An async script downloads in the background and executes as soon as it is ready, which can interrupt the parser mid-document and does not guarantee order. A defer script also downloads in parallel, then runs in document order after HTML parse and before DOMContentLoaded. Those three timings are not interchangeable.
+ Module scripts are deferred by default, so a separate defer attribute does nothing useful on them. Adding async to a module changes the contract: the graph can evaluate before the full document parse finishes. Theme bundles that expect DOM-ready order across several classic files usually want defer, not async races.
+ A practical attribute pass on home and conversion URLs:
+ Inventory every external script src, then mark theme / first-party, analytics or pixel, tag manager / consent, or embed.
+Prefer defer for theme and app scripts that touch the DOM or depend on sibling order.
+Prefer async for independent third-party tags where order does not matter.
+Keep classic blocking only when a script must run before first paint for a documented reason.
+Verify in Lighthouse TBT and the Performance panel, then check field INP in PageSpeed Insights or Search Console after enough traffic.
+Minify alone does not fix parser-blocking behaviour. Async on interdependent libraries creates race bugs that look like flaky checkout. Dynamically injected consent and tag-manager children still need a Performance pass after accept. Attribute choice is necessary; removing or delaying low-value tags remains the larger win on many portfolios.
+ Read more: defer vs async scripts for INP and TBT
+Apogee Watcher
+2 Upvotes
+Comment
 Brotli and Gzip Compression: Shrink Text Assets Without Breaking PageSpeed Scores
 The CDN dashboard says compression is on. A host panel lists Brotli as enabled. Then a lab run on the priority URL still flags Enable text compression, or the Performance score barely moves while Time to First Byte gets worse after someone raised the Brotli level on dynamic HTML.
  In our experience that gap is rarely "nobody turned compression on." It is a mismatch between which responses are compressed, which layer applies Content-Encoding, and what Lighthouse actually measures on that URL. Brotli usually wins on HTML, CSS, and JavaScript; gzip stays the fallback when br is unavailable. The win is text on the wire, not a second envelope around JPEG, PNG, or WebP.
@@ -57,8 +72,38 @@ The CDN dashboard says compression is on. A host panel lists Brotli as enabled. 
  Double compression, wrong MIME allow-lists, and max Brotli quality on uncached HTML are the failure modes we still see on client portfolios. Compression sits beside Cache-Control and CDN rules; it is not a substitute for fixing an oversized LCP image.
  Read more: Brotli and gzip compression for PageSpeed
 Apogee Watcher
-3 Upvotes
+4 Upvotes
+8 Comments
+October 31, 2026
+ We stopped gating the free PageSpeed check behind an email. October proved why.
+For a long time our public free domain check asked for an email before discovery started. The idea was tidy: capture the lead, then run PageSpeed. In practice people bounced before they saw a single score.
+ In October we flipped that. You can start /check without an email. Discovery and lab tests run first. The thanks page fills with scores and findings by page type while the run finishes. Contact details come later, when someone wants the report link or a path to save the scan into a Free account.
+ That sounds small. It is not. The scan is the demo. Asking for an address before any lab evidence was asking for trust before we had earned a look.
+ A few packaging choices from the same month sit next to that funnel change:
+ Domain report Summary stays free for triage. Site-level AI insights spend one credit and only show on public share links after someone generates them, so client links do not open on an empty AI box.
+Starter now includes organisation report PDFs. White-label branding stays on Professional and above. Export and branding are not the same unlock.
+Plan usage for sites, orgs, and tests sits in the signed-in topbar, with 80% and 100% quota warning emails on the subscription anniversary window.
+We still want the email when it is time to save work. We do not want it as a tax on curiosity.
+ Read more: October changelog: free domain check, AI insights, and export packaging
+Apogee Watcher
+4 Upvotes
 1 Comment
+October 28, 2026
+ We Sold PageSpeed Retainers for Years. Here Is Why We Productised Monitoring Instead of Another Audit PDF
+Apogee Information Systems has sold digital work since 2002. For a long stretch, website speed sat on the statement of work as a PageSpeed Insights paste after a redesign, a Core Web Vitals fix sprint, or a quarterly “we checked the homepage” slide. Clients paid for people and hours. The artefact they remembered was often a PDF.
+ When we built Apogee Watcher, we were not inventing a category for sport. We were productising the retainer job that never scaled: keeping many client hosts on a dated lab and CrUX schedule without another Monday paste.
+ A typical performance retainer mixed three jobs that felt related and were not the same purchase:
+ Discovery and fixes (theme, hosting, images, third parties). That still needs humans.
+Proof for the client (screenshots, scores, a narrative for the account lead).
+Continuity: the same URLs checked again after the next plugin update or campaign landing page.
+Continuity was the piece that quietly failed. The SOW said “monitor.” Delivery looked like sporadic PageSpeed Insights runs when someone remembered.
+ The obvious productisation move is a prettier branded audit PDF. That answers one question on one day. Retainers need a second question: did last month’s fix stick after the next content ship? Productising only the PDF leaves the expensive habit inside the agency.
+ What we productised instead is the calendar: organisations, many sites, scheduled PageSpeed Insights runs with CrUX when Google returns it, budgets, alerts, and reports you can send without rebuilding slides from scratch. Fix work stays in the retainer. The product owns history and the scoreboard.
+ If you are mid-pivot, list the last ten hours you billed under “performance,” then mark fixing versus re-running the same URLs and rebuilding the same decks. The second pile is usually the better first product.
+ Read more: why we productised PageSpeed monitoring instead of another audit PDF
+Apogee Watcher
+7 Upvotes
+8 Comments
 October 27, 2026
  Critical CSS and Render-Blocking Resources: Faster First Paint Without Guessing
 Lighthouse keeps recommending "Eliminate render-blocking resources," and the usual fix is to inline more CSS or defer everything in sight. That can help First Contentful Paint. It can also ship a Flash of Unstyled Content, bloat the HTML, or leave Largest Contentful Paint worse than before.
@@ -73,8 +118,8 @@ Media-query sheets for print or wide breakpoints can stay on a media attribute w
  If those lab checks need to run on a schedule across many client domains, we keep dated baselines in Apogee Watcher so the next plugin toggle does not quietly reverse the win.
  Read more: critical CSS and render-blocking resources
 Apogee Watcher
-2 Upvotes
-2 Comments
+3 Upvotes
+1 Comment
 October 26, 2026
  Site-Level Guidance: AI Actionable Insights Leave Beta
 Agencies already know how to read a single PageSpeed Insights run. The harder job is turning twenty URLs on one host into a fix order a developer can ship without reopening every Lighthouse tab.
@@ -86,7 +131,7 @@ Public share links show the insight only after someone with access has generated
 The refreshed site view keeps tests, pages, discovery, and reports on one property record so the snapshot is less likely to be incomplete.
 Read more: site-level AI actionable insights leave beta
 Apogee Watcher
-4 Upvotes
+5 Upvotes
 Comment
 October 25, 2026
  Watcher Affiliate Programme: 30% Commission for Agencies and Publishers
@@ -100,7 +145,7 @@ Share via ?coupon_code=YOUR-CODE on sign-up, blog, features, pricing, or home; a
 The fit is strongest for agencies that already mention monitoring in proposals, consultants who write about Lighthouse or CrUX, and newsletter or comparison publishers who cover web performance tooling. Confirm numbers on the live programme page before you quote them to a client.
  Read more: Watcher affiliate programme 30% commission for agencies
 Apogee Watcher
-5 Upvotes
+6 Upvotes
 2 Comments
 October 24, 2026
  Calibre vs Apogee Watcher: Continuous Monitoring for Agencies
@@ -145,50 +190,6 @@ Hints change when the browser starts work. Dated lab history is how you prove th
 Apogee Watcher
 2 Upvotes
 Comment
-October 21, 2026
- Partial Page Loads in CrUX: What Field Data Includes (and Excludes)
-You finish a PageSpeed Insights lab run on Tuesday. Largest Contentful Paint is green under the fixed profile. On Thursday Search Console still shows the URL amber in the Chrome UX Report field panel. The client asks which screenshot is wrong. Neither is. The lab profile finished by design. CrUX is aggregating many real Chrome visits, including ones that never matched that quiet network window.
- That is what people mean by partial page loads or partial sessions in CrUX. The phrase is not a public metric name. It covers abandoned or interrupted loads, pages that start in a background tab, back/forward cache restores, and SPA soft navigations that still sit on one document URL in classic Core Web Vitals reporting. Field data answers what happened across eligible experiences. Lighthouse answers what one controlled navigation did.
- What we keep on the deck when lab and field disagree:
- Label both clocks: dated lab URL, strategy, and profile beside CrUX form factor and collection window.
-Do not treat every field metric as the same navigation set. TTFB often skips restore paths that still contribute LCP.
-Align synthetic budgets with revenue and conversion templates, not only the quiet brochure URL that scored well in the lab.
-For SPA-heavy products, add route-aware RUM or soft-navigation debugging until classic CrUX tooling clearly splits those routes.
-A green lab card is useful regression evidence. It is weak proof that field percentiles will flip by Friday.
- Read more: partial page loads in CrUX field data
-Apogee Watcher
-7 Upvotes
-1 Comment
-October 20, 2026
- Why CrUX Has No Data for Your Site
-A client forwards a PageSpeed Insights screenshot. Lab scores fill the lower half. The field block at the top says Chrome UX Report data was not found. Someone asks whether the tool is broken. It usually is not.
- CrUX only publishes field percentiles when enough opted-in Chrome sessions meet privacy and quality rules for that origin or URL. PageSpeed Insights and Search Console inherit those gaps. Lighthouse can still look complete on the same screen, which is why teams treat a blank field section as a tooling failure instead of an eligibility outcome.
- Before you promise a timeline for field data, name the gate:
- Confirm the origin string (HTTPS, www or apex). HTTP versus HTTPS and www versus apex are different origins; so are subdomains.
-Check that the root is publicly discoverable (indexable, successful HTTP status). Redirect-heavy or blocked roots are a common trap.
-Separate origin-absent from URL-thin: origin field data can exist while a landing path still has no URL-level rows.
-Do not invent a Core Web Vitals fail from a blank field block. Missing CrUX is not a ranking penalty by itself.
-Until field samples exist, keep scheduled lab budgets on the homepage and other priority URLs so the retainer still has numbers to report.
-You cannot manually submit a site into CrUX. Fix discoverability, grow real Chrome traffic, and re-check on a fixed schedule. Synthetic history covers the gap until origin or URL field rows appear.
- Read more: why CrUX has no data for your site
-Apogee Watcher
-1 Upvote
-Comment
-October 20, 2026
- Why CrUX Has No Data for Your Site
-A client forwards a PageSpeed Insights screenshot. Lab scores fill the lower half. The field block at the top says Chrome UX Report data was not found. Someone asks whether the tool is broken. It usually is not.
- CrUX only publishes field percentiles when enough opted-in Chrome sessions meet privacy and quality rules for that origin or URL. PageSpeed Insights and Search Console inherit those gaps. Lighthouse can still look complete on the same screen, which is why teams treat a blank field section as a tooling failure instead of an eligibility outcome.
- Before you promise a timeline for field data, name the gate:
- Confirm the origin string (HTTPS, www or apex). HTTP versus HTTPS and www versus apex are different origins; so are subdomains.
-Check that the root is publicly discoverable (indexable, successful HTTP status). Redirect-heavy or blocked roots are a common trap.
-Separate origin-absent from URL-thin: origin field data can exist while a landing path still has no URL-level rows.
-Do not invent a Core Web Vitals fail from a blank field block. Missing CrUX is not a ranking penalty by itself.
-Until field samples exist, keep scheduled lab budgets on the homepage and other priority URLs so the retainer still has numbers to report.
-You cannot manually submit a site into CrUX. Fix discoverability, grow real Chrome traffic, and re-check on a fixed schedule. Synthetic history covers the gap until origin or URL field rows appear.
- Read more: why CrUX has no data for your site
-Apogee Watcher
-1 Upvote
-Comment
 About
  Agencies managing many sites need automated Core Web Vitals monitoring, alerts, and client-ready reports. Not fragile Lighthouse CI, costs that spiral, or enterprise-only multi-tenant. Manual checks do not scale.
 People
@@ -209,5 +210,5 @@ Databases
 
 - 项目页：[[10-项目/Apogee-Watcher_251434df]]
 - 渠道页：[[50-渠道/indiehackers]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/openseo"
 published_at: "2026-10-29"
-captured_at: "2026-10-30T09:49:37+08:00"
+captured_at: "2026-11-02T09:40:51+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-10-29
 > 项目链接：—
-> 采集：2026-10-30T09:49:37+08:00　|　id：`a22c170f6d4b2548`
+> 采集：2026-11-02T09:40:51+08:00　|　id：`a22c170f6d4b2548`
 
 ## 正文
 
@@ -95,9 +95,9 @@ Woop AI
  Unify audits, content, and competitor intel to rank higher in search
 SEOengine.ai
  AEO Optimized Content that gets ranked by Google, and cited by LLMs
-EntreDash
+Structura
  BOOSTED
- Validate and shape your idea with a private AI advisory board
+ Publish 3 SEO-optimized blog posts a day, hands-off
  BOOSTED
 SEO Architect
  SEO tool to plan and optimise your website
@@ -105,9 +105,9 @@ SEO Refresher
  Refresh blog posts with AI to boost SEO and AEO performance
 DATA HIT
  Spot hidden patterns in GA4, Search Console, SERPs, and AI mentions
-Terrapin
+SmartBI
  BOOSTED
- Turn receipts, email & photos into clean, tax-ready insights, automatically
+ AI copilot that turns marketing data into next steps
  BOOSTED
 Webwarden
  Monitor your website accessibility, quality and SEO

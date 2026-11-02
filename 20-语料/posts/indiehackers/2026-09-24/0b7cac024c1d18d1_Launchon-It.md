@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/launchon-it"
 project_url: "https://launchon.it/"
-captured_at: "2026-11-01T09:40:34+08:00"
+captured_at: "2026-11-02T09:41:05+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://launchon.it/>
-> 采集：2026-11-01T09:40:34+08:00　|　id：`0b7cac024c1d18d1`
+> 采集：2026-11-02T09:41:05+08:00　|　id：`0b7cac024c1d18d1`
 
 ## 正文
 
@@ -42,9 +42,20 @@ LaunchOnIt
  Product launch platform for indie startups.
 Visit Website
 LaunchOnIt Product launch platform for indie startups.
- Posts 54+
+ Posts 55+
  Revenue $0 / mo
  Website Twitter
+November 1, 2026
+ The Sunday mindset shift: why building compound distribution beats chasing a viral launch day
+Sundays are usually my favorite day to step away from active coding, clear my head, and look at the bigger picture of my projects without the constant noise of notifications and metrics dashboards.
+ When you look at how most early-stage founders try to get users, it is exhausting. They spend all week manually posting links, chasing volatile social algorithms, and grinding out content hoping for a viral spark. If they stop posting for forty-eight hours, their traffic drops straight to absolute zero. That is not a sustainable business. That is just a very tiring treadmill.
+ Real leverage in indie hacking comes from building systems that compound on their own over time.
+ This is the exact philosophy we baked into the core of LaunchOnIt . Instead of forcing makers into a brutal 24-hour upvote race that vanishes by Wednesday, the platform is designed to give products a full 7-day runway, structured entity data, and permanent dofollow backlinks that work for your SEO around the clock, even on a Sunday when you are completely offline.
+ When your distribution stack relies on automated directories and compounding search equity instead of manual daily hustle, building software becomes fun again.
+ How are you setting up your systems for the upcoming week? Are you planning manual outreach, or letting your infrastructure do the heavy lifting?
+Alex
+13 Upvotes
+Comment
 October 31, 2026
  Why we built an affiliate program for our launch platform and how indie makers are using it
 When you run an early-stage startup or a launch platform, customer acquisition usually comes down to two things: a massive outbound grind or relying purely on organic word-of-mouth.
@@ -55,8 +66,8 @@ When you run an early-stage startup or a launch platform, customer acquisition u
  If you run a blog, a newsletter, a Discord, or an audience of builders and want to partner up, you can check out the details directly on our affiliate page .
  For those of you running software products right now, have you launched an affiliate program yet, or are you still relying solely on direct acquisition?
 Alex
-12 Upvotes
-4 Comments
+13 Upvotes
+6 Comments
 October 30, 2026
  The Friday wrap-up: why setting up automated distribution loops is the best thing you can do for your startup before the weekend
 By the time Friday afternoon rolls around, most bootstrapped founders are completely exhausted. If your week looked anything like mine usually does, you spent half your time wrestling with code and the other half frantically copy-pasting links, updating software directories, and trying to figure out why an algorithm ignored your latest post.
@@ -149,19 +160,6 @@ By the time Friday rolls around, most bootstrapped founders are completely burne
 Alex
 15 Upvotes
 3 Comments
-October 22, 2026
- Why are we still filling out manual directory forms in 2026 when we have AI coding agents?
-If you are a developer or solo founder building software right now, your daily life probably revolves around your IDE, terminal, and AI coding assistants like Cursor or Claude Code. We automate our database migrations, our Vercel deployments, and our test suites without blinking an eye.
- Yet, the moment we finish building a product and need to market it, we regress back to 2015.
- We open ten browser tabs, manually copy-paste descriptions, resize logos, and fill out endless directory and submission forms just to get basic distribution. It is an enormous amount of context-switching friction for tasks a script or an agent could handle in seconds.
- This friction is exactly why we decided to change things on LaunchOnIt .
- Instead of forcing makers to use static web forms every single time they want to launch an update or list a new tool, we built and shipped an official Model Context Protocol (MCP) server endpoint.
- Now, you can hook Claude, Cursor, or any compatible agent directly into your workflow. Your AI agent grabs your repository context, structures your launch payload, and pushes it straight to our weekly cohorts while you stay inside your code editor.
- We spend all day making AI write our code, so it is about time we let it handle our boring distribution grunt work too.
- Are you using AI agents or custom scripts to automate any parts of your marketing or operations stack yet?
-Alex
-28 Upvotes
-4 Comments
 About
  Product Hunt gives you one noisy day and then your launch disappears under the next wave of products. LaunchOnIt is a Product Hunt and BetaList style board where each product gets a page and a date that still exist.
 People

@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/quotaguard"
 project_url: "https://quotaguard.baremetrics.com/"
-captured_at: "2026-11-01T09:40:34+08:00"
+captured_at: "2026-11-02T09:41:05+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://quotaguard.baremetrics.com/>
-> 采集：2026-11-01T09:40:34+08:00　|　id：`9930629dc0ba0d5c`
+> 采集：2026-11-02T09:41:05+08:00　|　id：`9930629dc0ba0d5c`
 
 ## 正文
 
@@ -43,7 +43,7 @@ QuotaGuard
 Visit Website
 QuotaGuard Static IP Proxies for Cloud-based Apps
  Posts 24
- Revenue $78K / mo
+ Revenue $76K / mo
  Website
 March 20, 2023
  Integrating our Service with Addons.io

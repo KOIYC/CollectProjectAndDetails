@@ -5,8 +5,8 @@ title: "$250K in 1 year as a solo founder - Superframeworks Blog | Superframewor
 source: "exa_discovery"
 source_name: "Exa 全网语义发现"
 url: "https://superframeworks.com/blog/sitegpt"
-published_at: "2024-04-13T15:47:49.000Z"
-captured_at: "2026-10-26T09:46:53+08:00"
+published_at: "2024-04-13T18:17:44.000Z"
+captured_at: "2026-11-02T09:44:57+08:00"
 lang: "en"
 kind: "method"
 topic: "AI 工具/Agent"
@@ -30,15 +30,15 @@ discovered_via: "exa:solo founder MRR milestone build in public"
 > 来源：Exa 全网语义发现（method）
 > 原帖：<https://superframeworks.com/blog/sitegpt>
 > 指标：—
-> 作者：—　|　发布：2024-04-13T15:47:49.000Z
+> 作者：—　|　发布：2024-04-13T18:17:44.000Z
 > 项目链接：—
-> 采集：2026-10-26T09:46:53+08:00　|　id：`6a6f003bfcffcc7e`
+> 采集：2026-11-02T09:44:57+08:00　|　id：`6a6f003bfcffcc7e`
 
 ## 正文
 
 Title: $250K in 1 year as a solo founder - Superframeworks Blog | Superframeworks
 URL: https://superframeworks.com/blog/sitegpt
-Published: 2024-04-13T15:47:49.000Z
+Published: 2024-04-13T18:17:44.000Z
 Author: Ayush
 Highlights:
 # $250K in 1 year as a solo founder
@@ -59,6 +59,22 @@ Last week, it crossed $250K revenue in just 1 year
 
 ...
 
+SiteGPT was not the first product that Bhanu built. Before this, he had already founded Feather.so - a Notion to Blog platform.
+
+And even before that, he had been shipping multiple products (often in parallel) for more than 3 years.
+
+Most of his early products didn’t get success, but they all trained him for the kind of success he’s getting now.
+
+...
+
+He only builds features that his enterprise customers request, and already pay for.
+
+Once they are stable, then he brings those features to the rest of the customer base and includes them in his regular offering.
+
+So he only builds features which already validated demand.
+
+This is the answer he gave in a discussion in our community -
+
 ## Building In Public
 
 Bhanu’s best marketing strategy is - “build things, and share what he’s building on Twitter”
@@ -72,8 +88,6 @@ In January 2024, he launched Feather on Product Hunt and it ended up being Produ
 This is the power of building in public and having an audience.
 
 Today he makes $20K+ MRR combined with his 2 projects as an indie founder.
-
-...
 
 ## In Summary -
 

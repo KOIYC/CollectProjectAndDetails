@@ -5,8 +5,8 @@ title: "Magai Revenue: $100K MRR, $10K MRR in 5 months | Startup Founder Stories
 source: "exa_discovery"
 source_name: "Exa 全网语义发现"
 url: "https://startupfounderstories.com/stories/dustin-stout-magai-20k-mrr-163-days"
-published_at: "2024-04-14T11:28:59.000Z"
-captured_at: "2026-10-26T00:25:26+08:00"
+published_at: "2024-04-14T13:44:57.000Z"
+captured_at: "2026-11-02T09:44:57+08:00"
 lang: "en"
 kind: "method"
 topic: "AI 工具/Agent"
@@ -30,15 +30,15 @@ discovered_via: "exa:solo founder MRR milestone build in public"
 > 来源：Exa 全网语义发现（method）
 > 原帖：<https://startupfounderstories.com/stories/dustin-stout-magai-20k-mrr-163-days>
 > 指标：—
-> 作者：—　|　发布：2024-04-14T11:28:59.000Z
+> 作者：—　|　发布：2024-04-14T13:44:57.000Z
 > 项目链接：—
-> 采集：2026-10-26T00:25:26+08:00　|　id：`2590a0b1711f6a3e`
+> 采集：2026-11-02T09:44:57+08:00　|　id：`2590a0b1711f6a3e`
 
 ## 正文
 
 Title: Magai Revenue: $100K MRR, $10K MRR in 5 months | Startup Founder Stories
 URL: https://startupfounderstories.com/stories/dustin-stout-magai-20k-mrr-163-days
-Published: 2024-04-14T11:28:59.000Z
+Published: 2024-04-14T13:44:57.000Z
 Author: Dustin W. Stout
 Highlights:
 Magai Revenue: $100K MRR, $10K MRR in 5 months | Startup Founder Stories
@@ -76,14 +76,6 @@ Product
 Magai
 
 All-in-one AI content creation suite.
-
-Type
-
-SaaS
-
-Industry
-
-AI / ML
 
 ...
 
@@ -175,9 +167,11 @@ How much does Magai make?
 
 Magai reports $100K MRR as of February 2026. Founder stated Magai hit $1M in lifetime sales Aug 2025 (32 months since inception), with nearly $100K MRR at that time. Grew $0 to $20K MRR in 6 months. Source: Founder blog.
 
-What is Magai?
+...
 
-All-in-one AI content creation suite. It operates in AI / ML.
+All-in-one AI content creation suite.
+
+...
 
 How long did it take Magai to reach $10k mrr?
 

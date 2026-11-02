@@ -8,7 +8,7 @@ url: "https://github.com/unclebob/ub-mode"
 project_url: "https://github.com/unclebob/ub-mode"
 author: "unclebob"
 published_at: "2026-10-25T16:04:09Z"
-captured_at: "2026-11-01T09:40:10+08:00"
+captured_at: "2026-11-02T09:40:41+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -17,8 +17,8 @@ pub_day: "2026-10-25"
 tags:
   - 语料
   - github_new
-  - created:>2026-10-18
-metrics: {"stars": 5830, "forks": 319, "open_issues": 8}
+  - created:>2026-10-19
+metrics: {"stars": 6266, "forks": 352, "open_issues": 9}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -32,10 +32,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/unclebob/ub-mode>
-> 指标：stars=5830 · forks=319 · open_issues=8
+> 指标：stars=6266 · forks=352 · open_issues=9
 > 作者：unclebob　|　发布：2026-10-25T16:04:09Z
 > 项目链接：<https://github.com/unclebob/ub-mode>
-> 采集：2026-11-01T09:40:10+08:00　|　id：`522a223e8d32fdbf`
+> 采集：2026-11-02T09:40:41+08:00　|　id：`522a223e8d32fdbf`
 
 ## 正文
 

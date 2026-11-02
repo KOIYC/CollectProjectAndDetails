@@ -1,25 +1,25 @@
 {
-  "generated": "2026-11-01T10:05:51+08:00",
-  "n_live": 3813,
-  "n_usable": 3363,
-  "n_project": 2974,
-  "signals": 74,
+  "generated": "2026-11-02T09:58:34+08:00",
+  "n_live": 3919,
+  "n_usable": 3451,
+  "n_project": 3048,
+  "signals": 75,
   "topics": [
     [
       "AI 工具/Agent",
-      2096
+      2146
     ],
     [
       "开发者工具",
-      695
+      719
     ],
     [
       "未分类",
-      318
+      328
     ],
     [
       "游戏",
-      88
+      90
     ],
     [
       "移动 App",
@@ -27,11 +27,11 @@
     ],
     [
       "SaaS/B2B",
-      52
+      53
     ],
     [
       "内容/媒体",
-      22
+      23
     ],
     [
       "教育/学习",
@@ -133,19 +133,6 @@
       }
     },
     {
-      "key": "host:v2ex.com",
-      "channels": [
-        "c1c7",
-        "v2ex"
-      ],
-      "n_channels": 2,
-      "title": "remoteAI 应用算法工程师（多模态 / Agent 方向）//AI 研发工程师//\r\nagent 架构师",
-      "url": "https://www.v2ex.com/t/1249180",
-      "metrics": {
-        "replies": 0
-      }
-    },
-    {
       "key": "host:chatgpt.com",
       "channels": [
         "devto",
@@ -202,8 +189,8 @@
       }
     }
   ],
-  "money_signal_n": 1471,
-  "money_evidence_n": 523,
+  "money_signal_n": 1504,
+  "money_evidence_n": 534,
   "money_quotes": [
     {
       "source": "betalist",
@@ -279,10 +266,10 @@
     }
   ],
   "pain_n": {
-    "当前方案不好用": 119,
+    "当前方案不好用": 122,
     "在找替代品": 69,
-    "做不出来/卡住": 154,
-    "愿意付钱": 82,
+    "做不出来/卡住": 159,
+    "愿意付钱": 86,
     "想要而找不到": 16
   },
   "by_channel": [
@@ -296,80 +283,80 @@
     {
       "id": "betalist",
       "profile": "linkpost",
-      "n": 266,
-      "ok": 265,
-      "rate": 0.9962406015037594
+      "n": 275,
+      "ok": 274,
+      "rate": 0.9963636363636363
     },
     {
       "id": "producthunt",
       "profile": "linkpost",
-      "n": 514,
-      "ok": 509,
-      "rate": 0.9902723735408561
+      "n": 533,
+      "ok": 528,
+      "rate": 0.9906191369606003
     },
     {
       "id": "indiehackers",
       "profile": "linkpost",
-      "n": 163,
-      "ok": 159,
-      "rate": 0.9754601226993865
-    },
-    {
-      "id": "bilibili",
-      "profile": "metadata",
-      "n": 74,
-      "ok": 70,
-      "rate": 0.9459459459459459
+      "n": 165,
+      "ok": 161,
+      "rate": 0.9757575757575757
     },
     {
       "id": "hn_show",
       "profile": "discussion",
-      "n": 1827,
-      "ok": 1725,
-      "rate": 0.9441707717569786
+      "n": 1867,
+      "ok": 1762,
+      "rate": 0.9437600428494911
+    },
+    {
+      "id": "bilibili",
+      "profile": "metadata",
+      "n": 75,
+      "ok": 70,
+      "rate": 0.9333333333333333
     },
     {
       "id": "exa_discovery",
       "profile": "discover",
-      "n": 39,
-      "ok": 31,
-      "rate": 0.7948717948717948
+      "n": 43,
+      "ok": 35,
+      "rate": 0.813953488372093
     },
     {
       "id": "devto",
       "profile": "discussion",
-      "n": 25,
-      "ok": 19,
-      "rate": 0.76
+      "n": 26,
+      "ok": 20,
+      "rate": 0.7692307692307693
     },
     {
       "id": "v2ex",
       "profile": "discussion",
-      "n": 207,
-      "ok": 146,
-      "rate": 0.7053140096618358
+      "n": 209,
+      "ok": 148,
+      "rate": 0.7081339712918661
     },
     {
       "id": "github_new",
       "profile": "project",
-      "n": 90,
-      "ok": 63,
-      "rate": 0.7
+      "n": 92,
+      "ok": 65,
+      "rate": 0.7065217391304348
     },
     {
       "id": "reddit",
       "profile": "discussion",
-      "n": 600,
-      "ok": 372,
-      "rate": 0.62
+      "n": 626,
+      "ok": 385,
+      "rate": 0.6150159744408946
     },
     {
       "id": "c1c7",
       "profile": "project",
       "n": 7,
-      "ok": 3,
-      "rate": 0.42857142857142855
+      "ok": 2,
+      "rate": 0.2857142857142857
     }
   ],
-  "body_median": 1771
+  "body_median": 1755
 }

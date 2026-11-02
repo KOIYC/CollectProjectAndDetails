@@ -1,11 +1,11 @@
 {
  "schema": 2,
- "updated": "2026-11-01T09:55:28+08:00",
+ "updated": "2026-11-02T09:52:46+08:00",
  "note": "结构性无正文/取数不可得 —— 连试 2 轮后记账，不再消耗额度。字段：reason（人话）/ reason_code（可复核分类，见 REASON_CODES）/ tried[]（本轮实际试过的后端）/ http_status（direct 档拿到的状态码）",
  "by_reason": {
-  "no_backend": 81,
-  "unreachable": 71,
-  "media": 43,
+  "no_backend": 82,
+  "unreachable": 73,
+  "media": 44,
   "http_403": 6,
   "account": 3,
   "gh_miss": 1,
@@ -3038,27 +3038,28 @@
    "reason_first": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
   },
   "5e61b15f6c906dfe": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Post-Quantum Signatureless Authorization",
    "url": "https://zenodo.org/records/23778742",
    "source_id": "hn_show",
    "first_dead": "2026-11-01T09:55:28+08:00",
-   "last_try": "2026-11-01T09:55:28+08:00",
+   "last_try": "2026-11-02T09:52:46+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
    "http_status": "unreachable",
    "reason_code": "unreachable",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=unreachable"
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=unreachable",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=unreachable"
   },
   "dd75714e9d16eca9": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: I26 – Interstate '76 reimplemented in Godot engine",
    "url": "https://github.com/vahokif/I26",
    "source_id": "hn_show",
    "first_dead": "2026-11-01T09:55:28+08:00",
-   "last_try": "2026-11-01T09:55:28+08:00",
+   "last_try": "2026-11-02T09:52:46+08:00",
    "tried": [
     "gh_readme",
     "direct_fetch",
@@ -3066,30 +3067,32 @@
    ],
    "http_status": "blocked",
    "reason_code": "unreachable",
-   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)",
+   "reason_first": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
   },
   "ee25e2fa935306b4": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: InterviewLint – Practice explaining code, not just writing it",
    "url": "https://interviewlint.com",
    "source_id": "hn_show",
    "first_dead": "2026-11-01T09:55:28+08:00",
-   "last_try": "2026-11-01T09:55:28+08:00",
+   "last_try": "2026-11-02T09:52:46+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
    "http_status": "200:too_short",
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
   },
   "dc3aa3b15adc40a9": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Reducing LLM Context Complexity from O(N^2) to O(k)",
    "url": "https://github.com/samamatariq3527/Deferred-Cognitive-Architecture",
    "source_id": "hn_show",
    "first_dead": "2026-11-01T09:55:28+08:00",
-   "last_try": "2026-11-01T09:55:28+08:00",
+   "last_try": "2026-11-02T09:52:46+08:00",
    "tried": [
     "gh_readme",
     "direct_fetch",
@@ -3097,37 +3100,40 @@
    ],
    "http_status": "blocked",
    "reason_code": "unreachable",
-   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)",
+   "reason_first": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
   },
   "e5c00602460cbc02": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Quit everything to make one website",
    "url": "https://hellojomp.com/",
    "source_id": "hn_show",
    "first_dead": "2026-11-01T09:55:28+08:00",
-   "last_try": "2026-11-01T09:55:28+08:00",
+   "last_try": "2026-11-02T09:52:46+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
    "http_status": "200:too_short",
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
   },
   "3f0a6520f6058a16": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Million Piece Puzzle",
    "url": "https://puzzle.io27.com/",
    "source_id": "hn_show",
    "first_dead": "2026-11-01T09:55:28+08:00",
-   "last_try": "2026-11-01T09:55:28+08:00",
+   "last_try": "2026-11-02T09:52:46+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
    "http_status": "200:too_short",
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
   },
   "4c6c6fb7bb68d82b": {
    "attempts": 1,
@@ -3143,6 +3149,64 @@
    "http_status": "error",
    "reason_code": "no_backend",
    "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error"
+  },
+  "fb878fb62763876d": {
+   "attempts": 2,
+   "title": "I’ve been playing with something: extract any element from a website a",
+   "url": "https://v.redd.it/00njxczck3xh1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "reason_code": "media",
+   "first_dead": "2026-11-02T09:47:24+08:00",
+   "last_try": "2026-11-02T09:47:24+08:00",
+   "http_status": null,
+   "tried": []
+  },
+  "b8a7ddddbe5a4ec4": {
+   "attempts": 1,
+   "title": "Show HN: Crystal Caves (1991) – C and WebAssembly port without an emul",
+   "url": "https://github.com/vital101/crystal-caves",
+   "source_id": "hn_show",
+   "first_dead": "2026-11-02T09:52:46+08:00",
+   "last_try": "2026-11-02T09:52:46+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+  },
+  "ef757ad68fa5a164": {
+   "attempts": 1,
+   "title": "Show HN: Egres, A Postgres-compatible database for heavy, multi-tenant",
+   "url": "https://manishrjain.com/egres/",
+   "source_id": "hn_show",
+   "first_dead": "2026-11-02T09:52:46+08:00",
+   "last_try": "2026-11-02T09:52:46+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "69957b8666963b84": {
+   "attempts": 1,
+   "title": "Show HN: A static recompilation of God of War Ascension for PC",
+   "url": "https://github.com/snuri00/GoWA-pc",
+   "source_id": "hn_show",
+   "first_dead": "2026-11-02T09:52:46+08:00",
+   "last_try": "2026-11-02T09:52:46+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
   }
  }
 }

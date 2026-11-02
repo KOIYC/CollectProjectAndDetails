@@ -2,7 +2,7 @@
 type: "project"
 title: "Apogee Watcher"
 project_url: "https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance"
-first_seen: "2026-10-28T09:43:59+08:00"
+first_seen: "2026-11-02T09:41:05+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance>
-> 首次收录：2026-10-28T09:43:59+08:00
+> 首次收录：2026-11-02T09:41:05+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -37,7 +37,8 @@ lang: "en"
 | 2026-10-25T23:31:48+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/794520fb96efa9e8_Apogee-Watcher]] |
 | 2026-10-26T09:45:11+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/794520fb96efa9e8_Apogee-Watcher]] |
 | 2026-10-28T09:43:59+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/794520fb96efa9e8_Apogee-Watcher]] |
+| 2026-11-02T09:41:05+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/794520fb96efa9e8_Apogee-Watcher]] |
 
 ## 摘要正文
 
-Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join Apogee Watcher  Solving web performance for agencies and solopreneurs Visit Website Apogee Watcher Solving web performance for agencies and solopreneurs  Posts 55+  Revenue $0 / mo  Website Twitter Brotli and Gzip Compression: Shrink Text Assets Without Breaking PageSpeed Scores The CDN dashboard says compression is on. A host panel lists Brotli as enabled. Then a lab run on the priority URL still flags Enable text compression, or the Performance score barely moves while Time to First Byte gets worse after someone raised the Brotli level on dynamic HTML.  In our experience that gap is rarely "nobody turned compression on." It is a mismatch between which responses are compressed, which layer applies Content-Encoding, and what Lighthouse actually measures on that URL. Brotli usually wins on HTML, CSS, and JavaScript; gzip stays the fallback when br is unavailable. The win is text on the wire, not a second envelope around JPEG, PNG, or WebP.  What we recommend agencies verify after every deploy:  1. Compress text/html, CSS, JavaScript, JSON,…
+Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join Apogee Watcher  Solving web performance for agencies and solopreneurs Visit Website Apogee Watcher Solving web performance for agencies and solopreneurs  Posts 62+  Revenue $0 / mo  Website Twitter Defer, Async, and Module Scripts: A Field Guide for INP and TBT You clear render-blocking CSS on a client homepage. First Contentful Paint improves. Interaction to Next Paint stays red in the field, and Lighthouse Total Blocking Time barely moves. The next place to look is usually not another stylesheet pass. It is which classic scripts still pause HTML parsing, and when they claim the main thread.  A classic script with no attributes stops the parser while it downloads and runs. An async script downloads in the background and executes as soon as it is ready, which can interrupt the parser mid-document and does not guarantee order. A defer script also downloads in parallel, then runs in document order after HTML parse and before DOMContentLoaded. Those three timings are not interchangeable.  Module scripts are deferred by default, so a separate…

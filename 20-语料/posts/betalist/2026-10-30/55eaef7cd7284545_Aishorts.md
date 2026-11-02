@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/aishorts"
 published_at: "2026-10-29"
-captured_at: "2026-10-30T09:49:37+08:00"
+captured_at: "2026-11-02T09:40:51+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-10-29
 > 项目链接：—
-> 采集：2026-10-30T09:49:37+08:00　|　id：`55eaef7cd7284545`
+> 采集：2026-11-02T09:40:51+08:00　|　id：`55eaef7cd7284545`
 
 ## 正文
 
@@ -94,9 +94,9 @@ SparkVid
  Create AI videos with text and images using top models in one place
 Photo to Video
  Turn any photo into a video with AI using Seedance, Kling, and Wan models
-Hi-AI
+Whacka
  BOOSTED
- Affordable AI videos, music, voice, images, 3D, search, news, and reports
+ AI app builder: describe your app in any language, get a real working app
  BOOSTED
 VidMakerPro
  Turn any text into complete faceless videos with automated
@@ -104,9 +104,9 @@ SeedDance
  Generate cinema-quality AI videos fast using top-tier models
 Zapters
  Create animated microdrama episodes on your phone with AI
-Aria
+Hi-AI
  BOOSTED
- Free color analysis and honest verdicts before you buy
+ Affordable AI videos, music, voice, images, 3D, search, news, and reports
  BOOSTED
 TalkPix AI
  Turn any photo into a talking video

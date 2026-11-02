@@ -2,7 +2,7 @@
 type: "project"
 title: "Launchon It"
 project_url: "https://launchon.it/"
-first_seen: "2026-11-01T09:40:34+08:00"
+first_seen: "2026-11-02T09:41:05+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://launchon.it/>
-> 首次收录：2026-11-01T09:40:34+08:00
+> 首次收录：2026-11-02T09:41:05+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -46,7 +46,8 @@ lang: "en"
 | 2026-10-29T20:46:10+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
 | 2026-10-30T09:49:51+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
 | 2026-11-01T09:40:34+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
+| 2026-11-02T09:41:05+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
 
 ## 摘要正文
 
-Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join LaunchOnIt  Product launch platform for indie startups. Visit Website LaunchOnIt Product launch platform for indie startups.  Posts 54+  Revenue $0 / mo  Website Twitter October 31, 2026  Why we built an affiliate program for our launch platform and how indie makers are using it When you run an early-stage startup or a launch platform, customer acquisition usually comes down to two things: a massive outbound grind or relying purely on organic word-of-mouth.  While organic growth is amazing, it moves slowly. To really speed things up without burning money on paid ads, you need to align incentives with people who already talk to founders every single day.  That is why we decided to open up a dedicated affiliate program for LaunchOn.it .  Instead of keeping all the growth loops internal, we wanted to reward the writers, community builders, newsletter creators, and SEO folks who constantly help indie hackers find better distribution tools. If someone is already recommending alternatives to Product Hunt or talking about building in public, the…
+Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join LaunchOnIt  Product launch platform for indie startups. Visit Website LaunchOnIt Product launch platform for indie startups.  Posts 55+  Revenue $0 / mo  Website Twitter November 1, 2026  The Sunday mindset shift: why building compound distribution beats chasing a viral launch day Sundays are usually my favorite day to step away from active coding, clear my head, and look at the bigger picture of my projects without the constant noise of notifications and metrics dashboards.  When you look at how most early-stage founders try to get users, it is exhausting. They spend all week manually posting links, chasing volatile social algorithms, and grinding out content hoping for a viral spark. If they stop posting for forty-eight hours, their traffic drops straight to absolute zero. That is not a sustainable business. That is just a very tiring treadmill.  Real leverage in indie hacking comes from building systems that compound on their own over time.  This is the exact philosophy we baked into the core of LaunchOnIt . Instead of forcing makers i…

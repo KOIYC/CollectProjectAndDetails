@@ -1,29 +1,29 @@
 ---
 type: "project"
-title: "Show HN: Castov – Open-source dev tools and AI secret shield with zero telemetry"
+title: "Show HN: Castov – A local-first desktop automation engine using local AI"
 project_url: "https://castov.com/"
-first_seen: "2026-11-01T09:38:09+08:00"
+first_seen: "2026-11-02T09:37:22+08:00"
 sources:
   - hn_show
 tags:
   - 项目
   - hn_show
   - author_castov
-  - story_50319273
+  - story_50329149
   - show_hn
 lang: "en"
 ---
 
-# Show HN: Castov – Open-source dev tools and AI secret shield with zero telemetry
+# Show HN: Castov – A local-first desktop automation engine using local AI
 
 > [!info] 一句话导读
 > Skip to main content Search tools & conversions... Ctrl+K
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://castov.com/>
-> 首次收录：2026-11-01T09:38:09+08:00
+> 首次收录：2026-11-02T09:37:22+08:00
 > 来源渠道：HN Show HN
-> 标签：author_castov, story_50319273, show_hn
+> 标签：author_castov, story_50329149, show_hn
 > 最新指标：点赞=2 · 评论=0 · engagement_velocity=2
 
 ## 观测历史
@@ -31,6 +31,7 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-11-01T09:38:09+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-11-01/deb0f30d4ad4a9ae_Show-HN-Castov-–-Open-source-dev-tools-and-AI-secr]] |
+| 2026-11-02T09:37:22+08:00 | HN Show HN | 点赞=2 · 评论=0 · engagement_velocity=2 | [[20-语料/posts/hn_show/2026-11-02/da9211888623cdf1_Show-HN-Castov-–-A-local-first-desktop-automation]] |
 
 ## 摘要正文
 
