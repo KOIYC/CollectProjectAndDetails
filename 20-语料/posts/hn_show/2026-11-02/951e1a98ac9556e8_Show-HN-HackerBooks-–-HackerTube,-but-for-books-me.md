@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=50326821"
 project_url: "https://hackerbooks.org/"
 author: "roansh"
 published_at: "2026-11-01T15:58:28Z"
-captured_at: "2026-11-02T09:51:49+08:00"
+captured_at: "2026-11-03T10:03:33+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -22,8 +22,8 @@ tags:
   - show_hn
   - front_page
 metrics: {"points": 915, "comments": 178, "engagement_velocity": 915}
-comments_count: 177
-comments_total: 178
+comments_count: 299
+comments_total: 299
 discovered_via: "hn:show_hn:3d"
 ---
 
@@ -38,13 +38,13 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=915 · 评论=178 · engagement_velocity=915
 > 作者：roansh　|　发布：2026-11-01T15:58:28Z
 > 项目链接：<https://hackerbooks.org/>
-> 采集：2026-11-02T09:51:49+08:00　|　id：`951e1a98ac9556e8`
+> 采集：2026-11-03T10:03:33+08:00　|　id：`951e1a98ac9556e8`
 
 ## 正文
 
 Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude build one (Opus 5.5).It's ~16.5k books that at least two different HN commenters brought up, from 2007 till now. Each book links back to the comments that mentioned it. Data is downloadable from the about page.To be clear: Claude wrote almost all of it, including the data pipeline and the site. I mostly steered and made calls, bought the domain name, etc.It counts mentions, so it's not perfect (praising a book and trashing it both count). If your favourite book is missing or matched to the wrong thing, tell me.
 
-## 评论（177/178）
+## 评论（299/299）
 
 > **beanjuiceII** · 2026-11-01T16:04:25.000Z　
 > [flagged]
@@ -465,13 +465,266 @@ Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude b
 
 ---
 
-> **RetardedBastard** · 2026-11-02T01:04:53.000Z　
-> You have a known pedophile ( hawking ) listed on your site.
+> **misiti3780** · 2026-11-02T01:24:44.000Z　
+> I love seeing The Power Broker is in this list. His books is incredible. I wish more people would slog through it. I've personally bought it for at least 5 people and no one can seem to finish it.
 
 ---
 
-> **misiti3780** · 2026-11-02T01:24:44.000Z　
-> I love seeing The Power Broker is in this list. His books is incredible. I wish more people would slog through it. I've personally bought it for at least 5 people and no one can seem to finish it.
+> **tren** · 2026-11-02T01:53:43.000Z　
+> Hi - I work at eBooks.com. If you'd like to register as an affiliate with us, send me a msg (email in profile). We have a good commission.
+
+---
+
+> **no1guangming** · 2026-11-02T02:02:03.000Z　
+> Love the site! It loads so fast that it actually survived the initial HN hug of death, which is already a miracle for any side project.
+
+---
+
+> **solyin** · 2026-11-02T02:07:17.000Z　
+> If I self promote my book, ENOF by Sol Yin, about a possible AI future in one comment and hope really hard that someone else legitimately says something about it by name in another comment, I'll make the list?
+
+---
+
+> **signoff_studio** · 2026-11-02T03:10:43.000Z　
+> good move
+
+---
+
+> **kieojk** · 2026-11-02T03:21:05.000Z　
+> Thank you so much. It's incredibly useful for many people
+
+---
+
+> **stanislavb** · 2026-11-02T03:33:35.000Z　
+> Hah, good job, mate. I love it. I've given one credit tp HackerBooks on VibeVoted https://vibevoted.com/hacker-books. It should get a review alongside 11 other projects within the next 24h. I've also added it to SaaSHub. If you give me an email - can add you as the person managing the listing.I'm wondering - how are you monitoring HN for new books?
+
+---
+
+> **lacoolj** · 2026-11-02T03:42:09.000Z　
+> K someone make this into a spotify playlist please thx!
+
+---
+
+> **teleforce** · 2026-11-02T04:19:37.000Z　
+> Thanks for developing this handy reference.Just wondering why holy books like Bible and Bhagavad Gita are included but not Tanakh and Quran? Is there any selection bias in the algoritm since all the popular holy books for main world's religions are frequently mentioned and recommended in HN.
+
+---
+
+> **mvkel** · 2026-11-02T04:30:39.000Z　
+> This is absolutely fantastic and a much more worthwhile resource than hackertube, which feels more like a graveyard of bygone thinking.
+
+---
+
+> **davidzweig** · 2026-11-02T04:35:02.000Z　
+> Made a version for Reddit:https://www.trustmebro.reviews/c/books
+
+---
+
+> **jep888** · 2026-11-02T04:43:26.000Z　
+> Wonderful. I love the little side bonus of stumbling across alternate versions of book covers I haven't seen before.
+
+---
+
+> **boxed** · 2026-11-02T04:44:58.000Z　
+> The cover page for The Three Body Problem is from some other author than the one recommended.
+
+---
+
+> **aizk** · 2026-11-02T05:09:24.000Z　
+> Inspired by your site, I built out https://wikihack.netlify.app/Hackerbooks, but for wikipedia :)I hope you enjoy it.
+
+---
+
+> **rramadass** · 2026-11-02T05:11:55.000Z　
+> > that at least two different HN commenters brought up,I don't agree with this since this only showcases popular books known to a certain age demographic and relatively recent times.What i am really interested in are those unique books recommended by one person only! There are some real gems and classics out there which few people have heard of.Perhaps this could be added?
+
+---
+
+> **corbinh** · 2026-11-02T05:20:58.000Z　
+> Fun skimming through this. I wondered how it would deal with book nicknames and chuckled when I found this entry https://hackerbooks.org/#/book/OL15190817W
+
+---
+
+> **bihevi0** · 2026-11-02T06:00:26.000Z　
+> Awesome
+
+---
+
+> **hnlmd9hb9** · 2026-11-02T06:05:52.000Z　
+> Interesting discussion, thanks for posting.
+
+---
+
+> **hn9bqp6xq** · 2026-11-02T06:05:53.000Z　
+> Interesting discussion, thanks for posting.
+
+---
+
+> **Harukadia** · 2026-11-02T06:14:09.000Z　
+> Great website. My favorite part is the book section, cause I am always finding the truly pragmatic book for engineer. These information are useful for society, especially young enterprenaur as me.
+
+---
+
+> **mhclin113** · 2026-11-02T06:17:08.000Z　
+> This is really useful! Thanks for sharing!
+
+---
+
+> **timzaman** · 2026-11-02T06:19:13.000Z　
+> "Top All Time" -> 3rd row -> "Mein Kampf"Sweet.
+
+---
+
+> **globalnode** · 2026-11-02T06:48:38.000Z　
+> very nice!edit: no love for the secret life of circuits under electronics, tho it is a fairly recent bookhttps://news.ycombinator.com/item?id=49720143
+
+---
+
+> **justauserid** · 2026-11-02T06:57:08.000Z　
+> I have recently tried to check around goodreads alterantives and I came face to face with these ISBNs and ASINs and how these are a hot mess. There's really no truly open metadata source that is "enough". App developers often depend on proprietary sources and sadly those are the ones which are more complete and go their own way for every source. How did you deal with that?I also finally tried "Thinking, fast and slow" recently and realised it was absolutely not for me. Even the audiobook version didn't cut it. I found it completely dry and trite. I am not trying to offend anymoe (esp. with "trite"), and I am aware how storied and awarded the author is – to me it just came across as "yet another self-help kind of book" sadly. But then a clear lack of fiction for a long time in "top all-times" puts into perspective why that book is up at the top. I think the general hn reading-taste is quite different from mine. Also, it's not about what was book about, because I never reached that, it was rather how it was written.Any plans to add some sort of tag/genre to search feature?
+
+---
+
+> **skullone** · 2026-11-02T06:59:22.000Z　
+> Was it pretty fun building with AI?
+
+---
+
+> **lynguist** · 2026-11-02T07:21:07.000Z　
+> Yes, could you please add a filter for fiction only? Since HN strongly leans towards nonfiction, the fiction ones are just interspersed, and I would like to see just them instead...I think fiction books are more important and more "wholesome" than nonfiction ones.
+
+---
+
+> **guest__user** · 2026-11-02T07:26:53.000Z　
+> would be nice to select multiple radio buttons , as well as filter by nonfiction or fiction and genre
+
+---
+
+> **enriquto** · 2026-11-02T08:59:34.000Z　
+> This is great! I love to see the aggregated comments of HN users next to each book.Besides linking to bookshop and amazon (weird choices in my opinion), you could also link to bookfinder, anna's archive, libgen. That would be really useful.
+
+---
+
+> **gloomyday** · 2026-11-02T09:25:08.000Z　
+> I see some books where the same person recommended it many times. I think you should account for that.
+
+---
+
+> **vedanshchauhan9** · 2026-11-02T09:48:08.000Z　
+> So how big is the catalogue? And are you going to expand it regularly?
+
+---
+
+> **ryan_glass** · 2026-11-02T10:27:46.000Z　
+> Excellent work!
+
+---
+
+> **irisflower95** · 2026-11-02T10:56:21.000Z　
+> We are talking less about books now. The number of book mentions in the site peaked in 2022 and has been decreasing steadily. Is this another effect of LLMs?For all books, I summed their # of mentions across the years. The data show an increasing trend, peaking in 2022 and then decreasing since then:2007: 1,0622008: 3,2482009: 5,2062010: 8,9422011: 8,3302012: 8,2002013: 9,8082014: 10,4362015: 12,6182016: 14,1732017: 15,2312018: 18,0012019: 17,9282020: 19,6132021: 19,9962022: 22,7972023: 20,1782024: 16,1032025: 13,7382026*: 11,482
+
+---
+
+> **swaggermaestro** · 2026-11-02T11:34:20.000Z　
+> I'm not sure if the 'recommended' - 'neutral' - 'critical' statistic is reliable here. Like if I told you that 68% of people are neutral about a book, does it mean it's good? Bad? Is it even worth reading?
+
+---
+
+> **codingsh** · 2026-11-02T12:20:34.000Z　
+> That's great, I just built one focused on mentions.
+
+---
+
+> **godgeez88** · 2026-11-02T12:47:59.000Z　
+> Can you also put books on hardware, electronics, and consumer products (hardware) in the library too please?
+
+---
+
+> **glenstein** · 2026-11-02T13:04:28.000Z　
+> I would love deeper access to the data set. I've been on a quest to understand why Godel Escher Bach, a book that I think is great, is apparently bad and is something I'm supposed to grow out of as a teenager. But that opinion, when glimpsed, like bigfoot is gone before you are able to figure out what you're seeing. It says 8% negative. It shows top 30 comments which is nice but seems to only be a snapshot of the praise.
+
+---
+
+> **jan_m_savage** · 2026-11-02T13:12:21.000Z　
+> would it be possible to crosslink each book to its amazon reviews so that one can see how it was rated there? nice thing-- useful.
+
+---
+
+> **sarreph** · 2026-11-02T13:13:56.000Z　
+> On the subject of reading (since the 'decline' in literacy is being raised in this thread) -- especially if you haven't read in a while and are thinking about reading but are maybe struggling to because you feel like it's "been too long" or that you'll struggle to concentrate on a book...Please give reading (especially fiction) another chance. I had a stretch of about a decade where I finished maybe two or three books total. Partly, I didn't think I "needed to read" because of how much time I spend reading HN and other non-fiction sources, especially on the internet: or that I was "too busy".I was running my startup, and had a copy of Infinite Jest on my bedside table for nearly 2 years -- telling myself that I would finish it. It's an amazing book (the part I've read anyway), but it was such an intricate piece of work that I managed to convince myself I basically had reading-ADHD and there was no point in me trying to read other books.Last year, I started reading (fiction!) books that were just interesting to me or that other people were talking about, instead of picking up "aspirational" fiction or non-fiction and reading the first chapter.I've been getting through a book every month or two since and am absolutely loving it. I read a lot of fiction as a child and teenager and I'd forgotten just how visceral good fiction can be. Reading properly again also helped convince me to write stories, too.If this sounds like you, I challenge you (with kindness) to pick up a piece of approachable fiction and see how much more you get out of it than you expected to!
+
+---
+
+> **Brysonbw** · 2026-11-02T13:16:39.000Z　
+> Super useful. Thanks
+
+---
+
+> **obummer** · 2026-11-02T13:44:14.000Z　
+> Now there’s a lot of shit to ignore! Thanks for the filter! Building an inverse app now with Claude!
+
+---
+
+> **Krishansubudhi** · 2026-11-02T13:58:57.000Z　
+> This is a nice application. Thanks for sharing.
+
+---
+
+> **izzydata** · 2026-11-02T14:28:44.000Z　
+> Permutation City, Greg Egan
+
+---
+
+> **hypertexthero** · 2026-11-02T15:07:01.000Z　
+> Here are some books that have helped me:https://hypertexthero.com/books-for-thinking-and-learning/
+
+---
+
+> **hmokiguess** · 2026-11-02T15:26:13.000Z　
+> Funny to see "Clean Code" mentioned there, I feel like this is one of those that didn't age well now with code being mostly generated.You could argue it is still relevant but I would say fuzz testing, formal proof systems, and compilers are going to be where stuff goes instead.
+
+---
+
+> **f18m** · 2026-11-02T15:29:53.000Z　
+> Tbh, I was expecting more from HN recommendations. Some are to be expected, like tech books that are kinda irrelevant in a post AI era.
+
+---
+
+> **fauria** · 2026-11-02T15:49:21.000Z　
+> This made me wonder what happened to hackernewsbooks.com? The last newsletter I got was "Hacker News Books – Week 28
+> Jul 05, 2026 – Jul 12, 2026".
+
+---
+
+> **bin01** · 2026-11-02T16:16:28.000Z　
+> Taking inspiration from this, created HackerProducts, products that are recommended by hackers here!https://hackerproducts.pages.dev
+
+---
+
+> **huffer** · 2026-11-02T17:39:03.000Z　
+> I chuckled when on the front page, the first book is Das Kapital. And if you click on Biographies, lo and behold: Mein Kampf!
+> (I half expected when clicking on Fiction to get the Bible >:) )
+
+---
+
+> **Architrixs** · 2026-11-02T18:57:32.000Z　
+> Made games version of this, still more indexing to do..
+> https://news.ycombinator.com/item?id=50341635
+
+---
+
+> **redbell** · 2026-11-02T19:17:38.000Z　
+> Once upon time, before this AI/LLM movement, there was a similar project made by hand using what was known back then as NLP: https://news.ycombinator.com/item?id=28595967I am afraid reading is fading out dramatically in recent years and I, myself, haven't read a book in more than a year now!This wave might causes writers to stop writing altogether which would bring us to the chicken & egg dilemma.
+
+---
+
+> **richardw** · 2026-11-02T20:00:56.000Z　
+> Amazing work! I added one for repos on GitHub, gitlab etc mentioned on HN:https://news.ycombinator.com/item?id=50342272
+
+---
+
+> **shortstack-tool** · 2026-11-02T23:57:03.000Z　
+> Inspired by your virality, I built out https://shortstack.toolsIndependent free directory for short form creators. apps and tools are hands on tested by me.I hope you enjoy it.
 
 ---
 
@@ -525,6 +778,11 @@ Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude b
 
 ---
 
+> **swyx** · 2026-11-02T03:10:56.000Z　
+> i'm on a performance grind rn so also looked into it. claudeslop disclaimer below:Hacker Books painted in 0.48 seconds on a fresh mobile visit. The first book cards were in the DOM by 0.79 seconds, and the largest visible image painted at 1.52 seconds. On a repeat visit, that image painted in 0.21 seconds.Homepage median Fresh browser cache Repeat visitFirst byte 112 ms 86 msFirst contentful paint 480 ms 168 msFirst book cards inserted 793 ms 188 msLargest contentful paint 1,520 ms 212 msThree runs per condition in Chrome at 390 × 844, with 1.6 Mbps download, 120 ms emulated latency and 4× CPU slowdown. These are navigation-start lab timings from one location. All three fresh visits beat your 1.5-second FCP target. Hacker BooksWhat makes it feel fast- The first screen needs very little code. The HTML is about 3 KB, its single blocking stylesheet 5 KB, and its vanilla JavaScript module 26 KB, all gzip-compressed. The HTML contains the header, search box and navigation, so those can paint before the catalog arrives. There’s no React runtime to download or hydrate.- They publish a small answer to the first query. The homepage preloads a 33 KB index of the top 600 books alongside the app code. The full 692 KB index of 15,362 books loads in the background. Once it arrives, browsing and search can reuse it locally. Covers are 320 px WebPs, and additional cards render in batches as you scroll.- A book click can show the title immediately. The app changes the URL hash, renders the book information already in memory, then fills in comments and related material from a per-book JSON file. Hovering or focusing a card for 80 ms starts that fetch early. Repeat visits reuse the result. This is targeted data prefetching; it costs much less than prerendering an entire destination.- Cloudflare helps on both visits. My HTML request was a cache HIT at Cloudflare’s San Jose edge. The versioned CSS, JS and index files advertise a one-year immutable browser cache. Chrome recorded zero transfer bytes for those files on all three repeat visits. HTTP/3 was real, too: two fresh visits negotiated H3 and one negotiated H2. All three painted within 468–500 ms, so the site was fast on either protocol in this sample.- Open Graph handles sharing. The title, description and URL tags describe the site to link-preview crawlers. They don’t accelerate rendering. The page also includes Cloudflare Web Analytics.
+
+---
+
 > **peri-cl** · 2026-11-01T16:39:19.000Z　
 > If this is the bug-reporting subthread: "Show more comments" stops working after clicking it once.
 
@@ -575,6 +833,11 @@ Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude b
 
 ---
 
+> **Architrixs** · 2026-11-02T18:51:45.000Z　
+> https://news.ycombinator.com/item?id=50341635 we got HackerGames
+
+---
+
 > **cwnyth** · 2026-11-01T18:10:54.000Z　
 > There have been a few. Here's one I found right away: https://news.ycombinator.com/item?id=28595967
 
@@ -612,6 +875,11 @@ Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude b
 
 > **QuantumNomad_** · 2026-11-01T17:02:08.000Z　
 > Well that one is easy!- The Matrix (1999) https://m.imdb.com/title/tt0133093/- Hackers (1995) https://m.imdb.com/title/tt0113243/- Sneakers (1992) https://m.imdb.com/title/tt0105435- Jurassic Park (1993) https://m.imdb.com/title/tt0107290/- The Terminator (1984) https://m.imdb.com/title/tt0088247- WarGames (1983) https://m.imdb.com/title/tt0086567/There you go, that’s the entire list :)
+
+---
+
+> **nullandvoid** · 2026-11-02T11:25:17.000Z　
+> Here you go https://hackerfilms.pages.dev
 
 ---
 
@@ -665,6 +933,11 @@ Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude b
 
 ---
 
+> **fzero** · 2026-11-02T04:59:27.000Z　
+> Goddamn, what's your problem?
+
+---
+
 > **sheepjumpmoons** · 2026-11-01T18:02:05.000Z　
 > Depends on what catalog system your local library is using. Many use the open source Evergreen ILS. It has a very robust API that I've used quite a bit for discovery.There are some others, just one example.Point being though is that every library system is different.
 
@@ -710,8 +983,23 @@ Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude b
 
 ---
 
+> **quincy_jones** · 2026-11-02T09:52:46.000Z　
+> Spoke my mind
+
+---
+
+> **Doohickey-d** · 2026-11-02T10:44:02.000Z　
+> That's why to build things as a static site generator, and then the result of that effectively needs no further maintenance, and only costs whatever the domain costs.Makes it much more viable to keep such experimental things online "forever".
+
+---
+
 > **flexagoon** · 2026-11-01T21:31:24.000Z　
 > Step 6 is "URLs" and then we're just back to regular hackernews
+
+---
+
+> **davidzweig** · 2026-11-02T04:38:56.000Z　
+> Well kinda this: https://www.trustmebro.reviews/r/hackernewsIt seems like it didn't pick up media recommendations all that well, huh.
 
 ---
 
@@ -730,6 +1018,16 @@ Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude b
 
 > **j45** · 2026-11-01T18:58:44.000Z　
 > To become HackerAI, applying for YC.My favourite part of Startup School is when people ask you what you're working on, and then their profile and application can change.
+
+---
+
+> **ex-aws-dude** · 2026-11-02T05:50:49.000Z　
+> Pfft that is simply a special case of HackerRecommendationSiteGenerator.com
+
+---
+
+> **enopod_** · 2026-11-02T18:17:45.000Z　
+> I‘m waiting for HackerFlicks
 
 ---
 
@@ -763,6 +1061,11 @@ Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude b
 
 ---
 
+> **corbins** · 2026-11-02T14:28:48.000Z　
+> It's a nice gesture I think. My question is why do we anchor naming to things we don't like: anti-capitalism, anti-ai, etc. That seems to inextricably link the new effort with the thing it was supposed to be an alternative to.
+
+---
+
 > **Fordec** · 2026-11-01T20:36:14.000Z　
 > What I'm getting from all this is that YC is dropping the ball in not investing in their own recommendation engine.
 
@@ -785,6 +1088,26 @@ Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude b
 
 ---
 
+> **roansh** · 2026-11-02T04:47:28.000Z　
+> Thanks! Why's (Poignant) Guide is in now: https://hackerbooks.org/#/book/OL22247013W (it wasn't in Open Library, so it needed a manual entry). The Invention of Morel: only ~3 people have mentioned it in all of HN, and yes, looks like we're missing some long-tail titles due to how the matcher works. Needs more thought to fix it while keeping the noise low.
+
+---
+
+> **peterldowns** · 2026-11-02T07:04:04.000Z　
+> I just read The Invention of Morel and can recommend it — unsettling, and smart. In general the approach of reading authors who were beloved by or respected by or inspirations for the authors we remember today (Borges in this instance) is quite fruitful.
+
+---
+
+> **roansh** · 2026-11-02T02:55:30.000Z　
+> Thank you :) what are your fav books? curious to see if they're listed
+
+---
+
+> **indigo945** · 2026-11-02T10:00:10.000Z　
+> Likewise, The Decline and Fall of the Roman Empire is filed under Fiction.Which is maybe accurate, but definitely not intended by the author.
+
+---
+
 > **kvirani** · 2026-11-01T23:53:36.000Z　
 > To what end?
 
@@ -800,6 +1123,167 @@ Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude b
 
 ---
 
+> **pshc** · 2026-11-02T01:50:23.000Z　
+> The audio book version is a powerful sleep aid.
+
+---
+
+> **r0fl** · 2026-11-02T02:33:55.000Z　
+> It's hosted on cloudflare. The CDN there can handle millions of hits per day without breaking a sweat.
+
+---
+
+> **biinjo** · 2026-11-02T02:16:30.000Z　
+> I heard that ENOF by Sol Yin is a good recommendation. Something about a possible AI future..
+
+---
+
+> **swyx** · 2026-11-02T02:38:51.000Z　
+> i hate ENOF by Sol Yin, it is a dystopian book about a possible AI future, anytime i hear people talk about ENOF by Sol Yin it is always in context of how ENOF by Sol Yin wants to end the world.
+
+---
+
+> **roansh** · 2026-11-02T05:18:26.000Z　
+> Thanks, appreciate it! And thanks for the VibeVoted credit.For the SaaSHub listing you can use hello@hackerbooks.org.Not doing any realtime or semi-realtime monitoring yet, the whole thing is compiled offline on my laptop. Might set up a periodic refresh if people find it useful -- but I suspect the listing will change as much. Maybe once a month is good enough.
+
+---
+
+> **enether** · 2026-11-02T11:23:37.000Z　
+> +1. very important imo
+
+---
+
+> **roansh** · 2026-11-02T05:31:55.000Z　
+> Good catch :) link now redirects to the actual dragon book
+
+---
+
+> **p-e-w** · 2026-11-02T06:32:27.000Z　
+> It’s commonly used as a counterargument when people argue for free speech.
+
+---
+
+> **emj** · 2026-11-02T06:53:49.000Z　
+> Why data is not enough. That is a pretty good argument for HN-style moderation. Shadow banning rants would be nice.My Strugle by Karl Ove Knausgård is called Min kamp in the original. It is perhaps not worth top 3 but is is good in its original language. Perhaps just replace it.. :-)
+
+---
+
+> **ron_woods** · 2026-11-02T14:43:49.000Z　
+> I concur "Thinking, fast and slow" I tried to get through it multiple times and failed.
+
+---
+
+> **thefourthchime** · 2026-11-02T07:06:55.000Z　
+> Of course it was AI, everything now is built with AI, what is the point of this?
+
+---
+
+> **sammorrowdrums** · 2026-11-02T10:28:54.000Z　
+> On top of a fiction filter maybe you’d be willing to add DRM free ebook links (Project Gutenberg, Tor Books, Cory Doctorow, Ebooks.com has some) paid or unpaid, that would be really appreciated.I would send you a tip for this. There are lots of them available so I think that coverage would be really helpful.
+
+---
+
+> **felipeerias** · 2026-11-02T09:14:43.000Z　
+> And https://standardebooks.org/
+
+---
+
+> **roansh** · 2026-11-02T11:08:11.000Z　
+> Nice catch! Is it possible that HN traffic is going down?
+
+---
+
+> **mojuba** · 2026-11-02T11:15:58.000Z　
+> I think the number per active yearly users would be even more interesting. Clearly there is a correlation with the traffic too. But I wouldn't be very surprised if the relative numbers were still in decline.
+
+---
+
+> **jslakro** · 2026-11-02T11:27:56.000Z　
+> The reading crisis is a global thing. It is likely linked more to the rise of social media than to the advent of the current AI era, and it doesn't look like it's changing anytime soon. We might be heading into an illiterate age.
+
+---
+
+> **lionkor** · 2026-11-02T12:37:24.000Z　
+> Another theory is that around that time the people who value good writing got so annoyed at the AI spam that they left
+
+---
+
+> **pgl** · 2026-11-02T13:09:28.000Z　
+> OK but what's the ratio of number of post to books mentioned?
+
+---
+
+> **d-us-vb** · 2026-11-02T15:02:37.000Z　
+> without normalizing for number of distinct HN users, as well as the possible incorporation of a new demographic to the site's readership that is less interested in books, but has always been present somewhere in the world, this trend doesn't actually say much. It says something about the website, news.ycombinator.com, but that isn't terribly relevant to anything.The new demographic is probably vibe-coders, actually. These were people that were never much into reading. But because HN is generally AI adjacent, a person starting to vibe code or otherwise use AI tools will probably find HN in the sources and start using it because it shows up so frequently in forum listings.So "WE" are probably still talking about books the same amount (pre LLMs-going-mainstream HN users), and the book trend is more of a latent eternal-September effect.
+
+---
+
+> **sva_** · 2026-11-02T11:52:32.000Z　
+> It also doesn't seem to understand sarcasmhttps://hackerbooks.org/#/book/OL1067314WSees this as recommendation (I think?) https://news.ycombinator.com/item?id=24917334
+
+---
+
+> **chamomeal** · 2026-11-02T13:07:32.000Z　
+> Who says you’re supposed to grow out of GEB? Also only teenagers are reading it?? Idk about that
+
+---
+
+> **mft_** · 2026-11-02T13:47:51.000Z　
+> I second this.For quite a long period in my 20s I would buy very worthy intellectual non-fiction books (based on reviews or recommendations) and then struggle to make headway with them. In retrospect, I think I was just usually too tired from work and life to have the mental energy to focus.I then read an article by (IIRC) Irvine Welsh, the nub of which was ‘just read something’ - and reading fiction rather than non-fiction, and even trashy fiction rather than worthy fiction, was immeasurably better than not reading at all.It was like I was given permission to not have to try and be intellectual and serious: (or pretentious?) and I’ve never looked back. Amongst many others, and to my surprise, I found I enjoy (what one might call) mid-level science-fiction and have happily worked through quite a lot now.
+
+---
+
+> **thunspa** · 2026-11-02T13:48:19.000Z　
+> Care to share something to good you've read recently?
+
+---
+
+> **jjkaczor** · 2026-11-02T13:48:27.000Z　
+> So - I find it difficult to read even fiction when things are stressful (which is perverse as I find it relaxing and refreshing). So, sometimes will go months without reading anything - then a spurt of 6-8 weeks and 30-40 books. Given the state of the world, the last couple of years have been rough. (And top that with a workload for the past year where there hasn't been a single month that I have worked less than 200-hrs (contract, so it ain't all that bad))
+
+---
+
+> **theshrike79** · 2026-11-02T13:56:31.000Z　
+> And it’s OK to read fun books, not everything has to be a classic or a guide to self improvement or some heavy tome dealing with deep issues.
+
+---
+
+> **smugglerFlynn** · 2026-11-02T14:10:17.000Z　
+> I’ll add to this for cases where the problem is motivation for reading and spending time “non-productively.”Many life and work problems have relevant fiction books that cover similar or loosely related situations. Reading these can create a perfect “mental sandbox” for problem solving, where your brain unconsciously plays around with a topic in a safe and fun way, all while you’re following a fictional narrative.This is an alternative to more “rational” methods, like reading non-fiction, prompting an LLM for possible approaches, or problem-solving explicitly. Brains work in weird ways, and they often need lots of unstructured time, lateral thinking, and play. Reading fiction provides all three.
+
+---
+
+> **kedosprisma** · 2026-11-02T14:13:42.000Z　
+> I can only second this message!
+> I read a lot of non-fiction books when I was younger (during the whole improve-yourself trip of course) and most of them were so incredibly boring (always one concept explained with a 100 similar examples). Since then, I have started to read only fiction books and I learned more about society, relationships and life then with any non-fiction, while at the same time enjoying it more.
+
+---
+
+> **nkrisc** · 2026-11-02T14:38:42.000Z　
+> I’ll add: re-read books. When reading a book a second time (or third, or fourth) you’ll get new things out of it because you’ll spend less time and energy focused on the obvious things you’re already familiar with. And if it’s been some good number of years I think you’ll also find your memory of the book isn’t as good as you might have thought.
+
+---
+
+> **chunky1994** · 2026-11-02T14:44:15.000Z　
+> Whenever this topic comes up I always wonder if people mean reading as all long-form reading (including pop fiction) or if they mean “serious” reading. To me it’s actually quite strange but I feel like I have “lessened” as a reader over the past decades.I used to be able to read some of the more classic novels a bit easier and now I just find them…a tad tedious? Is that the decline of reading that people are mentioning, or just… not reading at all?I find it remarkably easy to read the popcorn fiction novels or anything very plot driven where characterization and world building is only in the service of the plot, but somehow this just feels like watching a movie but in book form. Is that also considered “reading”?
+
+---
+
+> **ReedorReed** · 2026-11-02T16:23:21.000Z　
+> I wanted to get back into reading again and started just reading comics though it was through an app, it motivated me and after a while I started reading books instead both fiction and non-fiction.
+
+---
+
+> **jhallenworld** · 2026-11-02T17:20:01.000Z　
+> As I age, reading has become a bit less enjoyable because I have to wear reading glasses (yes, I'm a baby). But I found that I really enjoy audio books- they give a different experience, it's very weird listening to books that I previously had read. One reason is that I read much faster than the audio book reading rate, and I find the slowness is a good thing- more time to experience and think I guess.
+
+---
+
+> **nop_slide** · 2026-11-02T17:59:58.000Z　
+> I believe the original owner sold it and is working on https://bookdna.com/ now.
+
+---
+
 > **blooalien** · 2026-11-01T16:53:29.000Z　
 > Even if you completely disagree with every single word, it's still good to know what it actually says, if for no other reason than to be better equipped to argue against the parts you disagree with. Same thing for the Bible. It's one thing to know it backwards and forwards if you're a "true believer", but you certainly can't hope to hold any sorta worthwhile discussion on the topic with someone who is if you've never even read the thing. Knowledge is just another form of power; one that many willingly and actively choose to deny themselves for some reason.
 
@@ -807,6 +1291,11 @@ Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude b
 
 > **dang** · 2026-11-01T16:30:11.000Z　
 > https://hn.algolia.com/?dateRange=all&page=0&prefix=true&que...
+
+---
+
+> **aizk** · 2026-11-02T03:00:55.000Z　
+> I wonder if plain JS will make a comeback with how good AIs are at writing code (at least for one off simple sites)
 
 ---
 
@@ -895,6 +1384,16 @@ Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude b
 
 ---
 
+> **rishikeshs** · 2026-11-02T09:40:54.000Z　
+> Would you be interested in trying an Amazon link localizer[1]?I built something[1] recently and would love to see hear your feedback.Happy to give you some credits for free![1] https://slashlink.app
+
+---
+
+> **davidzweig** · 2026-11-02T10:26:20.000Z　
+> 47,699 products, places and tools ranked from 13,576,547 opinions on Reddit and HN:https://news.ycombinator.com/item?id=50333280
+
+---
+
 > **gosen** · 2026-11-01T20:56:57.000Z　
 > Maybe that's their thoughtful decision and they just let people create whatever they want with HN data, which is good I guess
 
@@ -902,6 +1401,66 @@ Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude b
 
 > **card_zero** · 2026-11-01T23:55:53.000Z　
 > Mining.
+
+---
+
+> **card_zero** · 2026-11-02T02:29:21.000Z　
+> Oh, top tip. I didn't even try the about page.
+
+---
+
+> **rramadass** · 2026-11-02T13:21:42.000Z　
+> Ah, a fellow "Bookliophile", i see ;-)You might find some interesting books/papers if you search my comments, many of which i have not seen others mention.
+
+---
+
+> **busymom0** · 2026-11-02T06:44:57.000Z　
+> Now I wanna know what the original link was?
+
+---
+
+> **partyficial** · 2026-11-02T11:33:48.000Z　
+> why is it a crisis ? because "longer is better" ?proverbs wouldn't have stood the test of time if they were books.
+
+---
+
+> **ConfusedDog** · 2026-11-02T11:54:45.000Z　
+> "Illiterate is an adjective and noun that primarily describes a person who has little or no formal education and is unable to read or write." More like functionally illiterate - lack of critical thinking, common sense and factual knowledge, an inability to parse complex ideas, and poor writing skills.
+
+---
+
+> **mrweasel** · 2026-11-02T13:12:42.000Z　
+> The number of people who are reporting that they read every single day has only gone up in the past 30 year (~25% of people in Denmark read everyday).It is a problem that 30% of those who do not read are reporting that it's because they can't focus on ready, but that number might have been the same through out the years.
+
+---
+
+> **glenstein** · 2026-11-02T13:45:51.000Z　
+> Right! I personally think that characterization is crazy, but it's out there. This twitter thread started me down the rabbit hole, and, maddeningly, it's very coy and vague.https://x.com/davidbessis/status/1993238641729036639
+
+---
+
+> **theshrike79** · 2026-11-02T13:58:36.000Z　
+> I read SO much military sci-fi, and it’s the best. I can tear through a book in a day because it’s just fun.Marko Kloos, Joel Shepherd, Glynn Stewart. All write good sci-fi with cool ideas.
+
+---
+
+> **carlosjobim** · 2026-11-02T15:56:03.000Z　
+> Why would reading trashy fiction be better than not reading? Being alone with your mind is a healthier option in my opinion.
+
+---
+
+> **Cthulhu_** · 2026-11-02T13:50:17.000Z　
+> Not OP and not "good" in the literary sense but I've enjoyed reading Warhammer books since about last year. They're brainless and depressing dystopian, possibly YA level novels but at least it's self-aware and leans into it.
+
+---
+
+> **sarreph** · 2026-11-02T14:13:42.000Z　
+> Flesh, by David Szalay.It won the Booker Prize last year.
+
+---
+
+> **bwb** · 2026-11-02T18:38:57.000Z　
+> ya I sold it to a new guy to take over, as I am entirely focused on bookdna.com and launching our app here in about a month
 
 ---
 
@@ -935,8 +1494,53 @@ Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude b
 
 ---
 
+> **solyin** · 2026-11-02T02:04:26.000Z　
+> If you click on a link or comment you can favorite it. They're public though, if that's a problem.
+
+---
+
+> **macintux** · 2026-11-02T02:48:13.000Z　
+> I tried to retrieve & process my favorites because I never actually do anything useful with them, and managed to get rate-limited. Someday I need to try again.
+
+---
+
+> **kidnoodle** · 2026-11-02T18:45:44.000Z　
+> I have made extensive use of this while building my library book recommender doodad https://leafle.orgThe LLMs are very good at reverse engineering undocumented apis!
+
+---
+
 > **lazyasciiart** · 2026-11-01T20:32:11.000Z　
 > I think they’re talking about the index going away, not the books themselves.
+
+---
+
+> **tourmalinetaco** · 2026-11-02T09:27:25.000Z　
+> Unfortunately, copyright won’t be up for most of these books in our lifetimes.
+
+---
+
+> **companycalls** · 2026-11-02T11:44:07.000Z　
+> The functions of a proverb and a book are completely different, I have no idea what you're going for with that comparison.
+
+---
+
+> **momento** · 2026-11-02T12:33:28.000Z　
+> It's getting pretty bad. I am at a point now where if I have to ask someone working in a store for help, I actively avoid anyone that looks to be under the age of 30. I can't take another Gen-Z stare.
+
+---
+
+> **wildzzz** · 2026-11-02T14:49:10.000Z　
+> I don't read nearly as much as I should but I do listen to a lot of audiobooks. My wife scoffs at my collection, a lot of spy or military thrillers like Mitch Rapp and Jack Ryan (The Company is one of my favorites) but also Bobiverse and Expanse are great. Meanwhile she buys lots of books but reads none of them. Audiobooks aren't a perfect substitute for reading but they do stop me from doomscrolling or listening to stupid podcasts.As for podcasts, Hardcore History and Blowback are my favorites that aren't political junk. I know people have their opinions on pop history media but it's interesting content and entertaining.
+
+---
+
+> **phainopepla2** · 2026-11-02T17:22:09.000Z　
+> A couple of reasons I can think of.- Reading helps hone your ability to focus your attention on one thing for sustained periods.- Getting back into the habit of reading by reading "trashy" or otherwise easy books can serve as a stepping stone to reading more difficult or rewarding books. This worked for me when I fell out of the reading habit for a while and was bouncing off books that I wanted to read that were less immediately engaging.I would also say that while I agree that being alone with your mind is quite healthy and something we would all ideally make time for, I don't think that it's the alternative most people are opting for over reading.
+
+---
+
+> **eudamoniac** · 2026-11-02T19:05:38.000Z　
+> I think it's better iff it's used as training for reading better books. Definitely not worth doing if you insist on only reading that forever, though.
 
 ---
 
@@ -952,6 +1556,16 @@ Saw Karpathy's HackerTube and wanted the same thing for books. So I had Claude b
 
 > **igravious** · 2026-11-02T00:50:16.000Z　
 > "Top all-time" should be called "Most mentioned" and it should display the mentions stat followed by the recommends stat"Most recommended" can stay as it isand then a new "Top all-time" should be a weighted sum of recommendations plus mentions with recommendations getting a higher weight (obviously) … l33t c0d1ng sk1llz for deducting negative mentions (as in "awful book", "do not recommend" etc)!
+
+---
+
+> **estearum** · 2026-11-02T13:23:20.000Z　
+> How would they know?! They've never read a book!
+
+---
+
+> **theshrike79** · 2026-11-02T20:05:24.000Z　
+> Cautionary Tales might fit your interests on the podcast side: https://timharford.com/articles/cautionarytales/Basically telling a story from history and explaining what went wrong and why. Some of the stories are dramatised with professional actors and sound effects.Like this episode about the woman who was instrumental in the creation of Monopoly, startting Helena Bonham Carter: https://timharford.com/2021/05/cautionary-tales-do-not-pass-...
 
 ## 导航
 

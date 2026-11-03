@@ -8,7 +8,7 @@ url: "https://dev.to/pengeszikra/singularity-news-ccg-5ejk"
 project_url: "https://codepen.io/editor/Omrega/pen/01a18f75-6d17-700c-8003-cd60c5253ed5"
 author: "Peter Vivo"
 published_at: "2026-10-31T02:18:22Z"
-captured_at: "2026-11-02T09:41:23+08:00"
+captured_at: "2026-11-03T09:44:34+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,7 +21,7 @@ tags:
   - hf26challenge
   - gamedev
   - showdev
-metrics: {"reactions": 40, "comments": 12, "reading_time": 4}
+metrics: {"reactions": 42, "comments": 12, "reading_time": 4}
 comments_count: 12
 comments_total: 12
 discovered_via: "devto:showdev"
@@ -35,10 +35,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/pengeszikra/singularity-news-ccg-5ejk>
-> 指标：reactions=40 · 评论=12 · reading_time=4
+> 指标：reactions=42 · 评论=12 · reading_time=4
 > 作者：Peter Vivo　|　发布：2026-10-31T02:18:22Z
 > 项目链接：<https://codepen.io/editor/Omrega/pen/01a18f75-6d17-700c-8003-cd60c5253ed5>
-> 采集：2026-11-02T09:41:23+08:00　|　id：`cbb92ffbe505a2af`
+> 采集：2026-11-03T09:44:34+08:00　|　id：`cbb92ffbe505a2af`
 
 ## 正文
 

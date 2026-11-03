@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: A live Git diff view cli to stay on top of what agents are doing"
 project_url: "https://github.com/stagas/livediff"
-first_seen: "2026-11-02T09:51:00+08:00"
+first_seen: "2026-11-03T10:01:38+08:00"
 sources:
   - hn_show
 tags:
@@ -21,7 +21,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/stagas/livediff>
-> 首次收录：2026-11-02T09:51:00+08:00
+> 首次收录：2026-11-03T10:01:38+08:00
 > 来源渠道：HN Show HN
 > 标签：author_stagas, story_49712345, show_hn
 > 最新指标：点赞=6 · 评论=3 · engagement_velocity=6
@@ -67,6 +67,7 @@ lang: "en"
 | 2026-10-30T09:59:25+08:00 | HN Show HN | 点赞=6 · 评论=3 · engagement_velocity=6 | [[20-语料/posts/hn_show/2026-09-21/179c66c2436f5f92_Show-HN-A-live-Git-diff-view-cli-to-stay-on-top-of]] |
 | 2026-11-01T09:54:15+08:00 | HN Show HN | 点赞=6 · 评论=3 · engagement_velocity=6 | [[20-语料/posts/hn_show/2026-09-21/179c66c2436f5f92_Show-HN-A-live-Git-diff-view-cli-to-stay-on-top-of]] |
 | 2026-11-02T09:51:00+08:00 | HN Show HN | 点赞=6 · 评论=3 · engagement_velocity=6 | [[20-语料/posts/hn_show/2026-09-21/179c66c2436f5f92_Show-HN-A-live-Git-diff-view-cli-to-stay-on-top-of]] |
+| 2026-11-03T10:01:38+08:00 | HN Show HN | 点赞=6 · 评论=3 · engagement_velocity=6 | [[20-语料/posts/hn_show/2026-09-21/179c66c2436f5f92_Show-HN-A-live-Git-diff-view-cli-to-stay-on-top-of]] |
 
 ## 摘要正文
 

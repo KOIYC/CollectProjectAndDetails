@@ -2,7 +2,7 @@
 type: "project"
 title: "emarco177/dandi"
 project_url: "https://dandi.cloud/"
-first_seen: "2026-11-02T09:48:36+08:00"
+first_seen: "2026-11-03T09:54:09+08:00"
 sources:
   - github_new
 tags:
@@ -20,7 +20,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://dandi.cloud/>
-> 首次收录：2026-11-02T09:48:36+08:00
+> 首次收录：2026-11-03T09:54:09+08:00
 > 来源渠道：GitHub 新星仓库
 > 标签：TypeScript, topic:microsaas
 > 最新指标：stars=165 · forks=75 · open_issues=0
@@ -86,6 +86,8 @@ lang: "en"
 | 2026-11-01T09:53:07+08:00 | GitHub 新星仓库 | stars=165 · forks=75 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/7bfb6e055c517164_emarco177-dandi]] |
 | 2026-11-02T09:40:45+08:00 | GitHub 新星仓库 | stars=165 · forks=75 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/7bfb6e055c517164_emarco177-dandi]] |
 | 2026-11-02T09:48:36+08:00 | GitHub 新星仓库 | stars=165 · forks=75 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/7bfb6e055c517164_emarco177-dandi]] |
+| 2026-11-03T09:43:06+08:00 | GitHub 新星仓库 | stars=165 · forks=75 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/7bfb6e055c517164_emarco177-dandi]] |
+| 2026-11-03T09:54:09+08:00 | GitHub 新星仓库 | stars=165 · forks=75 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/7bfb6e055c517164_emarco177-dandi]] |
 
 ## 摘要正文
 

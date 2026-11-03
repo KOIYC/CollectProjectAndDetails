@@ -1,10 +1,10 @@
 {
  "schema": 2,
- "updated": "2026-11-02T09:52:46+08:00",
+ "updated": "2026-11-03T10:04:47+08:00",
  "note": "结构性无正文/取数不可得 —— 连试 2 轮后记账，不再消耗额度。字段：reason（人话）/ reason_code（可复核分类，见 REASON_CODES）/ tried[]（本轮实际试过的后端）/ http_status（direct 档拿到的状态码）",
  "by_reason": {
   "no_backend": 82,
-  "unreachable": 73,
+  "unreachable": 77,
   "media": 44,
   "http_403": 6,
   "account": 3,
@@ -3136,19 +3136,20 @@
    "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
   },
   "4c6c6fb7bb68d82b": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Olympus Rangers DEMO",
    "url": "https://i.redd.it/csmz78fmswwh1.jpeg",
    "source_id": "reddit",
    "first_dead": "2026-11-01T09:55:28+08:00",
-   "last_try": "2026-11-01T09:55:28+08:00",
+   "last_try": "2026-11-03T10:04:47+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
-   "http_status": "error",
-   "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error"
+   "http_status": "timeout",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error"
   },
   "fb878fb62763876d": {
    "attempts": 2,
@@ -3163,12 +3164,61 @@
    "tried": []
   },
   "b8a7ddddbe5a4ec4": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Crystal Caves (1991) – C and WebAssembly port without an emul",
    "url": "https://github.com/vital101/crystal-caves",
    "source_id": "hn_show",
    "first_dead": "2026-11-02T09:52:46+08:00",
-   "last_try": "2026-11-02T09:52:46+08:00",
+   "last_try": "2026-11-03T10:04:47+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)",
+   "reason_first": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+  },
+  "ef757ad68fa5a164": {
+   "attempts": 2,
+   "title": "Show HN: Egres, A Postgres-compatible database for heavy, multi-tenant",
+   "url": "https://manishrjain.com/egres/",
+   "source_id": "hn_show",
+   "first_dead": "2026-11-02T09:52:46+08:00",
+   "last_try": "2026-11-03T10:04:47+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "69957b8666963b84": {
+   "attempts": 2,
+   "title": "Show HN: A static recompilation of God of War Ascension for PC",
+   "url": "https://github.com/snuri00/GoWA-pc",
+   "source_id": "hn_show",
+   "first_dead": "2026-11-02T09:52:46+08:00",
+   "last_try": "2026-11-03T10:04:47+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)",
+   "reason_first": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+  },
+  "84d8ede70865bee2": {
+   "attempts": 1,
+   "title": "Show HN: Open-source silent speech with $20 EMG sensors and a webcam",
+   "url": "https://github.com/thaimtl/Silent-Voice",
+   "source_id": "hn_show",
+   "first_dead": "2026-11-03T10:04:47+08:00",
+   "last_try": "2026-11-03T10:04:47+08:00",
    "tried": [
     "gh_readme",
     "direct_fetch",
@@ -3178,35 +3228,51 @@
    "reason_code": "unreachable",
    "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
   },
-  "ef757ad68fa5a164": {
+  "7a117dfedbd60714": {
    "attempts": 1,
-   "title": "Show HN: Egres, A Postgres-compatible database for heavy, multi-tenant",
-   "url": "https://manishrjain.com/egres/",
+   "title": "Show HN: aido – Spec-driven, test-driven engineering workflow for Clau",
+   "url": "https://github.com/joebew42/aido",
    "source_id": "hn_show",
-   "first_dead": "2026-11-02T09:52:46+08:00",
-   "last_try": "2026-11-02T09:52:46+08:00",
+   "first_dead": "2026-11-03T10:04:47+08:00",
+   "last_try": "2026-11-03T10:04:47+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+  },
+  "a545f85988493b53": {
+   "attempts": 1,
+   "title": "Show HN: My Mac wouldn't switch to my USB-C earbuds, so I made an app ",
+   "url": "https://github.com/ishanray/AudioAutoSwitch",
+   "source_id": "hn_show",
+   "first_dead": "2026-11-03T10:04:47+08:00",
+   "last_try": "2026-11-03T10:04:47+08:00",
+   "tried": [
+    "gh_readme",
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "blocked",
+   "reason_code": "unreachable",
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+  },
+  "65e275db4264f785": {
+   "attempts": 1,
+   "title": "Show HN: Fooboard – deployment and promotion status of each repo per e",
+   "url": "https://www.fooboard.dev/demo",
+   "source_id": "hn_show",
+   "first_dead": "2026-11-03T10:04:47+08:00",
+   "last_try": "2026-11-03T10:04:47+08:00",
    "tried": [
     "direct_fetch"
    ],
    "http_status": 200,
    "reason_code": "no_backend",
    "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
-  },
-  "69957b8666963b84": {
-   "attempts": 1,
-   "title": "Show HN: A static recompilation of God of War Ascension for PC",
-   "url": "https://github.com/snuri00/GoWA-pc",
-   "source_id": "hn_show",
-   "first_dead": "2026-11-02T09:52:46+08:00",
-   "last_try": "2026-11-02T09:52:46+08:00",
-   "tried": [
-    "gh_readme",
-    "direct_fetch",
-    "exa_web_fetch"
-   ],
-   "http_status": "blocked",
-   "reason_code": "unreachable",
-   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
   }
  }
 }

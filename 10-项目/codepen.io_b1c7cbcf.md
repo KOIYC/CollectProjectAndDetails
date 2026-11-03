@@ -2,7 +2,7 @@
 type: "project"
 title: "Singularity News :: CCG"
 project_url: "https://codepen.io/editor/Omrega/pen/01a18f75-6d17-700c-8003-cd60c5253ed5"
-first_seen: "2026-11-02T09:41:23+08:00"
+first_seen: "2026-11-03T09:44:34+08:00"
 sources:
   - devto
 tags:
@@ -22,16 +22,17 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://codepen.io/editor/Omrega/pen/01a18f75-6d17-700c-8003-cd60c5253ed5>
-> 首次收录：2026-11-02T09:41:23+08:00
+> 首次收录：2026-11-03T09:44:34+08:00
 > 来源渠道：dev.to
 > 标签：devchallenge, hf26challenge, gamedev, showdev
-> 最新指标：reactions=40 · 评论=12 · reading_time=4
+> 最新指标：reactions=42 · 评论=12 · reading_time=4
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-11-02T09:41:23+08:00 | dev.to | reactions=40 · 评论=12 · reading_time=4 | [[20-语料/posts/devto/2026-11-02/cbb92ffbe505a2af_Singularity-News-CCG]] |
+| 2026-11-03T09:44:34+08:00 | dev.to | reactions=42 · 评论=12 · reading_time=4 | [[20-语料/posts/devto/2026-11-02/cbb92ffbe505a2af_Singularity-News-CCG]] |
 
 ## 摘要正文
 

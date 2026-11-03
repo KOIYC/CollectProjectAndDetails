@@ -1,37 +1,37 @@
 {
-  "generated": "2026-11-02T09:58:34+08:00",
-  "n_live": 3919,
-  "n_usable": 3451,
-  "n_project": 3048,
-  "signals": 75,
+  "generated": "2026-11-03T10:12:39+08:00",
+  "n_live": 4028,
+  "n_usable": 3544,
+  "n_project": 3127,
+  "signals": 76,
   "topics": [
     [
       "AI 工具/Agent",
-      2146
+      2202
     ],
     [
       "开发者工具",
-      719
+      738
     ],
     [
       "未分类",
-      328
+      336
     ],
     [
       "游戏",
-      90
+      92
     ],
     [
       "移动 App",
-      60
+      63
     ],
     [
       "SaaS/B2B",
-      53
+      56
     ],
     [
       "内容/媒体",
-      23
+      25
     ],
     [
       "教育/学习",
@@ -102,6 +102,22 @@
       }
     },
     {
+      "key": "host:chromewebstore.google.com",
+      "channels": [
+        "hn_show",
+        "reddit",
+        "v2ex"
+      ],
+      "n_channels": 3,
+      "title": "Show HN: Claude Exporter – Export Chats to PDF/Word/Notion",
+      "url": "https://chromewebstore.google.com/detail/claude-exporter-claude-ch/mhckealbblinipeplfddmbcohdidkfjf",
+      "metrics": {
+        "points": 6,
+        "comments": 2,
+        "engagement_velocity": 6
+      }
+    },
+    {
       "key": "host:play.google.com",
       "channels": [
         "hn_show",
@@ -130,6 +146,19 @@
         "points": 2,
         "comments": 0,
         "engagement_velocity": 2
+      }
+    },
+    {
+      "key": "host:v2ex.com",
+      "channels": [
+        "c1c7",
+        "v2ex"
+      ],
+      "n_channels": 2,
+      "title": "remoteAI 应用算法工程师（多模态 / Agent 方向）//AI 研发工程师//\r\nagent 架构师",
+      "url": "https://www.v2ex.com/t/1249180",
+      "metrics": {
+        "replies": 0
       }
     },
     {
@@ -172,25 +201,10 @@
         "forks": 2547,
         "open_issues": 141
       }
-    },
-    {
-      "key": "host:chromewebstore.google.com",
-      "channels": [
-        "hn_show",
-        "reddit"
-      ],
-      "n_channels": 2,
-      "title": "Show HN: Claude Exporter – Export Chats to PDF/Word/Notion",
-      "url": "https://chromewebstore.google.com/detail/claude-exporter-claude-ch/mhckealbblinipeplfddmbcohdidkfjf",
-      "metrics": {
-        "points": 6,
-        "comments": 2,
-        "engagement_velocity": 6
-      }
     }
   ],
-  "money_signal_n": 1504,
-  "money_evidence_n": 534,
+  "money_signal_n": 1533,
+  "money_evidence_n": 541,
   "money_quotes": [
     {
       "source": "betalist",
@@ -266,11 +280,11 @@
     }
   ],
   "pain_n": {
-    "当前方案不好用": 122,
-    "在找替代品": 69,
+    "当前方案不好用": 124,
+    "在找替代品": 71,
     "做不出来/卡住": 159,
-    "愿意付钱": 86,
-    "想要而找不到": 16
+    "愿意付钱": 90,
+    "想要而找不到": 17
   },
   "by_channel": [
     {
@@ -283,37 +297,37 @@
     {
       "id": "betalist",
       "profile": "linkpost",
-      "n": 275,
-      "ok": 274,
-      "rate": 0.9963636363636363
+      "n": 286,
+      "ok": 285,
+      "rate": 0.9965034965034965
     },
     {
       "id": "producthunt",
       "profile": "linkpost",
-      "n": 533,
-      "ok": 528,
-      "rate": 0.9906191369606003
+      "n": 551,
+      "ok": 546,
+      "rate": 0.9909255898366606
     },
     {
       "id": "indiehackers",
       "profile": "linkpost",
-      "n": 165,
-      "ok": 161,
-      "rate": 0.9757575757575757
+      "n": 169,
+      "ok": 165,
+      "rate": 0.9763313609467456
     },
     {
       "id": "hn_show",
       "profile": "discussion",
-      "n": 1867,
-      "ok": 1762,
-      "rate": 0.9437600428494911
+      "n": 1907,
+      "ok": 1797,
+      "rate": 0.9423177766124803
     },
     {
       "id": "bilibili",
       "profile": "metadata",
-      "n": 75,
-      "ok": 70,
-      "rate": 0.9333333333333333
+      "n": 76,
+      "ok": 71,
+      "rate": 0.9342105263157895
     },
     {
       "id": "exa_discovery",
@@ -325,16 +339,16 @@
     {
       "id": "devto",
       "profile": "discussion",
-      "n": 26,
-      "ok": 20,
-      "rate": 0.7692307692307693
+      "n": 27,
+      "ok": 21,
+      "rate": 0.7777777777777778
     },
     {
       "id": "v2ex",
       "profile": "discussion",
-      "n": 209,
-      "ok": 148,
-      "rate": 0.7081339712918661
+      "n": 222,
+      "ok": 157,
+      "rate": 0.7072072072072072
     },
     {
       "id": "github_new",
@@ -346,17 +360,17 @@
     {
       "id": "reddit",
       "profile": "discussion",
-      "n": 626,
-      "ok": 385,
-      "rate": 0.6150159744408946
+      "n": 647,
+      "ok": 398,
+      "rate": 0.615146831530139
     },
     {
       "id": "c1c7",
       "profile": "project",
       "n": 7,
-      "ok": 2,
-      "rate": 0.2857142857142857
+      "ok": 3,
+      "rate": 0.42857142857142855
     }
   ],
-  "body_median": 1755
+  "body_median": 1737.0
 }

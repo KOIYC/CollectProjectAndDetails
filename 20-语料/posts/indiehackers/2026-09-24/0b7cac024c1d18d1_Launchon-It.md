@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/launchon-it"
 project_url: "https://launchon.it/"
-captured_at: "2026-11-02T09:41:05+08:00"
+captured_at: "2026-11-03T09:43:29+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://launchon.it/>
-> 采集：2026-11-02T09:41:05+08:00　|　id：`0b7cac024c1d18d1`
+> 采集：2026-11-03T09:43:29+08:00　|　id：`0b7cac024c1d18d1`
 
 ## 正文
 
@@ -42,9 +42,20 @@ LaunchOnIt
  Product launch platform for indie startups.
 Visit Website
 LaunchOnIt Product launch platform for indie startups.
- Posts 55+
+ Posts 56+
  Revenue $0 / mo
  Website Twitter
+November 2, 2026
+ This week brings 20 new indie products, SaaS tools, and AI apps to discover on LaunchOnIt
+Happy Monday everyone! If you are looking to discover fresh software, explore unique micro-SaaS tools, or find alternative solutions built by indie makers instead of massive corporations, our latest weekly cohort is officially live.
+ We just rolled out a brand new lineup of 20 amazing products for this week on LaunchOnIt .
+ Whether you are hunting for developer utilities, productivity boosters, marketing automations, or creative AI apps, you can browse the entire directory directly over at our products page .
+ Every single one of these projects is built by independent builders who are actively looking for early users, real feedback, and community support.
+ Take a look at what just dropped, find a tool that solves a workflow problem for you, and go support a fellow maker today.
+ What kind of software or tools are you hunting for this week?
+Alex
+9 Upvotes
+3 Comments
 November 1, 2026
  The Sunday mindset shift: why building compound distribution beats chasing a viral launch day
 Sundays are usually my favorite day to step away from active coding, clear my head, and look at the bigger picture of my projects without the constant noise of notifications and metrics dashboards.
@@ -54,7 +65,7 @@ Sundays are usually my favorite day to step away from active coding, clear my he
  When your distribution stack relies on automated directories and compounding search equity instead of manual daily hustle, building software becomes fun again.
  How are you setting up your systems for the upcoming week? Are you planning manual outreach, or letting your infrastructure do the heavy lifting?
 Alex
-13 Upvotes
+17 Upvotes
 Comment
 October 31, 2026
  Why we built an affiliate program for our launch platform and how indie makers are using it
@@ -89,7 +100,7 @@ If you are a developer or solo founder building software right now, your daily l
  We spend all day making AI write our code, so it is about time we let it handle our boring distribution grunt work too.
  Are you using AI agents or custom scripts to automate any parts of your marketing or operations stack yet? Let us chat below.
 Alex
-14 Upvotes
+15 Upvotes
 1 Comment
 October 28, 2026
  The ultimate guide to choosing the best product launch platforms for your SaaS in 2026
@@ -150,16 +161,6 @@ When you are bootstrapping a startup by yourself, weekends tend to lose their me
 Alex
 26 Upvotes
 10 Comments
-October 23, 2026
- The Friday reality check: why doing less manual marketing will actually grow your startup faster
-By the time Friday rolls around, most bootstrapped founders are completely burned out. If your week looked anything like mine usually does, you spent half your time wrestling with code and the other half frantically copy-pasting links, updating software directories, and trying to figure out why a social algorithm ignored your latest post.
- We treat marketing like a manual labor job. We grind ourselves into dust doing repetitive administrative chores that a basic script or an agent could handle in five seconds.
- Building and running LaunchOnIt has made me realize just how much friction we needlessly accept in our workflows. When you set up automated systems for your distribution, your SEO, and your curation loops, you stop trading hours for low-yield vanity metrics.
- You do not need to work eighty hours a week if sixty of those hours are spent doing things a computer should be doing for you.
- As you wrap up your work for the week, take a look at your task list. How much of what you did this week could have been completely automated? Have a great weekend everyone!
-Alex
-15 Upvotes
-3 Comments
 About
  Product Hunt gives you one noisy day and then your launch disappears under the next wave of products. LaunchOnIt is a Product Hunt and BetaList style board where each product gets a page and a date that still exist.
 People

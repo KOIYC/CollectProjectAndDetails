@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: HackerBooks – HackerTube, but for books mentioned on HN"
 project_url: "https://hackerbooks.org/"
-first_seen: "2026-11-02T09:51:49+08:00"
+first_seen: "2026-11-03T10:03:33+08:00"
 sources:
   - hn_show
 tags:
@@ -22,7 +22,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://hackerbooks.org/>
-> 首次收录：2026-11-02T09:51:49+08:00
+> 首次收录：2026-11-03T10:03:33+08:00
 > 来源渠道：HN Show HN
 > 标签：author_roansh, story_50326821, show_hn, front_page
 > 最新指标：点赞=915 · 评论=178 · engagement_velocity=915
@@ -33,6 +33,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-11-02T09:37:22+08:00 | HN Show HN | 点赞=915 · 评论=178 · engagement_velocity=915 | [[20-语料/posts/hn_show/2026-11-02/951e1a98ac9556e8_Show-HN-HackerBooks-–-HackerTube,-but-for-books-me]] |
 | 2026-11-02T09:51:49+08:00 | HN Show HN | 点赞=915 · 评论=178 · engagement_velocity=915 | [[20-语料/posts/hn_show/2026-11-02/951e1a98ac9556e8_Show-HN-HackerBooks-–-HackerTube,-but-for-books-me]] |
+| 2026-11-03T10:03:33+08:00 | HN Show HN | 点赞=915 · 评论=178 · engagement_velocity=915 | [[20-语料/posts/hn_show/2026-11-02/951e1a98ac9556e8_Show-HN-HackerBooks-–-HackerTube,-but-for-books-me]] |
 
 ## 摘要正文
 

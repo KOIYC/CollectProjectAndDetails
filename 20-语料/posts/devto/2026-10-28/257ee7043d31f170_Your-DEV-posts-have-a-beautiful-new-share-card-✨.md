@@ -8,7 +8,7 @@ url: "https://dev.to/devteam/your-dev-posts-have-a-beautiful-new-share-card-4be8
 project_url: "https://github.com/forem/forem/pull/19826"
 author: "Jess Lee"
 published_at: "2026-10-27T16:44:29Z"
-captured_at: "2026-11-02T09:41:23+08:00"
+captured_at: "2026-11-03T09:44:34+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -21,7 +21,7 @@ tags:
   - showdev
   - opensource
   - design
-metrics: {"reactions": 166, "comments": 36, "reading_time": 2}
+metrics: {"reactions": 167, "comments": 36, "reading_time": 2}
 comments_count: 36
 comments_total: 36
 discovered_via: "devto:showdev"
@@ -35,10 +35,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/devteam/your-dev-posts-have-a-beautiful-new-share-card-4be8>
-> 指标：reactions=166 · 评论=36 · reading_time=2
+> 指标：reactions=167 · 评论=36 · reading_time=2
 > 作者：Jess Lee　|　发布：2026-10-27T16:44:29Z
 > 项目链接：<https://github.com/forem/forem/pull/19826>
-> 采集：2026-11-02T09:41:23+08:00　|　id：`257ee7043d31f170`
+> 采集：2026-11-03T09:44:34+08:00　|　id：`257ee7043d31f170`
 
 ## 正文
 

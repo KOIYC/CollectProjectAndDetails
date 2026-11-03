@@ -2,7 +2,7 @@
 type: "project"
 title: "Your DEV posts have a beautiful new share card ✨"
 project_url: "https://github.com/forem/forem/pull/19826"
-first_seen: "2026-11-02T09:41:23+08:00"
+first_seen: "2026-11-03T09:44:34+08:00"
 sources:
   - devto
 tags:
@@ -22,10 +22,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/forem/forem/pull/19826>
-> 首次收录：2026-11-02T09:41:23+08:00
+> 首次收录：2026-11-03T09:44:34+08:00
 > 来源渠道：dev.to
 > 标签：devto, showdev, opensource, design
-> 最新指标：reactions=166 · 评论=36 · reading_time=2
+> 最新指标：reactions=167 · 评论=36 · reading_time=2
 
 ## 观测历史
 
@@ -36,6 +36,7 @@ lang: "en"
 | 2026-10-30T09:50:08+08:00 | dev.to | reactions=126 · 评论=28 · reading_time=2 | [[20-语料/posts/devto/2026-10-28/257ee7043d31f170_Your-DEV-posts-have-a-beautiful-new-share-card-✨]] |
 | 2026-11-01T09:40:47+08:00 | dev.to | reactions=150 · 评论=34 · reading_time=2 | [[20-语料/posts/devto/2026-10-28/257ee7043d31f170_Your-DEV-posts-have-a-beautiful-new-share-card-✨]] |
 | 2026-11-02T09:41:23+08:00 | dev.to | reactions=166 · 评论=36 · reading_time=2 | [[20-语料/posts/devto/2026-10-28/257ee7043d31f170_Your-DEV-posts-have-a-beautiful-new-share-card-✨]] |
+| 2026-11-03T09:44:34+08:00 | dev.to | reactions=167 · 评论=36 · reading_time=2 | [[20-语料/posts/devto/2026-10-28/257ee7043d31f170_Your-DEV-posts-have-a-beautiful-new-share-card-✨]] |
 
 ## 摘要正文
 

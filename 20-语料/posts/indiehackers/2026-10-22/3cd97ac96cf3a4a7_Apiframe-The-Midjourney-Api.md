@@ -5,7 +5,7 @@ title: "Apiframe The Midjourney Api"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/apiframe-the-midjourney-api"
-captured_at: "2026-10-27T23:49:41+08:00"
+captured_at: "2026-11-03T09:43:29+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-10-27T23:49:41+08:00　|　id：`3cd97ac96cf3a4a7`
+> 采集：2026-11-03T09:43:29+08:00　|　id：`3cd97ac96cf3a4a7`
 
 ## 正文
 
@@ -42,7 +42,7 @@ Apiframe
 Visit Website
 Apiframe One API to Access Multiple AI Media Models
  Posts 3
- Revenue $44K / mo
+ Revenue $42K / mo
  Website
 October 30, 2024
  Search Engine Optimization for Apiframe

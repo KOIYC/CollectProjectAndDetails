@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/outshot"
 published_at: "2026-10-19"
-captured_at: "2026-10-29T20:45:44+08:00"
+captured_at: "2026-11-03T09:43:14+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-10-19
 > 项目链接：—
-> 采集：2026-10-29T20:45:44+08:00　|　id：`bcff0faf6943cc27`
+> 采集：2026-11-03T09:43:14+08:00　|　id：`bcff0faf6943cc27`
 
 ## 正文
 
@@ -43,15 +43,18 @@ Home
  Search
 Help
  Advertise
+ Refer a friend
  Affiliates
 Startup Jobs
  Vision Pro apps
+ Room AI
 Home
  Browse
  Newsletter
  Search
 Help
  Advertise
+ Refer a friend
  Affiliates
 theme#toggle"
  class="
@@ -79,6 +82,7 @@ Short Form Video
 Featured
 October 19, 2026
 Request changes
+Edit makers
 Get your badge
 Report this startup
  Manage collections
@@ -91,9 +95,9 @@ Esseeoh
  Turn long videos into viral Shorts and auto-post them for you
 Video Clipper
  Turn YouTube videos into viral Shorts with AI in minutes
-WZRD
+MemoryPlugin
  BOOSTED
- Turn plain ideas into interactive docs, forms, and decks that converse
+ Long term memory for ALL your AI tools
  BOOSTED
 UGCLive
  Analyze, script, and auto-edit TikTok, Reels, and Shorts content
@@ -101,9 +105,9 @@ Script Short
  Generates Instagram content ideas from an Instagram video URL
 Handler
  Spy outlier TikToks and copy the winners for your app
-Terrapin
+Structura
  BOOSTED
- Turn receipts, email & photos into clean, tax-ready insights, automatically
+ Publish 3 SEO-optimized blog posts a day, hands-off
  BOOSTED
 ViralSpy
  Spot breakout social posts, hire proven creators, and spin ideas fast

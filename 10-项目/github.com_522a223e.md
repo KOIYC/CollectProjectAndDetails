@@ -2,13 +2,13 @@
 type: "project"
 title: "unclebob/ub-mode"
 project_url: "https://github.com/unclebob/ub-mode"
-first_seen: "2026-11-02T09:40:41+08:00"
+first_seen: "2026-11-03T09:43:02+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
-  - created:>2026-10-19
+  - created:>2026-10-20
 lang: "en"
 ---
 
@@ -19,10 +19,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/unclebob/ub-mode>
-> 首次收录：2026-11-02T09:40:41+08:00
+> 首次收录：2026-11-03T09:43:02+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：created:>2026-10-19
-> 最新指标：stars=6266 · forks=352 · open_issues=9
+> 标签：created:>2026-10-20
+> 最新指标：stars=6561 · forks=370 · open_issues=10
 
 ## 观测历史
 
@@ -30,6 +30,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-11-01T09:40:10+08:00 | GitHub 新星仓库 | stars=5830 · forks=319 · open_issues=8 | [[20-语料/posts/github_new/2026-11-01/522a223e8d32fdbf_unclebob-ub-mode]] |
 | 2026-11-02T09:40:41+08:00 | GitHub 新星仓库 | stars=6266 · forks=352 · open_issues=9 | [[20-语料/posts/github_new/2026-11-01/522a223e8d32fdbf_unclebob-ub-mode]] |
+| 2026-11-03T09:43:02+08:00 | GitHub 新星仓库 | stars=6561 · forks=370 · open_issues=10 | [[20-语料/posts/github_new/2026-11-01/522a223e8d32fdbf_unclebob-ub-mode]] |
 
 ## 摘要正文
 

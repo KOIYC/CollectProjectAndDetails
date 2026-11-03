@@ -2,7 +2,7 @@
 type: "project"
 title: "Show HN: OmniDiff – Opensource, super fast, content aware Git difftool, in Rust"
 project_url: "https://github.com/ivankovic/omnidiff"
-first_seen: "2026-11-02T09:51:51+08:00"
+first_seen: "2026-11-03T10:03:39+08:00"
 sources:
   - hn_show
 tags:
@@ -22,7 +22,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/ivankovic/omnidiff>
-> 首次收录：2026-11-02T09:51:51+08:00
+> 首次收录：2026-11-03T10:03:39+08:00
 > 来源渠道：HN Show HN
 > 标签：author_FabCH, story_50325253, show_hn, front_page
 > 最新指标：点赞=157 · 评论=41 · engagement_velocity=157
@@ -33,6 +33,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-11-02T09:37:22+08:00 | HN Show HN | 点赞=157 · 评论=41 · engagement_velocity=157 | [[20-语料/posts/hn_show/2026-11-02/747d6d027235ec4e_Show-HN-OmniDiff-–-Opensource,-super-fast,-content]] |
 | 2026-11-02T09:51:51+08:00 | HN Show HN | 点赞=157 · 评论=41 · engagement_velocity=157 | [[20-语料/posts/hn_show/2026-11-02/747d6d027235ec4e_Show-HN-OmniDiff-–-Opensource,-super-fast,-content]] |
+| 2026-11-03T10:03:39+08:00 | HN Show HN | 点赞=157 · 评论=41 · engagement_velocity=157 | [[20-语料/posts/hn_show/2026-11-02/747d6d027235ec4e_Show-HN-OmniDiff-–-Opensource,-super-fast,-content]] |
 
 ## 摘要正文
 

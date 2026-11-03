@@ -2,7 +2,7 @@
 type: "project"
 title: "Launchon It"
 project_url: "https://launchon.it/"
-first_seen: "2026-11-02T09:41:05+08:00"
+first_seen: "2026-11-03T09:43:29+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://launchon.it/>
-> 首次收录：2026-11-02T09:41:05+08:00
+> 首次收录：2026-11-03T09:43:29+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -47,7 +47,8 @@ lang: "en"
 | 2026-10-30T09:49:51+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
 | 2026-11-01T09:40:34+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
 | 2026-11-02T09:41:05+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
+| 2026-11-03T09:43:29+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
 
 ## 摘要正文
 
-Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join LaunchOnIt  Product launch platform for indie startups. Visit Website LaunchOnIt Product launch platform for indie startups.  Posts 55+  Revenue $0 / mo  Website Twitter November 1, 2026  The Sunday mindset shift: why building compound distribution beats chasing a viral launch day Sundays are usually my favorite day to step away from active coding, clear my head, and look at the bigger picture of my projects without the constant noise of notifications and metrics dashboards.  When you look at how most early-stage founders try to get users, it is exhausting. They spend all week manually posting links, chasing volatile social algorithms, and grinding out content hoping for a viral spark. If they stop posting for forty-eight hours, their traffic drops straight to absolute zero. That is not a sustainable business. That is just a very tiring treadmill.  Real leverage in indie hacking comes from building systems that compound on their own over time.  This is the exact philosophy we baked into the core of LaunchOnIt . Instead of forcing makers i…
+Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join LaunchOnIt  Product launch platform for indie startups. Visit Website LaunchOnIt Product launch platform for indie startups.  Posts 56+  Revenue $0 / mo  Website Twitter November 2, 2026  This week brings 20 new indie products, SaaS tools, and AI apps to discover on LaunchOnIt Happy Monday everyone! If you are looking to discover fresh software, explore unique micro-SaaS tools, or find alternative solutions built by indie makers instead of massive corporations, our latest weekly cohort is officially live.  We just rolled out a brand new lineup of 20 amazing products for this week on LaunchOnIt .  Whether you are hunting for developer utilities, productivity boosters, marketing automations, or creative AI apps, you can browse the entire directory directly over at our products page .  Every single one of these projects is built by independent builders who are actively looking for early users, real feedback, and community support.  Take a look at what just dropped, find a tool that solves a workflow problem for you, and go support a fellow m…

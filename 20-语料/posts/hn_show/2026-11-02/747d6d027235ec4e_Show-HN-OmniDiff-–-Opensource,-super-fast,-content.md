@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=50325253"
 project_url: "https://github.com/ivankovic/omnidiff"
 author: "FabCH"
 published_at: "2026-11-01T13:02:30Z"
-captured_at: "2026-11-02T09:51:51+08:00"
+captured_at: "2026-11-03T10:03:39+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -22,8 +22,8 @@ tags:
   - show_hn
   - front_page
 metrics: {"points": 157, "comments": 41, "engagement_velocity": 157}
-comments_count: 38
-comments_total: 41
+comments_count: 90
+comments_total: 90
 discovered_via: "hn:show_hn:3d"
 ---
 
@@ -38,13 +38,13 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=157 · 评论=41 · engagement_velocity=157
 > 作者：FabCH　|　发布：2026-11-01T13:02:30Z
 > 项目链接：<https://github.com/ivankovic/omnidiff>
-> 采集：2026-11-02T09:51:51+08:00　|　id：`747d6d027235ec4e`
+> 采集：2026-11-03T10:03:39+08:00　|　id：`747d6d027235ec4e`
 
 ## 正文
 
 I have been researching what the ultimate diff tool would look like, based on actual diffs in open source repositories.OmniDiff can diff: code (25 languages), config, images, PDFs, archives, cursors, fonts...It's fast. It can diff C++ files of tens of thousands of lines in under 100ms, on a 2023 ThinkPad T14s.It's open source. AGPLv3.It's based on real diffs. I looked at the 7400 repositories that are listed in Gentoo packages, sampled 2000 diffs and solved them manually to get a good understanding of what is needed, before putting together the diff pipelines for each content type. Incidentally, this also forms the basis of the CI pipeline, so the robustness of the codebase is quite high.I'm still developing it. It's v0.3.0 at this time. But I have been using it daily as my git difftool for months now, and it works well.AI Disclosure: Yes, I do use AI. No, I do not vibecode.
 
-## 评论（38/41）
+## 评论（90/90）
 
 > **paaloeye** · 2026-11-01T13:39:32.000Z　
 > How is it better or worse compared to https://github.com/dandavison/delta ?
@@ -111,6 +111,46 @@ I have been researching what the ultimate diff tool would look like, based on ac
 
 ---
 
+> **BobbyTables2** · 2026-11-02T03:03:50.000Z　
+> For me the biggest issue is “git rebase” merge conflicts because the surrounding context was modified (especially near beginning/end of functions where the context includes unrelated stuff), or similar in a markdown document.(If commit A adds a line to the end of a bullet list in markdown and commit B does the same, they will conflict even though resolution is trivial for a human)
+
+---
+
+> **blahgeek** · 2026-11-02T04:57:16.000Z　
+> > can diff 99.95% of code changesI’m not sure if I’m understanding this correctly : so for the remaining 0.05% of code changes, this tool would just… miss it? That seems horrible for a diff tool :O
+
+---
+
+> **z0al** · 2026-11-02T08:57:08.000Z　
+> How does it compare to Difftastic[1]? Both built on top of TreeSitter and solve similar problems.[1] https://difftastic.wilfred.me.uk/
+
+---
+
+> **gabagoolagonist** · 2026-11-02T11:01:03.000Z　
+> I tried using this as configured with `omnidiff git configure`, but when I use `git difftool` it shows me the entire file in the TUI and I have to scroll down to where diff is. Is this intended behavior? Setting `--context` seems to have no effect.
+
+---
+
+> **Tooster** · 2026-11-02T12:30:39.000Z　
+> It would be nice if you checked out lazygit and consider adding support to it's recently added OSC1717, adding supporting for staging in the main diff view directly: https://github.com/stefanhaller/diff-line-metadata-specAlso it would be nice to have a more thorough and comprehensive comparison against difftastic, because I don't think there are much, or even any difference to code diffing compared to it: https://ivankovic.github.io/omnidiff/showcase/Does yours support move + change detection across different files, like A/before.rs => B/after.rs (~some changes)?
+
+---
+
+> **ro-han_solo** · 2026-11-02T13:35:33.000Z　
+> can it diff word files?
+
+---
+
+> **MattCruikshank** · 2026-11-02T14:34:32.000Z　
+> I'd be curious how it compares to BeyondCompare by Turtle Software. I've always been really impressed with their diffs and 3-way merges.
+
+---
+
+> **glenjamin** · 2026-11-02T14:38:38.000Z　
+> An idea you can steal: turn common generated/lockfile diffs into something readable (a la https://www.npmjs.com/package/diff-package-lock)
+
+---
+
 > **FabCH** · 2026-11-01T13:53:03.000Z　
 > It’s much much better with moved code.Delta adds color to the standard git diff algorithm.Omnidiff uses a completely different algorithm.About a third of diffs are significantly better.
 
@@ -162,8 +202,23 @@ I have been researching what the ultimate diff tool would look like, based on ac
 
 ---
 
+> **FabCH** · 2026-11-02T08:26:42.000Z　
+> Don't feel dumb. You are just an outlier on the visual preferences.I actually do TWO solutions for each test case: a minimal diff and a maximal diff. Pressing 'm' in the TUI pops up a settings page where you can choose how the diff works.I am actively researching how many ways there are to "paint" the same diff and user preferences and non-uniqueness of diffs is something I am super interested in.If you would like to, it would be super useful for me to know what diff you don't like and why. It would help make the diff better for users with different visual preferences.
+
+---
+
 > **andunie** · 2026-11-01T23:40:38.000Z　
 > I don't know what I did wrong, but using this as a git difftool (following the config) I didn't get any of the cool things from the demos, I got a weird single-column diff output that only showed the new side of the changes, not a diff.
+
+---
+
+> **lejalv** · 2026-11-02T07:44:33.000Z　
+> So much this. Thanks OP!
+
+---
+
+> **eviks** · 2026-11-02T08:50:01.000Z　
+> But an evil midllman will relatively easily be able to give you non-free version, so that feeling should be fleeting
 
 ---
 
@@ -179,8 +234,80 @@ I have been researching what the ultimate diff tool would look like, based on ac
 
 ---
 
+> **zem** · 2026-11-02T04:50:35.000Z　
+> the resolution depends on a deeper understanding of the contents of the list and whether they are ordered according to some scheme (in which case you will need to look at the two lines and see which one goes first)
+
+---
+
+> **eviks** · 2026-11-02T08:45:22.000Z　
+> That would also be trivial for a syntax-tree-based tool, right?
+
+---
+
+> **XYen0n** · 2026-11-02T09:01:45.000Z　
+> You could try https://mergiraf.org/
+
+---
+
+> **anentropic** · 2026-11-02T10:32:25.000Z　
+> For me the answer to painful merge conflicts has been... Claude
+
+---
+
+> **kspacewalk2** · 2026-11-02T15:36:36.000Z　
+> Resolution is ambiguous without context. The most trivial example: does order matter? If so, which goes first?
+
+---
+
+> **FabCH** · 2026-11-02T06:17:33.000Z　
+> It will crash.But so will every other tool, because it is things like a C++ header file with 128MB of PNG data hardcoded as an array.Editors don’t even open those files.
+
+---
+
+> **FabCH** · 2026-11-02T09:11:54.000Z　
+> Comparing is slightly complicated but roughly speaking:Difftastic only diffs code, which is only 2/3 of all diffs.When only measured on stuff difftastic supports:Difftastic is perfect on 64% of diffs and near-perfect on 17% more.Omnidiff is perfect on 90% of diffs and near-perfect on 5% more.Speed isp50 - 35ms difftastic vs 4ms OmniDiff
+> p99 - 637ms vs 420msDifftastic is MIT vs AGPL.
+
+---
+
+> **FabCH** · 2026-11-02T11:10:36.000Z　
+> Press “n“ or “p” to jump to next/previous difference.Press ? for the help menu.
+
+---
+
+> **FabCH** · 2026-11-02T14:47:38.000Z　
+> Feel free to subscribe to https://github.com/ivankovic/omnidiff/issues/62 to get notified when Lazygit support is added.An extremely thorough comparison against difftastic is in the research/ directory. I don't recommend reading it, unless you are really into diffs. Even describing the dataset takes a good half an hour.Multi-file support is on the roadmap. Subscribe here: https://github.com/ivankovic/omnidiff/issues/63
+
+---
+
+> **FabCH** · 2026-11-02T14:55:16.000Z　
+> Depends on what exactly you mean by word files and what exact format is used.It will diff OpenOffice compatible files.
+
+---
+
+> **FabCH** · 2026-11-02T14:43:22.000Z　
+> Unfortunately that is a comparison I will not be doing because BeyondCompare is paid closed-source software.
+
+---
+
+> **FabCH** · 2026-11-02T14:44:27.000Z　
+> https://github.com/ivankovic/omnidiff/issues/61 feel free to subscribe to the issue to see when it is done.
+
+---
+
 > **paaloeye** · 2026-11-01T14:04:38.000Z　
 > Okay, I'll give it a try then.
+
+---
+
+> **eviks** · 2026-11-02T08:56:22.000Z　
+> Do you have any examples illustrating how it's better?
+
+---
+
+> **p_wood** · 2026-11-02T16:23:59.000Z　
+> > It’s much much better with moved code.
+> > Delta adds color to the standard git diff algorithm.Git will highlight moved code and delta shows that, so how does OmniDiff differ from git diff --color-moved=zebra --color-moved-ws=allow-indentation-change
 
 ---
 
@@ -206,6 +333,56 @@ I have been researching what the ultimate diff tool would look like, based on ac
 
 ---
 
+> **FabCH** · 2026-11-02T06:23:38.000Z　
+> Perhaps the terminal is too small? What happens when you hit tab or “v”?
+
+---
+
+> **FabCH** · 2026-11-02T14:53:38.000Z　
+> Ok I had a deeper look at twain now.If I understand your goal correctly, you are looking to especially focus on the visual part of the diff and provide a nice UI for it, and you would like to use OmniDiff as a library?If so, then let's talk. I have been delaying the design of the API because nobody has a use for it yet, so it is mostly driven by the needs of the CLI/TUI at the moment.Ping me on my email if you want.
+
+---
+
+> **FabCH** · 2026-11-02T08:52:37.000Z　
+> As long as they open source all modifications and follow AGPL to the letter so that anyone can self-host the version they are selling, I’m ok with that.AGPL totally allows commercial use. You just have to give back.
+
+---
+
+> **jbellis** · 2026-11-02T14:28:23.000Z　
+> Not sure why you're getting downvoted. I haven't resolved conflicts by hand in almost a year.
+
+---
+
+> **xeyownt** · 2026-11-02T06:48:43.000Z　
+> Fair enough.But then I would rephrase that because it's confusing, and not doing justice to your tool.
+
+---
+
+> **grey-area** · 2026-11-02T07:40:37.000Z　
+> Perhaps it could just check the length of files and not crash?!? Don’t you think that’s sensible?
+
+---
+
+> **dmitrygr** · 2026-11-02T07:55:20.000Z　
+> > Editors don’t even open those files.vi opens multi-GB files just fine.And for multi-TB files, "less -n" works.You need to broaden your horizons about editors. Not all of then are javascript-based slopfests
+
+---
+
+> **z0al** · 2026-11-02T09:27:20.000Z　
+> > Difftastic only diffs code, which is only 2/3 of all diffs.Care to elaborate? What does Omnidiff offer for non-code files?
+
+---
+
+> **Tooster** · 2026-11-02T12:46:46.000Z　
+> > Difftastic is perfect on 64% of diffs and near-perfect on 17% more.> Omnidiff is perfect on 90% of diffs and near-perfect on 5% more.I did not find examples in the repo or any way to test what "perfect" or "near perfect" in those cases mean. On the playground you compare against unix diff only. Based on my quick comparisons with difft, I do not see much difference. Could you add a link to comparisons or show how it differs and what are those numbers based on??? I'm not dismissive, just looking for a proof or showcase.
+
+---
+
+> **MattCruikshank** · 2026-11-02T19:02:22.000Z　
+> There's a free trial.
+
+---
+
 > **FabCH** · 2026-11-01T15:53:34.000Z　
 > I’m not based in the US so SCOTUS doesn’t set meaningful precedent for my IP.That said, even under those rules, I would be comfortable arguing before the court that this code has significant human involvement and easily passes the copyright standard.It’s also why I don’t think someone can just easily create another one and license it under BSD. My code is AI assisted, but all truly important pieces were human made.
 
@@ -226,8 +403,73 @@ I have been researching what the ultimate diff tool would look like, based on ac
 
 ---
 
+> **FabCH** · 2026-11-02T06:21:52.000Z　
+> It’s a 5 step pipeline.In practice, tree hashing is doing a huge amount of work because most diffs are tiny. Half of all diffs are less than 10 lines, so a hash can extremely quickly match large subtrees.In a profoundly degenerate case of a C++ header file with only a 20MB array of bytes, it detects a degenerate tree and uses Myers O(N) sequence diffing algorithm instead of treating it as a tree.
+
+---
+
+> **erutuon** · 2026-11-02T16:49:39.000Z　
+> I had the same problem. v switched to the side-by-side view, but it wasn't listed in the help screen so I didn't know to use it till I read your comment.
+
+---
+
+> **FabCH** · 2026-11-02T07:00:32.000Z　
+> Good point.Thanks!
+
+---
+
+> **FabCH** · 2026-11-02T08:20:10.000Z　
+> It's a tradeoff. The length itself is not a problem. It will happily diff normal multi-MB files.The problem is the degenerative syntax tree that TreeSitter produces in case of, for example a multi-million array of bytes. This causes a stack overflow in the TreeSitter C code which takes down the Rust process with it.The correct solution would be to prevent TS from crashing, or isolate the C<->Rust boundary better.Or just, not support that for v0.3. Because if you are diffing the collected works of Shakespeare as a binary blob in a C++ header, maybe diffing isn't your biggest problem.
+
+---
+
+> **FabCH** · 2026-11-02T08:16:04.000Z　
+> The crash will happen in TreeSitter which is a widely used AST library that all modern editors, including neovim, depend on for syntax highlighting and which is also used by many LSPs.Additionally, here's an appropriate XKCD: https://xkcd.com/378/
+
+---
+
+> **FabCH** · 2026-11-02T09:44:06.000Z　
+> https://ivankovic.github.io/omnidiff/showcase/content.htmlNote that you do need a terminal with image support, like kitty, alacritty.If you do not have image support, it does its best with image2ascii, but it is obviously severely limited.
+
+---
+
+> **FabCH** · 2026-11-02T13:11:31.000Z　
+> It’s in the research/ directory.Fair warning: the true comparison is fairly complex and doesn’t really lend itself to “quick comparison”.Also, the research is NOT complete.
+
+---
+
 > **dspillett** · 2026-11-01T17:26:59.000Z　
 > > It’s also why I don’t think someone can just easily create another one and license it under BSD. My code is AI assisted, but all truly important pieces were human made.Get one AI to describe what the code does, and another to implement based on that description. You might even get away with a human doing one of the steps. A variation of the classic “clean room reverse engineering” method that was used by Compaq to reimplement IBM's BIOS and start the clone PC market.Some argue that “it doesn't work like that” but it certainly seems to be what some people are doing and as yet no one has been confident enough that their copyright extends through this mechanism that they've tested the theory in court.Note: I'm not saying it is right, but that it might well be perfectly legal. It is definitely possible, practical even. I'd still release stuff under AGPL/similar for the same reasons stated above, but I'd not operate under any illusion that I'd be safe from someone using that method to copy everything they wanted to.
+
+---
+
+> **FabCH** · 2026-11-02T08:42:25.000Z　
+> The CH in FabCH stands for Switzerland :)… we don’t know what to do with AI copyright either. I assume a referendum will sort it out at some point.
+
+---
+
+> **fishgoesblub** · 2026-11-02T02:09:43.000Z　
+> > but developers have reasons to prefer MITHi! as a developer, I personally prefer it when the libraries/tools used in my projects are GPL or another Copyleft license. The drove of MIT projects from the past decade has been depressing.
+
+---
+
+> **lejalv** · 2026-11-02T07:47:19.000Z　
+> Servitude to their masters
+
+---
+
+> **catlifeonmars** · 2026-11-02T12:43:12.000Z　
+> How would one craft an input that maximizes the runtime of your diff while staying below some (reasonable) bound of edit distance apart? Basically suppose I wanted to provide a malicious diff designed to hang or timeout the diff program, how would I construct it?
+
+---
+
+> **dmitrygr** · 2026-11-02T11:02:45.000Z　
+> Please demonstrate that crash on “less -n” or vim with no plugins. I just happily opened a multi gb file in both. No issue
+
+---
+
+> **z0al** · 2026-11-02T09:46:16.000Z　
+> Wow.. that looks great
 
 ---
 
@@ -236,8 +478,28 @@ I have been researching what the ultimate diff tool would look like, based on ac
 
 ---
 
+> **FabCH** · 2026-11-02T13:38:19.000Z　
+> You need to maximize the size of the residual tree sent to the final APTED step.I actually don’t know how to do that and stay under a bounded edit distance.Alternatively, you can crash it if you just encode the entire “Star Trek - In the pale moonlight” episode as a sequence of bytes in a const int array in C++.
+
+---
+
+> **FabCH** · 2026-11-02T11:47:12.000Z　
+> As soon as you demonstrate editing a file with less :)
+
+---
+
 > **dspillett** · 2026-11-01T21:11:10.000Z　
 > > I am counting on the fact that _companies_ would be too worried about legal uncertainty to try thisOh, my sweet summery child :-)Companies have been doing far more dodgy things, things that look objectively illegal where-as the clean-room reverse engineering thing looks to me (caveat: not a legal expert at all) to be legally defensible, for a long time, definitely pre-AI.Even if a company operating in your jurisdiction, where you as an individual might have a cat in hell's chance of even trying to sort the situation to your preference, might not, you can bet your last  that a company elsewhere will feel more free to do so if they wanted what you have without agreeing to your terms.
+
+---
+
+> **catlifeonmars** · 2026-11-02T13:56:50.000Z　
+> > I actually don’t know how to do that and stay under a bounded edit distance.I’m sure there’s an interesting result there, but I am not the person to find it :DGood episode btw
+
+---
+
+> **FabCH** · 2026-11-02T08:41:03.000Z　
+> I’m perfectly happy to defend the copyright in the EU/EFTA and CAN/US.If it’s a small company, it’s not worth it, but then again they are not causing a lot of damage either. If it’s a big company, they will find me unexpectedly resistant to usual legal bullying tactics. I have legal insurance, multiple lawyers as friends and don’t have a job so have loads of time for filing paperwork.
 
 ## 导航
 
