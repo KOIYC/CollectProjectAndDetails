@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-03T09:40:20+08:00",
+ "checked_at": "2026-11-04T09:51:13+08:00",
  "channels": [
   {
    "channel_id": "hn_show",
@@ -10,16 +10,16 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 3.4,
-   "probe_at": "2026-11-03T09:36:40+08:00",
+   "elapsed_s": 2.0,
+   "probe_at": "2026-11-04T09:48:10+08:00",
    "sample": [
     {
-     "title": "Show HN: Learn French by Watching Netflix",
-     "url": "https://news.ycombinator.com/item?id=50346214"
+     "title": "Show HN: Retro: I rebuilt bomberman game, same gameplay, new interface",
+     "url": "https://news.ycombinator.com/item?id=50360315"
     },
     {
-     "title": "Show HN: Learn to speak French by watching Netflix",
-     "url": "https://news.ycombinator.com/item?id=50346162"
+     "title": "Show HN: HackerReels - Short Videos for viral HN posts",
+     "url": "https://news.ycombinator.com/item?id=50360259"
     }
    ]
   },
@@ -32,16 +32,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
-   "elapsed_s": 33.3,
-   "probe_at": "2026-11-03T09:37:14+08:00",
+   "elapsed_s": 35.1,
+   "probe_at": "2026-11-04T09:48:45+08:00",
    "sample": [
     {
-     "title": "the amount of spam you get after you release a game goes crazy man",
-     "url": "https://www.reddit.com/r/IndieDev/comments/1xdubvy/the_amount_of_spam_you_get_after_you_release_a/"
+     "title": "Less than 500 wishlists and releasing soon, not the best but proud of myself!",
+     "url": "https://www.reddit.com/r/IndieDev/comments/1xep92v/less_than_500_wishlists_and_releasing_soon_not/"
     },
     {
-     "title": "After a year of quietly building my side project, I got my first paying user",
-     "url": "https://www.reddit.com/r/SideProject/comments/1xdvk2e/after_a_year_of_quietly_building_my_side_project/"
+     "title": "Why is every \"$10k MRR in 30 days\" thread written by someone selling a course?",
+     "url": "https://www.reddit.com/r/SaaS/comments/1xenqz6/why_is_every_10k_mrr_in_30_days_thread_written_by/"
     }
    ]
   },
@@ -54,16 +54,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 2.6,
-   "probe_at": "2026-11-03T09:37:16+08:00",
+   "elapsed_s": 2.1,
+   "probe_at": "2026-11-04T09:48:48+08:00",
    "sample": [
     {
      "title": "deepseek-ai/dsh-superagent-prototype",
      "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
     },
     {
-     "title": "unclebob/ub-mode",
-     "url": "https://github.com/unclebob/ub-mode"
+     "title": "storytold/craft-anything",
+     "url": "https://github.com/storytold/craft-anything"
     }
    ]
   },
@@ -76,16 +76,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 startups · 发布日 3/3",
-   "elapsed_s": 7.8,
-   "probe_at": "2026-11-03T09:37:24+08:00",
+   "elapsed_s": 6.2,
+   "probe_at": "2026-11-04T09:48:54+08:00",
    "sample": [
     {
-     "title": "Subsplithq",
-     "url": "https://betalist.com/startups/subsplithq"
+     "title": "Cash Flow Calendar",
+     "url": "https://betalist.com/startups/cash-flow-calendar"
     },
     {
-     "title": "Everycalc",
-     "url": "https://betalist.com/startups/everycalc"
+     "title": "Kiriframe",
+     "url": "https://betalist.com/startups/kiriframe"
     }
    ]
   },
@@ -98,12 +98,12 @@
    "status": "ok",
    "count": 3,
    "message": "23 products",
-   "elapsed_s": 10.8,
-   "probe_at": "2026-11-03T09:37:35+08:00",
+   "elapsed_s": 8.0,
+   "probe_at": "2026-11-04T09:49:02+08:00",
    "sample": [
     {
-     "title": "Tablif",
-     "url": "https://www.indiehackers.com/product/tablif"
+     "title": "Citewing",
+     "url": "https://www.indiehackers.com/product/citewing"
     },
     {
      "title": "Launchon It",
@@ -118,18 +118,18 @@
    "auth": "none",
    "group": "海外社区",
    "status": "ok",
-   "count": 2,
-   "message": "2 articles",
-   "elapsed_s": 36.6,
-   "probe_at": "2026-11-03T09:38:11+08:00",
+   "count": 3,
+   "message": "3 articles",
+   "elapsed_s": 1.2,
+   "probe_at": "2026-11-04T09:49:03+08:00",
    "sample": [
     {
      "title": "Your DEV posts have a beautiful new share card ✨",
      "url": "https://dev.to/devteam/your-dev-posts-have-a-beautiful-new-share-card-4be8"
     },
     {
-     "title": "Singularity News :: CCG",
-     "url": "https://dev.to/pengeszikra/singularity-news-ccg-5ejk"
+     "title": "We Need to Talk About How Gross Modern Web Design Has Become (And How We Built a",
+     "url": "https://dev.to/dj29/we-need-to-talk-about-how-gross-modern-web-design-has-become-and-how-we-built-an-ai-to-catch-it-5gin"
     }
    ]
   },
@@ -142,16 +142,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 entries",
-   "elapsed_s": 1.3,
-   "probe_at": "2026-11-03T09:38:13+08:00",
+   "elapsed_s": 5.2,
+   "probe_at": "2026-11-04T09:49:08+08:00",
    "sample": [
     {
-     "title": "redu.cloud",
-     "url": "https://www.producthunt.com/products/redu-cloud"
+     "title": "AgentKit by Scalekit",
+     "url": "https://www.producthunt.com/products/scalekit"
     },
     {
-     "title": "UnleashX",
-     "url": "https://www.producthunt.com/products/unleashx"
+     "title": "Teamily AI",
+     "url": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network"
     }
    ]
   },
@@ -164,16 +164,16 @@
    "status": "ok",
    "count": 3,
    "message": "20 topics",
-   "elapsed_s": 0.8,
-   "probe_at": "2026-11-03T09:38:14+08:00",
+   "elapsed_s": 0.7,
+   "probe_at": "2026-11-04T09:49:09+08:00",
    "sample": [
     {
-     "title": "海淘算汇率太麻烦，我自己做了个插件",
-     "url": "https://www.v2ex.com/t/1253977"
+     "title": "做了一个适合日常摸鱼和找搞钱灵感的信息小站：提钱退休计划，送 VIP 中",
+     "url": "https://www.v2ex.com/t/1254311"
     },
     {
-     "title": "零编程基础，想学 AI Agent 和大模型应用开发，有必要花 2 万多元报线下培训班吗？",
-     "url": "https://www.v2ex.com/t/1253976"
+     "title": "远程｜ Flutter｜ Golang( PHP 转 Go)｜ Go｜ PHP ｜ H5 前｜ Web 高(Flutter)｜ AI 建站｜ AI 全栈｜ UI",
+     "url": "https://www.v2ex.com/t/1254277"
     }
    ]
   },
@@ -187,15 +187,15 @@
    "count": 3,
    "message": "7 videos",
    "elapsed_s": 0.6,
-   "probe_at": "2026-11-03T09:38:14+08:00",
+   "probe_at": "2026-11-04T09:49:09+08:00",
    "sample": [
+    {
+     "title": "Claude 不肯再帮人抄游戏了，独立开发者还是不敢放试玩",
+     "url": "https://www.bilibili.com/video/BV18p4M6CEmP"
+    },
     {
      "title": "我一个人做了款修路堵车模拟游戏《Trafficity》｜英国独立开发者",
      "url": "https://www.bilibili.com/video/BV1bG4F6EE9y"
-    },
-    {
-     "title": "【辞职做游戏，靠谱吗？】独立开发真的能赚钱！素质与独立游戏 如何拿捏程序员",
-     "url": "https://www.bilibili.com/video/BV1JQHV6hEdp"
     }
    ]
   },
@@ -208,8 +208,8 @@
    "status": "ok",
    "count": 3,
    "message": "9 entries · 收录日 9",
-   "elapsed_s": 9.2,
-   "probe_at": "2026-11-03T09:38:23+08:00",
+   "elapsed_s": 2.9,
+   "probe_at": "2026-11-04T09:49:12+08:00",
    "sample": [
     {
      "title": "Indie Hacker",
@@ -230,16 +230,16 @@
    "status": "ok",
    "count": 3,
    "message": "8 results",
-   "elapsed_s": 15.1,
-   "probe_at": "2026-11-03T09:38:38+08:00",
+   "elapsed_s": 13.8,
+   "probe_at": "2026-11-04T09:49:26+08:00",
    "sample": [
     {
-     "title": "\"MyDear.exe is Ready To Run… And So Will Your (Happy) Tears!\" - Games Press",
-     "url": "https://www.gamespress.com/MyDearexe-is-Ready-To-Run-And-So-Will-Your-Happy-Tears"
+     "title": "\"Solarpunk Life-Sim MMO Loftia Launches Into Early Access Today\" - Games Press",
+     "url": "https://www.gamespress.com/Solarpunk-Life-Sim-MMO-Loftia-Launches-Into-Early-Access-Today"
     },
     {
-     "title": "\"Retro 3D Platformer 'Bobo and the Chest of Nightmares' Launches on Steam\" - Gam",
-     "url": "https://www.gamespress.com/Retro-3D-Platformer-Bobo-and-the-Chest-of-Nightmares-Launches-on-Steam"
+     "title": "‘Kick’ is out now for PC via Steam - TGG",
+     "url": "https://thegg.net/press-releases/the-cozy-soccer-side-scroller-kick-is-out-now-via-steam/"
     }
    ]
   },
@@ -251,9 +251,9 @@
    "group": "海外社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 24s\nok: false\nerr",
-   "elapsed_s": 49.4,
-   "probe_at": "2026-11-03T09:39:28+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 13s\nok: false\nerr",
+   "elapsed_s": 41.7,
+   "probe_at": "2026-11-04T09:50:08+08:00",
    "sample": []
   },
   {
@@ -262,12 +262,17 @@
    "adapter": "opencli_social",
    "auth": "browser",
    "group": "中文社媒",
-   "status": "auth",
-   "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: [rate-limiter] xiaohongshu: sleeping 19s\nok: false\nerror:\n  ",
-   "elapsed_s": 20.3,
-   "probe_at": "2026-11-03T09:39:48+08:00",
-   "sample": []
+   "status": "ok",
+   "count": 1,
+   "message": "1 items（1 路查询）",
+   "elapsed_s": 30.0,
+   "probe_at": "2026-11-04T09:50:38+08:00",
+   "sample": [
+    {
+     "title": "独立开发app上架3个月日活突破4000！",
+     "url": ">-"
+    }
+   ]
   }
  ],
  "backends": [
@@ -275,11 +280,11 @@
    "backend": "jina_reader",
    "use": "通用网页正文",
    "status": "unusable",
-   "declared": "broken",
+   "declared": "unverified",
    "delta": false,
    "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 20.2,
-   "probe_at": "2026-11-03T09:40:09+08:00"
+   "elapsed_s": 20.1,
+   "probe_at": "2026-11-04T09:51:01+08:00"
   },
   {
    "backend": "arctic_shift",
@@ -288,8 +293,8 @@
    "declared": "not_added",
    "delta": false,
    "message": "5 rows",
-   "elapsed_s": 4.0,
-   "probe_at": "2026-11-03T09:40:13+08:00"
+   "elapsed_s": 3.0,
+   "probe_at": "2026-11-04T09:51:05+08:00"
   },
   {
    "backend": "exa_web_fetch",
@@ -298,26 +303,26 @@
    "declared": "warn",
    "delta": false,
    "message": "1 url 返回正文",
-   "elapsed_s": 5.1,
-   "probe_at": "2026-11-03T09:40:18+08:00"
+   "elapsed_s": 5.3,
+   "probe_at": "2026-11-04T09:51:10+08:00"
   },
   {
    "backend": "github_gh",
    "use": "GitHub 取数 (gh CLI)",
    "status": "ok",
-   "declared": "broken",
+   "declared": "ready",
    "delta": false,
-   "message": "remaining=4927",
-   "elapsed_s": 1.3,
-   "probe_at": "2026-11-03T09:40:20+08:00"
+   "message": "remaining=5000",
+   "elapsed_s": 2.6,
+   "probe_at": "2026-11-04T09:51:13+08:00"
   }
  ],
  "summary": {
   "total": 13,
-  "ok": 11,
+  "ok": 12,
   "empty": 0,
   "error": 0,
-  "auth": 2
+  "auth": 1
  },
  "decisions": [
   {
@@ -382,13 +387,13 @@
   },
   {
    "channel_id": "xiaohongshu",
-   "action": "unlock",
-   "status": "auth"
+   "action": "keep",
+   "status": "ok"
   }
  ],
  "agent_reach": {
   "ok": true,
-  "checked_at": "2026-11-03T09:39:49+08:00",
+  "checked_at": "2026-11-04T09:50:41+08:00",
   "version": "1.6.0",
   "error": null,
   "platforms": 14

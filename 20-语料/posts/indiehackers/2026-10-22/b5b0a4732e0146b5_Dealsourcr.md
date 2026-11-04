@@ -5,7 +5,7 @@ title: "Dealsourcr"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/dealsourcr"
-captured_at: "2026-11-03T09:43:29+08:00"
+captured_at: "2026-11-04T09:54:15+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-03T09:43:29+08:00　|　id：`b5b0a4732e0146b5`
+> 采集：2026-11-04T09:54:15+08:00　|　id：`b5b0a4732e0146b5`
 
 ## 正文
 
@@ -42,7 +42,7 @@ Dealsourcr
 Visit Website
 Dealsourcr Helps UK investors find amazing property deals in seconds
  Posts 3
- Revenue $103K / mo
+ Revenue $106K / mo
  Website
 September 3, 2026
  Hit $500K ARR

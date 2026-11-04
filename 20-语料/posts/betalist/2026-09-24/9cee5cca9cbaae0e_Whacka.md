@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/whacka"
 published_at: "2026-04-03"
-captured_at: "2026-09-25T00:00:08+08:00"
+captured_at: "2026-11-04T09:54:02+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-04-03
 > 项目链接：—
-> 采集：2026-09-25T00:00:08+08:00　|　id：`9cee5cca9cbaae0e`
+> 采集：2026-11-04T09:54:02+08:00　|　id：`9cee5cca9cbaae0e`
 
 ## 正文
 
@@ -41,18 +41,21 @@ Home
  Browse
  Newsletter
  Search
-FAQ
+Help
  Advertise
- Support
+ Refer a friend
+ Affiliates
 Startup Jobs
  Vision Pro apps
+ Room AI
 Home
  Browse
  Newsletter
  Search
-FAQ
+Help
  Advertise
- Support
+ Refer a friend
+ Affiliates
 theme#toggle"
  class="
  size-9 rounded-full hover:bg-gray-100 flex items-center justify-center
@@ -64,38 +67,43 @@ Log in
 Submit Startup
 Back to all startups
 Whacka BOOSTED
-Turn any idea into your own mobile app with no code from your phone
-Whacka lets you turn any idea into your own little mobile app, right from your phone. It's made for fun, easy experiments, and those oddly specific things you wish existed: no code, no complicated setup, just make something and see it come alive.
-The apps you make with Whacka can be saved to your Home Screen and used like lightweight real apps. You can also share them easily by link, poster, or teaser, making it simple to send your creations to friends and show off what you made.
+AI app builder: describe your app in any language, get a real working app
+Whacka is an AI app builder. Describe the app you want in any language and get a real, working app that installs on phones, with database, file storage, user sign-in and push notifications. Arabic apps work right-to-left. Free to start; native Android and iOS apps on Pro and above.
 Visit Site
 Visit Site
 Makers
 Joy L
 Topics
-No Code
-Mobile Games
 Developer Tools
+No Code
 Productivity
-Social Media
 Featured
 April 3, 2026
 Request changes
+Edit makers
 Get your badge
 Report this startup
  Manage collections
 Discover startups similar to Whacka
+FreeDAST
+ SPONSOR
+ Scan your live site for risks and get a clear security grade
+ SPONSOR
 DubLab App
  Expand your audience with just 1 click
 Seedance 2.5
  Turn one prompt into a 30-second 4K video with sound
-AccsZone
+WZRD
  BOOSTED
- AccsZone.com is a leading marketplace to buy and sell social media accounts
+ Turn plain ideas into interactive docs, forms, and decks that converse
  BOOSTED
-Nuatus
+Wilo
  BOOSTED
- See tasks, events, lists, notes, and weather in one private daily view
+ AI clerk that helps shoppers find, compare, and choose products
  BOOSTED
+auth-dialog#closeOnBackdrop close->auth-dialog#reset turbo:before-cache@document->auth-dialog#close"
+ aria-label="Log in or sign up"
+ class="m-auto w-[min(28rem,calc(100vw-2rem))] max-h-[calc(100dvh-2rem)] rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 shadow-2xl p-0 backdrop:bg-gray-500/75 dark:backdrop:bg-black/80 backdrop:backdrop-blur-sm">
 
 ## 导航
 

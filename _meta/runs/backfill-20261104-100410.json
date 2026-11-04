@@ -1,0 +1,50 @@
+{
+ "run_id": "backfill-20261104-100410",
+ "kind": "backfill",
+ "queue": 15,
+ "attempted": 15,
+ "filled": 12,
+ "structural_dead": 0,
+ "missed": 3,
+ "miss_reason_codes": {
+  "no_backend": 2,
+  "unreachable": 1
+ },
+ "status_hist": {
+  "blocked": 5,
+  "200": 3,
+  "timeout": 2
+ },
+ "comments_queue": 261,
+ "comments_filled": 43,
+ "via": [
+  [
+   "exa_web_fetch",
+   6
+  ],
+  [
+   "gh_readme",
+   5
+  ],
+  [
+   "direct_fetch",
+   1
+  ]
+ ],
+ "channels": [
+  [
+   "hn_show",
+   6
+  ],
+  [
+   "github_new",
+   5
+  ],
+  [
+   "reddit",
+   1
+  ]
+ ],
+ "started": "2026-11-04T10:09:55+08:00",
+ "elapsed_s": 0
+}

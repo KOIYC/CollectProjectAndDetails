@@ -5,7 +5,7 @@ title: "Whaticket"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/whaticket"
-captured_at: "2026-11-03T09:43:29+08:00"
+captured_at: "2026-11-04T09:54:15+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-03T09:43:29+08:00　|　id：`5c9eb17c37a39ffd`
+> 采集：2026-11-04T09:54:15+08:00　|　id：`5c9eb17c37a39ffd`
 
 ## 正文
 
@@ -42,7 +42,7 @@ Whaticket
 Visit Website
 Whaticket Multi-agent chat automation platform
  Post 1
- Revenue $421K / mo
+ Revenue $426K / mo
  Website
 April 25, 2026
  Every connection counts
@@ -62,7 +62,7 @@ Telling the story of Whaticket is a challenge — because for the same company, 
  Not because we chased vanity metrics — but because we stayed true to what we set out to build: something simple, reliable, innovative, and genuinely useful.
  That's Whaticket .
 Bruna Olivera
-2 Upvotes
+3 Upvotes
 2 Comments
 About
  Built by people who know the struggle. From a tech repair shop in Brazil to 4,300 clients and $5M ARR — one real problem solved at a time. Every connection counts.

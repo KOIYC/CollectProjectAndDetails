@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/shugert"
 project_url: "https://storetwin.shugert.com.mx/"
-captured_at: "2026-11-03T09:43:29+08:00"
+captured_at: "2026-11-04T09:54:15+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://storetwin.shugert.com.mx/>
-> 采集：2026-11-03T09:43:29+08:00　|　id：`6e6b46fff7de489b`
+> 采集：2026-11-04T09:54:15+08:00　|　id：`6e6b46fff7de489b`
 
 ## 正文
 
@@ -43,7 +43,7 @@ Shugert
 Visit Website
 Shugert Shopify Select Partner for DTC brands doing $500K–$10M+
  Posts 3
- Revenue $152K / mo
+ Revenue $150K / mo
  Website
 September 18, 2026
  I built a visual twin of Shopify stores to find where customers get stuck
@@ -71,7 +71,7 @@ The important part for me is that the AI isn’t just producing a generic CRO au
 You can try it here https://storetwin.shugert.com.mx/
 Samuel Noriega
 2 Upvotes
-2 Comments
+3 Comments
 September 7, 2026
  For years, I treated small Shopify development requests as the least interesting part of agency work. They were the tasks that sat between l
 For years, I treated small Shopify development requests as the least interesting part of agency work. They were the tasks that sat between larger projects: fixing a Liquid bug, changing a product page component, cleaning up structured data, removing a script that was slowing down the storefront, adjusting a collection template, or implementing a small CRO idea that had already been approved internally.

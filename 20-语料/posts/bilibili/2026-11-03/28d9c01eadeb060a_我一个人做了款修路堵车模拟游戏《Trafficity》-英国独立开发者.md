@@ -8,7 +8,7 @@ url: "https://www.bilibili.com/video/BV1bG4F6EE9y"
 project_url: "https://store.steampowered.com/app/5185750/Trafficity"
 author: "Trafficity交通模"
 published_at: "2026-11-02T15:05:50+08:00"
-captured_at: "2026-11-03T09:46:35+08:00"
+captured_at: "2026-11-04T09:58:29+08:00"
 lang: "zh"
 kind: "post"
 topic: 开发者工具
@@ -23,7 +23,7 @@ tags:
   - 城市建造
   - 立交桥
   - 堵车
-metrics: {"play": 8157, "danmaku": 1, "favorites": 459}
+metrics: {"play": 27093, "danmaku": 11, "favorites": 1427}
 comments_count: 0
 comments_total: 0
 discovered_via: "bili:独立开发"
@@ -37,10 +37,10 @@ discovered_via: "bili:独立开发"
 > [!meta]- 语料信息（点开展开）
 > 来源：B 站（post）
 > 原帖：<https://www.bilibili.com/video/BV1bG4F6EE9y>
-> 指标：播放=8157 · 弹幕=1 · 收藏=459
+> 指标：播放=27093 · 弹幕=11 · 收藏=1427
 > 作者：Trafficity交通模　|　发布：2026-11-02T15:05:50+08:00
 > 项目链接：<https://store.steampowered.com/app/5185750/Trafficity>
-> 采集：2026-11-03T09:46:35+08:00　|　id：`28d9c01eadeb060a`
+> 采集：2026-11-04T09:58:29+08:00　|　id：`28d9c01eadeb060a`
 
 ## 正文
 

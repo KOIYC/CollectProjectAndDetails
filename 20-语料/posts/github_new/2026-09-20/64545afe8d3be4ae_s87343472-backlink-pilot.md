@@ -8,7 +8,7 @@ url: "https://github.com/s87343472/backlink-pilot"
 project_url: "https://github.com/s87343472/backlink-pilot"
 author: "s87343472"
 published_at: "2026-02-16T03:48:48Z"
-captured_at: "2026-11-03T09:54:09+08:00"
+captured_at: "2026-11-04T10:05:48+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -35,7 +35,7 @@ discovered_via: "github:14d"
 > 指标：stars=423 · forks=111 · open_issues=0
 > 作者：s87343472　|　发布：2026-02-16T03:48:48Z
 > 项目链接：<https://github.com/s87343472/backlink-pilot>
-> 采集：2026-11-03T09:54:09+08:00　|　id：`64545afe8d3be4ae`
+> 采集：2026-11-04T10:05:48+08:00　|　id：`64545afe8d3be4ae`
 
 ## 正文
 

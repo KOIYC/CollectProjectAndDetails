@@ -5,7 +5,7 @@ title: "Taxx"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/taxx"
-captured_at: "2026-11-03T09:43:29+08:00"
+captured_at: "2026-11-04T09:54:15+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-03T09:43:29+08:00　|　id：`abf09f09bea2efe4`
+> 采集：2026-11-04T09:54:15+08:00　|　id：`abf09f09bea2efe4`
 
 ## 正文
 
@@ -42,7 +42,7 @@ TAXX
 Visit Website
 TAXX Luxembourgish income tax statement made easy
  Posts 2
- Revenue $145K / mo
+ Revenue $151K / mo
  Website
 September 15, 2020
  Integrated into our bigger venture

@@ -1,9 +1,9 @@
 {
  "schema": 2,
- "updated": "2026-11-03T10:04:47+08:00",
+ "updated": "2026-11-04T10:09:55+08:00",
  "note": "结构性无正文/取数不可得 —— 连试 2 轮后记账，不再消耗额度。字段：reason（人话）/ reason_code（可复核分类，见 REASON_CODES）/ tried[]（本轮实际试过的后端）/ http_status（direct 档拿到的状态码）",
  "by_reason": {
-  "no_backend": 82,
+  "no_backend": 84,
   "unreachable": 77,
   "media": 44,
   "http_403": 6,
@@ -2915,12 +2915,12 @@
    "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
   },
   "5066fb3887dfa6e8": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Day 21 of Building Crowdwide — Finally, Time to Polish the UI! 🎉",
    "url": "https://github.com/DeveloperPuneet/Crowdwide",
    "source_id": "devto",
    "first_dead": "2026-10-29T21:05:37+08:00",
-   "last_try": "2026-10-29T21:05:37+08:00",
+   "last_try": "2026-11-04T10:09:55+08:00",
    "tried": [
     "gh_readme",
     "direct_fetch",
@@ -2928,7 +2928,8 @@
    ],
    "http_status": "blocked",
    "reason_code": "unreachable",
-   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
+   "reason": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)",
+   "reason_first": "取数失败（已试 gh_readme→direct_fetch→exa_web_fetch）· 判定 unreachable · status=blocked · gh: gh: Not Found (HTTP 404)"
   },
   "61e2b555d452a019": {
    "attempts": 2,
@@ -3267,6 +3268,34 @@
    "source_id": "hn_show",
    "first_dead": "2026-11-03T10:04:47+08:00",
    "last_try": "2026-11-03T10:04:47+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "c1b28be166767cee": {
+   "attempts": 1,
+   "title": "Show HN: Jenesis, Java builds 18% faster, rebuilds up to 88% faster",
+   "url": "https://jenesis.build/why/tool/",
+   "source_id": "hn_show",
+   "first_dead": "2026-11-04T10:09:55+08:00",
+   "last_try": "2026-11-04T10:09:55+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "d6e32b98ad6e14ae": {
+   "attempts": 1,
+   "title": "Show HN: A landing page that shows every psychological trick it uses o",
+   "url": "https://kickstartsidehustle.com/",
+   "source_id": "hn_show",
+   "first_dead": "2026-11-04T10:09:55+08:00",
+   "last_try": "2026-11-04T10:09:55+08:00",
    "tried": [
     "direct_fetch"
    ],

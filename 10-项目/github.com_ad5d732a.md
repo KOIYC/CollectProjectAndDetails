@@ -1,31 +1,31 @@
 ---
 type: "project"
-title: "Day 21 of Building Crowdwide — Finally, Time to Polish the UI! 🎉"
+title: "Day 28 of Building Crowdwide — More Personalization, Bug Fixes & Still Looking for a Brand Ambassador!"
 project_url: "https://github.com/DeveloperPuneet/Crowdwide"
-first_seen: "2026-11-03T09:57:21+08:00"
+first_seen: "2026-11-04T10:06:09+08:00"
 sources:
   - devto
 tags:
   - 项目
   - devto
   - webdev
+  - discuss
   - buildinpublic
   - opensource
-  - discuss
 lang: "en"
 ---
 
-# Day 21 of Building Crowdwide — Finally, Time to Polish the UI! 🎉
+# Day 28 of Building Crowdwide — More Personalization, Bug Fixes & Still Looking for a Brand Ambassador!
 
 > [!info] 一句话导读
-> I was building Crowdwide, a social media platform I started for new indie devs, smaller communities, and smaller creators to raise their voices higher.
+> I was building a social media platform with a special algorithm that gives new voices or communities a better chance of being discovered.
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/DeveloperPuneet/Crowdwide>
-> 首次收录：2026-11-03T09:57:21+08:00
+> 首次收录：2026-11-04T10:06:09+08:00
 > 来源渠道：dev.to
-> 标签：webdev, buildinpublic, opensource, discuss
-> 最新指标：reactions=44 · 评论=239 · reading_time=2
+> 标签：webdev, discuss, buildinpublic, opensource
+> 最新指标：reactions=33 · 评论=71 · reading_time=2
 
 ## 观测历史
 
@@ -51,7 +51,10 @@ lang: "en"
 | 2026-11-02T09:50:51+08:00 | dev.to | reactions=44 · 评论=239 · reading_time=2 | [[20-语料/posts/devto/2026-10-25/5066fb3887dfa6e8_Day-21-of-Building-Crowdwide-—-Finally,-Time-to-Po]] |
 | 2026-11-03T09:44:48+08:00 | dev.to | reactions=33 · 评论=71 · reading_time=2 | [[20-语料/posts/devto/2026-11-03/4a76cd824b9f1683_Day-28-of-Building-Crowdwide-—-More-Personalizatio]] |
 | 2026-11-03T09:57:21+08:00 | dev.to | reactions=44 · 评论=239 · reading_time=2 | [[20-语料/posts/devto/2026-10-25/5066fb3887dfa6e8_Day-21-of-Building-Crowdwide-—-Finally,-Time-to-Po]] |
+| 2026-11-04T09:54:41+08:00 | dev.to | reactions=44 · 评论=239 · reading_time=2 | [[20-语料/posts/devto/2026-10-25/5066fb3887dfa6e8_Day-21-of-Building-Crowdwide-—-Finally,-Time-to-Po]] |
+| 2026-11-04T10:06:07+08:00 | dev.to | reactions=44 · 评论=239 · reading_time=2 | [[20-语料/posts/devto/2026-10-25/5066fb3887dfa6e8_Day-21-of-Building-Crowdwide-—-Finally,-Time-to-Po]] |
+| 2026-11-04T10:06:09+08:00 | dev.to | reactions=33 · 评论=71 · reading_time=2 | [[20-语料/posts/devto/2026-11-03/4a76cd824b9f1683_Day-28-of-Building-Crowdwide-—-More-Personalizatio]] |
 
 ## 摘要正文
 
-I was building Crowdwide, a social media platform I started for new indie devs, smaller communities, and smaller creators to raise their voices higher.  Your voice shouldn't be judged based on how big a platform you join. Everyone's voice should be equal.  And today is **Day 21 of building Crowdwide!!!**  YESSSSS!! 🔥🔥  Crowdwide is in a mostly stable state now! Its core features, main algorithm, mailing system, and recommendation system, Widewave, are finally DONE!  So now, it's time to polish the UI.  On Day 21, I'm just polishing the UI of Crowdwide.  The things I thought needed the most improvement were the background color combination, theme adaptability, and sidebar (THIS NEEDS HEAVY IMPROVEMENT!).  The background used to have gradients, but when users scrolled a lot, the background stretched and created a weird shade at the top.  In some themes, a few text colors weren't looking good and were making things difficult to read.  And the sidebar... I was SO confused about how it should look!  Like, should it be on the left or right?  When it opens, should it compress the page?  Or should it stay over the page without compressing anything, making the rest of the screen a bit darke…
+I was building a social media platform with a special algorithm that gives new voices or communities a better chance of being discovered.  And... it's Crowdwide!  Today is day 28 of giving updates on its v1 version, and its v2 version is going to release on 1 November 2026. Not too far...  So far...  I made a few more changes and made a few bugs...  While adding and setting up something for larger screens, I broke it for smaller screens!!  Just like the sidebar of Crowdwide.  Actually, I saw some space due to padding inside the sidebar, so I just removed it and didn't check it on my phone.  And YES!! That's where I made a bug... bug maker developer respect ++ MISSION RESPECT PASSES+++  Then it was reported by @effessdev, and I fixed it!  And in the sidebar... on larger screens like PCs, whenever I opened the sidebar, I saw that it was different in every section of Crowdwide. From ![Image description](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/e5zwz82x7p6167jix0pq.png) To ![Image description](https://dev-to-uploads.s3.us-east-2.amazonaws.com/uploads/articles/jztd33c0lnr8vg3bs6d1.png)  Yeah, I built it but forgot to maintain consistency between UIs. From:  ![I…

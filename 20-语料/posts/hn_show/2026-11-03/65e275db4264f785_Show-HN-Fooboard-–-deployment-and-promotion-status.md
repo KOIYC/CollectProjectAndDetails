@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=50339634"
 project_url: "https://fooboard.dev/demo"
 author: "karmaniverous"
 published_at: "2026-11-02T16:48:35Z"
-captured_at: "2026-11-03T09:40:36+08:00"
+captured_at: "2026-11-04T10:05:48+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=3 · 评论=2 · engagement_velocity=3
 > 作者：karmaniverous　|　发布：2026-11-02T16:48:35Z
 > 项目链接：<https://fooboard.dev/demo>
-> 采集：2026-11-03T09:40:36+08:00　|　id：`65e275db4264f785`
+> 采集：2026-11-04T10:05:48+08:00　|　id：`65e275db4264f785`
 
 ## 正文
 
@@ -46,6 +46,26 @@ Welcome to DevOps hell. Here's your map.
 fooboard: a deployment status board. To set up a board with an AI
  assistant, read
  https://www.fooboard.dev/ai .
+fooboard shows the deployment state of every repo × stage at a
+ glance: the status of each repo's latest deployment to each
+ environment, and whether a stage's branch is behind, or has
+ diverged from, the stage it is promoted from. It fills itself in
+ from your GitHub Actions runs and, if you use them, AWS Amplify
+ builds, with no workflow changes.
+It is a free, open-source (BSD-3-Clause), static web app: no
+ backend, no account, no cookies or telemetry. Your tokens and keys
+ never leave your browser except in the calls it makes directly to
+ GitHub and AWS.
+An AI assistant can set up a board with you from the instructions at
+ /ai: it asks about your repos and stages and gives you a link, and
+ fooboard asks for your keys when you open it, so they never pass
+ through the assistant.
+Try the demo : a simulated board, no account or
+ token needed.
+Instructions for AI assistants
+llms.txt
+Source code and user guide on GitHub
+Welcome to DevOps hell , the article on karmanivero.us
 
 ## 评论（2/2）
 

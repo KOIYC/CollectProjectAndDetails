@@ -1,8 +1,8 @@
 {
- "run_id": "20261103T094033",
- "started_at": "2026-11-03T09:40:33+08:00",
- "ended_at": "2026-11-03T09:52:22+08:00",
- "elapsed_s": 709.1,
+ "run_id": "20261104T095139",
+ "started_at": "2026-11-04T09:51:39+08:00",
+ "ended_at": "2026-11-04T10:03:15+08:00",
+ "elapsed_s": 696.0,
  "channels": [
   {
    "source_id": "hn_show",
@@ -10,7 +10,7 @@
    "status": "ok",
    "count": 40,
    "message": "40/40 hits | new=40 chg=0",
-   "elapsed_s": 76.2,
+   "elapsed_s": 60.6,
    "new": 40,
    "changed": 0,
    "raw": 40
@@ -19,23 +19,23 @@
    "source_id": "reddit",
    "name": "Reddit 独立开发版块",
    "status": "ok",
-   "count": 21,
-   "message": "21 posts;  | new=21 chg=0",
-   "elapsed_s": 70.9,
-   "new": 21,
+   "count": 20,
+   "message": "20 posts;  | new=20 chg=0",
+   "elapsed_s": 66.3,
+   "new": 20,
    "changed": 0,
-   "raw": 21
+   "raw": 20
   },
   {
    "source_id": "github_new",
    "name": "GitHub 新星仓库",
    "status": "ok",
-   "count": 11,
-   "message": "28 repos;  | 写盘 9/11 | new=0 chg=9",
-   "elapsed_s": 11.2,
+   "count": 10,
+   "message": "28 repos;  | 写盘 8/10 | new=0 chg=8",
+   "elapsed_s": 13.1,
    "new": 0,
-   "changed": 9,
-   "raw": 11
+   "changed": 8,
+   "raw": 10
   },
   {
    "source_id": "betalist",
@@ -43,7 +43,7 @@
    "status": "ok",
    "count": 12,
    "message": "12 startups · 发布日 12/12 | new=11 chg=1",
-   "elapsed_s": 15.0,
+   "elapsed_s": 13.8,
    "new": 11,
    "changed": 1,
    "raw": 12
@@ -53,31 +53,31 @@
    "name": "Indie Hackers 产品库",
    "status": "ok",
    "count": 20,
-   "message": "23 products | 写盘 19/20 | new=4 chg=15",
-   "elapsed_s": 19.1,
-   "new": 4,
-   "changed": 15,
+   "message": "23 products | 写盘 17/20 | new=3 chg=14",
+   "elapsed_s": 19.9,
+   "new": 3,
+   "changed": 14,
    "raw": 20
   },
   {
    "source_id": "devto",
    "name": "dev.to",
    "status": "ok",
-   "count": 6,
-   "message": "6 articles | 写盘 4/6 | new=1 chg=3",
-   "elapsed_s": 118.8,
-   "new": 1,
-   "changed": 3,
-   "raw": 6
+   "count": 7,
+   "message": "7 articles | 写盘 4/7 | new=2 chg=2",
+   "elapsed_s": 207.8,
+   "new": 2,
+   "changed": 2,
+   "raw": 7
   },
   {
    "source_id": "producthunt",
    "name": "Product Hunt",
    "status": "ok",
    "count": 30,
-   "message": "30 entries | 写盘 18/30 | new=18 chg=0",
-   "elapsed_s": 3.5,
-   "new": 18,
+   "message": "30 entries | new=30 chg=0",
+   "elapsed_s": 3.2,
+   "new": 30,
    "changed": 0,
    "raw": 30
   },
@@ -85,23 +85,23 @@
    "source_id": "v2ex",
    "name": "V2EX",
    "status": "ok",
-   "count": 19,
-   "message": "90 topics | 写盘 13/19 | new=13 chg=0",
-   "elapsed_s": 46.4,
-   "new": 13,
-   "changed": 0,
-   "raw": 19
+   "count": 22,
+   "message": "81 topics | 写盘 13/22 | new=12 chg=1",
+   "elapsed_s": 24.0,
+   "new": 12,
+   "changed": 1,
+   "raw": 22
   },
   {
    "source_id": "bilibili",
    "name": "B 站",
    "status": "ok",
-   "count": 11,
-   "message": "39 videos | new=1 chg=10",
-   "elapsed_s": 3.7,
-   "new": 1,
+   "count": 10,
+   "message": "40 videos | new=0 chg=10",
+   "elapsed_s": 4.3,
+   "new": 0,
    "changed": 10,
-   "raw": 11
+   "raw": 10
   },
   {
    "source_id": "c1c7",
@@ -109,7 +109,7 @@
    "status": "ok",
    "count": 7,
    "message": "17 entries · 收录日 17 | 写盘 1/7 | new=0 chg=1",
-   "elapsed_s": 83.5,
+   "elapsed_s": 32.0,
    "new": 0,
    "changed": 1,
    "raw": 7
@@ -119,8 +119,8 @@
    "name": "X / Twitter",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 22s\nok: false\nerr | new=0 chg=0",
-   "elapsed_s": 49.9,
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 21s\nok: false\nerr | new=0 chg=0",
+   "elapsed_s": 49.5,
    "new": 0,
    "changed": 0,
    "raw": 0
@@ -131,18 +131,18 @@
    "status": "ok",
    "count": 1,
    "message": "1 items（3 路查询） | new=0 chg=1",
-   "elapsed_s": 84.4,
+   "elapsed_s": 69.1,
    "new": 0,
    "changed": 1,
    "raw": 1
   }
  ],
- "notes_written": 149,
+ "notes_written": 156,
  "errors": [],
- "total_items": 178,
- "total_new": 109,
+ "total_items": 179,
+ "total_new": 118,
  "dry": false,
- "rule_dropped": 34,
+ "rule_dropped": 33,
  "write_errors": 0,
  "body_cache_pruned": 0,
  "finish_errors": []

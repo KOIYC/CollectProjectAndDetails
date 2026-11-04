@@ -2,7 +2,7 @@
 type: "project"
 title: "Launchon It"
 project_url: "https://launchon.it/"
-first_seen: "2026-11-03T09:43:29+08:00"
+first_seen: "2026-11-04T09:54:15+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://launchon.it/>
-> 首次收录：2026-11-03T09:43:29+08:00
+> 首次收录：2026-11-04T09:54:15+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -48,7 +48,8 @@ lang: "en"
 | 2026-11-01T09:40:34+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
 | 2026-11-02T09:41:05+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
 | 2026-11-03T09:43:29+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
+| 2026-11-04T09:54:15+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/0b7cac024c1d18d1_Launchon-It]] |
 
 ## 摘要正文
 
-Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join LaunchOnIt  Product launch platform for indie startups. Visit Website LaunchOnIt Product launch platform for indie startups.  Posts 56+  Revenue $0 / mo  Website Twitter November 2, 2026  This week brings 20 new indie products, SaaS tools, and AI apps to discover on LaunchOnIt Happy Monday everyone! If you are looking to discover fresh software, explore unique micro-SaaS tools, or find alternative solutions built by indie makers instead of massive corporations, our latest weekly cohort is officially live.  We just rolled out a brand new lineup of 20 amazing products for this week on LaunchOnIt .  Whether you are hunting for developer utilities, productivity boosters, marketing automations, or creative AI apps, you can browse the entire directory directly over at our products page .  Every single one of these projects is built by independent builders who are actively looking for early users, real feedback, and community support.  Take a look at what just dropped, find a tool that solves a workflow problem for you, and go support a fellow m…
+Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join LaunchOnIt  Product launch platform for indie startups. Visit Website LaunchOnIt Product launch platform for indie startups.  Posts 57+  Revenue $0 / mo  Website Twitter November 3, 2026  If you have a SaaS, AI tool, or side project ready for users, come launch it on LaunchOnIt One of the most common traps we fall into as indie hackers is holding onto a finished product for way too long. We tweak the landing page, rewrite the onboarding flow, or add one more minor feature because we are waiting for that magical, perfect moment to introduce it to the world.  The reality is that perfection is just an excuse we use to avoid putting our work in front of real users.  If your software is functional and ready for people to use, stop hiding it. You need real feedback, active users, and permanent organic SEO equity to actually get moving.  That is why we built LaunchOnIt . We wanted a straightforward place where you do not have to stress over a chaotic 24-hour upvote race that vanishes by Wednesday afternoon. You get a solid seven-day runway on th…
