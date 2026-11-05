@@ -2,7 +2,7 @@
 type: "project"
 title: "Dailylaunch"
 project_url: "https://www.indiehackers.com/product/dailylaunch"
-first_seen: "2026-11-04T09:54:15+08:00"
+first_seen: "2026-11-05T11:24:10+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://www.indiehackers.com/product/dailylaunch>
-> 首次收录：2026-11-04T09:54:15+08:00
+> 首次收录：2026-11-05T11:24:10+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -28,7 +28,8 @@ lang: "en"
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-11-04T09:54:15+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-11-04/6214ecbf8602d3d8_Dailylaunch]] |
+| 2026-11-05T11:24:10+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-11-04/6214ecbf8602d3d8_Dailylaunch]] |
 
 ## 摘要正文
 
-Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join DailyLaunch  Launch your product and discover powerful SaaS tools. Visit Website DailyLaunch Launch your product and discover powerful SaaS tools.  Posts 3  Website Twitter November 2, 2026  Still Waiting for Perfection? Launching Unpolished Saved My Project I used to be a big perfectionist. I'd spend months coding alone, trying to make every button and feature perfect before showing it to anyone.  Spoiler: that only led to burnout.  This time I did the opposite. I shipped my app with rough edges still there. It was scary, but it's the best decision I've made so far.  Why polishing after launch works better  Real feedback beats guessing. Within a few days, users found bugs I'd missed and asked for features I never thought of.  It keeps you motivated. Seeing real people sign up gives you an energy boost that coding alone never does.  Momentum builds fast. I'm still polishing the app today, but there are already almost 300 users posting on it. Improving it with real people using it makes the work way more fun.  If you're tweaking your proje…
+Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join DailyLaunch  Launch your product and discover powerful SaaS tools. Visit Website DailyLaunch Launch your product and discover powerful SaaS tools.  Posts 4  Website Twitter November 4, 2026  Showing My Unfinished App Got Me 300 Users. For years, I built my apps in secret. I'd work alone for months, share the link on launch day, and hear nothing. Nobody cared.  With my current project, I did the opposite. I started sharing my progress as I went, bugs, ugly features and all.  Posting the messy stuff felt scary at first. But here's what happened:  People love a real story. Followers felt like they were part of it. They weren't just looking at a finished product, they were watching it grow.  Feedback came fast. Every time I posted an update, people told me what to fix. I stopped guessing what to build next.  Users showed up early. By the time I started polishing the app, almost 300 people were already using it and posting on it.  If you're hiding your project until it's perfect, try sharing a quick screenshot or a small struggle today. You mi…

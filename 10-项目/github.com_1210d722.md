@@ -2,7 +2,7 @@
 type: "project"
 title: "We Need to Talk About How Gross Modern Web Design Has Become (And How We Built an AI to Catch It)"
 project_url: "https://github.com/Tarkash-Labs"
-first_seen: "2026-11-04T10:06:13+08:00"
+first_seen: "2026-11-05T11:24:27+08:00"
 sources:
   - devto
 tags:
@@ -22,10 +22,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/Tarkash-Labs>
-> 首次收录：2026-11-04T10:06:13+08:00
+> 首次收录：2026-11-05T11:24:27+08:00
 > 来源渠道：dev.to
 > 标签：discuss, showdev, webdev, gemini
-> 最新指标：reactions=80 · 评论=29 · reading_time=4
+> 最新指标：reactions=93 · 评论=37 · reading_time=4
 
 ## 观测历史
 
@@ -33,6 +33,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-11-04T09:54:38+08:00 | dev.to | reactions=80 · 评论=29 · reading_time=4 | [[20-语料/posts/devto/2026-11-04/d9f5344f664206df_We-Need-to-Talk-About-How-Gross-Modern-Web-Design]] |
 | 2026-11-04T10:06:13+08:00 | dev.to | reactions=80 · 评论=29 · reading_time=4 | [[20-语料/posts/devto/2026-11-04/d9f5344f664206df_We-Need-to-Talk-About-How-Gross-Modern-Web-Design]] |
+| 2026-11-05T11:24:27+08:00 | dev.to | reactions=93 · 评论=37 · reading_time=4 | [[20-语料/posts/devto/2026-11-04/d9f5344f664206df_We-Need-to-Talk-About-How-Gross-Modern-Web-Design]] |
 
 ## 摘要正文
 

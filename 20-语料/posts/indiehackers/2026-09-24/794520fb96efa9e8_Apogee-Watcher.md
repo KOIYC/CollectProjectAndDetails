@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/apogee-watcher"
 project_url: "https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance"
-captured_at: "2026-11-02T09:41:05+08:00"
+captured_at: "2026-11-05T11:24:10+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance>
-> 采集：2026-11-02T09:41:05+08:00　|　id：`794520fb96efa9e8`
+> 采集：2026-11-05T11:24:10+08:00　|　id：`794520fb96efa9e8`
 
 ## 正文
 
@@ -58,7 +58,7 @@ Verify in Lighthouse TBT and the Performance panel, then check field INP in Page
 Minify alone does not fix parser-blocking behaviour. Async on interdependent libraries creates race bugs that look like flaky checkout. Dynamically injected consent and tag-manager children still need a Performance pass after accept. Attribute choice is necessary; removing or delaying low-value tags remains the larger win on many portfolios.
  Read more: defer vs async scripts for INP and TBT
 Apogee Watcher
-2 Upvotes
+3 Upvotes
 Comment
 Brotli and Gzip Compression: Shrink Text Assets Without Breaking PageSpeed Scores
 The CDN dashboard says compression is on. A host panel lists Brotli as enabled. Then a lab run on the priority URL still flags Enable text compression, or the Performance score barely moves while Time to First Byte gets worse after someone raised the Brotli level on dynamic HTML.
@@ -74,6 +74,39 @@ The CDN dashboard says compression is on. A host panel lists Brotli as enabled. 
 Apogee Watcher
 4 Upvotes
 8 Comments
+November 4, 2026
+ Why did PageSpeed Insights jump overnight? (Lighthouse 13.6, site unchanged)
+Lighthouse 13.6.0 shipped on 27 October 2026 . Within about a week, PageSpeed Insights was running that build. The change is not a new weight table for the Performance score. It is a change to Lantern , the model that estimates how a fast capture would look under mobile throttling. Simulated First Contentful Paint and Largest Contentful Paint get closer to reality, and scores often come out higher, especially on JavaScript-heavy pages.
+ So a URL can show a different lab Performance score when the HTML, CSS, and scripts are the same as yesterday. That is awkward if you keep saved PageSpeed Insights screenshots for clients. The useful question is not whether Google made the site faster. It is whether you are comparing two Lighthouse versions, or two states of the site.
+ How to tell a simulation jump from a real site change:
+ Match the Lighthouse version next to the emulated device on both reports. If one says 13.5.x and the other says 13.6.0, the runs are not on the same measurement.
+Ask whether the site moved (same commit, same CDN purge window, same tag-manager container). If nothing moved, simulation is the more likely explanation.
+Compare FCP/LCP vs Total Blocking Time or CLS. Lantern 13.6 centres on simulated paint. A swing that is mostly TBT still points at main-thread work.
+Read the CrUX block on the same PageSpeed Insights page. Field data will not jump overnight because Lantern changed.
+What usually belongs in the client note:
+ PageSpeed Insights now runs Lighthouse 13.6.0 , which changed how simulated FCP and LCP are estimated.
+Our lab Performance score moved on [URL] between [date A] and [date B]; versions were [x] then [y].
+Field CrUX on the same report [moved / did not move] for LCP, INP, and CLS.
+We keep the same URLs on a short schedule so the next comparison uses one Lighthouse minor and a dated trail.
+A higher lab Performance score after 13.6 does not mean Search Console's Core Web Vitals report improved. Charts that track only the lab score will show a step at the PageSpeed Insights roll-out; that step belongs as a note on the monitoring board.
+ For the longer scoring walkthrough: how Lighthouse Performance scores are recorded and calculated . For why one-off reports still sit poorly next to a schedule: PageSpeed Insights vs automated monitoring .
+ Read more: why PageSpeed Insights jumped overnight (Lighthouse 13.6)
+Apogee Watcher
+6 Upvotes
+Comment
+November 3, 2026
+ Core Web Vitals Benchmarks for WordPress Sites (2026 Data)
+Half of WordPress origins clear all three Core Web Vitals on mobile in large CrUX studies. That number does not tell an agency with twenty retainers what their multi-page lab averages look like once home, archives, and conversion URLs sit in the same domain report.
+ We published a reproducible Watcher sample from client-tagged WordPress sites (n = 381; median 21 analysed pages per site; reports from late August through early November 2026). Store-level Lighthouse averages, not single-URL CrUX p75s:
+ Median mobile Performance 62 ; desktop 82 .
+Median lab LCP 7.48 s ; only 18 / 381 store averages sit at or under 2.5 s.
+INP and CLS look healthier at the median; loading is the structural failure mode.
+Unused JavaScript on 330 / 381 sites; unused CSS on 315; redirect chains on 296.
+Open one client domain report, mark where it sits versus those medians, and put lab LCP plus unused JavaScript on the next sprint board before arguing from another homepage-only PageSpeed Insights screenshot.
+ Read more: Core Web Vitals benchmarks for WordPress sites (2026 data)
+Apogee Watcher
+3 Upvotes
+Comment
 October 31, 2026
  We stopped gating the free PageSpeed check behind an email. October proved why.
 For a long time our public free domain check asked for an email before discovery started. The idea was tidy: capture the lead, then run PageSpeed. In practice people bounced before they saw a single score.
@@ -86,8 +119,8 @@ Plan usage for sites, orgs, and tests sits in the signed-in topbar, with 80% and
 We still want the email when it is time to save work. We do not want it as a tax on curiosity.
  Read more: October changelog: free domain check, AI insights, and export packaging
 Apogee Watcher
-4 Upvotes
-1 Comment
+5 Upvotes
+3 Comments
 October 28, 2026
  We Sold PageSpeed Retainers for Years. Here Is Why We Productised Monitoring Instead of Another Audit PDF
 Apogee Information Systems has sold digital work since 2002. For a long stretch, website speed sat on the statement of work as a PageSpeed Insights paste after a redesign, a Core Web Vitals fix sprint, or a quarterly “we checked the homepage” slide. Clients paid for people and hours. The artefact they remembered was often a PDF.
@@ -160,35 +193,6 @@ Pick by job, then pilot two weeks on the sites that create the most noise in Sla
  Read more: Calibre vs Apogee Watcher for continuous monitoring
 Apogee Watcher
 1 Upvote
-Comment
-October 23, 2026
- Key Metrics in Web Performance Monitoring
-Most performance tools can show dozens of charts. The expensive failure is quieter. After a release, nobody can answer three questions with confidence: what got worse, where it got worse, and which change likely caused it. Teams that cannot answer those still 'monitor,' but they discover pain from support tickets and client emails instead of from the board.
- That is why a short list of key metrics in web performance monitoring beats a crowded scoreboard. Google's Core Web Vitals give a shared language for load, interactivity, and layout stability. Supporting metrics help you diagnose why a vital moved. Deploy deltas and alertable signals turn those numbers into work someone can schedule.
- What we put on the default agency board:
- LCP, INP, and CLS at p75, split by mobile and desktop, on the money-path templates (home, listing, product, checkout), not a single site-wide average.
-FCP, TBT, and TTFB as supporting signals next to the vitals they explain, not as client-facing replacements for the Core Web Vitals.
-Lab history on a fixed URL list plus field (CrUX or RUM) for user truth, especially for INP, which lab cannot measure directly.
-Deploy deltas with release markers, and alerts only for sharp regressions or sustained drift with an owner, not every chart that can move.
-Leave off the default board: a lone global score with no route or device label, one-off lab runs treated as production truth, and custom events with no decision and no owner. If a tile cannot support user-experience risk, regression detection, a diagnosis path, or a sentence an account lead can send, it belongs in a drill-down.
- Read more: key metrics in web performance monitoring
-Apogee Watcher
-4 Upvotes
-1 Comment
-October 22, 2026
- Preload, Prefetch, and Preconnect: Resource Hints for Faster Core Web Vitals
-PageSpeed Insights flags a late Largest Contentful Paint image. A WordPress optimisation plugin responds by dumping dns-prefetch, preconnect, preload, and prefetch into every template head. The client report says resource hints are done. Lighthouse then warns about unused preloads, and nobody can name which origin each tag was meant to help.
- Those four hints are not interchangeable. dns-prefetch starts DNS only. preconnect opens DNS plus TCP and TLS to a cross-origin host. preload fetches a specific resource for the current document. prefetch is a low-priority hint for a likely next navigation. None of them compresses a 3 MB hero or fixes a lazy-loaded above-the-fold banner on their own.
- What we put in the retainer deck when someone asks which tag belongs in head:
- Prefer discoverable HTML for the LCP image before adding preload. If the scanner already sees the img, skip the duplicate link.
-When preload is needed, set as="image", match the real URL, and use fetchpriority="high". For responsive heroes, use imagesrcset and imagesizes on the preload.
-Keep preconnect to a short list of critical origins. Use dns-prefetch for the rest, then measure.
-Do not use prefetch for current-page LCP, and do not confuse classic link prefetch with Speculation Rules prerender.
-Verify with dated lab rows before and after one change. Field CrUX will lag; unused-preload warnings are a signal to prune, not to add more tags.
-Hints change when the browser starts work. Dated lab history is how you prove the early fetch actually moved LCP.
- Read more: preload, prefetch, and preconnect for faster Core Web Vitals
-Apogee Watcher
-2 Upvotes
 Comment
 About
  Agencies managing many sites need automated Core Web Vitals monitoring, alerts, and client-ready reports. Not fragile Lighthouse CI, costs that spiral, or enterprise-only multi-tenant. Manual checks do not scale.

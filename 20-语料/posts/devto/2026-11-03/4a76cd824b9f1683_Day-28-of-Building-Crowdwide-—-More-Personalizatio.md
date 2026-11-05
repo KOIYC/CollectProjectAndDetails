@@ -8,7 +8,7 @@ url: "https://dev.to/puneetkumar2010/day-28-of-building-crowdwide-more-personali
 project_url: "https://github.com/DeveloperPuneet/Crowdwide"
 author: "Puneet Kumar Mishra"
 published_at: "2026-10-30T08:14:27Z"
-captured_at: "2026-11-04T10:06:09+08:00"
+captured_at: "2026-11-05T11:34:32+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -21,7 +21,7 @@ tags:
   - discuss
   - buildinpublic
   - opensource
-metrics: {"reactions": 33, "comments": 71, "reading_time": 2}
+metrics: {"reactions": 40, "comments": 71, "reading_time": 2}
 comments_count: 70
 comments_total: 71
 discovered_via: "devto:buildinpublic"
@@ -35,10 +35,10 @@ discovered_via: "devto:buildinpublic"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/puneetkumar2010/day-28-of-building-crowdwide-more-personalization-bug-fixes-still-looking-for-a-brand-592b>
-> 指标：reactions=33 · 评论=71 · reading_time=2
+> 指标：reactions=40 · 评论=71 · reading_time=2
 > 作者：Puneet Kumar Mishra　|　发布：2026-10-30T08:14:27Z
 > 项目链接：<https://github.com/DeveloperPuneet/Crowdwide>
-> 采集：2026-11-04T10:06:09+08:00　|　id：`4a76cd824b9f1683`
+> 采集：2026-11-05T11:34:32+08:00　|　id：`4a76cd824b9f1683`
 
 ## 正文
 

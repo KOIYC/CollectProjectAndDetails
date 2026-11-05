@@ -8,7 +8,7 @@ url: "https://github.com/deepseek-ai/dsh-superagent-prototype"
 project_url: "https://github.com/deepseek-ai/dsh-superagent-prototype"
 author: "deepseek-ai"
 published_at: "2026-10-31T09:32:46Z"
-captured_at: "2026-11-04T09:53:48+08:00"
+captured_at: "2026-11-05T11:23:44+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - TypeScript
-  - created:>2026-10-21
-metrics: {"stars": 16900, "forks": 1824, "open_issues": 0}
+  - created:>2026-10-22
+metrics: {"stars": 18732, "forks": 2103, "open_issues": 0}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/deepseek-ai/dsh-superagent-prototype>
-> 指标：stars=16900 · forks=1824 · open_issues=0
+> 指标：stars=18732 · forks=2103 · open_issues=0
 > 作者：deepseek-ai　|　发布：2026-10-31T09:32:46Z
 > 项目链接：<https://github.com/deepseek-ai/dsh-superagent-prototype>
-> 采集：2026-11-04T09:53:48+08:00　|　id：`76e502c4ebad39b1`
+> 采集：2026-11-05T11:23:44+08:00　|　id：`76e502c4ebad39b1`
 
 ## 正文
 

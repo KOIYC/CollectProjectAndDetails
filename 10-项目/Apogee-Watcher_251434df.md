@@ -2,7 +2,7 @@
 type: "project"
 title: "Apogee Watcher"
 project_url: "https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance"
-first_seen: "2026-11-02T09:41:05+08:00"
+first_seen: "2026-11-05T11:24:10+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance>
-> 首次收录：2026-11-02T09:41:05+08:00
+> 首次收录：2026-11-05T11:24:10+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -38,6 +38,7 @@ lang: "en"
 | 2026-10-26T09:45:11+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/794520fb96efa9e8_Apogee-Watcher]] |
 | 2026-10-28T09:43:59+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/794520fb96efa9e8_Apogee-Watcher]] |
 | 2026-11-02T09:41:05+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/794520fb96efa9e8_Apogee-Watcher]] |
+| 2026-11-05T11:24:10+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-09-24/794520fb96efa9e8_Apogee-Watcher]] |
 
 ## 摘要正文
 

@@ -5,7 +5,7 @@ title: "Dailylaunch"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/dailylaunch"
-captured_at: "2026-11-04T09:54:15+08:00"
+captured_at: "2026-11-05T11:24:10+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-04T09:54:15+08:00　|　id：`6214ecbf8602d3d8`
+> 采集：2026-11-05T11:24:10+08:00　|　id：`6214ecbf8602d3d8`
 
 ## 正文
 
@@ -41,8 +41,20 @@ DailyLaunch
  Launch your product and discover powerful SaaS tools.
 Visit Website
 DailyLaunch Launch your product and discover powerful SaaS tools.
- Posts 3
+ Posts 4
  Website Twitter
+November 4, 2026
+ Showing My Unfinished App Got Me 300 Users.
+For years, I built my apps in secret. I'd work alone for months, share the link on launch day, and hear nothing. Nobody cared.
+ With my current project, I did the opposite. I started sharing my progress as I went, bugs, ugly features and all.
+ Posting the messy stuff felt scary at first. But here's what happened:
+ People love a real story. Followers felt like they were part of it. They weren't just looking at a finished product, they were watching it grow.
+ Feedback came fast. Every time I posted an update, people told me what to fix. I stopped guessing what to build next.
+ Users showed up early. By the time I started polishing the app, almost 300 people were already using it and posting on it.
+ If you're hiding your project until it's perfect, try sharing a quick screenshot or a small struggle today. You might be surprised how many people want to help.
+fabienlk
+6 Upvotes
+6 Comments
 November 2, 2026
  Still Waiting for Perfection? Launching Unpolished Saved My Project
 I used to be a big perfectionist. I'd spend months coding alone, trying to make every button and feature perfect before showing it to anyone.
@@ -55,7 +67,7 @@ I used to be a big perfectionist. I'd spend months coding alone, trying to make 
  If you're tweaking your project for the tenth time, do yourself a favor and just ship it.
  Curious about you: are you a perfectionist who struggles to hit "publish," or do you ship early?
 fabienlk
-7 Upvotes
+11 Upvotes
 Comment
 October 12, 2026
  A product directory where makers can launch and clap for each other
@@ -71,8 +83,8 @@ Hey Indie Hackers! I’m building DailyLaunch, a directory where makers can laun
  The idea came from wanting one straightforward place to share new products and find software that solves real problems. I’m working on making the launch and discovery experience clear and useful for both sides.
  I’d love your feedback: what makes you trust a product directory enough to submit your own product or discover something new?
 fabienlk
-2 Upvotes
-Comment
+3 Upvotes
+1 Comment
 About
  I’m building DailyLaunch to help people discover useful SaaS tools and help makers get their products noticed.
 It exists to make finding and sharing great software simpler.

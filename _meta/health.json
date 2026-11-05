@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-04T09:51:13+08:00",
+ "checked_at": "2026-11-05T11:20:52+08:00",
  "channels": [
   {
    "channel_id": "hn_show",
@@ -10,16 +10,16 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 2.0,
-   "probe_at": "2026-11-04T09:48:10+08:00",
+   "elapsed_s": 2.9,
+   "probe_at": "2026-11-05T11:13:31+08:00",
    "sample": [
     {
-     "title": "Show HN: Retro: I rebuilt bomberman game, same gameplay, new interface",
-     "url": "https://news.ycombinator.com/item?id=50360315"
+     "title": "Show HN: I turned 18 Agatha Christie novels into SQL murder cases",
+     "url": "https://news.ycombinator.com/item?id=50373795"
     },
     {
-     "title": "Show HN: HackerReels - Short Videos for viral HN posts",
-     "url": "https://news.ycombinator.com/item?id=50360259"
+     "title": "Show HN: Exact integer LLL lattice basis reduction in C99",
+     "url": "https://news.ycombinator.com/item?id=50373689"
     }
    ]
   },
@@ -32,16 +32,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
-   "elapsed_s": 35.1,
-   "probe_at": "2026-11-04T09:48:45+08:00",
+   "elapsed_s": 27.4,
+   "probe_at": "2026-11-05T11:13:59+08:00",
    "sample": [
     {
-     "title": "Less than 500 wishlists and releasing soon, not the best but proud of myself!",
-     "url": "https://www.reddit.com/r/IndieDev/comments/1xep92v/less_than_500_wishlists_and_releasing_soon_not/"
+     "title": "I just reached $160 MRR with my SaaS. Today I shipped a massive visual update to",
+     "url": "https://www.reddit.com/r/SaaS/comments/1xfe3pd/i_just_reached_160_mrr_with_my_saas_today_i/"
     },
     {
-     "title": "Why is every \"$10k MRR in 30 days\" thread written by someone selling a course?",
-     "url": "https://www.reddit.com/r/SaaS/comments/1xenqz6/why_is_every_10k_mrr_in_30_days_thread_written_by/"
+     "title": "The hardest part of building SaaS isn't building the product. It's getting anyon",
+     "url": "https://www.reddit.com/r/SaaS/comments/1xfkp97/the_hardest_part_of_building_saas_isnt_building/"
     }
    ]
   },
@@ -51,21 +51,12 @@
    "adapter": "github_new",
    "auth": "cli",
    "group": "海外发布",
-   "status": "ok",
-   "count": 3,
-   "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 2.1,
-   "probe_at": "2026-11-04T09:48:48+08:00",
-   "sample": [
-    {
-     "title": "deepseek-ai/dsh-superagent-prototype",
-     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
-    },
-    {
-     "title": "storytold/craft-anything",
-     "url": "https://github.com/storytold/craft-anything"
-    }
-   ]
+   "status": "error",
+   "count": 0,
+   "message": "0 repos; created:>2026-10-22 stars:>=: timeout>90s",
+   "elapsed_s": 90.7,
+   "probe_at": "2026-11-05T11:15:29+08:00",
+   "sample": []
   },
   {
    "channel_id": "betalist",
@@ -76,16 +67,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 startups · 发布日 3/3",
-   "elapsed_s": 6.2,
-   "probe_at": "2026-11-04T09:48:54+08:00",
+   "elapsed_s": 9.2,
+   "probe_at": "2026-11-05T11:15:38+08:00",
    "sample": [
     {
-     "title": "Cash Flow Calendar",
-     "url": "https://betalist.com/startups/cash-flow-calendar"
+     "title": "Pana",
+     "url": "https://betalist.com/startups/pana"
     },
     {
-     "title": "Kiriframe",
-     "url": "https://betalist.com/startups/kiriframe"
+     "title": "Momflexapp",
+     "url": "https://betalist.com/startups/momflexapp"
     }
    ]
   },
@@ -98,16 +89,16 @@
    "status": "ok",
    "count": 3,
    "message": "23 products",
-   "elapsed_s": 8.0,
-   "probe_at": "2026-11-04T09:49:02+08:00",
+   "elapsed_s": 8.7,
+   "probe_at": "2026-11-05T11:15:47+08:00",
    "sample": [
     {
-     "title": "Citewing",
-     "url": "https://www.indiehackers.com/product/citewing"
+     "title": "Riffit",
+     "url": "https://www.indiehackers.com/product/riffit"
     },
     {
-     "title": "Launchon It",
-     "url": "https://www.indiehackers.com/product/launchon-it"
+     "title": "Circlesaas",
+     "url": "https://www.indiehackers.com/product/circlesaas"
     }
    ]
   },
@@ -120,8 +111,8 @@
    "status": "ok",
    "count": 3,
    "message": "3 articles",
-   "elapsed_s": 1.2,
-   "probe_at": "2026-11-04T09:49:03+08:00",
+   "elapsed_s": 2.9,
+   "probe_at": "2026-11-05T11:15:50+08:00",
    "sample": [
     {
      "title": "Your DEV posts have a beautiful new share card ✨",
@@ -142,16 +133,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 entries",
-   "elapsed_s": 5.2,
-   "probe_at": "2026-11-04T09:49:08+08:00",
+   "elapsed_s": 7.5,
+   "probe_at": "2026-11-05T11:15:58+08:00",
    "sample": [
     {
-     "title": "AgentKit by Scalekit",
-     "url": "https://www.producthunt.com/products/scalekit"
+     "title": "Rungle",
+     "url": "https://www.producthunt.com/products/rungle"
     },
     {
-     "title": "Teamily AI",
-     "url": "https://www.producthunt.com/products/teamily-ai-human-ai-social-network"
+     "title": "PasteGuard for Mac",
+     "url": "https://www.producthunt.com/products/pasteguard-2"
     }
    ]
   },
@@ -164,16 +155,16 @@
    "status": "ok",
    "count": 3,
    "message": "20 topics",
-   "elapsed_s": 0.7,
-   "probe_at": "2026-11-04T09:49:09+08:00",
+   "elapsed_s": 13.3,
+   "probe_at": "2026-11-05T11:16:11+08:00",
    "sample": [
     {
-     "title": "做了一个适合日常摸鱼和找搞钱灵感的信息小站：提钱退休计划，送 VIP 中",
-     "url": "https://www.v2ex.com/t/1254311"
+     "title": "数万开发者在跑的 Claude 中转，入群赠 10 美元",
+     "url": "https://www.v2ex.com/t/1254652"
     },
     {
-     "title": "远程｜ Flutter｜ Golang( PHP 转 Go)｜ Go｜ PHP ｜ H5 前｜ Web 高(Flutter)｜ AI 建站｜ AI 全栈｜ UI",
-     "url": "https://www.v2ex.com/t/1254277"
+     "title": "[前端必看 2026 版] 前端开发必看的 100 个网站，记得收藏！",
+     "url": "https://www.v2ex.com/t/1254644"
     }
    ]
   },
@@ -185,17 +176,17 @@
    "group": "中文社媒",
    "status": "ok",
    "count": 3,
-   "message": "7 videos",
-   "elapsed_s": 0.6,
-   "probe_at": "2026-11-04T09:49:09+08:00",
+   "message": "8 videos",
+   "elapsed_s": 3.7,
+   "probe_at": "2026-11-05T11:16:14+08:00",
    "sample": [
     {
-     "title": "Claude 不肯再帮人抄游戏了，独立开发者还是不敢放试玩",
-     "url": "https://www.bilibili.com/video/BV18p4M6CEmP"
+     "title": "自己想要独立开发一款游戏，需要做哪些准备？",
+     "url": "https://www.bilibili.com/video/BV1gQ436HEW9"
     },
     {
-     "title": "我一个人做了款修路堵车模拟游戏《Trafficity》｜英国独立开发者",
-     "url": "https://www.bilibili.com/video/BV1bG4F6EE9y"
+     "title": "一分钱不花，完成独立产品从0上线！2026年独立开发者免费全家桶",
+     "url": "https://www.bilibili.com/video/BV1sFWA6VEgC"
     }
    ]
   },
@@ -208,8 +199,8 @@
    "status": "ok",
    "count": 3,
    "message": "9 entries · 收录日 9",
-   "elapsed_s": 2.9,
-   "probe_at": "2026-11-04T09:49:12+08:00",
+   "elapsed_s": 13.8,
+   "probe_at": "2026-11-05T11:16:28+08:00",
    "sample": [
     {
      "title": "Indie Hacker",
@@ -230,16 +221,16 @@
    "status": "ok",
    "count": 3,
    "message": "8 results",
-   "elapsed_s": 13.8,
-   "probe_at": "2026-11-04T09:49:26+08:00",
+   "elapsed_s": 81.3,
+   "probe_at": "2026-11-05T11:17:50+08:00",
    "sample": [
     {
-     "title": "\"Solarpunk Life-Sim MMO Loftia Launches Into Early Access Today\" - Games Press",
-     "url": "https://www.gamespress.com/Solarpunk-Life-Sim-MMO-Loftia-Launches-Into-Early-Access-Today"
+     "title": "\"The Whistle Has Blown: Cozy Soccer Side-Scroller \"Kick\" Hit Steam Today\" - Game",
+     "url": "https://www.gamespress.com/en-US/The-Whistle-Has-Blown-Cozy-Soccer-Side-Scroller-Kick-Hit-Steam-Today"
     },
     {
-     "title": "‘Kick’ is out now for PC via Steam - TGG",
-     "url": "https://thegg.net/press-releases/the-cozy-soccer-side-scroller-kick-is-out-now-via-steam/"
+     "title": "Cozy Game Restoration, a Solo Developer's Cartridge-Cleaning Sim, Launches Today",
+     "url": "https://gamers6.com/indie/cozy-game-restoration-a-solo-developers-cartridge-cleaning-sim-launches-today"
     }
    ]
   },
@@ -251,9 +242,9 @@
    "group": "海外社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 13s\nok: false\nerr",
-   "elapsed_s": 41.7,
-   "probe_at": "2026-11-04T09:50:08+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: timeout>90s",
+   "elapsed_s": 93.2,
+   "probe_at": "2026-11-05T11:19:23+08:00",
    "sample": []
   },
   {
@@ -265,11 +256,11 @@
    "status": "ok",
    "count": 1,
    "message": "1 items（1 路查询）",
-   "elapsed_s": 30.0,
-   "probe_at": "2026-11-04T09:50:38+08:00",
+   "elapsed_s": 40.7,
+   "probe_at": "2026-11-05T11:20:03+08:00",
    "sample": [
     {
-     "title": "独立开发app上架3个月日活突破4000！",
+     "title": "我准备干一辈子独立开发了",
      "url": ">-"
     }
    ]
@@ -283,8 +274,8 @@
    "declared": "unverified",
    "delta": false,
    "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 20.1,
-   "probe_at": "2026-11-04T09:51:01+08:00"
+   "elapsed_s": 21.8,
+   "probe_at": "2026-11-05T11:20:36+08:00"
   },
   {
    "backend": "arctic_shift",
@@ -293,8 +284,8 @@
    "declared": "not_added",
    "delta": false,
    "message": "5 rows",
-   "elapsed_s": 3.0,
-   "probe_at": "2026-11-04T09:51:05+08:00"
+   "elapsed_s": 5.0,
+   "probe_at": "2026-11-05T11:20:41+08:00"
   },
   {
    "backend": "exa_web_fetch",
@@ -303,25 +294,25 @@
    "declared": "warn",
    "delta": false,
    "message": "1 url 返回正文",
-   "elapsed_s": 5.3,
-   "probe_at": "2026-11-04T09:51:10+08:00"
+   "elapsed_s": 8.8,
+   "probe_at": "2026-11-05T11:20:49+08:00"
   },
   {
    "backend": "github_gh",
    "use": "GitHub 取数 (gh CLI)",
    "status": "ok",
-   "declared": "ready",
+   "declared": "unverified",
    "delta": false,
    "message": "remaining=5000",
-   "elapsed_s": 2.6,
-   "probe_at": "2026-11-04T09:51:13+08:00"
+   "elapsed_s": 2.5,
+   "probe_at": "2026-11-05T11:20:52+08:00"
   }
  ],
  "summary": {
   "total": 13,
-  "ok": 12,
+  "ok": 11,
   "empty": 0,
-  "error": 0,
+  "error": 1,
   "auth": 1
  },
  "decisions": [
@@ -337,8 +328,8 @@
   },
   {
    "channel_id": "github_new",
-   "action": "keep",
-   "status": "ok"
+   "action": "review",
+   "status": "error"
   },
   {
    "channel_id": "betalist",
@@ -393,7 +384,7 @@
  ],
  "agent_reach": {
   "ok": true,
-  "checked_at": "2026-11-04T09:50:41+08:00",
+  "checked_at": "2026-11-05T11:20:14+08:00",
   "version": "1.6.0",
   "error": null,
   "platforms": 14

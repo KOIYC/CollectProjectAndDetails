@@ -1,7 +1,7 @@
 ---
 type: "report"
 title: "agent-reach 体检"
-updated: "2026-11-04T09:50:41+08:00"
+updated: "2026-11-05T11:20:14+08:00"
 tags:
   - 报告
   - 渠道
@@ -10,11 +10,11 @@ tags:
 
 # agent-reach 体检
 
-> 检查时间 2026-11-04T09:50:41+08:00 · agent-reach 1.6.0 · 由 `agent-reach doctor`（默认输出 JSON）生成
+> 检查时间 2026-11-05T11:20:14+08:00 · agent-reach 1.6.0 · 由 `agent-reach doctor`（默认输出 JSON）生成
 
 | 平台 | | 状态 | 激活后端 | 说明 |
 |---|---|---|---|---|
-| GitHub 仓库和代码 | ✅ | ready | `—` |  |
+| GitHub 仓库和代码 | ⚠️ | unverified | `—` | agent-reach check github |
 | Twitter/X 推文 | ❌ | not_added | `—` | agent-reach add twitter |
 | YouTube 视频和字幕 | ⚠️ | unverified | `—` | agent-reach check youtube |
 | Reddit 帖子和评论 | ❌ | not_added | `—` | agent-reach add reddit |

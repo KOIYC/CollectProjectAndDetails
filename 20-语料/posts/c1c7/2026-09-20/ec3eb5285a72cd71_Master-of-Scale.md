@@ -6,10 +6,10 @@ source: "c1c7"
 source_name: "1c7 中文独立开发者名录"
 url: "https://mastersofscale.com"
 project_url: "https://mastersofscale.com/"
-captured_at: "2026-11-01T09:43:28+08:00"
+captured_at: "2026-11-05T11:26:44+08:00"
 lang: "zh"
 kind: "project"
-topic: "教育/学习"
+topic: "AI 工具/Agent"
 shard: "2026-09-20"
 tags:
   - 语料
@@ -32,27 +32,45 @@ discovered_via: "1c7:readme"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://mastersofscale.com/>
-> 采集：2026-11-01T09:43:28+08:00　|　id：`ec3eb5285a72cd71`
+> 采集：2026-11-05T11:26:44+08:00　|　id：`ec3eb5285a72cd71`
 
 ## 正文
 
 Masters of Scale – Home
 
-## How to save democracy from Big Tech
+# Masters of Scale
 
- Rappler’s Maria Ressa
+## Rapid Response
 
-In conversation with Reid Hoffman and Aria Finger, Maria Ressa explores the crises facing truth, accountability, and democracy, and what we can do to help defend them.
+New episodes every Tuesday & Friday in the Rapid Response podcast feed and YouTube channel.
 
- How to save democracy from Big Tech
+## How leaders thrive in chaos
 
-Rappler’s Maria Ressa
+ Life With Machines’s Baratunde Thurston
+
+ Upwork’s Hayden Brown
+
+ Autodesk’s Dara Treseder
+
+ Watch Duty’s John Mills
+
+ Warp Sciences’ DJ Patil
+
+ Spicewell’s Raina Kumra Gardiner
+
+ Arkenstone’s William Treseder
+
+Bob Safian gathers leaders from across business, tech, and media to figure out how to thrive amid constant change.
+
+## Pioneers of AI
+
+Your weekly guide to AI, hosted by Dr. Rana el Kaliouby. New episodes every Wednesday.
+
+ Where AI goes from here
 
 OpenAI’s Sarah Friar
 
  Rich Roll’s ‘crash course’ in entrepreneurship
-
-Rich Roll
 
 Rich Roll’s ‘crash course’ in entrepreneurship
 
@@ -66,37 +84,9 @@ Building a marketplace from scratch
 
 Creative Planning’s Jamie Battmer KCRW’s Jennifer Ferro
 
-Don't be boring
-
  How to build a billion-dollar sports team
 
 Golden State Valkyries’s Jess Smith Creative Planning’s Jamie Battmer
-
-How to build a billion-dollar sports team
-
- From high school dropout to CEO
-
-Autodesk’s Andrew Anagnost
-
-From high school dropout to CEO
-
- How Barnes & Noble made a comeback
-
-Barnes & Noble’s James Daunt
-
-How Barnes & Noble made a comeback
-
- REI’s secrets to sustaining a beloved brand
-
-REI’s Mary Beth Laughton
-
-Media Executive Barbara Peng
-
-Journalist Kevin Roose
-
-OpenAI’s Thibault Sottiaux
-
-Kalshi’s Luana Lopes Lara
 
 # V2EX › 分享创造
 
@@ -104,5 +94,5 @@ Kalshi’s Luana Lopes Lara
 
 - 项目页：[[10-项目/Master-of-Scale_ec3eb528]]
 - 渠道页：[[50-渠道/c1c7]]
-- 赛道：`教育/学习`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

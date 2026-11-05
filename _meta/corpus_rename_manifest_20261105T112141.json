@@ -1,0 +1,19 @@
+{
+  "at": "2026-11-05T11:29:48+08:00",
+  "kind": "corpus_rename",
+  "note": "条目改标题导致的语料页换名；旧页已清（git/raw 可回溯），链接已改写",
+  "renames": [
+    {
+      "from": "20-语料/posts/producthunt/2026-09-20/7c7187ae2983b0f7_Basedash-Scheduled-CSV-Exports.md",
+      "to": "20-语料/posts/producthunt/2026-09-20/7c7187ae2983b0f7_Basedash-Verified-dashboards.md"
+    },
+    {
+      "from": "20-语料/posts/producthunt/2026-10-26/5a9af501a3b894c5_Cloudflare-Clairic.md",
+      "to": "20-语料/posts/producthunt/2026-10-26/5a9af501a3b894c5_Zero-Wire.md"
+    },
+    {
+      "from": "20-语料/posts/xiaohongshu/2026-09-21/7861ab65194de927_独立开发app上架3个月日活突破4000!.md",
+      "to": "20-语料/posts/xiaohongshu/2026-09-21/7861ab65194de927_我准备干一辈子独立开发了.md"
+    }
+  ]
+}

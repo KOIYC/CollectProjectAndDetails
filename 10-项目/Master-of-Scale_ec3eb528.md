@@ -2,7 +2,7 @@
 type: "project"
 title: "Master of Scale"
 project_url: "https://mastersofscale.com/"
-first_seen: "2026-11-01T09:43:28+08:00"
+first_seen: "2026-11-05T11:26:44+08:00"
 sources:
   - c1c7
 tags:
@@ -19,7 +19,7 @@ lang: "zh"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://mastersofscale.com/>
-> 首次收录：2026-11-01T09:43:28+08:00
+> 首次收录：2026-11-05T11:26:44+08:00
 > 来源渠道：1c7 中文独立开发者名录
 > 标签：英文
 > 最新指标：—
@@ -52,7 +52,8 @@ lang: "zh"
 | 2026-10-28T09:48:19+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
 | 2026-10-29T20:50:45+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
 | 2026-11-01T09:43:28+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
+| 2026-11-05T11:26:44+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
 
 ## 摘要正文
 
-Masters of Scale – Home  ## How to save democracy from Big Tech   Rappler’s Maria Ressa  In conversation with Reid Hoffman and Aria Finger, Maria Ressa explores the crises facing truth, accountability, and democracy, and what we can do to help defend them.   How to save democracy from Big Tech  Rappler’s Maria Ressa  OpenAI’s Sarah Friar   Rich Roll’s ‘crash course’ in entrepreneurship  Rich Roll  Rich Roll’s ‘crash course’ in entrepreneurship   Building a marketplace from scratch  Hipcamp’s Alyssa Ravasio  Building a marketplace from scratch   Don't be boring  Creative Planning’s Jamie Battmer KCRW’s Jennifer Ferro  Don't be boring   How to build a billion-dollar sports team  Golden State Valkyries’s Jess Smith Creative Planning’s Jamie Battmer  How to build a billion-dollar sports team   From high school dropout to CEO  Autodesk’s Andrew Anagnost  From high school dropout to CEO   How Barnes & Noble made a comeback  Barnes & Noble’s James Daunt  How Barnes & Noble made a comeback   REI’s secrets to sustaining a beloved brand  REI’s Mary Beth Laughton  Media Executive Barbara Peng  Journalist Kevin Roose  OpenAI’s Thibault Sottiaux  Kalshi’s Luana Lopes Lara  # V2EX › 分享创造
+Masters of Scale – Home  # Masters of Scale  ## Rapid Response  New episodes every Tuesday & Friday in the Rapid Response podcast feed and YouTube channel.  ## How leaders thrive in chaos   Life With Machines’s Baratunde Thurston   Upwork’s Hayden Brown   Autodesk’s Dara Treseder   Watch Duty’s John Mills   Warp Sciences’ DJ Patil   Spicewell’s Raina Kumra Gardiner   Arkenstone’s William Treseder  Bob Safian gathers leaders from across business, tech, and media to figure out how to thrive amid constant change.  ## Pioneers of AI  Your weekly guide to AI, hosted by Dr. Rana el Kaliouby. New episodes every Wednesday.   Where AI goes from here  OpenAI’s Sarah Friar   Rich Roll’s ‘crash course’ in entrepreneurship  Rich Roll’s ‘crash course’ in entrepreneurship   Building a marketplace from scratch  Hipcamp’s Alyssa Ravasio  Building a marketplace from scratch   Don't be boring  Creative Planning’s Jamie Battmer KCRW’s Jennifer Ferro   How to build a billion-dollar sports team  Golden State Valkyries’s Jess Smith Creative Planning’s Jamie Battmer  # V2EX › 分享创造

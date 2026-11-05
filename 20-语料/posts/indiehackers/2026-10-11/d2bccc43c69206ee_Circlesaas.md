@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/circlesaas"
 project_url: "https://circlesaasboard.com/"
-captured_at: "2026-10-26T09:45:11+08:00"
+captured_at: "2026-11-05T11:24:10+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://circlesaasboard.com/>
-> 采集：2026-10-26T09:45:11+08:00　|　id：`d2bccc43c69206ee`
+> 采集：2026-11-05T11:24:10+08:00　|　id：`d2bccc43c69206ee`
 
 ## 正文
 
@@ -42,9 +42,60 @@ CircleSaaS
  A free launch directory for Startups, AI and SaaS products.
 Visit Website
 CircleSaaS A free launch directory for Startups, AI and SaaS products.
- Posts 17
+ Posts 20
  Revenue $6 / mo
  Website
+October 29, 2026
+ CircleSaaS is starting weekly launches from Monday, Nov 2
+I've been building CircleSaaS , a circular directory of startups. Every product gets a tile on one big board, and the closer to the center your tile sits, the bigger it is. 230 startups are already on it.
+ Two big changes.
+ First, I dropped subscriptions. You can now claim a tile with a single one time payment, and the spot is yours for good, with no renewals and nothing to cancel.
+ Second, starting Monday, Nov 2, 2026 , CircleSaaS runs weekly launches and a Hall of Fame.
+ Weekly launches
+ Every week runs Monday to Sunday and opens at 12:01 AM Pacific.
+Each week features exactly 25 startups. Many launch directories let an unlimited number of startups launch at once, so yours gets buried in a pool of hundreds. On CircleSaaS the cap is fixed at 25 a week, so every one of the 25 gets real visibility for a week here.
+Paid tiles come first, and free startups fill the rest.
+Free startups join a queue, oldest first. It can take up to 90 days, and you can skip it by upgrading.
+Paid owners pick their own launch week. A week locks the Sunday before it starts, and you get a "launching tomorrow" email.
+Visitors can upvote and comment. The list is ordered by tier first, then by upvotes.
+The Hall of Fame
+ After its launch week, every paid startup, plus each week's top 3 by upvotes, joins the Hall of Fame for 30 days. A free startup that earns a top 3 spot still gets a second round of attention. It fills up from the second week, Nov 9.
+ What else you get
+ A page for your startup, a maker dashboard with analytics, and an AI prefill that reads your site for the description
+A verified badge, a shoutout in the Monday newsletter and on X, and a dofollow link. Free startups can earn the dofollow link too, by adding our badge and upvoting 3 other startups.
+Launch story posts on the blog: one for Bishop, two for Rook and Queen
+Free King days with Rook (1) and Queen (2), plus one newsletter sponsor issue with Queen
+Optional ads: feature cards at $9 a week, or the Product Center Ad at the top of the weekly list for $15 a week
+And many more benefits, please checkout our pricing page.
+There's also a weekly newsletter every Monday with last week's launches and the top 3.
+ I'd love your feedback, especially on how the weekly queue and the Hall of Fame feel from a founder's side.
+ What would make you launch here?
+Vikas Yadav
+18 Upvotes
+3 Comments
+October 27, 2026
+ Get permanent visibility on CircleSaaS
+Submit your product and claim a permanent spot on CircleSaaS.
+ Most launch lists push your product off the page within a day. Here, your tile is permanent from the moment you claim it, so it stays on the board after launch day.
+ The next launch week starts on Monday, November 9. Only 25 startups launch each week, so none get lost in a long list. Each one gets its own slot on the board.
+ After your launch week, your startup moves into the Hall of Fame for 30 days, and it stays visible on the list during that time.
+ To join, pick your tile from the board or the pricing page, then choose your launch week. Read the pricing page to see what each tier includes, such as backlinks, compared with the free listings.
+ I can't promise traffic, but I can promise a fixed slot and a page that doesn't disappear. I'll share the real numbers after each week.
+ circlesaasboard.com
+ Cheers! 🥂
+Vikas Yadav
+10 Upvotes
+Comment
+October 25, 2026
+ Listed on CircleSaaS or not yet? I’d love to know your reason either way.
+I'm the solo founder of CircleSaaS , a startup directory. About 200+ products are listed so far.
+ If you've listed: What made you do it?
+ If you haven't: What's stopping you?
+ Either way, I’d also like your feedback on the site itself. What’s confusing, what’s missing, and what would you change first?
+ Honest answers only, including “not worth it.” I’ll reply to every comment and fix what I can.
+Vikas Yadav
+27 Upvotes
+4 Comments
 October 24, 2026
  4 things people got wrong about CircleSaaS when they first saw it
 When I first shared CircleSaaS , I learned quickly that people read it differently from how I meant it.
@@ -62,8 +113,8 @@ When I first shared CircleSaaS , I learned quickly that people read it different
  Be honest, because I'd like to fix whatever is unclear.
  If you haven't listed your startup yet, you can claim a free tile at circlesaasboard.com.
 Vikas Yadav
-19 Upvotes
-8 Comments
+20 Upvotes
+11 Comments
 October 24, 2026
  My launch checklist for the CircleSaaS directory launches (tell me what I’m missing)
 I’m about to launch CircleSaaS on bigger directories, so I wrote down the checklist I’m working through. It’s the solo-founder version of a longer one I published, trimmed to 12 items.
@@ -87,8 +138,8 @@ On launch
  The full version, with a 7-phase timeline, is here: https://circlesaasboard.com/blog/saas-launch-checklist
  If you haven’t listed your startup on circlesaasboard.com yet, you can submit it free.
 Vikas Yadav
-34 Upvotes
-23 Comments
+35 Upvotes
+25 Comments
 October 23, 2026
  Looking for 50 more startups to list on CircleSaaS
 I’m looking for 50 more startups to list on CircleSaaS . It’s a directory shaped like a circle of tiles, where every startup gets its own page and link.
@@ -98,8 +149,8 @@ I’m looking for 50 more startups to list on CircleSaaS . It’s a directory sh
  If you have a startup that’s live or nearly live, you can submit at circlesaasboard.com .
  If you’ve listed before, tell me what you’d improve. If you’re not sure, ask me anything below.
 Vikas Yadav
-32 Upvotes
-29 Comments
+33 Upvotes
+32 Comments
 October 19, 2026
  What’s the real reason your startup still isn’t live?
 Is it the logo?
@@ -114,7 +165,7 @@ Is it the logo?
  Let’s see what the pattern is.
 Vikas Yadav
 32 Upvotes
-10 Comments
+11 Comments
 October 19, 2026
  I built 16 free tools for founders, no sign up, no card
 I run CircleSaaS , a directory shaped as a circle of startup tiles. Alongside the directory I've built 16 free tools.
@@ -188,64 +239,9 @@ I spent a few days reading what ranks for this question, plus Reddit's own help 
 Vikas Yadav
 40 Upvotes
 27 Comments
-October 16, 2026
- Day 7: 100+ startups listed on my directory
-CircleSaaS Board has crossed 100+ startups listed, all within 7 days.
- Thank you to everyone who took a chance on a brand-new directory.
- CircleSaaS is a circle of 6,522 tiles , and every founder who joins gets their own page and a spot on the circle.
- Already listed? Tell me more about your startup in the comments. What does it do, and who is it for? I’d love to see what you’re building.
- Not listed yet? What are you waiting for? Add your startup now: circlesaasboard.com
-Vikas Yadav
-20 Upvotes
-17 Comments
-October 16, 2026
- Would you pay monthly or once to list your startup on a directory?
-I’m a solo founder building a startup directory, and I want to ask the people who’d use it before I decide how it should work. Two questions are below. Short, blunt answers are fine.
- 1. Would you pay for a listing? If so, how?
- Monthly
-Once
-Never, free only
-If “never”, that’s a useful answer. What would change it? A specific outcome, a lower price, proof from other founders, something else?
- 2. When you list your product somewhere, what do you want most?
- Traffic: real visitors who click through
-A backlink: for SEO
-Credibility: being listed somewhere that makes you look legitimate
-Feedback or early users
-Something else (please say what)
-If you can, tell me which of these you’ve actually got from past listings, not which you hoped for. I suspect many founders list expecting one thing and notice another, and I’d like to know if that’s true.
-Vikas Yadav
-29 Upvotes
-8 Comments
-October 14, 2026
- CircleSaaS vs other directories: and why you should list it
-The usual directory
- A list or leaderboard, often sorted by newest or by votes
-A launch-week spike, then the listing slides down the page
-Position is decided by timing or upvotes
-Some have a queue or a paid fast-track
-Many give you a dofollow link, but new startups are submitted every day, so the link value is shared with a constantly growing number of other listings
-CircleSaaS
- One circle of 6522 wedge-shaped tiles, not a list
-Tiles stay where they are, and the closer to the center, the bigger and more visible
-Each listing has its own page, with analytics for views, clicks and traffic sources
-Name search zooms straight to a tile
-A free tile is available, and paid tiers start at $3 a month
-Paid listings are labeled as paid and sit toward the top of the leaderboard, so bought position isn’t presented as earned ranking
-The number of paid tiles is fixed, so the link value from those tiles is shared among a limited set of listings, not an endless stream
-Where the usual directories are better, right now
- They have more traffic and years of authority. CircleSaaS is new, and I won’t pretend otherwise.
-Lists are faster to scan than a circle, and tiles near the edge get small on a phone.
-Some founders prefer a one-time payment to a monthly fee. I’m thinking about that, and nothing is decided.
-Honest questions for founders who’ve used directories:
- When you list your product somewhere, what do you want most: traffic, a backlink, credibility or something else?
-Would you pay monthly, once, or never?
-If you want to see it or claim a tile: circlesaasboard.com
-Vikas Yadav
-36 Upvotes
-3 Comments
 About
  A free launch directory for startups and SaaS products, shaped like a circle. Claim a tile, get your own SEO-optimized page and a dofollow backlink, and get found on Google, ChatGPT and Claude.
- People
+People
  Vikas Yadav Founder
 Stay informed as an indie hacker.
  Market insights that help you start and grow your business.

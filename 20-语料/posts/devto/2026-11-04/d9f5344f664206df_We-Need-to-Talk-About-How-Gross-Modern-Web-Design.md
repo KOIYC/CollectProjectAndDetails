@@ -8,7 +8,7 @@ url: "https://dev.to/dj29/we-need-to-talk-about-how-gross-modern-web-design-has-
 project_url: "https://github.com/Tarkash-Labs"
 author: "Dhruv Jani"
 published_at: "2026-10-30T11:35:31Z"
-captured_at: "2026-11-04T10:06:13+08:00"
+captured_at: "2026-11-05T11:24:27+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,9 +21,9 @@ tags:
   - showdev
   - webdev
   - gemini
-metrics: {"reactions": 80, "comments": 29, "reading_time": 4}
-comments_count: 29
-comments_total: 29
+metrics: {"reactions": 93, "comments": 37, "reading_time": 4}
+comments_count: 37
+comments_total: 37
 discovered_via: "devto:showdev"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/dj29/we-need-to-talk-about-how-gross-modern-web-design-has-become-and-how-we-built-an-ai-to-catch-it-5gin>
-> 指标：reactions=80 · 评论=29 · reading_time=4
+> 指标：reactions=93 · 评论=37 · reading_time=4
 > 作者：Dhruv Jani　|　发布：2026-10-30T11:35:31Z
 > 项目链接：<https://github.com/Tarkash-Labs>
-> 采集：2026-11-04T10:06:13+08:00　|　id：`d9f5344f664206df`
+> 采集：2026-11-05T11:24:27+08:00　|　id：`d9f5344f664206df`
 
 ## 正文
 
@@ -139,7 +139,7 @@ We are constantly trying to improve the AI's detection capabilities.
 
 Drop it in the comments below so we can train OmniGuard to catch it! 🚀
 
-## 评论（29/29）
+## 评论（37/37）
 
 > **Dhruv Jani** · 2026-10-30T11:38:52Z　
 > One thing that stood out while building OmniGuard was how easily deceptive elements can blend into an otherwise normal-looking webpage.
@@ -215,6 +215,11 @@ Drop it in the comments below so we can train OmniGuard to catch it! 🚀
 > I actually haven't tried any ad blockers, I just use brave for streaming or spotify, so as to avoid pop ups and ads.
 >
 > But I'll definitely try one!
+
+---
+
+> **Luke Bennett** · 2026-11-04T06:42:00Z　
+> Thanks
 
 ---
 
@@ -333,6 +338,47 @@ Drop it in the comments below so we can train OmniGuard to catch it! 🚀
 
 > **Mr Smithnen** · 2026-11-03T19:14:51Z　
 > Yes, this is all too true 😆🙃
+
+---
+
+> **Levi** · 2026-11-04T04:42:46Z　
+> Man, that looks awesome!
+
+---
+
+> **Mudassir Khan** · 2026-11-04T06:27:57Z　
+> sending a viewport screenshot to a multimodal model instead of reading the DOM makes sense here, since dark patterns are mostly about visual weight and not markup. what i would worry about is latency on scroll: a round trip per viewport means the fake timer is gone or the page already shifted by the time the red box lands.
+>
+> we saw the same drift when overlaying boxes from stale coordinates on dynamic pages.
+>
+> are you mapping boxes back to DOM nodes after detection, and what does the false positive rate look like on legit urgency like real stock counts?
+
+---
+
+> **Jyanthi** · 2026-11-04T07:33:18Z　
+> Brilliant initiative! The web should earn our trust, not manipulate us. Could tools like OmniGuard become the new standard for ethical design?
+
+---
+
+> **Dhruv Jani** · 2026-11-04T07:58:52Z　
+> I don't think this will stop dark patterns on web pages but will definitely make people make aware!
+>
+> Have A Great Day!!
+
+---
+
+> **Jyanthi** · 2026-11-04T09:04:03Z　
+> Absolutely! It may not eradicate dark patterns, but awareness is the first step towards resisting manipulation. The more informed users become, the harder it gets for deceptive design to succeed. Have a great day too!
+
+---
+
+> **Sunday Favour** · 2026-11-04T08:35:13Z　
+> Amazing
+
+---
+
+> **Ingo Steinke, web developer** · 2026-11-04T10:49:42Z　
+> Theoretically, this tool solves the problem at the wrong end, however it's the only end that end-users control. If such guards and blockers become widespread and popular, our industry's stakeholder must eventually adjust their priorities or audiences. Developers can then fix the root cause when they won't be pushed again and again to add misfeatures like obtrusive popovers to every other website and web app.
 
 ## 关联链接
 

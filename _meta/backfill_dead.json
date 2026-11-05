@@ -1,11 +1,11 @@
 {
  "schema": 2,
- "updated": "2026-11-04T10:09:55+08:00",
+ "updated": "2026-11-05T11:37:02+08:00",
  "note": "结构性无正文/取数不可得 —— 连试 2 轮后记账，不再消耗额度。字段：reason（人话）/ reason_code（可复核分类，见 REASON_CODES）/ tried[]（本轮实际试过的后端）/ http_status（direct 档拿到的状态码）",
  "by_reason": {
-  "no_backend": 84,
+  "no_backend": 85,
   "unreachable": 77,
-  "media": 44,
+  "media": 46,
   "http_403": 6,
   "account": 3,
   "gh_miss": 1,
@@ -3276,26 +3276,66 @@
    "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   },
   "c1b28be166767cee": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: Jenesis, Java builds 18% faster, rebuilds up to 88% faster",
    "url": "https://jenesis.build/why/tool/",
    "source_id": "hn_show",
    "first_dead": "2026-11-04T10:09:55+08:00",
-   "last_try": "2026-11-04T10:09:55+08:00",
+   "last_try": "2026-11-05T11:37:02+08:00",
    "tried": [
     "direct_fetch"
    ],
    "http_status": 200,
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   },
   "d6e32b98ad6e14ae": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: A landing page that shows every psychological trick it uses o",
    "url": "https://kickstartsidehustle.com/",
    "source_id": "hn_show",
    "first_dead": "2026-11-04T10:09:55+08:00",
-   "last_try": "2026-11-04T10:09:55+08:00",
+   "last_try": "2026-11-05T11:37:02+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "e21de0774b5dac83": {
+   "attempts": 2,
+   "title": "I just reached $160 MRR with my SaaS. Today I shipped a massive visual",
+   "url": "https://v.redd.it/zpgd7ibmjoxh1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "reason_code": "media",
+   "first_dead": "2026-11-05T11:32:57+08:00",
+   "last_try": "2026-11-05T11:32:57+08:00",
+   "http_status": null,
+   "tried": []
+  },
+  "c1ee0a9cafa6e014": {
+   "attempts": 2,
+   "title": "Here’s a look at Level 03 from my game, Cube & Seek!",
+   "url": "https://v.redd.it/uxizyen7qfxh1",
+   "source_id": "reddit",
+   "reason": "视频帖无正文",
+   "reason_code": "media",
+   "first_dead": "2026-11-05T11:32:57+08:00",
+   "last_try": "2026-11-05T11:32:57+08:00",
+   "http_status": null,
+   "tried": []
+  },
+  "73d1cbae38ef1b0f": {
+   "attempts": 1,
+   "title": "Show HN: Cassandra – free tool to check if you got affected by the Cur",
+   "url": "https://ciphero.ai/cassandra/hn",
+   "source_id": "hn_show",
+   "first_dead": "2026-11-05T11:37:02+08:00",
+   "last_try": "2026-11-05T11:37:02+08:00",
    "tried": [
     "direct_fetch"
    ],
