@@ -1,11 +1,11 @@
 {
- "unique_items": 4382,
+ "unique_items": 4506,
  "no_url": 0,
  "round": {
-  "run_id": "20261105T112141",
-  "records": 182,
-  "new": 119,
-  "update": 45
+  "run_id": "20261107T094321",
+  "records": 185,
+  "new": 124,
+  "update": 39
  },
  "by_channel": {
   "apple_rss": {
@@ -25,15 +25,15 @@
    "partial": 0
   },
   "betalist": {
-   "n": 308,
-   "body": 308,
+   "n": 319,
+   "body": 319,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
    "platform_comments": 0,
    "trunc": 0,
-   "no_project_url": 300,
-   "no_author": 308,
+   "no_project_url": 311,
+   "no_author": 319,
    "profile": "linkpost",
    "err_body": 0,
    "err_comments": 0,
@@ -41,14 +41,14 @@
    "partial": 0
   },
   "bilibili": {
-   "n": 81,
+   "n": 84,
    "body": 44,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
    "platform_comments": 0,
    "trunc": 0,
-   "no_project_url": 62,
+   "no_project_url": 65,
    "no_author": 0,
    "profile": "metadata",
    "err_body": 0,
@@ -77,8 +77,8 @@
    "body": 32,
    "with_comments": 31,
    "expect_comments": 31,
-   "comments": 1473,
-   "platform_comments": 1575,
+   "comments": 1474,
+   "platform_comments": 1576,
    "trunc": 0,
    "no_project_url": 8,
    "no_author": 0,
@@ -137,14 +137,14 @@
    "partial": 0
   },
   "hn_show": {
-   "n": 1987,
-   "body": 1933,
-   "with_comments": 788,
-   "expect_comments": 785,
-   "comments": 7229,
-   "platform_comments": 7060,
+   "n": 2027,
+   "body": 1973,
+   "with_comments": 804,
+   "expect_comments": 801,
+   "comments": 7267,
+   "platform_comments": 7098,
    "trunc": 0,
-   "no_project_url": 50,
+   "no_project_url": 52,
    "no_author": 0,
    "profile": "discussion",
    "err_body": 0,
@@ -153,15 +153,15 @@
    "partial": 0
   },
   "indiehackers": {
-   "n": 174,
-   "body": 174,
+   "n": 176,
+   "body": 176,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
    "platform_comments": 0,
    "trunc": 0,
-   "no_project_url": 101,
-   "no_author": 174,
+   "no_project_url": 100,
+   "no_author": 176,
    "profile": "linkpost",
    "err_body": 0,
    "err_comments": 0,
@@ -185,14 +185,14 @@
    "partial": 0
   },
   "producthunt": {
-   "n": 609,
-   "body": 609,
+   "n": 639,
+   "body": 639,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
    "platform_comments": 0,
    "trunc": 0,
-   "no_project_url": 609,
+   "no_project_url": 639,
    "no_author": 0,
    "profile": "linkpost",
    "err_body": 0,
@@ -201,14 +201,14 @@
    "partial": 0
   },
   "reddit": {
-   "n": 691,
-   "body": 652,
-   "with_comments": 633,
-   "expect_comments": 654,
-   "comments": 13441,
-   "platform_comments": 13241,
+   "n": 716,
+   "body": 676,
+   "with_comments": 656,
+   "expect_comments": 677,
+   "comments": 13902,
+   "platform_comments": 13772,
    "trunc": 0,
-   "no_project_url": 419,
+   "no_project_url": 436,
    "no_author": 0,
    "profile": "discussion",
    "err_body": 0,
@@ -233,14 +233,14 @@
    "partial": 0
   },
   "v2ex": {
-   "n": 253,
-   "body": 253,
+   "n": 266,
+   "body": 266,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
    "platform_comments": 0,
    "trunc": 0,
-   "no_project_url": 112,
+   "no_project_url": 116,
    "no_author": 0,
    "profile": "discussion",
    "err_body": 0,
@@ -271,12 +271,12 @@
    54
   ],
   [
-   "reddit",
-   39
+   "bilibili",
+   40
   ],
   [
-   "bilibili",
-   37
+   "reddit",
+   40
   ],
   [
    "apple_rss",
@@ -292,7 +292,7 @@
   ]
  ],
  "noise": 4,
- "gaps": 5,
+ "gaps": 6,
  "gap_by_channel": [
   [
    [
@@ -314,20 +314,27 @@
     "body"
    ],
    1
+  ],
+  [
+   [
+    "reddit",
+    "body"
+   ],
+   1
   ]
  ],
  "queue_age": {
-  "n": 5,
-  "with_ts": 5,
-  "oldest_days": 44,
+  "n": 6,
+  "with_ts": 6,
+  "oldest_days": 46,
   "gt14": 5,
   "gt30": 5
  },
- "expected_absent": 55,
+ "expected_absent": 58,
  "expected_absent_by_channel": [
   [
    "bilibili",
-   37
+   40
   ],
   [
    "apple_rss",
@@ -357,7 +364,7 @@
     "indiehackers",
     "published_at"
    ],
-   174
+   176
   ],
   [
    [
@@ -381,15 +388,15 @@
    1
   ]
  ],
- "money_signal": 724,
+ "money_signal": 739,
  "lang": [
   [
    "en",
-   4014
+   4122
   ],
   [
    "zh",
-   368
+   384
   ]
  ]
 }

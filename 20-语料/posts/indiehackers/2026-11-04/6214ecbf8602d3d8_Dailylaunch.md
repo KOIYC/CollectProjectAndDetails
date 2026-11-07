@@ -5,7 +5,7 @@ title: "Dailylaunch"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/dailylaunch"
-captured_at: "2026-11-05T11:24:10+08:00"
+captured_at: "2026-11-07T09:46:15+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-05T11:24:10+08:00　|　id：`6214ecbf8602d3d8`
+> 采集：2026-11-07T09:46:15+08:00　|　id：`6214ecbf8602d3d8`
 
 ## 正文
 
@@ -41,8 +41,39 @@ DailyLaunch
  Launch your product and discover powerful SaaS tools.
 Visit Website
 DailyLaunch Launch your product and discover powerful SaaS tools.
- Posts 4
+ Posts 6
  Website Twitter
+November 6, 2026
+ Why Great Products Need More Than Great Features
+Something interesting is happening in the SEO industry.
+ Ahrefs recently announced DR4, a major change to how it calculates Domain Rating. This could affect many businesses, especially those selling backlinks, link-building services, and products built around DR metrics.
+ Think about it. Some businesses have spent years building their services around a metric controlled by another company. One update can force them to rethink their entire approach.
+ And this isn't just an SEO problem. It can happen to any SaaS that depends too heavily on another platform.
+ That's why I think we should talk more about community.
+ Features can be copied. APIs can change. Metrics can disappear. But the relationships you build with your customers are much harder to replace.
+ A strong community gives you:
+ People who support your product beyond its features.
+Honest feedback and ideas when things need to change.
+A network of people who grow alongside your business.
+Don't get me wrong, building great features matters. But don't spend so much time improving your product that you forget about the people using it.
+ If your product lost its main feature tomorrow, would your users still stick around?
+fabienlk
+4 Upvotes
+1 Comment
+November 5, 2026
+ The Features I Thought Were Must-Haves Didn’t Matter
+Before launching my project, I had a long list of features I was sure were must-haves. I was ready to lock myself in for two more months to build them all before anyone saw the app.
+ Looking back, that list wasn't really about users. It was about fear. Every extra feature was another reason to wait, another way to feel "ready."
+ So I launched the app as it was.
+ Turns out, nobody asked about half the features on my list. But people quickly started asking for simple things I'd never even thought of.
+ Here's what that taught me:
+ When you build alone, you're guessing. And most of those guesses are really about you: what you find interesting, what makes you feel safe. Users see your product with fresh eyes, and they'll show you what actually matters.
+ I stopped building to feel ready and started building for real people. I skipped weeks of work nobody needed, and now 300+ users are posting on the app and telling me what to fix next. Every update has a reason behind it.
+ If you're building a feature just because users might need it, ask yourself if you're building it for them or to put off launching. Ship without it. If people really need it, they'll tell you.
+ So, what's one feature you spent time building that nobody ended up using?
+fabienlk
+8 Upvotes
+2 Comments
 November 4, 2026
  Showing My Unfinished App Got Me 300 Users.
 For years, I built my apps in secret. I'd work alone for months, share the link on launch day, and hear nothing. Nobody cared.
@@ -54,7 +85,7 @@ For years, I built my apps in secret. I'd work alone for months, share the link 
  If you're hiding your project until it's perfect, try sharing a quick screenshot or a small struggle today. You might be surprised how many people want to help.
 fabienlk
 6 Upvotes
-6 Comments
+7 Comments
 November 2, 2026
  Still Waiting for Perfection? Launching Unpolished Saved My Project
 I used to be a big perfectionist. I'd spend months coding alone, trying to make every button and feature perfect before showing it to anyone.

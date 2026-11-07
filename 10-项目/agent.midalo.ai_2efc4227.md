@@ -1,8 +1,8 @@
 ---
 type: "project"
-title: "[Midalo 中转站] 满血稳定号池不降智，稳定高质渠道，不截取用户数据，支持 Claude、GPT、Gemini、DeepSeek、grok 等主流模型，欢迎老板和企业团队前来试吃！"
+title: "[满血中转站] 稳定号池不降智，双 11 活动新用户注册送 5$（站点支持 Claude、GPT、Gemini、DeepSeek、grok 等主流模型！）"
 project_url: "https://agent.midalo.ai/"
-first_seen: "2026-11-05T11:26:05+08:00"
+first_seen: "2026-11-07T09:46:49+08:00"
 sources:
   - v2ex
 tags:
@@ -12,14 +12,14 @@ tags:
 lang: "zh"
 ---
 
-# [Midalo 中转站] 满血稳定号池不降智，稳定高质渠道，不截取用户数据，支持 Claude、GPT、Gemini、DeepSeek、grok 等主流模型，欢迎老板和企业团队前来试吃！
+# [满血中转站] 稳定号池不降智，双 11 活动新用户注册送 5$（站点支持 Claude、GPT、Gemini、DeepSeek、grok 等主流模型！）
 
 > [!info] 一句话导读
-> 如果你同时在使用 Claude、GPT、Gemini 等模型，可能遇到过这些问题：每个平台都要单独注册和充值、接口格式不一致、切换模型需要反复修改配置。
+> 站点注册地址： https://agent.midalo.ai/  （一定要用这个地址注册，不然看不到注册 ID，防止后面领不到鸡蛋）
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://agent.midalo.ai/>
-> 首次收录：2026-11-05T11:26:05+08:00
+> 首次收录：2026-11-07T09:46:49+08:00
 > 来源渠道：V2EX
 > 标签：864
 > 最新指标：回复=0
@@ -31,7 +31,8 @@ lang: "zh"
 | 2026-10-29T20:50:17+08:00 | V2EX | 回复=0 | [[20-语料/posts/v2ex/2026-10-29/ce020d1350304db9_Midalo-中转站-一个-Key-调用-Claude、GPT、Gemini、DeepSeek、gr]] |
 | 2026-11-03T09:45:49+08:00 | V2EX | 回复=0 | [[20-语料/posts/v2ex/2026-11-03/157d885e2cc4e375_一个-API-Key-接入-Claude、GPT、Gemini、DeepSeek、grok-等主流模]] |
 | 2026-11-05T11:26:05+08:00 | V2EX | 回复=0 | [[20-语料/posts/v2ex/2026-11-05/b07e36c899863e96_Midalo-中转站-满血稳定号池不降智,稳定高质渠道,不截取用户数据,支持-Claude、GPT、]] |
+| 2026-11-07T09:46:49+08:00 | V2EX | 回复=0 | [[20-语料/posts/v2ex/2026-11-07/c61f47c7dcfd703d_满血中转站-稳定号池不降智,双-11-活动新用户注册送-5$(站点支持-Claude、GPT、Gem]] |
 
 ## 摘要正文
 
-如果你同时在使用 Claude、GPT、Gemini 等模型，可能遇到过这些问题：每个平台都要单独注册和充值、接口格式不一致、切换模型需要反复修改配置。  Midalo 主要解决的就是这些问题：通过一个 API Key 调用多种模型，并兼容多种常用协议，减少重复接入工作。  - 站点注册地址： https://agent.midalo.ai/ （一定要用这个地址注册，不然看不到注册 ID，防止后面领不到鸡蛋） - 本站主打平价，计费透明 - 留下注册 ID 送 2 体验金，加入 QQ 群送 3 体验金，合计 5$，足够完整测试一整天 - Midalo API 官方 QQ 群：1030748124（注册后进群，私信管理员或联系客服发送账户 ID 即可随机领取 2-5$不等额度鸡蛋，24 小时内到账） - 客服 QQ：3809674723 - 微信联系方式：wjn168178 （添加备注来意，B 端老板可加） ![image]( https://imagetourl.im/api/storage/file?key=anon%2F-%2F8206228654462-2806a3de-0e12-48bc-9d91-03c6aac1a2b4-fb22de9cdd9a2449578faab00bb08617.png) --- # 为什么选择 Midalo 中转站？  - 国内直连：无需额外网络工具，接入更省事。   - 一个 Key 调用多模型：更换模型时无需在多个平台之间来回切换。  - 三种协议兼容：支持 OpenAI、Anthropic、Gemini 原生协议，方便接入现有项目。  - 文本、生图、视频一站覆盖：除主流文本模型外，还支持图像及视频生成模型，满足不同创作与应用需求。  - 按量计费，无强制月费：用多少算多少，多线路分组可选，适合个人开发者与团队灵活控制成本。  - 常用工具方便接入：提供 Claude Code、Cursor、Cherry Studio 等客户端配置教程，新手也能快速上手。  - 用量与扣费清晰可查：支持支付宝、微信、USDT 充值，实际消耗可通过控制台日志查看。  - 无论是开发 AI 应用、搭建智能助手，还是使用 Claude Code、Cursor 提升编程效率，Midalo 都能帮你减少重复配置，让模型调用更简单。  --- # Midalo 中转站适合哪些人？  - 需要同时调用多种模型的开发者 - 使用 Claude Code、Cursor 等工具的编程用户 - 正在开发 AI 应用或智能助手的独立开发者 - 需要统一管理团队模型调用与用量的用户 - 有文本、生图、视频等多模态需求的创作者  --- # Midalo 中转站支持模型 - Cl…
+- 站点注册地址： https://agent.midalo.ai/  （一定要用这个地址注册，不然看不到注册 ID，防止后面领不到鸡蛋） - 本站主打平价，计费透明 - 留下注册 ID 送 2 体验金，加入 QQ 群送 3 体验金，合计 5$，足够完整测试一整天 - Midalo API 官方 QQ 群：1030748124 （注册后进群，私信管理员或联系客服发送账户 ID 即可随机领取测试额度鸡蛋，24 小时内到账） - 客服 QQ：3809674723 - 微信联系方式：wjn168178 （添加备注来意，B 端老板可加） ![image]( https://imagetourl.im/api/storage/file?key=anon%2F-%2F8206135140515-4cc3239f-3c2e-4f90-a169-c69fe18abc85-fb22de9cdd9a2449578faab00bb08617.png) ---  # Midalo 中转站支持模型 - claude（全系） - kiro - GPT-Image - GPT-Pro（Codex 线 · gpt-5 / gpt-6 系列文本模型 · 适配 Codex CLI 与编程 IDE · 支持上下文缓存 ） - Gemini-Antigravity - Gemini-CLI - Grok - Deepseek - GLM（grok-4.5） - Kimi（ K2.7 / K2.8 Preview / K3.1） - Kimi-K3（2.8 万亿参数旗舰 · 100 万上下文 · 支持视觉 ） - 视频（Seedance 视频生成，720p · 支持首尾帧与图片、音频、视频参考 · 可生成音频 · 成片 24 小时内下载）  ![image]( https://imagetourl.im/api/storage/file?key=anon%2F-%2F8206134583620-c4b58eec-3210-4df6-9070-f7b84801efaa-0d2faf5a3dfba69fa6499a55ef3f2d8c.png) ---  # Midalo 中转站适合哪些人？  - 需要同时调用多种模型的开发者 - 使用 Claude Code、Cursor 等工具的编程用户 - 正在开发 AI 应用或智能助手的独立开发者 - 需要统一管理团队模型调用与用量的用户 - 有文本、生图、视频等多模态需求的创作者 ![image]( https://imagetourl.im/api/storage/file?key=anon%2F-%2F8206134652078-c63dfae5-630e-4951-8368-f0c89ae…

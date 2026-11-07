@@ -1,0 +1,47 @@
+{
+ "run_id": "backfill-20261107-095431",
+ "kind": "backfill",
+ "queue": 13,
+ "attempted": 13,
+ "filled": 9,
+ "structural_dead": 0,
+ "missed": 4,
+ "miss_reason_codes": {
+  "unreachable": 3,
+  "no_backend": 1
+ },
+ "status_hist": {
+  "timeout": 5,
+  "blocked": 1,
+  "200:too_short": 1,
+  "200": 1
+ },
+ "comments_queue": 284,
+ "comments_filled": 43,
+ "via": [
+  [
+   "gh_readme",
+   5
+  ],
+  [
+   "exa_web_fetch",
+   4
+  ]
+ ],
+ "channels": [
+  [
+   "github_new",
+   5
+  ],
+  [
+   "hn_show",
+   2
+  ],
+  [
+   "v2ex",
+   2
+  ]
+ ],
+ "started": "2026-11-07T09:57:31+08:00",
+ "elapsed_s": 0
+}

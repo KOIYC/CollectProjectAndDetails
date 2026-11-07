@@ -1,29 +1,29 @@
 {
-  "generated": "2026-11-05T11:44:49+08:00",
-  "n_live": 4265,
-  "n_usable": 3759,
-  "n_project": 3315,
-  "signals": 77,
+  "generated": "2026-11-07T10:04:03+08:00",
+  "n_live": 4389,
+  "n_usable": 3874,
+  "n_project": 3413,
+  "signals": 80,
   "topics": [
     [
       "AI 工具/Agent",
-      2340
+      2402
     ],
     [
       "开发者工具",
-      775
+      802
     ],
     [
       "未分类",
-      355
+      373
     ],
     [
       "游戏",
-      95
+      97
     ],
     [
       "移动 App",
-      68
+      73
     ],
     [
       "SaaS/B2B",
@@ -35,7 +35,7 @@
     ],
     [
       "教育/学习",
-      13
+      14
     ],
     [
       "电商/独立站",
@@ -52,6 +52,20 @@
   ],
   "strong": [
     {
+      "key": "host:apps.apple.com",
+      "channels": [
+        "bilibili",
+        "hn_show",
+        "indiehackers",
+        "reddit",
+        "v2ex"
+      ],
+      "n_channels": 5,
+      "title": "Syndiary",
+      "url": "https://apps.apple.com/us/app/syndiary/id6748778069",
+      "metrics": {}
+    },
+    {
       "key": "host:store.steampowered.com",
       "channels": [
         "bilibili",
@@ -66,23 +80,6 @@
         "score": 12,
         "comments": 8,
         "upvote_ratio": 0.93
-      }
-    },
-    {
-      "key": "host:apps.apple.com",
-      "channels": [
-        "bilibili",
-        "hn_show",
-        "reddit",
-        "v2ex"
-      ],
-      "n_channels": 4,
-      "title": "Show HN: I made a Tamagotchi app that lets you add your real-life pets",
-      "url": "https://apps.apple.com/bg/app/boko-tamagotchi-virtual-pet/id6759446145",
-      "metrics": {
-        "points": 2,
-        "comments": 0,
-        "engagement_velocity": 2
       }
     },
     {
@@ -149,6 +146,19 @@
       }
     },
     {
+      "key": "host:v2ex.com",
+      "channels": [
+        "c1c7",
+        "v2ex"
+      ],
+      "n_channels": 2,
+      "title": "如果不上班了，你还能靠什么继续谋生！",
+      "url": "https://www.v2ex.com/t/1254971",
+      "metrics": {
+        "replies": 0
+      }
+    },
+    {
       "key": "host:chatgpt.com",
       "channels": [
         "devto",
@@ -190,8 +200,8 @@
       }
     }
   ],
-  "money_signal_n": 1612,
-  "money_evidence_n": 566,
+  "money_signal_n": 1650,
+  "money_evidence_n": 580,
   "money_quotes": [
     {
       "source": "betalist",
@@ -267,10 +277,10 @@
     }
   ],
   "pain_n": {
-    "当前方案不好用": 132,
-    "在找替代品": 79,
-    "做不出来/卡住": 171,
-    "愿意付钱": 95,
+    "当前方案不好用": 135,
+    "在找替代品": 81,
+    "做不出来/卡住": 173,
+    "愿意付钱": 99,
     "想要而找不到": 18
   },
   "by_channel": [
@@ -284,37 +294,37 @@
     {
       "id": "betalist",
       "profile": "linkpost",
-      "n": 308,
-      "ok": 307,
-      "rate": 0.9967532467532467
+      "n": 319,
+      "ok": 318,
+      "rate": 0.9968652037617555
     },
     {
       "id": "producthunt",
       "profile": "linkpost",
-      "n": 609,
-      "ok": 604,
-      "rate": 0.9917898193760263
+      "n": 639,
+      "ok": 634,
+      "rate": 0.9921752738654147
     },
     {
       "id": "indiehackers",
       "profile": "linkpost",
-      "n": 174,
-      "ok": 170,
-      "rate": 0.9770114942528736
+      "n": 176,
+      "ok": 172,
+      "rate": 0.9772727272727273
     },
     {
       "id": "hn_show",
       "profile": "discussion",
-      "n": 1987,
-      "ok": 1879,
-      "rate": 0.945646703573226
+      "n": 2027,
+      "ok": 1920,
+      "rate": 0.9472126295017267
     },
     {
       "id": "bilibili",
       "profile": "metadata",
-      "n": 77,
-      "ok": 72,
-      "rate": 0.935064935064935
+      "n": 80,
+      "ok": 75,
+      "rate": 0.9375
     },
     {
       "id": "exa_discovery",
@@ -333,9 +343,9 @@
     {
       "id": "v2ex",
       "profile": "discussion",
-      "n": 251,
-      "ok": 178,
-      "rate": 0.7091633466135459
+      "n": 264,
+      "ok": 189,
+      "rate": 0.7159090909090909
     },
     {
       "id": "github_new",
@@ -347,17 +357,17 @@
     {
       "id": "reddit",
       "profile": "discussion",
-      "n": 687,
-      "ok": 423,
-      "rate": 0.6157205240174672
+      "n": 712,
+      "ok": 439,
+      "rate": 0.6165730337078652
     },
     {
       "id": "c1c7",
       "profile": "project",
       "n": 7,
-      "ok": 2,
-      "rate": 0.2857142857142857
+      "ok": 3,
+      "rate": 0.42857142857142855
     }
   ],
-  "body_median": 1711
+  "body_median": 1681.5
 }

@@ -7,7 +7,7 @@ source_name: "V2EX"
 url: "https://www.v2ex.com/t/1254356"
 author: "doujiangjiyaozha"
 published_at: "2026-11-04T03:00:32"
-captured_at: "2026-11-05T11:33:24+08:00"
+captured_at: "2026-11-07T09:55:08+08:00"
 lang: "zh"
 kind: "post"
 topic: 未分类
@@ -34,7 +34,7 @@ discovered_via: "v2ex:副业"
 > 指标：回复=10
 > 作者：doujiangjiyaozha　|　发布：2026-11-04T03:00:32
 > 项目链接：—
-> 采集：2026-11-05T11:33:24+08:00　|　id：`f1df4a0f2c3cbc27`
+> 采集：2026-11-07T09:55:08+08:00　|　id：`f1df4a0f2c3cbc27`
 
 ## 正文
 

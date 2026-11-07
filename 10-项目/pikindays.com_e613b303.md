@@ -2,7 +2,7 @@
 type: "project"
 title: "I built a 3D game about my Nigerian childhood (and I'm not a game developer)"
 project_url: "https://pikindays.com/"
-first_seen: "2026-11-05T11:24:27+08:00"
+first_seen: "2026-11-07T09:46:31+08:00"
 sources:
   - devto
 tags:
@@ -22,10 +22,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://pikindays.com/>
-> 首次收录：2026-11-05T11:24:27+08:00
+> 首次收录：2026-11-07T09:46:31+08:00
 > 来源渠道：dev.to
 > 标签：gamedev, webdev, ai, showdev
-> 最新指标：reactions=33 · 评论=8 · reading_time=9
+> 最新指标：reactions=34 · 评论=8 · reading_time=9
 
 ## 观测历史
 
@@ -33,6 +33,7 @@ lang: "en"
 |---|---|---|---|
 | 2026-11-04T09:54:38+08:00 | dev.to | reactions=31 · 评论=7 · reading_time=9 | [[20-语料/posts/devto/2026-11-04/3e07cf69954aa326_I-built-a-3D-game-about-my-Nigerian-childhood-(and]] |
 | 2026-11-05T11:24:27+08:00 | dev.to | reactions=33 · 评论=8 · reading_time=9 | [[20-语料/posts/devto/2026-11-04/3e07cf69954aa326_I-built-a-3D-game-about-my-Nigerian-childhood-(and]] |
+| 2026-11-07T09:46:31+08:00 | dev.to | reactions=34 · 评论=8 · reading_time=9 | [[20-语料/posts/devto/2026-11-04/3e07cf69954aa326_I-built-a-3D-game-about-my-Nigerian-childhood-(and]] |
 
 ## 摘要正文
 

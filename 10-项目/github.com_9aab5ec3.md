@@ -2,14 +2,14 @@
 type: "project"
 title: "heydamir/unslop"
 project_url: "https://github.com/heydamir/unslop"
-first_seen: "2026-11-05T11:23:44+08:00"
+first_seen: "2026-11-07T09:45:54+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - JavaScript
-  - created:>2026-10-22
+  - created:>2026-10-24
 lang: "en"
 ---
 
@@ -20,10 +20,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/heydamir/unslop>
-> 首次收录：2026-11-05T11:23:44+08:00
+> 首次收录：2026-11-07T09:45:54+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：JavaScript, created:>2026-10-22
-> 最新指标：stars=8760 · forks=435 · open_issues=6
+> 标签：JavaScript, created:>2026-10-24
+> 最新指标：stars=10758 · forks=587 · open_issues=11
 
 ## 观测历史
 
@@ -33,6 +33,7 @@ lang: "en"
 | 2026-11-03T09:43:02+08:00 | GitHub 新星仓库 | stars=6308 · forks=325 · open_issues=1 | [[20-语料/posts/github_new/2026-11-02/9aab5ec375395ca5_heydamir-unslop]] |
 | 2026-11-04T09:53:48+08:00 | GitHub 新星仓库 | stars=7581 · forks=381 · open_issues=2 | [[20-语料/posts/github_new/2026-11-02/9aab5ec375395ca5_heydamir-unslop]] |
 | 2026-11-05T11:23:44+08:00 | GitHub 新星仓库 | stars=8760 · forks=435 · open_issues=6 | [[20-语料/posts/github_new/2026-11-02/9aab5ec375395ca5_heydamir-unslop]] |
+| 2026-11-07T09:45:54+08:00 | GitHub 新星仓库 | stars=10758 · forks=587 · open_issues=11 | [[20-语料/posts/github_new/2026-11-02/9aab5ec375395ca5_heydamir-unslop]] |
 
 ## 摘要正文
 

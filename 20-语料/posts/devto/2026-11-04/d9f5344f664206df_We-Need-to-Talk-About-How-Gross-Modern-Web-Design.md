@@ -8,7 +8,7 @@ url: "https://dev.to/dj29/we-need-to-talk-about-how-gross-modern-web-design-has-
 project_url: "https://github.com/Tarkash-Labs"
 author: "Dhruv Jani"
 published_at: "2026-10-30T11:35:31Z"
-captured_at: "2026-11-05T11:24:27+08:00"
+captured_at: "2026-11-07T09:46:31+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,9 +21,9 @@ tags:
   - showdev
   - webdev
   - gemini
-metrics: {"reactions": 93, "comments": 37, "reading_time": 4}
-comments_count: 37
-comments_total: 37
+metrics: {"reactions": 93, "comments": 38, "reading_time": 4}
+comments_count: 38
+comments_total: 38
 discovered_via: "devto:showdev"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/dj29/we-need-to-talk-about-how-gross-modern-web-design-has-become-and-how-we-built-an-ai-to-catch-it-5gin>
-> 指标：reactions=93 · 评论=37 · reading_time=4
+> 指标：reactions=93 · 评论=38 · reading_time=4
 > 作者：Dhruv Jani　|　发布：2026-10-30T11:35:31Z
 > 项目链接：<https://github.com/Tarkash-Labs>
-> 采集：2026-11-05T11:24:27+08:00　|　id：`d9f5344f664206df`
+> 采集：2026-11-07T09:46:31+08:00　|　id：`d9f5344f664206df`
 
 ## 正文
 
@@ -139,7 +139,7 @@ We are constantly trying to improve the AI's detection capabilities.
 
 Drop it in the comments below so we can train OmniGuard to catch it! 🚀
 
-## 评论（37/37）
+## 评论（38/38）
 
 > **Dhruv Jani** · 2026-10-30T11:38:52Z　
 > One thing that stood out while building OmniGuard was how easily deceptive elements can blend into an otherwise normal-looking webpage.
@@ -379,6 +379,11 @@ Drop it in the comments below so we can train OmniGuard to catch it! 🚀
 
 > **Ingo Steinke, web developer** · 2026-11-04T10:49:42Z　
 > Theoretically, this tool solves the problem at the wrong end, however it's the only end that end-users control. If such guards and blockers become widespread and popular, our industry's stakeholder must eventually adjust their priorities or audiences. Developers can then fix the root cause when they won't be pushed again and again to add misfeatures like obtrusive popovers to every other website and web app.
+
+---
+
+> **Tomasz** · 2026-11-05T20:13:08Z　
+> Hi, how fast is one scan round-trip, and is auto-scan on scroll practical?
 
 ## 关联链接
 

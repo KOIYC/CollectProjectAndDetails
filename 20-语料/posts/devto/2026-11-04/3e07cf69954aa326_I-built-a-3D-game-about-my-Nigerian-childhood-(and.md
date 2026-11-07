@@ -8,7 +8,7 @@ url: "https://dev.to/deborahemeni1/i-built-a-3d-game-about-my-nigerian-childhood
 project_url: "https://pikindays.com/"
 author: "Deborah Emeni"
 published_at: "2026-11-02T13:31:20Z"
-captured_at: "2026-11-05T11:24:27+08:00"
+captured_at: "2026-11-07T09:46:31+08:00"
 lang: "en"
 kind: "post"
 topic: 开发者工具
@@ -21,7 +21,7 @@ tags:
   - webdev
   - ai
   - showdev
-metrics: {"reactions": 33, "comments": 8, "reading_time": 9}
+metrics: {"reactions": 34, "comments": 8, "reading_time": 9}
 comments_count: 8
 comments_total: 8
 discovered_via: "devto:showdev"
@@ -35,10 +35,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/deborahemeni1/i-built-a-3d-game-about-my-nigerian-childhood-and-im-not-a-game-developer-281g>
-> 指标：reactions=33 · 评论=8 · reading_time=9
+> 指标：reactions=34 · 评论=8 · reading_time=9
 > 作者：Deborah Emeni　|　发布：2026-11-02T13:31:20Z
 > 项目链接：<https://pikindays.com/>
-> 采集：2026-11-05T11:24:27+08:00　|　id：`3e07cf69954aa326`
+> 采集：2026-11-07T09:46:31+08:00　|　id：`3e07cf69954aa326`
 
 ## 正文
 

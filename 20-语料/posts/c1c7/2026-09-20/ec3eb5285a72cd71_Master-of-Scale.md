@@ -6,7 +6,7 @@ source: "c1c7"
 source_name: "1c7 中文独立开发者名录"
 url: "https://mastersofscale.com"
 project_url: "https://mastersofscale.com/"
-captured_at: "2026-11-05T11:26:44+08:00"
+captured_at: "2026-11-07T09:47:14+08:00"
 lang: "zh"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "1c7:readme"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://mastersofscale.com/>
-> 采集：2026-11-05T11:26:44+08:00　|　id：`ec3eb5285a72cd71`
+> 采集：2026-11-07T09:47:14+08:00　|　id：`ec3eb5285a72cd71`
 
 ## 正文
 
@@ -44,23 +44,11 @@ Masters of Scale – Home
 
 New episodes every Tuesday & Friday in the Rapid Response podcast feed and YouTube channel.
 
-## How leaders thrive in chaos
+## Demis Hassabis: Society is “not ready” for the AI future
 
- Life With Machines’s Baratunde Thurston
+ Google DeepMind’s Demis Hassabis
 
- Upwork’s Hayden Brown
-
- Autodesk’s Dara Treseder
-
- Watch Duty’s John Mills
-
- Warp Sciences’ DJ Patil
-
- Spicewell’s Raina Kumra Gardiner
-
- Arkenstone’s William Treseder
-
-Bob Safian gathers leaders from across business, tech, and media to figure out how to thrive amid constant change.
+Demis Hassabis joins Reid Hoffman to talk about how to effectively govern frontier AI, why a more diverse group of experts need a seat at the table, and more.
 
 ## Pioneers of AI
 
@@ -78,15 +66,13 @@ Rich Roll’s ‘crash course’ in entrepreneurship
 
 Hipcamp’s Alyssa Ravasio
 
-Building a marketplace from scratch
-
  Don't be boring
 
 Creative Planning’s Jamie Battmer KCRW’s Jennifer Ferro
 
- How to build a billion-dollar sports team
+Autodesk’s Dara Treseder
 
-Golden State Valkyries’s Jess Smith Creative Planning’s Jamie Battmer
+Spicewell’s Raina Kumra Gardiner
 
 # V2EX › 分享创造
 

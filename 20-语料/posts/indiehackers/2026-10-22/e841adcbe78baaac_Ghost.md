@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/ghost"
 project_url: "https://blog.ghost.org/2-0"
-captured_at: "2026-11-05T11:24:10+08:00"
+captured_at: "2026-11-07T09:46:15+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://blog.ghost.org/2-0>
-> 采集：2026-11-05T11:24:10+08:00　|　id：`e841adcbe78baaac`
+> 采集：2026-11-07T09:46:15+08:00　|　id：`e841adcbe78baaac`
 
 ## 正文
 
@@ -43,7 +43,7 @@ Ghost
 Visit Website
 Ghost Indie subscription platform for creators
  Posts 5
- Revenue $863K / mo
+ Revenue $855K / mo
  Website Twitter Facebook
 May 23, 2022
  Ghost 5.0
@@ -64,7 +64,7 @@ I also spent a bit of time in the post above talking about our product strategy 
 Today Ghost is a team of 31 with $5M annual revenue. Still completely open source, still non-profit, still remote, still decentralised, still growing — and still 100% independent.
 John O'Nolan
 54 Upvotes
-13 Comments
+14 Comments
 October 22, 2019
  Ghost 3.0
 Ghost 3.0
@@ -90,7 +90,7 @@ February 23, 2017
  Indie Hackers Interview
 How John O'Nolan Grew His Publishing Platform to $750,000/year
 John S
-2 Upvotes
+3 Upvotes
 1 Comment
 People
  John O'Nolan Creator
