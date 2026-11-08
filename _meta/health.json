@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-07T09:42:52+08:00",
+ "checked_at": "2026-11-08T12:50:10+08:00",
  "channels": [
   {
    "channel_id": "hn_show",
@@ -10,16 +10,16 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 2.1,
-   "probe_at": "2026-11-07T09:40:03+08:00",
+   "elapsed_s": 2.0,
+   "probe_at": "2026-11-08T12:45:58+08:00",
    "sample": [
     {
-     "title": "Show HN: Goethe – The infrastructure for self-hosted AI",
-     "url": "https://news.ycombinator.com/item?id=50400374"
+     "title": "Show HN: Maple – Sub-2-BPW Moe Pruning to Run Gemma 4 26B at 45 TPS on a 6GB GPU",
+     "url": "https://news.ycombinator.com/item?id=50410253"
     },
     {
-     "title": "Show HN: Handbrake – a free, private driving log, no trackers, no ads",
-     "url": "https://news.ycombinator.com/item?id=50399684"
+     "title": "Show HN: Reges Town – a 3D city run by AI citizens, in the browser",
+     "url": "https://news.ycombinator.com/item?id=50410242"
     }
    ]
   },
@@ -32,16 +32,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
-   "elapsed_s": 21.7,
-   "probe_at": "2026-11-07T09:40:25+08:00",
+   "elapsed_s": 21.8,
+   "probe_at": "2026-11-08T12:46:19+08:00",
    "sample": [
     {
-     "title": "stormy night ride in Handlebar",
-     "url": "https://www.reddit.com/r/IndieDev/comments/1xh9hhv/stormy_night_ride_in_handlebar/"
+     "title": "My journey after six months... and my thoughts..",
+     "url": "https://www.reddit.com/r/selfhosted/comments/1xi306l/my_journey_after_six_months_and_my_thoughts/"
     },
     {
-     "title": "Is your vibe coded app making any money?",
-     "url": "https://www.reddit.com/r/SaaS/comments/1xh49dd/is_your_vibe_coded_app_making_any_money/"
+     "title": "My app got $600 revenue in just 18 days of launch.",
+     "url": "https://www.reddit.com/r/SaaS/comments/1xianw4/my_app_got_600_revenue_in_just_18_days_of_launch/"
     }
    ]
   },
@@ -54,16 +54,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 2.4,
-   "probe_at": "2026-11-07T09:40:27+08:00",
+   "elapsed_s": 1.6,
+   "probe_at": "2026-11-08T12:46:21+08:00",
    "sample": [
-    {
-     "title": "deepseek-ai/dsh-superagent-prototype",
-     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
-    },
     {
      "title": "storytold/craft-anything",
      "url": "https://github.com/storytold/craft-anything"
+    },
+    {
+     "title": "deepseek-ai/dsh-superagent-prototype",
+     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
     }
    ]
   },
@@ -76,16 +76,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 startups · 发布日 3/3",
-   "elapsed_s": 9.4,
-   "probe_at": "2026-11-07T09:40:37+08:00",
+   "elapsed_s": 6.6,
+   "probe_at": "2026-11-08T12:46:28+08:00",
    "sample": [
     {
-     "title": "Startupspotting",
-     "url": "https://betalist.com/startups/startupspotting"
+     "title": "Revenue Scout",
+     "url": "https://betalist.com/startups/revenue-scout"
     },
     {
-     "title": "Morse Private Messenger",
-     "url": "https://betalist.com/startups/morse-private-messenger"
+     "title": "Reemo",
+     "url": "https://betalist.com/startups/reemo"
     }
    ]
   },
@@ -98,16 +98,16 @@
    "status": "ok",
    "count": 3,
    "message": "23 products",
-   "elapsed_s": 7.0,
-   "probe_at": "2026-11-07T09:40:44+08:00",
+   "elapsed_s": 19.7,
+   "probe_at": "2026-11-08T12:46:47+08:00",
    "sample": [
     {
-     "title": "Kitedocs",
-     "url": "https://www.indiehackers.com/product/kitedocs"
+     "title": "Mailyond",
+     "url": "https://www.indiehackers.com/product/mailyond"
     },
     {
-     "title": "Citewing",
-     "url": "https://www.indiehackers.com/product/citewing"
+     "title": "Tinymusic",
+     "url": "https://www.indiehackers.com/product/tinymusic"
     }
    ]
   },
@@ -120,8 +120,8 @@
    "status": "ok",
    "count": 3,
    "message": "3 articles",
-   "elapsed_s": 3.7,
-   "probe_at": "2026-11-07T09:40:48+08:00",
+   "elapsed_s": 1.5,
+   "probe_at": "2026-11-08T12:46:49+08:00",
    "sample": [
     {
      "title": "Your DEV posts have a beautiful new share card ✨",
@@ -143,15 +143,15 @@
    "count": 3,
    "message": "3 entries",
    "elapsed_s": 0.9,
-   "probe_at": "2026-11-07T09:40:49+08:00",
+   "probe_at": "2026-11-08T12:46:50+08:00",
    "sample": [
     {
-     "title": "PostMyPace",
-     "url": "https://www.producthunt.com/products/postmypace"
+     "title": "Instagram Edits for Desktop",
+     "url": "https://www.producthunt.com/products/instagram"
     },
     {
-     "title": "Alysis Code",
-     "url": "https://www.producthunt.com/products/alysis-code"
+     "title": "GPT‑6 Cyber",
+     "url": "https://www.producthunt.com/products/openai"
     }
    ]
   },
@@ -164,16 +164,16 @@
    "status": "ok",
    "count": 3,
    "message": "20 topics",
-   "elapsed_s": 0.6,
-   "probe_at": "2026-11-07T09:40:49+08:00",
+   "elapsed_s": 0.5,
+   "probe_at": "2026-11-08T12:46:50+08:00",
    "sample": [
     {
-     "title": "做了个 V2EX 看图插件，截图里的小字终于不用新开标签页看了",
-     "url": "https://www.v2ex.com/t/1255096"
+     "title": "Herdr 的终端界面能把事情做好。Shepi 让你在 Mac 上用得更愉快。",
+     "url": "https://www.v2ex.com/t/1255246"
     },
     {
-     "title": "大麦 API 不对个人开发者开放，于是我自己建了一个 10 万场演出的数据库，欢迎体验极速录入你的演唱会记录，体验送会员",
-     "url": "https://www.v2ex.com/t/1255007"
+     "title": "[Dev-circuit-ultra]-自己做的比 OpenSpec 更少上下文、更少流程、更快交付的开发 loop",
+     "url": "https://www.v2ex.com/t/1255229"
     }
    ]
   },
@@ -183,12 +183,21 @@
    "adapter": "bilibili",
    "auth": "none",
    "group": "中文社媒",
-   "status": "empty",
-   "count": 0,
-   "message": "0 videos",
-   "elapsed_s": 0.2,
-   "probe_at": "2026-11-07T09:40:49+08:00",
-   "sample": []
+   "status": "ok",
+   "count": 3,
+   "message": "7 videos",
+   "elapsed_s": 0.6,
+   "probe_at": "2026-11-08T12:46:51+08:00",
+   "sample": [
+    {
+     "title": "Claude 不肯再帮人抄游戏了，独立开发者还是不敢放试玩",
+     "url": "https://www.bilibili.com/video/BV18p4M6CEmP"
+    },
+    {
+     "title": "一分钱不花，完成独立产品从0上线！2026年独立开发者免费全家桶",
+     "url": "https://www.bilibili.com/video/BV1sFWA6VEgC"
+    }
+   ]
   },
   {
    "channel_id": "c1c7",
@@ -199,8 +208,8 @@
    "status": "ok",
    "count": 3,
    "message": "9 entries · 收录日 9",
-   "elapsed_s": 3.7,
-   "probe_at": "2026-11-07T09:40:53+08:00",
+   "elapsed_s": 3.3,
+   "probe_at": "2026-11-08T12:46:54+08:00",
    "sample": [
     {
      "title": "Indie Hacker",
@@ -221,16 +230,16 @@
    "status": "ok",
    "count": 3,
    "message": "8 results",
-   "elapsed_s": 11.7,
-   "probe_at": "2026-11-07T09:41:05+08:00",
+   "elapsed_s": 11.3,
+   "probe_at": "2026-11-08T12:47:05+08:00",
    "sample": [
     {
-     "title": "\"BATTLEDRIFT is out now on Steam with a 25% launch discount\" - Games Press",
-     "url": "https://www.gamespress.com/BATTLEDRIFT-is-out-now-on-Steam-with-a-25-launch-discount"
+     "title": "PlinkIdle Full Release - PlinkIdle by Black Heart Games, David Frankel, Lauren S",
+     "url": "https://black-heart-games-studio.itch.io/plinkidle/devlog/1761860/plinkidle-full-release"
     },
     {
-     "title": "Solo Developer's SpellChain Tops 2,000 Sales in Its First 24 Hours on Steam | Ga",
-     "url": "https://gamers6.com/indie/solo-developers-spellchain-tops-2000-sales-in-its-first-24-hours-on-steam"
+     "title": "InkQuest: Text adventure editor released on Steam",
+     "url": "https://playingtux.com/en/articles/2026/11/inkquest-text-game-engine-released/"
     }
    ]
   },
@@ -242,9 +251,9 @@
    "group": "海外社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 10s\nok: false\nerr",
-   "elapsed_s": 42.2,
-   "probe_at": "2026-11-07T09:41:47+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 18s\nok: false\nerr",
+   "elapsed_s": 71.1,
+   "probe_at": "2026-11-08T12:48:17+08:00",
    "sample": []
   },
   {
@@ -253,17 +262,12 @@
    "adapter": "opencli_social",
    "auth": "browser",
    "group": "中文社媒",
-   "status": "ok",
-   "count": 1,
-   "message": "1 items（1 路查询）",
-   "elapsed_s": 36.2,
-   "probe_at": "2026-11-07T09:42:23+08:00",
-   "sample": [
-    {
-     "title": "独立开发app上架3个月日活突破4000！",
-     "url": ">-"
-    }
-   ]
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: [rate-limiter] xiaohongshu: sleeping 12s\nok: false\nerror:\n  ",
+   "elapsed_s": 65.9,
+   "probe_at": "2026-11-08T12:49:22+08:00",
+   "sample": []
   }
  ],
  "backends": [
@@ -271,11 +275,11 @@
    "backend": "jina_reader",
    "use": "通用网页正文",
    "status": "unusable",
-   "declared": "ready",
+   "declared": "unverified",
    "delta": false,
-   "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 20.1,
-   "probe_at": "2026-11-07T09:42:45+08:00"
+   "message": "ERR: <urlopen error [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。>",
+   "elapsed_s": 37.3,
+   "probe_at": "2026-11-08T12:50:02+08:00"
   },
   {
    "backend": "arctic_shift",
@@ -284,8 +288,8 @@
    "declared": "not_added",
    "delta": false,
    "message": "5 rows",
-   "elapsed_s": 1.5,
-   "probe_at": "2026-11-07T09:42:47+08:00"
+   "elapsed_s": 2.1,
+   "probe_at": "2026-11-08T12:50:05+08:00"
   },
   {
    "backend": "exa_web_fetch",
@@ -294,26 +298,26 @@
    "declared": "warn",
    "delta": false,
    "message": "1 url 返回正文",
-   "elapsed_s": 3.9,
-   "probe_at": "2026-11-07T09:42:51+08:00"
+   "elapsed_s": 4.3,
+   "probe_at": "2026-11-08T12:50:09+08:00"
   },
   {
    "backend": "github_gh",
    "use": "GitHub 取数 (gh CLI)",
    "status": "ok",
-   "declared": "ready",
+   "declared": "unverified",
    "delta": false,
-   "message": "remaining=4973",
-   "elapsed_s": 0.9,
-   "probe_at": "2026-11-07T09:42:52+08:00"
+   "message": "remaining=4995",
+   "elapsed_s": 1.5,
+   "probe_at": "2026-11-08T12:50:10+08:00"
   }
  ],
  "summary": {
   "total": 13,
   "ok": 11,
-  "empty": 1,
+  "empty": 0,
   "error": 0,
-  "auth": 1
+  "auth": 2
  },
  "decisions": [
   {
@@ -358,8 +362,8 @@
   },
   {
    "channel_id": "bilibili",
-   "action": "watch",
-   "status": "empty"
+   "action": "keep",
+   "status": "ok"
   },
   {
    "channel_id": "c1c7",
@@ -378,13 +382,13 @@
   },
   {
    "channel_id": "xiaohongshu",
-   "action": "keep",
-   "status": "ok"
+   "action": "unlock",
+   "status": "auth"
   }
  ],
  "agent_reach": {
   "ok": true,
-  "checked_at": "2026-11-07T09:42:25+08:00",
+  "checked_at": "2026-11-08T12:49:25+08:00",
   "version": "1.6.0",
   "error": null,
   "platforms": 14

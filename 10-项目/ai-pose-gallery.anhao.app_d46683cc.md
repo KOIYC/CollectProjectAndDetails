@@ -2,14 +2,14 @@
 type: "project"
 title: "anhao/ai-pose-gallery-zh"
 project_url: "https://ai-pose-gallery.anhao.app/"
-first_seen: "2026-11-07T09:45:54+08:00"
+first_seen: "2026-11-08T12:53:14+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - TypeScript
-  - created:>2026-10-24
+  - created:>2026-10-25
 lang: "en"
 ---
 
@@ -20,10 +20,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://ai-pose-gallery.anhao.app/>
-> 首次收录：2026-11-07T09:45:54+08:00
+> 首次收录：2026-11-08T12:53:14+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：TypeScript, created:>2026-10-24
-> 最新指标：stars=6258 · forks=1592 · open_issues=14
+> 标签：TypeScript, created:>2026-10-25
+> 最新指标：stars=6383 · forks=1615 · open_issues=14
 
 ## 观测历史
 
@@ -33,6 +33,7 @@ lang: "en"
 | 2026-11-02T09:40:41+08:00 | GitHub 新星仓库 | stars=5151 · forks=1318 · open_issues=14 | [[20-语料/posts/github_new/2026-11-01/7c38bcc0e238bfb7_anhao-ai-pose-gallery-zh]] |
 | 2026-11-03T09:43:02+08:00 | GitHub 新星仓库 | stars=5501 · forks=1396 · open_issues=12 | [[20-语料/posts/github_new/2026-11-01/7c38bcc0e238bfb7_anhao-ai-pose-gallery-zh]] |
 | 2026-11-07T09:45:54+08:00 | GitHub 新星仓库 | stars=6258 · forks=1592 · open_issues=14 | [[20-语料/posts/github_new/2026-11-01/7c38bcc0e238bfb7_anhao-ai-pose-gallery-zh]] |
+| 2026-11-08T12:53:14+08:00 | GitHub 新星仓库 | stars=6383 · forks=1615 · open_issues=14 | [[20-语料/posts/github_new/2026-11-01/7c38bcc0e238bfb7_anhao-ai-pose-gallery-zh]] |
 
 ## 摘要正文
 

@@ -8,7 +8,7 @@ url: "https://dev.to/deborahemeni1/i-built-a-3d-game-about-my-nigerian-childhood
 project_url: "https://pikindays.com/"
 author: "Deborah Emeni"
 published_at: "2026-11-02T13:31:20Z"
-captured_at: "2026-11-07T09:46:31+08:00"
+captured_at: "2026-11-08T12:54:34+08:00"
 lang: "en"
 kind: "post"
 topic: 开发者工具
@@ -21,9 +21,9 @@ tags:
   - webdev
   - ai
   - showdev
-metrics: {"reactions": 34, "comments": 8, "reading_time": 9}
-comments_count: 8
-comments_total: 8
+metrics: {"reactions": 35, "comments": 9, "reading_time": 9}
+comments_count: 9
+comments_total: 9
 discovered_via: "devto:showdev"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/deborahemeni1/i-built-a-3d-game-about-my-nigerian-childhood-and-im-not-a-game-developer-281g>
-> 指标：reactions=34 · 评论=8 · reading_time=9
+> 指标：reactions=35 · 评论=9 · reading_time=9
 > 作者：Deborah Emeni　|　发布：2026-11-02T13:31:20Z
 > 项目链接：<https://pikindays.com/>
-> 采集：2026-11-07T09:46:31+08:00　|　id：`3e07cf69954aa326`
+> 采集：2026-11-08T12:54:34+08:00　|　id：`3e07cf69954aa326`
 
 ## 正文
 
@@ -221,7 +221,7 @@ It's been a busy few weeks, so I'm taking a short break before the next update. 
 
 And tell me in the comments: **what's the most nostalgic thing you remember from your childhood errands?** Mine is the walk home, counting the change three times, praying the seller didn't cheat me. 😅
 
-## 评论（8/8）
+## 评论（9/9）
 
 > **Emiliano White** · 2026-11-02T13:33:31Z　
 > the trust rating at the end is a great touch, turns a simple errand loop into something you actually want to replay. nice that you shipped it as a free browser game too, zero friction to try.
@@ -276,6 +276,11 @@ And tell me in the comments: **what's the most nostalgic thing you remember from
 
 > **Luke McNeel-Caird** · 2026-11-04T21:15:17Z　
 > Love that you built a game around a specific personal memory. That specificity is what makes small games stick with people, way more than polish does. As someone also building a game solo, I'd be curious what was hardest to get feeling right: the controls, the camera, or getting the tone of the memory across. Thanks for writing it up so openly.
+
+---
+
+> **Enoch Hou** · 2026-11-07T06:52:43Z　
+> This is such a lovely idea — building a game from a specific childhood memory makes it feel so much more alive than a generic setting. The trust rating from Mama is a brilliant touch. Congrats on the launch!
 
 ## 关联链接
 

@@ -1,7 +1,7 @@
 ---
 type: "report"
 title: "agent-reach 体检"
-updated: "2026-11-07T09:42:25+08:00"
+updated: "2026-11-08T12:49:25+08:00"
 tags:
   - 报告
   - 渠道
@@ -10,24 +10,24 @@ tags:
 
 # agent-reach 体检
 
-> 检查时间 2026-11-07T09:42:25+08:00 · agent-reach 1.6.0 · 由 `agent-reach doctor`（默认输出 JSON）生成
+> 检查时间 2026-11-08T12:49:25+08:00 · agent-reach 1.6.0 · 由 `agent-reach doctor`（默认输出 JSON）生成
 
 | 平台 | | 状态 | 激活后端 | 说明 |
 |---|---|---|---|---|
-| GitHub 仓库和代码 | ✅ | ready | `—` |  |
+| GitHub 仓库和代码 | ⚠️ | unverified | `—` | agent-reach check github |
 | Twitter/X 推文 | ❌ | not_added | `—` | agent-reach add twitter |
-| YouTube 视频和字幕 | ⚠️ | broken | `—` | live check failed: read, search, subtitle |
+| YouTube 视频和字幕 | ⚠️ | unverified | `—` | agent-reach check youtube |
 | Reddit 帖子和评论 | ❌ | not_added | `—` | agent-reach add reddit |
 | Facebook 帖子、主页和群组 | ❌ | not_added | `—` | agent-reach add facebook |
 | Instagram 用户、主页和指定用户帖子 | ❌ | not_added | `—` | agent-reach add instagram |
-| B站视频、字幕和搜索 | ⚠️ | needs_login | `—` | needs login for: subtitle |
-| 小红书笔记 | ✅ | ready | `—` |  |
+| B站视频、字幕和搜索 | ⚠️ | unverified | `—` | agent-reach check bilibili |
+| 小红书笔记 | ⚠️ | unverified | `—` | agent-reach check xiaohongshu |
 | LinkedIn 职业社交 | ❌ | not_added | `—` | agent-reach add linkedin |
 | boss | ❌ | not_added | `—` | agent-reach add boss |
-| V2EX 节点、主题与回复 | ⚠️ | broken | `—` | live check failed: hot, node, read, user |
+| V2EX 节点、主题与回复 | ⚠️ | unverified | `—` | agent-reach check v2ex |
 | 雪球股票行情与社区动态 | ❌ | not_added | `—` | agent-reach add xueqiu |
 | 小宇宙播客转文字 | ❌ | not_added | `—` | agent-reach add xiaoyuzhou |
-| 任意网页 | ✅ | ready | `—` |  |
+| 任意网页 | ⚠️ | unverified | `—` | agent-reach check web |
 
 ## 与 KB 渠道的对应关系
 

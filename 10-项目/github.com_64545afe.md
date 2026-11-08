@@ -2,7 +2,7 @@
 type: "project"
 title: "s87343472/backlink-pilot"
 project_url: "https://github.com/s87343472/backlink-pilot"
-first_seen: "2026-11-07T09:55:08+08:00"
+first_seen: "2026-11-08T12:53:18+08:00"
 sources:
   - github_new
 tags:
@@ -15,14 +15,14 @@ lang: "en"
 # s87343472/backlink-pilot
 
 > [!info] 一句话导读
-> An AI Agent playbook for paced directory and list backlinks: free / free-queue by default, treat reciprocal links, badges, and ownership checks as configurable …
+> Automated backlink submission toolkit for indie hackers — submit your product to directory sites, awesome-lists, and search engines with one command
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/s87343472/backlink-pilot>
-> 首次收录：2026-11-07T09:55:08+08:00
+> 首次收录：2026-11-08T12:53:18+08:00
 > 来源渠道：GitHub 新星仓库
 > 标签：topic:indie-hacker
-> 最新指标：stars=427 · forks=111 · open_issues=0
+> 最新指标：stars=427 · forks=112 · open_issues=0
 
 ## 观测历史
 
@@ -79,7 +79,8 @@ lang: "en"
 | 2026-11-05T11:33:24+08:00 | GitHub 新星仓库 | stars=424 · forks=111 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/64545afe8d3be4ae_s87343472-backlink-pilot]] |
 | 2026-11-07T09:45:55+08:00 | GitHub 新星仓库 | stars=427 · forks=111 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/64545afe8d3be4ae_s87343472-backlink-pilot]] |
 | 2026-11-07T09:55:08+08:00 | GitHub 新星仓库 | stars=427 · forks=111 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/64545afe8d3be4ae_s87343472-backlink-pilot]] |
+| 2026-11-08T12:53:18+08:00 | GitHub 新星仓库 | stars=427 · forks=112 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/64545afe8d3be4ae_s87343472-backlink-pilot]] |
 
 ## 摘要正文
 
-# Backlink Pilot v3  An AI Agent playbook for paced directory and list backlinks: free / free-queue by default, treat reciprocal links, badges, and ownership checks as configurable costs, and grow a reusable site library.  [中文](README.zh.md) · [Docs home](docs/index.md) · [Full guide](docs/guide.md) · Agent runbook [`AGENTS.md`](AGENTS.md) · Legacy CLI branch [`old`](https://github.com/s87343472/backlink-pilot/tree/old) (v2.1)  ---  ## What it is  **Backlink Pilot** is an **AI Agent playbook** (Grok Bot and others) for directory / list outreach — not a black-box “submit hundreds in one command” script.  | Version | Contents | |---------|----------| | **v3 (this branch `main`)** | Strategy tiers, daily caps, email loop, `/links`, library ledger, risk notes; human README + agent runbook [`AGENTS.md`](AGENTS.md) | | **v2.1 (branch [`old`](https://github.com/s87343472/backlink-pilot/tree/old))** | Legacy CLI: OpenClaw / Claude Code / bb-browser / Playwright toolkit |  **In the repo:** method docs, empty templates (product card with media fields, library CSV, `/links` example, [assets](docs/assets.md) checklist), historical `targets.yaml` (**unmaintained**). **Not in the repo:** runnabl…
+Automated backlink submission toolkit for indie hackers — submit your product to directory sites, awesome-lists, and search engines with one command

@@ -8,7 +8,7 @@ url: "https://github.com/anhao/ai-pose-gallery-zh"
 project_url: "https://ai-pose-gallery.anhao.app/"
 author: "anhao"
 published_at: "2026-10-27T12:24:37Z"
-captured_at: "2026-11-07T09:45:54+08:00"
+captured_at: "2026-11-08T12:53:14+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - TypeScript
-  - created:>2026-10-24
-metrics: {"stars": 6258, "forks": 1592, "open_issues": 14}
+  - created:>2026-10-25
+metrics: {"stars": 6383, "forks": 1615, "open_issues": 14}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/anhao/ai-pose-gallery-zh>
-> 指标：stars=6258 · forks=1592 · open_issues=14
+> 指标：stars=6383 · forks=1615 · open_issues=14
 > 作者：anhao　|　发布：2026-10-27T12:24:37Z
 > 项目链接：<https://ai-pose-gallery.anhao.app/>
-> 采集：2026-11-07T09:45:54+08:00　|　id：`7c38bcc0e238bfb7`
+> 采集：2026-11-08T12:53:14+08:00　|　id：`7c38bcc0e238bfb7`
 
 ## 正文
 

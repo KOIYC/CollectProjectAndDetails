@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-08T13:47:30+08:00",
+  "kind": "renamed_link",
+  "note": "语料页改名后悬空链接的改写（旧页已删，按 seen.note 反算规范名）",
+  "pairs": [
+    {
+      "from": "5849db5c215c04d6_Answers-by-Context",
+      "to": "20-语料/posts/producthunt/2026-09-21/5849db5c215c04d6_Trace-by-Context.dev"
+    },
+    {
+      "from": "c70e9f4491128cb4_GPT-6",
+      "to": "20-语料/posts/producthunt/2026-09-28/c70e9f4491128cb4_GPT‐6-Cyber"
+    }
+  ]
+}

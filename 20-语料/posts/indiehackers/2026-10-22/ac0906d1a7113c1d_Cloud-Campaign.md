@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/cloud-campaign"
 project_url: "https://angel.co/company/cloudcampaign/jobs/898766-fullstack-software-engineer"
-captured_at: "2026-11-07T09:46:15+08:00"
+captured_at: "2026-11-08T12:54:09+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://angel.co/company/cloudcampaign/jobs/898766-fullstack-software-engineer>
-> 采集：2026-11-07T09:46:15+08:00　|　id：`ac0906d1a7113c1d`
+> 采集：2026-11-08T12:54:09+08:00　|　id：`ac0906d1a7113c1d`
 
 ## 正文
 
@@ -43,7 +43,7 @@ Cloud Campaign
 Visit Website
 Cloud Campaign Social media marketing software for digital agencies.
  Posts 60+
- Revenue $377K / mo
+ Revenue $371K / mo
  Website Twitter Facebook
 June 9, 2023
  AI Generated Social Media Captions
