@@ -8,7 +8,7 @@ url: "https://dev.to/gramli/i-vibe-coded-my-way-out-of-angular-upgrades-4fkh"
 project_url: "https://angular.dev/update-guide"
 author: "Daniel Balcarek"
 published_at: "2026-10-15T07:10:18Z"
-captured_at: "2026-11-07T09:55:45+08:00"
+captured_at: "2026-11-09T09:56:33+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -22,7 +22,7 @@ tags:
   - angular
   - showdev
 metrics: {"reactions": 92, "comments": 64, "reading_time": 3}
-comments_count: 60
+comments_count: 61
 comments_total: 64
 discovered_via: "devto:showdev"
 ---
@@ -38,7 +38,7 @@ discovered_via: "devto:showdev"
 > 指标：reactions=92 · 评论=64 · reading_time=3
 > 作者：Daniel Balcarek　|　发布：2026-10-15T07:10:18Z
 > 项目链接：<https://angular.dev/update-guide>
-> 采集：2026-11-07T09:55:45+08:00　|　id：`8237951271bb0076`
+> 采集：2026-11-09T09:56:33+08:00　|　id：`8237951271bb0076`
 
 ## 正文
 
@@ -116,7 +116,7 @@ I wanted to share this with the community because it might help someone else. If
 
 **[Angular Update Skill on GitHub](https://github.com/Gramli/Gramli.Framework/tree/main/src/angular-skills/angular-update)**
 
-## 评论（60/64）
+## 评论（61/64）
 
 > **Sylwia Laskowska** · 2026-10-15T07:42:48Z　
 > Oh, this is something I should probably send to the team maintaining the Angular component library we're forced to use! 😂 Upgrading Angular itself is already a pain in the ass, but upgrading that library is a whole new level of nightmare! I swear, sometimes I think they assume nobody ever upgrades it, because they make changes like renaming (close) to (closeDialog) between versions, only to rename it back to (close) in the next one. 😂 So yeah, let them give it a try and burn some tokens! 😁
@@ -507,6 +507,19 @@ I wanted to share this with the community because it might help someone else. If
 > Ah, I see what you mean now. The skill already checks the project's Node/npm requirements, but making version mismatches an explicit preflight failure with a clear error message is a good point.
 >
 > Thanks for clarifying!
+
+---
+
+> **Benjamin A.** · 2026-11-08T10:04:49Z　
+> Hi Daniel,
+>
+> I'm Benjamin, I run Stremit (stremit.io), a community where people find, build and run AI tools. You mentioned the difficulty of maintaining open-source projects when dealing with complex framework upgrades like Angular.
+>
+> Becoming a founding creator would give your profile visibility among early adopters who might relate to these kinds of difficult technical maintenance cycles.
+>
+> stremit.io
+>
+> — Benjamin, Stremit
 
 ## 关联链接
 

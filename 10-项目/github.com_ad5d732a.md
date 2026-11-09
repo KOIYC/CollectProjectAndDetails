@@ -2,7 +2,7 @@
 type: "project"
 title: "Day 28 of Building Crowdwide — More Personalization, Bug Fixes & Still Looking for a Brand Ambassador!"
 project_url: "https://github.com/DeveloperPuneet/Crowdwide"
-first_seen: "2026-11-08T13:49:25+08:00"
+first_seen: "2026-11-09T09:56:43+08:00"
 sources:
   - devto
 tags:
@@ -22,7 +22,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/DeveloperPuneet/Crowdwide>
-> 首次收录：2026-11-08T13:49:25+08:00
+> 首次收录：2026-11-09T09:56:43+08:00
 > 来源渠道：dev.to
 > 标签：webdev, discuss, buildinpublic, opensource
 > 最新指标：reactions=40 · 评论=71 · reading_time=2
@@ -59,6 +59,7 @@ lang: "en"
 | 2026-11-07T09:55:53+08:00 | dev.to | reactions=40 · 评论=71 · reading_time=2 | [[20-语料/posts/devto/2026-11-03/4a76cd824b9f1683_Day-28-of-Building-Crowdwide-—-More-Personalizatio]] |
 | 2026-11-08T12:54:40+08:00 | dev.to | reactions=37 · 评论=51 · reading_time=2 | [[20-语料/posts/devto/2026-11-01/163a83be38899bd6_Day-25–26-of-Building-Crowdwide-—-Making-the-UI-Mi]] |
 | 2026-11-08T13:49:25+08:00 | dev.to | reactions=40 · 评论=71 · reading_time=2 | [[20-语料/posts/devto/2026-11-03/4a76cd824b9f1683_Day-28-of-Building-Crowdwide-—-More-Personalizatio]] |
+| 2026-11-09T09:56:43+08:00 | dev.to | reactions=40 · 评论=71 · reading_time=2 | [[20-语料/posts/devto/2026-11-03/4a76cd824b9f1683_Day-28-of-Building-Crowdwide-—-More-Personalizatio]] |
 
 ## 摘要正文
 

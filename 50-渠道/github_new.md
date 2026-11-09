@@ -7,7 +7,7 @@ adapter: "github_new"
 auth: "cli"
 lang: "en"
 status: "ok"
-last_verified: "2026-11-08"
+last_verified: "2026-11-09"
 tags:
   - 渠道
   - 渠道/海外发布
@@ -19,7 +19,7 @@ params: {"window_days": 14, "min_stars": 20, "queries": ["created:>{since} stars
 - **分组**：海外发布　|　**语言**：en　|　**认证**：cli
 - **取数实现**：`github_new`　|　**单次上限**：30
 - **补全类型**：readme
-- **当前状态**：`ok`（本次 11 条，15.3s）
+- **当前状态**：`ok`（本次 11 条，18.8s）
 - **口径备注**：gh CLI（api.github.com 可达）；README 用 gh api .../readme 取全文
 - **解锁方式**：—
 
@@ -27,7 +27,6 @@ params: {"window_days": 14, "min_stars": 20, "queries": ["created:>{since} stars
 
 | 时间 | 状态 | 条数 | 耗时 | 消息 |
 |---|---|---|---|---|
-| 2026-09-20T03:30:14+08:00 | ok | 28 | 12.1s | 28 repos;  |
 | 2026-09-20T03:40:12+08:00 | ok | 28 | 14.0s | 28 repos;  |
 | 2026-09-20T09:24:19+08:00 | ok | 58 | 19.5s | 261 repos;  |
 | 2026-09-20T09:49:22+08:00 | ok | 10 | 11.8s | 28 repos;  |
@@ -67,3 +66,4 @@ params: {"window_days": 14, "min_stars": 20, "queries": ["created:>{since} stars
 | 2026-11-05T11:23:55+08:00 | ok | 10 | 13.6s | 28 repos;  |
 | 2026-11-07T09:46:02+08:00 | ok | 11 | 10.7s | 28 repos;  |
 | 2026-11-08T12:53:28+08:00 | ok | 11 | 15.3s | 28 repos;  |
+| 2026-11-09T09:42:45+08:00 | ok | 11 | 18.8s | 28 repos;  |

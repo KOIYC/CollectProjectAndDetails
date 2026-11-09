@@ -1,0 +1,513 @@
+---
+type: "corpus"
+item_id: "343053d768e1d807"
+title: "Show HN: Joggo – a self-hosted GitHub Actions runner for the Windows PC you use"
+source: "hn_show"
+source_name: "HN Show HN"
+url: "https://news.ycombinator.com/item?id=50413876"
+project_url: "https://github.com/telluric-dev/joggo"
+author: "AmirCat"
+published_at: "2026-11-08T14:59:45Z"
+captured_at: "2026-11-09T09:39:29+08:00"
+lang: "en"
+kind: "post"
+topic: "AI 工具/Agent"
+shard: "2026-11-09"
+pub_day: "2026-11-08"
+tags:
+  - 语料
+  - hn_show
+  - author_AmirCat
+  - story_50413876
+  - show_hn
+metrics: {"points": 2, "comments": 1, "engagement_velocity": 2}
+comments_count: 1
+comments_total: 1
+discovered_via: "hn:show_hn:3d"
+---
+
+# Show HN: Joggo – a self-hosted GitHub Actions runner for the Windows PC you use
+
+> [!info] 一句话导读
+> License: MIT License
+
+> [!meta]- 语料信息（点开展开）
+> 来源：HN Show HN（post）
+> 原帖：<https://news.ycombinator.com/item?id=50413876>
+> 指标：点赞=2 · 评论=1 · engagement_velocity=2
+> 作者：AmirCat　|　发布：2026-11-08T14:59:45Z
+> 项目链接：<https://github.com/telluric-dev/joggo>
+> 采集：2026-11-09T09:39:29+08:00　|　id：`343053d768e1d807`
+
+## 正文
+
+# telluric-dev/joggo
+
+- Stars: 1
+- Forks: 0
+- Watchers: 1
+- Open issues: 0
+- License: MIT License
+- Default branch: main
+- Created: 2026-10-28T07:08:46Z
+
+## Languages
+
+- Dockerfile
+- PowerShell
+- Shell
+
+## Topics
+
+- claude-code-plugin
+- github-actions
+- homelab
+- self-hosted-runner
+- wsl2
+
+## Top Contributors
+
+- mindflyerio (6 contributions)
+
+---
+
+## README
+
+A self-hosted GitHub Actions runner built to run for weeks on a machine someone is
+also using.
+
+Not a Kubernetes operator, not an autoscaler, not a fleet. One ordinary Windows PC
+with 16 GB of RAM and WSL2, taking production builds since June 2026: one runner at
+first, containerised runner slots since September, two of them from the end of September
+and three since late October. Through clock drift, power loss, Windows Update reboots,
+memory exhaustion down to 445 MB available, and a Docker daemon that occasionally stops
+answering.
+
+The code is maybe half of it. The other half is the comments: most files carry the
+failure that produced them, what was measured, and what was tried and did not work.
+That is deliberate. **`docs/memory-pressure.md` is the
+single most useful page here** even if you never run any of this.
+
+> **If you are an AI agent operating this box**, skip to
+> For agents. It has the invariants, the paths, the
+> safe/destructive command split, and the failure-mode discriminators in one place.
+
+---
+
+## Problems this solves
+
+If you landed here from an error message, these are the ones joggo has a measured cause
+and a working fix for. Each link goes to the write-up, whether or not you use joggo.
+
+| You see | What it actually was |
+|---|---|
+| `i/o timeout` on `127.0.0.11:53`, `ENOTFOUND`, `Could not resolve host`, green on re-run | One lost DNS packet waiting out glibc's 5 s retry. docs/dns-packet-loss.md |
+| `The token expired on …`, then `The runner registration has been deleted from the server` | WSL2's clock froze while the PC slept, so every OAuth token looked expired. docs/wsl2-clock-drift.md |
+| Jobs queued forever, runner `active`, log silent, 0% CPU | A listener hung inside its token refresh. docs/recovery.md §3 |
+| `The job was not acquired by Runner of type self-hosted even after multiple attempts` | GitHub's acquisition timeout racing the runner's restart between jobs. docs/memory-pressure.md §8 |
+| `The self-hosted runner lost communication with the server` after a Windows Update | The reboot killed the job; joggo re-runs it. docs/operations.md |
+| The PC runs out of memory and builds die, with no obvious culprit | Usually not the runner: a terminal emulator grew to 6 GB here. docs/memory-pressure.md |
+
+---
+
+## Why bother: the Actions bill
+
+GitHub-hosted minutes are metered. Private repositories get a monthly allowance and
+then bill per minute, and the rate is multiplied by the runner: Linux is the cheapest,
+Windows costs several times more per minute, macOS more again. Check your own numbers at
+**Settings → Billing → Plans and usage** — that page tells you what you are actually
+spending, and whether any of this is worth your evening.
+
+**Minutes on a runner you own are not metered at all.** You pay electricity and the
+hardware you already bought. For a handful of repositories that rebuild a Docker image
+on every push to `main`, that is usually where the bill is, and moving it to a desktop
+that is idle most of the day removes it.
+
+What this does **not** save, so the sums are honest:
+
+- **Package storage and data transfer** are billed separately and are unaffected — you
+ are still pushing images to GHCR.
+- **Jobs that must stay hosted** keep costing what they cost. Anything needing
+ `windows-latest` or `macos-latest` cannot move here; this is linux/amd64 only.
+- **A monitor that watches your production service should not run on the box it shares
+ resources with** — it will go red because the runner was busy, which is
+ indistinguishable from the service being down. Leave that hosted.
+
+And what it costs you instead:
+
+- **The machine must stay on.** An asleep runner is a CI outage for every repository
+ pointed at it.
+- **It is slower per job, not faster.** Each job here pays 83–108 s of container rebuild
+ at the handoff — measured, see Known limits. You are buying
+ money back, not wall-clock.
+- **You now own a security boundary.** A self-hosted runner executes whatever the
+ allowed repositories tell it to, on your hardware, inside your network. Read
+ `SECURITY.md` before the first install, not after.
+
+---
+
+## What you get
+
+```
+install.ps1 The installer: wizard for a human, flags for an agent, `-PreflightOnly` to
+install/    check the box without touching it. WSL2 on Windows is the only target.
+              CONTRACT.md                  config keys, flags, steps, exit codes
+
+slots/      Two containerised runner slots. Each is a runner container plus its own
+            Docker daemon, on its own network, with a throwaway work volume.
+            run.sh --once per job, so no job ever sees another's workspace.
+              run-containerized-slot.sh    the launcher (read its header first)
+              add-slot.sh                  add slot N
+              slot-pause.sh                drain/hold a slot without killing its job
+              slots-status.sh              one-line state of every slot
+              dind-image/                  the per-slot Docker-in-Docker image
+              systemd/joggo-slot@.service  the template unit
+
+guard/      Memory guard. Samples every 5 min and escalates: drop the VM page cache,
+            then HOLD the slots so no NEW job starts while running jobs finish, then
+            restart the VM only if the slots are idle.
+              wsl-mem-guard.ps1            the guard
+              mem-watch.ps1                the 5-minute sampler + snapshots
+
+watchdog/   The three failure modes that actually took this runner down, each with a
+            self-heal: a frozen clock that invalidates every OAuth token, a listener
+            that hangs alive at 0% CPU, and a Windows Update reboot that kills an
+            in-flight job.
+              runner-watchdog.sh           wedge detector (65-min threshold; see docs)
+              rerun-after-reboot.sh        re-dispatches jobs killed by a reboot
+              take-restore-point.sh        ~450 MB rollback point before upgrades
+
+monitor/    deploy-monitor.ps1   WPF monitor that reconstructs deploys from the
+                                 runner's own journal. No GitHub token needed.
+            day-report.ps1       daily "what failed, and why" page
+
+network/    filter-aaaa.conf     dnsmasq drop-in for hosts that advertise AAAA
+                                 records they cannot route (see Known limits)
+
+tailscale/  acl.hujson           default-deny tailnet policy; admin devices, SSH only.
+                                 OPTIONAL — only for managing a headless box remotely.
+
+.github/    build-and-push.yml   reusable workflow_call image build (buildx → GHCR)
+            node-test.yml        reusable containerised Node test job, with a
+                                 no-host-port Postgres service
+```
+
+---
+
+## Setup
+
+**`docs/quickstart.md`** — shortest real path from nothing to a
+green build. **Windows 10 2004+ or 11 with WSL2 is the only supported target**: every
+Windows-side tool here (guard, sampler, monitor, day report) talks to the WSL VM from
+the host, so there is no native-Linux or VM path.
+
+```powershell
+./install.ps1 -PreflightOnly                     # checks everything, changes nothing
+./install.ps1 -Wizard                            # a human
+./install.ps1 -NonInteractive -Json -Yes -Scope repo -Repo me/my-app -Token $env:JOGGO_TOKEN
+```
+
+`-Scope repo` is the **personal-account** path and is fully supported: runner groups are
+an organisation-only feature, so a personal account registers the runner per repository
+instead. `-Scope org -Org ` is the organisation path. Slots and the memory guard's
+thresholds scale with RAM — 1 slot under 12 GB, 2 for 12–32 GB, 3 above; guard warn at
+15% of RAM and critical at 7.5%, which is the measured 2500/1200 MB on a 16 GB box. The
+honest floor is 8 GB. Tailscale is **optional** and only for remote management of a
+headless box. Exit codes: `0` success, `1` failure, `2` bad usage, `3` preflight failed.
+
+**The registration token is short-lived (~1 hour) and must never be committed or
+stored.** Minting it is deliberately a human step — `SECURITY.md` and
+`docs/recovery.md` §5 explain why automating it is left undone.
+
+**The runner group — or, on a personal account, the set of repositories you registered
+to — is the actual security boundary.** On an org, `Settings → Actions → Runner groups`:
+
+```
+Allow public repositories     MUST stay unchecked
+Repository access             private repos only, chosen explicitly
+Fork PR workflows             require approval for outside collaborators
+```
+
+**A self-hosted runner executes whatever the allowed repositories tell it to, on your
+hardware, inside your network.** That list of repositories is the whole threat model.
+
+To understand or deviate from any step, the long-form reference is
+**`docs/runner-setup.md`**; to add a slot by hand,
+`docs/adding-a-slot.md`. Neither pins a runner version: take
+the current release, and the slot launcher resolves the installed runner's
+version-stamped `bin`/`externals` symlinks at start rather than hardcoding a path.
+
+### Then point a repository at it
+
+Full runbook: **`docs/onboarding-a-repo.md`**. The fast
+path calls the reusable workflow, which keeps a consuming repo to a few lines:
+
+```yaml
+# .github/workflows/ci.yml in YOUR project repo
+name: CI
+on:
+  push:
+    branches: [main]
+    paths: ['apps/**', 'packages/**', 'Dockerfile', 'package.json']
+  workflow_dispatch:
+
+jobs:
+  build:
+    uses: <your-org>/joggo/.github/workflows/build-and-push.yml@main
+    with:
+      image-name: my-service        # defaults to the repo name
+      context: .
+      dockerfile: ./Dockerfile
+      # publish-latest: false       # see the sharp edge below
+    permissions:
+      contents: read
+      packages: write               # REQUIRED for the job's GITHUB_TOKEN to push to GHCR
+```
+
+That is all. The reusable workflow already sets
+`runs-on: [self-hosted, linux, x64, joggo]`, logs into GHCR with the job's own
+`GITHUB_TOKEN`, and tags the image.
+
+**One sharp edge, worth reading before you rely on `:latest`.**
+`build-and-push.yml` appends `:latest` itself, gated on `enable={{is_default_branch}}`.
+Two consequences:
+
+- If your repo publishes **several** images and anything downstream keys off `:latest`,
+ pass `publish-latest: false` and retag deliberately once every image for the commit
+ exists. Otherwise the `:latest` pushes race each other.
+- If your **deploy branch is not your default branch**, that gate never fires and
+ `:latest` silently freezes. Check before trusting it:
+
+  ```bash
+  gh api repos/<owner>/<repo> --jq .default_branch    # vs the branch in your `on:`
+  ```
+
+ Equal → a separate retag job is redundant. Different → that retag job is the *only*
+ thing publishing `:latest`, and deleting it breaks your deploys.
+
+---
+
+## Operating it
+
+```bash
+slots/slots-status.sh                       # what every slot is doing
+slots/slot-pause.sh status --slot 1         # one slot, in detail
+slots/slot-pause.sh pause  --slot 1 "why"   # drain: no NEW jobs; running job finishes
+slots/slot-pause.sh resume --slot 1         # take jobs again
+pwsh guard/wsl-mem-guard.ps1 -DryRun        # what the guard would do, changing nothing
+```
+
+Day to day: **`docs/operations.md`**.
+When it stops taking jobs: **`docs/recovery.md`** — it opens with a
+triage table, because the failure modes have *opposite* fixes and guessing makes things
+worse.
+
+---
+
+## For agents — operating contract
+
+If you are an AI agent asked to run or repair this box, this section is for you.
+
+**Claude Code users: install the operator skills as a plugin.** They load the right runbook
+for the problem at hand (supervising the box, a failed job, a runner not taking jobs, adding
+a slot, risky upgrades):
+
+```
+/plugin marketplace add telluric-dev/joggo
+/plugin install joggo@joggo
+```
+
+**There is a better version of this, specific to your box.** The installer renders
+`agent/SUPERVISOR.md` to `C:\ProgramData\joggo\SUPERVISOR.md` with
+the real distro name, paths, slot count and thresholds substituted — so it says
+`-d Ubuntu-24.04` rather than `-d `, and `warn 2450 MB` rather than
+`15% of RAM`. Paste that file as the opening prompt of a session that will supervise the
+runner, or point the agent at it: it carries the standing duties, these invariants, the
+command-safety split and the diagnosis tests, already resolved for one machine.
+
+Rendered by default; `-NoAgentSupervisor` skips it. What follows is the generic form —
+what you get reading the repo rather than running on a box.
+
+### Invariants — do not violate these
+
+| Invariant | Why |
+|---|---|
+| **No privileged secrets on the box.** No org-admin PAT; never store a registration token. | A self-hosted runner executes other repositories' code. See `SECURITY.md`. |
+| **Never point a public repo, or fork PRs, at this runner.** | Arbitrary code on the operator's hardware, inside their network. |
+| **A hold must never kill a running job.** `pause` writes a flag and the job finishes. Only `--now` interrupts, and it names the job first. | A hold that destroys work is worse than no hold at all. |
+| **Ask before restarting the runner, the VM, or anything that drops a job.** | Hard to reverse, and the cost lands on other people's builds. |
+| **Do not move the guard's thresholds to make a symptom go away.** | They came from measurements — see `docs/memory-pressure.md`. |
+
+### Where state lives
+
+```
+/var/lib/joggo-slot/<N>.paused           the pause flag — the contract between
+                                          slot-pause, the launcher and the guard
+/var/log/joggo-slots/<N>/_diag/          that slot's Runner_*.log and Worker_*.log
+C:\ProgramData\joggo\mem-watch.csv       the 5-minute sample trail
+C:\ProgramData\joggo\snapshots\          full snapshots, written when free memory trips
+C:\ProgramData\joggo\wsl-mem-guard.log   every guard decision, with its reasoning
+```
+
+### Command safety
+
+```
+READ-ONLY     slots-status.sh · slot-pause.sh status · wsl-mem-guard.ps1 -DryRun
+              systemctl is-active|is-enabled · docker ps · journalctl
+              gh run list · gh api .../jobs
+
+MUTATING      slot-pause.sh pause|resume        reversible; loses no job
+              systemctl restart joggo-slot@N    CHECK for an in-flight job first
+
+DESTRUCTIVE   slot-pause.sh --now               kills the running job
+              wsl --shutdown                    kills every job on the box
+              config.sh remove                  deregisters; needs a fresh token
+              ASK FIRST. Each of these costs somebody a build.
+```
+
+### Discriminators — read these before diagnosing
+
+Several failure modes here are indistinguishable without the right test. These are the
+tests, each learned by getting it wrong first.
+
+**A job that never ran, versus a job that failed.** From the payload, no logs needed —
+all four conditions together:
+
+```
+conclusion cancelled|failure · runner_name empty · steps 0 · labels include self-hosted
+```
+
+Every clause excludes a real case. *Zero **failed** steps* alone also matches a job a
+human cancelled mid-flight, which reports its runner and its executed steps. Without
+the `self-hosted` clause, every **hosted** job killed by a billing problem gets
+misattributed to your runner.
+
+**Queued forever — four causes with opposite fixes.**
+`docs/recovery.md` has the table: clock drift (re-register), wedged
+listener (restarting *is* the fix), Actions outage (do **not** restart), or the box
+rebooted (already retried automatically).
+
+**`--once` makes "inactive" normal.** A slot is genuinely `inactive` between every job.
+Read `is-enabled` and the age of the newest `Runner_*.log` instead.
+
+**A run's conclusion says nothing about whether anything was published**, in either
+direction: a red run may have pushed its image already, and a green run may have
+published nothing. Key off the publishing job, not the run.
+
+**A read that cannot fail loudly returns a number, not an error.** Before trusting a
+count, ask what the query would return if its basis were missing. If that is a
+plausible number rather than an error, check the basis separately — with a positive
+control in the same call, or the same quantity from a second instrument at a different
+layer. `docs/memory-pressure.md` §9 has five instances from this box, every one of
+which fooled somebody first.
+
+---
+
+## Three findings worth your time even if you close the tab
+
+**`FreePhysicalMemory` is not free memory.** It is *available* memory — standby cache
+plus free pages. The genuinely-empty portion swung between 3 MB and 4 GB on this box
+within a day. Threshold on available; the other number is noise.
+
+**This box runs 2× oversubscribed and has never paged out.** Committed memory sits at
+26–33 GB against 16.3 GB of RAM, and `Pages Output/sec` was zero across ten days.
+Memory compression absorbs it, paying in CPU rather than I/O — which makes
+`pagefileMB` (a level, sticky for hours after a spike) the wrong signal, and the rate
+the right one.
+
+**The largest process on a CI box was a terminal emulator.** 24.2 MB/hour, dead steady
+across 118 hourly samples, 6 GB by the end — bigger than the WSL VM. Nothing to do
+with CI, and it eventually starved the runner into a seven-hour outage. If you build
+monitoring, expect the answer to be something you were not watching.
+
+---
+
+## Status and honesty
+
+Extracted from a working private setup, generalised, with organisation names and host
+identifiers removed. It has run continuously for months in its original form.
+
+**It has no CI of its own**, which is a slightly embarrassing thing for a CI project to
+admit. The shell scripts pass `bash -n`; the reusable workflows are exercised daily by
+real builds but are not validated in this repository.
+
+**What has been run for real, end to end.** On a fresh Ubuntu 24.04 distro, Windows 11,
+16 GB, as an ordinary user — **no elevation at any point** — against a real repository:
+
+| | Result |
+|---|---|
+| Install, 2 slots | every step passes; verify reports 0 failures |
+| Both runners online on GitHub | yes, and **still online 150 s after the installer exited** with nothing touching WSL |
+| Re-run with `-Slots 1` | slot 2 retired: disabled, **deregistered**, root removed; slot 1 untouched |
+| Install with everything on (guard, sampler, keepalive) | exit 0. Guard and sampler run as you and exit 0; the sampler's trail grows on schedule; the keepalive is still running 20 s and 150 s later; the guard reads the distro's live job count |
+| Uninstall `-Deep` | 0 runners left on GitHub, 0 tasks, logs kept |
+
+Not yet run: a reboot followed by logon (the tasks come back at logon by design), and any
+machine other than the one this was extracted from.
+
+Getting there found **more than twenty** defects. About ten stopped every install outright; the
+rest left something broken behind. None was visible to a dry run. The ones worth knowing:
+
+- **WSL's tunnelled DNS is unreachable from Docker's bridge**, so on a fresh install every
+ container build failed at its first network step. The installer now writes Docker's DNS
+ from the Windows adapters that are up, querying each before trusting it.
+- **All WSL2 distros share one network stack.** Two runners in one WSL VM with the same slot
+ subnet black-hole each other's traffic. The default subnet is now configurable, and the
+ launcher refuses a subnet something else already routes.
+- **WSL powers a distro off ~30 s after its last session closes.** Without a keepalive the
+ runner passed verify and went offline when the installer exited.
+- **A SYSTEM scheduled task cannot see your WSL distro** — distros are registered per Windows
+ user. The installer used SYSTEM for the keepalive, guard and sampler, "so they work with
+ nobody logged on"; the keepalive started and exited -1 within seconds. Every task now runs as
+ you, at logon, like the guard on the original box. So the box must stay logged in (lock the
+ screen), and the install needs no elevation.
+- **The runner image runs as uid 1001;** a fresh `useradd` picks 1000, and every slot
+ crash-looped on its first write. `ghrunner` is now created as 1001.
+- **Text sent to the distro was re-encoded twice** (ANSI read, console-codepage pipe), so
+ the Linux half of the installer could never be staged at all.
+
+If you are the first to run it on another machine, especially the elevated path: please
+open an issue with the transcript, pass or fail. That run is worth more than any review.
+
+**Known limits, documented in place rather than in a tracker:**
+
+- `--once` costs **83–108 s** of container rebuild per job, and GitHub's
+ runner-acquisition timeout races it at *every* job boundary — so an 11-job workflow
+ has eleven chances to die with *"not acquired by Runner of type self-hosted"*, not
+ one. Measured on one repository: **~11% of jobs**. Persisting the Docker daemon and
+ network while recreating only the runner container would recover most of it; that is
+ not done here.
+- **Nothing watches queue age.** A job that is never acquired looks exactly like a job
+ that is merely slow.
+- The Docker-in-Docker daemon is probed once at slot start and never again.
+- Container memory limits are unset; the guard works at the VM level instead.
+- The clock self-heal (chrony `makestep 1 -1`) ran on the original box but **the installer
+ does not apply it**, nor install chrony. It is a manual step:
+ docs/wsl2-clock-drift.md.
+- `GET /actions/runs/{id}/jobs` returns only the **latest** attempt, so a green re-run
+ erases the record of an earlier acquisition death. Any rate computed from it is a
+ floor.
+- Some hosts advertise AAAA records they cannot route, which makes build-time fetches
+ and registry logins hang rather than fail fast. `network/filter-aaaa.conf` is the
+ dnsmasq drop-in for that.
+
+Issues and findings are both welcome — see `CONTRIBUTING.md`.
+A measurement beats an opinion, and a method beats a measurement.
+
+## License
+
+MIT — see `LICENSE`. Provided as is, without warranty of any kind.
+
+# skhaz/overdrive
+
+## 评论（1/1）
+
+> **bestony** · 2026-11-08T15:07:43.000Z　
+> As a product for Windows, I believe the current installation method you have is not very suitable for Windows users. I suggest you provide an installer.exe or Installer.msi or a similar installation method. Although WSL / Powershell is available on every system, a direct installation may be more in line with the habits of the vast majority of people.
+
+## 导航
+
+- 项目页：[[10-项目/github.com_e6f74535]]
+- 渠道页：[[50-渠道/hn_show]]
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 同渠道/同赛道批量浏览：[[浏览]]

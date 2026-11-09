@@ -8,7 +8,7 @@ url: "https://github.com/patch-gg/pixelfx"
 project_url: "https://patch-gg.github.io/pixelfx"
 author: "patch-gg"
 published_at: "2026-10-30T06:43:25Z"
-captured_at: "2026-11-08T12:53:14+08:00"
+captured_at: "2026-11-09T09:42:31+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - JavaScript
-  - created:>2026-10-25
-metrics: {"stars": 5880, "forks": 764, "open_issues": 11}
+  - created:>2026-10-26
+metrics: {"stars": 6093, "forks": 794, "open_issues": 11}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/patch-gg/pixelfx>
-> 指标：stars=5880 · forks=764 · open_issues=11
+> 指标：stars=6093 · forks=794 · open_issues=11
 > 作者：patch-gg　|　发布：2026-10-30T06:43:25Z
 > 项目链接：<https://patch-gg.github.io/pixelfx>
-> 采集：2026-11-08T12:53:14+08:00　|　id：`2649f49189d780a3`
+> 采集：2026-11-09T09:42:31+08:00　|　id：`2649f49189d780a3`
 
 ## 正文
 

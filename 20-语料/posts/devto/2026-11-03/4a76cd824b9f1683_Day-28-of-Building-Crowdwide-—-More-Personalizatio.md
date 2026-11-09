@@ -8,7 +8,7 @@ url: "https://dev.to/puneetkumar2010/day-28-of-building-crowdwide-more-personali
 project_url: "https://github.com/DeveloperPuneet/Crowdwide"
 author: "Puneet Kumar Mishra"
 published_at: "2026-10-30T08:14:27Z"
-captured_at: "2026-11-08T13:49:25+08:00"
+captured_at: "2026-11-09T09:56:43+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -38,7 +38,7 @@ discovered_via: "devto:buildinpublic"
 > 指标：reactions=40 · 评论=71 · reading_time=2
 > 作者：Puneet Kumar Mishra　|　发布：2026-10-30T08:14:27Z
 > 项目链接：<https://github.com/DeveloperPuneet/Crowdwide>
-> 采集：2026-11-08T13:49:25+08:00　|　id：`4a76cd824b9f1683`
+> 采集：2026-11-09T09:56:43+08:00　|　id：`4a76cd824b9f1683`
 
 ## 正文
 

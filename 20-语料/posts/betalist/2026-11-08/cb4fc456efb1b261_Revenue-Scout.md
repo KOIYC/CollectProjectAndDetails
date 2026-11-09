@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/revenue-scout"
 published_at: "2026-11-05"
-captured_at: "2026-11-08T12:53:32+08:00"
+captured_at: "2026-11-09T09:42:51+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-11-05
 > 项目链接：—
-> 采集：2026-11-08T12:53:32+08:00　|　id：`cb4fc456efb1b261`
+> 采集：2026-11-09T09:42:51+08:00　|　id：`cb4fc456efb1b261`
 
 ## 正文
 
@@ -107,10 +107,12 @@ CueHQ
  Finds posts asking for products like yours and drafts replies
 ShipSignal
  Find validated product ideas and reach your first customers
-Wilo
+Space
  BOOSTED
- AI clerk that helps shoppers find, compare, and choose products
+ TESTFLIGHT
+ Send files and text instantly using a six-character code
  BOOSTED
+ TESTFLIGHT
 RedditMaster
  Grow on Reddit with AI that builds karma, finds intent, and drives leads
 auth-dialog#closeOnBackdrop close->auth-dialog#reset turbo:before-cache@document->auth-dialog#close"

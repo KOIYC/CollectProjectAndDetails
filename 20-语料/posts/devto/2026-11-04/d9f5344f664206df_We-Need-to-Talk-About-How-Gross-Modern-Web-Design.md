@@ -8,7 +8,7 @@ url: "https://dev.to/dj29/we-need-to-talk-about-how-gross-modern-web-design-has-
 project_url: "https://github.com/Tarkash-Labs"
 author: "Dhruv Jani"
 published_at: "2026-10-30T11:35:31Z"
-captured_at: "2026-11-07T09:46:31+08:00"
+captured_at: "2026-11-09T09:43:41+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,9 +21,9 @@ tags:
   - showdev
   - webdev
   - gemini
-metrics: {"reactions": 93, "comments": 38, "reading_time": 4}
-comments_count: 38
-comments_total: 38
+metrics: {"reactions": 93, "comments": 39, "reading_time": 4}
+comments_count: 39
+comments_total: 39
 discovered_via: "devto:showdev"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/dj29/we-need-to-talk-about-how-gross-modern-web-design-has-become-and-how-we-built-an-ai-to-catch-it-5gin>
-> 指标：reactions=93 · 评论=38 · reading_time=4
+> 指标：reactions=93 · 评论=39 · reading_time=4
 > 作者：Dhruv Jani　|　发布：2026-10-30T11:35:31Z
 > 项目链接：<https://github.com/Tarkash-Labs>
-> 采集：2026-11-07T09:46:31+08:00　|　id：`d9f5344f664206df`
+> 采集：2026-11-09T09:43:41+08:00　|　id：`d9f5344f664206df`
 
 ## 正文
 
@@ -139,7 +139,7 @@ We are constantly trying to improve the AI's detection capabilities.
 
 Drop it in the comments below so we can train OmniGuard to catch it! 🚀
 
-## 评论（38/38）
+## 评论（39/39）
 
 > **Dhruv Jani** · 2026-10-30T11:38:52Z　
 > One thing that stood out while building OmniGuard was how easily deceptive elements can blend into an otherwise normal-looking webpage.
@@ -384,6 +384,19 @@ Drop it in the comments below so we can train OmniGuard to catch it! 🚀
 
 > **Tomasz** · 2026-11-05T20:13:08Z　
 > Hi, how fast is one scan round-trip, and is auto-scan on scroll practical?
+
+---
+
+> **Benjamin A.** · 2026-11-08T10:04:05Z　
+> Hi Jani,
+>
+> I'm Benjamin, I run Stremit (stremit.io), a community where people find, build and run AI tools. You built an AI system that identifies flaws in modern web design when users are attempting actions like booking a flight.
+>
+> You should consider applying for the Founding Creator program to get featured to early members who are interested in innovative product concepts. Are you happy to help set up the application?
+>
+> stremit.io
+>
+> — Benjamin, Stremit
 
 ## 关联链接
 

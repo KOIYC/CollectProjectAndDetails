@@ -6,7 +6,7 @@ source: "exa_discovery"
 source_name: "Exa 全网语义发现"
 url: "https://shipped.club/blog/milestone-15k-revenues-in-4-months"
 published_at: "2024-03-20T00:00:00.000Z"
-captured_at: "2026-11-02T09:44:57+08:00"
+captured_at: "2026-11-09T09:45:36+08:00"
 lang: "en"
 kind: "method"
 topic: "开发者工具"
@@ -32,7 +32,7 @@ discovered_via: "exa:solo founder MRR milestone build in public"
 > 指标：—
 > 作者：—　|　发布：2024-03-20T00:00:00.000Z
 > 项目链接：—
-> 采集：2026-11-02T09:44:57+08:00　|　id：`8de717c44c06018c`
+> 采集：2026-11-09T09:45:36+08:00　|　id：`8de717c44c06018c`
 
 ## 正文
 
@@ -47,13 +47,7 @@ If you follow me on Twitter/X or Threads you know that I’m a strong believer i
 
 I am Luca, senior software engineer by profession. I started building products on the side of my 9-5 job in 2019.
 
-I’ve followed the usual (wrong) path of engineers when approaching product building.
-
-I spent two years working on it, launched it on Product Hunt in 2021, and got no interest.
-
-That’s when I realized that a good product is not enough to get attention and customers, you need marketing.
-
-I started being active on Twitter and never abandoned that habit.
+...
 
 In 2022 I launched my second SaaS product, a tool for Twitter. I spotted some interesting usages of the platform, especially related to Direct Messages.
 
@@ -64,10 +58,6 @@ In 2022 I also decided to start doing build in public on Twitter. Over time I cr
 Again, fast forward to today, I have built a community of 21k people on Twitter.
 
 ...
-
-So far I’ve created blog posts on how to use Schema.org, how to track errors with Sentry, the best VS Code themes and fonts, but also how to become a Micro SaaS founder on the side of a 9-5 job, and 10 lessons learned to earn $137k+ revenues.
-
-Which are my distribution channels?
 
 As you can imagine, Twitter plays a big role. Most of the traffic and customers are coming from there.
 

@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/commune-2"
 published_at: "2026-09-24"
-captured_at: "2026-10-17T13:38:24+08:00"
+captured_at: "2026-11-09T09:42:51+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-09-24
 > 项目链接：—
-> 采集：2026-10-17T13:38:24+08:00　|　id：`dc21bedff1d637d5`
+> 采集：2026-11-09T09:42:51+08:00　|　id：`dc21bedff1d637d5`
 
 ## 正文
 
@@ -41,18 +41,21 @@ Home
  Browse
  Newsletter
  Search
-FAQ
+Help
  Advertise
- Support
+ Refer a friend
+ Affiliates
 Startup Jobs
  Vision Pro apps
+ Room AI
 Home
  Browse
  Newsletter
  Search
-FAQ
+Help
  Advertise
- Support
+ Refer a friend
+ Affiliates
 theme#toggle"
  class="
  size-9 rounded-full hover:bg-gray-100 flex items-center justify-center
@@ -79,6 +82,7 @@ Communities
 Featured
 September 24, 2026
 Request changes
+Edit makers
 Get your badge
 Report this startup
  Manage collections
@@ -91,9 +95,9 @@ CommitFit
  Commit to fitness, compete with friends
 VibeCom
  Growth is too hard alone. Get an AI marketing team.
-MemoryPlugin
+Searcherries
  BOOSTED
- Long term memory for ALL your AI tools
+ AI SEO platform integrating AI visibility and SEO data into your AI agent
  BOOSTED
 Capsemble
  Your AI-powered companion to plan, experience and relive every event.
@@ -101,12 +105,15 @@ ContentForge
  Repurpose long-form content into platform-native posts
 Pluggo
  Get notified when people discuss your space on Reddit, X, and more
-Taupia
+Wilo
  BOOSTED
- Track, compare, and switch UK household bills from one app
+ AI clerk that helps shoppers find, compare, and choose products
  BOOSTED
 Manifest
  Share goals privately with trusted circles and get help that moves you
+auth-dialog#closeOnBackdrop close->auth-dialog#reset turbo:before-cache@document->auth-dialog#close"
+ aria-label="Log in or sign up"
+ class="m-auto w-[min(28rem,calc(100vw-2rem))] max-h-[calc(100dvh-2rem)] rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 shadow-2xl p-0 backdrop:bg-gray-500/75 dark:backdrop:bg-black/80 backdrop:backdrop-blur-sm">
 
 ## 导航
 

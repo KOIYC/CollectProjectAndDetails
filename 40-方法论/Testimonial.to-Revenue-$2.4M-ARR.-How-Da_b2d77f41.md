@@ -27,9 +27,9 @@ lang: "en"
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-10-26T00:25:26+08:00 | Exa 全网语义发现 | — | [[20-语料/posts/exa_discovery/2026-09-21/79884ea460f28b1a_Testimonial.to-Revenue-$2.4M-ARR.-How-Damon-Chen-b]] |
-| 2026-10-26T09:46:53+08:00 | Exa 全网语义发现 | — | [[20-语料/posts/exa_discovery/2026-09-21/79884ea460f28b1a_Testimonial.to-Revenue-$2.4M-ARR.-How-Damon-Chen-b]] |
-| 2026-11-02T09:44:57+08:00 | Exa 全网语义发现 | — | [[20-语料/posts/exa_discovery/2026-09-21/79884ea460f28b1a_Testimonial.to-Revenue-$2.4M-ARR.-How-Damon-Chen-b]] |
+| 2026-10-26T00:25:26+08:00 | Exa 全网语义发现 | — | [[20-语料/posts/exa_discovery/2026-09-21/79884ea460f28b1a_Testimonial.to-Revenue-$2.4M-ARR,-$10K-MRR-in-11-m]] |
+| 2026-10-26T09:46:53+08:00 | Exa 全网语义发现 | — | [[20-语料/posts/exa_discovery/2026-09-21/79884ea460f28b1a_Testimonial.to-Revenue-$2.4M-ARR,-$10K-MRR-in-11-m]] |
+| 2026-11-02T09:44:57+08:00 | Exa 全网语义发现 | — | [[20-语料/posts/exa_discovery/2026-09-21/79884ea460f28b1a_Testimonial.to-Revenue-$2.4M-ARR,-$10K-MRR-in-11-m]] |
 
 ## 摘要正文
 

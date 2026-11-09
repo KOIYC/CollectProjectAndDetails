@@ -1,33 +1,33 @@
 {
-  "generated": "2026-11-08T13:58:12+08:00",
-  "n_live": 4498,
-  "n_usable": 3967,
-  "n_project": 3496,
+  "generated": "2026-11-09T10:11:17+08:00",
+  "n_live": 4600,
+  "n_usable": 4067,
+  "n_project": 3574,
   "signals": 80,
   "topics": [
     [
       "AI 工具/Agent",
-      2452
+      2506
     ],
     [
       "开发者工具",
-      822
+      841
     ],
     [
       "未分类",
-      386
+      401
     ],
     [
       "游戏",
-      101
+      103
     ],
     [
       "移动 App",
-      76
+      80
     ],
     [
       "SaaS/B2B",
-      65
+      71
     ],
     [
       "内容/媒体",
@@ -146,6 +146,19 @@
       }
     },
     {
+      "key": "host:v2ex.com",
+      "channels": [
+        "c1c7",
+        "v2ex"
+      ],
+      "n_channels": 2,
+      "title": "如果不上班了，你还能靠什么继续谋生！",
+      "url": "https://www.v2ex.com/t/1254971",
+      "metrics": {
+        "replies": 0
+      }
+    },
+    {
       "key": "host:chatgpt.com",
       "channels": [
         "devto",
@@ -187,8 +200,8 @@
       }
     }
   ],
-  "money_signal_n": 1685,
-  "money_evidence_n": 593,
+  "money_signal_n": 1728,
+  "money_evidence_n": 608,
   "money_quotes": [
     {
       "source": "betalist",
@@ -264,10 +277,10 @@
     }
   ],
   "pain_n": {
-    "当前方案不好用": 138,
-    "在找替代品": 83,
-    "做不出来/卡住": 178,
-    "愿意付钱": 100,
+    "当前方案不好用": 140,
+    "在找替代品": 84,
+    "做不出来/卡住": 185,
+    "愿意付钱": 105,
     "想要而找不到": 18
   },
   "by_channel": [
@@ -281,30 +294,30 @@
     {
       "id": "betalist",
       "profile": "linkpost",
-      "n": 330,
-      "ok": 329,
-      "rate": 0.996969696969697
+      "n": 340,
+      "ok": 339,
+      "rate": 0.9970588235294118
     },
     {
       "id": "producthunt",
       "profile": "linkpost",
-      "n": 663,
-      "ok": 657,
-      "rate": 0.9909502262443439
+      "n": 679,
+      "ok": 673,
+      "rate": 0.9911634756995582
     },
     {
       "id": "indiehackers",
       "profile": "linkpost",
-      "n": 181,
-      "ok": 177,
-      "rate": 0.9779005524861878
+      "n": 182,
+      "ok": 178,
+      "rate": 0.978021978021978
     },
     {
       "id": "hn_show",
       "profile": "discussion",
-      "n": 2067,
-      "ok": 1958,
-      "rate": 0.9472665699080793
+      "n": 2107,
+      "ok": 1999,
+      "rate": 0.9487422876127195
     },
     {
       "id": "bilibili",
@@ -316,9 +329,9 @@
     {
       "id": "exa_discovery",
       "profile": "discover",
-      "n": 43,
-      "ok": 35,
-      "rate": 0.813953488372093
+      "n": 48,
+      "ok": 40,
+      "rate": 0.8333333333333334
     },
     {
       "id": "devto",
@@ -330,31 +343,31 @@
     {
       "id": "v2ex",
       "profile": "discussion",
-      "n": 268,
-      "ok": 191,
-      "rate": 0.7126865671641791
+      "n": 269,
+      "ok": 194,
+      "rate": 0.7211895910780669
     },
     {
       "id": "github_new",
       "profile": "project",
       "n": 93,
-      "ok": 64,
-      "rate": 0.6881720430107527
+      "ok": 66,
+      "rate": 0.7096774193548387
     },
     {
       "id": "reddit",
       "profile": "discussion",
-      "n": 736,
-      "ok": 455,
-      "rate": 0.6182065217391305
+      "n": 765,
+      "ok": 476,
+      "rate": 0.6222222222222222
     },
     {
       "id": "c1c7",
       "profile": "project",
       "n": 7,
-      "ok": 2,
-      "rate": 0.2857142857142857
+      "ok": 3,
+      "rate": 0.42857142857142855
     }
   ],
-  "body_median": 1668
+  "body_median": 1652
 }

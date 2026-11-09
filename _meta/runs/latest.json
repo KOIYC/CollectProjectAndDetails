@@ -1,107 +1,160 @@
 {
- "run_id": "20261108T125024",
- "started_at": "2026-11-08T13:46:52+08:00",
- "ended_at": "2026-11-08T13:46:52+08:00",
- "elapsed_s": null,
+ "run_id": "20261109T093925",
+ "started_at": "2026-11-09T09:39:25+08:00",
+ "ended_at": "2026-11-09T09:53:22+08:00",
+ "elapsed_s": 836.6,
  "channels": [
   {
-   "source_id": "betalist",
-   "status": "ok",
-   "count": 12,
-   "message": "重建自 raw · new=11 chg=1 ref=0",
-   "new": 11,
-   "changed": 1,
-   "refresh": 0
-  },
-  {
-   "source_id": "bilibili",
-   "status": "ok",
-   "count": 9,
-   "message": "重建自 raw · new=0 chg=9 ref=0",
-   "new": 0,
-   "changed": 9,
-   "refresh": 0
-  },
-  {
-   "source_id": "c1c7",
-   "status": "ok",
-   "count": 7,
-   "message": "重建自 raw · new=0 chg=1 ref=6",
-   "new": 0,
-   "changed": 1,
-   "refresh": 6
-  },
-  {
-   "source_id": "devto",
-   "status": "ok",
-   "count": 6,
-   "message": "重建自 raw · new=0 chg=2 ref=4",
-   "new": 0,
-   "changed": 2,
-   "refresh": 4
-  },
-  {
-   "source_id": "github_new",
-   "status": "ok",
-   "count": 11,
-   "message": "重建自 raw · new=1 chg=8 ref=2",
-   "new": 1,
-   "changed": 8,
-   "refresh": 2
-  },
-  {
    "source_id": "hn_show",
+   "name": "HN Show HN",
    "status": "ok",
    "count": 40,
-   "message": "重建自 raw · new=40 chg=0 ref=0",
+   "message": "40/40 hits | new=40 chg=0",
+   "elapsed_s": 79.0,
    "new": 40,
    "changed": 0,
-   "refresh": 0
-  },
-  {
-   "source_id": "indiehackers",
-   "status": "ok",
-   "count": 20,
-   "message": "重建自 raw · new=5 chg=11 ref=4",
-   "new": 5,
-   "changed": 11,
-   "refresh": 4
-  },
-  {
-   "source_id": "producthunt",
-   "status": "ok",
-   "count": 29,
-   "message": "重建自 raw · new=24 chg=2 ref=3",
-   "new": 24,
-   "changed": 2,
-   "refresh": 3
+   "raw": 40
   },
   {
    "source_id": "reddit",
+   "name": "Reddit 独立开发版块",
    "status": "ok",
-   "count": 24,
-   "message": "重建自 raw · new=24 chg=0 ref=0",
-   "new": 24,
+   "count": 29,
+   "message": "29 posts;  | new=29 chg=0",
+   "elapsed_s": 101.6,
+   "new": 29,
    "changed": 0,
-   "refresh": 0
+   "raw": 29
+  },
+  {
+   "source_id": "github_new",
+   "name": "GitHub 新星仓库",
+   "status": "ok",
+   "count": 11,
+   "message": "28 repos;  | 写盘 6/11 | new=0 chg=6",
+   "elapsed_s": 18.8,
+   "new": 0,
+   "changed": 6,
+   "raw": 11
+  },
+  {
+   "source_id": "betalist",
+   "name": "BetaList",
+   "status": "ok",
+   "count": 12,
+   "message": "12 startups · 发布日 12/12 | new=10 chg=2",
+   "elapsed_s": 20.2,
+   "new": 10,
+   "changed": 2,
+   "raw": 12
+  },
+  {
+   "source_id": "indiehackers",
+   "name": "Indie Hackers 产品库",
+   "status": "ok",
+   "count": 20,
+   "message": "23 products | 写盘 19/20 | new=1 chg=18",
+   "elapsed_s": 31.0,
+   "new": 1,
+   "changed": 18,
+   "raw": 20
+  },
+  {
+   "source_id": "devto",
+   "name": "dev.to",
+   "status": "ok",
+   "count": 6,
+   "message": "6 articles | 写盘 1/6 | new=0 chg=1",
+   "elapsed_s": 27.9,
+   "new": 0,
+   "changed": 1,
+   "raw": 6
+  },
+  {
+   "source_id": "producthunt",
+   "name": "Product Hunt",
+   "status": "ok",
+   "count": 30,
+   "message": "30 entries | 写盘 17/30 | new=16 chg=1",
+   "elapsed_s": 5.0,
+   "new": 16,
+   "changed": 1,
+   "raw": 30
   },
   {
    "source_id": "v2ex",
+   "name": "V2EX",
    "status": "ok",
    "count": 22,
-   "message": "重建自 raw · new=4 chg=3 ref=15",
-   "new": 4,
-   "changed": 3,
-   "refresh": 15
+   "message": "76 topics | 写盘 2/22 | new=2 chg=0",
+   "elapsed_s": 27.3,
+   "new": 2,
+   "changed": 0,
+   "raw": 22
+  },
+  {
+   "source_id": "bilibili",
+   "name": "B 站",
+   "status": "ok",
+   "count": 8,
+   "message": "42 videos | new=0 chg=8",
+   "elapsed_s": 4.6,
+   "new": 0,
+   "changed": 8,
+   "raw": 8
+  },
+  {
+   "source_id": "c1c7",
+   "name": "1c7 中文独立开发者名录",
+   "status": "ok",
+   "count": 7,
+   "message": "17 entries · 收录日 17 | 写盘 1/7 | new=0 chg=1",
+   "elapsed_s": 38.5,
+   "new": 0,
+   "changed": 1,
+   "raw": 7
+  },
+  {
+   "source_id": "exa_discovery",
+   "name": "Exa 全网语义发现",
+   "status": "ok",
+   "count": 10,
+   "message": "32 results | new=5 chg=5",
+   "elapsed_s": 54.8,
+   "new": 5,
+   "changed": 5,
+   "raw": 10
+  },
+  {
+   "source_id": "twitter",
+   "name": "X / Twitter",
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 22s\nok: false\nerr | new=0 chg=0",
+   "elapsed_s": 60.9,
+   "new": 0,
+   "changed": 0,
+   "raw": 0
+  },
+  {
+   "source_id": "xiaohongshu",
+   "name": "小红书",
+   "status": "ok",
+   "count": 1,
+   "message": "1 items（3 路查询）（1 路失败） | new=0 chg=1",
+   "elapsed_s": 179.2,
+   "new": 0,
+   "changed": 1,
+   "raw": 1
   }
  ],
- "notes_written": null,
- "errors": [
-  "重建记录：kb_collect 收尾 write_ledger NameError 致 log.finish() 未执行（已修 import）；本记录由 tools/_rebuild_run_record.py 从 90-原始 按 run_id 重放"
- ],
- "reconstructed": true,
- "total_items": 180,
- "total_new": 109,
- "total_update": 37,
- "total_refresh": 34
+ "notes_written": 146,
+ "errors": [],
+ "total_items": 196,
+ "total_new": 103,
+ "dry": false,
+ "rule_dropped": 39,
+ "write_errors": 0,
+ "body_cache_pruned": 0,
+ "finish_errors": []
 }

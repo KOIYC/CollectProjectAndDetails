@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/blender-market"
 project_url: "https://blendermarket.com/posts/2019-cyber-weekend-sale-results"
-captured_at: "2026-11-05T11:24:10+08:00"
+captured_at: "2026-11-09T09:43:11+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://blendermarket.com/posts/2019-cyber-weekend-sale-results>
-> 采集：2026-11-05T11:24:10+08:00　|　id：`bf8f7150e9f31478`
+> 采集：2026-11-09T09:43:11+08:00　|　id：`bf8f7150e9f31478`
 
 ## 正文
 
@@ -43,7 +43,7 @@ Blender Market
 Visit Website
 Blender Market The indie market for Blender creators
  Posts 14
- Revenue $577K / mo
+ Revenue $574K / mo
  Website Twitter Facebook
 February 18, 2021
  Hiring 2nd Rails Developer

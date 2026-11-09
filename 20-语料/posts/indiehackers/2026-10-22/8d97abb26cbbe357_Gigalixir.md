@@ -5,7 +5,7 @@ title: "Gigalixir"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/gigalixir"
-captured_at: "2026-11-08T12:54:09+08:00"
+captured_at: "2026-11-09T09:43:11+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-08T12:54:09+08:00　|　id：`8d97abb26cbbe357`
+> 采集：2026-11-09T09:43:11+08:00　|　id：`8d97abb26cbbe357`
 
 ## 正文
 
@@ -42,7 +42,7 @@ Gigalixir
 Visit Website
 Gigalixir The only PaaS that fully supports Elixir and Phoenix.
  Posts 7
- Revenue $67K / mo
+ Revenue $68K / mo
  Website Twitter
 March 20, 2023
  Circling Back to Sharing on Indie Hackers!

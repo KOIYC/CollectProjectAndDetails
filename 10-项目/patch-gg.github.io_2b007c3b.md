@@ -2,14 +2,14 @@
 type: "project"
 title: "patch-gg/pixelfx"
 project_url: "https://patch-gg.github.io/pixelfx"
-first_seen: "2026-11-08T12:53:14+08:00"
+first_seen: "2026-11-09T09:42:31+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - JavaScript
-  - created:>2026-10-25
+  - created:>2026-10-26
 lang: "en"
 ---
 
@@ -20,16 +20,17 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://patch-gg.github.io/pixelfx>
-> 首次收录：2026-11-08T12:53:14+08:00
+> 首次收录：2026-11-09T09:42:31+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：JavaScript, created:>2026-10-25
-> 最新指标：stars=5880 · forks=764 · open_issues=11
+> 标签：JavaScript, created:>2026-10-26
+> 最新指标：stars=6093 · forks=794 · open_issues=11
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-11-08T12:53:14+08:00 | GitHub 新星仓库 | stars=5880 · forks=764 · open_issues=11 | [[20-语料/posts/github_new/2026-11-08/2649f49189d780a3_patch-gg-pixelfx]] |
+| 2026-11-09T09:42:31+08:00 | GitHub 新星仓库 | stars=6093 · forks=794 · open_issues=11 | [[20-语料/posts/github_new/2026-11-08/2649f49189d780a3_patch-gg-pixelfx]] |
 
 ## 摘要正文
 

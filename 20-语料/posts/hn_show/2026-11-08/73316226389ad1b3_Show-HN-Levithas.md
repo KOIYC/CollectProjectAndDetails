@@ -8,10 +8,10 @@ url: "https://news.ycombinator.com/item?id=50408300"
 project_url: "https://levithas.app/"
 author: "monidp"
 published_at: "2026-11-07T21:39:48Z"
-captured_at: "2026-11-08T12:50:31+08:00"
+captured_at: "2026-11-09T09:55:49+08:00"
 lang: "en"
 kind: "post"
-topic: "AI 工具/Agent"
+topic: 移动 App
 shard: "2026-11-08"
 pub_day: "2026-11-07"
 tags:
@@ -37,7 +37,7 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=2 · 评论=0 · engagement_velocity=2
 > 作者：monidp　|　发布：2026-11-07T21:39:48Z
 > 项目链接：<https://levithas.app/>
-> 采集：2026-11-08T12:50:31+08:00　|　id：`73316226389ad1b3`
+> 采集：2026-11-09T09:55:49+08:00　|　id：`73316226389ad1b3`
 
 ## 正文
 
@@ -54,11 +54,11 @@ Stop Consuming,
 Start Skilling.
 [Join ](#/skills)
 
-# wainmann/agent-manager
+# 感慨，感觉现在 gz 这么多，难怪这行环境这么差 - V2EX
 
 ## 导航
 
 - 项目页：[[10-项目/levithas.app_1e2799a0]]
 - 渠道页：[[50-渠道/hn_show]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`移动 App`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

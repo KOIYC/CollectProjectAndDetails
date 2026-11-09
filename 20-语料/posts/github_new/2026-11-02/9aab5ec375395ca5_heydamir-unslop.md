@@ -8,7 +8,7 @@ url: "https://github.com/heydamir/unslop"
 project_url: "https://github.com/heydamir/unslop"
 author: "heydamir"
 published_at: "2026-10-29T15:41:21Z"
-captured_at: "2026-11-08T12:53:14+08:00"
+captured_at: "2026-11-09T09:42:31+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - JavaScript
-  - created:>2026-10-25
-metrics: {"stars": 11447, "forks": 631, "open_issues": 11}
+  - created:>2026-10-26
+metrics: {"stars": 12018, "forks": 672, "open_issues": 2}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/heydamir/unslop>
-> 指标：stars=11447 · forks=631 · open_issues=11
+> 指标：stars=12018 · forks=672 · open_issues=2
 > 作者：heydamir　|　发布：2026-10-29T15:41:21Z
 > 项目链接：<https://github.com/heydamir/unslop>
-> 采集：2026-11-08T12:53:14+08:00　|　id：`9aab5ec375395ca5`
+> 采集：2026-11-09T09:42:31+08:00　|　id：`9aab5ec375395ca5`
 
 ## 正文
 
@@ -46,7 +46,7 @@ Created by Damir Sokolovsky ([@heydamir](https://x.com/heydamir)), who started t
 
 ![A vibecoded dashboard unslopping itself, frame by frame](skills/unslop/references/refs/story-dashboard-frames.webp)
 
-unslop is a skill for Claude Code and Codex that turns vibecoded, AI-looking UI into a designed interface with its own character. It finds the slop first, the purple gradients, glows, emoji labels, shouty copy and uneven spacing, then sets a direction from your product and fixes the screen pass by pass like a designer doing a redline review. It works in whatever your screen is built with, like Next.js, React, Vue, Svelte, Tailwind or plain HTML and CSS, on dashboards, apps and landing pages, and even on a live site when all you have is a link.
+unslop is a skill for Claude Code, Codex and Google Antigravity that turns vibecoded, AI-looking UI into a designed interface with its own character. It finds the slop first, the purple gradients, glows, emoji labels, shouty copy and uneven spacing, then sets a direction from your product and fixes the screen pass by pass like a designer doing a redline review. It works in whatever your screen is built with, like Next.js, React, Vue, Svelte, Tailwind or plain HTML and CSS, on dashboards, apps and landing pages, and even on a live site when all you have is a link.
 
 ## Install
 
@@ -71,6 +71,15 @@ Or copy it by hand into `~/.agents/skills/`, or into `.agents/skills/` inside a 
 git clone https://github.com/heydamir/unslop
 mkdir -p ~/.agents/skills && cp -r unslop/skills/unslop ~/.agents/skills/
 ```
+
+For Google Antigravity, copy the skill into your skills folder.
+
+```bash
+git clone https://github.com/heydamir/unslop
+mkdir -p ~/.gemini/antigravity/skills && cp -r unslop/skills/unslop ~/.gemini/antigravity/skills/
+```
+
+For a single project, copy it into `.agents/skills/` inside that project instead.
 
 To snapshot a live site or create a story video, install Playwright and its Chromium browser from the project directory where you run the skill:
 
