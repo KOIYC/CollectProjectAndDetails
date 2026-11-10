@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/whacka"
 published_at: "2026-04-03"
-captured_at: "2026-11-04T09:54:02+08:00"
+captured_at: "2026-11-10T09:53:55+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -24,7 +24,7 @@ discovered_via: "betalist:home"
 # Whacka
 
 > [!info] 一句话导读
-> size-9 rounded-full hover:bg-gray-100 flex items-center justify-center
+> class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:…
 
 > [!meta]- 语料信息（点开展开）
 > 来源：BetaList（project）
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-04-03
 > 项目链接：—
-> 采集：2026-11-04T09:54:02+08:00　|　id：`9cee5cca9cbaae0e`
+> 采集：2026-11-10T09:53:55+08:00　|　id：`9cee5cca9cbaae0e`
 
 ## 正文
 
@@ -57,11 +57,9 @@ Help
  Refer a friend
  Affiliates
 theme#toggle"
- class="
- size-9 rounded-full hover:bg-gray-100 flex items-center justify-center
- dark:hover:bg-gray-800 text-gray-500 dark:text-gray-400
- "
+ class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white"
  title="Toggle theme"
+ aria-label="Toggle theme"
  >
 Log in
 Submit Startup
@@ -74,8 +72,8 @@ Visit Site
 Makers
 Joy L
 Topics
-Developer Tools
 No Code
+Developer Tools
 Productivity
 Featured
 April 3, 2026
@@ -93,13 +91,13 @@ DubLab App
  Expand your audience with just 1 click
 Seedance 2.5
  Turn one prompt into a 30-second 4K video with sound
-WZRD
+Searcherries
  BOOSTED
- Turn plain ideas into interactive docs, forms, and decks that converse
+ AI SEO platform integrating AI visibility and SEO data into your AI agent
  BOOSTED
-Wilo
+PitchMonster
  BOOSTED
- AI clerk that helps shoppers find, compare, and choose products
+ Practice sales calls with AI buyers and get instant coaching
  BOOSTED
 auth-dialog#closeOnBackdrop close->auth-dialog#reset turbo:before-cache@document->auth-dialog#close"
  aria-label="Log in or sign up"

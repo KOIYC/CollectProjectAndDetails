@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/commune-2"
 published_at: "2026-09-24"
-captured_at: "2026-11-09T09:42:51+08:00"
+captured_at: "2026-11-10T09:53:55+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -24,7 +24,7 @@ discovered_via: "betalist:home"
 # Commune 2
 
 > [!info] 一句话导读
-> size-9 rounded-full hover:bg-gray-100 flex items-center justify-center
+> class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:…
 
 > [!meta]- 语料信息（点开展开）
 > 来源：BetaList（project）
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-09-24
 > 项目链接：—
-> 采集：2026-11-09T09:42:51+08:00　|　id：`dc21bedff1d637d5`
+> 采集：2026-11-10T09:53:55+08:00　|　id：`dc21bedff1d637d5`
 
 ## 正文
 
@@ -57,11 +57,9 @@ Help
  Refer a friend
  Affiliates
 theme#toggle"
- class="
- size-9 rounded-full hover:bg-gray-100 flex items-center justify-center
- dark:hover:bg-gray-800 text-gray-500 dark:text-gray-400
- "
+ class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white"
  title="Toggle theme"
+ aria-label="Toggle theme"
  >
 Log in
 Submit Startup
@@ -74,11 +72,11 @@ Visit Site
 Makers
 Tim
 Topics
+Communities
 Startups
 Platforms
-Collaboration
 Professional Networking
-Communities
+Collaboration
 Featured
 September 24, 2026
 Request changes
@@ -95,9 +93,9 @@ CommitFit
  Commit to fitness, compete with friends
 VibeCom
  Growth is too hard alone. Get an AI marketing team.
-Searcherries
+EntreDash
  BOOSTED
- AI SEO platform integrating AI visibility and SEO data into your AI agent
+ Validate and shape your idea with a private AI advisory board
  BOOSTED
 Capsemble
  Your AI-powered companion to plan, experience and relive every event.
@@ -105,9 +103,9 @@ ContentForge
  Repurpose long-form content into platform-native posts
 Pluggo
  Get notified when people discuss your space on Reddit, X, and more
-Wilo
+Whacka
  BOOSTED
- AI clerk that helps shoppers find, compare, and choose products
+ AI app builder: describe your app in any language, get a real working app
  BOOSTED
 Manifest
  Share goals privately with trusted circles and get help that moves you

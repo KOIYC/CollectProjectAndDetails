@@ -1,0 +1,19 @@
+{
+  "at": "2026-11-10T09:59:54+08:00",
+  "kind": "corpus_rename",
+  "note": "条目改标题导致的语料页换名；旧页已清（git/raw 可回溯），链接已改写",
+  "renames": [
+    {
+      "from": "20-语料/posts/producthunt/2026-09-22/39174f5bbabe694c_Arcjet.md",
+      "to": "20-语料/posts/producthunt/2026-09-22/39174f5bbabe694c_Arcjet-AI-security-models.md"
+    },
+    {
+      "from": "20-语料/posts/producthunt/2026-09-29/bd1ad6ae17476f1b_MCP-Connectors-by-Databox.md",
+      "to": "20-语料/posts/producthunt/2026-09-29/bd1ad6ae17476f1b_Databox-CLI.md"
+    },
+    {
+      "from": "20-语料/posts/xiaohongshu/2026-09-21/7861ab65194de927_独立开发app上架3个月日活突破4000!.md",
+      "to": "20-语料/posts/xiaohongshu/2026-09-21/7861ab65194de927_独立开发三年上架11个App的感想.md"
+    }
+  ]
+}

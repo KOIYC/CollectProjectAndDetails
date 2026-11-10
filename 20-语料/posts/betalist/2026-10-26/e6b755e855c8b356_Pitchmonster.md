@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/pitchmonster"
 published_at: "2026-09-12"
-captured_at: "2026-10-27T23:49:20+08:00"
+captured_at: "2026-11-10T09:53:55+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -24,7 +24,7 @@ discovered_via: "betalist:home"
 # Pitchmonster
 
 > [!info] 一句话导读
-> size-9 rounded-full hover:bg-gray-100 flex items-center justify-center
+> class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:…
 
 > [!meta]- 语料信息（点开展开）
 > 来源：BetaList（project）
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-09-12
 > 项目链接：—
-> 采集：2026-10-27T23:49:20+08:00　|　id：`e6b755e855c8b356`
+> 采集：2026-11-10T09:53:55+08:00　|　id：`e6b755e855c8b356`
 
 ## 正文
 
@@ -43,20 +43,23 @@ Home
  Search
 Help
  Advertise
+ Refer a friend
+ Affiliates
 Startup Jobs
  Vision Pro apps
+ Room AI
 Home
  Browse
  Newsletter
  Search
 Help
  Advertise
+ Refer a friend
+ Affiliates
 theme#toggle"
- class="
- size-9 rounded-full hover:bg-gray-100 flex items-center justify-center
- dark:hover:bg-gray-800 text-gray-500 dark:text-gray-400
- "
+ class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white"
  title="Toggle theme"
+ aria-label="Toggle theme"
  >
 Log in
 Submit Startup
@@ -77,6 +80,7 @@ Revenue Operation
 Featured
 September 12, 2026
 Request changes
+Edit makers
 Get your badge
 Report this startup
  Manage collections
@@ -87,24 +91,24 @@ FreeDAST
  SPONSOR
 RepEdge.ai
  Analyze sales calls and coach reps with real-time AI insights
+TalkPilot
+ Get live prompts and coaching while you speak, invisible to others
+Aria
+ BOOSTED
+ Free color analysis and honest verdicts before you buy
+ BOOSTED
 PitchMit
  Win more Upwork jobs with AI that learns your winning patterns
-GoldMine
- BOOSTED
- Let AI agents run your content, SEO, and outreach while you build
- BOOSTED
 AvairAI
  AI agents book meetings while you close deals
 Pitch31.ai
  Turn your APIs into AI agents
-implo.ai
- Buy ready-to-deploy AI prompts, workflows, agents, and templates
 EntreDash
  BOOSTED
  Validate and shape your idea with a private AI advisory board
  BOOSTED
-Pondeo
- Sell more with smart account intelligence
+AdPerch
+ Find warm investor intros and track your raise with an AI agent
 auth-dialog#closeOnBackdrop close->auth-dialog#reset turbo:before-cache@document->auth-dialog#close"
  aria-label="Log in or sign up"
  class="m-auto w-[min(28rem,calc(100vw-2rem))] max-h-[calc(100dvh-2rem)] rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 shadow-2xl p-0 backdrop:bg-gray-500/75 dark:backdrop:bg-black/80 backdrop:backdrop-blur-sm">

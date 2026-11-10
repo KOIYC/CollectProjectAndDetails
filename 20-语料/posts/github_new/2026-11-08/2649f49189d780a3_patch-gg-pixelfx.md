@@ -8,7 +8,7 @@ url: "https://github.com/patch-gg/pixelfx"
 project_url: "https://patch-gg.github.io/pixelfx"
 author: "patch-gg"
 published_at: "2026-10-30T06:43:25Z"
-captured_at: "2026-11-09T09:42:31+08:00"
+captured_at: "2026-11-10T09:53:42+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - JavaScript
-  - created:>2026-10-26
-metrics: {"stars": 6093, "forks": 794, "open_issues": 11}
+  - created:>2026-10-27
+metrics: {"stars": 6343, "forks": 832, "open_issues": 11}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/patch-gg/pixelfx>
-> 指标：stars=6093 · forks=794 · open_issues=11
+> 指标：stars=6343 · forks=832 · open_issues=11
 > 作者：patch-gg　|　发布：2026-10-30T06:43:25Z
 > 项目链接：<https://patch-gg.github.io/pixelfx>
-> 采集：2026-11-09T09:42:31+08:00　|　id：`2649f49189d780a3`
+> 采集：2026-11-10T09:53:42+08:00　|　id：`2649f49189d780a3`
 
 ## 正文
 
@@ -51,7 +51,8 @@ Every effect that involves a character is **acted out**: he winds up, lets go, f
 target takes the hit. Twelve whole moves chain the effects into attacks from wind-up to recovery.
 
 **[open the gallery](https://patch-gg.github.io/pixelfx/)** · [catalog](docs/CATALOG.md) · [acting](#acting) ·
-[the skill](#the-skill) · [make your own](#make-your-own) · [how it works](#how-it-works)
+[the skill](#the-skill) · [make your own](#make-your-own) · [publish it on patch](#publish-it-on-patch) ·
+[how it works](#how-it-works)
 
 The method is [Hugo Duprez](https://x.com/HugoDuprez)'s, from [How to make (good) pixel art effects with
 Claude](https://www.spritefusion.com/blog/how-to-make-good-pixel-art-effects-with-claude): code is clay, trust your
@@ -211,6 +212,22 @@ Then go round: look at the contact sheet, fix the worst thing, render again. `--
 bugs don't show in samples. [docs/AUTHORING.md](docs/AUTHORING.md) has the contract, the drawing API and the quality
 bar. `node tools/serve.mjs` runs the gallery locally with your effects in it.
 
+## publish it on patch.
+
+Made a browser game with these? Put it on [Patch](https://patch.gg), where people play and remix browser games and
+mods. Install `pch`, Patch's command line, then restart your coding agent and ask it to publish the game: the install
+gives every agent on your PC Patch's tools. Or run it yourself:
+
+```bash
+npm i -g @patchgg/cli      # or: curl -fsSL https://patch.gg/install.sh | sh
+pch login
+pch init                   # in your game's folder; it says what's next
+pch publish
+```
+
+Publishing needs [Patch Desktop](https://docs.patch.gg/get-started) open on a Windows PC: it plays your game once to
+test it before it goes live. The [quickstart](https://docs.patch.gg/quickstart) has the rest.
+
 ## how it works.
 
 - **Two kinds of effect, no images.** Pure effects export `draw(p, t, o)`, the frame at `t` seconds from `t` alone, so
@@ -238,8 +255,11 @@ Made by [Patch](https://patch.gg).
 
 ## 关联链接
 
+- https://docs.patch.gg/get-started
+- https://docs.patch.gg/quickstart
 - https://patch-gg.github.io/pixelfx/
 - https://patch.gg
+- https://patch.gg/install.sh
 - https://www.spritefusion.com/blog/how-to-make-good-pixel-art-effects-with-claude
 - https://www.spritefusion.com/pixel-art-vfx
 - https://x.com/HugoDuprez

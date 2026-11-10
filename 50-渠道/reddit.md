@@ -7,7 +7,7 @@ adapter: "reddit_arctic"
 auth: "none"
 lang: "en"
 status: "ok"
-last_verified: "2026-11-09"
+last_verified: "2026-11-10"
 tags:
   - 渠道
   - 渠道/海外社区
@@ -19,7 +19,7 @@ params: {"subs": ["SideProject", "indiehackers", "microsaas", "SaaS", "Entrepren
 - **分组**：海外社区　|　**语言**：en　|　**认证**：none
 - **取数实现**：`reddit_arctic`　|　**单次上限**：30
 - **补全类型**：comments
-- **当前状态**：`ok`（本次 29 条，101.6s）
+- **当前状态**：`ok`（本次 23 条，100.5s）
 - **口径备注**：arctic-shift 镜像（匿名可用）。① 本网络 www.reddit.com 直连 502；② after 只吃 epoch 秒/纯日期，带时区 ISO 会 400；③ **score 沉淀比原先记录的更慢**——2026-09-24 连探两次 empty，直连探针实测：窗口「0~14 天前」（每 sub 最新 100 条）max_score=**2**、score≥3 的 **0** 条；而「3~13 天前」88/700、「10~17 天前」96/700、「17~24 天前」111/800 都有分。→ 窗口外移到 settle_days=10 / window_days=14（取「10~24 天前」）。**每 sub 只回最新 limit//8 条**，所以窗口的「新端」必须老到分数已沉淀，否则整批被 min_score 滤空。
 - **解锁方式**：—
 
@@ -27,7 +27,6 @@ params: {"subs": ["SideProject", "indiehackers", "microsaas", "SaaS", "Entrepren
 
 | 时间 | 状态 | 条数 | 耗时 | 消息 |
 |---|---|---|---|---|
-| 2026-09-20T03:31:07+08:00 | ok | 26 | 52.4s | 26 posts;  |
 | 2026-09-20T03:40:47+08:00 | ok | 25 | 35.5s | 25 posts;  |
 | 2026-09-20T09:24:59+08:00 | ok | 84 | 39.7s | 84 posts;  |
 | 2026-09-20T09:49:55+08:00 | ok | 26 | 32.7s | 26 posts;  |
@@ -67,3 +66,4 @@ params: {"subs": ["SideProject", "indiehackers", "microsaas", "SaaS", "Entrepren
 | 2026-11-07T09:45:52+08:00 | ok | 25 | 88.3s | 25 posts;  |
 | 2026-11-08T12:53:13+08:00 | ok | 24 | 83.9s | 24 posts;  |
 | 2026-11-09T09:42:27+08:00 | ok | 29 | 101.6s | 29 posts;  |
+| 2026-11-10T09:53:33+08:00 | ok | 23 | 100.5s | 23 posts;  |

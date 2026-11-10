@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/rivocard"
 published_at: "2026-11-01"
-captured_at: "2026-11-01T09:40:24+08:00"
+captured_at: "2026-11-10T09:53:55+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -24,7 +24,7 @@ discovered_via: "betalist:home"
 # Rivocard
 
 > [!info] 一句话导读
-> size-9 rounded-full hover:bg-gray-100 flex items-center justify-center
+> class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:…
 
 > [!meta]- 语料信息（点开展开）
 > 来源：BetaList（project）
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-11-01
 > 项目链接：—
-> 采集：2026-11-01T09:40:24+08:00　|　id：`77e8da8ca9b9c13d`
+> 采集：2026-11-10T09:53:55+08:00　|　id：`77e8da8ca9b9c13d`
 
 ## 正文
 
@@ -47,6 +47,7 @@ Help
  Affiliates
 Startup Jobs
  Vision Pro apps
+ Room AI
 Home
  Browse
  Newsletter
@@ -56,16 +57,14 @@ Help
  Refer a friend
  Affiliates
 theme#toggle"
- class="
- size-9 rounded-full hover:bg-gray-100 flex items-center justify-center
- dark:hover:bg-gray-800 text-gray-500 dark:text-gray-400
- "
+ class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white"
  title="Toggle theme"
+ aria-label="Toggle theme"
  >
 Log in
 Submit Startup
 Back to all startups
-Rivocard
+Rivocard BOOSTED
 Create crypto-funded virtual Visa and Mastercard cards for online payments
 Rivocard lets you generate secure virtual Visa and Mastercard cards funded by Bitcoin, USDT, Ethereum, Monero, and other crypto assets. You can set up merchant-locked, disposable, or reloadable cards in about 30 seconds and pay for ads, subscriptions, and global services with real-time controls. Rivocard offers multi-currency wallets, bulk card creation, BIN selection, spend limits, instant freezes, and detailed transaction monitoring to help manage payments at scale with strong security.
 Visit Site
@@ -75,13 +74,13 @@ Rivo Card
 Topics
 Credit Cards
 Payments
-Subscription Management
 Expense Management
 Digital Advertising
+Subscription Management
 Featured
 November 1, 2026
 Request changes
-Boost this startup
+Edit makers
 Get your badge
 Report this startup
  Manage collections
@@ -94,9 +93,9 @@ CardOS
  Launch branded payment cards and integrate them via API
 NETTEN
  Accept crypto as payment worldwide - settle instantly in RLUSD on XRPL
-WZRD
+Commune
  BOOSTED
- Turn plain ideas into interactive docs, forms, and decks that converse
+ A shared home for builders to launch, connect, and grow
  BOOSTED
 FinCobra
  Accept USDT, USDC, and Bitcoin directly to your wallet
@@ -104,9 +103,9 @@ THE DIGITAL KEY
  NFC metal cards turn luxury hotel valet parking into a revenue stream
 Vaulternal
  Store and automate file access with secure file storage
-Hi-AI
+Taupia
  BOOSTED
- Affordable AI videos, music, voice, images, 3D, search, news, and reports
+ Track, compare, and switch UK household bills from one app
  BOOSTED
 Rixer
  Verify online casinos with evidence-backed trust scores

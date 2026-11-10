@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/flowmrr"
 published_at: "2026-11-02"
-captured_at: "2026-11-03T09:43:14+08:00"
+captured_at: "2026-11-10T09:53:55+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -24,7 +24,7 @@ discovered_via: "betalist:home"
 # Flowmrr
 
 > [!info] 一句话导读
-> size-9 rounded-full hover:bg-gray-100 flex items-center justify-center
+> class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:…
 
 > [!meta]- 语料信息（点开展开）
 > 来源：BetaList（project）
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-11-02
 > 项目链接：—
-> 采集：2026-11-03T09:43:14+08:00　|　id：`575466d2f7c41d7c`
+> 采集：2026-11-10T09:53:55+08:00　|　id：`575466d2f7c41d7c`
 
 ## 正文
 
@@ -57,16 +57,14 @@ Help
  Refer a friend
  Affiliates
 theme#toggle"
- class="
- size-9 rounded-full hover:bg-gray-100 flex items-center justify-center
- dark:hover:bg-gray-800 text-gray-500 dark:text-gray-400
- "
+ class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white"
  title="Toggle theme"
+ aria-label="Toggle theme"
  >
 Log in
 Submit Startup
 Back to all startups
-FlowMRR
+FlowMRR BOOSTED
 Turn your Stripe subscription data into clear, actionable revenue insights
 FlowMRR provides revenue intelligence for subscription businesses by turning raw Stripe events into actionable decisions. It connects in minutes via Stripe Connect or a restricted API key, backfilling history to show MRR and ARR trends, movement drivers, and cash flow. Teams use FlowMRR to prioritize failed payment recovery, analyze retention with cohorts and survival curves, forecast scenarios, and understand product performance by plan, helping them manage the business confidently in one place.
 Visit Site
@@ -75,15 +73,14 @@ Makers
 Flow-MRR
 Topics
 Analytics
-Integration
-Forecasting
 Revenue Operation
 Customer Retention
+Forecasting
+Integration
 Featured
 November 2, 2026
 Request changes
 Edit makers
-Boost this startup
 Get your badge
 Report this startup
  Manage collections
@@ -106,9 +103,9 @@ Flownally
  eComm automation to turn conversations into sales and repeat purchases
 Impause
  Budgeting made easier with behavioral science
-EntreDash
+Commune
  BOOSTED
- Validate and shape your idea with a private AI advisory board
+ A shared home for builders to launch, connect, and grow
  BOOSTED
 Flow AI
  Generate 4K text-to-video content in the browser

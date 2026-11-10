@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-09T09:39:04+08:00",
+ "checked_at": "2026-11-10T09:48:39+08:00",
  "channels": [
   {
    "channel_id": "hn_show",
@@ -10,16 +10,16 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 1.8,
-   "probe_at": "2026-11-09T09:32:59+08:00",
+   "elapsed_s": 5.8,
+   "probe_at": "2026-11-10T09:45:14+08:00",
    "sample": [
     {
-     "title": "Show HN: Replay your Claude Code logs to count parallel session collisions",
-     "url": "https://news.ycombinator.com/item?id=50419582"
+     "title": "Show HN: Rat Race (After Dark, 1994), ported from 68k assembly to TypeScript",
+     "url": "https://news.ycombinator.com/item?id=50434254"
     },
     {
-     "title": "Show HN: Midgarth Quest. Browser-Playable Mmorpg Written by AI",
-     "url": "https://news.ycombinator.com/item?id=50419542"
+     "title": "Show HN: Live counts of AI assistants reading a diaspora business directory",
+     "url": "https://news.ycombinator.com/item?id=50433678"
     }
    ]
   },
@@ -32,16 +32,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
-   "elapsed_s": 34.6,
-   "probe_at": "2026-11-09T09:33:34+08:00",
+   "elapsed_s": 21.7,
+   "probe_at": "2026-11-10T09:45:35+08:00",
    "sample": [
     {
-     "title": "i built an engineering calculator that does realtime unit conversions",
-     "url": "https://www.reddit.com/r/SideProject/comments/1xj2103/i_built_an_engineering_calculator_that_does/"
+     "title": "I'm 25, unemployed, and trying to build a profitable SaaS instead of getting a j",
+     "url": "https://www.reddit.com/r/SaaS/comments/1xjub1u/im_25_unemployed_and_trying_to_build_a_profitable/"
     },
     {
-     "title": "Grimoire v1.10.0 - Character sheets, share links for your VTT, and six weeks of ",
-     "url": "https://www.reddit.com/r/selfhosted/comments/1xitik9/grimoire_v1100_character_sheets_share_links_for/"
+     "title": "Launched my first digital product: a budget PC build guide for first-time builde",
+     "url": "https://www.reddit.com/r/indiehackers/comments/1xjqza8/launched_my_first_digital_product_a_budget_pc/"
     }
    ]
   },
@@ -54,8 +54,8 @@
    "status": "ok",
    "count": 3,
    "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 25.2,
-   "probe_at": "2026-11-09T09:33:59+08:00",
+   "elapsed_s": 1.7,
+   "probe_at": "2026-11-10T09:45:37+08:00",
    "sample": [
     {
      "title": "storytold/craft-anything",
@@ -76,16 +76,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 startups · 发布日 3/3",
-   "elapsed_s": 17.1,
-   "probe_at": "2026-11-09T09:34:16+08:00",
+   "elapsed_s": 4.6,
+   "probe_at": "2026-11-10T09:45:42+08:00",
    "sample": [
     {
-     "title": "Revenue Scout",
-     "url": "https://betalist.com/startups/revenue-scout"
+     "title": "Shapeweld",
+     "url": "https://betalist.com/startups/shapeweld"
     },
     {
-     "title": "Eventrise",
-     "url": "https://betalist.com/startups/eventrise"
+     "title": "Wilo",
+     "url": "https://betalist.com/startups/wilo"
     }
    ]
   },
@@ -98,12 +98,12 @@
    "status": "ok",
    "count": 3,
    "message": "23 products",
-   "elapsed_s": 20.0,
-   "probe_at": "2026-11-09T09:34:36+08:00",
+   "elapsed_s": 11.9,
+   "probe_at": "2026-11-10T09:45:54+08:00",
    "sample": [
     {
-     "title": "Tablif",
-     "url": "https://www.indiehackers.com/product/tablif"
+     "title": "Your Product Deserves The Spotlight",
+     "url": "https://www.indiehackers.com/product/your-product-deserves-the-spotlight"
     },
     {
      "title": "Launchon It",
@@ -120,8 +120,8 @@
    "status": "ok",
    "count": 3,
    "message": "3 articles",
-   "elapsed_s": 8.7,
-   "probe_at": "2026-11-09T09:34:44+08:00",
+   "elapsed_s": 12.1,
+   "probe_at": "2026-11-10T09:46:06+08:00",
    "sample": [
     {
      "title": "Your DEV posts have a beautiful new share card ✨",
@@ -142,16 +142,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 entries",
-   "elapsed_s": 6.3,
-   "probe_at": "2026-11-09T09:34:51+08:00",
+   "elapsed_s": 3.1,
+   "probe_at": "2026-11-10T09:46:09+08:00",
    "sample": [
     {
-     "title": "Sage2 by Levanto Labs",
-     "url": "https://www.producthunt.com/products/sagecraft"
+     "title": "Watchflows",
+     "url": "https://www.producthunt.com/products/watchflows"
     },
     {
-     "title": "NoMac",
-     "url": "https://www.producthunt.com/products/nomac"
+     "title": "Arcjet AI security models",
+     "url": "https://www.producthunt.com/products/arcjet"
     }
    ]
   },
@@ -165,15 +165,15 @@
    "count": 3,
    "message": "20 topics",
    "elapsed_s": 1.0,
-   "probe_at": "2026-11-09T09:34:52+08:00",
+   "probe_at": "2026-11-10T09:46:10+08:00",
    "sample": [
     {
-     "title": "分享创造 | 因为 Craig Newmark 的一条推文，我复刻了个纯净版克雷格列表（已支持 24 城）",
-     "url": "https://www.v2ex.com/t/1255376"
+     "title": "个人独立开发者， AI 全栈能力，寻找业务机会",
+     "url": "https://www.v2ex.com/t/1255747"
     },
     {
-     "title": "Herdr 的终端界面能把事情做好。Shepi 让你在 Mac 上用得更愉快。",
-     "url": "https://www.v2ex.com/t/1255246"
+     "title": "[自建 API 中转] 国产主流模型全免（0 倍率），每天签到领额度 + 每 2 小时空投掉落余额",
+     "url": "https://www.v2ex.com/t/1255726"
     }
    ]
   },
@@ -184,14 +184,18 @@
    "auth": "none",
    "group": "中文社媒",
    "status": "ok",
-   "count": 1,
-   "message": "1 videos",
-   "elapsed_s": 1.1,
-   "probe_at": "2026-11-09T09:34:53+08:00",
+   "count": 3,
+   "message": "6 videos",
+   "elapsed_s": 0.8,
+   "probe_at": "2026-11-10T09:46:11+08:00",
    "sample": [
     {
-     "title": "Claude 不肯再帮人抄游戏了，独立开发者还是不敢放试玩",
-     "url": "https://www.bilibili.com/video/BV18p4M6CEmP"
+     "title": "【2026最全】微信小程序开发全攻略，一天完全学会，从零基础到项目发布全流程，带你一天速通微信小程序，学完即可创建属于自己的小程序！",
+     "url": "https://www.bilibili.com/video/BV18VTW6TEwE"
+    },
+    {
+     "title": "5000 万播放的创意，被 AI 抄成十几款游戏：独立游戏开发者还有活路吗？",
+     "url": "https://www.bilibili.com/video/BV1ix4x6vE3C"
     }
    ]
   },
@@ -204,8 +208,8 @@
    "status": "ok",
    "count": 3,
    "message": "9 entries · 收录日 9",
-   "elapsed_s": 10.5,
-   "probe_at": "2026-11-09T09:35:03+08:00",
+   "elapsed_s": 6.0,
+   "probe_at": "2026-11-10T09:46:17+08:00",
    "sample": [
     {
      "title": "Indie Hacker",
@@ -226,16 +230,16 @@
    "status": "ok",
    "count": 3,
    "message": "8 results",
-   "elapsed_s": 19.4,
-   "probe_at": "2026-11-09T09:35:23+08:00",
+   "elapsed_s": 21.2,
+   "probe_at": "2026-11-10T09:46:38+08:00",
    "sample": [
     {
-     "title": "Play it now! – Mindlock – The Apartment",
-     "url": "https://mindlock.games/dev-log/play-it-now/"
+     "title": "\"Hell Wait, a mahjong roguelike deckbuilder, is out now on Steam\" - Games Press",
+     "url": "https://www.gamespress.com/en-US/Hell-Wait-a-mahjong-roguelike-deckbuilder-is-out-now-on-Steam"
     },
     {
-     "title": "PlinkIdle Full Release - PlinkIdle by Black Heart Games, David Frankel, Lauren S",
-     "url": "https://black-heart-games-studio.itch.io/plinkidle/devlog/1761860/plinkidle-full-release"
+     "title": "Night Cart: The Immortal Plague is out now! - Night Cart: The Immortal Plague by",
+     "url": "https://zapakitul.itch.io/night-cart-the-immortal-plague/devlog/1764897/night-cart-the-immortal-plague-is-out-now"
     }
    ]
   },
@@ -247,9 +251,9 @@
    "group": "海外社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: timeout>90s",
-   "elapsed_s": 109.4,
-   "probe_at": "2026-11-09T09:37:12+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 10s\nok: false\nerr",
+   "elapsed_s": 48.3,
+   "probe_at": "2026-11-10T09:47:26+08:00",
    "sample": []
   },
   {
@@ -261,11 +265,11 @@
    "status": "ok",
    "count": 1,
    "message": "1 items（1 路查询）",
-   "elapsed_s": 71.1,
-   "probe_at": "2026-11-09T09:38:23+08:00",
+   "elapsed_s": 49.2,
+   "probe_at": "2026-11-10T09:48:15+08:00",
    "sample": [
     {
-     "title": "四个月，从0到1w用户",
+     "title": "独立开发app上架3个月日活突破4000！",
      "url": ">-"
     }
    ]
@@ -278,9 +282,9 @@
    "status": "unusable",
    "declared": "unverified",
    "delta": false,
-   "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 20.6,
-   "probe_at": "2026-11-09T09:38:49+08:00"
+   "message": "ERR: <urlopen error [Errno 11001] getaddrinfo failed>",
+   "elapsed_s": 4.5,
+   "probe_at": "2026-11-10T09:48:25+08:00"
   },
   {
    "backend": "arctic_shift",
@@ -289,8 +293,8 @@
    "declared": "not_added",
    "delta": false,
    "message": "5 rows",
-   "elapsed_s": 5.8,
-   "probe_at": "2026-11-09T09:38:54+08:00"
+   "elapsed_s": 6.2,
+   "probe_at": "2026-11-10T09:48:31+08:00"
   },
   {
    "backend": "exa_web_fetch",
@@ -299,8 +303,8 @@
    "declared": "warn",
    "delta": false,
    "message": "1 url 返回正文",
-   "elapsed_s": 8.0,
-   "probe_at": "2026-11-09T09:39:02+08:00"
+   "elapsed_s": 6.3,
+   "probe_at": "2026-11-10T09:48:37+08:00"
   },
   {
    "backend": "github_gh",
@@ -308,9 +312,9 @@
    "status": "ok",
    "declared": "unverified",
    "delta": false,
-   "message": "remaining=4848",
-   "elapsed_s": 1.5,
-   "probe_at": "2026-11-09T09:39:04+08:00"
+   "message": "remaining=4973",
+   "elapsed_s": 1.4,
+   "probe_at": "2026-11-10T09:48:39+08:00"
   }
  ],
  "summary": {
@@ -389,7 +393,7 @@
  ],
  "agent_reach": {
   "ok": true,
-  "checked_at": "2026-11-09T09:38:28+08:00",
+  "checked_at": "2026-11-10T09:48:20+08:00",
   "version": "1.6.0",
   "error": null,
   "platforms": 14

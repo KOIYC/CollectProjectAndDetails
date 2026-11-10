@@ -14,33 +14,33 @@ sys.path.insert(0, str(ROOT / "tools"))
 from kb_common import load_channels_yaml  # noqa: E402
 
 YML = ROOT / "_meta" / "channels.yaml"
-NEW_DATE = "2026-11-09"
-NEW_OVERALL = "4069/4601（88%）"
+NEW_DATE = "2026-11-10"
+NEW_OVERALL = "4160/4705（88%）"
 
 # id -> (新 ratio, 追加的 note 片段；不含 ASCII 逗号/冒号空格/方括号/花括号)
 ROWS = {
-    "producthunt": ("673/679",
-        "2026-11-09 轮 673/679（99%）/ 采集 30 条 new 16 chg 1（列表轮转）"),
-    "betalist": ("339/340",
-        "2026-11-09 轮 339/340（99.7%）/ 采集 12 条 new 10 chg 2 / 发布日 12/12"),
+    "producthunt": ("695/702",
+        "2026-11-10 轮 695/702（99%）/ 采集 30 条 new 23 chg 2（列表轮转）"),
+    "betalist": ("341/342",
+        "2026-11-10 轮 341/342（99.7%）/ 采集 12 条 new 2 chg 10 / 发布日 12/12"),
     "devto": ("23/29",
-        "2026-11-09 轮 23/29（79%）/ 采集 6 条 new 0 chg 1 / irrelevant 6 resource 2 trunc 1 结构未变"),
-    "bilibili": ("75/80",
-        "2026-11-09 轮 75/80（94%）/ 采集 8 条 new 0 chg 8（探针 ok 1 videos）/ 丢弃 4-12（标题 1 + 无主题词 3 均为 Claude 新闻与收入复盘）逐条核无误杀"),
-    "indiehackers": ("178/182",
-        "2026-11-09 轮 178/182（98%）/ 采集 20 条 new 1 chg 18（列表未轮转，project_url 继承 9）"),
-    "hn_show": ("1999/2107",
-        "2026-11-09 轮 1999/2107（95%）/ 采集 40 条 new 40 / 残余 unusable 108 summary 34 trunc 40 结构未变"),
-    "github_new": ("66/93",
-        "2026-11-09 轮 66/93（71%）/ 采集 11 条 new 0 chg 6 / 丢弃 17-28（标题 7 journal-wiki-clone-awesome-directory + 无主题词 10 库与 demo）逐条核无误杀"),
-    "v2ex": ("194/270",
-        "2026-11-09 轮 194/270（72%）/ 采集 22 条 new 2 chg 0 / 丢弃 3-25（2 招聘 + 1 Claude 防封号）无误杀"),
+        "2026-11-10 轮 23/29（79%）/ 采集 6 条 new 0 chg 1 / irrelevant 6 resource 2 trunc 1 结构未变"),
+    "bilibili": ("76/81",
+        "2026-11-10 轮 76/81（94%）/ 采集 10 条 new 1 chg 9（探针 ok 6 videos）/ 丢弃 2-12（标题 1 + 无主题词 1）逐条核无误杀"),
+    "indiehackers": ("180/184",
+        "2026-11-10 轮 180/184（98%）/ 采集 20 条 new 2 chg 16（列表未轮转，project_url 继承 6）"),
+    "hn_show": ("2038/2147",
+        "2026-11-10 轮 2038/2147（95%）/ 采集 40 条 new 40 / 残余 unusable 109 summary 34 trunc 40 结构未变"),
+    "github_new": ("66/94",
+        "2026-11-10 轮 66/94（70%）/ 采集 11 条 new 1 chg 8 / 丢弃 17-28（标题 7 journal-wiki-clone-awesome-directory + 无主题词 10 库与 demo）逐条核无误杀"),
+    "v2ex": ("204/282",
+        "2026-11-10 轮 204/282（72%）/ 采集 22 条 new 13 chg 3 / 丢弃 3-25（标题 3 招聘类）无误杀"),
     "exa_discovery": ("40/48",
-        "2026-11-09 轮 40/48（83%）/ 周一 --force-weekly 覆盖 / 采集 10 条 new 5 chg 5 / 丢弃 5-15 均游戏发布新闻（非目标语料）"),
-    "reddit": ("476/765",
-        "2026-11-09 轮 476/765（62% 仍全库最低，irrelevant 270 为主噪声）/ 采集 29 条 new 29 / 评论覆盖 96% 达标"),
+        "2026-11-10 轮 40/48（83%，周二非 weekly 未跑，比率沿用上次实测）/ 上次 周一 --force-weekly 覆盖 采集 10 条"),
+    "reddit": ("491/788",
+        "2026-11-10 轮 491/788（62% 仍全库最低，irrelevant 277 为主噪声）/ 采集 23 条 new 23 / 评论覆盖 97% 达标"),
     "c1c7": ("5/7",
-        "2026-11-09 轮 5/7（71%，n=7 小样本，n<10 抖动大须连 n 一起看）/ 采集 7 条 new 0 chg 1（17 entries 好窗口）/ 丢弃 10-17 全是名录-媒体-播客，政策命中正确"),
+        "2026-11-10 轮 5/7（71%，n=7 小样本，n<10 抖动大须连 n 一起看）/ 采集 7 条 new 0 chg 1（17 entries 好窗口）/ 丢弃 10-17 全是名录-媒体-播客，政策命中正确"),
 }
 
 # ---- 读原文件 ----
@@ -131,8 +131,11 @@ assert depth == 0, f"content_gate 之后花括号不平衡: depth={depth}"
 new_text = "".join(out_lines)
 if new_text.startswith("version: 2"):
     new_text = new_text.replace("version: 2", "version: 2", 1)
-# updated 同步
-new_text = new_text.replace("updated: '2026-11-05'", f"updated: '{NEW_DATE}'", 1)
+# updated 同步（按行正则，别写死上一轮的日期 —— 写死会在日期滚动后静默失效）
+import re as _re  # noqa: E402
+new_text, n_upd = _re.subn(r"^updated: '[0-9]{4}-[0-9]{2}-[0-9]{2}'",
+                           f"updated: '{NEW_DATE}'", new_text, count=1, flags=_re.M)
+assert n_upd == 1, f"updated 行替换失败（n={n_upd}）"
 
 YML.write_text(new_text, encoding="utf-8")
 print(f"[write] {YML} lines {len(lines)} -> {len(out_lines)} · `  - id:` {old_id_count} 未变")

@@ -7,7 +7,7 @@ source_name: "BetaList"
 url: "https://betalist.com/startups/tryterrapin"
 project_url: "https://tryterrapin.com/waitlist"
 published_at: "2025-08-25"
-captured_at: "2026-11-05T11:23:58+08:00"
+captured_at: "2026-11-10T09:53:55+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -25,7 +25,7 @@ discovered_via: "betalist:home"
 # Tryterrapin
 
 > [!info] 一句话导读
-> size-9 rounded-full hover:bg-gray-100 flex items-center justify-center
+> class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:…
 
 > [!meta]- 语料信息（点开展开）
 > 来源：BetaList（project）
@@ -33,7 +33,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2025-08-25
 > 项目链接：<https://tryterrapin.com/waitlist>
-> 采集：2026-11-05T11:23:58+08:00　|　id：`d97975d5356a588c`
+> 采集：2026-11-10T09:53:55+08:00　|　id：`d97975d5356a588c`
 
 ## 正文
 
@@ -58,11 +58,9 @@ Help
  Refer a friend
  Affiliates
 theme#toggle"
- class="
- size-9 rounded-full hover:bg-gray-100 flex items-center justify-center
- dark:hover:bg-gray-800 text-gray-500 dark:text-gray-400
- "
+ class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white"
  title="Toggle theme"
+ aria-label="Toggle theme"
  >
 Log in
 Submit Startup
@@ -77,11 +75,11 @@ Get early access to our private beta and one month fre, no credit card required
 Visit Site
 Visit Site
 Topics
+Productivity Software
+Artificial Intelligence
+Finance Technology
 Freelancers
 Small and Medium Businesses
-Finance Technology
-Artificial Intelligence
-Productivity Software
 Featured
 August 25, 2025
 Request changes
@@ -98,9 +96,9 @@ TradePilot
  Scan rooms with your iPhone, get AI estimates built on your actual rates.
 Signed
  Manage startup investments, diligence, and taxes in one place
-FlowMRR
+aSERP
  BOOSTED
- Turn your Stripe subscription data into clear, actionable revenue insights
+ Track how AI engines mention, cite, and recommend your brand
  BOOSTED
 talat
  The private meeting notes app with 100% on-device AI
@@ -108,10 +106,12 @@ Clearical
  AI-powered time tracking for knowledge workers
 Tarly AI
  Edit resumes via prompts (like Cursor); get a personal website in 1 minute
-WZRD
+Space
  BOOSTED
- Turn plain ideas into interactive docs, forms, and decks that converse
+ TESTFLIGHT
+ Send files and text instantly using a six-character code
  BOOSTED
+ TESTFLIGHT
 Retuner AI
  AI resume tailor and free builder to beat ATS filters
 auth-dialog#closeOnBackdrop close->auth-dialog#reset turbo:before-cache@document->auth-dialog#close"

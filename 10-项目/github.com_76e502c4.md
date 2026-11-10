@@ -2,14 +2,14 @@
 type: "project"
 title: "deepseek-ai/dsh-superagent-prototype"
 project_url: "https://github.com/deepseek-ai/dsh-superagent-prototype"
-first_seen: "2026-11-09T09:42:31+08:00"
+first_seen: "2026-11-10T09:53:42+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - TypeScript
-  - created:>2026-10-26
+  - created:>2026-10-27
 lang: "en"
 ---
 
@@ -20,10 +20,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/deepseek-ai/dsh-superagent-prototype>
-> 首次收录：2026-11-09T09:42:31+08:00
+> 首次收录：2026-11-10T09:53:42+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：TypeScript, created:>2026-10-26
-> 最新指标：stars=21214 · forks=2540 · open_issues=0
+> 标签：TypeScript, created:>2026-10-27
+> 最新指标：stars=21773 · forks=2612 · open_issues=0
 
 ## 观测历史
 
@@ -36,6 +36,7 @@ lang: "en"
 | 2026-11-07T09:45:54+08:00 | GitHub 新星仓库 | stars=20268 · forks=2355 · open_issues=0 | [[20-语料/posts/github_new/2026-11-02/76e502c4ebad39b1_deepseek-ai-dsh-superagent-prototype]] |
 | 2026-11-08T12:53:14+08:00 | GitHub 新星仓库 | stars=20903 · forks=2473 · open_issues=0 | [[20-语料/posts/github_new/2026-11-02/76e502c4ebad39b1_deepseek-ai-dsh-superagent-prototype]] |
 | 2026-11-09T09:42:31+08:00 | GitHub 新星仓库 | stars=21214 · forks=2540 · open_issues=0 | [[20-语料/posts/github_new/2026-11-02/76e502c4ebad39b1_deepseek-ai-dsh-superagent-prototype]] |
+| 2026-11-10T09:53:42+08:00 | GitHub 新星仓库 | stars=21773 · forks=2612 · open_issues=0 | [[20-语料/posts/github_new/2026-11-02/76e502c4ebad39b1_deepseek-ai-dsh-superagent-prototype]] |
 
 ## 摘要正文
 

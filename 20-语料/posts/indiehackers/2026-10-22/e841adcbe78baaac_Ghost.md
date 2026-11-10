@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/ghost"
 project_url: "https://blog.ghost.org/2-0"
-captured_at: "2026-11-09T09:43:11+08:00"
+captured_at: "2026-11-10T09:54:20+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://blog.ghost.org/2-0>
-> 采集：2026-11-09T09:43:11+08:00　|　id：`e841adcbe78baaac`
+> 采集：2026-11-10T09:54:20+08:00　|　id：`e841adcbe78baaac`
 
 ## 正文
 
@@ -43,7 +43,7 @@ Ghost
 Visit Website
 Ghost Indie subscription platform for creators
  Posts 5
- Revenue $854K / mo
+ Revenue $844K / mo
  Website Twitter Facebook
 May 23, 2022
  Ghost 5.0
