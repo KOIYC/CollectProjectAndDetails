@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-11T15:12:36+08:00",
+  "kind": "renamed_link",
+  "note": "语料页改名后悬空链接的改写（旧页已删，按 seen.note 反算规范名）",
+  "pairs": [
+    {
+      "from": "1c15f5b532962bc6_Gemini-Agent-for-Google-Cloud",
+      "to": "20-语料/posts/producthunt/2026-09-22/1c15f5b532962bc6_MuJoCo-4"
+    },
+    {
+      "from": "5849db5c215c04d6_Trace-by-Context",
+      "to": "20-语料/posts/producthunt/2026-09-21/5849db5c215c04d6_Inspo-by-Context.dev"
+    }
+  ]
+}

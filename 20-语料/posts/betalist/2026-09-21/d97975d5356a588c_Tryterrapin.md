@@ -7,7 +7,7 @@ source_name: "BetaList"
 url: "https://betalist.com/startups/tryterrapin"
 project_url: "https://tryterrapin.com/waitlist"
 published_at: "2025-08-25"
-captured_at: "2026-11-10T09:53:55+08:00"
+captured_at: "2026-11-11T13:39:55+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -25,7 +25,7 @@ discovered_via: "betalist:home"
 # Tryterrapin
 
 > [!info] 一句话导读
-> class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:…
+> Search startups and topics
 
 > [!meta]- 语料信息（点开展开）
 > 来源：BetaList（project）
@@ -33,15 +33,15 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2025-08-25
 > 项目链接：<https://tryterrapin.com/waitlist>
-> 采集：2026-11-10T09:53:55+08:00　|　id：`d97975d5356a588c`
+> 采集：2026-11-11T13:39:55+08:00　|　id：`d97975d5356a588c`
 
 ## 正文
 
 BetaList
-Home
- Browse
+Search startups and topics
+/
+Browse topics
  Newsletter
- Search
 Help
  Advertise
  Refer a friend
@@ -49,14 +49,6 @@ Help
 Startup Jobs
  Vision Pro apps
  Room AI
-Home
- Browse
- Newsletter
- Search
-Help
- Advertise
- Refer a friend
- Affiliates
 theme#toggle"
  class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white"
  title="Toggle theme"
@@ -64,59 +56,78 @@ theme#toggle"
  >
 Log in
 Submit Startup
-Back to all startups
-Terrapin BOOSTED
+Home
+ Search
+ Browse topics
+ Newsletter
+Help
+ Advertise
+ Refer a friend
+ Affiliates
+Terrapin
+Boosted
 Turn receipts, email & photos into clean, tax-ready insights, automatically
+Visit website
+Save
+ Saved
 Terrapin is a receipt proof automation platform built for freelancers, 1099 contractors, and self-employed workers. We automatically find, match, and organise your business receipts - so you never miss a deduction again.
 Most freelancers lose thousands every year to receipts they can't find at tax time. Terrapin fixes that by connecting to the places your receipts already live - your email inbox, bank accounts, and camera roll - and doing the work for you. No manual uploads, no spreadsheets, no shoeboxes.
 We match each receipt to the right transaction, categorize it, and separate business from personal expenses. When it's time to file, export a CPA-ready bundle - no chasing, no gaps.
 Get early access to our private beta and one month fre, no credit card required
 → https://www.tryterrapin.com/waitlist
-Visit Site
-Visit Site
 Topics
-Productivity Software
-Artificial Intelligence
-Finance Technology
-Freelancers
-Small and Medium Businesses
+💾 Productivity Software
+🤖 Artificial Intelligence
+💵 Finance Technology
+💻 Freelancers
+🏠 Small and Medium Businesses
 Featured
-August 25, 2025
+ August 25, 2025
 Request changes
 Edit makers
 Get your badge
 Report this startup
  Manage collections
-Discover startups similar to Terrapin
+More like Terrapin
+Startups doing something similar, featured in the last two years
 FreeDAST
  SPONSOR
- Scan your live site for risks and get a clear security grade
- SPONSOR
+Scan your live site for risks and get a clear security grade
 TradePilot
- Scan rooms with your iPhone, get AI estimates built on your actual rates.
+Scan rooms with your iPhone, get AI estimates built on your actual rates.
 Signed
- Manage startup investments, diligence, and taxes in one place
-aSERP
- BOOSTED
- Track how AI engines mention, cite, and recommend your brand
- BOOSTED
+Manage startup investments, diligence, and taxes in one place
+Outshot
+ Boosted
+Turn your website into daily short videos for TikTok, Reels, and Shorts
 talat
- The private meeting notes app with 100% on-device AI
+The private meeting notes app with 100% on-device AI
 Clearical
- AI-powered time tracking for knowledge workers
+AI-powered time tracking for knowledge workers
 Tarly AI
- Edit resumes via prompts (like Cursor); get a personal website in 1 minute
-Space
- BOOSTED
- TESTFLIGHT
- Send files and text instantly using a six-character code
- BOOSTED
- TESTFLIGHT
+Edit resumes via prompts (like Cursor); get a personal website in 1 minute
+Whacka
+ Boosted
+AI app builder: describe your app in any language, get a real working app
 Retuner AI
- AI resume tailor and free builder to beat ATS filters
+AI resume tailor and free builder to beat ATS filters
+Supamail AI
+Turn Email Chaos Into Clarity
+The Final Tape
+Audit your trades with AI to find and fix costly mistakes
+Graav
+See your real Etsy profit with clear margins and trend insights
+Visit website
+Save
+quick-look#closed click->quick-look#closeOnBackdrop keydown->quick-look#keydown turbo:click->quick-look#leave turbo:frame-load->quick-look#loaded turbo:before-cache@document->quick-look#hide"
+ class="slide-over fixed inset-y-3 right-3 left-auto m-0 h-auto max-h-none w-[520px] max-w-[calc(100vw-1.5rem)] overflow-y-auto overscroll-contain rounded-3xl bg-white p-0 text-gray-900 shadow-2xl outline-none ring-1 ring-gray-900/10 backdrop:bg-gray-950/30 backdrop:backdrop-blur-[2px] dark:bg-gray-950 dark:text-gray-100 dark:ring-white/10 dark:backdrop:bg-black/60">
+↑
+ ↓
+ to browse
+Open page
 auth-dialog#closeOnBackdrop close->auth-dialog#reset turbo:before-cache@document->auth-dialog#close"
  aria-label="Log in or sign up"
- class="m-auto w-[min(28rem,calc(100vw-2rem))] max-h-[calc(100dvh-2rem)] rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 shadow-2xl p-0 backdrop:bg-gray-500/75 dark:backdrop:bg-black/80 backdrop:backdrop-blur-sm">
+ class="pop-in m-auto w-[min(26rem,calc(100vw-2rem))] max-h-[calc(100dvh-2rem)] rounded-3xl bg-white text-gray-900 shadow-2xl ring-1 ring-gray-900/10 p-0 outline-none backdrop:bg-gray-950/30 backdrop:backdrop-blur-[2px] dark:bg-gray-950 dark:text-gray-100 dark:ring-white/10 dark:backdrop:bg-black/60">
 
 ## 关联链接
 

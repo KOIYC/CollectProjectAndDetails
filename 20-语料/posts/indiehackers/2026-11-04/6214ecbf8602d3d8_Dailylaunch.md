@@ -5,7 +5,7 @@ title: "Dailylaunch"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/dailylaunch"
-captured_at: "2026-11-10T09:54:20+08:00"
+captured_at: "2026-11-11T13:40:10+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-10T09:54:20+08:00　|　id：`6214ecbf8602d3d8`
+> 采集：2026-11-11T13:40:10+08:00　|　id：`6214ecbf8602d3d8`
 
 ## 正文
 
@@ -41,8 +41,30 @@ DailyLaunch
  Launch your product and discover powerful SaaS tools.
 Visit Website
 DailyLaunch Launch your product and discover powerful SaaS tools.
- Posts 8
+ Posts 9
  Website Twitter
+November 9, 2026
+ Every platform gets that one user who thinks he’s a hacker
+When I launched DailyLaunch, I expected makers to submit their products and launch. Most of them do exactly that.
+ But there’s always one.
+ The user who doesn’t read the rules, he reads them looking for gaps. The one who thinks he’s a pentester, even though nobody hired him.
+ He tries to skip the review queue. He plays with the URLs to reach pages he shouldn’t see. He sends weird inputs in the form just to see what breaks. He creates extra accounts to get around the limits.
+ He’s not confused. He knows exactly what he’s doing.
+ And every time, I end up doing the same thing:
+ Find out what he tried
+Tighten the middleware so it can’t happen again
+Update the terms of service so it’s clearly not allowed
+Wait for the next “hacker”
+What I learned
+ Assume someone will poke at everything. If a route, a form or a limit exists, someone will try to bypass it. Build like that from day one.
+Never trust the frontend. Hiding a button doesn’t protect anything. The real checks belong on the server.
+Your ToS is your backup. Middleware blocks the attempt, the terms give you the right to ban the person behind it.
+It’s free security testing. Annoying, yes. But every attempt showed me a weak spot I fixed before it became a real problem.
+So if you’re building something public, don’t panic when it happens. Log it, patch it, update your rules, and keep shipping.
+ Have you had your own "self-proclaimed hacker" yet? What did he try?
+fabienlk
+4 Upvotes
+Comment
 November 8, 2026
  Proof That You Don't Need a Unicorn Idea to Ship
 Over the past few months running DailyLaunch.io , I've had the chance to review a steady stream of new projects coming through the platform.
@@ -56,7 +78,7 @@ Over the past few months running DailyLaunch.io , I've had the chance to review 
  To everyone who has shared a tool or checked out what others are building—thank you for keeping that energy going!
  What’s a project you’ve shipped recently, or a small idea sitting on your computer that you’re working to put out there next? Let's chat in the comments!
 fabienlk
-4 Upvotes
+5 Upvotes
 Comment
 November 8, 2026
  From 0 to 500 Products: How DailyLaunch Grew in a Crowded Market

@@ -8,7 +8,7 @@ url: "https://github.com/heydamir/unslop"
 project_url: "https://github.com/heydamir/unslop"
 author: "heydamir"
 published_at: "2026-10-29T15:41:21Z"
-captured_at: "2026-11-10T09:53:42+08:00"
+captured_at: "2026-11-11T13:39:40+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - JavaScript
-  - created:>2026-10-27
-metrics: {"stars": 12784, "forks": 718, "open_issues": 5}
+  - created:>2026-10-28
+metrics: {"stars": 13943, "forks": 778, "open_issues": 5}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/heydamir/unslop>
-> 指标：stars=12784 · forks=718 · open_issues=5
+> 指标：stars=13943 · forks=778 · open_issues=5
 > 作者：heydamir　|　发布：2026-10-29T15:41:21Z
 > 项目链接：<https://github.com/heydamir/unslop>
-> 采集：2026-11-10T09:53:42+08:00　|　id：`9aab5ec375395ca5`
+> 采集：2026-11-11T13:39:40+08:00　|　id：`9aab5ec375395ca5`
 
 ## 正文
 

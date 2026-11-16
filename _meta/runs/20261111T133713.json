@@ -1,0 +1,98 @@
+{
+ "run_id": "20261111T133713",
+ "started_at": "2026-11-11T15:09:59+08:00",
+ "ended_at": "2026-11-11T15:09:59+08:00",
+ "elapsed_s": null,
+ "channels": [
+  {
+   "source_id": "betalist",
+   "status": "ok",
+   "count": 12,
+   "message": "重建自 raw · new=4 chg=8 ref=0",
+   "new": 4,
+   "changed": 8,
+   "refresh": 0
+  },
+  {
+   "source_id": "c1c7",
+   "status": "ok",
+   "count": 7,
+   "message": "重建自 raw · new=0 chg=2 ref=5",
+   "new": 0,
+   "changed": 2,
+   "refresh": 5
+  },
+  {
+   "source_id": "devto",
+   "status": "ok",
+   "count": 6,
+   "message": "重建自 raw · new=1 chg=1 ref=4",
+   "new": 1,
+   "changed": 1,
+   "refresh": 4
+  },
+  {
+   "source_id": "github_new",
+   "status": "ok",
+   "count": 11,
+   "message": "重建自 raw · new=2 chg=9 ref=0",
+   "new": 2,
+   "changed": 9,
+   "refresh": 0
+  },
+  {
+   "source_id": "hn_show",
+   "status": "ok",
+   "count": 40,
+   "message": "重建自 raw · new=40 chg=0 ref=0",
+   "new": 40,
+   "changed": 0,
+   "refresh": 0
+  },
+  {
+   "source_id": "indiehackers",
+   "status": "ok",
+   "count": 20,
+   "message": "重建自 raw · new=0 chg=18 ref=2",
+   "new": 0,
+   "changed": 18,
+   "refresh": 2
+  },
+  {
+   "source_id": "producthunt",
+   "status": "ok",
+   "count": 30,
+   "message": "重建自 raw · new=28 chg=2 ref=0",
+   "new": 28,
+   "changed": 2,
+   "refresh": 0
+  },
+  {
+   "source_id": "reddit",
+   "status": "ok",
+   "count": 17,
+   "message": "重建自 raw · new=17 chg=0 ref=0",
+   "new": 17,
+   "changed": 0,
+   "refresh": 0
+  },
+  {
+   "source_id": "v2ex",
+   "status": "ok",
+   "count": 20,
+   "message": "重建自 raw · new=10 chg=1 ref=9",
+   "new": 10,
+   "changed": 1,
+   "refresh": 9
+  }
+ ],
+ "notes_written": null,
+ "errors": [
+  "重建记录：kb_collect 收尾 write_ledger NameError 致 log.finish() 未执行（已修 import）；本记录由 tools/_rebuild_run_record.py 从 90-原始 按 run_id 重放"
+ ],
+ "reconstructed": true,
+ "total_items": 163,
+ "total_new": 102,
+ "total_update": 41,
+ "total_refresh": 20
+}

@@ -27,8 +27,8 @@ lang: "en"
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-22T12:57:00+08:00 | Product Hunt | — | [[20-语料/posts/producthunt/2026-09-22/1c15f5b532962bc6_Gemini-Agent-for-Google-Cloud]] |
-| 2026-10-10T10:02:40+08:00 | Product Hunt | — | [[20-语料/posts/producthunt/2026-09-22/1c15f5b532962bc6_Gemini-Agent-for-Google-Cloud]] |
+| 2026-09-22T12:57:00+08:00 | Product Hunt | — | [[20-语料/posts/producthunt/2026-09-22/1c15f5b532962bc6_MuJoCo-4]] |
+| 2026-10-10T10:02:40+08:00 | Product Hunt | — | [[20-语料/posts/producthunt/2026-09-22/1c15f5b532962bc6_MuJoCo-4]] |
 
 ## 摘要正文
 

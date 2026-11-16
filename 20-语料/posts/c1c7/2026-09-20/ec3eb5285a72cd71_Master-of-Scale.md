@@ -6,7 +6,7 @@ source: "c1c7"
 source_name: "1c7 中文独立开发者名录"
 url: "https://mastersofscale.com"
 project_url: "https://mastersofscale.com/"
-captured_at: "2026-11-07T09:47:14+08:00"
+captured_at: "2026-11-11T13:41:58+08:00"
 lang: "zh"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "1c7:readme"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://mastersofscale.com/>
-> 采集：2026-11-07T09:47:14+08:00　|　id：`ec3eb5285a72cd71`
+> 采集：2026-11-11T13:41:58+08:00　|　id：`ec3eb5285a72cd71`
 
 ## 正文
 
@@ -44,33 +44,33 @@ Masters of Scale – Home
 
 New episodes every Tuesday & Friday in the Rapid Response podcast feed and YouTube channel.
 
-## Demis Hassabis: Society is “not ready” for the AI future
+## From underdogs to disruptors
 
- Google DeepMind’s Demis Hassabis
+ Tubi’s Anjali Sud
 
-Demis Hassabis joins Reid Hoffman to talk about how to effectively govern frontier AI, why a more diverse group of experts need a seat at the table, and more.
+ e.l.f. Brands’ Kory Marchisotto
+
+Free streaming and prestige-quality makeup at drugstore prices both sound like they must come with a catch. For Tubi and e.l.f. Beauty, that skepticism became the opening.
 
 ## Pioneers of AI
 
 Your weekly guide to AI, hosted by Dr. Rana el Kaliouby. New episodes every Wednesday.
 
- Where AI goes from here
-
-OpenAI’s Sarah Friar
-
- Rich Roll’s ‘crash course’ in entrepreneurship
-
-Rich Roll’s ‘crash course’ in entrepreneurship
-
  Building a marketplace from scratch
-
-Hipcamp’s Alyssa Ravasio
 
  Don't be boring
 
-Creative Planning’s Jamie Battmer KCRW’s Jennifer Ferro
+Golden State Valkyries’s Jess Smith Creative Planning’s Jamie Battmer
+
+How to build a billion-dollar sports team
+
+Life With Machines’s Baratunde Thurston
+
+Upwork’s Hayden Brown
 
 Autodesk’s Dara Treseder
+
+Warp Sciences’ DJ Patil
 
 Spicewell’s Raina Kumra Gardiner
 

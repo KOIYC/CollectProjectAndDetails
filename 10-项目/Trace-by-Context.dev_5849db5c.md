@@ -27,8 +27,8 @@ lang: "en"
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-21T09:47:40+08:00 | Product Hunt | — | [[20-语料/posts/producthunt/2026-09-21/5849db5c215c04d6_Trace-by-Context.dev]] |
-| 2026-11-08T12:55:00+08:00 | Product Hunt | — | [[20-语料/posts/producthunt/2026-09-21/5849db5c215c04d6_Trace-by-Context.dev]] |
+| 2026-09-21T09:47:40+08:00 | Product Hunt | — | [[20-语料/posts/producthunt/2026-09-21/5849db5c215c04d6_Inspo-by-Context.dev]] |
+| 2026-11-08T12:55:00+08:00 | Product Hunt | — | [[20-语料/posts/producthunt/2026-09-21/5849db5c215c04d6_Inspo-by-Context.dev]] |
 
 ## 摘要正文
 

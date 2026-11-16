@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/structura"
 published_at: "2026-09-12"
-captured_at: "2026-10-11T09:46:54+08:00"
+captured_at: "2026-11-11T13:39:55+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -24,7 +24,7 @@ discovered_via: "betalist:home"
 # Structura
 
 > [!info] 一句话导读
-> size-9 rounded-full hover:bg-gray-100 flex items-center justify-center
+> Search startups and topics
 
 > [!meta]- 语料信息（点开展开）
 > 来源：BetaList（project）
@@ -32,82 +32,107 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-09-12
 > 项目链接：—
-> 采集：2026-10-11T09:46:54+08:00　|　id：`7282f11c862ada5c`
+> 采集：2026-11-11T13:39:55+08:00　|　id：`7282f11c862ada5c`
 
 ## 正文
 
 BetaList
-Home
- Browse
+Search startups and topics
+/
+Browse topics
  Newsletter
- Search
-FAQ
+Help
  Advertise
- Support
+ Refer a friend
+ Affiliates
 Startup Jobs
  Vision Pro apps
-Home
- Browse
- Newsletter
- Search
-FAQ
- Advertise
- Support
+ Room AI
 theme#toggle"
- class="
- size-9 rounded-full hover:bg-gray-100 flex items-center justify-center
- dark:hover:bg-gray-800 text-gray-500 dark:text-gray-400
- "
+ class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white"
  title="Toggle theme"
+ aria-label="Toggle theme"
  >
 Log in
 Submit Startup
-Back to all startups
-Structura BOOSTED
+Home
+ Search
+ Browse topics
+ Newsletter
+Help
+ Advertise
+ Refer a friend
+ Affiliates
+Structura
+Boosted
 Publish 3 SEO-optimized blog posts a day, hands-off
+Visit website
+Save
+ Saved
 Structura is an autonomous content engine for WordPress and headless sites. It runs the whole publishing lifecycle unattended — keyword research, strategy, writing, authority links, images, a 20+ point SEO protocol, and publishing — on a schedule you set. The output is real Gutenberg blocks, not pasted HTML: clean to edit, theme-agnostic.
 On publish, posts fan out to Slack, Discord, Telegram, WhatsApp, LinkedIn or any webhook. Connect Google Search Console for per-post performance and a ranked list of what to improve next. Publishes natively to WordPress, or to any stack via a Content API. Bring your own OpenAI, Gemini or Claude key, or take a managed plan. Free plan available.
 Use code LAUNCH50 for 50% off your first year
-Visit Site
-Visit Site
 Makers
 Structura
 Topics
-Content Marketing
-Blogging Platforms
-Search Engine Optimization
-Marketing Automation
+📣 Content Marketing
+💻 Blogging Platforms
+🔍 Search Engine Optimization
+🤖 Marketing Automation
+Platforms
+🔗 API
+💬 Slack
+🎮 Discord
+✈️ Telegram
+📞 WhatsApp
+📰 WordPress
 Featured
-September 12, 2026
+ September 12, 2026
 Request changes
+Edit makers
 Get your badge
 Report this startup
  Manage collections
-Discover startups similar to Structura
+More like Structura
+Startups doing something similar, featured in the last two years
 FreeDAST
  SPONSOR
- Scan your live site for risks and get a clear security grade
- SPONSOR
+Scan your live site for risks and get a clear security grade
 SeoSmart
- Automate long-form SEO content, publishing, and backlinks at scale
+Automate long-form SEO content, publishing, and backlinks at scale
 AnswerPress
- Plan and publish data-driven content that ranks and gets recommended
-PitchMonster
- BOOSTED
- Practice sales calls with AI buyers and get instant coaching
- BOOSTED
+Plan and publish data-driven content that ranks and gets recommended
+Jaah
+ Boosted
+Delegate engineering work to AI agents with reviews, records, and rules
 LeafPad
- Automate keyword research, blog writing, and publishing to rank
+Automate keyword research, blog writing, and publishing to rank
 WordPress AI Plugin
- Generate and publish SEO-optimized articles to WordPress in 60 seconds
+Generate and publish SEO-optimized articles to WordPress in 60 seconds
 BlazeHive
- Automate SEO research, writing, and daily publishing to grow traffic
-SmartBI
- BOOSTED
- AI copilot that turns marketing data into next steps
- BOOSTED
+Automate SEO research, writing, and daily publishing to grow traffic
+Aria
+ Boosted
+Free color analysis and honest verdicts before you buy
 Writex
- Fully automate SEO article writing for your Next.js app
+Fully automate SEO article writing for your Next.js app
+CoreProse
+Generate 3,000-word SEO articles with verified sources quickly
+Lyra
+Automate blog SEO with topic discovery, writing, fact-checking, and PRs
+GeoCopy
+Publish AI-citable articles that drive traffic from chatbots
+Visit website
+Save
+quick-look#closed click->quick-look#closeOnBackdrop keydown->quick-look#keydown turbo:click->quick-look#leave turbo:frame-load->quick-look#loaded turbo:before-cache@document->quick-look#hide"
+ class="slide-over fixed inset-y-3 right-3 left-auto m-0 h-auto max-h-none w-[520px] max-w-[calc(100vw-1.5rem)] overflow-y-auto overscroll-contain rounded-3xl bg-white p-0 text-gray-900 shadow-2xl outline-none ring-1 ring-gray-900/10 backdrop:bg-gray-950/30 backdrop:backdrop-blur-[2px] dark:bg-gray-950 dark:text-gray-100 dark:ring-white/10 dark:backdrop:bg-black/60">
+↑
+ ↓
+ to browse
+Open page
+auth-dialog#closeOnBackdrop close->auth-dialog#reset turbo:before-cache@document->auth-dialog#close"
+ aria-label="Log in or sign up"
+ class="pop-in m-auto w-[min(26rem,calc(100vw-2rem))] max-h-[calc(100dvh-2rem)] rounded-3xl bg-white text-gray-900 shadow-2xl ring-1 ring-gray-900/10 p-0 outline-none backdrop:bg-gray-950/30 backdrop:backdrop-blur-[2px] dark:bg-gray-950 dark:text-gray-100 dark:ring-white/10 dark:backdrop:bg-black/60">
 
 ## 导航
 

@@ -5,7 +5,7 @@ title: "Citewing"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/citewing"
-captured_at: "2026-11-07T09:46:15+08:00"
+captured_at: "2026-11-11T13:40:10+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-07T09:46:15+08:00　|　id：`ed4ad7227abdc9a3`
+> 采集：2026-11-11T13:40:10+08:00　|　id：`ed4ad7227abdc9a3`
 
 ## 正文
 
@@ -41,8 +41,37 @@ CiteWing
  Get recommended by AI
 Visit Website
 CiteWing Get recommended by AI
- Posts 7
+ Posts 8
  Website
+November 10, 2026
+ I got my SaaS recommended #1 by ChatGPT. Here’s exactly what I did
+In June I built a tool that collects wedding and event photos into one private album.
+ Basically guests scan a QR code and upload from their browser. Nothing to download.
+ Back in July if you asked ChatGPT for the best photo event tool, It wasn't even mentioned
+ But now, for months I consistently get users from ChatGPT
+ What I did is simple
+ Did a list of questions my potential customers may ask AI
+ Then I checked if AI could even read my site (sometimes AI crawlers are blocked)
+ Then made pages for each of the question I listed, indexed them on Google AND Bing
+ Then checked what pages ChatGPT was citing to recommend my competitors.
+ Did a list of 25-30 pages and emailed all of them
+ Offered a link-swap, where they mention my brand in their page and I mention theirs in my page
+ 7 people agreed, others 3 had to paid for $200 total (mentions are not that expensive), others didn't reply even after follow ups
+ Then made sure their pages were reindexed, emailed several times to make them to do it
+ After that I built a bunch of pages
+ AI likes 4 types of content.
+ Listicles (Best of X in 2026), Reviews (Review of competitor A), Comparisons (competitor A vs competitor B) and Alternatives (Alternative to competitor A)
+ For each type do 5-10 of pages. Try to do them as high quality as possible. Take the pages that AI already cites and tell your AI coding tool to make a better version of it
+ unlike SEO, AI doesn't care that much about DA your domain has. At the moment showing up in ChatGPT my domain had 6 DA. it's almost NOTHING for ranking in SEO
+ My pages got cited when websites with DR 40 didn't
+ Now I get 50 users a month from ChatGPT
+ Which is cool cuz ChatGPT is the least traffic source I get (around 2-3 clicks a day) but most conversions unlike SEO or other traffic sources
+ bruh I even decided to automate it, made a tool citewing , built some pages and forgot about it. 3 months later some dude paid $100 because it was recommended by ChatGPT.
+ People just trust AI nowadays, which is incredible
+ I hope it was helpful :)
+Tom Han
+12 Upvotes
+1 Comment
 November 6, 2026
  I made $0 from SEO for 5 months, then 2 mentions in AI-cited lists brought 31 signups in a week
 Ok so for five months I basically got nothing from SEO, like I was writing posts every week and maybe got 40 visitors a day on a good day, and the money side was a flat zero lol. Honestly I was about to give up on content and just throw the little budget I had left at ads, which felt awful tbh
@@ -50,7 +79,7 @@ Ok so for five months I basically got nothing from SEO, like I was writing posts
  Both replied within three days, one said yes right away and the other wanted a screenshot of the feature which was fine. Within a week I had 31 signups, and I'd guess like 20ish came from clicks off those two listings, maybe 6 from Google after that, and the rest I genuinely can't trace back to anything. Part of me thinks I just got lucky with timing, part of me thinks the pitch was specific enough that the owners didn't feel like they were getting spammed
  The part that isn't working is directories, I submitted to like 15 of them and got maybe 2 approvals, and most of my cold emails to random blogs just get ignored, so I'm still stuck on how to find pages that get cited instead of just pages that rank. Right now I'm mostly guessing which ones are worth the email and that feels kinda like starting over every time
 Tom Han
-5 Upvotes
+6 Upvotes
 6 Comments
 November 2, 2026
  Our 45 referring domains lose AI citations to a 2021 blog with 60, what's driving it?
@@ -60,7 +89,7 @@ For one query, the core one every founder in this space types in, I checked whic
  My guess is the cited pages answer the question in the first two lines with a clean list, while ours buries the answer under a long intro. I’m fixing the canonical this week and restructuring the top of the page. I haven’t confirmed the canonical is what’s suppressing citations, so I’ll post an update if the fix changes anything. What I’m still unsure of is how much weight to put on structure versus links.
  I’m building a tool called CiteWing around this exact problem because doing this check by hand took me a week.
 Tom Han
-23 Upvotes
+24 Upvotes
 2 Comments
 October 28, 2026
  pulled 60 pages that ChatGPT keeps citing for 'best [category] tools', only 9 had a contact email on the page

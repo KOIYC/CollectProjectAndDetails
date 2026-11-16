@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/link-mesh"
 project_url: "https://github.com/businesstrip-ship-it/N8N-autoposting-from-RSS-to-WordPress"
-captured_at: "2026-10-26T09:45:11+08:00"
+captured_at: "2026-11-11T13:40:10+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://github.com/businesstrip-ship-it/N8N-autoposting-from-RSS-to-WordPress>
-> 采集：2026-10-26T09:45:11+08:00　|　id：`d387c5afa61c8aea`
+> 采集：2026-11-11T13:40:10+08:00　|　id：`d387c5afa61c8aea`
 
 ## 正文
 
@@ -42,9 +42,18 @@ Link Mesh
  Semantic AI Internal Linking Plugin for WordPress
 Visit Website
 Link Mesh Semantic AI Internal Linking Plugin for WordPress
- Posts 9
+ Posts 10
  Revenue $0 / mo
  Website
+November 10, 2026
+ Reddit is changing its data access. My monitoring tool is built differently.
+Reddit has announced that RSS feeds will stop working on November 13, 2026. And that's not all: its public API is also being phased out, with the remaining access scheduled to end in March 2027. This means quite a few existing tools, integrations and monitoring workflows will need to adapt or simply stop working.
+ I've been building ThreadSignal as a small side project. Its goal is simple: help indie hackers and founders find potential customers by monitoring Reddit discussions around specific keywords. The interesting part? ThreadSignal doesn't rely on Reddit's RSS feeds or public API. It uses a different data collection method, so these upcoming changes won't break its core functionality.
+ It's completely free. No credit card, no Reddit account, no complicated setup. Just enter your keywords and discover conversations where people are already looking for solutions.
+ I'm continuing to improve it and would love to hear what other indie hackers think. Are you using Reddit to find potential customers? And how are you planning to deal with these upcoming changes?
+Vladimir Che
+4 Upvotes
+Comment
 October 25, 2026
  Struggling to get your first customers? Try this free Reddit tool
 I built LinkMesh and learned how hard it is to get your first customers. It’s even harder than you think if you don’t have thousands of followers on Twitter or LinkedIn - or a big advertising budget.
@@ -71,9 +80,10 @@ All those "100+ free directories to launch your startup" lists have devolved int
  Curious to hear your thoughts: Do you still bother submitting to these directories during a launch, or is this channel completely dead unless you bring your own audience?
 Vladimir Che
 1 Upvote
-1 Comment
+2 Comments
 September 14, 2026
  Chasing AI Traffic? Why AEO/GEO is Useless Without Good Old SEO
+https://linkmesh.co/documentation.html
  Yesterday, I rolled out a major update and added an llms.txt module.
 Everyone is obsessed with getting their sites noticed by AI right now. But many forget a basic truth: AI engines will never cite you if your baseline SEO is poor and Google doesn't even know you exist.
 Our plugin was originally built strictly for internal linking, but it has evolved into a real SEO powerhouse for WordPress. Here is what’s under the hood now:
@@ -87,7 +97,6 @@ Link migrator
 But the market dictates the rules—everyone is asking for AEO (Answer Engine Optimization) and GEO (Generative Engine Optimization). So, we are stepping up to develop it.
 Right now, you can try all of this completely for free. You get 100 links for any WordPress site using our smart AI-powered matching engine.
 https://linkmesh.co/
-linkmesh.co
 Vladimir Che
 1 Upvote
 Comment
@@ -174,7 +183,7 @@ Vladimir Che
 4 Comments
 About
  AI Internal linking is one of the most powerful on-page SEO levers, but it becomes completely unmanageable as a WordPress site grows. I created Link Mesh because SEO professionals needed a way to automate this at scale.
- People
+People
  Vladimir Che Founder
 Stay informed as an indie hacker.
  Market insights that help you start and grow your business.
@@ -192,6 +201,7 @@ Databases
 
 - https://linkmesh.co/
 - https://linkmesh.co/#pricing
+- https://linkmesh.co/documentation.html
 
 ## 导航
 

@@ -2,7 +2,7 @@
 type: "project"
 title: "Citewing"
 project_url: "https://www.indiehackers.com/product/citewing"
-first_seen: "2026-11-07T09:46:15+08:00"
+first_seen: "2026-11-11T13:40:10+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://www.indiehackers.com/product/citewing>
-> 首次收录：2026-11-07T09:46:15+08:00
+> 首次收录：2026-11-11T13:40:10+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -33,7 +33,8 @@ lang: "en"
 | 2026-10-26T09:45:11+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/ed4ad7227abdc9a3_Citewing]] |
 | 2026-11-04T09:54:15+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/ed4ad7227abdc9a3_Citewing]] |
 | 2026-11-07T09:46:15+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/ed4ad7227abdc9a3_Citewing]] |
+| 2026-11-11T13:40:10+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/ed4ad7227abdc9a3_Citewing]] |
 
 ## 摘要正文
 
-Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join CiteWing  Get recommended by AI Visit Website CiteWing Get recommended by AI  Posts 7  Website November 6, 2026  I made $0 from SEO for 5 months, then 2 mentions in AI-cited lists brought 31 signups in a week Ok so for five months I basically got nothing from SEO, like I was writing posts every week and maybe got 40 visitors a day on a good day, and the money side was a flat zero lol. Honestly I was about to give up on content and just throw the little budget I had left at ads, which felt awful tbh  Then I started checking which pages chatbot answers were pulling from when people asked stuff like best invoicing software for freelancers, and it was mostly old listicles nobody had touched in years. I picked two that were a bit outdated but still relevant, found the person who maintained each page, and sent a short note asking if they'd consider adding a mention, nothing salesy, just what CiteWing does for people in that niche and why I thought it fit their list  Both replied within three days, one said yes right away and the other wanted a …
+Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join CiteWing  Get recommended by AI Visit Website CiteWing Get recommended by AI  Posts 8  Website November 10, 2026  I got my SaaS recommended #1 by ChatGPT. Here’s exactly what I did In June I built a tool that collects wedding and event photos into one private album.  Basically guests scan a QR code and upload from their browser. Nothing to download.  Back in July if you asked ChatGPT for the best photo event tool, It wasn't even mentioned  But now, for months I consistently get users from ChatGPT  What I did is simple  Did a list of questions my potential customers may ask AI  Then I checked if AI could even read my site (sometimes AI crawlers are blocked)  Then made pages for each of the question I listed, indexed them on Google AND Bing  Then checked what pages ChatGPT was citing to recommend my competitors.  Did a list of 25-30 pages and emailed all of them  Offered a link-swap, where they mention my brand in their page and I mention theirs in my page  7 people agreed, others 3 had to paid for $200 total (mentions are not that expensiv…

@@ -1,8 +1,8 @@
 {
- "run_id": "20261030T094227",
- "started_at": "2026-10-30T09:42:27+08:00",
- "ended_at": "2026-10-30T09:45:26+08:00",
- "elapsed_s": 179.4,
+ "run_id": "20261111T133452",
+ "started_at": "2026-11-11T13:34:52+08:00",
+ "ended_at": "2026-11-11T13:37:05+08:00",
+ "elapsed_s": 133.1,
  "channels": [
   {
    "source_id": "hn_show",
@@ -10,15 +10,15 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 4.0
+   "elapsed_s": 1.8
   },
   {
    "source_id": "reddit",
    "name": "Reddit 独立开发版块",
    "status": "ok",
    "count": 3,
-   "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
-   "elapsed_s": 20.5
+   "message": "3 posts; selfhosted: 422: Unprocessable Entity; indiedev: 422: Unprocessable Entity · 探针保留全部 8 个 sub与原阈值（口径同采集）",
+   "elapsed_s": 36.0
   },
   {
    "source_id": "github_new",
@@ -26,7 +26,7 @@
    "status": "ok",
    "count": 3,
    "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 3.8
+   "elapsed_s": 1.9
   },
   {
    "source_id": "betalist",
@@ -34,7 +34,7 @@
    "status": "ok",
    "count": 3,
    "message": "3 startups · 发布日 3/3",
-   "elapsed_s": 5.6
+   "elapsed_s": 8.4
   },
   {
    "source_id": "indiehackers",
@@ -42,7 +42,7 @@
    "status": "ok",
    "count": 3,
    "message": "23 products",
-   "elapsed_s": 11.7
+   "elapsed_s": 11.2
   },
   {
    "source_id": "devto",
@@ -50,7 +50,7 @@
    "status": "ok",
    "count": 2,
    "message": "2 articles",
-   "elapsed_s": 1.9
+   "elapsed_s": 3.3
   },
   {
    "source_id": "producthunt",
@@ -58,7 +58,7 @@
    "status": "ok",
    "count": 3,
    "message": "3 entries",
-   "elapsed_s": 1.3
+   "elapsed_s": 3.7
   },
   {
    "source_id": "v2ex",
@@ -66,15 +66,15 @@
    "status": "ok",
    "count": 3,
    "message": "20 topics",
-   "elapsed_s": 1.1
+   "elapsed_s": 0.9
   },
   {
    "source_id": "bilibili",
    "name": "B 站",
    "status": "ok",
    "count": 3,
-   "message": "7 videos",
-   "elapsed_s": 0.8
+   "message": "3 videos",
+   "elapsed_s": 1.6
   },
   {
    "source_id": "c1c7",
@@ -82,31 +82,31 @@
    "status": "ok",
    "count": 3,
    "message": "9 entries · 收录日 9",
-   "elapsed_s": 9.9
+   "elapsed_s": 3.0
   },
   {
    "source_id": "exa_discovery",
    "name": "Exa 全网语义发现",
-   "status": "ok",
-   "count": 3,
-   "message": "8 results",
-   "elapsed_s": 13.5
+   "status": "empty",
+   "count": 0,
+   "message": "0 results",
+   "elapsed_s": 8.5
   },
   {
    "source_id": "twitter",
    "name": "X / Twitter",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 18s\nok: false\nerr",
-   "elapsed_s": 42.0
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: \n<--- Last few GCs --->\n\n[12180:0000023B28942000] ",
+   "elapsed_s": 12.3
   },
   {
    "source_id": "xiaohongshu",
    "name": "小红书",
-   "status": "ok",
-   "count": 1,
-   "message": "1 items（1 路查询）",
-   "elapsed_s": 30.7
+   "status": "auth",
+   "count": 0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: \n\n#\n# Fatal process out of memory: Zone\n#\n----- Native stack",
+   "elapsed_s": 4.1
   }
  ],
  "notes_written": 0,
@@ -114,9 +114,9 @@
  "mode": "audit",
  "summary": {
   "total": 13,
-  "ok": 12,
-  "empty": 0,
+  "ok": 10,
+  "empty": 1,
   "error": 0,
-  "auth": 1
+  "auth": 2
  }
 }

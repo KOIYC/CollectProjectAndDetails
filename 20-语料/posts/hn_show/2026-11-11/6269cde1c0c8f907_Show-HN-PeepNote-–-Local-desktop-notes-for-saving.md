@@ -1,0 +1,350 @@
+---
+type: "corpus"
+item_id: "6269cde1c0c8f907"
+title: "Show HN: PeepNote – Local desktop notes for saving and reusing LLM responses"
+source: "hn_show"
+source_name: "HN Show HN"
+url: "https://news.ycombinator.com/item?id=50448161"
+project_url: "https://github.com/OddlyGoods/peep-note"
+author: "oddlyHoon"
+published_at: "2026-11-11T00:14:18Z"
+captured_at: "2026-11-11T13:37:17+08:00"
+lang: "en"
+kind: "post"
+topic: "AI 工具/Agent"
+shard: "2026-11-11"
+pub_day: "2026-11-11"
+tags:
+  - 语料
+  - hn_show
+  - author_oddlyHoon
+  - story_50448161
+  - show_hn
+metrics: {"points": 2, "comments": 0, "engagement_velocity": 2}
+comments_count: 0
+comments_total: 0
+discovered_via: "hn:show_hn:3d"
+---
+
+# Show HN: PeepNote – Local desktop notes for saving and reusing LLM responses
+
+> [!info] 一句话导读
+> OddlyGoods/peep-note
+
+> [!meta]- 语料信息（点开展开）
+> 来源：HN Show HN（post）
+> 原帖：<https://news.ycombinator.com/item?id=50448161>
+> 指标：点赞=2 · 评论=0 · engagement_velocity=2
+> 作者：oddlyHoon　|　发布：2026-11-11T00:14:18Z
+> 项目链接：<https://github.com/OddlyGoods/peep-note>
+> 采集：2026-11-11T13:37:17+08:00　|　id：`6269cde1c0c8f907`
+
+## 正文
+
+# OddlyGoods/peep-note
+
+Save and recall useful LLM responses, Markdown notes, and screenshots.
+
+- Stars: 4
+- Forks: 0
+- Watchers: 4
+- Open issues: 0
+- License: Apache License 2.0
+- Homepage: https://peep-note-site.web.app
+- Default branch: main
+- Created: 2026-10-27T01:51:40Z
+
+## Languages
+
+- CSS
+- HTML
+- JavaScript
+- Shell
+- TypeScript
+
+## Top Contributors
+
+- chYoo01 (263 contributions)
+
+---
+
+## README
+
+# PeepNote
+
+PeepNote is a local-first desktop app for saving useful LLM responses, recording your own thoughts, and finding them again while you work. Keep Markdown answers and screenshots together, recall them with a shortcut, and organize related records into AI summaries.
+
+> PeepNote keeps its application data on the local computer. AI summaries are optional and require an API key configured by the user.
+
+## News
+
+- **2026-11-09 — v1.3.0** — Added Map, recently viewed Quick List ordering, and Alt+X to toggle global shortcuts.
+- **2026-11-05 — v1.2.0** — Added Magic Pen and data folder switching.
+- **2026-11-03 — v1.1.8** — Added remote connection guides, configurable context length, and automatic batched AI summaries.
+- **2026-11-03 — v1.1.7** — Fixed Linux update errors and added HTTP API endpoint support.
+- **2026-10-30 — v1.1.5** — Added MCP support, save notifications, and AI connection testing.
+
+## See it in action
+
+### 1. Save LLM responses as Markdown notes
+
+Keep the answers worth revisiting without searching through a long conversation. Copy an LLM response, press `Alt+1`, choose **Markdown**, and paste it into a note. Save with `Ctrl+Enter`, then open the note to review its headings, tables, and code blocks.
+
+Copy an LLM response, save it as a Markdown note, and review the saved content
+
+### 2. Capture diagrams and screenshots
+
+Save the visual parts of an answer alongside your notes. Press `Alt+2`, drag to select a screen region, and capture a diagram, code example, or reference image. Open the saved screenshot to inspect the details.
+
+Select a screen region and review the saved diagram in PeepNote
+
+### 3. Recall notes with Quick List
+
+Bring saved answers back into your workflow without searching through the main window. Press `Alt+Q` to open Quick List and move to the next item; use `Alt+E` to go back. Open an item when you need its full content. Quick List uses the currently selected date range.
+
+Browse saved notes and screenshots with Quick List, then open a record
+
+### 4. Turn related notes into an AI summary
+
+Bring answers from multiple LLM conversations together. Use **Manage** to select related records, create a group, and click **AI Summary** to organize the material into one structured note. Summaries use the provider and API key configured in **Settings → AI settings**. Response language defaults to your PeepNote language; choose a specific language to use it for both summaries and Magic Pen replies. AI settings, Magic Pen and MCP each have their own **Save** button.
+
+Group related RAG notes and generate a structured AI summary
+
+### 5. Keep note previews private with Secret
+
+Enable **Secret** when creating a note to hide its content in list previews. Opening the saved note prompts for your four-digit PIN before showing its contents. Set your PIN in **Settings → Secret note lock**.
+
+Create a note with Secret enabled, then open it to see the PIN prompt
+
+### 6. Explore screen content with Magic Pen
+
+Press `Alt+S` and draw around text, a diagram, or anything you want to understand on your screen. Magic Pen explains the selected content in a movable response window. Ask follow-up questions by typing or selecting another area, then save the conversation as a Markdown note in your chosen workspace. Choose your AI API or an installed, signed-in AI tool in **Settings → AI settings → Magic Pen**.
+
+Select content with Magic Pen, ask a follow-up question, and save the conversation as a note
+
+## Configuration
+
+PeepNote opens directly to the main screen. There are no app accounts, login forms, Google sign-in, session tokens or authentication server. All windows use one local data space for notes, workspaces, settings and optional AI keys. OS user accounts still have their own application data directories.
+
+The optional `VITE_LOCAL_SERVER_PORT` setting in `.env.example` defaults to `3848`, separate from the original PeepNote app. It is read at build time. The API listens only on `127.0.0.1` and rejects unrelated browser origins and hosts. No API key is bundled: enter your own provider key in Settings only if you use AI summaries.
+
+The package and Linux executable are named `peep-note`. The app keeps its existing `open-peep-note` data directory and internal application ID so installed copies continue to read the same notes and settings after updates.
+
+## Features
+
+- Create text, Markdown, code, and HTML notes
+- Capture a selected screen region and record a selected screen region
+- Draw directly over the live screen with `Alt+S` to ask AI about a selected area. In **Settings → AI settings → Magic Pen**, choose **AI API** to use the provider and API key from AI settings, or **AI tools** to choose Codex, Claude Code, Gemini CLI, or Qwen Code (the selected CLI must be installed and signed in). Magic Pen remembers its own model and custom input for each provider and tool, separately from summaries. API models must support image input. A movable response window shows the provider, model and duration, supports follow-up questions and captures, and saves the conversation with its images as a Markdown note. The window closes after a successful save. Codex analysis does not save a Codex session; change or disable the shortcut in **Settings → Global shortcuts**.
+- Select and remember a preferred monitor for capture and recording
+- Organize records with workspaces, tags, date ranges, search, and groups
+- Restore deleted records from Trash during a configurable retention period (7, 10, 30, or 90 days; default 10), or permanently delete them. Individually deleted AI summaries are removed immediately; deleting a whole group keeps its summary in Trash with the group.
+- Search Korean and English text in screenshots and attached images using local OCR
+- Generate AI summaries with OpenAI, Claude, Gemini, or Qwen
+- Connect Codex and other MCP clients to search, save, edit and group non-secret notes
+- Use global shortcuts and a recent-record Quick List
+- Protect secret notes with a four-digit PIN and masked list previews
+- English, Korean, Japanese, and Simplified Chinese UI
+- Light and dark themes
+
+## Requirements
+
+### Development environment
+
+- Node.js 20 or newer
+- npm 10 or newer
+- Windows 10/11 or a current Linux distribution
+- Build installers on the target operating system when possible: Windows for `.exe`, Linux for `.deb`
+
+For Ubuntu 22.04 or newer, install Electron runtime dependencies:
+
+```bash
+sudo apt update
+sudo apt install -y build-essential libnss3 libatk1.0-0 libatk-bridge2.0-0 \
+  libcups2 libdrm2 libgtk-3-0 libgbm1 libasound2t64 libxss1 \
+  xdg-utils xdg-desktop-portal xdg-desktop-portal-gtk
+```
+
+On Ubuntu 22.04, the audio package can be named `libasound2` instead of `libasound2t64`.
+
+Wayland screen capture relies on PipeWire and an xdg-desktop-portal implementation for your desktop environment. Some Wayland compositors restrict global shortcuts; an Xorg session is the fallback if a shortcut cannot be registered.
+
+## Install and run
+
+### Development
+
+```bash
+git clone https://github.com/OddlyGoods/peep-note.git
+cd peep-note
+npm ci --onnxruntime-node-install-cuda=skip
+npm run dev
+```
+
+Stop the development process with `Ctrl+C`. If the app remains in the system tray, use **Quit** from the tray menu to terminate the Electron process completely.
+
+### Linux package
+
+Build a Debian package:
+
+```bash
+npm run build:linux
+```
+
+The package is written to `release/`:
+
+```bash
+sudo apt install ./release/PeepNote-*-linux-amd64.deb
+```
+
+To produce an unpacked build for a quick smoke test:
+
+```bash
+npm run build:linux:dir
+./release/linux-unpacked/peep-note
+```
+
+To update an existing PeepNote installation manually, install a newer `.deb` with the same command. Existing local records and settings are preserved.
+
+### Windows package
+
+Build the Windows installer on Windows:
+
+```powershell
+npm run build:win
+```
+
+The NSIS installer is written to `release/`. Run the generated `PeepNote-*-Setup.exe` and choose the normal install flow. Running the installer again updates an existing installation while preserving local records and settings.
+
+Windows supports the same core features as Linux, including notes, local storage, comments, themes, AI summaries, capture, recording, tray controls, and global shortcuts. Capture behavior, multi-monitor DPI scaling, and shortcut availability should still be smoke-tested on the target Windows setup.
+
+## Build commands
+
+| Command | Purpose |
+| --- | --- |
+| `npm run dev` | Run the development Electron app with Vite. |
+| `npm run build` | Build using electron-builder's default target. |
+| `npm run build:linux` | Build the Linux x64 Debian package. |
+| `npm run build:linux:dir` | Build an unpacked Linux x64 app in `release/linux-unpacked/`. |
+| `npm run build:win` | Build the Windows NSIS installer. |
+| `npm run release` | Create a release build and publish through the configured electron-builder provider. |
+| `npm run test:updates` | Test update state, retries, renderer recovery, installation and release validation without installing anything. |
+| `npm run verify:release` | Check the package/lockfile version and optional `RELEASE_TAG`. |
+
+## App updates
+
+Installed Windows and Ubuntu `.deb` builds check for updates automatically. To check manually, go to **Settings → App information → App updates → Check for updates**.
+
+Choose **Download**, then **Restart and install** when you are ready. Ubuntu may ask for administrator authentication. Notes, attachments, and settings are preserved. Development and unpacked builds do not support in-app updates.
+
+## Usage guide
+
+### Date navigation
+
+In **Settings → General**, **Automatically advance dates** updates the main list's end date to today when you reopen or refocus the app. By default, the start date moves with it to preserve the selected range length. Enable the separate **Fix start date** option to keep the selected start date and advance only the end date. Both options are saved independently; with automatic advancement off, the selected dates remain unchanged. You can still change dates manually. The separate Search screen uses its own date range.
+
+### Trash
+
+**Trash** is in the left navigation, below **Favorites**. Deleting a record, selected records, or a group moves its records to Trash and removes them from normal lists, search, Quick List, and calendar counts. Deleted groups appear as a single group, including their AI summary, and can be restored or permanently deleted together. Select records to restore them or permanently delete them. **Empty** permanently deletes all of the current user's trashed records after confirmation.
+
+### Image text search
+
+Open an image record and click **Extract text** to recognize its screenshot or attached images. Saving, opening, editing, restoring records, and launching the app never start extraction automatically. Interrupted requests must be started again. Korean and English recognition models ship with the app; OCR runs locally without an AI API key or uploading images. The first extraction prepares local models under the app's data directory. Extraction may take time for large images. Images larger than 40 MB are skipped; recognition accuracy depends on image quality and typography. Use **Search** to find previously extracted image text alongside titles and note contents.
+
+### Create a record
+
+1. Click **Add**, or open the quick composer with `Alt+1`.
+2. Choose **Note**, **Capture**, or **Video**.
+3. For notes, choose Text, Markdown, Code, or HTML.
+4. Add an optional title, content, tags, and workspace, then save.
+
+When adding files, choose **Link original files** to save space or **Copy to PeepNote** to keep an independent copy. Each attachment shows its mode. Linked originals are never deleted by PeepNote; moving or deleting them breaks the link.
+
+For screenshots and recordings, choose a region after selecting the capture action. Use the adjustment button next to the capture/record control in the main composer to choose a different monitor; PeepNote remembers the selected monitor for later captures.
+
+### Default global shortcuts
+
+| Shortcut | Action |
+| --- | --- |
+| `Alt+W` | Open or hide the main window |
+| `Alt+F` | Open the favorites list; hide the focused main window if the list is already open |
+| `Alt+1` | Open the quick composer |
+| `Alt+2` | Capture a screenshot region |
+| `Alt+3` | Start screen recording |
+| `Alt+4` | Stop screen recording |
+| `Alt+Q` | Open the Quick List / move to the next item while it is open |
+| `Alt+E` | Move to the previous Quick List item |
+
+Shortcuts can be changed in **Settings → Global shortcuts**.
+Use the **⋯** menu beside a shortcut to disable or re-enable it while keeping its key combination. Click **Save** to apply your changes.
+
+### Secret notes
+
+Enable the **Secret** badge while creating or editing a note to mask its preview in lists. Set a four-digit secret PIN in **Settings → Secret note lock**. Opening a secret note requests the PIN; after a successful entry, secret notes remain unlocked for one minute in the current app session.
+
+The PIN is stored as a hash, not plain text. A four-digit PIN is a convenience lock, not full-disk encryption; use operating-system account protection for highly sensitive data.
+
+### MCP connection
+
+PeepNote provides a local **Streamable HTTP** MCP server. No separate Node.js installation or cloud backend is needed for an installed app. Keep PeepNote running; it can remain in the tray.
+
+1. Open **Settings → AI settings → MCP** and turn on **Allow MCP connections**. It is off by default. Click **Save** at the bottom of the MCP card to apply your changes.
+2. Select **Codex**, **Claude Code**, or **Gemini CLI** to see its connection instructions.
+3. For Codex, click **Copy configuration**, add the block to `~/.codex/config.toml`, and fully restart Codex. For Claude Code or Gemini CLI, click **Copy command**, run it in your terminal, and restart that client. The command registers PeepNote for your user account. Check the connection with `/mcp` in Claude Code or `/mcp list` in Gemini CLI.
+4. Ask your client to “Find my RAG notes” or “Save this answer in PeepNote as Markdown.”
+
+The copied content includes the local server URL (normally `http://127.0.0.1:3848/mcp`) and its authorization header. The Claude and Gemini options are for **Claude Code** and **Gemini CLI**, rather than their web chat apps. For other clients, use **Streamable HTTP** with the displayed URL and private header.
+
+The connection configuration contains a dedicated MCP token, separate from AI provider API keys. Do not publish or share it. Saving MCP as disabled blocks access; enabling it again and saving generates a new token, so copy the configuration again. A custom local API port is reflected in the copied URL. Remote computers and cloud sessions cannot reach this loopback-only endpoint without a separate connection setup.
+
+Available tools: `search_notes`, `get_note`, `create_note`, `update_note` (replace or append), `set_favorite`, `list_workspaces`, `create_workspace`, `list_groups`, `create_group`, `trash_notes`, and `trash_group`.
+
+- Secret notes are excluded from search, results, counts and direct access. MCP cannot create, unlock, modify or delete them. Groups containing active secret notes cannot be deleted through MCP.
+- No settings, provider API keys, password hashes, attachment paths, file-reading tools, AI provider calls or permanent-deletion tools are exposed.
+- MCP deletion always moves records to Trash, including individually deleted AI summaries. Normal Trash retention and automatic expiry still apply. Whole groups and their summaries can be restored together in the app.
+- Creating groups requires ungrouped, non-secret notes from the same workspace. MCP changes refresh the app's lists; an open edit draft is preserved.
+- Notes returned to an MCP client may be sent to that client's AI model. Stored note text is data, not instructions for the client to execute.
+
+Run `npm run test:mcp` for protocol, authentication, secret-note exclusion, write and recovery tests. These use a real MCP client over loopback HTTP with a temporary database, not your notes.
+
+### AI summaries
+
+1. Open **Settings → AI settings**.
+2. Select a provider and model, then enter your API key.
+3. Create a group from selected records and press **AI Summary**.
+
+Summary titles and content use the app language selected in Settings, regardless of the language of the original records. Code, commands, URLs, and identifiers retain their original form.
+
+Secret note content is excluded from AI summaries. Video files are not uploaded for summaries; only relevant written record content is used.
+
+## Data and privacy
+
+Notes, attachments, and settings are stored on your computer. AI summaries are optional; using them sends the selected non-secret written content to the provider configured in Settings with your own API key. Image text extraction runs locally.
+
+Application data is stored locally. Typical locations are:
+
+```text
+Linux:   ~/.config/open-peep-note
+Windows: %APPDATA%/open-peep-note
+```
+
+The legacy directory name is retained for compatibility. It contains the local database, screenshots, recordings, and application settings. Back up this directory before reinstalling the operating system or moving to another computer.
+
+To choose a different data folder, open **Settings → App information → Data location → Change folder**. Select an empty folder, save any unfinished notes and settings, then confirm **Copy and restart**. PeepNote copies your records, managed media, OCR models, and settings and updates stored attachment paths before opening the new location. Original files are kept as a backup. Keep the selected drive available whenever you use the app.
+
+## License
+
+PeepNote is released under the Apache License 2.0.
+
+# README.md
+
+## 关联链接
+
+- http://127.0.0.1:3848/mcp`
+- https://github.com/OddlyGoods/peep-note.git
+- https://peep-note-site.web.app
+
+## 导航
+
+- 项目页：[[10-项目/github.com_c1b7168e]]
+- 渠道页：[[50-渠道/hn_show]]
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 同渠道/同赛道批量浏览：[[浏览]]

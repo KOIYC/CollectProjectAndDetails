@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/circlesaas"
 project_url: "https://circlesaasboard.com/"
-captured_at: "2026-11-05T11:24:10+08:00"
+captured_at: "2026-11-11T13:40:10+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://circlesaasboard.com/>
-> 采集：2026-11-05T11:24:10+08:00　|　id：`d2bccc43c69206ee`
+> 采集：2026-11-11T13:40:10+08:00　|　id：`d2bccc43c69206ee`
 
 ## 正文
 
@@ -42,9 +42,25 @@ CircleSaaS
  A free launch directory for Startups, AI and SaaS products.
 Visit Website
 CircleSaaS A free launch directory for Startups, AI and SaaS products.
- Posts 20
+ Posts 21
  Revenue $6 / mo
  Website
+November 9, 2026
+ Day 2 of Week 2 is live: 25 startups, your feedback decides what rises
+Day 2 of the Week 2 launch on CircleSaaS has started. 25 startups launched on Monday, and each of them is on the weekly list right now.
+ If you have a minute today, here is how you can help them:
+ Open the weekly launch list and try a few products.
+Leave a comment with honest feedback. One real sentence helps a maker more than ten upvotes.
+Upvote the ones you would actually use.
+Bookmark the ones you want to come back to.
+Pick a startup from the list and find its tile on the board. Each launch has a place there.
+After the week ends, every startup moves into the 30-day Hall of Fame, and claimed tiles stay on the board permanently.
+ If you are one of the 25 this week, reply to the comments you get. Makers who answer in the first days are the ones people remember.
+ Which startup from this week’s list would you try first?
+ P.S. If you haven’t submitted your product yet, do it now at circlesaasboard.com .
+Vikas Yadav
+7 Upvotes
+Comment
 October 29, 2026
  CircleSaaS is starting weekly launches from Monday, Nov 2
 I've been building CircleSaaS , a circular directory of startups. Every product gets a tile on one big board, and the closer to the center your tile sits, the bigger it is. 230 startups are already on it.
@@ -138,7 +154,7 @@ On launch
  The full version, with a 7-phase timeline, is here: https://circlesaasboard.com/blog/saas-launch-checklist
  If you haven’t listed your startup on circlesaasboard.com yet, you can submit it free.
 Vikas Yadav
-35 Upvotes
+36 Upvotes
 25 Comments
 October 23, 2026
  Looking for 50 more startups to list on CircleSaaS
@@ -217,28 +233,6 @@ Backlinks cost nothing in cash, but they do cost time. I wrote a guide to 15 fre
 Vikas Yadav
 26 Upvotes
 2 Comments
-October 17, 2026
- Best underrated subreddits to post your startup in 2027
-I spent a few days reading what ranks for this question, plus Reddit's own help pages. Most lists repeat the same big names, so here is the short version, with some underrated picks too.
- [The big ones]
- 🧭 r/startups, r/Entrepreneur, r/SaaS, /indiehackers, /micro_saas, /producthunters
-[Underrated ones worth a look]
- 🧪 r/alphaandbetausers: find testers before a wider launch
- 🔥 r/roastmystartup: blunt feedback on your landing page or pitch
- 📚 r/startup_resources: good for a product that solves one specific problem
- 🎨 r/design_critiques: UI/UX feedback before you ship
- 🤝 r/saasbuild: Share startups with ease
- 🚀 r/EntrepreneurRideAlong: share build-in-public updates
- Smaller communities often give more thoughtful replies, because fewer posts compete for attention.
- Two tips:
- 1. Reddit's own rule of thumb is about 1 post in 10 about your own work. Help first, then share.
- 2. Read each subreddit's sidebar before posting. Every community has its own rules.
- Which underrated subreddit has worked for you? Tell me in the comments.
- Full guide with the picks, a 4-week plan and what to check before posting:
- https://circlesaasboard.com/blog/best-subreddits-to-promote-and-market-your-startup-for-founders-b2b-saas-marketing-and-product-launch
-Vikas Yadav
-40 Upvotes
-27 Comments
 About
  A free launch directory for startups and SaaS products, shaped like a circle. Claim a tile, get your own SEO-optimized page and a dofollow backlink, and get found on Google, ChatGPT and Claude.
 People
@@ -257,7 +251,6 @@ Databases
 
 ## 关联链接
 
-- https://circlesaasboard.com/blog/best-subreddits-to-promote-and-market-your-startup-for-founders-b2b-saas-marketing-and-product-launch
 - https://circlesaasboard.com/blog/free-dofollow-backlinks-for-saas
 - https://circlesaasboard.com/blog/saas-launch-checklist
 
