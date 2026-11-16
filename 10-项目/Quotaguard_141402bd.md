@@ -2,7 +2,7 @@
 type: "project"
 title: "Quotaguard"
 project_url: "https://quotaguard.baremetrics.com/"
-first_seen: "2026-11-11T13:40:10+08:00"
+first_seen: "2026-11-16T10:02:55+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://quotaguard.baremetrics.com/>
-> 首次收录：2026-11-11T13:40:10+08:00
+> 首次收录：2026-11-16T10:02:55+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -40,7 +40,8 @@ lang: "en"
 | 2026-11-09T09:43:11+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/9930629dc0ba0d5c_Quotaguard]] |
 | 2026-11-10T09:54:20+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/9930629dc0ba0d5c_Quotaguard]] |
 | 2026-11-11T13:40:10+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/9930629dc0ba0d5c_Quotaguard]] |
+| 2026-11-16T10:02:55+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/9930629dc0ba0d5c_Quotaguard]] |
 
 ## 摘要正文
 
-Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join QuotaGuard  Static IP Proxies for Cloud-based Apps Visit Website QuotaGuard Static IP Proxies for Cloud-based Apps  Posts 24  Revenue $79K / mo  Website March 20, 2023  Integrating our Service with Addons.io Addons.io QuotaGuard grew out of the Heroku eco-system starting wayyyyy back in 2013. Since then, Heroku has seen a lot of, shall we say, "changes"? Yea, "changes" is a good word. One thing that we absolutely love about Heroku is the easy of use, especially setting up Add-on's for the marketplace. Since we've integrated with IBM Cloud ( what a gawd-awful cloud platform : do not recommend ), AWS, Azure, GCP, Render, and a few others, we're pretty attuned to how easy a marketplace is to integrate with and how much trouble it is for service to hitch into their eco-system. Recently we started working with some other Heroku add-on service providers that were trying to simplify this process by taking all the good of the Heroku design, but making it plug-and-play for other platforms-as-a-service companies. That's how we started working with …
+Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join Products DB Share Copied Retry Visit website  QuotaGuard Static IP Proxies for Cloud-based Apps $81.4k /mo  ✓ Verified Last 30 days Product type Software  Helps with Hosting & deployment, System security  Platforms Web  Business model Subscription  Started Nov 2015 Visit quotaguard.com Charts  12 months All time Revenue $79.7k in Oct Traffic rank Top 10M Revenue by month Jan 2020 $0  Feb 2020 $9k  Mar 2020 $15.4k  Apr 2020 $14.6k  May 2020 $14.9k  Jun 2020 $19.6k  Jul 2020 $15.3k  Aug 2020 $16.4k  Sep 2020 $15.6k  Oct 2020 $15.8k  Nov 2020 $14.8k  Dec 2020 $14.1k  Jan 2021 $17.2k  Feb 2021 $17.5k  Mar 2021 $18.1k  Apr 2021 $19.7k  May 2021 $28.6k  Jun 2021 $20.6k  Jul 2021 $20k  Aug 2021 $22.2k  Sep 2021 $22.2k  Oct 2021 $16.9k  Nov 2021 $21k  Dec 2021 $21.8k  Jan 2022 $21.7k  Feb 2022 $28.7k  Mar 2022 $24k  Apr 2022 $31.9k  May 2022 $25.3k  Jun 2022 $25.2k  Jul 2022 $24.8k  Aug 2022 $16.1k  Sep 2022 $21.8k  Oct 2022 $27.4k  Nov 2022 $26.2k  Dec 2022 $26.2k  Jan 2023 $18.7k  Feb 2023 $19.1k  Mar 2023 $25k  Apr 2023 $30.2k  May 2023 $28.9k…

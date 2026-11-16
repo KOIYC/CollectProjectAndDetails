@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-11T13:37:05+08:00",
+ "checked_at": "2026-11-16T09:59:33+08:00",
  "channels": [
   {
    "channel_id": "hn_show",
@@ -10,16 +10,16 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 1.8,
-   "probe_at": "2026-11-11T13:34:54+08:00",
+   "elapsed_s": 1.2,
+   "probe_at": "2026-11-16T09:55:02+08:00",
    "sample": [
     {
-     "title": "Show HN: Fastsleep.app – Imagine micro-scenarios to get sleepy",
-     "url": "https://news.ycombinator.com/item?id=50449576"
+     "title": "Show HN: Agency – give your agents the computer you own",
+     "url": "https://news.ycombinator.com/item?id=50512991"
     },
     {
-     "title": "Show HN: A trim size and margin calculator for self-published books",
-     "url": "https://news.ycombinator.com/item?id=50449479"
+     "title": "Show HN: gavel: guided code review with your coding agent",
+     "url": "https://news.ycombinator.com/item?id=50512685"
     }
    ]
   },
@@ -31,17 +31,17 @@
    "group": "海外社区",
    "status": "ok",
    "count": 3,
-   "message": "3 posts; selfhosted: 422: Unprocessable Entity; indiedev: 422: Unprocessable Entity · 探针保留全部 8 个 sub与原阈值（口径同采集）",
-   "elapsed_s": 36.0,
-   "probe_at": "2026-11-11T13:35:30+08:00",
+   "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
+   "elapsed_s": 28.0,
+   "probe_at": "2026-11-16T09:55:30+08:00",
    "sample": [
     {
-     "title": "the cold message everyone sends vs the one that booked 5x more meetings",
-     "url": "https://www.reddit.com/r/EntrepreneurRideAlong/comments/1xklxjz/the_cold_message_everyone_sends_vs_the_one_that/"
+     "title": "Is building a $10k/month solo SaaS better than chasing VC funding?",
+     "url": "https://www.reddit.com/r/SaaS/comments/1xp0j5q/is_building_a_10kmonth_solo_saas_better_than/"
     },
     {
-     "title": "My one-time $4.99 Mac app hit 105 sales in its first 4 weeks. Here's where they ",
-     "url": "https://www.reddit.com/r/microsaas/comments/1xkfhlu/my_onetime_499_mac_app_hit_105_sales_in_its_first/"
+     "title": "After eight years in 2D, Pyxel 3.0 has the world’s first (?) retro 3D engine bui",
+     "url": "https://www.reddit.com/r/IndieDev/comments/1xoxe3n/after_eight_years_in_2d_pyxel_30_has_the_worlds/"
     }
    ]
   },
@@ -54,16 +54,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 1.9,
-   "probe_at": "2026-11-11T13:35:32+08:00",
+   "elapsed_s": 7.3,
+   "probe_at": "2026-11-16T09:55:37+08:00",
    "sample": [
     {
-     "title": "storytold/craft-anything",
-     "url": "https://github.com/storytold/craft-anything"
+     "title": "Minireel/HGhub",
+     "url": "https://github.com/Minireel/HGhub"
     },
     {
-     "title": "deepseek-ai/dsh-superagent-prototype",
-     "url": "https://github.com/deepseek-ai/dsh-superagent-prototype"
+     "title": "janestreet/agent_skills",
+     "url": "https://github.com/janestreet/agent_skills"
     }
    ]
   },
@@ -76,16 +76,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 startups · 发布日 3/3",
-   "elapsed_s": 8.4,
-   "probe_at": "2026-11-11T13:35:40+08:00",
+   "elapsed_s": 2.8,
+   "probe_at": "2026-11-16T09:55:40+08:00",
    "sample": [
     {
-     "title": "Sheets Bootcamp",
-     "url": "https://betalist.com/startups/sheets-bootcamp"
+     "title": "Dojoto",
+     "url": "https://betalist.com/startups/dojoto"
     },
     {
-     "title": "Domiq",
-     "url": "https://betalist.com/startups/domiq"
+     "title": "Outshot",
+     "url": "https://betalist.com/startups/outshot"
     }
    ]
   },
@@ -98,16 +98,16 @@
    "status": "ok",
    "count": 3,
    "message": "23 products",
-   "elapsed_s": 11.2,
-   "probe_at": "2026-11-11T13:35:51+08:00",
+   "elapsed_s": 4.6,
+   "probe_at": "2026-11-16T09:55:44+08:00",
    "sample": [
     {
-     "title": "Launchon It",
-     "url": "https://www.indiehackers.com/product/launchon-it"
+     "title": "Circlesaas",
+     "url": "https://www.indiehackers.com/product/circlesaas"
     },
     {
-     "title": "Citewing",
-     "url": "https://www.indiehackers.com/product/citewing"
+     "title": "Viralhunt",
+     "url": "https://www.indiehackers.com/product/viralhunt"
     }
    ]
   },
@@ -120,16 +120,16 @@
    "status": "ok",
    "count": 2,
    "message": "2 articles",
-   "elapsed_s": 3.3,
-   "probe_at": "2026-11-11T13:35:54+08:00",
+   "elapsed_s": 0.8,
+   "probe_at": "2026-11-16T09:55:45+08:00",
    "sample": [
-    {
-     "title": "We Need to Talk About How Gross Modern Web Design Has Become (And How We Built a",
-     "url": "https://dev.to/dj29/we-need-to-talk-about-how-gross-modern-web-design-has-become-and-how-we-built-an-ai-to-catch-it-5gin"
-    },
     {
      "title": "I built a 3D game about my Nigerian childhood (and I'm not a game developer)",
      "url": "https://dev.to/deborahemeni1/i-built-a-3d-game-about-my-nigerian-childhood-and-im-not-a-game-developer-281g"
+    },
+    {
+     "title": "I Built a Visual System Design Reference — Switch Any Architecture Between AWS, ",
+     "url": "https://dev.to/amananandrai/i-built-a-visual-system-design-reference-switch-any-architecture-between-aws-azure-gcp-open-55og"
     }
    ]
   },
@@ -142,16 +142,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 entries",
-   "elapsed_s": 3.7,
-   "probe_at": "2026-11-11T13:35:58+08:00",
+   "elapsed_s": 0.8,
+   "probe_at": "2026-11-16T09:55:46+08:00",
    "sample": [
     {
-     "title": "gitmanual",
-     "url": "https://www.producthunt.com/products/gitmanual"
+     "title": "Talyn",
+     "url": "https://www.producthunt.com/products/talyn"
     },
     {
-     "title": "OpenVibe",
-     "url": "https://www.producthunt.com/products/openvibe-2"
+     "title": "Spiik",
+     "url": "https://www.producthunt.com/products/spiik"
     }
    ]
   },
@@ -164,16 +164,16 @@
    "status": "ok",
    "count": 3,
    "message": "20 topics",
-   "elapsed_s": 0.9,
-   "probe_at": "2026-11-11T13:35:59+08:00",
+   "elapsed_s": 0.8,
+   "probe_at": "2026-11-16T09:55:47+08:00",
    "sample": [
     {
-     "title": "在韩国放了一批 Mac mini 出租，另外有纯海外环境本地人实体卡开的 Claude Max / Ultra 号",
-     "url": "https://www.v2ex.com/t/1256123"
+     "title": "4800 个网站之后，我把帽子云升级为国内 Vercel 替代：网站、API、PostgreSQL、Redis，一个平台全搞定！",
+     "url": "https://www.v2ex.com/t/1257298"
     },
     {
-     "title": "[送永久 Pro] 做了个记录演唱会和音乐节的 App「也在场」，送一些永久会员兑换码",
-     "url": "https://www.v2ex.com/t/1256045"
+     "title": "招聘：\r\n预测市场做市与对冲负责人，\r\nAI Lab（C++），\r\nC++低延迟交易系统工程师，\r\n商务/BD/Senior BD/BDM（预测市场），\r\n高级",
+     "url": "https://www.v2ex.com/t/1257219"
     }
    ]
   },
@@ -185,17 +185,17 @@
    "group": "中文社媒",
    "status": "ok",
    "count": 3,
-   "message": "3 videos",
-   "elapsed_s": 1.6,
-   "probe_at": "2026-11-11T13:36:01+08:00",
+   "message": "6 videos",
+   "elapsed_s": 0.6,
+   "probe_at": "2026-11-16T09:55:47+08:00",
    "sample": [
     {
-     "title": "Golang开发日常，招的招，裁的裁",
-     "url": "https://www.bilibili.com/video/BV1W2xK6xEGM"
+     "title": "【视频播客】裁员潮下，互联网人该不该做独立开发？",
+     "url": "https://www.bilibili.com/video/BV1wHWo6ZEun"
     },
     {
-     "title": "一分钱不花，完成独立产品从0上线！2026年独立开发者免费全家桶",
-     "url": "https://www.bilibili.com/video/BV1sFWA6VEgC"
+     "title": "数字游民必看 | 独立开发者的出海赚钱实战经验分享!",
+     "url": "https://www.bilibili.com/video/BV1d9dKYxEiX"
     }
    ]
   },
@@ -208,8 +208,8 @@
    "status": "ok",
    "count": 3,
    "message": "9 entries · 收录日 9",
-   "elapsed_s": 3.0,
-   "probe_at": "2026-11-11T13:36:04+08:00",
+   "elapsed_s": 1.5,
+   "probe_at": "2026-11-16T09:55:49+08:00",
    "sample": [
     {
      "title": "Indie Hacker",
@@ -227,12 +227,21 @@
    "adapter": "exa_discovery",
    "auth": "cli",
    "group": "全网发现",
-   "status": "empty",
-   "count": 0,
-   "message": "0 results",
-   "elapsed_s": 8.5,
-   "probe_at": "2026-11-11T13:36:12+08:00",
-   "sample": []
+   "status": "ok",
+   "count": 3,
+   "message": "8 results",
+   "elapsed_s": 24.7,
+   "probe_at": "2026-11-16T09:56:13+08:00",
+   "sample": [
+    {
+     "title": "Play it now! – Mindlock – The Apartment",
+     "url": "https://mindlock.games/dev-log/play-it-now/"
+    },
+    {
+     "title": "Restless Inn is out – run a hotel where the ghosts check in too! news - IndieDB",
+     "url": "https://www.indiedb.com/games/restless-inn/news/restless-inn-is-out-run-a-hotel-where-the-ghosts-check-in-too"
+    }
+   ]
   },
   {
    "channel_id": "twitter",
@@ -242,9 +251,9 @@
    "group": "海外社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: \n<--- Last few GCs --->\n\n[12180:0000023B28942000] ",
-   "elapsed_s": 12.3,
-   "probe_at": "2026-11-11T13:36:24+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 20s\nok: false\nerr",
+   "elapsed_s": 82.4,
+   "probe_at": "2026-11-16T09:57:36+08:00",
    "sample": []
   },
   {
@@ -255,9 +264,9 @@
    "group": "中文社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: \n\n#\n# Fatal process out of memory: Zone\n#\n----- Native stack",
-   "elapsed_s": 4.1,
-   "probe_at": "2026-11-11T13:36:29+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: [rate-limiter] xiaohongshu: sleeping 24s\nok: false\nerror:\n  ",
+   "elapsed_s": 66.3,
+   "probe_at": "2026-11-16T09:58:42+08:00",
    "sample": []
   }
  ],
@@ -269,8 +278,8 @@
    "declared": "unverified",
    "delta": false,
    "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 20.0,
-   "probe_at": "2026-11-11T13:36:53+08:00"
+   "elapsed_s": 20.1,
+   "probe_at": "2026-11-16T09:59:13+08:00"
   },
   {
    "backend": "arctic_shift",
@@ -279,8 +288,8 @@
    "declared": "not_added",
    "delta": false,
    "message": "5 rows",
-   "elapsed_s": 3.1,
-   "probe_at": "2026-11-11T13:36:56+08:00"
+   "elapsed_s": 2.3,
+   "probe_at": "2026-11-16T09:59:15+08:00"
   },
   {
    "backend": "exa_web_fetch",
@@ -289,8 +298,8 @@
    "declared": "warn",
    "delta": false,
    "message": "1 url 返回正文",
-   "elapsed_s": 6.6,
-   "probe_at": "2026-11-11T13:37:02+08:00"
+   "elapsed_s": 13.5,
+   "probe_at": "2026-11-16T09:59:28+08:00"
   },
   {
    "backend": "github_gh",
@@ -298,15 +307,15 @@
    "status": "ok",
    "declared": "unverified",
    "delta": false,
-   "message": "remaining=5000",
-   "elapsed_s": 2.5,
-   "probe_at": "2026-11-11T13:37:05+08:00"
+   "message": "remaining=4973",
+   "elapsed_s": 4.2,
+   "probe_at": "2026-11-16T09:59:33+08:00"
   }
  ],
  "summary": {
   "total": 13,
-  "ok": 10,
-  "empty": 1,
+  "ok": 11,
+  "empty": 0,
   "error": 0,
   "auth": 2
  },
@@ -363,8 +372,8 @@
   },
   {
    "channel_id": "exa_discovery",
-   "action": "watch",
-   "status": "empty"
+   "action": "keep",
+   "status": "ok"
   },
   {
    "channel_id": "twitter",
@@ -379,7 +388,7 @@
  ],
  "agent_reach": {
   "ok": true,
-  "checked_at": "2026-11-11T13:36:33+08:00",
+  "checked_at": "2026-11-16T09:58:53+08:00",
   "version": "1.6.0",
   "error": null,
   "platforms": 14

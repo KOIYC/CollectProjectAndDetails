@@ -2,7 +2,7 @@
 type: "project"
 title: "Gingiris/gingiris-launch"
 project_url: "https://skills.sh/Gingiris/gingiris-launch"
-first_seen: "2026-11-11T13:39:41+08:00"
+first_seen: "2026-11-16T10:15:53+08:00"
 sources:
   - github_new
 tags:
@@ -15,21 +15,19 @@ lang: "en"
 # Gingiris/gingiris-launch
 
 > [!info] 一句话导读
-> 🚀 Product Hunt Launch Playbook — Proven tactics from 30x daily #1 winner. Complete go-to-market guide for AI products, startups & open source. Real case studies…
+> <div align="center">
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://skills.sh/Gingiris/gingiris-launch>
-> 首次收录：2026-11-11T13:39:41+08:00
+> 首次收录：2026-11-16T10:15:53+08:00
 > 来源渠道：GitHub 新星仓库
 > 标签：topic:indie-hacker
-> 最新指标：stars=216 · forks=29 · open_issues=2
+> 最新指标：stars=216 · forks=28 · open_issues=3
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T09:49:14+08:00 | GitHub 新星仓库 | stars=205 · forks=29 · open_issues=2 | [[20-语料/posts/github_new/2026-09-20/ab56183769a3cfcb_Gingiris-gingiris-launch]] |
-| 2026-09-20T09:55:17+08:00 | GitHub 新星仓库 | stars=205 · forks=29 · open_issues=2 | [[20-语料/posts/github_new/2026-09-20/ab56183769a3cfcb_Gingiris-gingiris-launch]] |
 | 2026-09-21T09:45:28+08:00 | GitHub 新星仓库 | stars=207 · forks=29 · open_issues=2 | [[20-语料/posts/github_new/2026-09-20/ab56183769a3cfcb_Gingiris-gingiris-launch]] |
 | 2026-09-21T09:54:58+08:00 | GitHub 新星仓库 | stars=207 · forks=29 · open_issues=2 | [[20-语料/posts/github_new/2026-09-20/ab56183769a3cfcb_Gingiris-gingiris-launch]] |
 | 2026-09-22T13:06:00+08:00 | GitHub 新星仓库 | stars=207 · forks=29 · open_issues=2 | [[20-语料/posts/github_new/2026-09-20/ab56183769a3cfcb_Gingiris-gingiris-launch]] |
@@ -88,7 +86,9 @@ lang: "en"
 | 2026-11-10T09:53:44+08:00 | GitHub 新星仓库 | stars=216 · forks=29 · open_issues=2 | [[20-语料/posts/github_new/2026-09-20/ab56183769a3cfcb_Gingiris-gingiris-launch]] |
 | 2026-11-10T10:01:59+08:00 | GitHub 新星仓库 | stars=216 · forks=29 · open_issues=2 | [[20-语料/posts/github_new/2026-09-20/ab56183769a3cfcb_Gingiris-gingiris-launch]] |
 | 2026-11-11T13:39:41+08:00 | GitHub 新星仓库 | stars=216 · forks=29 · open_issues=2 | [[20-语料/posts/github_new/2026-09-20/ab56183769a3cfcb_Gingiris-gingiris-launch]] |
+| 2026-11-16T10:02:34+08:00 | GitHub 新星仓库 | stars=216 · forks=28 · open_issues=3 | [[20-语料/posts/github_new/2026-09-20/ab56183769a3cfcb_Gingiris-gingiris-launch]] |
+| 2026-11-16T10:15:53+08:00 | GitHub 新星仓库 | stars=216 · forks=28 · open_issues=3 | [[20-语料/posts/github_new/2026-09-20/ab56183769a3cfcb_Gingiris-gingiris-launch]] |
 
 ## 摘要正文
 
-🚀 Product Hunt Launch Playbook — Proven tactics from 30x daily #1 winner. Complete go-to-market guide for AI products, startups & open source. Real case studies: Manus, Devin, AFFiNE.
+# Go-to-Market Strategy Playbook  ### The complete product hunt launch playbook & startup launch checklist — go-to-market strategy, how to launch on product hunt, KOL outreach, viral marketing  [![GitHub stars](https://img.shields.io/github/stars/Gingiris/gingiris-launch?style=social)](https://github.com/Gingiris/gingiris-launch/stargazers) [![GitHub forks](https://img.shields.io/github/forks/Gingiris/gingiris-launch?style=social)](https://github.com/Gingiris/gingiris-launch/network/members) [![GitHub watchers](https://img.shields.io/github/watchers/Gingiris/gingiris-launch?style=social)](https://github.com/Gingiris/gingiris-launch/watchers) [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT) [![Website](https://img.shields.io/badge/Website-gingiris.com-blue)](https://www.gingiris.com) [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Gingiris/gingiris-launch/pulls) [![Last Commit](https://img.shields.io/github/last-commit/Gingiris/gingiris-launch?color=blue)](https://github.com/Gingiris/gingiris-launch/commits/main) [![Contributors](https://img.shields.io/github/contributors/Gingiris…

@@ -11,7 +11,7 @@ published_at: "2026-11-01T10:17:44+08:00"
 captured_at: "2026-11-11T13:38:39+08:00"
 lang: "en"
 kind: "post"
-topic: "移动 App"
+topic: AI 工具/Agent
 shard: "2026-11-11"
 pub_day: "2026-11-01"
 tags:
@@ -78,5 +78,5 @@ so just to say, sometimes do some crazy creative stuff :)
 
 - 项目页：[[10-项目/v.redd.it_39283407]]
 - 渠道页：[[50-渠道/reddit]]
-- 赛道：`移动 App`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

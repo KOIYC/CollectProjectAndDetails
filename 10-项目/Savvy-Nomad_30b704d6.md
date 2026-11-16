@@ -2,7 +2,7 @@
 type: "project"
 title: "Savvy Nomad"
 project_url: "https://www.indiehackers.com/product/savvy-nomad"
-first_seen: "2026-11-11T13:40:10+08:00"
+first_seen: "2026-11-16T10:02:55+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://www.indiehackers.com/product/savvy-nomad>
-> 首次收录：2026-11-11T13:40:10+08:00
+> 首次收录：2026-11-16T10:02:55+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -43,7 +43,8 @@ lang: "en"
 | 2026-11-09T09:43:11+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/30b704d6223258d4_Savvy-Nomad]] |
 | 2026-11-10T09:54:20+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/30b704d6223258d4_Savvy-Nomad]] |
 | 2026-11-11T13:40:10+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/30b704d6223258d4_Savvy-Nomad]] |
+| 2026-11-16T10:02:55+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/30b704d6223258d4_Savvy-Nomad]] |
 
 ## 摘要正文
 
-Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join Savvy Nomad  Domicile service for American nomads Visit Website Savvy Nomad Domicile service for American nomads  Post 1  Revenue $283K / mo  Website February 18, 2025  Out story The idea for SavvyNomad sparked when one of our co-founders, Jameson, was on a nomadic journey in Morocco. While there, he crossed paths with a group of surfers from California who had been living abroad for years with no plans to return to the U.S., but were struggling to make the U.S. tax system adapt to their new lifestyle. Jameson, who is from Nevada — a state with zero income taxes — had studied accounting extensively at Northwestern University and knew there had to be a better way for Americans abroad to manage their taxes.  With his brother, a full-time RVer and fellow CPA, Jameson realized that while there were some solutions for RVers and domestic travelers, no one was addressing the unique tax needs of expats and digital nomads. That’s when the vision for SavvyNomad was born — a service designed to help American nomads and expats legally reduce their ta…
+Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join Products DB Share Copied Retry Visit website  Savvy Nomad Domicile service for American nomads $305k /mo  ✓ Verified Last 30 days Product type Service  Helps with Legal & compliance, Taxes  Platforms Web · Remote service  Business model Subscription  Founders 1  Started Apr 2023 Visit savvynomad.io Charts  12 months All time Revenue $297k in Oct Traffic rank Top 5M Revenue by month Feb 2024 $455  Mar 2024 $2.1k  Apr 2024 $3.5k  May 2024 $4.7k  Jun 2024 $4.9k  Jul 2024 $6.7k  Aug 2024 $10.4k  Sep 2024 $7.3k  Oct 2024 $12.5k  Nov 2024 $24.6k  Dec 2024 $23.5k  Jan 2025 $30.1k  Feb 2025 $44.8k  Mar 2025 $51.2k  Apr 2025 $75.2k  May 2025 $80.5k  Jun 2025 $65.5k  Jul 2025 $72.3k  Aug 2025 $99.2k  Sep 2025 $128k  Oct 2025 $142k  Nov 2025 $149k  Dec 2025 $200k  Jan 2026 $152k  Feb 2026 $187k  Mar 2026 $232k  Apr 2026 $258k  May 2026 $275k  Jun 2026 $289k  Jul 2026 $218k  Aug 2026 $280k  Sep 2026 $289k  Oct 2026 $297k Stripe · verified · monthly revenue, not including the current month · through Oct 2026  The founders  1 founder  Bo  Founder · @bo…

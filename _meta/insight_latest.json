@@ -1,33 +1,33 @@
 {
-  "generated": "2026-11-10T10:11:13+08:00",
-  "n_live": 4705,
-  "n_usable": 4158,
-  "n_project": 3648,
-  "signals": 81,
+  "generated": "2026-11-16T10:25:11+08:00",
+  "n_live": 4932,
+  "n_usable": 4360,
+  "n_project": 3825,
+  "signals": 84,
   "topics": [
     [
       "AI 工具/Agent",
-      2569
+      2692
     ],
     [
       "开发者工具",
-      854
+      888
     ],
     [
       "未分类",
-      408
+      439
     ],
     [
       "游戏",
-      104
+      108
     ],
     [
       "移动 App",
-      82
+      87
     ],
     [
       "SaaS/B2B",
-      73
+      75
     ],
     [
       "内容/媒体",
@@ -35,7 +35,7 @@
     ],
     [
       "教育/学习",
-      15
+      17
     ],
     [
       "电商/独立站",
@@ -43,7 +43,7 @@
     ],
     [
       "健康/生活",
-      10
+      11
     ],
     [
       "浏览器扩展",
@@ -83,6 +83,23 @@
       }
     },
     {
+      "key": "host:play.google.com",
+      "channels": [
+        "hn_show",
+        "indiehackers",
+        "reddit",
+        "v2ex"
+      ],
+      "n_channels": 4,
+      "title": "How I went from a Word document to my own local-first password manager for Android",
+      "url": "https://play.google.com/store/apps/details?id=com.nick.applab.silentsaver",
+      "metrics": {
+        "score": 3,
+        "comments": 3,
+        "upvote_ratio": 1
+      }
+    },
+    {
       "key": "host:pypi.org",
       "channels": [
         "github_new",
@@ -112,22 +129,6 @@
         "points": 6,
         "comments": 2,
         "engagement_velocity": 6
-      }
-    },
-    {
-      "key": "host:play.google.com",
-      "channels": [
-        "hn_show",
-        "indiehackers",
-        "reddit"
-      ],
-      "n_channels": 3,
-      "title": "How I went from a Word document to my own local-first password manager for Android",
-      "url": "https://play.google.com/store/apps/details?id=com.nick.applab.silentsaver",
-      "metrics": {
-        "score": 3,
-        "comments": 3,
-        "upvote_ratio": 1
       }
     },
     {
@@ -174,6 +175,21 @@
       }
     },
     {
+      "key": "host:claude.ai",
+      "channels": [
+        "devto",
+        "hn_show"
+      ],
+      "n_channels": 2,
+      "title": "A Small Laptop Is a Full Build Kit: Bootstrapping with a Chromebook, Claude, and GitHub",
+      "url": "https://claude.ai/",
+      "metrics": {
+        "reactions": 26,
+        "comments": 9,
+        "reading_time": 18
+      }
+    },
+    {
       "key": "host:indiehackers.com",
       "channels": [
         "exa_discovery",
@@ -200,14 +216,20 @@
       }
     }
   ],
-  "money_signal_n": 1761,
-  "money_evidence_n": 621,
+  "money_signal_n": 1854,
+  "money_evidence_n": 664,
   "money_quotes": [
     {
       "source": "betalist",
       "title": "Us Realtor List",
       "url": "https://betalist.com/startups/us-realtor-list",
       "quote": "paying, then purchase a one-time download via Stripe with transparent pricing based on list size. Files include name, email, phone, brokerage, city, state, and optiona"
+    },
+    {
+      "source": "betalist",
+      "title": "Aria",
+      "url": "https://betalist.com/startups/aria",
+      "quote": "s GlamGuide The beauty app that knows your skin, hair, and style FlowMRR Boosted Turn your Stripe subscription data into clear, actionable revenue insights Zen"
     },
     {
       "source": "betalist",
@@ -268,20 +290,14 @@
       "title": "Unjumbl",
       "url": "https://betalist.com/startups/unjumbl",
       "quote": "njumbl turns a photo of a messy room into a step-by-step decluttering plan divided into 15-minute zones, sorting items into collect, donate, or trash. If you're uns"
-    },
-    {
-      "source": "betalist",
-      "title": "Telegram Video Downloader",
-      "url": "https://betalist.com/startups/telegram-video-downloader",
-      "quote": "afe, human-like actions BoostBerry The Best All-in-One Platform to Monetize Your Community Whacka BOOSTED Turn any idea into your own mobile app with no code fr"
     }
   ],
   "pain_n": {
-    "当前方案不好用": 139,
-    "在找替代品": 85,
-    "做不出来/卡住": 187,
-    "愿意付钱": 106,
-    "想要而找不到": 19
+    "当前方案不好用": 145,
+    "在找替代品": 91,
+    "做不出来/卡住": 190,
+    "愿意付钱": 112,
+    "想要而找不到": 21
   },
   "by_channel": [
     {
@@ -294,72 +310,72 @@
     {
       "id": "betalist",
       "profile": "linkpost",
-      "n": 342,
-      "ok": 341,
-      "rate": 0.9970760233918129
+      "n": 351,
+      "ok": 350,
+      "rate": 0.9971509971509972
     },
     {
       "id": "producthunt",
       "profile": "linkpost",
-      "n": 702,
-      "ok": 695,
-      "rate": 0.99002849002849
+      "n": 757,
+      "ok": 751,
+      "rate": 0.9920739762219286
     },
     {
       "id": "indiehackers",
       "profile": "linkpost",
-      "n": 184,
-      "ok": 180,
-      "rate": 0.9782608695652174
+      "n": 189,
+      "ok": 186,
+      "rate": 0.9841269841269841
     },
     {
       "id": "hn_show",
       "profile": "discussion",
-      "n": 2147,
-      "ok": 2038,
-      "rate": 0.9492314857941313
+      "n": 2227,
+      "ok": 2114,
+      "rate": 0.9492590929501572
     },
     {
       "id": "bilibili",
       "profile": "metadata",
-      "n": 81,
-      "ok": 76,
-      "rate": 0.9382716049382716
+      "n": 84,
+      "ok": 78,
+      "rate": 0.9285714285714286
     },
     {
       "id": "exa_discovery",
       "profile": "discover",
-      "n": 48,
-      "ok": 40,
+      "n": 54,
+      "ok": 45,
       "rate": 0.8333333333333334
     },
     {
       "id": "devto",
       "profile": "discussion",
-      "n": 29,
-      "ok": 23,
-      "rate": 0.7931034482758621
+      "n": 33,
+      "ok": 26,
+      "rate": 0.7878787878787878
     },
     {
       "id": "v2ex",
       "profile": "discussion",
-      "n": 282,
-      "ok": 204,
-      "rate": 0.723404255319149
+      "n": 309,
+      "ok": 224,
+      "rate": 0.7249190938511327
     },
     {
       "id": "github_new",
       "profile": "project",
-      "n": 94,
-      "ok": 66,
-      "rate": 0.7021276595744681
+      "n": 100,
+      "ok": 71,
+      "rate": 0.71
     },
     {
       "id": "reddit",
       "profile": "discussion",
-      "n": 788,
-      "ok": 491,
-      "rate": 0.6230964467005076
+      "n": 820,
+      "ok": 511,
+      "rate": 0.6231707317073171
     },
     {
       "id": "c1c7",
@@ -369,5 +385,5 @@
       "rate": 0.42857142857142855
     }
   ],
-  "body_median": 1611.5
+  "body_median": 1582.0
 }

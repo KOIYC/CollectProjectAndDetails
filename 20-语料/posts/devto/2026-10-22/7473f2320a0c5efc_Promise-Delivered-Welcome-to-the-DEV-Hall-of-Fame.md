@@ -7,7 +7,7 @@ source_name: "dev.to"
 url: "https://dev.to/georgekobaidze/promise-delivered-welcome-to-the-dev-hall-of-fame-65-authors-65-masterpieces-15fa"
 author: "Giorgi Kobaidze"
 published_at: "2026-10-18T10:55:38Z"
-captured_at: "2026-11-10T10:02:28+08:00"
+captured_at: "2026-11-16T10:16:01+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,7 +21,7 @@ tags:
   - showdev
   - writing
 metrics: {"reactions": 227, "comments": 129, "reading_time": 25}
-comments_count: 128
+comments_count: 129
 comments_total: 129
 discovered_via: "devto:showdev"
 ---
@@ -37,7 +37,7 @@ discovered_via: "devto:showdev"
 > 指标：reactions=227 · 评论=129 · reading_time=25
 > 作者：Giorgi Kobaidze　|　发布：2026-10-18T10:55:38Z
 > 项目链接：—
-> 采集：2026-11-10T10:02:28+08:00　|　id：`7473f2320a0c5efc`
+> 采集：2026-11-16T10:16:01+08:00　|　id：`7473f2320a0c5efc`
 
 ## 正文
 
@@ -641,7 +641,7 @@ And if you missed the first round, stay tuned, maybe there's a Vol. 2 coming. �
 - 🎥 [Watch my videos on YouTube](https://www.youtube.com/@Pilotronica)
 - 💬 [Let's Chat on Discord](https://discord.com/users/571315867426488330)
 
-## 评论（128/129）
+## 评论（129/129）
 
 > **Giorgi Kobaidze** · 2026-10-18T10:56:10Z　
 > 🚪🏛️ The Welcome Desk & Stories From the Trenches: @francistrdev @earlgreyhot1701d @hadil @westernal @alptekin @canro91 @technogamerz @dj29 @puneetkumar2010 @sameerqaiser17
@@ -1366,6 +1366,11 @@ And if you missed the first round, stay tuned, maybe there's a Vol. 2 coming. �
 
 > **Giorgi Kobaidze** · 2026-10-25T04:29:43Z　
 > Good idea! Every one of those kinds of reads is somewhere in this list. I tried to arrange them so they flow naturally from one to the next, though with 65 articles I'm sure the order isn't perfect. Hope you enjoy it!
+
+---
+
+> **Emily Woods** · 2026-11-11T20:09:26Z　
+> Thanks for putting that collection together. With 65 articles, it helps to have a starting point and let the next read follow from whatever question the first one raised.
 
 ---
 

@@ -5,21 +5,21 @@ title: "Minireel/HGhub"
 source: "github_new"
 source_name: "GitHub 新星仓库"
 url: "https://github.com/Minireel/HGhub"
-project_url: "https://github.com/Minireel/HGhub"
+project_url: "https://minireel.github.io/HGhub"
 author: "Minireel"
 published_at: "2026-11-03T14:04:27Z"
-captured_at: "2026-11-10T09:53:42+08:00"
+captured_at: "2026-11-16T10:02:31+08:00"
 lang: "en"
 kind: "post"
-topic: "开发者工具"
+topic: "AI 工具/Agent"
 shard: "2026-11-10"
 pub_day: "2026-11-03"
 tags:
   - 语料
   - github_new
-  - TypeScript
-  - created:>2026-10-27
-metrics: {"stars": 6428, "forks": 2289, "open_issues": 12}
+  - Rust
+  - created:>2026-11-02
+metrics: {"stars": 9019, "forks": 7193, "open_issues": 6}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -28,203 +28,93 @@ discovered_via: "github:14d"
 # Minireel/HGhub
 
 > [!info] 一句话导读
-> 关于本项目：HGhub 只是我体验 Tuari2 移动端开发时做的小玩具，开源几天后不知为何收到了大量star。*
+> <img src="app-icon.svg" width="88" height="88" alt="HGhub 图标" />
 
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/Minireel/HGhub>
-> 指标：stars=6428 · forks=2289 · open_issues=12
+> 指标：stars=9019 · forks=7193 · open_issues=6
 > 作者：Minireel　|　发布：2026-11-03T14:04:27Z
-> 项目链接：<https://github.com/Minireel/HGhub>
-> 采集：2026-11-10T09:53:42+08:00　|　id：`368c4dcca6cb1202`
+> 项目链接：<https://minireel.github.io/HGhub>
+> 采集：2026-11-16T10:02:31+08:00　|　id：`368c4dcca6cb1202`
 
 ## 正文
 
-*关于本项目：HGhub 只是我体验 Tuari2 移动端开发时做的小玩具，开源几天后不知为何收到了大量star。*
+HGhub
 
-*意识到可能存在的潜在危险后，我立刻更换了开源协议为 **PolyForm Noncommercial 1.0.0** ，并在 Readme 中写入了大量保护自己的文段。目前 HGhub收到的star实际上德不配位。*
+一个通过插件连接内容的通用视频播放器。
 
-*在之后的更新中，我不再会维护任何获取上游数据的工作，维护方向将偏重于 UI/UX 与使用体验，同时仍会低频率的响应 PR 与 Issues。如果版权方或其授权代表认为本项目涉及其合法权益，欢迎通过 GitHub 仓库留言联系。收到明确的权利方通知后，我会第一时间积极响应，并根据对方诉求立即归档项目或将仓库转为私有，停止公开访问。*
+  开始使用 ·
+  在线文档 ·
+  插件开发 ·
+  参与开发 ·
+  反馈问题
 
-# HGhub
+HGhub 将浏览、搜索、播放和个人片库放在同一个应用中。通过导入 JavaScript 插件，你可以接入不同内容来源，并使用统一的界面观看与管理内容。
 
-**黄果短剧第三方客户端 · Rust + Tauri 2**
+**应用不内置内容源，不分发第三方插件，也不提供官方源列表。** 首次使用需自行导入插件，无需注册 HGhub 账号；来源要求登录时，由对应插件提供登录入口。
 
-Windows / macOS / Android 三端 · Fluent 设计 · 沉浸式竖屏播放
+## 核心体验
 
-> ⚠️ 本项目仅供 **学习与技术交流**，不提供、不存储、不分发任何音视频内容。
-> 所有内容均来自第三方站点，版权归原作者与上游站点所有。
+- **沉浸式播放**：桌面与移动端界面，配合手势和播放控制，在面板中查看详情、选集与评论。
+- **多来源浏览与搜索**：推荐、分类筛选和聚合搜索，支持按来源查看结果，并保留本地搜索历史。
+- **灵活的播放选择**：支持 HLS 与普通视频，切换线路、清晰度和解析器，也可搜索其他来源继续观看。
+- **自己的片库**：管理本地收藏、观看历史与续播进度；支持追更，以及将插件提供的云端列表导入本地收藏。
+- **按需扩展**：通过文件、网址或插件列表导入内容源与解析器，检查更新，并在更新失败时恢复上一可用版本。
+- **更多内容形式**：除点播外，还可通过插件接入直播、信息流和图文内容。
 
-**使用须知**
+具体内容、账号、评论与互动能力取决于所安装的插件。
 
-- **以访客身份正常使用**：像普通访客一样浏览就好，请勿滥用本项目。
-- **不要给上游增加压力**：本项目本身不提供下载功能，请勿改动代码去做批量下载 / 批量抓取，也不要高频轮询、并发轰炸接口或挂机刷播放量；内置的封面与播放列表缓存请不要改小或关掉。
-- **尊重上游版权**：不要去除水印与站点标识，不要把剧集搬运、转码、修改后二次分发到别处（网盘、资源站、其他 App 等），更不能改完拿出去出售。
-- **不要公开传播接口与直链**：接口地址、播放直链、解密方式请勿公开张贴或打包成「资源站」——上游一旦封禁，所有人都没法再用。
-- **不要商业化**：禁止打包出售、接入广告 / 会员 / 付费点播，或作为收费服务的一部分分发（详见 [LICENSE](LICENSE)）。
-- **合理使用**：仅供个人学习、研究与自用；请在 24 小时内删除相关资源，并支持正版。
-- **遵守当地法律**：使用者应自行判断并承担合规责任。
+## 开始使用
 
-> ⚖️ 许可证自 v1.1.0 版本起改为 **PolyForm Noncommercial 1.0.0**：**禁止任何商业用途**——
-> 包括打包出售、接入付费/会员/广告变现、作为收费产品或服务的一部分分发。
-> 个人学习、研究、自用与非营利使用不受限制，详见 [LICENSE](LICENSE)。
+插件版处于早期开发阶段，目前可[从源码运行或构建](docs/DEVELOPMENT.md)。当前重点完善 Windows 与 Android，其他平台仍在适配和验证；详见[支持状态](docs/developers/status.md)。
 
-## 官方渠道与仿冒提醒
+1. 打开 **插件中心 → 导入与订阅**。移动端从“我的”进入插件中心。
+2. 选择插件文件、粘贴代码，或输入插件／列表网址；确认安装并启用。
+3. 从首页、搜索或分类找到内容，开始播放。需要切换首页来源时，可在设置中选择。
 
-- **唯一官方仓库**：[github.com/Minireel/HGhub](https://github.com/Minireel/HGhub)
-- **唯一下载渠道**：[GitHub Releases](https://github.com/Minireel/HGhub/releases)。仓库源码页不放任何可执行文件，
-  其余网站、网盘、QQ 群、公众号、第三方下载站分发的「HGhub」安装包**一律非官方**，作者不保证其安全性与完整性。
+HGhub 维护播放器与插件接口，第三方内容的可用性由相应来源决定。
 
-> 🚫 **已发现的恶意修改版**：[`hichuv/HGhub`](https://github.com/hichuv/HGhub)
->
-> 该仓库与本项目无关，是在旧版本源码基础上擅自加入**卡密验证、VIP 付费解锁**等变现功能的修改版，
-> 代码改动不透明、安全性无法验证。**请勿下载、勿注册、勿付费**；如已安装，建议立即卸载，改用官方 Release 包安装。
->
-> 本项目**从未、也不会**加入任何卡密 / VIP / 付费解锁 / 广告功能。如果你遇到的「HGhub」要求输入卡密或付费开通，那一定不是官方版本。
+## 文档
 
-## 技术栈
+**[打开在线文档站 →](https://minireel.github.io/HGhub/)**
 
-| 层 | 选型 |
+| 我想…… | 从这里开始 |
 | --- | --- |
-| 壳 | Tauri 2（Rust 1.90+） |
-| 前端 | React 19 + TypeScript + Vite 7 + Tailwind CSS 4 |
-| 播放 | hls.js（HLS / AES-128） |
-| 网络 | reqwest + rustls |
+| 制作一个内容源或解析器插件 | [插件开发教程](docs/developers/index.md) |
+| 了解插件文件、宿主 API 与内容模型 | [HPP 插件协议](docs/plugin-protocol/README.md) |
+| 让 Agent 协助开发插件 | [Agent 开发指南](docs/developers/agent.md) |
+| 修改客户端或自行构建 | [客户端开发指南](docs/DEVELOPMENT.md) |
+| 查看已支持与待完善的能力 | [支持状态](docs/developers/status.md) |
 
-## 目录
+客户端使用 **Rust · Tauri 2 · React · TypeScript** 构建。HPP 插件协议仍在演进，编写插件前请阅读当前支持状态。
 
-```
-.
-├─ src/                      前端
-│  ├─ api.ts                 接口封装 + 本地媒体协议 URL
-│  ├─ store.tsx              全局状态（导航栈 / 用户 / 本地收藏 / 主题）
-│  ├─ html.ts                吃瓜正文清洗与图片代理
-│  ├─ components/            Feed（播放页）/ VideoSurface / PlayerControls / Panels / UI
-│  └─ pages/                 Home / Search / Category / Profile / Posts
-├─ src-tauri/                Rust 后端
-│  └─ src/
-│     ├─ net.rs              请求层（边缘信封 + 重试）
-│     ├─ api.rs              业务命令
-│     ├─ media.rs            封面解密 + HLS 代理 + 缓存
-│     └─ session.rs          token 持久化
-└─ docs/API.md               接口文档
-```
+## 参与与交流
 
-## 开发 / 构建
+欢迎通过 [Issues](https://github.com/Minireel/HGhub/issues) 反馈问题、提出想法，或提交 [Pull Request](https://github.com/Minireel/HGhub/pulls) 参与改进。报告问题时，请附上应用版本、操作系统和复现步骤。
 
-```bash
-pnpm install          # 首次安装
-pnpm app:dev          # 桌面端热重载
-pnpm app:build        # 打包：Windows → NSIS 安装程序；macOS → .app + .dmg
-```
+项目由个人维护，维护者会根据时间与精力处理反馈，不承诺第三方插件或站点持续可用。维护范围与权益反馈方式见[项目声明](docs/PROJECT_POLICY.md)。
 
-macOS 先装 Xcode Command Line Tools（`xcode-select --install`），打包目标写在
-`src-tauri/tauri.macos.conf.json`（`app` + `dmg`，窗口用系统标题栏 Overlay）。
+社区交流：[Linux.DO](https://linux.do/)。
 
-Android（需 Android SDK + NDK，并配置 `ANDROID_HOME` / `NDK_HOME`）：
+## 许可证与非商业立场
 
-```bash
-pnpm android:init     # 首次生成 android 工程
-pnpm android:dev      # 真机 / 模拟器调试
-pnpm android:build    # 产出 APK
-```
+本项目源码公开，采用 [PolyForm Noncommercial 1.0.0](LICENSE)。**禁止商业用途**，包括销售、广告变现、卡密、VIP、付费解锁，以及作为收费产品或服务的一部分使用；具体以许可证全文为准。
 
-iOS（需 Xcode、xcodegen、CocoaPods 与 Apple 开发者账号；自行签名安装到自己的设备）：
+维护者**不提供商业授权，不接受广告、推广或商务合作**，也未授权任何人以本项目名义收费。社区技术贡献与问题反馈不属于商务合作。
 
-```bash
-export APPLE_DEVELOPMENT_TEAM=<你的 Team ID>
-pnpm tauri ios init --ci                          # 首次生成 Xcode 工程（src-tauri/gen/apple）
-pnpm tauri ios build --export-method debugging    # 产出 src-tauri/gen/apple/build/arm64/HGhub.ipa
-xcrun devicectl device install app --device <UDID> <解压后的 Payload/HGhub.app>
-```
-
-最低系统版本写在 `src-tauri/tauri.ios.conf.json`（iOS 15）。iOS 复用安卓的触屏界面；自定义协议与 macOS 相同，为 `hg://localhost`。
-
-### 环境注意
-
-- 工程若放在 **exFAT** 盘（不支持符号链接），需保留 `.npmrc` 中的 `node-linker=hoisted`。
-- pnpm 10 靠 `package.json` 的 `pnpm.onlyBuiltDependencies` 放行 `esbuild`，否则 `vite build` 缺少二进制；
-  pnpm 11 起该字段失效，白名单改在 `pnpm-workspace.yaml` 的 `allowBuilds`（两处都保留）。
-
-## 实现要点
-
-「设置 → 播放 → 启动时静音」默认开启，每次启动应用均静音，播放时可手动开启声音。关闭此选项后，下次启动恢复上次的静音状态；音量仍会记忆。
-
-安全加固后的正文处理、FakeIP/内网限制、账号线路隔离及本地回归方法，见 [客户端内容与网络安全](docs/security.md)。镜像线路仅支持游客浏览，跨站点切换和首次升级后需要重新登录。
-
-Mihomo 与 sing-box 分流规则、已知域名统计及导入方法，见 [网络分流规则](rules/README.md)。
-
-1. **统一边缘信封**：站点把 `/api/**` 收敛为 `POST /api/edge/request`（`method/path/body(base64)/content_type` + `Authorization: Bearer`），本项目只对接这一个入口，无需处理 Cookie。
-2. **封面解密**：封面为 AES-128-CBC 密文，Rust 侧解密后经自定义协议输出，前端 `<img>` 直接使用。
-3. **HLS 代理**：m3u8 与分片经自定义协议转发并改写 `#EXT-X-KEY` / 分片地址，绕开 WebView 的 CORS 与防盗链。
-4. **自定义协议**：Windows / Android 为 `http://hg.localhost/*`，macOS 为 `hg://localhost/*`（Tauri 的平台差异）。
-   Rust 侧 `lib.rs` 与前端 `api.ts` 各自按平台生成一次基址，两处必须一致，否则封面与视频全部加载失败。
-5. **不做签名逆向**：只复用浏览器同源行为，接口字段均有文档与实测样本。
-
-## 免责声明
-
-- 本项目与内容提供方无任何关联，作者不参与内容的制作、上传与分发。
-- 本项目仅在上述官方渠道发布；任何第三方修改版（尤其是加卡密、VIP 变现的版本）均与作者无关，请自行甄别。
-- 使用者应自行遵守所在地法律法规；因使用本项目产生的任何后果由使用者自行承担。
-- 若相关权利方认为本项目存在侵权，请通过 Issue 联系，我们会及时处理。
-
-## License
-
-[PolyForm Noncommercial License 1.0.0](LICENSE) —— **仅限非商业用途**。
-
-- **允许**：个人学习、研究、自用、爱好项目，以及在非营利组织内部使用；可以自由修改、二次开发。
-- **禁止**：任何商业用途。包括但不限于打包出售、接入付费/会员/广告变现、作为收费服务或商业产品的一部分分发。
-- **保留声明**：分发本项目或其修改版时，必须附带本许可证全文（或上面的链接）以及 `Required Notice` 声明行。
-- 商业授权请通过 Issue 联系作者单独洽谈。
-
-> 历史说明：v1.0.1 及更早版本以 MIT 发布，已发出的副本继续按 MIT 授权；自 **v1.1.0** 起的新版本一律适用 PolyForm Noncommercial 1.0.0。
-
-## 常见问题
-
-**1. `pnpm install` 报 `ERR_PNPM_EISDIR ... symlink`**
-
-工程放在 exFAT / FAT32 盘时无法创建符号链接，保留 `.npmrc` 里的 `node-linker=hoisted` 即可。
-
-**2. `tauri android build` 报 `Failed to create a symbolic link ... jniLibs`**
-
-同样是 exFAT 不支持符号链接。可手动把 Rust 产物拷进 jniLibs，再直接跑 Gradle：
-
-```bash
-cp src-tauri/target/aarch64-linux-android/debug/libhuangguo_client_lib.so \
-   src-tauri/gen/android/app/src/main/jniLibs/arm64-v8a/
-
-cd src-tauri/gen/android
-./gradlew assembleDebug        # Windows: gradlew.bat assembleDebug
-```
-
-产物在 `src-tauri/gen/android/app/build/outputs/apk/`。
-
-**3. Android 构建提示找不到 SDK / NDK**
-
-需要设置 `ANDROID_HOME`（Android SDK 根目录）、`NDK_HOME`（`$ANDROID_HOME/ndk/<版本>`）与 `JAVA_HOME`（JDK 17）。
-
-**4. macOS 打开时提示「已损坏」或「无法验证开发者」**
-
-Release 里的 dmg 没有用 Apple 开发者证书签名和公证，从网上下载后会被 Gatekeeper 拦下。
-把 HGhub 拖进「应用程序」后，在终端执行一次：
-
-```bash
-xattr -cr /Applications/HGhub.app
-```
-
-## LinuxDO
-https://linux.do/
+项目不运营内容托管服务，与外部内容提供者无官方隶属或背书关系。完整责任边界、维护政策与权益反馈说明见[项目声明](docs/PROJECT_POLICY.md)。
 
 ## 关联链接
 
-- http://hg.localhost/*`，macOS
-- https://github.com/Minireel/HGhub/releases
-- https://github.com/hichuv/HGhub
+- https://github.com/Minireel/HGhub/issues
+- https://github.com/Minireel/HGhub/pulls
 - https://linux.do/
+- https://minireel.github.io/HGhub/
 
 ## 导航
 
-- 项目页：[[10-项目/github.com_368c4dcc]]
+- 项目页：[[10-项目/minireel.github.io_93bb30ee]]
 - 渠道页：[[50-渠道/github_new]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

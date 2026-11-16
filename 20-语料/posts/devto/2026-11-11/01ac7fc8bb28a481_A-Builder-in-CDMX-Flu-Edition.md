@@ -8,7 +8,7 @@ url: "https://dev.to/earlgreyhot1701d/a-builder-in-cdmx-flu-edition-167"
 project_url: "https://claude.ai/"
 author: "Earl Grey"
 published_at: "2026-11-08T01:45:07Z"
-captured_at: "2026-11-11T13:40:39+08:00"
+captured_at: "2026-11-16T10:16:07+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,7 +21,7 @@ tags:
   - webdev
   - buildinpublic
   - showdev
-metrics: {"reactions": 31, "comments": 20, "reading_time": 9}
+metrics: {"reactions": 38, "comments": 20, "reading_time": 9}
 comments_count: 20
 comments_total: 20
 discovered_via: "devto:buildinpublic"
@@ -35,10 +35,10 @@ discovered_via: "devto:buildinpublic"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/earlgreyhot1701d/a-builder-in-cdmx-flu-edition-167>
-> 指标：reactions=31 · 评论=20 · reading_time=9
+> 指标：reactions=38 · 评论=20 · reading_time=9
 > 作者：Earl Grey　|　发布：2026-11-08T01:45:07Z
 > 项目链接：<https://claude.ai/>
-> 采集：2026-11-11T13:40:39+08:00　|　id：`01ac7fc8bb28a481`
+> 采集：2026-11-16T10:16:07+08:00　|　id：`01ac7fc8bb28a481`
 
 ## 正文
 

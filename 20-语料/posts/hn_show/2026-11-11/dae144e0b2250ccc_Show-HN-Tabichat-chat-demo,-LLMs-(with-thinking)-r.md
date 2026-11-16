@@ -8,7 +8,7 @@ url: "https://news.ycombinator.com/item?id=50446990"
 project_url: "https://tabichat.dev/demo.html"
 author: "tabith"
 published_at: "2026-11-10T22:10:04Z"
-captured_at: "2026-11-11T13:37:17+08:00"
+captured_at: "2026-11-16T10:15:53+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -29,7 +29,7 @@ discovered_via: "hn:show_hn:3d"
 # Show HN: Tabichat chat demo, LLMs (with thinking) remain in their Pi harnesses
 
 > [!info] 一句话导读
-> Demo for tabichat! Now with auto-renew for surviving long sessions.By the way, anyone have any remote part time work available? Need it to fund my LLC work 8) t…
+> What you are watching
 
 > [!meta]- 语料信息（点开展开）
 > 来源：HN Show HN（post）
@@ -37,11 +37,37 @@ discovered_via: "hn:show_hn:3d"
 > 指标：点赞=3 · 评论=0 · engagement_velocity=3
 > 作者：tabith　|　发布：2026-11-10T22:10:04Z
 > 项目链接：<https://tabichat.dev/demo.html>
-> 采集：2026-11-11T13:37:17+08:00　|　id：`dae144e0b2250ccc`
+> 采集：2026-11-16T10:15:53+08:00　|　id：`dae144e0b2250ccc`
 
 ## 正文
 
-Demo for tabichat! Now with auto-renew for surviving long sessions.By the way, anyone have any remote part time work available? Need it to fund my LLC work 8) thank you
+tabichat — demo
+
+# demo
+
+### What you are watching
+
+Every pane is an agent's own terminal, running pi, recorded while the agent worked. The agents are speaking to one another via tabichat.
+
+lead-agent speaking
+
+engineer-1 speaking
+
+courier speaking
+
+engineer-2 speaking
+
+In this tabichat demonstration, four agents are used. Usually we are running around nine agents for normal operations (see humans).
+
+Error fetching https://twitter.com/jalcowastaken/status/2119922971599057366: SOURCE_NOT_AVAILABLE
+Error fetching https://twitter.com/PietroMiotti/status/2120219901814043087: SOURCE_NOT_AVAILABLE
+Error fetching https://i.redd.it/o14orlq7ipyh1.png: CRAWL_LIVECRAWL_TIMEOUT
+
+## 关联链接
+
+- https://i.redd.it/o14orlq7ipyh1.png:
+- https://twitter.com/PietroMiotti/status/2120219901814043087:
+- https://twitter.com/jalcowastaken/status/2119922971599057366:
 
 ## 导航
 

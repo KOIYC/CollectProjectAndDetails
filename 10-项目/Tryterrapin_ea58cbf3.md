@@ -2,7 +2,7 @@
 type: "project"
 title: "Tryterrapin"
 project_url: "https://tryterrapin.com/waitlist"
-first_seen: "2026-11-11T13:39:55+08:00"
+first_seen: "2026-11-16T10:02:46+08:00"
 sources:
   - betalist
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://tryterrapin.com/waitlist>
-> 首次收录：2026-11-11T13:39:55+08:00
+> 首次收录：2026-11-16T10:02:46+08:00
 > 来源渠道：BetaList
 > 标签：—
 > 最新指标：—
@@ -34,7 +34,8 @@ lang: "en"
 | 2026-11-05T11:23:58+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/d97975d5356a588c_Tryterrapin]] |
 | 2026-11-10T09:53:55+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/d97975d5356a588c_Tryterrapin]] |
 | 2026-11-11T13:39:55+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/d97975d5356a588c_Tryterrapin]] |
+| 2026-11-16T10:02:46+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/d97975d5356a588c_Tryterrapin]] |
 
 ## 摘要正文
 
-BetaList Search startups and topics / Browse topics  Newsletter Help  Advertise  Refer a friend  Affiliates Startup Jobs  Vision Pro apps  Room AI theme#toggle"  class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white"  title="Toggle theme"  aria-label="Toggle theme"  > Log in Submit Startup Home  Search  Browse topics  Newsletter Help  Advertise  Refer a friend  Affiliates Terrapin Boosted Turn receipts, email & photos into clean, tax-ready insights, automatically Visit website Save  Saved Terrapin is a receipt proof automation platform built for freelancers, 1099 contractors, and self-employed workers. We automatically find, match, and organise your business receipts - so you never miss a deduction again. Most freelancers lose thousands every year to receipts they can't find at tax time. Terrapin fixes that by connecting to the places your receipts already live - your email inbox, bank accounts, and camera roll - and doing the work for you. No manual uploads, no spreadsheets, no shoeboxes. We match each receipt to the right transaction, categor…
+BetaList Search startups and topics / Browse topics  Newsletter  iPhone app Help  Advertise  Refer a friend  Affiliates Startup Jobs  Vision Pro apps  Room AI theme#toggle"  class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white"  title="Toggle theme"  aria-label="Toggle theme"  > Log in Submit Startup Home  Search  Browse topics  Newsletter  iPhone app Help  Advertise  Refer a friend  Affiliates Terrapin Boosted Turn receipts, email & photos into clean, tax-ready insights, automatically Visit website Save  Saved Terrapin is a receipt proof automation platform built for freelancers, 1099 contractors, and self-employed workers. We automatically find, match, and organise your business receipts - so you never miss a deduction again. Most freelancers lose thousands every year to receipts they can't find at tax time. Terrapin fixes that by connecting to the places your receipts already live - your email inbox, bank accounts, and camera roll - and doing the work for you. No manual uploads, no spreadsheets, no shoeboxes. We match each receipt to the ri…

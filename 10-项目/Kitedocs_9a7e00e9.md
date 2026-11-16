@@ -2,7 +2,7 @@
 type: "project"
 title: "Kitedocs"
 project_url: "https://kitedocs.com/"
-first_seen: "2026-11-07T09:46:15+08:00"
+first_seen: "2026-11-16T10:02:55+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://kitedocs.com/>
-> 首次收录：2026-11-07T09:46:15+08:00
+> 首次收录：2026-11-16T10:02:55+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -30,7 +30,8 @@ lang: "en"
 | 2026-10-16T09:37:58+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-16/5c2f5a7d2979e829_Kitedocs]] |
 | 2026-10-17T13:38:36+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-16/5c2f5a7d2979e829_Kitedocs]] |
 | 2026-11-07T09:46:15+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-16/5c2f5a7d2979e829_Kitedocs]] |
+| 2026-11-16T10:02:55+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-16/5c2f5a7d2979e829_Kitedocs]] |
 
 ## 摘要正文
 
-Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join KiteContent  Affordable, beautiful documentation for your website. Visit Website KiteContent Affordable, beautiful documentation for your website.  Posts 3  Revenue $0 / mo  Website November 5, 2026  Rebranded the service and made some other changes Today, I've finished the rebranding my service!  Before, it was called KiteDocs and now KiteContent.  Why?  Because I don't want to focus solely on the documentation part of the content that potentially any product may have. And it's not only about finding "more users", it's rather about servicing my own needs.  As many of you, I have tons of ideas. And I want to implement some of them. And while building a product is much easier right now (you know why :) the marketing part is still a challenge, for anybody.  Being an introvert, it's super hard for me to send cold emails, chase users, and try to convince anybody to use my product (once, I tried - spent 2 f***g hours for writing one email, then 20 minutes to send it (yes, 20 minutes to click a f**g "Send" button), then I swore I won't never do…
+Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join Products DB Share Copied Retry Visit website  KiteContent Affordable, beautiful documentation for your website. $0 /mo  Self-reported October 2026 Product type Software  Helps with Content management, Knowledge management  Platforms Web  Business model Free, Subscription  Founders 1  Started Aug 2026 Visit kitecontent.com The founders  1 founder  Aspiring Dev  Founder · @founderpeaks  Love building, love exploring, love making good things. Show more From the founder  2 posts on Indie Hackers  2026 2 posts  IH IH post Marketing for introverts - possible or not?  I have to make a confession.I'm an introvert.Also, possible have ADHD, OSD, and autistic spectrum.It all not only affects my daily life (sometimes, it's very hard to communicate with people and makes work in the office almost impossible) but complicates the ways to market my product. I bet, many of  Aspiring Dev · Nov 16  IH IH post · Their first about it Documentation must not be that hard  Like many of you, I start multiple projects. Every new idea, after a short validation (some…

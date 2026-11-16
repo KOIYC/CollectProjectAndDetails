@@ -2,7 +2,7 @@
 type: "project"
 title: "Master of Scale"
 project_url: "https://mastersofscale.com/"
-first_seen: "2026-11-11T13:41:58+08:00"
+first_seen: "2026-11-16T10:07:05+08:00"
 sources:
   - c1c7
 tags:
@@ -19,7 +19,7 @@ lang: "zh"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://mastersofscale.com/>
-> 首次收录：2026-11-11T13:41:58+08:00
+> 首次收录：2026-11-16T10:07:05+08:00
 > 来源渠道：1c7 中文独立开发者名录
 > 标签：英文
 > 最新指标：—
@@ -55,7 +55,8 @@ lang: "zh"
 | 2026-11-05T11:26:44+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
 | 2026-11-07T09:47:14+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
 | 2026-11-11T13:41:58+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
+| 2026-11-16T10:07:05+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
 
 ## 摘要正文
 
-Masters of Scale – Home  # Masters of Scale  ## Rapid Response  New episodes every Tuesday & Friday in the Rapid Response podcast feed and YouTube channel.  ## From underdogs to disruptors   Tubi’s Anjali Sud   e.l.f. Brands’ Kory Marchisotto  Free streaming and prestige-quality makeup at drugstore prices both sound like they must come with a catch. For Tubi and e.l.f. Beauty, that skepticism became the opening.  ## Pioneers of AI  Your weekly guide to AI, hosted by Dr. Rana el Kaliouby. New episodes every Wednesday.   Building a marketplace from scratch   Don't be boring  Golden State Valkyries’s Jess Smith Creative Planning’s Jamie Battmer  How to build a billion-dollar sports team  Life With Machines’s Baratunde Thurston  Upwork’s Hayden Brown  Autodesk’s Dara Treseder  Warp Sciences’ DJ Patil  Spicewell’s Raina Kumra Gardiner  # V2EX › 分享创造
+Masters of Scale – Home  # Masters of Scale  ## Rapid Response  ## Inside Walmart’s biggest shake-up in years   Walmart’s John Furner  John Furner shares how the company is transforming its business in the age of AI.  ## Pioneers of AI  Your weekly guide to AI, hosted by Dr. Rana el Kaliouby. New episodes every Wednesday.   Inside Walmart’s biggest shake-up in years   Should we trust AI agents with our information?  Signal’s Meredith Whittaker Abundance Institute’s Neil Chilson   Building a marketplace from scratch  Hipcamp’s Alyssa Ravasio   Don't be boring  Creative Planning’s Jamie Battmer KCRW’s Jennifer Ferro  Pioneers of AI’s Rana el Kaliouby The True Love Society’s Francesca Hogi  Life With Machines’s Baratunde Thurston  Upwork’s Hayden Brown  Autodesk’s Dara Treseder  Spicewell’s Raina Kumra Gardiner  # V2EX › 分享创造

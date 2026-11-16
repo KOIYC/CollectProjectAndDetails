@@ -6,10 +6,10 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/blender-market"
 project_url: "https://blendermarket.com/posts/2019-cyber-weekend-sale-results"
-captured_at: "2026-11-11T13:40:10+08:00"
+captured_at: "2026-11-16T10:02:55+08:00"
 lang: "en"
 kind: "project"
-topic: "开发者工具"
+topic: "AI 工具/Agent"
 shard: "2026-10-22"
 tags:
   - 语料
@@ -31,111 +31,155 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://blendermarket.com/posts/2019-cyber-weekend-sale-results>
-> 采集：2026-11-11T13:40:10+08:00　|　id：`bf8f7150e9f31478`
+> 采集：2026-11-16T10:02:55+08:00　|　id：`bf8f7150e9f31478`
 
 ## 正文
 
 Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+
 Starting Up Case Studies
  Ideas DB Products DB Sign in Join
-Blender Market
- The indie market for Blender creators
-Visit Website
-Blender Market The indie market for Blender creators
- Posts 14
- Revenue $580K / mo
- Website Twitter Facebook
-February 18, 2021
- Hiring 2nd Rails Developer
-Ruby on Rails Web Developer for BlenderMarket.com
- Blender Market is continuing to grow at about 120% per year and this is leading us to tackle lots of interesting problems, but it also means we're short staffed! It's time to hire another developer.
-If you're a Rails developer with 2+ years of experience and interested in joining a 100% remote, small, focused team with a lot of autonomy then apply here: https://forms.gle/V3BzcjnrTUE5EGGW7
-Jonathan Williamson
-5 Upvotes
-Comment
-November 30, 2020
- Doubled 2019 Gross Revenue
-As of today Blender Market has doubled the 2019 gross revenue. The Blender community is growing at an alarming pace and that's showing in the growth of Blender Market.
-We have now processed over $4,083,500.00 USD in 2020, with the bulk of this going straight into creators pockets.
-Jonathan Williamson
-1 Upvote
-Comment
-October 29, 2020
- Indie Hackers Interview Published
-How I Used Influencers to Market My Offshoot Product - Indie Hackers
- Our interview with Indie Hackers from few weeks ago was just published to the blog. It's a long read but shares a lot of details on how we bootstrapped Blender Market and how we got the first major creators to buy in: https://www.indiehackers.com/interview/how-i-used-influencers-to-market-my-offshoot-product-46a6a66d14
-Jonathan Williamson
-3 Upvotes
-Comment
-September 1, 2020
- Profitable and a record revenue month in August
-August saw yet another record for Blender Market gross revenue with $529,593.94 USD. Of that $261,386.34 was processed through Stripe and the rest being handled by PayPal.
-Creators earned $433,620.83 while Affiliates earned $15,021.78. This provided an operating margin of roughly 15%.
-We have managed to keep expenses mostly flat, but the growing customer base continues to increase the infrastructure cost of AWS.
-Thanks to the great growth and staying diligent on expenses Blender Market has finally reached profitability. Three of the last four months have had a small profit. At the current pace Blender Market is projected to stay consistently profitable.
-It's only taken six years of steadfastness!
-Jonathan Williamson
-2 Upvotes
-Comment
-April 27, 2020
- Surpassed $372,000.00 in April revenue
-Spring Sale 2020 Results
- We hosted our seasonal Spring sale last week, which pushed us past $372,000.00 in gross revenue for the month of April, making it our highest grossing month ever! The previous top month, November 2019, was $311,000.00.
-In five short days the sale brought in $176,446.67 in gross revenue and earned $134,233.31 for Creators.
-The full results are here: https://blendermarket.com/posts/spring-sale-2020-results
-Jonathan Williamson
-3 Upvotes
-Comment
-March 3, 2020
- Creator Affiliates Launched!
-After a few months of work we launched a new Creator Affiliates system for Blender Market! This enables any Creator to add affiliates for their products for help marketing in exchange for a small cut of the earnings.
-An affiliate can be added for Creator's single product or their whole library with a customizable revenue split.
-Anyone with a Blender Market account can be added as an affiliate simply by having the Creator enter their email and assigning a rate and products.
-If all goes well this system will help incentivize Creators to collaborate with influencers within the Blender community to spread the word and help promote their products.
-Jonathan Williamson
-2 Upvotes
-Comment
-March 1, 2020
- $216k revenue in February; 3rd best month to date
-February 2020 was our 3rd highest grossing month to date! Last month was beat only by November and December 2019, which hold the record due to Cyber Weekend sale boosts. February has no such sale campaign and thus is encouraging for the continued growth and health of the marketplace.
-On $216,647.65 USD of gross revenue we paid out $180,799.42 USD in commissions to 441 Creators and $4,514.51 in donations to the Blender Development Fund.
-Jonathan Williamson
-4 Upvotes
-Comment
-December 12, 2019
- 2019 Cyber Weekend Results
-Each year we run a Creator opt-in sale for Black Friday and Cyber Monday. Without fail, it's always been our busiest sales weekend of the year.
-This year grossed a whopping $198,979.98 (so close to 200!) over just four days, with $161,930.17 being paid out to Creators. A total of 6,772 products were sold.
-Full results are here: https://blendermarket.com/posts/2019-cyber-weekend-sale-results
-Jonathan Williamson
-2 Upvotes
-Comment
-July 16, 2019
- Blender Market has a New Look!
-Back in 2014 we took a literal approach to our branding of Blender Market upon launch. As the first marketplace dedicated solely to Blender our key focus was to (figuratively) bring people through the front door to the market. We worked hard to create a community marketplace that brought Blender creators and users everywhere together to buy and sell in one place. Our logo reflected this in the literal storefront design.
-Fast-forward five years and Blender Market is an established marketplace with a strong community of creators and customers. We feel it is time to add a new coat of paint, refreshing the logo design to carry us forward, collectively, for the years to come.
-Read the full blog post here: https://blendermarket.com/posts/blender-market-has-a-new-look
-Jonathan Williamson
-2 Upvotes
-Comment
-January 15, 2019
- 2018 in Review
-Each year Blender Market continues to grow a steady pace. In 2018 our gross revenue rose 150% compared to 2017, surpassing one million for the first time!
-Growth at a glance:
-150% revenue growth in 2018 compared to 2017
-Gross revenue of $1,243,956.68 in 2018
-$985,896.2 was paid out to Creators
-$20,289.35 donated to the Blender Development Fund
-In 2019 we aim to continue this growth while also focusing on three goals: empowering Creators, hiring a full-time developer, and updating the Blender Market branding.
-Jonathan Williamson
-2 Upvotes
-Comment
-About
- We built Blender Market to create intrinsic incentives for developers to maintain their Blender add-ons with each new release of Blender while also enabling them to generate a revenue streams with their skills.
-People
- Jonathan Williamson Founder
- Nick Haskins Developer
- Wes Burke Co-founder
+Products DB Share Copied Retry Visit website
+ Blender Market
+The indie market for Blender creators
+$583k /mo
+ ✓ Verified Last 30 days
+Product type Marketplace
+ Focus Areas Design & creativity, Ecommerce
+ Platforms Web
+ Business model Commission, Subscription, Transactional
+ Founders 2
+ Started Jun 2014
+Visit blendermarket.com
+Charts
+ 12 months All time
+Revenue $593k in Oct Traffic rank Top 50M
+Revenue by month May 2019 $10k
+ Jun 2019 $60.1k
+ Jul 2019 $61.2k
+ Aug 2019 $85.9k
+ Sep 2019 $73.1k
+ Oct 2019 $101k
+ Nov 2019 $148k
+ Dec 2019 $136k
+ Jan 2020 $95.9k
+ Feb 2020 $104k
+ Mar 2020 $106k
+ Apr 2020 $190k
+ May 2020 $169k
+ Jun 2020 $179k
+ Jul 2020 $177k
+ Aug 2020 $258k
+ Sep 2020 $169k
+ Oct 2020 $195k
+ Nov 2020 $321k
+ Dec 2020 $228k
+ Jan 2021 $219k
+ Feb 2021 $210k
+ Mar 2021 $318k
+ Apr 2021 $385k
+ May 2021 $259k
+ Jun 2021 $252k
+ Jul 2021 $283k
+ Aug 2021 $546k
+ Sep 2021 $290k
+ Oct 2021 $291k
+ Nov 2021 $577k
+ Dec 2021 $399k
+ Jan 2022 $352k
+ Feb 2022 $389k
+ Mar 2022 $354k
+ Apr 2022 $631k
+ May 2022 $366k
+ Jun 2022 $362k
+ Jul 2022 $390k
+ Aug 2022 $630k
+ Sep 2022 $335k
+ Oct 2022 $441k
+ Nov 2022 $662k
+ Dec 2022 $377k
+ Jan 2023 $410k
+ Feb 2023 $524k
+ Mar 2023 $474k
+ Apr 2023 $437k
+ May 2023 $632k
+ Jun 2023 $407k
+ Jul 2023 $426k
+ Aug 2023 $685k
+ Sep 2023 $393k
+ Oct 2023 $430k
+ Nov 2023 $887k
+ Dec 2023 $481k
+ Jan 2024 $528k
+ Feb 2024 $730k
+ Mar 2024 $505k
+ Apr 2024 $554k
+ May 2024 $703k
+ Jun 2024 $399k
+ Jul 2024 $506k
+ Aug 2024 $669k
+ Sep 2024 $464k
+ Oct 2024 $551k
+ Nov 2024 $668k
+ Dec 2024 $690k
+ Jan 2025 $513k
+ Feb 2025 $601k
+ Mar 2025 $650k
+ Apr 2025 $688k
+ May 2025 $753k
+ Jun 2025 $426k
+ Jul 2025 $560k
+ Aug 2025 $478k
+ Sep 2025 $587k
+ Oct 2025 $541k
+ Nov 2025 $654k
+ Dec 2025 $606k
+ Jan 2026 $491k
+ Feb 2026 $485k
+ Mar 2026 $485k
+ Apr 2026 $409k
+ May 2026 $560k
+ Jun 2026 $449k
+ Jul 2026 $471k
+ Aug 2026 $606k
+ Sep 2026 $526k
+ Oct 2026 $593k
+Stripe · verified · monthly revenue, not including the current month · through Oct 2026
+ The founders
+ 2 founders
+ Jonathan Williamson
+ Founder · @carter2422
+ Co-founder of CG Cookie, Blender Market, Mavenseed, and Sandhills Brewing.
+Show more
+Wes Burke
+ Co-founder · @wesburke
+ I'm a husband, and father of four, and love to ride motorcycles. My projects include @cgcookie, @mavenseed, @blendermarket, @orangeturbine.
+Show more
+Milestones
+ 2 milestones
+ 5 yrs, 9 mos after starting
+ $216k revenue in February; 3rd best month to date Jonathan Williamson · Mar 1, 2020
+5 yrs, 10 mos after starting
+ Surpassed $372,000.00 in April revenue Jonathan Williamson · Apr 27, 2020
+From the founders
+ 1 post on Indie Hackers
+ 2017 1 post
+ IH IH post · Their first about it Paid out half a million USD to Creators
+ After the annual Cyber Weekend sale we reached over half a million in payouts to Creators! This was spurred by great customer purchasing volume, with a monthly average of $48,800 Gross Merchandise Volume over the last six months. https://blendermarket.com/posts/2017-cyber-weekend-sale-results
+ Jonathan Williamson · Nov
+The site through the years
+ 3 versions, 2018 to 2020
+ 2018 Jan 1 2019 Jan 5 2020 Feb 10
+blendermarket.com Headline “BlenderMarket”
+Captured Feb 10, 2020 · Web archive ↗
+Homepage captures from the Wayback Machine
+ More like this
+20XMedia Email Marketing Agency
+ $10k/mo 22Slides Minimalist photography portfolio website builder
+ $15k/mo AI Designer Great UI Doesn't Need to be Hard
+ $8k/mo ✓ Verified AI Detect Detect AI Generated content
+ $988/mo ✓ Verified
+Browse Products DB
+ Part of the Blender Market team? Verify yourself
 Stay informed as an indie hacker.
  Market insights that help you start and grow your business.
 Subscribe
@@ -150,14 +194,11 @@ Databases
 
 ## 关联链接
 
-- https://blendermarket.com/posts/blender-market-has-a-new-look
-- https://blendermarket.com/posts/spring-sale-2020-results
-- https://forms.gle/V3BzcjnrTUE5EGGW7
-- https://www.indiehackers.com/interview/how-i-used-influencers-to-market-my-offshoot-product-46a6a66d14
+- https://blendermarket.com/posts/2017-cyber-weekend-sale-results
 
 ## 导航
 
 - 项目页：[[10-项目/Blender-Market_3386674c]]
 - 渠道页：[[50-渠道/indiehackers]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

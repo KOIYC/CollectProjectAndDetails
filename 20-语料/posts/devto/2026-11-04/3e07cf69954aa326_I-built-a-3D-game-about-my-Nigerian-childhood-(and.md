@@ -8,10 +8,10 @@ url: "https://dev.to/deborahemeni1/i-built-a-3d-game-about-my-nigerian-childhood
 project_url: "https://pikindays.com/"
 author: "Deborah Emeni"
 published_at: "2026-11-02T13:31:20Z"
-captured_at: "2026-11-11T13:40:30+08:00"
+captured_at: "2026-11-16T10:03:09+08:00"
 lang: "en"
 kind: "post"
-topic: "AI 工具/Agent"
+topic: 开发者工具
 shard: "2026-11-04"
 pub_day: "2026-11-02"
 tags:
@@ -21,7 +21,7 @@ tags:
   - webdev
   - ai
   - showdev
-metrics: {"reactions": 48, "comments": 10, "reading_time": 9}
+metrics: {"reactions": 50, "comments": 10, "reading_time": 9}
 comments_count: 10
 comments_total: 10
 discovered_via: "devto:showdev"
@@ -35,10 +35,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/deborahemeni1/i-built-a-3d-game-about-my-nigerian-childhood-and-im-not-a-game-developer-281g>
-> 指标：reactions=48 · 评论=10 · reading_time=9
+> 指标：reactions=50 · 评论=10 · reading_time=9
 > 作者：Deborah Emeni　|　发布：2026-11-02T13:31:20Z
 > 项目链接：<https://pikindays.com/>
-> 采集：2026-11-11T13:40:30+08:00　|　id：`3e07cf69954aa326`
+> 采集：2026-11-16T10:03:09+08:00　|　id：`3e07cf69954aa326`
 
 ## 正文
 
@@ -308,5 +308,5 @@ And tell me in the comments: **what's the most nostalgic thing you remember from
 
 - 项目页：[[10-项目/pikindays.com_e613b303]]
 - 渠道页：[[50-渠道/devto]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

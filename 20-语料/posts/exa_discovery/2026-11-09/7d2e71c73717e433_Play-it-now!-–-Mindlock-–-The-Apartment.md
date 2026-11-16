@@ -5,13 +5,13 @@ title: "Play it now! – Mindlock – The Apartment"
 source: "exa_discovery"
 source_name: "Exa 全网语义发现"
 url: "https://mindlock.games/dev-log/play-it-now/"
-published_at: "2026-11-09T00:00:00.000Z"
-captured_at: "2026-11-09T09:45:26+08:00"
+published_at: "2026-11-16T00:00:00.000Z"
+captured_at: "2026-11-16T10:07:38+08:00"
 lang: "en"
 kind: "method"
 topic: "开发者工具"
 shard: "2026-11-09"
-pub_day: "2026-11-09"
+pub_day: "2026-11-16"
 tags:
   - 语料
   - exa_discovery
@@ -30,22 +30,22 @@ discovered_via: "exa:indie developer launched their product this week"
 > 来源：Exa 全网语义发现（method）
 > 原帖：<https://mindlock.games/dev-log/play-it-now/>
 > 指标：—
-> 作者：—　|　发布：2026-11-09T00:00:00.000Z
+> 作者：—　|　发布：2026-11-16T00:00:00.000Z
 > 项目链接：—
-> 采集：2026-11-09T09:45:26+08:00　|　id：`7d2e71c73717e433`
+> 采集：2026-11-16T10:07:38+08:00　|　id：`7d2e71c73717e433`
 
 ## 正文
 
 Title: Play it now! – Mindlock – The Apartment
 URL: https://mindlock.games/dev-log/play-it-now/
-Published: 2026-11-09T00:00:00.000Z
+Published: 2026-11-16T00:00:00.000Z
 Author: N/A
 Highlights:
 Play it now! – Mindlock – The Apartment
 
 # Play it now!
 
-November 09, 2026
+November 16, 2026
 
 ## Mindlock – The Apartment has been released on Steam
 
@@ -55,7 +55,7 @@ The mystery adventure Mindlock – The Apartment is now available on Steam. Get 
 
 One surreal morning, Colin’s apartment door disappears just as he’s getting ready for his monotonous job. The apartment turns into a chaotic labyrinth and inexplicable phenomena shake his worldview. A cryptic message on the bathroom mirror, a mysterious puppet in his bedroom, and emotional challenges terrify Colin. New visitors constantly appear and make him question his past, present, and future. Will Colin discover a new meaning to his life? Or was it all just a bizarre web of dreams? Help Colin escape from this nightmare!
 
-...
+## Don’t miss it
 
 Don’t miss out on Mindlock – The Apartment. Experience a compelling plot with supernatural elements and dry humor. Go directly to Steam. Watch the music video. Watch the trailer. Go to the website.
 

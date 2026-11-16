@@ -6,7 +6,7 @@ source: "c1c7"
 source_name: "1c7 中文独立开发者名录"
 url: "https://mastersofscale.com"
 project_url: "https://mastersofscale.com/"
-captured_at: "2026-11-11T13:41:58+08:00"
+captured_at: "2026-11-16T10:07:05+08:00"
 lang: "zh"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "1c7:readme"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://mastersofscale.com/>
-> 采集：2026-11-11T13:41:58+08:00　|　id：`ec3eb5285a72cd71`
+> 采集：2026-11-16T10:07:05+08:00　|　id：`ec3eb5285a72cd71`
 
 ## 正文
 
@@ -42,35 +42,37 @@ Masters of Scale – Home
 
 ## Rapid Response
 
-New episodes every Tuesday & Friday in the Rapid Response podcast feed and YouTube channel.
+## Inside Walmart’s biggest shake-up in years
 
-## From underdogs to disruptors
+ Walmart’s John Furner
 
- Tubi’s Anjali Sud
-
- e.l.f. Brands’ Kory Marchisotto
-
-Free streaming and prestige-quality makeup at drugstore prices both sound like they must come with a catch. For Tubi and e.l.f. Beauty, that skepticism became the opening.
+John Furner shares how the company is transforming its business in the age of AI.
 
 ## Pioneers of AI
 
 Your weekly guide to AI, hosted by Dr. Rana el Kaliouby. New episodes every Wednesday.
 
+ Inside Walmart’s biggest shake-up in years
+
+ Should we trust AI agents with our information?
+
+Signal’s Meredith Whittaker Abundance Institute’s Neil Chilson
+
  Building a marketplace from scratch
+
+Hipcamp’s Alyssa Ravasio
 
  Don't be boring
 
-Golden State Valkyries’s Jess Smith Creative Planning’s Jamie Battmer
+Creative Planning’s Jamie Battmer KCRW’s Jennifer Ferro
 
-How to build a billion-dollar sports team
+Pioneers of AI’s Rana el Kaliouby The True Love Society’s Francesca Hogi
 
 Life With Machines’s Baratunde Thurston
 
 Upwork’s Hayden Brown
 
 Autodesk’s Dara Treseder
-
-Warp Sciences’ DJ Patil
 
 Spicewell’s Raina Kumra Gardiner
 

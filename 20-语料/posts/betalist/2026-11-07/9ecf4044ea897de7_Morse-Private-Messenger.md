@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/morse-private-messenger"
 published_at: "2026-11-03"
-captured_at: "2026-11-11T13:39:55+08:00"
+captured_at: "2026-11-16T10:02:46+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-11-03
 > 项目链接：—
-> 采集：2026-11-11T13:39:55+08:00　|　id：`9ecf4044ea897de7`
+> 采集：2026-11-16T10:02:46+08:00　|　id：`9ecf4044ea897de7`
 
 ## 正文
 
@@ -41,6 +41,7 @@ Search startups and topics
 /
 Browse topics
  Newsletter
+ iPhone app
 Help
  Advertise
  Refer a friend
@@ -59,6 +60,7 @@ Home
  Search
  Browse topics
  Newsletter
+ iPhone app
 Help
  Advertise
  Refer a friend
@@ -101,19 +103,19 @@ Core51
 Secure corporate messaging with exportable court-ready proof
 Sansara
 Keep your mental health private with on-device AI that listens
+Tapestry PRM
+Remember the people you know and reconnect with useful context
+FN2
+ Boosted
+Analyze stocks with AI-driven research and real-time market signals
 Zappr
 Meet real people nearby right now
-Aria
- Boosted
-Free color analysis and honest verdicts before you buy
 HushAsk
 Anonymous Slack questions and feedback backed by cryptography
 Seek & Connect
 Find your people through the magic of words
 Ekcho
 Broadcast your voice anonymously and share what you really think
-Frunk Friends
-Private social network built for Tesla owners to connect and share
 Visit website
 Save
 quick-look#closed click->quick-look#closeOnBackdrop keydown->quick-look#keydown turbo:click->quick-look#leave turbo:frame-load->quick-look#loaded turbo:before-cache@document->quick-look#hide"

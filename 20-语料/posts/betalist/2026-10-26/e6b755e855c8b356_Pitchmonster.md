@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/pitchmonster"
 published_at: "2026-09-12"
-captured_at: "2026-11-10T09:53:55+08:00"
+captured_at: "2026-11-16T10:02:46+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -24,7 +24,7 @@ discovered_via: "betalist:home"
 # Pitchmonster
 
 > [!info] 一句话导读
-> class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:…
+> Search startups and topics
 
 > [!meta]- 语料信息（点开展开）
 > 来源：BetaList（project）
@@ -32,15 +32,16 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-09-12
 > 项目链接：—
-> 采集：2026-11-10T09:53:55+08:00　|　id：`e6b755e855c8b356`
+> 采集：2026-11-16T10:02:46+08:00　|　id：`e6b755e855c8b356`
 
 ## 正文
 
 BetaList
-Home
- Browse
+Search startups and topics
+/
+Browse topics
  Newsletter
- Search
+ iPhone app
 Help
  Advertise
  Refer a friend
@@ -48,14 +49,6 @@ Help
 Startup Jobs
  Vision Pro apps
  Room AI
-Home
- Browse
- Newsletter
- Search
-Help
- Advertise
- Refer a friend
- Affiliates
 theme#toggle"
  class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white"
  title="Toggle theme"
@@ -63,55 +56,77 @@ theme#toggle"
  >
 Log in
 Submit Startup
-Back to all startups
-PitchMonster BOOSTED
+Home
+ Search
+ Browse topics
+ Newsletter
+ iPhone app
+Help
+ Advertise
+ Refer a friend
+ Affiliates
+PitchMonster
+Boosted
 Practice sales calls with AI buyers and get instant coaching
+Visit website
+Save
+ Saved
 PitchMonster helps sales teams practice real conversations, analyze live calls, and get AI coaching before and after every deal. The platform simulates buyers that match your ICP in 29 languages, challenges reps with objections, and scores performance against your playbooks. Teams create scenarios from documents, calls, and CRM data, integrate with Salesforce and Gong, and track improvement with clear analytics. Enterprises use it to cut ramp time and standardize coaching at scale.
-Visit Site
-Visit Site
 Makers
 PitchMonster
 Topics
-Training
-Simulation
-Sales Enablement
-Coaching
-Revenue Operation
+🏋️‍♀️ Training
+🎮 Simulation
+📈 Sales Enablement
+🎯 Coaching
+📈 Revenue Operation
 Featured
-September 12, 2026
+ September 12, 2026
 Request changes
 Edit makers
 Get your badge
 Report this startup
  Manage collections
-Discover startups similar to PitchMonster
+More like PitchMonster
+Startups doing something similar, featured in the last two years
 FreeDAST
  SPONSOR
- Scan your live site for risks and get a clear security grade
- SPONSOR
+Scan your live site for risks and get a clear security grade
 RepEdge.ai
- Analyze sales calls and coach reps with real-time AI insights
+Analyze sales calls and coach reps with real-time AI insights
 TalkPilot
- Get live prompts and coaching while you speak, invisible to others
-Aria
- BOOSTED
- Free color analysis and honest verdicts before you buy
- BOOSTED
+Get live prompts and coaching while you speak, invisible to others
+aSERP
+ Boosted
+Track how AI engines mention, cite, and recommend your brand
 PitchMit
- Win more Upwork jobs with AI that learns your winning patterns
+Win more Upwork jobs with AI that learns your winning patterns
 AvairAI
- AI agents book meetings while you close deals
+AI agents book meetings while you close deals
 Pitch31.ai
- Turn your APIs into AI agents
-EntreDash
- BOOSTED
- Validate and shape your idea with a private AI advisory board
- BOOSTED
+Turn your APIs into AI agents
+Intrawebix CRM
+ Boosted
+One inbox for WhatsApp, Telegram, Instagram, email, and sales CRM
 AdPerch
- Find warm investor intros and track your raise with an AI agent
+Find warm investor intros and track your raise with an AI agent
+implo.ai
+Buy ready-to-deploy AI prompts, workflows, agents, and templates
+Promu
+AI lead generation and cold email outreach for B2B teams
+Replivo AI
+Turn missed calls into booked meetings with instant AI SMS follow-ups
+Visit website
+Save
+quick-look#closed click->quick-look#closeOnBackdrop keydown->quick-look#keydown turbo:click->quick-look#leave turbo:frame-load->quick-look#loaded turbo:before-cache@document->quick-look#hide"
+ class="slide-over fixed inset-y-3 right-3 left-auto m-0 h-auto max-h-none w-[520px] max-w-[calc(100vw-1.5rem)] overflow-y-auto overscroll-contain rounded-3xl bg-white p-0 text-gray-900 shadow-2xl outline-none ring-1 ring-gray-900/10 backdrop:bg-gray-950/30 backdrop:backdrop-blur-[2px] dark:bg-gray-950 dark:text-gray-100 dark:ring-white/10 dark:backdrop:bg-black/60">
+↑
+ ↓
+ to browse
+Open page
 auth-dialog#closeOnBackdrop close->auth-dialog#reset turbo:before-cache@document->auth-dialog#close"
  aria-label="Log in or sign up"
- class="m-auto w-[min(28rem,calc(100vw-2rem))] max-h-[calc(100dvh-2rem)] rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 shadow-2xl p-0 backdrop:bg-gray-500/75 dark:backdrop:bg-black/80 backdrop:backdrop-blur-sm">
+ class="pop-in m-auto w-[min(26rem,calc(100vw-2rem))] max-h-[calc(100dvh-2rem)] rounded-3xl bg-white text-gray-900 shadow-2xl ring-1 ring-gray-900/10 p-0 outline-none backdrop:bg-gray-950/30 backdrop:backdrop-blur-[2px] dark:bg-gray-950 dark:text-gray-100 dark:ring-white/10 dark:backdrop:bg-black/60">
 
 ## 导航
 

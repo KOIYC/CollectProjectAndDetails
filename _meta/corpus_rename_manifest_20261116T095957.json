@@ -1,0 +1,23 @@
+{
+  "at": "2026-11-16T10:12:03+08:00",
+  "kind": "corpus_rename",
+  "note": "条目改标题导致的语料页换名；旧页已清（git/raw 可回溯），链接已改写",
+  "renames": [
+    {
+      "from": "20-语料/posts/producthunt/2026-09-28/c70e9f4491128cb4_GPT‐6-Cyber.md",
+      "to": "20-语料/posts/producthunt/2026-09-28/c70e9f4491128cb4_Businesses-in-ChatGPT.md"
+    },
+    {
+      "from": "20-语料/posts/producthunt/2026-10-25/d5153a96e51f5b91_AgentGrid.io.md",
+      "to": "20-语料/posts/producthunt/2026-10-25/d5153a96e51f5b91_Canvas-by-AgentGrid.io.md"
+    },
+    {
+      "from": "20-语料/posts/producthunt/2026-10-25/ecfa65be2efa9c0c_outages.live.md",
+      "to": "20-语料/posts/producthunt/2026-10-25/ecfa65be2efa9c0c_Polylane-for-Security.md"
+    },
+    {
+      "from": "20-语料/posts/xiaohongshu/2026-09-21/7861ab65194de927_独立开发三年上架11个App的感想.md",
+      "to": "20-语料/posts/xiaohongshu/2026-09-21/7861ab65194de927_大佬一条吐槽帖,他36小时做出产品,月入$48K.md"
+    }
+  ]
+}

@@ -5,8 +5,8 @@ title: "aiCarousels Revenue: $5K MRR, $1K MRR in 6 months | Startup Founder Stor
 source: "exa_discovery"
 source_name: "Exa 全网语义发现"
 url: "https://startupfounderstories.com/stories/fernando-pessagno-aicarousels-1k-mrr-180-days"
-published_at: "2026-07-21T20:59:37.000Z"
-captured_at: "2026-10-26T09:46:53+08:00"
+published_at: "2026-07-21T18:42:20.000Z"
+captured_at: "2026-11-16T10:07:45+08:00"
 lang: "en"
 kind: "method"
 topic: "AI 工具/Agent"
@@ -30,20 +30,18 @@ discovered_via: "exa:solo founder MRR milestone build in public"
 > 来源：Exa 全网语义发现（method）
 > 原帖：<https://startupfounderstories.com/stories/fernando-pessagno-aicarousels-1k-mrr-180-days>
 > 指标：—
-> 作者：—　|　发布：2026-07-21T20:59:37.000Z
+> 作者：—　|　发布：2026-07-21T18:42:20.000Z
 > 项目链接：—
-> 采集：2026-10-26T09:46:53+08:00　|　id：`27e30ce905ea6e59`
+> 采集：2026-11-16T10:07:45+08:00　|　id：`27e30ce905ea6e59`
 
 ## 正文
 
 Title: aiCarousels Revenue: $5K MRR, $1K MRR in 6 months | Startup Founder Stories
 URL: https://startupfounderstories.com/stories/fernando-pessagno-aicarousels-1k-mrr-180-days
-Published: 2026-07-21T20:59:37.000Z
+Published: 2026-07-21T18:42:20.000Z
 Author: Fernando Pessagno
 Highlights:
 aiCarousels Revenue: $5K MRR, $1K MRR in 6 months | Startup Founder Stories
-
-Fernando Pessagno aiCarousels
 
 # Turning a ten-day build-in-public challenge into a $5K MRR creator tool
 
@@ -51,15 +49,11 @@ $5K MRR
 
 Current revenue · as of July 2026
 
-Starter Story founder interview
-
 6 months $1K MRR
 
 Twitter / X Growth channel
 
 Solo founder Founder
-
-Founder
 
 Fernando Pessagno Solo founder• Technical• Sweden
 
@@ -71,9 +65,9 @@ Experience
 
 Experienced
 
-Product
-
 ...
+
+## The full story
 
 TL;DR
 
@@ -114,6 +108,14 @@ Avg: 6 months
 6 months Total journey time
 
 2 Milestones achieved
+
+...
+
+Fernando Pessagno took 6 months to reach $1k mrr with aiCarousels.
+
+Was Fernando Pessagno a solo founder?
+
+Yes. Fernando Pessagno built aiCarousels as a solo founder.
 
 ---
 

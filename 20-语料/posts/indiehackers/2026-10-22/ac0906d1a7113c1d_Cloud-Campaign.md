@@ -6,10 +6,10 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/cloud-campaign"
 project_url: "https://angel.co/company/cloudcampaign/jobs/898766-fullstack-software-engineer"
-captured_at: "2026-11-11T13:40:10+08:00"
+captured_at: "2026-11-16T10:02:55+08:00"
 lang: "en"
 kind: "project"
-topic: "AI 工具/Agent"
+topic: 开发者工具
 shard: "2026-10-22"
 tags:
   - 语料
@@ -31,158 +31,188 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://angel.co/company/cloudcampaign/jobs/898766-fullstack-software-engineer>
-> 采集：2026-11-11T13:40:10+08:00　|　id：`ac0906d1a7113c1d`
+> 采集：2026-11-16T10:02:55+08:00　|　id：`ac0906d1a7113c1d`
 
 ## 正文
 
 Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+
 Starting Up Case Studies
  Ideas DB Products DB Sign in Join
-Cloud Campaign
- Social media marketing software for digital agencies.
-Visit Website
-Cloud Campaign Social media marketing software for digital agencies.
- Posts 60+
- Revenue $368K / mo
- Website Twitter Facebook
-June 9, 2023
- AI Generated Social Media Captions
-CaptionAI: The free social media caption generator | Cloud Campaign
- Writer's block? CaptionAI to the rescue!
-Use GPT-3.5 to write social media captions for FREE!
-Couple the AI captions with Cloud Campaign's full-suite of social media management tools and you'll be growing your Twitter following in no-time.
-You can even have the AI write captions in the tone of your favorite influencer. @csallen 👀 watch out for the look-a-likes.
-https://www.cloudcampaign.com/solutions/captionai
-Ryan Born
-4 Upvotes
-Comment
-March 30, 2023
- Cloud Campaign is now used in 120 countries
-In the first year of starting Cloud Campaign, the product was only used by a handful of companies in California (where I was located).
-It's really inspiring to see how much that has changed over the years and how much of an impact our small team has had on this industry.
-I was just filling out a compliance form, which asked for an exhaustive list of every country Cloud Campaign is used in. Our 31,500 users are located across 120 different countries!
-The top ~20 countries (ordered by number of users) are:
-🇺🇸 United States
-🇬🇧 United Kingdom
-🇨🇦 Canada
-🇵🇭 Philippines
-🇳🇱Netherlands
-🇦🇺 Australia
-🇩🇪 Germany
-🇺🇦 Ukraine
-🇮🇳 India
-🇲🇽 Mexico
-🇵🇰 Pakistan
-🇮🇪 Ireland
-🇫🇷 France
-🇮🇩 Indonesia
-🇫🇮 Finland
-🇨🇴 Colombia
-🇳🇬 Nigeria
-🇿🇦 South Africa
-🇧🇷 Brazil
-🇳🇿 New Zealand
-🇱🇺 Luxembourg
-🇻🇪 Venezuela
-Ryan Born
-1 Upvote
-1 Comment
-September 30, 2020
- We crossed $1M ARR
-Thinking back 3 years ago when I started the company and it was just me working from my apartment, I thought this day would never come.
-The best part is I have an amazing team that I get to celebrate with now. Reaching this milestone is the result of many people's efforts, both internally at our team and externally with investors, advisors, and friends.
-There is still a long road ahead of us to achieve our vision, but this is an important milestone along the way!
-Ryan Born
-3 Upvotes
-Comment
-July 1, 2020
- We're a team of 10!
-We hate tracking success by team-size, but this feels like a huge accomplishment for us. To be able to employee 10 amazing folks is no small feat.
-Kienan and Matty joined the team as Junior Account Executives putting us at 10 fulltime employees and 1 intern, 1 consultant, & 1 agency.
-Here's the structure of the team:
-Sales:
-Kienan - Junior Account Executive
-Matty - Junior Account Executive
-Becca - Sales Development Rep
-Andrew - Senior Account Executive
-Engineering:
-Heather - Frontend Software Engineer
-Fritz - Lead Software Engineer
-Customer Success:
-Casie - Customer Success Manager
-Marketing:
-Anya - Marketing Manager
-Tuff - Marketing Agency
-Biz Ops:
-Luis - Intern
-Caitlin - Consultant
-Leadership:
-Ross - COO
-Ryan - CEO
-We're actively hiring for a fullstack engineer in Boulder, CO:
-https://angel.co/company/cloudcampaign/jobs/898766-fullstack-software-engineer
-Ryan Born
-3 Upvotes
-3 Comments
-May 15, 2020
- We hired a UX designer
-Instagram Grid Preview - Cloud Campaign updates
- With social media being such a visual industry, good design has always been extremely important to us.
-But, up until this point, Ryan, a backend engineer by trade, was designing the entire product. Having a dedicated UX designer and frontend engineer will help us provide a better experience for our customers and make the product more intuitive to use.
-Within the first month, Heather, our new designer shipped one of the most requested features -- Instagram Grid Preview
-Ryan Born
-1 Upvote
-Comment
-April 1, 2020
- We hired our first engineer!
-Meet The Team Behind Cloud Campaign
- After almost 3 years of Ryan being our CEO and only engineer, we finally hired a lead software engineer, Fritz, to take ownership of most of the codebase.
-With the team growing quickly 3 --> 7 employees over the past 6mo, Ryan was finding his time split between many different tasks, causing product development to slow down.
-With Fritz, and soon another engineer, on the team to help, we'll be able to accelerate product development and deliver much more value to our customers.
-https://cloudcampaign.io/about
-Ryan Born
-2 Upvotes
-Comment
-February 10, 2020
- Half a Million Run Rate!
-We achieved a $.5M run rate ($42k MRR) with a full-time team of 4!
-While in and of itself it's an exciting milestone, it shows that we're on track for our larger goal for 2020. Continuing on this trend, we are positioned for very healthy revenue growth over the next 12 months.
-Ryan Born
-4 Upvotes
-Comment
-January 31, 2020
- We Raised $1.5M
-Cloud Campaign raises $1.5 Million to build Hootsuite for agencies
- While not the typical path for Indie Hackers, we're extremely proud to have raised a $1.5M seed round to continue to deliver on our promise of helping marketing agencies scale.
-Along with the capital, we have some amazing investors joining us on this journey.
-Press on the round:
-https://blog.cloudcampaign.io/2020/01/31/cloud-campaign-raises-1-5-million-to-build-hootsuite-for-agencies/
-https://www.americaninno.com/colorado/boulder-startups/following-1-5m-raise-portland-startup-to-open-boulder-office/
-https://www.startupssanantonio.com/active-capital-leads-1-5m-seed-round-for-social-media-management-platform-cloud-campaign/amp/
-Ryan Born
-3 Upvotes
-Comment
-December 1, 2019
- Becca Joins Cloud Campaign
-Becca left WeWork to join Ross and Andrew in our Portland office as our first Sales Development Rep.
-She will be screening inbound leads and setting demos for Ross and Andrew. This is a huge milestone, adding more structure to our sales org and increasing efficiency.
-Ryan Born
-2 Upvotes
-Comment
-November 4, 2019
- Shared our Story on the Indie Hacker Podcast!
-Niching Down to Find Product-Market Fit with Ryan Born of Cloud Campaign
- Cloud Campaign was birthed from the Indie Hacker community so it's only fitting that we came back to tell our story on the IH podcast.
-We've grown our business in one of the more crowded industries to reach $25k MRR and are growing revenue by about 30% month over month.
-Give the episode a listen if you're interested in our journey!
-https://www.indiehackers.com/podcast/132-ryan-born-of-cloud-campaign
-Ryan Born
-4 Upvotes
-2 Comments
-About
- Cloud Campaign helps marketing agencies scale social media management so they can increase the number of brands they manage and charge a higher retainer with a leaner team.
-People
- Ryan Born Founder
+Products DB Share Copied Retry Visit website
+ Cloud Campaign
+Social media marketing software for digital agencies.
+$376k /mo
+ ✓ Verified Last 30 days
+Product type Software
+ Helps with Business reporting, Social media marketing
+ Platforms Web
+ Business model Subscription
+ Founders 1
+ Started Jun 2017
+Visit cloudcampaign.com
+Charts
+ 12 months All time
+Revenue $420k in Oct Traffic rank Top 5M
+Revenue by month Mar 2018 $4.6k
+ Apr 2018 $294
+ May 2018 $95
+ Jun 2018 $105
+ Jul 2018 $533
+ Aug 2018 $488
+ Sep 2018 $1.1k
+ Oct 2018 $1.4k
+ Nov 2018 $3.3k
+ Dec 2018 $5.2k
+ Jan 2019 $6.9k
+ Feb 2019 $8k
+ Mar 2019 $9.1k
+ Apr 2019 $9.2k
+ May 2019 $9.6k
+ Jun 2019 $10.9k
+ Jul 2019 $12k
+ Aug 2019 $18k
+ Sep 2019 $19.7k
+ Oct 2019 $23k
+ Nov 2019 $25.9k
+ Dec 2019 $29.6k
+ Jan 2020 $38.1k
+ Feb 2020 $37.2k
+ Mar 2020 $40.4k
+ Apr 2020 $43.7k
+ May 2020 $51.7k
+ Jun 2020 $57.1k
+ Jul 2020 $60.7k
+ Aug 2020 $63.5k
+ Sep 2020 $75.3k
+ Oct 2020 $81.6k
+ Nov 2020 $76.7k
+ Dec 2020 $84.1k
+ Jan 2021 $91.1k
+ Feb 2021 $105k
+ Mar 2021 $119k
+ Apr 2021 $131k
+ May 2021 $132k
+ Jun 2021 $139k
+ Jul 2021 $152k
+ Aug 2021 $139k
+ Sep 2021 $155k
+ Oct 2021 $146k
+ Nov 2021 $134k
+ Dec 2021 $172k
+ Jan 2022 $195k
+ Feb 2022 $206k
+ Mar 2022 $234k
+ Apr 2022 $250k
+ May 2022 $266k
+ Jun 2022 $231k
+ Jul 2022 $250k
+ Aug 2022 $276k
+ Sep 2022 $277k
+ Oct 2022 $303k
+ Nov 2022 $274k
+ Dec 2022 $355k
+ Jan 2023 $296k
+ Feb 2023 $320k
+ Mar 2023 $347k
+ Apr 2023 $364k
+ May 2023 $377k
+ Jun 2023 $392k
+ Jul 2023 $365k
+ Aug 2023 $355k
+ Sep 2023 $385k
+ Oct 2023 $388k
+ Nov 2023 $414k
+ Dec 2023 $564k
+ Jan 2024 $495k
+ Feb 2024 $433k
+ Mar 2024 $423k
+ Apr 2024 $453k
+ May 2024 $493k
+ Jun 2024 $475k
+ Jul 2024 $434k
+ Aug 2024 $422k
+ Sep 2024 $473k
+ Oct 2024 $444k
+ Nov 2024 $531k
+ Dec 2024 $612k
+ Jan 2025 $716k
+ Feb 2025 $533k
+ Mar 2025 $524k
+ Apr 2025 $547k
+ May 2025 $600k
+ Jun 2025 $536k
+ Jul 2025 $559k
+ Aug 2025 $494k
+ Sep 2025 $1.4m
+ Oct 2025 $511k
+ Nov 2025 $496k
+ Dec 2025 $558k
+ Jan 2026 $471k
+ Feb 2026 $524k
+ Mar 2026 $612k
+ Apr 2026 $451k
+ May 2026 $583k
+ Jun 2026 $480k
+ Jul 2026 $464k
+ Aug 2026 $1.4m
+ Sep 2026 $402k
+ Oct 2026 $420k
+Stripe · verified · monthly revenue, not including the current month · through Oct 2026
+ The founders
+ 1 founder
+ Ryan Born
+ Founder · @_RyanBorn
+ Diving headfirst into:
+Show more
+Milestones
+ 8 milestones
+ 1 mo after starting
+ 100 Users Ryan Born · Jul 30, 2017
+3 mos after starting
+ First Paying Customer Ryan Born · Sep 22, 2017
+5 mos after starting
+ 15 Customers! Ryan Born · Nov 2017
+1 yr, 5 mos after starting
+ 25 Customers! 🎉 Ryan Born · Nov 21, 2018
+1 yr, 8 mos after starting
+ 100K ARR Ryan Born · Feb 8, 2019 · 15 likes · 21 comments
+2 yrs, 2 mos after starting
+ 150K ARR! Ryan Born · Aug 1, 2019
+2 yrs, 2 mos after starting
+ We crossed $15k MRR! Ryan Born · Aug 18, 2019
+3 yrs, 3 mos after starting
+ We crossed $1M ARR Ryan Born · Sep 30, 2020
+Show more
+ Launch log
+ 2 launches on 1 platform
+ Jun 26 2017
+ IH Indie Hackers “Beta Launch”
+ Launched
+ Aug 13 2018
+ IH Indie Hackers “Monitor Launch”
+ Launched
+Oldest first; listings without a date go last
+ The site through the years
+ 3 versions, 2022 to 2026
+ 2022 Mar 31 2024 Jan 6 2026 Sep 28
+www.cloudcampaign.com Headline “Agency-Friendly Social Media Management”
+Captured Sep 28, 2026 · Web archive ↗
+Homepage captures from the Wayback Machine
+ Built with
+ 6 different products
+ Site builder W Webflow
+CDN CF Cloudflare
+Analytics f Meta Pixel GT Google Tag Manager GA Google Analytics
+Marketing H HubSpot
+Detected on cloudcampaign.com · Nov 8, 2026
+ More like this
+A AI Comment Exporter YouTube, TikTok, Instagram, X and Reddit comment exporter to Excel, CSV and JSON, with an AI report on what people ask
+ A Adovo Adovo helps enterprise teams build Adobe Experience Cloud solutions, make fragmented data usable, and apply AI to defined workflows.
+ AI Detect Detect AI Generated content
+ $988/mo ✓ Verified AI Designer Great UI Doesn't Need to be Hard
+ $8k/mo ✓ Verified
+Browse Products DB
+ Part of the Cloud Campaign team? Verify yourself
 Stay informed as an indie hacker.
  Market insights that help you start and grow your business.
 Subscribe
@@ -195,18 +225,9 @@ Products
 Databases
  Ideas Products Stories
 
-## 关联链接
-
-- https://blog.cloudcampaign.io/2020/01/31/cloud-campaign-raises-1-5-million-to-build-hootsuite-for-agencies/
-- https://cloudcampaign.io/about
-- https://www.americaninno.com/colorado/boulder-startups/following-1-5m-raise-portland-startup-to-open-boulder-office/
-- https://www.cloudcampaign.com/solutions/captionai
-- https://www.indiehackers.com/podcast/132-ryan-born-of-cloud-campaign
-- https://www.startupssanantonio.com/active-capital-leads-1-5m-seed-round-for-social-media-management-platform-cloud-campaign/amp/
-
 ## 导航
 
 - 项目页：[[10-项目/Cloud-Campaign_2cdc1f7b]]
 - 渠道页：[[50-渠道/indiehackers]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]
