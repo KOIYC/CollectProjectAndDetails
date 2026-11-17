@@ -8,7 +8,7 @@ url: "https://github.com/tangerineturtle1/NX2navi"
 project_url: "https://github.com/tangerineturtle1/NX2navi"
 author: "tangerineturtle1"
 published_at: "2026-11-07T10:01:23Z"
-captured_at: "2026-11-16T10:02:31+08:00"
+captured_at: "2026-11-17T11:10:48+08:00"
 lang: "en"
 kind: "post"
 topic: "开发者工具"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - C
-  - created:>2026-11-02
-metrics: {"stars": 4230, "forks": 332, "open_issues": 780}
+  - created:>2026-11-03
+metrics: {"stars": 4287, "forks": 345, "open_issues": 789}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/tangerineturtle1/NX2navi>
-> 指标：stars=4230 · forks=332 · open_issues=780
+> 指标：stars=4287 · forks=345 · open_issues=789
 > 作者：tangerineturtle1　|　发布：2026-11-07T10:01:23Z
 > 项目链接：<https://github.com/tangerineturtle1/NX2navi>
-> 采集：2026-11-16T10:02:31+08:00　|　id：`b01b2d10bc533d52`
+> 采集：2026-11-17T11:10:48+08:00　|　id：`b01b2d10bc533d52`
 
 ## 正文
 

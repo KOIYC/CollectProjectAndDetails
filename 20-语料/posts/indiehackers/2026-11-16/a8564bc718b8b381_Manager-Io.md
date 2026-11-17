@@ -5,10 +5,10 @@ title: "Manager Io"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/manager-io"
-captured_at: "2026-11-16T10:02:55+08:00"
+captured_at: "2026-11-17T11:11:06+08:00"
 lang: "en"
 kind: "project"
-topic: "AI 工具/Agent"
+topic: "开发者工具"
 shard: "2026-11-16"
 tags:
   - 语料
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-16T10:02:55+08:00　|　id：`a8564bc718b8b381`
+> 采集：2026-11-17T11:11:06+08:00　|　id：`a8564bc718b8b381`
 
 ## 正文
 
@@ -115,7 +115,7 @@ Revenue by month Aug 2021 $35.7k
  Aug 2026 $106k
  Sep 2026 $104k
  Oct 2026 $115k
-Stripe · verified · monthly revenue, not including the current month · through Oct 2026
+Stripe · verified · monthly revenue, not including the current month
  The founders
  1 founder
  Lubos Hasko
@@ -128,11 +128,10 @@ www.manager.io Headline “Free Accounting Software”
 Captured Nov 7, 2026 · Web archive ↗
 Homepage captures from the Wayback Machine
  More like this
-2027 New Year Money Reset 2027 budget and savings planner for Sheets and Excel
- AdvisorBob Financial Advisory Compensation Software
- $18k/mo AI Detect Detect AI Generated content
- $988/mo ✓ Verified AI Designer Great UI Doesn't Need to be Hard
- $8k/mo ✓ Verified
+1 1099 Ready 1099 Ready is a Google Sheets add-on that totals contractor payments by payee, identifies who needs a 1099, and checks cells against IRIS formatting rules.
+ 10er.dk Recurring donation machine
+ $3.8k/mo Academlo Online Academy for LatAm
+ $2.1k/mo ✓ Verified
 Browse Products DB
  Part of the Manager.io team? Verify yourself
 Stay informed as an indie hacker.
@@ -151,5 +150,5 @@ Databases
 
 - 项目页：[[10-项目/Manager-Io_a8564bc7]]
 - 渠道页：[[50-渠道/indiehackers]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

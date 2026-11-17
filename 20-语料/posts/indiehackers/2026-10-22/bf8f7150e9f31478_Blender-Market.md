@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/blender-market"
 project_url: "https://blendermarket.com/posts/2019-cyber-weekend-sale-results"
-captured_at: "2026-11-16T10:02:55+08:00"
+captured_at: "2026-11-17T11:11:06+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://blendermarket.com/posts/2019-cyber-weekend-sale-results>
-> 采集：2026-11-16T10:02:55+08:00　|　id：`bf8f7150e9f31478`
+> 采集：2026-11-17T11:11:06+08:00　|　id：`bf8f7150e9f31478`
 
 ## 正文
 
@@ -41,7 +41,7 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  Blender Market
 The indie market for Blender creators
-$583k /mo
+$577k /mo
  ✓ Verified Last 30 days
 Product type Marketplace
  Focus Areas Design & creativity, Ecommerce
@@ -49,6 +49,7 @@ Product type Marketplace
  Business model Commission, Subscription, Transactional
  Founders 2
  Started Jun 2014
+ Follow
 Visit blendermarket.com
 Charts
  12 months All time
@@ -143,7 +144,7 @@ Revenue by month May 2019 $10k
  Aug 2026 $606k
  Sep 2026 $526k
  Oct 2026 $593k
-Stripe · verified · monthly revenue, not including the current month · through Oct 2026
+Stripe · verified · monthly revenue, not including the current month
  The founders
  2 founders
  Jonathan Williamson
@@ -175,9 +176,8 @@ Homepage captures from the Wayback Machine
  More like this
 20XMedia Email Marketing Agency
  $10k/mo 22Slides Minimalist photography portfolio website builder
- $15k/mo AI Designer Great UI Doesn't Need to be Hard
- $8k/mo ✓ Verified AI Detect Detect AI Generated content
- $988/mo ✓ Verified
+ $15k/mo Academlo Online Academy for LatAm
+ $2.1k/mo ✓ Verified
 Browse Products DB
  Part of the Blender Market team? Verify yourself
 Stay informed as an indie hacker.

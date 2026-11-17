@@ -2,14 +2,14 @@
 type: "project"
 title: "tangerineturtle1/NX2navi"
 project_url: "https://github.com/tangerineturtle1/NX2navi"
-first_seen: "2026-11-16T10:02:31+08:00"
+first_seen: "2026-11-17T11:10:48+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - C
-  - created:>2026-11-02
+  - created:>2026-11-03
 lang: "en"
 ---
 
@@ -20,16 +20,17 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/tangerineturtle1/NX2navi>
-> 首次收录：2026-11-16T10:02:31+08:00
+> 首次收录：2026-11-17T11:10:48+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：C, created:>2026-11-02
-> 最新指标：stars=4230 · forks=332 · open_issues=780
+> 标签：C, created:>2026-11-03
+> 最新指标：stars=4287 · forks=345 · open_issues=789
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-11-16T10:02:31+08:00 | GitHub 新星仓库 | stars=4230 · forks=332 · open_issues=780 | [[20-语料/posts/github_new/2026-11-16/b01b2d10bc533d52_tangerineturtle1-NX2navi]] |
+| 2026-11-17T11:10:48+08:00 | GitHub 新星仓库 | stars=4287 · forks=345 · open_issues=789 | [[20-语料/posts/github_new/2026-11-16/b01b2d10bc533d52_tangerineturtle1-NX2navi]] |
 
 ## 摘要正文
 

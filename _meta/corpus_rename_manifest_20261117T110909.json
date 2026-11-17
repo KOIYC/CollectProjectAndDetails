@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-17T11:14:16+08:00",
+  "kind": "corpus_rename",
+  "note": "条目改标题导致的语料页换名；旧页已清（git/raw 可回溯），链接已改写",
+  "renames": [
+    {
+      "from": "20-语料/posts/producthunt/2026-10-16/c9f046770e6fcb9b_OpenMuse.md",
+      "to": "20-语料/posts/producthunt/2026-10-16/c9f046770e6fcb9b_OpenBot.md"
+    },
+    {
+      "from": "20-语料/posts/xiaohongshu/2026-09-21/7861ab65194de927_大佬一条吐槽帖,他36小时做出产品,月入$48K.md",
+      "to": "20-语料/posts/xiaohongshu/2026-09-21/7861ab65194de927_1人21个产品,年入103万美金💰.md"
+    }
+  ]
+}

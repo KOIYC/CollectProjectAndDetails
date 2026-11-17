@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/shugert"
 project_url: "https://storetwin.shugert.com.mx/"
-captured_at: "2026-11-16T10:02:55+08:00"
+captured_at: "2026-11-17T11:11:06+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://storetwin.shugert.com.mx/>
-> 采集：2026-11-16T10:02:55+08:00　|　id：`6e6b46fff7de489b`
+> 采集：2026-11-17T11:11:06+08:00　|　id：`6e6b46fff7de489b`
 
 ## 正文
 
@@ -41,7 +41,7 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  Shugert
 Shopify Select Partner for DTC brands doing $500K–$10M+
-$211k /mo
+$218k /mo
  ✓ Verified Last 30 days
 Product type Agency, Consulting
  Helps with Ecommerce, Web development, Growth marketing
@@ -67,7 +67,7 @@ Revenue by month Sep 2025 $122k
  Aug 2026 $246k
  Sep 2026 $233k
  Oct 2026 $150k
-Stripe · verified · monthly revenue, not including the current month · through Oct 2026
+Stripe · verified · monthly revenue, not including the current month
  The founders
  1 founder
  Samuel Noriega
@@ -97,10 +97,9 @@ Analytics GA Google Analytics
 Detected on shugert.com.mx · Nov 8, 2026
  More like this
 01Router Access leading AI video and image models with one 01Router API key, plus text and audio. Choose models and providers to match your budget and quality needs.
- 22Slides Minimalist photography portfolio website builder
- $15k/mo AI Detect Detect AI Generated content
- $988/mo ✓ Verified AI Designer Great UI Doesn't Need to be Hard
- $8k/mo ✓ Verified
+ 14 Habits of Highly Productive Developers A book about the software development career
+ $1.5k/mo Academlo Online Academy for LatAm
+ $2.1k/mo ✓ Verified
 Browse Products DB
  Part of the Shugert team? Verify yourself
 Stay informed as an indie hacker.

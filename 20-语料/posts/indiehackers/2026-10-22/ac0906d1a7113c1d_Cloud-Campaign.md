@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/cloud-campaign"
 project_url: "https://angel.co/company/cloudcampaign/jobs/898766-fullstack-software-engineer"
-captured_at: "2026-11-16T10:02:55+08:00"
+captured_at: "2026-11-17T11:11:06+08:00"
 lang: "en"
 kind: "project"
 topic: 开发者工具
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://angel.co/company/cloudcampaign/jobs/898766-fullstack-software-engineer>
-> 采集：2026-11-16T10:02:55+08:00　|　id：`ac0906d1a7113c1d`
+> 采集：2026-11-17T11:11:06+08:00　|　id：`ac0906d1a7113c1d`
 
 ## 正文
 
@@ -41,7 +41,7 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  Cloud Campaign
 Social media marketing software for digital agencies.
-$376k /mo
+$375k /mo
  ✓ Verified Last 30 days
 Product type Software
  Helps with Business reporting, Social media marketing
@@ -49,6 +49,7 @@ Product type Software
  Business model Subscription
  Founders 1
  Started Jun 2017
+ Follow
 Visit cloudcampaign.com
 Charts
  12 months All time
@@ -157,7 +158,7 @@ Revenue by month Mar 2018 $4.6k
  Aug 2026 $1.4m
  Sep 2026 $402k
  Oct 2026 $420k
-Stripe · verified · monthly revenue, not including the current month · through Oct 2026
+Stripe · verified · monthly revenue, not including the current month
  The founders
  1 founder
  Ryan Born
@@ -206,11 +207,10 @@ Analytics f Meta Pixel GT Google Tag Manager GA Google Analytics
 Marketing H HubSpot
 Detected on cloudcampaign.com · Nov 8, 2026
  More like this
-A AI Comment Exporter YouTube, TikTok, Instagram, X and Reddit comment exporter to Excel, CSV and JSON, with an AI report on what people ask
- A Adovo Adovo helps enterprise teams build Adobe Experience Cloud solutions, make fragmented data usable, and apply AI to defined workflows.
- AI Detect Detect AI Generated content
- $988/mo ✓ Verified AI Designer Great UI Doesn't Need to be Hard
- $8k/mo ✓ Verified
+Addue Online marketing toolbox for digital marketers & affiliates
+ $1k/mo A Adovo Adovo helps enterprise teams build Adobe Experience Cloud solutions, make fragmented data usable, and apply AI to defined workflows.
+ Academlo Online Academy for LatAm
+ $2.1k/mo ✓ Verified
 Browse Products DB
  Part of the Cloud Campaign team? Verify yourself
 Stay informed as an indie hacker.

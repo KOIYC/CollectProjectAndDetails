@@ -2,7 +2,7 @@
 type: "project"
 title: "Shugert"
 project_url: "https://storetwin.shugert.com.mx/"
-first_seen: "2026-11-16T10:02:55+08:00"
+first_seen: "2026-11-17T11:11:06+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://storetwin.shugert.com.mx/>
-> 首次收录：2026-11-16T10:02:55+08:00
+> 首次收录：2026-11-17T11:11:06+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -42,7 +42,8 @@ lang: "en"
 | 2026-11-10T09:54:20+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/6e6b46fff7de489b_Shugert]] |
 | 2026-11-11T13:40:10+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/6e6b46fff7de489b_Shugert]] |
 | 2026-11-16T10:02:55+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/6e6b46fff7de489b_Shugert]] |
+| 2026-11-17T11:11:06+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/6e6b46fff7de489b_Shugert]] |
 
 ## 摘要正文
 
-Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join Products DB Share Copied Retry Visit website  Shugert Shopify Select Partner for DTC brands doing $500K–$10M+ $211k /mo  ✓ Verified Last 30 days Product type Agency, Consulting  Helps with Ecommerce, Web development, Growth marketing  Platforms Web · Desktop · Remote service  Business model Consulting, Subscription  Founders 1  Started May 2015 Visit shugert.com.mx Charts  12 months All time Revenue $150k in Oct Traffic rank Top 50M Revenue by month Sep 2025 $122k  Oct 2025 $165k  Nov 2025 $106k  Dec 2025 $55.3k  Jan 2026 $44.5k  Feb 2026 $183k  Mar 2026 $185k  Apr 2026 $164k  May 2026 $212k  Jun 2026 $121k  Jul 2026 $264k  Aug 2026 $246k  Sep 2026 $233k  Oct 2026 $150k Stripe · verified · monthly revenue, not including the current month · through Oct 2026  The founders  1 founder  Samuel Noriega  Founder · @shugert  I started coding as a hobby and turned it into a career, an agency, and a few startups. Show more From the founder  2 posts on Indie Hackers  2026 2 posts  IH IH post I built a visual twin of Shopify stores to find where cust…
+Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join Products DB Share Copied Retry Visit website  Shugert Shopify Select Partner for DTC brands doing $500K–$10M+ $218k /mo  ✓ Verified Last 30 days Product type Agency, Consulting  Helps with Ecommerce, Web development, Growth marketing  Platforms Web · Desktop · Remote service  Business model Consulting, Subscription  Founders 1  Started May 2015 Visit shugert.com.mx Charts  12 months All time Revenue $150k in Oct Traffic rank Top 50M Revenue by month Sep 2025 $122k  Oct 2025 $165k  Nov 2025 $106k  Dec 2025 $55.3k  Jan 2026 $44.5k  Feb 2026 $183k  Mar 2026 $185k  Apr 2026 $164k  May 2026 $212k  Jun 2026 $121k  Jul 2026 $264k  Aug 2026 $246k  Sep 2026 $233k  Oct 2026 $150k Stripe · verified · monthly revenue, not including the current month  The founders  1 founder  Samuel Noriega  Founder · @shugert  I started coding as a hobby and turned it into a career, an agency, and a few startups. Show more From the founder  2 posts on Indie Hackers  2026 2 posts  IH IH post I built a visual twin of Shopify stores to find where customers get stuck  I’…

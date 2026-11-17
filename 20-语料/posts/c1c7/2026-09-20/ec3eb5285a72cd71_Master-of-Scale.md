@@ -6,7 +6,7 @@ source: "c1c7"
 source_name: "1c7 中文独立开发者名录"
 url: "https://mastersofscale.com"
 project_url: "https://mastersofscale.com/"
-captured_at: "2026-11-16T10:07:05+08:00"
+captured_at: "2026-11-17T11:12:00+08:00"
 lang: "zh"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "1c7:readme"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://mastersofscale.com/>
-> 采集：2026-11-16T10:07:05+08:00　|　id：`ec3eb5285a72cd71`
+> 采集：2026-11-17T11:12:00+08:00　|　id：`ec3eb5285a72cd71`
 
 ## 正文
 
@@ -42,39 +42,15 @@ Masters of Scale – Home
 
 ## Rapid Response
 
-## Inside Walmart’s biggest shake-up in years
+## The “best practices” corrupting business
 
- Walmart’s John Furner
+ Author Eric Ries
 
-John Furner shares how the company is transforming its business in the age of AI.
+Eric Ries explains why he’s now calling it corruption when a company people love turns extractive as it scales, how what he calls financial gravity pulls even great organizations toward the same dismal shape, and why shareholder primacy is a far newer idea than most leaders realize.
 
 ## Pioneers of AI
 
 Your weekly guide to AI, hosted by Dr. Rana el Kaliouby. New episodes every Wednesday.
-
- Inside Walmart’s biggest shake-up in years
-
- Should we trust AI agents with our information?
-
-Signal’s Meredith Whittaker Abundance Institute’s Neil Chilson
-
- Building a marketplace from scratch
-
-Hipcamp’s Alyssa Ravasio
-
- Don't be boring
-
-Creative Planning’s Jamie Battmer KCRW’s Jennifer Ferro
-
-Pioneers of AI’s Rana el Kaliouby The True Love Society’s Francesca Hogi
-
-Life With Machines’s Baratunde Thurston
-
-Upwork’s Hayden Brown
-
-Autodesk’s Dara Treseder
-
-Spicewell’s Raina Kumra Gardiner
 
 # V2EX › 分享创造
 

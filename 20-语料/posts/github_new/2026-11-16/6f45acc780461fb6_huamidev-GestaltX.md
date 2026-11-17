@@ -8,7 +8,7 @@ url: "https://github.com/huamidev/GestaltX"
 project_url: "https://github.com/huamidev/GestaltX"
 author: "huamidev"
 published_at: "2026-11-09T05:15:48Z"
-captured_at: "2026-11-16T10:15:53+08:00"
+captured_at: "2026-11-17T11:19:07+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - Swift
-  - created:>2026-11-02
-metrics: {"stars": 7745, "forks": 2662, "open_issues": 82}
+  - created:>2026-11-03
+metrics: {"stars": 7904, "forks": 2682, "open_issues": 93}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/huamidev/GestaltX>
-> 指标：stars=7745 · forks=2662 · open_issues=82
+> 指标：stars=7904 · forks=2682 · open_issues=93
 > 作者：huamidev　|　发布：2026-11-09T05:15:48Z
 > 项目链接：<https://github.com/huamidev/GestaltX>
-> 采集：2026-11-16T10:15:53+08:00　|　id：`6f45acc780461fb6`
+> 采集：2026-11-17T11:19:07+08:00　|　id：`6f45acc780461fb6`
 
 ## 正文
 
@@ -47,7 +47,7 @@ GestaltX
 [![SwiftUI](https://img.shields.io/badge/Swift-SwiftUI-orange?logo=swift)](https://github.com/huamidev/GestaltX)
 [![License](https://img.shields.io/badge/license-GPLv3-blue)](LICENSE)
 
-[English](README.md) · [简体中文](README_ZH-CN.md) · [日本語](README_JA.md) · [한국어](README_KO.md)
+[English](README.md) · [简体中文](README_ZH-CN.md) · [日本語](README_JA.md) · [한국어](README_KO.md) · [Türkçe](README_TR.md)
 
 A MobileGestalt editor for iPhone and iPad. Developed by [huamidev](https://github.com/huamidev).
 
@@ -75,7 +75,7 @@ Presets modify capability flags; actual effects depend on the device and OS. Chi
 
 ### Apple Intelligence, Face ID and dictation
 
-The [YumEdit 1.2.1 approach](https://github.com/H4CNPE/YumEdit/tree/v1.2.1) avoids spoofing the product, board and CPU. In Intelligence, **Apple Intelligence Capability** sets the generative-model flag to `1`, while the separate **Siri AI Mode** preset sets `SiriMode` to `2`. Neither changes hardware identity or the device-specific On-Device Siri capability. These are experimental flags, not a guarantee of resource downloads or working Apple Intelligence. YumEdit later replaced this activation approach with an experimental two-stage workflow; GestaltX does not implement temporary hardware spoofing.
+The [YumEdit 1.2.1 approach](https://github.com/H4CNPE/YumEdit/tree/v1.2.1) avoids spoofing the product, board and CPU. In Intelligence, **Apple Intelligence Capability** sets the generative-model flag to `1`, while the separate **Siri AI Mode** preset sets `SiriMode` to `2`. Neither changes hardware identity nor the device-specific On-Device Siri capability. These are experimental flags, not a guarantee of resource downloads or working Apple Intelligence. YumEdit later replaced this activation approach with an experimental two-stage workflow; GestaltX does not implement temporary hardware spoofing.
 
 If a previous hardware spoof broke Face ID or dictation, choose an original device backup in **Backups → Restore Hardware Identity**. Alternatively, import a verified original plist and use **Intelligence → Restore Hardware Identity**. Save or discard pending changes first. Recovery requires a verified same-device backup with the same `CacheData`, `CacheUUID` and cache version, whose product and board match the kernel-reported hardware. It restores only product, board, CPU and the original regulatory model number, preserving current AI, Siri, region and unrelated settings. Unlike YumEdit's region activation, recovery does not substitute a US regulatory model. Missing, incompatible or already-spoofed backups are rejected; original hardware values are never guessed.
 
@@ -118,6 +118,7 @@ GestaltX follows your iOS language settings, with English as the default and fal
 | 한국어 — Korean | `ko` |
 | Español — Spanish | `es` |
 | 日本語 — Japanese | `ja` |
+| Türkçe — Turkish | `tr` |
 
 ## Credits
 

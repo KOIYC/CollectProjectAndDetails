@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/ghost"
 project_url: "https://blog.ghost.org/2-0"
-captured_at: "2026-11-16T10:02:55+08:00"
+captured_at: "2026-11-17T11:11:06+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://blog.ghost.org/2-0>
-> 采集：2026-11-16T10:02:55+08:00　|　id：`e841adcbe78baaac`
+> 采集：2026-11-17T11:11:06+08:00　|　id：`e841adcbe78baaac`
 
 ## 正文
 
@@ -41,7 +41,7 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  Ghost
 Indie subscription platform for creators
-$832k /mo
+$826k /mo
  ✓ Verified Last 30 days
 Product type Software
  Helps with Email marketing, Content management
@@ -49,6 +49,7 @@ Product type Software
  Business model Subscription
  Founders 1
  Started Nov 2012
+ Follow
 Visit ghost.org
 Charts
  12 months All time
@@ -168,7 +169,7 @@ Revenue by month Apr 2017 $71.5k
  Aug 2026 $921k
  Sep 2026 $895k
  Oct 2026 $911k
-Stripe · verified · monthly revenue, not including the current month · through Oct 2026
+Stripe · verified · monthly revenue, not including the current month
  The founders
  1 founder
  John O'Nolan
@@ -207,9 +208,8 @@ Homepage captures from the Wayback Machine
  More like this
 Adoovy Power Up Your Digital Presence
  $21k/mo Adflipr Email marketing for Shopify and WooCommerce
- $10k/mo AI Designer Great UI Doesn't Need to be Hard
- $8k/mo ✓ Verified AI Detect Detect AI Generated content
- $988/mo ✓ Verified
+ $10k/mo Academlo Online Academy for LatAm
+ $2.1k/mo ✓ Verified
 Browse Products DB
  Part of the Ghost team? Verify yourself
 Stay informed as an indie hacker.

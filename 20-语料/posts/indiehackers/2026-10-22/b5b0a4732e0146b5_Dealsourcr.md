@@ -5,10 +5,10 @@ title: "Dealsourcr"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/dealsourcr"
-captured_at: "2026-11-16T10:02:55+08:00"
+captured_at: "2026-11-17T11:11:06+08:00"
 lang: "en"
 kind: "project"
-topic: "AI 工具/Agent"
+topic: "开发者工具"
 shard: "2026-10-22"
 tags:
   - 语料
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-16T10:02:55+08:00　|　id：`b5b0a4732e0146b5`
+> 采集：2026-11-17T11:11:06+08:00　|　id：`b5b0a4732e0146b5`
 
 ## 正文
 
@@ -40,7 +40,7 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  Dealsourcr
 Helps UK investors find amazing property deals in seconds
-$72.6k /mo
+$69.6k /mo
  ✓ Verified Last 30 days
 Product type Software
  Helps with Property search
@@ -131,7 +131,7 @@ Revenue by month Apr 2020 $1.2k
  Aug 2026 $36.7k
  Sep 2026 $41.5k
  Oct 2026 $98.3k
-Stripe · verified · monthly revenue, not including the current month · through Oct 2026
+Stripe · verified · monthly revenue, not including the current month
  The founders
  1 founder
  Ashley Rudland
@@ -146,9 +146,8 @@ Milestones
 7 yrs, 3 mos after starting
  Hit $500K ARR Ashley Rudland · Sep 3, 2026
 More like this
-AI Detect Detect AI Generated content
- $988/mo ✓ Verified AI Designer Great UI Doesn't Need to be Hard
- $8k/mo ✓ Verified
+Academlo Online Academy for LatAm
+ $2.1k/mo ✓ Verified
 Browse Products DB
  Part of the Dealsourcr team? Verify yourself
 Stay informed as an indie hacker.
@@ -167,5 +166,5 @@ Databases
 
 - 项目页：[[10-项目/Dealsourcr_b5b0a473]]
 - 渠道页：[[50-渠道/indiehackers]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

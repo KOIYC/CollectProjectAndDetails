@@ -5,7 +5,7 @@ title: "Postiz 2"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/postiz-2"
-captured_at: "2026-11-16T10:02:55+08:00"
+captured_at: "2026-11-17T11:11:06+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-16T10:02:55+08:00　|　id：`0f1f4a460ecae2a1`
+> 采集：2026-11-17T11:11:06+08:00　|　id：`0f1f4a460ecae2a1`
 
 ## 正文
 
@@ -40,7 +40,7 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  Postiz
 Agentic social media scheduling tool
-$460k /mo
+$464k /mo
  ✓ Verified Last 30 days
 Product type Software
  Helps with Social media marketing, Scheduling
@@ -48,6 +48,7 @@ Product type Software
  Business model Subscription
  Founders 1
  Started Sep 2024
+ Follow
 Visit postiz.com
 Charts
  12 months All time
@@ -76,7 +77,7 @@ Revenue by month Nov 2024 $423
  Aug 2026 $188k
  Sep 2026 $242k
  Oct 2026 $386k
-Stripe · verified · monthly revenue, not including the current month · through Oct 2026
+Stripe · verified · monthly revenue, not including the current month
  The founders
  1 founder
  Nevo David
@@ -127,10 +128,9 @@ Analytics CF Cloudflare Web Analytics
 Detected on postiz.com · Nov 8, 2026
  More like this
 12 Weeks From Today Plan ahead with precision - know your future dates instantly
- $36.9k/mo A AI Comment Exporter YouTube, TikTok, Instagram, X and Reddit comment exporter to Excel, CSV and JSON, with an AI report on what people ask
- AI Detect Detect AI Generated content
- $988/mo ✓ Verified AI Designer Great UI Doesn't Need to be Hard
- $8k/mo ✓ Verified
+ $36.9k/mo 4 Weeks From Today ，Future Date Calculator Find out the exact date in 4 weeks
+ $3k/mo Academlo Online Academy for LatAm
+ $2.1k/mo ✓ Verified
 Browse Products DB
  Part of the Postiz team? Verify yourself
 Stay informed as an indie hacker.

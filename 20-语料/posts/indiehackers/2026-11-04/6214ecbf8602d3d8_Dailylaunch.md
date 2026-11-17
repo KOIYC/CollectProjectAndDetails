@@ -5,7 +5,7 @@ title: "Dailylaunch"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/dailylaunch"
-captured_at: "2026-11-16T10:02:55+08:00"
+captured_at: "2026-11-17T11:11:06+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-16T10:02:55+08:00　|　id：`6214ecbf8602d3d8`
+> 采集：2026-11-17T11:11:06+08:00　|　id：`6214ecbf8602d3d8`
 
 ## 正文
 
@@ -46,6 +46,7 @@ Product type Directory
  Business model Free
  Founders 1
  Started Sep 2026
+ Follow
 Visit dailylaunch.io
 The founders
  1 founder
@@ -59,9 +60,9 @@ Milestones
 From the founder
  2 posts on Indie Hackers
  2026 2 posts
- IH IH post A signup isn’t a user until they do the one thing
- This week I looked at my DailyLaunch users and noticed something.A bunch of people signed up… and never added a product.They found the site, created an account, and then stopped. For a launch platform, that’s like walking into a store, grabbing a cart, and leaving without buying anything.It made me
- fabienlk · Nov 15
+ IH IH post How do you handle security on small projects?
+ I run a few small projects. A free domain rating checker, a launch directory for makers, and an AI support assistant for SaaS. None of them are huge. Some have a few hundred users.For a long time I thought that kept me safe. Who would bother attacking a tiny site?Turns out, nobody has to "bother" .
+ fabienlk · Nov 16 · 10 likes
  IH IH post · Their first about it A product directory where makers can launch and clap for each other
  DailyLaunch is a place where makers can launch their SaaS products and people can browse tools across different categories.A small part of the idea is claps: visitors can show appreciation for a product with one tap, without needing to write a review. I’m interested in whether that kind of lightweig
  fabienlk · Oct 12
@@ -72,11 +73,10 @@ Newest first
 Analytics CF Cloudflare Web Analytics GT Google Tag Manager C Microsoft Clarity GA Google Analytics
 Detected on dailylaunch.io · Nov 14, 2026
  More like this
-A AI CR Prompt Pack The AI CR Prompt Pack is a downloadable prompt collection that helps users create content, build digital products, and generate freelance service ideas with AI.
- A AI Insider Circle The AI Insider Circle is a membership that provides monthly AI prompts and blueprints, plus templates and trend alerts for building income-generating projects.
- AI Detect Detect AI Generated content
- $988/mo ✓ Verified AI Designer Great UI Doesn't Need to be Hard
- $8k/mo ✓ Verified
+100xfounder Build bold think exponential excute relentlessly 100xfounder
+ $1k/mo 1Stop Formation Register US LLC from anywhere, No SSN Required
+ $5k/mo Academlo Online Academy for LatAm
+ $2.1k/mo ✓ Verified
 Browse Products DB
  Part of the DailyLaunch team? Verify yourself
 Stay informed as an indie hacker.

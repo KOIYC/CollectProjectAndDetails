@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/browserless"
 project_url: "https://blog.brandfetch.io/automating-browsers-with-browserless"
-captured_at: "2026-11-16T10:02:55+08:00"
+captured_at: "2026-11-17T11:11:06+08:00"
 lang: "en"
 kind: "project"
 topic: 开发者工具
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://blog.brandfetch.io/automating-browsers-with-browserless>
-> 采集：2026-11-16T10:02:55+08:00　|　id：`f201583e2d2e923a`
+> 采集：2026-11-17T11:11:06+08:00　|　id：`f201583e2d2e923a`
 
 ## 正文
 
@@ -41,7 +41,7 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  browserless
 Headless browser automation for developers
-$289k /mo
+$295k /mo
  ✓ Verified Last 30 days
 Product type Software
  Helps with Hosting & deployment, Web development
@@ -49,6 +49,7 @@ Product type Software
  Business model Free, Subscription
  Founders 1
  Started Nov 2017
+ Follow
 Visit browserless.io
 Charts
  12 months All time
@@ -168,7 +169,7 @@ Revenue by month Apr 2017 $0
  Aug 2026 $254k
  Sep 2026 $308k
  Oct 2026 $290k
-Stripe · verified · monthly revenue, not including the current month · through Oct 2026
+Stripe · verified · monthly revenue, not including the current month
  The founders
  1 founder
  Joel Griffith
@@ -220,9 +221,8 @@ Detected on browserless.io · Nov 8, 2026
  More like this
 01Router Access leading AI video and image models with one 01Router API key, plus text and audio. Choose models and providers to match your budget and quality needs.
  12happy Uptime monitoring and status pages: 50 monitors free, 30-second checks on Pro, and alerts by email, Slack, Telegram, SMS or push to iPhone and Android.
- AI Designer Great UI Doesn't Need to be Hard
- $8k/mo ✓ Verified AI Detect Detect AI Generated content
- $988/mo ✓ Verified
+ Academlo Online Academy for LatAm
+ $2.1k/mo ✓ Verified
 Browse Products DB
  Part of the browserless team? Verify yourself
 Stay informed as an indie hacker.

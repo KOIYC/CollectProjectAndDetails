@@ -2,7 +2,7 @@
 type: "project"
 title: "Tryterrapin"
 project_url: "https://tryterrapin.com/waitlist"
-first_seen: "2026-11-16T10:02:46+08:00"
+first_seen: "2026-11-17T11:10:57+08:00"
 sources:
   - betalist
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://tryterrapin.com/waitlist>
-> 首次收录：2026-11-16T10:02:46+08:00
+> 首次收录：2026-11-17T11:10:57+08:00
 > 来源渠道：BetaList
 > 标签：—
 > 最新指标：—
@@ -35,6 +35,7 @@ lang: "en"
 | 2026-11-10T09:53:55+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/d97975d5356a588c_Tryterrapin]] |
 | 2026-11-11T13:39:55+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/d97975d5356a588c_Tryterrapin]] |
 | 2026-11-16T10:02:46+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/d97975d5356a588c_Tryterrapin]] |
+| 2026-11-17T11:10:57+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-09-21/d97975d5356a588c_Tryterrapin]] |
 
 ## 摘要正文
 

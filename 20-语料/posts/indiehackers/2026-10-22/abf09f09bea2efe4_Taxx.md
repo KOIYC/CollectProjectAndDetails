@@ -5,7 +5,7 @@ title: "Taxx"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/taxx"
-captured_at: "2026-11-16T10:02:55+08:00"
+captured_at: "2026-11-17T11:11:06+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-16T10:02:55+08:00　|　id：`abf09f09bea2efe4`
+> 采集：2026-11-17T11:11:06+08:00　|　id：`abf09f09bea2efe4`
 
 ## 正文
 
@@ -40,7 +40,7 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  TAXX
 Luxembourgish income tax statement made easy
-$168k /mo
+$175k /mo
  ✓ Verified Last 30 days
 Product type Software, Service
  Helps with Taxes
@@ -48,6 +48,7 @@ Product type Software, Service
  Business model Commission, Transactional
  Founders 1
  Started Oct 2017
+ Follow
 Visit taxx.lu
 Charts
  12 months All time
@@ -144,7 +145,7 @@ Revenue by month Mar 2019 $29.4k
  Aug 2026 $103k
  Sep 2026 $126k
  Oct 2026 $144k
-Stripe · verified · monthly revenue, not including the current month · Hollow rings are months with no report · through Oct 2026
+Stripe · verified · monthly revenue, not including the current month
  The founders
  1 founder
  Sven Clement
@@ -172,11 +173,10 @@ Homepage captures from the Wayback Machine
 Analytics GT Google Tag Manager
 Detected on taxx.lu · Nov 8, 2026
  More like this
-AgentaOS Paddle for AI agents, with a free Pricing Intelligence audit
- $10k/mo 2027 New Year Money Reset 2027 budget and savings planner for Sheets and Excel
- AI Designer Great UI Doesn't Need to be Hard
- $8k/mo ✓ Verified AI Detect Detect AI Generated content
- $988/mo ✓ Verified
+1 1099 Ready 1099 Ready is a Google Sheets add-on that totals contractor payments by payee, identifies who needs a 1099, and checks cells against IRIS formatting rules.
+ AgentaOS Paddle for AI agents, with a free Pricing Intelligence audit
+ $10k/mo Academlo Online Academy for LatAm
+ $2.1k/mo ✓ Verified
 Browse Products DB
  Part of the TAXX team? Verify yourself
 Stay informed as an indie hacker.

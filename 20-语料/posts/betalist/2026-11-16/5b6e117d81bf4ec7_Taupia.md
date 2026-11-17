@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/taupia"
 published_at: "2026-09-22"
-captured_at: "2026-11-16T10:02:46+08:00"
+captured_at: "2026-11-17T11:10:57+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-09-22
 > 项目链接：—
-> 采集：2026-11-16T10:02:46+08:00　|　id：`5b6e117d81bf4ec7`
+> 采集：2026-11-17T11:10:57+08:00　|　id：`5b6e117d81bf4ec7`
 
 ## 正文
 
@@ -96,18 +96,18 @@ Explain My Bill AI
 Upload bills to find errors and get scripts to claim refunds
 Allontas
 Compare grocery prices before shopping and plan your month
-Searcherries
+Aria
  Boosted
-AI SEO platform integrating AI visibility and SEO data into your AI agent
+Free color analysis and honest verdicts before you buy
 CAMAudit
 Audit CAM bills for errors and reclaim overcharges in minutes
 AI Warranty & Expenses
 Scan receipts once to track warranties and split shared expenses
 Tallymark
 Invoices, subscriptions, and sales pages
-FlowMRR
+Terrapin
  Boosted
-Turn your Stripe subscription data into clear, actionable revenue insights
+Turn receipts, email & photos into clean, tax-ready insights, automatically
 SaveMySaaS
 Track SaaS contracts with AI-powered vendor intelligence
 TendTo.ai

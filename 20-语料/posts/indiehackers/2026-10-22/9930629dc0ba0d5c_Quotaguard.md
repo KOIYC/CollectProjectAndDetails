@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/quotaguard"
 project_url: "https://quotaguard.baremetrics.com/"
-captured_at: "2026-11-16T10:02:55+08:00"
+captured_at: "2026-11-17T11:11:06+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://quotaguard.baremetrics.com/>
-> 采集：2026-11-16T10:02:55+08:00　|　id：`9930629dc0ba0d5c`
+> 采集：2026-11-17T11:11:06+08:00　|　id：`9930629dc0ba0d5c`
 
 ## 正文
 
@@ -41,13 +41,14 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  QuotaGuard
 Static IP Proxies for Cloud-based Apps
-$81.4k /mo
+$79.9k /mo
  ✓ Verified Last 30 days
 Product type Software
  Helps with Hosting & deployment, System security
  Platforms Web
  Business model Subscription
  Started Nov 2015
+ Follow
 Visit quotaguard.com
 Charts
  12 months All time
@@ -134,7 +135,7 @@ Revenue by month Jan 2020 $0
  Aug 2026 $68.4k
  Sep 2026 $72.4k
  Oct 2026 $79.7k
-Stripe · verified · monthly revenue, not including the current month · through Oct 2026
+Stripe · verified · monthly revenue, not including the current month
  The site through the years
  3 versions, 2014 to 2025
  2014 Feb 26 2015 Jul 6 2025 Jan 21
@@ -149,9 +150,8 @@ Detected on quotaguard.com · Nov 8, 2026
  More like this
 A Adversarial Feed A fresh pack of 100 adversarial tests for your AI agent, delivered every month.
  12happy Uptime monitoring and status pages: 50 monitors free, 30-second checks on Pro, and alerts by email, Slack, Telegram, SMS or push to iPhone and Android.
- AI Designer Great UI Doesn't Need to be Hard
- $8k/mo ✓ Verified AI Detect Detect AI Generated content
- $988/mo ✓ Verified
+ Academlo Online Academy for LatAm
+ $2.1k/mo ✓ Verified
 Browse Products DB
  Part of the QuotaGuard team? Verify yourself
 Stay informed as an indie hacker.

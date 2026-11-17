@@ -5,7 +5,7 @@ title: "Whaticket"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/whaticket"
-captured_at: "2026-11-16T10:02:55+08:00"
+captured_at: "2026-11-17T11:11:06+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-16T10:02:55+08:00　|　id：`5c9eb17c37a39ffd`
+> 采集：2026-11-17T11:11:06+08:00　|　id：`5c9eb17c37a39ffd`
 
 ## 正文
 
@@ -40,7 +40,7 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  Whaticket
 Multi-agent chat automation platform
-$431k /mo
+$426k /mo
  ✓ Verified Last 30 days
 Product type Software
  Helps with Support chat, Customer relationships, Messaging
@@ -48,6 +48,7 @@ Product type Software
  Business model Subscription
  Founders 1
  Started Mar 2022
+ Follow
 Visit whaticket.com
 Charts
  12 months All time
@@ -65,7 +66,7 @@ Revenue by month Oct 2025 $393k
  Aug 2026 $405k
  Sep 2026 $408k
  Oct 2026 $438k
-Stripe · verified · monthly revenue, not including the current month · through Oct 2026
+Stripe · verified · monthly revenue, not including the current month
  The founders
  1 founder
  Bruna Olivera
@@ -93,10 +94,9 @@ Marketing H HubSpot
 Detected on whaticket.com · Nov 8, 2026
  More like this
 A AcrossView AcrossView is a service for video meetings with up to 100 people and remote support that lets users view and, with permission, control another computer.
- Affiniv Collect customer feedback/NPS on your Website or via Email
- $6k/mo AI Detect Detect AI Generated content
- $988/mo ✓ Verified AI Designer Great UI Doesn't Need to be Hard
- $8k/mo ✓ Verified
+ Abot Anonymous Slack Feedback Messages and Polls A simple app to communicate anonymously on Slack
+ $4k/mo Academlo Online Academy for LatAm
+ $2.1k/mo ✓ Verified
 Browse Products DB
  Part of the Whaticket team? Verify yourself
 Stay informed as an indie hacker.

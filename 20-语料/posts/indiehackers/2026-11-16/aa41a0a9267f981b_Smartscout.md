@@ -5,10 +5,10 @@ title: "Smartscout"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/smartscout"
-captured_at: "2026-11-16T10:02:55+08:00"
+captured_at: "2026-11-17T11:11:06+08:00"
 lang: "en"
 kind: "project"
-topic: "AI 工具/Agent"
+topic: "开发者工具"
 shard: "2026-11-16"
 tags:
   - 语料
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-16T10:02:55+08:00　|　id：`aa41a0a9267f981b`
+> 采集：2026-11-17T11:11:06+08:00　|　id：`aa41a0a9267f981b`
 
 ## 正文
 
@@ -40,7 +40,7 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  SmartScout
 Market Research and Opportunity Finder for Amazon
-$511k /mo
+$508k /mo
  ✓ Verified Last 30 days
 Product type Software
  Helps with Analytics & reporting, Sales prospecting
@@ -48,6 +48,7 @@ Product type Software
  Business model Subscription
  Founders 1
  Started Jul 2020
+ Follow
 Visit smartscout.com
  Charts
  12 months All time
@@ -94,7 +95,7 @@ Revenue by month May 2023 $162k
  Aug 2026 $492k
  Sep 2026 $500k
  Oct 2026 $518k
-Stripe · verified · monthly revenue, not including the current month · through Oct 2026
+Stripe · verified · monthly revenue, not including the current month
  The founders
  1 founder
  Scott Needham
@@ -114,9 +115,8 @@ Detected on smartscout.com · Nov 14, 2026
  More like this
 Affiliate Corner Powerful data-driven insights to grow your affiliate income
  $6k/mo Affilisting Find 10K+ affiliate programs across 500+ niches for only $99
- $10k/mo AI Designer Great UI Doesn't Need to be Hard
- $8k/mo ✓ Verified AI Detect Detect AI Generated content
- $988/mo ✓ Verified
+ $10k/mo Academlo Online Academy for LatAm
+ $2.1k/mo ✓ Verified
 Browse Products DB
  Part of the SmartScout team? Verify yourself
 Stay informed as an indie hacker.
@@ -135,5 +135,5 @@ Databases
 
 - 项目页：[[10-项目/Smartscout_aa41a0a9]]
 - 渠道页：[[50-渠道/indiehackers]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]
