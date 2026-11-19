@@ -2,7 +2,7 @@
 type: "project"
 title: "Master of Scale"
 project_url: "https://mastersofscale.com/"
-first_seen: "2026-11-17T11:12:00+08:00"
+first_seen: "2026-11-19T09:47:06+08:00"
 sources:
   - c1c7
 tags:
@@ -19,7 +19,7 @@ lang: "zh"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://mastersofscale.com/>
-> 首次收录：2026-11-17T11:12:00+08:00
+> 首次收录：2026-11-19T09:47:06+08:00
 > 来源渠道：1c7 中文独立开发者名录
 > 标签：英文
 > 最新指标：—
@@ -57,7 +57,8 @@ lang: "zh"
 | 2026-11-11T13:41:58+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
 | 2026-11-16T10:07:05+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
 | 2026-11-17T11:12:00+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
+| 2026-11-19T09:47:06+08:00 | 1c7 中文独立开发者名录 | — | [[20-语料/posts/c1c7/2026-09-20/ec3eb5285a72cd71_Master-of-Scale]] |
 
 ## 摘要正文
 
-Masters of Scale – Home  # Masters of Scale  ## Rapid Response  ## The “best practices” corrupting business   Author Eric Ries  Eric Ries explains why he’s now calling it corruption when a company people love turns extractive as it scales, how what he calls financial gravity pulls even great organizations toward the same dismal shape, and why shareholder primacy is a far newer idea than most leaders realize.  ## Pioneers of AI  Your weekly guide to AI, hosted by Dr. Rana el Kaliouby. New episodes every Wednesday.  # V2EX › 分享创造
+Masters of Scale – Home  # Masters of Scale  ## Rapid Response  ## How WHOOP wants to boost health by a billion years   WHOOP’s Ed Baker  When WHOOP first launched its wearable tech more than a decade ago, it was mainly for elite athletes. Now, the company has reported more than three million users worldwide and raised $575 million in Series G funding earlier this year.  ## Pioneers of AI  Your weekly guide to AI, hosted by Dr. Rana el Kaliouby. New episodes every Wednesday.  Autodesk’s Dara Treseder  # V2EX › 分享创造

@@ -2,14 +2,14 @@
 type: "project"
 title: "jhaizhou-ops/S2Arm"
 project_url: "https://s2arm.com/"
-first_seen: "2026-11-17T11:10:48+08:00"
+first_seen: "2026-11-19T09:45:15+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - C#
-  - created:>2026-11-03
+  - created:>2026-11-05
 lang: "en"
 ---
 
@@ -20,16 +20,17 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://s2arm.com/>
-> 首次收录：2026-11-17T11:10:48+08:00
+> 首次收录：2026-11-19T09:45:15+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：C#, created:>2026-11-03
-> 最新指标：stars=3376 · forks=578 · open_issues=530
+> 标签：C#, created:>2026-11-05
+> 最新指标：stars=3602 · forks=620 · open_issues=522
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-11-17T11:10:48+08:00 | GitHub 新星仓库 | stars=3376 · forks=578 · open_issues=530 | [[20-语料/posts/github_new/2026-11-17/9802c2129474c850_jhaizhou-ops-S2Arm]] |
+| 2026-11-19T09:45:15+08:00 | GitHub 新星仓库 | stars=3602 · forks=620 · open_issues=522 | [[20-语料/posts/github_new/2026-11-17/9802c2129474c850_jhaizhou-ops-S2Arm]] |
 
 ## 摘要正文
 

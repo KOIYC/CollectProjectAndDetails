@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/IndieDev/comments/1xpvigs/how_many_hours_per_week_are_you_spending_working/"
 author: "GumTacGames"
 published_at: "2026-11-07T10:45:42+08:00"
-captured_at: "2026-11-17T11:10:04+08:00"
+captured_at: "2026-11-19T09:56:08+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -26,7 +26,7 @@ discovered_via: "reddit:14d+settle10"
 # How many hours per week are you spending working on your game?
 
 > [!info] 一句话导读
-> I’ve been spending a lot of time on mine lately and am curious to see how much time everyone else spends.
+> Published: 2026-11-07
 
 > [!meta]- 语料信息（点开展开）
 > 来源：Reddit 独立开发版块（post）
@@ -34,11 +34,26 @@ discovered_via: "reddit:14d+settle10"
 > 指标：得分=19 · 评论=94 · 赞踩比=0.9523809523809523
 > 作者：GumTacGames　|　发布：2026-11-07T10:45:42+08:00
 > 项目链接：—
-> 采集：2026-11-17T11:10:04+08:00　|　id：`0e25dc9160bb4c0a`
+> 采集：2026-11-19T09:56:08+08:00　|　id：`0e25dc9160bb4c0a`
 
 ## 正文
 
-I’ve been spending a lot of time on mine lately and am curious to see how much time everyone else spends.
+Published: 2026-11-07
+Author: u/GumTacGames
+
+Reddit - The heart of the internet
+
+ 12d ago
+
+ How many hours per week are you spending working on your game?
+
+ I’ve been spending a lot of time on mine lately and am curious to see how much time everyone else spends.
+
+ What?! #17 reddit community for programming? Never saw any code here, but I’ll take it. r/ndiedev strong! 💪
+
+Error fetching https://studio.sinapsdata.com.br: CRAWL_EMPTY_CONTENT
+Error fetching https://i.redd.it/ifgnxsdj130i1.jpeg: CRAWL_EMPTY_CONTENT
+Error fetching https://i.redd.it/zs16wlfuf30i1.png: CRAWL_LIVECRAWL_TIMEOUT
 
 ## 评论（92/94）
 
@@ -521,6 +536,12 @@ I’ve been spending a lot of time on mine lately and am curious to see how much
 
 > **Soggy-Procedure9997**（1 分） · 2026-11-14T06:15:46+08:00　
 > I can spend the whole day there like 12 hours or i can just spend an hour there, it dépends on my mood
+
+## 关联链接
+
+- https://i.redd.it/ifgnxsdj130i1.jpeg:
+- https://i.redd.it/zs16wlfuf30i1.png:
+- https://studio.sinapsdata.com.br:
 
 ## 导航
 

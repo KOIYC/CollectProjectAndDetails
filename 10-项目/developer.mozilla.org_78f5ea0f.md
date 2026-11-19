@@ -2,7 +2,7 @@
 type: "project"
 title: "One Month After the Hackathon: Why My 4-Service App Stopped Working (and What @mansio Caught in the Verifiers)"
 project_url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols"
-first_seen: "2026-11-17T11:11:25+08:00"
+first_seen: "2026-11-19T09:56:24+08:00"
 sources:
   - devto
 tags:
@@ -22,10 +22,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols>
-> 首次收录：2026-11-17T11:11:25+08:00
+> 首次收录：2026-11-19T09:56:24+08:00
 > 来源渠道：dev.to
 > 标签：ai, javascript, buildinpublic, opensource
-> 最新指标：reactions=37 · 评论=27 · reading_time=6
+> 最新指标：reactions=54 · 评论=33 · reading_time=6
 
 ## 观测历史
 
@@ -33,6 +33,8 @@ lang: "en"
 |---|---|---|---|
 | 2026-11-16T10:03:12+08:00 | dev.to | reactions=33 · 评论=25 · reading_time=6 | [[20-语料/posts/devto/2026-11-16/63c3e7b66478d404_One-Month-After-the-Hackathon-Why-My-4-Service-App]] |
 | 2026-11-17T11:11:25+08:00 | dev.to | reactions=37 · 评论=27 · reading_time=6 | [[20-语料/posts/devto/2026-11-16/63c3e7b66478d404_One-Month-After-the-Hackathon-Why-My-4-Service-App]] |
+| 2026-11-19T09:46:14+08:00 | dev.to | reactions=54 · 评论=33 · reading_time=6 | [[20-语料/posts/devto/2026-11-16/63c3e7b66478d404_One-Month-After-the-Hackathon-Why-My-4-Service-App]] |
+| 2026-11-19T09:56:24+08:00 | dev.to | reactions=54 · 评论=33 · reading_time=6 | [[20-语料/posts/devto/2026-11-16/63c3e7b66478d404_One-Month-After-the-Hackathon-Why-My-4-Service-App]] |
 
 ## 摘要正文
 

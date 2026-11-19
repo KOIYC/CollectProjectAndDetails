@@ -6,10 +6,10 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/quotaguard"
 project_url: "https://quotaguard.baremetrics.com/"
-captured_at: "2026-11-17T11:11:06+08:00"
+captured_at: "2026-11-19T09:45:52+08:00"
 lang: "en"
 kind: "project"
-topic: "AI 工具/Agent"
+topic: "开发者工具"
 shard: "2026-10-22"
 tags:
   - 语料
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://quotaguard.baremetrics.com/>
-> 采集：2026-11-17T11:11:06+08:00　|　id：`9930629dc0ba0d5c`
+> 采集：2026-11-19T09:45:52+08:00　|　id：`9930629dc0ba0d5c`
 
 ## 正文
 
@@ -41,10 +41,11 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  QuotaGuard
 Static IP Proxies for Cloud-based Apps
-$79.9k /mo
+$83.6k /mo
  ✓ Verified Last 30 days
 Product type Software
- Helps with Hosting & deployment, System security
+ What it does Databases & backend services
+ Who it’s for Businesses ( Developers & technical teams ; Startups & software companies )
  Platforms Web
  Business model Subscription
  Started Nov 2015
@@ -148,10 +149,11 @@ Homepage captures from the Wayback Machine
 Analytics CF Cloudflare Web Analytics GT Google Tag Manager P Plausible
 Detected on quotaguard.com · Nov 8, 2026
  More like this
-A Adversarial Feed A fresh pack of 100 adversarial tests for your AI agent, delivered every month.
- 12happy Uptime monitoring and status pages: 50 monitors free, 30-second checks on Pro, and alerts by email, Slack, Telegram, SMS or push to iPhone and Android.
- Academlo Online Academy for LatAm
- $2.1k/mo ✓ Verified
+NCache - In-Memory Distributed Cache Use NCache to remove Data related performance bottlenecks!
+ $100k/mo 8base BaaS Platform and Development Service for Digital Products.
+ $89k/mo Ghost Indie subscription platform for creators
+ $829k/mo ✓ Verified Blender Market The indie market for Blender creators
+ $582k/mo ✓ Verified
 Browse Products DB
  Part of the QuotaGuard team? Verify yourself
 Stay informed as an indie hacker.
@@ -170,5 +172,5 @@ Databases
 
 - 项目页：[[10-项目/Quotaguard_141402bd]]
 - 渠道页：[[50-渠道/indiehackers]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

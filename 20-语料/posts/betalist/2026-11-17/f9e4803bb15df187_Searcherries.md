@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/searcherries"
 published_at: "2026-11-06"
-captured_at: "2026-11-17T11:10:57+08:00"
+captured_at: "2026-11-19T09:45:38+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-11-06
 > 项目链接：—
-> 采集：2026-11-17T11:10:57+08:00　|　id：`f9e4803bb15df187`
+> 采集：2026-11-19T09:45:38+08:00　|　id：`f9e4803bb15df187`
 
 ## 正文
 
@@ -111,9 +111,9 @@ TadaSEO
 Track Google rankings and AI citations and act on clear SEO tasks
 ZeroRank AI
 Track and improve your brand’s visibility across AI search
-Jaah
+Outshot
  Boosted
-Delegate engineering work to AI agents with reviews, records, and rules
+Turn your website into daily short videos for TikTok, Reels, and Shorts
 Stevie AI
 Search Engine Optimization Tool designed for Startups
 RankControl

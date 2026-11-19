@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/blender-market"
 project_url: "https://blendermarket.com/posts/2019-cyber-weekend-sale-results"
-captured_at: "2026-11-17T11:11:06+08:00"
+captured_at: "2026-11-19T09:45:52+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://blendermarket.com/posts/2019-cyber-weekend-sale-results>
-> 采集：2026-11-17T11:11:06+08:00　|　id：`bf8f7150e9f31478`
+> 采集：2026-11-19T09:45:52+08:00　|　id：`bf8f7150e9f31478`
 
 ## 正文
 
@@ -41,10 +41,11 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  Blender Market
 The indie market for Blender creators
-$577k /mo
+$582k /mo
  ✓ Verified Last 30 days
 Product type Marketplace
- Focus Areas Design & creativity, Ecommerce
+ What it does Online stores & digital product selling
+ Who it’s for Businesses and individuals ( Creators & influencers ; Artists, musicians, & hobby creators )
  Platforms Web
  Business model Commission, Subscription, Transactional
  Founders 2
@@ -174,10 +175,11 @@ blendermarket.com Headline “BlenderMarket”
 Captured Feb 10, 2020 · Web archive ↗
 Homepage captures from the Wayback Machine
  More like this
-20XMedia Email Marketing Agency
- $10k/mo 22Slides Minimalist photography portfolio website builder
- $15k/mo Academlo Online Academy for LatAm
- $2.1k/mo ✓ Verified
+Gumroad Creators deserve to get paid for their work. We make it easy
+ $1m/mo ShopBase The white-label, dropshipping, and print on demand platform
+ $389k/mo Whaticket Multi-agent chat automation platform
+ $425k/mo ✓ Verified Cloud Campaign Social media marketing software for digital agencies.
+ $386k/mo ✓ Verified
 Browse Products DB
  Part of the Blender Market team? Verify yourself
 Stay informed as an indie hacker.

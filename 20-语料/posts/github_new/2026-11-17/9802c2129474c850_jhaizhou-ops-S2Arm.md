@@ -8,7 +8,7 @@ url: "https://github.com/jhaizhou-ops/S2Arm"
 project_url: "https://s2arm.com/"
 author: "jhaizhou-ops"
 published_at: "2026-11-08T05:49:46Z"
-captured_at: "2026-11-17T11:10:48+08:00"
+captured_at: "2026-11-19T09:45:15+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - C#
-  - created:>2026-11-03
-metrics: {"stars": 3376, "forks": 578, "open_issues": 530}
+  - created:>2026-11-05
+metrics: {"stars": 3602, "forks": 620, "open_issues": 522}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,10 +33,10 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/jhaizhou-ops/S2Arm>
-> 指标：stars=3376 · forks=578 · open_issues=530
+> 指标：stars=3602 · forks=620 · open_issues=522
 > 作者：jhaizhou-ops　|　发布：2026-11-08T05:49:46Z
 > 项目链接：<https://s2arm.com/>
-> 采集：2026-11-17T11:10:48+08:00　|　id：`9802c2129474c850`
+> 采集：2026-11-19T09:45:15+08:00　|　id：`9802c2129474c850`
 
 ## 正文
 

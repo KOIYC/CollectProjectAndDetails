@@ -5,7 +5,7 @@ title: "Revealbot"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/revealbot"
-captured_at: "2026-11-17T11:11:06+08:00"
+captured_at: "2026-11-19T09:45:52+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-17T11:11:06+08:00　|　id：`60df63945b7b29fb`
+> 采集：2026-11-19T09:45:52+08:00　|　id：`60df63945b7b29fb`
 
 ## 正文
 
@@ -40,10 +40,11 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  Revealbot
 Advanced Facebook and Google ads automation tool
-$220k /mo
+$244k /mo
  ✓ Verified Last 30 days
 Product type Software
- Helps with Advertising
+ What it does Paid advertising
+ Who it’s for Businesses ( Marketers & growth teams )
  Platforms Web
  Business model Subscription
  Founders 1
@@ -183,10 +184,11 @@ revealbot.com Headline “Scale results,not workload.”
 Captured Oct 7, 2024 · Web archive ↗
 Homepage captures from the Wayback Machine
  More like this
-ad:personam Self Serve DSP Simple and affordable Self Serve DSP for Small Businesses
- $4k/mo Adcontrol Self-serve ad sales for publishers
- $71k/mo Academlo Online Academy for LatAm
- $2.1k/mo ✓ Verified
+MonetizeMore Helping publishers maximize their ad revenue!
+ $1m/mo OLLI #1 AI Photoshoot Software for your ecommerce needs
+ $500k/mo browserless Headless browser automation for developers
+ $304k/mo ✓ Verified Ghost Indie subscription platform for creators
+ $829k/mo ✓ Verified
 Browse Products DB
  Part of the Revealbot team? Verify yourself
 Stay informed as an indie hacker.

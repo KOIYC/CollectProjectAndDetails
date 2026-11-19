@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/structura"
 published_at: "2026-09-12"
-captured_at: "2026-11-11T13:39:55+08:00"
+captured_at: "2026-11-19T09:45:38+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-09-12
 > 项目链接：—
-> 采集：2026-11-11T13:39:55+08:00　|　id：`7282f11c862ada5c`
+> 采集：2026-11-19T09:45:38+08:00　|　id：`7282f11c862ada5c`
 
 ## 正文
 
@@ -41,6 +41,7 @@ Search startups and topics
 /
 Browse topics
  Newsletter
+ iPhone app
 Help
  Advertise
  Refer a friend
@@ -59,6 +60,7 @@ Home
  Search
  Browse topics
  Newsletter
+ iPhone app
 Help
  Advertise
  Refer a friend
@@ -102,18 +104,18 @@ SeoSmart
 Automate long-form SEO content, publishing, and backlinks at scale
 AnswerPress
 Plan and publish data-driven content that ranks and gets recommended
-Jaah
+PitchMonster
  Boosted
-Delegate engineering work to AI agents with reviews, records, and rules
+Practice sales calls with AI buyers and get instant coaching
 LeafPad
 Automate keyword research, blog writing, and publishing to rank
 WordPress AI Plugin
 Generate and publish SEO-optimized articles to WordPress in 60 seconds
 BlazeHive
 Automate SEO research, writing, and daily publishing to grow traffic
-Aria
+aSERP
  Boosted
-Free color analysis and honest verdicts before you buy
+Track how AI engines mention, cite, and recommend your brand
 Writex
 Fully automate SEO article writing for your Next.js app
 CoreProse

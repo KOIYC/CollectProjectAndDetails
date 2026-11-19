@@ -1,0 +1,178 @@
+---
+type: "corpus"
+item_id: "e6a84c409d9a2b90"
+title: "我的第一个 iOS App：一生声迹，让声音、回忆和走过的路都有迹可循（一个月内领取免费）"
+source: "v2ex"
+source_name: "V2EX"
+url: "https://www.v2ex.com/t/1258084"
+project_url: "https://apps.apple.com/app/id6825671043"
+author: "eoeapp"
+published_at: "2026-11-18T10:39:29"
+captured_at: "2026-11-19T09:46:37+08:00"
+lang: "zh"
+kind: "post"
+topic: "AI 工具/Agent"
+shard: "2026-11-19"
+pub_day: "2026-11-18"
+tags:
+  - 语料
+  - v2ex
+  - 184
+metrics: {"replies": 0}
+comments_count: 0
+comments_total: 0
+discovered_via: "v2ex:独立开发"
+---
+
+# 我的第一个 iOS App：一生声迹，让声音、回忆和走过的路都有迹可循（一个月内领取免费）
+
+> [!info] 一句话导读
+> 我的第一个 iOS App：一生声迹，让声音、回忆和走过的路都有迹可循
+
+> [!meta]- 语料信息（点开展开）
+> 来源：V2EX（post）
+> 原帖：<https://www.v2ex.com/t/1258084>
+> 指标：回复=0
+> 作者：eoeapp　|　发布：2026-11-18T10:39:29
+> 项目链接：<https://apps.apple.com/app/id6825671043>
+> 采集：2026-11-19T09:46:37+08:00　|　id：`e6a84c409d9a2b90`
+
+## 正文
+
+# 我的第一个 iOS App：一生声迹，让声音、回忆和走过的路都有迹可循
+
+大家好，分享一下我独立开发的第一个 iOS App：**一生声迹（RecorderLife）**。
+
+目前已经正式上架 App Store。**目前第一个月是免费的，后续会采用买断制，现在下载了的就永久拥有**
+
+官网：https://record-voice.lifere.top/
+
+![一生声迹 宣传界面](https://record-voice.lifere.top/images/voice-story/record-and-archive-1080.webp)
+
+## 为什么做这个 App？
+
+一直觉得，有些记忆很难通过照片保存下来。
+
+比如某次聊天时说过的一句话、旅行途中的环境声音、突然想到的一个灵感，甚至多年以后再听到某个人的声音。
+
+我想做一个可以长期记录声音的工具。不只是保存一段音频，而是把声音和当时的时间、地点等信息关联起来。
+
+另外，我不太希望这些长期积累的个人记录只能保存在某个第三方云服务里，所以从一开始就考虑了 NAS 和本地存储。
+
+于是就有了「一生声迹」。
+
+## 目前实现了哪些功能？
+
+### 1. iPhone + Apple Watch 双端录音
+
+可以直接使用 iPhone 或 Apple Watch 开始录音。
+
+手表离线时可以先在本机保存，重新连接后再交付给 iPhone。
+
+![一生声迹 iPhone 录音界面]( )
+
+![一生声迹 Apple Watch 录音界面]( )
+
+### 2. 搜索以前说过的话
+
+![一生声迹 iPhone 检索界面](https://record-voice.lifere.top/images/voice-story/search-and-replay-1080.webp)
+
+这是我认为非常有价值的一个功能，也是和普通录音工具不太一样的地方。
+
+录音时间长了，可能积累了几百甚至几千段录音。想找回某天说过的一句话，如果只能一段一段听，效率会非常低。
+
+所以我加入了**录音文字检索功能**。
+
+- 输入关键词或短语，检索以前录音的转写内容。
+- 找到对应的文字，可以定位并回听当时的录音。
+- 播放时可以跟随转写文字回顾，支持文字高亮和点击文字定位。
+
+例如：
+
+- 想找以前说过的某个项目名称。
+- 想回忆某次旅行中讨论过的事情。
+- 想找某天突然想到的一个灵感。
+- 想重新听听以前和家人朋友的某段对话。
+
+不必再从头听到尾，输入关键词，就能找回当时说过的话。
+
+
+### 3. 录音归档到自己的 NAS
+
+这是我比较重视的一个功能。为了节省空间我也想了很多办法。
+
+![一生声迹 宣传界面](https://record-voice.lifere.top/images/voice-story/compression-and-storage-1080.webp)
+
+目前支持：
+
+- SMB
+- WebDAV
+- OpenList
+- FTP / FTPS
+- NFS
+- iPhone 本机文件夹
+
+录音先保存在设备，再传输到自己选择的存储空间。归档后进行回读校验，手机上也可以查看归档状态。
+
+不需要注册应用账号，也没有开发者自建的录音接收服务器。
+
+### 4. 让声音带上当时的足迹
+
+录音时可以按需采集：
+
+- 地理位置信息和地址
+- Apple Watch 心率数据
+- 录音时间
+- 录音设备
+
+以后回顾一段录音，不仅能听到声音，还能了解当时的一些环境信息。
+
+## 关于隐私和数据
+
+个人声音记录其实是比较私密的数据，所以我在设计时比较重视数据的存储方式。
+
+- 不要求注册应用账号。
+- 开发者不提供录音接收服务器。
+- 录音可以保存在自己的 NAS 或 iPhone 本机。
+- 位置、心率等附加信息可以自主选择是否采集。
+- 支持本地普通话转写，不依赖云端语音识别。
+
+## 下载体验
+
+目前已经上架 App Store，免费使用。
+
+App Store：https://apps.apple.com/app/id6825671043
+
+官网：https://record-voice.lifere.top/
+
+系统要求：iOS 17.0+，Apple Watch 需要 watchOS 10.0+。
+
+## 最后
+
+这是我第一次独立完成一个 iOS App，从功能设计、开发、图标、上架到官网，基本都是自己一点点完成的。
+
+目前还有不少可以完善的地方，也很希望听听大家的意见。
+
+尤其想交流几个问题：
+
+1. 有没有同样喜欢使用 NAS 保存个人数据的朋友？你们平时会用什么方式管理长期积累的音频？
+2. 如果让你选择，你更希望声音日记增加哪些功能？
+3. 对 Apple Watch 录音、后台传输和 NAS 归档，还有哪些值得改进的地方？
+
+欢迎大家体验和提建议，有问题我也会尽量回复。
+
+谢谢！
+
+## 关联链接
+
+- https://record-voice.lifere.top/
+- https://record-voice.lifere.top/images/voice-story/compression-and-storage-1080.webp
+- https://record-voice.lifere.top/images/voice-story/record-and-archive-1080.webp
+- https://record-voice.lifere.top/images/voice-story/search-and-replay-1080.webp
+
+## 导航
+
+- 项目页：[[10-项目/apps.apple.com_25f8b4f4]]
+- 渠道页：[[50-渠道/v2ex]]
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 同渠道/同赛道批量浏览：[[浏览]]

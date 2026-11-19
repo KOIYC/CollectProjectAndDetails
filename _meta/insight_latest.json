@@ -1,33 +1,33 @@
 {
-  "generated": "2026-11-17T11:26:46+08:00",
-  "n_live": 5046,
-  "n_usable": 4458,
-  "n_project": 3911,
+  "generated": "2026-11-19T10:03:20+08:00",
+  "n_live": 5158,
+  "n_usable": 4556,
+  "n_project": 3995,
   "signals": 89,
   "topics": [
     [
       "AI 工具/Agent",
-      2752
+      2807
     ],
     [
       "开发者工具",
-      906
+      928
     ],
     [
       "未分类",
-      452
+      464
     ],
     [
       "游戏",
-      112
+      118
     ],
     [
       "移动 App",
-      87
+      88
     ],
     [
       "SaaS/B2B",
-      77
+      78
     ],
     [
       "内容/媒体",
@@ -47,7 +47,7 @@
     ],
     [
       "浏览器扩展",
-      3
+      4
     ]
   ],
   "strong": [
@@ -147,19 +147,6 @@
       }
     },
     {
-      "key": "host:v2ex.com",
-      "channels": [
-        "c1c7",
-        "v2ex"
-      ],
-      "n_channels": 2,
-      "title": "如果不上班了，你还能靠什么继续谋生！",
-      "url": "https://www.v2ex.com/t/1254971",
-      "metrics": {
-        "replies": 0
-      }
-    },
-    {
       "key": "host:chatgpt.com",
       "channels": [
         "devto",
@@ -214,10 +201,25 @@
         "forks": 2547,
         "open_issues": 141
       }
+    },
+    {
+      "key": "gh:sshah03/recalc",
+      "channels": [
+        "hn_show",
+        "reddit"
+      ],
+      "n_channels": 2,
+      "title": "Building a spreadsheet app where each cell (optionally) being a terminal / coding agent is a first class property",
+      "url": "https://github.com/sshah03/recalc",
+      "metrics": {
+        "score": 3,
+        "comments": 11,
+        "upvote_ratio": 1
+      }
     }
   ],
-  "money_signal_n": 1890,
-  "money_evidence_n": 679,
+  "money_signal_n": 1922,
+  "money_evidence_n": 696,
   "money_quotes": [
     {
       "source": "betalist",
@@ -293,40 +295,40 @@
     }
   ],
   "pain_n": {
-    "当前方案不好用": 148,
-    "在找替代品": 92,
-    "做不出来/卡住": 194,
-    "愿意付钱": 115,
-    "想要而找不到": 22
+    "当前方案不好用": 149,
+    "在找替代品": 91,
+    "做不出来/卡住": 197,
+    "愿意付钱": 117,
+    "想要而找不到": 23
   },
   "by_channel": [
     {
       "id": "betalist",
       "profile": "linkpost",
-      "n": 356,
-      "ok": 355,
-      "rate": 0.9971910112359551
+      "n": 358,
+      "ok": 357,
+      "rate": 0.9972067039106145
     },
     {
       "id": "producthunt",
       "profile": "linkpost",
-      "n": 786,
-      "ok": 780,
-      "rate": 0.9923664122137404
+      "n": 813,
+      "ok": 806,
+      "rate": 0.991389913899139
     },
     {
       "id": "indiehackers",
       "profile": "linkpost",
-      "n": 193,
-      "ok": 190,
-      "rate": 0.9844559585492227
+      "n": 195,
+      "ok": 193,
+      "rate": 0.9897435897435898
     },
     {
       "id": "hn_show",
       "profile": "discussion",
-      "n": 2267,
-      "ok": 2152,
-      "rate": 0.949272165857962
+      "n": 2307,
+      "ok": 2192,
+      "rate": 0.9501517121803208
     },
     {
       "id": "bilibili",
@@ -352,23 +354,23 @@
     {
       "id": "v2ex",
       "profile": "discussion",
-      "n": 316,
-      "ok": 227,
-      "rate": 0.7183544303797469
+      "n": 332,
+      "ok": 237,
+      "rate": 0.713855421686747
     },
     {
       "id": "github_new",
       "profile": "project",
-      "n": 102,
-      "ok": 73,
-      "rate": 0.7156862745098039
+      "n": 105,
+      "ok": 74,
+      "rate": 0.7047619047619048
     },
     {
       "id": "reddit",
       "profile": "discussion",
-      "n": 841,
-      "ok": 524,
-      "rate": 0.6230677764565993
+      "n": 863,
+      "ok": 540,
+      "rate": 0.6257242178447276
     },
     {
       "id": "c1c7",
@@ -385,5 +387,5 @@
       "rate": 0.0
     }
   ],
-  "body_median": 1571.5
+  "body_median": 1541.0
 }

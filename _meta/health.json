@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-17T11:08:56+08:00",
+ "checked_at": "2026-11-19T09:43:20+08:00",
  "channels": [
   {
    "channel_id": "hn_show",
@@ -10,16 +10,16 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 1.8,
-   "probe_at": "2026-11-17T11:06:00+08:00",
+   "elapsed_s": 2.4,
+   "probe_at": "2026-11-19T09:35:37+08:00",
    "sample": [
     {
-     "title": "Show HN: A free interactive course on AI agent governance",
-     "url": "https://news.ycombinator.com/item?id=50526527"
+     "title": "Show HN: Favicon.one – Free favicon generator, checker and downloader",
+     "url": "https://news.ycombinator.com/item?id=50554589"
     },
     {
-     "title": "Show HN: Coding agents with native environments, identity and access",
-     "url": "https://news.ycombinator.com/item?id=50526516"
+     "title": "Show HN: Generate Angular TestBed specs and Storybook stories locally, no LLM",
+     "url": "https://news.ycombinator.com/item?id=50554425"
     }
    ]
   },
@@ -32,16 +32,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
-   "elapsed_s": 29.4,
-   "probe_at": "2026-11-17T11:06:29+08:00",
+   "elapsed_s": 19.8,
+   "probe_at": "2026-11-19T09:35:57+08:00",
    "sample": [
     {
-     "title": "“SaaS is dead”",
-     "url": "https://www.reddit.com/r/SaaS/comments/1xpsdoh/saas_is_dead/"
+     "title": "i think i have to rename my duck game.",
+     "url": "https://www.reddit.com/r/IndieDev/comments/1xrd2d2/i_think_i_have_to_rename_my_duck_game/"
     },
     {
-     "title": "Made a procedural animation system for my mech",
-     "url": "https://www.reddit.com/r/IndieDev/comments/1xpt2n8/made_a_procedural_animation_system_for_my_mech/"
+     "title": "AudioSilo - Self hosted audiobooks",
+     "url": "https://www.reddit.com/r/selfhosted/comments/1xr8g7s/audiosilo_self_hosted_audiobooks/"
     }
    ]
   },
@@ -54,16 +54,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 2.7,
-   "probe_at": "2026-11-17T11:06:32+08:00",
+   "elapsed_s": 2.0,
+   "probe_at": "2026-11-19T09:35:59+08:00",
    "sample": [
     {
-     "title": "huamidev/GestaltX",
-     "url": "https://github.com/huamidev/GestaltX"
+     "title": "huami1314/GestaltX",
+     "url": "https://github.com/huami1314/GestaltX"
     },
     {
-     "title": "tangerineturtle1/NX2navi",
-     "url": "https://github.com/tangerineturtle1/NX2navi"
+     "title": "deepseek-ai/chat-demo",
+     "url": "https://github.com/deepseek-ai/chat-demo"
     }
    ]
   },
@@ -76,16 +76,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 startups · 发布日 3/3",
-   "elapsed_s": 2.9,
-   "probe_at": "2026-11-17T11:06:35+08:00",
+   "elapsed_s": 4.8,
+   "probe_at": "2026-11-19T09:36:04+08:00",
    "sample": [
     {
-     "title": "Tryspool",
-     "url": "https://betalist.com/startups/tryspool"
+     "title": "Snovi",
+     "url": "https://betalist.com/startups/snovi"
     },
     {
-     "title": "Outshot",
-     "url": "https://betalist.com/startups/outshot"
+     "title": "Vcxplore",
+     "url": "https://betalist.com/startups/vcxplore"
     }
    ]
   },
@@ -98,16 +98,16 @@
    "status": "ok",
    "count": 3,
    "message": "23 products",
-   "elapsed_s": 6.5,
-   "probe_at": "2026-11-17T11:06:41+08:00",
+   "elapsed_s": 27.2,
+   "probe_at": "2026-11-19T09:36:31+08:00",
    "sample": [
     {
-     "title": "Dailylaunch",
-     "url": "https://www.indiehackers.com/product/dailylaunch"
+     "title": "Apogee Watcher",
+     "url": "https://www.indiehackers.com/product/apogee-watcher"
     },
     {
-     "title": "Flagup",
-     "url": "https://www.indiehackers.com/product/flagup"
+     "title": "Citewing",
+     "url": "https://www.indiehackers.com/product/citewing"
     }
    ]
   },
@@ -120,8 +120,8 @@
    "status": "ok",
    "count": 1,
    "message": "1 articles",
-   "elapsed_s": 0.9,
-   "probe_at": "2026-11-17T11:06:42+08:00",
+   "elapsed_s": 0.8,
+   "probe_at": "2026-11-19T09:36:32+08:00",
    "sample": [
     {
      "title": "Ghost Rovers: I Called 12 Machines NASA Left Behind. One Picked Up.",
@@ -138,16 +138,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 entries",
-   "elapsed_s": 0.8,
-   "probe_at": "2026-11-17T11:06:43+08:00",
+   "elapsed_s": 0.9,
+   "probe_at": "2026-11-19T09:36:33+08:00",
    "sample": [
     {
-     "title": "Cal.com v7",
-     "url": "https://www.producthunt.com/products/cal"
+     "title": "KaDeep AI",
+     "url": "https://www.producthunt.com/products/kadeep-ai"
     },
     {
-     "title": "Centralize",
-     "url": "https://www.producthunt.com/products/centralize"
+     "title": "S.Space",
+     "url": "https://www.producthunt.com/products/s-space"
     }
    ]
   },
@@ -160,16 +160,16 @@
    "status": "ok",
    "count": 3,
    "message": "20 topics",
-   "elapsed_s": 1.0,
-   "probe_at": "2026-11-17T11:06:44+08:00",
+   "elapsed_s": 0.8,
+   "probe_at": "2026-11-19T09:42:57+08:00",
    "sample": [
     {
-     "title": "remote\r\n算法工程师（偏重 TTS 真人语音合成方向）22K-35k\r\n算法工程师（偏重生图生视频 & 人物一致性方向）22K-35k",
-     "url": "https://www.v2ex.com/t/1257560"
+     "title": "做了一个免翻墙 Chrome/Edge 扩展直装 + Manifest 权限体检站（CRX8）",
+     "url": "https://www.v2ex.com/t/1258089"
     },
     {
-     "title": "[内推] 广州产品经理、后端、测试等岗位招人",
-     "url": "https://www.v2ex.com/t/1257511"
+     "title": "一个 AI 实现的网页滑雪游戏《雪迹》，整个游戏只有 1.7MB",
+     "url": "https://www.v2ex.com/t/1258088"
     }
    ]
   },
@@ -181,17 +181,17 @@
    "group": "中文社媒",
    "status": "ok",
    "count": 3,
-   "message": "10 videos",
-   "elapsed_s": 1.2,
-   "probe_at": "2026-11-17T11:06:45+08:00",
+   "message": "13 videos",
+   "elapsed_s": 0.8,
+   "probe_at": "2026-11-19T09:36:34+08:00",
    "sample": [
     {
      "title": "【视频播客】裁员潮下，互联网人该不该做独立开发？",
      "url": "https://www.bilibili.com/video/BV1wHWo6ZEun"
     },
     {
-     "title": "用 AI 写代码做的游戏，48 小时卖了 35.6 万美元，这个韩国开发者花了一年时间",
-     "url": "https://www.bilibili.com/video/BV1o2sN6kEki"
+     "title": "Vibe Coding 完不会获客？我用 AI 做了一个「营销数据库」！【B站AI创造公开赛】",
+     "url": "https://www.bilibili.com/video/BV1cVW86JE2e"
     }
    ]
   },
@@ -204,8 +204,8 @@
    "status": "ok",
    "count": 3,
    "message": "9 entries · 收录日 9",
-   "elapsed_s": 3.0,
-   "probe_at": "2026-11-17T11:06:48+08:00",
+   "elapsed_s": 2.8,
+   "probe_at": "2026-11-19T09:36:37+08:00",
    "sample": [
     {
      "title": "Indie Hacker",
@@ -226,16 +226,16 @@
    "status": "ok",
    "count": 3,
    "message": "8 results",
-   "elapsed_s": 10.2,
-   "probe_at": "2026-11-17T11:06:58+08:00",
+   "elapsed_s": 5.0,
+   "probe_at": "2026-11-19T09:36:42+08:00",
    "sample": [
     {
-     "title": "YouTuber Favorite Tower Defense Game The Tower Must Fall Launches Today on Steam",
-     "url": "https://pressreleases.triplepointpr.com/2026/11/16/youtuber-favorite-tower-defense-game-the-tower-must-fall-launches-today-on-steam/"
+     "title": "\"Forsaken Lands, a Co-op Roguelite Deckbuilder, Launches on Steam on November 18",
+     "url": "https://www.gamespress.com/en-US/Forsaken-Lands-a-Co-op-Roguelite-Deckbuilder-Launches-on-Steam-on-Nove"
     },
     {
-     "title": "Blue Leaf Striker is out: free demo in your browser news - IndieDB",
-     "url": "https://www.indiedb.com/news/blue-leaf-striker-is-out-free-demo-in-your-browser"
+     "title": "\"Clicky Islands Launches on Steam with Pals from Palworld\" - Games Press",
+     "url": "https://www.gamespress.com/en-US/Clicky-Islands-Launches-on-Steam-with-Pals-from-Palworld"
     }
    ]
   },
@@ -247,9 +247,9 @@
    "group": "海外社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 10s\nok: false\nerr",
-   "elapsed_s": 53.7,
-   "probe_at": "2026-11-17T11:07:52+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 16s\nok: false\nerr",
+   "elapsed_s": 64.8,
+   "probe_at": "2026-11-19T09:37:47+08:00",
    "sample": []
   },
   {
@@ -261,11 +261,11 @@
    "status": "ok",
    "count": 1,
    "message": "1 items（1 路查询）",
-   "elapsed_s": 29.5,
-   "probe_at": "2026-11-17T11:08:21+08:00",
+   "elapsed_s": 46.6,
+   "probe_at": "2026-11-19T09:38:34+08:00",
    "sample": [
     {
-     "title": "独立开发AI应用，每天工作5小时月入5万美元",
+     "title": "Vibe Coding 做的游戏，首发卖了35.6万美元",
      "url": ">-"
     }
    ]
@@ -278,9 +278,9 @@
    "status": "unusable",
    "declared": "unverified",
    "delta": false,
-   "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 20.1,
-   "probe_at": "2026-11-17T11:08:45+08:00"
+   "message": "ERR: <urlopen error Tunnel connection failed: 502 Bad Gateway>",
+   "elapsed_s": 10.1,
+   "probe_at": "2026-11-19T09:43:11+08:00"
   },
   {
    "backend": "arctic_shift",
@@ -289,8 +289,8 @@
    "declared": "not_added",
    "delta": false,
    "message": "5 rows",
-   "elapsed_s": 2.1,
-   "probe_at": "2026-11-17T11:08:47+08:00"
+   "elapsed_s": 2.6,
+   "probe_at": "2026-11-19T09:43:13+08:00"
   },
   {
    "backend": "exa_web_fetch",
@@ -299,8 +299,8 @@
    "declared": "warn",
    "delta": false,
    "message": "1 url 返回正文",
-   "elapsed_s": 7.1,
-   "probe_at": "2026-11-17T11:08:54+08:00"
+   "elapsed_s": 5.3,
+   "probe_at": "2026-11-19T09:43:19+08:00"
   },
   {
    "backend": "github_gh",
@@ -308,9 +308,9 @@
    "status": "ok",
    "declared": "unverified",
    "delta": false,
-   "message": "remaining=5000",
-   "elapsed_s": 1.9,
-   "probe_at": "2026-11-17T11:08:56+08:00"
+   "message": "remaining=4973",
+   "elapsed_s": 1.5,
+   "probe_at": "2026-11-19T09:43:20+08:00"
   }
  ],
  "summary": {
@@ -389,7 +389,7 @@
  ],
  "agent_reach": {
   "ok": true,
-  "checked_at": "2026-11-17T11:08:25+08:00",
+  "checked_at": "2026-11-19T09:43:01+08:00",
   "version": "1.6.0",
   "error": null,
   "platforms": 14

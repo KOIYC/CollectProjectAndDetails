@@ -8,7 +8,7 @@ url: "https://dev.to/earlgreyhot1701d/a-small-laptop-is-a-full-build-kit-bootstr
 project_url: "https://claude.ai/"
 author: "Earl Grey"
 published_at: "2026-11-11T02:41:57Z"
-captured_at: "2026-11-16T10:16:09+08:00"
+captured_at: "2026-11-19T09:56:22+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -38,7 +38,7 @@ discovered_via: "devto:buildinpublic"
 > 指标：reactions=26 · 评论=9 · reading_time=18
 > 作者：Earl Grey　|　发布：2026-11-11T02:41:57Z
 > 项目链接：<https://claude.ai/>
-> 采集：2026-11-16T10:16:09+08:00　|　id：`ba796d11cdc4c453`
+> 采集：2026-11-19T09:56:22+08:00　|　id：`ba796d11cdc4c453`
 
 ## 正文
 

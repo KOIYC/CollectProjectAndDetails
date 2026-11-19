@@ -7,7 +7,7 @@ source_name: "Reddit 独立开发版块"
 url: "https://www.reddit.com/r/buildinpublic/comments/1xpne2a/what_honestly_has_given_you_the_most_visibility/"
 author: "SharpCarob6551"
 published_at: "2026-11-07T04:33:45+08:00"
-captured_at: "2026-11-17T11:09:58+08:00"
+captured_at: "2026-11-19T09:56:08+08:00"
 lang: "en"
 kind: "post"
 topic: AI 工具/Agent
@@ -26,7 +26,7 @@ discovered_via: "reddit:14d+settle10"
 # What (honestly) has given you the most visibility and sales?
 
 > [!info] 一句话导读
-> Reddit, Website SEO, Medium, Substack, YouTube, TikTok, Instagram...
+> Published: 2026-11-06
 
 > [!meta]- 语料信息（点开展开）
 > 来源：Reddit 独立开发版块（post）
@@ -34,13 +34,26 @@ discovered_via: "reddit:14d+settle10"
 > 指标：得分=9 · 评论=12 · 赞踩比=0.9090909090909091
 > 作者：SharpCarob6551　|　发布：2026-11-07T04:33:45+08:00
 > 项目链接：—
-> 采集：2026-11-17T11:09:58+08:00　|　id：`a601d0337d1a02d0`
+> 采集：2026-11-19T09:56:08+08:00　|　id：`a601d0337d1a02d0`
 
 ## 正文
 
-Reddit, Website SEO, Medium, Substack, YouTube, TikTok, Instagram...
+Published: 2026-11-06
+Author: u/SharpCarob6551
 
-Tell me your content strategy and what has been working well and what has not.
+Reddit - The heart of the internet
+
+ 12d ago
+
+ What (honestly) has given you the most visibility and sales?
+
+ Reddit, Website SEO, Medium, Substack, YouTube, TikTok, Instagram...
+
+ Tell me your content strategy and what has been working well and what has not.
+
+ /buildinpublic is now open.
+
+# Mayhopar/Starquix
 
 ## 评论（10/12）
 

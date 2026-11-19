@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/ghost"
 project_url: "https://blog.ghost.org/2-0"
-captured_at: "2026-11-17T11:11:06+08:00"
+captured_at: "2026-11-19T09:45:52+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://blog.ghost.org/2-0>
-> 采集：2026-11-17T11:11:06+08:00　|　id：`e841adcbe78baaac`
+> 采集：2026-11-19T09:45:52+08:00　|　id：`e841adcbe78baaac`
 
 ## 正文
 
@@ -41,10 +41,11 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  Ghost
 Indie subscription platform for creators
-$826k /mo
+$829k /mo
  ✓ Verified Last 30 days
 Product type Software
- Helps with Email marketing, Content management
+ What it does Blogging & CMS ; Email, SMS, & messaging campaigns ; Fan memberships, tips, & crowdfunding
+ Who it’s for Businesses ( Creators & influencers ; Writers, bloggers, & publishers )
  Platforms Web
  Business model Subscription
  Founders 1
@@ -206,10 +207,11 @@ into a business.”
 Captured Nov 8, 2026 · Web archive ↗
 Homepage captures from the Wayback Machine
  More like this
-Adoovy Power Up Your Digital Presence
- $21k/mo Adflipr Email marketing for Shopify and WooCommerce
- $10k/mo Academlo Online Academy for LatAm
- $2.1k/mo ✓ Verified
+Quotion Apple Notes into blogs in minutes
+ $1.1k/mo The Liquid Sprint™ Custom Shopify storefront. 30 days. $7,500 fixed.
+ $4m/mo Whaticket Multi-agent chat automation platform
+ $425k/mo ✓ Verified Cloud Campaign Social media marketing software for digital agencies.
+ $386k/mo ✓ Verified
 Browse Products DB
  Part of the Ghost team? Verify yourself
 Stay informed as an indie hacker.

@@ -1,0 +1,23 @@
+{
+  "at": "2026-11-19T09:50:11+08:00",
+  "kind": "corpus_rename",
+  "note": "条目改标题导致的语料页换名；旧页已清（git/raw 可回溯），链接已改写",
+  "renames": [
+    {
+      "from": "20-语料/posts/producthunt/2026-09-20/7207d53392e77f45_AssemblyAI.md",
+      "to": "20-语料/posts/producthunt/2026-09-20/7207d53392e77f45_AssemblyAI-STT-3.7.md"
+    },
+    {
+      "from": "20-语料/posts/producthunt/2026-09-28/c70e9f4491128cb4_Businesses-in-ChatGPT.md",
+      "to": "20-语料/posts/producthunt/2026-09-28/c70e9f4491128cb4_GPT-6.2-Astra-and-Sol.md"
+    },
+    {
+      "from": "20-语料/posts/producthunt/2026-10-25/ecfa65be2efa9c0c_Polylane-for-Security.md",
+      "to": "20-语料/posts/producthunt/2026-10-25/ecfa65be2efa9c0c_Polylane-for-CI.md"
+    },
+    {
+      "from": "20-语料/posts/xiaohongshu/2026-09-21/7861ab65194de927_1人21个产品,年入103万美金💰.md",
+      "to": "20-语料/posts/xiaohongshu/2026-09-21/7861ab65194de927_一个人做游戏,不打广告首发卖出10万份.md"
+    }
+  ]
+}

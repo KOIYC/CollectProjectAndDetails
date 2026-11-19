@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/flowmrr"
 published_at: "2026-11-02"
-captured_at: "2026-11-10T09:53:55+08:00"
+captured_at: "2026-11-19T09:45:38+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -24,7 +24,7 @@ discovered_via: "betalist:home"
 # Flowmrr
 
 > [!info] 一句话导读
-> class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:…
+> Search startups and topics
 
 > [!meta]- 语料信息（点开展开）
 > 来源：BetaList（project）
@@ -32,15 +32,16 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-11-02
 > 项目链接：—
-> 采集：2026-11-10T09:53:55+08:00　|　id：`575466d2f7c41d7c`
+> 采集：2026-11-19T09:45:38+08:00　|　id：`575466d2f7c41d7c`
 
 ## 正文
 
 BetaList
-Home
- Browse
+Search startups and topics
+/
+Browse topics
  Newsletter
- Search
+ iPhone app
 Help
  Advertise
  Refer a friend
@@ -48,14 +49,6 @@ Help
 Startup Jobs
  Vision Pro apps
  Room AI
-Home
- Browse
- Newsletter
- Search
-Help
- Advertise
- Refer a friend
- Affiliates
 theme#toggle"
  class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white"
  title="Toggle theme"
@@ -63,55 +56,77 @@ theme#toggle"
  >
 Log in
 Submit Startup
-Back to all startups
-FlowMRR BOOSTED
+Home
+ Search
+ Browse topics
+ Newsletter
+ iPhone app
+Help
+ Advertise
+ Refer a friend
+ Affiliates
+FlowMRR
+Boosted
 Turn your Stripe subscription data into clear, actionable revenue insights
+Visit website
+Save
+ Saved
 FlowMRR provides revenue intelligence for subscription businesses by turning raw Stripe events into actionable decisions. It connects in minutes via Stripe Connect or a restricted API key, backfilling history to show MRR and ARR trends, movement drivers, and cash flow. Teams use FlowMRR to prioritize failed payment recovery, analyze retention with cohorts and survival curves, forecast scenarios, and understand product performance by plan, helping them manage the business confidently in one place.
-Visit Site
-Visit Site
 Makers
 Flow-MRR
 Topics
-Analytics
-Revenue Operation
-Customer Retention
-Forecasting
-Integration
+📊 Analytics
+📈 Revenue Operation
+🪃 Customer Retention
+📈 Forecasting
+🧩 Integration
 Featured
-November 2, 2026
+ November 2, 2026
 Request changes
 Edit makers
 Get your badge
 Report this startup
  Manage collections
-Discover startups similar to FlowMRR
+More like FlowMRR
+Startups doing something similar, featured in the last two years
 FreeDAST
  SPONSOR
- Scan your live site for risks and get a clear security grade
- SPONSOR
+Scan your live site for risks and get a clear security grade
 FlowMarket
- Let AI agents discover, match, and engage to drive B2B deals
+Let AI agents discover, match, and engage to drive B2B deals
 Flowmark
- Brand, mask, compress, and transcribe media inside Telegram and MAX
-Structura
- BOOSTED
- Publish 3 SEO-optimized blog posts a day, hands-off
- BOOSTED
+Brand, mask, compress, and transcribe media inside Telegram and MAX
+VCXplore
+ Boosted
+Find investors whose portfolios look like your company
 Scratch Frameworks
- Spot at-risk customers early and turn friction points into revenue growth
+Spot at-risk customers early and turn friction points into revenue growth
 Flownally
- eComm automation to turn conversations into sales and repeat purchases
+eComm automation to turn conversations into sales and repeat purchases
 Impause
- Budgeting made easier with behavioral science
-Commune
- BOOSTED
- A shared home for builders to launch, connect, and grow
- BOOSTED
+Budgeting made easier with behavioral science
+PitchMonster
+ Boosted
+Practice sales calls with AI buyers and get instant coaching
 Flow AI
- Generate 4K text-to-video content in the browser
+Generate 4K text-to-video content in the browser
+CustomerOS
+CustomerOS turns anonymous B2B website traffic into qualified pipeline
+MailerBit
+Data-driven automated email campaigns that save you time
+Flexim
+Find low-competition topics and publish SEO-ready content fast
+Visit website
+Save
+quick-look#closed click->quick-look#closeOnBackdrop keydown->quick-look#keydown turbo:click->quick-look#leave turbo:frame-load->quick-look#loaded turbo:before-cache@document->quick-look#hide"
+ class="slide-over fixed inset-y-3 right-3 left-auto m-0 h-auto max-h-none w-[520px] max-w-[calc(100vw-1.5rem)] overflow-y-auto overscroll-contain rounded-3xl bg-white p-0 text-gray-900 shadow-2xl outline-none ring-1 ring-gray-900/10 backdrop:bg-gray-950/30 backdrop:backdrop-blur-[2px] dark:bg-gray-950 dark:text-gray-100 dark:ring-white/10 dark:backdrop:bg-black/60">
+↑
+ ↓
+ to browse
+Open page
 auth-dialog#closeOnBackdrop close->auth-dialog#reset turbo:before-cache@document->auth-dialog#close"
  aria-label="Log in or sign up"
- class="m-auto w-[min(28rem,calc(100vw-2rem))] max-h-[calc(100dvh-2rem)] rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-gray-900 text-gray-900 dark:text-gray-100 shadow-2xl p-0 backdrop:bg-gray-500/75 dark:backdrop:bg-black/80 backdrop:backdrop-blur-sm">
+ class="pop-in m-auto w-[min(26rem,calc(100vw-2rem))] max-h-[calc(100dvh-2rem)] rounded-3xl bg-white text-gray-900 shadow-2xl ring-1 ring-gray-900/10 p-0 outline-none backdrop:bg-gray-950/30 backdrop:backdrop-blur-[2px] dark:bg-gray-950 dark:text-gray-100 dark:ring-white/10 dark:backdrop:bg-black/60">
 
 ## 导航
 

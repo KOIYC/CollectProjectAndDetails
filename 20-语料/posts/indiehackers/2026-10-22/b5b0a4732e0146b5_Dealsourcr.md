@@ -5,10 +5,10 @@ title: "Dealsourcr"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/dealsourcr"
-captured_at: "2026-11-17T11:11:06+08:00"
+captured_at: "2026-11-19T09:45:52+08:00"
 lang: "en"
 kind: "project"
-topic: "开发者工具"
+topic: "AI 工具/Agent"
 shard: "2026-10-22"
 tags:
   - 语料
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-17T11:11:06+08:00　|　id：`b5b0a4732e0146b5`
+> 采集：2026-11-19T09:45:52+08:00　|　id：`b5b0a4732e0146b5`
 
 ## 正文
 
@@ -40,10 +40,11 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  Dealsourcr
 Helps UK investors find amazing property deals in seconds
-$69.6k /mo
+$72.1k /mo
  ✓ Verified Last 30 days
 Product type Software
- Helps with Property search
+ What it does Investing & trading ; Market, trend, & competitor research ; Calculators, converters, & timers
+ Who it’s for Businesses ( Investors & traders )
  Platforms Web · iPhone & iPad · Android
  Business model Subscription
  Founders 1
@@ -146,8 +147,11 @@ Milestones
 7 yrs, 3 mos after starting
  Hit $500K ARR Ashley Rudland · Sep 3, 2026
 More like this
-Academlo Online Academy for LatAm
- $2.1k/mo ✓ Verified
+Air Radar AI Trading Assistant
+ $8k/mo Expert Investor Compare online investing sites.
+ $5k/mo Blender Market The indie market for Blender creators
+ $582k/mo ✓ Verified Postiz Agentic social media scheduling tool
+ $474k/mo ✓ Verified
 Browse Products DB
  Part of the Dealsourcr team? Verify yourself
 Stay informed as an indie hacker.
@@ -166,5 +170,5 @@ Databases
 
 - 项目页：[[10-项目/Dealsourcr_b5b0a473]]
 - 渠道页：[[50-渠道/indiehackers]]
-- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

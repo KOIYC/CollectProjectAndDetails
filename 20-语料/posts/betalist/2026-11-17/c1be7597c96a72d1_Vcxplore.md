@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/vcxplore"
 published_at: "2026-11-09"
-captured_at: "2026-11-17T11:10:57+08:00"
+captured_at: "2026-11-19T09:45:38+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-11-09
 > 项目链接：—
-> 采集：2026-11-17T11:10:57+08:00　|　id：`c1be7597c96a72d1`
+> 采集：2026-11-19T09:45:38+08:00　|　id：`c1be7597c96a72d1`
 
 ## 正文
 
@@ -97,19 +97,18 @@ VentureLens
 Analyze pitch decks like a VC, privately in 60 seconds
 Verve Intelligence
 Validate your startup idea with investor-grade AI analysis
-FN2
+Taupia
  Boosted
-Analyze stocks with AI-driven research and real-time market signals
+Track, compare, and switch UK household bills from one app
 NUVC
 AI scores your pitch deck across 5 VC dimensions with 3,700+ investor data
 VentureLink
 An AI-powered platform that helps people build startups
 Trovest
 Analyze stocks using 10-metric scores and AI research
-Space
+FlowMRR
  Boosted
- TestFlight
-Send files and text instantly using a six-character code
+Turn your Stripe subscription data into clear, actionable revenue insights
 StockComparison
 Compare stocks side by side with metrics, charts, and insights
 AdPerch

@@ -2,7 +2,7 @@
 type: "project"
 title: "A Small Laptop Is a Full Build Kit: Bootstrapping with a Chromebook, Claude, and GitHub"
 project_url: "https://claude.ai/"
-first_seen: "2026-11-16T10:16:09+08:00"
+first_seen: "2026-11-19T09:56:22+08:00"
 sources:
   - devto
 tags:
@@ -22,7 +22,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://claude.ai/>
-> 首次收录：2026-11-16T10:16:09+08:00
+> 首次收录：2026-11-19T09:56:22+08:00
 > 来源渠道：dev.to
 > 标签：ai, beginners, buildinpublic, claude
 > 最新指标：reactions=26 · 评论=9 · reading_time=18
@@ -35,6 +35,8 @@ lang: "en"
 | 2026-11-16T10:03:12+08:00 | dev.to | reactions=26 · 评论=9 · reading_time=18 | [[20-语料/posts/devto/2026-11-16/ba796d11cdc4c453_A-Small-Laptop-Is-a-Full-Build-Kit-Bootstrapping-w]] |
 | 2026-11-16T10:16:07+08:00 | dev.to | reactions=38 · 评论=20 · reading_time=9 | [[20-语料/posts/devto/2026-11-11/01ac7fc8bb28a481_A-Builder-in-CDMX-Flu-Edition]] |
 | 2026-11-16T10:16:09+08:00 | dev.to | reactions=26 · 评论=9 · reading_time=18 | [[20-语料/posts/devto/2026-11-16/ba796d11cdc4c453_A-Small-Laptop-Is-a-Full-Build-Kit-Bootstrapping-w]] |
+| 2026-11-19T09:46:14+08:00 | dev.to | reactions=26 · 评论=9 · reading_time=18 | [[20-语料/posts/devto/2026-11-16/ba796d11cdc4c453_A-Small-Laptop-Is-a-Full-Build-Kit-Bootstrapping-w]] |
+| 2026-11-19T09:56:22+08:00 | dev.to | reactions=26 · 评论=9 · reading_time=18 | [[20-语料/posts/devto/2026-11-16/ba796d11cdc4c453_A-Small-Laptop-Is-a-Full-Build-Kit-Bootstrapping-w]] |
 
 ## 摘要正文
 

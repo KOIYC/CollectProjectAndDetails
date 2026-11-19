@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/outshot"
 published_at: "2026-10-19"
-captured_at: "2026-11-11T13:39:55+08:00"
+captured_at: "2026-11-19T09:45:38+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-10-19
 > 项目链接：—
-> 采集：2026-11-11T13:39:55+08:00　|　id：`bcff0faf6943cc27`
+> 采集：2026-11-19T09:45:38+08:00　|　id：`bcff0faf6943cc27`
 
 ## 正文
 
@@ -41,6 +41,7 @@ Search startups and topics
 /
 Browse topics
  Newsletter
+ iPhone app
 Help
  Advertise
  Refer a friend
@@ -59,6 +60,7 @@ Home
  Search
  Browse topics
  Newsletter
+ iPhone app
 Help
  Advertise
  Refer a friend
@@ -94,28 +96,28 @@ FreeDAST
 Scan your live site for risks and get a clear security grade
 Esseeoh
 Turn long videos into viral Shorts and auto-post them for you
+Clipzy
+Turn an idea into a ready-to-edit vertical video in about a minute
+FN2
+ Boosted
+Analyze stocks with AI-driven research and real-time market signals
 Video Clipper
 Turn YouTube videos into viral Shorts with AI in minutes
-Jaah
- Boosted
-Delegate engineering work to AI agents with reviews, records, and rules
 UGCLive
 Analyze, script, and auto-edit TikTok, Reels, and Shorts content
 Script Short
 Generates Instagram content ideas from an Instagram video URL
+Taupia
+ Boosted
+Track, compare, and switch UK household bills from one app
 Handler
 Spy outlier TikToks and copy the winners for your app
-FlowMRR
- Boosted
-Turn your Stripe subscription data into clear, actionable revenue insights
 ViralSpy
 Spot breakout social posts, hire proven creators, and spin ideas fast
 CueHQ
 Finds posts asking for products like yours and drafts replies
 SubtitleMe.ai
 Auto captions for any shortform video
-ClioWrite
-Research and write engaging scripts with AI, fast
 Visit website
 Save
 quick-look#closed click->quick-look#closeOnBackdrop keydown->quick-look#keydown turbo:click->quick-look#leave turbo:frame-load->quick-look#loaded turbo:before-cache@document->quick-look#hide"

@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/commune-2"
 published_at: "2026-09-24"
-captured_at: "2026-11-17T11:10:57+08:00"
+captured_at: "2026-11-19T09:45:38+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-09-24
 > 项目链接：—
-> 采集：2026-11-17T11:10:57+08:00　|　id：`dc21bedff1d637d5`
+> 采集：2026-11-19T09:45:38+08:00　|　id：`dc21bedff1d637d5`
 
 ## 正文
 
@@ -96,18 +96,18 @@ CommitFit
 Commit to fitness, compete with friends
 Marquorum
 Promote Agentic Services, earn recurring commission and vote on launches.
-Wilo
+Taupia
  Boosted
-AI clerk that helps shoppers find, compare, and choose products
+Track, compare, and switch UK household bills from one app
 VibeCom
 Growth is too hard alone. Get an AI marketing team.
 Capsemble
 Your AI-powered companion to plan, experience and relive every event.
 ContentForge
 Repurpose long-form content into platform-native posts
-Searcherries
+FN2
  Boosted
-AI SEO platform integrating AI visibility and SEO data into your AI agent
+Analyze stocks with AI-driven research and real-time market signals
 Pluggo
 Get notified when people discuss your space on Reddit, X, and more
 Manifest

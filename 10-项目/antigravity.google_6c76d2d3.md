@@ -2,7 +2,7 @@
 type: "project"
 title: "Ghost Rovers: I Called 12 Machines NASA Left Behind. One Picked Up."
 project_url: "https://antigravity.google/"
-first_seen: "2026-11-17T11:11:22+08:00"
+first_seen: "2026-11-19T09:46:11+08:00"
 sources:
   - devto
 tags:
@@ -22,16 +22,17 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://antigravity.google/>
-> 首次收录：2026-11-17T11:11:22+08:00
+> 首次收录：2026-11-19T09:46:11+08:00
 > 来源渠道：dev.to
 > 标签：ai, webdev, hackathon, showdev
-> 最新指标：reactions=58 · 评论=16 · reading_time=9
+> 最新指标：reactions=75 · 评论=27 · reading_time=9
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-11-17T11:11:22+08:00 | dev.to | reactions=58 · 评论=16 · reading_time=9 | [[20-语料/posts/devto/2026-11-17/8ecfe27935609bdc_Ghost-Rovers-I-Called-12-Machines-NASA-Left-Behind]] |
+| 2026-11-19T09:46:11+08:00 | dev.to | reactions=75 · 评论=27 · reading_time=9 | [[20-语料/posts/devto/2026-11-17/8ecfe27935609bdc_Ghost-Rovers-I-Called-12-Machines-NASA-Left-Behind]] |
 
 ## 摘要正文
 

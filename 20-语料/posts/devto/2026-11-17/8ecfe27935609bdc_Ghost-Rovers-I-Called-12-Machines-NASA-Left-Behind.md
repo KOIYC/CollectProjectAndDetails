@@ -8,7 +8,7 @@ url: "https://dev.to/earlgreyhot1701d/ghost-rovers-i-called-12-machines-nasa-lef
 project_url: "https://antigravity.google/"
 author: "Earl Grey"
 published_at: "2026-11-15T04:00:28Z"
-captured_at: "2026-11-17T11:11:22+08:00"
+captured_at: "2026-11-19T09:46:11+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,9 +21,9 @@ tags:
   - webdev
   - hackathon
   - showdev
-metrics: {"reactions": 58, "comments": 16, "reading_time": 9}
-comments_count: 16
-comments_total: 16
+metrics: {"reactions": 75, "comments": 27, "reading_time": 9}
+comments_count: 27
+comments_total: 27
 discovered_via: "devto:showdev"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/earlgreyhot1701d/ghost-rovers-i-called-12-machines-nasa-left-behind-one-picked-up-2575>
-> 指标：reactions=58 · 评论=16 · reading_time=9
+> 指标：reactions=75 · 评论=27 · reading_time=9
 > 作者：Earl Grey　|　发布：2026-11-15T04:00:28Z
 > 项目链接：<https://antigravity.google/>
-> 采集：2026-11-17T11:11:22+08:00　|　id：`8ecfe27935609bdc`
+> 采集：2026-11-19T09:46:11+08:00　|　id：`8ecfe27935609bdc`
 
 ## 正文
 
@@ -174,7 +174,7 @@ Built with AI assistance in November 2026. NASA facts link to NASA's own records
 
 AI Assisted. Human Approved. Powered by NLP.
 
-## 评论（16/16）
+## 评论（27/27）
 
 > **Sina Rezaei** · 2026-11-15T07:17:55Z　
 > The Apollo 11 Laser Retroreflector is probably the most interesting part of this project from an engineering perspective. There's a subtle distinction here: it doesn't actually communicate like a rover. Its corner-cube prisms passively reflect incoming laser pulses back toward Earth, with no onboard power or active transmitter. That 2.5-second round trip is essentially a measurement, not a telemetry response.
@@ -257,8 +257,18 @@ AI Assisted. Human Approved. Powered by NLP.
 
 ---
 
+> **Earl Grey** · 2026-11-17T03:37:25Z　
+> Thank you, Mansur. That correction is my favorite part of the build too. Lunokhod 1 got there a year earlier, so “first car on the Moon” was wrong, but the Apollo 15 story still stands with one more word. The logs are public so a teacher can see that work, not just trust it.
+
+---
+
 > **Kling4 AI** · 2026-11-16T06:06:59Z　
 > Building a retro 1969 Mission Control UI to let kids communicate with retired space rovers is such an imaginative concept. The atmospheric telemetry details and simulated latency make educational web apps genuinely unforgettable. Kudos on pulling this together for Space Apps!
+
+---
+
+> **Earl Grey** · 2026-11-17T03:37:49Z　
+> Thank you! Space Apps was a fun one.
 
 ---
 
@@ -267,8 +277,195 @@ AI Assisted. Human Approved. Powered by NLP.
 
 ---
 
+> **Earl Grey** · 2026-11-17T03:35:38Z　
+> Thanks so much! It was fun to go back and forth with Claude design.
+
+---
+
 > **Mohsen jr** · 2026-11-16T13:37:47Z　
 > The missing rule between the two agents is an interesting lesson. It shows that giving AI clear instructions isn't enough if those instructions don't reach every tool involved in the workflow. Sometimes the problem isn't what the agent can do, but what context it never received.
+
+---
+
+> **Earl Grey** · 2026-11-17T03:34:20Z　
+> That’s exactly it. Antigravity wasn’t ignoring the rule. It never saw it. The rule lived in the file Claude reads, not the one Antigravity reads on every block. So it kept adding to main.js, which was the reasonable thing to do with what it had. Now I check that every rule lives everywhere an agent looks.
+
+---
+
+> **Wayfinder** · 2026-11-17T06:38:55Z　
+> The detail that only the Apollo 11 laser mirror still answers — and that it doesn't reply, it reflects — is such a lovely way to teach kids the difference between a signal and an answer. And fact-checking every date against NSSDCA shows real care for the audience. Wonderful build.
+
+---
+
+> **Earl Grey** · 2026-11-18T04:00:41Z　
+> Thank you! “A signal vs. an answer” is a good way to look at it. Checking everything against NSSDCA was the part that mattered most to me, since that’s what makes it something a teacher can trust.
+
+---
+
+> **Emily Woods** · 2026-11-18T07:08:28Z　
+> The first phone test is the detail I’d borrow for another project. It put a limit on the 3D idea before the rest of the build depended on it. I also like keeping NO SIGNAL as a result children can explore. The quiet machines still have a story, and the interface gives that absence a place.
+
+---
+
+> **🎓 Navid Ishaq** · 2026-11-18T18:46:59Z　
+> Great work! 👏 I really enjoyed the idea behind Ghost Rovers, especially making space history interactive and accessible to children.
+>
+> I have a funny story about reading your article. I asked an AI assistant, “What is this article actually about?”
+>
+> Instead of giving me a simple explanation, it launched into a full storytelling performance about NASA, the Moon, Mars, and the machines left behind. 😂
+>
+> I had to interrupt: “My friend, what happened? Stop the drama! Just tell me what this project actually does!”
+>
+> Then I asked the bigger question: “So, AI has reached the Moon now? We were still trying to improve things here on Earth!” 😄
+>
+> Jokes aside, I appreciate how you used AI tools to turn an educational idea into a working project, while keeping human approval and fact-checking part of the process.
+>
+> Thanks for sharing your experience. Wishing you continued success with Ghost Rovers! 🚀
+
+---
+
+> **Shirley** · 2026-11-18T23:30:33Z　
+> What I find particularly impressive about Ghost Rovers is that it combines three things that are often treated separately in technology projects: human-centered design, AI-assisted development, and scientific accuracy.
+>
+> This is much more than an interactive educational website. It is an example of how AI can help transform historical and scientific information into an experience that encourages curiosity, exploration, and learning.
+>
+> There are several aspects of this project that deserve particular attention.
+>
+> - The real innovation is not the technology. It is the way the technology is used to tell a story.
+>
+> NASA has decades of fascinating information about its lunar and Martian missions. However, scientific archives are generally designed to preserve and organize information, not necessarily to make that information emotionally engaging for a child.
+>
+> Ghost Rovers bridges that gap.
+>
+> Turning abandoned spacecraft into machines that children can call is a remarkably effective educational concept. Instead of asking children to memorize mission dates, spacecraft names, and technical specifications, it invites them to interact with history.
+>
+> The Mission Control interface is particularly clever because it transforms passive information consumption into an active experience.
+>
+> A child is no longer simply reading about the Apollo missions. They are temporarily participating in the story of space exploration.
+>
+> That is an important distinction in educational technology: the objective should not just be to deliver information, but to create an experience that makes people want to discover more.
+>
+> - The human-AI collaboration model is perhaps the most interesting engineering lesson.
+>
+> I particularly appreciate the distinction between directing AI and simply asking AI to generate code.
+>
+> The workflow described here demonstrates a structured human-in-the-loop development process:
+>
+> Human defines the problem, audience, creative direction, and acceptance criteria.
+>
+> AI proposes designs and implementation plans.
+>
+> Human approves the proposed direction.
+>
+> AI generates the implementation.
+>
+> A separate review process checks functionality, accessibility, accuracy, and visual consistency.
+>
+> Human makes the final decisions.
+>
+> This is a much more mature approach than treating AI-generated output as automatically production-ready.
+>
+> The distinction matters because AI coding tools can produce impressive results very quickly, but speed does not guarantee architectural consistency, maintainability, or correctness.
+>
+> The experience with the oversized JavaScript and CSS files is particularly revealing. It demonstrates that an AI agent can follow its immediate instructions while missing a broader architectural requirement if that requirement is not properly communicated within its operating context.
+>
+> In other words, AI agents are only as reliable as the instructions, constraints, and validation systems surrounding them.
+>
+> This is an important lesson for anyone building with autonomous or semi-autonomous development tools.
+>
+> - Independent verification is what separates an interesting demonstration from a trustworthy educational product.
+>
+> One of my favorite details is the correction involving the Apollo 15 lunar rover.
+>
+> Calling it the first car on the Moon would have been an understandable simplification for a younger audience, but it would also have been historically inaccurate because the Soviet Lunokhod 1 robotic rover reached the lunar surface earlier.
+>
+> Changing the description to the first car astronauts drove on the Moon preserves the educational appeal without sacrificing accuracy.
+>
+> This illustrates a fundamental principle of AI-assisted content creation:
+>
+> Fluency is not evidence of truth.
+>
+> AI can generate compelling explanations, simplify complicated scientific concepts, and create engaging narratives. But factual claims still require verification against authoritative sources.
+>
+> The use of NASA's NSSDCA records and the publication of fact-check logs are therefore important aspects of the project, not merely supporting documentation.
+>
+> I would encourage more AI-assisted educational projects to adopt this standard.
+>
+> - The project also demonstrates an important principle of good educational design: accuracy does not have to eliminate imagination.
+>
+> The distinction between abandoned Mars missions and currently operational rovers is especially well handled.
+>
+> Curiosity and Perseverance are still active missions, whereas the six historical machines featured in the Mars experience are no longer communicating with Earth.
+>
+> Rather than sacrificing scientific accuracy to preserve the narrative, the project uses the word "yet" to create a bridge between past exploration and future possibilities.
+>
+> That is excellent educational storytelling.
+>
+> It introduces children to a deeper concept: space exploration is not a collection of disconnected historical events. It is an ongoing process in which one generation's discoveries become the foundation for another generation's achievements.
+>
+> The children interacting with this application today could eventually become the engineers, scientists, and mission controllers responsible for future exploration.
+>
+> - Accessibility and privacy should be considered core features, not optional enhancements.
+>
+> Two details deserve particular recognition: the accessibility testing and the decision to build the experience without login requirements or user tracking.
+>
+> Educational technology frequently overlooks these considerations while focusing on visual effects and engagement metrics.
+>
+> However, a product designed for children should be particularly careful about collecting personal information and creating unnecessary barriers to participation.
+>
+> The reported zero violations in the axe-core accessibility scan are encouraging, although automated testing should always be complemented by testing with real users, assistive technologies, and different devices.
+>
+> Likewise, a no-tracking architecture is a meaningful design decision, especially in an educational environment.
+>
+> The best educational technology should make learning accessible without requiring children to surrender unnecessary personal information.
+>
+> - The one-day development timeline points toward a larger transformation in software engineering.
+>
+> Perhaps the most significant implication extends beyond this particular hackathon.
+>
+> AI-assisted development is changing the relationship between technical execution and creative problem-solving.
+>
+> People who previously had ideas but lacked the programming skills, time, or resources to implement them can increasingly create functional digital experiences.
+>
+> However, I would not interpret this as meaning that software engineering expertise has become less important.
+>
+> In many ways, it has become more important.
+>
+> When code generation becomes faster, the bottlenecks shift toward architecture, requirements engineering, testing, security, accessibility, integration, and quality assurance.
+>
+> The ability to define a problem clearly, establish constraints, recognize flawed output, and validate the result becomes an increasingly valuable skill.
+>
+> The most effective AI-assisted developers will not necessarily be those who generate the most code. They will be those who can direct, evaluate, and integrate AI-generated work responsibly.
+>
+> One additional thought: this project could evolve into something much larger.
+>
+> Imagine expanding Ghost Rovers into a broader interactive archive of human exploration:
+>
+> Historic spacecraft that no longer communicate.
+>
+> Space telescopes and scientific observatories.
+>
+> Deep-space probes such as Voyager.
+>
+> Historic robotic missions to other planets.
+>
+> Interactive timelines connecting past discoveries to current missions.
+>
+> Classroom challenges in which students investigate real scientific data and make their own discoveries.
+>
+> There is enormous educational potential in transforming scientific archives into interactive experiences.
+>
+> The underlying concept could also be applied beyond sp
+
+---
+
+> **Leo** · 2026-11-19T00:53:36Z　
+> very interesting
+
+---
+
+> **nourdude** · 2026-11-19T01:12:02Z　
+> it says "3 to 22 mins each way" and says no signal before 6 minutes (3 minutes form, 3 minutes to)
 
 ## 关联链接
 

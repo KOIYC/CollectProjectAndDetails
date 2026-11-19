@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/shugert"
 project_url: "https://storetwin.shugert.com.mx/"
-captured_at: "2026-11-17T11:11:06+08:00"
+captured_at: "2026-11-19T09:45:52+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://storetwin.shugert.com.mx/>
-> 采集：2026-11-17T11:11:06+08:00　|　id：`6e6b46fff7de489b`
+> 采集：2026-11-19T09:45:52+08:00　|　id：`6e6b46fff7de489b`
 
 ## 正文
 
@@ -41,10 +41,11 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  Shugert
 Shopify Select Partner for DTC brands doing $500K–$10M+
-$218k /mo
+$214k /mo
  ✓ Verified Last 30 days
 Product type Agency, Consulting
- Helps with Ecommerce, Web development, Growth marketing
+ What it does Apps & custom software ; Conversion & lead capture ; SEO & search ranking
+ Who it’s for Businesses ( Online stores & ecommerce brands )
  Platforms Web · Desktop · Remote service
  Business model Consulting, Subscription
  Founders 1
@@ -78,7 +79,7 @@ From the founder
  2 posts on Indie Hackers
  2026 2 posts
  IH IH post I built a visual twin of Shopify stores to find where customers get stuck
- I’ve been working on something called StoreTwin.The idea came from doing Shopify CRO and technical SEO work at Shugert.When we audit a store, we normally bounce between analytics, crawling tools, the storefront, navigation, collection pages, product pages, and a bunch of spreadsheets trying to answe
+ I’ve been working on something called StoreTwin. The idea came from doing Shopify CRO and technical SEO work at Shugert. When we audit a store, we normally bounce between analytics, crawling tools, the storefront, navigation, collection pages, product pages, and a bunch of spreadsheets trying to ans
  Samuel Noriega · Sep 18
  IH IH post · Their first about it We just launched Shugert on Product Hunt today.
  I started this in 2015 out of frustration. I kept watching solid Shopify brands lose real money to problems nobody was catching -- broken tracking setups, conflicting apps running scripts on every page, migrations that left hundreds of dead URLs still indexed on Google. None of it dramatic. All of i
@@ -96,10 +97,11 @@ Homepage captures from the Wayback Machine
 Analytics GA Google Analytics
 Detected on shugert.com.mx · Nov 8, 2026
  More like this
-01Router Access leading AI video and image models with one 01Router API key, plus text and audio. Choose models and providers to match your budget and quality needs.
- 14 Habits of Highly Productive Developers A book about the software development career
- $1.5k/mo Academlo Online Academy for LatAm
- $2.1k/mo ✓ Verified
+Specialize Studio We do one thing. We do it one way. We do it in one month.
+ $15k/mo Hyperblog AI Blog CMS - Built to Rank Higher and Convert Faster
+ $5k/mo Whaticket Multi-agent chat automation platform
+ $425k/mo ✓ Verified Cloud Campaign Social media marketing software for digital agencies.
+ $386k/mo ✓ Verified
 Browse Products DB
  Part of the Shugert team? Verify yourself
 Stay informed as an indie hacker.

@@ -5,7 +5,7 @@ title: "Whaticket"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/whaticket"
-captured_at: "2026-11-17T11:11:06+08:00"
+captured_at: "2026-11-19T09:45:52+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-17T11:11:06+08:00　|　id：`5c9eb17c37a39ffd`
+> 采集：2026-11-19T09:45:52+08:00　|　id：`5c9eb17c37a39ffd`
 
 ## 正文
 
@@ -40,10 +40,11 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  Whaticket
 Multi-agent chat automation platform
-$426k /mo
+$425k /mo
  ✓ Verified Last 30 days
 Product type Software
- Helps with Support chat, Customer relationships, Messaging
+ What it does Help desk, live chat, & shared inbox ; CRM & pipeline ; AI support agents & chatbots
+ Who it’s for Businesses ( Small & local businesses )
  Platforms Web · iPhone & iPad · Android
  Business model Subscription
  Founders 1
@@ -77,7 +78,7 @@ From the founder
  1 post on Indie Hackers
  2026 1 post
  IH IH post · Their first about it Every connection counts
- Telling the story of Whaticket is a challenge — because for the same company, there were two separate starting points.On one timeline, there was Cássio: an entrepreneur running a hardware technical support business in Santos, Brazil, struggling to organize customer service as his team grew. The busi
+ Telling the story of Whaticket is a challenge — because for the same company, there were two separate starting points. On one timeline, there was Cássio: an entrepreneur running a hardware technical support business in Santos, Brazil, struggling to organize customer service as his team grew. The bus
  Bruna Olivera · Apr 25
 The site through the years
  3 versions, 2022 to 2026
@@ -93,10 +94,11 @@ Analytics GT Google Tag Manager C Microsoft Clarity
 Marketing H HubSpot
 Detected on whaticket.com · Nov 8, 2026
  More like this
-A AcrossView AcrossView is a service for video meetings with up to 100 people and remote support that lets users view and, with permission, control another computer.
- Abot Anonymous Slack Feedback Messages and Polls A simple app to communicate anonymously on Slack
- $4k/mo Academlo Online Academy for LatAm
- $2.1k/mo ✓ Verified
+Social Intents AI Live Chat for Microsoft Teams, Slack, and Google Chat
+ $65k/mo SendSquared All-in-one communication platform for hospitality!
+ $18k/mo Savvy Nomad Domicile service for American nomads
+ $302k/mo ✓ Verified Ghost Indie subscription platform for creators
+ $829k/mo ✓ Verified
 Browse Products DB
  Part of the Whaticket team? Verify yourself
 Stay informed as an indie hacker.

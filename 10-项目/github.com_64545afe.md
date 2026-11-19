@@ -2,7 +2,7 @@
 type: "project"
 title: "s87343472/backlink-pilot"
 project_url: "https://github.com/s87343472/backlink-pilot"
-first_seen: "2026-11-17T11:19:07+08:00"
+first_seen: "2026-11-19T09:56:07+08:00"
 sources:
   - github_new
 tags:
@@ -19,17 +19,15 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/s87343472/backlink-pilot>
-> 首次收录：2026-11-17T11:19:07+08:00
+> 首次收录：2026-11-19T09:56:07+08:00
 > 来源渠道：GitHub 新星仓库
 > 标签：topic:indie-hacker
-> 最新指标：stars=438 · forks=115 · open_issues=1
+> 最新指标：stars=442 · forks=115 · open_issues=1
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-20T02:56:51+08:00 | GitHub 新星仓库 | stars=359 · forks=100 · open_issues=7 | [[20-语料/posts/github_new/2026-09-20/64545afe8d3be4ae_s87343472-backlink-pilot]] |
-| 2026-09-20T03:05:41+08:00 | GitHub 新星仓库 | stars=359 · forks=100 · open_issues=7 | [[20-语料/posts/github_new/2026-09-20/64545afe8d3be4ae_s87343472-backlink-pilot]] |
 | 2026-09-20T03:18:19+08:00 | GitHub 新星仓库 | stars=359 · forks=100 · open_issues=7 | [[20-语料/posts/github_new/2026-09-20/64545afe8d3be4ae_s87343472-backlink-pilot]] |
 | 2026-09-20T03:30:06+08:00 | GitHub 新星仓库 | stars=359 · forks=100 · open_issues=7 | [[20-语料/posts/github_new/2026-09-20/64545afe8d3be4ae_s87343472-backlink-pilot]] |
 | 2026-09-20T03:40:02+08:00 | GitHub 新星仓库 | stars=359 · forks=100 · open_issues=7 | [[20-语料/posts/github_new/2026-09-20/64545afe8d3be4ae_s87343472-backlink-pilot]] |
@@ -88,6 +86,8 @@ lang: "en"
 | 2026-11-16T10:15:53+08:00 | GitHub 新星仓库 | stars=436 · forks=114 · open_issues=1 | [[20-语料/posts/github_new/2026-09-20/64545afe8d3be4ae_s87343472-backlink-pilot]] |
 | 2026-11-17T11:10:50+08:00 | GitHub 新星仓库 | stars=438 · forks=115 · open_issues=1 | [[20-语料/posts/github_new/2026-09-20/64545afe8d3be4ae_s87343472-backlink-pilot]] |
 | 2026-11-17T11:19:07+08:00 | GitHub 新星仓库 | stars=438 · forks=115 · open_issues=1 | [[20-语料/posts/github_new/2026-09-20/64545afe8d3be4ae_s87343472-backlink-pilot]] |
+| 2026-11-19T09:45:16+08:00 | GitHub 新星仓库 | stars=442 · forks=115 · open_issues=1 | [[20-语料/posts/github_new/2026-09-20/64545afe8d3be4ae_s87343472-backlink-pilot]] |
+| 2026-11-19T09:56:07+08:00 | GitHub 新星仓库 | stars=442 · forks=115 · open_issues=1 | [[20-语料/posts/github_new/2026-09-20/64545afe8d3be4ae_s87343472-backlink-pilot]] |
 
 ## 摘要正文
 

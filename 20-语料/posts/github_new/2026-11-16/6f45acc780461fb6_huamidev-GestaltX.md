@@ -8,7 +8,7 @@ url: "https://github.com/huamidev/GestaltX"
 project_url: "https://github.com/huamidev/GestaltX"
 author: "huamidev"
 published_at: "2026-11-09T05:15:48Z"
-captured_at: "2026-11-17T11:19:07+08:00"
+captured_at: "2026-11-19T09:56:08+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -36,7 +36,7 @@ discovered_via: "github:14d"
 > 指标：stars=7904 · forks=2682 · open_issues=93
 > 作者：huamidev　|　发布：2026-11-09T05:15:48Z
 > 项目链接：<https://github.com/huamidev/GestaltX>
-> 采集：2026-11-17T11:19:07+08:00　|　id：`6f45acc780461fb6`
+> 采集：2026-11-19T09:56:08+08:00　|　id：`6f45acc780461fb6`
 
 ## 正文
 

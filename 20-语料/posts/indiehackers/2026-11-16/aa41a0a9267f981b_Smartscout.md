@@ -5,7 +5,7 @@ title: "Smartscout"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/smartscout"
-captured_at: "2026-11-17T11:11:06+08:00"
+captured_at: "2026-11-19T09:45:52+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-17T11:11:06+08:00　|　id：`aa41a0a9267f981b`
+> 采集：2026-11-19T09:45:52+08:00　|　id：`aa41a0a9267f981b`
 
 ## 正文
 
@@ -40,10 +40,11 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  SmartScout
 Market Research and Opportunity Finder for Amazon
-$508k /mo
+$503k /mo
  ✓ Verified Last 30 days
 Product type Software
- Helps with Analytics & reporting, Sales prospecting
+ What it does Product research & sourcing ; Market, trend, & competitor research
+ Who it’s for Businesses ( Marketplace sellers ; Online stores & ecommerce brands )
  Platforms Web
  Business model Subscription
  Founders 1
@@ -113,10 +114,11 @@ Analytics GT Google Tag Manager
 Chat I Intercom
 Detected on smartscout.com · Nov 14, 2026
  More like this
-Affiliate Corner Powerful data-driven insights to grow your affiliate income
- $6k/mo Affilisting Find 10K+ affiliate programs across 500+ niches for only $99
- $10k/mo Academlo Online Academy for LatAm
- $2.1k/mo ✓ Verified
+Shopdora The Professional Tool for Shopee Shop Analytics & Insights
+ $25k/mo SellerCenter Free DropShipping Product Analysis Tools for Shopify
+ $10k/mo Cloud Campaign Social media marketing software for digital agencies.
+ $386k/mo ✓ Verified browserless Headless browser automation for developers
+ $304k/mo ✓ Verified
 Browse Products DB
  Part of the SmartScout team? Verify yourself
 Stay informed as an indie hacker.

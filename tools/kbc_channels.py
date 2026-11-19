@@ -164,7 +164,13 @@ def project_url_reject(u: str) -> str:
         return "空值"
     if not re.match(r"^https?://", u, re.I):
         return "非 http(s)"
-    sp = urllib.parse.urlsplit(u)
+    try:
+        sp = urllib.parse.urlsplit(u)
+    except ValueError:
+        # 正文里形如 `http://[xxx` 的半截链接（LINK_RE 不排除 `[`）会让 urlsplit
+        # 抛 `Invalid IPv6 URL`。宁缺勿错：判为畸形链接拒绝，不让单条脏数据杀掉
+        # 整个渠道（2026-11-19 v2ex 体检 error 即此因，采集走同一路径）。
+        return "畸形 URL"
     host = sp.netloc.lower().split("@")[-1].split(":")[0]
     if not host:
         return "无域名"
@@ -213,7 +219,12 @@ def derive_project_url(url: str, body: str, existing: str | None = None) -> str 
     base = urllib.parse.urlsplit(url).netloc.lower().removeprefix("www.")
     links = sorted(set(LINK_RE.findall(f"{body or ''} ")))[:30]
     for u in links:
-        sp = urllib.parse.urlsplit(u)
+        try:
+            sp = urllib.parse.urlsplit(u)
+        except ValueError:
+            # 同上：`http://[xxx` 这类半截候选会让 urlsplit 抛 Invalid IPv6 URL。
+            # 跳过该候选、继续扫下一个，避免因一条脏链接丢失整个 project_url。
+            continue
         net = sp.netloc.lower().removeprefix("www.")
         if not net or net == base or net.endswith(base.split(":")[0]):
             continue

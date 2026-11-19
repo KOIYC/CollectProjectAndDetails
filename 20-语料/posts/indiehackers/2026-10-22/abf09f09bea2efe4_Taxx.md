@@ -5,10 +5,10 @@ title: "Taxx"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/taxx"
-captured_at: "2026-11-17T11:11:06+08:00"
+captured_at: "2026-11-19T09:45:52+08:00"
 lang: "en"
 kind: "project"
-topic: "AI 工具/Agent"
+topic: "开发者工具"
 shard: "2026-10-22"
 tags:
   - 语料
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-17T11:11:06+08:00　|　id：`abf09f09bea2efe4`
+> 采集：2026-11-19T09:45:52+08:00　|　id：`abf09f09bea2efe4`
 
 ## 正文
 
@@ -40,10 +40,11 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  TAXX
 Luxembourgish income tax statement made easy
-$175k /mo
+$181k /mo
  ✓ Verified Last 30 days
 Product type Software, Service
- Helps with Taxes
+ What it does Tax
+ Who it’s for Individuals
  Platforms Web · iPhone & iPad · Android
  Business model Commission, Transactional
  Founders 1
@@ -173,10 +174,11 @@ Homepage captures from the Wayback Machine
 Analytics GT Google Tag Manager
 Detected on taxx.lu · Nov 8, 2026
  More like this
-1 1099 Ready 1099 Ready is a Google Sheets add-on that totals contractor payments by payee, identifies who needs a 1099, and checks cells against IRIS formatting rules.
- AgentaOS Paddle for AI agents, with a free Pricing Intelligence audit
- $10k/mo Academlo Online Academy for LatAm
- $2.1k/mo ✓ Verified
+Quaderno Tax automation for Internet businesses
+ $103k/mo Nationly Foreign Earned Income Exclusion Tracking App Nationly
+ $5k/mo Ghost Indie subscription platform for creators
+ $829k/mo ✓ Verified Blender Market The indie market for Blender creators
+ $582k/mo ✓ Verified
 Browse Products DB
  Part of the TAXX team? Verify yourself
 Stay informed as an indie hacker.
@@ -195,5 +197,5 @@ Databases
 
 - 项目页：[[10-项目/Taxx_abf09f09]]
 - 渠道页：[[50-渠道/indiehackers]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

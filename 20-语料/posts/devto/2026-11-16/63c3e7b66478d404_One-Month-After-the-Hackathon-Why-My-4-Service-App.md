@@ -8,7 +8,7 @@ url: "https://dev.to/earlgreyhot1701d/one-month-after-the-hackathon-why-my-4-ser
 project_url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols"
 author: "Earl Grey"
 published_at: "2026-11-13T17:48:25Z"
-captured_at: "2026-11-17T11:11:25+08:00"
+captured_at: "2026-11-19T09:56:24+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,9 +21,9 @@ tags:
   - javascript
   - buildinpublic
   - opensource
-metrics: {"reactions": 37, "comments": 27, "reading_time": 6}
-comments_count: 28
-comments_total: 28
+metrics: {"reactions": 54, "comments": 33, "reading_time": 6}
+comments_count: 34
+comments_total: 34
 discovered_via: "devto:buildinpublic"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:buildinpublic"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/earlgreyhot1701d/one-month-after-the-hackathon-why-my-4-service-app-stopped-working-and-what-mansio-caught-in-the-3i8h>
-> 指标：reactions=37 · 评论=27 · reading_time=6
+> 指标：reactions=54 · 评论=33 · reading_time=6
 > 作者：Earl Grey　|　发布：2026-11-13T17:48:25Z
 > 项目链接：<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols>
-> 采集：2026-11-17T11:11:25+08:00　|　id：`63c3e7b66478d404`
+> 采集：2026-11-19T09:56:24+08:00　|　id：`63c3e7b66478d404`
 
 ## 正文
 
@@ -181,7 +181,7 @@ Quick context if you are new here. I work in the California courts, running cour
 
 AI Assisted. Human Approved. Powered by NLP.
 
-## 评论（28/28）
+## 评论（34/34）
 
 > **Reid Marlow** · 2026-11-13T18:07:56Z　
 > Dropping headers.authorization on a 401 works cleanly when fetchRepo() runs calls sequentially, though if those four metadata requests ever run under Promise.all, all four already go out with the expired header before the first 401 returns.
@@ -216,6 +216,23 @@ AI Assisted. Human Approved. Powered by NLP.
 
 > **Earl Grey** · 2026-11-13T22:25:06Z　
 > Same! I assumed a dead token would get treated like no token. Nope. And Reid was right about the parallel calls. Mikhail already has a PR up for it, with a test for that exact pair. This comment section is doing better code review than I planned for lol.
+
+---
+
+> **Emily Cherees** · 2026-11-18T15:08:20Z　
+> That’s a really important distinction, especially the point about the first request running independently before the parallel requests begin. It shows why understanding the actual execution flow matters just as much as understanding the fallback logic itself.
+>
+> I also think this discussion highlights something broader about AI-assisted development: getting the code to work is only one part of building a reliable application. The real challenge is making sure the assumptions behind that code remain valid when credentials expire, dependencies become unavailable, requests overlap, or traffic increases unexpectedly.
+>
+> What I particularly like about Mikhail’s per-request retry approach is that it addresses the concurrency problem without introducing unnecessary complexity into the overall architecture. Each request takes responsibility for its own recovery, which makes the behavior more predictable and easier to test.
+>
+> One additional improvement I'd consider is turning these lessons into explicit regression tests and operational alerts. The tests protect against the same edge cases returning during future changes, while alerts help identify when a supposedly occasional fallback starts happening consistently in production.
+>
+> I also agree that recording a Haiku failure in the scan receipt is useful, but there's a difference between storing diagnostic information and actively monitoring it. A failure reason that nobody reviews can remain hidden just as easily as an expired API key.
+>
+> For me, the biggest takeaway from this entire discussion is that resilience should be designed into the normal execution path, not added only after something breaks.
+>
+> And honestly, this is what makes post-hackathon debugging so valuable. The original build proves that the idea works; real-world failures reveal whether the engineering decisions can support it over time. Great discussion, and credit to everyone who contributed practical fixes rather than just pointing out problems.
 
 ---
 
@@ -368,12 +385,89 @@ AI Assisted. Human Approved. Powered by NLP.
 
 ---
 
+> **Earl Grey** · 2026-11-17T03:36:14Z　
+> Agreed, a unit test is a better home for it than the README. Thanks for sticking with this thread!
+
+---
+
 > **sitetoolsbox** · 2026-11-16T10:22:10Z　
 > This is a brilliant breakdown of the 'hidden gaps' problem. As someone who just built a system entirely from scratch without any frameworks (pure vanilla PHP), I felt this deeply.
 >
 > Without a framework, you literally have to build your own invariants. When I launched my free webmaster tool directory, I learned the hard way that normal validation isn't enough—bots bypassed my basic checks and flooded the system. I had to rewrite the state flow and manually implement OAuth just to ensure a 'submission' always came from a real human.
 >
 > It's painful, but it forces you to truly understand every single assumption in your architecture. Great write-up!
+
+---
+
+> **Ruhini Jannat Ruhi** · 2026-11-18T05:56:29Z　
+> Literature Infinity is a great platform for literature lovers. It offers interesting and informative content about literature, books, and creative ideas. Visit the website to explore more valuable and engaging content.
+>
+> Website: literature.infinityfree.me/
+
+---
+
+> **Emily Woods** · 2026-11-18T07:07:15Z　
+> The ava-inside-javascript example makes the verifier bug easy to understand. I’d keep the token-expiry failure separate from the matching fixture so a future failing scan points to the right layer. For interview practice, this failing-test exercise gives a related challenge: isolate one failing behavior and explain why the smallest fix belongs there.
+
+---
+
+> **Charli Alexender** · 2026-11-18T09:01:51Z　
+> Great write-up! It's amazing how small things like expired 30-day tokens, environment variable scoping in Vercel, and simple substring checks (javascript hiding ava) can break an entire app after a hackathon. Also, regarding the deployment side, I checked the status using. you can check if Vercel is down for me there), and it looks like broader infrastructure and service issues are sometimes adding to these deployment and API verification hiccups right now. Thanks for sharing these valuable debugging field notes!
+
+---
+
+> **Emily Cherees** · 2026-11-18T15:02:11Z　
+> One area I would pay particular attention to in this implementation is how the GitHub fallback behaves under concurrent requests, because this is exactly the kind of detail that can look harmless during development but create unpredictable behavior in production.
+>
+> Consider what happens when "fetchRepo()" executes four metadata requests concurrently using "Promise.all". If those requests share a mutable headers object and one of them receives a "401 Unauthorized" response, modifying that shared object to remove the expired authorization token can introduce a race condition.
+>
+> At that point, some requests may already have been dispatched with the expired token, while others may observe the modified headers. This makes the fallback behavior dependent on timing rather than an explicit and predictable request policy.
+>
+> I would avoid mutating shared request configuration altogether. Instead, each request should receive its own immutable headers object, and the authentication fallback should be handled independently at the individual request level.
+>
+> For example, when a public GitHub GET request receives a "401", retry that specific request once without the authorization header. This keeps the retry logic isolated, prevents one request from influencing another, and makes the overall behavior much easier to reason about, test, and maintain.
+>
+> There is another important consideration here: GitHub's unauthenticated REST API rate limit.
+>
+> Unauthenticated requests are generally limited to 60 requests per hour per originating IP address. That might seem sufficient when testing locally, especially when traffic is low and requests are infrequent. However, the situation changes significantly in a serverless environment.
+>
+> Multiple users and separate application instances can share the same outbound IP capacity. If the authenticated path starts failing and the application consistently falls back to unauthenticated requests, the fallback mechanism itself could become a source of rate-limit failures.
+>
+> In other words, a fallback designed to improve availability could unintentionally introduce another reliability problem when traffic increases.
+>
+> I would therefore treat the fallback as a controlled recovery mechanism rather than an unlimited alternative. It is worth considering how frequently it can be triggered, how rate-limit responses are handled, whether retries are bounded, and whether the application can expose enough information to distinguish authentication failures from rate-limit exhaustion.
+>
+> The Haiku fail-open behavior deserves similar attention.
+>
+> Returning a valid report when the AI service is unavailable is absolutely the right availability decision. A temporary dependency failure should not necessarily prevent users from receiving useful application output.
+>
+> However, fail-open behavior should never mean fail-silently behavior.
+>
+> I would introduce structured logging and a few lightweight metrics around this path. For example:
+>
+> - Count how often the Haiku fallback is activated.
+>
+> - Record AI request failures and relevant response categories.
+>
+> - Track how frequently GitHub authentication fallback occurs.
+>
+> - Monitor unauthenticated GitHub rate-limit responses.
+>
+> - Distinguish successful fallback responses from complete request failures.
+>
+> These signals would help identify whether an occasional dependency failure is being handled correctly or whether a recurring upstream problem is gradually becoming the application's normal operating mode.
+>
+> I would also make sure that retries are bounded and that fallback behavior is covered by tests for concurrent requests, expired credentials, rate limiting, and AI service unavailability.
+>
+> What makes this particularly interesting is that none of these concerns requires a major architectural redesign. The underlying approach can be perfectly reasonable, yet a few small implementation assumptions can have a disproportionate impact on production reliability.
+>
+> Shared mutable state, credential handling, external API quotas, and insufficient observability are all relatively small details in isolation. But when they interact under real traffic, they can produce failures that are difficult to reproduce and even harder to diagnose.
+>
+> My broader takeaway is that reliability is not just about having a fallback for when a dependency fails. It is about making sure the fallback itself is isolated, bounded, observable, and safe under concurrency.
+>
+> A system is not truly resilient simply because it can recover from one failure. It is resilient when that recovery mechanism does not quietly create the next failure.
+>
+> These are exactly the kinds of edge cases worth addressing before an implementation moves from working in development to handling unpredictable production traffic.
 
 ## 关联链接
 

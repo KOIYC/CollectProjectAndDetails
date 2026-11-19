@@ -5,7 +5,7 @@ title: "Postiz 2"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/postiz-2"
-captured_at: "2026-11-17T11:11:06+08:00"
+captured_at: "2026-11-19T09:45:52+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-17T11:11:06+08:00　|　id：`0f1f4a460ecae2a1`
+> 采集：2026-11-19T09:45:52+08:00　|　id：`0f1f4a460ecae2a1`
 
 ## 正文
 
@@ -40,10 +40,11 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  Postiz
 Agentic social media scheduling tool
-$464k /mo
+$474k /mo
  ✓ Verified Last 30 days
 Product type Software
- Helps with Social media marketing, Scheduling
+ What it does Social media & personal brand
+ Who it’s for Businesses ( Marketers & growth teams ; Developers & technical teams )
  Platforms Web · Desktop · API · Command line
  Business model Subscription
  Founders 1
@@ -110,7 +111,7 @@ Oldest first; listings without a date go last
  1 post on Indie Hackers
  2025 1 post
  IH IH post · Their first about it Big Growth
- Postiz increased its traffic this month from 11,000 to 21,000 unique visitors.MRR growth from 4k to 5k.
+ Postiz increased its traffic this month from 11,000 to 21,000 unique visitors. MRR growth from 4k to 5k.
  Nevo David · Jun 29
 The site through the years
  3 versions, 2024 to 2026
@@ -127,10 +128,11 @@ CDN CF Cloudflare
 Analytics CF Cloudflare Web Analytics
 Detected on postiz.com · Nov 8, 2026
  More like this
-12 Weeks From Today Plan ahead with precision - know your future dates instantly
- $36.9k/mo 4 Weeks From Today ，Future Date Calculator Find out the exact date in 4 weeks
- $3k/mo Academlo Online Academy for LatAm
- $2.1k/mo ✓ Verified
+Juvios Social Media Marketing Agency
+ $400k/mo Cloud Campaign Social media marketing software for digital agencies.
+ $386k/mo ✓ Verified browserless Headless browser automation for developers
+ $304k/mo ✓ Verified Savvy Nomad Domicile service for American nomads
+ $302k/mo ✓ Verified
 Browse Products DB
  Part of the Postiz team? Verify yourself
 Stay informed as an indie hacker.
