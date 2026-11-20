@@ -2,7 +2,7 @@
 type: "project"
 title: "Flowmrr"
 project_url: "https://betalist.com/startups/flowmrr"
-first_seen: "2026-11-19T09:45:38+08:00"
+first_seen: "2026-11-20T09:48:22+08:00"
 sources:
   - betalist
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://betalist.com/startups/flowmrr>
-> 首次收录：2026-11-19T09:45:38+08:00
+> 首次收录：2026-11-20T09:48:22+08:00
 > 来源渠道：BetaList
 > 标签：—
 > 最新指标：—
@@ -30,6 +30,7 @@ lang: "en"
 | 2026-11-03T09:43:14+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-11-03/575466d2f7c41d7c_Flowmrr]] |
 | 2026-11-10T09:53:55+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-11-03/575466d2f7c41d7c_Flowmrr]] |
 | 2026-11-19T09:45:38+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-11-03/575466d2f7c41d7c_Flowmrr]] |
+| 2026-11-20T09:48:22+08:00 | BetaList | — | [[20-语料/posts/betalist/2026-11-03/575466d2f7c41d7c_Flowmrr]] |
 
 ## 摘要正文
 

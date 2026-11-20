@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/browserless"
 project_url: "https://blog.brandfetch.io/automating-browsers-with-browserless"
-captured_at: "2026-11-19T09:45:52+08:00"
+captured_at: "2026-11-20T09:48:30+08:00"
 lang: "en"
 kind: "project"
 topic: 开发者工具
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://blog.brandfetch.io/automating-browsers-with-browserless>
-> 采集：2026-11-19T09:45:52+08:00　|　id：`f201583e2d2e923a`
+> 采集：2026-11-20T09:48:30+08:00　|　id：`f201583e2d2e923a`
 
 ## 正文
 
@@ -41,7 +41,7 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  browserless
 Headless browser automation for developers
-$304k /mo
+$306k /mo
  ✓ Verified Last 30 days
 Product type Software
  What it does Browser & desktop automation
@@ -222,9 +222,9 @@ Detected on browserless.io · Nov 8, 2026
  More like this
 Afina Browser Antidetect browser with real WebRTC & QUIC
  $10k/mo Browserflow Automate your work on any website
- $7.1k/mo ✓ Verified Cloud Campaign Social media marketing software for digital agencies.
- $386k/mo ✓ Verified Savvy Nomad Domicile service for American nomads
- $302k/mo ✓ Verified
+ $7.2k/mo ✓ Verified Cloud Campaign Social media marketing software for digital agencies.
+ $376k/mo ✓ Verified Savvy Nomad Domicile service for American nomads
+ $301k/mo ✓ Verified
 Browse Products DB
  Part of the browserless team? Verify yourself
 Stay informed as an indie hacker.

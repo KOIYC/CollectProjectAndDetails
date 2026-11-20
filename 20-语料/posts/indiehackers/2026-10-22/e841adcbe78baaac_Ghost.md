@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/ghost"
 project_url: "https://blog.ghost.org/2-0"
-captured_at: "2026-11-19T09:45:52+08:00"
+captured_at: "2026-11-20T09:48:30+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://blog.ghost.org/2-0>
-> 采集：2026-11-19T09:45:52+08:00　|　id：`e841adcbe78baaac`
+> 采集：2026-11-20T09:48:30+08:00　|　id：`e841adcbe78baaac`
 
 ## 正文
 
@@ -41,7 +41,7 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  Ghost
 Indie subscription platform for creators
-$829k /mo
+$832k /mo
  ✓ Verified Last 30 days
 Product type Software
  What it does Blogging & CMS ; Email, SMS, & messaging campaigns ; Fan memberships, tips, & crowdfunding
@@ -210,8 +210,8 @@ Homepage captures from the Wayback Machine
 Quotion Apple Notes into blogs in minutes
  $1.1k/mo The Liquid Sprint™ Custom Shopify storefront. 30 days. $7,500 fixed.
  $4m/mo Whaticket Multi-agent chat automation platform
- $425k/mo ✓ Verified Cloud Campaign Social media marketing software for digital agencies.
- $386k/mo ✓ Verified
+ $424k/mo ✓ Verified Cloud Campaign Social media marketing software for digital agencies.
+ $376k/mo ✓ Verified
 Browse Products DB
  Part of the Ghost team? Verify yourself
 Stay informed as an indie hacker.

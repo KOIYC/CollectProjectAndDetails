@@ -2,7 +2,7 @@
 type: "project"
 title: "Cloud Campaign"
 project_url: "https://angel.co/company/cloudcampaign/jobs/898766-fullstack-software-engineer"
-first_seen: "2026-11-19T09:45:52+08:00"
+first_seen: "2026-11-20T09:48:30+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://angel.co/company/cloudcampaign/jobs/898766-fullstack-software-engineer>
-> 首次收录：2026-11-19T09:45:52+08:00
+> 首次收录：2026-11-20T09:48:30+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -44,7 +44,8 @@ lang: "en"
 | 2026-11-16T10:02:55+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/ac0906d1a7113c1d_Cloud-Campaign]] |
 | 2026-11-17T11:11:06+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/ac0906d1a7113c1d_Cloud-Campaign]] |
 | 2026-11-19T09:45:52+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/ac0906d1a7113c1d_Cloud-Campaign]] |
+| 2026-11-20T09:48:30+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/ac0906d1a7113c1d_Cloud-Campaign]] |
 
 ## 摘要正文
 
-Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join Products DB Share Copied Retry Visit website  Cloud Campaign Social media marketing software for digital agencies. $386k /mo  ✓ Verified Last 30 days Product type Software  What it does Social media & personal brand  Who it’s for Businesses ( Agencies )  Platforms Web  Business model Subscription  Founders 1  Started Jun 2017  Follow Visit cloudcampaign.com Charts  12 months All time Revenue $420k in Oct Traffic rank Top 5M Revenue by month Mar 2018 $4.6k  Apr 2018 $294  May 2018 $95  Jun 2018 $105  Jul 2018 $533  Aug 2018 $488  Sep 2018 $1.1k  Oct 2018 $1.4k  Nov 2018 $3.3k  Dec 2018 $5.2k  Jan 2019 $6.9k  Feb 2019 $8k  Mar 2019 $9.1k  Apr 2019 $9.2k  May 2019 $9.6k  Jun 2019 $10.9k  Jul 2019 $12k  Aug 2019 $18k  Sep 2019 $19.7k  Oct 2019 $23k  Nov 2019 $25.9k  Dec 2019 $29.6k  Jan 2020 $38.1k  Feb 2020 $37.2k  Mar 2020 $40.4k  Apr 2020 $43.7k  May 2020 $51.7k  Jun 2020 $57.1k  Jul 2020 $60.7k  Aug 2020 $63.5k  Sep 2020 $75.3k  Oct 2020 $81.6k  Nov 2020 $76.7k  Dec 2020 $84.1k  Jan 2021 $91.1k  Feb 2021 $105k  Mar 2021 $119k  Apr 2021 $1…
+Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join Products DB Share Copied Retry Visit website  Cloud Campaign Social media marketing software for digital agencies. $376k /mo  ✓ Verified Last 30 days Product type Software  What it does Social media & personal brand  Who it’s for Businesses ( Agencies )  Platforms Web  Business model Subscription  Founders 1  Started Jun 2017  Follow Visit cloudcampaign.com Charts  12 months All time Revenue $420k in Oct Traffic rank Top 5M Revenue by month Mar 2018 $4.6k  Apr 2018 $294  May 2018 $95  Jun 2018 $105  Jul 2018 $533  Aug 2018 $488  Sep 2018 $1.1k  Oct 2018 $1.4k  Nov 2018 $3.3k  Dec 2018 $5.2k  Jan 2019 $6.9k  Feb 2019 $8k  Mar 2019 $9.1k  Apr 2019 $9.2k  May 2019 $9.6k  Jun 2019 $10.9k  Jul 2019 $12k  Aug 2019 $18k  Sep 2019 $19.7k  Oct 2019 $23k  Nov 2019 $25.9k  Dec 2019 $29.6k  Jan 2020 $38.1k  Feb 2020 $37.2k  Mar 2020 $40.4k  Apr 2020 $43.7k  May 2020 $51.7k  Jun 2020 $57.1k  Jul 2020 $60.7k  Aug 2020 $63.5k  Sep 2020 $75.3k  Oct 2020 $81.6k  Nov 2020 $76.7k  Dec 2020 $84.1k  Jan 2021 $91.1k  Feb 2021 $105k  Mar 2021 $119k  Apr 2021 $1…

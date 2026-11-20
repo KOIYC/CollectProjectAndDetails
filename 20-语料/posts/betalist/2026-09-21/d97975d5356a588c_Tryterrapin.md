@@ -7,7 +7,7 @@ source_name: "BetaList"
 url: "https://betalist.com/startups/tryterrapin"
 project_url: "https://tryterrapin.com/waitlist"
 published_at: "2025-08-25"
-captured_at: "2026-11-19T09:45:38+08:00"
+captured_at: "2026-11-20T09:48:22+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -33,7 +33,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2025-08-25
 > 项目链接：<https://tryterrapin.com/waitlist>
-> 采集：2026-11-19T09:45:38+08:00　|　id：`d97975d5356a588c`
+> 采集：2026-11-20T09:48:22+08:00　|　id：`d97975d5356a588c`
 
 ## 正文
 
@@ -99,18 +99,18 @@ TradePilot
 Scan rooms with your iPhone, get AI estimates built on your actual rates.
 Signed
 Manage startup investments, diligence, and taxes in one place
-aSERP
+Structura
  Boosted
-Track how AI engines mention, cite, and recommend your brand
+Publish 3 SEO-optimized blog posts a day, hands-off
 talat
 The private meeting notes app with 100% on-device AI
 Clearical
 AI-powered time tracking for knowledge workers
 Tarly AI
 Edit resumes via prompts (like Cursor); get a personal website in 1 minute
-Aria
+Outshot
  Boosted
-Free color analysis and honest verdicts before you buy
+Turn your website into daily short videos for TikTok, Reels, and Shorts
 Retuner AI
 AI resume tailor and free builder to beat ATS filters
 Supamail AI

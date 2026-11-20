@@ -8,7 +8,7 @@ url: "https://dev.to/earlgreyhot1701d/ghost-rovers-i-called-12-machines-nasa-lef
 project_url: "https://antigravity.google/"
 author: "Earl Grey"
 published_at: "2026-11-15T04:00:28Z"
-captured_at: "2026-11-19T09:46:11+08:00"
+captured_at: "2026-11-20T09:48:45+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,9 +21,9 @@ tags:
   - webdev
   - hackathon
   - showdev
-metrics: {"reactions": 75, "comments": 27, "reading_time": 9}
-comments_count: 27
-comments_total: 27
+metrics: {"reactions": 84, "comments": 41, "reading_time": 9}
+comments_count: 41
+comments_total: 41
 discovered_via: "devto:showdev"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:showdev"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/earlgreyhot1701d/ghost-rovers-i-called-12-machines-nasa-left-behind-one-picked-up-2575>
-> 指标：reactions=75 · 评论=27 · reading_time=9
+> 指标：reactions=84 · 评论=41 · reading_time=9
 > 作者：Earl Grey　|　发布：2026-11-15T04:00:28Z
 > 项目链接：<https://antigravity.google/>
-> 采集：2026-11-19T09:46:11+08:00　|　id：`8ecfe27935609bdc`
+> 采集：2026-11-20T09:48:45+08:00　|　id：`8ecfe27935609bdc`
 
 ## 正文
 
@@ -174,7 +174,7 @@ Built with AI assistance in November 2026. NASA facts link to NASA's own records
 
 AI Assisted. Human Approved. Powered by NLP.
 
-## 评论（27/27）
+## 评论（41/41）
 
 > **Sina Rezaei** · 2026-11-15T07:17:55Z　
 > The Apollo 11 Laser Retroreflector is probably the most interesting part of this project from an engineering perspective. There's a subtle distinction here: it doesn't actually communicate like a rover. Its corner-cube prisms passively reflect incoming laser pulses back toward Earth, with no onboard power or active transmitter. That 2.5-second round trip is essentially a measurement, not a telemetry response.
@@ -307,6 +307,11 @@ AI Assisted. Human Approved. Powered by NLP.
 
 ---
 
+> **Earl Grey** · 2026-11-19T02:26:24Z　
+> Thank you! The quiet machines were the part I cared about most. NO SIGNAL doesn’t mean nothing happened there. Every one of them still has a story worth hearing.
+
+---
+
 > **🎓 Navid Ishaq** · 2026-11-18T18:46:59Z　
 > Great work! 👏 I really enjoyed the idea behind Ghost Rovers, especially making space history interactive and accessible to children.
 >
@@ -321,6 +326,11 @@ AI Assisted. Human Approved. Powered by NLP.
 > Jokes aside, I appreciate how you used AI tools to turn an educational idea into a working project, while keeping human approval and fact-checking part of the process.
 >
 > Thanks for sharing your experience. Wishing you continued success with Ghost Rovers! 🚀
+
+---
+
+> **Earl Grey** · 2026-11-19T02:24:49Z　
+> Hahaha “stop the drama!” That’s amazing. I guess the ghosts got to your AI assistant too. I love the idea of pointing AI back at a post for its opinion. I’ve seen some AI roasts online, so maybe Ghost Rovers needs one next, lol. Thank you for reading and for the laugh! I’m still learning so much from the DEV community about how to make this better.
 
 ---
 
@@ -459,13 +469,99 @@ AI Assisted. Human Approved. Powered by NLP.
 
 ---
 
+> **Earl Grey** · 2026-11-19T02:49:04Z　
+> Wow, thank you, Shirley. I appreciate the feedback on this project, and the time you set aside to respond. “Fluency is not evidence of truth” really hit for me. That’s exactly why the fact checks mattered.
+>
+> The part that stopped me was the accessibility point. Zero axe violations means the tests passed, not that a kid with a screen reader had a good time. The more feedback I get here, the more I see the gap between what my tests check and what a real person needs. My builds start as an idea I want to see come to life. The people using them are what make them real. Real kids testing Ghost Rovers is the next step.
+>
+> I also agree that the skill doesn’t go away with AI, it moves. Less writing code, more deciding what “right” looks like and checking that the build got there.
+>
+> And your biggest takeaway is the whole reason I built it. AI helped me build it fast, but the purpose and the care had to come from me. If even one kid finishes and asks “what else is out there?”, that’s the win. Voyager has definitely crossed my mind too. It’s the ultimate ghost that still answers.
+>
+> Thank you again for this one.
+
+---
+
 > **Leo** · 2026-11-19T00:53:36Z　
 > very interesting
 
 ---
 
+> **Earl Grey** · 2026-11-19T02:21:26Z　
+> Thanks, Leo!
+
+---
+
 > **nourdude** · 2026-11-19T01:12:02Z　
 > it says "3 to 22 mins each way" and says no signal before 6 minutes (3 minutes form, 3 minutes to)
+
+---
+
+> **Earl Grey** · 2026-11-19T02:20:11Z　
+> Good catch, bro! You’re right. At 3 minutes each way, a real call couldn’t come back NO SIGNAL for at least 6 minutes. And you made me double check the Moon too: 1.3 seconds each way is 2.6 seconds round trip, and the app answers in 1.6.
+>
+> Here’s the plan: the Moon gets real timing, since 2.6 seconds is short enough for kids. Mars stays sped up but says so on screen: “a real call takes 6 to 44 minutes round trip. Sped up for you.”
+>
+> I opened an issue for it, and it’s next on my list: github.com/earlgreyhot1701D/ghost-...
+>
+> Thanks for checking the math!
+
+---
+
+> **nourdude** · 2026-11-19T03:04:15Z　
+> i though abt this problem because i had this idea that a rover gone quiet may power back on and start responding again and if you dont actually ping the thing you never know
+
+---
+
+> **Earl Grey** · 2026-11-19T03:44:14Z　
+> That’s such a good point. You don’t know it’s quiet until you call and wait. That’s what NASA did with Opportunity: after the 2018 dust storm they kept calling for months, hoping the wind would clean its solar panels and it would wake up. It never did, but they had to ask. That’s why the console still lets you try. And it’s one more reason to get the timing right: the waiting is part of the answer.
+
+---
+
+> **nourdude** · 2026-11-19T03:52:46Z　
+> not just the timing. it's actually pinging the actual rover. which is why those 3-22 mins each way shoudlnt be skipped
+
+---
+
+> **Earl Grey** · 2026-11-19T03:58:34Z　
+> Ohh, I see what you mean now. It’s not just the clock, it’s the actual call. The only way to know a rover is really quiet is to send the signal and wait the whole trip. That’s what NASA did with Opportunity: after the 2018 dust storm they kept calling for months, hoping it would wake back up. If the app skips the 3 to 22 minutes, it’s not really calling, it’s just showing you the answer. You’ve got me thinking about how to keep that wait in without losing the kids.
+
+---
+
+> **nourdude** · 2026-11-19T12:10:47Z　
+> can you also add the ability to call multiple rovers at once
+
+---
+
+> **AheadKit** · 2026-11-19T02:32:03Z　
+> I keep coming back to Surveyor 3 — quiet since 1967, so pressing call on it now is ringing something that's been silent for 59 years. There's something oddly polite about the console still letting you try, instead of just greying it out. Did any of the kids ask why we keep calling the ones we already know won't answer?
+
+---
+
+> **Earl Grey** · 2026-11-19T02:35:51Z　
+> Not yet! But that question is kind of the point. The console lets you try because the quiet ones still have something to say, just not over the radio. Each machine has a short story and a few questions kids can tap to learn why it went quiet. Surveyor 3’s is one of my favorites: two Apollo 12 astronauts walked over in 1969 and took its camera home. And if they want to go deeper, there’s a study notebook with a quiz, flashcards, and a podcast. And yes, 59 years of silence and it still gets a polite try. 😊
+
+---
+
+> **guuskeunen** · 2026-11-19T13:10:13Z　
+> Super interesting read! Never knew these nodes were still reachable.
+
+---
+
+> **Dora Kalgon** · 2026-11-20T00:22:13Z　
+> Why I Chose Software Engineering 💻
+>
+> Choosing Software Engineering is one of the most important decisions I have made.
+>
+> I chose this field because I love technology and I want to understand how websites, applications, and computer systems work.
+>
+> As a freshman at Yaoundé International Business School (YIBS), I am excited to begin this journey. I know there will be challenges, but I am ready to learn, improve my skills, and gain experience.
+>
+> My dream is to become a skilled software engineer and use technology to create useful solutions to real-world problems.
+>
+> This is just the beginning of my journey, and I look forward to everything ahead!
+>
+>  SoftwareEngineering #YIBS
 
 ## 关联链接
 

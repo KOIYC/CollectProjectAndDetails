@@ -5,7 +5,7 @@ title: "Dailylaunch"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/dailylaunch"
-captured_at: "2026-11-19T09:45:52+08:00"
+captured_at: "2026-11-20T09:48:30+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-19T09:45:52+08:00　|　id：`6214ecbf8602d3d8`
+> 采集：2026-11-20T09:48:30+08:00　|　id：`6214ecbf8602d3d8`
 
 ## 正文
 
@@ -61,9 +61,9 @@ Milestones
 From the founder
  2 posts on Indie Hackers
  2026 2 posts
- IH IH post Running multiple projects at once: smart or a mistake?
- At some point, a lot of us end up with more than one project. A main product, a small side tool, maybe an idea that started as a weekend experiment and never got shut down. Everyone says to focus on one thing. And deep down, we know they’re probably right. But it doesn’t always feel that simple. Som
- fabienlk · Nov 18
+ IH IH post Keep going or move on? Most of us just push and hope.
+ Every builder hits this moment at some point. You launched a while ago. You’ve posted about it, fixed bugs, added features, tried a few marketing ideas. It’s still running, but it isn’t really growing either. A few users, some traffic, nothing that feels like momentum. And you start wondering: shoul
+ fabienlk · Nov 19
  IH IH post · Their first about it A product directory where makers can launch and clap for each other
  DailyLaunch is a place where makers can launch their SaaS products and people can browse tools across different categories. A small part of the idea is claps: visitors can show appreciation for a product with one tap, without needing to write a review. I’m interested in whether that kind of lightwei
  fabienlk · Oct 12
@@ -77,8 +77,8 @@ Detected on dailylaunch.io · Nov 14, 2026
 CapyLaunch CapyLaunch is a directory where people browse indie-made startups and AI tools, compare what they do and cost, and submit their own products for review.
  Content Mavericks Get more traffic with less content.
  $30k/mo Whaticket Multi-agent chat automation platform
- $425k/mo ✓ Verified Cloud Campaign Social media marketing software for digital agencies.
- $386k/mo ✓ Verified
+ $424k/mo ✓ Verified Cloud Campaign Social media marketing software for digital agencies.
+ $376k/mo ✓ Verified
 Browse Products DB
  Part of the DailyLaunch team? Verify yourself
 Stay informed as an indie hacker.

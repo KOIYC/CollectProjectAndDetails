@@ -5,10 +5,10 @@ title: "Gettranscript"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/gettranscript"
-captured_at: "2026-11-08T12:54:09+08:00"
+captured_at: "2026-11-20T09:48:30+08:00"
 lang: "en"
 kind: "project"
-topic: "AI 工具/Agent"
+topic: "开发者工具"
 shard: "2026-11-08"
 tags:
   - 语料
@@ -30,71 +30,76 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-08T12:54:09+08:00　|　id：`4e2be1bf3931110e`
+> 采集：2026-11-20T09:48:30+08:00　|　id：`4e2be1bf3931110e`
 
 ## 正文
 
 Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+
 Starting Up Case Studies
  Ideas DB Products DB Sign in Join
-GetTranscript
- YouTube transcript extractor for videos, playlist, channels
-Visit Website
-GetTranscript YouTube transcript extractor for videos, playlist, channels
- Posts 2
- Revenue $80 / mo
- Website
-November 7, 2026
- Google indexed our Next.js homepage as an empty page, twice, and clicks fell ~90%. My Vercel checklist and open questions
-I work on a small Next.js tool hosted on Vercel. Organic clicks went from ~140/day to ~10 in late September, recovered to ~75, then dropped again mid-October and only came back to ~40-50. I'm trying to figure out whether this is our fault, Google's, or Vercel's.
-**The weird part:** twice now, Google indexed our homepage as an empty page. The indexed version had no title, no meta description and no content. When I test the live URL today, the server HTML is complete: title, H1, content, JSON-LD, one canonical, 200 OK. So whatever Googlebot received at those moments, I can't reproduce it.
-**Ruled out (all clean)**
- - Manual actions and security issues in Search Console
- - Host status: no robots.txt, DNS or server errors for 90 days
- - One self-referencing canonical per page, and Google's selected canonical matches it
- - www redirects to the apex with a 308
- - Exact-phrase searches of our copy show no scraped duplicates
- - URL Inspection live test: 200 OK, 59 of 60 resources loaded (the only failure was analytics)
-**Vercel/Next.js things I'm still checking (possible causes of an "empty" homepage)**
- - A deploy or cache revalidation window where the crawler got an empty or partial response
- - A client-side-rendering bailout (for example useSearchParams without a Suspense boundary) that leaves an empty shell in the HTML
- - Firewall or bot protection serving a challenge/interstitial page to Googlebot
- - Middleware or auth redirects sending crawlers to /sign-in or /sign-up (we saw a sign-up page show up in results)
- - Preview deployments or the *.vercel.app production alias getting indexed as duplicates
- - Soft 404s: error pages returning 200
-**What lines up with the drops**
- - Google's September 2026 spam update rolled out Sept 24 to Oct 8, and there were unconfirmed volatility spikes on Oct 16, 20-21 and 24. Both drops fall in those windows, but that's correlation, not proof.
- - The site has very few real backlinks: the Search Console links report shows 6, and most look auto-generated.
-**What I'm doing now**
- Leaving the main page untouched for a few weeks, building real links (directories, communities, articles), and tracking impressions per query instead of clicks.
-Questions for you:
- 1. Has Google ever indexed one of your pages as empty (no title, no description, no content) on Vercel/Next.js, even though the live page looked fine? What was the cause, and did you ever find out what the crawler actually received?
- 2. If you went through similar drops on a young domain, how long did recovery take, and what actually moved the needle?
- 3. Anything on my checklist you'd add?
-Che_loveck.
-1 Upvote
-1 Comment
-November 5, 2026
- Show IH: a free YouTube transcript extractor with bulk export and an API
-I work on GetTranscript, a small web tool that pulls transcripts out of public YouTube videos, playlists and channels.
-What it does:
- - Paste a link, get the text as TXT, Markdown, SRT, VTT, JSON or CSV
- - Single videos are free, no sign-up
- - Playlists and channels (up to 100 videos per job) run on pay-as-you-go credits: 1 video = 1 credit, credits never expire, failed extractions are refunded
- - REST API for developers
- - Free AI summaries for single videos
-Where I'd love your opinion:
- 1. Bulk jobs need credits from the first video, so there is no free bulk trial. Some competitors give a few free credits at sign-up. Would a small free bulk trial (say 10 videos) make you more likely to try it, or is "single videos free, bulk paid" a clear enough line?
- 2. The preview groups captions into ~30-second paragraphs with timestamps. Readable, or would you rather see raw caption lines?
- 3. What would make you trust a tool like this with a batch of 100 videos?
- Honest feedback welcome, including "this is useless because...".
-Che_loveck.
-5 Upvotes
-Comment
-About
- I wanted to test my skills and build something useful on my own — a small product that could actually earn money and help people at the same time. GetTranscript is my attempt to do both.
-People
- Che_loveck. Founder
+Products DB Share Copied Retry Visit website
+ GetTranscript
+YouTube transcript extractor for videos, playlist, channels
+$80 /mo
+ Self-reported November 2026
+Product type Software
+ What it does Transcription & dictation ; Scraping, extraction, & OCR
+ Who it’s for Businesses and individuals ( Developers & technical teams ; Students & learners )
+ Platforms Web · API
+ Business model Free, Transactional
+ Founders 1
+ Started Jul 2025
+ Follow
+Visit gettranscript.app
+Charts
+ 12 months All time
+Traffic rank Top 10M
+Traffic rank by month Aug 2025 Top 50M
+ Sep 2025 No data
+ Oct 2025 No data
+ Nov 2025 Top 50M
+ Dec 2025 Top 50M
+ Jan 2026 Top 50M
+ Feb 2026 Top 50M
+ Mar 2026 No data
+ Apr 2026 Top 10M
+ May 2026 Top 50M
+ Jun 2026 Top 10M
+ Jul 2026 Top 10M
+ Aug 2026 Top 10M
+ Sep 2026 Top 10M
+ Oct 2026 Top 10M
+How many people visit, compared with every website, measured by Google Chrome. Top 1M means it’s among the million most-visited sites.
+ The founders
+ 1 founder
+ Che_loveck.
+ Founder · @che_loveck
+ I work on GetTranscript, a free YouTube transcript extractor. Interested in SEO, developer tools and small SaaS.
+Show more
+From the founder
+ 2 posts on Indie Hackers
+ 2026 2 posts
+ IH IH post Ask IH: Has anyone grown organic traffic without buying a single link?
+ I work on a small SaaS (a YouTube transcript tool). Since mid-September our Google traffic has dropped a lot, and honestly it's hard to say why, because a lot happened at once: - the September spam update rolled out; - our homepage was indexed empty twice (fixed since, it was a rendering issue); - w
+ Che_loveck. · Nov 19
+ IH IH post · Their first about it Show IH: a free YouTube transcript extractor with bulk export and an API
+ I work on GetTranscript, a small web tool that pulls transcripts out of public YouTube videos, playlists and channels. What it does: - Paste a link, get the text as TXT, Markdown, SRT, VTT, JSON or CSV - Single videos are free, no sign-up - Playlists and channels (up to 100 videos per job) run on pa
+ Che_loveck. · Nov 5
+Newest first
+ Built with
+ 3 different products
+ Framework N Next.js
+Hosting ▲ Vercel
+Analytics GA Google Analytics
+Detected on gettranscript.app · Nov 14, 2026
+ More like this
+FutureVault A digital vault platform built for financial professionals.
+ $25k/mo FutureVault Intelligent Document Processing for the finance industry
+ $25k/mo browserless Headless browser automation for developers
+ $306k/mo ✓ Verified Ghost Indie subscription platform for creators
+ $832k/mo ✓ Verified
+Browse Products DB
+ Part of the GetTranscript team? Verify yourself
 Stay informed as an indie hacker.
  Market insights that help you start and grow your business.
 Subscribe
@@ -111,5 +116,5 @@ Databases
 
 - 项目页：[[10-项目/Gettranscript_4e2be1bf]]
 - 渠道页：[[50-渠道/indiehackers]]
-- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 赛道：`开发者工具`（见 [[浏览]] 的「按赛道」视图）
 - 同渠道/同赛道批量浏览：[[浏览]]

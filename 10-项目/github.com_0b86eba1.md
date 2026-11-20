@@ -2,14 +2,14 @@
 type: "project"
 title: "krisgfx9/Wireless-Device-Battery-Monitor"
 project_url: "https://github.com/krisgfx9/Wireless-Device-Battery-Monitor"
-first_seen: "2026-11-19T09:45:15+08:00"
+first_seen: "2026-11-20T09:48:11+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - C++
-  - created:>2026-11-05
+  - created:>2026-11-06
 lang: "en"
 ---
 
@@ -20,16 +20,17 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/krisgfx9/Wireless-Device-Battery-Monitor>
-> 首次收录：2026-11-19T09:45:15+08:00
+> 首次收录：2026-11-20T09:48:11+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：C++, created:>2026-11-05
-> 最新指标：stars=4000 · forks=352 · open_issues=2399
+> 标签：C++, created:>2026-11-06
+> 最新指标：stars=4685 · forks=404 · open_issues=3280
 
 ## 观测历史
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
 | 2026-11-19T09:45:15+08:00 | GitHub 新星仓库 | stars=4000 · forks=352 · open_issues=2399 | [[20-语料/posts/github_new/2026-11-19/0b86eba1dea60b56_krisgfx9-Wireless-Device-Battery-Monitor]] |
+| 2026-11-20T09:48:11+08:00 | GitHub 新星仓库 | stars=4685 · forks=404 · open_issues=3280 | [[20-语料/posts/github_new/2026-11-19/0b86eba1dea60b56_krisgfx9-Wireless-Device-Battery-Monitor]] |
 
 ## 摘要正文
 

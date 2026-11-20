@@ -1,12 +1,37 @@
 {
- "generated": "2026-11-19T10:08:32+08:00",
- "n_items": 5276,
- "n_pages": 4321,
+ "generated": "2026-11-20T10:07:44+08:00",
+ "n_items": 5384,
+ "n_pages": 4410,
  "cross": 4,
- "stale": 0,
+ "stale": 3,
  "concept": 0,
  "xref": 30,
- "top_stale": [],
+ "top_stale": [
+  {
+   "page": "10-项目/github.com_d1f34007.md",
+   "last_obs": "2026-09-20",
+   "days": 61,
+   "phrases": [
+    "敬请期待"
+   ]
+  },
+  {
+   "page": "10-项目/rawhq.io_dc82cafd.md",
+   "last_obs": "2026-09-20",
+   "days": 61,
+   "phrases": [
+    "waitlist"
+   ]
+  },
+  {
+   "page": "10-项目/v.redd.it_cb371a9d.md",
+   "last_obs": "2026-09-20",
+   "days": 61,
+   "phrases": [
+    "early access"
+   ]
+  }
+ ],
  "top_cross": [
   {
    "key": "https://aliasfleet.com/",

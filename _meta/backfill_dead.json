@@ -1,10 +1,10 @@
 {
  "schema": 2,
- "updated": "2026-11-19T09:58:14+08:00",
+ "updated": "2026-11-20T10:05:46+08:00",
  "note": "结构性无正文/取数不可得 —— 连试 2 轮后记账，不再消耗额度。字段：reason（人话）/ reason_code（可复核分类，见 REASON_CODES）/ tried[]（本轮实际试过的后端）/ http_status（direct 档拿到的状态码）",
  "by_reason": {
-  "unreachable": 96,
-  "no_backend": 95,
+  "no_backend": 100,
+  "unreachable": 95,
   "media": 47,
   "http_403": 6,
   "account": 3,
@@ -3720,18 +3720,19 @@
    "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=200:too_short"
   },
   "9e3c0d9649fc414a": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "Show HN: NOS x86-64 hypervisor, written in Rust",
    "url": "https://nos-os.tech/en/demo",
    "source_id": "hn_show",
    "first_dead": "2026-11-17T11:20:59+08:00",
-   "last_try": "2026-11-17T11:20:59+08:00",
+   "last_try": "2026-11-20T10:05:46+08:00",
    "tried": [
     "direct_fetch"
    ],
    "http_status": 200,
    "reason_code": "no_backend",
-   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200",
+   "reason_first": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
   },
   "feb6923e7479fbbc": {
    "attempts": 2,
@@ -3796,19 +3797,77 @@
    "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=timeout"
   },
   "83ad30db3e921b39": {
-   "attempts": 1,
+   "attempts": 2,
    "title": "AudioSilo - Self hosted audiobooks",
    "url": "https://i.redd.it/5vvafm0h8g0i1.png",
    "source_id": "reddit",
    "first_dead": "2026-11-19T09:58:14+08:00",
-   "last_try": "2026-11-19T09:58:14+08:00",
+   "last_try": "2026-11-20T10:05:46+08:00",
    "tried": [
     "direct_fetch",
     "exa_web_fetch"
    ],
-   "http_status": "unreachable",
-   "reason_code": "unreachable",
-   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=unreachable"
+   "http_status": "error",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error",
+   "reason_first": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 unreachable · status=unreachable"
+  },
+  "ab3ba1b5395bc779": {
+   "attempts": 1,
+   "title": "Show HN: Jobs by Stock Ticker",
+   "url": "https://searchforjobs.app/tickers",
+   "source_id": "hn_show",
+   "first_dead": "2026-11-20T10:05:46+08:00",
+   "last_try": "2026-11-20T10:05:46+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "25773db02df5410d": {
+   "attempts": 1,
+   "title": "Show HN: PadSpan – Room-level Bluetooth tracking for Home Assistant",
+   "url": "https://padspan.traks.ca/demo/",
+   "source_id": "hn_show",
+   "first_dead": "2026-11-20T10:05:46+08:00",
+   "last_try": "2026-11-20T10:05:46+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "bdb5a35f8f900a5f": {
+   "attempts": 1,
+   "title": "Show HN: I rebuilt evilgrade to test where a leaked CA still works",
+   "url": "https://faradaysec.com/evilgrade-2026-225-modules-meet-a-leaked-emudhra-ca/?utm_source=hackernews&utm_medium=community&utm_campaign=evilgrade-2026",
+   "source_id": "hn_show",
+   "first_dead": "2026-11-20T10:05:46+08:00",
+   "last_try": "2026-11-20T10:05:46+08:00",
+   "tried": [
+    "direct_fetch"
+   ],
+   "http_status": 200,
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch）· 判定 no_backend · status=200"
+  },
+  "ad79a38a33bffb54": {
+   "attempts": 1,
+   "title": "Marketing feels. I'm tired, boss.",
+   "url": "https://i.redd.it/zafztfntjo0i1.png",
+   "source_id": "reddit",
+   "first_dead": "2026-11-20T10:05:46+08:00",
+   "last_try": "2026-11-20T10:05:46+08:00",
+   "tried": [
+    "direct_fetch",
+    "exa_web_fetch"
+   ],
+   "http_status": "error",
+   "reason_code": "no_backend",
+   "reason": "取数失败（已试 direct_fetch→exa_web_fetch）· 判定 no_backend · status=error"
   }
  }
 }

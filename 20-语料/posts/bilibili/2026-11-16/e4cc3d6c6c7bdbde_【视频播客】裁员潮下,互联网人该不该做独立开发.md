@@ -7,7 +7,7 @@ source_name: "B 站"
 url: "https://www.bilibili.com/video/BV1wHWo6ZEun"
 author: "熠辉IndieDev"
 published_at: "2026-11-13T08:00:00+08:00"
-captured_at: "2026-11-19T09:47:01+08:00"
+captured_at: "2026-11-20T09:49:27+08:00"
 lang: "zh"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -20,7 +20,7 @@ tags:
   - 上B站看播客
   - 视频播客
   - AI
-metrics: {"play": 23519, "danmaku": 7, "favorites": 1330}
+metrics: {"play": 23828, "danmaku": 7, "favorites": 1348}
 comments_count: 0
 comments_total: 0
 discovered_via: "bili:独立开发"
@@ -34,10 +34,10 @@ discovered_via: "bili:独立开发"
 > [!meta]- 语料信息（点开展开）
 > 来源：B 站（post）
 > 原帖：<https://www.bilibili.com/video/BV1wHWo6ZEun>
-> 指标：播放=23519 · 弹幕=7 · 收藏=1330
+> 指标：播放=23828 · 弹幕=7 · 收藏=1348
 > 作者：熠辉IndieDev　|　发布：2026-11-13T08:00:00+08:00
 > 项目链接：—
-> 采集：2026-11-19T09:47:01+08:00　|　id：`e4cc3d6c6c7bdbde`
+> 采集：2026-11-20T09:49:27+08:00　|　id：`e4cc3d6c6c7bdbde`
 
 ## 正文
 

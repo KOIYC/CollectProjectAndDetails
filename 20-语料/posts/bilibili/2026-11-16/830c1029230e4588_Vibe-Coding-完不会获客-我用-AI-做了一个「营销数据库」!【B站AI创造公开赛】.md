@@ -7,7 +7,7 @@ source_name: "B 站"
 url: "https://www.bilibili.com/video/BV1cVW86JE2e"
 author: "熠辉IndieDev"
 published_at: "2026-11-10T09:00:00+08:00"
-captured_at: "2026-11-19T09:47:01+08:00"
+captured_at: "2026-11-20T09:49:27+08:00"
 lang: "zh"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -22,7 +22,7 @@ tags:
   - Google Cloud
   - Gemini
   - Google
-metrics: {"play": 76020, "danmaku": 3, "favorites": 2505}
+metrics: {"play": 76189, "danmaku": 3, "favorites": 2512}
 comments_count: 0
 comments_total: 0
 discovered_via: "bili:独立开发"
@@ -36,10 +36,10 @@ discovered_via: "bili:独立开发"
 > [!meta]- 语料信息（点开展开）
 > 来源：B 站（post）
 > 原帖：<https://www.bilibili.com/video/BV1cVW86JE2e>
-> 指标：播放=76020 · 弹幕=3 · 收藏=2505
+> 指标：播放=76189 · 弹幕=3 · 收藏=2512
 > 作者：熠辉IndieDev　|　发布：2026-11-10T09:00:00+08:00
 > 项目链接：—
-> 采集：2026-11-19T09:47:01+08:00　|　id：`830c1029230e4588`
+> 采集：2026-11-20T09:49:27+08:00　|　id：`830c1029230e4588`
 
 ## 正文
 

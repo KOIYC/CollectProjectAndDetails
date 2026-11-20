@@ -8,7 +8,7 @@ url: "https://dev.to/earlgreyhot1701d/one-month-after-the-hackathon-why-my-4-ser
 project_url: "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols"
 author: "Earl Grey"
 published_at: "2026-11-13T17:48:25Z"
-captured_at: "2026-11-19T09:56:24+08:00"
+captured_at: "2026-11-20T09:48:47+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -21,9 +21,9 @@ tags:
   - javascript
   - buildinpublic
   - opensource
-metrics: {"reactions": 54, "comments": 33, "reading_time": 6}
-comments_count: 34
-comments_total: 34
+metrics: {"reactions": 54, "comments": 34, "reading_time": 6}
+comments_count: 35
+comments_total: 35
 discovered_via: "devto:buildinpublic"
 ---
 
@@ -35,10 +35,10 @@ discovered_via: "devto:buildinpublic"
 > [!meta]- 语料信息（点开展开）
 > 来源：dev.to（post）
 > 原帖：<https://dev.to/earlgreyhot1701d/one-month-after-the-hackathon-why-my-4-service-app-stopped-working-and-what-mansio-caught-in-the-3i8h>
-> 指标：reactions=54 · 评论=33 · reading_time=6
+> 指标：reactions=54 · 评论=34 · reading_time=6
 > 作者：Earl Grey　|　发布：2026-11-13T17:48:25Z
 > 项目链接：<https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Iteration_protocols>
-> 采集：2026-11-19T09:56:24+08:00　|　id：`63c3e7b66478d404`
+> 采集：2026-11-20T09:48:47+08:00　|　id：`63c3e7b66478d404`
 
 ## 正文
 
@@ -181,7 +181,7 @@ Quick context if you are new here. I work in the California courts, running cour
 
 AI Assisted. Human Approved. Powered by NLP.
 
-## 评论（34/34）
+## 评论（35/35）
 
 > **Reid Marlow** · 2026-11-13T18:07:56Z　
 > Dropping headers.authorization on a 401 works cleanly when fetchRepo() runs calls sequentially, though if those four metadata requests ever run under Promise.all, all four already go out with the expired header before the first 401 returns.
@@ -408,6 +408,11 @@ AI Assisted. Human Approved. Powered by NLP.
 
 > **Emily Woods** · 2026-11-18T07:07:15Z　
 > The ava-inside-javascript example makes the verifier bug easy to understand. I’d keep the token-expiry failure separate from the matching fixture so a future failing scan points to the right layer. For interview practice, this failing-test exercise gives a related challenge: isolate one failing behavior and explain why the smallest fix belongs there.
+
+---
+
+> **Earl Grey** · 2026-11-19T02:28:25Z　
+> I appreciate the feedback!
 
 ---
 

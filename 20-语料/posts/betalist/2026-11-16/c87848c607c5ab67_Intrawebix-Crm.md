@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/intrawebix-crm"
 published_at: "2026-11-03"
-captured_at: "2026-11-17T11:10:57+08:00"
+captured_at: "2026-11-20T09:48:22+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-11-03
 > 项目链接：—
-> 采集：2026-11-17T11:10:57+08:00　|　id：`c87848c607c5ab67`
+> 采集：2026-11-20T09:48:22+08:00　|　id：`c87848c607c5ab67`
 
 ## 正文
 
@@ -106,9 +106,9 @@ Zoye
 The CRM You Never Need to Open
 HalaFlow
 Automate WhatsApp and Instagram chats for bookings and leads
-Terrapin
+Outshot
  Boosted
-Turn receipts, email & photos into clean, tax-ready insights, automatically
+Turn your website into daily short videos for TikTok, Reels, and Shorts
 Trackapp
 The back office for anyone who runs their business from their phone
 Flowzivo

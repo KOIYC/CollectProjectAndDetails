@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/searcherries"
 published_at: "2026-11-06"
-captured_at: "2026-11-19T09:45:38+08:00"
+captured_at: "2026-11-20T09:48:22+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-11-06
 > 项目链接：—
-> 采集：2026-11-19T09:45:38+08:00　|　id：`f9e4803bb15df187`
+> 采集：2026-11-20T09:48:22+08:00　|　id：`f9e4803bb15df187`
 
 ## 正文
 
@@ -102,18 +102,18 @@ SEORCE
 The unified search visibility engine for the AI era
 SEObolt
 Track your visibility across AI search and Google in one dashboard
-FlowMRR
+VCXplore
  Boosted
-Turn your Stripe subscription data into clear, actionable revenue insights
+Find investors whose portfolios look like your company
 SAG
 Audit and improve content for SEO, AEO, and AI search with fixes
 TadaSEO
 Track Google rankings and AI citations and act on clear SEO tasks
 ZeroRank AI
 Track and improve your brand’s visibility across AI search
-Outshot
+Aria
  Boosted
-Turn your website into daily short videos for TikTok, Reels, and Shorts
+Free color analysis and honest verdicts before you buy
 Stevie AI
 Search Engine Optimization Tool designed for Startups
 RankControl

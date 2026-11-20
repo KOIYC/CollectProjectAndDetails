@@ -1,29 +1,29 @@
 {
-  "generated": "2026-11-19T10:03:20+08:00",
-  "n_live": 5158,
-  "n_usable": 4556,
-  "n_project": 3995,
+  "generated": "2026-11-20T10:20:56+08:00",
+  "n_live": 5266,
+  "n_usable": 4650,
+  "n_project": 4074,
   "signals": 89,
   "topics": [
     [
       "AI 工具/Agent",
-      2807
+      2865
     ],
     [
       "开发者工具",
-      928
+      948
     ],
     [
       "未分类",
-      464
+      475
     ],
     [
       "游戏",
-      118
+      122
     ],
     [
       "移动 App",
-      88
+      89
     ],
     [
       "SaaS/B2B",
@@ -218,20 +218,14 @@
       }
     }
   ],
-  "money_signal_n": 1922,
-  "money_evidence_n": 696,
+  "money_signal_n": 1958,
+  "money_evidence_n": 705,
   "money_quotes": [
     {
       "source": "betalist",
       "title": "Us Realtor List",
       "url": "https://betalist.com/startups/us-realtor-list",
       "quote": "paying, then purchase a one-time download via Stripe with transparent pricing based on list size. Files include name, email, phone, brokerage, city, state, and optiona"
-    },
-    {
-      "source": "betalist",
-      "title": "Aria",
-      "url": "https://betalist.com/startups/aria",
-      "quote": "s GlamGuide The beauty app that knows your skin, hair, and style FlowMRR Boosted Turn your Stripe subscription data into clear, actionable revenue insights Zen"
     },
     {
       "source": "betalist",
@@ -292,43 +286,49 @@
       "title": "Unjumbl",
       "url": "https://betalist.com/startups/unjumbl",
       "quote": "njumbl turns a photo of a messy room into a step-by-step decluttering plan divided into 15-minute zones, sorting items into collect, donate, or trash. If you're uns"
+    },
+    {
+      "source": "betalist",
+      "title": "Telegram Video Downloader",
+      "url": "https://betalist.com/startups/telegram-video-downloader",
+      "quote": "afe, human-like actions BoostBerry The Best All-in-One Platform to Monetize Your Community Whacka BOOSTED Turn any idea into your own mobile app with no code fr"
     }
   ],
   "pain_n": {
-    "当前方案不好用": 149,
-    "在找替代品": 91,
-    "做不出来/卡住": 197,
-    "愿意付钱": 117,
-    "想要而找不到": 23
+    "当前方案不好用": 154,
+    "在找替代品": 92,
+    "做不出来/卡住": 200,
+    "愿意付钱": 120,
+    "想要而找不到": 25
   },
   "by_channel": [
     {
       "id": "betalist",
       "profile": "linkpost",
-      "n": 358,
-      "ok": 357,
-      "rate": 0.9972067039106145
+      "n": 360,
+      "ok": 359,
+      "rate": 0.9972222222222222
     },
     {
       "id": "producthunt",
       "profile": "linkpost",
-      "n": 813,
-      "ok": 806,
-      "rate": 0.991389913899139
+      "n": 841,
+      "ok": 834,
+      "rate": 0.9916765755053508
     },
     {
       "id": "indiehackers",
       "profile": "linkpost",
-      "n": 195,
-      "ok": 193,
-      "rate": 0.9897435897435898
+      "n": 198,
+      "ok": 196,
+      "rate": 0.98989898989899
     },
     {
       "id": "hn_show",
       "profile": "discussion",
-      "n": 2307,
-      "ok": 2192,
-      "rate": 0.9501517121803208
+      "n": 2347,
+      "ok": 2229,
+      "rate": 0.9497230507030251
     },
     {
       "id": "bilibili",
@@ -354,9 +354,9 @@
     {
       "id": "v2ex",
       "profile": "discussion",
-      "n": 332,
-      "ok": 237,
-      "rate": 0.713855421686747
+      "n": 340,
+      "ok": 242,
+      "rate": 0.711764705882353
     },
     {
       "id": "github_new",
@@ -368,9 +368,9 @@
     {
       "id": "reddit",
       "profile": "discussion",
-      "n": 863,
-      "ok": 540,
-      "rate": 0.6257242178447276
+      "n": 890,
+      "ok": 559,
+      "rate": 0.6280898876404495
     },
     {
       "id": "c1c7",
@@ -387,5 +387,5 @@
       "rate": 0.0
     }
   ],
-  "body_median": 1541.0
+  "body_median": 1515.0
 }

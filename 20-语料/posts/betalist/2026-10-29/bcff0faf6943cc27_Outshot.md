@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/outshot"
 published_at: "2026-10-19"
-captured_at: "2026-11-19T09:45:38+08:00"
+captured_at: "2026-11-20T09:48:22+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-10-19
 > 项目链接：—
-> 采集：2026-11-19T09:45:38+08:00　|　id：`bcff0faf6943cc27`
+> 采集：2026-11-20T09:48:22+08:00　|　id：`bcff0faf6943cc27`
 
 ## 正文
 
@@ -98,9 +98,9 @@ Esseeoh
 Turn long videos into viral Shorts and auto-post them for you
 Clipzy
 Turn an idea into a ready-to-edit vertical video in about a minute
-FN2
+Whacka
  Boosted
-Analyze stocks with AI-driven research and real-time market signals
+AI app builder: describe your app in any language, get a real working app
 Video Clipper
 Turn YouTube videos into viral Shorts with AI in minutes
 UGCLive

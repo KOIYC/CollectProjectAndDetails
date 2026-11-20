@@ -1,0 +1,15 @@
+{
+  "at": "2026-11-20T09:53:39+08:00",
+  "kind": "corpus_rename",
+  "note": "条目改标题导致的语料页换名；旧页已清（git/raw 可回溯），链接已改写",
+  "renames": [
+    {
+      "from": "20-语料/posts/producthunt/2026-09-21/5849db5c215c04d6_Inspo-by-Context.dev.md",
+      "to": "20-语料/posts/producthunt/2026-09-21/5849db5c215c04d6_Enrichable-by-Context.dev.md"
+    },
+    {
+      "from": "20-语料/posts/producthunt/2026-09-30/29abd65ced025a3e_Upsolve-Data-Models.md",
+      "to": "20-语料/posts/producthunt/2026-09-30/29abd65ced025a3e_Upsolve-MCP-Connections.md"
+    }
+  ]
+}

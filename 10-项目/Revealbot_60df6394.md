@@ -2,7 +2,7 @@
 type: "project"
 title: "Revealbot"
 project_url: "https://www.indiehackers.com/product/revealbot"
-first_seen: "2026-11-19T09:45:52+08:00"
+first_seen: "2026-11-20T09:48:30+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://www.indiehackers.com/product/revealbot>
-> 首次收录：2026-11-19T09:45:52+08:00
+> 首次收录：2026-11-20T09:48:30+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -30,6 +30,7 @@ lang: "en"
 | 2026-11-16T10:02:55+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-11-16/60df63945b7b29fb_Revealbot]] |
 | 2026-11-17T11:11:06+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-11-16/60df63945b7b29fb_Revealbot]] |
 | 2026-11-19T09:45:52+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-11-16/60df63945b7b29fb_Revealbot]] |
+| 2026-11-20T09:48:30+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-11-16/60df63945b7b29fb_Revealbot]] |
 
 ## 摘要正文
 
