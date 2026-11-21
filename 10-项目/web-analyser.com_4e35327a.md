@@ -2,7 +2,7 @@
 type: "project"
 title: "I built platform that continuously analyses websites - looking for real sites to test on it"
 project_url: "https://web-analyser.com/request-an-audit"
-first_seen: "2026-11-20T10:04:58+08:00"
+first_seen: "2026-11-21T15:10:00+08:00"
 sources:
   - reddit
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://web-analyser.com/request-an-audit>
-> 首次收录：2026-11-20T10:04:58+08:00
+> 首次收录：2026-11-21T15:10:00+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/SideProject
 > 最新指标：得分=3 · 评论=13 · 赞踩比=1
@@ -70,6 +70,7 @@ lang: "en"
 | 2026-11-17T11:20:28+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=13 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/1de404b4ed78455a_I-built-platform-that-continuously-analyses-websit]] |
 | 2026-11-19T09:57:37+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=13 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/1de404b4ed78455a_I-built-platform-that-continuously-analyses-websit]] |
 | 2026-11-20T10:04:58+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=13 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/1de404b4ed78455a_I-built-platform-that-continuously-analyses-websit]] |
+| 2026-11-21T15:10:00+08:00 | Reddit 独立开发版块 | 得分=3 · 评论=13 · 赞踩比=1 | [[20-语料/posts/reddit/2026-09-21/1de404b4ed78455a_I-built-platform-that-continuously-analyses-websit]] |
 
 ## 摘要正文
 

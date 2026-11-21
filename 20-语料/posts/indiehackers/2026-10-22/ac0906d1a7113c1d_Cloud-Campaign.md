@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/cloud-campaign"
 project_url: "https://angel.co/company/cloudcampaign/jobs/898766-fullstack-software-engineer"
-captured_at: "2026-11-20T09:48:30+08:00"
+captured_at: "2026-11-21T14:49:25+08:00"
 lang: "en"
 kind: "project"
 topic: 开发者工具
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://angel.co/company/cloudcampaign/jobs/898766-fullstack-software-engineer>
-> 采集：2026-11-20T09:48:30+08:00　|　id：`ac0906d1a7113c1d`
+> 采集：2026-11-21T14:49:25+08:00　|　id：`ac0906d1a7113c1d`
 
 ## 正文
 
@@ -41,7 +41,7 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  Cloud Campaign
 Social media marketing software for digital agencies.
-$376k /mo
+$372k /mo
  ✓ Verified Last 30 days
 Product type Software
  What it does Social media & personal brand
@@ -209,10 +209,10 @@ Marketing H HubSpot
 Detected on cloudcampaign.com · Nov 8, 2026
  More like this
 Postiz Agentic social media scheduling tool
- $482k/mo ✓ Verified Juvios Social Media Marketing Agency
- $400k/mo browserless Headless browser automation for developers
- $306k/mo ✓ Verified Savvy Nomad Domicile service for American nomads
- $301k/mo ✓ Verified
+ $487k/mo ✓ Verified Juvios Social Media Marketing Agency
+ $400k/mo Savvy Nomad Domicile service for American nomads
+ $307k/mo ✓ Verified browserless Headless browser automation for developers
+ $302k/mo ✓ Verified
 Browse Products DB
  Part of the Cloud Campaign team? Verify yourself
 Stay informed as an indie hacker.

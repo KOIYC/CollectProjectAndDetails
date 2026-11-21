@@ -1,8 +1,8 @@
 {
- "run_id": "20261120T094550",
- "started_at": "2026-11-20T09:45:50+08:00",
- "ended_at": "2026-11-20T10:00:23+08:00",
- "elapsed_s": 873.3,
+ "run_id": "20261121T144454",
+ "started_at": "2026-11-21T14:44:54+08:00",
+ "ended_at": "2026-11-21T15:04:28+08:00",
+ "elapsed_s": 1173.1,
  "channels": [
   {
    "source_id": "hn_show",
@@ -10,7 +10,7 @@
    "status": "ok",
    "count": 40,
    "message": "40/40 hits | new=40 chg=0",
-   "elapsed_s": 49.0,
+   "elapsed_s": 87.4,
    "new": 40,
    "changed": 0,
    "raw": 40
@@ -19,22 +19,22 @@
    "source_id": "reddit",
    "name": "Reddit 独立开发版块",
    "status": "ok",
-   "count": 27,
-   "message": "27 posts;  | new=27 chg=0",
-   "elapsed_s": 89.3,
-   "new": 27,
+   "count": 18,
+   "message": "18 posts;  | new=18 chg=0",
+   "elapsed_s": 122.8,
+   "new": 18,
    "changed": 0,
-   "raw": 27
+   "raw": 18
   },
   {
    "source_id": "github_new",
    "name": "GitHub 新星仓库",
    "status": "ok",
    "count": 12,
-   "message": "28 repos;  | 写盘 10/12 | new=0 chg=10",
-   "elapsed_s": 10.3,
-   "new": 0,
-   "changed": 10,
+   "message": "28 repos;  | 写盘 10/12 | new=1 chg=9",
+   "elapsed_s": 31.1,
+   "new": 1,
+   "changed": 9,
    "raw": 12
   },
   {
@@ -42,10 +42,10 @@
    "name": "BetaList",
    "status": "ok",
    "count": 12,
-   "message": "12 startups · 发布日 12/12 | new=2 chg=10",
-   "elapsed_s": 9.3,
-   "new": 2,
-   "changed": 10,
+   "message": "12 startups · 发布日 12/12 | new=5 chg=7",
+   "elapsed_s": 24.8,
+   "new": 5,
+   "changed": 7,
    "raw": 12
   },
   {
@@ -54,7 +54,7 @@
    "status": "ok",
    "count": 20,
    "message": "23 products | new=3 chg=17",
-   "elapsed_s": 15.0,
+   "elapsed_s": 25.3,
    "new": 3,
    "changed": 17,
    "raw": 20
@@ -63,45 +63,45 @@
    "source_id": "devto",
    "name": "dev.to",
    "status": "ok",
-   "count": 4,
-   "message": "4 articles | 写盘 2/4 | new=0 chg=2",
-   "elapsed_s": 9.6,
+   "count": 3,
+   "message": "3 articles（1 路失败） | 写盘 0/3 | new=0 chg=0",
+   "elapsed_s": 318.5,
    "new": 0,
-   "changed": 2,
-   "raw": 4
+   "changed": 0,
+   "raw": 3
   },
   {
    "source_id": "producthunt",
    "name": "Product Hunt",
    "status": "ok",
    "count": 30,
-   "message": "30 entries | new=28 chg=2",
-   "elapsed_s": 5.8,
-   "new": 28,
-   "changed": 2,
+   "message": "30 entries | new=29 chg=1",
+   "elapsed_s": 5.9,
+   "new": 29,
+   "changed": 1,
    "raw": 30
   },
   {
    "source_id": "v2ex",
    "name": "V2EX",
    "status": "ok",
-   "count": 21,
-   "message": "85 topics | 写盘 8/21 | new=8 chg=0",
-   "elapsed_s": 26.1,
-   "new": 8,
+   "count": 22,
+   "message": "84 topics | 写盘 10/22 | new=10 chg=0",
+   "elapsed_s": 38.3,
+   "new": 10,
    "changed": 0,
-   "raw": 21
+   "raw": 22
   },
   {
    "source_id": "bilibili",
    "name": "B 站",
    "status": "ok",
-   "count": 7,
-   "message": "48 videos | new=0 chg=7",
-   "elapsed_s": 4.6,
-   "new": 0,
-   "changed": 7,
-   "raw": 7
+   "count": 10,
+   "message": "35 videos | new=2 chg=8",
+   "elapsed_s": 4.4,
+   "new": 2,
+   "changed": 8,
+   "raw": 10
   },
   {
    "source_id": "c1c7",
@@ -109,7 +109,7 @@
    "status": "ok",
    "count": 7,
    "message": "17 entries · 收录日 17 | 写盘 1/7 | new=0 chg=1",
-   "elapsed_s": 23.7,
+   "elapsed_s": 68.8,
    "new": 0,
    "changed": 1,
    "raw": 7
@@ -119,8 +119,8 @@
    "name": "X / Twitter",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 15s\nok: false\nerr | new=0 chg=0",
-   "elapsed_s": 41.0,
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 8s\nok: false\nerro | new=0 chg=0",
+   "elapsed_s": 42.0,
    "new": 0,
    "changed": 0,
    "raw": 0
@@ -130,19 +130,19 @@
    "name": "小红书",
    "status": "error",
    "count": 0,
-   "message": "全部请求失败：独立开发: [rate-limiter] xiaohongshu: sleeping 20s\nok: false\nerror:\n   | new=0 chg=0",
-   "elapsed_s": 184.2,
+   "message": "全部请求失败：独立开发者: [rate-limiter] xiaohongshu: sleeping 21s\nok: false\nerror:\n   | new=0 chg=0",
+   "elapsed_s": 130.0,
    "new": 0,
    "changed": 0,
    "raw": 0
   }
  ],
- "notes_written": 157,
+ "notes_written": 151,
  "errors": [],
- "total_items": 180,
+ "total_items": 174,
  "total_new": 108,
  "dry": false,
- "rule_dropped": 35,
+ "rule_dropped": 31,
  "write_errors": 0,
  "body_cache_pruned": 0,
  "finish_errors": []

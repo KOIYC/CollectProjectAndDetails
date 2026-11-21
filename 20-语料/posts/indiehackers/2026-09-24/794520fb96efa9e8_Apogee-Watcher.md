@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/apogee-watcher"
 project_url: "https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance"
-captured_at: "2026-11-19T09:45:52+08:00"
+captured_at: "2026-11-21T14:49:25+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://apogeewatcher.com/blog/when-to-use-synthetic-vs-real-user-monitoring-performance>
-> 采集：2026-11-19T09:45:52+08:00　|　id：`794520fb96efa9e8`
+> 采集：2026-11-21T14:49:25+08:00　|　id：`794520fb96efa9e8`
 
 ## 正文
 
@@ -61,9 +61,9 @@ Show more
 From the founder
  1 on Indie Hackers, 14 on X
  2026 15 posts
- IH IH post Core Web Vitals Benchmarks for Webflow Sites (2026 Data)
- Public Core Web Vitals tables for Webflow usually arrive as origin pass rates. HTTP Archive rebuilds of Chrome UX Report data for September 2026 put Webflow near 71% of mobile origins passing all three vitals, well above the all-web average. Agencies still get a different brief the same week: a CrUX
- Apogee Watcher · Nov 18
+ IH IH post Scaling Without Headcount
+ You win three retainers in a quarter. The portfolio goes from five hosts to twenty-five, and Friday still looks the same: PageSpeed Insights tabs, a spreadsheet export, and client emails drafted by hand. Nobody planned for monitoring to eat the week that used to go to optimisation work. Manual check
+ Apogee Watcher · Nov 20
  X X post Budget alerts include the URL, breached threshold, and latest run
  @apogeeis · Oct 24 Hide post View the post on X
 X X post Apogee Watcher targets agency portfolios; Calibre suits high-traffic owned sites
@@ -85,7 +85,7 @@ Plausible Analytics Simple, open-source alternative to Google Analytics
  $41.7k/mo Simple Analytics Simple, clean, and friendly analytics
  $35k/mo Blender Market The indie market for Blender creators
  $582k/mo ✓ Verified Postiz Agentic social media scheduling tool
- $474k/mo ✓ Verified
+ $487k/mo ✓ Verified
 Browse Products DB
  Part of the Apogee Watcher team? Verify yourself
 Stay informed as an indie hacker.

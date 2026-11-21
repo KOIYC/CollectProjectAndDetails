@@ -1,16 +1,16 @@
 {
- "generated": "2026-11-20T10:07:44+08:00",
- "n_items": 5384,
- "n_pages": 4410,
+ "generated": "2026-11-21T15:24:40+08:00",
+ "n_items": 5492,
+ "n_pages": 4498,
  "cross": 4,
- "stale": 3,
+ "stale": 17,
  "concept": 0,
  "xref": 30,
  "top_stale": [
   {
    "page": "10-项目/github.com_d1f34007.md",
    "last_obs": "2026-09-20",
-   "days": 61,
+   "days": 62,
    "phrases": [
     "敬请期待"
    ]
@@ -18,7 +18,7 @@
   {
    "page": "10-项目/rawhq.io_dc82cafd.md",
    "last_obs": "2026-09-20",
-   "days": 61,
+   "days": 62,
    "phrases": [
     "waitlist"
    ]
@@ -26,9 +26,65 @@
   {
    "page": "10-项目/v.redd.it_cb371a9d.md",
    "last_obs": "2026-09-20",
+   "days": 62,
+   "phrases": [
+    "early access"
+   ]
+  },
+  {
+   "page": "10-项目/8bitstartup.com_f7c21f10.md",
+   "last_obs": "2026-09-21",
+   "days": 61,
+   "phrases": [
+    "waitlist"
+   ]
+  },
+  {
+   "page": "10-项目/buildercentral.in_afae24be.md",
+   "last_obs": "2026-09-21",
+   "days": 61,
+   "phrases": [
+    "coming soon"
+   ]
+  },
+  {
+   "page": "10-项目/getbrifly.com_d9c887d2.md",
+   "last_obs": "2026-09-21",
    "days": 61,
    "phrases": [
     "early access"
+   ]
+  },
+  {
+   "page": "10-项目/getsyntux.com_add9a2e2.md",
+   "last_obs": "2026-09-21",
+   "days": 61,
+   "phrases": [
+    "coming soon"
+   ]
+  },
+  {
+   "page": "10-项目/github.com_e21b72e6.md",
+   "last_obs": "2026-09-21",
+   "days": 61,
+   "phrases": [
+    "coming soon"
+   ]
+  },
+  {
+   "page": "10-项目/humanforscale.app_4e9bed2b.md",
+   "last_obs": "2026-09-21",
+   "days": 61,
+   "phrases": [
+    "coming soon"
+   ]
+  },
+  {
+   "page": "10-项目/post.buzz_80356031.md",
+   "last_obs": "2026-09-21",
+   "days": 61,
+   "phrases": [
+    "coming soon"
    ]
   }
  ],

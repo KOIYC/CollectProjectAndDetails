@@ -5,7 +5,7 @@ title: "Manager Io"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/manager-io"
-captured_at: "2026-11-20T09:48:30+08:00"
+captured_at: "2026-11-21T14:49:25+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-20T09:48:30+08:00　|　id：`a8564bc718b8b381`
+> 采集：2026-11-21T14:49:25+08:00　|　id：`a8564bc718b8b381`
 
 ## 正文
 
@@ -40,7 +40,7 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  Manager.io
 Free Accounting Software
-$120k /mo
+$122k /mo
  ✓ Verified Last 30 days
 Product type Software
  What it does Accounting & bookkeeping
@@ -132,8 +132,8 @@ Homepage captures from the Wayback Machine
 Fynlo a lifetime free accounting software
  $800k/mo TrueRev Revenue Recognition and SaaS Metrics for SMBs
  $50k/mo Whaticket Multi-agent chat automation platform
- $424k/mo ✓ Verified Cloud Campaign Social media marketing software for digital agencies.
- $376k/mo ✓ Verified
+ $423k/mo ✓ Verified Cloud Campaign Social media marketing software for digital agencies.
+ $372k/mo ✓ Verified
 Browse Products DB
  Part of the Manager.io team? Verify yourself
 Stay informed as an indie hacker.

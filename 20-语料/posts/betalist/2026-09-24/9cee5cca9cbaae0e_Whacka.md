@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/whacka"
 published_at: "2026-04-03"
-captured_at: "2026-11-17T11:10:57+08:00"
+captured_at: "2026-11-21T14:49:06+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-04-03
 > 项目链接：—
-> 采集：2026-11-17T11:10:57+08:00　|　id：`9cee5cca9cbaae0e`
+> 采集：2026-11-21T14:49:06+08:00　|　id：`9cee5cca9cbaae0e`
 
 ## 正文
 
@@ -97,12 +97,15 @@ DubLab App
 Expand your audience with just 1 click
 Seedance 2.5
 Turn one prompt into a 30-second 4K video with sound
-Wilo
+Space
  Boosted
-AI clerk that helps shoppers find, compare, and choose products
-VCXplore
+ TestFlight
+Send files and text instantly using a six-character code
+Seedance 3.0
+Generate 30-second cinematic videos with synced dialogue and sound
+Jaah
  Boosted
-Find investors whose portfolios look like your company
+Delegate engineering work to AI agents with reviews, records, and rules
 Visit website
 Save
 quick-look#closed click->quick-look#closeOnBackdrop keydown->quick-look#keydown turbo:click->quick-look#leave turbo:frame-load->quick-look#loaded turbo:before-cache@document->quick-look#hide"

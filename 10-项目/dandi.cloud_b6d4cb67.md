@@ -2,7 +2,7 @@
 type: "project"
 title: "emarco177/dandi"
 project_url: "https://dandi.cloud/"
-first_seen: "2026-11-20T10:03:15+08:00"
+first_seen: "2026-11-21T15:06:21+08:00"
 sources:
   - github_new
 tags:
@@ -20,7 +20,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://dandi.cloud/>
-> 首次收录：2026-11-20T10:03:15+08:00
+> 首次收录：2026-11-21T15:06:21+08:00
 > 来源渠道：GitHub 新星仓库
 > 标签：TypeScript, topic:microsaas
 > 最新指标：stars=164 · forks=75 · open_issues=0
@@ -29,8 +29,6 @@ lang: "en"
 
 | 采集时间 | 渠道 | 指标 | 语料 |
 |---|---|---|---|
-| 2026-09-25T13:44:13+08:00 | GitHub 新星仓库 | stars=162 · forks=74 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/7bfb6e055c517164_emarco177-dandi]] |
-| 2026-09-25T13:54:34+08:00 | GitHub 新星仓库 | stars=162 · forks=74 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/7bfb6e055c517164_emarco177-dandi]] |
 | 2026-09-26T09:43:44+08:00 | GitHub 新星仓库 | stars=162 · forks=74 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/7bfb6e055c517164_emarco177-dandi]] |
 | 2026-09-26T10:00:28+08:00 | GitHub 新星仓库 | stars=162 · forks=74 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/7bfb6e055c517164_emarco177-dandi]] |
 | 2026-09-28T09:49:32+08:00 | GitHub 新星仓库 | stars=162 · forks=74 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/7bfb6e055c517164_emarco177-dandi]] |
@@ -89,6 +87,8 @@ lang: "en"
 | 2026-11-19T09:56:07+08:00 | GitHub 新星仓库 | stars=165 · forks=75 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/7bfb6e055c517164_emarco177-dandi]] |
 | 2026-11-20T09:48:15+08:00 | GitHub 新星仓库 | stars=164 · forks=75 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/7bfb6e055c517164_emarco177-dandi]] |
 | 2026-11-20T10:03:15+08:00 | GitHub 新星仓库 | stars=164 · forks=75 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/7bfb6e055c517164_emarco177-dandi]] |
+| 2026-11-21T14:48:39+08:00 | GitHub 新星仓库 | stars=164 · forks=75 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/7bfb6e055c517164_emarco177-dandi]] |
+| 2026-11-21T15:06:21+08:00 | GitHub 新星仓库 | stars=164 · forks=75 · open_issues=0 | [[20-语料/posts/github_new/2026-09-20/7bfb6e055c517164_emarco177-dandi]] |
 
 ## 摘要正文
 

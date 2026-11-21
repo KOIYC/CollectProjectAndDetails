@@ -1,0 +1,11 @@
+{
+  "at": "2026-11-21T14:59:54+08:00",
+  "kind": "corpus_rename",
+  "note": "条目改标题导致的语料页换名；旧页已清（git/raw 可回溯），链接已改写",
+  "renames": [
+    {
+      "from": "20-语料/posts/producthunt/2026-11-08/3a67e4fdf71c6d64_Instagram-Edits-for-Desktop.md",
+      "to": "20-语料/posts/producthunt/2026-11-08/3a67e4fdf71c6d64_Direct-by-Instagram.md"
+    }
+  ]
+}

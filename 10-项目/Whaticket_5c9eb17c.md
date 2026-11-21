@@ -2,7 +2,7 @@
 type: "project"
 title: "Whaticket"
 project_url: "https://www.indiehackers.com/product/whaticket"
-first_seen: "2026-11-20T09:48:30+08:00"
+first_seen: "2026-11-21T14:49:25+08:00"
 sources:
   - indiehackers
 tags:
@@ -18,7 +18,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://www.indiehackers.com/product/whaticket>
-> 首次收录：2026-11-20T09:48:30+08:00
+> 首次收录：2026-11-21T14:49:25+08:00
 > 来源渠道：Indie Hackers 产品库
 > 标签：—
 > 最新指标：—
@@ -46,7 +46,8 @@ lang: "en"
 | 2026-11-17T11:11:06+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/5c9eb17c37a39ffd_Whaticket]] |
 | 2026-11-19T09:45:52+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/5c9eb17c37a39ffd_Whaticket]] |
 | 2026-11-20T09:48:30+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/5c9eb17c37a39ffd_Whaticket]] |
+| 2026-11-21T14:49:25+08:00 | Indie Hackers 产品库 | — | [[20-语料/posts/indiehackers/2026-10-22/5c9eb17c37a39ffd_Whaticket]] |
 
 ## 摘要正文
 
-Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join Products DB Share Copied Retry Visit website  Whaticket Multi-agent chat automation platform $424k /mo  ✓ Verified Last 30 days Product type Software  What it does Help desk, live chat, & shared inbox ; CRM & pipeline ; AI support agents & chatbots  Who it’s for Businesses ( Small & local businesses )  Platforms Web · iPhone & iPad · Android  Business model Subscription  Founders 1  Started Mar 2022  Follow Visit whaticket.com Charts  12 months All time Revenue $438k in Oct Traffic rank Top 1M Revenue by month Oct 2025 $393k  Nov 2025 $426k  Dec 2025 $381k  Jan 2026 $409k  Feb 2026 $385k  Mar 2026 $420k  Apr 2026 $399k  May 2026 $425k  Jun 2026 $422k  Jul 2026 $411k  Aug 2026 $405k  Sep 2026 $408k  Oct 2026 $438k Stripe · verified · monthly revenue, not including the current month  The founders  1 founder  Bruna Olivera  Founder · @BruOlivera  linkedin.com/bruna-olivera Show more From the founder  1 post on Indie Hackers  2026 1 post  IH IH post · Their first about it Every connection counts  Telling the story of Whaticket is a challenge …
+Home Starting Up Case Studies DB Products Ideas DB Vibe Coding Tools Subscribe to IH+ Starting Up Case Studies  Ideas DB Products DB Sign in Join Products DB Share Copied Retry Visit website  Whaticket Multi-agent chat automation platform $423k /mo  ✓ Verified Last 30 days Product type Software  What it does Help desk, live chat, & shared inbox ; CRM & pipeline ; AI support agents & chatbots  Who it’s for Businesses ( Small & local businesses )  Platforms Web · iPhone & iPad · Android  Business model Subscription  Founders 1  Started Mar 2022  Follow Visit whaticket.com Charts  12 months All time Revenue $438k in Oct Traffic rank Top 1M Revenue by month Oct 2025 $393k  Nov 2025 $426k  Dec 2025 $381k  Jan 2026 $409k  Feb 2026 $385k  Mar 2026 $420k  Apr 2026 $399k  May 2026 $425k  Jun 2026 $422k  Jul 2026 $411k  Aug 2026 $405k  Sep 2026 $408k  Oct 2026 $438k Stripe · verified · monthly revenue, not including the current month  The founders  1 founder  Bruna Olivera  Founder · @BruOlivera  linkedin.com/bruna-olivera Show more From the founder  1 post on Indie Hackers  2026 1 post  IH IH post · Their first about it Every connection counts  Telling the story of Whaticket is a challenge …

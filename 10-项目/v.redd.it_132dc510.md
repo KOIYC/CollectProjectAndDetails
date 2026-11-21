@@ -2,7 +2,7 @@
 type: "project"
 title: "We may have gone too far with tiny details in Couch Planes"
 project_url: "https://v.redd.it/ackcqpz8ccyg1"
-first_seen: "2026-11-20T10:05:22+08:00"
+first_seen: "2026-11-21T15:10:26+08:00"
 sources:
   - reddit
 tags:
@@ -19,7 +19,7 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://v.redd.it/ackcqpz8ccyg1>
-> 首次收录：2026-11-20T10:05:22+08:00
+> 首次收录：2026-11-21T15:10:26+08:00
 > 来源渠道：Reddit 独立开发版块
 > 标签：r/indiedev
 > 最新指标：得分=71 · 评论=14 · 赞踩比=0.9900000095367432
@@ -66,6 +66,7 @@ lang: "en"
 | 2026-11-17T11:20:43+08:00 | Reddit 独立开发版块 | 得分=71 · 评论=14 · 赞踩比=0.9900000095367432 | [[20-语料/posts/reddit/2026-09-21/e17f916095f200c5_We-may-have-gone-too-far-with-tiny-details-in-Couc]] |
 | 2026-11-19T09:58:00+08:00 | Reddit 独立开发版块 | 得分=71 · 评论=14 · 赞踩比=0.9900000095367432 | [[20-语料/posts/reddit/2026-09-21/e17f916095f200c5_We-may-have-gone-too-far-with-tiny-details-in-Couc]] |
 | 2026-11-20T10:05:22+08:00 | Reddit 独立开发版块 | 得分=71 · 评论=14 · 赞踩比=0.9900000095367432 | [[20-语料/posts/reddit/2026-09-21/e17f916095f200c5_We-may-have-gone-too-far-with-tiny-details-in-Couc]] |
+| 2026-11-21T15:10:26+08:00 | Reddit 独立开发版块 | 得分=71 · 评论=14 · 赞踩比=0.9900000095367432 | [[20-语料/posts/reddit/2026-09-21/e17f916095f200c5_We-may-have-gone-too-far-with-tiny-details-in-Couc]] |
 
 ## 摘要正文
 

@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/pitchmonster"
 published_at: "2026-09-12"
-captured_at: "2026-11-16T10:02:46+08:00"
+captured_at: "2026-11-21T14:49:06+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-09-12
 > 项目链接：—
-> 采集：2026-11-16T10:02:46+08:00　|　id：`e6b755e855c8b356`
+> 采集：2026-11-21T14:49:06+08:00　|　id：`e6b755e855c8b356`
 
 ## 正文
 
@@ -92,30 +92,30 @@ Startups doing something similar, featured in the last two years
 FreeDAST
  SPONSOR
 Scan your live site for risks and get a clear security grade
+Sales Senpai
+An AI voice game to practice sales calls and improve your skills
 RepEdge.ai
 Analyze sales calls and coach reps with real-time AI insights
+Jaah
+ Boosted
+Delegate engineering work to AI agents with reviews, records, and rules
 TalkPilot
 Get live prompts and coaching while you speak, invisible to others
-aSERP
- Boosted
-Track how AI engines mention, cite, and recommend your brand
 PitchMit
 Win more Upwork jobs with AI that learns your winning patterns
 AvairAI
 AI agents book meetings while you close deals
+Structura
+ Boosted
+Publish 3 SEO-optimized blog posts a day, hands-off
 Pitch31.ai
 Turn your APIs into AI agents
-Intrawebix CRM
- Boosted
-One inbox for WhatsApp, Telegram, Instagram, email, and sales CRM
 AdPerch
 Find warm investor intros and track your raise with an AI agent
 implo.ai
 Buy ready-to-deploy AI prompts, workflows, agents, and templates
 Promu
 AI lead generation and cold email outreach for B2B teams
-Replivo AI
-Turn missed calls into booked meetings with instant AI SMS follow-ups
 Visit website
 Save
 quick-look#closed click->quick-look#closeOnBackdrop keydown->quick-look#keydown turbo:click->quick-look#leave turbo:frame-load->quick-look#loaded turbo:before-cache@document->quick-look#hide"

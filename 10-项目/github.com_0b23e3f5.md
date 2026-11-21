@@ -2,14 +2,14 @@
 type: "project"
 title: "huami1314/GestaltX"
 project_url: "https://github.com/huami1314/GestaltX"
-first_seen: "2026-11-20T10:03:15+08:00"
+first_seen: "2026-11-21T15:06:21+08:00"
 sources:
   - github_new
 tags:
   - 项目
   - github_new
   - Swift
-  - created:>2026-11-06
+  - created:>2026-11-07
 lang: "en"
 ---
 
@@ -20,10 +20,10 @@ lang: "en"
 
 > [!meta]- 项目信息（点开展开）
 > 项目链接：<https://github.com/huami1314/GestaltX>
-> 首次收录：2026-11-20T10:03:15+08:00
+> 首次收录：2026-11-21T15:06:21+08:00
 > 来源渠道：GitHub 新星仓库
-> 标签：Swift, created:>2026-11-06
-> 最新指标：stars=8543 · forks=2741 · open_issues=104
+> 标签：Swift, created:>2026-11-07
+> 最新指标：stars=8667 · forks=2747 · open_issues=107
 
 ## 观测历史
 
@@ -33,6 +33,8 @@ lang: "en"
 | 2026-11-19T09:56:08+08:00 | GitHub 新星仓库 | stars=8382 · forks=2727 · open_issues=101 | [[20-语料/posts/github_new/2026-11-19/0b23e3f58b348ca6_huami1314-GestaltX]] |
 | 2026-11-20T09:48:11+08:00 | GitHub 新星仓库 | stars=8543 · forks=2741 · open_issues=104 | [[20-语料/posts/github_new/2026-11-19/0b23e3f58b348ca6_huami1314-GestaltX]] |
 | 2026-11-20T10:03:15+08:00 | GitHub 新星仓库 | stars=8543 · forks=2741 · open_issues=104 | [[20-语料/posts/github_new/2026-11-19/0b23e3f58b348ca6_huami1314-GestaltX]] |
+| 2026-11-21T14:48:29+08:00 | GitHub 新星仓库 | stars=8667 · forks=2747 · open_issues=107 | [[20-语料/posts/github_new/2026-11-19/0b23e3f58b348ca6_huami1314-GestaltX]] |
+| 2026-11-21T15:06:21+08:00 | GitHub 新星仓库 | stars=8667 · forks=2747 · open_issues=107 | [[20-语料/posts/github_new/2026-11-19/0b23e3f58b348ca6_huami1314-GestaltX]] |
 
 ## 摘要正文
 

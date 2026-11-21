@@ -1,5 +1,5 @@
 {
- "checked_at": "2026-11-20T09:45:12+08:00",
+ "checked_at": "2026-11-21T14:44:23+08:00",
  "channels": [
   {
    "channel_id": "hn_show",
@@ -10,16 +10,16 @@
    "status": "ok",
    "count": 3,
    "message": "3/3 hits · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 0.9,
-   "probe_at": "2026-11-20T09:42:41+08:00",
+   "elapsed_s": 2.4,
+   "probe_at": "2026-11-21T14:40:59+08:00",
    "sample": [
     {
-     "title": "Show HN: erXos – a microkernel OS in Erlang based on Genera/Plan 9/QNX ideas",
-     "url": "https://news.ycombinator.com/item?id=50568169"
+     "title": "Show HN: Musset, open-source Scrivener alternative with an AI that never writes",
+     "url": "https://news.ycombinator.com/item?id=50586323"
     },
     {
-     "title": "Show HN: Tools4U – 54 file tools that run in the browser",
-     "url": "https://news.ycombinator.com/item?id=50567819"
+     "title": "Show HN: Factuio – A factory TUI game written in Rust",
+     "url": "https://news.ycombinator.com/item?id=50585876"
     }
    ]
   },
@@ -32,16 +32,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 posts;  · 探针保留全部 8 个 sub与原阈值（口径同采集）",
-   "elapsed_s": 23.0,
-   "probe_at": "2026-11-20T09:43:04+08:00",
+   "elapsed_s": 31.0,
+   "probe_at": "2026-11-21T14:41:30+08:00",
    "sample": [
     {
-     "title": "Marketing feels. I'm tired, boss.",
-     "url": "https://www.reddit.com/r/IndieDev/comments/1xs8tb2/marketing_feels_im_tired_boss/"
+     "title": "What a self-hosted dashboard looks like on 31.5 inches of colour e-ink",
+     "url": "https://www.reddit.com/r/selfhosted/comments/1xtaf06/what_a_selfhosted_dashboard_looks_like_on_315/"
     },
     {
-     "title": "I spent $6,000 and 7 months building an app. I have 4 paying customers. And some",
-     "url": "https://www.reddit.com/r/SaaS/comments/1xs8r3u/i_spent_6000_and_7_months_building_an_app_i_have/"
+     "title": "What cannot be self-hosted?",
+     "url": "https://www.reddit.com/r/selfhosted/comments/1xswfaz/what_cannot_be_selfhosted/"
     }
    ]
   },
@@ -54,8 +54,8 @@
    "status": "ok",
    "count": 3,
    "message": "3 repos;  · 探针保留完整列表参数与原阈值（口径同采集）",
-   "elapsed_s": 1.5,
-   "probe_at": "2026-11-20T09:43:06+08:00",
+   "elapsed_s": 2.3,
+   "probe_at": "2026-11-21T14:41:32+08:00",
    "sample": [
     {
      "title": "huami1314/GestaltX",
@@ -76,16 +76,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 startups · 发布日 3/3",
-   "elapsed_s": 3.2,
-   "probe_at": "2026-11-20T09:43:09+08:00",
+   "elapsed_s": 6.5,
+   "probe_at": "2026-11-21T14:41:39+08:00",
    "sample": [
     {
-     "title": "Liddie",
-     "url": "https://betalist.com/startups/liddie"
+     "title": "All My Ducks",
+     "url": "https://betalist.com/startups/all-my-ducks"
     },
     {
-     "title": "Taupia",
-     "url": "https://betalist.com/startups/taupia"
+     "title": "Pitchmonster",
+     "url": "https://betalist.com/startups/pitchmonster"
     }
    ]
   },
@@ -98,16 +98,16 @@
    "status": "ok",
    "count": 3,
    "message": "23 products",
-   "elapsed_s": 4.6,
-   "probe_at": "2026-11-20T09:43:14+08:00",
+   "elapsed_s": 9.1,
+   "probe_at": "2026-11-21T14:41:48+08:00",
    "sample": [
+    {
+     "title": "Apogee Watcher",
+     "url": "https://www.indiehackers.com/product/apogee-watcher"
+    },
     {
      "title": "Dailylaunch",
      "url": "https://www.indiehackers.com/product/dailylaunch"
-    },
-    {
-     "title": "Gettranscript",
-     "url": "https://www.indiehackers.com/product/gettranscript"
     }
    ]
   },
@@ -120,8 +120,8 @@
    "status": "ok",
    "count": 1,
    "message": "1 articles",
-   "elapsed_s": 0.9,
-   "probe_at": "2026-11-20T09:43:15+08:00",
+   "elapsed_s": 3.6,
+   "probe_at": "2026-11-21T14:41:51+08:00",
    "sample": [
     {
      "title": "Ghost Rovers: I Called 12 Machines NASA Left Behind. One Picked Up.",
@@ -138,16 +138,16 @@
    "status": "ok",
    "count": 3,
    "message": "3 entries",
-   "elapsed_s": 1.2,
-   "probe_at": "2026-11-20T09:43:16+08:00",
+   "elapsed_s": 1.5,
+   "probe_at": "2026-11-21T14:41:53+08:00",
    "sample": [
     {
-     "title": "Play That Back",
-     "url": "https://www.producthunt.com/products/play-that-back"
+     "title": "Same Moon",
+     "url": "https://www.producthunt.com/products/same-moon"
     },
     {
-     "title": "Impractical",
-     "url": "https://www.producthunt.com/products/impractical"
+     "title": "InteraOne",
+     "url": "https://www.producthunt.com/products/interaone"
     }
    ]
   },
@@ -160,16 +160,16 @@
    "status": "ok",
    "count": 3,
    "message": "20 topics",
-   "elapsed_s": 1.4,
-   "probe_at": "2026-11-20T09:43:17+08:00",
+   "elapsed_s": 1.2,
+   "probe_at": "2026-11-21T14:41:54+08:00",
    "sample": [
     {
-     "title": "remote 前端开发工程师（seo 方向）/高级全栈工程师（Web / Flutter / Go）/高级后端开发工程师",
-     "url": "https://www.v2ex.com/t/1258363"
+     "title": "[年度观察] 梳理了近两年 V2EX 独立开发者做的 20+ 款浏览器扩展，顺便聊聊插件出海与冷启动",
+     "url": "https://www.v2ex.com/t/1258701"
     },
     {
-     "title": "全栈高级工程师（Web / Flutter / Go），AI 全栈工程师(UTC-5 至 UTC+5 时区)",
-     "url": "https://www.v2ex.com/t/1258347"
+     "title": "开源一个 Agent 长期记忆系统：262k 多跳 48.3%，高于 CAR 论文报告的 41%",
+     "url": "https://www.v2ex.com/t/1258680"
     }
    ]
   },
@@ -181,17 +181,17 @@
    "group": "中文社媒",
    "status": "ok",
    "count": 3,
-   "message": "11 videos",
+   "message": "12 videos",
    "elapsed_s": 0.8,
-   "probe_at": "2026-11-20T09:43:18+08:00",
+   "probe_at": "2026-11-21T14:41:55+08:00",
    "sample": [
     {
      "title": "【视频播客】裁员潮下，互联网人该不该做独立开发？",
      "url": "https://www.bilibili.com/video/BV1wHWo6ZEun"
     },
     {
-     "title": "Vibe Coding 完不会获客？我用 AI 做了一个「营销数据库」！【B站AI创造公开赛】",
-     "url": "https://www.bilibili.com/video/BV1cVW86JE2e"
+     "title": "单平台 3 万粉，离职做独立开发喽～",
+     "url": "https://www.bilibili.com/video/BV1qvypzXEGT"
     }
    ]
   },
@@ -204,8 +204,8 @@
    "status": "ok",
    "count": 3,
    "message": "9 entries · 收录日 9",
-   "elapsed_s": 2.4,
-   "probe_at": "2026-11-20T09:43:20+08:00",
+   "elapsed_s": 8.4,
+   "probe_at": "2026-11-21T14:42:03+08:00",
    "sample": [
     {
      "title": "Indie Hacker",
@@ -226,16 +226,16 @@
    "status": "ok",
    "count": 3,
    "message": "8 results",
-   "elapsed_s": 5.0,
-   "probe_at": "2026-11-20T09:43:25+08:00",
+   "elapsed_s": 13.2,
+   "probe_at": "2026-11-21T14:42:16+08:00",
    "sample": [
     {
-     "title": "Play it now! – Mindlock – The Apartment",
-     "url": "https://mindlock.games/dev-log/play-it-now/"
+     "title": "ONE FENIX DOWN Hits Steam, a Turn-Based RPG With Vocals by Emi Evans | Scarlet M",
+     "url": "https://www.scarletmoonproductions.com/blog/one-fenix-down-hits-steam-a-turn-based-rpg-with-vocals-by-emi-evans/"
     },
     {
-     "title": "Keepsake County is OUT! - Keepsake County by Forward Instinct",
-     "url": "https://forwardinstinct.itch.io/keepsake-county/devlog/1791532/keepsake-county-is-out"
+     "title": "Blacksmith Master 1.0 out now on PC, 50% off for two weeks",
+     "url": "https://www.gamesfinity.com/news/blacksmith-master-1-0-out-now/"
     }
    ]
   },
@@ -247,9 +247,9 @@
    "group": "海外社媒",
    "status": "auth",
    "count": 0,
-   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 12s\nok: false\nerr",
-   "elapsed_s": 42.6,
-   "probe_at": "2026-11-20T09:44:08+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：build in public indie hacker: [rate-limiter] twitter: sleeping 14s\nok: false\nerr",
+   "elapsed_s": 39.3,
+   "probe_at": "2026-11-21T14:42:56+08:00",
    "sample": []
   },
   {
@@ -258,11 +258,11 @@
    "adapter": "opencli_social",
    "auth": "browser",
    "group": "中文社媒",
-   "status": "empty",
+   "status": "auth",
    "count": 0,
-   "message": "0 items（1 路查询）",
-   "elapsed_s": 34.9,
-   "probe_at": "2026-11-20T09:44:43+08:00",
+   "message": "需 OpenCLI 浏览器扩展/登录态：独立开发: [rate-limiter] xiaohongshu: sleeping 18s\nok: false\nerror:\n  ",
+   "elapsed_s": 36.0,
+   "probe_at": "2026-11-21T14:43:32+08:00",
    "sample": []
   }
  ],
@@ -271,11 +271,11 @@
    "backend": "jina_reader",
    "use": "通用网页正文",
    "status": "unusable",
-   "declared": "unverified",
+   "declared": "ready",
    "delta": false,
    "message": "ERR: <urlopen error timed out>",
-   "elapsed_s": 20.1,
-   "probe_at": "2026-11-20T09:45:04+08:00"
+   "elapsed_s": 40.1,
+   "probe_at": "2026-11-21T14:44:15+08:00"
   },
   {
    "backend": "arctic_shift",
@@ -284,8 +284,8 @@
    "declared": "not_added",
    "delta": false,
    "message": "5 rows",
-   "elapsed_s": 2.5,
-   "probe_at": "2026-11-20T09:45:07+08:00"
+   "elapsed_s": 2.7,
+   "probe_at": "2026-11-21T14:44:17+08:00"
   },
   {
    "backend": "exa_web_fetch",
@@ -294,26 +294,26 @@
    "declared": "warn",
    "delta": false,
    "message": "1 url 返回正文",
-   "elapsed_s": 3.5,
-   "probe_at": "2026-11-20T09:45:10+08:00"
+   "elapsed_s": 4.4,
+   "probe_at": "2026-11-21T14:44:22+08:00"
   },
   {
    "backend": "github_gh",
    "use": "GitHub 取数 (gh CLI)",
    "status": "ok",
-   "declared": "unverified",
+   "declared": "ready",
    "delta": false,
-   "message": "remaining=4996",
-   "elapsed_s": 1.6,
-   "probe_at": "2026-11-20T09:45:12+08:00"
+   "message": "remaining=5000",
+   "elapsed_s": 1.1,
+   "probe_at": "2026-11-21T14:44:23+08:00"
   }
  ],
  "summary": {
   "total": 13,
   "ok": 11,
-  "empty": 1,
+  "empty": 0,
   "error": 0,
-  "auth": 1
+  "auth": 2
  },
  "decisions": [
   {
@@ -378,13 +378,13 @@
   },
   {
    "channel_id": "xiaohongshu",
-   "action": "watch",
-   "status": "empty"
+   "action": "unlock",
+   "status": "auth"
   }
  ],
  "agent_reach": {
   "ok": true,
-  "checked_at": "2026-11-20T09:44:44+08:00",
+  "checked_at": "2026-11-21T14:43:35+08:00",
   "version": "1.6.0",
   "error": null,
   "platforms": 14

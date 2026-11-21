@@ -1,37 +1,37 @@
 {
-  "generated": "2026-11-20T10:20:56+08:00",
-  "n_live": 5266,
-  "n_usable": 4650,
-  "n_project": 4074,
-  "signals": 89,
+  "generated": "2026-11-21T15:20:07+08:00",
+  "n_live": 5374,
+  "n_usable": 4747,
+  "n_project": 4159,
+  "signals": 91,
   "topics": [
     [
       "AI 工具/Agent",
-      2865
+      2921
     ],
     [
       "开发者工具",
-      948
+      958
     ],
     [
       "未分类",
-      475
+      497
     ],
     [
       "游戏",
-      122
+      126
     ],
     [
       "移动 App",
-      89
+      90
     ],
     [
       "SaaS/B2B",
-      78
+      79
     ],
     [
       "内容/媒体",
-      27
+      29
     ],
     [
       "教育/学习",
@@ -39,7 +39,7 @@
     ],
     [
       "电商/独立站",
-      14
+      15
     ],
     [
       "健康/生活",
@@ -147,6 +147,19 @@
       }
     },
     {
+      "key": "host:v2ex.com",
+      "channels": [
+        "c1c7",
+        "v2ex"
+      ],
+      "n_channels": 2,
+      "title": "如果不上班了，你还能靠什么继续谋生！",
+      "url": "https://www.v2ex.com/t/1254971",
+      "metrics": {
+        "replies": 0
+      }
+    },
+    {
       "key": "host:chatgpt.com",
       "channels": [
         "devto",
@@ -216,10 +229,25 @@
         "comments": 11,
         "upvote_ratio": 1
       }
+    },
+    {
+      "key": "host:solocraft.app",
+      "channels": [
+        "hn_show",
+        "v2ex"
+      ],
+      "n_channels": 2,
+      "title": "Show HN: AbcTab – Native Swift 6 macOS ⌘-Tab Switcher Without Screen Recording",
+      "url": "https://solocraft.app/abctab",
+      "metrics": {
+        "points": 2,
+        "comments": 0,
+        "engagement_velocity": 2
+      }
     }
   ],
-  "money_signal_n": 1958,
-  "money_evidence_n": 705,
+  "money_signal_n": 1988,
+  "money_evidence_n": 717,
   "money_quotes": [
     {
       "source": "betalist",
@@ -295,47 +323,47 @@
     }
   ],
   "pain_n": {
-    "当前方案不好用": 154,
-    "在找替代品": 92,
-    "做不出来/卡住": 200,
-    "愿意付钱": 120,
-    "想要而找不到": 25
+    "当前方案不好用": 156,
+    "在找替代品": 94,
+    "做不出来/卡住": 202,
+    "愿意付钱": 124,
+    "想要而找不到": 26
   },
   "by_channel": [
     {
       "id": "betalist",
       "profile": "linkpost",
-      "n": 360,
-      "ok": 359,
-      "rate": 0.9972222222222222
+      "n": 365,
+      "ok": 364,
+      "rate": 0.9972602739726028
     },
     {
       "id": "producthunt",
       "profile": "linkpost",
-      "n": 841,
-      "ok": 834,
-      "rate": 0.9916765755053508
+      "n": 870,
+      "ok": 863,
+      "rate": 0.9919540229885058
     },
     {
       "id": "indiehackers",
       "profile": "linkpost",
-      "n": 198,
-      "ok": 196,
-      "rate": 0.98989898989899
+      "n": 201,
+      "ok": 199,
+      "rate": 0.9900497512437811
     },
     {
       "id": "hn_show",
       "profile": "discussion",
-      "n": 2347,
-      "ok": 2229,
-      "rate": 0.9497230507030251
+      "n": 2387,
+      "ok": 2268,
+      "rate": 0.9501466275659824
     },
     {
       "id": "bilibili",
       "profile": "metadata",
-      "n": 89,
-      "ok": 82,
-      "rate": 0.9213483146067416
+      "n": 91,
+      "ok": 84,
+      "rate": 0.9230769230769231
     },
     {
       "id": "exa_discovery",
@@ -354,30 +382,30 @@
     {
       "id": "v2ex",
       "profile": "discussion",
-      "n": 340,
-      "ok": 242,
-      "rate": 0.711764705882353
+      "n": 350,
+      "ok": 249,
+      "rate": 0.7114285714285714
     },
     {
       "id": "github_new",
       "profile": "project",
-      "n": 105,
-      "ok": 74,
-      "rate": 0.7047619047619048
+      "n": 106,
+      "ok": 75,
+      "rate": 0.7075471698113207
     },
     {
       "id": "reddit",
       "profile": "discussion",
-      "n": 890,
-      "ok": 559,
-      "rate": 0.6280898876404495
+      "n": 908,
+      "ok": 569,
+      "rate": 0.6266519823788547
     },
     {
       "id": "c1c7",
       "profile": "project",
       "n": 7,
-      "ok": 3,
-      "rate": 0.42857142857142855
+      "ok": 4,
+      "rate": 0.5714285714285714
     },
     {
       "id": "xiaohongshu",
@@ -387,5 +415,5 @@
       "rate": 0.0
     }
   ],
-  "body_median": 1515.0
+  "body_median": 1497
 }

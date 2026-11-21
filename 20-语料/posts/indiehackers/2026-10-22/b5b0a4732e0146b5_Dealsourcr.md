@@ -5,7 +5,7 @@ title: "Dealsourcr"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/dealsourcr"
-captured_at: "2026-11-20T09:48:30+08:00"
+captured_at: "2026-11-21T14:49:25+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-20T09:48:30+08:00　|　id：`b5b0a4732e0146b5`
+> 采集：2026-11-21T14:49:25+08:00　|　id：`b5b0a4732e0146b5`
 
 ## 正文
 
@@ -40,7 +40,7 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  Dealsourcr
 Helps UK investors find amazing property deals in seconds
-$74.4k /mo
+$75.6k /mo
  ✓ Verified Last 30 days
 Product type Software
  What it does Investing & trading ; Market, trend, & competitor research ; Calculators, converters, & timers
@@ -150,8 +150,8 @@ More like this
 Air Radar AI Trading Assistant
  $8k/mo Expert Investor Compare online investing sites.
  $5k/mo Blender Market The indie market for Blender creators
- $584k/mo ✓ Verified Postiz Agentic social media scheduling tool
- $482k/mo ✓ Verified
+ $582k/mo ✓ Verified Postiz Agentic social media scheduling tool
+ $487k/mo ✓ Verified
 Browse Products DB
  Part of the Dealsourcr team? Verify yourself
 Stay informed as an indie hacker.

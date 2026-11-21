@@ -7,7 +7,7 @@ adapter: "rss_atom"
 auth: "none"
 lang: "en"
 status: "ok"
-last_verified: "2026-11-20"
+last_verified: "2026-11-21"
 tags:
   - 渠道
   - 渠道/海外发布站
@@ -19,7 +19,7 @@ params: {"feed": "https://www.producthunt.com/feed"}
 - **分组**：海外发布站　|　**语言**：en　|　**认证**：none
 - **取数实现**：`rss_atom`　|　**单次上限**：30
 - **补全类型**：fulltext
-- **当前状态**：`ok`（本次 30 条，5.8s）
+- **当前状态**：`ok`（本次 30 条，5.9s）
 - **口径备注**：Atom feed 含 content html（完整介绍）；PH API 需 token，不依赖
 - **解锁方式**：—
 
@@ -27,7 +27,6 @@ params: {"feed": "https://www.producthunt.com/feed"}
 
 | 时间 | 状态 | 条数 | 耗时 | 消息 |
 |---|---|---|---|---|
-| 2026-09-21T01:30:47+08:00 | ok | 1 | 1.3s | 50 entries |
 | 2026-09-21T01:32:34+08:00 | ok | 0 | 1.3s | 50 entries |
 | 2026-09-21T01:34:49+08:00 | ok | 0 | 1.6s | 50 entries |
 | 2026-09-21T09:47:41+08:00 | ok | 30 | 1.4s | 30 entries |
@@ -67,3 +66,4 @@ params: {"feed": "https://www.producthunt.com/feed"}
 | 2026-11-17T11:11:32+08:00 | ok | 30 | 2.2s | 30 entries |
 | 2026-11-19T09:46:36+08:00 | ok | 30 | 6.2s | 30 entries |
 | 2026-11-20T09:48:59+08:00 | ok | 30 | 5.8s | 30 entries |
+| 2026-11-21T14:55:11+08:00 | ok | 30 | 5.9s | 30 entries |

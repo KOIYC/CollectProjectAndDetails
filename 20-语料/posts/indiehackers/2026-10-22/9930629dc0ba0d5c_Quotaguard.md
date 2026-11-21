@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/quotaguard"
 project_url: "https://quotaguard.baremetrics.com/"
-captured_at: "2026-11-20T09:48:30+08:00"
+captured_at: "2026-11-21T14:49:25+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://quotaguard.baremetrics.com/>
-> 采集：2026-11-20T09:48:30+08:00　|　id：`9930629dc0ba0d5c`
+> 采集：2026-11-21T14:49:25+08:00　|　id：`9930629dc0ba0d5c`
 
 ## 正文
 
@@ -41,7 +41,7 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  QuotaGuard
 Static IP Proxies for Cloud-based Apps
-$83.7k /mo
+$82.2k /mo
  ✓ Verified Last 30 days
 Product type Software
  What it does Databases & backend services
@@ -152,8 +152,8 @@ Detected on quotaguard.com · Nov 8, 2026
 NCache - In-Memory Distributed Cache Use NCache to remove Data related performance bottlenecks!
  $100k/mo 8base BaaS Platform and Development Service for Digital Products.
  $89k/mo Ghost Indie subscription platform for creators
- $832k/mo ✓ Verified Blender Market The indie market for Blender creators
- $584k/mo ✓ Verified
+ $831k/mo ✓ Verified Blender Market The indie market for Blender creators
+ $582k/mo ✓ Verified
 Browse Products DB
  Part of the QuotaGuard team? Verify yourself
 Stay informed as an indie hacker.

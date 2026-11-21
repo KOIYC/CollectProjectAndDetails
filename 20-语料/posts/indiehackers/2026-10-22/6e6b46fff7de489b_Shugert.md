@@ -6,7 +6,7 @@ source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/shugert"
 project_url: "https://storetwin.shugert.com.mx/"
-captured_at: "2026-11-20T09:48:30+08:00"
+captured_at: "2026-11-21T14:49:25+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -31,7 +31,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：<https://storetwin.shugert.com.mx/>
-> 采集：2026-11-20T09:48:30+08:00　|　id：`6e6b46fff7de489b`
+> 采集：2026-11-21T14:49:25+08:00　|　id：`6e6b46fff7de489b`
 
 ## 正文
 
@@ -41,7 +41,7 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  Shugert
 Shopify Select Partner for DTC brands doing $500K–$10M+
-$216k /mo
+$228k /mo
  ✓ Verified Last 30 days
 Product type Agency, Consulting
  What it does Apps & custom software ; Conversion & lead capture ; SEO & search ranking
@@ -100,8 +100,8 @@ Detected on shugert.com.mx · Nov 8, 2026
 Specialize Studio We do one thing. We do it one way. We do it in one month.
  $15k/mo Hyperblog AI Blog CMS - Built to Rank Higher and Convert Faster
  $5k/mo Whaticket Multi-agent chat automation platform
- $424k/mo ✓ Verified Cloud Campaign Social media marketing software for digital agencies.
- $376k/mo ✓ Verified
+ $423k/mo ✓ Verified Cloud Campaign Social media marketing software for digital agencies.
+ $372k/mo ✓ Verified
 Browse Products DB
  Part of the Shugert team? Verify yourself
 Stay informed as an indie hacker.

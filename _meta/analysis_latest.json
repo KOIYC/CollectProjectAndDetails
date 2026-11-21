@@ -1,11 +1,11 @@
 {
- "unique_items": 5384,
+ "unique_items": 5492,
  "no_url": 0,
  "round": {
-  "run_id": "20261120T094550",
-  "records": 180,
+  "run_id": "20261121T144454",
+  "records": 174,
   "new": 108,
-  "update": 49
+  "update": 43
  },
  "by_channel": {
   "apple_rss": {
@@ -25,15 +25,15 @@
    "partial": 0
   },
   "betalist": {
-   "n": 360,
-   "body": 360,
+   "n": 365,
+   "body": 365,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
    "platform_comments": 0,
    "trunc": 0,
-   "no_project_url": 351,
-   "no_author": 360,
+   "no_project_url": 355,
+   "no_author": 365,
    "profile": "linkpost",
    "err_body": 0,
    "err_comments": 0,
@@ -41,14 +41,14 @@
    "partial": 0
   },
   "bilibili": {
-   "n": 93,
+   "n": 95,
    "body": 50,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
    "platform_comments": 0,
    "trunc": 0,
-   "no_project_url": 74,
+   "no_project_url": 75,
    "no_author": 0,
    "profile": "metadata",
    "err_body": 0,
@@ -105,8 +105,8 @@
    "partial": 0
   },
   "github_new": {
-   "n": 126,
-   "body": 125,
+   "n": 127,
+   "body": 126,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
@@ -137,12 +137,12 @@
    "partial": 0
   },
   "hn_show": {
-   "n": 2347,
-   "body": 2289,
-   "with_comments": 936,
-   "expect_comments": 933,
-   "comments": 8077,
-   "platform_comments": 7907,
+   "n": 2387,
+   "body": 2328,
+   "with_comments": 947,
+   "expect_comments": 944,
+   "comments": 8119,
+   "platform_comments": 7949,
    "trunc": 0,
    "no_project_url": 55,
    "no_author": 0,
@@ -153,15 +153,15 @@
    "partial": 0
   },
   "indiehackers": {
-   "n": 198,
-   "body": 198,
+   "n": 201,
+   "body": 201,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
    "platform_comments": 0,
    "trunc": 0,
-   "no_project_url": 120,
-   "no_author": 198,
+   "no_project_url": 123,
+   "no_author": 201,
    "profile": "linkpost",
    "err_body": 0,
    "err_comments": 0,
@@ -185,14 +185,14 @@
    "partial": 0
   },
   "producthunt": {
-   "n": 841,
-   "body": 841,
+   "n": 870,
+   "body": 870,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
    "platform_comments": 0,
    "trunc": 0,
-   "no_project_url": 841,
+   "no_project_url": 870,
    "no_author": 0,
    "profile": "linkpost",
    "err_body": 0,
@@ -201,14 +201,14 @@
    "partial": 0
   },
   "reddit": {
-   "n": 894,
-   "body": 849,
-   "with_comments": 824,
-   "expect_comments": 851,
-   "comments": 17707,
-   "platform_comments": 18958,
+   "n": 912,
+   "body": 866,
+   "with_comments": 842,
+   "expect_comments": 869,
+   "comments": 18444,
+   "platform_comments": 19710,
    "trunc": 0,
-   "no_project_url": 554,
+   "no_project_url": 567,
    "no_author": 0,
    "profile": "discussion",
    "err_body": 0,
@@ -233,14 +233,14 @@
    "partial": 0
   },
   "v2ex": {
-   "n": 343,
-   "body": 343,
+   "n": 353,
+   "body": 353,
    "with_comments": 0,
    "expect_comments": 0,
    "comments": 0,
    "platform_comments": 0,
    "trunc": 0,
-   "no_project_url": 151,
+   "no_project_url": 154,
    "no_author": 0,
    "profile": "discussion",
    "err_body": 0,
@@ -268,15 +268,15 @@
  "body_missing": [
   [
    "hn_show",
-   58
+   59
   ],
   [
    "reddit",
-   45
+   46
   ],
   [
    "bilibili",
-   43
+   45
   ],
   [
    "apple_rss",
@@ -333,15 +333,15 @@
  "queue_age": {
   "n": 7,
   "with_ts": 7,
-  "oldest_days": 59,
+  "oldest_days": 60,
   "gt14": 5,
   "gt30": 5
  },
- "expected_absent": 61,
+ "expected_absent": 63,
  "expected_absent_by_channel": [
   [
    "bilibili",
-   43
+   45
   ],
   [
    "apple_rss",
@@ -371,7 +371,7 @@
     "indiehackers",
     "published_at"
    ],
-   198
+   201
   ],
   [
    [
@@ -395,15 +395,15 @@
    1
   ]
  ],
- "money_signal": 898,
+ "money_signal": 917,
  "lang": [
   [
    "en",
-   4913
+   5009
   ],
   [
    "zh",
-   471
+   483
   ]
  ]
 }

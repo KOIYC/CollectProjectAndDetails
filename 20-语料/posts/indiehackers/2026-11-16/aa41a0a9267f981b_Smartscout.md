@@ -5,7 +5,7 @@ title: "Smartscout"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/smartscout"
-captured_at: "2026-11-20T09:48:30+08:00"
+captured_at: "2026-11-21T14:49:25+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-20T09:48:30+08:00　|　id：`aa41a0a9267f981b`
+> 采集：2026-11-21T14:49:25+08:00　|　id：`aa41a0a9267f981b`
 
 ## 正文
 
@@ -40,7 +40,7 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  SmartScout
 Market Research and Opportunity Finder for Amazon
-$511k /mo
+$531k /mo
  ✓ Verified Last 30 days
 Product type Software
  What it does Product research & sourcing ; Market, trend, & competitor research
@@ -117,8 +117,8 @@ Detected on smartscout.com · Nov 14, 2026
 Shopdora The Professional Tool for Shopee Shop Analytics & Insights
  $25k/mo SellerCenter Free DropShipping Product Analysis Tools for Shopify
  $10k/mo Cloud Campaign Social media marketing software for digital agencies.
- $376k/mo ✓ Verified browserless Headless browser automation for developers
- $306k/mo ✓ Verified
+ $372k/mo ✓ Verified Savvy Nomad Domicile service for American nomads
+ $307k/mo ✓ Verified
 Browse Products DB
  Part of the SmartScout team? Verify yourself
 Stay informed as an indie hacker.

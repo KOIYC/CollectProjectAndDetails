@@ -8,7 +8,7 @@ url: "https://github.com/erkamyaman/rust-anything"
 project_url: "https://npmjs.com/package/rust-anything"
 author: "erkamyaman"
 published_at: "2026-11-16T12:10:36Z"
-captured_at: "2026-11-20T09:48:11+08:00"
+captured_at: "2026-11-21T15:06:21+08:00"
 lang: "en"
 kind: "post"
 topic: "AI 工具/Agent"
@@ -18,8 +18,8 @@ tags:
   - 语料
   - github_new
   - Rust
-  - created:>2026-11-06
-metrics: {"stars": 5255, "forks": 420, "open_issues": 1}
+  - created:>2026-11-07
+metrics: {"stars": 6845, "forks": 542, "open_issues": 2}
 comments_count: 0
 comments_total: 0
 discovered_via: "github:14d"
@@ -33,31 +33,30 @@ discovered_via: "github:14d"
 > [!meta]- 语料信息（点开展开）
 > 来源：GitHub 新星仓库（post）
 > 原帖：<https://github.com/erkamyaman/rust-anything>
-> 指标：stars=5255 · forks=420 · open_issues=1
+> 指标：stars=6845 · forks=542 · open_issues=2
 > 作者：erkamyaman　|　发布：2026-11-16T12:10:36Z
 > 项目链接：<https://npmjs.com/package/rust-anything>
-> 采集：2026-11-20T09:48:11+08:00　|　id：`8129f68e260304e7`
+> 采集：2026-11-21T15:06:21+08:00　|　id：`8129f68e260304e7`
 
 ## 正文
 
 rust-anything
 
+English · Türkçe · Українська · 简体中文 · 繁體中文 · Deutsch · Français · Русский · 日本語 · 한국어 · Azərbaycanca · Oʻzbekcha · Қазақша · Кыргызча · Türkmençe · Татарча · ئۇيغۇرچە · Português · Tiếng Việt
+
 Rewrite your app in Rust, and prove it still behaves the same.
+Point it at your app: it records what the original does, your coding agent writes the Rust one piece at a time,
+and every piece is checked against that recording before it moves on. It doesn't translate code; it proves the rewrite.
+
+Install · Releases · Claude Code plugin · MCP Registry · Real-world ports · FAQ
+Languages · How it works · Whole apps · Sponsors · MIT
+Made in Türkiye 🇹🇷 by erKam Yaman · ❤️ Sponsor me · Sponsored by  CodeRabbit
 
 New in 2.0: Prettier, ported to Rust. 19x faster · 15,837 of 17,224 recorded runs fully in Rust · every run byte-identical
 
-  Quick start ·
-  Languages ·
-  Real-world ports ·
-  How it works ·
-  Whole apps ·
-  FAQ
+  Prettier against its Rust port on 59 real files from ms, Fuse.js and json-server (Apple M4). Same output, byte for byte. How it was measured.
 
-Made in Türkiye 🇹🇷 by erKam Yaman · MIT · ❤️ Sponsor me
-
-Sponsored by  CodeRabbit
-
-English · Türkçe · Українська · 简体中文 · 繁體中文 · Deutsch · Français · Русский · 日本語 · 한국어 · Azərbaycanca · Oʻzbekcha · Қазақша · Кыргызча · Türkmençe · Татарча · ئۇيغۇرچە · Português · Tiếng Việt
+PHP and C#: record, replay and the front door today; unit ports come next.
 
       Record
       record runs the original on generated edge cases, semantic traps and your own inputs, and saves what it returns or throws.
@@ -74,7 +73,10 @@ English · Türkçe · Українська · 简体中文 · 繁體中文 · D
 **Rewrite your whole app in Rust, one piece at a time.** rust-anything records what your
 Node.js (TypeScript/JavaScript), Python, C, Go, Ruby, Java or Kotlin app does today, then checks every piece of the
 Rust rewrite against that recording before it moves on, until the app is pure Rust. CLIs, HTTP
-servers and libraries; your coding agent (or you) writes the Rust. It can only catch what the
+servers and libraries; your coding agent (or you) writes the Rust. It is built on
+[napi-rs](https://github.com/napi-rs/napi-rs), [PyO3](https://github.com/PyO3/pyo3) and
+[wasm-bindgen](https://github.com/wasm-bindgen/wasm-bindgen), which carry the calls between your
+language and Rust; rust-anything decides what to move and proves it matches. It can only catch what the
 recording covers: see [What it can't catch](docs/how-it-works.md#what-it-cant-catch). Whole tools
 and servers, or only the slow part, one hot path at a time:
 
@@ -91,9 +93,10 @@ TypeScript, JSX, JSON, GraphQL, YAML, Markdown, CSS, SCSS, Less), and all 17,224
 byte for byte, since anything not ported yet falls back to Prettier. json-server: 514/514
 recorded HTTP cases match on a pure Rust binary. Measured on an Apple M4, two runs each, every
 output compared before timing ([details](docs/real-world.md)). Calling Rust once per small
-function is usually *slower* than a JIT; rust-anything finds the loop worth moving, and moves it.
-
-  Prettier against its Rust port on 59 real files from ms, Fuse.js and json-server (Apple M4). Same output, byte for byte. How it was measured.
+function is usually *slower* than a JIT; rust-anything finds the loop worth moving, and moves it. Against
+C the win is safety, not speed: [ffmpeg's libavutil](docs/real-world.md#ffmpeg) ported to Rust
+matches all 226,447 recorded calls and runs at about C's speed (18 of 42 benchmarks even, 8
+faster, 16 slower by 3 to 40%).
 
   json-server, a whole Node server, lifted to a pure Rust binary (Apple M4). How it was measured.
 
@@ -154,7 +157,7 @@ Then ask your agent, for example:
 | OpenCode | MCP server in `~/.config/opencode/opencode.json` (`mcp.servers`), skill in `~/.config/opencode/skills/` |
 | Any other MCP client | add `rust-anything mcp` as a stdio server by hand (see [Install](docs/install.md#install)) |
 
-Before changing a file that exists, `setup` saves a copy beside it (`<file>.rust-anything.bak`).
+Before changing a file that exists, `setup` saves a copy beside it (`<file>.rust-anything.bak`); `--no-backup` skips the copy.
 
 To wire OpenCode up by hand, put the server in `~/.config/opencode/opencode.json` (`command` is
 the whole argv) and copy [`skills/rust-anything/`](./skills/rust-anything) to
@@ -178,6 +181,7 @@ rust-anything bridge . src/fuzzy.ts --batch fuzzyScore:text
 # write src/port.rs (or let your agent), then:
 rust-anything record rust/fuzzy-rs && rust-anything build rust/fuzzy-rs
 rust-anything diff rust/fuzzy-rs                       # every recorded case must match
+rust-anything fuzz rust/fuzzy-rs --time 60 --keep      # fresh inputs: what the recording missed
 rust-anything bench rust/fuzzy-rs                      # faster? the verdict says
 rust-anything gate rust/fuzzy-rs                       # done means this passes
 ```
@@ -247,6 +251,7 @@ comes next.
 ## Learn more
 
 - [How it works](docs/how-it-works.md): the loop, what `bridge` and `analyze` decide, hot paths, what it can't catch, what a real port takes, and keeping up with the original (`map`)
+- [Ship a port as a package](docs/packaging.md): maturin wheels and napi-rs per-platform npm packages, with the CI that builds them
 - [Port a whole app](docs/whole-apps.md): servers, CLIs and libraries, from the front door to `app lift`
 - [Examples and case studies](docs/examples.md): x18n, and real code in six languages
 - [Real-world ports](docs/real-world.md): json-server, Fuse.js, vercel/ms, with benchmarks
@@ -273,22 +278,30 @@ security problems privately ([SECURITY.md](./SECURITY.md)), and see the
 ## 关联链接
 
 - https://awesome.re/mentioned-badge.svg
-- https://coderabbit.ai
+- https://buymeacoffee.com/erkamyaman
+- https://coderabbit.link/erkamyaman
 - https://crates.io/crates/rust-anything
 - https://github.com/AIshihzong/awesome-reverse-engineer-anything
+- https://github.com/PyO3/pyo3
 - https://github.com/erkamyaman
-- https://github.com/erkamyaman/rust-anything/actions/workflows/ci.yml
+- https://github.com/erkamyaman/rust-anything/discussions/127
 - https://github.com/erkamyaman/rust-anything/issues/2
 - https://github.com/erkamyaman/rust-anything/releases
+- https://github.com/napi-rs/napi-rs
 - https://github.com/rust-unofficial/awesome-rust#development-tools
 - https://github.com/sponsors/erkamyaman
+- https://github.com/wasm-bindgen/wasm-bindgen
 - https://img.shields.io/badge/Become_a_sponsor-%E2%9D%A4-db61a2?style=for-the-badge&logo=githubsponsors&logoColor=white
+- https://img.shields.io/badge/Buy_me_a_coffee-%E2%98%95-FFDD00?style=for-the-badge&logo=buymeacoffee&logoColor=black
 - https://img.shields.io/badge/Featured%20in-Awesome%20REA-f0b429
+- https://img.shields.io/badge/Join%20the%20discussion-6E40C9?style=for-the-badge&logo=github&logoColor=white
+- https://img.shields.io/badge/license-MIT-555
+- https://img.shields.io/badge/macOS%20·%20Linux%20·%20Windows-native-2563EB
+- https://img.shields.io/coderabbit/prs/github/erkamyaman/rust-anything?labelColor=171717&color=FF570A&label=Reviewed+by+CodeRabbit
 - https://img.shields.io/crates/v/rust-anything?color=E2862A&label=crates.io
-- https://img.shields.io/github/actions/workflow/status/erkamyaman/rust-anything/ci.yml?branch=main&label=tests
+- https://img.shields.io/github/languages/top/erkamyaman/rust-anything?logo=rust&label=Rust&color=CE422B
 - https://img.shields.io/github/stars/erkamyaman/rust-anything?style=social
 - https://img.shields.io/npm/v/rust-anything?color=E2862A&label=npm
-- https://www.npmjs.com/package/rust-anything
 
 ## 导航
 

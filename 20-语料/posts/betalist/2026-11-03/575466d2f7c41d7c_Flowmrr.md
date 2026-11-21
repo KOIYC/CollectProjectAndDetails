@@ -6,7 +6,7 @@ source: "betalist"
 source_name: "BetaList"
 url: "https://betalist.com/startups/flowmrr"
 published_at: "2026-11-02"
-captured_at: "2026-11-20T09:48:22+08:00"
+captured_at: "2026-11-21T14:49:06+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -32,7 +32,7 @@ discovered_via: "betalist:home"
 > 指标：—
 > 作者：—　|　发布：2026-11-02
 > 项目链接：—
-> 采集：2026-11-20T09:48:22+08:00　|　id：`575466d2f7c41d7c`
+> 采集：2026-11-21T14:49:06+08:00　|　id：`575466d2f7c41d7c`
 
 ## 正文
 
@@ -96,18 +96,18 @@ FlowMarket
 Let AI agents discover, match, and engage to drive B2B deals
 Flowmark
 Brand, mask, compress, and transcribe media inside Telegram and MAX
-Structura
+Aria
  Boosted
-Publish 3 SEO-optimized blog posts a day, hands-off
+Free color analysis and honest verdicts before you buy
 Scratch Frameworks
 Spot at-risk customers early and turn friction points into revenue growth
 Flownally
 eComm automation to turn conversations into sales and repeat purchases
 Impause
 Budgeting made easier with behavioral science
-Commune
+Searcherries
  Boosted
-A shared home for builders to launch, connect, and grow
+AI SEO platform integrating AI visibility and SEO data into your AI agent
 Flow AI
 Generate 4K text-to-video content in the browser
 CustomerOS

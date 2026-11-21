@@ -1,0 +1,138 @@
+---
+type: "corpus"
+item_id: "e79c0079a4de35ab"
+title: "All My Ducks"
+source: "betalist"
+source_name: "BetaList"
+url: "https://betalist.com/startups/all-my-ducks"
+published_at: "2026-11-21"
+captured_at: "2026-11-21T14:49:06+08:00"
+lang: "en"
+kind: "project"
+topic: "AI 工具/Agent"
+shard: "2026-11-21"
+pub_day: "2026-11-21"
+tags:
+  - 语料
+  - betalist
+metrics: {}
+comments_count: 0
+comments_total: 0
+discovered_via: "betalist:home"
+---
+
+# All My Ducks
+
+> [!info] 一句话导读
+> Search startups and topics
+
+> [!meta]- 语料信息（点开展开）
+> 来源：BetaList（project）
+> 原帖：<https://betalist.com/startups/all-my-ducks>
+> 指标：—
+> 作者：—　|　发布：2026-11-21
+> 项目链接：—
+> 采集：2026-11-21T14:49:06+08:00　|　id：`e79c0079a4de35ab`
+
+## 正文
+
+BetaList
+Search startups and topics
+/
+Browse topics
+ Newsletter
+ iPhone app
+Help
+ Advertise
+ Refer a friend
+ Affiliates
+Startup Jobs
+ Vision Pro apps
+ Room AI
+theme#toggle"
+ class="flex size-9 items-center justify-center rounded-full text-gray-500 transition-colors hover:bg-gray-100 hover:text-gray-900 dark:text-gray-400 dark:hover:bg-gray-800 dark:hover:text-white"
+ title="Toggle theme"
+ aria-label="Toggle theme"
+ >
+Log in
+Submit Startup
+Home
+ Search
+ Browse topics
+ Newsletter
+ iPhone app
+Help
+ Advertise
+ Refer a friend
+ Affiliates
+All My Ducks
+Keep todos and shared promises organized across home and work
+Visit website
+Save
+ Saved
+All My Ducks organizes your personal, home, and work todos alongside promises you make with others. You type tasks the way you say them, and it parses dates and times. It groups work by projects, steps, and descriptions with calendar views and a focus timer. You can share asks and commitments so both sides see what, for whom, and by when, propose new dates, and track completion. It supports multiple workspaces and integrates with AI agents, calendars, APIs, and webhooks.
+Makers
+Ed Eliot
+Topics
+📋 Task Management
+👥 Collaboration
+✅ Personal Productivity
+📋 Work Management
+📅 Calendar Integration
+Platforms
+🔗 API
+Featured
+ November 21, 2026
+Request changes
+Edit makers
+Boost this startup
+Get your badge
+Report this startup
+ Manage collections
+More like All My Ducks
+Startups doing something similar, featured in the last two years
+FreeDAST
+ SPONSOR
+Scan your live site for risks and get a clear security grade
+tudu
+Turn messy thoughts into organized tasks just by writing them down
+Anchorlight
+Focus your days on what matters, not distractions
+VCXplore
+ Boosted
+Find investors whose portfolios look like your company
+Anything.so
+Catch tasks early. Delegate instantly. Your AI + human assistant.
+Todoless
+AI-native, privacy-first task management that understands natural typing
+The Place
+Unify email, calendar, tasks, and goals in one focused workspace
+BrandPush.co
+ Boosted
+Get your startup published on news sites trusted by Google and ChatGPT
+Nodask
+Don’t list it. Map it. Visual task flow that actually makes sense
+Tasqs
+Manage tasks with built-in AI to plan, prioritize, organize, and complete
+Unifyi.app
+A unified workspace designed to turn your team conversations into actions
+OMNEX
+Unify email, chat, projects, and docs into one operating layer
+Visit website
+Save
+quick-look#closed click->quick-look#closeOnBackdrop keydown->quick-look#keydown turbo:click->quick-look#leave turbo:frame-load->quick-look#loaded turbo:before-cache@document->quick-look#hide"
+ class="slide-over fixed inset-y-3 right-3 left-auto m-0 h-auto max-h-none w-[520px] max-w-[calc(100vw-1.5rem)] overflow-y-auto overscroll-contain rounded-3xl bg-white p-0 text-gray-900 shadow-2xl outline-none ring-1 ring-gray-900/10 backdrop:bg-gray-950/30 backdrop:backdrop-blur-[2px] dark:bg-gray-950 dark:text-gray-100 dark:ring-white/10 dark:backdrop:bg-black/60">
+↑
+ ↓
+ to browse
+Open page
+auth-dialog#closeOnBackdrop close->auth-dialog#reset turbo:before-cache@document->auth-dialog#close"
+ aria-label="Log in or sign up"
+ class="pop-in m-auto w-[min(26rem,calc(100vw-2rem))] max-h-[calc(100dvh-2rem)] rounded-3xl bg-white text-gray-900 shadow-2xl ring-1 ring-gray-900/10 p-0 outline-none backdrop:bg-gray-950/30 backdrop:backdrop-blur-[2px] dark:bg-gray-950 dark:text-gray-100 dark:ring-white/10 dark:backdrop:bg-black/60">
+
+## 导航
+
+- 项目页：[[10-项目/All-My-Ducks_e79c0079]]
+- 渠道页：[[50-渠道/betalist]]
+- 赛道：`AI 工具/Agent`（见 [[浏览]] 的「按赛道」视图）
+- 同渠道/同赛道批量浏览：[[浏览]]

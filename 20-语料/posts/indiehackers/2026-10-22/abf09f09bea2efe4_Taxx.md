@@ -5,7 +5,7 @@ title: "Taxx"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/taxx"
-captured_at: "2026-11-20T09:48:30+08:00"
+captured_at: "2026-11-21T14:49:25+08:00"
 lang: "en"
 kind: "project"
 topic: "开发者工具"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-20T09:48:30+08:00　|　id：`abf09f09bea2efe4`
+> 采集：2026-11-21T14:49:25+08:00　|　id：`abf09f09bea2efe4`
 
 ## 正文
 
@@ -40,7 +40,7 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  TAXX
 Luxembourgish income tax statement made easy
-$183k /mo
+$184k /mo
  ✓ Verified Last 30 days
 Product type Software, Service
  What it does Tax
@@ -177,8 +177,8 @@ Detected on taxx.lu · Nov 8, 2026
 Quaderno Tax automation for Internet businesses
  $103k/mo Nationly Foreign Earned Income Exclusion Tracking App Nationly
  $5k/mo Ghost Indie subscription platform for creators
- $832k/mo ✓ Verified Blender Market The indie market for Blender creators
- $584k/mo ✓ Verified
+ $831k/mo ✓ Verified Blender Market The indie market for Blender creators
+ $582k/mo ✓ Verified
 Browse Products DB
  Part of the TAXX team? Verify yourself
 Stay informed as an indie hacker.

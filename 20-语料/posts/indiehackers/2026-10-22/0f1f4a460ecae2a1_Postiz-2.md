@@ -5,7 +5,7 @@ title: "Postiz 2"
 source: "indiehackers"
 source_name: "Indie Hackers 产品库"
 url: "https://www.indiehackers.com/product/postiz-2"
-captured_at: "2026-11-20T09:48:30+08:00"
+captured_at: "2026-11-21T14:49:25+08:00"
 lang: "en"
 kind: "project"
 topic: "AI 工具/Agent"
@@ -30,7 +30,7 @@ discovered_via: "ih:products"
 > 指标：—
 > 作者：—　|　发布：—
 > 项目链接：—
-> 采集：2026-11-20T09:48:30+08:00　|　id：`0f1f4a460ecae2a1`
+> 采集：2026-11-21T14:49:25+08:00　|　id：`0f1f4a460ecae2a1`
 
 ## 正文
 
@@ -40,7 +40,7 @@ Starting Up Case Studies
 Products DB Share Copied Retry Visit website
  Postiz
 Agentic social media scheduling tool
-$482k /mo
+$487k /mo
  ✓ Verified Last 30 days
 Product type Software
  What it does Social media & personal brand
@@ -130,9 +130,9 @@ Detected on postiz.com · Nov 8, 2026
  More like this
 Juvios Social Media Marketing Agency
  $400k/mo Cloud Campaign Social media marketing software for digital agencies.
- $376k/mo ✓ Verified browserless Headless browser automation for developers
- $306k/mo ✓ Verified Savvy Nomad Domicile service for American nomads
- $301k/mo ✓ Verified
+ $372k/mo ✓ Verified Savvy Nomad Domicile service for American nomads
+ $307k/mo ✓ Verified browserless Headless browser automation for developers
+ $302k/mo ✓ Verified
 Browse Products DB
  Part of the Postiz team? Verify yourself
 Stay informed as an indie hacker.
